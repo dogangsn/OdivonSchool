@@ -1,0 +1,137 @@
+<div class="admin-container container animate-fade-in">
+  <!-- Admin Header Bar -->
+  <div class="admin-header">
+    <div class="header-left">
+      <div class="admin-badge">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+        </svg>
+        <span>Yönetici Paneli</span>
+      </div>
+      <h1 class="admin-title">Genel Bakış &amp; Sistem İstatistikleri</h1>
+      <p class="admin-subtitle">Platform performansı, kullanıcı büyümesi ve AI soru havuzu durumu.</p>
+    </div>
+
+    <!-- Admin Navigation Links -->
+    <div class="admin-nav-tabs">
+      <a routerLink="/y0n3t1m-9f3a2/genel-bakis" class="admin-tab active">Genel Bakış</a>
+      <a routerLink="/y0n3t1m-9f3a2/aboneler" class="admin-tab">Aboneler</a>
+      <a routerLink="/y0n3t1m-9f3a2/sorular" class="admin-tab">AI Soru Havuzu</a>
+    </div>
+  </div>
+
+  <!-- Metric Stats Grid -->
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-header">
+        <span class="label">Toplam Kullanıcı</span>
+        <div class="stat-icon icon-indigo">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+          </svg>
+        </div>
+      </div>
+      <span class="value">{{ totalUsers() }}</span>
+      <span class="stat-desc">Kayıtlı öğrenci hesabı</span>
+    </div>
+
+    <div class="stat-card">
+      <div class="stat-header">
+        <span class="label">Aktif Abone</span>
+        <div class="stat-icon icon-emerald">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect width="20" height="14" x="2" y="5" rx="2"/>
+            <line x1="2" y1="10" x2="22" y2="10"/>
+          </svg>
+        </div>
+      </div>
+      <span class="value">{{ totalSubscribers() }}</span>
+      <span class="stat-desc">Premium üyelikler</span>
+    </div>
+
+    <div class="stat-card">
+      <div class="stat-header">
+        <span class="label">Çözülen Test</span>
+        <div class="stat-icon icon-sky">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <polyline points="14 2 14 8 20 8"/>
+            <line x1="16" y1="13" x2="8" y2="13"/>
+            <line x1="16" y1="17" x2="8" y2="17"/>
+            <polyline points="10 9 9 9 8 9"/>
+          </svg>
+        </div>
+      </div>
+      <span class="value">{{ totalAttempts() }}</span>
+      <span class="stat-desc">Tamamlanan test oturumu</span>
+    </div>
+
+    <div class="stat-card">
+      <div class="stat-header">
+        <span class="label">Ortalama Başarı</span>
+        <div class="stat-icon icon-purple">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+            <polyline points="17 6 23 6 23 12"/>
+          </svg>
+        </div>
+      </div>
+      <span class="value">%{{ overallSuccessRate() }}</span>
+      <span class="stat-desc">Tüm öğrenciler ortalaması</span>
+    </div>
+  </div>
+
+  <!-- Quick Admin Action Cards -->
+  <div class="hub-cards-grid">
+    <div class="hub-card card card-hover">
+      <div class="hub-icon bg-indigo">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+          <circle cx="9" cy="7" r="4"/>
+          <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+          <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+        </svg>
+      </div>
+      <div class="hub-info">
+        <h3>Aboneler ve Kullanıcılar</h3>
+        <p>Tüm kayıtlı kullanıcıları arayın, abonelik durumlarını inceleyin ve detaylı profillerine göz atın.</p>
+        <a routerLink="/y0n3t1m-9f3a2/aboneler" class="btn outline sm">
+          <span>Kullanıcı Listesine Git</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14"/>
+            <path d="m12 5 7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hub-card card card-hover">
+      <div class="hub-icon bg-purple">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2v4"/>
+          <path d="m4.93 4.93 2.83 2.83"/>
+          <path d="M2 12h4"/>
+          <path d="m4.93 19.07 2.83-2.83"/>
+          <path d="M12 22v-4"/>
+          <path d="m19.07 19.07-2.83-2.83"/>
+          <path d="M22 12h-4"/>
+          <path d="m19.07 4.93-2.83 2.83"/>
+        </svg>
+      </div>
+      <div class="hub-info">
+        <h3>AI Soru Üretimi &amp; Onay Havuzu</h3>
+        <p>Google Gemini AI modeliyle yeni müfredat soruları oluşturun, onay bekleyen taslakları inceleyin ve yayınlayın.</p>
+        <a routerLink="/y0n3t1m-9f3a2/sorular" class="btn primary sm">
+          <span>Soru Üret &amp; Onayla</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14"/>
+            <path d="m12 5 7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,135 @@
+<div class="admin-page container animate-fade-in">
+  <!-- Top Breadcrumb & Return -->
+  <div class="detail-top-nav">
+    <a routerLink="/y0n3t1m-9f3a2/aboneler" class="back-link">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m15 18-6-6 6-6"/>
+      </svg>
+      <span>Tüm Abonelere Dön</span>
+    </a>
+  </div>
+
+  @if (user(); as u) {
+    <!-- User Profile Header Card -->
+    <div class="profile-hero card">
+      <div class="profile-avatar">
+        {{ (u.displayName || u.email || 'U').charAt(0).toUpperCase() }}
+      </div>
+
+      <div class="profile-main-info">
+        <div class="name-row">
+          <h1 class="user-display-name">{{ u.displayName || 'İsimsiz Kullanıcı' }}</h1>
+          <span
+            class="badge"
+            [class.badge-primary]="u.role === 'admin'"
+            [class.badge-neutral]="u.role !== 'admin'"
+          >
+            {{ u.role === 'admin' ? 'Yönetici' : 'Öğrenci' }}
+          </span>
+          <span
+            class="badge"
+            [class.badge-success]="u.subscriptionStatus === 'active'"
+            [class.badge-warning]="u.subscriptionStatus === 'trial'"
+            [class.badge-danger]="u.subscriptionStatus === 'expired'"
+            [class.badge-neutral]="u.subscriptionStatus === 'none' || !u.subscriptionStatus"
+          >
+            {{
+              u.subscriptionStatus === 'active' ? 'Aktif Abone' :
+              u.subscriptionStatus === 'trial' ? 'Deneme Sürümü' :
+              u.subscriptionStatus === 'expired' ? 'Süresi Doldu' : 'Abonelik Yok'
+            }}
+          </span>
+        </div>
+
+        <div class="meta-row">
+          <span class="meta-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="20" height="16" x="2" y="4" rx="2"/>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+            </svg>
+            {{ u.email }}
+          </span>
+
+          <span class="meta-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+            UID: {{ u.uid }}
+          </span>
+
+          @if (u.createdAt) {
+            <span class="meta-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+              Kayıt: {{ u.createdAt | date: 'dd.MM.yyyy' }}
+            </span>
+          }
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Stats for User -->
+    <div class="user-stats-grid">
+      <div class="stat-card">
+        <span class="label">Çözülen Test</span>
+        <span class="value">{{ userAttempts().length }}</span>
+      </div>
+
+      <div class="stat-card">
+        <span class="label">Başarı Oranı</span>
+        <span class="value success">%{{ successRate() }}</span>
+      </div>
+    </div>
+
+    <!-- User Test History -->
+    <div class="card history-card">
+      <h2 class="card-title">Öğrencinin Test Geçmişi</h2>
+
+      @if (userAttempts().length === 0) {
+        <div class="empty-tests">
+          <p>Bu kullanıcı henüz bir test tamamlamadı.</p>
+        </div>
+      } @else {
+        <div class="table-responsive">
+          <table class="modern-table">
+            <thead>
+              <tr>
+                <th>Ders &amp; Konu</th>
+                <th>Doğru / Toplam</th>
+                <th>Başarı Oranı</th>
+                <th>Tarih</th>
+              </tr>
+            </thead>
+            <tbody>
+              @for (a of userAttempts(); track a.id) {
+                <tr>
+                  <td><strong>{{ a.subject }}</strong></td>
+                  <td>{{ a.correctCount }} / {{ a.totalCount }}</td>
+                  <td>
+                    <span
+                      class="badge"
+                      [class.badge-success]="a.successRate >= 70"
+                      [class.badge-warning]="a.successRate >= 40 && a.successRate < 70"
+                      [class.badge-danger]="a.successRate < 40"
+                    >
+                      %{{ a.successRate }}
+                    </span>
+                  </td>
+                  <td>{{ a.completedAt ? (a.completedAt | date: 'dd.MM.yyyy HH:mm') : '-' }}</td>
+                </tr>
+              }
+            </tbody>
+          </table>
+        </div>
+      }
+    </div>
+  } @else {
+    <div class="loading-state card">
+      <div class="loading-spinner"></div>
+      <p>Kullanıcı detayları yükleniyor...</p>
+    </div>
+  }
+</div>

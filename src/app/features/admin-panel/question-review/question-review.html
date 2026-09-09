@@ -1,0 +1,519 @@
+<div class="admin-page container animate-fade-in">
+  <!-- Admin Header Bar -->
+  <div class="admin-header">
+    <div class="header-left">
+      <div class="admin-badge">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+        </svg>
+        <span>Yönetici Paneli</span>
+      </div>
+      <h1 class="admin-title">Yapay Zekâ Soru Havuzu &amp; Onay Masası</h1>
+      <p class="admin-subtitle">Google Gemini 2.0 Flash ile Türkiye müfredatına tam uyumlu sorular üretin ve denetleyin.</p>
+    </div>
+
+    <!-- Admin Navigation Links & API Key Status -->
+    <div class="header-right">
+      <button
+        type="button"
+        class="api-key-status-btn"
+        [class.has-key]="aiGen.hasApiKey()"
+        (click)="openApiKeyModal()"
+      >
+        @if (aiGen.hasApiKey()) {
+          <span class="status-dot online"></span>
+          <span>⚡ Gemini 2.0 Flash (Bağlı)</span>
+          <span class="settings-gear">⚙</span>
+        } @else {
+          <span class="status-dot warning"></span>
+          <span>🔑 API Anahtarı Gerekli</span>
+        }
+      </button>
+
+      <div class="admin-nav-tabs">
+        <a routerLink="/y0n3t1m-9f3a2/genel-bakis" class="admin-tab">Genel Bakış</a>
+        <a routerLink="/y0n3t1m-9f3a2/aboneler" class="admin-tab">Aboneler</a>
+        <a routerLink="/y0n3t1m-9f3a2/sorular" class="admin-tab active">AI Soru Havuzu</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- AI Soru Üretim Kartı -->
+  <div class="generate-card card card-glow">
+    <div class="card-top-info">
+      <div class="ai-pill">
+        <span class="sparkle">✨</span>
+        <span>Google Gemini 2.0 Flash Entegrasyonu</span>
+      </div>
+      <h2>Müfredat Tabanlı Otomatik Soru Üretimi</h2>
+      <p>Aşağıdan istediğiniz eğitim kademesini ve MEB/ÖSYM konusunu seçin; yapay zekâ saniyeler içinde 4 seçenekli ve öğretici açıklamalı sorular hazırlasın.</p>
+    </div>
+
+    <div class="generate-form-grid">
+      <!-- Kategori Seçici (77 Konu Optgroup) -->
+      <div class="form-group category-group">
+        <label for="categorySelect">
+          <span>Ders &amp; Konu Seçimi</span>
+          <span class="hint">({{ categories().length }} Konu Mevcut)</span>
+        </label>
+        <select
+          id="categorySelect"
+          [ngModel]="selectedCategoryId()"
+          (ngModelChange)="selectedCategoryId.set($event)"
+        >
+          <optgroup label="🌱 İLKOKUL (1, 2, 3 ve 4. Sınıflar)">
+            @for (cat of ilkokulCategories(); track cat.id) {
+              <option [value]="cat.id">[{{ cat.subject }}] {{ cat.topic }}</option>
+            }
+          </optgroup>
+          <optgroup label="🎒 ORTAOKUL (5, 6, 7 ve 8. Sınıf & LGS)">
+            @for (cat of ortaokulCategories(); track cat.id) {
+              <option [value]="cat.id">[{{ cat.subject }}] {{ cat.topic }}</option>
+            }
+          </optgroup>
+          <optgroup label="🏛️ LİSE (9-12 & YKS TYT/AYT)">
+            @for (cat of liseCategories(); track cat.id) {
+              <option [value]="cat.id">[{{ cat.subject }}] {{ cat.topic }}</option>
+            }
+          </optgroup>
+          <optgroup label="💼 KPSS (Genel Yetenek & Genel Kültür)">
+            @for (cat of kpssCategories(); track cat.id) {
+              <option [value]="cat.id">[{{ cat.subject }}] {{ cat.topic }}</option>
+            }
+          </optgroup>
+        </select>
+      </div>
+
+      <!-- Soru Sayısı -->
+      <div class="form-group count-group">
+        <label for="questionCount">Soru Adedi</label>
+        <select
+          id="questionCount"
+          [ngModel]="count()"
+          (ngModelChange)="count.set(+$event)"
+        >
+          <option [value]="3">3 Soru</option>
+          <option [value]="5">5 Soru (Önerilen)</option>
+          <option [value]="10">10 Soru (Tam Test)</option>
+          <option [value]="15">15 Soru</option>
+        </select>
+      </div>
+
+      <!-- Zorluk Derecesi -->
+      <div class="form-group diff-group">
+        <label for="difficultySelect">Hedef Zorluk</label>
+        <select
+          id="difficultySelect"
+          [ngModel]="difficulty()"
+          (ngModelChange)="difficulty.set(+$event)"
+        >
+          <option [value]="1">1 - Çok Kolay (Temel Kavram)</option>
+          <option [value]="2">2 - Kolay (Uygulama)</option>
+          <option [value]="3">3 - Orta (Standart Sınav)</option>
+          <option [value]="4">4 - Zor (Analiz & Muhakeme)</option>
+          <option [value]="5">5 - İleri Düzey (Eleme Sorusu)</option>
+          <option [value]="0">Karışık (Dengeli Dağılım)</option>
+        </select>
+      </div>
+
+      <!-- Özel Odak / Alt Başlık (Opsiyonel) -->
+      <div class="form-group focus-group">
+        <label for="subTopicInput">Özel Odak / Kavram (İsteğe Bağlı)</label>
+        <input
+          id="subTopicInput"
+          type="text"
+          [ngModel]="subTopic()"
+          (ngModelChange)="subTopic.set($event)"
+          placeholder="Örn: Pascal Prensibi, Eldeli Çarpma, İki Kare Farkı..."
+        />
+      </div>
+
+      <!-- Üretim Butonu -->
+      <div class="form-group btn-group">
+        <button
+          type="button"
+          class="btn primary lg generate-btn"
+          [disabled]="generating() || !selectedCategoryId()"
+          (click)="generate()"
+        >
+          @if (generating()) {
+            <span class="spinner"></span>
+            <span>Gemini Soru Hazırlıyor...</span>
+          } @else {
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
+            </svg>
+            <span>Yapay Zekâ ile Üret</span>
+          }
+        </button>
+      </div>
+    </div>
+
+    @if (generateMessage(); as msg) {
+      <div class="alert-box animate-fade-in" [class]="msg.type">
+        @if (msg.type === 'success') {
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12"/>
+          </svg>
+        } @else {
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="12" y1="8" x2="12" y2="12"/>
+          </svg>
+        }
+        <span>{{ msg.text }}</span>
+      </div>
+    }
+  </div>
+
+  <!-- Onay Bekleyen Taslaklar Bölümü -->
+  <div class="drafts-section">
+    <div class="section-title-row">
+      <div>
+        <h2 class="section-heading">Onay Bekleyen Taslak Sorular</h2>
+        <p class="section-sub">Öğrencilerin test oturumlarına sunulmadan önce yönetici onayından geçen sorular.</p>
+      </div>
+
+      <div class="drafts-header-actions">
+        <span class="count-badge">
+          <strong>{{ draftQuestions().length }}</strong> Taslak Soru
+        </span>
+
+        @if (draftQuestions().length > 0) {
+          <button
+            type="button"
+            class="btn success sm bulk-btn"
+            [disabled]="bulkApproving()"
+            (click)="bulkApproveAll()"
+          >
+            @if (bulkApproving()) {
+              <span class="spinner sm"></span>
+              <span>Onaylanıyor...</span>
+            } @else {
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"/>
+              </svg>
+              <span>Tümünü Onayla ({{ draftQuestions().length }})</span>
+            }
+          </button>
+        }
+      </div>
+    </div>
+
+    @if (draftQuestions().length === 0) {
+      <div class="empty-drafts card">
+        <div class="empty-icon">🎉</div>
+        <h3>Tüm Sorular İncelendi ve Canlıda!</h3>
+        <p>Şu anda onay bekleyen taslak soru bulunmuyor. Yukarıdaki panelden dilediğiniz ders veya konuyu seçerek yapay zekâya yeni sorular ürettirebilirsiniz.</p>
+      </div>
+    } @else {
+      <div class="draft-cards-list">
+        @for (q of draftQuestions(); track q.id) {
+          <div class="draft-card card card-glow">
+            <div class="draft-card-header">
+              <div class="draft-badges">
+                <span class="badge badge-warning">Onay Bekliyor</span>
+                <span class="category-slug">{{ q.subject }} · {{ q.categoryId }}</span>
+                @if (q.difficulty) {
+                  <span class="difficulty-chip">Zorluk: {{ q.difficulty }}/5</span>
+                }
+              </div>
+              <span class="ai-source-tag">✨ Gemini 2.0 Flash</span>
+            </div>
+
+            <!-- Soru Metni -->
+            <h3 class="draft-prompt">{{ q.prompt }}</h3>
+
+            <!-- Seçenekler -->
+            <div class="draft-options-grid">
+              @for (opt of q.options; track opt.id) {
+                <div
+                  class="draft-option"
+                  [class.correct-option]="opt.id === q.correctOptionId"
+                >
+                  <span class="opt-letter">{{ opt.id.toUpperCase() }}</span>
+                  <span class="opt-text">{{ opt.text }}</span>
+                  @if (opt.id === q.correctOptionId) {
+                    <span class="correct-badge" title="Doğru Cevap">✔ Doğru</span>
+                  }
+                </div>
+              }
+            </div>
+
+            <!-- Öğretici Çözüm Açıklaması -->
+            <div class="draft-explanation">
+              <div class="explanation-title">
+                <span>💡 Öğretici Çözüm Açıklaması:</span>
+              </div>
+              <p>{{ q.explanation }}</p>
+            </div>
+
+            <!-- Alt Aksiyon Butonları -->
+            <div class="draft-actions">
+              <button
+                type="button"
+                class="btn outline sm edit-btn"
+                (click)="openEdit(q)"
+              >
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/>
+                </svg>
+                <span>Düzenle</span>
+              </button>
+
+              <button
+                type="button"
+                class="btn danger sm reject-btn"
+                [disabled]="reviewingId() === q.id"
+                (click)="reject(q.id)"
+              >
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 6h18"/>
+                  <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/>
+                  <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/>
+                </svg>
+                <span>Reddet / Sil</span>
+              </button>
+
+              <button
+                type="button"
+                class="btn success sm approve-btn"
+                [disabled]="reviewingId() === q.id"
+                (click)="approve(q.id)"
+              >
+                @if (reviewingId() === q.id) {
+                  <span class="spinner sm"></span>
+                  <span>Onaylanıyor...</span>
+                } @else {
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                  <span>Onayla &amp; Yayınla</span>
+                }
+              </button>
+            </div>
+          </div>
+        }
+      </div>
+    }
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 1. API KEY MODAL                                             -->
+<!-- ============================================================ -->
+@if (showApiKeyModal()) {
+  <div class="modal-overlay animate-fade-in" (click)="closeApiKeyModal()">
+    <div class="modal-card card" (click)="$event.stopPropagation()">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <div class="modal-icon">🔑</div>
+          <div>
+            <h3>Google Gemini API Anahtarı</h3>
+            <p>Yapay zekâ ile sınırsız soru üretimi için Gemini API anahtarınızı girin.</p>
+          </div>
+        </div>
+        <button type="button" class="close-btn" (click)="closeApiKeyModal()">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="info-callout">
+          <strong>Nasıl Ücretsiz Alınır?</strong>
+          <p>
+            Google AI Studio üzerinden hiçbir ücret ödemeden 10 saniyede bir Gemini API anahtarı alabilirsiniz:
+            <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer">
+              aistudio.google.com/app/apikey ↗
+            </a>
+          </p>
+        </div>
+
+        <div class="form-group">
+          <label for="apiKeyField">Gemini API Anahtarı (API Key)</label>
+          <input
+            id="apiKeyField"
+            type="password"
+            [ngModel]="apiKeyInput()"
+            (ngModelChange)="apiKeyInput.set($event)"
+            placeholder="AIzaSy..."
+            autocomplete="off"
+          />
+        </div>
+
+        @if (keyMessage(); as msg) {
+          <div class="alert-box" [class]="msg.type">
+            <span>{{ msg.text }}</span>
+          </div>
+        }
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn outline" (click)="closeApiKeyModal()">Vazgeç</button>
+        <button
+          type="button"
+          class="btn primary"
+          [disabled]="keyTesting() || !apiKeyInput().trim()"
+          (click)="saveAndTestApiKey()"
+        >
+          @if (keyTesting()) {
+            <span class="spinner sm"></span>
+            <span>Doğrulanıyor...</span>
+          } @else {
+            <span>Test Et &amp; Kaydet</span>
+          }
+        </button>
+      </div>
+    </div>
+  </div>
+}
+
+<!-- ============================================================ -->
+<!-- 2. EDIT QUESTION MODAL                                       -->
+<!-- ============================================================ -->
+@if (editingQuestion(); as eq) {
+  <div class="modal-overlay animate-fade-in" (click)="closeEdit()">
+    <div class="modal-card edit-modal card" (click)="$event.stopPropagation()">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <div class="modal-icon">✏</div>
+          <div>
+            <h3>Soruyu Düzenle</h3>
+            <p>{{ eq.subject }} · {{ eq.categoryId }}</p>
+          </div>
+        </div>
+        <button type="button" class="close-btn" (click)="closeEdit()">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="editPromptField">Soru Metni</label>
+          <textarea
+            id="editPromptField"
+            rows="3"
+            [ngModel]="editPrompt()"
+            (ngModelChange)="editPrompt.set($event)"
+          ></textarea>
+        </div>
+
+        <div class="edit-options-grid">
+          <div class="form-group">
+            <label>A Seçeneği</label>
+            <div class="opt-input-wrap">
+              <input
+                type="radio"
+                name="correctOpt"
+                value="a"
+                [checked]="editCorrect() === 'a'"
+                (change)="editCorrect.set('a')"
+                title="Doğru Cevap Olarak İşaretle"
+              />
+              <input
+                type="text"
+                [ngModel]="editOptionA()"
+                (ngModelChange)="editOptionA.set($event)"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>B Seçeneği</label>
+            <div class="opt-input-wrap">
+              <input
+                type="radio"
+                name="correctOpt"
+                value="b"
+                [checked]="editCorrect() === 'b'"
+                (change)="editCorrect.set('b')"
+                title="Doğru Cevap Olarak İşaretle"
+              />
+              <input
+                type="text"
+                [ngModel]="editOptionB()"
+                (ngModelChange)="editOptionB.set($event)"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>C Seçeneği</label>
+            <div class="opt-input-wrap">
+              <input
+                type="radio"
+                name="correctOpt"
+                value="c"
+                [checked]="editCorrect() === 'c'"
+                (change)="editCorrect.set('c')"
+                title="Doğru Cevap Olarak İşaretle"
+              />
+              <input
+                type="text"
+                [ngModel]="editOptionC()"
+                (ngModelChange)="editOptionC.set($event)"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>D Seçeneği</label>
+            <div class="opt-input-wrap">
+              <input
+                type="radio"
+                name="correctOpt"
+                value="d"
+                [checked]="editCorrect() === 'd'"
+                (change)="editCorrect.set('d')"
+                title="Doğru Cevap Olarak İşaretle"
+              />
+              <input
+                type="text"
+                [ngModel]="editOptionD()"
+                (ngModelChange)="editOptionD.set($event)"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="editExplanationField">Öğretici Çözüm Açıklaması</label>
+          <textarea
+            id="editExplanationField"
+            rows="3"
+            [ngModel]="editExplanation()"
+            (ngModelChange)="editExplanation.set($event)"
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="editDiffField">Zorluk Derecesi (1-5)</label>
+          <select
+            id="editDiffField"
+            [ngModel]="editDifficulty()"
+            (ngModelChange)="setEditDifficulty(+$event)"
+          >
+            <option [value]="1">1 - Çok Kolay</option>
+            <option [value]="2">2 - Kolay</option>
+            <option [value]="3">3 - Orta</option>
+            <option [value]="4">4 - Zor</option>
+            <option [value]="5">5 - İleri Düzey</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn outline" (click)="closeEdit()">Vazgeç</button>
+        <button
+          type="button"
+          class="btn primary"
+          [disabled]="savingEdit()"
+          (click)="saveEdit()"
+        >
+          @if (savingEdit()) {
+            <span class="spinner sm"></span>
+            <span>Kaydediliyor...</span>
+          } @else {
+            <span>Değişiklikleri Kaydet</span>
+          }
+        </button>
+      </div>
+    </div>
+  </div>
+}

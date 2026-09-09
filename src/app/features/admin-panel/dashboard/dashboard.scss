@@ -1,0 +1,168 @@
+.admin-container {
+  padding-top: 36px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.admin-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 24px;
+
+  .header-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .admin-badge {
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background-color: var(--accent-light);
+    color: var(--accent);
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: var(--radius-full);
+  }
+
+  .admin-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+  }
+
+  .admin-subtitle {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+  }
+}
+
+.admin-nav-tabs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--bg-alt);
+  padding: 4px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+
+  .admin-tab {
+    padding: 8px 16px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    border-radius: var(--radius-xs);
+    transition: all var(--transition-fast);
+
+    &:hover {
+      color: var(--text-main);
+    }
+
+    &.active {
+      background-color: var(--surface);
+      color: var(--primary);
+      font-weight: 700;
+      box-shadow: var(--shadow-xs);
+    }
+  }
+}
+
+/* Stats Grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
+  .stat-desc {
+    font-size: 0.8rem;
+    color: var(--text-subtle);
+  }
+
+  .icon-indigo { background-color: var(--primary-light); color: var(--primary); }
+  .icon-emerald { background-color: var(--success-light); color: var(--success); }
+  .icon-sky { background-color: var(--secondary-light); color: var(--secondary); }
+  .icon-purple { background-color: var(--accent-light); color: var(--accent); }
+}
+
+/* Hub Cards Grid */
+.hub-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+
+  .hub-card {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 28px;
+
+    .hub-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+
+      &.bg-indigo {
+        background-color: var(--primary-light);
+        color: var(--primary);
+      }
+      &.bg-purple {
+        background-color: var(--accent-light);
+        color: var(--accent);
+      }
+    }
+
+    .hub-info {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      h3 {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--text-main);
+      }
+
+      p {
+        font-size: 0.92rem;
+        color: var(--text-muted);
+        line-height: 1.5;
+      }
+
+      .btn {
+        align-self: flex-start;
+        margin-top: 6px;
+      }
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hub-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+  .admin-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

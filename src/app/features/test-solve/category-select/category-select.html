@@ -1,0 +1,116 @@
+<div class="category-page container animate-fade-in">
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="header-badge">
+      <span>📚 Müfredat Kataloğu</span>
+    </div>
+    <h1 class="page-title">Sınav ve Seviye Seçimi</h1>
+    <p class="page-subtitle">
+      Kendine uygun eğitim kademesini seçerek ilgili ders ve konulardaki testleri anında çözmeye başla.
+    </p>
+  </div>
+
+  <!-- Level Selection Tabs -->
+  <div class="level-tabs-grid">
+    @for (lvl of levelsMeta; track lvl.id) {
+      <button
+        class="level-card-btn"
+        [class.active]="level() === lvl.id"
+        (click)="selectLevel(lvl.id)"
+      >
+        <div class="level-icon">{{ lvl.icon }}</div>
+        <div class="level-text">
+          <div class="level-top">
+            <span class="level-title">{{ lvl.title }}</span>
+            <span class="level-badge">{{ lvl.badge }}</span>
+          </div>
+          <span class="level-sub">{{ lvl.subtitle }}</span>
+        </div>
+      </button>
+    }
+  </div>
+
+  <!-- Guest Trial Quota Banner -->
+  @if (!appUser()) {
+    @if (guestQuota.canSolve()) {
+      <div class="guest-quota-banner card">
+        <div class="quota-icon">⚡</div>
+        <div class="quota-text">
+          <strong>Ücretsiz Misafir Oturumu</strong>
+          <p>Kayıt olmadan platformu deneyimleyebilirsiniz. Kalan deneme hakkınız: <strong>{{ guestQuota.remainingCount() }} / 5 test</strong></p>
+        </div>
+        <div class="quota-actions">
+          <a routerLink="/kayit" class="btn sm primary">Sınırsız İçin Kayıt Ol</a>
+          <a routerLink="/fiyatlandirma" class="btn sm outline">Paketler</a>
+        </div>
+      </div>
+    } @else {
+      <div class="guest-quota-banner card quota-exhausted">
+        <div class="quota-icon">🔒</div>
+        <div class="quota-text">
+          <strong>5 Ücretsiz Test Hakkınızı Tamamladınız!</strong>
+          <p>Tüm deneme haklarınızı kullandınız. Sınırsız test çözmek, başarı grafiğinizi kaydetmek ve Türkiye derecenizi görmek için ücretsiz üye olun.</p>
+        </div>
+        <div class="quota-actions">
+          <a routerLink="/kayit" class="btn primary">Hemen Ücretsiz Kayıt Ol</a>
+          <a routerLink="/fiyatlandirma" class="btn outline">Paketleri İncele</a>
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Categories Section -->
+  <div class="categories-section">
+    <div class="section-top">
+      <div class="top-info">
+        <h2>
+          {{ activeMeta().title }} Testleri
+          <span class="count-chip">{{ categories().length }} Konu</span>
+        </h2>
+        <p>{{ activeMeta().subtitle }} için hazırlanmış güncel müfredat testleri.</p>
+      </div>
+    </div>
+
+    @if (categories().length === 0) {
+      <div class="empty-categories card">
+        <div class="empty-icon">🔍</div>
+        <h3>Bu Seviyede Henüz Test Bulunamadı</h3>
+        <p>Yöneticilerimiz şu anda bu seviye için yeni sorular hazırlıyor. Diğer kademelere göz atabilirsiniz.</p>
+        <button class="btn secondary" (click)="selectLevel('ortaokul')">Ortaokul Testlerine Geç</button>
+      </div>
+    } @else {
+      <div class="category-cards-grid">
+        @for (c of categories(); track c.id) {
+          <div class="category-card card card-hover">
+            <div class="card-header-bar">
+              <span class="subject-badge">{{ c.subject }}</span>
+              <span class="order-badge">Konu #{{ c.order }}</span>
+            </div>
+
+            <h3 class="topic-title">{{ c.topic }}</h3>
+            @if (c.description) {
+              <p class="topic-desc">{{ c.description }}</p>
+            } @else {
+              <p class="topic-desc">10 çoktan seçmeli soru, detaylı çözüm açıklamaları ve anında karne.</p>
+            }
+
+            <div class="card-footer-action">
+              @if (!appUser() && !guestQuota.canSolve()) {
+                <a routerLink="/kayit" class="btn warning sm start-btn" title="Kotanız doldu, devam etmek için ücretsiz kayıt olun">
+                  <span>🔒 Üye Ol &amp; Çöz</span>
+                </a>
+              } @else {
+                <a [routerLink]="['/test', c.id]" class="btn primary sm start-btn">
+                  <span>Teste Başla</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="5 3 19 12 5 21 5 3"/>
+                  </svg>
+                </a>
+              }
+            </div>
+          </div>
+        }
+      </div>
+    }
+  </div>
+</div>

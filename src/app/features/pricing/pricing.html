@@ -1,0 +1,152 @@
+<div class="pricing-page container animate-fade-in">
+  <!-- Hero Section -->
+  <div class="pricing-header">
+    <div class="header-badge">
+      <span>💎 Şeffaf ve Uygun Fiyatlandırma</span>
+    </div>
+    <h1 class="page-title">Geleceğine Yatırım Yap, Sınavlarda Fark Yarat</h1>
+    <p class="page-subtitle">
+      İster temelini güçlendir, ister LGS, YKS ve KPSS sınavlarında derece hedefle. Sana en uygun paketi seç, hemen başla.
+    </p>
+
+    <!-- Billing Cycle Toggle -->
+    <div class="cycle-switch-wrapper">
+      <div class="cycle-switch">
+        <button
+          type="button"
+          class="switch-btn"
+          [class.active]="!isYearly()"
+          (click)="toggleCycle(false)"
+        >
+          Aylık Ödeme
+        </button>
+        <button
+          type="button"
+          class="switch-btn"
+          [class.active]="isYearly()"
+          (click)="toggleCycle(true)"
+        >
+          <span>Yıllık Ödeme</span>
+          <span class="discount-tag">%35 Tasarruf</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Plans Grid -->
+  <div class="plans-grid">
+    @for (plan of plans; track plan.id) {
+      <div class="plan-card card card-hover" [class.popular]="plan.isPopular">
+        @if (plan.badge) {
+          <div class="plan-badge">{{ plan.badge }}</div>
+        }
+
+        <div class="plan-header">
+          <h2 class="plan-name">{{ plan.name }}</h2>
+          <p class="plan-desc">{{ plan.desc }}</p>
+        </div>
+
+        <div class="plan-pricing">
+          <div class="price-value">
+            <span class="currency">₺</span>
+            @if (plan.monthlyPrice === 0) {
+              <span class="amount">0</span>
+            } @else {
+              <span class="amount">
+                {{ isYearly() ? Math.round(plan.yearlyPrice / 12) : plan.monthlyPrice }}
+              </span>
+            }
+            <span class="period">/ay</span>
+          </div>
+
+          @if (isYearly() && plan.yearlyPrice > 0) {
+            <span class="yearly-billed">Yıllık ₺{{ plan.yearlyPrice }} olarak faturalandırılır</span>
+          } @else if (plan.monthlyPrice === 0) {
+            <span class="yearly-billed">Kredi kartı gerekmez</span>
+          } @else {
+            <span class="yearly-billed">Aylık yenilenir, iptal edilebilir</span>
+          }
+        </div>
+
+        <div class="plan-cta">
+          <a
+            [routerLink]="appUser() ? '/panel/kategoriler' : '/kayit'"
+            class="btn lg plan-btn"
+            [class]="plan.ctaClass"
+          >
+            <span>{{ plan.ctaText }}</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"/>
+              <path d="m12 5 7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+
+        <div class="plan-features">
+          <span class="features-title">Paket İçeriği:</span>
+          <ul class="features-list">
+            @for (feat of plan.features; track feat) {
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="check-icon">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+                <span>{{ feat }}</span>
+              </li>
+            }
+          </ul>
+        </div>
+      </div>
+    }
+  </div>
+
+  <!-- Trust Badges -->
+  <div class="trust-banner card">
+    <div class="trust-item">
+      <div class="trust-icon">🛡️</div>
+      <div>
+        <strong>14 Gün İade Garantisi</strong>
+        <span>Memnun kalmazsanız sorgusuz sualsiz %100 iade</span>
+      </div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon">🔒</div>
+      <div>
+        <strong>256-Bit SSL Güvenliği</strong>
+        <span>Tüm ödemeleriniz banka düzeyinde korunur</span>
+      </div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon">⚡</div>
+      <div>
+        <strong>Anında Aktivasyon</strong>
+        <span>Kayıt olduğunuz an testleri sınırsız çözmeye başlayın</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ Section -->
+  <div class="faq-section">
+    <div class="faq-header">
+      <h2 class="faq-title">Sıkça Sorulan Sorular</h2>
+      <p class="faq-subtitle">Aklınıza takılan soruların yanıtlarına buradan ulaşabilirsiniz.</p>
+    </div>
+
+    <div class="faq-list">
+      @for (faq of faqs; track faq.q; let i = $index) {
+        <div class="faq-item card" [class.open]="faq.isOpen()">
+          <button type="button" class="faq-question" (click)="toggleFaq(i)">
+            <span>{{ faq.q }}</span>
+            <svg class="chevron-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m6 9 6 6 6-6"/>
+            </svg>
+          </button>
+          @if (faq.isOpen()) {
+            <div class="faq-answer animate-fade-in">
+              <p>{{ faq.a }}</p>
+            </div>
+          }
+        </div>
+      }
+    </div>
+  </div>
+</div>

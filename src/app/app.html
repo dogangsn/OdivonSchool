@@ -1,0 +1,136 @@
+<div class="app-layout">
+  <!-- Top Navigation Header -->
+  <header class="app-header">
+    <div class="nav-container">
+      <a routerLink="/" class="brand-logo">
+        <img src="logo.png" alt="OdivonSchool" class="brand-logo-img" width="38" height="38" />
+        <div class="brand-text">
+          <span class="brand-name">Odivon<span class="brand-accent">School</span></span>
+          <span class="brand-badge">PRO</span>
+        </div>
+      </a>
+
+      <!-- Authenticated User Navigation -->
+      @if (appUser(); as user) {
+        <nav class="main-nav">
+          <a routerLink="/panel/anasayfa" routerLinkActive="active" class="nav-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="7" height="9" x="3" y="3" rx="1"/>
+              <rect width="7" height="5" x="14" y="3" rx="1"/>
+              <rect width="7" height="9" x="14" y="12" rx="1"/>
+              <rect width="7" height="5" x="3" y="16" rx="1"/>
+            </svg>
+            <span>Panel</span>
+          </a>
+
+          <a routerLink="/panel/kategoriler" routerLinkActive="active" class="nav-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
+              <path d="M6 6h10M6 10h10"/>
+            </svg>
+            <span>Test Çöz</span>
+          </a>
+
+          <a routerLink="/panel/gecmis" routerLinkActive="active" class="nav-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12 6 12 12 16 14"/>
+            </svg>
+            <span>Geçmişim</span>
+          </a>
+
+          <a routerLink="/fiyatlandirma" routerLinkActive="active" class="nav-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+            <span>Paketler</span>
+          </a>
+
+          @if (user.role === 'admin') {
+            <a routerLink="/y0n3t1m-9f3a2" routerLinkActive="active" class="nav-link admin-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+                <path d="m9 12 2 2 4-4"/>
+              </svg>
+              <span>Yönetim</span>
+            </a>
+          }
+        </nav>
+
+        <div class="user-actions">
+          <div class="user-chip">
+            <div class="user-avatar">
+              {{ (user.displayName || user.email || 'U').charAt(0).toUpperCase() }}
+            </div>
+            <div class="user-info-text">
+              <span class="user-name">{{ user.displayName || 'Öğrenci' }}</span>
+              <span class="user-role">{{ user.role === 'admin' ? 'Yönetici' : 'Öğrenci' }}</span>
+            </div>
+          </div>
+
+          <button class="btn sm outline btn-logout" (click)="logout()" title="Çıkış Yap">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
+              <polyline points="16 17 21 12 16 7"/>
+              <line x1="21" x2="9" y1="12" y2="12"/>
+            </svg>
+            <span>Çıkış</span>
+          </button>
+        </div>
+      } @else {
+        <!-- Guest Navigation -->
+        <nav class="main-nav">
+          <a routerLink="/kategoriler" routerLinkActive="active" class="nav-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
+              <path d="M6 6h10M6 10h10"/>
+            </svg>
+            <span>Test Çöz</span>
+          </a>
+
+          <a routerLink="/fiyatlandirma" routerLinkActive="active" class="nav-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+            <span>Fiyatlandırma</span>
+          </a>
+        </nav>
+
+        <!-- Anonymous Actions -->
+        <div class="guest-actions">
+          <a routerLink="/kategoriler" class="guest-quota-badge" title="Ücretsiz deneme test hakkı">
+            <span class="quota-dot"></span>
+            <span>Deneme: <strong>{{ guestQuota.remainingCount() }}/5 Hak</strong></span>
+          </a>
+          <a routerLink="/giris" class="btn sm outline">Giriş Yap</a>
+          <a routerLink="/kayit" class="btn sm primary">Ücretsiz Başla</a>
+        </div>
+      }
+    </div>
+  </header>
+
+  <!-- Main Content Route -->
+  <main class="main-body">
+    <router-outlet />
+  </main>
+
+  <!-- Minimal Modern Footer -->
+  <footer class="app-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <img src="logo.png" alt="OdivonSchool" class="footer-logo-img" width="26" height="26" />
+        <span class="brand-name">Odivon<span class="brand-accent">School</span></span>
+        <span class="footer-tagline">— İlkokul, Ortaokul, Lise &amp; KPSS Akıllı Test Platformu</span>
+      </div>
+      <div class="footer-links">
+        <a routerLink="/kategoriler">Müfredat &amp; Testler</a>
+        <a routerLink="/fiyatlandirma">Paketler &amp; Fiyatlar</a>
+        <a routerLink="/giris">Giriş Yap</a>
+        <a routerLink="/kayit">Kayıt Ol</a>
+      </div>
+      <div class="footer-copy">
+        &copy; 2026 OdivonSchool. Tüm hakları saklıdır.
+      </div>
+    </div>
+  </footer>
+</div>

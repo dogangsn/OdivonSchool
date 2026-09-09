@@ -1,0 +1,199 @@
+<div class="auth-wrapper animate-fade-in">
+  <div class="auth-container">
+    <!-- Left Hero -->
+    <div class="auth-hero">
+      <div class="hero-badge">
+        <img src="logo.png" alt="Odivon" width="20" height="20" style="border-radius: 5px;" />
+        <span>Topluluğumuza Katıl</span>
+      </div>
+
+      <h1 class="hero-title">Öğrenme Yolculuğunu Şimdi Başlat.</h1>
+      <p class="hero-subtitle">Dakikalar içinde ücretsiz hesabını oluştur; binlerce güncel soru, detaylı çözüm açıklamaları ve seviyene özel testlerle başarıya ulaş.</p>
+
+      <div class="feature-pills">
+        <div class="feature-item">
+          <div class="feature-icon">✨</div>
+          <div>
+            <strong>Tamamen Ücretsiz Başlangıç</strong>
+            <span>Hemen kayıt ol, anında test çözmeye başla</span>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-icon">🏆</div>
+          <div>
+            <strong>Kişiselleştirilmiş İlerleme</strong>
+            <span>Hangi konularda eksik olduğunu anında keşfet</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Register Form Card -->
+    <div class="auth-card card">
+      <div class="auth-header">
+        <h2 class="form-title">Yeni Hesap Oluştur</h2>
+        <p class="form-subtitle">Birkaç adımda OdivonSchool dünyasına adım at.</p>
+      </div>
+
+      @if (errorMessage()) {
+        <div class="alert-box danger">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="12" y1="8" x2="12" y2="12"/>
+            <line x1="12" y1="16" x2="12.01" y2="16"/>
+          </svg>
+          <span>{{ errorMessage() }}</span>
+        </div>
+      }
+
+      <!-- Google Sign Up Button -->
+      <button type="button" class="btn outline lg google-btn" [disabled]="loading()" (click)="loginWithGoogle()">
+        <svg width="20" height="20" viewBox="0 0 24 24">
+          <path fill="#4285F4" d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.665-5.17 3.665-9.17Z"/>
+          <path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.26v3.15C3.29 21.36 7.37 24 12 24Z"/>
+          <path fill="#FBBC05" d="M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.26C.46 8.16 0 9.97 0 12s.46 3.84 1.26 5.42l4.02-3.15Z"/>
+          <path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.37 0 3.29 2.64 1.26 6.58l4.02 3.15c.95-2.83 3.6-4.98 6.72-4.98Z"/>
+        </svg>
+        <span>Google ile Hızlı Başla</span>
+      </button>
+
+      <div class="auth-divider">
+        <span>veya e-posta ile</span>
+      </div>
+
+      <form (ngSubmit)="submit()" #f="ngForm" class="auth-form">
+        <div class="form-group">
+          <label for="displayName">Ad Soyad</label>
+          <div class="input-container">
+            <svg class="input-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/>
+              <circle cx="12" cy="7" r="4"/>
+            </svg>
+            <input
+              id="displayName"
+              type="text"
+              name="displayName"
+              [(ngModel)]="displayName"
+              required
+              placeholder="Ahmet Yılmaz"
+            />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-posta Adresi</label>
+          <div class="input-container">
+            <svg class="input-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="20" height="16" x="2" y="4" rx="2"/>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+            </svg>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              [(ngModel)]="email"
+              required
+              placeholder="ornek@ogrenci.com"
+            />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Şifre</label>
+          <div class="input-container">
+            <svg class="input-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="18" height="11" x="3" y="11" rx="2" ry="2"/>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+            </svg>
+            <input
+              id="password"
+              type="password"
+              name="password"
+              [(ngModel)]="password"
+              required
+              minlength="6"
+              placeholder="En az 6 karakter"
+            />
+          </div>
+        </div>
+
+        <!-- Grade / Education Level Selection -->
+        <div class="form-group level-group">
+          <label class="level-group-label">Eğitim Kademeni Seç</label>
+          <p class="level-group-hint">Hedefine en uygun ders ve soruları paneline hazırlayalım.</p>
+          <div class="grade-selector-grid">
+            <button
+              type="button"
+              class="grade-btn"
+              [class.selected]="gradeLevel() === 'ilkokul'"
+              (click)="selectGrade('ilkokul')"
+            >
+              <span class="grade-icon">🌱</span>
+              <div class="grade-info">
+                <strong>İlkokul</strong>
+                <small>1-4. Sınıflar</small>
+              </div>
+            </button>
+
+            <button
+              type="button"
+              class="grade-btn"
+              [class.selected]="gradeLevel() === 'ortaokul'"
+              (click)="selectGrade('ortaokul')"
+            >
+              <span class="grade-icon">🎒</span>
+              <div class="grade-info">
+                <strong>Ortaokul</strong>
+                <small>5-8. Sınıf &amp; LGS</small>
+              </div>
+            </button>
+
+            <button
+              type="button"
+              class="grade-btn"
+              [class.selected]="gradeLevel() === 'lise'"
+              (click)="selectGrade('lise')"
+            >
+              <span class="grade-icon">🏛️</span>
+              <div class="grade-info">
+                <strong>Lise</strong>
+                <small>9-12. &amp; YKS</small>
+              </div>
+            </button>
+
+            <button
+              type="button"
+              class="grade-btn"
+              [class.selected]="gradeLevel() === 'kpss'"
+              (click)="selectGrade('kpss')"
+            >
+              <span class="grade-icon">💼</span>
+              <div class="grade-info">
+                <strong>KPSS</strong>
+                <small>Genel Yetenek</small>
+              </div>
+            </button>
+          </div>
+        </div>
+
+        <button type="submit" class="btn primary lg submit-btn" [disabled]="f.invalid || loading()">
+          @if (loading()) {
+            <span class="spinner"></span>
+            <span>Kayıt Yapılıyor...</span>
+          } @else {
+            <span>Hesabımı Oluştur</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"/>
+              <path d="m12 5 7 7-7 7"/>
+            </svg>
+          }
+        </button>
+      </form>
+
+      <div class="auth-footer">
+        <p>Zaten bir hesabın var mı? <a routerLink="/giris" class="auth-link">Giriş Yap</a></p>
+      </div>
+    </div>
+  </div>
+</div>

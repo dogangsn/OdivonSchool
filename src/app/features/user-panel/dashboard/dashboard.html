@@ -1,0 +1,202 @@
+<div class="dashboard-container container animate-fade-in">
+  <!-- Hero Greeting Banner -->
+  <section class="hero-welcome">
+    <div class="welcome-content">
+      <div class="welcome-badge">
+        <span>✨ Günlük Öğrenme Hedefi</span>
+      </div>
+      <h1 class="welcome-title">
+        Hoş Geldin, <span class="highlight">{{ appUser()?.displayName || 'Öğrenci' }}</span>! 👋
+      </h1>
+      <p class="welcome-desc">
+        Bugün hedeflerine bir adım daha yaklaşmak için harika bir gün. Müfredata uygun sorularla bilgilerini tazelemeye hazır mısın?
+      </p>
+      <div class="welcome-actions">
+        <a routerLink="/panel/kategoriler" class="btn primary lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="5 3 19 12 5 21 5 3"/>
+          </svg>
+          <span>Yeni Test Çöz</span>
+        </a>
+        <a routerLink="/panel/gecmis" class="btn outline lg">
+          <span>Test Geçmişim</span>
+        </a>
+      </div>
+    </div>
+    <div class="welcome-graphics">
+      <div class="graphics-card">
+        <div class="glow-orb"></div>
+        <div class="trophy-icon">🏆</div>
+        <span class="graphics-text">Sürekli Pratik, Yüksek Başarı</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Metrics Grid -->
+  <section class="metrics-grid">
+    <div class="stat-card">
+      <div class="stat-header">
+        <span class="label">Çözülen Test</span>
+        <div class="stat-icon icon-indigo">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/>
+            <polyline points="14 2 14 8 20 8"/>
+          </svg>
+        </div>
+      </div>
+      <span class="value">{{ totalAttempts() }}</span>
+      <span class="stat-sub">Tamamlanan oturum</span>
+    </div>
+
+    <div class="stat-card">
+      <div class="stat-header">
+        <span class="label">Çözülen Soru</span>
+        <div class="stat-icon icon-sky">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="m9 12 2 2 4-4"/>
+          </svg>
+        </div>
+      </div>
+      <span class="value">{{ totalQuestions() }}</span>
+      <span class="stat-sub">Toplam cevaplanan</span>
+    </div>
+
+    <div class="stat-card">
+      <div class="stat-header">
+        <span class="label">Doğru Cevap</span>
+        <div class="stat-icon icon-emerald">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+          </svg>
+        </div>
+      </div>
+      <span class="value">{{ totalCorrect() }}</span>
+      <span class="stat-sub">Net başarı</span>
+    </div>
+
+    <div class="stat-card">
+      <div class="stat-header">
+        <span class="label">Genel Başarı</span>
+        <div class="stat-icon icon-purple">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/>
+            <polyline points="16 7 22 7 22 13"/>
+          </svg>
+        </div>
+      </div>
+      <span class="value">%{{ overallSuccessRate() }}</span>
+      <div class="rate-bar-container">
+        <div class="rate-bar" [style.width.%]="overallSuccessRate()"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Access Action Cards -->
+  <section class="quick-cards-grid">
+    <div class="action-card card card-hover">
+      <div class="action-icon bg-indigo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
+        </svg>
+      </div>
+      <div class="action-info">
+        <h3>Müfredat Kategorileri</h3>
+        <p>İlkokul, Ortaokul, Lise ve KPSS derslerine göre kategorize edilmiş zengin soru havuzu.</p>
+        <a routerLink="/panel/kategoriler" class="action-link">
+          <span>Kategori Seç ve Başla</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14"/>
+            <path d="m12 5 7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="action-card card card-hover">
+      <div class="action-icon bg-sky">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/>
+          <polyline points="12 6 12 12 16 14"/>
+        </svg>
+      </div>
+      <div class="action-info">
+        <h3>Gelişim &amp; Analiz</h3>
+        <p>Daha önce çözdüğün tüm testleri, başarı oranlarını ve performansını takip et.</p>
+        <a routerLink="/panel/gecmis" class="action-link">
+          <span>Test Geçmişine Göz At</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14"/>
+            <path d="m12 5 7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent Tests Section -->
+  <section class="recent-section card">
+    <div class="section-header">
+      <div>
+        <h2 class="section-title">Son Çözülen Testler</h2>
+        <p class="section-sub">En son tamamladığın 5 test denemesinin performans özeti.</p>
+      </div>
+      @if (recentAttempts().length > 0) {
+        <a routerLink="/panel/gecmis" class="btn sm outline">Tümünü Gör</a>
+      }
+    </div>
+
+    @if (recentAttempts().length === 0) {
+      <div class="empty-state">
+        <div class="empty-icon">📝</div>
+        <h3>Henüz Test Çözmedin</h3>
+        <p>Hemen seviyene uygun bir ders seçerek ilk testini çöz ve başarı grafiğini oluşturmaya başla.</p>
+        <a routerLink="/panel/kategoriler" class="btn primary">
+          <span>İlk Testini Başlat</span>
+        </a>
+      </div>
+    } @else {
+      <div class="table-responsive">
+        <table class="modern-table">
+          <thead>
+            <tr>
+              <th>Ders &amp; Konu</th>
+              <th>Seviye</th>
+              <th>Doğru / Toplam</th>
+              <th>Başarı Oranı</th>
+              <th>Tarih</th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (a of recentAttempts(); track a.id) {
+              <tr>
+                <td>
+                  <strong>{{ a.subject }}</strong>
+                </td>
+                <td>
+                  <span class="badge badge-neutral">{{ a.level }}</span>
+                </td>
+                <td>
+                  <span class="score-ratio"><strong>{{ a.correctCount }}</strong> / {{ a.totalCount }}</span>
+                </td>
+                <td>
+                  <span
+                    class="badge"
+                    [class.badge-success]="a.successRate >= 70"
+                    [class.badge-warning]="a.successRate >= 40 && a.successRate < 70"
+                    [class.badge-danger]="a.successRate < 40"
+                  >
+                    %{{ a.successRate }}
+                  </span>
+                </td>
+                <td>
+                  <span class="date-text">{{ a.completedAt ? (a.completedAt | date: 'dd.MM.yyyy HH:mm') : '-' }}</span>
+                </td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    }
+  </section>
+</div>

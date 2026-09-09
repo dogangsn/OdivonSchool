@@ -1,0 +1,171 @@
+<div class="solve-wrapper container animate-fade-in">
+  @if (isQuotaBlocked()) {
+    <div class="quota-blocked-card card animate-fade-in">
+      <div class="blocked-icon">🔒</div>
+      <h2>5 Ücretsiz Test Kotanız Doldu!</h2>
+      <p class="blocked-desc">
+        OdivonSchool'da ücretsiz misafir deneme hakkınız olan 5 testi tamamladınız.
+        Sınırsız soru çözmek, yapay zekâ destekli detaylı açıklamaları görmek ve tüm başarı geçmişinizi profilinizde saklamak için ücretsiz üye olun.
+      </p>
+
+      <div class="blocked-actions">
+        <a routerLink="/kayit" class="btn primary lg">
+          <span>Ücretsiz Hesap Oluştur</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14"/>
+            <path d="m12 5 7 7-7 7"/>
+          </svg>
+        </a>
+        <a routerLink="/giris" class="btn outline lg">Giriş Yap</a>
+        <a routerLink="/fiyatlandirma" class="btn secondary lg">Paketleri İncele</a>
+      </div>
+    </div>
+  } @else if (isLoading()) {
+    <div class="loading-state card">
+      <div class="loading-spinner"></div>
+      <h2>Sorular Hazırlanıyor...</h2>
+      <p>Müfredata uygun sorular yükleniyor, lütfen bekleyin.</p>
+    </div>
+  } @else if (session.questions().length === 0) {
+    <div class="empty-questions card">
+      <div class="empty-icon">📭</div>
+      <h2>Bu Kategoride Henüz Soru Yok</h2>
+      <p>Bu konuya ait sorular şu anda sisteme yükleniyor. Başka bir kategori seçerek test çözebilirsiniz.</p>
+      <a routerLink="/kategoriler" class="btn primary">Kategorilere Dön</a>
+    </div>
+  } @else if (session.currentQuestion(); as q) {
+    <!-- Top Quiz Header & Progress -->
+    <div class="quiz-top-bar card">
+      <div class="top-meta">
+        <a routerLink="/kategoriler" class="back-link" title="Kategorilere Dön">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m15 18-6-6 6-6"/>
+          </svg>
+          <span>Ayrıl</span>
+        </a>
+
+        @if (!appUser()) {
+          <div class="guest-counter-pill" title="Misafir deneme hakkı">
+            <span>⚡ Kalan Test: <strong>{{ guestQuota.remainingCount() }}/5</strong></span>
+          </div>
+        }
+
+        <div class="category-indicator">
+          @if (category(); as cat) {
+            <span class="subject-name">{{ cat.subject }}</span>
+            <span class="divider">/</span>
+            <span class="topic-name">{{ cat.topic }}</span>
+          } @else {
+            <span class="subject-name">{{ q.subject }}</span>
+          }
+        </div>
+
+        <div class="question-counter">
+          <span class="counter-cur">{{ session.currentIndex() + 1 }}</span>
+          <span class="counter-sep">/</span>
+          <span class="counter-total">{{ session.questions().length }}</span>
+        </div>
+      </div>
+
+      <!-- Animated Progress Bar -->
+      <div class="progress-track">
+        <div class="progress-fill" [style.width.%]="session.progressPercent()"></div>
+      </div>
+    </div>
+
+    <!-- Soru Kartı -->
+    <div class="question-card card card-glow">
+      <div class="question-header">
+        <span class="q-badge">Soru #{{ session.currentIndex() + 1 }}</span>
+        @if (q.difficulty) {
+          <span class="difficulty-tag">Zorluk: {{ q.difficulty }}/5</span>
+        }
+      </div>
+
+      <h2 class="question-prompt">{{ q.prompt }}</h2>
+
+      <!-- Seçenekler Listesi -->
+      <div class="options-list">
+        @for (opt of q.options; track opt.id) {
+          <button
+            type="button"
+            class="option-card"
+            [class.selected]="selectedOptionId() === opt.id"
+            [class.correct]="isAnswerChecked() && opt.id === q.correctOptionId"
+            [class.incorrect]="isAnswerChecked() && selectedOptionId() === opt.id && opt.id !== q.correctOptionId"
+            [disabled]="isAnswerChecked()"
+            (click)="selectOption(opt.id)"
+          >
+            <div class="option-prefix">
+              {{ opt.id.toUpperCase() }}
+            </div>
+            <div class="option-text">
+              {{ opt.text }}
+            </div>
+            <div class="option-status-icon">
+              @if (isAnswerChecked() && opt.id === q.correctOptionId) {
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+              } @else if (isAnswerChecked() && selectedOptionId() === opt.id && opt.id !== q.correctOptionId) {
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="18" y1="6" x2="6" y2="18"/>
+                  <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+              }
+            </div>
+          </button>
+        }
+      </div>
+
+      <!-- Action Area -->
+      <div class="action-footer">
+        @if (!isAnswerChecked()) {
+          <button
+            class="btn primary lg confirm-btn"
+            [disabled]="!selectedOptionId()"
+            (click)="confirmAnswer()"
+          >
+            <span>Cevabı Onayla</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"/>
+              <path d="m12 5 7 7-7 7"/>
+            </svg>
+          </button>
+        } @else if (lastAnswerCorrect() === true) {
+          <!-- Doğru Cevap Geribildirimi -->
+          <div class="feedback-banner correct animate-fade-in">
+            <div class="feedback-icon">🎉</div>
+            <div class="feedback-text">
+              <strong>Tebrikler! Doğru Cevap</strong>
+              <span>Sonraki soruya geçiliyor...</span>
+            </div>
+          </div>
+        } @else if (showExplanation()) {
+          <!-- Yanlış Cevap: Zengin Çözüm Açıklaması -->
+          <div class="explanation-card animate-fade-in">
+            <div class="exp-header">
+              <div class="exp-icon">💡</div>
+              <div class="exp-title">
+                <h4>Öğretici Çözüm Açıklaması</h4>
+                <p>Doğru seçenek: <strong>{{ q.correctOptionId.toUpperCase() }}</strong></p>
+              </div>
+            </div>
+
+            <div class="exp-body">
+              {{ q.explanation }}
+            </div>
+
+            <button class="btn primary lg next-btn" (click)="goToNext()">
+              <span>Sonraki Soruya Geç</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"/>
+                <path d="m12 5 7 7-7 7"/>
+              </svg>
+            </button>
+          </div>
+        }
+      </div>
+    </div>
+  }
+</div>

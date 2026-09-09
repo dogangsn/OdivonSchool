@@ -1,0 +1,106 @@
+<div class="result-wrapper container animate-fade-in">
+  @if (latestAttempt(); as a) {
+    <div class="result-card card">
+      <!-- Category Info -->
+      <div class="result-category">
+        @if (category(); as cat) {
+          <span class="cat-pill">{{ cat.subject }} &bull; {{ cat.topic }}</span>
+        } @else {
+          <span class="cat-pill">{{ a.subject }}</span>
+        }
+      </div>
+
+      <!-- Performance Badge -->
+      <div class="performance-badge" [class]="performanceStatus().color">
+        {{ performanceStatus().badge }}
+      </div>
+
+      <!-- Score Circle -->
+      <div class="score-circle-wrapper">
+        <div class="score-circle" [class]="performanceStatus().color">
+          <div class="score-inner">
+            <span class="score-value">%{{ a.successRate }}</span>
+            <span class="score-label">Başarı</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Motivational Title & Sub -->
+      <h1 class="result-title">{{ performanceStatus().title }}</h1>
+      <p class="result-desc">{{ performanceStatus().desc }}</p>
+
+      <!-- Stat Breakdown Grid -->
+      <div class="stats-breakdown">
+        <div class="stat-pill correct">
+          <span class="pill-icon">✓</span>
+          <div class="pill-info">
+            <span class="pill-value">{{ a.correctCount }}</span>
+            <span class="pill-label">Doğru</span>
+          </div>
+        </div>
+
+        <div class="stat-pill wrong">
+          <span class="pill-icon">✕</span>
+          <div class="pill-info">
+            <span class="pill-value">{{ wrongCount() }}</span>
+            <span class="pill-label">Yanlış</span>
+          </div>
+        </div>
+
+        <div class="stat-pill total">
+          <span class="pill-icon">📋</span>
+          <div class="pill-info">
+            <span class="pill-value">{{ a.totalCount }}</span>
+            <span class="pill-label">Toplam</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Guest Prompt -->
+      @if (!appUser()) {
+        <div class="guest-result-prompt">
+          <div class="prompt-icon">🚀</div>
+          <div class="prompt-body">
+            <strong>Bu Başarı Grafiğini Saklamak İster misin?</strong>
+            <p>Misafir oturumunda tamamlanan testler profilinize kaydedilmez. Ücretsiz kayıt olarak tüm başarılarınızı ve analizlerinizi kalıcı hale getirebilirsiniz.</p>
+          </div>
+          <a routerLink="/kayit" class="btn primary sm">Ücretsiz Kayıt Ol</a>
+        </div>
+      }
+
+      <!-- Action Buttons -->
+      <div class="result-actions">
+        <a class="btn primary lg" routerLink="/kategoriler">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
+          </svg>
+          <span>Yeni Test Çöz</span>
+        </a>
+
+        <a class="btn outline lg" [routerLink]="['/test', categoryId]">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="1 4 1 10 7 10"/>
+            <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/>
+          </svg>
+          <span>Tekrar Çöz</span>
+        </a>
+
+        @if (appUser()) {
+          <a class="btn outline lg" routerLink="/panel/gecmis">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12 6 12 12 16 14"/>
+            </svg>
+            <span>Geçmişim</span>
+          </a>
+        }
+      </div>
+    </div>
+  } @else {
+    <div class="loading-card card">
+      <div class="loading-spinner"></div>
+      <h2>Sonuçlar Hesaplanıyor...</h2>
+      <p>Test verileriniz kaydediliyor, lütfen bekleyin.</p>
+    </div>
+  }
+</div>

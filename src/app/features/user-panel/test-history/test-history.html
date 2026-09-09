@@ -1,0 +1,117 @@
+<div class="history-page container animate-fade-in">
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="header-left">
+      <div class="header-badge">
+        <span>📈 Gelişim Kayıtları</span>
+      </div>
+      <h1 class="page-title">Test Geçmişim</h1>
+      <p class="page-subtitle">Bugüne kadar tamamladığın tüm test oturumları, netlerin ve başarı grafiklerin.</p>
+    </div>
+
+    <a routerLink="/panel/kategoriler" class="btn primary">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polygon points="5 3 19 12 5 21 5 3"/>
+      </svg>
+      <span>Yeni Test Çöz</span>
+    </a>
+  </div>
+
+  @if (attempts().length > 0) {
+    <!-- Quick Summary Cards -->
+    <div class="summary-cards">
+      <div class="summary-card card">
+        <span class="label">Toplam Test</span>
+        <span class="value">{{ totalCount() }}</span>
+      </div>
+      <div class="summary-card card">
+        <span class="label">Ortalama Başarı</span>
+        <span class="value success">%{{ averageRate() }}</span>
+      </div>
+      <div class="summary-card card">
+        <span class="label">En Yüksek Başarı</span>
+        <span class="value primary">%{{ bestRate() }}</span>
+      </div>
+    </div>
+
+    <!-- Table Card Container -->
+    <div class="table-card card">
+      <!-- Search Filter Bar -->
+      <div class="filter-bar">
+        <div class="search-box">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="m21 21-4.3-4.3"/>
+          </svg>
+          <input
+            type="text"
+            placeholder="Ders veya seviyeye göre ara..."
+            [value]="search()"
+            (input)="search.set($any($event.target).value)"
+          />
+        </div>
+        <span class="record-count">{{ filteredAttempts().length }} kayıt bulundu</span>
+      </div>
+
+      <div class="table-responsive">
+        <table class="modern-table">
+          <thead>
+            <tr>
+              <th>Ders &amp; Konu</th>
+              <th>Seviye</th>
+              <th>Doğru / Toplam</th>
+              <th>Başarı Oranı</th>
+              <th>Tarih</th>
+              <th class="text-right">İşlem</th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (a of filteredAttempts(); track a.id) {
+              <tr>
+                <td>
+                  <strong>{{ a.subject }}</strong>
+                </td>
+                <td>
+                  <span class="badge badge-neutral">{{ a.level }}</span>
+                </td>
+                <td>
+                  <span class="score-ratio"><strong>{{ a.correctCount }}</strong> / {{ a.totalCount }}</span>
+                </td>
+                <td>
+                  <div class="rate-cell">
+                    <span
+                      class="badge"
+                      [class.badge-success]="a.successRate >= 70"
+                      [class.badge-warning]="a.successRate >= 40 && a.successRate < 70"
+                      [class.badge-danger]="a.successRate < 40"
+                    >
+                      %{{ a.successRate }}
+                    </span>
+                  </div>
+                </td>
+                <td>
+                  <span class="date-text">{{ a.completedAt ? (a.completedAt | date: 'dd.MM.yyyy HH:mm') : '-' }}</span>
+                </td>
+                <td class="text-right">
+                  <a [routerLink]="['/panel/test', a.categoryId]" class="btn sm outline">
+                    <span>Tekrar Çöz</span>
+                  </a>
+                </td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    </div>
+  } @else {
+    <!-- Empty State -->
+    <div class="empty-state card">
+      <div class="empty-icon">📊</div>
+      <h2>Henüz Kayıtlı Testin Yok</h2>
+      <p>İlk testini çözerek başarı oranını ve netlerini takip etmeye hemen başla.</p>
+      <a routerLink="/panel/kategoriler" class="btn primary lg">
+        <span>Test Kataloğuna Git</span>
+      </a>
+    </div>
+  }
+</div>

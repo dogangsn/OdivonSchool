@@ -1,0 +1,43 @@
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/.angular
+.angular/
+
+# Dependencies
+/node_modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Firebase cache & logs
+.firebase/
+*-debug.log
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

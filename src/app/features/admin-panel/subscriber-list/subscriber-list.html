@@ -1,0 +1,118 @@
+<div class="admin-page container animate-fade-in">
+  <!-- Admin Header Bar -->
+  <div class="admin-header">
+    <div class="header-left">
+      <div class="admin-badge">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+        </svg>
+        <span>Yönetici Paneli</span>
+      </div>
+      <h1 class="admin-title">Kullanıcılar &amp; Abonelikler</h1>
+      <p class="admin-subtitle">Sisteme kayıtlı tüm kullanıcıların abonelik durumları ve profil detayları.</p>
+    </div>
+
+    <!-- Admin Navigation Links -->
+    <div class="admin-nav-tabs">
+      <a routerLink="/y0n3t1m-9f3a2/genel-bakis" class="admin-tab">Genel Bakış</a>
+      <a routerLink="/y0n3t1m-9f3a2/aboneler" class="admin-tab active">Aboneler</a>
+      <a routerLink="/y0n3t1m-9f3a2/sorular" class="admin-tab">AI Soru Havuzu</a>
+    </div>
+  </div>
+
+  <!-- Content Card -->
+  <div class="content-card card">
+    <div class="filter-header">
+      <div class="search-box">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="m21 21-4.3-4.3"/>
+        </svg>
+        <input
+          type="text"
+          placeholder="İsim veya e-posta ile ara..."
+          [value]="search()"
+          (input)="search.set($any($event.target).value)"
+        />
+      </div>
+
+      <div class="count-badge">
+        <span>Toplam: <strong>{{ filteredUsers().length }}</strong> kullanıcı</span>
+      </div>
+    </div>
+
+    @if (filteredUsers().length === 0) {
+      <div class="empty-search">
+        <div class="empty-icon">🔍</div>
+        <h3>Kullanıcı Bulunamadı</h3>
+        <p>Arama kriterinize uygun bir kullanıcı eşleşmedi.</p>
+      </div>
+    } @else {
+      <div class="table-responsive">
+        <table class="modern-table">
+          <thead>
+            <tr>
+              <th>Kullanıcı</th>
+              <th>E-posta</th>
+              <th>Rol</th>
+              <th>Abonelik Durumu</th>
+              <th class="text-right">İşlem</th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (u of filteredUsers(); track u.uid) {
+              <tr>
+                <td>
+                  <div class="user-cell">
+                    <div class="user-avatar-sm">
+                      {{ (u.displayName || u.email || 'U').charAt(0).toUpperCase() }}
+                    </div>
+                    <div class="user-cell-info">
+                      <strong class="user-cell-name">{{ u.displayName || 'İsimsiz Öğrenci' }}</strong>
+                      <span class="user-cell-id">UID: {{ u.uid.substring(0, 8) }}...</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <span class="email-text">{{ u.email }}</span>
+                </td>
+                <td>
+                  <span
+                    class="badge"
+                    [class.badge-primary]="u.role === 'admin'"
+                    [class.badge-neutral]="u.role !== 'admin'"
+                  >
+                    {{ u.role === 'admin' ? 'Yönetici' : 'Öğrenci' }}
+                  </span>
+                </td>
+                <td>
+                  <span
+                    class="badge"
+                    [class.badge-success]="u.subscriptionStatus === 'active'"
+                    [class.badge-warning]="u.subscriptionStatus === 'trial'"
+                    [class.badge-danger]="u.subscriptionStatus === 'expired'"
+                    [class.badge-neutral]="u.subscriptionStatus === 'none' || !u.subscriptionStatus"
+                  >
+                    {{
+                      u.subscriptionStatus === 'active' ? 'Aktif Abone' :
+                      u.subscriptionStatus === 'trial' ? 'Deneme Sürümü' :
+                      u.subscriptionStatus === 'expired' ? 'Süresi Doldu' : 'Abonelik Yok'
+                    }}
+                  </span>
+                </td>
+                <td class="text-right">
+                  <a [routerLink]="['/y0n3t1m-9f3a2/aboneler', u.uid]" class="btn sm outline">
+                    <span>Detay</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="m9 18 6-6-6-6"/>
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    }
+  </div>
+</div>
