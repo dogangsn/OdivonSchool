@@ -1,0 +1,199 @@
+<div class="profile-page container animate-fade-in">
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="header-left">
+      <div class="header-badge">
+        <span>👤 Öğrenci Kontrol Merkezi</span>
+      </div>
+      <h1 class="page-title">Profil &amp; Hesap Ayarları</h1>
+      <p class="page-subtitle">Kişisel bilgilerinizi, hedef sınav kademenizi ve abonelik durumunuzu buradan yönetebilirsiniz.</p>
+    </div>
+
+    <a routerLink="/panel/anasayfa" class="btn outline">
+      <span>← Panele Dön</span>
+    </a>
+  </div>
+
+  @if (appUser(); as user) {
+    <div class="profile-grid">
+      <!-- Left Column: User Profile Hero Card & Subscription -->
+      <div class="left-col">
+        <!-- Profile Identity Card -->
+        <div class="card user-hero-card">
+          <div class="user-avatar-large">
+            {{ (user.displayName || user.email || 'U').charAt(0).toUpperCase() }}
+          </div>
+          <div class="user-identity">
+            <h2 class="user-name">{{ user.displayName || 'Öğrenci' }}</h2>
+            <span class="user-email">{{ user.email }}</span>
+          </div>
+
+          <div class="badges-row">
+            <span
+              class="badge"
+              [class.badge-primary]="user.role === 'admin'"
+              [class.badge-neutral]="user.role !== 'admin'"
+            >
+              {{ user.role === 'admin' ? '🛡️ Yönetici' : '🎓 Öğrenci' }}
+            </span>
+
+            <span
+              class="badge"
+              [class.badge-success]="user.subscriptionStatus === 'active'"
+              [class.badge-warning]="user.subscriptionStatus === 'trial'"
+              [class.badge-neutral]="user.subscriptionStatus === 'none' || !user.subscriptionStatus"
+            >
+              {{
+                user.subscriptionStatus === 'active' ? '🌟 Pro Abone' :
+                user.subscriptionStatus === 'trial' ? '⏳ Deneme' : 'Ücretsiz Üye'
+              }}
+            </span>
+          </div>
+        </div>
+
+        <!-- Subscription Status Card -->
+        <div class="card subscription-card card-glow">
+          <div class="sub-header">
+            <div class="sub-icon">💎</div>
+            <div>
+              <h3>Mevcut Paketiniz</h3>
+              <p>
+                {{
+                  user.subscriptionStatus === 'active'
+                    ? 'Pro üyelik aktif. Tüm ders ve testlere sınırsız erişiminiz var.'
+                    : 'Şu an ücretsiz paketi kullanıyorsunuz.'
+                }}
+              </p>
+            </div>
+          </div>
+
+          <div class="sub-features">
+            <div class="feature-line">
+              <span class="check">✓</span>
+              <span>77 Müfredat Konusu</span>
+            </div>
+            <div class="feature-line">
+              <span class="check">✓</span>
+              <span>Öğretici Yapay Zekâ Çözümleri</span>
+            </div>
+            <div class="feature-line">
+              <span class="check">✓</span>
+              <span>Gelişmiş Başarı Analitiği</span>
+            </div>
+          </div>
+
+          @if (user.subscriptionStatus !== 'active') {
+            <a routerLink="/fiyatlandirma" class="btn primary sm w-full">
+              <span>Pro Pakete Geç (Sınırsız Test) →</span>
+            </a>
+          } @else {
+            <div class="active-pill">
+              <span>✔ Premium Avantajlarınız Aktif</span>
+            </div>
+          }
+        </div>
+      </div>
+
+      <!-- Right Column: Profile Edit Form & Security -->
+      <div class="right-col">
+        <!-- Edit Profile Form -->
+        <div class="card form-card">
+          <h2 class="card-title">Kişisel Bilgiler</h2>
+          <p class="card-desc">Test karnelerinizde ve panonuzda görünecek bilgilerinizi güncelleyin.</p>
+
+          @if (saveMessage(); as msg) {
+            <div class="alert-box animate-fade-in" [class]="msg.type">
+              <span>{{ msg.text }}</span>
+            </div>
+          }
+
+          <form class="profile-form" (ngSubmit)="saveProfile()">
+            <div class="form-group">
+              <label for="displayNameField">Ad ve Soyad</label>
+              <input
+                id="displayNameField"
+                type="text"
+                [ngModel]="displayName()"
+                (ngModelChange)="displayName.set($event)"
+                name="displayName"
+                placeholder="Örn: Ahmet Yılmaz"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="emailField">E-posta Adresi</label>
+              <input
+                id="emailField"
+                type="email"
+                [value]="user.email"
+                disabled
+                title="E-posta adresi güvenlik nedeniyle değiştirilemez."
+              />
+              <span class="field-hint">Giriş için kullandığınız e-posta adresi değiştirilemez.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="gradeLevelField">Hedef Eğitim Kademesi / Sınav</label>
+              <select
+                id="gradeLevelField"
+                [ngModel]="gradeLevel()"
+                (ngModelChange)="gradeLevel.set($event)"
+                name="gradeLevel"
+              >
+                <option value="ilkokul">🌱 İlkokul (1, 2, 3 ve 4. Sınıflar)</option>
+                <option value="ortaokul">🎒 Ortaokul (5, 6, 7, 8. Sınıf &amp; LGS)</option>
+                <option value="lise">🏛️ Lise (9, 10, 11, 12. Sınıf &amp; YKS TYT/AYT)</option>
+                <option value="kpss">💼 KPSS (Genel Yetenek &amp; Genel Kültür)</option>
+              </select>
+              <span class="field-hint">Seçtiğiniz kademe test seçim ekranında öncelikli olarak karşınıza çıkar.</span>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn primary" [disabled]="isSaving()">
+                @if (isSaving()) {
+                  <span class="spinner sm"></span>
+                  <span>Kaydediliyor...</span>
+                } @else {
+                  <span>Değişiklikleri Kaydet</span>
+                }
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Security / Password Reset Card -->
+        <div class="card form-card">
+          <h2 class="card-title">Hesap Güvenliği &amp; Şifre</h2>
+          <p class="card-desc">Şifrenizi yenilemek için kayıtlı e-posta adresinize güvenli bir sıfırlama bağlantısı gönderin.</p>
+
+          @if (resetMessage(); as msg) {
+            <div class="alert-box animate-fade-in" [class]="msg.type">
+              <span>{{ msg.text }}</span>
+            </div>
+          }
+
+          <div class="security-action">
+            <div class="sec-text">
+              <strong>Şifre Değiştirme Bağlantısı</strong>
+              <span>Tek tıkla e-postanıza güvenli parola sıfırlama bağlantısı gönderilir.</span>
+            </div>
+            <button
+              type="button"
+              class="btn outline"
+              [disabled]="isResettingPassword()"
+              (click)="requestPasswordReset()"
+            >
+              @if (isResettingPassword()) {
+                <span class="spinner sm"></span>
+                <span>Gönderiliyor...</span>
+              } @else {
+                <span>Sıfırlama E-postası Gönder</span>
+              }
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  }
+</div>

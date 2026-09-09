@@ -1,7 +1,9 @@
-import { Component, inject, signal, computed } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { Component, inject, signal } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { Router, RouterLink } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { AuthService } from '../../core/services/auth';
+import { FirestoreService } from '../../core/services/firestore';
 
 interface PricingPlan {
   id: string;
@@ -18,16 +20,28 @@ interface PricingPlan {
 
 @Component({
   selector: 'app-pricing',
-  imports: [RouterLink],
+  imports: [RouterLink, FormsModule],
   templateUrl: './pricing.html',
   styleUrl: './pricing.scss',
 })
 export class Pricing {
   private auth = inject(AuthService);
+  private firestoreSvc = inject(FirestoreService);
+  private router = inject(Router);
+
   appUser = toSignal(this.auth.appUser$, { initialValue: null });
 
   isYearly = signal(true);
   Math = Math;
+
+  // Checkout Modal State
+  selectedPlanForCheckout = signal<PricingPlan | null>(null);
+  checkoutStep = signal<'form' | 'processing' | 'success'>('form');
+  cardHolder = signal('');
+  cardNumber = signal('');
+  cardExpiry = signal('');
+  cardCvc = signal('');
+  checkoutError = signal<string | null>(null);
 
   plans: PricingPlan[] = [
     {
@@ -115,5 +129,76 @@ export class Pricing {
 
   toggleFaq(index: number) {
     this.faqs[index].isOpen.update((v) => !v);
+  }
+
+  openCheckout(plan: PricingPlan) {
+    if (plan.monthlyPrice === 0) {
+      if (this.appUser()) {
+        this.router.navigate(['/panel/kategoriler']);
+      } else {
+        this.router.navigate(['/kategoriler']);
+      }
+      return;
+    }
+
+    if (!this.appUser()) {
+      this.router.navigate(['/kayit']);
+      return;
+    }
+
+    this.selectedPlanForCheckout.set(plan);
+    this.checkoutStep.set('form');
+    this.checkoutError.set(null);
+    this.cardHolder.set(this.appUser()?.displayName || '');
+    this.cardNumber.set('');
+    this.cardExpiry.set('');
+    this.cardCvc.set('');
+  }
+
+  closeCheckout() {
+    this.selectedPlanForCheckout.set(null);
+    this.checkoutStep.set('form');
+  }
+
+  async processPayment() {
+    const plan = this.selectedPlanForCheckout();
+    const user = this.appUser();
+    if (!plan || !user) return;
+
+    const holder = this.cardHolder().trim();
+    const number = this.cardNumber().replace(/\s+/g, '');
+    const expiry = this.cardExpiry().trim();
+    const cvc = this.cardCvc().trim();
+
+    if (!holder) {
+      this.checkoutError.set('Lütfen kart üzerindeki adı ve soyadı girin.');
+      return;
+    }
+    if (number.length < 15) {
+      this.checkoutError.set('Lütfen geçerli 16 haneli bir kart numarası girin.');
+      return;
+    }
+    if (!expiry || expiry.length < 4) {
+      this.checkoutError.set('Lütfen son kullanma tarihini girin (AA/YY).');
+      return;
+    }
+    if (cvc.length < 3) {
+      this.checkoutError.set('Lütfen 3 haneli güvenlik kodunu (CVC) girin.');
+      return;
+    }
+
+    this.checkoutError.set(null);
+    this.checkoutStep.set('processing');
+
+    // Simulate bank authorization delay
+    await new Promise((resolve) => setTimeout(resolve, 1400));
+
+    try {
+      await this.firestoreSvc.updateUserSubscription(user.uid, 'active');
+      this.checkoutStep.set('success');
+    } catch (err: any) {
+      this.checkoutStep.set('form');
+      this.checkoutError.set(`Ödeme onaylanamadı: ${err?.message || 'Bilinmeyen hata'}`);
+    }
   }
 }

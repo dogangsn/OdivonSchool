@@ -84,6 +84,95 @@
       </div>
     </div>
 
+    <!-- Admin Actions & Role Management -->
+    <div class="card admin-actions-card">
+      <div class="actions-header">
+        <div>
+          <h2 class="card-title">⚙️ Yetki &amp; Abonelik Yönetimi</h2>
+          <p class="actions-sub">Kullanıcının sistem rolünü ve platform abonelik paketini anında güncelleyin.</p>
+        </div>
+        @if (isUpdating()) {
+          <span class="updating-badge">
+            <span class="spinner sm"></span>
+            <span>Kaydediliyor...</span>
+          </span>
+        }
+      </div>
+
+      @if (actionMessage(); as msg) {
+        <div class="alert-box animate-fade-in" [class]="msg.type">
+          <span>{{ msg.text }}</span>
+        </div>
+      }
+
+      <div class="actions-grid">
+        <!-- Role Toggle Section -->
+        <div class="action-block">
+          <span class="block-label">Sistem Rolü</span>
+          <div class="block-content">
+            <span class="current-tag">Mevcut: <strong>{{ u.role === 'admin' ? 'Yönetici (Admin)' : 'Öğrenci (Standart)' }}</strong></span>
+            <button
+              type="button"
+              class="btn sm"
+              [class.danger]="u.role === 'admin'"
+              [class.primary]="u.role !== 'admin'"
+              [disabled]="isUpdating()"
+              (click)="toggleRole()"
+            >
+              @if (u.role === 'admin') {
+                <span>❌ Yönetici Yetkisini Kaldır</span>
+              } @else {
+                <span>🛡️ Yönetici (Admin) Yap</span>
+              }
+            </button>
+          </div>
+        </div>
+
+        <!-- Subscription Management Section -->
+        <div class="action-block">
+          <span class="block-label">Abonelik Durumu</span>
+          <div class="block-content">
+            <div class="sub-btn-group">
+              <button
+                type="button"
+                class="btn sm"
+                [class.success]="u.subscriptionStatus === 'active'"
+                [class.outline]="u.subscriptionStatus !== 'active'"
+                [disabled]="isUpdating() || u.subscriptionStatus === 'active'"
+                (click)="setSubscription('active')"
+              >
+                🌟 Aktif Pro
+              </button>
+              <button
+                type="button"
+                class="btn sm outline"
+                [disabled]="isUpdating() || u.subscriptionStatus === 'trial'"
+                (click)="setSubscription('trial')"
+              >
+                ⏳ Deneme
+              </button>
+              <button
+                type="button"
+                class="btn sm outline"
+                [disabled]="isUpdating() || u.subscriptionStatus === 'none' || !u.subscriptionStatus"
+                (click)="setSubscription('none')"
+              >
+                İptal Et / Yok
+              </button>
+              <button
+                type="button"
+                class="btn sm danger"
+                [disabled]="isUpdating() || u.subscriptionStatus === 'expired'"
+                (click)="setSubscription('expired')"
+              >
+                Süresi Doldu
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- User Test History -->
     <div class="card history-card">
       <h2 class="card-title">Öğrencinin Test Geçmişi</h2>

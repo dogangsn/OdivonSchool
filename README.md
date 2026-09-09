@@ -2,6 +2,8 @@
 
 Angular + Firebase ile İlkokul / Ortaokul / Lise / KPSS test çözme platformu.
 
+> 📖 **Detaylı İşlemler & Operasyon Rehberi:** Projenin tüm kurulum, AI soru üretimi, CLI araçları, admin paneli ve veritabanı işlemlerinin adım adım anlatımı için [md/proje_islemleri_rehberi.md](md/proje_islemleri_rehberi.md) dosyasını inceleyin.
+
 ## Bu iskelette neler var
 
 - **Auth**: E-posta/şifre ile giriş-kayıt (`src/app/features/auth`)
@@ -36,10 +38,12 @@ Angular + Firebase ile İlkokul / Ortaokul / Lise / KPSS test çözme platformu.
    - `cd scripts && npm install && node seed.js`
    - Bu, 17 kategori (4 seviye × birkaç ders/konu) ve birkaç kategoriye örnek onaylı soru ekler; script tekrar çalıştırılırsa kategorileri günceller, aynı soruyu tekrar eklemez
 
-## Henüz yapılmadı / sıradaki adımlar
+## Tamamlanan Özellikler & Altyapı
 
-- Ödeme sağlayıcısı entegrasyonu (Iyzico/Stripe) — Cloud Functions ile webhook dinleme, `subscriptions` koleksiyonunu güncelleme
-- `scripts/questions.js` içinde örnek sorusu olmayan kategoriler için ya elle soru ekleyin ya da admin panelinden AI ile ürettirip onaylayın
-- Admin özel auth claim'i (Firestore doc yerine `request.auth.token.admin` ile daha performanslı güvenlik kuralı)
-- Gerçek stil/tasarım (şu an bileşenlerde sadece iskelet HTML/SCSS var)
-- AI'nin ürettiği soruların otomatik kalite kontrolü (ör. çok kısa/anlamsız seçenekleri filtreleme)
+- **Ana Sayfa (Landing Page):** İnteraktif soru önizlemeli, 4 kademe tanıtımlı ve dönüşüm odaklı karşılama sayfası (`src/app/features/home`).
+- **Öğrenci Profili & Ayarlar:** Sınıf seviyesi, isim ve şifre yönetimi (`src/app/features/user-panel/profile`).
+- **Admin Panelinde Yetki & Abonelik Yönetimi:** Tek tıkla Admin yetkisi verme veya Pro/VIP abonelik tanımlama (`/y0n3t1m-9f3a2/aboneler/:userId`).
+- **İnteraktif Ödeme & Aktivasyon Modalı:** `/fiyatlandirma` sayfasından anında Pro üyeliği aktive eden güvenli ödeme penceresi.
+- **Pedagojik Test Çözümü:** "Pas Geç / Boş Bırak" ve doğru yanıtlarda da "Çözüm Açıklamasını Gör" kontrolleri.
+- **Yapay Zekâ ile Otomatik Soru Üretimi:** Admin panelinden veya `scripts/batch-generate-all.js` CLI aracıyla 77 kategorinin tamamına Google Gemini 2.0 Flash ile soru üretimi.
+

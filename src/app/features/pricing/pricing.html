@@ -69,17 +69,18 @@
         </div>
 
         <div class="plan-cta">
-          <a
-            [routerLink]="appUser() ? '/panel/kategoriler' : '/kayit'"
+          <button
+            type="button"
             class="btn lg plan-btn"
             [class]="plan.ctaClass"
+            (click)="openCheckout(plan)"
           >
             <span>{{ plan.ctaText }}</span>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M5 12h14"/>
               <path d="m12 5 7 7-7 7"/>
             </svg>
-          </a>
+          </button>
         </div>
 
         <div class="plan-features">
@@ -150,3 +151,148 @@
     </div>
   </div>
 </div>
+
+<!-- ============================================================ -->
+<!-- CHECKOUT & PAYMENT MODAL                                     -->
+<!-- ============================================================ -->
+@if (selectedPlanForCheckout(); as plan) {
+  <div class="modal-overlay animate-fade-in" (click)="closeCheckout()">
+    <div class="modal-card checkout-modal card" (click)="$event.stopPropagation()">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <div class="modal-icon">💳</div>
+          <div>
+            <h3>Güvenli Ödeme &amp; Abonelik Başlatma</h3>
+            <p>{{ plan.name }} &bull; {{ isYearly() ? 'Yıllık Plan (35% İndirimli)' : 'Aylık Plan' }}</p>
+          </div>
+        </div>
+        <button type="button" class="close-btn" (click)="closeCheckout()">✕</button>
+      </div>
+
+      <div class="modal-body">
+        @if (checkoutStep() === 'form') {
+          <!-- Order Summary Pill -->
+          <div class="order-summary-box">
+            <div class="summary-line">
+              <span class="plan-label">{{ plan.name }} ({{ isYearly() ? 'Yıllık' : 'Aylık' }})</span>
+              <span class="plan-price">₺{{ isYearly() ? plan.yearlyPrice : plan.monthlyPrice }}</span>
+            </div>
+            <div class="summary-sub">KDV Dahildir &bull; 14 Gün İade Garantisi &bull; İstediğin an iptal et</div>
+          </div>
+
+          @if (checkoutError()) {
+            <div class="alert-box danger animate-fade-in">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="12" y1="8" x2="12" y2="12"/>
+              </svg>
+              <span>{{ checkoutError() }}</span>
+            </div>
+          }
+
+          <form class="checkout-form" (ngSubmit)="processPayment()">
+            <div class="form-group">
+              <label for="cardHolderField">Kart Üzerindeki İsim</label>
+              <input
+                id="cardHolderField"
+                type="text"
+                [ngModel]="cardHolder()"
+                (ngModelChange)="cardHolder.set($event)"
+                name="cardHolder"
+                placeholder="Ad Soyad"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="cardNumberField">Kart Numarası</label>
+              <div class="input-with-icon">
+                <input
+                  id="cardNumberField"
+                  type="text"
+                  [ngModel]="cardNumber()"
+                  (ngModelChange)="cardNumber.set($event)"
+                  name="cardNumber"
+                  placeholder="5428 •••• •••• 1234"
+                  maxlength="19"
+                  required
+                />
+                <span class="card-brands">💳 Visa / MC</span>
+              </div>
+            </div>
+
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="cardExpiryField">Son Kul. Tarihi</label>
+                <input
+                  id="cardExpiryField"
+                  type="text"
+                  [ngModel]="cardExpiry()"
+                  (ngModelChange)="cardExpiry.set($event)"
+                  name="cardExpiry"
+                  placeholder="AA/YY"
+                  maxlength="5"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="cardCvcField">Güvenlik Kodu (CVC)</label>
+                <input
+                  id="cardCvcField"
+                  type="text"
+                  [ngModel]="cardCvc()"
+                  (ngModelChange)="cardCvc.set($event)"
+                  name="cardCvc"
+                  placeholder="123"
+                  maxlength="4"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="security-guarantee">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="18" height="11" x="3" y="11" rx="2" ry="2"/>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+              </svg>
+              <span>256-Bit Banka Düzeyinde SSL Güvenli Şifreleme</span>
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn outline" (click)="closeCheckout()">Vazgeç</button>
+              <button type="submit" class="btn primary lg pay-btn">
+                <span>Ödemeyi Güvenle Yap (₺{{ isYearly() ? plan.yearlyPrice : plan.monthlyPrice }})</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+              </button>
+            </div>
+          </form>
+        } @else if (checkoutStep() === 'processing') {
+          <!-- Bank Processing State -->
+          <div class="processing-view animate-fade-in">
+            <div class="spinner lg"></div>
+            <h3>Banka Onayı Alınıyor...</h3>
+            <p>3D Secure ve kart doğrulama işlemi yapılıyor, lütfen sayfayı kapatmayın.</p>
+          </div>
+        } @else if (checkoutStep() === 'success') {
+          <!-- Success State -->
+          <div class="success-view animate-fade-in">
+            <div class="success-emoji">🎉</div>
+            <h2>Tebrikler! Aboneliğiniz Aktif!</h2>
+            <p>
+              <strong>{{ plan.name }}</strong> üyeliğiniz başarıyla başlatıldı. Artık 77 müfredat konusundaki tüm sorulara sınırsız erişebilir ve çözebilirsiniz!
+            </p>
+
+            <div class="success-actions">
+              <a routerLink="/panel/kategoriler" class="btn primary lg" (click)="closeCheckout()">
+                <span>Hemen Test Çözmeye Başla →</span>
+              </a>
+            </div>
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+}

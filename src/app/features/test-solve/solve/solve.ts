@@ -64,15 +64,21 @@ export class Solve implements OnInit {
     this.lastAnswerCorrect.set(isCorrect);
     this.isAnswerChecked.set(true);
 
-    if (isCorrect) {
-      // Correct answer feedback: visual delay to see green checkmark
-      setTimeout(() => {
-        this.goToNext();
-      }, 1000);
-    } else {
-      // Wrong answer: show educational explanation
+    if (!isCorrect) {
+      // Wrong answer: automatically show educational explanation
       this.showExplanation.set(true);
     }
+  }
+
+  skipQuestion() {
+    if (this.isAnswerChecked()) return;
+    const timeSpent = Math.round((Date.now() - this.questionStartedAt) / 1000);
+    this.session.answerCurrent('pas', timeSpent);
+    this.goToNext();
+  }
+
+  toggleExplanation() {
+    this.showExplanation.update((v) => !v);
   }
 
   goToNext() {

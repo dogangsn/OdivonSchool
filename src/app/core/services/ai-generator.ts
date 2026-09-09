@@ -124,9 +124,19 @@ export class AiGeneratorService {
       throw new Error('Gemini API boş yanıt döndürdü.');
     }
 
-    let parsed: GeneratedQuestionItem[];
+    let cleanText = (rawText || '').trim();
+    if (cleanText.startsWith('```json')) {
+      cleanText = cleanText.replace(/^```json\s*/, '').replace(/\s*```$/, '');
+    } else if (cleanText.startsWith('```')) {
+      cleanText = cleanText.replace(/^```\s*/, '').replace(/\s*```$/, '');
+    }
+
+    let parsed: any;
     try {
-      parsed = JSON.parse(rawText);
+      parsed = JSON.parse(cleanText);
+      if (!Array.isArray(parsed) && Array.isArray(parsed?.questions)) {
+        parsed = parsed.questions;
+      }
     } catch {
       throw new Error('Yapay zeka yanıtı geçerli JSON formatında değil.');
     }
@@ -233,6 +243,11 @@ JSON ŞEMASI:
       if (!Array.isArray(q.options) || q.options.length !== 4) {
         throw new Error(`${i + 1}. soruda tam 4 seçenek bulunmalıdır.`);
       }
+      q.correctOptionId = (q.correctOptionId || '').toLowerCase().trim();
+      q.options = q.options.map((opt) => ({
+        id: (opt.id || '').toLowerCase().trim(),
+        text: (opt.text || '').trim(),
+      }));
       if (!q.options.some((o) => o.id === q.correctOptionId)) {
         throw new Error(`${i + 1}. sorunun doğru seçeneği (${q.correctOptionId}) şıklar arasında yok.`);
       }

@@ -121,26 +121,64 @@
       <!-- Action Area -->
       <div class="action-footer">
         @if (!isAnswerChecked()) {
-          <button
-            class="btn primary lg confirm-btn"
-            [disabled]="!selectedOptionId()"
-            (click)="confirmAnswer()"
-          >
-            <span>Cevabı Onayla</span>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M5 12h14"/>
-              <path d="m12 5 7 7-7 7"/>
-            </svg>
-          </button>
+          <div class="unanswered-actions">
+            <button
+              type="button"
+              class="btn outline lg skip-btn"
+              (click)="skipQuestion()"
+              title="Bu soruyu boş bırakıp sonrakine geç"
+            >
+              <span>Boş Bırak / Pas Geç →</span>
+            </button>
+
+            <button
+              class="btn primary lg confirm-btn"
+              [disabled]="!selectedOptionId()"
+              (click)="confirmAnswer()"
+            >
+              <span>Cevabı Onayla</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"/>
+                <path d="m12 5 7 7-7 7"/>
+              </svg>
+            </button>
+          </div>
         } @else if (lastAnswerCorrect() === true) {
           <!-- Doğru Cevap Geribildirimi -->
           <div class="feedback-banner correct animate-fade-in">
-            <div class="feedback-icon">🎉</div>
-            <div class="feedback-text">
-              <strong>Tebrikler! Doğru Cevap</strong>
-              <span>Sonraki soruya geçiliyor...</span>
+            <div class="feedback-left">
+              <div class="feedback-icon">🎉</div>
+              <div class="feedback-text">
+                <strong>Tebrikler! Doğru Cevap</strong>
+                <span>Harika bir net daha kazandın!</span>
+              </div>
+            </div>
+
+            <div class="feedback-actions">
+              <button type="button" class="btn sm outline exp-toggle-btn" (click)="toggleExplanation()">
+                {{ showExplanation() ? 'Açıklamayı Kapat' : '💡 Çözümü İncele' }}
+              </button>
+              <button type="button" class="btn primary sm next-btn" (click)="goToNext()">
+                <span>Sonraki Soru →</span>
+              </button>
             </div>
           </div>
+
+          @if (showExplanation()) {
+            <div class="explanation-card animate-fade-in">
+              <div class="exp-header">
+                <div class="exp-icon">💡</div>
+                <div class="exp-title">
+                  <h4>Öğretici Çözüm Açıklaması</h4>
+                  <p>Doğru seçenek: <strong>{{ q.correctOptionId.toUpperCase() }}</strong></p>
+                </div>
+              </div>
+
+              <div class="exp-body">
+                {{ q.explanation }}
+              </div>
+            </div>
+          }
         } @else if (showExplanation()) {
           <!-- Yanlış Cevap: Zengin Çözüm Açıklaması -->
           <div class="explanation-card animate-fade-in">

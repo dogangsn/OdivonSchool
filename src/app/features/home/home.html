@@ -1,0 +1,256 @@
+<div class="home-wrapper animate-fade-in">
+  <!-- Hero Section -->
+  <section class="hero-section container">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-flag">🇹🇷</span>
+        <span>MEB &amp; ÖSYM Müfredatına %100 Tam Uyum</span>
+      </div>
+
+      <h1 class="hero-title">
+        Sınavları Kazanmanın En Akıllı Yolu: <span class="highlight">OdivonSchool</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        İlkokul, LGS, YKS TYT/AYT ve KPSS sınavlarına hazırlanan öğrenciler için yapay zekâ destekli, öğretici açıklamalı ve yeni nesil soru çözüm platformu.
+      </p>
+
+      <div class="hero-actions">
+        <a
+          [routerLink]="appUser() ? '/panel/anasayfa' : '/kategoriler'"
+          class="btn primary lg hero-btn"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="5 3 19 12 5 21 5 3"/>
+          </svg>
+          <span>{{ appUser() ? 'Öğrenci Paneline Git' : 'Hemen Ücretsiz Başla' }}</span>
+        </a>
+
+        <a routerLink="/fiyatlandirma" class="btn outline lg">
+          <span>Paketleri İncele</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m9 18 6-6-6-6"/>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Trust highlights -->
+      <div class="hero-trust">
+        <div class="trust-pill">
+          <span class="pill-dot"></span>
+          <span>Kredi kartı gerekmez</span>
+        </div>
+        <div class="trust-pill">
+          <span class="pill-dot"></span>
+          <span>5 Test Ücretsiz Deneme</span>
+        </div>
+        <div class="trust-pill">
+          <span class="pill-dot"></span>
+          <span>Anında Aktivasyon</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Live Interactive Demo Card -->
+    <div class="hero-demo">
+      <div class="demo-card card card-glow">
+        <div class="demo-header">
+          <div class="demo-tag">
+            <span class="sparkle">✨</span>
+            <span>Canlı Demo Soru</span>
+          </div>
+          <span class="demo-subject">{{ demoQuestion.subject }} · {{ demoQuestion.topic }}</span>
+        </div>
+
+        <p class="demo-prompt">{{ demoQuestion.prompt }}</p>
+
+        <div class="demo-options">
+          @for (opt of demoQuestion.options; track opt.id) {
+            <button
+              type="button"
+              class="demo-option"
+              [class.selected]="selectedDemoOption() === opt.id"
+              [class.correct]="selectedDemoOption() && opt.id === demoQuestion.correctOptionId"
+              [class.wrong]="selectedDemoOption() === opt.id && opt.id !== demoQuestion.correctOptionId"
+              (click)="selectDemoOption(opt.id)"
+            >
+              <span class="opt-letter">{{ opt.id.toUpperCase() }}</span>
+              <span class="opt-text">{{ opt.text }}</span>
+              @if (selectedDemoOption() && opt.id === demoQuestion.correctOptionId) {
+                <span class="opt-badge correct">✔ Doğru</span>
+              } @else if (selectedDemoOption() === opt.id && opt.id !== demoQuestion.correctOptionId) {
+                <span class="opt-badge wrong">✕ Yanlış</span>
+              }
+            </button>
+          }
+        </div>
+
+        @if (showDemoExplanation()) {
+          <div class="demo-explanation animate-fade-in">
+            <div class="exp-title">
+              <span>💡 Öğretici Çözüm Açıklaması:</span>
+              <button type="button" class="reset-btn" (click)="resetDemo()">Tekrar Dene</button>
+            </div>
+            <p>{{ demoQuestion.explanation }}</p>
+          </div>
+        } @else {
+          <div class="demo-hint">
+            <span>👆 Bir seçeneğe dokunarak akıllı çözüm sistemini canlı deneyin!</span>
+          </div>
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Statistics Bar -->
+  <section class="stats-bar">
+    <div class="container stats-inner">
+      <div class="stat-item">
+        <span class="stat-num">77</span>
+        <span class="stat-txt">MEB &amp; ÖSYM Konusu</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num">4</span>
+        <span class="stat-txt">Eğitim Kademesi</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num">%100</span>
+        <span class="stat-txt">Öğretici Çözüm Açıklaması</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num">7/24</span>
+        <span class="stat-txt">Yapay Zekâ Desteği</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Levels Section -->
+  <section class="levels-section container">
+    <div class="section-title-wrap text-center">
+      <div class="section-badge">🎯 Sınavına Uygun Paketi Seç</div>
+      <h2 class="section-title">Hangi Sınava Hazırlanıyorsun?</h2>
+      <p class="section-subtitle">OdivonSchool'da her kademenin müfredatı ve kazanımları özel olarak modellenmiştir.</p>
+    </div>
+
+    <div class="levels-grid">
+      <!-- 1. İlkokul -->
+      <div class="level-card card card-hover">
+        <div class="level-icon-wrap bg-emerald">
+          <span>🌱</span>
+        </div>
+        <div class="level-badge">1, 2, 3 ve 4. Sınıflar</div>
+        <h3>İlkokul Temel Eğitimi</h3>
+        <p>Temel matematik işlemleri, okuduğunu anlama, görsel zekâ ve fen okuryazarlığı ile sağlam bir temel atın.</p>
+        <ul class="level-topics">
+          <li>✓ Doğal Sayılar ve Dört İşlem</li>
+          <li>✓ Paragrafta Anlam ve Kelime Bilgisi</li>
+          <li>✓ Maddeyi Tanıyalım ve Canlılar</li>
+        </ul>
+        <a routerLink="/kategoriler" class="btn outline sm w-full">İlkokul Testlerini Çöz →</a>
+      </div>
+
+      <!-- 2. Ortaokul & LGS -->
+      <div class="level-card card card-hover popular-level">
+        <div class="level-icon-wrap bg-indigo">
+          <span>🎒</span>
+        </div>
+        <div class="level-badge badge-popular">5, 6, 7 ve 8. Sınıf &amp; LGS</div>
+        <h3>Ortaokul &amp; LGS Hazırlık</h3>
+        <p>Yeni nesil beceri temelli sorular, mantık-muhakeme problemleri ve LGS sınav provası testleri.</p>
+        <ul class="level-topics">
+          <li>✓ Çarpanlar ve Katlar (EBOB-EKOK)</li>
+          <li>✓ Üslü ve Köklü İfadeler</li>
+          <li>✓ Sözel Mantık ve Paragraf</li>
+          <li>✓ Mevsimler ve İklim, DNA</li>
+        </ul>
+        <a routerLink="/kategoriler" class="btn primary sm w-full">LGS Testlerini Çöz →</a>
+      </div>
+
+      <!-- 3. Lise & YKS -->
+      <div class="level-card card card-hover">
+        <div class="level-icon-wrap bg-purple">
+          <span>🏛️</span>
+        </div>
+        <div class="level-badge">9-12. Sınıf &amp; TYT / AYT</div>
+        <h3>Lise &amp; YKS Hazırlık</h3>
+        <p>Üniversite sınavında derece hedefleyenler için TYT ve AYT standartlarında ileri düzey sorular.</p>
+        <ul class="level-topics">
+          <li>✓ Fonksiyonlar, Polinomlar ve Türev</li>
+          <li>✓ Kuvvet, Hareket ve Elektrik</li>
+          <li>✓ Modern Atom Teorisi ve Kimya</li>
+          <li>✓ Hücresel Solunum ve Genetik</li>
+        </ul>
+        <a routerLink="/kategoriler" class="btn outline sm w-full">YKS Testlerini Çöz →</a>
+      </div>
+
+      <!-- 4. KPSS -->
+      <div class="level-card card card-hover">
+        <div class="level-icon-wrap bg-amber">
+          <span>💼</span>
+        </div>
+        <div class="level-badge">Genel Yetenek &amp; Genel Kültür</div>
+        <h3>KPSS Memurluk Hazırlık</h3>
+        <p>Kamu personeli sınavı için hız kazandıran problem teknikleri, güncel bilgiler ve anayasa soruları.</p>
+        <ul class="level-topics">
+          <li>✓ Matematik Sayı ve Kesir Problemleri</li>
+          <li>✓ Sözel Mantık ve Dil Bilgisi</li>
+          <li>✓ Osmanlı Tarihi ve İnkılap Tarihi</li>
+          <li>✓ Temel Hukuk ve Anayasa</li>
+        </ul>
+        <a routerLink="/kategoriler" class="btn outline sm w-full">KPSS Testlerini Çöz →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Features Grid -->
+  <section class="features-section container">
+    <div class="section-title-wrap text-center">
+      <div class="section-badge">⚡ Fark Yaratan Özellikler</div>
+      <h2 class="section-title">Neden OdivonSchool?</h2>
+      <p class="section-subtitle">Geleneksel soru bankalarının ötesinde, eksiklerinizi anında kapatan akıllı teknoloji.</p>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature-box card">
+        <div class="feature-icon">🧠</div>
+        <h3>Öğretici Çözüm Açıklamaları</h3>
+        <p>Her sorunun altında formülü, mantığı ve kuralı adım adım anlatan samimi bir öğretmen dili yer alır.</p>
+      </div>
+
+      <div class="feature-box card">
+        <div class="feature-icon">📈</div>
+        <h3>Detaylı Başarı Analitiği</h3>
+        <p>Çözdüğünüz tüm testlerin netlerini, ders bazlı eksiklerinizi ve gelişim grafiğinizi panelinizden takip edin.</p>
+      </div>
+
+      <div class="feature-box card">
+        <div class="feature-icon">⚡</div>
+        <h3>Google Gemini AI Entegrasyonu</h3>
+        <p>En güncel sınav soru tipleri yapay zekâ motoruyla taranır ve denetlenmiş soru havuzuna düzenli olarak eklenir.</p>
+      </div>
+
+      <div class="feature-box card">
+        <div class="feature-icon">📱</div>
+        <h3>Her Cihazda Kusursuz Deneyim</h3>
+        <p>Masaüstü, tablet veya akıllı telefonunuzdan; istediğiniz an, otobüste veya evde kesintisiz test çözün.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final Call to Action -->
+  <section class="cta-banner container">
+    <div class="cta-inner card card-glow">
+      <div class="cta-content">
+        <h2>Hedefindeki Dereceye Ulaşmak İçin İlk Adımı At</h2>
+        <p>Hemen ücretsiz başla, Türkiye müfredatına tam uyumlu sorularla netlerini bugün artırmaya başla.</p>
+        <div class="cta-btns">
+          <a routerLink="/kategoriler" class="btn primary lg">Ücretsiz Test Çözmeye Başla</a>
+          <a routerLink="/kayit" class="btn outline lg">Hesap Oluştur</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

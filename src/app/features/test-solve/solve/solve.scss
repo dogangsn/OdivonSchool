@@ -302,16 +302,52 @@
 .action-footer {
   margin-top: 10px;
 
-  .confirm-btn {
-    width: 100%;
+  .unanswered-actions {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+
+    .skip-btn {
+      flex: 0 0 auto;
+      border-color: var(--border);
+      color: var(--text-muted);
+      &:hover {
+        border-color: var(--text-muted);
+        color: var(--text-main);
+      }
+    }
+
+    .confirm-btn {
+      flex: 1;
+    }
   }
 
   .feedback-banner {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 16px;
     padding: 16px 20px;
     border-radius: var(--radius-md);
+
+    .feedback-left {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .feedback-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .exp-toggle-btn {
+        background-color: #ffffff;
+        border-color: var(--success-border);
+        color: var(--success-text);
+      }
+    }
 
     &.correct {
       background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);

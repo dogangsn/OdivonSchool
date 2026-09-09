@@ -7,6 +7,7 @@ import {
   signOut,
   GoogleAuthProvider,
   signInWithPopup,
+  sendPasswordResetEmail,
 } from '@angular/fire/auth';
 import { Firestore, doc, docData, setDoc, getDoc } from '@angular/fire/firestore';
 import { Observable, switchMap, of } from 'rxjs';
@@ -75,5 +76,9 @@ export class AuthService {
 
   logout() {
     return signOut(this.auth);
+  }
+
+  sendPasswordReset(email: string) {
+    return sendPasswordResetEmail(this.auth, email);
   }
 }

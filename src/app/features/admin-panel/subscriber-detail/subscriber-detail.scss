@@ -94,6 +94,83 @@
   }
 }
 
+.admin-actions-card {
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-left: 4px solid var(--primary);
+
+  .actions-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+
+    .card-title {
+      font-size: 1.35rem;
+      font-weight: 700;
+    }
+
+    .actions-sub {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .updating-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--primary);
+    }
+  }
+
+  .actions-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .action-block {
+    background-color: var(--bg-alt);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    .block-label {
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--text-muted);
+    }
+
+    .block-content {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .current-tag {
+        font-size: 0.9rem;
+        color: var(--text-main);
+      }
+    }
+  }
+
+  .sub-btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+}
+
 .empty-tests {
   padding: 36px 0;
   text-align: center;
@@ -106,6 +183,9 @@
     align-items: flex-start;
   }
   .user-stats-grid {
+    grid-template-columns: 1fr;
+  }
+  .admin-actions-card .actions-grid {
     grid-template-columns: 1fr;
   }
 }

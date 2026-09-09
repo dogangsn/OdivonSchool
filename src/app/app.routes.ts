@@ -9,7 +9,7 @@ import { adminGuard } from './core/guards/admin-guard';
  * looking URL only reduces casual discovery, it does not replace auth.
  */
 export const routes: Routes = [
-  { path: '', redirectTo: 'giris', pathMatch: 'full' },
+  { path: '', loadComponent: () => import('./features/home/home').then(m => m.Home) },
 
   { path: 'giris', loadComponent: () => import('./features/auth/login/login').then(m => m.Login) },
   { path: 'kayit', loadComponent: () => import('./features/auth/register/register').then(m => m.Register) },
@@ -45,6 +45,10 @@ export const routes: Routes = [
         path: 'gecmis',
         loadComponent: () =>
           import('./features/user-panel/test-history/test-history').then(m => m.TestHistory),
+      },
+      {
+        path: 'profil',
+        loadComponent: () => import('./features/user-panel/profile/profile').then(m => m.Profile),
       },
       // Aliases for links pointing to /panel/kategoriler and /panel/test/...
       {

@@ -90,4 +90,25 @@ export class FirestoreService {
   userById(uid: string): Observable<AppUser> {
     return docData(doc(this.firestore, `users/${uid}`), { idField: 'uid' }) as Observable<AppUser>;
   }
+
+  async updateUserRole(uid: string, role: 'admin' | 'user'): Promise<void> {
+    const ref = doc(this.firestore, `users/${uid}`);
+    await updateDoc(ref, { role });
+  }
+
+  async updateUserSubscription(
+    uid: string,
+    subscriptionStatus: 'active' | 'none' | 'trial' | 'expired'
+  ): Promise<void> {
+    const ref = doc(this.firestore, `users/${uid}`);
+    await updateDoc(ref, { subscriptionStatus });
+  }
+
+  async updateUserProfile(
+    uid: string,
+    updates: { displayName?: string; gradeLevel?: 'ilkokul' | 'ortaokul' | 'lise' | 'kpss' }
+  ): Promise<void> {
+    const ref = doc(this.firestore, `users/${uid}`);
+    await updateDoc(ref, updates);
+  }
 }
