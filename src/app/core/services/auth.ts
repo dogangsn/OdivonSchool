@@ -8,6 +8,7 @@ import {
   GoogleAuthProvider,
   signInWithPopup,
   sendPasswordResetEmail,
+  updateProfile,
 } from '@angular/fire/auth';
 import { Firestore, doc, docData, setDoc, getDoc } from '@angular/fire/firestore';
 import { Observable, switchMap, of } from 'rxjs';
@@ -36,11 +37,22 @@ export class AuthService {
     displayName: string,
     gradeLevel?: 'ilkokul' | 'ortaokul' | 'lise' | 'kpss'
   ) {
-    const cred = await createUserWithEmailAndPassword(this.auth, email, password);
+    const cleanEmail = email.trim();
+    const cleanName = displayName.trim();
+    const cred = await createUserWithEmailAndPassword(this.auth, cleanEmail, password);
+
+    if (cleanName) {
+      try {
+        await updateProfile(cred.user, { displayName: cleanName });
+      } catch (err) {
+        console.warn('[AuthService] updateProfile displayName error:', err);
+      }
+    }
+
     const newUser: AppUser = {
       uid: cred.user.uid,
-      email,
-      displayName,
+      email: cleanEmail,
+      displayName: cleanName || 'Öğrenci',
       role: 'user',
       gradeLevel: gradeLevel ?? 'ortaokul',
       createdAt: Date.now(),
@@ -50,12 +62,36 @@ export class AuthService {
     return cred;
   }
 
-  login(email: string, password: string) {
-    return signInWithEmailAndPassword(this.auth, email, password);
+  async login(email: string, password: string) {
+    const cleanEmail = email.trim();
+    const cred = await signInWithEmailAndPassword(this.auth, cleanEmail, password);
+
+    // Self-healing: if Firestore doc is missing for any reason, initialize it
+    try {
+      const userDocRef = doc(this.firestore, `users/${cred.user.uid}`);
+      const snap = await getDoc(userDocRef);
+      if (!snap.exists()) {
+        const newUser: AppUser = {
+          uid: cred.user.uid,
+          email: cred.user.email ?? cleanEmail,
+          displayName: cred.user.displayName || 'Öğrenci',
+          role: 'user',
+          gradeLevel: 'ortaokul',
+          createdAt: Date.now(),
+          subscriptionStatus: 'none',
+        };
+        await setDoc(userDocRef, newUser);
+      }
+    } catch (err) {
+      console.warn('[AuthService] Ensure user doc exists on login failed:', err);
+    }
+
+    return cred;
   }
 
-  async loginWithGoogle() {
+  async loginWithGoogle(gradeLevel?: 'ilkokul' | 'ortaokul' | 'lise' | 'kpss') {
     const provider = new GoogleAuthProvider();
+    provider.setCustomParameters({ prompt: 'select_account' });
     const cred = await signInWithPopup(this.auth, provider);
     const userDocRef = doc(this.firestore, `users/${cred.user.uid}`);
     const snap = await getDoc(userDocRef);
@@ -64,8 +100,9 @@ export class AuthService {
       const newUser: AppUser = {
         uid: cred.user.uid,
         email: cred.user.email ?? '',
-        displayName: cred.user.displayName ?? 'Öğrenci',
+        displayName: cred.user.displayName || 'Öğrenci',
         role: 'user',
+        gradeLevel: gradeLevel ?? 'ortaokul',
         createdAt: Date.now(),
         subscriptionStatus: 'none',
       };

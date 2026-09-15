@@ -4,6 +4,7 @@ import { Router, RouterLink } from '@angular/router';
 import { AuthService } from '../../../core/services/auth';
 import { GuestQuotaService } from '../../../core/services/guest-quota';
 import { EducationLevel } from '../../../models/test-category';
+import { getAuthErrorMessage } from '../../../core/utils/auth-error';
 
 @Component({
   selector: 'app-register',
@@ -35,8 +36,9 @@ export class Register {
       // Clean slate - ensure new registered user starts with 0 data
       this.guestQuota.clearGuestData();
       this.router.navigateByUrl('/panel');
-    } catch (err) {
-      this.errorMessage.set('Kayıt başarısız. Bilgilerinizi kontrol edin.');
+    } catch (err: any) {
+      console.error('[Register] submit error:', err);
+      this.errorMessage.set(getAuthErrorMessage(err));
     } finally {
       this.loading.set(false);
     }
@@ -46,14 +48,17 @@ export class Register {
     this.errorMessage.set(null);
     this.loading.set(true);
     try {
-      await this.auth.loginWithGoogle();
+      await this.auth.loginWithGoogle(this.gradeLevel());
+      this.guestQuota.clearGuestData();
       this.router.navigateByUrl('/panel');
     } catch (err: any) {
+      console.error('[Register] loginWithGoogle error:', err);
       if (err?.code !== 'auth/popup-closed-by-user') {
-        this.errorMessage.set('Google ile kayıt/giriş yapılırken bir sorun oluştu.');
+        this.errorMessage.set(getAuthErrorMessage(err));
       }
     } finally {
       this.loading.set(false);
     }
   }
 }
+

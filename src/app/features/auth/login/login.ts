@@ -2,6 +2,7 @@ import { Component, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
 import { AuthService } from '../../../core/services/auth';
+import { getAuthErrorMessage } from '../../../core/utils/auth-error';
 
 @Component({
   selector: 'app-login',
@@ -24,8 +25,9 @@ export class Login {
     try {
       await this.auth.login(this.email, this.password);
       this.router.navigateByUrl('/panel');
-    } catch (err) {
-      this.errorMessage.set('Giriş başarısız. E-posta ve şifrenizi kontrol edin.');
+    } catch (err: any) {
+      console.error('[Login] submit error:', err);
+      this.errorMessage.set(getAuthErrorMessage(err));
     } finally {
       this.loading.set(false);
     }
@@ -38,11 +40,13 @@ export class Login {
       await this.auth.loginWithGoogle();
       this.router.navigateByUrl('/panel');
     } catch (err: any) {
+      console.error('[Login] loginWithGoogle error:', err);
       if (err?.code !== 'auth/popup-closed-by-user') {
-        this.errorMessage.set('Google ile giriş yapılırken bir sorun oluştu.');
+        this.errorMessage.set(getAuthErrorMessage(err));
       }
     } finally {
       this.loading.set(false);
     }
   }
 }
+
