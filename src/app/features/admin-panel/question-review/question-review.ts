@@ -138,7 +138,7 @@ export class QuestionReview implements OnInit {
 
       this.generateMessage.set({
         type: 'success',
-        text: `✔ Başarılı: Gemini 2.0 Flash tarafından ${questions.length} adet soru üretildi ve onay havuzuna eklendi!`,
+        text: `✔ Başarılı: Gemini 3.8 Flash tarafından ${questions.length} adet soru üretildi ve onay havuzuna eklendi!`,
       });
     } catch (err: any) {
       this.generateMessage.set({

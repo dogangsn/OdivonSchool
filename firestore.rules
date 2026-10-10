@@ -19,16 +19,31 @@ service cloud.firestore {
         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
     }
 
+    // Basic sanity checks so a client cannot store impossible scores.
+    // Scoring still happens client-side; moving it to a Cloud Function is
+    // the long-term fix.
+    function isValidAttempt(a) {
+      return a.totalCount is int && a.correctCount is int && a.successRate is int &&
+        a.totalCount > 0 && a.totalCount <= 50 &&
+        a.correctCount >= 0 && a.correctCount <= a.totalCount &&
+        a.successRate >= 0 && a.successRate <= 100 &&
+        a.answers is list && a.answers.size() == a.totalCount;
+    }
+
     match /users/{userId} {
       allow read: if isOwner(userId) || isAdmin();
-      // Users may update their own profile fields, but never their own role
-      // or subscription status - those are only touched by trusted backends
-      // (Cloud Functions handling payment webhooks / admin actions).
-      allow create: if isOwner(userId) && request.resource.data.role == 'user';
+      // Users may only touch their own profile fields (name, kademe, sınıf).
+      // Role and every subscription field are only written by admins or
+      // trusted backends (payment webhooks via the Admin SDK).
+      allow create: if isOwner(userId) &&
+        request.resource.data.role == 'user' &&
+        request.resource.data.subscriptionStatus == 'none' &&
+        !('subscriptionId' in request.resource.data) &&
+        !('subscriptionExpiresAt' in request.resource.data);
       allow update: if isAdmin() ||
         (isOwner(userId) &&
-          request.resource.data.role == resource.data.role &&
-          request.resource.data.subscriptionStatus == resource.data.subscriptionStatus);
+          request.resource.data.diff(resource.data).affectedKeys()
+            .hasOnly(['displayName', 'gradeLevel', 'grade']));
       allow delete: if isAdmin();
     }
 
@@ -45,7 +60,9 @@ service cloud.firestore {
 
     match /testAttempts/{attemptId} {
       allow read: if isAdmin() || (isSignedIn() && resource.data.userId == request.auth.uid);
-      allow create: if isSignedIn() && request.resource.data.userId == request.auth.uid;
+      allow create: if isSignedIn() &&
+        request.resource.data.userId == request.auth.uid &&
+        isValidAttempt(request.resource.data);
       allow update, delete: if isAdmin();
     }
 

@@ -130,7 +130,7 @@ JSON ŞEMASI:
 
   const options = {
     hostname: 'generativelanguage.googleapis.com',
-    path: `/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
+    path: `/v1beta/models/gemini-3.8-flash:generateContent?key=${apiKey}`,
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
   };
@@ -201,7 +201,7 @@ async function main() {
           explanation: q.explanation,
           difficulty: q.difficulty || difficulty,
           source: 'ai-generated',
-          aiModel: 'gemini-2.0-flash',
+          aiModel: 'gemini-3.8-flash',
           reviewStatus: autoApprove ? 'approved' : 'draft',
           createdAt: timestamp,
           usageCount: 0,

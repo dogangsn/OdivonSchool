@@ -16,7 +16,7 @@ import { Question } from '../../models/question';
 import { TestCategory } from '../../models/test-category';
 
 const API_KEY_STORAGE_KEY = 'odivon_gemini_api_key';
-const GEMINI_MODEL = 'gemini-2.0-flash';
+const GEMINI_MODEL = 'gemini-3.8-flash';
 
 export interface GeneratedQuestionItem {
   prompt: string;
@@ -75,14 +75,14 @@ export class AiGeneratorService {
         return { ok: false, message: `Geçersiz API Anahtarı: ${errMsg}` };
       }
 
-      return { ok: true, message: 'API Anahtarı başarıyla doğrulandı! Gemini 2.0 Flash hazır.' };
+      return { ok: true, message: 'API Anahtarı başarıyla doğrulandı! Gemini 3.8 Flash hazır.' };
     } catch (e: any) {
       return { ok: false, message: `Bağlantı hatası: ${e.message}` };
     }
   }
 
   /**
-   * Generates multiple-choice questions for a specific MEB/ÖSYM category using Gemini 2.0 Flash.
+   * Generates multiple-choice questions for a specific MEB/ÖSYM category using Gemini 3.8 Flash.
    * Saves the results to Firestore as draft questions.
    */
   async generateQuestions(

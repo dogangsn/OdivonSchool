@@ -198,7 +198,14 @@ export class Pricing {
       this.checkoutStep.set('success');
     } catch (err: any) {
       this.checkoutStep.set('form');
-      this.checkoutError.set(`Ödeme onaylanamadı: ${err?.message || 'Bilinmeyen hata'}`);
+      // Subscriptions can only be activated server-side (firestore.rules), so
+      // until a real payment provider + webhook is wired up this always ends here
+      // for regular users. Show a clear message instead of a raw permission error.
+      this.checkoutError.set(
+        err?.code === 'permission-denied'
+          ? 'Online ödeme altyapımız çok yakında aktif olacak. Pro üyelik için lütfen bizimle iletişime geçin.'
+          : `Ödeme onaylanamadı: ${err?.message || 'Bilinmeyen hata'}`
+      );
     }
   }
 }

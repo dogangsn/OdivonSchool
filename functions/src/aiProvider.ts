@@ -12,7 +12,7 @@ import { defineSecret } from 'firebase-functions/params';
 
 export const geminiApiKey = defineSecret('GEMINI_API_KEY');
 
-const GEMINI_MODEL = 'gemini-2.0-flash'; // fast + free-tier eligible; adjust as needed
+const GEMINI_MODEL = 'gemini-3.8-flash'; // fast + free-tier eligible; adjust as needed
 
 export async function callLLM(prompt: string): Promise<string> {
   const apiKey = geminiApiKey.value();

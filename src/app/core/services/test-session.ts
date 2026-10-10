@@ -31,11 +31,14 @@ export class TestSessionService {
     this.startedAt.set(Date.now());
   }
 
-  /** Records the answer for the current question and returns whether it was correct. */
-  answerCurrent(selectedOptionId: string, timeSpentSeconds: number): boolean {
+  /**
+   * Records the answer for the current question and returns whether it was correct.
+   * `null` means the question was skipped (boş bırakıldı).
+   */
+  answerCurrent(selectedOptionId: string | null, timeSpentSeconds: number): boolean {
     const q = this.currentQuestion();
     if (!q) return false;
-    const isCorrect = selectedOptionId === q.correctOptionId;
+    const isCorrect = selectedOptionId !== null && selectedOptionId === q.correctOptionId;
     this.answers.update((list) => [
       ...list,
       { questionId: q.id, selectedOptionId, isCorrect, timeSpentSeconds },

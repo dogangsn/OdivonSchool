@@ -45,5 +45,5 @@ Angular + Firebase ile İlkokul / Ortaokul / Lise / KPSS test çözme platformu.
 - **Admin Panelinde Yetki & Abonelik Yönetimi:** Tek tıkla Admin yetkisi verme veya Pro/VIP abonelik tanımlama (`/y0n3t1m-9f3a2/aboneler/:userId`).
 - **İnteraktif Ödeme & Aktivasyon Modalı:** `/fiyatlandirma` sayfasından anında Pro üyeliği aktive eden güvenli ödeme penceresi.
 - **Pedagojik Test Çözümü:** "Pas Geç / Boş Bırak" ve doğru yanıtlarda da "Çözüm Açıklamasını Gör" kontrolleri.
-- **Yapay Zekâ ile Otomatik Soru Üretimi:** Admin panelinden veya `scripts/batch-generate-all.js` CLI aracıyla 77 kategorinin tamamına Google Gemini 2.0 Flash ile soru üretimi.
+- **Yapay Zekâ ile Otomatik Soru Üretimi:** Admin panelinden veya `scripts/batch-generate-all.js` CLI aracıyla 77 kategorinin tamamına Google Gemini 3.8 Flash ile soru üretimi.
 

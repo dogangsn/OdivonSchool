@@ -5,6 +5,7 @@ import { FirestoreService } from '../../../core/services/firestore';
 import { AuthService } from '../../../core/services/auth';
 import { TestSessionService } from '../../../core/services/test-session';
 import { GuestQuotaService } from '../../../core/services/guest-quota';
+import { take } from 'rxjs';
 
 const QUESTIONS_PER_TEST = 10;
 
@@ -36,17 +37,20 @@ export class Solve implements OnInit {
   private questionStartedAt = Date.now();
 
   ngOnInit() {
-    // Check if guest has exceeded trial quota
-    if (!this.appUser() && !this.guestQuota.canSolve()) {
-      this.isQuotaBlocked.set(true);
-      this.isLoading.set(false);
-      return;
-    }
+    // Wait for Firebase to restore the session before applying the guest quota;
+    // appUser() is still null at this point even for signed-in users.
+    this.auth.authState$.pipe(take(1)).subscribe((fbUser) => {
+      if (!fbUser && !this.guestQuota.canSolve()) {
+        this.isQuotaBlocked.set(true);
+        this.isLoading.set(false);
+        return;
+      }
 
-    this.firestoreSvc.questionsForCategory(this.categoryId, QUESTIONS_PER_TEST).subscribe((qs) => {
-      this.session.start(qs);
-      this.questionStartedAt = Date.now();
-      this.isLoading.set(false);
+      this.firestoreSvc.questionsForCategory(this.categoryId, QUESTIONS_PER_TEST).subscribe((qs) => {
+        this.session.start(qs);
+        this.questionStartedAt = Date.now();
+        this.isLoading.set(false);
+      });
     });
   }
 
@@ -73,7 +77,7 @@ export class Solve implements OnInit {
   skipQuestion() {
     if (this.isAnswerChecked()) return;
     const timeSpent = Math.round((Date.now() - this.questionStartedAt) / 1000);
-    this.session.answerCurrent('pas', timeSpent);
+    this.session.answerCurrent(null, timeSpent);
     this.goToNext();
   }
 

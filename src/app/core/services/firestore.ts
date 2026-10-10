@@ -13,7 +13,7 @@ import {
   updateDoc,
   serverTimestamp,
 } from '@angular/fire/firestore';
-import { Observable, map } from 'rxjs';
+import { Observable, map, take } from 'rxjs';
 import { TestCategory } from '../../models/test-category';
 import { Question } from '../../models/question';
 import { TestAttempt } from '../../models/test-attempt';
@@ -52,15 +52,21 @@ export class FirestoreService {
   }
 
   // ---- Questions ----
+  /**
+   * Picks `count` random approved questions for a category. Reads once (no live
+   * listener) so an admin approving a question mid-test can't reset the session.
+   */
   questionsForCategory(categoryId: string, count: number): Observable<Question[]> {
     const ref = collection(this.firestore, 'questions');
     const q = query(
       ref,
       where('categoryId', '==', categoryId),
-      where('reviewStatus', '==', 'approved'),
-      fbLimit(count)
+      where('reviewStatus', '==', 'approved')
     );
-    return collectionData(q, { idField: 'id' }) as Observable<Question[]>;
+    return (collectionData(q, { idField: 'id' }) as Observable<Question[]>).pipe(
+      take(1),
+      map((list) => shuffle(list).slice(0, count))
+    );
   }
 
   // ---- Test attempts (history + success rates) ----
@@ -111,4 +117,14 @@ export class FirestoreService {
     const ref = doc(this.firestore, `users/${uid}`);
     await updateDoc(ref, updates);
   }
+}
+
+/** Fisher-Yates shuffle on a copy. */
+function shuffle<T>(list: T[]): T[] {
+  const copy = list.slice();
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
 }

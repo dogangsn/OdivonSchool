@@ -41,3 +41,10 @@ ui-debug.log
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Secrets - never commit
+serviceAccountKey.json
+**/serviceAccountKey.json
+
+# Cloud Functions build output (rebuilt by firebase predeploy)
+functions/lib/
