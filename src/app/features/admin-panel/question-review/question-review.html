@@ -63,22 +63,22 @@
         >
           <optgroup label="🌱 İLKOKUL (1, 2, 3 ve 4. Sınıflar)">
             @for (cat of ilkokulCategories(); track cat.id) {
-              <option [value]="cat.id">[{{ cat.subject }}] {{ cat.topic }}</option>
+              <option [value]="cat.id">{{ gradePrefix(cat) }}[{{ cat.subject }}] {{ cat.topic }}</option>
             }
           </optgroup>
           <optgroup label="🎒 ORTAOKUL (5, 6, 7 ve 8. Sınıf & LGS)">
             @for (cat of ortaokulCategories(); track cat.id) {
-              <option [value]="cat.id">[{{ cat.subject }}] {{ cat.topic }}</option>
+              <option [value]="cat.id">{{ gradePrefix(cat) }}[{{ cat.subject }}] {{ cat.topic }}</option>
             }
           </optgroup>
           <optgroup label="🏛️ LİSE (9-12 & YKS TYT/AYT)">
             @for (cat of liseCategories(); track cat.id) {
-              <option [value]="cat.id">[{{ cat.subject }}] {{ cat.topic }}</option>
+              <option [value]="cat.id">{{ gradePrefix(cat) }}[{{ cat.subject }}] {{ cat.topic }}</option>
             }
           </optgroup>
           <optgroup label="💼 KPSS (Genel Yetenek & Genel Kültür)">
             @for (cat of kpssCategories(); track cat.id) {
-              <option [value]="cat.id">[{{ cat.subject }}] {{ cat.topic }}</option>
+              <option [value]="cat.id">{{ gradePrefix(cat) }}[{{ cat.subject }}] {{ cat.topic }}</option>
             }
           </optgroup>
         </select>
@@ -214,6 +214,9 @@
               <div class="draft-badges">
                 <span class="badge badge-warning">Onay Bekliyor</span>
                 <span class="category-slug">{{ q.subject }} · {{ q.categoryId }}</span>
+                @if (q.outcomeCode) {
+                  <span class="difficulty-chip" title="MEB öğrenme çıktısı">{{ q.outcomeCode }}</span>
+                }
                 @if (q.difficulty) {
                   <span class="difficulty-chip">Zorluk: {{ q.difficulty }}/5</span>
                 }

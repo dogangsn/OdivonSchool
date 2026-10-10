@@ -138,7 +138,7 @@
               <select
                 id="gradeLevelField"
                 [ngModel]="gradeLevel()"
-                (ngModelChange)="gradeLevel.set($event)"
+                (ngModelChange)="setGradeLevel($event)"
                 name="gradeLevel"
               >
                 <option value="ilkokul">🌱 İlkokul (1, 2, 3 ve 4. Sınıflar)</option>
@@ -148,6 +148,24 @@
               </select>
               <span class="field-hint">Seçtiğiniz kademe test seçim ekranında öncelikli olarak karşınıza çıkar.</span>
             </div>
+
+            @if (gradeOptions().length) {
+              <div class="form-group">
+                <label for="gradeField">Sınıf</label>
+                <select
+                  id="gradeField"
+                  [ngModel]="grade()"
+                  (ngModelChange)="grade.set($event)"
+                  name="grade"
+                >
+                  <option [ngValue]="null">Belirtmek istemiyorum</option>
+                  @for (g of gradeOptions(); track g) {
+                    <option [ngValue]="g">{{ g }}. Sınıf</option>
+                  }
+                </select>
+                <span class="field-hint">Test seçim ekranı sınıfınızın konularıyla açılır.</span>
+              </div>
+            }
 
             <div class="form-actions">
               <button type="submit" class="btn primary" [disabled]="isSaving()">

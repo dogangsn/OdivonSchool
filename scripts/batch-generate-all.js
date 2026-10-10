@@ -1,248 +1,160 @@
-const fs = require('fs');
-const path = require('path');
-const https = require('https');
+/**
+ * Generates questions with Gemini for many categories and writes them to Firestore.
+ *
+ * Kullanım:
+ *   node scripts/batch-generate-all.js --apiKey=AIza... [filtreler] [seçenekler]
+ *
+ * Filtreler (birlikte kullanılabilir):
+ *   --level=ilkokul|ortaokul|lise|kpss   sadece bu kademe
+ *   --grade=3                            sadece bu sınıf
+ *   --subject=Matematik                  sadece bu ders
+ *   --category=<id>                      tek kategori
+ *   --meb                                sadece MEB öğrenme çıktısı olan (yeni müfredat) kategoriler
+ *
+ * Seçenekler:
+ *   --count=5        kategori başına soru (varsayılan 5)
+ *   --min=10         zaten bu kadar sorusu olan kategoriyi atla (varsayılan 10, 0 = hiç atlama)
+ *   --difficulty=3   1-5, 0 = karışık (varsayılan 0)
+ *   --delay=4000     istekler arası bekleme (ms)
+ *   --start=0        listede kaldığı yerden devam
+ *   --draft          soruları onay masasına taslak olarak yaz (varsayılan: onaylı yayınla)
+ *   --dry-run        hiçbir şey yazmadan hangi kategorilerin işleneceğini listele
+ */
 const { CATEGORIES } = require('./categories');
+const { buildQuestionPrompt } = require('./question-prompt');
+const {
+  GEMINI_MODEL,
+  readFirebaseToken,
+  setDoc,
+  countQuestions,
+  callGemini,
+  sleep,
+} = require('./firebase-rest');
 
-// Read Firebase token from configstore
-const configPath = path.join(process.env.USERPROFILE, '.config', 'configstore', 'firebase-tools.json');
-if (!fs.existsSync(configPath)) {
-  console.error('❌ firebase-tools.json bulunamadı:', configPath);
-  process.exit(1);
+const opts = {
+  apiKey: process.env.GEMINI_API_KEY || '',
+  count: 5,
+  min: 10,
+  difficulty: 0,
+  delay: 4000,
+  start: 0,
+  draft: false,
+  dryRun: false,
+  meb: false,
+  level: '',
+  grade: 0,
+  subject: '',
+  category: '',
+};
+
+for (const arg of process.argv.slice(2)) {
+  const [key, value = ''] = arg.replace(/^--/, '').split('=');
+  if (key === 'apiKey') opts.apiKey = value;
+  else if (key === 'count') opts.count = parseInt(value, 10);
+  else if (key === 'min') opts.min = parseInt(value, 10);
+  else if (key === 'difficulty') opts.difficulty = parseInt(value, 10);
+  else if (key === 'delay') opts.delay = parseInt(value, 10);
+  else if (key === 'start') opts.start = parseInt(value, 10);
+  else if (key === 'grade') opts.grade = parseInt(value, 10);
+  else if (key === 'level') opts.level = value;
+  else if (key === 'subject') opts.subject = value;
+  else if (key === 'category') opts.category = value;
+  else if (key === 'draft') opts.draft = true;
+  else if (key === 'dry-run') opts.dryRun = true;
+  else if (key === 'meb') opts.meb = true;
 }
 
-const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
-const firebaseToken = config.tokens?.access_token;
-if (!firebaseToken) {
-  console.error('❌ Firebase access token bulunamadı.');
-  process.exit(1);
-}
+const targets = CATEGORIES.filter(
+  (c) =>
+    (!opts.category || c.id === opts.category) &&
+    (!opts.level || c.level === opts.level) &&
+    (!opts.grade || (c.grades || []).includes(opts.grade)) &&
+    (!opts.subject || c.subject.toLocaleLowerCase('tr') === opts.subject.toLocaleLowerCase('tr')) &&
+    (!opts.meb || (c.outcomes || []).length > 0)
+);
 
-// Parse CLI Arguments
-const args = process.argv.slice(2);
-let count = 3;
-let apiKey = process.env.GEMINI_API_KEY || '';
-let difficulty = 3;
-let autoApprove = true;
-let delayMs = 4000;
-let startIndex = 0;
-
-for (const arg of args) {
-  if (arg.startsWith('--apiKey=')) apiKey = arg.split('=')[1];
-  if (arg.startsWith('--count=')) count = parseInt(arg.split('=')[1], 10);
-  if (arg.startsWith('--difficulty=')) difficulty = parseInt(arg.split('=')[1], 10);
-  if (arg.startsWith('--delay=')) delayMs = parseInt(arg.split('=')[1], 10);
-  if (arg.startsWith('--start=')) startIndex = parseInt(arg.split('=')[1], 10);
-  if (arg.startsWith('--draft')) autoApprove = false;
-}
-
-if (!apiKey) {
-  console.error('\n❌ Hata: Gemini API anahtarı belirtilmedi.');
-  console.log('Kullanım: node scripts/batch-generate-all.js --apiKey=AIzaSy... [--count=3] [--delay=4000] [--start=0] [--draft]\n');
-  process.exit(1);
-}
-
-function firestoreValue(val) {
-  if (typeof val === 'string') return { stringValue: val };
-  if (typeof val === 'number') {
-    if (Number.isInteger(val)) return { integerValue: val.toString() };
-    return { doubleValue: val };
+function normalize(q, cat) {
+  const options = (q.options || []).map((o) => ({
+    id: String(o.id || '').toLowerCase().trim(),
+    text: String(o.text || '').trim(),
+  }));
+  const correctOptionId = String(q.correctOptionId || '').toLowerCase().trim();
+  if (!q.prompt || options.length !== 4 || !options.some((o) => o.id === correctOptionId) || !q.explanation) {
+    return null;
   }
-  if (typeof val === 'boolean') return { booleanValue: val };
-  if (Array.isArray(val)) {
-    return {
-      arrayValue: {
-        values: val.map((item) => firestoreValue(item)),
-      },
-    };
-  }
-  if (typeof val === 'object' && val !== null) {
-    const fields = {};
-    for (const [k, v] of Object.entries(val)) {
-      fields[k] = firestoreValue(v);
-    }
-    return { mapValue: { fields } };
-  }
-  return { nullValue: null };
-}
-
-function request(options, body) {
-  return new Promise((resolve, reject) => {
-    const req = https.request(options, (res) => {
-      let data = '';
-      res.on('data', (chunk) => (data += chunk));
-      res.on('end', () => {
-        if (res.statusCode >= 200 && res.statusCode < 300) {
-          try {
-            resolve(data ? JSON.parse(data) : {});
-          } catch (e) {
-            resolve(data);
-          }
-        } else {
-          reject(new Error(`HTTP ${res.statusCode}: ${data}`));
-        }
-      });
-    });
-    req.on('error', reject);
-    if (body) req.write(typeof body === 'string' ? body : JSON.stringify(body));
-    req.end();
-  });
-}
-
-function sleep(ms) {
-  return new Promise((r) => setTimeout(r, ms));
-}
-
-async function callGemini(category, count, difficulty) {
-  const prompt = `
-Sen Türkiye Cumhuriyeti MEB ve ÖSYM sınav standartlarına tam hakim, uzman bir soru yazarısın.
-Eğitim Kademesi: "${category.level.toUpperCase()}"
-Ders: "${category.subject}"
-Ana Konu: "${category.topic}"
-Hedef Zorluk Düzeyi: ${difficulty}/5
-Soru Sayısı: ${count} adet
-
-GÖREV:
-Bu konuya ait, güncel müfredat kazanımlarına %100 uygun, yüksek kaliteli, çoktan seçmeli ${count} adet soru hazırla.
-
-KESİN KURALLAR:
-1. Her soruda TAM OLARAK 4 seçenek olmalı: "a", "b", "c", "d".
-2. "correctOptionId" mutlak surette "a", "b", "c" veya "d" değerlerinden biri olmalı.
-3. Çeldiriciler (yanlış şıklar) öğrencinin yapabileceği tipik işlem hatalarına veya kavram yanılgılarına uygun, gerçekçi olmalı.
-4. "explanation" (Çözüm Açıklaması) çok önemlidir: Öğrenci soruyu yanlış yaptığında konuyu eksiksiz öğrenebilsin. Doğru cevaba nasıl ulaşıldığını, formülü veya kuralı adım adım, samimi ve anlaşılır bir dille anlat.
-5. Sadece ve sadece aşağıdaki JSON şemasına uyan JSON dizisi (array) döndür.
-
-JSON ŞEMASI:
-[
-  {
-    "prompt": "Soru metni",
-    "options": [
-      { "id": "a", "text": "A şıkkı" },
-      { "id": "b", "text": "B şıkkı" },
-      { "id": "c", "text": "C şıkkı" },
-      { "id": "d", "text": "D şıkkı" }
-    ],
-    "correctOptionId": "a",
-    "explanation": "Detaylı çözüm açıklaması",
-    "difficulty": ${difficulty}
-  }
-]
-`.trim();
-
-  const options = {
-    hostname: 'generativelanguage.googleapis.com',
-    path: `/v1beta/models/gemini-3.8-flash:generateContent?key=${apiKey}`,
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+  const codes = (cat.outcomes || []).map((o) => o.code);
+  const difficulty = Math.min(Math.max(parseInt(q.difficulty, 10) || opts.difficulty || 3, 1), 5);
+  return {
+    prompt: String(q.prompt).trim(),
+    options,
+    correctOptionId,
+    explanation: String(q.explanation).trim(),
+    difficulty,
+    outcomeCode: codes.includes(q.outcomeCode) ? q.outcomeCode : undefined,
   };
-
-  const body = {
-    contents: [{ parts: [{ text: prompt }] }],
-    generationConfig: {
-      temperature: 0.7,
-      responseMimeType: 'application/json',
-    },
-  };
-
-  const res = await request(options, body);
-  const rawText = res?.candidates?.[0]?.content?.parts?.[0]?.text;
-  if (!rawText) throw new Error('Gemini API boş yanıt döndürdü.');
-
-  let cleanText = rawText.trim();
-  if (cleanText.startsWith('```json')) {
-    cleanText = cleanText.replace(/^```json\s*/, '').replace(/\s*```$/, '');
-  } else if (cleanText.startsWith('```')) {
-    cleanText = cleanText.replace(/^```\s*/, '').replace(/\s*```$/, '');
-  }
-
-  const parsed = JSON.parse(cleanText);
-  return Array.isArray(parsed) ? parsed : (parsed.questions || parsed.data || []);
 }
 
 async function main() {
-  console.log(`\n======================================================`);
-  console.log(`🚀 [OdivonSchool 77 Kategori Toplu Soru Üretici]`);
-  console.log(`======================================================`);
-  console.log(`📊 Toplam Kategori Sayısı: ${CATEGORIES.length}`);
-  console.log(`🎯 Kategori Başına: ${count} Soru | Bekleme: ${delayMs}ms`);
-  console.log(`Durum: ${autoApprove ? 'Canlıda (Approved)' : 'Onay Masasında (Draft)'}`);
-  console.log(`======================================================\n`);
+  console.log(`\n🚀 OdivonSchool toplu soru üretici (${GEMINI_MODEL})`);
+  console.log(`📊 ${targets.length} kategori seçildi | kategori başına ${opts.count} soru | ` +
+    `${opts.draft ? 'taslak (onay masası)' : 'onaylı (canlı)'}\n`);
 
-  const projectId = 'odivonschool';
-  let totalCreated = 0;
-
-  for (let cIdx = startIndex; cIdx < CATEGORIES.length; cIdx++) {
-    const cat = CATEGORIES[cIdx];
-    const categoryId = cat.id;
-
-    console.log(`\n[${cIdx + 1}/${CATEGORIES.length}] ⚙️ Üretiliyor: [${cat.level.toUpperCase()}] ${cat.subject} - ${cat.topic}`);
-
-    try {
-      const questions = await callGemini(cat, count, difficulty);
-      console.log(`  ✔ Gemini ${questions.length} soru üretti. Firestore'a yazılıyor...`);
-
-      for (let i = 0; i < questions.length; i++) {
-        const q = questions[i];
-        const timestamp = Date.now();
-        const docId = `${categoryId}_ai_${timestamp}_${i + 1}`;
-
-        const normalizedCorrect = (q.correctOptionId || 'a').toLowerCase().trim();
-        const normalizedOptions = (q.options || []).map((o) => ({
-          id: (o.id || '').toLowerCase().trim(),
-          text: (o.text || '').trim(),
-        }));
-
-        const qDoc = {
-          categoryId,
-          level: cat.level,
-          subject: cat.subject,
-          prompt: q.prompt,
-          options: normalizedOptions,
-          correctOptionId: normalizedCorrect,
-          explanation: q.explanation,
-          difficulty: q.difficulty || difficulty,
-          source: 'ai-generated',
-          aiModel: 'gemini-3.8-flash',
-          reviewStatus: autoApprove ? 'approved' : 'draft',
-          createdAt: timestamp,
-          usageCount: 0,
-          correctCount: 0,
-        };
-
-        const fields = {};
-        for (const [k, v] of Object.entries(qDoc)) {
-          fields[k] = firestoreValue(v);
-        }
-
-        const docPath = `/v1/projects/${projectId}/databases/(default)/documents/questions/${docId}`;
-        await request(
-          {
-            hostname: 'firestore.googleapis.com',
-            path: docPath,
-            method: 'PATCH',
-            headers: {
-              Authorization: `Bearer ${firebaseToken}`,
-              'Content-Type': 'application/json',
-            },
-          },
-          { fields }
-        );
-        totalCreated++;
-      }
-
-      console.log(`  ✅ Başarılı! Kategori tamamlandı.`);
-    } catch (err) {
-      console.error(`  ❌ Hata (${cat.id}):`, err.message);
-    }
-
-    if (cIdx < CATEGORIES.length - 1) {
-      await sleep(delayMs);
-    }
+  if (opts.dryRun) {
+    targets.forEach((c, i) => console.log(`${i + 1}. ${c.id} — ${c.subject} / ${c.topic}`));
+    return;
+  }
+  if (!opts.apiKey) {
+    console.error('❌ Gemini API anahtarı yok. --apiKey=... verin veya GEMINI_API_KEY ayarlayın.');
+    process.exit(1);
   }
 
-  console.log(`\n🎉 BÜTÜN İŞLEM TAMAMLANDI! Toplam ${totalCreated} adet soru eklendi.`);
+  const token = readFirebaseToken();
+  let created = 0;
+
+  for (let i = opts.start; i < targets.length; i++) {
+    const cat = targets[i];
+    console.log(`[${i + 1}/${targets.length}] ${cat.id} — ${cat.subject} / ${cat.topic}`);
+    try {
+      if (opts.min > 0) {
+        const existing = await countQuestions(token, cat.id);
+        if (existing >= opts.min) {
+          console.log(`  ⏭  ${existing} soru zaten var, atlandı.`);
+          continue;
+        }
+      }
+
+      const raw = await callGemini(opts.apiKey, buildQuestionPrompt(cat, opts.count, opts.difficulty));
+      const questions = raw.map((q) => normalize(q, cat)).filter(Boolean);
+      const now = Date.now();
+
+      for (let j = 0; j < questions.length; j++) {
+        await setDoc(token, 'questions', `${cat.id}_ai_${now}_${j + 1}`, {
+          ...questions[j],
+          categoryId: cat.id,
+          level: cat.level,
+          subject: cat.subject,
+          source: 'ai-generated',
+          aiModel: GEMINI_MODEL,
+          reviewStatus: opts.draft ? 'draft' : 'approved',
+          createdAt: now,
+          usageCount: 0,
+          correctCount: 0,
+        });
+        created++;
+      }
+      console.log(`  ✅ ${questions.length}/${raw.length} geçerli soru yazıldı.`);
+    } catch (err) {
+      console.error(`  ❌ Hata: ${err.message}`);
+      // Expired Firebase login or bad Gemini key: every later category would fail too.
+      if (/UNAUTHENTICATED|API_KEY_INVALID/.test(err.message)) process.exit(1);
+    }
+    if (i < targets.length - 1) await sleep(opts.delay);
+  }
+
+  console.log(`\n🎉 Bitti. Toplam ${created} soru eklendi.`);
 }
 
 main().catch((err) => {
-  console.error('\n❌ Genel Hata:', err.message);
+  console.error('\n❌ Genel hata:', err.message);
   process.exit(1);
 });

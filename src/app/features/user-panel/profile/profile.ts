@@ -1,9 +1,10 @@
-import { Component, inject, signal, effect } from '@angular/core';
+import { Component, inject, signal, effect, computed } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { AuthService } from '../../../core/services/auth';
 import { FirestoreService } from '../../../core/services/firestore';
+import { LEVEL_GRADES } from '../../../models/test-category';
 
 @Component({
   selector: 'app-profile',
@@ -19,6 +20,8 @@ export class Profile {
 
   displayName = signal('');
   gradeLevel = signal<'ilkokul' | 'ortaokul' | 'lise' | 'kpss'>('ortaokul');
+  grade = signal<number | null>(null);
+  gradeOptions = computed(() => LEVEL_GRADES[this.gradeLevel()]);
 
   isSaving = signal(false);
   saveMessage = signal<{ type: 'success' | 'danger'; text: string } | null>(null);
@@ -34,8 +37,15 @@ export class Profile {
         if (user.gradeLevel) {
           this.gradeLevel.set(user.gradeLevel);
         }
+        this.grade.set(user.grade ?? null);
       }
     });
+  }
+
+  setGradeLevel(level: 'ilkokul' | 'ortaokul' | 'lise' | 'kpss') {
+    this.gradeLevel.set(level);
+    const g = this.grade();
+    if (g !== null && !LEVEL_GRADES[level].includes(g)) this.grade.set(null);
   }
 
   async saveProfile() {
@@ -54,6 +64,7 @@ export class Profile {
       await this.firestoreSvc.updateUserProfile(user.uid, {
         displayName: trimmedName,
         gradeLevel: this.gradeLevel(),
+        grade: this.grade(),
       });
       this.saveMessage.set({ type: 'success', text: 'Profil bilgileriniz başarıyla güncellendi.' });
     } catch (err: any) {

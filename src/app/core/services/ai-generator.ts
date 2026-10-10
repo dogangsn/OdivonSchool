@@ -14,6 +14,7 @@ import {
 import { Observable, map } from 'rxjs';
 import { Question } from '../../models/question';
 import { TestCategory } from '../../models/test-category';
+import { buildQuestionPrompt } from '../utils/question-prompt';
 
 const API_KEY_STORAGE_KEY = 'odivon_gemini_api_key';
 const GEMINI_MODEL = 'gemini-3.8-flash';
@@ -24,6 +25,7 @@ export interface GeneratedQuestionItem {
   correctOptionId: string;
   explanation: string;
   difficulty: number;
+  outcomeCode?: string;
 }
 
 @Injectable({ providedIn: 'root' })
@@ -97,7 +99,7 @@ export class AiGeneratorService {
     }
 
     const safeCount = Math.min(Math.max(count, 1), 15);
-    const prompt = this.buildPrompt(category, safeCount, difficulty, subTopic);
+    const prompt = buildQuestionPrompt(category, safeCount, difficulty, subTopic);
 
     const url = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${key}`;
 
@@ -156,6 +158,9 @@ export class AiGeneratorService {
         correctOptionId: item.correctOptionId,
         explanation: item.explanation,
         difficulty: validDifficulty,
+        ...(item.outcomeCode && category.outcomes?.some((o) => o.code === item.outcomeCode)
+          ? { outcomeCode: item.outcomeCode }
+          : {}),
         source: 'ai-generated',
         aiModel: GEMINI_MODEL,
         reviewStatus: 'draft',
@@ -172,62 +177,6 @@ export class AiGeneratorService {
     }
 
     return createdQuestions;
-  }
-
-  private buildPrompt(
-    category: TestCategory,
-    count: number,
-    difficulty: number,
-    subTopic?: string
-  ): string {
-    const difficultyGuide =
-      difficulty === 1
-        ? 'Çok Kolay / Temel Kavram'
-        : difficulty === 2
-        ? 'Kolay / Anlama ve Uygulama'
-        : difficulty === 3
-        ? 'Orta / Standart Sınav Seviyesi'
-        : difficulty === 4
-        ? 'Zor / Muhakeme ve Analiz'
-        : difficulty === 5
-        ? 'İleri Düzey / Eleme Sorusu'
-        : 'Karışık Zorluk Derecesi (1 ile 5 arası dengeli)';
-
-    return `
-Sen Türkiye Cumhuriyeti MEB ve ÖSYM sınav standartlarına tam hakim, uzman bir soru yazarısın.
-Eğitim Kademesi: "${category.level.toUpperCase()}"
-Ders: "${category.subject}"
-Ana Konu: "${category.topic}"
-${subTopic ? `Özel Odak / Alt Başlık: "${subTopic}"` : ''}
-Hedef Zorluk Düzeyi: ${difficultyGuide} (1-5 arası)
-Soru Sayısı: ${count} adet
-
-GÖREV:
-Bu konuya ait, güncel müfredat kazanımlarına %100 uygun, yüksek kaliteli, çoktan seçmeli ${count} adet soru hazırla.
-
-KESİN KURALLAR:
-1. Her soruda TAM OLARAK 4 seçenek olmalı: "a", "b", "c", "d".
-2. "correctOptionId" mutlak surette "a", "b", "c" veya "d" değerlerinden biri olmalı.
-3. Çeldiriciler (yanlış şıklar) öğrencinin yapabileceği tipik işlem hatalarına veya kavram yanılgılarına uygun, gerçekçi olmalı.
-4. "explanation" (Çözüm Açıklaması) çok önemlidir: Öğrenci soruyu yanlış yaptığında konuyu eksiksiz öğrenebilsin. Doğru cevaba nasıl ulaşıldığını, formülü, kuralı veya mantığı adım adım, samimi ve anlaşılır bir dille anlat.
-5. Sadece ve sadece aşağıdaki JSON şemasına uyan JSON dizisi (array) döndür. Önüne veya arkasına hiçbir markdown açıklaması ekleme.
-
-JSON ŞEMASI:
-[
-  {
-    "prompt": "Soru metni buraya",
-    "options": [
-      { "id": "a", "text": "A seçeneği" },
-      { "id": "b", "text": "B seçeneği" },
-      { "id": "c", "text": "C seçeneği" },
-      { "id": "d", "text": "D seçeneği" }
-    ],
-    "correctOptionId": "a",
-    "explanation": "Detaylı ve öğretici çözüm açıklaması",
-    "difficulty": ${difficulty > 0 ? difficulty : 3}
-  }
-]
-`.trim();
   }
 
   private validateQuestions(items: unknown): GeneratedQuestionItem[] {

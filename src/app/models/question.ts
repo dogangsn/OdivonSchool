@@ -13,6 +13,7 @@ export interface Question {
   correctOptionId: string;
   explanation: string;      // öğretici metin - shown when the user answers incorrectly
   difficulty: 1 | 2 | 3 | 4 | 5;
+  outcomeCode?: string;     // MEB öğrenme çıktısı kodu this question measures, e.g. MAT.3.2.6
   source: 'manual' | 'ai-generated';
   aiModel?: string;         // which AI generated it, if applicable
   reviewStatus: 'draft' | 'approved' | 'rejected'; // admin approval gate for AI questions

@@ -1,0 +1,1443 @@
+{
+  "level": "ilkokul",
+  "subject": "Matematik",
+  "programUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ders/ilkokul-matematik-dersi",
+  "grades": [
+    {
+      "grade": 1,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ilkokul-matematik-dersi/2",
+      "themes": [
+        {
+          "order": 1,
+          "name": "Sayılar Ve Nicelikler (1)",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/45",
+          "hours": 57,
+          "keyConcepts": [
+            "rakamlar",
+            "sayılar",
+            "sıra sayısı",
+            "çözümleme",
+            "ritmik sayma",
+            "karşılaştırma",
+            "sayı ve şekil örüntüleri"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.1.1.1",
+              "text": "Rakam ve 20'ye kadar sayıları niceliklerin büyüklüğünü temsil etmek için kullanır.",
+              "subSkills": [
+                "a) Nicelik büyüklüklerinin farklı temsillerini tanır.",
+                "b) Karşılaşılan nicelik büyüklüklerini farklı temsiller bağlamında belirler.",
+                "c) Karşılaşılan nicelik büyüklüklerini rakam ve sayılarla okur ve yazar."
+              ]
+            },
+            {
+              "code": "MAT.1.1.2",
+              "text": "Dağınık veya düzenli bir nesne grubunu sayarken parçalar arasındaki ilişkileri çözümler.",
+              "subSkills": [
+                "a) Nesne grubunun parçalarını belirler.",
+                "b) Sayma sırasında parçalar arasındaki ilişkileri belirler."
+              ]
+            },
+            {
+              "code": "MAT.1.1.3",
+              "text": "Nesnelerin sıra sayısını gösterebilir.",
+              "subSkills": []
+            },
+            {
+              "code": "MAT.1.1.4",
+              "text": "İki niceliğin büyüklüğünü çok, daha çok, az, daha az veya eşit terimleriyle karşılaştırır.",
+              "subSkills": [
+                "a) İki niceliğin büyüklüğünü bu terimlerle ifade eder.",
+                "b) İfade edilen büyüklüklerdeki benzerlikleri listeler.",
+                "c) İfade edilen büyüklüklerdeki farklılıkları listeler."
+              ]
+            },
+            {
+              "code": "MAT.1.1.5",
+              "text": "100'e kadar ileriye ve 20'den geriye doğru ritmik sayma yapar.",
+              "subSkills": []
+            },
+            {
+              "code": "MAT.1.1.6",
+              "text": "Artan veya azalan sayı ve şekil örüntülerini çözümler.",
+              "subSkills": [
+                "a) Örüntülerin ardışık ögelerini belirler.",
+                "b) Ardışık ögeler arasındaki ilişkiyi belirler."
+              ]
+            },
+            {
+              "code": "MAT.1.1.7",
+              "text": "Verilen bir çokluktaki ilişkilerden yararlanarak 20'ye kadar nesnelerin sayısını tahmin eder.",
+              "subSkills": [
+                "a) Çokluktaki ilişkileri gözlem ve deneyimleriyle ilişkilendirir.",
+                "b) Çokluğun büyüklüğünü bir stratejiye dayanarak tahmin eder.",
+                "c) Tahmin ile sayma sonucunu karşılaştırarak yargıda bulunur."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Sayılar Ve Nicelikler (2)",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/86",
+          "hours": 18,
+          "keyConcepts": [
+            "uzunluk",
+            "uzun",
+            "daha uzun",
+            "en uzun",
+            "kısa",
+            "daha kısa",
+            "en kısa",
+            "ağır",
+            "daha ağır",
+            "en ağır",
+            "hafif",
+            "daha hafif",
+            "en hafif",
+            "denge",
+            "eşit"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.1.1.8",
+              "text": "Standart olmayan uygun araçlarla nesnelerin uzunluk ve kütlesini tahmin edebilme.",
+              "subSkills": [
+                "a) Uzunluk ya da kütleye uygun standart olmayan bir ölçme aracını belirler.",
+                "b) Uzunluk ve kütle tahminini seçilen standart olmayan birim cinsinden yapar.",
+                "c) Tahminlerinin doğruluğu hakkında değerlendirme yapar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Sayılar Ve Nicelikler (3)",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/95",
+          "hours": 7,
+          "keyConcepts": [
+            "Türk lirası",
+            "lira",
+            "para",
+            "değişim"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.1.1.9",
+              "text": "Farklı Türk lirası madeni ve kâğıt paralarının temsil ettiği değerleri tanıyabilme.",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "İşlemlerden Cebirsel Düşünmeye",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/99",
+          "hours": 50,
+          "keyConcepts": [
+            "toplama",
+            "toplanan",
+            "toplam",
+            "artma",
+            "çoğalma",
+            "artı",
+            "çıkarma",
+            "eksilen",
+            "çıkan",
+            "fark",
+            "azalma",
+            "eksilme",
+            "eksi",
+            "eşittir"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.1.2.1",
+              "text": "Günlük yaşam durumlarının hangi toplama ya da çıkarma işlemini gerektirdiğini çözümleyebilme.",
+              "subSkills": [
+                "a) Günlük yaşam durumunun toplama mı çıkarma mı gerektirdiğini fark eder.",
+                "b) Günlük durumlara karşılık gelen işlemleri birbiriyle ilişkilendirir."
+              ]
+            },
+            {
+              "code": "MAT.1.2.2",
+              "text": "Toplama ve çıkarma sonuçlarını tahmin ederek ve zihinden işlem yaparak muhakeme edebilme.",
+              "subSkills": [
+                "a) Toplama ve çıkarma işlemlerinin ögelerini belirler.",
+                "b) Bu ögeler arasındaki ilişkileri belirler.",
+                "c) Tahmin ve zihinden işlem sonuçları arasında ilişki kurar.",
+                "ç) Tahmin ve zihinden işlem sonuçlarının tutarlılığını ifade eder."
+              ]
+            },
+            {
+              "code": "MAT.1.2.3",
+              "text": "Eşit işaretinin anlamını toplama ve çıkarma işlemi bağlamında yorumlayabilme.",
+              "subSkills": [
+                "a) Toplama ve çıkarma işlemlerinde eşit işaretinin kullanımını inceler.",
+                "b) Eşit işaretinin anlamını kullanarak bir işlemi dönüştürür.",
+                "c) Dönüştürdüğü işlemleri kendi cümleleriyle ifade eder."
+              ]
+            },
+            {
+              "code": "MAT.1.2.4",
+              "text": "Toplama ve çıkarma işlemlerinin ilişkisini yorumlayabilme.",
+              "subSkills": [
+                "a) Toplama ve çıkarma işlemlerinin ilişkisini inceler.",
+                "b) Toplama ve çıkarma işlemlerini birbirinin tersine dönüştürür.",
+                "c) Bu ilişkiyi yeniden ifade eder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Nesnelerin Geometrisi (1)",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/109",
+          "hours": 15,
+          "keyConcepts": [
+            "yer",
+            "yön",
+            "konum",
+            "hareket",
+            "referans noktası",
+            "altında",
+            "üstünde",
+            "etrafında",
+            "arasında",
+            "önünde",
+            "arkasında",
+            "yüksekte",
+            "alçakta",
+            "uzakta",
+            "yakında",
+            "içinde",
+            "dışında",
+            "sağında",
+            "solunda",
+            "çukurda",
+            "tümsekte",
+            "ileri",
+            "geri",
+            "eş",
+            "eşlik",
+            "aynı"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.1.3.1",
+              "text": "Mesafe ve yön içeren yönergeleri çözerek hedefe ulaşabilme.",
+              "subSkills": [
+                "a) Yönergedeki mesafe ve yön içeren kavramları belirler.",
+                "b) Yönergeleri kullanarak başlangıç noktası ile hedef arasında ilişki kurar."
+              ]
+            },
+            {
+              "code": "MAT.1.3.2",
+              "text": "Nesnelerin eşliğini bir ölçüt belirleyerek değerlendirebilme.",
+              "subSkills": [
+                "a) Nesnelerin eşliği için bir ölçüt belirler.",
+                "b) Ölçüte uygun bilgileri kullanarak ölçme yapar.",
+                "c) Elde ettiği sonuçları ölçütle karşılaştırır.",
+                "ç) Karşılaştırmalarına dayanarak yargıda bulunur."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Nesnelerin Geometrisi (2)",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/113",
+          "hours": 15,
+          "keyConcepts": [
+            "nesne",
+            "köşe",
+            "kenar",
+            "üçgen",
+            "kare",
+            "dikdörtgen",
+            "çember"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.1.3.3",
+              "text": "Günlük yaşamdaki nesneleri biçimsel özelliklerine göre ayırt eder.",
+              "subSkills": []
+            },
+            {
+              "code": "MAT.1.3.4",
+              "text": "Günlük yaşamdaki geometrik yapılarda yer alan geometrik şekilleri çözümler.",
+              "subSkills": [
+                "a) Yapılardaki geometrik şekilleri tespit eder.",
+                "b) Şekiller arasında bağlantı oluşturur."
+              ]
+            },
+            {
+              "code": "MAT.1.3.5",
+              "text": "Geometrik şekilleri biçimsel özelliklerine göre sınıflandırır.",
+              "subSkills": [
+                "a) Geometrik şekillerin biçimsel niteliklerini saptar.",
+                "b) Şekilleri biçimsel niteliklerine göre ayrıştırır.",
+                "c) Şekilleri gruplara ayırarak düzenler.",
+                "ç) Geometrik şekillere ad verir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Veriye Dayalı Araştırma",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/115",
+          "hours": 10,
+          "keyConcepts": [
+            "kategorik veri",
+            "çetele tablosu",
+            "sıklık tablosu",
+            "nesne grafiği",
+            "değişebilirlik"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.1.4.1",
+              "text": "Tek veri grubu içeren kategorik veriyle çalışarak veriye dayalı araştırma yapma ve karar verme becerisi kazanır.",
+              "subSkills": [
+                "a) Kategorik veri temelli istatistiksel araştırma gerektiren bir günlük yaşam durumunu belirler.",
+                "b) Betimleme gerektirebilecek kategorik veri temelli araştırma soruları geliştirir.",
+                "c) Kategorik verileri toplamak için bir plan hazırlar.",
+                "ç) Kategorik verileri toplar ve analize hazır hâle getirir.",
+                "d) Verileri analiz etmek için çetele, sıklık tablosu veya nesne grafiğinden uygun olanı seçer.",
+                "e) Seçtiği araçlarla verileri görselleştirir ve analiz eder.",
+                "f) Araştırma sonuçlarını yorumlar.",
+                "g) Araştırma sonuçlarını araştırma sorularına göre değerlendirir."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 2,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ilkokul-matematik-dersi/3",
+      "themes": [
+        {
+          "order": 1,
+          "name": "Sayılar Ve Nicelikler (1)",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/116",
+          "hours": 41,
+          "keyConcepts": [
+            "sayı doğrusu",
+            "basamak değeri",
+            "çözümleme",
+            "onluk",
+            "birlik",
+            "şekil örüntüleri"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.2.1.1",
+              "text": "100'e kadar niceliklerin büyüklüğünü, sayıların sembolik gösterimlerinden yararlanarak temsil etme",
+              "subSkills": [
+                "a) Miktarların farklı gösterimlerini ayırt eder.",
+                "b) Miktara uygun sayı gösterimini belirler.",
+                "c) Miktara karşılık gelen sayıyı okur ve yazar."
+              ]
+            },
+            {
+              "code": "MAT.2.1.2",
+              "text": "İki basamaklı sayıları onluk ve birlik esasına göre çözümleyebilme",
+              "subSkills": [
+                "a) İki basamaklı sayının basamaklarını ve basamak değerlerini belirler.",
+                "b) Basamaklar ve basamak değerleri arasındaki ilişkileri belirler."
+              ]
+            },
+            {
+              "code": "MAT.2.1.3",
+              "text": "Sayıların öncelik ve sonralık sırasını belirleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "MAT.2.1.4",
+              "text": "İleriye ve geriye doğru ritmik sayabilme",
+              "subSkills": [
+                "a) Yüzlük tablo üzerinde ritmik saymayla ilgili gözlem yapar.",
+                "b) İkişer, üçer, dörder ve beşer ritmik sayarken örüntü fark eder.",
+                "c) Fark ettiği örüntüyü genelleştirir."
+              ]
+            },
+            {
+              "code": "MAT.2.1.5",
+              "text": "Sayı ve sayı temsiline dönüşen şekil örüntülerine dayalı çıkarım yapabilme",
+              "subSkills": [
+                "a) Örüntüdeki sayılar ile şekiller arasındaki ilişkiye dair varsayım kurar.",
+                "b) Varsayımına göre örüntü örneklerini sıralar.",
+                "c) Örüntünün varsayımı karşılayıp karşılamadığını örneklerle test eder.",
+                "ç) İki örüntünün kuralını sözlü olarak açıklar.",
+                "d) Verilen örüntü hakkında değerlendirme yapar."
+              ]
+            },
+            {
+              "code": "MAT.2.1.6",
+              "text": "Bir çokluktaki ilişkilerden yararlanarak 50'ye kadar nesnelerin sayısını tahmin edebilme",
+              "subSkills": [
+                "a) Parça-bütün ve dağılım ilişkisini gözlem ve deneyimleriyle ilişkilendirir.",
+                "b) Bir stratejiye dayanarak çokluğun büyüklüğünü tahmin eder.",
+                "c) Tahmini ile sayım sonucunu karşılaştırarak tahminin doğruluğu hakkında yargıda bulunur."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Sayılar Ve Nicelikler (2)",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/125",
+          "hours": 30,
+          "keyConcepts": [
+            "bütün",
+            "yarım",
+            "çeyrek",
+            "kuruş",
+            "saat",
+            "dakika",
+            "zaman",
+            "ölçüm",
+            "gün",
+            "hafta",
+            "ay",
+            "mevsim",
+            "yıl",
+            "kilogram",
+            "gram",
+            "metre",
+            "santimetre"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.2.1.7",
+              "text": "Bütün, yarım ve çeyrek parçalar arasındaki bağlantıyı inceleyip açıklayabilme.",
+              "subSkills": [
+                "a) Bir bütünün yarım ve çeyrek kısımlarını ayırt eder.",
+                "b) Bütün, yarım ve çeyrek arasındaki bağıntıları tespit eder."
+              ]
+            },
+            {
+              "code": "MAT.2.1.8",
+              "text": "Paraları değerlerine göre karşılaştırıp birbiriyle ilişkilendirebilme.",
+              "subSkills": [
+                "a) Paraları değerlerine bakarak madeni paraları ayırt eder.",
+                "b) Kuruş ile Türk lirası arasındaki denkliği saptar."
+              ]
+            },
+            {
+              "code": "MAT.2.1.9",
+              "text": "Zaman ölçü birimlerini okuyup yazabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "MAT.2.1.10",
+              "text": "Standart uzunluk ve kütle ölçme araç ve birimlerinin neden gerekli olduğunu düşünüp açıklayabilme.",
+              "subSkills": [
+                "a) Standart dışı araçlarla yaptığı deneyimlerden hareketle standart araçlara duyulan ihtiyacı yeniden değerlendirir.",
+                "b) Yaşantılarına dayanarak standart araçların neden gerekli olduğu hakkında sonuç çıkarır.",
+                "c) Vardığı sonuçlar doğrultusunda standart ölçü birimlerinin gerekliliğini değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.2.1.11",
+              "text": "Standart uzunluk ve kütle birimleriyle nesnelerin uzunluk ve kütlelerini tahmin edebilme.",
+              "subSkills": [
+                "a) Standart birimlerle ilgili deneyimini, tahmin edilecek uzunluk ve kütleyle bağdaştırır.",
+                "b) Nesnelerin uzunluk ve kütlesini standart birimlerle tahmin eder.",
+                "c) Tahminini ölçüm sonucuyla kıyaslayıp tahmininin doğruluğu hakkında değerlendirme yapar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "İşlemlerden Cebirsel Düşünmeye",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/164",
+          "hours": 55,
+          "keyConcepts": [
+            "eldeli toplama",
+            "tekrarlı toplama",
+            "çarpma",
+            "çarpan",
+            "çarpım",
+            "ardışık çıkarma",
+            "bölme",
+            "bölünen",
+            "bölen",
+            "bölüm",
+            "kalan",
+            "gruplandırma",
+            "eşit paylaştırma",
+            "deste",
+            "düzine"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.2.2.1",
+              "text": "Toplama ve çıkarma gerektiren günlük yaşam problemlerini çözmek için strateji geliştirip uygulayabilme.",
+              "subSkills": [
+                "a) Problemde verilen ve istenenleri ayırt eder.",
+                "b) Verilenler ile istenenler arasındaki işlem ilişkisini belirler.",
+                "c) Verileri uygun matematiksel temsillere dönüştürür.",
+                "ç) Temsile dönüştürdüğü problemi kendi cümleleriyle açıklar.",
+                "d) Sonuç hakkında tahmin yapıp çözüm stratejileri geliştirir.",
+                "e) Belirlediği stratejiyi çözüm için uygular.",
+                "f) Sonuca ulaşmayan stratejiyi kontrol edip değiştirir.",
+                "g) Stratejilerini gözden geçirerek daha kısa yolları değerlendirir.",
+                "ğ) Çözüme ulaştıran stratejinin uygulanabileceği durumları genelleştirir.",
+                "h) Genellemenin geçerliliğini matematiksel örneklerle değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.2.2.2",
+              "text": "Toplama ve çıkarma sonuçlarını tahmin ederek ve zihinden işlem yaparak akıl yürütebilme.",
+              "subSkills": [
+                "a) Toplama ve çıkarma işlemlerinin ögelerini belirler.",
+                "b) Bu ögeler arasındaki ilişkileri belirler.",
+                "c) Tahmin ile zihinden işlem sonuçları arasında ilişki kurar.",
+                "ç) Tahmin ve zihinden işlem sonuçlarının tutarlılığını ifade eder."
+              ]
+            },
+            {
+              "code": "MAT.2.2.3",
+              "text": "Toplama ve çıkarma işlemleri arasındaki ters ilişkiyi yorumlayabilme.",
+              "subSkills": [
+                "a) Toplama ve çıkarma arasındaki ilişkiyi inceler.",
+                "b) İşlemleri birbirinin tersi olacak biçimde dönüştürür.",
+                "c) Bu ilişkiyi kendi ifadeleriyle yeniden anlatır."
+              ]
+            },
+            {
+              "code": "MAT.2.2.4",
+              "text": "Çarpma ve bölme işlemlerini toplama ve çıkarmaya dayandırarak çözümleyebilme.",
+              "subSkills": [
+                "a) Çarpma ve bölmenin anlamlarının toplama ve çıkarmayla ilişkili olduğunu fark eder.",
+                "b) Çarpma ve bölme işlemlerini toplama ve çıkarmayla ilişkilendirir."
+              ]
+            },
+            {
+              "code": "MAT.2.2.5",
+              "text": "Çarpma ve bölme sonuçlarını tahmin ederek ve zihinden işlem yaparak akıl yürütebilme.",
+              "subSkills": [
+                "a) Çarpma ve bölme işlemlerinin bileşenlerini belirler.",
+                "b) Bu bileşenler arasındaki ilişkileri belirler.",
+                "c) Çarpma ve bölme için tahmin ve zihinden işlem sonuçlarını ifade eder.",
+                "ç) Tahmin ve zihinden işlem sonuçlarını açıklar."
+              ]
+            },
+            {
+              "code": "MAT.2.2.6",
+              "text": "Dört işlem bağlamında eşitliğin farklı anlamlarını yorumlayabilme.",
+              "subSkills": [
+                "a) Dört işlemde eşitliği farklı anlamlarına göre inceler.",
+                "b) Aynı sonucu veren durumları eşitliğin anlamını kullanarak farklı sayılarla ifade eder.",
+                "c) Eşitliğin anlamlarını dört işlem bağlamında açıklar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Nesnelerin Geometrisi (1)",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/165",
+          "hours": 25,
+          "keyConcepts": [
+            "daire",
+            "küp",
+            "kare prizma",
+            "dikdörtgen prizma",
+            "üçgen prizma",
+            "küre",
+            "dik dairesel silindir"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.2.3.1",
+              "text": "Günlük nesneleri biçimsel özelliklerine göre sınıflandırıp geometrik cisim olarak adlandırabilme.",
+              "subSkills": [
+                "a) Nesnelerin biçimsel özelliklerini belirler.",
+                "b) Farklı nesneleri biçimsel özelliklerine göre ayırır.",
+                "c) Nesneleri geometrik cisim olarak tasnif eder.",
+                "ç) Geometrik cisimleri adlandırır."
+              ]
+            },
+            {
+              "code": "MAT.2.3.2",
+              "text": "Geometrik cisim modellerini kullanarak yapılar sentezleyebilme.",
+              "subSkills": [
+                "a) Yapılardaki geometrik cisimleri belirler.",
+                "b) Geometrik cisimler arasında ilişki kurar.",
+                "c) Geometrik cisimleri birleştirerek özgün bir yapı oluşturur."
+              ]
+            },
+            {
+              "code": "MAT.2.3.3",
+              "text": "Geometrik şekil modellerini kullanarak özgün modeller sentezleyebilme.",
+              "subSkills": [
+                "a) Yapılardaki geometrik şekilleri belirler.",
+                "b) Geometrik şekiller arasında ilişki kurar.",
+                "c) Geometrik şekilleri birleştirerek özgün bir model oluşturur."
+              ]
+            },
+            {
+              "code": "MAT.2.3.4",
+              "text": "Şekil ve cisimlerin yön, konum veya büyüklüğü değişse de biçimsel özelliklerinin değişmediğini yorumlayabilme.",
+              "subSkills": [
+                "a) Şekil ve cisimlerin mevcut yön, konum veya büyüklüklerini inceler.",
+                "b) Biçimsel özelliklerini koruyarak farklı yön veya büyüklüklerde gösterir.",
+                "c) Yön, konum veya büyüklük değişse de şekil ve cismin aynı kaldığını ifade eder."
+              ]
+            },
+            {
+              "code": "MAT.2.3.5",
+              "text": "Standart olmayan sıvı ölçme araçlarıyla sıvı miktarını tahmin edebilme.",
+              "subSkills": [
+                "a) Ölçme araçlarına ilişkin deneyimini tahmin edilecek sıvı miktarıyla ilişkilendirir.",
+                "b) Belirlenen ölçme araçlarına göre sıvı miktarını tahmin eder.",
+                "c) Tahminini ölçüm sonuçlarıyla karşılaştırarak yargıda bulunur."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Nesnelerin Geometrisi (2)",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/166",
+          "hours": 11,
+          "keyConcepts": [
+            "simetri"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.2.3.6",
+              "text": "Mesafe ve yön bilgilerini dikkate alarak bir hedefe ulaşmak için uygun stratejiler seçebilme.",
+              "subSkills": [
+                "a) Hedefe ulaşmak için kullanılacak bir ölçütü tanımlar.",
+                "b) Bu ölçüte uygun bilgileri derler.",
+                "c) Derlenen bilgilerden ölçüte uygun alternatifler üretir.",
+                "ç) Oluşturduğu alternatifleri mantıksal olarak sınar.",
+                "d) Alternatifler arasından ölçüte en uygun olanı seçer.",
+                "e) Ölçütte bir değişiklik olduğunda bunu süreçte görünür kılar."
+              ]
+            },
+            {
+              "code": "MAT.2.3.7",
+              "text": "Verilen şekiller arasından simetrik olanları fark edip ayırt edebilme.",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Veriye Dayalı Araştırma",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/240",
+          "hours": 10,
+          "keyConcepts": [
+            "şekil grafiği"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.2.4.1",
+              "text": "İki kategoriye kadar kategorik veriyle araştırma yürütüp verilere dayanarak karar alabilme.",
+              "subSkills": [
+                "a) Gündelik hayatta, kategorik veriyle istatistiksel araştırma gerektiren bir durumu tespit eder.",
+                "b) Betimleme ya da karşılaştırma yapmayı gerektirebilecek araştırma soruları hazırlar.",
+                "c) Kategorik verileri toplamak için bir planlama yapar.",
+                "d) Toplanan verileri çözümlemek için çetele tablosu, sıklık tablosu veya şekil grafiğinden uygun olanı seçer.",
+                "e) Seçtiği araçlarla verileri görsel hâle getirip inceler.",
+                "f) Araştırma sonuçlarını yorumlar.",
+                "g) Sonuçları, baştaki araştırma sorularına göre değerlendirir."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 3,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ilkokul-matematik-dersi/4",
+      "themes": [
+        {
+          "order": 1,
+          "name": "Sayılar Ve Nicelikler (1)",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/249",
+          "hours": 26,
+          "keyConcepts": [
+            "tek-çift sayı",
+            "sıralama"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.3.1.1",
+              "text": "Niceliklerin büyüklüğüne karşılık gelen 1000'e kadar sayıların temsillerinden yararlanabilme",
+              "subSkills": [
+                "a) Niceliklerin büyüklüklerinin temsillerini tanıma",
+                "b) Nicelik büyüklüğüne uygun sayı temsilini belirleme",
+                "c) Uygun sayıları okuma ve yazma"
+              ]
+            },
+            {
+              "code": "MAT.3.1.2",
+              "text": "1000'e kadar olan sayıları basamaklarına ve basamak değerlerine göre çözümleyebilme",
+              "subSkills": [
+                "a) Üç basamaklı sayıların basamaklarını belirleme",
+                "b) Basamak ve basamak değerleri arasındaki ilişkiyi belirleme"
+              ]
+            },
+            {
+              "code": "MAT.3.1.3",
+              "text": "1000'e kadar olan sayıları öncelik/sonralık, onluk-yüzlük ve en yakın onluk-yüzlük açısından sıralayabilme",
+              "subSkills": [
+                "a) Sayıları öncelik/sonralık ilişkisine göre belirleme",
+                "b) Sayıları bulundukları onluk ve yüzlüklere göre ayırma",
+                "c) Sayıları en yakın onluk ve yüzlüğe göre tasnif etme",
+                "ç) Sayıları en yakın onluk ve yüzlüğe göre ifade etme"
+              ]
+            },
+            {
+              "code": "MAT.3.1.4",
+              "text": "Sayıları ileriye ve geriye doğru ritmik sayabilme ve sayarken örüntü bulup genelleyebilme",
+              "subSkills": [
+                "a) Modeller üzerinde ritmik saymayla ilgili gözlem yapma",
+                "b) Ritmik sayarken örüntü bulma",
+                "c) Bulduğu örüntüyü genelleme"
+              ]
+            },
+            {
+              "code": "MAT.3.1.5",
+              "text": "Sayıları tek-çift olarak belirleyip sınıflandırabilme ve ifade edebilme",
+              "subSkills": [
+                "a) Sayıları tek-çift ilişkisine göre belirleme",
+                "b) Sayıları tek-çift durumlarına göre ayırt etme",
+                "c) Sayıları tek-çift durumlarına göre tasnif etme",
+                "ç) Sayıları tek veya çift sayı olarak ifade etme"
+              ]
+            },
+            {
+              "code": "MAT.3.1.6",
+              "text": "Tek ve çift sayıların toplamının tek ya da çift olma durumu hakkında tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Örneklerde toplamın tek ya da çift olma özelliğini belirleme",
+                "b) Toplanan sayılar ile toplam arasındaki örüntüyü belirleme",
+                "c) Toplamın tek ya da çift olma durumu hakkında genelleme yapma"
+              ]
+            },
+            {
+              "code": "MAT.3.1.7",
+              "text": "Sayı ve sayıya dönüşen şekil örüntülerine dayalı çıkarım yapabilme",
+              "subSkills": [
+                "a) Örüntüdeki ilişkiye dair varsayımda bulunma",
+                "b) Varsayıma göre örüntüyü örnekler üzerinde listeleme",
+                "c) Varsayımı örneklerle sınama",
+                "ç) Örüntünün kuralını sözlü olarak ifade etme",
+                "d) Örüntü hakkında değerlendirme yapma"
+              ]
+            },
+            {
+              "code": "MAT.3.1.8",
+              "text": "Bir çokluktaki ilişkilerden yararlanarak 100'e kadar nesnenin sayısını tahmin edebilme",
+              "subSkills": [
+                "a) Parça-bütün ve dağılım ilişkisini gözlem ve deneyimlerle ilişkilendirme",
+                "b) Stratejiye dayanarak çokluğun büyüklüğünü tahmin etme",
+                "c) Tahmini ile sayma sonucunu karşılaştırarak doğruluğu hakkında yargıda bulunma"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Sayılar Ve Nicelikler (2)",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/254",
+          "hours": 45,
+          "keyConcepts": [
+            "kesir gösterimi",
+            "birim kesir",
+            "saniye",
+            "ton",
+            "kilometre"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.3.1.9",
+              "text": "Bütün, yarım ve çeyreğin kesir gösterimini modeller yardımıyla yapma.",
+              "subSkills": [
+                "a) Bütün, yarım ve çeyrek modellerinin temsillerini tanıma.",
+                "b) Modellere uygun kesir temsillerini belirleme.",
+                "c) Belirlenen temsili bütün, yarım ve çeyrek modellerinde kullanma."
+              ]
+            },
+            {
+              "code": "MAT.3.1.10",
+              "text": "Bir bütünü eş parçalara ayırıp birim kesir olarak çözümleme.",
+              "subSkills": [
+                "a) Bütünü oluşturan eş parçaları belirleme.",
+                "b) Bütün ile eş parçalar arasındaki ilişkiyi belirleme."
+              ]
+            },
+            {
+              "code": "MAT.3.1.11",
+              "text": "Bir kesrin pay ve paydası arasındaki ilişkiyi çözümleme.",
+              "subSkills": [
+                "a) Pay ve paydaya ait parçaları belirleme.",
+                "b) Pay ve paydaya ait parçalar arasındaki ilişkiyi belirleme."
+              ]
+            },
+            {
+              "code": "MAT.3.1.12",
+              "text": "Analog ve dijital saatlerde zamanı okuyup yazma.",
+              "subSkills": []
+            },
+            {
+              "code": "MAT.3.1.13",
+              "text": "Zaman ölçü birimlerini çözümleme.",
+              "subSkills": [
+                "a) Yıl, ay, hafta, gün, saat, dakika ve saniyeyi belirleme.",
+                "b) Zaman ölçü birimleri arasındaki ilişkileri belirleme."
+              ]
+            },
+            {
+              "code": "MAT.3.1.14",
+              "text": "Olayların oluş sürelerini tahmin ederek yargıda bulunma.",
+              "subSkills": [
+                "a) Olayların oluş sürelerini birbiriyle ilişkilendirme.",
+                "b) Deneyimlerinden yararlanarak çıkarım yapma.",
+                "c) Çıkarımı gerçek süreler hakkında yargıya dönüştürme."
+              ]
+            },
+            {
+              "code": "MAT.3.1.15",
+              "text": "Uzunluk ve kütle birimlerini kendi içinde dönüştürme.",
+              "subSkills": [
+                "a) Standart kütle ve uzunluk birimlerinin parçalarını belirleme.",
+                "b) Santimetre, metre, kilometre ile gram, kilogram, ton arasındaki ilişkileri belirleme."
+              ]
+            },
+            {
+              "code": "MAT.3.1.16",
+              "text": "Madenî ve kâğıt paraları değerlerine göre ilişkilendirip yorumlama.",
+              "subSkills": [
+                "a) Paraları değerlerine göre inceleme.",
+                "b) Madenî ve kâğıt paraları değerlerine göre dönüştürme.",
+                "c) Paranın değerini anlamını koruyarak yeniden ifade etme."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "İşlemlerden Cebirsel Düşünmeye",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/264",
+          "hours": 55,
+          "keyConcepts": [
+            "kat"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.3.2.1",
+              "text": "Toplama ve çıkarma sonuçlarını tahmin ederek ve zihinden işlem yaparak muhakeme etme.",
+              "subSkills": [
+                "a) Toplama ve çıkarma işlemlerinin ögelerini belirler.",
+                "b) Bu ögeler arasındaki ilişkileri belirler.",
+                "c) Tahmin ve zihinden işlem sonuçları arasında ilişki kurar.",
+                "ç) Tahmin ve zihinden işlem sonuçlarının tutarlılığını ifade eder."
+              ]
+            },
+            {
+              "code": "MAT.3.2.2",
+              "text": "Toplama ve çıkarma işlemlerini çözümleme.",
+              "subSkills": [
+                "a) Toplama ve çıkarma işlemlerinin adımlarını belirler.",
+                "b) Bu işlemlerin süreçlerini birbiriyle ilişkilendirir."
+              ]
+            },
+            {
+              "code": "MAT.3.2.3",
+              "text": "Çarpma ve bölme sonuçlarını tahmin ederek ve zihinden işlem yaparak muhakeme etme.",
+              "subSkills": [
+                "a) Çarpma ve bölme işlemlerinin bileşenlerini belirler.",
+                "b) Bileşenler arasındaki ilişkileri belirler.",
+                "c) Tahmin ve zihinden işlem sonuçlarını ifade eder.",
+                "ç) Tahmin ve zihinden işlem sonuçlarını kendi cümleleriyle açıklar."
+              ]
+            },
+            {
+              "code": "MAT.3.2.4",
+              "text": "Çarpma ve bölme işlemlerini çözümleme.",
+              "subSkills": [
+                "a) Çarpma ve bölme işlemlerinin adımlarını belirler.",
+                "b) Bu işlemleri birbiriyle ilişkilendirir."
+              ]
+            },
+            {
+              "code": "MAT.3.2.5",
+              "text": "Dört işlem gerektiren durumlar için verilen yönergeleri takip ederek yorumlama.",
+              "subSkills": [
+                "a) Dört işleme ait bileşenleri inceler.",
+                "b) İncelediği bileşenleri işlem diline dönüştürür.",
+                "c) Oluşturduğu yapıyı temsillerle yeniden ifade eder."
+              ]
+            },
+            {
+              "code": "MAT.3.2.6",
+              "text": "Dört işlem gerektiren günlük yaşam problemlerini çözme.",
+              "subSkills": [
+                "a) Problemi anlayarak verilenleri ve istenenleri belirler.",
+                "b) Verilenler ve istenenlerin gerektirdiği işlemler arasındaki ilişkiyi belirler.",
+                "c) Verilenleri uygun matematiksel temsillere dönüştürür.",
+                "ç) Matematiksel temsillere dönüştürdüğü problemi kendi ifadeleriyle açıklar.",
+                "d) Problemin sonucuna ilişkin tahminde bulunarak strateji geliştirir.",
+                "e) Belirlenen stratejileri çözüm için uygular.",
+                "f) Çözüme ulaştırmayan stratejiyi değiştirir.",
+                "g) Kullandığı stratejileri gözden geçirerek kısa yolları değerlendirir.",
+                "ğ) Çözüme ulaştıran stratejilerin hangi problemlere uygulanabileceğini genelleştirir.",
+                "h) Genellemenin geçerliliğini matematiksel örneklerle değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.3.2.7",
+              "text": "Dört işlem gerektiren problem durumlarını yapılandırma.",
+              "subSkills": [
+                "a) Hiyerarşik, nedensel ya da mantıksal ilişkiler ortaya koyar.",
+                "b) Deneyimlerine dayalı bir problem oluşturur."
+              ]
+            },
+            {
+              "code": "MAT.3.2.8",
+              "text": "Dört işlem bağlamında eşitliğin farklı anlamlarını yorumlama.",
+              "subSkills": [
+                "a) Dört işlemde eşitliğin kullanımını inceler.",
+                "b) Aynı sonucu veren dört işlemi eşitliğin anlamını kullanarak farklı sayılarla ifade eder.",
+                "c) Eşitliğin anlamlarını dört işlem bağlamında ifade eder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Nesnelerin Geometrisi (1)",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/275",
+          "hours": 21,
+          "keyConcepts": [
+            "köşegen",
+            "ayrıt",
+            "yüz",
+            "dörtgen",
+            "beşgen",
+            "altıgen",
+            "sekizgen",
+            "çevre",
+            "birim kare",
+            "litre"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.3.3.1",
+              "text": "Geometrik cisimlerin özelliklerini inceleyip köşe, yüz ve ayrıt özellikleri üzerinden yorumlayabilme",
+              "subSkills": [
+                "a) Geometrik cisimlerin özelliklerini inceler",
+                "b) Köşe, yüz ve ayrıt özelliklerini ifade eder",
+                "c) Köşe, yüz ve ayrıt terimlerini kendi cümleleriyle açıklar"
+              ]
+            },
+            {
+              "code": "MAT.3.3.2",
+              "text": "Geometrik şekilleri kenar sayılarına göre gruplayıp adlandırabilme",
+              "subSkills": [
+                "a) Geometrik şekillerin kenarlarını belirler",
+                "b) Geometrik şekilleri kenar sayılarına göre ayırır",
+                "c) Geometrik şekilleri kenar sayılarına göre tasnif eder",
+                "ç) Geometrik şekilleri kenar sayılarına göre adlandırır"
+              ]
+            },
+            {
+              "code": "MAT.3.3.3",
+              "text": "Matematiksel araç ve teknolojileri kullanarak çeşitli geometrik şekil ve cisimleri çizebilme",
+              "subSkills": [
+                "a) Şekil ve cisim çizimi gerektiren araç ve teknolojileri tanır",
+                "b) Çizim için gerekli araç ve teknolojiyi belirler",
+                "c) Belirlediği araç ve teknolojiyi kullanır"
+              ]
+            },
+            {
+              "code": "MAT.3.3.4",
+              "text": "Standart ve standart olmayan ölçme araçlarıyla geometrik şekillerin çevre uzunluğunu tahmin edebilme",
+              "subSkills": [
+                "a) Ölçme deneyimini tahmin konusu şeklin çevresiyle ilişkilendirir",
+                "b) Seçilen ölçme aracına göre çevre uzunluğunu tahmin eder",
+                "c) Tahminini ölçüm sonuçlarıyla karşılaştırıp değerlendirir"
+              ]
+            },
+            {
+              "code": "MAT.3.3.5",
+              "text": "Standart sıvı ölçü birimleri cinsinden sıvı miktarını tahmin edebilme",
+              "subSkills": [
+                "a) Sıvı ölçü birimi deneyimini tahmin konusu sıvıyla ilişkilendirir",
+                "b) Belirlenen standart birim cinsinden sıvı miktarını tahmin eder",
+                "c) Tahminini ölçüm sonucuyla karşılaştırarak yargıda bulunur"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Nesnelerin Geometrisi (2)",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/284",
+          "hours": 10,
+          "keyConcepts": [
+            "simetri doğrusu",
+            "kodlama"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.3.3.6",
+              "text": "Birden çok simetri doğrusu olan şekilleri çözümleyebilme",
+              "subSkills": [
+                "a) Kare, dikdörtgen ve dairenin birden çok simetri doğrusu olduğunu tespit eder.",
+                "b) Simetri doğrusuyla oluşan parçaların birbirine eş olduğunu ayırt eder."
+              ]
+            },
+            {
+              "code": "MAT.3.3.7",
+              "text": "Parçası verilen simetrik bir şekli simetri doğrusuna göre yapılandırabilme",
+              "subSkills": [
+                "a) Parçası verilen simetrik şekli inceleyip mantıksal ilişkileri ortaya koyar.",
+                "b) Parçası verilen şekli yatay ve dikey simetri doğrusuna göre tamamlar."
+              ]
+            },
+            {
+              "code": "MAT.3.3.8",
+              "text": "Yönergeyle oluşturulan simetrik şekil için kodlama stratejileriyle yargıda bulunabilme",
+              "subSkills": [
+                "a) Parçası verilen şekli tamamlama yönergelerini kendi cümleleriyle yeniden ifade eder.",
+                "b) Yönergeleri izleyerek parçası verilen şekli tamamlar ve simetriğini oluşturur.",
+                "c) Bir şeklin simetrisini oluşturmaya dair değerlendirme yapar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Veriye Dayalı Araştırma",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/288",
+          "hours": 15,
+          "keyConcepts": [
+            "kategorik ve sayma ile elde edilen nicel veri",
+            "nokta grafiği"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.3.4.1",
+              "text": "Kategorik ve sayma ile elde edilen nicel veriyle tek veri grubu üzerinde çalışma ve veriye dayalı karar verme",
+              "subSkills": [
+                "a) Kategorik ve nicel veriye dayalı istatistiksel araştırma gerektiren günlük yaşam durumlarını belirleme",
+                "b) Betimleme gerektirebilecek araştırma soruları oluşturma",
+                "c) Kategorik ve nicel verileri toplamak için plan yapma",
+                "ç) Kategorik verileri toplayıp analize hazırlama",
+                "d) Çetele, sıklık tablosu veya nokta grafiğini görselleştirme aracı olarak seçme",
+                "e) Seçtiği araçlarla verileri görselleştirip analiz etme",
+                "f) Araştırma sonuçlarını yorumlama",
+                "g) Araştırma sonuçlarını araştırma sorularına göre değerlendirme"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ilkokul-matematik-dersi/5",
+      "themes": [
+        {
+          "order": 1,
+          "name": "Sayılar Ve Nicelikler (1)",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/294",
+          "hours": 23,
+          "keyConcepts": [],
+          "outcomes": [
+            {
+              "code": "MAT.4.1.1",
+              "text": "Büyüklükleri en fazla altı basamaklı sayılarla temsil eden gösterimlerden yararlanabilme.",
+              "subSkills": [
+                "a) Büyüklüklerin temsil biçimlerini tanır.",
+                "b) Büyüklüğe uygun sayısal gösterimi seçer.",
+                "c) Büyüklüğü karşılayan sayıları okur ve yazar."
+              ]
+            },
+            {
+              "code": "MAT.4.1.2",
+              "text": "Altı basamaklıya kadar olan sayıları basamaklarına ayırıp çözümleyebilme.",
+              "subSkills": [
+                "a) Sayının basamak ve bölüklerini ayırt eder.",
+                "b) Basamak, bölük ve değerler arasındaki bağlantıları saptar."
+              ]
+            },
+            {
+              "code": "MAT.4.1.3",
+              "text": "Sayıları sıralayabilme, basamaklara ayırabilme ve yuvarlayarak gruplandırabilme.",
+              "subSkills": [
+                "a) Sayıları önce/sonra ilişkisiyle sembollerle karşılaştırır.",
+                "b) Altı basamaklı sayıları onluk, yüzlük ve binlik değerlerine göre böler.",
+                "c) Dört basamaklı sayıları en yakın onluk, yüzlük ya da binliğe yuvarlar.",
+                "ç) Gruplanan sayıları birler ve binler bölüğüyle anlatır."
+              ]
+            },
+            {
+              "code": "MAT.4.1.4",
+              "text": "Yüzer ve biner ileriye-geriye ritmik sayma yapısını kavrayıp hedef sayıya ulaşabilme.",
+              "subSkills": [
+                "a) Ritmik sayarken sayılar arasındaki düzeni açıklar.",
+                "b) Bilgisine dayanarak yüzer ve biner sayarak hedef sayıya gider."
+              ]
+            },
+            {
+              "code": "MAT.4.1.5",
+              "text": "Artan ve azalan sayı ile şekil örüntülerindeki değişimi genelleyerek ifade edebilme.",
+              "subSkills": [
+                "a) Örüntünün adımı ve öğeler arası bağı hakkında veri toplar.",
+                "b) Örüntünün ortak yönlerini saptar.",
+                "c) Örüntünün ayrışan yönlerini belirler.",
+                "ç) Örüntüdeki artış, azalış ve tekrarı sözlü anlatır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Sayılar Ve Nicelikler (2)",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/299",
+          "hours": 43,
+          "keyConcepts": [
+            "basit kesir",
+            "bileşik kesir",
+            "tam sayılı kesir",
+            "denk kesir",
+            "milimetre"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.4.1.6",
+              "text": "Basit, bileşik ve tam sayılı kesirleri temsiller aracılığıyla kullanabilme.",
+              "subSkills": [
+                "a) Kesir türlerinin gösterimlerini ayırt eder.",
+                "b) Gündelik duruma uygun kesir gösterimlerini seçer.",
+                "c) Seçtiği kesir gösterimlerini uygular."
+              ]
+            },
+            {
+              "code": "MAT.4.1.7",
+              "text": "Denk kesirleri temsiller yardımıyla kullanabilme.",
+              "subSkills": [
+                "a) Eşdeğer kesirlerin modellerini fark eder.",
+                "b) Eşdeğer kesirler için uygun modelleri seçer.",
+                "c) Seçtiği eşdeğer kesir modellerini kullanır."
+              ]
+            },
+            {
+              "code": "MAT.4.1.8",
+              "text": "Birim kesirleri karşılaştırarak büyüklük-küçüklük ilişkisini çözümleyebilme.",
+              "subSkills": [
+                "a) Birim kesirleri karşılaştırma bağlamında açıklar.",
+                "b) Birim kesirler arasındaki büyüklük farkını saptar."
+              ]
+            },
+            {
+              "code": "MAT.4.1.9",
+              "text": "Paydaları eşit kesirlerin büyüklük-küçüklük ilişkisini çözümleyebilme.",
+              "subSkills": [
+                "a) Paydaları eşit kesirleri karşılaştırma bağlamında açıklar.",
+                "b) Paydaları eşit kesirler arasındaki sıralamayı belirler."
+              ]
+            },
+            {
+              "code": "MAT.4.1.10",
+              "text": "Bir çokluğun basit kesir kadarını ve bir basit kesir kadarı verilen çokluğun tamamını çözümleyebilme.",
+              "subSkills": [
+                "a) Çokluğun eş parçalarını kesre uygun biçimde belirler.",
+                "b) Çokluk ile eş parçalar arasındaki ilişkiyi saptar."
+              ]
+            },
+            {
+              "code": "MAT.4.1.11",
+              "text": "Paydaları eşit kesirlerle toplama ve çıkarma işlemini yapılandırabilme.",
+              "subSkills": [
+                "a) Bu işlemlerdeki mantıksal bağlantıları ortaya koyar.",
+                "b) Öz bilgisine dayanarak tutarlı bir bütün oluşturur."
+              ]
+            },
+            {
+              "code": "MAT.4.1.12",
+              "text": "Paydaları eşit kesirlerle toplama ve çıkarma gerektiren gündelik problemler için strateji geliştirip denetleyebilme.",
+              "subSkills": [
+                "a) Problem için uygun bir strateji kurar.",
+                "b) Seçtiği stratejiyi problemi çözmek için kullanır.",
+                "c) Çözümünü denetler."
+              ]
+            },
+            {
+              "code": "MAT.4.1.13",
+              "text": "Uzunluk ve kütle birimleri arasındaki dönüşümleri yorumlayabilme.",
+              "subSkills": [
+                "a) Uzunluk ve kütle birimleri arasındaki ilişkileri inceler.",
+                "b) Bu birimleri kendi içinde birbirine çevirir.",
+                "c) Aynı ölçüyü farklı birim cinsinden yeniden ifade eder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "İşlemlerden Cebirsel Düşünmeye",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/300",
+          "hours": 50,
+          "keyConcepts": [],
+          "outcomes": [
+            {
+              "code": "MAT.4.2.1",
+              "text": "Toplama ve çıkarmayı sayı parçalarını kullanarak zihinden çözümleme.",
+              "subSkills": [
+                "a) Zihinden işlemlerde sayıların uygun parçalarını belirler.",
+                "b) Sayı parçalarının özelliklerini birbiriyle ilişkilendirir."
+              ]
+            },
+            {
+              "code": "MAT.4.2.2",
+              "text": "En çok dört basamaklı sayılarla toplama ve çıkarma algoritmasını yapılandırma.",
+              "subSkills": [
+                "a) Algoritmaya ilişkin hiyerarşik, nedensel veya mantıksal bağlantılar kurar.",
+                "b) Kendi bilgisine dayanarak algoritmaya ilişkin bütünlüklü bir yapı oluşturur."
+              ]
+            },
+            {
+              "code": "MAT.4.2.3",
+              "text": "Çarpma ve bölme işlemlerinin sonucunu tahmin etme.",
+              "subSkills": [
+                "a) Sonuç tahminini deneyimleriyle ilişkilendirir.",
+                "b) Sonuçla ilgili çıkarım yapar.",
+                "c) Sonuçla ilgili yargıda bulunur."
+              ]
+            },
+            {
+              "code": "MAT.4.2.4",
+              "text": "Zihinden çarpma ve bölme ile bunların kısa yollarını yapılandırma.",
+              "subSkills": [
+                "a) Algoritmaya ilişkin hiyerarşik, nedensel veya mantıksal ilişkiler ortaya koyar.",
+                "b) Kendi bilgisine dayalı bütünlüklü bir yapı oluşturur."
+              ]
+            },
+            {
+              "code": "MAT.4.2.5",
+              "text": "Çarpma ve bölme işlemlerini çözümleme.",
+              "subSkills": [
+                "a) Çarpma ve bölme işlemlerini fark eder.",
+                "b) Çarpma ve bölme işlemlerini birbiriyle ilişkilendirir."
+              ]
+            },
+            {
+              "code": "MAT.4.2.6",
+              "text": "Dört işlem içeren yönergeler oluşturarak süreci yorumlama.",
+              "subSkills": [
+                "a) Dört işlem içeren durumları inceler.",
+                "b) İncelediği durumları yönergelere dönüştürür.",
+                "c) Oluşturduğu yönergeyi yeniden ifade eder."
+              ]
+            },
+            {
+              "code": "MAT.4.2.7",
+              "text": "Dört işlem gerektiren problemleri çözme.",
+              "subSkills": [
+                "a) Problemi anlayarak verilenleri ve istenenleri belirler.",
+                "b) Verilenler ve istenenler arasındaki işlem ilişkisini belirler.",
+                "c) Verilenleri uygun matematiksel temsillere dönüştürür.",
+                "ç) Temsile dönüştürdüğü problemi kendi sözleriyle açıklar.",
+                "d) Sonuca ilişkin tahminde bulunup işlem stratejileri geliştirir.",
+                "e) Belirlediği stratejileri çözüm için uygular.",
+                "f) Çözümü kontrol ederek işe yaramayan stratejiyi değiştirir.",
+                "g) Stratejileri gözden geçirip kısa yolları değerlendirir.",
+                "ğ) Çözüme ulaştıran stratejilerin uygulanabileceği problemleri genelleştirir.",
+                "h) Genellemenin geçerliliğini matematiksel örneklerle değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.4.2.8",
+              "text": "Dört işlem gerektiren problem durumlarını yapılandırma.",
+              "subSkills": [
+                "a) Bu durumlara ilişkin hiyerarşik, nedensel veya mantıksal ilişkiler ortaya koyar.",
+                "b) Kendi bilgisine dayalı ilişkilerle dört işlem gerektiren problemler oluşturur."
+              ]
+            },
+            {
+              "code": "MAT.4.2.9",
+              "text": "Dört işlem bağlamında eşitliğin farklı anlamlarını yorumlama.",
+              "subSkills": [
+                "a) Dört işlem bağlamındaki eşitlik kavramını inceler.",
+                "b) Günlük yaşam durumlarını dört işleme dönüştürür.",
+                "c) Dört işlem içeren günlük durumu eşitlik kavramıyla ifade eder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Nesnelerin Geometrisi (1)",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/301",
+          "hours": 17,
+          "keyConcepts": [
+            "alan"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.4.3.1",
+              "text": "Cisimlerin açınımlarını çözümleyerek yüzler arasındaki bağlantıları kurup geometrik cismi oluşturabilme.",
+              "subSkills": [
+                "a) Açınımları inceleyerek yüzler arasında mantıksal bağlantılar ortaya koyar.",
+                "b) Ortaya koyduğu bağlantılardan yola çıkarak geometrik cismi oluşturur."
+              ]
+            },
+            {
+              "code": "MAT.4.3.2",
+              "text": "Üçgen, kare ve dikdörtgenin kenar ve köşelerini yorumlayarak aralarındaki ilişkileri ve üçgen türlerini ifade edebilme.",
+              "subSkills": [
+                "a) Üçgen, kare ve dikdörtgenin kenar ve köşelerini tespit eder.",
+                "b) Bu şekillerin kenar ve köşeleri arasında bağ kurar.",
+                "c) Kenar uzunluklarına göre üçgen türlerini ve kare-dikdörtgen ilişkisini açıklar."
+              ]
+            },
+            {
+              "code": "MAT.4.3.3",
+              "text": "Geometrik şekillerin çevre uzunluğunu ölçmek için uygun matematiksel araç ve teknolojileri tanıyıp kullanabilme.",
+              "subSkills": [
+                "a) Çevre ölçümünde kullanılabilecek araç ve teknolojileri tanır.",
+                "b) Üçgen, kare ve dikdörtgenin çevresini ölçmek için uygun araçları belirler.",
+                "c) Bu şekillerin çevresini ölçmek için ilgili araç ve teknolojiyi kullanır."
+              ]
+            },
+            {
+              "code": "MAT.4.3.4",
+              "text": "Standart olmayan ölçü birimleriyle şekillerin alanını tahmin edip tahminini ölçüm sonuçlarıyla karşılaştırabilme.",
+              "subSkills": [
+                "a) Standart olmayan birimlere dair deneyimini, alanı tahmin edilecek şekille ilişkilendirir.",
+                "b) Seçilen standart olmayan birimle şeklin alanına dair tahmin yapar.",
+                "c) Tahminini ölçüm sonuçlarıyla kıyaslayarak bu tahmin hakkında yargıda bulunur."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Nesnelerin Geometrisi (2)",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/302",
+          "hours": 11,
+          "keyConcepts": [
+            "açı",
+            "dik açı",
+            "dar açı",
+            "geniş açı"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.4.3.5",
+              "text": "Günlük yaşam örnekleriyle açıyı bir dönme miktarı olarak yorumlama",
+              "subSkills": [
+                "a) Günlük hayattan örneklerle açıyı tanımlar.",
+                "b) Açıyı bağlamından ayırmadan günlük durumlara uyarlar.",
+                "c) Açıyı bir dönme miktarı olarak yeniden ifade eder."
+              ]
+            },
+            {
+              "code": "MAT.4.3.6",
+              "text": "Açı ölçümünde standart ölçme araçlarının gerekliliğini değerlendirme",
+              "subSkills": [
+                "a) Açı ölçümü için bir ölçüt belirler.",
+                "b) Ölçüte uygun standart dışı birimlerle ölçüm yapar.",
+                "c) Elde ettiği sonuçları ölçütle karşılaştırır.",
+                "ç) Standart ölçme araçlarının gerekliliği hakkında yargıda bulunur."
+              ]
+            },
+            {
+              "code": "MAT.4.3.7",
+              "text": "Dik açıyı referans alarak açıları dar ve geniş olarak sınıflandırma",
+              "subSkills": [
+                "a) Dik açının özelliklerini belirler.",
+                "b) Dik açıya göre açı türlerini dar ve geniş olarak ayırır.",
+                "c) Dar ve geniş açıların özelliklerini sınıflandırır.",
+                "ç) Dar ve geniş açıları adlandırır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Nesnelerin Geometrisi (3)",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/303",
+          "hours": 13,
+          "keyConcepts": [
+            "ayna simetrisi"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.4.3.8",
+              "text": "Geometrik nesne ve şekiller üzerinden doğruya göre simetriyi yorumlama.",
+              "subSkills": [
+                "a) Şekil ve modellerle ayna simetrisinin özelliklerini inceleme.",
+                "b) Ayna simetrisi ile doğruya göre simetri arasındaki ilişkiyi fark etme.",
+                "c) Ayna simetrisini kendi ifadeleriyle doğruya göre simetri olarak yeniden ifade etme."
+              ]
+            },
+            {
+              "code": "MAT.4.3.9",
+              "text": "Bir şeklin doğruya göre simetrisini yapılandırabilme.",
+              "subSkills": [
+                "a) Simetri doğrusunun özelliklerini inceleyerek mantıksal ilişkiler ortaya koyma.",
+                "b) Bu ilişkilerden yola çıkarak şeklin doğruya göre simetrisini oluşturma."
+              ]
+            },
+            {
+              "code": "MAT.4.3.10",
+              "text": "Geometrik şekillere dayalı bir yapı için kodlama stratejilerini yapılandırabilme.",
+              "subSkills": [
+                "a) Geometrik şekil ve yapı bilgisi arasında mantıksal ilişkiler ortaya koyma.",
+                "b) Bu ilişkilerden yola çıkarak kodlama stratejisi oluşturma."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Olayların Olasılığı Ve Veriye Dayalı Araştırma",
+          "url": "https://tymm.meb.gov.tr/ilkokul-matematik-dersi/unite/304",
+          "hours": 15,
+          "keyConcepts": [
+            "imkânsız",
+            "olabilir",
+            "kesin"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.4.4.1",
+              "text": "Günlük bir olayın olasılığını imkânsız, olabilir ya da kesin olarak belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "MAT.4.4.2",
+              "text": "Kategorik ve sayma ile elde edilen nicel veriyle en fazla iki veri grubunda çalışma ve veriye dayalı karar verme.",
+              "subSkills": [
+                "a) Veriyle araştırılabilecek günlük bir problemi belirler.",
+                "b) Betimleme veya karşılaştırma gerektiren araştırma soruları oluşturur.",
+                "c) Verileri toplamak için plan yapar.",
+                "ç) Kategorik verileri toplar ve analize hazırlar.",
+                "d) Verileri analiz etmek için uygun görselleştirme araçlarını seçer.",
+                "e) Seçtiği araçlarla verileri görselleştirip analiz eder.",
+                "f) Araştırma sonuçlarını yorumlar.",
+                "g) Sonuçları araştırma sorularına göre değerlendirir."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Resmî ders adı: İlkokul Matematik Dersi. Program PDF: https://tymm.meb.gov.tr/assets/pdf/ilkokul-matematik-dersi_20260902_111356_122.pdf. Öğrenme çıktısı ve süreç bileşeni metinleri kısa Türkçe açıklamalardır (birebir alıntı değil); kodlar, tema adları ve saatler sitedeki gibidir. Bazı temalarda (4. sınıf 1. ve 3. tema) anahtar kavram listesi sayfadan çıkarılamadı/boş. Süreç bileşeni olmayan çıktılar boş liste ile gösterildi."
+}

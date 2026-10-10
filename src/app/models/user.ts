@@ -6,6 +6,7 @@ export interface AppUser {
   displayName: string;
   role: UserRole;
   gradeLevel?: 'ilkokul' | 'ortaokul' | 'lise' | 'kpss';
+  grade?: number;    // sınıf 1-12 (optional, not used for KPSS)
   createdAt: number; // epoch ms
   subscriptionId?: string;
   subscriptionStatus: 'active' | 'trial' | 'expired' | 'none';

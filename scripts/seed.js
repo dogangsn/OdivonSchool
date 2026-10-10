@@ -27,12 +27,14 @@ admin.initializeApp({
 const db = admin.firestore();
 
 async function seedCategories() {
-  const batch = db.batch();
-  for (const category of CATEGORIES) {
-    const ref = db.collection('categories').doc(category.id);
-    batch.set(ref, category);
+  // Firestore batches are limited to 500 writes.
+  for (let i = 0; i < CATEGORIES.length; i += 400) {
+    const batch = db.batch();
+    for (const category of CATEGORIES.slice(i, i + 400)) {
+      batch.set(db.collection('categories').doc(category.id), category);
+    }
+    await batch.commit();
   }
-  await batch.commit();
   console.log(`✔ ${CATEGORIES.length} kategori yazıldı.`);
 }
 

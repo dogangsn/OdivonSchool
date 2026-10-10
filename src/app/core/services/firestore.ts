@@ -112,7 +112,11 @@ export class FirestoreService {
 
   async updateUserProfile(
     uid: string,
-    updates: { displayName?: string; gradeLevel?: 'ilkokul' | 'ortaokul' | 'lise' | 'kpss' }
+    updates: {
+      displayName?: string;
+      gradeLevel?: 'ilkokul' | 'ortaokul' | 'lise' | 'kpss';
+      grade?: number | null;
+    }
   ): Promise<void> {
     const ref = doc(this.firestore, `users/${uid}`);
     await updateDoc(ref, updates);

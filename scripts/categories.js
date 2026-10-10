@@ -1,8 +1,10 @@
+const { loadMebCategories } = require('./meb-categories');
+
 /**
  * Comprehensive MEB & ÖSYM Curriculum Category Catalog for OdivonSchool.
  * id is used directly as the Firestore document ID (slug).
  */
-const CATEGORIES = [
+const LEGACY_CATEGORIES = [
   // ==========================================
   // 1. İLKOKUL (1, 2, 3 ve 4. Sınıflar)
   // ==========================================
@@ -14,6 +16,7 @@ const CATEGORIES = [
     topic: 'Doğal Sayılar ve Basamak Değeri',
     description: 'Basamak adları, sayı ve basamak değerleri, çözümleme ve yuvarlama.',
     order: 1,
+    grades: [1, 2, 3, 4],
   },
   {
     id: 'ilkokul-matematik-toplama-cikarma',
@@ -22,6 +25,7 @@ const CATEGORIES = [
     topic: 'Toplama ve Çıkarma İşlemleri',
     description: 'Eldeli toplama, onluk bozarak çıkarma ve zihinden işlemler.',
     order: 2,
+    grades: [1, 2, 3, 4],
   },
   {
     id: 'ilkokul-matematik-carpma-bolme',
@@ -30,6 +34,7 @@ const CATEGORIES = [
     topic: 'Çarpma ve Bölme İşlemleri',
     description: 'Kısa yoldan çarpma, kalanlı bölme ve çarpım tablosu pratikleri.',
     order: 3,
+    grades: [2, 3, 4],
   },
   {
     id: 'ilkokul-matematik-kesirler',
@@ -38,6 +43,7 @@ const CATEGORIES = [
     topic: 'Kesirler ve Kesir Çeşitleri',
     description: 'Birim kesir, basit, bileşik, tam sayılı kesirler ve modelleme.',
     order: 4,
+    grades: [2, 3, 4],
   },
   {
     id: 'ilkokul-matematik-geometri',
@@ -46,6 +52,7 @@ const CATEGORIES = [
     topic: 'Geometrik Cisimler ve Şekiller',
     description: 'Küp, prizma, üçgen, kare, dikdörtgen ve simetri kuralları.',
     order: 5,
+    grades: [1, 2, 3, 4],
   },
   {
     id: 'ilkokul-matematik-olcmeler-ve-paralar',
@@ -54,6 +61,7 @@ const CATEGORIES = [
     topic: 'Zaman, Uzunluk ve Para Ölçüleri',
     description: 'Saat okuma, zaman hesapları, metre-santimetre ve lira-kuruş problemleri.',
     order: 6,
+    grades: [1, 2, 3, 4],
   },
 
   // Türkçe
@@ -64,6 +72,7 @@ const CATEGORIES = [
     topic: 'Okuduğunu Anlama ve Yorumlama',
     description: 'Metin analizi, ana fikir, başlık belirleme ve 5N1K soruları.',
     order: 7,
+    grades: [1, 2, 3, 4],
   },
   {
     id: 'ilkokul-turkce-es-zit-anlam',
@@ -72,6 +81,7 @@ const CATEGORIES = [
     topic: 'Eş ve Zıt Anlamlı Sözcükler',
     description: 'Anlamdaş kelimeler, karşıt anlamlılar ve eş sesli (sesteş) sözcükler.',
     order: 8,
+    grades: [2, 3, 4],
   },
   {
     id: 'ilkokul-turkce-yazim-noktalama',
@@ -80,6 +90,7 @@ const CATEGORIES = [
     topic: 'Yazım Kuralları ve Noktalama',
     description: 'Büyük harf kullanımı, soru eki -mi, de/da yazımı ve noktalama işaretleri.',
     order: 9,
+    grades: [1, 2, 3, 4],
   },
   {
     id: 'ilkokul-turkce-atasozleri-deyimler',
@@ -88,6 +99,7 @@ const CATEGORIES = [
     topic: 'Atasözleri ve Deyimler',
     description: 'Türkçemizin zengin deyimleri, atasözlerinin anlamları ve mecaz anlatım.',
     order: 10,
+    grades: [3, 4],
   },
 
   // Fen Bilimleri
@@ -98,6 +110,7 @@ const CATEGORIES = [
     topic: "Yer Kabuğu ve Dünya'mızın Hareketleri",
     description: 'Kayaçlar, madenler, fosiller, Dünya’nın dönme ve dolanma hareketleri.',
     order: 11,
+    grades: [3, 4],
   },
   {
     id: 'ilkokul-fen-besinlerimiz',
@@ -106,6 +119,7 @@ const CATEGORIES = [
     topic: 'Besinlerimiz ve Sağlıklı Yaşam',
     description: 'Proteinler, karbonhidratlar, vitaminler ve dengeli beslenme kuralları.',
     order: 12,
+    grades: [4],
   },
   {
     id: 'ilkokul-fen-kuvvet-ve-hareket',
@@ -114,6 +128,7 @@ const CATEGORIES = [
     topic: 'Kuvvetin Etkileri ve Hareket',
     description: 'İtme-çekme kuvveti, hızlanma, yavaşlama, yön değiştirme ve mıknatıslar.',
     order: 13,
+    grades: [3, 4],
   },
   {
     id: 'ilkokul-fen-maddenin-halleri',
@@ -122,6 +137,7 @@ const CATEGORIES = [
     topic: 'Maddenin Özellikleri ve Halleri',
     description: 'Katı, sıvı, gaz maddeler, suda yüzen-batan maddeler ve saf madde-karışım.',
     order: 14,
+    grades: [3, 4],
   },
 
   // Hayat Bilgisi & Sosyal Bilgiler
@@ -132,6 +148,7 @@ const CATEGORIES = [
     topic: 'Birey ve Toplum: Haklarımız',
     description: 'Kimlik kartı, resmi belgeler, hak ve sorumluluklarımız, empati.',
     order: 15,
+    grades: [4],
   },
   {
     id: 'ilkokul-sosyal-kultur-ve-miras',
@@ -140,6 +157,7 @@ const CATEGORIES = [
     topic: 'Kültürümüz ve Milli Mirasımız',
     description: 'Aile tarihi, geleneksel oyunlar, milli bayramlar ve kültürel değerler.',
     order: 16,
+    grades: [4],
   },
 
   // ==========================================
@@ -153,6 +171,7 @@ const CATEGORIES = [
     topic: 'Çarpanlar ve Katlar (EBOB - EKOK)',
     description: 'Asal çarpanlara ayırma, EBOB ve EKOK problemleri, aralarında asal sayılar.',
     order: 1,
+    grades: [6, 8],
   },
   {
     id: 'ortaokul-matematik-uslu-ifadeler',
@@ -161,6 +180,7 @@ const CATEGORIES = [
     topic: 'Üslü İfadeler ve Bilimsel Gösterim',
     description: 'Tam sayıların kuvvetleri, üslü sayılarda işlemler ve çok büyük/küçük sayılar.',
     order: 2,
+    grades: [6, 7, 8],
   },
   {
     id: 'ortaokul-matematik-karekoklu-ifadeler',
@@ -169,6 +189,7 @@ const CATEGORIES = [
     topic: 'Kareköklü İfadeler',
     description: 'Tam kare sayılar, kareköklü sayılarda çarpma, bölme, toplama ve çıkarma.',
     order: 3,
+    grades: [8],
   },
   {
     id: 'ortaokul-matematik-olasilik-ve-veri',
@@ -177,6 +198,7 @@ const CATEGORIES = [
     topic: 'Veri Analizi ve Basit Olayların Olasılığı',
     description: 'Daire, sütun, çizgi grafikleri ve olası durumları hesaplama.',
     order: 4,
+    grades: [7, 8],
   },
   {
     id: 'ortaokul-matematik-cebir-ve-ozdeslikler',
@@ -185,6 +207,7 @@ const CATEGORIES = [
     topic: 'Cebirsel İfadeler ve Özdeşlikler',
     description: 'Terimler, katsayılar, tam kare özdeşlikler ve iki kare farkı.',
     order: 5,
+    grades: [6, 7, 8],
   },
   {
     id: 'ortaokul-matematik-denklemler-ve-grafikler',
@@ -193,6 +216,7 @@ const CATEGORIES = [
     topic: 'Doğrusal Denklemler ve Eğim',
     description: 'Birinci dereceden bir bilinmeyenli denklemler, koordinat sistemi ve eğim.',
     order: 6,
+    grades: [7, 8],
   },
   {
     id: 'ortaokul-matematik-esitsizlikler',
@@ -201,6 +225,7 @@ const CATEGORIES = [
     topic: 'Birinci Dereceden Eşitsizlikler',
     description: 'Eşitsizlik kurma, sayı doğrusunda gösterme ve eşitsizlik çözümü.',
     order: 7,
+    grades: [8],
   },
   {
     id: 'ortaokul-matematik-ucgenler-ve-pisagor',
@@ -209,6 +234,7 @@ const CATEGORIES = [
     topic: 'Üçgenler ve Pisagor Bağıntısı',
     description: 'Açıortay, kenarortay, üçgen eşitsizliği ve dik üçgende Pisagor teoremi.',
     order: 8,
+    grades: [7, 8],
   },
 
   // Türkçe (LGS)
@@ -219,6 +245,7 @@ const CATEGORIES = [
     topic: 'Fiilimsiler (Eylemsiler)',
     description: 'İsim-fiil, sıfat-fiil, zarf-fiil ekleri ve cümledeki görevleri.',
     order: 9,
+    grades: [8],
   },
   {
     id: 'ortaokul-turkce-sozcuk-cumle-anlam',
@@ -227,6 +254,7 @@ const CATEGORIES = [
     topic: 'Sözcük ve Cümlede Anlam',
     description: 'Gerçek, mecaz, terim anlam, neden-sonuç, amaç-sonuç ve örtülü anlam.',
     order: 10,
+    grades: [5, 6, 7, 8],
   },
   {
     id: 'ortaokul-turkce-paragraf-ve-ana-fikir',
@@ -235,6 +263,7 @@ const CATEGORIES = [
     topic: 'Paragrafta Anlam ve Yapı',
     description: 'Ana fikir, yardımcı fikirler, akışı bozan cümle ve metin tamamlama.',
     order: 11,
+    grades: [5, 6, 7, 8],
   },
   {
     id: 'ortaokul-turkce-cumlenin-ogeleri',
@@ -243,6 +272,7 @@ const CATEGORIES = [
     topic: 'Cümlenin Ögeleri ve Cümle Türleri',
     description: 'Yüklem, özne, nesne, yer tamlayıcısı, zarf tamlayıcısı ve fiil çatıları.',
     order: 12,
+    grades: [8],
   },
   {
     id: 'ortaokul-turkce-sozel-mantik',
@@ -251,6 +281,7 @@ const CATEGORIES = [
     topic: 'Sözel Mantık ve Muhakeme',
     description: 'Tablo ve grafik okuma, sıralama, yerleştirme ve çıkarım soruları.',
     order: 13,
+    grades: [7, 8],
   },
 
   // Fen Bilimleri (LGS)
@@ -261,6 +292,7 @@ const CATEGORIES = [
     topic: 'Mevsimler ve İklim',
     description: 'Dünya’nın eksen eğikliği, mevsimlerin oluşumu, iklim ve hava hareketleri.',
     order: 14,
+    grades: [8],
   },
   {
     id: 'ortaokul-fen-dna-ve-genetik-kod',
@@ -269,6 +301,7 @@ const CATEGORIES = [
     topic: 'DNA ve Genetik Kod',
     description: 'DNA yapısı ve eşlenmesi, kalıtım, mutasyon, modifikasyon ve biyoteknoloji.',
     order: 15,
+    grades: [8],
   },
   {
     id: 'ortaokul-fen-basinc',
@@ -277,6 +310,7 @@ const CATEGORIES = [
     topic: 'Basınç (Katı, Sıvı ve Gaz)',
     description: 'Katı basıncı, sıvı basıncı (Pascal prensibi), açık hava basıncı ve uygulamaları.',
     order: 16,
+    grades: [8],
   },
   {
     id: 'ortaokul-fen-madde-ve-endustri',
@@ -285,6 +319,7 @@ const CATEGORIES = [
     topic: 'Madde ve Endüstri (Asitler & Bazlar)',
     description: 'Periyodik sistem, fiziksel ve kimyasal değişimler, asit-baz tepkimeleri.',
     order: 17,
+    grades: [8],
   },
   {
     id: 'ortaokul-fen-basit-makineler',
@@ -293,6 +328,7 @@ const CATEGORIES = [
     topic: 'Basit Makineler',
     description: 'Kaldıraçlar, makaralar, palangalar, eğik düzlem, vida, kasnak ve dişliler.',
     order: 18,
+    grades: [8],
   },
 
   // İnkılap Tarihi
@@ -303,6 +339,7 @@ const CATEGORIES = [
     topic: 'Milli Uyanış ve Kurtuluş Savaşı',
     description: 'I. Dünya Savaşı, genelgeler, kongreler, TBMM’nin açılışı ve cepheler.',
     order: 19,
+    grades: [8],
   },
   {
     id: 'ortaokul-inkilap-ataturkculuk-ve-ilkeler',
@@ -311,6 +348,7 @@ const CATEGORIES = [
     topic: 'Atatürk İlkeleri ve İnkılapları',
     description: 'Cumhuriyetçilik, Milliyetçilik, Halkçılık, Laiklik, Devletçilik, İnkılapçılık.',
     order: 20,
+    grades: [8],
   },
 
   // ==========================================
@@ -324,6 +362,7 @@ const CATEGORIES = [
     topic: 'Temel Kavramlar ve Sayı Kümeleri (TYT)',
     description: 'Doğal sayılar, tam sayılar, asal sayılar, faktöriyel ve basamak analizi.',
     order: 1,
+    grades: [9, 12],
   },
   {
     id: 'lise-matematik-bolunebilme-ebob-ekok',
@@ -332,6 +371,7 @@ const CATEGORIES = [
     topic: 'Bölünebilme Kuralları ve EBOB-EKOK (TYT)',
     description: 'Bölünebilme kuralları, periyodik durumlar ve EBOB-EKOK uygulamaları.',
     order: 2,
+    grades: [9, 12],
   },
   {
     id: 'lise-matematik-uslu-koklu-sayilar',
@@ -340,6 +380,7 @@ const CATEGORIES = [
     topic: 'Üslü ve Köklü Sayılar (TYT)',
     description: 'Üslü denklemler, köklü ifadeler ve eşlenik ile genişletme.',
     order: 3,
+    grades: [9, 12],
   },
   {
     id: 'lise-matematik-problemler',
@@ -348,6 +389,7 @@ const CATEGORIES = [
     topic: 'Oran-Orantı ve Yeni Nesil Problemler (TYT)',
     description: 'Sayı, kesir, yaş, işçi, hız, yüzde, kâr-zarar ve karışım problemleri.',
     order: 4,
+    grades: [9, 10, 12],
   },
   {
     id: 'lise-matematik-fonksiyonlar',
@@ -356,6 +398,7 @@ const CATEGORIES = [
     topic: 'Fonksiyonlar ve Fonksiyon Grafikleri (TYT/AYT)',
     description: 'Birebir, örten fonksiyonlar, ters fonksiyon, bileşke ve fonksiyon grafikleri.',
     order: 5,
+    grades: [10, 11, 12],
   },
   {
     id: 'lise-matematik-polinomlar-ve-denklemler',
@@ -364,6 +407,7 @@ const CATEGORIES = [
     topic: 'Polinomlar ve 2. Dereceden Denklemler (AYT)',
     description: 'Polinomlarda bölme, kök-katsayı ilişkisi ve karmaşık sayılar.',
     order: 6,
+    grades: [10, 11, 12],
   },
   {
     id: 'lise-matematik-trigonometri',
@@ -372,6 +416,7 @@ const CATEGORIES = [
     topic: 'Trigonometri (AYT)',
     description: 'Birim çember, trigonometrik fonksiyonlar, toplam-fark ve yarım açı formülleri.',
     order: 7,
+    grades: [11, 12],
   },
   {
     id: 'lise-matematik-logaritma-ve-diziler',
@@ -380,6 +425,7 @@ const CATEGORIES = [
     topic: 'Logaritma ve Diziler (AYT)',
     description: 'Üstel fonksiyon, logaritma özellikleri, aritmetik ve geometrik diziler.',
     order: 8,
+    grades: [11, 12],
   },
   {
     id: 'lise-matematik-limit-ve-sureklilik',
@@ -388,6 +434,7 @@ const CATEGORIES = [
     topic: 'Limit ve Süreklilik (AYT)',
     description: 'Sağdan-soldan limit, 0/0 belirsizliği ve süreklilik kuralları.',
     order: 9,
+    grades: [12],
   },
   {
     id: 'lise-matematik-turev-uygulamalari',
@@ -396,6 +443,7 @@ const CATEGORIES = [
     topic: 'Türev ve Uygulamaları (AYT)',
     description: 'Türev alma kuralları, teğet denklemi, artan-azalanlık, yerel ekstremum.',
     order: 10,
+    grades: [12],
   },
   {
     id: 'lise-matematik-integral',
@@ -404,6 +452,7 @@ const CATEGORIES = [
     topic: 'Belirli ve Belirsiz İntegral (AYT)',
     description: 'İntegral alma teknikleri, değişken değiştirme ve eğri altında kalan alan hesabı.',
     order: 11,
+    grades: [12],
   },
 
   // Fizik (TYT / AYT)
@@ -414,6 +463,7 @@ const CATEGORIES = [
     topic: 'Kuvvet, Hareket ve Newton Yasaları (TYT/AYT)',
     description: 'Düzgün doğrusal hareket, ivmeli hareket, dinamik ve sürtünme kuvveti.',
     order: 12,
+    grades: [9, 11, 12],
   },
   {
     id: 'lise-fizik-is-guc-enerji',
@@ -422,6 +472,7 @@ const CATEGORIES = [
     topic: 'İş, Güç ve Mekanik Enerji (TYT)',
     description: 'Kinetik enerji, potansiyel enerji, sürtünmeli ortamlarda mekanik enerji korunumu.',
     order: 13,
+    grades: [9, 12],
   },
   {
     id: 'lise-fizik-elektrik-ve-manyetizma',
@@ -430,6 +481,7 @@ const CATEGORIES = [
     topic: 'Elektrik Akımı ve Manyetizma (AYT)',
     description: 'Ohm kanunu, devreler, manyetik alan, manyetik kuvvet ve indüksiyon akımı.',
     order: 14,
+    grades: [10, 11, 12],
   },
   {
     id: 'lise-fizik-optik-ve-dalgalar',
@@ -438,6 +490,7 @@ const CATEGORIES = [
     topic: 'Optik ve Dalga Mekaniği (TYT/AYT)',
     description: 'Aydınlanma, yansıma, aynalar, kırılma, mercekler ve çift yarıkta girişim.',
     order: 15,
+    grades: [10, 12],
   },
 
   // Kimya (TYT / AYT)
@@ -448,6 +501,7 @@ const CATEGORIES = [
     topic: 'Atom Modelleri ve Periyodik Sistem (TYT)',
     description: 'Proton, nötron, elektron, periyodik özelliklerin değişimi ve kimyasal türler.',
     order: 16,
+    grades: [9, 12],
   },
   {
     id: 'lise-kimya-kimyasal-hesaplamalar',
@@ -456,6 +510,7 @@ const CATEGORIES = [
     topic: 'Mol Kavramı ve Kimyasal Tepkimeler (TYT)',
     description: 'Mol hesapları, tepkime denklemleri, sınırlayıcı bileşen ve verim hesapları.',
     order: 17,
+    grades: [10, 12],
   },
   {
     id: 'lise-kimya-gazlar-ve-cozeltiler',
@@ -464,6 +519,7 @@ const CATEGORIES = [
     topic: 'Gaz Yasaları ve Sıvı Çözeltiler (AYT)',
     description: 'İdeal gaz denklemi, kısmi basınç, derişim birimleri ve koligatif özellikler.',
     order: 18,
+    grades: [11, 12],
   },
   {
     id: 'lise-kimya-organik-kimya',
@@ -472,6 +528,7 @@ const CATEGORIES = [
     topic: 'Organik Kimyaya Giriş ve Hidrokarbonlar (AYT)',
     description: 'Karbon allotropları, Lewis formülleri, hibritleşme, alkan, alken ve alkinler.',
     order: 19,
+    grades: [12],
   },
 
   // Biyoloji (TYT / AYT)
@@ -482,6 +539,7 @@ const CATEGORIES = [
     topic: 'Hücre Yapısı ve Madde Geçişleri (TYT)',
     description: 'Prokaryot-ökaryot hücre, organeller, difüzyon, osmoz ve aktif taşıma.',
     order: 20,
+    grades: [9, 12],
   },
   {
     id: 'lise-biyoloji-kalitim-ve-genetik',
@@ -490,6 +548,7 @@ const CATEGORIES = [
     topic: 'Mendel Kalıtımı ve Biyolojik Çeşitlilik (TYT)',
     description: 'Monohibrit-dihibrit çaprazlama, kan grupları, eşeye bağlı kalıtım ve soy ağaçları.',
     order: 21,
+    grades: [10, 12],
   },
   {
     id: 'lise-biyoloji-insan-fizyolojisi',
@@ -498,6 +557,7 @@ const CATEGORIES = [
     topic: 'İnsan Fizyolojisi ve Sistemler (AYT)',
     description: 'Sinir, endokrin, duyu organları, dolaşım, bağışıklık, solunum ve boşaltım sistemleri.',
     order: 22,
+    grades: [11, 12],
   },
 
   // Edebiyat & Tarih
@@ -508,6 +568,7 @@ const CATEGORIES = [
     topic: 'Paragrafta Anlam ve Anlatım Teknikleri (TYT)',
     description: 'Ana düşünce, paragraf yapısı, anlatım biçimleri ve düşünceyi geliştirme yolları.',
     order: 23,
+    grades: [9, 10, 12],
   },
   {
     id: 'lise-edebiyat-divan-ve-halk',
@@ -516,6 +577,7 @@ const CATEGORIES = [
     topic: 'Divan ve Halk Edebiyatı (AYT)',
     description: 'Nazım biçimleri, aruz ve hece ölçüsü, divan ve halk şairleri, edebi sanatlar.',
     order: 24,
+    grades: [10, 11, 12],
   },
   {
     id: 'lise-tarih-osmanli-ve-kurtulus',
@@ -524,6 +586,7 @@ const CATEGORIES = [
     topic: 'Osmanlı Devleti ve Kurtuluş Savaşı Tarihi (TYT/AYT)',
     description: 'Osmanlı kurumları, diplomasi, I. Dünya Savaşı, Milli Mücadele ve inkılaplar.',
     order: 25,
+    grades: [10, 11, 12],
   },
 
   // ==========================================
@@ -662,4 +725,28 @@ const CATEGORIES = [
   },
 ];
 
-module.exports = { CATEGORIES };
+// Legacy subject names that match a MEB program subject.
+const SUBJECT_ALIASES = {
+  'T.C. İnkılap Tarihi': 'T.C. İnkılap Tarihi ve Atatürkçülük',
+  Edebiyat: 'Türk Dili ve Edebiyatı',
+};
+
+/**
+ * MEB (Maarif Modeli) tema categories replace the older hand-written topics:
+ * wherever a level + subject + grade is covered by a MEB program, the legacy
+ * topic drops that grade. A legacy topic left with no grades still shows under
+ * "Tüm Sınıflar" so its existing questions stay reachable.
+ */
+const MEB_CATEGORIES = loadMebCategories();
+const covered = new Set(MEB_CATEGORIES.map((c) => `${c.level}|${c.subject}|${c.grades[0]}`));
+
+const CATEGORIES = [
+  ...LEGACY_CATEGORIES.map((c) => {
+    if (!c.grades) return c;
+    const subject = SUBJECT_ALIASES[c.subject] || c.subject;
+    return { ...c, grades: c.grades.filter((g) => !covered.has(`${c.level}|${subject}|${g}`)) };
+  }),
+  ...MEB_CATEGORIES,
+];
+
+module.exports = { CATEGORIES, LEGACY_CATEGORIES, MEB_CATEGORIES };

@@ -23,6 +23,11 @@ export class QuestionReview implements OnInit {
   // Real-time draft questions from Firestore
   draftQuestions = toSignal(this.aiGen.draftQuestions(), { initialValue: [] });
 
+  /** "3. Sınıf · " for single-grade (MEB tema) categories. */
+  gradePrefix(cat: TestCategory): string {
+    return cat.grades?.length === 1 ? `${cat.grades[0]}. Sınıf · ` : '';
+  }
+
   // Group categories by educational level for organized optgroups
   ilkokulCategories = computed(() =>
     this.categories().filter((c) => c.level === 'ilkokul')

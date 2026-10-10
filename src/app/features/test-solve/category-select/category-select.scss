@@ -204,6 +204,58 @@
 }
 
 /* Categories Section */
+/* Grade (sınıf) chips */
+.grade-chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: -12px;
+}
+
+.grade-chip {
+  background-color: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-full);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 8px 18px;
+  cursor: pointer;
+  transition: all var(--transition-base);
+
+  &:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+  }
+
+  &.active {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: var(--text-white);
+    box-shadow: 0 4px 12px var(--primary-glow);
+  }
+}
+
+.subject-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-top: 8px;
+
+  .count-chip {
+    font-size: 0.75rem;
+    font-weight: 700;
+    background-color: var(--bg-alt);
+    color: var(--text-muted);
+    padding: 3px 10px;
+    border-radius: var(--radius-full);
+  }
+}
+
 .categories-section {
   display: flex;
   flex-direction: column;
