@@ -1,0 +1,256 @@
+{
+  "level": "ilkokul",
+  "subject": "Sosyal Bilgiler",
+  "programUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ders/sosyal-bilgiler-dersi",
+  "grades": [
+    {
+      "grade": 4,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/sosyal-bilgiler-dersi/5",
+      "themes": [
+        {
+          "order": 1,
+          "name": "Birlikte Yaşamak",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/338",
+          "hours": 18,
+          "keyConcepts": [
+            "bireysel özellik",
+            "ilgi alanı",
+            "sosyal bilgiler",
+            "toplumsal birlik"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.4.1.1",
+              "text": "Sosyal bilgiler dersinin birey ve topluma sağladığı katkıları yorumlayabilme",
+              "subSkills": [
+                "a) Örneklerden yola çıkarak dersin birey ve topluma katkılarını inceler.",
+                "b) Bu katkıları bağlamdan kopmadan yeniden biçimlendirir.",
+                "c) Katkıları doğru ve anlamını koruyarak nesnel biçimde yeniden ifade eder."
+              ]
+            },
+            {
+              "code": "SB.4.1.2",
+              "text": "Bireysel farklılıklara duyulan saygıyı günlük yaşamına yansıtabilme",
+              "subSkills": [
+                "a) Bireysel özelliklerle ilgili kendi deneyimlerini gözden geçirir.",
+                "b) Bireysel özelliklere saygının önemi hakkında çıkarım yapar.",
+                "c) Ulaştığı çıkarımları değerlendirir."
+              ]
+            },
+            {
+              "code": "SB.4.1.3",
+              "text": "Toplumsal birliği sürdürmeye yönelik fikirler geliştirebilme",
+              "subSkills": [
+                "a) Aile, sınıf ve okulda toplumsal birliğin gerekliliğini fark eder.",
+                "b) Aile, sınıf ve okulda birliğe katkı sağlayan örnekleri inceler.",
+                "c) Aile, sınıf ve okulda toplumsal birliği sürdürmeye yönelik fikir üretir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Evimiz Dünya",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/343",
+          "hours": 19,
+          "keyConcepts": [
+            "doğal çevre unsuru",
+            "harita",
+            "harita anahtarı",
+            "navigasyon (yol uygulamaları)"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.4.2.1",
+              "text": "Konum ve yön bulmada haritaları okuyabilme",
+              "subSkills": [
+                "a) Haritanın başlığından içeriğine ilişkin anlam çıkarır.",
+                "b) Harita üzerindeki sembol ve renkleri ayırt eder.",
+                "c) Kenar bilgilerini ve bu bilgilerdeki sembolleri anlamlandırır.",
+                "ç) Yakın çevredeki bir yerin konumunu belirlerken konum bulma araçlarından yararlanır.",
+                "d) Haritadaki unsurlardan hareketle haritayı ve harita türünü çözümler."
+              ]
+            },
+            {
+              "code": "SB.4.2.2",
+              "text": "Yakın çevresinden hareketle doğa-insan ilişkisini çözümleyebilme",
+              "subSkills": [
+                "a) Yakın çevresindeki doğal çevre unsurlarını belirler.",
+                "b) Bu unsurlar ile insanlar arasındaki ilişkileri belirler."
+              ]
+            },
+            {
+              "code": "SB.4.2.3",
+              "text": "Afetlerin etkilerini azaltmaya yönelik oluşturduğu ürünü paylaşabilme",
+              "subSkills": [
+                "a) Kaynaklara dayanarak yakın çevrede geçmişten bugüne yaşanan afetlere ilişkin çıkarım yapar.",
+                "b) Yakın çevrede olabilecek afetlerin etkilerini azaltmaya yönelik ürün oluşturur.",
+                "c) Oluşturduğu ürünü paylaşır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Ortak Mirasımız",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/346",
+          "hours": 19,
+          "keyConcepts": [
+            "kültür",
+            "millî kültür",
+            "ortak miras",
+            "sanat"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.4.3.1",
+              "text": "Eski ve yeni çocuk oyun ve oyuncaklarını karşılaştırarak aralarındaki değişimi açıklayabilme",
+              "subSkills": [
+                "a) Oyun ve oyuncakların özelliklerini kanıt, gözlem veya deneyime dayanarak tespit eder.",
+                "b) Oyun ve oyuncakların zamanla değişmeyen özelliklerini kanıta dayalı listeler.",
+                "c) Oyun ve oyuncakların zamanla değişen özelliklerini kanıta dayalı listeler."
+              ]
+            },
+            {
+              "code": "SB.4.3.2",
+              "text": "Aile tarihini yansıtan bir ürün hazırlayıp paylaşabilme",
+              "subSkills": [
+                "a) Aile tarihine ilişkin kaynaklardan çıkarım yapar.",
+                "b) Aile tarihine dair kanıtlardan hareketle görüşünü yansıtan bir ürün üretir.",
+                "c) Aile tarihine dair görüşlerine dayanan ürününü paylaşır."
+              ]
+            },
+            {
+              "code": "SB.4.3.3",
+              "text": "Yakın çevredeki ortak miras ögelerini tanımanın önemini yorumlayabilme",
+              "subSkills": [
+                "a) Yakın çevredeki ortak miras ögelerini inceler.",
+                "b) Bu ögelere ilişkin bilgilerini anlamını bozmadan ve tarafsız biçimde yeniden ifade eder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Yaşayan Demokrasimiz",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/349",
+          "hours": 18,
+          "keyConcepts": [
+            "cumhuriyet",
+            "dayanışma",
+            "demokratik katılım",
+            "Millî Mücadele"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.4.4.1",
+              "text": "Millî Mücadele'de Atatürk ve Türk milletinin fedakârlıklarını yorumlayabilme",
+              "subSkills": [
+                "a) Millî Mücadele fedakârlıklarına ilişkin kaynakları inceler.",
+                "b) Bu fedakârlıklara ilişkin bilgileri bağlamdan kopmadan dönüştürür.",
+                "c) Edindiği bilgileri nesnel, doğru ve anlamı değiştirmeden yeniden ifade eder."
+              ]
+            },
+            {
+              "code": "SB.4.4.2",
+              "text": "Cumhuriyetin getirdiği değişimlerin hayatımıza katkılarını yorumlayabilme",
+              "subSkills": [
+                "a) Değişimleri anılar, hikâyeler ve görseller aracılığıyla inceler.",
+                "b) Edindiği bilgileri bağlamdan kopmadan dönüştürür.",
+                "c) Bilgileri nesnel, doğru ve anlamı değiştirmeden yeniden ifade eder."
+              ]
+            },
+            {
+              "code": "SB.4.4.3",
+              "text": "Okulda karar alma ve demokratik katılım süreçlerine ilişkin fikir üretebilme",
+              "subSkills": [
+                "a) Okulda karar alma ve demokratik katılım süreçlerini fark eder.",
+                "b) Bu süreçlere ilişkin deneyimleri inceler.",
+                "c) Okuldaki bu süreçlerin etkin yürütülmesine ilişkin fikir üretir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Hayatımızdaki Ekonomi",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/375",
+          "hours": 17,
+          "keyConcepts": [
+            "bilinçli tüketim",
+            "dağıtım",
+            "doğal kaynak",
+            "ihtiyaç",
+            "istek",
+            "kaynak",
+            "tüketim",
+            "üretim"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.4.5.1",
+              "text": "Doğal kaynak tüketimine ilişkin grafiği yorumlayabilme",
+              "subSkills": [
+                "a) Grafikteki simgelerin karşılık geldiği ifadeleri tanır.",
+                "b) Doğal kaynak tüketimine ilişkin grafiği çözümler.",
+                "c) Çözümlediği grafiklerden verilere dayalı sonuç çıkarır.",
+                "ç) Sonuçlarla kaynak ve tüketim ilişkisini karşılaştırır."
+              ]
+            },
+            {
+              "code": "SB.4.5.2",
+              "text": "İstek ve ihtiyaçları arasında bilinçli seçimleri hayatına yansıtabilme",
+              "subSkills": [
+                "a) İstek ve ihtiyaç kavramlarına ilişkin deneyimlerini gözden geçirir.",
+                "b) Bilinçli seçim için çıkarımda bulunur.",
+                "c) İstek ve ihtiyaçları arasında yaptığı seçimleri değerlendirir."
+              ]
+            },
+            {
+              "code": "SB.4.5.3",
+              "text": "Bir ürünün üretim, dağıtım ve tüketim süreçlerini analiz edebilme",
+              "subSkills": [
+                "a) Bir ürünün geçirdiği yolculuktaki süreçleri belirler.",
+                "b) Üretim, dağıtım ve tüketim süreçleri arasındaki ilişkileri belirler."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Teknoloji Ve Sosyal Bilimler",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/376",
+          "hours": 12,
+          "keyConcepts": [
+            "bilim insanı",
+            "dijital güvenlik",
+            "dijital mahremiyet",
+            "siber zorbalık"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.4.6.1",
+              "text": "Çevrim içi güvenlik kurallarını kendi eylemlerine yansıtabilme",
+              "subSkills": [
+                "a) Çevrim içi deneyimlerini güvenlik kurallarına göre değerlendirir.",
+                "b) Çevrim içi güvenlik kurallarına ilişkin çıkarımlar yapar.",
+                "c) Bu kurallara ilişkin çıkarımlarını değerlendirir."
+              ]
+            },
+            {
+              "code": "SB.4.6.2",
+              "text": "Bilim insanlarının çocukluk yıllarına dair tarihsel bağlam kurabilme",
+              "subSkills": [
+                "a) Bilim insanlarının çalışmalarını kanıtlara dayanarak analiz eder.",
+                "b) Bilim insanlarının çocukluk dönemindeki koşulları fark eder.",
+                "c) Bilim insanlarının çocukluk koşullarını günümüzle karşılaştırır.",
+                "ç) Bilim insanlarının çocukluklarını dönemin koşulları içinde açıklar."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Resmî ders adı: Sosyal Bilgiler Dersi (4-7. sınıflar tek program; burada yalnızca ilkokul 4. sınıf). Bu derste temalar 'Öğrenme Alanı' olarak adlandırılır. Kod yapısı SB.<sınıf>.<öğrenme alanı>.<no>. Metinler kısa Türkçe açıklamalardır (birebir alıntı değil); kodlar, öğrenme alanı adları ve ders saatleri sitedeki gibidir."
+}

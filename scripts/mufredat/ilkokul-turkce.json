@@ -1,0 +1,4481 @@
+{
+  "level": "ilkokul",
+  "subject": "Türkçe",
+  "programUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ders/ilkokul-turkce-dersi",
+  "grades": [
+    {
+      "grade": 1,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ilkokul-turkce-dersi/2",
+      "themes": [
+        {
+          "order": 1,
+          "name": "Güzel Davranışlarımız",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/265",
+          "hours": 38,
+          "keyConcepts": [
+            "ahlâk",
+            "ailede sorumluluk alma",
+            "azim",
+            "cömertlik",
+            "çalışkanlık",
+            "dostluk",
+            "dürüstlük",
+            "güven",
+            "merhamet",
+            "nezaket",
+            "paylaşma",
+            "saygı",
+            "sevgi",
+            "yardımseverlik"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.1.1",
+              "text": "Dinleme ve izleme sürecini kontrol edebilme.",
+              "subSkills": [
+                "a) Duyduğu sesin geçtiği görselleri verilenler arasından seçer.",
+                "c) Dinleme kurallarına uyarak dinler.",
+                "ç) Dinleme sırasında uygun zamanda konuşmaya katılmak için söz alır."
+              ]
+            },
+            {
+              "code": "T.D.1.2",
+              "text": "Dinlediği ve izlediği metinlerden anlam çıkarabilme.",
+              "subSkills": [
+                "a) Sese karşılık gelen sembol ya da harfi tanır.",
+                "c) Görsellerden yola çıkarak metin hakkında tahminde bulunur.",
+                "ç) Dinlediklerini ön bilgileriyle karşılaştırıp çıkarım yapar.",
+                "d) Dinlediği sesin geçtiği sözcüklere örnekler verir.",
+                "f) Dinlediği olayların nasıl devam edeceğini tahmin eder."
+              ]
+            },
+            {
+              "code": "T.D.1.3",
+              "text": "Dinlediği ve izlediği metni çözümleyip parçalarını ayırt edebilme.",
+              "subSkills": [
+                "b) Sesleri karşılayan sembol ya da harfleri birbirinden ayırt eder.",
+                "c) Dinlediği ya da izlediği metnin konusunu belirler."
+              ]
+            },
+            {
+              "code": "T.D.1.4",
+              "text": "Dinleme ve izleme sürecini değerlendirebilme.",
+              "subSkills": [
+                "c) Uygun dinleme davranışlarını sonraki dinlemelerine taşır."
+              ]
+            },
+            {
+              "code": "T.K.1.2",
+              "text": "Konuşmalarında içerik oluşturabilme.",
+              "subSkills": [
+                "a) Ön bilgilerinden yararlanarak sesin geçtiği sözcükler hakkında konuşur.",
+                "b) Dinlediği ya da izlediği metni kendi cümleleriyle anlatır."
+              ]
+            },
+            {
+              "code": "T.K.1.3",
+              "text": "Konuşma kurallarını uygulayabilme.",
+              "subSkills": [
+                "a) Öğrendiği ses, hece, sözcük veya cümleleri duyulabilir bir sesle söyler.",
+                "c) Dinlediği ya da izlediği metni telaffuza dikkat ederek anlatır."
+              ]
+            },
+            {
+              "code": "T.O.1.1",
+              "text": "Okuma sürecini yönetebilme.",
+              "subSkills": [
+                "a) Harf ve heceleri doğru seslendirir.",
+                "b) Sözcükleri doğru okur.",
+                "ç) Okurken telaffuza dikkat eder.",
+                "d) Öğrendiği ses, hece, sözcük veya cümleleri duyulabilir bir sesle okur."
+              ]
+            },
+            {
+              "code": "T.Y.1.1",
+              "text": "Yazılı anlatım becerilerini yönetebilme.",
+              "subSkills": [
+                "a) Yazma materyalini kurallara uygun kullanır.",
+                "c) Hece, sözcük veya cümle yazar."
+              ]
+            },
+            {
+              "code": "T.Y.1.2",
+              "text": "Yazılarında içerik oluşturabilme.",
+              "subSkills": [
+                "a) Görsellerle ilgili sözcük ya da cümleler yazar."
+              ]
+            },
+            {
+              "code": "T.Y.1.3",
+              "text": "Yazma kurallarını uygulayabilme.",
+              "subSkills": [
+                "b) Harfleri temel biçimine ve yazım yönlerine uygun yazar.",
+                "c) Rakamları temel biçimine ve yazım yönlerine uygun yazar.",
+                "ç) Harf, sözcük ve cümleler arasında uygun boşluk bırakır.",
+                "d) Büyük harfleri yerinde kullanır.",
+                "ı) Büyük harfleri kurallara uygun biçimde yazar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Mustafa Kemal’den Atatürk’e",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/269",
+          "hours": 38,
+          "keyConcepts": [
+            "cesaret",
+            "fedakârlık",
+            "gazilik",
+            "kahramanlık",
+            "millî bayramlar",
+            "millî egemenlik",
+            "millî irade",
+            "millî kimlik",
+            "Millî Mücadele",
+            "şehitlik",
+            "vatanseverlik"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.1.1",
+              "text": "Dinleme/izleme sürecini yönetir.",
+              "subSkills": [
+                "a) Öğrendiği sesin geçtiği görselleri seçer.",
+                "c) Dinleme kurallarına uygun şekilde dinler.",
+                "ç) Uygun zamanda konuşmaya katılmak için söz alır."
+              ]
+            },
+            {
+              "code": "T.D.1.2",
+              "text": "Dinlediği veya izlediği metinle ilgili anlam oluşturur.",
+              "subSkills": [
+                "a) Sese karşılık gelen harfi veya sembolü tanır.",
+                "c) Görsellerden yola çıkarak metin hakkında tahminde bulunur.",
+                "ç) Dinlediklerini yaşantı ve ön bilgileriyle karşılaştırıp çıkarım yapar.",
+                "d) Dinlediği sesin geçtiği sözcüklere örnekler verir.",
+                "f) Olayların devamı hakkında tahminde bulunur."
+              ]
+            },
+            {
+              "code": "T.D.1.3",
+              "text": "Dinlediği veya izlediği metni çözümler.",
+              "subSkills": [
+                "b) Seslere karşılık gelen harfleri ayırt eder.",
+                "c) Metnin konusunu belirler."
+              ]
+            },
+            {
+              "code": "T.D.1.4",
+              "text": "Dinleme veya izleme sürecini değerlendirir.",
+              "subSkills": [
+                "c) Uygun dinleme davranışlarını sonraki dinlemelerine aktarır."
+              ]
+            },
+            {
+              "code": "T.K.1.2",
+              "text": "Konuşmalarında içerik oluşturur.",
+              "subSkills": [
+                "a) Ön bilgilerinden yola çıkarak sesin geçtiği sözcükler hakkında konuşur.",
+                "b) Dinlediği veya izlediği metni anlatır."
+              ]
+            },
+            {
+              "code": "T.K.1.3",
+              "text": "Konuşma kurallarını uygular.",
+              "subSkills": [
+                "a) Öğrendiği ses, hece, sözcük ve cümleleri anlaşılır bir sesle söyler.",
+                "c) Dinlediğini telaffuza dikkat ederek anlatır."
+              ]
+            },
+            {
+              "code": "T.O.1.1",
+              "text": "Okuma sürecini yönetir.",
+              "subSkills": [
+                "a) Harf ve heceleri doğru seslendirir.",
+                "b) Sözcükleri doğru okur.",
+                "c) Basit ve kısa cümleleri doğru okur.",
+                "ç) Telaffuza dikkat ederek okur.",
+                "d) Öğrendiği ses, hece, sözcük veya cümleleri anlaşılır bir sesle okur."
+              ]
+            },
+            {
+              "code": "T.Y.1.1",
+              "text": "Yazılı anlatım becerilerini yönetir.",
+              "subSkills": [
+                "a) Yazma materyalini kurallara uygun kullanır.",
+                "c) Hece, sözcük ve cümleler yazar."
+              ]
+            },
+            {
+              "code": "T.Y.1.2",
+              "text": "Yazılarında içerik oluşturur.",
+              "subSkills": [
+                "a) Görsellerle ilgili sözcük veya cümleler yazar."
+              ]
+            },
+            {
+              "code": "T.Y.1.3",
+              "text": "Yazma kurallarını uygular.",
+              "subSkills": [
+                "b) Harfleri temel biçimine ve yazım yönlerine uygun yazar.",
+                "c) Rakamları temel biçimine ve yazım yönlerine uygun yazar.",
+                "ç) Harf, sözcük veya cümleler arasında uygun boşluk bırakır.",
+                "d) Harflerin büyük yazılışını yerinde kullanır.",
+                "ı) Büyük harfleri kuralına uygun yazar.",
+                "k) Nokta, kesme işareti, soru işareti, virgül ve ünlemi kuralına uygun kullanır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Çevremizdeki Yaşam",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/286",
+          "hours": 38,
+          "keyConcepts": [
+            "afetlere hazırlık",
+            "atık",
+            "bitkiler",
+            "canlılar",
+            "çevre",
+            "çevrenin korunması",
+            "doğa",
+            "doğa olayları",
+            "doğal miras",
+            "dünya",
+            "gece",
+            "geri dönüşüm",
+            "gündüz",
+            "hayvanlar",
+            "iklim değişikliği",
+            "manzaralar",
+            "mevsimler",
+            "tasarruf",
+            "tutumluluk",
+            "yenilenebilir enerji",
+            "yeryüzü"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.1.1",
+              "text": "Dinleme ve izleme sürecini kendisi yönetebilir.",
+              "subSkills": [
+                "a) Duyduğu sesin geçtiği görseli veya görselleri seçer.",
+                "c) Dinleme kurallarına uygun biçimde dinler.",
+                "ç) Konuşmaya katılmak için uygun anda söz alır."
+              ]
+            },
+            {
+              "code": "T.D.1.2",
+              "text": "Dinlediği ya da izlediği metinle ilgili anlam oluşturabilir.",
+              "subSkills": [
+                "a) Sese karşılık gelen sembolü veya harfi tanır.",
+                "c) Görsellerden yola çıkarak metin hakkında tahminde bulunur.",
+                "ç) Dinlediklerini yaşantı ve ön bilgisiyle karşılaştırıp çıkarım yapar.",
+                "d) Duyduğu sesin geçtiği sözcüklere örnek verir.",
+                "f) Dinlediği olayların devamı hakkında tahminde bulunur."
+              ]
+            },
+            {
+              "code": "T.D.1.3",
+              "text": "Dinlediği veya izlediği metni çözümleyebilir.",
+              "subSkills": [
+                "b) Seslere karşılık gelen sembol ve harfleri ayırt eder.",
+                "c) Dinlediği veya izlediği metnin konusunu belirler."
+              ]
+            },
+            {
+              "code": "T.D.1.4",
+              "text": "Dinleme veya izleme sürecini değerlendirebilir.",
+              "subSkills": [
+                "c) Uygun dinleme davranışlarını sonraki dinlemelerine taşır."
+              ]
+            },
+            {
+              "code": "T.K.1.2",
+              "text": "Konuşmalarında içerik oluşturabilir.",
+              "subSkills": [
+                "a) Ön bilgisinden yola çıkarak duyduğu sesin geçtiği sözcükleri konuşur.",
+                "b) Dinlediği veya izlediği metni anlatır.",
+                "g) Dinlediği, izlediği ya da okuduğu metni kendi cümleleriyle ifade eder."
+              ]
+            },
+            {
+              "code": "T.K.1.3",
+              "text": "Konuşma kurallarını uygulayabilir.",
+              "subSkills": [
+                "a) Öğrendiği ses, hece, sözcük ve cümleleri duyulabilir bir sesle söyler.",
+                "c) Dinlediği veya izlediği metni telaffuza dikkat ederek anlatır."
+              ]
+            },
+            {
+              "code": "T.O.1.1",
+              "text": "Okuma sürecini yönetebilir.",
+              "subSkills": [
+                "a) Harf ve heceleri doğru seslendirir.",
+                "b) Sözcükleri doğru okur.",
+                "c) Basit ve kısa cümleleri doğru okur.",
+                "ç) Okurken telaffuza dikkat eder.",
+                "d) Öğrendiği ses, hece, sözcük veya cümleleri duyulabilir sesle okur."
+              ]
+            },
+            {
+              "code": "T.Y.1.1",
+              "text": "Yazılı anlatım becerilerini yönetebilir.",
+              "subSkills": [
+                "a) Yazma materyalini kurallara uygun kullanır.",
+                "c) Hece, sözcük veya cümle yazar."
+              ]
+            },
+            {
+              "code": "T.Y.1.2",
+              "text": "Yazılarında içerik oluşturabilir.",
+              "subSkills": [
+                "a) Görsellerle ilgili sözcük veya cümleler yazar."
+              ]
+            },
+            {
+              "code": "T.Y.1.3",
+              "text": "Yazma kurallarını uygulayabilir.",
+              "subSkills": [
+                "b) Harfleri temel biçimine ve yazım yönlerine göre yazar.",
+                "ç) Harf, sözcük ve cümleler arasında uygun boşluk bırakır.",
+                "d) Harflerin büyük yazılışını yerinde kullanır.",
+                "ı) Büyük harfleri kuralına uygun yazar.",
+                "k) Noktalama işaretlerini kurallarına uygun kullanır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Yol Arkadaşımız Kitaplar",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/289",
+          "hours": 38,
+          "keyConcepts": [
+            "ana duygu",
+            "ana fikir",
+            "hikâye",
+            "kitap",
+            "kitap sevgisi",
+            "kahraman",
+            "olay",
+            "şiir"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.1.1",
+              "text": "Dinleme ve izleme sürecini yönetir; dinleme kurallarına uyar ve uygun zamanda konuşmaya katılır.",
+              "subSkills": [
+                "a) Duyduğu sesin geçtiği görseli veya görselleri seçer.",
+                "c) Dinleme kurallarına uygun şekilde dinler.",
+                "ç) Konuşmaya katılmak için uygun anda söz alır."
+              ]
+            },
+            {
+              "code": "T.D.1.2",
+              "text": "Dinlediği veya izlediği metinle ilgili anlam oluşturur; tahmin ve çıkarımlarda bulunur.",
+              "subSkills": [
+                "a) Sese karşılık gelen sembol veya harfi tanır.",
+                "c) Görsellerden yola çıkarak metin hakkında tahminde bulunur.",
+                "ç) Dinlediklerini yaşantı ve ön bilgileriyle karşılaştırıp çıkarım yapar.",
+                "d) Dinlediği sesin geçtiği sözcüklere örnek verir.",
+                "f) Olayların devamı hakkında tahminde bulunur."
+              ]
+            },
+            {
+              "code": "T.D.1.3",
+              "text": "Dinlediği veya izlediği metni çözümler; sesleri ayırt eder ve metnin konusunu bulur.",
+              "subSkills": [
+                "b) Sese karşılık gelen sembol veya harfi ayırt eder.",
+                "c) Dinlediği veya izlediği metnin konusunu belirler."
+              ]
+            },
+            {
+              "code": "T.D.1.4",
+              "text": "Dinleme ve izleme sürecini değerlendirir; uygun davranışlarını sonraki dinlemelere taşır.",
+              "subSkills": [
+                "c) Uygun dinleme davranışlarını sonraki dinlemelerine aktarır."
+              ]
+            },
+            {
+              "code": "T.K.1.2",
+              "text": "Konuşmalarında içerik oluşturur; dinlediği, izlediği veya okuduğu metinleri kendi cümleleriyle anlatır.",
+              "subSkills": [
+                "a) Ön bilgilerinden yola çıkarak sesin geçtiği sözcükler hakkında konuşur.",
+                "b) Dinlediği veya izlediği metni anlatır.",
+                "g) Dinlediklerini, izlediklerini veya okuduklarını kendi cümleleriyle ifade eder."
+              ]
+            },
+            {
+              "code": "T.K.1.3",
+              "text": "Konuşma kurallarını uygular; öğrendiği birimleri duyulabilir sesle ve doğru telaffuzla söyler.",
+              "subSkills": [
+                "a) Öğrendiği ses, hece, sözcük ve cümleleri duyulabilir bir sesle söyler.",
+                "c) Dinlediğini veya izlediğini telaffuza dikkat ederek anlatır."
+              ]
+            },
+            {
+              "code": "T.O.1.1",
+              "text": "Okuma sürecini yönetir; harf, hece, sözcük ve cümleleri doğru ve anlaşılır biçimde okur.",
+              "subSkills": [
+                "a) Harf ve heceleri doğru seslendirir.",
+                "b) Sözcükleri doğru okur.",
+                "c) Basit ve kısa cümleleri doğru okur.",
+                "ç) Okurken telaffuza dikkat eder.",
+                "d) Öğrendiği birimleri duyulabilir sesle okur."
+              ]
+            },
+            {
+              "code": "T.Y.1.1",
+              "text": "Yazılı anlatım becerilerini yönetir; hece, sözcük veya cümleler yazar.",
+              "subSkills": [
+                "c) Hece, sözcük veya cümleler yazar."
+              ]
+            },
+            {
+              "code": "T.Y.1.3",
+              "text": "Yazma kurallarını uygular; harfleri doğru biçimde yazar, boşluk bırakır ve büyük harfleri yerinde kullanır.",
+              "subSkills": [
+                "b) Harfleri temel biçimine ve yazım yönlerine uygun yazar.",
+                "ç) Harf, sözcük veya cümleler arasında uygun boşluk bırakır.",
+                "d) Büyük harfleri yerinde kullanır.",
+                "ı) Büyük harfleri kuralına uygun yazar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Yeteneklerimizi Keşfediyoruz",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/292",
+          "hours": 38,
+          "keyConcepts": [
+            "çocuk kültürü",
+            "dijital oyunlar",
+            "eğlence",
+            "geleneksel sanatlar",
+            "hayal"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.1.1",
+              "text": "Dinleme/izlemeyi yönetir; dinleme kurallarına uygun dinler.",
+              "subSkills": [
+                "c) Dinleme kurallarına uyarak dinler."
+              ]
+            },
+            {
+              "code": "T.D.1.3",
+              "text": "Dinlediği/izlediği metni çözümler; metnin konusunu bulur.",
+              "subSkills": [
+                "c) Dinlediği/izlediği metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.K.1.1",
+              "text": "Konuşmalarını yönetir; konuşurken dinleyicilerle göz teması kurar.",
+              "subSkills": [
+                "b) Konuşma sırasında dinleyicilerle göz teması kurar."
+              ]
+            },
+            {
+              "code": "T.K.1.2",
+              "text": "Konuşmalarında içerik oluşturur; kendisi, ailesi ve ilgi alanı hakkında konuşur.",
+              "subSkills": [
+                "c) Kendisi ve ailesi hakkında konuşur.",
+                "ç) Dinlediklerini/izlediklerini ifade ederken ön bilgilerini kullanır.",
+                "h) İlgi alanına yönelik seçtiği bir konu hakkında konuşur.",
+                "ı) Konuşmalarını desteklemek için görseller kullanır."
+              ]
+            },
+            {
+              "code": "T.K.1.3",
+              "text": "Konuşma kurallarını uygular; hızını ayarlar ve sözcükleri yerinde kullanır.",
+              "subSkills": [
+                "b) Konuşma hızını ayarlar.",
+                "d) Sözcükleri yerinde ve anlamına uygun kullanır."
+              ]
+            },
+            {
+              "code": "T.O.1.1",
+              "text": "Okuma sürecini yönetir; başlık ve görselleri inceler, kurallara uygun okur.",
+              "subSkills": [
+                "e) Metnin başlığını ve görsellerini inceler.",
+                "f) Kurallarına uygun sesli ve sessiz okur.",
+                "g) Anlaşılır ve uygun hızda sesli okur.",
+                "h) Noktalama işaretlerine dikkat ederek okur."
+              ]
+            },
+            {
+              "code": "T.O.1.2",
+              "text": "Okudukları ile ilgili anlam oluşturur; ön bilgilerle bağ kurar ve tahminde bulunur.",
+              "subSkills": [
+                "b) Metindeki bilgiler ile ön bilgileri arasında bağlantı kurar.",
+                "c) Başlık ve görsellerden hareketle metnin konusunu tahmin eder."
+              ]
+            },
+            {
+              "code": "T.O.1.3",
+              "text": "Okuduklarını çözümler; metnin konusunu bulur.",
+              "subSkills": [
+                "a) Okuduğu metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.Y.1.1",
+              "text": "Yazılı anlatım becerilerini yönetir; hece, sözcük veya cümle yazar, metne bakarak yazar.",
+              "subSkills": [
+                "c) Hece, sözcük veya cümle yazar.",
+                "d) Verilen bir metni metne bakarak yazar."
+              ]
+            },
+            {
+              "code": "T.Y.1.2",
+              "text": "Yazılarında içerik oluşturur; olayları sırayla anlatır ve görselden kısa metin yazar.",
+              "subSkills": [
+                "e) Dinlediği, izlediği veya okuduğu metindeki olayları sırasıyla kendi ifadeleriyle yazar.",
+                "g) Seçtiği görselden hareketle kısa bir metin yazar."
+              ]
+            },
+            {
+              "code": "T.Y.1.3",
+              "text": "Yazma kurallarını uygular; bilmediği sözcüğü araştırır ve sayıları kurala uygun yazar.",
+              "subSkills": [
+                "e) Anlamını bilmediği sözcüğü çevrim içi veya basılı kaynaklardan araştırarak yazar.",
+                "h) Rakam ve sayıları kuralına uygun yazar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Minik Kâşifler",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/326",
+          "hours": 38,
+          "keyConcepts": [
+            "araştırma",
+            "bilim",
+            "kâşif",
+            "keşif",
+            "merak",
+            "sorgulama",
+            "teknoloji",
+            "yapay zekâ"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.1.1",
+              "text": "Dinleme ve izleme sürecini kendisi yönetebilme",
+              "subSkills": [
+                "c) Dinleme kurallarını gözeterek dinler.",
+                "ç) Dinlerken konuşmaya katılmak için uygun anda söz alır."
+              ]
+            },
+            {
+              "code": "T.D.1.2",
+              "text": "Dinlediği ve izlediği içerikle anlam oluşturabilme",
+              "subSkills": [
+                "f) Dinlediği veya izlediği olayların devamı hakkında tahmin yürütür.",
+                "ğ) Dinlediği nesneleri fiziksel özelliklerine göre gruplandırır."
+              ]
+            },
+            {
+              "code": "T.D.1.3",
+              "text": "Dinlediği ve izlediği metni çözümleyebilme",
+              "subSkills": [
+                "c) Dinlediği veya izlediği metnin ana konusunu belirler."
+              ]
+            },
+            {
+              "code": "T.K.1.1",
+              "text": "Konuşmalarını yönetebilme",
+              "subSkills": [
+                "b) Konuşurken dinleyicilerle göz teması kurar.",
+                "c) İletişimde uygun zamanda söz almayı başarır."
+              ]
+            },
+            {
+              "code": "T.K.1.2",
+              "text": "Konuşmalarında içerik üretebilme",
+              "subSkills": [
+                "ç) Konuşurken önceki bilgilerinden yararlanır.",
+                "d) Görsellerden yola çıkarak metin hakkında tahmin yürütür."
+              ]
+            },
+            {
+              "code": "T.K.1.3",
+              "text": "Konuşma kurallarını uygulayabilme",
+              "subSkills": [
+                "d) Konuşmasında sözcükleri yerinde ve anlamına uygun kullanır."
+              ]
+            },
+            {
+              "code": "T.O.1.1",
+              "text": "Okuma sürecini yönetebilme",
+              "subSkills": [
+                "e) Okuyacağı metnin başlığını ve görsellerini inceler.",
+                "f) Kurallara uygun biçimde sesli ve sessiz okur.",
+                "g) Anlaşılır ve uygun hızda sesli okur.",
+                "ğ) Birkaç kısa metin arasından seçtiği metni okur.",
+                "h) Okurken noktalama işaretlerine özen gösterir."
+              ]
+            },
+            {
+              "code": "T.O.1.2",
+              "text": "Okuduklarıyla ilgili anlam oluşturabilme",
+              "subSkills": [
+                "b) Metindeki bilgilerle önceki bilgileri arasında bağ kurar.",
+                "c) Başlık ve görsellere bakarak konu hakkında tahmin yürütür.",
+                "ç) Metindeki yönergeleri uygular."
+              ]
+            },
+            {
+              "code": "T.O.1.3",
+              "text": "Okuduklarını çözümleyebilme",
+              "subSkills": [
+                "a) Okuduğu metnin konusunu belirler."
+              ]
+            },
+            {
+              "code": "T.Y.1.1",
+              "text": "Yazılı anlatım becerilerini yönetebilme",
+              "subSkills": [
+                "c) Hece, sözcük veya cümle yazar.",
+                "ç) Kısa metinler oluşturur.",
+                "e) Söylenen sözcük ve cümleleri yazıya geçirir."
+              ]
+            },
+            {
+              "code": "T.Y.1.2",
+              "text": "Yazılarında içerik oluşturabilme",
+              "subSkills": [
+                "b) Sözcük ve cümlelerdeki boşlukları önceki bilgilerine dayanarak doldurur.",
+                "f) Yazılı anlatımını zenginleştirmek için görsellerden yararlanır."
+              ]
+            },
+            {
+              "code": "T.Y.1.3",
+              "text": "Yazma kurallarını uygulayabilme",
+              "subSkills": [
+                "a) Anlamlı ve düzgün yapılı cümleler kurar.",
+                "ç) Harfler, sözcükler ve cümleler arasında uygun boşluk bırakır.",
+                "e) Bilmediği sözcüğün anlamını çevrim içi/basılı kaynaklarla araştırır.",
+                "f) Yazılarında sözcükleri yerinde ve doğru anlamda kullanır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Atalarımızın İzleri",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/337",
+          "hours": 38,
+          "keyConcepts": [
+            "bayrak",
+            "kültürel miras",
+            "millî ve dini bayramlar",
+            "millî ve manevi değerler",
+            "tarihî mekânlar",
+            "Türkçe",
+            "vatan",
+            "yurdumuz"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.1.1",
+              "text": "Dinleme/izleme sürecini yönetme",
+              "subSkills": [
+                "b) Dinleyeceğini/izleyeceğini amacına göre seçer",
+                "c) Dinleme kurallarına uygun dinler",
+                "ç) Dinleme sırasında uygun zamanda söz alır"
+              ]
+            },
+            {
+              "code": "T.D.1.2",
+              "text": "Dinlediği/izlediği metinle ilgili anlam oluşturma",
+              "subSkills": [
+                "c) Görsellerden hareketle metin hakkında tahminde bulunur",
+                "ç) Dinlediklerini yaşantı ve ön bilgileriyle karşılaştırarak çıkarım yapar",
+                "e) Olayların öncesi hakkında tahminde bulunur",
+                "f) Olayların sonrası hakkında tahminde bulunur",
+                "g) İletileri doğruluk ve gerçeklik açısından ön bilgileriyle karşılaştırır",
+                "ğ) Nesneleri fiziksel özelliklerine göre sınıflandırır"
+              ]
+            },
+            {
+              "code": "T.D.1.3",
+              "text": "Dinlediği/izlediği metni çözümleme",
+              "subSkills": [
+                "c) Metnin konusunu bulur",
+                "ç) Metindeki iletilerin benzerliklerini belirler",
+                "d) Söylem ile görsel arasındaki ilişkiyi belirler"
+              ]
+            },
+            {
+              "code": "T.D.1.4",
+              "text": "Dinleme/izleme sürecini değerlendirme",
+              "subSkills": [
+                "a) Dinleme/izleme sürecindeki hatalarını belirler",
+                "b) Belirlediği hatalarını düzeltir",
+                "c) Uygun davranışlarını sonraki dinlemelerine aktarır"
+              ]
+            },
+            {
+              "code": "T.K.1.1",
+              "text": "Konuşma sürecini yönetme",
+              "subSkills": [
+                "a) Konunun özelliğine göre konuşma üslubunu belirler",
+                "c) İletişim sırasında uygun zamanda söz alır",
+                "ç) Selamlaşma ve hitap ifadeleri kullanır"
+              ]
+            },
+            {
+              "code": "T.K.1.2",
+              "text": "Konuşmalarında içerik oluşturma",
+              "subSkills": [
+                "e) Nesneleri fiziksel özelliklerine göre karşılaştırır",
+                "f) Nesneleri fiziksel özelliklerine göre sınıflandırır",
+                "ğ) Kabul etmediği konulara ilişkin önerilerde bulunur",
+                "i) Dinleyicilere ne anlatacağını dikkate alarak konuşur",
+                "j) Konuşmalarında benzetmelere yer verir"
+              ]
+            },
+            {
+              "code": "T.K.1.3",
+              "text": "Konuşma kurallarını uygulama",
+              "subSkills": [
+                "e) Konuşmalarını mimiklerle destekler",
+                "f) Konuşmalarını beden diliyle destekler"
+              ]
+            },
+            {
+              "code": "T.K.1.4",
+              "text": "Konuşma sürecini değerlendirme",
+              "subSkills": [
+                "a) Konuşmasındaki hatalarını fark eder",
+                "b) Fark ettiği hataları düzeltir",
+                "c) Olumlu davranışlarını sonraki konuşmalarına aktarır"
+              ]
+            },
+            {
+              "code": "T.O.1.1",
+              "text": "Okuma sürecini yönetme",
+              "subSkills": [
+                "e) Okuyacağı metnin başlığı ve görsellerini inceler",
+                "f) Kuralına uygun sesli ve sessiz okur",
+                "g) Anlaşılır ve uygun hızda sesli okur",
+                "ğ) Bir dizi kısa metin içinden seçtiği metni okur",
+                "h) Noktalama işaretlerine dikkat ederek okur"
+              ]
+            },
+            {
+              "code": "T.O.1.2",
+              "text": "Okudukları ile ilgili anlam oluşturma",
+              "subSkills": [
+                "a) Metni okurken ön bilgilerini kullanır",
+                "c) Başlık ve görsellerden hareketle konu hakkında tahminde bulunur",
+                "ç) Metindeki yönergeleri uygular"
+              ]
+            },
+            {
+              "code": "T.O.1.3",
+              "text": "Okuduklarını çözümleme",
+              "subSkills": [
+                "a) Okuduğu metnin konusunu bulur"
+              ]
+            },
+            {
+              "code": "T.O.1.4",
+              "text": "Okuma sürecine etki eden durumları gözden geçirme",
+              "subSkills": [
+                "a) Okuduğu ortamın fiziksel özelliklerini açıklar"
+              ]
+            },
+            {
+              "code": "T.O.1.5",
+              "text": "Okuma sürecini değerlendirme",
+              "subSkills": [
+                "a) Okuma sürecindeki hatalarını belirler",
+                "b) Belirlediği hatalarını düzeltir",
+                "c) Olumlu davranışlarını sonraki okumalarına aktarır"
+              ]
+            },
+            {
+              "code": "T.Y.1.1",
+              "text": "Yazılı anlatım becerilerini yönetme",
+              "subSkills": [
+                "c) Hece, sözcük veya cümleler yazar",
+                "ç) Kısa metinler yazar",
+                "e) Söylenen sözcük ve cümleleri yazar",
+                "f) Yazışmalarını selamlaşma ve hitap ifadeleriyle başlatır"
+              ]
+            },
+            {
+              "code": "T.Y.1.2",
+              "text": "Yazılarında içerik oluşturma",
+              "subSkills": [
+                "b) Eksik bırakılan yerleri ön bilgileriyle tamamlar",
+                "c) Karşıdakinin iletilerinden yola çıkarak yazısını sürdürür",
+                "ç) Nesneleri fiziksel özelliklerine göre karşılaştırır",
+                "d) Nesneleri fiziksel özelliklerine göre sınıflandırır",
+                "f) Yazılarını zenginleştirmek için görseller kullanır",
+                "ğ) Muhatabına ne yazacağını dikkate alarak yazar",
+                "h) Yazılarında benzetmelere yer verir"
+              ]
+            },
+            {
+              "code": "T.Y.1.3",
+              "text": "Yazma kurallarını uygulama",
+              "subSkills": [
+                "a) Anlamlı ve kurallı cümleler yazar",
+                "d) Harflerin büyük yazılışını yerinde kullanır",
+                "e) Bilmediği sözcüğün anlamını kaynaklardan araştırarak yazar",
+                "f) Sözcükleri yerinde ve anlamına uygun kullanır",
+                "g) Mesajlarını açık ve anlaşılır ifade eder",
+                "i) Harf, sözcük ve satırlar arasında uygun boşluk bırakır",
+                "j) Soru edatını kuralına uygun yazar",
+                "k) Noktalama işaretlerini kuralına uygun kullanır"
+              ]
+            },
+            {
+              "code": "T.Y.1.4",
+              "text": "Yazma sürecini değerlendirme",
+              "subSkills": [
+                "a) Yazılarındaki hatalarını bulur",
+                "b) Belirlediği hataları düzeltir",
+                "c) Uygun davranışlarını sonraki yazılarına aktarır"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Sorumluluklarımızın Farkındayız",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/347",
+          "hours": 38,
+          "keyConcepts": [
+            "demokrasi",
+            "dijital gizlilik",
+            "hakkaniyet",
+            "ifade özgürlüğü",
+            "mahremiyet",
+            "temel hak ve özgürlükler"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.1.1",
+              "text": "Dinleme/izlemeyi yönetebilme",
+              "subSkills": [
+                "b) Dinleyeceği/izleyeceği metni amacına göre seçer.",
+                "c) Dinleme kurallarına uygun olarak dinler.",
+                "ç) Dinleme sırasında uygun zamanda söz alır."
+              ]
+            },
+            {
+              "code": "T.D.1.2",
+              "text": "Dinledikleri/izledikleri ile ilgili anlam oluşturabilme",
+              "subSkills": [
+                "c) Görsellerden yola çıkarak metin hakkında tahminde bulunur.",
+                "ç) Dinlediklerini yaşantı ve ön bilgileriyle karşılaştırıp çıkarım yapar.",
+                "e) Olayların öncesi hakkında tahminde bulunur.",
+                "f) Olayların sonrası hakkında tahminde bulunur.",
+                "g) İletileri doğruluk ve gerçeklik açısından ön bilgileriyle karşılaştırır.",
+                "ğ) Nesneleri fiziksel özelliklerine göre sınıflandırır."
+              ]
+            },
+            {
+              "code": "T.D.1.3",
+              "text": "Dinlediklerini/izlediklerini çözümleyebilme",
+              "subSkills": [
+                "c) Dinlediği/izlediği metnin konusunu bulur.",
+                "ç) Farklı metinlerdeki iletilerin benzerliklerini belirler.",
+                "d) Söylem ile görsel arasındaki ilişkiyi belirler."
+              ]
+            },
+            {
+              "code": "T.D.1.4",
+              "text": "Dinleme/izleme sürecini değerlendirebilme",
+              "subSkills": [
+                "a) Dinleme/izleme sürecindeki hatalarını belirler.",
+                "b) Belirlediği hatalarını düzeltir.",
+                "c) Uygun davranışlarını sonraki dinlemelerine aktarır."
+              ]
+            },
+            {
+              "code": "T.K.1.1",
+              "text": "Konuşmalarını yönetebilme",
+              "subSkills": [
+                "a) Konunun özelliğine göre konuşma üslubunu belirler.",
+                "c) İletişim sırasında uygun zamanda söz alır.",
+                "ç) Selamlaşma ve hitap ifadeleri kullanır."
+              ]
+            },
+            {
+              "code": "T.K.1.2",
+              "text": "Konuşmalarında içerik oluşturabilme",
+              "subSkills": [
+                "e) Konuşmasında geçen nesneleri özelliklerine göre karşılaştırır.",
+                "f) Nesneleri fiziksel özelliklerine göre sınıflandırır.",
+                "ğ) Kabul etmediği konulara ilişkin önerilerde bulunur.",
+                "i) Dinleyicilere ne anlatacağını dikkate alarak konuşur.",
+                "j) Konuşmalarında benzetmelere yer verir."
+              ]
+            },
+            {
+              "code": "T.K.1.3",
+              "text": "Konuşma kurallarını uygulayabilme",
+              "subSkills": [
+                "e) Konuşmalarını mimiklerle destekler.",
+                "f) Konuşmalarını beden diliyle destekler."
+              ]
+            },
+            {
+              "code": "T.K.1.4",
+              "text": "Konuşma sürecini değerlendirebilme",
+              "subSkills": [
+                "a) Konuşmasındaki hatalarını fark eder.",
+                "b) Fark ettiği hatalarını düzeltir.",
+                "c) Olumlu davranışlarını sonraki konuşmalarına aktarır."
+              ]
+            },
+            {
+              "code": "T.O.1.1",
+              "text": "Okuma sürecini yönetebilme",
+              "subSkills": [
+                "e) Okuyacağı metnin başlığını ve görsellerini inceler.",
+                "f) Kuralına uygun sesli ve sessiz okur.",
+                "g) Anlaşılır ve uygun hızda sesli okur.",
+                "h) Noktalama işaretlerine dikkat ederek okur."
+              ]
+            },
+            {
+              "code": "T.O.1.2",
+              "text": "Okudukları ile ilgili anlam oluşturabilme",
+              "subSkills": [
+                "a) Metni okurken ön bilgilerini kullanır.",
+                "c) Başlık ve görsellerden metnin konusu hakkında tahminde bulunur.",
+                "ç) Metindeki yönergeleri uygular."
+              ]
+            },
+            {
+              "code": "T.O.1.3",
+              "text": "Okuduklarını çözümleyebilme",
+              "subSkills": [
+                "a) Okuduğu metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.O.1.4",
+              "text": "Okuma sürecine etki eden durumları gözden geçirebilme",
+              "subSkills": [
+                "a) Okuduğu ortamın fiziksel özelliklerini açıklar."
+              ]
+            },
+            {
+              "code": "T.O.1.5",
+              "text": "Okuma sürecini değerlendirebilme",
+              "subSkills": [
+                "a) Okuma sürecindeki hatalarını belirler.",
+                "b) Belirlediği hatalarını düzeltir.",
+                "c) Olumlu davranışlarını sonraki okumalarına aktarır."
+              ]
+            },
+            {
+              "code": "T.Y.1.1",
+              "text": "Yazılı anlatım becerilerini yönetebilme",
+              "subSkills": [
+                "c) Hece, sözcük veya cümleler yazar.",
+                "ç) Kısa metinler yazar.",
+                "e) Söylenen sözcük ve cümleleri yazar.",
+                "f) Yazışmalarını selamlaşma ve hitap ifadeleriyle başlatır."
+              ]
+            },
+            {
+              "code": "T.Y.1.2",
+              "text": "Yazılarında içerik oluşturabilme",
+              "subSkills": [
+                "b) Eksik bırakılan yerleri ön bilgileri doğrultusunda tamamlar.",
+                "c) Karşıdakinin iletilerinden yola çıkarak yazısını sürdürür.",
+                "ç) Nesneleri fiziksel özelliklerine göre karşılaştırır.",
+                "d) Nesneleri fiziksel özelliklerine göre sınıflandırır.",
+                "f) Yazılı anlatımını zenginleştirmek için görseller kullanır.",
+                "ğ) Muhatabına ne yazacağını dikkate alarak yazar.",
+                "h) Yazılarında benzetmelere yer verir."
+              ]
+            },
+            {
+              "code": "T.Y.1.3",
+              "text": "Yazma kurallarını uygulayabilme",
+              "subSkills": [
+                "e) Anlamını bilmediği sözcüğün anlamını kaynaklardan araştırarak yazar.",
+                "f) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "g) Mesajlarını açık ve anlaşılır ifade eder.",
+                "ğ) Anlamlı ve kurallı cümleler kullanır.",
+                "i) Harf, sözcük ve satırlar arasında uygun boşluk bırakır.",
+                "j) Soru edatını (mı, mi) kuralına uygun yazar.",
+                "k) Noktalama işaretlerini kuralına uygun kullanır."
+              ]
+            },
+            {
+              "code": "T.Y.1.4",
+              "text": "Yazma sürecini değerlendirebilme",
+              "subSkills": [
+                "a) Yazılarındaki hatalarını bulur.",
+                "b) Belirlediği hatalarını düzeltir.",
+                "c) Uygun davranışlarını sonraki yazılarına aktarır."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 2,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ilkokul-turkce-dersi/3",
+      "themes": [
+        {
+          "order": 1,
+          "name": "Değerlerimizle Varız",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/353",
+          "hours": 38,
+          "keyConcepts": [
+            "azim",
+            "çalışkanlık",
+            "nezaket",
+            "öz denetim",
+            "saygı",
+            "sevgi",
+            "sorumluluk alma"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.2.1",
+              "text": "Dinleme/izlemeyi yönetme",
+              "subSkills": [
+                "a) Dinleyeceği/izleyeceği metni amacına ve ilgi alanına uygun seçer.",
+                "b) Dinleme kurallarına uygun olarak dinler.",
+                "c) Dinleme sırasında uygun zamanda söz alarak konuşmaya katılır."
+              ]
+            },
+            {
+              "code": "T.D.2.2",
+              "text": "Dinledikleri/izledikleriyle anlam oluşturma",
+              "subSkills": [
+                "b) Görsellerden yola çıkarak metnin konusunu tahmin eder.",
+                "c) Olayların öncesi hakkında tahminde bulunur.",
+                "ç) Olayların sonrası hakkında tahminde bulunur."
+              ]
+            },
+            {
+              "code": "T.D.2.3",
+              "text": "Dinlediklerini/izlediklerini çözümleme",
+              "subSkills": [
+                "a) Metindeki olayları belirler.",
+                "b) Metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.K.2.1",
+              "text": "Konuşmalarını yönetme",
+              "subSkills": [
+                "ç) Konuşma sırasında dinleyicilerle göz teması kurar.",
+                "d) İletişim sırasında uygun zamanda söz alır."
+              ]
+            },
+            {
+              "code": "T.K.2.2",
+              "text": "Konuşmalarında içerik oluşturma",
+              "subSkills": [
+                "a) Dinlediklerini/izlediklerini ifade ederken ön bilgilerini kullanır.",
+                "e) Olayları oluş sırasına göre kendi ifadeleriyle anlatır.",
+                "h) Konuşmalarını desteklemek için görseller kullanır."
+              ]
+            },
+            {
+              "code": "T.K.2.3",
+              "text": "Konuşma kurallarını uygulama",
+              "subSkills": [
+                "a) Konuşma hızını ayarlar.",
+                "c) Vurgu ve tonlamaya dikkat eder.",
+                "ç) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "e) Anlamlı ve kurallı cümleler kullanır."
+              ]
+            },
+            {
+              "code": "T.O.2.1",
+              "text": "Okuma sürecini yönetme",
+              "subSkills": [
+                "a) Okuyacağı metnin başlığını ve görsellerini inceler.",
+                "c) Kuralına uygun sesli ve sessiz okur.",
+                "ç) Noktalama işaretlerine dikkat ederek okur."
+              ]
+            },
+            {
+              "code": "T.O.2.2",
+              "text": "Okuduklarıyla ilgili anlam oluşturma",
+              "subSkills": [
+                "a) Metindeki bilgilerle ön bilgileri arasında bağlantı kurar.",
+                "b) Başlık ve görsellerden yola çıkarak konu hakkında tahminde bulunur.",
+                "c) Başlık ve görsellerden bilgi/olaylar hakkında tahminde bulunur."
+              ]
+            },
+            {
+              "code": "T.O.2.3",
+              "text": "Okuduklarını çözümleme",
+              "subSkills": [
+                "a) Metindeki karakter, olay ve bilgileri açıklar.",
+                "b) Metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.Y.2.1",
+              "text": "Yazılı anlatım becerilerini yönetme",
+              "subSkills": [
+                "a) Verilen yazma görevini hazırlık yaparak yazar."
+              ]
+            },
+            {
+              "code": "T.Y.2.2",
+              "text": "Yazılarında içerik oluşturma",
+              "subSkills": [
+                "a) Eksik bırakılan cümleleri ön bilgilerini kullanarak yazar.",
+                "b) Yarım bırakılan metni ön bilgilerinden hareketle tamamlar.",
+                "c) Sözcük anlamlarını bağlamdan yararlanarak tahmin edip yazar.",
+                "f) Sözcükleri anlamına uygun kullanır.",
+                "g) Olayları oluş sırasına göre kendi ifadeleriyle yazar.",
+                "ğ) Basit yönergeler yazar."
+              ]
+            },
+            {
+              "code": "T.Y.2.3",
+              "text": "Yazma kurallarını uygulama",
+              "subSkills": [
+                "b) Anlamını bilmediği sözcüğü çevrim içi veya basılı kaynaklardan araştırır.",
+                "c) Sözcükleri yazıda yerinde kullanır.",
+                "g) Yazım alanını uygun kullanır (hizalama, paragraf başı, satır sonu).",
+                "ğ) Noktalama işaretlerini kurallarına uygun kullanır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Atatürk Ve Çocuk",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/357",
+          "hours": 38,
+          "keyConcepts": [
+            "cesaret",
+            "cumhuriyet",
+            "İstiklâl Marşı",
+            "kahramanlık",
+            "Mustafa Kemal Atatürk",
+            "millî egemenlik",
+            "millî irade",
+            "Millî Mücadele",
+            "vatanseverlik"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.2.1",
+              "text": "Dinleme/izlemeyi yönetir; kurallara uyar ve uygun zamanda söz alır.",
+              "subSkills": [
+                "b) Dinleme kurallarına uygun olarak dinler.",
+                "c) Dinleme sırasında uygun zamanda söz alarak konuşmaya katılır."
+              ]
+            },
+            {
+              "code": "T.D.2.2",
+              "text": "Dinledikleri/izledikleriyle ilgili anlam oluşturur.",
+              "subSkills": [
+                "a) Dinlediklerini yaşantı ve ön bilgileriyle karşılaştırıp çıkarım yapar.",
+                "b) Görsellerden yola çıkarak metnin konusunu tahmin eder.",
+                "e) Dinlediği iletileri ön bilgileriyle doğruluk ve gerçeklik açısından karşılaştırır.",
+                "ğ) Dinlediklerine ilişkin düşüncelerini ifade eder."
+              ]
+            },
+            {
+              "code": "T.D.2.3",
+              "text": "Dinlediklerini/izlediklerini çözümler.",
+              "subSkills": [
+                "b) Dinlediği/izlediği metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.K.2.1",
+              "text": "Konuşmalarını yönetir; göz teması kurar, uygun zamanda söz alır, hitap kullanır.",
+              "subSkills": [
+                "ç) Konuşma sırasında dinleyicilerle göz teması kurar.",
+                "d) İletişim sırasında uygun zamanda söz alır.",
+                "e) Konuşmalarında selamlaşma ve hitap ifadeleri kullanır."
+              ]
+            },
+            {
+              "code": "T.K.2.2",
+              "text": "Konuşmalarında içerik oluşturur; olay sırası ve kişiler hakkında açıklamalar yapar.",
+              "subSkills": [
+                "b) Görsellerden yola çıkarak olayların oluş sırası hakkında tahminde bulunur.",
+                "c) Metinlerdeki kişilerin benzer ve farklı yönlerini açıklar."
+              ]
+            },
+            {
+              "code": "T.K.2.3",
+              "text": "Konuşma kurallarını uygular; hız, vurgu, sözcük seçimi ve cümle yapısına dikkat eder.",
+              "subSkills": [
+                "a) Konuşma hızını ayarlar.",
+                "c) Vurgu ve tonlamaya dikkat eder.",
+                "ç) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "e) Anlamlı ve kurallı cümleler kurar."
+              ]
+            },
+            {
+              "code": "T.O.2.1",
+              "text": "Okuma sürecini yönetir; başlık ve görselleri inceler, kurallara uygun okur.",
+              "subSkills": [
+                "a) Okuyacağı metnin başlığını ve görsellerini inceler.",
+                "c) Kuralına uygun sesli ve sessiz okur.",
+                "ç) Noktalama işaretlerine dikkat ederek okur."
+              ]
+            },
+            {
+              "code": "T.O.2.2",
+              "text": "Okudukları ile ilgili anlam oluşturur; ön bilgi bağlantısı ve tahmin yapar.",
+              "subSkills": [
+                "a) Okuduğu metindeki bilgiler ile ön bilgileri arasında bağlantı kurar.",
+                "b) Başlık ve görsellerden yola çıkarak metnin konusu hakkında tahminde bulunur.",
+                "c) Başlık ve görsellerden yola çıkarak metindeki bilgi/olaylar hakkında tahminde bulunur.",
+                "d) Okuduğu metindeki iletileri ön bilgileriyle karşılaştırır.",
+                "f) Metindeki zıt anlamlı sözcükleri bulur."
+              ]
+            },
+            {
+              "code": "T.O.2.3",
+              "text": "Okuduklarını çözümler; metnin konusunu bulur.",
+              "subSkills": [
+                "b) Okuduğu metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.Y.2.1",
+              "text": "Yazılı anlatım becerilerini yönetir; yazma görevine hazırlanarak yazar.",
+              "subSkills": [
+                "a) Verilen bir yazma görevine hazırlanarak yazar."
+              ]
+            },
+            {
+              "code": "T.Y.2.2",
+              "text": "Yazılarında içerik oluşturur; bağlam, tamamlama, örnekleme ve neden-sonuç kurar.",
+              "subSkills": [
+                "c) Bir sözcüğün anlamına ilişkin tahminlerini bağlamdan yararlanarak yazar.",
+                "ç) Eksik bırakılan bir metni tahminleri doğrultusunda yazarak tamamlar.",
+                "f) Yazılarında sözcükleri anlamına uygun kullanır.",
+                "l) Yazılarında örneklendirmeye yer verir.",
+                "m) Dinlediği/izlediği veya okuduğu metindeki neden-sonuç ilişkisini yazar."
+              ]
+            },
+            {
+              "code": "T.Y.2.3",
+              "text": "Yazma kurallarını uygular; sözcük anlamını araştırır, büyük harf ve noktalamaya dikkat eder.",
+              "subSkills": [
+                "b) Anlamını bilmediği sözcüğün anlamını çevrim içi veya basılı kaynaklardan araştırarak yazar.",
+                "c) Yazılarında sözcükleri yerinde kullanır.",
+                "f) Büyük harfleri kuralına uygun yazar.",
+                "ğ) Noktalama işaretlerini kuralına uygun kullanır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Doğada Neler Oluyor?",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/373",
+          "hours": 38,
+          "keyConcepts": [
+            "doğa",
+            "hayvan",
+            "iklim",
+            "orman",
+            "sevgisi",
+            "tasarruf"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.2.1",
+              "text": "Dinleme/izlemeyi yönetebilir.",
+              "subSkills": [
+                "b) Dinleme kurallarına uygun dinler.",
+                "c) Dinleme sırasında uygun zamanda söz alır."
+              ]
+            },
+            {
+              "code": "T.D.2.2",
+              "text": "Dinledikleri/izledikleriyle ilgili anlam oluşturabilir.",
+              "subSkills": [
+                "b) Görsellerden metnin konusunu tahmin eder.",
+                "g) Dinlediklerindeki nesne ve karakterleri özelliklerine göre sınıflandırır."
+              ]
+            },
+            {
+              "code": "T.D.2.3",
+              "text": "Dinlediklerini/izlediklerini çözümleyebilir.",
+              "subSkills": [
+                "b) Dinlediği/izlediği metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.K.2.1",
+              "text": "Konuşmalarını yönetebilir.",
+              "subSkills": [
+                "c) Konuşma amacına göre konuşmasını belirler.",
+                "ç) Konuşma sırasında dinleyicilerle göz teması kurar.",
+                "d) İletişimde uygun zamanda söz alır."
+              ]
+            },
+            {
+              "code": "T.K.2.2",
+              "text": "Konuşmalarında içerik oluşturabilir.",
+              "subSkills": [
+                "ç) Görsellerden hareketle karakter ya da nesneleri benzer özelliklerine göre sınıflandırarak anlatır.",
+                "ğ) Dinlediği, izlediği veya okuduğu metindeki neden-sonuç ilişkisini söyler."
+              ]
+            },
+            {
+              "code": "T.K.2.3",
+              "text": "Konuşma kurallarını uygulayabilir.",
+              "subSkills": [
+                "a) Konuşma hızını ayarlar.",
+                "c) Vurgu ve tonlamaya dikkat eder.",
+                "ç) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "e) Anlamlı ve kurallı cümleler kurar."
+              ]
+            },
+            {
+              "code": "T.K.2.5",
+              "text": "Konuşma sürecini değerlendirebilir.",
+              "subSkills": [
+                "a) Konuşmasında fark ettiği hataları düzeltir.",
+                "c) Olumlu davranışlarını sonraki konuşmalarına aktarır."
+              ]
+            },
+            {
+              "code": "T.O.2.1",
+              "text": "Okuma sürecini yönetebilir.",
+              "subSkills": [
+                "a) Okuyacağı metnin başlık ve görsellerini inceler.",
+                "c) Kuralına uygun sesli ve sessiz okur.",
+                "ç) Noktalama işaretlerine dikkat ederek okur."
+              ]
+            },
+            {
+              "code": "T.O.2.2",
+              "text": "Okudukları ile ilgili anlam oluşturabilir.",
+              "subSkills": [
+                "b) Başlık ve görsellerden metnin konusunu tahmin eder.",
+                "c) Başlık ve görsellerden metindeki bilgi ve olaylar hakkında tahminde bulunur.",
+                "e) Metindeki nesne ve kişileri özelliklerine göre sınıflandırır.",
+                "g) Metindeki iletilere katılıp katılmadığını ifade eder."
+              ]
+            },
+            {
+              "code": "T.O.2.3",
+              "text": "Okuduklarını çözümleyebilir.",
+              "subSkills": [
+                "b) Okuduğu metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.Y.2.1",
+              "text": "Yazılı anlatım becerilerini yönetebilir.",
+              "subSkills": [
+                "a) Verilen yazma görevini hazırlık yaparak yazar."
+              ]
+            },
+            {
+              "code": "T.Y.2.2",
+              "text": "Yazılarında içerik oluşturabilir.",
+              "subSkills": [
+                "c) Sözcük anlamlarına ilişkin tahminlerini bağlamdan yararlanarak yazar.",
+                "f) Yazılarında sözcükleri anlamına uygun kullanır.",
+                "i) Yazılı anlatımlarını desteklemek için görseller kullanır.",
+                "k) Yazılarında benzetmelere yer verir."
+              ]
+            },
+            {
+              "code": "T.Y.2.3",
+              "text": "Yazma kurallarını uygulayabilir.",
+              "subSkills": [
+                "b) Anlamını bilmediği sözcüğü çevrim içi veya basılı kaynaklardan araştırarak yazar.",
+                "c) Yazılarında sözcükleri yerinde kullanır.",
+                "ç) Mesajlarını birden çok cümleyle açık ve anlaşılır ifade eder.",
+                "d) Soru edatını (mı, mi) kuralına uygun yazar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Okuma Serüvenimiz",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/374",
+          "hours": 38,
+          "keyConcepts": [
+            "dil sevgisi",
+            "kitaplar",
+            "okuma alışkanlığı",
+            "okuma sevgisi"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.2.1",
+              "text": "Dinleme ve izleme sürecini yönetir.",
+              "subSkills": [
+                "b) Dinleme kurallarına uygun dinler.",
+                "c) Dinlerken konuşmaya uygun zamanda söz alır."
+              ]
+            },
+            {
+              "code": "T.D.2.2",
+              "text": "Dinlediği veya izlediği metinle ilgili anlam oluşturur.",
+              "subSkills": [
+                "b) Görsellerden hareketle metnin konusunu tahmin eder.",
+                "f) Metnin bilgilerini doğruluk ve gerçeklik açısından karşılaştırır."
+              ]
+            },
+            {
+              "code": "T.D.2.3",
+              "text": "Dinlediği veya izlediği metnin konusunu çözümler.",
+              "subSkills": [
+                "b) Metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.D.2.4",
+              "text": "Dinleme ve izleme sürecine etki eden durumları gözden geçirir.",
+              "subSkills": [
+                "a) Dinleme yapacağı ortamın uygunluğunu gözden geçirir."
+              ]
+            },
+            {
+              "code": "T.D.2.5",
+              "text": "Dinleme ve izleme sürecini değerlendirir.",
+              "subSkills": [
+                "a) Dinleme sürecindeki hatalarını belirler.",
+                "b) Belirlediği hatalarını düzeltir."
+              ]
+            },
+            {
+              "code": "T.K.2.1",
+              "text": "Konuşmalarını yönetir.",
+              "subSkills": [
+                "ç) Konuşma sırasında dinleyicilerle göz teması kurar.",
+                "d) İletişim sırasında uygun zamanda söz alır."
+              ]
+            },
+            {
+              "code": "T.K.2.2",
+              "text": "Konuşmalarında içerik oluşturur.",
+              "subSkills": [
+                "a) Dinlediklerini ifade ederken ön bilgilerini kullanır."
+              ]
+            },
+            {
+              "code": "T.K.2.3",
+              "text": "Konuşma kurallarını uygular.",
+              "subSkills": [
+                "a) Konuşma hızını ayarlar.",
+                "c) Vurgu ve tonlamaya dikkat eder.",
+                "ç) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "d) Günlük bir olayla ilgili düşüncelerini açık ve anlaşılır cümlelerle ifade eder.",
+                "e) Anlamlı ve kurallı cümleler kullanır.",
+                "g) Konuşmalarını jest ve mimiklerle destekler.",
+                "ğ) Konuşmalarını desteklemek için beden dilini kullanır.",
+                "h) Konuşma sürecinde beden dilini yerinde kullanır."
+              ]
+            },
+            {
+              "code": "T.O.2.1",
+              "text": "Okuma sürecini yönetir.",
+              "subSkills": [
+                "a) Metnin başlığını ve görsellerini inceler.",
+                "c) Kuralına uygun sesli ve sessiz okur.",
+                "ç) Noktalama işaretlerine dikkat ederek okur."
+              ]
+            },
+            {
+              "code": "T.O.2.2",
+              "text": "Okuduklarıyla ilgili anlam oluşturur.",
+              "subSkills": [
+                "b) Başlık ve görsellerden hareketle metnin konusu hakkında tahminde bulunur.",
+                "c) Başlık ve görsellerden hareketle metindeki bilgi ve olaylar hakkında tahminde bulunur."
+              ]
+            },
+            {
+              "code": "T.O.2.3",
+              "text": "Okuduklarını çözümler.",
+              "subSkills": [
+                "b) Okuduğu metnin konusunu bulur.",
+                "ç) Metindeki içerik ile görsel arasındaki ilişkiyi belirler."
+              ]
+            },
+            {
+              "code": "T.O.2.4",
+              "text": "Okuma sürecine etki eden durumları gözden geçirir.",
+              "subSkills": [
+                "b) Okuma yapacağı ortamın fiziksel özelliklerini dikkate alarak okur."
+              ]
+            },
+            {
+              "code": "T.Y.2.1",
+              "text": "Yazılı anlatım becerilerini yönetir.",
+              "subSkills": [
+                "a) Verilen bir yazma görevini hazırlık yaparak yazar."
+              ]
+            },
+            {
+              "code": "T.Y.2.2",
+              "text": "Yazılarında içerik oluşturur.",
+              "subSkills": [
+                "f) Sözcükleri anlamına uygun kullanır."
+              ]
+            },
+            {
+              "code": "T.Y.2.3",
+              "text": "Yazma kurallarını uygular.",
+              "subSkills": [
+                "b) Anlamını bilmediği sözcüğün anlamını araştırarak yazar.",
+                "c) Sözcükleri yerinde kullanır.",
+                "e) Kısaltmaları kuralına uygun yazar."
+              ]
+            },
+            {
+              "code": "T.Y.2.5",
+              "text": "Yazma sürecini değerlendirir.",
+              "subSkills": [
+                "a) Yazılarındaki hataları bulur.",
+                "b) Belirlediği hataları düzeltir.",
+                "c) Uygun davranışları sonraki yazılarına aktarır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Yeteneklerimizi Tanıyoruz",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/378",
+          "hours": 38,
+          "keyConcepts": [
+            "çocuk kültürü",
+            "dijital oyunlar",
+            "eğlence",
+            "geleneksel sanatlar",
+            "hayal",
+            "yetenek"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.2.1",
+              "text": "Dinleme/izlemeyi yönetme",
+              "subSkills": [
+                "b) Dinleme kurallarına uyarak dinler",
+                "c) Dinleme sırasında uygun zamanda konuşmaya katılır"
+              ]
+            },
+            {
+              "code": "T.D.2.2",
+              "text": "Dinledikleriyle ilgili anlam oluşturma",
+              "subSkills": [
+                "b) Görsellerden yola çıkarak metnin konusunu tahmin eder"
+              ]
+            },
+            {
+              "code": "T.D.2.3",
+              "text": "Dinlediklerini/izlediklerini çözümleme",
+              "subSkills": [
+                "a) Dinlediği metindeki olayları belirler",
+                "b) Dinlediği metnin konusunu bulur",
+                "c) Farklı metinlerdeki iletilerin benzer ve farklı yönlerini belirler"
+              ]
+            },
+            {
+              "code": "T.K.2.1",
+              "text": "Konuşmalarını yönetme",
+              "subSkills": [
+                "ç) Konuşma sırasında dinleyicilerle göz teması kurar",
+                "d) İletişimde uygun zamanda söz alır",
+                "f) Belirli bir konuda konuşma planı hazırlar"
+              ]
+            },
+            {
+              "code": "T.K.2.2",
+              "text": "Konuşmalarında içerik oluşturma",
+              "subSkills": [
+                "a) Dinlediklerini ifade ederken ön bilgilerinden yararlanır"
+              ]
+            },
+            {
+              "code": "T.K.2.3",
+              "text": "Konuşma kurallarını uygulama",
+              "subSkills": [
+                "a) Konuşma hızını ayarlar",
+                "b) Dinleyici kitlesine ve konuya uygun, plana göre konuşur",
+                "c) Vurgu ve tonlamaya dikkat eder",
+                "ç) Sözcükleri yerinde ve anlamına uygun kullanır",
+                "e) Anlamlı ve kurallı cümleler kurar",
+                "h) Beden dilini yerinde kullanır"
+              ]
+            },
+            {
+              "code": "T.O.2.1",
+              "text": "Okuma sürecini yönetme",
+              "subSkills": [
+                "a) Okuyacağı metnin başlık ve görsellerini inceler",
+                "b) Metni ilgi alanına göre seçer",
+                "c) Kurallara uygun sesli ve sessiz okur",
+                "ç) Noktalama işaretlerine dikkat ederek okur"
+              ]
+            },
+            {
+              "code": "T.O.2.2",
+              "text": "Okumalarıyla ilgili anlam oluşturma",
+              "subSkills": [
+                "b) Başlık ve görsellerden yola çıkarak metnin konusunu tahmin eder",
+                "c) Başlık ve görsellerden metindeki bilgi/olaylar hakkında tahminde bulunur"
+              ]
+            },
+            {
+              "code": "T.O.2.3",
+              "text": "Okuduklarını çözümleme",
+              "subSkills": [
+                "b) Okuduğu metnin konusunu bulur",
+                "c) Metindeki iletilerin benzer ve/veya farklı yönlerini belirler"
+              ]
+            },
+            {
+              "code": "T.Y.2.1",
+              "text": "Yazılı anlatım becerilerini yönetme",
+              "subSkills": [
+                "a) Yazma görevine hazırlık yaparak yazar",
+                "b) Görevi belirlediği yazı türüne göre yazar",
+                "c) Yazışmalarını selamlaşma ve hitap ifadeleriyle başlatır",
+                "ç) Yazışmalarını uygun ifadelerle sonlandırır"
+              ]
+            },
+            {
+              "code": "T.Y.2.2",
+              "text": "Yazılarında içerik oluşturma",
+              "subSkills": [
+                "f) Yazılarında sözcükleri anlamına uygun kullanır",
+                "g) Metindeki olayları oluş sırasına göre kendi ifadeleriyle yazar"
+              ]
+            },
+            {
+              "code": "T.Y.2.3",
+              "text": "Yazma kurallarını uygulama",
+              "subSkills": [
+                "b) Anlamını bilmediği sözcükleri çevrim içi veya basılı kaynaklardan araştırır",
+                "c) Sözcükleri yazılarında yerinde kullanır",
+                "ğ) Noktalama işaretlerini kurallara uygun kullanır"
+              ]
+            },
+            {
+              "code": "T.Y.2.4",
+              "text": "Yazma sürecini etkileyen durumları gözden geçirme",
+              "subSkills": [
+                "a) Yazma ortamının uygunluğunu gözden geçirir"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Mucit Çocuk",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/380",
+          "hours": 38,
+          "keyConcepts": [
+            "araştırma",
+            "bilim",
+            "kâşif",
+            "keşif",
+            "merak",
+            "sorgulama",
+            "teknoloji",
+            "yapay zekâ"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.2.1",
+              "text": "Dinleme/izlemeyi kurallara uygun şekilde yönetir.",
+              "subSkills": [
+                "b) Dinleme kurallarına uygun olarak dinler.",
+                "c) Konuşmaya katılmak için uygun zamanda söz alır."
+              ]
+            },
+            {
+              "code": "T.D.2.2",
+              "text": "Dinleme/izlemeden anlam oluşturup olayların öncesi ve sonrası hakkında tahmin yürütür.",
+              "subSkills": [
+                "b) Görsellerden yola çıkarak metnin konusunu tahmin eder.",
+                "c) Olayların öncesi hakkında tahminde bulunur.",
+                "ç) Olayların sonrası hakkında tahminde bulunur."
+              ]
+            },
+            {
+              "code": "T.D.2.3",
+              "text": "Dinlediği/izlediği metnin konusunu bulur ve söylem ile görsel arasındaki ilişkiyi belirler.",
+              "subSkills": [
+                "b) Dinlediği/izlediği metnin konusunu bulur.",
+                "ç) Söylem ile görsel arasındaki ilişkiyi belirler."
+              ]
+            },
+            {
+              "code": "T.K.2.1",
+              "text": "Konuşmalarını yönetir; dinleyicilerle göz teması kurar ve uygun zamanda söz alır.",
+              "subSkills": [
+                "ç) Konuşma sırasında dinleyicilerle göz teması kurar.",
+                "d) İletişim sırasında uygun zamanda söz alır."
+              ]
+            },
+            {
+              "code": "T.K.2.2",
+              "text": "Konuşmalarında zıt anlamlı sözcükleri kullanarak içerik oluşturur.",
+              "subSkills": [
+                "d) Konuşmalarında zıt anlamlı sözcükleri kullanır."
+              ]
+            },
+            {
+              "code": "T.K.2.3",
+              "text": "Konuşma kurallarını uygular: hız, vurgu, tonlama, sözcük seçimi, cümle ve bağlama ögeleri.",
+              "subSkills": [
+                "a) Konuşma hızını ayarlar.",
+                "c) Vurgu ve tonlamaya dikkat eder.",
+                "ç) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "e) Anlamlı ve kurallı cümleler kurar.",
+                "f) Bağlama ögelerini doğru kullanır."
+              ]
+            },
+            {
+              "code": "T.K.2.4",
+              "text": "Konuşma sürecine etki eden durumları gözden geçirir.",
+              "subSkills": [
+                "a) Konuşma yapacağı ortamın uygunluğunu gözden geçirir."
+              ]
+            },
+            {
+              "code": "T.O.2.1",
+              "text": "Okuma sürecini yönetir; başlık ve görselleri inceler, kurallara uygun okur.",
+              "subSkills": [
+                "a) Okuyacağı metnin başlığını ve görsellerini inceler.",
+                "c) Kuralına uygun sesli ve sessiz okur.",
+                "ç) Noktalama işaretlerine dikkat ederek okur."
+              ]
+            },
+            {
+              "code": "T.O.2.2",
+              "text": "Okudukları ile anlam oluşturur; tahminde bulunur ve verilerden çıkarım yapar.",
+              "subSkills": [
+                "b) Başlık ve görsellerden metnin konusunu tahmin eder.",
+                "c) Başlık ve görsellerden bilgi/olaylar hakkında tahminde bulunur.",
+                "ç) Metindeki verilerden içeriğe uygun çıkarımlar yapar."
+              ]
+            },
+            {
+              "code": "T.O.2.3",
+              "text": "Okuduğu metnin konusunu bulur.",
+              "subSkills": [
+                "b) Okuduğu metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.Y.2.1",
+              "text": "Yazılı anlatım becerilerini yönetir; yazma görevine hazırlık yaparak yazar.",
+              "subSkills": [
+                "a) Verilen yazma görevini hazırlık yaparak yazar."
+              ]
+            },
+            {
+              "code": "T.Y.2.2",
+              "text": "Kişi ve nesneleri karşılaştırıp sınıflandırarak yazar; sözcükleri anlamına uygun kullanır.",
+              "subSkills": [
+                "d) Kişi ve nesneleri benzerlik/farklılık bakımından karşılaştırır.",
+                "e) Karakter veya nesneleri benzer özelliklerine göre sınıflandırarak yazar.",
+                "f) Sözcükleri anlamına uygun kullanır."
+              ]
+            },
+            {
+              "code": "T.Y.2.3",
+              "text": "Yazma kurallarını uygular; bilmediği sözcükleri araştırır ve yerinde kullanır.",
+              "subSkills": [
+                "b) Anlamını bilmediği sözcüğü çevrim içi veya basılı kaynaklardan araştırır.",
+                "c) Sözcükleri yerinde kullanır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Kültür Hazinemiz",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/382",
+          "hours": 38,
+          "keyConcepts": [
+            "bayrak",
+            "kültürel miras",
+            "millî ve dinî bayramlar",
+            "millî ve manevi değerler",
+            "tarihî mekânlar",
+            "Türkçe",
+            "vatan",
+            "yurdumuz"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.2.1",
+              "text": "Dinleme/izleme sürecini yönetebilme",
+              "subSkills": [
+                "b) Dinleme kurallarına uygun şekilde dinler.",
+                "c) Dinleme sırasında uygun zamanda konuşmaya katılmak için söz alır."
+              ]
+            },
+            {
+              "code": "T.D.2.2",
+              "text": "Dinledikleri/izledikleriyle ilgili anlam oluşturabilme",
+              "subSkills": [
+                "b) Görsellerden yola çıkarak metnin konusunu tahmin eder.",
+                "d) İletilerden ilgi alanına uygun çıkarımlar yapar.",
+                "e) İletileri ön bilgileriyle doğruluk ve gerçeklik açısından karşılaştırır."
+              ]
+            },
+            {
+              "code": "T.D.2.3",
+              "text": "Dinledikleri/izlediklerini çözümleyebilme",
+              "subSkills": [
+                "b) Dinlediği veya izlediği metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.K.2.1",
+              "text": "Konuşmalarını yönetebilme",
+              "subSkills": [
+                "a) Konunun özelliğine göre konuşma üslubunu belirler.",
+                "ç) Konuşurken dinleyicilerle göz teması kurar.",
+                "d) İletişimde uygun zamanda söz alır."
+              ]
+            },
+            {
+              "code": "T.K.2.2",
+              "text": "Konuşmalarında içerik oluşturabilme",
+              "subSkills": [
+                "f) Okuduğu veya dinlediği görüşlere katılıp katılmadığını nedenleriyle ifade eder.",
+                "g) Konuşmalarında benzetmelere yer verir."
+              ]
+            },
+            {
+              "code": "T.K.2.3",
+              "text": "Konuşma kurallarını uygulayabilme",
+              "subSkills": [
+                "a) Konuşma hızını ayarlar.",
+                "c) Vurgu ve tonlamaya dikkat eder.",
+                "ç) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "e) Anlamlı ve kurallı cümleler kurar."
+              ]
+            },
+            {
+              "code": "T.O.2.1",
+              "text": "Okuma sürecini yönetebilme",
+              "subSkills": [
+                "a) Okuyacağı metnin başlığını ve görsellerini inceler.",
+                "c) Kuralına uygun sesli ve sessiz okur.",
+                "ç) Noktalama işaretlerine dikkat ederek okur."
+              ]
+            },
+            {
+              "code": "T.O.2.2",
+              "text": "Okuduklarıyla ilgili anlam oluşturabilme",
+              "subSkills": [
+                "b) Başlık ve görsellerden metnin konusu hakkında tahminde bulunur.",
+                "c) Başlık ve görsellerden metindeki bilgi ve olaylar hakkında tahminde bulunur."
+              ]
+            },
+            {
+              "code": "T.O.2.3",
+              "text": "Okuduklarını çözümleyebilme",
+              "subSkills": [
+                "b) Okuduğu metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.O.2.5",
+              "text": "Okuma sürecini değerlendirebilme",
+              "subSkills": [
+                "a) Okuma sürecindeki hatalarını belirler.",
+                "b) Belirlediği hatalarını düzeltir.",
+                "c) Olumlu okuma davranışlarını sonraki okumalarına aktarır."
+              ]
+            },
+            {
+              "code": "T.Y.2.1",
+              "text": "Yazılı anlatım becerilerini yönetebilme",
+              "subSkills": [
+                "a) Verilen yazma görevine hazırlık yaparak yazar."
+              ]
+            },
+            {
+              "code": "T.Y.2.2",
+              "text": "Yazılarında içerik oluşturabilme",
+              "subSkills": [
+                "ğ) Basit yönergeler yazar.",
+                "h) Metindeki görüşlere katılıp katılmadığını nedenleriyle yazar."
+              ]
+            },
+            {
+              "code": "T.Y.2.3",
+              "text": "Yazma kurallarını uygulayabilme",
+              "subSkills": [
+                "b) Anlamını bilmediği sözcüğün anlamını kaynaklardan araştırarak yazar.",
+                "c) Sözcükleri yerinde kullanır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Haklarımızı Biliyoruz",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/385",
+          "hours": 38,
+          "keyConcepts": [
+            "çocuk hakları",
+            "demokrasi",
+            "eşitlik",
+            "mahremiyet",
+            "sorumluluk",
+            "temel hak ve özgürlükler"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.2.1",
+              "text": "Dinleme ve izleme sürecini kendisi yönetir.",
+              "subSkills": [
+                "b) Dinleme kurallarına uygun dinler.",
+                "c) Konuşmaya katılmak için uygun anda söz alır."
+              ]
+            },
+            {
+              "code": "T.D.2.2",
+              "text": "Dinlediği ve izlediğiyle ilgili anlam oluşturur.",
+              "subSkills": [
+                "b) Görsellere bakarak metnin konusunu tahmin eder.",
+                "g) Dinlediği nesne ve karakterleri özelliklerine göre sınıflandırır."
+              ]
+            },
+            {
+              "code": "T.D.2.3",
+              "text": "Dinlediklerini ve izlediklerini çözümler.",
+              "subSkills": [
+                "b) Dinlediği veya izlediği metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.D.2.5",
+              "text": "Dinleme ve izleme sürecini değerlendirir.",
+              "subSkills": [
+                "a) Dinleme sürecindeki hatalarını belirler.",
+                "b) Belirlediği hataları düzeltir.",
+                "c) Uygun davranışlarını sonraki dinlemelere aktarır."
+              ]
+            },
+            {
+              "code": "T.K.2.1",
+              "text": "Konuşmalarını yönetir.",
+              "subSkills": [
+                "b) Konuşma türüne göre konuşmasını belirler.",
+                "ç) Konuşurken dinleyicilerle göz teması kurar.",
+                "d) İletişimde uygun anda söz alır."
+              ]
+            },
+            {
+              "code": "T.K.2.2",
+              "text": "Konuşmalarında içerik oluşturur.",
+              "subSkills": [
+                "a) Dinlediklerini anlatırken ön bilgilerinden yararlanır."
+              ]
+            },
+            {
+              "code": "T.K.2.3",
+              "text": "Konuşma kurallarını uygular.",
+              "subSkills": [
+                "a) Konuşma hızını ayarlar.",
+                "c) Vurgu ve tonlamaya dikkat eder.",
+                "ç) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "e) Anlamlı ve kurallı cümleler kurar."
+              ]
+            },
+            {
+              "code": "T.K.2.5",
+              "text": "Konuşma sürecini değerlendirir.",
+              "subSkills": [
+                "a) Konuşmasındaki hataları fark edip düzeltir.",
+                "b) Konuşmasındaki olumlu davranışları fark eder.",
+                "c) Olumlu davranışları sonraki konuşmalarına aktarır."
+              ]
+            },
+            {
+              "code": "T.O.2.1",
+              "text": "Okuma sürecini yönetir.",
+              "subSkills": [
+                "a) Okuyacağı metnin başlığını ve görsellerini inceler.",
+                "c) Kurallara uygun sesli ve sessiz okur.",
+                "ç) Noktalama işaretlerine dikkat ederek okur."
+              ]
+            },
+            {
+              "code": "T.O.2.2",
+              "text": "Okuduklarıyla ilgili anlam oluşturur.",
+              "subSkills": [
+                "b) Başlık ve görsellere bakarak metnin konusunu tahmin eder.",
+                "c) Başlık ve görsellerden metindeki bilgi ve olayları tahmin eder."
+              ]
+            },
+            {
+              "code": "T.O.2.3",
+              "text": "Okuduklarını çözümler.",
+              "subSkills": [
+                "b) Okuduğu metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.O.2.4",
+              "text": "Okuma sürecini etkileyen durumları gözden geçirir.",
+              "subSkills": [
+                "a) Okuduğu ortamın okumasına etkisini açıklar."
+              ]
+            },
+            {
+              "code": "T.O.2.5",
+              "text": "Okuma sürecini değerlendirir.",
+              "subSkills": [
+                "c) Olumlu okuma davranışlarını sonraki okumalarına aktarır."
+              ]
+            },
+            {
+              "code": "T.Y.2.1",
+              "text": "Yazılı anlatım becerilerini yönetir.",
+              "subSkills": [
+                "a) Verilen yazma görevine hazırlanarak yazar.",
+                "d) Belirlenen konuda yazma planı hazırlar."
+              ]
+            },
+            {
+              "code": "T.Y.2.2",
+              "text": "Yazılarında içerik oluşturur.",
+              "subSkills": [
+                "f) Sözcükleri yazılarında anlamına uygun kullanır.",
+                "ı) Tebrik, mektup ve anlık iletiyle istek ve önerilerini yazar.",
+                "j) Görsellerle desteklediği yazılarını sunar."
+              ]
+            },
+            {
+              "code": "T.Y.2.3",
+              "text": "Yazma kurallarını uygular.",
+              "subSkills": [
+                "a) Hedef kitleye ve konuya uygun plana göre yazar.",
+                "b) Anlamını bilmediği sözcüğü kaynaklardan araştırarak yazar.",
+                "c) Sözcükleri yazılarında yerinde kullanır."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 3,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ilkokul-turkce-dersi/4",
+      "themes": [
+        {
+          "order": 1,
+          "name": "Değerlerimizle Yaşıyoruz",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/354",
+          "hours": 31,
+          "keyConcepts": [
+            "adalet",
+            "aile bütünlüğü",
+            "çalışkanlık",
+            "dürüstlük",
+            "dostluk",
+            "duyarlılık",
+            "estetik",
+            "iletişim",
+            "mahremiyet",
+            "merhamet",
+            "mütevazılık",
+            "özgürlük",
+            "sabır",
+            "sağlıklı yaşam",
+            "saygı",
+            "sevgi",
+            "sorumluluk",
+            "tasarruf",
+            "temizlik",
+            "vatanseverlik",
+            "yardımseverlik"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.3.1",
+              "text": "Dinleme ve izleme sürecini yönetir.",
+              "subSkills": [
+                "c) Dinleme kurallarına uygun dinler.",
+                "ç) Düşüncelerini belirtmek için uygun zamanda söz alır."
+              ]
+            },
+            {
+              "code": "T.D.3.2",
+              "text": "Dinlediği/izlediği metinle ilgili anlam oluşturur.",
+              "subSkills": [
+                "c) Dinlediği olayların sonrasını tahmin eder.",
+                "ç) Dinlediği bilgileri ön bilgileriyle ilişkilendirir.",
+                "ğ) Düşüncelerini nedenleriyle ifade eder.",
+                "h) Dinlediği iletilere ilişkin önerilerde bulunur."
+              ]
+            },
+            {
+              "code": "T.D.3.3",
+              "text": "Dinlediği/izlediği metni çözümler.",
+              "subSkills": [
+                "b) Dinlediği metindeki ana fikri/ana duyguyu bulur.",
+                "c) Dinlediği metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.K.3.1",
+              "text": "Konuşma sürecini yönetir.",
+              "subSkills": [
+                "a) Konunun özelliğine göre konuşma üslubunu belirler.",
+                "ç) Ses düzeyi, nezaket ifadeleri ve göz teması kurallarına uyar."
+              ]
+            },
+            {
+              "code": "T.K.3.2",
+              "text": "Konuşmalarında içerik oluşturur.",
+              "subSkills": [
+                "a) Konuya uygun yaşantı ve ön bilgilerinden örnekler verir.",
+                "b) Dinlediği konuşmanın nasıl biteceğine dair tahminde bulunur."
+              ]
+            },
+            {
+              "code": "T.K.3.3",
+              "text": "Konuşma kurallarını uygular.",
+              "subSkills": [
+                "a) Konuşmanın özelliğine uygun ses düzeyini ayarlar.",
+                "ç) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "e) Mesajlarını açık ve anlaşılır cümlelerle ifade eder.",
+                "g) Anlamlı ve kurallı cümleler kullanır."
+              ]
+            },
+            {
+              "code": "T.O.3.1",
+              "text": "Okuma sürecini yönetir.",
+              "subSkills": [
+                "a) Okuyacağı metnin başlığını ve görsellerini inceler.",
+                "b) Noktalama işaretlerine dikkat ederek okur."
+              ]
+            },
+            {
+              "code": "T.O.3.2",
+              "text": "Okuduklarıyla ilgili anlam oluşturur.",
+              "subSkills": [
+                "a) Metindeki bilgileri ön bilgileriyle ilişkilendirir.",
+                "b) Başlık ve görsellerden olaylar hakkında tahminde bulunur.",
+                "ç) Bilgi ve olayların sırası hakkında tahminde bulunur.",
+                "j) Başlık ve görsellerden içerik hakkında görüş oluşturur."
+              ]
+            },
+            {
+              "code": "T.O.3.3",
+              "text": "Okuduklarını çözümler.",
+              "subSkills": [
+                "a) Metindeki karakter, olay, bilgi veya duyguları açıklar.",
+                "b) Metnin konusunu bulur.",
+                "c) Metindeki ana fikri/ana duyguyu bulur."
+              ]
+            },
+            {
+              "code": "T.Y.3.2",
+              "text": "Yazılarında içerik oluşturur.",
+              "subSkills": [
+                "b) Sözcük anlamlarını bağlamdan tahmin ederek yazar.",
+                "g) Dinlediği, izlediği veya okuduğu olayı kendi ifadeleriyle yazar."
+              ]
+            },
+            {
+              "code": "T.Y.3.3",
+              "text": "Yazma kurallarını uygular.",
+              "subSkills": [
+                "b) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "f) Büyük harfleri kurallarına uygun yazar.",
+                "g) Noktalama işaretlerini kurallarına uygun kullanır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Atatürk Ve Kahramanlarımız",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/360",
+          "hours": 31,
+          "keyConcepts": [
+            "cesaret",
+            "cumhuriyet",
+            "Çanakkale Zaferi",
+            "fedakârlık",
+            "gazilik",
+            "İstiklâl Marşı",
+            "kahramanlık",
+            "Kut’ül Amare",
+            "Sarıkamış Harekâtı",
+            "millî bayramlar",
+            "millî egemenlik",
+            "millî irade",
+            "millî kimlik",
+            "Millî Mücadele",
+            "Mustafa Kemal Atatürk",
+            "şehitlik",
+            "vatanseverlik"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.3.1",
+              "text": "Dinleme/izlemeyi yönetmek: kurallara uygun dinleme ve uygun zamanda söz alma.",
+              "subSkills": [
+                "c) Dinleme görgü kurallarını gözeterek takip eder.",
+                "ç) Konuya dair görüşünü belirtmek için uygun anda söz alır."
+              ]
+            },
+            {
+              "code": "T.D.3.2",
+              "text": "Dinlediği/izlediği metinle anlam oluşturmak: tahmin, bağlantı ve doğruluk karşılaştırması.",
+              "subSkills": [
+                "a) Görsellere bakarak dinleyeceği metnin konusunu öngörür.",
+                "ç) Dinlediği bilgileri önceki bilgileriyle ilişkilendirir.",
+                "e) Dinlediği iletileri ön bilgileriyle doğruluk açısından kıyaslar.",
+                "f) Metindeki bilgileri doğruluk ve gerçeklik yönünden karşılaştırır."
+              ]
+            },
+            {
+              "code": "T.D.3.3",
+              "text": "Dinlediği/izlediği metni çözümlemek: olay, ana fikir/duygu ve konuyu bulma.",
+              "subSkills": [
+                "a) Metindeki olayları tespit eder.",
+                "b) Metnin ana fikrini veya ana duygusunu bulur.",
+                "c) Metnin konusunu belirler."
+              ]
+            },
+            {
+              "code": "T.K.3.1",
+              "text": "Konuşmalarını yönetmek: duruma uygun üslup seçme ve kurallara uygun iletişim.",
+              "subSkills": [
+                "a) Konunun niteliğine göre konuşma üslubunu seçer.",
+                "ç) Ses düzeyi, nezaket ve göz teması gibi kurallara uyar."
+              ]
+            },
+            {
+              "code": "T.K.3.2",
+              "text": "Konuşmasında içerik oluşturmak: metinlerdeki neden-sonuç ilişkisini ifade etme.",
+              "subSkills": [
+                "l) Metindeki neden-sonuç ilişkisini sözlü olarak ifade eder."
+              ]
+            },
+            {
+              "code": "T.K.3.3",
+              "text": "Konuşma kurallarını uygulamak: ses, vurgu, sözcük seçimi ve beden dili.",
+              "subSkills": [
+                "a) Konuşmanın türüne göre ses düzeyini ayarlar.",
+                "c) Konuşurken vurgu ve tonlamaya özen gösterir.",
+                "ç) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "h) Sözlerini jest ve mimiklerle destekler.",
+                "ı) Konuşma sırasında beden dilini uygun biçimde kullanır."
+              ]
+            },
+            {
+              "code": "T.O.3.1",
+              "text": "Okuma sürecini yönetmek: başlık ve görselleri inceleme, noktalama işaretlerine dikkat etme.",
+              "subSkills": [
+                "a) Okuyacağı metnin başlık ve görsellerini inceler.",
+                "b) Okurken noktalama işaretlerine dikkat eder."
+              ]
+            },
+            {
+              "code": "T.O.3.2",
+              "text": "Okuduklarıyla anlam oluşturmak: tahmin, bağlantı, karşılaştırma, sınıflandırma ve sözcük ilişkileri.",
+              "subSkills": [
+                "a) Metindeki bilgileri önceki bilgileriyle ilişkilendirir.",
+                "b) Başlık ve görsellere bakarak olaylar hakkında tahmin yapar.",
+                "d) Olaylar ve görsellerden hareketle sonrası hakkında tahmin yapar.",
+                "f) Metindeki iletileri ön bilgileriyle karşılaştırır.",
+                "g) Metindeki iletileri diğer bilgilerle karşılaştırır.",
+                "ğ) Olay, nesne ve kişileri özelliklerine göre sınıflandırır.",
+                "h) Metindeki zıt ve eş anlamlı sözcükleri bulur.",
+                "j) Başlık ve görsellere dayanarak metin hakkında görüş oluşturur."
+              ]
+            },
+            {
+              "code": "T.O.3.3",
+              "text": "Okuduklarını çözümlemek: metnin konusunu ve ana fikir/ana duygusunu bulma.",
+              "subSkills": [
+                "b) Okuduğu metnin konusunu bulur.",
+                "c) Metindeki ana fikri veya ana duyguyu bulur."
+              ]
+            },
+            {
+              "code": "T.Y.3.1",
+              "text": "Yazılı anlatımı yönetmek: verilen görevi hazırlıksız yazma ve yazışmayı amaca uygun sürdürme.",
+              "subSkills": [
+                "a) Verilen yazma görevini hazırlıksız olarak yazar.",
+                "c) Yazışmasını içeriğe ve amacına uygun ifadelerle sürdürür.",
+                "e) İmzasında adını ve soyadını özgün biçimde kullanır."
+              ]
+            },
+            {
+              "code": "T.Y.3.2",
+              "text": "Yazılarında içerik oluşturmak: tahmin, karşılaştırma ve zıt anlamlı sözcük kullanma.",
+              "subSkills": [
+                "b) Bağlamdan yararlanarak sözcüğün anlamına dair tahmin yazar.",
+                "ç) Kişi ve nesneleri benzerlik ve farklılık yönünden karşılaştırır.",
+                "e) Yazılarında zıt anlamlı sözcükler kullanır."
+              ]
+            },
+            {
+              "code": "T.Y.3.3",
+              "text": "Yazma kurallarını uygulamak: sözcük seçimi, kısaltma ekleri ve noktalama işaretleri.",
+              "subSkills": [
+                "b) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "d) Kısaltmalara gelen ekleri kuralına uygun yazar.",
+                "g) Noktalama işaretlerini kurallarına uygun kullanır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Doğayı Tanıyoruz",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/381",
+          "hours": 31,
+          "keyConcepts": [
+            "afetlere hazırlık",
+            "canlılar",
+            "çevre",
+            "doğa",
+            "doğal kaynaklar",
+            "doğal miras",
+            "doğa olayları",
+            "tasarruf"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.3.1",
+              "text": "Dinleme/izlemeyi yönetir; kurallara uyar ve uygun zamanda söz alır.",
+              "subSkills": [
+                "c) Dinleme kurallarına uyarak dinler.",
+                "ç) Düşüncelerini belirtmek için uygun zamanda söz alır."
+              ]
+            },
+            {
+              "code": "T.D.3.2",
+              "text": "Dinlediği/izlediği metinle ilgili anlam oluşturur, tahmin yapar ve bağlantı kurar.",
+              "subSkills": [
+                "a) Görsellerden konuyu tahmin eder.",
+                "b) Olayların öncesi hakkında tahminde bulunur.",
+                "ç) Bilgileri ön bilgileriyle ilişkilendirir.",
+                "g) Durum, nesne ve karakterleri özelliklerine göre sınıflandırır.",
+                "ı) Düşüncelerini sözlü ve sözsüz unsurlarla ifade eder."
+              ]
+            },
+            {
+              "code": "T.D.3.3",
+              "text": "Dinlediği/izlediği metnin konusunu ve ana fikrini/ana duygusunu bulur.",
+              "subSkills": [
+                "b) Ana fikri/ana duyguyu bulur.",
+                "c) Metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.D.3.5",
+              "text": "Dinleme/izleme sürecini değerlendirir ve olumlu davranışları aktarır.",
+              "subSkills": [
+                "c) Uygun davranışlarını sonraki dinlemelerine aktarır."
+              ]
+            },
+            {
+              "code": "T.K.3.1",
+              "text": "Konuşmalarını yönetir; konuşma kurallarına uygun iletişimi sürdürür.",
+              "subSkills": [
+                "ç) Ses düzeyi, nezaket ve göz teması kurallarına uygun iletişimi sürdürür."
+              ]
+            },
+            {
+              "code": "T.K.3.2",
+              "text": "Konuşmalarında karşılaştırma, sınıflandırma ve zıt anlamlı sözcük kullanarak içerik oluşturur.",
+              "subSkills": [
+                "ç) Nesne ve kişileri karşılaştırır.",
+                "d) Karakter, olay ve nesneleri özelliklerine göre sınıflandırır.",
+                "e) Zıt anlamlı sözcükleri kullanır."
+              ]
+            },
+            {
+              "code": "T.K.3.3",
+              "text": "Konuşma kurallarını uygular; ses düzeyi, sözcük seçimi ve zaman ifadelerine dikkat eder.",
+              "subSkills": [
+                "a) Ses düzeyini konuşmanın özelliğine göre ayarlar.",
+                "ç) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "e) Mesajlarını açık ve anlaşılır cümlelerle ifade eder.",
+                "f) İçeriğe uygun zaman ifadelerini kullanır."
+              ]
+            },
+            {
+              "code": "T.K.3.5",
+              "text": "Konuşma sürecini değerlendirir ve başkalarının konuşmalarındaki hataları fark eder.",
+              "subSkills": [
+                "a) Başkalarının konuşmalarındaki hataları fark eder."
+              ]
+            },
+            {
+              "code": "T.O.3.1",
+              "text": "Okuma sürecini yönetir; metnin başlığını ve görsellerini inceler.",
+              "subSkills": [
+                "a) Metnin başlığını ve görsellerini inceler."
+              ]
+            },
+            {
+              "code": "T.O.3.2",
+              "text": "Okuduklarıyla ilgili anlam oluşturur, ön bilgileriyle bağlantı kurar ve tahmin yapar.",
+              "subSkills": [
+                "a) Metindeki bilgileri ön bilgileriyle ilişkilendirir.",
+                "c) Olayların öncesi hakkında tahminde bulunur.",
+                "j) Başlık ve görsellerden hareketle içerik hakkında görüş oluşturur."
+              ]
+            },
+            {
+              "code": "T.O.3.3",
+              "text": "Okuduklarını çözümler; karakter, olay, konu ve ana fikri/ana duyguyu belirler.",
+              "subSkills": [
+                "a) Karakter, olay, bilgi veya duyguları açıklar.",
+                "b) Metnin konusunu bulur.",
+                "c) Ana fikri/ana duyguyu bulur."
+              ]
+            },
+            {
+              "code": "T.O.3.5",
+              "text": "Okuma sürecini değerlendirir; hatalarını düzeltir ve olumlu davranışlarını aktarır.",
+              "subSkills": [
+                "a) Okuma sırasındaki hatalarını düzeltir.",
+                "b) Olumlu davranışlarını sonraki okumalarına aktarır."
+              ]
+            },
+            {
+              "code": "T.Y.3.1",
+              "text": "Yazılı anlatım becerilerini yönetir; hazırlıksız yazar ve yazma planı hazırlar.",
+              "subSkills": [
+                "a) Verilen yazma görevini hazırlıksız yazar.",
+                "f) Belirlenen konuda yazma planı hazırlar."
+              ]
+            },
+            {
+              "code": "T.Y.3.2",
+              "text": "Yazılarında içerik oluşturur; metni tamamlar, sınıflandırır ve eş anlamlı sözcük kullanır.",
+              "subSkills": [
+                "a) Eksik metin bölümlerini ön bilgilerinden hareketle devam ettirir.",
+                "d) Karakter, olay ve nesneleri özelliklerine göre sınıflandırır.",
+                "f) Eş anlamlı sözcükleri kullanır.",
+                "ğ) Ayrıntılı yönergeler yazar."
+              ]
+            },
+            {
+              "code": "T.Y.3.3",
+              "text": "Yazma kurallarını uygular; plana, sözcük kullanımına, büyük harf ve noktalamaya dikkat eder.",
+              "subSkills": [
+                "a) Hazırladığı plana uygun yazar.",
+                "b) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "f) Büyük harfleri kuralına uygun yazar.",
+                "g) Noktalama işaretlerini kuralına uygun kullanır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Bilgi Hazinemiz",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/387",
+          "hours": 31,
+          "keyConcepts": [
+            "dil sevgisi",
+            "edebî şahsiyetler",
+            "kitaplar",
+            "kütüphaneler",
+            "okuma alışkanlığı",
+            "okuma hakkı",
+            "okur kimliği",
+            "okuma sevgisi"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.3.1",
+              "text": "Dinleme kurallarına uyarak dinler ve uygun zamanda söz alır.",
+              "subSkills": [
+                "c) Dinleme kurallarına uyarak dinler.",
+                "ç) Düşüncelerini belirtmek için uygun zamanda söz alır."
+              ]
+            },
+            {
+              "code": "T.D.3.2",
+              "text": "Dinleyeceği metnin konusunu tahmin eder ve bilgileri ön bilgileriyle ilişkilendirir.",
+              "subSkills": [
+                "a) Görsellerden yola çıkarak metnin konusunu tahmin eder.",
+                "ç) Dinlediklerini ön bilgileriyle ilişkilendirir."
+              ]
+            },
+            {
+              "code": "T.D.3.3",
+              "text": "Dinlediği metinlerin ana fikrini, konusunu ve iletilerini çözümler.",
+              "subSkills": [
+                "b) Metindeki ana fikri/ana duyguyu bulur.",
+                "c) Metnin konusunu bulur.",
+                "ç) Farklı metinlerdeki iletilerin benzerlik ve farklılıklarını belirler.",
+                "d) Farklı metinlerdeki iletileri benzerlik ve farklılık yönüyle ilişkilendirir."
+              ]
+            },
+            {
+              "code": "T.K.3.1",
+              "text": "Konuşmalarını konunun özelliğine göre yönetir ve konuşma kurallarına uyar.",
+              "subSkills": [
+                "a) Konunun özelliğine göre konuşma üslubunu belirler.",
+                "ç) Konuşma kurallarına uygun iletişimi sürdürür."
+              ]
+            },
+            {
+              "code": "T.K.3.2",
+              "text": "Konuşmalarında eş anlamlı sözcükler, örnekler ve neden-sonuç ilişkileri kullanarak içerik oluşturur.",
+              "subSkills": [
+                "f) Konuşmalarında eş anlamlı sözcükler kullanır.",
+                "g) Dinlediklerini/okuduklarını kendi cümleleriyle mantıksal ilişkilerle anlatır.",
+                "ğ) Katılmadığı görüşlerin nedenlerini sözlü olarak ifade eder.",
+                "i) Konuşmalarında örneklendirmelere yer verir.",
+                "l) Metindeki neden-sonuç ilişkisini söyler."
+              ]
+            },
+            {
+              "code": "T.K.3.3",
+              "text": "Konuşma kurallarını uygular; ses düzeyini ayarlar, sözcükleri ve bağlama ögelerini doğru kullanır.",
+              "subSkills": [
+                "a) Konuşmanın özelliğine uygun ses düzeyini ayarlar.",
+                "ç) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "ğ) Bağlama ögelerini (ile, ve, ama, çünkü vb.) doğru kullanır."
+              ]
+            },
+            {
+              "code": "T.O.3.1",
+              "text": "Okuma sürecini yönetir; başlık ve görselleri inceler, noktalama işaretlerine dikkat ederek okur.",
+              "subSkills": [
+                "a) Okuyacağı metnin başlığını ve görsellerini inceler.",
+                "b) Noktalama işaretlerine dikkat ederek okur."
+              ]
+            },
+            {
+              "code": "T.O.3.2",
+              "text": "Okuduklarıyla ilgili anlam oluşturur, metin hakkında tahminde bulunur ve görüş bildirir.",
+              "subSkills": [
+                "a) Metindeki bilgileri ön bilgileriyle ilişkilendirir.",
+                "b) Başlık ve görsellerden metindeki bilgi/olaylar hakkında tahminde bulunur.",
+                "ç) Bilgi ve olayların sırası hakkında tahminde bulunur.",
+                "j) Başlık ve görsellerden metnin içeriği hakkında görüş oluşturur."
+              ]
+            },
+            {
+              "code": "T.O.3.3",
+              "text": "Okuduğu metnin karakter, olay, konu, ana fikir ve iletilerini çözümler.",
+              "subSkills": [
+                "a) Metindeki karakter, olay, bilgi veya duyguları açıklar.",
+                "b) Metnin konusunu bulur.",
+                "c) Metindeki ana fikri/ana duyguyu bulur.",
+                "ç) Metindeki iletileri benzerlik ve/veya farklılık yönüyle ilişkilendirir."
+              ]
+            },
+            {
+              "code": "T.Y.3.1",
+              "text": "Verilen yazma görevini hazırlıksız yazar ve yazışmayı uygun ifadelerle yönetir.",
+              "subSkills": [
+                "a) Verilen yazma görevini hazırlıksız yazar.",
+                "ç) Yazışmayı başlatma, sürdürme ve sonlandırmaya uygun ifadeler kullanır."
+              ]
+            },
+            {
+              "code": "T.Y.3.2",
+              "text": "İstek, şikâyet ve önerilerini yazarak ifade eder; metindeki neden-sonuç ilişkisini yazar.",
+              "subSkills": [
+                "ı) İstek, şikâyet ve önerilerini mektup, dilekçe vb. ile yazarak ifade eder.",
+                "o) Metindeki neden-sonuç ilişkisini yazar."
+              ]
+            },
+            {
+              "code": "T.Y.3.3",
+              "text": "Yazılarında sözcükleri yerinde kullanır ve noktalama işaretlerini kurallara uygun kullanır.",
+              "subSkills": [
+                "b) Yazılarında sözcükleri yerinde ve anlamına uygun kullanır.",
+                "g) Yazılarında noktalama işaretlerini kurallara uygun kullanır."
+              ]
+            },
+            {
+              "code": "T.Y.3.5",
+              "text": "Yazılarındaki hataları bulur, düzeltir ve uygun davranışları sonraki yazılarına aktarır.",
+              "subSkills": [
+                "a) Yazılarındaki hataları bulur.",
+                "b) Belirlediği hataları düzeltir.",
+                "c) Uygun davranışları sonraki yazılarına aktarır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Yeteneklerimizi Kullanıyoruz",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/391",
+          "hours": 30,
+          "keyConcepts": [
+            "estetik",
+            "ilgi",
+            "merak",
+            "oyun",
+            "özgünlük",
+            "sanat",
+            "spor"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.3.1",
+              "text": "Dinleme/izlemeyi yönetme: içeriği seçer, kurallara uyarak dinler ve uygun zamanda söz alır.",
+              "subSkills": [
+                "a) Dinleyeceği/izleyeceği metni amaç ve ilgi alanına göre seçer",
+                "c) Dinleme kurallarına uygun dinler",
+                "ç) Düşüncelerini belirtmek için uygun zamanda söz alır"
+              ]
+            },
+            {
+              "code": "T.D.3.2",
+              "text": "Dinledikleriyle anlam oluşturma: bilgileri ön bilgilerle ilişkilendirir ve çıkarım yapar.",
+              "subSkills": [
+                "ç) Dinlediklerini ön bilgileriyle ilişkilendirir",
+                "d) İletilerden amacına uygun çıkarımlar yapar"
+              ]
+            },
+            {
+              "code": "T.D.3.3",
+              "text": "Dinlediklerini çözümleme: ana fikri/duyguyu ve konuyu bulur, söz ile görsel ilişkisini açıklar.",
+              "subSkills": [
+                "b) Metindeki ana fikri/ana duyguyu bulur",
+                "c) Metnin konusunu bulur",
+                "e) Söylem ile görsel arasındaki ilişkiyi açıklar"
+              ]
+            },
+            {
+              "code": "T.K.3.1",
+              "text": "Konuşmalarını yönetme: konuya uygun üslup seçer, kurallı iletişim sürdürür ve plan hazırlar.",
+              "subSkills": [
+                "a) Konunun özelliğine göre konuşma üslubunu belirler",
+                "ç) Kurallara uygun (ses, nezaket, göz teması) iletişim sürdürür",
+                "d) Belirli bir konuda konuşma planı hazırlar"
+              ]
+            },
+            {
+              "code": "T.K.3.2",
+              "text": "Konuşmasında içerik oluşturma: benzetmeler kullanır ve dinleyici grubuna uygun sunum yapar.",
+              "subSkills": [
+                "ı) Konuşmalarında benzetmelere yer verir",
+                "k) Dinleyici grubunu dikkate alarak sunum yapar"
+              ]
+            },
+            {
+              "code": "T.K.3.3",
+              "text": "Konuşma kurallarını uygulama: ses, tonlama, sözcük seçimi ve beden dilini yerinde kullanır.",
+              "subSkills": [
+                "a) Konuşmanın özelliğine uygun ses düzeyini ayarlar",
+                "b) Hazırladığı plana ve dinleyici kitlesine uygun konuşur",
+                "c) Konuşmasında vurgu ve tonlamaya dikkat eder",
+                "ç) Sözcükleri yerinde ve anlamına uygun kullanır",
+                "e) Mesajlarını açık ve anlaşılır cümlelerle ifade eder",
+                "h) Konuşmalarını jest ve mimiklerle destekler",
+                "ı) Beden dilini konuşma sürecinde yerinde kullanır"
+              ]
+            },
+            {
+              "code": "T.O.3.1",
+              "text": "Okuma sürecini yönetme: başlık ve görselleri inceler, noktalama işaretlerine dikkat ederek okur.",
+              "subSkills": [
+                "a) Okuyacağı metnin başlığını ve görsellerini inceler",
+                "b) Noktalama işaretlerine dikkat ederek okur"
+              ]
+            },
+            {
+              "code": "T.O.3.2",
+              "text": "Okudukları ile anlam oluşturma: ön bilgilerle bağlantı kurar, tahmin yapar ve çıkarım yapar.",
+              "subSkills": [
+                "a) Metindeki bilgileri ön bilgileriyle ilişkilendirir",
+                "b) Başlık ve görsellerden olaylar hakkında tahmin yapar",
+                "d) Okuma sırasında olayların sonrası hakkında tahmin yapar",
+                "e) Verilerden yararlanarak metnin amacına uygun çıkarım yapar"
+              ]
+            },
+            {
+              "code": "T.O.3.3",
+              "text": "Okuduklarını çözümleme: karakter, olay ve duyguları açıklar; konuyu ve ana fikri bulur.",
+              "subSkills": [
+                "a) Karakter, olay, bilgi veya duyguları açıklar",
+                "b) Metnin konusunu bulur",
+                "c) Metindeki ana fikri/ana duyguyu bulur"
+              ]
+            },
+            {
+              "code": "T.Y.3.1",
+              "text": "Yazılı anlatımını yönetme: verilen yazma görevini hazırlıksız yazar.",
+              "subSkills": [
+                "a) Verilen yazma görevini hazırlıksız yazar"
+              ]
+            },
+            {
+              "code": "T.Y.3.2",
+              "text": "Yazılarında içerik oluşturma: bağlamdan anlam tahmin eder, planlı yazar, kaynak ve görsel kullanır.",
+              "subSkills": [
+                "b) Sözcük anlamını bağlamdan yararlanarak tahmin edip yazar",
+                "c) Metne ilişkin çıkarımlarını planlı biçimde yazar",
+                "j) Edindiği bilginin kaynağını yazar",
+                "k) Görsellerle desteklenmiş açıklayıcı yazılar sunar",
+                "m) Dijital araçlarla hedef kitleye uygun yazıyı sunar",
+                "n) Yazılarında benzetme ve örneklendirmeye yer verir"
+              ]
+            },
+            {
+              "code": "T.Y.3.3",
+              "text": "Yazma kurallarını uygulama: sözcükleri yerinde kullanır ve noktalama işaretlerini doğru kullanır.",
+              "subSkills": [
+                "b) Sözcükleri yerinde ve anlamına uygun kullanır",
+                "g) Noktalama işaretlerini kurallara uygun kullanır"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Bilim Yolculuğu",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/395",
+          "hours": 30,
+          "keyConcepts": [
+            "araştırma",
+            "bilim insanı",
+            "bilişim ve kodlama",
+            "deney",
+            "icat",
+            "keşif",
+            "kıtalar",
+            "merak",
+            "mucit",
+            "sorgulama",
+            "ülkeler"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.3.1",
+              "text": "Dinleme/izlemeyi yönetir: metin ve strateji seçer, dinleme kurallarına uyar, uygun zamanda söz alır.",
+              "subSkills": [
+                "a) İlgi ve amacına uygun dinleyeceği/izleyeceği metni seçer.",
+                "b) Konu ve amaca uygun dinleme/izleme stratejisini seçer.",
+                "c) Dinleme kurallarına uygun olarak dinler.",
+                "ç) Düşüncelerini belirtmek için uygun zamanda söz alır."
+              ]
+            },
+            {
+              "code": "T.D.3.2",
+              "text": "Dinleyeceği/izleyeceği metinle ilgili anlam oluşturur: konuyu tahmin eder, ön bilgilerle bağlantı kurar.",
+              "subSkills": [
+                "a) Görsellerden hareketle metnin konusunu tahmin eder.",
+                "ç) Dinledikleri ile ön bilgileri arasında bağlantı kurar."
+              ]
+            },
+            {
+              "code": "T.D.3.3",
+              "text": "Dinlediklerini/izlediklerini çözümler: ana fikri/ana duyguyu ve metnin konusunu bulur.",
+              "subSkills": [
+                "b) Dinlediği/izlediği metinde ana fikri/ana duyguyu bulur.",
+                "c) Dinlediği/izlediği metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.D.3.4",
+              "text": "Dinleme/izleme sürecine etki eden durumları gözden geçirir: ortamın uygunluğunu ve etkisini değerlendirir.",
+              "subSkills": [
+                "a) Dinleme/izleme ortamının uygunluğunu gözden geçirir.",
+                "b) Ortamın duygu, düşünce ve davranışlara etkisini açıklar."
+              ]
+            },
+            {
+              "code": "T.D.3.5",
+              "text": "Dinleme/izleme sürecini değerlendirir: tercih ettiği stratejileri açıklar.",
+              "subSkills": [
+                "a) Tercih ettiği dinleme/izleme stratejilerini açıklar."
+              ]
+            },
+            {
+              "code": "T.K.3.1",
+              "text": "Konuşmalarını yönetir: konunun özelliğine, türe ve amaca göre üslup ve konuşma belirler.",
+              "subSkills": [
+                "a) Konunun özelliğine göre konuşma üslubunu belirler.",
+                "b) Konuşma türüne göre konuşmasını belirler.",
+                "c) Konuşma amacına göre konuşmasını belirler.",
+                "ç) Konuşma kurallarına uygun iletişimi sürdürür."
+              ]
+            },
+            {
+              "code": "T.K.3.2",
+              "text": "Konuşmalarında içerik oluşturur: sık karşılaşılan atasözlerinin anlamlarını söyler.",
+              "subSkills": [
+                "m) Sık karşılaşılan atasözlerinin anlamlarını söyler."
+              ]
+            },
+            {
+              "code": "T.K.3.3",
+              "text": "Konuşma kurallarını uygular: ses düzeyi, vurgu, tonlama, sözcük ve atasözü kullanımına dikkat eder.",
+              "subSkills": [
+                "a) Konuşmanın özelliğine uygun ses düzeyini ayarlar.",
+                "c) Konuşmalarında vurgu ve tonlamaya dikkat eder.",
+                "ç) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "d) Atasözlerini konuşma bağlamına uygun kullanır."
+              ]
+            },
+            {
+              "code": "T.O.3.1",
+              "text": "Okuma sürecini yönetir: başlık ve görselleri inceler, noktalamaya dikkat eder, metin ve strateji seçer.",
+              "subSkills": [
+                "a) Okuyacağı metnin başlığı ve görsellerini inceler.",
+                "b) Noktalama işaretlerine dikkat ederek okur.",
+                "c) Metni ilgi alanına ve amacına göre seçer.",
+                "ç) Konuya ve amaca göre okuma stratejisine karar verir."
+              ]
+            },
+            {
+              "code": "T.O.3.2",
+              "text": "Okudukları ile ilgili anlam oluşturur: ön bilgilerle bağlantı kurar, tahminlerde bulunur, görüş bildirir.",
+              "subSkills": [
+                "a) Metindeki bilgiler ile ön bilgileri arasında bağlantı kurar.",
+                "b) Başlık ve görsellerden hareketle bilgi/olaylar hakkında tahminde bulunur.",
+                "c) Metinde geçen bilgi/olayların öncesi hakkında tahminde bulunur.",
+                "ı) İletilere katılıp katılmadığını nedenleriyle ifade eder.",
+                "i) Metindeki içeriğe ilişkin farklı önerilerde bulunur.",
+                "j) Başlık ve görsellerden hareketle içerik hakkında görüş oluşturur."
+              ]
+            },
+            {
+              "code": "T.O.3.3",
+              "text": "Okuduklarını çözümler: karakter, olay, konu, ana fikir ve sözcüklerin gerçek/mecaz anlamını belirler.",
+              "subSkills": [
+                "a) Metindeki karakter, olay, bilgi veya duyguları açıklar.",
+                "b) Metnin konusunu bulur.",
+                "c) Metinde ana fikri/ana duyguyu bulur.",
+                "d) Gerçek ve mecaz anlamlı sözcüklerin metinle ilişkisini belirler."
+              ]
+            },
+            {
+              "code": "T.O.3.5",
+              "text": "Okuma sürecini değerlendirir: tür veya ilgi alanına göre okuma tercihini belirtir.",
+              "subSkills": [
+                "c) Tür veya ilgi alanına göre okuma tercihini belirtir."
+              ]
+            },
+            {
+              "code": "T.Y.3.1",
+              "text": "Yazılı anlatım becerilerini yönetir: görevi hazırlıksız yazar, yazı türüne uyar, çevrim içi yazışmayı yönetir.",
+              "subSkills": [
+                "a) Verilen yazma görevini hazırlıksız yazar.",
+                "b) Görevi belirlediği yazı türüne göre yazar.",
+                "d) Çevrim içi yazışmayı başlatma, sürdürme ve sonlandırma ifadeleri kullanır."
+              ]
+            },
+            {
+              "code": "T.Y.3.2",
+              "text": "Yazılarında içerik oluşturur: sözcük anlamlarını bağlamdan tahmin eder, istek ve önerilerini yazar.",
+              "subSkills": [
+                "b) Sözcüğün anlamına ilişkin tahminlerini bağlamdan yararlanarak yazar.",
+                "ı) İstek, şikâyet ve önerilerini mektup, dilekçe vb. ile ifade eder."
+              ]
+            },
+            {
+              "code": "T.Y.3.3",
+              "text": "Yazma kurallarını uygular: sözcük ve deyim/atasözü kullanımı, çok cümleli açık ifade, noktalama.",
+              "subSkills": [
+                "b) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "c) Sık karşılaşılan deyim ve atasözlerini içeriğe uygun kullanır.",
+                "ç) Mesajlarını birden çok cümleyle açık ve anlaşılır ifade eder.",
+                "g) Noktalama işaretlerini kuralına uygun kullanır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Millî Kültürümüz",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/396",
+          "hours": 30,
+          "keyConcepts": [
+            "bayrak",
+            "insani ve kültürel değerler",
+            "millî ve manevi değerler",
+            "sürdürülebilirlik",
+            "tarihî eserlerimiz",
+            "Türkçe",
+            "ülke varlıklarını korumak",
+            "vatan",
+            "yurdumuz"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.3.1",
+              "text": "Dinleme/izleme sürecini yönetir, kurallara uyar ve uygun zamanda söz alır.",
+              "subSkills": [
+                "b) Konu ve amaca uygun dinleme/izleme stratejisini seçer.",
+                "c) Dinleme kurallarına uygun olarak dinler.",
+                "ç) Düşüncelerini belirtmek için uygun zamanda söz alır."
+              ]
+            },
+            {
+              "code": "T.D.3.2",
+              "text": "Dinlediği veya izlediği metinle ilgili anlam oluşturur ve ön bilgilerini ilişkilendirir.",
+              "subSkills": [
+                "a) Görsellerden yola çıkarak metnin konusunu tahmin eder.",
+                "ç) Metindeki bilgilerle ön bilgileri arasında bağlantı kurar."
+              ]
+            },
+            {
+              "code": "T.D.3.3",
+              "text": "Dinlediği veya izlediği metni çözümleyerek ana fikri ve konusunu belirler.",
+              "subSkills": [
+                "b) Metindeki ana fikri veya ana duyguyu bulur.",
+                "c) Metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.D.3.4",
+              "text": "Dinleme/izleme sürecini etkileyen ortam ve durumları değerlendirir.",
+              "subSkills": [
+                "a) Dinleme/izleme ortamının uygunluğunu gözden geçirir.",
+                "b) Ortamın duygu, düşünce ve davranışlarına etkisini açıklar."
+              ]
+            },
+            {
+              "code": "T.D.3.5",
+              "text": "Dinleme/izleme sürecini değerlendirerek tercih ettiği stratejileri açıklar.",
+              "subSkills": [
+                "a) Tercih ettiği dinleme/izleme stratejilerini açıklar."
+              ]
+            },
+            {
+              "code": "T.K.3.1",
+              "text": "Konuşmalarını yönetir, konunun özelliğine göre üslup belirler ve kurallara uyar.",
+              "subSkills": [
+                "a) Konunun özelliğine göre konuşma üslubunu belirler.",
+                "ç) Ses düzeyi, nezaket ve göz teması kurallarına uyar."
+              ]
+            },
+            {
+              "code": "T.K.3.2",
+              "text": "Konuşmalarında içerik oluşturur, farklı görüşler için neden ve öneri sunar.",
+              "subSkills": [
+                "c) Hazırladığı konuşma planına uygun konuşur.",
+                "ğ) Katılmadığı görüşlerin nedenlerini ifade eder.",
+                "h) Katılmadığı görüşlere ilişkin önerilerde bulunur.",
+                "j) Görsellerden hareketle konuşma içeriği oluşturur."
+              ]
+            },
+            {
+              "code": "T.K.3.3",
+              "text": "Konuşma kurallarını uygular; ses, vurgu, tonlama ve sözcük seçimine dikkat eder.",
+              "subSkills": [
+                "a) Konuşmanın özelliğine uygun ses düzeyini ayarlar.",
+                "c) Vurgu ve tonlamaya dikkat eder.",
+                "ç) Sözcükleri yerinde ve anlamına uygun kullanır."
+              ]
+            },
+            {
+              "code": "T.O.3.1",
+              "text": "Okuma sürecini yönetir; metni inceler, dikkatli okur ve strateji belirler.",
+              "subSkills": [
+                "a) Metnin başlığını ve görsellerini inceler.",
+                "b) Noktalama işaretlerine dikkat ederek okur.",
+                "c) Metni ilgi alanına ve amacına göre seçer.",
+                "ç) Konu ve amaca göre okuma stratejisine karar verir."
+              ]
+            },
+            {
+              "code": "T.O.3.2",
+              "text": "Okuduğu metinle ilgili anlam oluşturur, tahmin yapar ve görüş bildirir.",
+              "subSkills": [
+                "a) Metindeki bilgilerle ön bilgileri arasında bağlantı kurar.",
+                "b) Başlık ve görsellerden yola çıkarak tahminde bulunur.",
+                "ı) Metindeki iletilere katılıp katılmadığını nedenleriyle ifade eder.",
+                "i) Metnin içeriğine ilişkin farklı önerilerde bulunur.",
+                "j) Başlık ve görsellerden hareketle metin hakkında görüş oluşturur."
+              ]
+            },
+            {
+              "code": "T.O.3.3",
+              "text": "Okuduğu metni çözümleyerek karakter, olay, konu ve ana fikri belirler.",
+              "subSkills": [
+                "a) Metindeki karakter, olay, bilgi veya duyguları açıklar.",
+                "b) Metnin konusunu bulur.",
+                "c) Metindeki ana fikri veya ana duyguyu bulur."
+              ]
+            },
+            {
+              "code": "T.Y.3.1",
+              "text": "Verilen yazma görevini hazırlıksız olarak yazarak yazılı anlatımını yönetir.",
+              "subSkills": [
+                "a) Verilen bir yazma görevini hazırlıksız yazar."
+              ]
+            },
+            {
+              "code": "T.Y.3.2",
+              "text": "Yazılarının içeriğini oluşturur, görsel kullanır ve öyküleyici yazıları sunar.",
+              "subSkills": [
+                "h) Katılmadığı görüşlere ilişkin önerilerde bulunur.",
+                "i) Yazılarının içeriği için görsellerden yararlanır.",
+                "l) Öyküleyici yazıları görsellerle destekleyerek hedef kitleye sunar."
+              ]
+            },
+            {
+              "code": "T.Y.3.3",
+              "text": "Yazma kurallarını uygular; sözcük seçimi ve noktalama işaretlerine dikkat eder.",
+              "subSkills": [
+                "b) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "g) Noktalama işaretlerini kuralına uygun kullanır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Hak Ve Sorumluluklarımız",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/393",
+          "hours": 30,
+          "keyConcepts": [
+            "bilgilerini koruma",
+            "çocuk hakları",
+            "demokrasi",
+            "eşitlik",
+            "dijital gizlilik",
+            "ifade özgürlüğü",
+            "kişisel alan",
+            "liyakat",
+            "özgürlük",
+            "sorumluluk",
+            "temel hak ve özgürlükler"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.3.1",
+              "text": "Dinleme/izlemeyi yönetme; dinleme kurallarına uyma ve uygun zamanda söz alma.",
+              "subSkills": [
+                "c) Dinleme kurallarına uygun dinler.",
+                "ç) Düşüncelerini belirtmek için uygun zamanda söz alır."
+              ]
+            },
+            {
+              "code": "T.D.3.2",
+              "text": "Dinledikleri/izledikleriyle anlam oluşturma; görsellerden tahmin yapma ve ön bilgiyle bağ kurma.",
+              "subSkills": [
+                "a) Görsellerden dinleyeceği metnin konusunu tahmin eder.",
+                "ç) Dinlediklerini ön bilgileriyle ilişkilendirir."
+              ]
+            },
+            {
+              "code": "T.D.3.3",
+              "text": "Dinlediklerini/izlediklerini çözümleme; ana fikri/ana duyguyu ve konuyu bulma.",
+              "subSkills": [
+                "b) Metinde ana fikri/ana duyguyu bulur.",
+                "c) Metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.D.3.4",
+              "text": "Dinleme/izleme sürecini etkileyen durumları gözden geçirme.",
+              "subSkills": [
+                "a) Dinleme ortamının uygunluğunu gözden geçirir.",
+                "b) Ortamın dinleme sürecindeki etkisini açıklar."
+              ]
+            },
+            {
+              "code": "T.D.3.5",
+              "text": "Dinleme/izleme sürecini değerlendirme.",
+              "subSkills": [
+                "b) Dinleyeceği türü tercih nedenleriyle belirtir."
+              ]
+            },
+            {
+              "code": "T.K.3.1",
+              "text": "Konuşmalarını yönetme; konuya göre üslup belirleme ve kurallara uygun iletişim.",
+              "subSkills": [
+                "a) Konunun özelliğine göre konuşma üslubunu belirler.",
+                "ç) Kurallara uygun iletişimi sürdürür."
+              ]
+            },
+            {
+              "code": "T.K.3.2",
+              "text": "Konuşmalarında içerik oluşturma; konuşmanın nasıl sonuçlanacağını tahmin etme.",
+              "subSkills": [
+                "b) Dinlediği konuşmanın sonucuna dair tahminde bulunur."
+              ]
+            },
+            {
+              "code": "T.K.3.3",
+              "text": "Konuşma kurallarını uygulama; ses düzeyini ayarlama ve sözcükleri yerinde kullanma.",
+              "subSkills": [
+                "a) Ses düzeyini konuşmanın özelliğine göre ayarlar.",
+                "ç) Sözcükleri yerinde ve anlamına uygun kullanır."
+              ]
+            },
+            {
+              "code": "T.K.3.4",
+              "text": "Konuşma sürecini etkileyen durumları gözden geçirme.",
+              "subSkills": [
+                "a) Konuşma ortamının uygunluğunu gözden geçirir.",
+                "b) Ortamın konuşma sürecine etkisini açıklar."
+              ]
+            },
+            {
+              "code": "T.K.3.5",
+              "text": "Konuşma sürecini değerlendirme.",
+              "subSkills": [
+                "b) Olumlu davranışları sonraki konuşmalarına aktarır."
+              ]
+            },
+            {
+              "code": "T.O.3.1",
+              "text": "Okuma sürecini yönetme; başlık ve görselleri inceleme, noktalamaya dikkat ederek okuma.",
+              "subSkills": [
+                "a) Okuyacağı metnin başlığını ve görsellerini inceler.",
+                "b) Noktalama işaretlerine dikkat ederek okur."
+              ]
+            },
+            {
+              "code": "T.O.3.2",
+              "text": "Okudukları ile anlam oluşturma; ön bilgi bağlantısı ve başlık/görsellerden tahmin.",
+              "subSkills": [
+                "a) Metindeki bilgileri ön bilgileriyle ilişkilendirir.",
+                "b) Başlık ve görsellerden metin hakkında tahminde bulunur.",
+                "j) Başlık ve görsellerden içerik hakkında görüş oluşturur."
+              ]
+            },
+            {
+              "code": "T.O.3.3",
+              "text": "Okuduklarını çözümleme; karakter, olay, konu, ana fikir ve noktalama ilişkisini belirleme.",
+              "subSkills": [
+                "a) Karakter, olay, bilgi veya duyguları açıklar.",
+                "b) Okuduğu metnin konusunu bulur.",
+                "c) Ana fikri/ana duyguyu bulur.",
+                "e) Noktalama işaretlerinin içerikle ilişkisini belirler."
+              ]
+            },
+            {
+              "code": "T.O.3.4",
+              "text": "Okuma sürecini etkileyen durumları gözden geçirme.",
+              "subSkills": [
+                "a) Okuma ortamının uygunluğunu değerlendirir.",
+                "b) Ortamın fiziksel özelliklerini dikkate alarak okur."
+              ]
+            },
+            {
+              "code": "T.O.3.5",
+              "text": "Okuma sürecini değerlendirme.",
+              "subSkills": [
+                "ç) Basılı materyaldeki olumlu davranışları çevrim içi okumaya aktarır."
+              ]
+            },
+            {
+              "code": "T.Y.3.1",
+              "text": "Yazılı anlatım becerilerini yönetme; verilen yazma görevini hazırlıksız yazma.",
+              "subSkills": [
+                "a) Verilen bir yazma görevini hazırlıksız yazar."
+              ]
+            },
+            {
+              "code": "T.Y.3.2",
+              "text": "Yazılarında içerik oluşturma; bağlamdan yararlanma ve ayrıntılı yönergeler yazma.",
+              "subSkills": [
+                "b) Sözcük anlamına ilişkin tahminini bağlamdan yararlanarak yazar.",
+                "ğ) Ayrıntılı yönergeler yazar."
+              ]
+            },
+            {
+              "code": "T.Y.3.3",
+              "text": "Yazma kurallarını uygulama; plana uygun yazma, sözcük kullanımı ve noktalama.",
+              "subSkills": [
+                "a) Hazırladığı plana uygun yazar.",
+                "b) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "e) Pekiştirmeli sözcükleri doğru yazar.",
+                "g) Noktalama işaretlerini kuralına uygun kullanır."
+              ]
+            },
+            {
+              "code": "T.Y.3.4",
+              "text": "Yazma sürecini etkileyen durumları gözden geçirme.",
+              "subSkills": [
+                "a) Yazma ortamının uygunluğunu gözden geçirir.",
+                "b) Ortamın yazma sürecindeki etkisini açıklar."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ilkokul-turkce-dersi/5",
+      "themes": [
+        {
+          "order": 1,
+          "name": "Erdemler",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/390",
+          "hours": 31,
+          "keyConcepts": [
+            "adalet",
+            "aile bütünlüğü",
+            "çalışkanlık",
+            "dostluk",
+            "duyarlılık",
+            "estetik",
+            "iletişim",
+            "mahremiyet",
+            "merhamet",
+            "mütevazılık",
+            "özgürlük",
+            "sabır",
+            "sağlıklı yaşam",
+            "saygı",
+            "sevgi",
+            "sorumluluk",
+            "tasarruf",
+            "temizlik",
+            "vatanseverlik",
+            "yardımseverlik"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.4.1",
+              "text": "Dinleme kurallarına uyarak dinleme ve uygun zamanda söz alarak görüşlerini paylaşma.",
+              "subSkills": [
+                "b) Dinlerken kurallara riayet eder.",
+                "c) Dinlediği konuda görüş bildirmek için uygun anda söz alır."
+              ]
+            },
+            {
+              "code": "T.D.4.2",
+              "text": "Görsel, ön bilgi ve yaşantısından yararlanarak dinlediği metinle ilgili anlam oluşturma.",
+              "subSkills": [
+                "a) Görsellere bakarak metnin konusunu tahmin eder.",
+                "b) Metni günlük hayatla ilişkilendirir.",
+                "ç) Olayların devamı hakkında tahminlerde bulunur.",
+                "d) Dinlediklerini önceki bilgileriyle bağlar.",
+                "h) Katılıp katılmadığını gerekçeleriyle belirtir.",
+                "ı) Kabul etmediği konularda öneri sunar."
+              ]
+            },
+            {
+              "code": "T.D.4.3",
+              "text": "Dinlediği metnin konusunu ve ana fikrini/ana duygusunu çözümleme.",
+              "subSkills": [
+                "b) Metnin ana fikrini veya ana duygusunu bulur.",
+                "c) Metnin konusunu belirler."
+              ]
+            },
+            {
+              "code": "T.K.4.1",
+              "text": "Konuşmasını yönetme; üslup, nezaket ve yüz yüze iletişim kurallarını kullanma.",
+              "subSkills": [
+                "a) Konunun niteliğine göre konuşma tarzını seçer.",
+                "ç) Yüz yüze konuşmada iletişim kurallarına uyar.",
+                "e) Nezaket ifadeleriyle konuşmayı sürdürür."
+              ]
+            },
+            {
+              "code": "T.K.4.2",
+              "text": "Belirli bir konuda konuşurken yaşantı ve ön bilgilerinden faydalanarak içerik üretme.",
+              "subSkills": [
+                "a) Konu hakkında yaşantı ve bilgilerinden yararlanır.",
+                "c) Yarım kalan bir konuşmayı tahminiyle tamamlar."
+              ]
+            },
+            {
+              "code": "T.K.4.3",
+              "text": "Konuşma kurallarını uygulayarak anlaşılır, uygun ve düzgün konuşma yapma.",
+              "subSkills": [
+                "a) Dikkat çekmek için sesinin düzeyini ayarlar.",
+                "ç) Beden dili, ses tonu ve dinleyiciye göre sunum yapar.",
+                "ğ) Mesajlarını açık ve anlaşılır cümlelerle aktarır.",
+                "h) Konuya uygun zaman ifadeleri kullanır.",
+                "ı) Anlamlı, düzgün yapılı cümleler kurar."
+              ]
+            },
+            {
+              "code": "T.O.4.1",
+              "text": "Okuma amacına ve ilgi alanına uygun metin seçme; noktalama işaretlerine dikkat ederek okuma.",
+              "subSkills": [
+                "a) Okuma amacı ve ilgisine göre metin seçer.",
+                "c) Noktalama işaretlerini dikkate alarak okur."
+              ]
+            },
+            {
+              "code": "T.O.4.2",
+              "text": "Metinle ilgili ön bilgi, günlük yaşam bağlantısı ve tahminlerle anlam oluşturma.",
+              "subSkills": [
+                "a) Metindeki bilgileri önceki bilgileriyle ilişkilendirir.",
+                "b) Metnin günlük yaşamla bağını kurar.",
+                "c) Başlık ve görsellerden metinde geçecekleri tahmin eder.",
+                "ç) Okurken olayların öncesi ve sonrası hakkında tahmin yapar.",
+                "j) Başlık ve görsellere bakarak metin hakkında görüş oluşturur.",
+                "k) Biçimsel ve tanıtıcı özelliklere bakarak içerik hakkında görüş oluşturur."
+              ]
+            },
+            {
+              "code": "T.O.4.3",
+              "text": "Okuduğu metnin konusunu ve ana fikrini/ana duygusunu çözümleme.",
+              "subSkills": [
+                "b) Metnin konusunu bulur.",
+                "c) Metnin ana fikrini veya ana duygusunu belirler."
+              ]
+            },
+            {
+              "code": "T.Y.4.1",
+              "text": "Yazılı anlatımını yönetme; amaca ve yazma ortamına uygun strateji seçme.",
+              "subSkills": [
+                "a) Serbest yazma çalışmaları yapar.",
+                "b) Amacına uygun bir yazma stratejisi seçer.",
+                "c) Kâğıt ya da çevrim içi ortama uygun strateji belirler.",
+                "ç) Seçtiği stratejiye uygun yazı çalışması yapar."
+              ]
+            },
+            {
+              "code": "T.Y.4.2",
+              "text": "Yazılarında günlük yaşam bağlantısı, mantıksal ilişki ve bağlamsal anlam kullanarak içerik üretme.",
+              "subSkills": [
+                "c) Metnin günlük yaşamla ilişkisini yazıya döker.",
+                "ç) Bağlamdan yararlanarak sözcük anlamını tahmin edip yazar.",
+                "j) Olay ya da metni mantıklı bir sırayla kendi sözleriyle yazar.",
+                "m) Metindeki görüşlere katılma ya da katılmama gerekçesini yazar."
+              ]
+            },
+            {
+              "code": "T.Y.4.3",
+              "text": "Yazım kurallarını ve noktalama işaretlerini doğru kullanarak yazma.",
+              "subSkills": [
+                "b) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "d) Yazım kurallarına uygun yazar.",
+                "e) Noktalama işaretlerini kurallarına uygun kullanır."
+              ]
+            },
+            {
+              "code": "T.Y.4.4",
+              "text": "Yazma ortamının duygu, düşünce ve fiziksel özelliklerini göz önünde bulundurarak yazma.",
+              "subSkills": [
+                "a) Yazma ortamının duygu ve düşünceye etkisini açıklar.",
+                "b) Ortamın fiziksel özelliklerini dikkate alarak yazar."
+              ]
+            },
+            {
+              "code": "T.Y.4.5",
+              "text": "Yazılarındaki hataları bulma, düzeltme ve olumlu davranışları sonraki yazılara aktarma.",
+              "subSkills": [
+                "a) Yazısındaki hataları tespit eder.",
+                "b) Belirlediği hataları düzeltir.",
+                "c) Olumlu yazma davranışlarını sonraki yazılarına taşır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Millî Mücadele Ve Atatürk",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/392",
+          "hours": 31,
+          "keyConcepts": [
+            "cesaret",
+            "cumhuriyet",
+            "Çanakkale Zaferi",
+            "fedakârlık",
+            "gazilik",
+            "İstiklâl Marşı",
+            "kahramanlık",
+            "Kut’ül Amare",
+            "millî bayramlar",
+            "millî egemenlik",
+            "millî irade",
+            "millî kimlik",
+            "Millî Mücadele",
+            "Mustafa Kemal Atatürk",
+            "Sarıkamış Harekâtı",
+            "şehitlik",
+            "vatanseverlik"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.4.1",
+              "text": "Dinleme/izlemeyi yönetir ve dinleme kurallarına uyar.",
+              "subSkills": [
+                "b) Dinleme davranışlarını kurallara göre sürdürür."
+              ]
+            },
+            {
+              "code": "T.D.4.2",
+              "text": "Dinlediği/izlediği metinle ilgili anlam oluşturur.",
+              "subSkills": [
+                "a) Görsellere bakarak metnin konusunu önceden tahmin eder.",
+                "d) Metnin bilgilerini kendi ön bilgileriyle ilişkilendirir.",
+                "f) Metindeki iletileri ön bilgileriyle doğruluk açısından kıyaslar.",
+                "g) Metindeki bilgilerin doğruluğunu ve gerçekliğini karşılaştırır."
+              ]
+            },
+            {
+              "code": "T.D.4.3",
+              "text": "Dinlediği/izlediği metni çözümler.",
+              "subSkills": [
+                "a) Metindeki olayları tespit eder.",
+                "b) Metnin ana fikrini veya ana duygusunu bulur.",
+                "c) Metnin konusunu belirler."
+              ]
+            },
+            {
+              "code": "T.K.4.1",
+              "text": "Konuşmalarını yönetir ve iletişimi kurallara uygun sürdürür.",
+              "subSkills": [
+                "a) Konunun özelliğine uygun konuşma üslubunu seçer.",
+                "ç) Yüz yüze konuşma kurallarına uyarak iletişimi sürdürür.",
+                "d) Çevrim içi iletişimde kurallara uygun konuşmayı sürdürür.",
+                "f) Çevrim içinde uygun nezaket ifadeleriyle iletişimi devam ettirir."
+              ]
+            },
+            {
+              "code": "T.K.4.2",
+              "text": "Konuşmalarında içerik oluşturur.",
+              "subSkills": [
+                "i) Görüşlere katılma veya katılmama kararını nedenleriyle söyler."
+              ]
+            },
+            {
+              "code": "T.K.4.3",
+              "text": "Konuşma kurallarını uygular.",
+              "subSkills": [
+                "c) Konuşurken vurgu ve tonlamaya dikkat eder.",
+                "e) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "ğ) Mesajlarını açık ve anlaşılır cümlelerle iletir.",
+                "h) Konuşmasında içeriğe uygun zaman ifadeleri kullanır.",
+                "ı) Anlamlı ve kurallı cümleler kurar."
+              ]
+            },
+            {
+              "code": "T.O.4.1",
+              "text": "Okuma sürecini yönetir.",
+              "subSkills": [
+                "a) Okuma amacı ve ilgi alanına göre metin seçer.",
+                "c) Noktalama işaretlerine dikkat ederek okur."
+              ]
+            },
+            {
+              "code": "T.O.4.2",
+              "text": "Okudukları ile ilgili anlam oluşturur.",
+              "subSkills": [
+                "c) Başlık ve görsellerden metindeki bilgiler hakkında tahmin yürütür.",
+                "ç) Bilgi veya olayların öncesi ve sonrası hakkında tahminde bulunur.",
+                "f) Metindeki iletileri ön bilgileriyle karşılaştırır.",
+                "g) Metindeki iletileri değerlendirir.",
+                "h) Eş anlamlı, zıt anlamlı ve eş sesli sözcükleri sınıflandırır.",
+                "j) Başlık ve görsellerden hareketle içerik hakkında görüş oluşturur.",
+                "k) Biçimsel ve tanıtıcı özelliklerden yola çıkarak görüş oluşturur."
+              ]
+            },
+            {
+              "code": "T.O.4.3",
+              "text": "Okuduklarını çözümler.",
+              "subSkills": [
+                "b) Okuduğu metnin konusunu bulur.",
+                "c) Metnin ana fikrini veya ana duygusunu bulur."
+              ]
+            },
+            {
+              "code": "T.Y.4.1",
+              "text": "Yazılı anlatım becerilerini yönetir.",
+              "subSkills": [
+                "a) Serbest yazma çalışmaları yapar.",
+                "f) İmzasında adını ve soyadını özgün biçimde kullanır."
+              ]
+            },
+            {
+              "code": "T.Y.4.2",
+              "text": "Yazılarında içerik oluşturur.",
+              "subSkills": [
+                "b) Ön bilgilerinden yararlanarak metin yazar.",
+                "c) Metnin günlük hayatla bağını yazıya döker.",
+                "ç) Bağlamdan yararlanarak sözcük anlamına dair tahminlerini yazar.",
+                "h) Yazılarında zıt anlamlı sözcükler kullanır.",
+                "i) Yazılarında eş sesli sözcükler kullanır.",
+                "m) Görüşlere katılma/katılmama kararını gerekçesiyle yazar.",
+                "n) Serbest yazılarda görüşlerini nedenleriyle açıklar.",
+                "t) Yazılarında benzetme ve örneklendirmeye yer verir."
+              ]
+            },
+            {
+              "code": "T.Y.4.3",
+              "text": "Yazma kurallarını uygular.",
+              "subSkills": [
+                "b) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "e) Noktalama işaretlerini kurallarına uygun kullanır."
+              ]
+            },
+            {
+              "code": "T.Y.4.5",
+              "text": "Yazma sürecini değerlendirir.",
+              "subSkills": [
+                "a) Yazılarındaki hataları bulur.",
+                "b) Belirlediği hataları düzeltir.",
+                "c) Yazılarındaki doğru davranışları sonraki yazılara taşır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Doğa Ve İnsan",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/398",
+          "hours": 31,
+          "keyConcepts": [
+            "afetlere hazırlık",
+            "canlılar",
+            "çevre",
+            "doğa",
+            "doğal kaynaklar",
+            "doğal miras",
+            "doğa olayları",
+            "tasarruf"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.4.1",
+              "text": "Dinleme/izlemeyi yönetir; kurallara uygun dinler ve uygun zamanda söz alır.",
+              "subSkills": [
+                "b) Dinleme kurallarına uygun dinler.",
+                "c) Konuya ilişkin düşüncesini belirtmek için uygun zamanda söz alır."
+              ]
+            },
+            {
+              "code": "T.D.4.2",
+              "text": "Dinlediği/izlediği metinle ilgili anlam oluşturur, tahmin yapar ve çıkarım yapar.",
+              "subSkills": [
+                "a) Görsellerden hareketle metnin konusunu tahmin eder.",
+                "c) Olayların öncesi hakkında tahminde bulunur.",
+                "d) Bilgiler ile ön bilgileri arasında bağlantı kurar.",
+                "e) İçerikten hareketle uygun çıkarımlar yapar.",
+                "ğ) Olay, durum, nesne ve karakterleri özelliklerine göre sınıflandırır.",
+                "i) Düşüncelerini sözlü ve sözsüz iletişim unsurlarıyla ifade eder."
+              ]
+            },
+            {
+              "code": "T.D.4.3",
+              "text": "Dinlediği/izlediği metni çözümler; ana fikri, konuyu ve metinler arasındaki benzerlik-farkları bulur.",
+              "subSkills": [
+                "b) Metindeki ana fikri/ana duyguyu bulur.",
+                "c) Metnin konusunu bulur.",
+                "ç) Farklı metinlerdeki iletilerin benzerlik ve farklılıklarını belirler.",
+                "d) Farklı metinlerdeki iletileri benzerlik ve farklılık yönüyle ilişkilendirir."
+              ]
+            },
+            {
+              "code": "T.K.4.1",
+              "text": "Konuşmalarını yönetir; konunun özelliğine göre üslup belirler ve kurallara uygun iletişim kurar.",
+              "subSkills": [
+                "a) Konunun özelliğine göre konuşma üslubunu belirler.",
+                "ç) Yüz yüze iletişimde konuşma kurallarına uygun iletişimi sürdürür."
+              ]
+            },
+            {
+              "code": "T.K.4.2",
+              "text": "Konuşmalarında içerik oluşturur; metinleri günlük yaşamla ilişkilendirir, karşılaştırır ve sınıflandırır.",
+              "subSkills": [
+                "b) Metnin günlük yaşamla ilişkisini ifade eder.",
+                "d) Nesne ve kişileri karşılaştırır.",
+                "e) Olay, durum, nesne ve karakterleri sınıflandırır.",
+                "f) Çevrim içi konuşmalarında sınıflandırma yapar.",
+                "g) Konuşmalarında zıt anlamlı sözcükleri kullanır.",
+                "i) Görüşlere katılma veya katılmama kararını nedenleriyle ifade eder."
+              ]
+            },
+            {
+              "code": "T.K.4.3",
+              "text": "Konuşma kurallarını uygular; vurgu, tonlama, sözcük seçimi ve zaman ifadelerine dikkat eder.",
+              "subSkills": [
+                "c) Vurgu ve tonlamaya dikkat eder.",
+                "e) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "ğ) Mesajlarını açık ve anlaşılır cümlelerle ifade eder.",
+                "h) İçeriğe uygun zaman ifadelerini kullanır.",
+                "ı) Anlamlı ve kurallı cümleler kullanır."
+              ]
+            },
+            {
+              "code": "T.O.4.1",
+              "text": "Okuma sürecini yönetir; okuma amacına göre metin seçer ve noktalama işaretlerine dikkat eder.",
+              "subSkills": [
+                "a) Okuma amacına ve ilgi alanına göre metin seçer.",
+                "c) Noktalama işaretlerine dikkat ederek okur."
+              ]
+            },
+            {
+              "code": "T.O.4.2",
+              "text": "Okuduklarıyla ilgili anlam oluşturur; başlık ve görsellerden yararlanarak tahmin ve görüş oluşturur.",
+              "subSkills": [
+                "a) Metindeki bilgiler ile ön bilgileri arasında bağlantı kurar.",
+                "c) Başlık ve görsellerden hareketle tahminde bulunur.",
+                "ç) Olayların öncesi ve sonrası hakkında tahminde bulunur.",
+                "ğ) Olay, durum, nesne ve kişileri özelliklerine göre sınıflandırır.",
+                "j) Başlık ve görsellerden içerik hakkında görüş oluşturur.",
+                "k) Biçimsel ve tanıtıcı özelliklerden içerik hakkında görüş oluşturur."
+              ]
+            },
+            {
+              "code": "T.O.4.3",
+              "text": "Okuduklarını çözümler; karakter, olay ve bilgileri analiz eder, konu ve ana fikri bulur.",
+              "subSkills": [
+                "a) Karakter, olay, bilgi veya duyguları analiz eder.",
+                "b) Metnin konusunu bulur.",
+                "c) Metindeki ana fikri/ana duyguyu bulur."
+              ]
+            },
+            {
+              "code": "T.O.4.5",
+              "text": "Okuma sürecini değerlendirir; hatalarını düzeltir ve olumlu davranışlarını sonraki okumalara aktarır.",
+              "subSkills": [
+                "a) Okuma sürecindeki hatalarını düzeltir.",
+                "b) Olumlu davranışlarını sonraki okumalarına aktarır."
+              ]
+            },
+            {
+              "code": "T.Y.4.1",
+              "text": "Yazılı anlatım becerilerini yönetir; amaca ve yazma ortamına uygun strateji seçip serbest yazar.",
+              "subSkills": [
+                "a) Serbest yazma çalışmaları yapar.",
+                "b) Amacına uygun yazma stratejisini seçer.",
+                "c) Yazma ortamına uygun strateji seçer.",
+                "ç) Seçtiği stratejiye uygun yazma çalışması yapar."
+              ]
+            },
+            {
+              "code": "T.Y.4.2",
+              "text": "Yazılarında içerik oluşturur; metinleri tamamlar, günlük yaşamla ilişkilendirir ve yönerge yazar.",
+              "subSkills": [
+                "a) Eksik bırakılan metin bölümlerini ön bilgilerinden hareketle devam ettirir.",
+                "c) Metnin günlük yaşamla ilişkisini yazar.",
+                "g) Yazışmalarında olay, durum, nesne ve karakterleri sınıflandırır.",
+                "ı) Yazılarında eş anlamlı sözcükleri kullanır.",
+                "k) Ayrıntılı yönergeler yazar."
+              ]
+            },
+            {
+              "code": "T.Y.4.3",
+              "text": "Yazma kurallarını uygular; sözcükleri yerinde kullanır ve noktalama işaretlerini doğru kullanır.",
+              "subSkills": [
+                "b) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "e) Noktalama işaretlerini kuralına uygun kullanır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Kütüphanemiz",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/397",
+          "hours": 31,
+          "keyConcepts": [
+            "dil sevgisi",
+            "e-kitap",
+            "edebî şahsiyetler",
+            "kitabevi",
+            "kitaplar",
+            "kütüphaneler",
+            "metinlerarasılık",
+            "okuma alışkanlığı",
+            "okuma hakkı",
+            "okuma serüveni",
+            "okuma sevgisi",
+            "okur kimliği",
+            "sözlük kültürü",
+            "süreli yayınlar",
+            "yaratıcı okuma",
+            "yazılı kültür",
+            "z-kütüphane"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.4.1",
+              "text": "Dinleme/izlemeyi yönetme: strateji seçme, dinleme kurallarına uyma ve uygun zamanda söz alma.",
+              "subSkills": [
+                "a) Konuya ve amaca uygun dinleme/izleme stratejisini seçer.",
+                "b) Dinleme kurallarına uygun biçimde dinler.",
+                "c) Düşüncelerini belirtmek için uygun zamanda söz alır."
+              ]
+            },
+            {
+              "code": "T.D.4.2",
+              "text": "Dinlediği/izlediği metinle ilgili anlam oluşturma: konu tahmini ve ön bilgiyle bağlantı kurma.",
+              "subSkills": [
+                "a) Görsellerden yola çıkarak metnin konusunu tahmin eder.",
+                "d) Dinlediği bilgilerle ön bilgileri arasında bağlantı kurar."
+              ]
+            },
+            {
+              "code": "T.D.4.3",
+              "text": "Dinlediklerini/izlediklerini çözümleme: ana fikri/duyguyu ve metnin konusunu bulma.",
+              "subSkills": [
+                "b) Metindeki ana fikri veya ana duyguyu bulur.",
+                "c) Metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.D.4.5",
+              "text": "Dinleme/izleme sürecini değerlendirme: bilgi ve kaynağın doğruluğunu sorgulama, davranışları aktarma.",
+              "subSkills": [
+                "b) Metindeki bilginin ve kaynağının doğruluğunu sorgular.",
+                "c) Doğru dinleme davranışlarını sonraki dinlemelerine aktarır."
+              ]
+            },
+            {
+              "code": "T.K.4.1",
+              "text": "Konuşmalarını yönetme: üslup, tür ve amaca göre konuşma; yüz yüze nezaket kurallarını sürdürme.",
+              "subSkills": [
+                "a) Konunun özelliğine göre konuşma üslubunu belirler.",
+                "b) Konuşma türüne göre konuşmasını planlar.",
+                "c) Konuşma amacına göre konuşmasını belirler.",
+                "ç) Yüz yüze iletişimde konuşma kurallarına uygun iletişim kurar.",
+                "e) Yüz yüze iletişimi uygun nezaket ifadeleriyle sürdürür."
+              ]
+            },
+            {
+              "code": "T.K.4.2",
+              "text": "Konuşmalarında içerik oluşturma: sık karşılaşılan atasözlerinin anlamlarını söyleme.",
+              "subSkills": [
+                "ö) Sık karşılaşılan atasözlerinin anlamlarını söyler."
+              ]
+            },
+            {
+              "code": "T.K.4.3",
+              "text": "Konuşma kurallarını uygulama: vurgu, tonlama, sözcük seçimi, atasözü ve zaman ifadeleri kullanımı.",
+              "subSkills": [
+                "c) Konuşmasında vurgu ve tonlamaya dikkat eder.",
+                "e) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "g) Atasözlerini konuşma bağlamına uygun kullanır.",
+                "ğ) Mesajlarını açık ve anlaşılır cümlelerle ifade eder.",
+                "h) İçeriğe uygun zaman ifadeleri kullanır.",
+                "ı) Anlamlı ve kurallı cümleler kullanır."
+              ]
+            },
+            {
+              "code": "T.K.4.5",
+              "text": "Konuşma sürecini değerlendirme: başkalarının konuşmalarındaki hataları fark etme ve düzeltme.",
+              "subSkills": [
+                "a) Başkalarının konuşmalarındaki hataları fark eder.",
+                "b) Başkalarının konuşmalarındaki hataları düzeltir."
+              ]
+            },
+            {
+              "code": "T.O.4.1",
+              "text": "Okuma sürecini yönetme: amaca ve ilgi alanına uygun metin seçme, noktalama işaretlerine dikkat etme.",
+              "subSkills": [
+                "a) Okuma amacına ve ilgi alanına göre metin seçer.",
+                "c) Noktalama işaretlerine dikkat ederek okur."
+              ]
+            },
+            {
+              "code": "T.O.4.2",
+              "text": "Okudukları ile ilgili anlam oluşturma: tahmin, çıkarım ve ön bilgilerle karşılaştırma yapma.",
+              "subSkills": [
+                "c) Başlık ve görsellerden metindeki bilgi/olaylar hakkında tahminde bulunur.",
+                "ç) Verilen bilgilerden olayların öncesi ve sonrası hakkında tahmin yürütür.",
+                "d) Metindeki verilerden ilgi alanına uygun çıkarım yapar.",
+                "e) Metindeki verilerden metnin amacına uygun çıkarım yapar.",
+                "f) Metindeki iletileri ön bilgileriyle karşılaştırır.",
+                "j) Başlık ve görsellerden metnin içeriği hakkında görüş oluşturur.",
+                "k) Biçimsel ve tanıtıcı özelliklerden içerik hakkında görüş oluşturur."
+              ]
+            },
+            {
+              "code": "T.O.4.3",
+              "text": "Okuduklarını çözümleme: karakter, olay, konu, ana fikir ve sözcük anlamlarını belirleme.",
+              "subSkills": [
+                "a) Karakter, olay, bilgi veya duyguları analiz eder.",
+                "b) Okuduğu metnin konusunu bulur.",
+                "c) Metindeki ana fikri veya ana duyguyu bulur.",
+                "d) Gerçek, mecaz ve terim anlamlı sözcüklerin metinle ilişkisini belirler."
+              ]
+            },
+            {
+              "code": "T.O.4.5",
+              "text": "Okuma sürecini değerlendirme: tür veya ilgi alanına göre okuma tercihini belirtme.",
+              "subSkills": [
+                "ç) Tür veya ilgi alanına göre okuma tercihini belirtir."
+              ]
+            },
+            {
+              "code": "T.Y.4.1",
+              "text": "Yazılı anlatım becerilerini yönetme: serbest yazma, yazışma ifadeleri ve yazma planı hazırlama.",
+              "subSkills": [
+                "a) Serbest yazma çalışmaları yapar.",
+                "d) Yazışmayı başlatma, sürdürme ve sonlandırma ifadeleri kullanır.",
+                "e) Çevrim içi yazışmada başlatma, sürdürme ve sonlandırma ifadeleri kullanır.",
+                "g) Yazacağı metnin türüne uygun yazma planı hazırlar."
+              ]
+            },
+            {
+              "code": "T.Y.4.2",
+              "text": "Yazılarında içerik oluşturma: çıkarım, sınıflandırma, olay anlatımı ve kaynak belirtme.",
+              "subSkills": [
+                "d) Dinlediği/izlediği veya okuduğu metne ilişkin çıkarımlarını planlı yazar.",
+                "g) Olay, durum, nesne ve karakterleri özelliklerine göre sınıflandırır.",
+                "j) Dinlediği/izlediği olayı veya okuduğu metni mantıksal ilişkilerle kendi ifadeleriyle yazar.",
+                "l) Çevrim içi ortamda dijital mahremiyete dikkat ederek yazar.",
+                "n) Serbest yazmada görüş ve düşüncelerini nedenleriyle açıklar.",
+                "o) İstek, şikâyet ve önerilerini uygun metin türüyle yazar.",
+                "p) Edindiği bilginin kaynağını yazar.",
+                "r) Hedef kitleye görsellerle desteklenmiş açıklayıcı yazılarını sunar.",
+                "s) Hedef kitleye görsellerle desteklenmiş öyküleyici yazılarını sunar.",
+                "ş) Dijital araçlarla hedef kitleye uygun yazılarını sunar."
+              ]
+            },
+            {
+              "code": "T.Y.4.3",
+              "text": "Yazma kurallarını uygulama: plana uygunluk, sözcük seçimi, deyim-atasözü ve noktalama kullanımı.",
+              "subSkills": [
+                "a) Yazacağı metin türünün özelliğine göre plana uygun yazar.",
+                "b) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "c) Deyim ve atasözlerini içeriğe uygun kullanır.",
+                "ç) Mesajlarını birden çok cümleyle açık ve anlaşılır ifade eder.",
+                "e) Noktalama işaretlerini kuralına uygun kullanır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Kendimizi Geliştiriyoruz",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/401",
+          "hours": 30,
+          "keyConcepts": [
+            "estetik",
+            "ilgi",
+            "merak",
+            "oyun",
+            "özgünlük",
+            "sanat",
+            "spor",
+            "tiyatro"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.4.1",
+              "text": "Dinleme/izleme sürecini uygun biçimde yönetir ve görüşlerini zamanında paylaşır.",
+              "subSkills": [
+                "c) Dinlediği konuya dair görüşlerini uygun anda söz alarak paylaşır"
+              ]
+            },
+            {
+              "code": "T.D.4.2",
+              "text": "Dinleyeceği ya da izleyeceği metnin anlamını görsellerden yola çıkarak oluşturur.",
+              "subSkills": [
+                "a) Görsellerden yola çıkarak dinleyeceği metnin konusunu tahmin eder"
+              ]
+            },
+            {
+              "code": "T.D.4.3",
+              "text": "Dinlediği ya da izlediği metinleri çözümler; ana fikir, konu ve iletileri karşılaştırır.",
+              "subSkills": [
+                "b) Dinlediği metindeki ana fikri ya da ana duyguyu belirler",
+                "c) Dinlediği metnin konusunu saptar",
+                "ç) Farklı metinlerdeki iletilerin benzer ve farklı yönlerini ayırt eder",
+                "d) Farklı metinlerdeki iletileri benzerlik ve farklılık açısından bağdaştırır"
+              ]
+            },
+            {
+              "code": "T.D.4.5",
+              "text": "Dinleme ya da izleme sürecini değerlendirir ve metindeki bilginin doğruluğunu sorgular.",
+              "subSkills": [
+                "b) Dinlediği metindeki bilginin ve kaynağının doğruluğunu sorgular"
+              ]
+            },
+            {
+              "code": "T.K.4.2",
+              "text": "Konuşmalarında anlamlı içerik üretir, eş anlamlı sözcükler ve örnekler kullanır.",
+              "subSkills": [
+                "ğ) Konuşmasında eş anlamlı sözcükleri kullanır",
+                "ı) Dinlediği, izlediği ya da okuduğu şeyi mantıksal bağlarla kendi sözleriyle anlatır",
+                "m) Konuşmasında örnek vererek anlatımını destekler"
+              ]
+            },
+            {
+              "code": "T.K.4.3",
+              "text": "Konuşma kurallarını uygular; neden-sonuç ilişkisini kurar ve sözcük ile bağlaçları doğru kullanır.",
+              "subSkills": [
+                "d) Dinlediği, izlediği ya da okuduğu metindeki neden-sonuç ilişkisini dile getirir",
+                "e) Sözcükleri yerinde ve anlamına uygun biçimde kullanır",
+                "i) Bağlama ögelerini doğru ve yerinde kullanır"
+              ]
+            },
+            {
+              "code": "T.O.4.1",
+              "text": "Okuma sürecini yönetir ve okurken noktalama işaretlerini gözetir.",
+              "subSkills": [
+                "c) Metindeki noktalama işaretlerini gözeterek okumasını sürdürür"
+              ]
+            },
+            {
+              "code": "T.O.4.2",
+              "text": "Okuduklarıyla ilgili anlam oluşturur; olayların öncesini ve sonrasını tahmin eder.",
+              "subSkills": [
+                "ç) Bilgilerden hareketle olayların öncesini ve sonrasını kestirir",
+                "j) Başlık ve görsellere bakarak metnin içeriği hakkında fikir oluşturur"
+              ]
+            },
+            {
+              "code": "T.O.4.3",
+              "text": "Okuduğu metni çözümler; karakter, olay, konu, ana fikir ve iletileri inceler.",
+              "subSkills": [
+                "a) Okuduğu metindeki karakter, olay, bilgi ya da duyguları çözümler",
+                "b) Okuduğu metnin konusunu belirler",
+                "c) Okuduğu metindeki ana fikri ya da ana duyguyu bulur",
+                "ç) Okuduğu metinlerdeki iletileri benzerlik ve farklılık açısından ilişkilendirir"
+              ]
+            },
+            {
+              "code": "T.O.4.5",
+              "text": "Okuma sürecini değerlendirir ve okuduğu metindeki bilginin doğruluğunu sorgular.",
+              "subSkills": [
+                "c) Okuduğu metindeki bilginin ve kaynağının doğruluğunu sorgular"
+              ]
+            },
+            {
+              "code": "T.Y.4.1",
+              "text": "Yazılı anlatım becerilerini yönetir; serbest yazar ve yazışmayı uygun ifadelerle yürütür.",
+              "subSkills": [
+                "a) Serbest yazma çalışmaları gerçekleştirir",
+                "d) Yazışmayı açma, sürdürme ve bitirme için uygun ifadeler kullanır",
+                "e) Çevrim içi yazışmalarında açılış, devam ve kapanış ifadelerini uygun kullanır"
+              ]
+            },
+            {
+              "code": "T.Y.4.2",
+              "text": "Yazılarında içerik üretir; karşılaştırma, sınıflandırma ve neden-sonuç ilişkilerini yazıya döker.",
+              "subSkills": [
+                "b) Ön bilgilerinden yararlanarak metin yazar",
+                "ç) Bağlamdan ipucu alarak bir sözcüğün anlamını tahmin edip yazar",
+                "e) Yazışmalarında kişi ve nesneleri benzerlik ve farklılıklarıyla karşılaştırır",
+                "f) Dijital yazışmalarında kişi ve nesneleri ortak ve ayrı yönleriyle kıyaslar",
+                "ğ) Çevrim içi yazışmalarında olay, durum, nesne ve karakterleri özelliklerine göre gruplar",
+                "j) Dinlediği, izlediği olay ya da okuduğu metni kendi cümleleriyle yazıya döker",
+                "n) Serbest yazılarında görüş ve düşüncelerini gerekçeleriyle açıklar",
+                "u) Dinlediği, izlediği veya okuduğu metindeki neden-sonuç bağını yazıya geçirir"
+              ]
+            },
+            {
+              "code": "T.Y.4.3",
+              "text": "Yazma kurallarını uygular; noktalama işaretlerini yerli yerinde kullanır.",
+              "subSkills": [
+                "e) Noktalama işaretlerini yazılarında kurallarına uygun kullanır"
+              ]
+            },
+            {
+              "code": "T.Y.4.5",
+              "text": "Yazma sürecini değerlendirir; yazılarındaki hataları bulup düzeltir ve iyi davranışları taşır.",
+              "subSkills": [
+                "a) Yazılarındaki hataları fark eder",
+                "b) Tespit ettiği yazım hatalarını düzeltir",
+                "c) Yazılarında iyi bulduğu davranışları sonraki yazılarına taşır"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Bilim Ve Teknoloji",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/406",
+          "hours": 30,
+          "keyConcepts": [
+            "araştırma",
+            "bilişim ve kodlama",
+            "bilim insanı",
+            "deney",
+            "icat",
+            "keşif",
+            "kıtalar",
+            "merak",
+            "mucit",
+            "sorgulama",
+            "ülkeler"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.4.1",
+              "text": "Dinleme/izlemeyi yönetme: dinleme kurallarına uyarak dinleme yapar.",
+              "subSkills": [
+                "b) Dinleme kurallarına uygun biçimde dinleme yapar."
+              ]
+            },
+            {
+              "code": "T.D.4.2",
+              "text": "Dinlediği/izlediği metinle ilgili anlam kurma: yeni bilgileri ön bilgileriyle ilişkilendirir.",
+              "subSkills": [
+                "d) Dinlediği ya da izlediği bilgileri ön bilgileriyle bağlantılandırır."
+              ]
+            },
+            {
+              "code": "T.D.4.3",
+              "text": "Dinlediklerini/izlediklerini çözümleme: ana fikir, konu ve metinler arası ilişkileri belirler.",
+              "subSkills": [
+                "b) Metnin ana fikrini ya da ana duygusunu belirler.",
+                "c) Metnin konusunu bulur.",
+                "ç) Farklı metinlerdeki iletilerin benzer ve farklı yönlerini belirler.",
+                "d) Farklı metinlerdeki iletileri benzerlik ve farklılık açısından ilişkilendirir.",
+                "e) Konuşma ile görsel arasındaki ilişkiyi değerlendirir."
+              ]
+            },
+            {
+              "code": "T.D.4.4",
+              "text": "Dinleme/izleme sürecini etkileyen durumları gözden geçirme: ortam ve fiziksel koşulların etkisini fark eder.",
+              "subSkills": [
+                "a) Dinleme ortamının duygu, düşünce ve davranışlara etkisini açıklar.",
+                "b) Ortamın fiziksel özelliklerini göz önünde bulundurarak dinler."
+              ]
+            },
+            {
+              "code": "T.K.4.1",
+              "text": "Konuşmalarını yönetme: konunun özelliğine uygun konuşma üslubunu seçer.",
+              "subSkills": [
+                "a) Konunun niteliğine göre konuşma üslubunu belirler."
+              ]
+            },
+            {
+              "code": "T.K.4.2",
+              "text": "Konuşmalarında içerik oluşturma: çıkarımlarını planlayarak, dil ve anlatım öğelerini kullanarak konuşur.",
+              "subSkills": [
+                "ç) Dinlediği ya da izlediği konuya dair çıkarımlarını planlayıp konuşur.",
+                "h) Konuşmasında eş sesli sözcükleri kullanır.",
+                "l) Konuşmasında benzetmelere yer verir."
+              ]
+            },
+            {
+              "code": "T.K.4.3",
+              "text": "Konuşma kurallarını uygulama: anlamlı ve dilbilgisi kurallarına uygun cümleler kurar.",
+              "subSkills": [
+                "ı) Konuşmasında anlamlı ve kurallı cümleler kullanır."
+              ]
+            },
+            {
+              "code": "T.K.4.4",
+              "text": "Konuşma sürecini etkileyen durumları gözden geçirme: ortamın konuşmaya etkisini değerlendirir.",
+              "subSkills": [
+                "a) Konuşma ortamının duygu, düşünce ve davranışlara etkisini açıklar.",
+                "b) Ortamın fiziksel özelliklerini dikkate alarak konuşur."
+              ]
+            },
+            {
+              "code": "T.K.4.5",
+              "text": "Konuşma sürecini değerlendirme: metni yazar bakış açısıyla değerlendirerek ifade eder.",
+              "subSkills": [
+                "ç) Metni yazar rolünde değerlendirip görüşünü ifade eder."
+              ]
+            },
+            {
+              "code": "T.O.4.2",
+              "text": "Okudukları ile ilgili anlam oluşturma: başlık ve görsellerden görüş oluşturur, bağlaçları yorumlar.",
+              "subSkills": [
+                "j) Metnin başlığı ve görsellerinden hareketle içerik hakkında görüş oluşturur.",
+                "l) 'de' ve 'ki' bağlaçlarının anlama etkisini fark eder."
+              ]
+            },
+            {
+              "code": "T.O.4.3",
+              "text": "Okuduklarını çözümleme: karakter, olay, konu, ana fikir ve görsel-metin ilişkisini inceler.",
+              "subSkills": [
+                "a) Metindeki karakter, olay, bilgi ya da duyguları inceler.",
+                "b) Metnin konusunu bulur.",
+                "c) Metnin ana fikrini ya da ana duygusunu bulur.",
+                "f) Çevrim içi okumada aradığı bilginin yerini doğru bulur.",
+                "g) Noktalama işaretlerinin içerikle ilişkisini belirler.",
+                "ğ) Metin ile tablo, grafik gibi görseller arasındaki ilişkiyi belirler."
+              ]
+            },
+            {
+              "code": "T.O.4.4",
+              "text": "Okuma sürecini etkileyen durumları gözden geçirme: fiziksel koşulları düzenleyerek okur.",
+              "subSkills": [
+                "a) Okumayı etkileyen fiziksel etmenleri düzenler.",
+                "b) Ortamın fiziksel özelliklerini dikkate alarak okur."
+              ]
+            },
+            {
+              "code": "T.O.4.5",
+              "text": "Okuma sürecini değerlendirme: basılı okumadaki olumlu davranışları çevrim içi okumaya aktarır.",
+              "subSkills": [
+                "d) Basılı metin okumadaki olumlu davranışlarını çevrim içi okumaya uygular."
+              ]
+            },
+            {
+              "code": "T.Y.4.1",
+              "text": "Yazılı anlatım becerilerini yönetme: serbest yazma çalışmaları yapar.",
+              "subSkills": [
+                "a) Serbest yazma çalışmaları yapar."
+              ]
+            },
+            {
+              "code": "T.Y.4.2",
+              "text": "Yazılarında içerik oluşturma: ön bilgilerini kullanarak metin, yönerge ve karşılaştırmalı yazılar üretir.",
+              "subSkills": [
+                "b) Ön bilgilerinden yola çıkarak metin yazar.",
+                "f) Çevrim içi yazışmalarında kişi ve nesneleri benzerlik ve farklılık açısından karşılaştırır.",
+                "k) Ayrıntılı yönergeler yazar.",
+                "n) Serbest yazılarında görüş ve düşüncelerini nedenleriyle açıklar.",
+                "ü) 'de' ve 'ki' bağlaçlarını kurallara uygun kullanır."
+              ]
+            },
+            {
+              "code": "T.Y.4.3",
+              "text": "Yazma kurallarını uygulama: sözcük seçimi, yazım ve noktalama kurallarına uyar.",
+              "subSkills": [
+                "b) Sözcükleri yerinde ve anlamına uygun biçimde kullanır.",
+                "d) Yazım kurallarına uygun yazar.",
+                "e) Noktalama işaretlerini kurallara uygun kullanır."
+              ]
+            },
+            {
+              "code": "T.Y.4.5",
+              "text": "Yazma sürecini değerlendirme: dinlediği, izlediği ya da okuduğu metni yazar gözüyle değerlendirir.",
+              "subSkills": [
+                "d) Dinlediği, izlediği ya da okuduğu metni yazarın bakış açısıyla değerlendiren yazılar yazar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Geçmişten Geleceğe Mirasımız",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/403",
+          "hours": 30,
+          "keyConcepts": [
+            "adalet",
+            "aile bütünlüğü",
+            "çalışkanlık",
+            "dostluk",
+            "duyarlılık",
+            "dürüstlük",
+            "estetik",
+            "iletişim",
+            "mahremiyet",
+            "merhamet",
+            "mütevazılık",
+            "özgürlük",
+            "sabır",
+            "sağlıklı yaşam",
+            "saygı",
+            "sevgi",
+            "sorumluluk",
+            "tasarruf",
+            "temizlik",
+            "vatanseverlik",
+            "yardımseverlik"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.4.1",
+              "text": "Dinleme/izlemeyi yönetir; kurallara uyar ve düşüncelerini belirtmek için uygun zamanda söz alır.",
+              "subSkills": [
+                "b) Dinleme kurallarına uygun olarak dinler.",
+                "c) Düşüncelerini belirtmek için uygun zamanda söz alır."
+              ]
+            },
+            {
+              "code": "T.D.4.2",
+              "text": "Dinledikleri/izledikleri ile ilgili anlam oluşturur; tahmin, bağlantı ve sınıflandırma yapar.",
+              "subSkills": [
+                "a) Görsellerden hareketle metnin konusunu tahmin eder.",
+                "c) Olayların öncesi hakkında tahminde bulunur.",
+                "d) Dinlediklerindeki bilgilerle ön bilgileri arasında bağlantı kurar.",
+                "ğ) Olay, durum, nesne ve karakterleri özelliklerine göre sınıflandırır.",
+                "i) Düşüncelerini sözlü ve sözsüz iletişim unsurlarıyla ifade eder."
+              ]
+            },
+            {
+              "code": "T.D.4.3",
+              "text": "Dinlediklerini/izlediklerini çözümler; ana fikri/duyguyu ve metnin konusunu bulur.",
+              "subSkills": [
+                "b) Metindeki ana fikri/ana duyguyu bulur.",
+                "c) Metnin konusunu bulur."
+              ]
+            },
+            {
+              "code": "T.K.4.1",
+              "text": "Konuşmalarını yönetir; konuya göre üslup belirler ve yüz yüze kurallara uygun iletişim kurar.",
+              "subSkills": [
+                "a) Konunun özelliğine göre konuşma üslubunu belirler.",
+                "e) Yüz yüze iletişimde konuşma kurallarına uygun iletişimi sürdürür."
+              ]
+            },
+            {
+              "code": "T.K.4.2",
+              "text": "Konuşmalarında içerik oluşturur; günlük yaşam bağlantısı kurar, sınıflandırır, zıt anlamlı sözcük kullanır.",
+              "subSkills": [
+                "b) Metnin günlük yaşamla ilişkisini ifade eder.",
+                "e) Olay, durum, nesne ve karakterleri özelliklerine göre sınıflandırır.",
+                "f) Çevrim içi konuşmalarında olay, durum, nesne ve karakterleri sınıflandırır.",
+                "g) Konuşmalarında zıt anlamlı sözcükleri kullanır."
+              ]
+            },
+            {
+              "code": "T.K.4.3",
+              "text": "Konuşma kurallarını uygular; vurgu ve tonlamaya dikkat eder, sözcük ve zaman ifadelerini yerinde kullanır.",
+              "subSkills": [
+                "c) Konuşmalarında vurgu ve tonlamaya dikkat eder.",
+                "e) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "ğ) Mesajları açık ve anlaşılır cümlelerle ifade eder.",
+                "h) Konuşmalarında içeriğe uygun zaman ifadelerini kullanır.",
+                "ı) Anlamlı ve kurallı cümleler kurar."
+              ]
+            },
+            {
+              "code": "T.O.4.1",
+              "text": "Okuma sürecini yönetir; noktalama işaretlerine dikkat ederek okur.",
+              "subSkills": [
+                "c) Noktalama işaretlerine dikkat ederek okur."
+              ]
+            },
+            {
+              "code": "T.O.4.2",
+              "text": "Okudukları ile ilgili anlam oluşturur; tahmin, bağlantı ve sınıflandırma yapar, görüş geliştirir.",
+              "subSkills": [
+                "a) Metindeki bilgiler ile ön bilgileri arasında bağlantı kurar.",
+                "c) Başlık ve görsellerden hareketle olaylar hakkında tahminde bulunur.",
+                "ç) Olayların öncesi ve sonrası hakkında tahminde bulunur.",
+                "ğ) Olay, durum, nesne ve kişileri özelliklerine göre sınıflandırır.",
+                "j) Başlık ve görsellerden hareketle içerik hakkında görüş oluşturur.",
+                "k) Biçimsel ve tanıtıcı özelliklerden hareketle içerik hakkında görüş oluşturur.",
+                "l) 'de' ve 'ki' bağlaçlarının anlam üzerindeki etkisini fark eder."
+              ]
+            },
+            {
+              "code": "T.O.4.3",
+              "text": "Okuduklarını çözümler; karakter, olay ve bilgileri analiz eder, konu ile ana fikri/ana duyguyu bulur.",
+              "subSkills": [
+                "a) Karakter, olay, bilgi veya duyguları analiz eder.",
+                "b) Metnin konusunu bulur.",
+                "c) Metindeki ana fikri/ana duyguyu bulur."
+              ]
+            },
+            {
+              "code": "T.O.4.5",
+              "text": "Okuma sürecini değerlendirir; hatalarını düzeltir ve olumlu davranışlarını sonraki okumalara aktarır.",
+              "subSkills": [
+                "a) Okuma sürecindeki hatalarını düzeltir.",
+                "b) Olumlu davranışlarını sonraki okumalarına aktarır."
+              ]
+            },
+            {
+              "code": "T.Y.4.1",
+              "text": "Yazılı anlatım becerilerini yönetir; serbest yazma yapar ve amaca, ortama uygun strateji seçer.",
+              "subSkills": [
+                "a) Serbest yazma çalışmaları yapar.",
+                "b) Amacına uygun yazma stratejisini seçer.",
+                "c) Yazma ortamına (kâğıt/çevrim içi) uygun strateji seçer.",
+                "ç) Seçtiği stratejiye uygun yazma çalışması yapar."
+              ]
+            },
+            {
+              "code": "T.Y.4.2",
+              "text": "Yazılarında içerik oluşturur; eksik bölümleri tamamlar, sınıflandırır, eş anlamlı sözcük ve yönergeler yazar.",
+              "subSkills": [
+                "a) Metnin eksik bölümlerini ön bilgilerinden hareketle devam ettirir.",
+                "g) Yazışmalarında olay, durum, nesne ve karakterleri sınıflandırır.",
+                "ı) Yazılarında eş anlamlı sözcükleri kullanır.",
+                "k) Ayrıntılı yönergeler yazar.",
+                "ü) 'de' ve 'ki' bağlaçlarını kuralına uygun kullanır."
+              ]
+            },
+            {
+              "code": "T.Y.4.3",
+              "text": "Yazma kurallarını uygular; sözcükleri yerinde kullanır, yazım ve noktalama kurallarına uygun yazar.",
+              "subSkills": [
+                "b) Sözcükleri yerinde ve anlamına uygun kullanır.",
+                "d) Yazım kurallarına uygun yazar.",
+                "e) Noktalama işaretlerini kuralına uygun kullanır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Demokratik Yaşam",
+          "url": "https://tymm.meb.gov.tr/ilkokul-turkce-dersi/unite/400",
+          "hours": 30,
+          "keyConcepts": [
+            "bilgilerini koruma",
+            "çocuk hakları",
+            "demokrasi",
+            "dijital gizlilik",
+            "eşitlik",
+            "ifade özgürlüğü",
+            "kişisel alan",
+            "liyakat",
+            "özgürlük",
+            "sorumluluk",
+            "temel hak ve özgürlükler"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.4.1",
+              "text": "Dinleme/izlemeyi yönetir.",
+              "subSkills": [
+                "a) Konu, amaç ve ilişki türüne göre dinleme/izleme stratejisi seçer.",
+                "b) Dinleme kurallarına uyarak dinler.",
+                "c) Düşüncelerini belirtmek için uygun zamanda söz alır."
+              ]
+            },
+            {
+              "code": "T.D.4.2",
+              "text": "Dinlediklerinden/izlediklerinden anlam oluşturur.",
+              "subSkills": [
+                "a) Görsellerden yola çıkarak metnin konusunu tahmin eder.",
+                "d) Dinlediği bilgilerle ön bilgileri arasında bağlantı kurar."
+              ]
+            },
+            {
+              "code": "T.D.4.3",
+              "text": "Dinlediklerini/izlediklerini çözümler.",
+              "subSkills": [
+                "b) Metindeki ana fikri veya ana duyguyu bulur.",
+                "c) Metnin konusunu belirler."
+              ]
+            },
+            {
+              "code": "T.D.4.5",
+              "text": "Dinleme/izleme sürecini değerlendirir.",
+              "subSkills": [
+                "a) Tercih ettiği dinleme/izleme stratejilerini açıklar.",
+                "c) Uygun davranışlarını sonraki dinlemelerine taşır."
+              ]
+            },
+            {
+              "code": "T.K.4.1",
+              "text": "Konuşmalarını yönetir.",
+              "subSkills": [
+                "ç) Yüz yüze iletişimde konuşma kurallarına uygun iletişimi sürdürür.",
+                "e) Uygun nezaket ifadeleriyle yüz yüze iletişimi sürdürür.",
+                "g) Dinleyici kitlesine ve konuya uygun bir konuşma planı hazırlar."
+              ]
+            },
+            {
+              "code": "T.K.4.2",
+              "text": "Konuşmalarında içerik oluşturur.",
+              "subSkills": [
+                "j) Serbest konuşmalarda görüşlerini nedenleriyle açıklar.",
+                "k) Kabul etmediği konularda sözlü olarak öneride bulunur.",
+                "n) Konuşmalarını görsel veya dijital içeriklerle destekler.",
+                "o) Sık kullanılan deyimlerin anlamlarını söyler."
+              ]
+            },
+            {
+              "code": "T.K.4.3",
+              "text": "Konuşma kurallarını uygular.",
+              "subSkills": [
+                "b) Hazırladığı plana uygun, kitleye ve konuya göre konuşur.",
+                "c) Konuşmasında vurgu ve tonlamaya dikkat eder.",
+                "f) Deyimleri konuşma bağlamına uygun kullanır.",
+                "ğ) Mesajlarını açık ve anlaşılır cümlelerle aktarır.",
+                "h) Zaman ifadelerini içeriğe uygun kullanır.",
+                "ı) Anlamlı ve kurallı cümleler kurar.",
+                "j) Jest ve mimiklerle konuşmasını destekler.",
+                "k) Konuşma sırasında beden dilini yerinde kullanır."
+              ]
+            },
+            {
+              "code": "T.K.4.5",
+              "text": "Konuşma sürecini değerlendirir.",
+              "subSkills": [
+                "c) Olumlu konuşma davranışlarını sonraki konuşmalarına taşır."
+              ]
+            },
+            {
+              "code": "T.O.4.1",
+              "text": "Okuma sürecini yönetir.",
+              "subSkills": [
+                "a) Okuma amacına ve ilgi alanına göre metin seçer.",
+                "b) Konuya ya da okuma amacına uygun okuma stratejisi seçer.",
+                "c) Noktalama işaretlerine dikkat ederek okur."
+              ]
+            },
+            {
+              "code": "T.O.4.2",
+              "text": "Okudukları ile ilgili anlam oluşturur.",
+              "subSkills": [
+                "a) Metindeki bilgilerle ön bilgileri arasında bağlantı kurar.",
+                "c) Başlık ve görsellerden yola çıkarak bilgi ve olaylar hakkında tahminde bulunur.",
+                "ç) Metindeki bilgilerden hareketle olayların öncesi ve sonrası hakkında tahmin yürütür.",
+                "ı) Metindeki iletilere katılıp katılmadığını nedenleriyle belirtir.",
+                "i) Metnin kurgusuna ilişkin farklı öneriler sunar.",
+                "j) Başlık ve görsellerden yola çıkarak metnin içeriği hakkında görüş oluşturur.",
+                "k) Biçimsel ve tanıtıcı özelliklerden hareketle metnin içeriği hakkında görüş oluşturur.",
+                "l) 'de' ve 'ki' bağlaçlarının anlama etkisini fark eder."
+              ]
+            },
+            {
+              "code": "T.O.4.3",
+              "text": "Okuduklarını çözümler.",
+              "subSkills": [
+                "a) Metindeki karakter, olay, bilgi veya duyguları analiz eder.",
+                "b) Metnin konusunu bulur.",
+                "c) Metindeki ana fikri veya ana duyguyu bulur.",
+                "e) Metinde yan anlamlı sözcükleri bulur."
+              ]
+            },
+            {
+              "code": "T.Y.4.1",
+              "text": "Yazılı anlatım becerilerini yönetir.",
+              "subSkills": [
+                "a) Serbest yazma çalışmaları yapar.",
+                "b) Amacına uygun yazma stratejisi seçer.",
+                "c) Yazma ortamına (kâğıt veya çevrim içi) uygun strateji seçer.",
+                "ç) Seçtiği stratejiye uygun yazma çalışması yapar."
+              ]
+            },
+            {
+              "code": "T.Y.4.2",
+              "text": "Yazılarında içerik oluşturur.",
+              "subSkills": [
+                "ö) Yazılarını görsel veya dijital içeriklerle destekler.",
+                "ü) Yazılarında 'de' ve 'ki' bağlaçlarını kuralına uygun kullanır."
+              ]
+            },
+            {
+              "code": "T.Y.4.3",
+              "text": "Yazma kurallarını uygular.",
+              "subSkills": [
+                "c) Yazılarında deyim ve atasözlerini içeriğe uygun kullanır.",
+                "d) Yazım kurallarına uygun yazar.",
+                "e) Noktalama işaretlerini kurallarına uygun kullanır."
+              ]
+            },
+            {
+              "code": "T.Y.4.5",
+              "text": "Yazma sürecini değerlendirir.",
+              "subSkills": [
+                "ç) Tür veya ilgi alanına göre yazma tercihini belirtir."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Resmî ders adı: İlkokul Türkçe Dersi. Program PDF: https://tymm.meb.gov.tr/assets/pdf/ilkokul-turkce-dersi_20260902_111433_940.pdf. Kod yapısı: T.<beceri>.<sınıf>.<no> (D=Dinleme/İzleme, K=Konuşma, O=Okuma, Y=Yazma). Türkçe'de aynı öğrenme çıktıları temalar boyunca tekrar eder; her temada yalnızca o temada hedeflenen süreç bileşenleri (harf sırası atlamalı olabilir) listelenmiştir. Metinler kısa Türkçe açıklamalardır (birebir alıntı değil). İki kod sitede/çıkarımda biçim hatalıydı ve normalize edildi: 2. sınıf 7. tema 'TD.2.2' -> 'T.D.2.2', 4. sınıf 1. tema 'T.Y4.2' -> 'T.Y.4.2'. 1. sınıf 8. temanın anahtar kavramlarında çıkarılan 'temek hak ve özgürlükler' yazımı 'temel hak ve özgürlükler' olarak düzeltildi."
+}

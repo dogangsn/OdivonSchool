@@ -1,0 +1,786 @@
+{
+  "level": "ilkokul",
+  "subject": "Hayat Bilgisi",
+  "programUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ders/hayat-bilgisi-dersi",
+  "grades": [
+    {
+      "grade": 1,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/hayat-bilgisi-dersi/2",
+      "themes": [
+        {
+          "order": 1,
+          "name": "Ben Ve Okulum",
+          "url": "https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/96",
+          "hours": 24,
+          "keyConcepts": [
+            "tanışma",
+            "arkadaş",
+            "iletişim",
+            "duygu",
+            "sınıf ve okul ortamı",
+            "kural",
+            "uyum",
+            "fiziksel özellik"
+          ],
+          "outcomes": [
+            {
+              "code": "HB.1.1.1",
+              "text": "Öğretmeni ve arkadaşlarıyla tanışabilir.",
+              "subSkills": [
+                "a) Tanışma ifadelerini ve beden dilini kullanır.",
+                "b) Dinleme ve göz teması gibi etkili iletişim becerilerini uygular.",
+                "c) Arkadaşlarıyla ortak yönlerini bulup kendini ifade eder."
+              ]
+            },
+            {
+              "code": "HB.1.1.2",
+              "text": "Sınıf ve okul ortamını tanıyabilir.",
+              "subSkills": [
+                "a) Sınıfını, okulun bölümlerini ve okul çalışanlarını fark eder.",
+                "b) Okul ortamı ve çalışanlarına ilişkin gözlemlerini ifade eder.",
+                "c) Okul ortamına uyum sürecinde kendine güven geliştirir."
+              ]
+            },
+            {
+              "code": "HB.1.1.3",
+              "text": "Sınıf ve okul ortamında kurallara uygun davranabilir.",
+              "subSkills": [
+                "a) Sınıf kurallarını arkadaşlarıyla birlikte oluşturur ve bunlara uyar.",
+                "b) Başkalarının haklarına saygı gösterir ve sorumluluk alır.",
+                "c) Koridor ve ortak kullanım alanlarında uygun davranışlar sergiler."
+              ]
+            },
+            {
+              "code": "HB.1.1.4",
+              "text": "Bireysel özelliklerini açıklayabilir.",
+              "subSkills": [
+                "a) Saç şekli, göz rengi gibi fiziksel özelliklerini sözlü olarak anlatır.",
+                "b) Heyecan, sevinç gibi duygularını fark edip paylaşır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Sağlığım Ve Güvenliğim",
+          "url": "https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/102",
+          "hours": 24,
+          "keyConcepts": [
+            "sağlıklı büyüme ve gelişme",
+            "kişisel alan",
+            "temel trafik kuralları",
+            "güvenlik",
+            "acil durum"
+          ],
+          "outcomes": [
+            {
+              "code": "HB.1.2.1",
+              "text": "Sağlıklı büyüme ve gelişme için yapılması gereken davranışları belirleyebilir.",
+              "subSkills": []
+            },
+            {
+              "code": "HB.1.2.2",
+              "text": "Kişisel alan sınırlarını koruyabilir.",
+              "subSkills": []
+            },
+            {
+              "code": "HB.1.2.3",
+              "text": "Temel trafik kurallarına uygun davranabilir.",
+              "subSkills": []
+            },
+            {
+              "code": "HB.1.2.4",
+              "text": "Acil durumlarda yapılması gerekenleri belirleyebilir.",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Ailem Ve Toplum",
+          "url": "https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/105",
+          "hours": 20,
+          "keyConcepts": [
+            "aile",
+            "nezaket",
+            "görgü",
+            "görev",
+            "sorumluluk",
+            "saygı",
+            "sevgi"
+          ],
+          "outcomes": [
+            {
+              "code": "HB.1.3.1",
+              "text": "Ailenin temel niteliklerini açıklayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "HB.1.3.2",
+              "text": "Aile yaşamında nezaket ve görgü kurallarına uygun davranabilme",
+              "subSkills": []
+            },
+            {
+              "code": "HB.1.3.3",
+              "text": "Aile bireylerinin görev ve sorumluluklarını inceleyip analiz edebilme",
+              "subSkills": [
+                "a) Ailedeki görev ve sorumluluklarını tespit eder.",
+                "b) Aile üyelerinin görev ve sorumluluklarını birbiriyle ilişkilendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Yaşadığım Yer Ve Ülkem",
+          "url": "https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/117",
+          "hours": 28,
+          "keyConcepts": [
+            "ülke",
+            "başkent",
+            "İstiklâl Marşı",
+            "Türk bayrağı",
+            "millî gün ve bayram",
+            "dinî gün ve bayram"
+          ],
+          "outcomes": [
+            {
+              "code": "HB.1.4.1",
+              "text": "Yaşadığı yer ile ülkenin genel özelliklerini anlatır.",
+              "subSkills": []
+            },
+            {
+              "code": "HB.1.4.2",
+              "text": "Türk bayrağı ve İstiklâl Marşı'nın ülke için taşıdığı anlamı belirtir.",
+              "subSkills": []
+            },
+            {
+              "code": "HB.1.4.3",
+              "text": "Mustafa Kemal Atatürk'ün yaşamına dair temel bilgileri dile getirir.",
+              "subSkills": []
+            },
+            {
+              "code": "HB.1.4.4",
+              "text": "Millî gün ve bayramlarda kendisinde uyandırdığı duyguları söyler.",
+              "subSkills": []
+            },
+            {
+              "code": "HB.1.4.5",
+              "text": "Dinî gün ve bayramlarda hissettiği duyguları ifade eder.",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Doğa Ve Çevre",
+          "url": "https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/126",
+          "hours": 24,
+          "keyConcepts": [
+            "doğa",
+            "gök cisimleri",
+            "afet",
+            "geri dönüşüm"
+          ],
+          "outcomes": [
+            {
+              "code": "HB.1.5.1",
+              "text": "Yakın çevredeki doğa varlıklarını gözlemleyip verilerini kaydedebilme",
+              "subSkills": [
+                "a) Doğa gözleminin amacını saptar.",
+                "b) Doğa varlıklarıyla ilgili veri toplar.",
+                "c) Topladığı verileri sınıflandırıp kayda geçirir."
+              ]
+            },
+            {
+              "code": "HB.1.5.2",
+              "text": "Modeller aracılığıyla Güneş, Dünya ve Ay'ı karşılaştırabilme",
+              "subSkills": [
+                "a) Modellerle gök cisimlerinin özelliklerini tespit eder.",
+                "b) Gök cisimleri arasındaki benzerlikleri sıralar.",
+                "c) Gök cisimleri arasındaki farkları sıralar."
+              ]
+            },
+            {
+              "code": "HB.1.5.3",
+              "text": "Afet türlerini tanıyıp ayırt edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "HB.1.5.4",
+              "text": "Geri dönüştürülebilir atıkları ayırıp sınıflandırabilme",
+              "subSkills": [
+                "a) Geri dönüştürülebilir atıkları tanımlar.",
+                "b) Bu atıkları birbirinden ayırır.",
+                "c) Atıkları gruplara göre düzenler.",
+                "ç) Atık kutularını uygun etiketlerle işaretler."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Bilim, Teknoloji Ve Sanat",
+          "url": "https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/127",
+          "hours": 18,
+          "keyConcepts": [
+            "bilim",
+            "teknoloji",
+            "sanat"
+          ],
+          "outcomes": [
+            {
+              "code": "HB.1.6.1",
+              "text": "Bilimle ilgili ilgi duyduğu konuları belirleyip bu konularda sorular sorar.",
+              "subSkills": [
+                "a) Bilimle ilgili ilgisini çeken konuları tespit eder.",
+                "b) Bu konularla ilgili sorular üretir."
+              ]
+            },
+            {
+              "code": "HB.1.6.2",
+              "text": "Teknolojiyle ilgili ilgi duyduğu konuları belirleyip bu konularda sorular sorar.",
+              "subSkills": [
+                "a) Teknolojiyle ilgili ilgisini çeken konuları saptar.",
+                "b) Bu konulara dair sorular yöneltir."
+              ]
+            },
+            {
+              "code": "HB.1.6.3",
+              "text": "Sanatla ilgili ilgi duyduğu konuları belirleyip bu konularda sorular sorar.",
+              "subSkills": [
+                "a) Sanatla ilgili merak ettiği konuları ayırt eder.",
+                "b) Bu konular hakkında soru hazırlar."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 2,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/hayat-bilgisi-dersi/3",
+      "themes": [
+        {
+          "order": 1,
+          "name": "Ben Ve Okulum",
+          "url": "https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/238",
+          "hours": 24,
+          "keyConcepts": [
+            "zaman yönetimi",
+            "planlı olma",
+            "iletişim",
+            "arkadaş",
+            "davranış",
+            "grup çalışması",
+            "iş birliği",
+            "karar alma"
+          ],
+          "outcomes": [
+            {
+              "code": "HB.2.1.1",
+              "text": "Planlı olmanın kişisel yaşama etkilerini fark etme",
+              "subSkills": []
+            },
+            {
+              "code": "HB.2.1.2",
+              "text": "Öğretmen ve arkadaşlarıyla etkili iletişim kurma",
+              "subSkills": []
+            },
+            {
+              "code": "HB.2.1.3",
+              "text": "Arkadaşlık ilişkilerini düzenleme",
+              "subSkills": []
+            },
+            {
+              "code": "HB.2.1.4",
+              "text": "Sınıf içi karar alma süreçlerinde sosyal temas oluşturma",
+              "subSkills": [
+                "a) Karar alma süreçlerinde grup iletişimini başlatır",
+                "b) Karar alma süreçlerinde grup etkileşimine katılır",
+                "c) Karar alma süreçlerinde grup iletişimine katkıda bulunur",
+                "ç) Karar alma süreçlerinde grup iletişimini değerlendirir"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Sağlığım Ve Güvenliğim",
+          "url": "https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/239",
+          "hours": 24,
+          "keyConcepts": [
+            "alışkanlıklar",
+            "kişisel alan",
+            "güvenlik",
+            "trafik işaret levhaları",
+            "acil durum"
+          ],
+          "outcomes": [
+            {
+              "code": "HB.2.2.1",
+              "text": "Sağlıklı büyüme ve gelişme ile alışkanlıklar arasındaki ilişkiyi çözümleyebilme",
+              "subSkills": [
+                "a) Sağlıklı büyüme ve gelişmeye uygun alışkanlıkları belirleme",
+                "b) Bu alışkanlıklarla sağlıklı büyüme ve gelişme arasındaki ilişkiyi belirleme"
+              ]
+            },
+            {
+              "code": "HB.2.2.2",
+              "text": "Çevrim içi ortamlarda kişisel güvenliği sağlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "HB.2.2.3",
+              "text": "Temel trafik işaret levhalarını tanıyabilme",
+              "subSkills": []
+            },
+            {
+              "code": "HB.2.2.4",
+              "text": "Acil durumda yetkililerle etkili iletişim kurabilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Ailem Ve Toplum",
+          "url": "https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/241",
+          "hours": 20,
+          "keyConcepts": [
+            "aile",
+            "nezaket ve görgü kuralları",
+            "görev ve sorumluluk"
+          ],
+          "outcomes": [
+            {
+              "code": "HB.2.3.1",
+              "text": "Ailenin önemini yorumlayabilme.",
+              "subSkills": [
+                "a) Ailenin önemiyle ilgili verilen örnekleri inceler.",
+                "b) Verilen örnekleri bağlamdan kopmadan özgün örneklere dönüştürür.",
+                "c) Oluşturduğu özgün örnekleri kendi cümleleriyle ifade eder."
+              ]
+            },
+            {
+              "code": "HB.2.3.2",
+              "text": "Toplumsal yaşamda nezaket ve görgü kurallarına uygun davranabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "HB.2.3.3",
+              "text": "Yakın çevresinde üzerine düşen görev ve sorumlulukları günlük yaşamına yansıtabilme.",
+              "subSkills": [
+                "a) Yakın çevresinde üzerine düşen görev ve sorumluluklarını gözden geçirir.",
+                "b) Bu görev ve sorumluluklara ilişkin çıkarımda bulunur.",
+                "c) Bu görev ve sorumluluklara ilişkin değerlendirme yapar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Yaşadığım Yer Ve Ülkem",
+          "url": "https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/245",
+          "hours": 28,
+          "keyConcepts": [
+            "tarihî mekân",
+            "doğal güzellik",
+            "yönetim birimi",
+            "millî gün ve bayram",
+            "dinî gün ve bayram"
+          ],
+          "outcomes": [
+            {
+              "code": "HB.2.4.1",
+              "text": "Yakın çevresindeki tarihî mekân ve doğal güzellikleri belirleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "HB.2.4.2",
+              "text": "Yaşadığı yerin yönetim birimleriyle ilgili kaynaklardan bilgi toplayabilme",
+              "subSkills": [
+                "a) Bilgi toplayacağı kaynakları belirler",
+                "b) Belirlediği kaynaklardan bilgileri bulur",
+                "c) Kullanacağı kaynakların uygunluğunu açıklar",
+                "ç) Ulaştığı bilgileri kaydeder"
+              ]
+            },
+            {
+              "code": "HB.2.4.3",
+              "text": "Mustafa Kemal Atatürk'ün öğrencilik hayatını ifade edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "HB.2.4.4",
+              "text": "Millî gün ve bayramların önemini yorumlayabilme",
+              "subSkills": [
+                "a) Verilen örnekleri inceler",
+                "b) Örnekleri bağlamdan kopmadan özgün örneklere dönüştürür",
+                "c) Özgün örnekleri kendi cümleleriyle ifade eder"
+              ]
+            },
+            {
+              "code": "HB.2.4.5",
+              "text": "Dinî gün ve bayramların önemini yorumlayabilme",
+              "subSkills": [
+                "a) Verilen örnekleri inceler",
+                "b) Örnekleri bağlamdan kopmadan özgün örneklere dönüştürür",
+                "c) Özgün örnekleri kendi cümleleriyle ifade eder"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Doğa Ve Çevre",
+          "url": "https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/246",
+          "hours": 24,
+          "keyConcepts": [
+            "hava olayları",
+            "mevsimler",
+            "ana yönler",
+            "doğada yön bulma",
+            "afet",
+            "kaynak",
+            "tasarruf"
+          ],
+          "outcomes": [
+            {
+              "code": "HB.2.5.1",
+              "text": "Hava olayları ile mevsimler arasındaki ilişkiyi çözümleyebilme",
+              "subSkills": [
+                "a) Hava olayları ve mevsimlerin özelliklerini belirler.",
+                "b) Hava olayları ile mevsimler arasındaki bağlantıyı tespit eder."
+              ]
+            },
+            {
+              "code": "HB.2.5.2",
+              "text": "Doğal işaretlerden yararlanarak yön tayin edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "HB.2.5.3",
+              "text": "Afet önlemleriyle ilgili bilgi toplayabilme",
+              "subSkills": [
+                "a) Bilgi toplamada kullanılacak araçları seçer.",
+                "b) Seçtiği araçlarla afet önlemlerine dair bilgilere ulaşır.",
+                "c) Edindiği bilgilerin doğruluğunu kontrol eder.",
+                "ç) Elde ettiği bilgileri kayda geçirir."
+              ]
+            },
+            {
+              "code": "HB.2.5.4",
+              "text": "Doğal kaynakları tasarruflu kullanma davranışlarını günlük hayatına yansıtabilme",
+              "subSkills": [
+                "a) Kaynak kullanırken kendi davranışlarını gözden geçirir.",
+                "b) Kaynakların tasarruflu kullanımına dair çıkarımlar yapar.",
+                "c) Ulaştığı çıkarımları değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Bilim, Teknoloji Ve Sanat",
+          "url": "https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/308",
+          "hours": 18,
+          "keyConcepts": [
+            "bilim",
+            "teknoloji",
+            "değişim",
+            "süreklilik",
+            "sanat"
+          ],
+          "outcomes": [
+            {
+              "code": "HB.2.6.1",
+              "text": "Bilim insanlarının bilime katkıları hakkında kaynaklardan bilgi derleyebilme",
+              "subSkills": [
+                "a) Bilgi toplanacak kaynakları belirler.",
+                "b) Belirlediği kaynaklarda ilgili bilgileri bulur.",
+                "c) Ulaştığı kaynakların uygunluğunu açıklar.",
+                "ç) Kaynaklardan elde ettiği bilgileri kaydeder."
+              ]
+            },
+            {
+              "code": "HB.2.6.2",
+              "text": "Teknolojik bir ürünün zaman içindeki değişim ve sürekliliğini kanıtlara dayalı öngörebilme",
+              "subSkills": [
+                "a) Ürünün zaman içindeki değişimini kanıtlara dayanarak ilişkilendirir.",
+                "b) Ürünün gelecekteki değişimi hakkında çıkarım yapar."
+              ]
+            },
+            {
+              "code": "HB.2.6.3",
+              "text": "Sanatın gündelik hayattaki yerini tespit edebilme",
+              "subSkills": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 3,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/hayat-bilgisi-dersi/4",
+      "themes": [
+        {
+          "order": 1,
+          "name": "Ben Ve Okulum",
+          "url": "https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/310",
+          "hours": 18,
+          "keyConcepts": [
+            "güçlü ve gelişime açık alan",
+            "iş birliği",
+            "hak",
+            "sorumluluk"
+          ],
+          "outcomes": [
+            {
+              "code": "HB.3.1.1",
+              "text": "Güçlü ve gelişime açık olduğu alanlara karar verebilme",
+              "subSkills": [
+                "a) Karar vermeye yönelik amacını belirler.",
+                "b) Karar vermeye yönelik bilgi toplar.",
+                "c) Karar vermeye yönelik seçenekler oluşturur.",
+                "ç) Seçenekler üzerinde mantıksal denetleme yapar.",
+                "d) Seçenekler arasından seçim yapar.",
+                "e) Verdiği karara yönelik yansıtma yapar."
+              ]
+            },
+            {
+              "code": "HB.3.1.2",
+              "text": "Okuldaki hak ve sorumluluklarına uygun davranabilme",
+              "subSkills": []
+            },
+            {
+              "code": "HB.3.1.3",
+              "text": "Çocuk haklarını tanıtmak için fikirlerini eyleme dönüştürebilme",
+              "subSkills": [
+                "a) Çocuk haklarını tanıtmak için plan yapar.",
+                "b) Yaptığı planı uygular.",
+                "c) Uyguladığı planı değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Sağlığım Ve Güvenliğim",
+          "url": "https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/311",
+          "hours": 18,
+          "keyConcepts": [
+            "sağlık",
+            "güvenlik",
+            "trafik kuralları"
+          ],
+          "outcomes": [
+            {
+              "code": "HB.3.2.1",
+              "text": "Sağlığını korumaya yönelik davranışlarını düzenleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "HB.3.2.2",
+              "text": "Güvenliğini tehdit eden bir durumla karşılaştığında yapılması gerekenleri sorgulayabilme",
+              "subSkills": [
+                "a) Güvenliğini tehdit eden durumların neler olduğunu belirler.",
+                "b) Tehlikeli bir durumda ne yapılması gerektiğine dair sorular yöneltir.",
+                "c) Tehdit durumunda izlenecek adımlar hakkında bilgi edinir.",
+                "ç) Edindiği bilgilerin doğruluğunu değerlendirir.",
+                "d) Tehdit durumunda yapılması gerekenler konusunda çıkarımda bulunur."
+              ]
+            },
+            {
+              "code": "HB.3.2.3",
+              "text": "Trafik kurallarına uymanın önemine ilişkin özgün ürünler sentezleyebilme",
+              "subSkills": [
+                "a) Trafik kurallarına uymanın önemini saptar.",
+                "b) Trafik kurallarına uyma ile güvenlik arasında bağlantı kurar.",
+                "c) Bu konuya ilişkin özgün bir ürün ortaya koyar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Ailem Ve Toplum",
+          "url": "https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/313",
+          "hours": 18,
+          "keyConcepts": [
+            "aile",
+            "toplum",
+            "yardımlaşma",
+            "meslek"
+          ],
+          "outcomes": [
+            {
+              "code": "HB.3.3.1",
+              "text": "Aile ile toplum arasındaki ilişkiyi çözümleyebilir.",
+              "subSkills": [
+                "a) Ailenin ve toplumun niteliklerini tespit eder.",
+                "b) Aile ile toplum arasındaki bağlantıyı belirler."
+              ]
+            },
+            {
+              "code": "HB.3.3.2",
+              "text": "Yardıma muhtaç bireylerin yaşamını kolaylaştırmak için fikirlerini eyleme dönüştürebilir.",
+              "subSkills": [
+                "a) Yardıma ihtiyacı olanların yaşamını kolaylaştırmak için plan hazırlar.",
+                "b) Hazırladığı planı uygular.",
+                "c) Uyguladığı planı değerlendirir."
+              ]
+            },
+            {
+              "code": "HB.3.3.3",
+              "text": "Mesleklerin toplumsal yaşamdaki önemini yorumlayabilir.",
+              "subSkills": [
+                "a) Mesleklerin toplumdaki önemine dair verilen örnekleri inceler.",
+                "b) Bu örnekleri bağlamdan kopmadan özgün örneklere dönüştürür.",
+                "c) Oluşturduğu özgün örnekleri kendi sözleriyle ifade eder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Yaşadığım Yer Ve Ülkem",
+          "url": "https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/320",
+          "hours": 18,
+          "keyConcepts": [
+            "tarihî mekân",
+            "doğal güzellik",
+            "yönetim şekli",
+            "kişilik özellikleri",
+            "birlik ve beraberlik"
+          ],
+          "outcomes": [
+            {
+              "code": "HB.3.4.1",
+              "text": "Yakın çevredeki tarihî mekân ve doğal güzelliklerin korunmasının önemini fark etme.",
+              "subSkills": []
+            },
+            {
+              "code": "HB.3.4.2",
+              "text": "Ülkemizin yönetim şekline ilişkin kaynaklardan bilgi toplama.",
+              "subSkills": [
+                "a) Yönetim şekline ilişkin bilgi toplayacağı kaynakları belirler.",
+                "b) Belirlediği kaynaklardan yönetim şekline ilişkin bilgileri bulur.",
+                "c) Ulaştığı kaynakların uygunluğunu açıklar.",
+                "ç) Kaynaklardan ulaştığı bilgileri kaydeder."
+              ]
+            },
+            {
+              "code": "HB.3.4.3",
+              "text": "Mustafa Kemal Atatürk'ün kişilik özelliklerini ve başarılarını çözümleme.",
+              "subSkills": [
+                "a) Atatürk'ün kişilik özelliklerini ve elde ettiği başarıları belirler.",
+                "b) Kişilik özellikleri ile başarıları arasında ilişki kurar."
+              ]
+            },
+            {
+              "code": "HB.3.4.4",
+              "text": "Millî birlik ve beraberliğin ülkeye katkılarını açıklama.",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Doğa Ve Çevre",
+          "url": "https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/324",
+          "hours": 18,
+          "keyConcepts": [
+            "doğadaki varlıklar",
+            "kroki",
+            "yön",
+            "afet",
+            "çevre",
+            "sürdürülebilirlik"
+          ],
+          "outcomes": [
+            {
+              "code": "HB.3.5.1",
+              "text": "Doğadaki varlıkların insan yaşamı için önemini yorumlayabilme",
+              "subSkills": [
+                "a) Doğadaki varlıkların insan hayatı için önemine dair verilen örnekleri inceler.",
+                "b) Verilen örnekleri konudan sapmadan özgün örneklere dönüştürür.",
+                "c) Oluşturduğu özgün örnekleri kendi cümleleriyle ifade eder."
+              ]
+            },
+            {
+              "code": "HB.3.5.2",
+              "text": "Krokiyi kullanarak bulunduğu yerin konumunu algılayabilme",
+              "subSkills": [
+                "a) Kroki yardımıyla bulunduğu yerin konumunu tespit eder.",
+                "b) Bulunduğu yerin konumunu görsel olarak temsil eder.",
+                "c) Bulunduğu yerin konumsal özelliklerini kısaca özetler."
+              ]
+            },
+            {
+              "code": "HB.3.5.3",
+              "text": "Afetlere yönelik yapılması gerekenleri sınıflandırabilme",
+              "subSkills": [
+                "a) Afet öncesi, anı ve sonrasına göre yapılacakların ölçütlerini belirler.",
+                "b) Yapılacakları afet öncesi, anı ve sonrası olarak ayrıştırır.",
+                "c) Yapılacakları afet öncesi, anı ve sonrası olarak tasnif eder.",
+                "ç) Yapılacakları afet öncesi, anı ve sonrası olarak etiketler."
+              ]
+            },
+            {
+              "code": "HB.3.5.4",
+              "text": "Çevresel sürdürülebilirlik için kaynaklardan bilgi toplayabilme",
+              "subSkills": [
+                "a) Çevresel sürdürülebilirlik için bilgi alınacak kaynakları belirler.",
+                "b) Belirlediği kaynaklardan ilgili bilgileri bulur.",
+                "c) Ulaştığı kaynakların uygunluğunu açıklar.",
+                "ç) Kaynaklardan ulaştığı bilgileri kaydeder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Bilim, Teknoloji Ve Sanat",
+          "url": "https://tymm.meb.gov.tr/hayat-bilgisi-dersi/unite/328",
+          "hours": 13,
+          "keyConcepts": [
+            "bilim",
+            "teknoloji",
+            "sanat"
+          ],
+          "outcomes": [
+            {
+              "code": "HB.3.6.1",
+              "text": "Bilimsel gelişmelerin günlük hayattaki etkisini yorumlar.",
+              "subSkills": [
+                "a) Verilen bilimsel gelişme örneklerini inceler.",
+                "b) Bu örnekleri bağlamdan kopmadan özgün örneklere dönüştürür.",
+                "c) Oluşturduğu özgün örnekleri kendi cümleleriyle ifade eder."
+              ]
+            },
+            {
+              "code": "HB.3.6.2",
+              "text": "Teknolojik gelişmelerin günlük hayata etkisini çözümler.",
+              "subSkills": [
+                "a) Teknolojik gelişmelerin gündelik hayattaki etkisini tespit eder.",
+                "b) Teknoloji ile gündelik yaşam arasında bağlantı kurar."
+              ]
+            },
+            {
+              "code": "HB.3.6.3",
+              "text": "Sanatçıların sanata katkıları hakkında kaynaklardan bilgi toplar.",
+              "subSkills": [
+                "a) Sanatçıların katkılarına dair bilgi alınacak kaynakları belirler.",
+                "b) Belirlenen kaynaklardan ilgili bilgileri bulur.",
+                "c) Kaynakların uygunluğunu açıklar.",
+                "ç) Kaynaklardan ulaştığı bilgileri kaydeder."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Resmî ders adı: Hayat Bilgisi Dersi (1-3. sınıflar; 4. sınıf yok, yerini Sosyal Bilgiler ve Fen Bilimleri alır). Program PDF: https://tymm.meb.gov.tr/assets/pdf/hayat-bilgisi-dersi_20260902_111246_099.pdf. Bu derste temalar 'Öğrenme Alanı' olarak adlandırılır (her sınıfta aynı 6 öğrenme alanı). Kod yapısı HB.<sınıf>.<öğrenme alanı>.<no>. Bazı öğrenme çıktılarında sitede harfli süreç bileşeni yoktur (doğrulandı); bunlar boş liste ile gösterildi. Metinler kısa Türkçe açıklamalardır (birebir alıntı değil)."
+}

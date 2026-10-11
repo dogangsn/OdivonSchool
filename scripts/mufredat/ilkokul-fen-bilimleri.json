@@ -1,0 +1,666 @@
+{
+  "level": "ilkokul",
+  "subject": "Fen Bilimleri",
+  "programUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ders/fen-bilimleri-dersi",
+  "grades": [
+    {
+      "grade": 3,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/fen-bilimleri-dersi/4",
+      "themes": [
+        {
+          "order": 1,
+          "name": "Bilimsel Keşif Yolculuğu",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/327",
+          "hours": 9,
+          "keyConcepts": [
+            "bilim insanı",
+            "bilimsel bilgi",
+            "tahmin etme",
+            "gözlem yapma",
+            "model oluşturma",
+            "deney yapma",
+            "veri toplama",
+            "veri kaydetme",
+            "çıkarım yapma",
+            "karşılaştırma yapma",
+            "iletişim kurma"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.3.1.1",
+              "text": "Bilimsel bilgiye ulaşma yollarını sorgulayarak değerlendirebilme",
+              "subSkills": [
+                "a) Merak ettiği bir bilimsel konuyu belirleyip tanımlar.",
+                "b) Konuyla ilgili sorular geliştirir.",
+                "c) Sorularını yanıtlamak için bilgi toplar.",
+                "ç) Bilgiye ulaşma yollarının uygunluğunu değerlendirir.",
+                "d) Topladığı bilgilerle bilgiye ulaşma yolları hakkında çıkarım yapar."
+              ]
+            },
+            {
+              "code": "FB.3.1.2",
+              "text": "Bilim insanlarının özellikleri hakkında genelleme yapabilme",
+              "subSkills": [
+                "a) Bilim insanlarına dair bilgi derler.",
+                "b) Bilim insanlarının ortak özelliklerini saptar.",
+                "c) Ortak olmayan özelliklerini ayırt eder.",
+                "ç) Örüntülere dayanarak özellikleri hakkında önerme ileri sürer."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Canlılar Dünyasına Yolculuk",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/331",
+          "hours": 15,
+          "keyConcepts": [
+            "hareket",
+            "üreme",
+            "solunum",
+            "boşaltım",
+            "beslenme",
+            "büyüme",
+            "mikroskop",
+            "mantar",
+            "bitki",
+            "hayvan",
+            "duyu organları",
+            "uyaran",
+            "algı",
+            "tepki",
+            "yaşam döngüsü"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.3.2.1",
+              "text": "Canlıları mikroskobik canlılar, mantarlar, bitkiler ve hayvanlar olarak sınıflandırabilme.",
+              "subSkills": [
+                "a) Canlılar arasındaki benzerlik ve farklılıkları belirler.",
+                "b) Canlıları özelliklerine göre ayırır.",
+                "c) Canlıları gruplara yerleştirir.",
+                "ç) Canlıları uygun sınıf adlarıyla etiketler."
+              ]
+            },
+            {
+              "code": "FB.3.2.2",
+              "text": "Canlıların çevrelerini farklı yollarla algılamalarıyla ilgili bilimsel çıkarım yapabilme.",
+              "subSkills": [
+                "a) Canlıların çevreyi algılama biçimlerinin niteliklerini tanımlar.",
+                "b) Duyu organlarının işlevlerine ilişkin veri toplayıp kaydeder.",
+                "c) Farklı algılama biçimlerine dair verileri yorumlayarak değerlendirir."
+              ]
+            },
+            {
+              "code": "FB.3.2.3",
+              "text": "Canlıların yaşam döngülerini açıklamada tümevarımsal akıl yürütebilme.",
+              "subSkills": [
+                "a) Yaşam döngüleriyle ilgili örüntüleri bulur.",
+                "b) Yaşam döngüleriyle ilgili genellemeler yapar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Yer Bilimciler İş Başında",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/454",
+          "hours": 12,
+          "keyConcepts": [
+            "kayaç",
+            "maden",
+            "mineral",
+            "fosil",
+            "fosil bilim (paleontoloji)",
+            "fosil bilimci (paleontolog)"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.3.3.1",
+              "text": "Kayaç, maden ve minerallerle ilgili tümdengelimli akıl yürütme yapabilme.",
+              "subSkills": [
+                "a) Kayaç, maden ve mineralleri belirler.",
+                "b) Kayaç, maden ve mineraller arasında ilişki kurar.",
+                "c) Kayaç, maden ve mineraller arasında genelden genele veya genelden özele çıkarım yapar."
+              ]
+            },
+            {
+              "code": "FB.3.3.2",
+              "text": "Fosil oluşumuyla ilgili sentez yapabilme.",
+              "subSkills": [
+                "a) Fosil oluşumunu gösteren sürecin bütün ve parçalarını belirler.",
+                "b) Süreci oluşturan aşamalar arasında ilişki kurar.",
+                "c) Fosil oluşum aşamalarını uygun sırayla bir bütün hâline getirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Maddeyi Tanıyalım, Karıştırıp Ayıralım",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/334",
+          "hours": 15,
+          "keyConcepts": [
+            "katı",
+            "sıvı",
+            "gaz",
+            "karışım",
+            "eleme",
+            "süzme",
+            "dinlendirme",
+            "yüzdürme",
+            "mıknatısla ayırma",
+            "atık",
+            "ayrıştırma"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.3.4.1",
+              "text": "Çevredeki maddeleri hâllerine göre sınıflandırabilme.",
+              "subSkills": [
+                "a) Maddelerin niteliklerini tanımlar.",
+                "b) Maddeleri niteliklerine göre ayırır.",
+                "c) Maddeleri hâllerine göre gruplandırır.",
+                "ç) Maddeleri hâllerine göre katı, sıvı ve gaz olarak etiketler."
+              ]
+            },
+            {
+              "code": "FB.3.4.2",
+              "text": "Günlük yaşamdaki karışımların ayrılmasında uygun yöntemlerle deney yapabilme.",
+              "subSkills": [
+                "a) Karışımların ayrılmasına yönelik deney tasarlar.",
+                "b) Deneyle ilgili ölçme ve veri analizi yapar."
+              ]
+            },
+            {
+              "code": "FB.3.4.3",
+              "text": "Atıkların ayrıştırılmasına ilişkin problem çözebilme.",
+              "subSkills": [
+                "a) Problemi yapılandırır.",
+                "b) Problemi özetler.",
+                "c) Çözüm önerilerini gözleme ya da veriye dayalı tahmin eder.",
+                "ç) Çözüme yönelik önermeler üzerinden akıl yürütür.",
+                "d) Çözüme yönelik yansıtma ve değerlendirmede bulunur."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Hareketi Keşfediyorum",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/336",
+          "hours": 12,
+          "keyConcepts": [
+            "kuvvet",
+            "hızlanma",
+            "yavaşlama",
+            "dönme",
+            "sallanma",
+            "yön değiştirme",
+            "itme",
+            "çekme",
+            "durdurma",
+            "hareket ettirme",
+            "şekil değiştirme"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.3.5.1",
+              "text": "Varlıkların hareket durumlarını gözleme dayalı olarak tahmin edebilme",
+              "subSkills": [
+                "a) Hareket durumlarıyla ilgili ön gözlem ve deneyimlerini ilişkilendirir.",
+                "b) Hareket durumlarına ilişkin çıkarım yapar.",
+                "c) Hareket durumlarının sonuçlarına ilişkin yargıda bulunur."
+              ]
+            },
+            {
+              "code": "FB.3.5.2",
+              "text": "Kuvvetin varlıklar üzerindeki etkilerini bilimsel gözlemle tahmin edebilme",
+              "subSkills": [
+                "a) Hareket ve şekil değiştirmenin nedenine ilişkin ön bilgi ve deneyimleriyle önerme oluşturur.",
+                "b) Hareket ve şekil değiştirmenin nedenine ilişkin gözleme dayalı önermeleri karşılaştırır.",
+                "c) Tahminlerini gözlem verilerinden sonuç çıkararak temellendirir.",
+                "ç) Gözlemlenmemiş durumlarda kuvvetin etkisi hakkında tahminde bulunur.",
+                "d) Kuvvetin etkilerine ilişkin tahminlerinin geçerliliğini sorgular."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Yaşamımızı Kolaylaştıran Elektrik",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/339",
+          "hours": 12,
+          "keyConcepts": [
+            "elektrik",
+            "güvenlik",
+            "elektrik tasarrufu"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.3.6.1",
+              "text": "Bazı araç gereçlerin elektrikli olduğuna dair bilimsel çıkarım yapabilme",
+              "subSkills": [
+                "a) Çeşitli araç gereçlerin özelliklerini belirler",
+                "b) Elektrikli araç gereçlere ilişkin veri toplar ve kaydeder",
+                "c) Elektrikli araç gereçlere ait verileri yorumlar"
+              ]
+            },
+            {
+              "code": "FB.3.6.2",
+              "text": "Elektrikli araç gereçlerin güvenli kullanımına dair eleştirel düşünebilme",
+              "subSkills": [
+                "a) Güvenli kullanımla ilgili verilen bir durumu inceler",
+                "b) Kullanımda güvenliği nasıl sağlayabileceği konusunda muhakeme yürütür",
+                "c) Muhakemesiyle elde ettiği sonuçları gözden geçirir"
+              ]
+            },
+            {
+              "code": "FB.3.6.3",
+              "text": "Elektriği tasarruflu kullanma konusunda bilimsel veriye dayalı tahmin yapabilme",
+              "subSkills": [
+                "a) Veri ve ön bilgilerden yola çıkarak tasarruf önerisi geliştirir",
+                "b) Tasarrufa ilişkin önerilerini sayısal ölçümlerle temellendirir",
+                "c) Yaptığı hesaplamalara dayanarak öngörüde bulunur",
+                "ç) Öngörülerinin güvenilirliğini değerlendirir"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Toprağı Tanıyorum, Tarımı Keşfediyorum",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/342",
+          "hours": 12,
+          "keyConcepts": [
+            "toprak",
+            "tohum",
+            "fide",
+            "tarım"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.3.7.1",
+              "text": "Toprağın oluşumu ve yapısıyla ilgili bilimsel gözlem yapabilme",
+              "subSkills": [
+                "a) Toprağın oluşum ve yapısına dair niteliklerini tanımlar.",
+                "b) Toprağın yapısıyla ilgili veri toplayıp kaydeder.",
+                "c) Topladığı toprak yapısı verilerini açıklar."
+              ]
+            },
+            {
+              "code": "FB.3.7.2",
+              "text": "Bir bitkinin yetişmesi için gerekenler hakkında genelleme yapabilme",
+              "subSkills": [
+                "a) Çevredeki tarım ürünlerinin yetiştirilmesi hakkında araştırma yapıp bilgi toplar.",
+                "b) Bitki yetiştirmek için gerekli ortak özellikleri belirler.",
+                "c) Farklı bitkilerin yetiştirilmesinde ortak olmayan özellikleri belirler.",
+                "ç) Bir bitki yetiştirmek için yapılması gerekenlere dair öneriler sunar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Canlıların Yaşam Alanlarına Yolculuk",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/344",
+          "hours": 15,
+          "keyConcepts": [
+            "yaşam alanı",
+            "canlı çeşitliliği"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.3.8.1",
+              "text": "Canlıların yaşam alanlarının özelliklerini belirlemek için kanıt kullanabilme",
+              "subSkills": [
+                "a) Yaşam alanı özelliklerine ilişkin veri toplayıp kaydeder.",
+                "b) Yaşam alanlarına ilişkin veri setleri oluşturur.",
+                "c) Yaşam alanı özelliklerini veriye dayalı olarak açıklar."
+              ]
+            },
+            {
+              "code": "FB.3.8.2",
+              "text": "Yaşam alanındaki canlı çeşitliliğini operasyonel olarak tanımlayabilme",
+              "subSkills": [
+                "a) Yaşam alanının özelliklerini tanımlar.",
+                "b) Yaşam alanındaki canlı çeşitliliğine ilişkin ölçüm yapar.",
+                "c) Canlı çeşitliliğinin tanımını yapar."
+              ]
+            },
+            {
+              "code": "FB.3.8.3",
+              "text": "Yaşam alanlarının korunması için yapılacakları sorgulayabilme",
+              "subSkills": [
+                "a) Merak ettiği konuyu tanımlar.",
+                "b) İlgili konu hakkında sorular sorar.",
+                "c) İlgili konu hakkında bilgi toplar.",
+                "ç) Toplanan bilgilerin doğruluğunu değerlendirir.",
+                "d) Toplanan bilgiler üzerinde çıkarım yapar."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/fen-bilimleri-dersi/5",
+      "themes": [
+        {
+          "order": 1,
+          "name": "Bilime Yolculuk",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/352",
+          "hours": 12,
+          "keyConcepts": [
+            "bilim",
+            "bilimsel bilgi",
+            "bilgi kaynağı"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.4.1.1",
+              "text": "Bilimin özelliklerine ilişkin deneyimlerini yansıtabilme.",
+              "subSkills": [
+                "a) Bilimle ilgili bilgi ve deneyimini gözden geçirir.",
+                "b) Bilimin özellikleri ile ilgili çıkarım yapar.",
+                "c) Bilimin özelliklerine ilişkin çıkarımları değerlendirir."
+              ]
+            },
+            {
+              "code": "FB.4.1.2",
+              "text": "Bilgi kaynağının güvenilirliğini sorgulayabilme.",
+              "subSkills": [
+                "a) Merak ettiği bilimsel bir konuyu tanımlar.",
+                "b) İlgili konu hakkında sorular sorar.",
+                "c) Teknolojik araçlar ve diğer kaynaklarla konu hakkında bilgi toplar.",
+                "ç) Topladığı bilgilerden yola çıkarak bilginin doğruluğunu değerlendirir.",
+                "d) Değerlendirmelerine dayanarak bilgi kaynaklarının güvenilirliği hakkında çıkarım yapar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Sağlıklı Besleniyorum",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/356",
+          "hours": 15,
+          "keyConcepts": [
+            "karbohidrat",
+            "protein",
+            "yağ",
+            "su",
+            "vitamin",
+            "mineral",
+            "sağlıklı yaşam"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.4.2.1",
+              "text": "Besinlerdeki içerikleri ayırt etmek için deney yapabilme",
+              "subSkills": [
+                "a) Protein, karbohidrat, yağ ve su içeriğini ayırt etmek için deney tasarlar.",
+                "b) Yaptığı deneyde veri analizi yapar."
+              ]
+            },
+            {
+              "code": "FB.4.2.2",
+              "text": "Besinlerde vitamin ve/veya mineral bulunduğuna dair genelleme yapabilme",
+              "subSkills": [
+                "a) Besinlerdeki vitamin ve minerallerle ilgili bilgi toplar.",
+                "b) Besinlerdeki ortak özellikleri belirler.",
+                "c) Besinlerdeki ortak olmayan özellikleri belirler.",
+                "ç) Örüntülere dayanarak vitamin ve/veya mineral bulunduğu önermesinde bulunur."
+              ]
+            },
+            {
+              "code": "FB.4.2.3",
+              "text": "Besinlerin işlevlerine ilişkin hipotez oluşturabilme",
+              "subSkills": [
+                "a) Besinlerin işlevleriyle ilgili problemi tanımlar.",
+                "b) İşlevler ile vücuttaki görevler arasındaki neden-sonuç ilişkilerini belirler.",
+                "c) Besin içerikleriyle ilgili verilen değişkenleri belirler.",
+                "ç) Besinlerin işlevleriyle ilgili değişkenleri kontrol eder.",
+                "d) Besin işlevleri ile sağlıklı yaşam arasındaki ilişkiye yönelik önerme sunar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Dünya’mızı Keşfedelim",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/359",
+          "hours": 15,
+          "keyConcepts": [
+            "Dünya",
+            "hava küre",
+            "su küre",
+            "taş küre (iç çekirdek, dış çekirdek, manto)",
+            "canlı küre",
+            "dönme",
+            "dolanma",
+            "gün",
+            "yıl"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.4.3.1",
+              "text": "Dünya'nın şekliyle ilgili gözleme dayalı bilimsel tahminler yapabilme.",
+              "subSkills": [
+                "a) Ön bilgi ve deneyimlerine dayanarak Dünya'nın şekli hakkında önerme oluşturur.",
+                "b) Gözleme dayalı önermeleri karşılaştırır.",
+                "c) Tahminlerini temellendirmek için gözlem verilerinden sonuç çıkarır.",
+                "ç) Veriye dayalı tahminde bulunur.",
+                "d) Verilere dayalı tahminlerin geçerliğini sorgular."
+              ]
+            },
+            {
+              "code": "FB.4.3.2",
+              "text": "Dünya'nın yapısıyla ilgili bilimsel model oluşturabilme.",
+              "subSkills": [
+                "a) Dünya'nın yapısını açıklamak için model önerir.",
+                "b) Yeni kanıtlarla modeli geliştirir."
+              ]
+            },
+            {
+              "code": "FB.4.3.3",
+              "text": "Dünya'nın hareketlerini gözlemlerine dayanarak tahmin edebilme.",
+              "subSkills": [
+                "a) Dünya'nın hareketleriyle ilgili önceki gözlem ve/veya deneyimini ilişkilendirir.",
+                "b) Dünya'nın hareketlerine ilişkin çıkarım yapar.",
+                "c) Dünya'nın hareketlerinin sonuçlarına ilişkin yargıda bulunur."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Maddenin Değişimi",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/361",
+          "hours": 12,
+          "keyConcepts": [
+            "ısı alma",
+            "ısı verme",
+            "hâl değişimi",
+            "erime",
+            "donma",
+            "buharlaşma",
+            "yoğunlaşma (yoğuşma)"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.4.4.1",
+              "text": "Maddelerin hâl değişimi hakkında bilimsel çıkarım yapabilme.",
+              "subSkills": [
+                "a) Maddelerin hâllerine ilişkin niteliklerini tanımlar.",
+                "b) Hâl değişimine yönelik verileri kaydeder.",
+                "c) Hâl değişimine ilişkin verileri yorumlayarak değerlendirir."
+              ]
+            },
+            {
+              "code": "FB.4.4.2",
+              "text": "Isı etkisiyle maddelerin değişimine yönelik deney yapabilme.",
+              "subSkills": [
+                "a) Isı etkisiyle değişime yönelik deney tasarlar.",
+                "b) Isı etkisiyle değişime yönelik ölçme verilerini analiz eder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Mıknatısı Keşfediyorum",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/363",
+          "hours": 12,
+          "keyConcepts": [
+            "mıknatıs",
+            "kutup",
+            "itme",
+            "çekme"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.4.5.1",
+              "text": "Mıknatısın kutupları ve birbirleriyle etkileşimleri hakkında tümevarımsal akıl yürütme.",
+              "subSkills": [
+                "a) Mıknatıs çeşitlerinin kutupları ve etkileşimleriyle ilgili örüntü bulur.",
+                "b) Mıknatısın kutupları ve etkileşimleri hakkında genelleme yapar."
+              ]
+            },
+            {
+              "code": "FB.4.5.2",
+              "text": "Mıknatısın etki ettiği maddelere ilişkin bilimsel gözleme dayalı tahmin yapma.",
+              "subSkills": [
+                "a) Ön bilgi ve deneyimlerine dayanarak önerme oluşturur.",
+                "b) Gözleme dayalı önermeleri karşılaştırır.",
+                "c) Tahminlerini temellendirmek için gözlem verilerinden sonuç çıkarır.",
+                "ç) Gözlemlenmemiş durumlara ilişkin tahminde bulunur.",
+                "d) Tahminlerin geçerliğini sorgular."
+              ]
+            },
+            {
+              "code": "FB.4.5.3",
+              "text": "Mıknatısın kullanım alanlarına yönelik bilimsel olarak sorgulama yapma.",
+              "subSkills": [
+                "a) Kullanım alanlarına yönelik bir soru veya problem tanımlar.",
+                "b) Soru veya problemini cevaplamak için bir model geliştirir.",
+                "c) Modelini oluşturmaya yönelik araştırma planlayarak gerçekleştirir.",
+                "ç) Model ile ilgili verileri analiz ederek yorumlar.",
+                "d) Model ile ilgili sorunlara kanıta dayalı açıklama yaparak çözüm üretir.",
+                "e) Modelini değerlendirerek paylaşır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Elektrik Ve Enerji Kaynakları",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/364",
+          "hours": 12,
+          "keyConcepts": [
+            "anahtar",
+            "ampul",
+            "kablo",
+            "duy",
+            "pil",
+            "elektrik devresi",
+            "yenilenebilir enerji",
+            "yenilenemeyen enerji"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.4.6.1",
+              "text": "Basit bir elektrik devresi kurmak için bilimsel sorgulama yapabilme",
+              "subSkills": [
+                "a) Devre elemanlarıyla ilgili soru veya problemi tanımlar",
+                "b) Soruyu yanıtlamak için basit bir devre modeli geliştirir",
+                "c) Devre elemanları ve işlevleri hakkında araştırmayı planlayıp yürütür",
+                "ç) Devreye ilişkin verileri analiz edip yorumlar",
+                "d) Devrenin çalışmasına dair kanıta dayalı açıklama yapıp çözüm üretir",
+                "e) Çalışan devreye ilişkin bilgiyi değerlendirip paylaşır"
+              ]
+            },
+            {
+              "code": "FB.4.6.2",
+              "text": "Elektrik üretiminde enerji kaynaklarının kullanımı hakkında eleştirel düşünme",
+              "subSkills": [
+                "a) Enerji kaynaklarının elektrik üretimindeki kullanımıyla ilgili durumu sorgular",
+                "b) Kaynakların canlılar ve çevre üzerindeki etkileri hakkında akıl yürütür",
+                "c) Enerji kaynaklarının sürdürülebilirliğine dair çıkarımlarını yansıtır"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Işığı Tanıyalım",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/365",
+          "hours": 12,
+          "keyConcepts": [
+            "görme",
+            "ışık kaynağı",
+            "ışık kirliliği"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.4.7.1",
+              "text": "Görme olayında ışığın rolüne ilişkin deney yapabilme (tasarım, ölçme, veri analizi)",
+              "subSkills": [
+                "a) Görme olayında ışığın rolüne ilişkin bir deney tasarlar.",
+                "b) Bu deneyde ölçme yapar ve veri analizi gerçekleştirir."
+              ]
+            },
+            {
+              "code": "FB.4.7.2",
+              "text": "Doğal ve yapay ışık kaynaklarını karşılaştırabilme",
+              "subSkills": [
+                "a) Çevresindeki ışık kaynaklarının özelliklerini belirler.",
+                "b) Işık kaynaklarının benzerliklerini listeler.",
+                "c) Işık kaynaklarının farklılıklarını listeler."
+              ]
+            },
+            {
+              "code": "FB.4.7.3",
+              "text": "Işık kirliliğinin canlılara etkisine ilişkin problemleri çözebilme",
+              "subSkills": [
+                "a) Işık kirliliğinin canlılara etkisine ilişkin problemi yapılandırır.",
+                "b) Problemi özetler.",
+                "c) Çözüme yönelik gözleme veya mevcut bilgiye dayalı tahminde bulunur.",
+                "ç) Çözüm önerileri üzerinden akıl yürütür.",
+                "d) Çözüme ilişkin yansıtma ve değerlendirme yapar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Sürdürülebilir Yaşam Alanları",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/366",
+          "hours": 12,
+          "keyConcepts": [
+            "sürdürülebilirlik",
+            "enerji",
+            "verimlilik",
+            "gıda erişimi",
+            "temiz enerji"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.4.8.1",
+              "text": "Sürdürülebilir yaşam alanı kurmaya yönelik bilimsel sorgulama yürütebilme",
+              "subSkills": [
+                "a) Sürdürülebilir yaşam alanıyla ilgili soru veya problemi belirler.",
+                "b) Soruyu yanıtlamak için kullanabileceği bir yaşam alanı modeli geliştirir.",
+                "c) Konuyla ilgili araştırmayı planlar ve modelini gerçekleştirir.",
+                "ç) Yaşam alanının sürdürülebilirliğine dair verileri analiz edip yorumlar.",
+                "d) Alanın sürdürülebilir olup olmadığını kanıta dayalı açıklar ve çözüm üretir.",
+                "e) Sürdürülebilir yaşam alanıyla ilgili bilgiyi değerlendirip paylaşır."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Resmî ders adı: Fen Bilimleri Dersi (3-8. sınıflar tek program; burada yalnızca ilkokul 3. ve 4. sınıflar). Bu derste temalar 'Ünite' olarak adlandırılır. Kod yapısı FB.<sınıf>.<ünite>.<no>. Metinler kısa Türkçe açıklamalardır (birebir alıntı değil); kodlar, ünite adları ve ders saatleri sitedeki gibidir."
+}
