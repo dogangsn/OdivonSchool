@@ -1,0 +1,1275 @@
+{
+  "level": "lise",
+  "subject": "Fizik",
+  "programUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ders/fizik-dersi",
+  "grades": [
+    {
+      "grade": 9,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/fizik-dersi/11",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Ünite: Fizik Bilimi Ve Kariyer Keşfi",
+          "url": "https://tymm.meb.gov.tr/fizik-dersi/unite/43",
+          "hours": 8,
+          "keyConcepts": [
+            "fizik bilimi",
+            "bilimsel araştırma merkezi"
+          ],
+          "outcomes": [
+            {
+              "code": "FİZ.9.1.1",
+              "text": "Fizik biliminin tanımına ilişkin tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Fizik biliminin diğer disiplinlerle ilişkilerini tespit eder.",
+                "b) Bu ilişkilerden yola çıkarak fizik bilimini tanımlar."
+              ]
+            },
+            {
+              "code": "FİZ.9.1.2",
+              "text": "Fizik biliminin alt dallarını sınıflandırabilme",
+              "subSkills": [
+                "a) Alt dalların niteliklerini belirler.",
+                "b) Alt dalları niteliklerine göre ayırt eder.",
+                "c) Alt dalları niteliklerine göre gruplandırır.",
+                "ç) Alt dalları çalışma alanlarıyla eşleştirip adlandırır."
+              ]
+            },
+            {
+              "code": "FİZ.9.1.3",
+              "text": "Fizik bilimine katkıda bulunan bilim insanlarının deneyimlerini yansıtabilme",
+              "subSkills": [
+                "a) Bilim insanlarının bakış açısı, çalışma biçimi ve bilime etkilerini inceler.",
+                "b) Bu incelemelerden deneyime dayalı çıkarımlar yapar.",
+                "c) Ulaştığı çıkarımları değerlendirir."
+              ]
+            },
+            {
+              "code": "FİZ.9.1.4",
+              "text": "Bilim ve teknoloji kurumlarında fizikle ilişkili kariyer olanaklarını sorgulayabilme",
+              "subSkills": [
+                "a) Fizikle ilişkili çalışma ve mesleklere dair merak ettiği konuları belirler.",
+                "b) Bu çalışma ve meslekler hakkında sorular sorar.",
+                "c) Bu konularda bilgi toplar.",
+                "ç) Topladığı bilgilerin doğruluğunu değerlendirir.",
+                "d) Fizikten yararlanan meslekler hakkında çıkarım yapar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Ünite: Kuvvet Ve Hareket",
+          "url": "https://tymm.meb.gov.tr/fizik-dersi/unite/57",
+          "hours": 24,
+          "keyConcepts": [
+            "temel nicelik",
+            "türetilmiş nicelik",
+            "skaler nicelik",
+            "vektörel nicelik",
+            "bileşke vektör",
+            "kuvvet",
+            "referans noktası",
+            "konum",
+            "alınan yol",
+            "yer değiştirme",
+            "sürat",
+            "anlık sürat",
+            "ortalama sürat",
+            "hız",
+            "anlık hız",
+            "ortalama hız",
+            "ivme",
+            "öteleme hareketi",
+            "dönme hareketi",
+            "titreşim hareketi"
+          ],
+          "outcomes": [
+            {
+              "code": "FİZ.9.2.1",
+              "text": "SI birim sistemindeki temel ve türetilmiş nicelikleri niteliklerine göre sınıflandırabilme.",
+              "subSkills": [
+                "a) Temel ve türetilmiş niceliklerin niteliklerini tanımlar.",
+                "b) Nicelikleri niteliklerine göre ayrıştırır.",
+                "c) Nicelikleri niteliklerine göre gruplandırır.",
+                "ç) Nicelikleri temel ya da türetilmiş nicelik olarak adlandırır."
+              ]
+            },
+            {
+              "code": "FİZ.9.2.2",
+              "text": "Skaler ve vektörel nicelikleri özellikleri bakımından karşılaştırabilme.",
+              "subSkills": [
+                "a) Skaler ve vektörel niceliklerin özelliklerini belirler.",
+                "b) Benzerliklerini listeler.",
+                "c) Farklılıklarını listeler."
+              ]
+            },
+            {
+              "code": "FİZ.9.2.3",
+              "text": "Aynı doğrultudaki vektörlerin yön ve büyüklüklerine yönelik bilimsel çıkarım yapabilme.",
+              "subSkills": [
+                "a) Aynı doğrultudaki vektörlerin yön ve büyüklüklerini tanımlar.",
+                "b) Yön ve büyüklüklere ilişkin verileri toplayıp kaydeder.",
+                "c) Eşit, zıt ve gerçek sayıyla çarpılmış vektörlere ilişkin değerlendirme yapar."
+              ]
+            },
+            {
+              "code": "FİZ.9.2.4",
+              "text": "Vektörlerin uç uca ekleme ve paralelkenar yöntemiyle toplanmasına ilişkin tümevarımsal akıl yürütebilme.",
+              "subSkills": [
+                "a) Toplama yöntemlerinde kullanılan örüntüleri bulur.",
+                "b) Uç uca ekleme, paralelkenar ve bileşenlere ayırmaya ilişkin genelleme yapar."
+              ]
+            },
+            {
+              "code": "FİZ.9.2.5",
+              "text": "Doğadaki temel kuvvetleri özellikleri, benzerlikleri ve farklılıkları bakımından karşılaştırabilme.",
+              "subSkills": [
+                "a) Temel kuvvetlere ilişkin özellikleri belirler.",
+                "b) Temel kuvvetlere ilişkin benzerlikleri listeler.",
+                "c) Temel kuvvetlere ilişkin farklılıkları listeler."
+              ]
+            },
+            {
+              "code": "FİZ.9.2.6",
+              "text": "Hareketin temel kavramlarının tanımlarına yönelik tümevarımsal akıl yürütebilme.",
+              "subSkills": [
+                "a) Hareket kavramlarına ilişkin görseller arasındaki benzerlikleri bulur.",
+                "b) Hareketin temel kavramlarına ilişkin genellemeler yapar."
+              ]
+            },
+            {
+              "code": "FİZ.9.2.7",
+              "text": "Hareket türlerini ortak özelliklerine göre sınıflandırabilme.",
+              "subSkills": [
+                "a) Hareket türlerinin niteliklerini belirler.",
+                "b) Hareket türlerini ortak özelliklerine göre ayrıştırır.",
+                "c) Hareket türlerini ortak özelliklerine göre gruplandırır.",
+                "ç) Oluşturduğu grupları adlandırır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Ünite: Akışkanlar",
+          "url": "https://tymm.meb.gov.tr/fizik-dersi/unite/65",
+          "hours": 18,
+          "keyConcepts": [
+            "basınç",
+            "kaldırma kuvveti"
+          ],
+          "outcomes": [
+            {
+              "code": "FİZ.9.3.1",
+              "text": "Basınca yönelik bilimsel çıkarımlar yapabilme",
+              "subSkills": [
+                "a) Basıncı etkileyen faktörleri belirler.",
+                "b) Basınçla ilgili topladığı verileri kayda geçirir.",
+                "c) Verilerden elde ettiği matematiksel modelle basınca dair çıkarımlar yapar."
+              ]
+            },
+            {
+              "code": "FİZ.9.3.2",
+              "text": "Durgun sıvılarda basınca yönelik bilimsel çıkarımlar yapabilme",
+              "subSkills": [
+                "a) Durgun sıvılarda basıncı etkileyen faktörleri tanımlar.",
+                "b) Durgun sıvılarda basınçla ilgili verileri kaydeder.",
+                "c) Elde edilen modelle durgun sıvı basıncına ilişkin çıkarım yapar."
+              ]
+            },
+            {
+              "code": "FİZ.9.3.3",
+              "text": "Sıvılarda basıncın günlük hayattaki kullanımına dair sorgulama yapabilme",
+              "subSkills": [
+                "a) Sıvı basıncının günlük kullanımıyla ilgili merak ettiği konuyu seçer.",
+                "b) Bu konuya ilişkin sorular sorar.",
+                "c) Konuyla ilgili bilgi toplar.",
+                "ç) Topladığı bilgilerin doğruluğunu değerlendirir.",
+                "d) Topladığı bilgilerden çıkarımlar yapar."
+              ]
+            },
+            {
+              "code": "FİZ.9.3.4",
+              "text": "Açık hava basıncına ilişkin çıkarım yapabilme",
+              "subSkills": [
+                "a) Sıvı basıncı bilgisine dayanarak açık hava basıncı hakkında hipotez kurar.",
+                "b) Sıvı basıncı ile açık hava basıncı arasındaki ilişkileri sıralar.",
+                "c) Sıvı basıncı ile açık hava basıncını karşılaştırır.",
+                "ç) Açık hava basıncına ilişkin öneriler sunar.",
+                "d) Açık hava basıncı bilgilerini farklı durumlarda değerlendirir."
+              ]
+            },
+            {
+              "code": "FİZ.9.3.5",
+              "text": "Kaldırma kuvvetini etkileyen değişkenleri belirlemeye yönelik deney yapabilme",
+              "subSkills": [
+                "a) Kaldırma kuvvetini etkileyen değişkenleri belirlemek için deney tasarlar.",
+                "b) Verilerle kaldırma kuvvetinin bağlı olduğu değişkenleri çözümler."
+              ]
+            },
+            {
+              "code": "FİZ.9.3.6",
+              "text": "Kaldırma kuvveti ile sıvı basıncından kaynaklanan kuvvet arasındaki ilişkiye dair çıkarım yapabilme",
+              "subSkills": [
+                "a) Kaldırma kuvveti ile yer değiştiren sıvının ağırlığı arasında hipotez kurar.",
+                "b) Deney verilerinden kaldırma kuvvetinin matematiksel modelini bulur.",
+                "c) Kaldırma kuvveti ve sıvı basıncına ait modelleri karşılaştırır.",
+                "ç) Bu iki kuvvet arasındaki ilişkiye dair önermelerde bulunur.",
+                "d) Bu ilişkiye dair değerlendirme yapar."
+              ]
+            },
+            {
+              "code": "FİZ.9.3.7",
+              "text": "Akışkanın kesit alanı, sürati ve basıncı arasındaki ilişkiye dair tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Akışkanın sürati ile basıncı arasındaki ilişkiyi gözlemleyerek belirler.",
+                "b) Sürat-basınç ilişkisini günlük hayat örneklerinden genelleştirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Ünite: Enerji",
+          "url": "https://tymm.meb.gov.tr/fizik-dersi/unite/82",
+          "hours": 18,
+          "keyConcepts": [
+            "ısı",
+            "sıcaklık",
+            "iç enerji",
+            "öz ısı",
+            "ısı sığası",
+            "hâl değişimi",
+            "ısıl denge",
+            "ısı aktarımı"
+          ],
+          "outcomes": [
+            {
+              "code": "FİZ.9.4.1",
+              "text": "İç enerjinin ısı ve sıcaklıkla ilişkisi hakkında tümevarımsal akıl yürütebilme.",
+              "subSkills": [
+                "a) Isı, sıcaklık ve iç enerjiyle ilgili görselleri inceler.",
+                "b) İç enerjinin ısı ve sıcaklıkla ilişkisini bulur.",
+                "c) İç enerji ile ısı ve sıcaklık arasındaki ilişkiyi genelleştirir."
+              ]
+            },
+            {
+              "code": "FİZ.9.4.2",
+              "text": "Isı, öz ısı, ısı sığası ve sıcaklık farkı arasındaki matematiksel modele ilişkin tümevarımsal akıl yürütebilme.",
+              "subSkills": [
+                "a) İlişkiyi deneyle keşfederek matematiksel modele ulaşır.",
+                "b) Modeli farklı durumlar için hesaplayarak genelleştirir."
+              ]
+            },
+            {
+              "code": "FİZ.9.4.3",
+              "text": "Saf maddede hâl değişimi için alınan veya verilen ısıyı etkileyen değişkenler hakkında bilimsel çıkarım yapabilme.",
+              "subSkills": [
+                "a) Hâl değişimini etkileyen nitelikleri belirler.",
+                "b) Bu niteliklerle ilgili veri toplayıp kaydeder.",
+                "c) Verileri matematiksel model aracılığıyla yorumlar ve değerlendirir."
+              ]
+            },
+            {
+              "code": "FİZ.9.4.4",
+              "text": "Isıl denge durumu hakkında bilimsel gözlem yapabilme.",
+              "subSkills": [
+                "a) Isıl dengeye ilişkin nitelikleri tanımlar.",
+                "b) Farklı sıcaklıktaki maddelerin ısıl dengeye ulaşma verilerini kaydeder.",
+                "c) Isıl dengeye ulaşma sürecine ilişkin verileri açıklar."
+              ]
+            },
+            {
+              "code": "FİZ.9.4.5",
+              "text": "Isı aktarım yollarını sınıflandırabilme.",
+              "subSkills": [
+                "a) Isı aktarım yollarının niteliklerini belirler.",
+                "b) Nitelikleri benzerlik ve farklılıklarına göre ayrıştırır.",
+                "c) Isı aktarım yollarını benzerliklerine göre gruplandırır.",
+                "ç) Gruplandırdığı ısı aktarım yollarını adlandırır."
+              ]
+            },
+            {
+              "code": "FİZ.9.4.6",
+              "text": "Katı maddelerde ısı iletim hızını etkileyen etmenler üzerine yansıtma yapabilme.",
+              "subSkills": [
+                "a) Isı iletim hızına ilişkin deneyimleri gözden geçirir.",
+                "b) Isı iletim hızını etkileyen etmenlere ilişkin çıkarım yapar.",
+                "c) Bu çıkarımları değerlendirir."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/fizik-dersi/12",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Ünite: Kuvvet Ve Hareket",
+          "url": "https://tymm.meb.gov.tr/fizik-dersi/unite/100",
+          "hours": 14,
+          "keyConcepts": [
+            "Sabit Hızlı Hareket",
+            "Bir Boyutta Sabit İvmeli Hareket"
+          ],
+          "outcomes": [
+            {
+              "code": "FİZ.10.1.1",
+              "text": "Sabit hızlı yatay hareketi tümevarımsal akıl yürütmeyle inceleyebilme",
+              "subSkills": [
+                "a) Konum, yer değiştirme, hız ve zamana ilişkin gözlem yapar.",
+                "b) Grafiklerden hız, sürat, yer değiştirme ve yol modellerini bulur.",
+                "c) Hız, sürat, yer değiştirme ve alınan yol modellerini genelleştirir."
+              ]
+            },
+            {
+              "code": "FİZ.10.1.2",
+              "text": "İvme ve hız değişimi arasındaki ilişkiyi tümevarımla keşfedip genelleyebilme",
+              "subSkills": [
+                "a) İvme ile hız değişimi arasındaki ilişkiyi keşfeder.",
+                "b) İvme ile hız değişimi arasındaki ilişkiyi genelleştirir."
+              ]
+            },
+            {
+              "code": "FİZ.10.1.3",
+              "text": "Sabit ivmeli yatay hareketin grafik ve matematiksel modellerini yorumlayabilme",
+              "subSkills": [
+                "a) Sabit ivmeli yatay hareket grafiklerini inceler.",
+                "b) Grafikleri birbirine dönüştürerek matematiksel modellere ulaşır.",
+                "c) Grafik ve matematiksel modeller arasındaki ilişkiyi kendi sözleriyle ifade eder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Ünite: Enerji",
+          "url": "https://tymm.meb.gov.tr/fizik-dersi/unite/108",
+          "hours": 16,
+          "keyConcepts": [
+            "iş",
+            "enerji",
+            "güç",
+            "enerji biçimi",
+            "mekanik enerji",
+            "mekanik enerjinin korunumu",
+            "yenilenebilen enerji",
+            "yenilenemeyen enerji"
+          ],
+          "outcomes": [
+            {
+              "code": "FİZ.10.2.1",
+              "text": "Kuvvet-yer değiştirme grafiği üzerinden iş hakkında tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Kuvvet, yer değiştirme ve iş ilişkisini matematiksel modelle ifade eder.",
+                "b) Bu ilişki hakkında genel bir sonuca ulaşır."
+              ]
+            },
+            {
+              "code": "FİZ.10.2.2",
+              "text": "İş, enerji ve güç kavramlarıyla ilgili çıkarım yapabilme",
+              "subSkills": [
+                "a) Mevcut bilgisine dayanarak hipotez oluşturur.",
+                "b) İş, enerji ve güç arasındaki ilişkileri sıralar.",
+                "c) İş, enerji ve güç kavramlarını kıyaslar.",
+                "ç) İş ve güç arasındaki ilişkiye dair önermelerde bulunur.",
+                "d) Önermelerini matematiksel modele çevirerek sınar."
+              ]
+            },
+            {
+              "code": "FİZ.10.2.3",
+              "text": "Enerji biçimlerini karşılaştırabilme",
+              "subSkills": [
+                "a) Enerji biçimlerinin özelliklerini belirler.",
+                "b) Enerji biçimleri arasındaki benzerlikleri sıralar.",
+                "c) Enerji biçimleri arasındaki farklılıkları sıralar."
+              ]
+            },
+            {
+              "code": "FİZ.10.2.4",
+              "text": "Mekanik enerjiyi bileşenlerine ayırarak çözümleyebilme",
+              "subSkills": [
+                "a) Mekanik enerjinin bileşenlerini belirler.",
+                "b) Bileşenler arasındaki matematiksel ilişkiyi belirler."
+              ]
+            },
+            {
+              "code": "FİZ.10.2.5",
+              "text": "Yenilenebilen ve yenilenemeyen enerji kaynaklarını karşılaştırabilme",
+              "subSkills": [
+                "a) İki tür enerji kaynağının özelliklerini belirler.",
+                "b) Kaynakların avantajlarını sıralar.",
+                "c) Kaynakların dezavantajlarını sıralar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Ünite: Elektrik",
+          "url": "https://tymm.meb.gov.tr/fizik-dersi/unite/111",
+          "hours": 22,
+          "keyConcepts": [
+            "elektrik akımı",
+            "potansiyel fark",
+            "direnç",
+            "Ohm Yasası",
+            "kısa devre",
+            "eşdeğer direnç",
+            "topraklama"
+          ],
+          "outcomes": [
+            {
+              "code": "FİZ.10.3.1",
+              "text": "Elektrik devresi-su tesisatı analojisiyle potansiyel fark, akım ve direnç tanımlarına analojik akıl yürütebilme.",
+              "subSkills": [
+                "a) Devre ve su tesisatının bileşenlerini gözlemler.",
+                "b) Bileşenler arasındaki benzerlik ve farklılıkları belirler.",
+                "c) Benzerliklerden potansiyel fark, akım ve direnç tanımlarına çıkarım yapar."
+              ]
+            },
+            {
+              "code": "FİZ.10.3.2",
+              "text": "Elektrik yükünün hareketi üzerinden elektrik akımı kavramını çözümleyebilme.",
+              "subSkills": [
+                "a) İletkende akım oluşumuyla ilgili değişkenleri belirler.",
+                "b) Akımı oluşturan değişkenler arasındaki ilişkiyi belirler."
+              ]
+            },
+            {
+              "code": "FİZ.10.3.3",
+              "text": "Ohm Yasası ile ilgili tümevarımsal akıl yürütebilme.",
+              "subSkills": [
+                "a) Akım, direnç ve potansiyel fark ilişkisini deneyle keşfedip modele ulaşır.",
+                "b) Ohm Yasası'nın matematiksel modeli üzerinden genelleme yapar."
+              ]
+            },
+            {
+              "code": "FİZ.10.3.4",
+              "text": "Dirençlerin bağlanma türüne göre eşdeğer dirençle ilgili bilimsel çıkarım yapabilme.",
+              "subSkills": [
+                "a) Seri, paralel ve birleşik bağlanma türlerini tanımlar.",
+                "b) Bağlanma türü ile eşdeğer direnç ilişkisi için veri toplar ve kaydeder.",
+                "c) Verileri yorumlayıp çıkarımlarını matematiksel modellerle test eder."
+              ]
+            },
+            {
+              "code": "FİZ.10.3.5",
+              "text": "Üreteçlerin bağlanma türüne göre devreye sağladığı potansiyel farkla ilgili bilimsel çıkarım yapabilme.",
+              "subSkills": [
+                "a) Üreteçlerin seri ve paralel bağlanma türlerini tanımlar.",
+                "b) Potansiyel fark, ana kol akımı ve tükenme süreleri için veri toplar ve kaydeder.",
+                "c) Elde ettiği verileri yorumlayarak değerlendirir."
+              ]
+            },
+            {
+              "code": "FİZ.10.3.6",
+              "text": "Elektrik akımının tehlikelerine karşı alınacak önlemler hakkında bilgi toplayabilme.",
+              "subSkills": [
+                "a) Bilgiye ulaşmak için kullanacağı araçları belirler.",
+                "b) Belirlediği araçla önlemlere ilişkin bilgileri bulur.",
+                "c) Ulaştığı bilgileri doğrular.",
+                "ç) Ulaştığı bilgileri kaydeder."
+              ]
+            },
+            {
+              "code": "FİZ.10.3.7",
+              "text": "Topraklama olayının önemini sorgulayabilme.",
+              "subSkills": [
+                "a) Topraklama olayını tanımlar.",
+                "b) Topraklamayla ilgili sorular sorar.",
+                "c) Topraklama hakkında bilgi toplar.",
+                "ç) Topladığı bilgilerin doğruluğunu değerlendirir.",
+                "d) Topraklamanın önemi hakkında çıkarım yapar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Ünite: Dalgalar",
+          "url": "https://tymm.meb.gov.tr/fizik-dersi/unite/122",
+          "hours": 16,
+          "keyConcepts": [
+            "periyodik hareket",
+            "salınım hareketi",
+            "dalga tepesi",
+            "dalga çukuru",
+            "dalga boyu",
+            "frekans",
+            "periyot",
+            "genlik",
+            "dalgaların yayılma sürati",
+            "mekanik dalga",
+            "elektromanyetik dalga",
+            "titreşim doğrultusu",
+            "doğal titreşim frekansı",
+            "yansıma",
+            "kırılma",
+            "deprem",
+            "rezonans",
+            "odak noktası",
+            "merkez üssü",
+            "depremin şiddeti",
+            "depremin büyüklüğü"
+          ],
+          "outcomes": [
+            {
+              "code": "FİZ.10.4.1",
+              "text": "Periyodik hareketlere ilişkin deneyimlerini yansıtabilme",
+              "subSkills": [
+                "a) Periyodik hareketlere ilişkin deneyimlerini gözden geçirir.",
+                "b) Deneyimlerinden çıkarım yapar.",
+                "c) Ulaştığı çıkarımı değerlendirir."
+              ]
+            },
+            {
+              "code": "FİZ.10.4.2",
+              "text": "Dalgaların temel kavramlarına ilişkin operasyonel tanımlama yapabilme",
+              "subSkills": [
+                "a) Temel kavramlara ilişkin nitelikleri tanımlar.",
+                "b) Bu niteliklerin ölçümünü yapar.",
+                "c) Temel kavramları niteliklerine bağlı olarak tanımlar."
+              ]
+            },
+            {
+              "code": "FİZ.10.4.3",
+              "text": "Dalgaları özelliklerine göre sınıflandırabilme",
+              "subSkills": [
+                "a) Dalgaların özelliklerini belirler.",
+                "b) Dalgaları titreşim doğrultusu ve taşıdığı enerjiye göre ayrıştırır.",
+                "c) Dalgaları bu ölçütlere göre gruplandırır.",
+                "ç) Dalgaları enine, boyuna, mekanik ve elektromanyetik olarak adlandırır."
+              ]
+            },
+            {
+              "code": "FİZ.10.4.4",
+              "text": "Dalgaların yayılma süratini etkileyen etmenlere ilişkin bilimsel gözleme dayalı tahmin yapabilme",
+              "subSkills": [
+                "a) Yayılma süratine etki eden etmenleri tahmin eder.",
+                "b) Farklı ortamlardaki yayılma süratlerini karşılaştırır.",
+                "c) Yayılma süratlerine ilişkin sonuç çıkarır.",
+                "ç) Elektromanyetik dalgaların yayılma sürati hakkında tahminde bulunur.",
+                "d) Tahminlerin geçerliliğini sorgular."
+              ]
+            },
+            {
+              "code": "FİZ.10.4.5",
+              "text": "Su dalgalarında yansıma ve kırılma ile ilgili tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Yansıma ve kırılma olaylarına ilişkin gözlemler yapar.",
+                "b) Bu olaylardaki açılar arasında ilişki kurar.",
+                "c) Yansıma ve kırılmaya ilişkin genellemeler yapar."
+              ]
+            },
+            {
+              "code": "FİZ.10.4.6",
+              "text": "Rezonans ve depreme ilişkin kavramlar üzerinden depremi sorgulayabilme",
+              "subSkills": [
+                "a) Rezonans ve depremle ilişkili kavramları tanımlar.",
+                "b) Bu kavramlarla ilgili sorular sorar.",
+                "c) Bu kavramlar hakkında bilgi toplar.",
+                "ç) Toplanan bilgilerin doğruluğunu değerlendirir.",
+                "d) Bu kavramlar üzerinden depreme yönelik çıkarımlar yapar."
+              ]
+            },
+            {
+              "code": "FİZ.10.4.7",
+              "text": "Depremle ilgili bilimsel model oluşturabilme",
+              "subSkills": [
+                "a) Depremle ilgili bir model önerir.",
+                "b) Önerilen modeli geliştirir."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/fizik-dersi/13",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Ünite: Kuvvet Ve Hareket",
+          "url": "https://tymm.meb.gov.tr/fizik-dersi/unite/243",
+          "hours": 54,
+          "keyConcepts": [
+            "serbest düşme",
+            "eylemsizlik",
+            "etki-tepki kuvvetleri",
+            "serbest cisim diyagramı",
+            "sürtünme kuvveti",
+            "statik sürtünme kuvveti",
+            "kinetik sürtünme kuvveti",
+            "limit hız",
+            "düzgün çembersel hareket",
+            "çizgisel sürat",
+            "açısal hız",
+            "çizgisel hız",
+            "merkezcil ivme",
+            "açısal ivme",
+            "merkezcil kuvvet"
+          ],
+          "outcomes": [
+            {
+              "code": "FİZ.11.1.1",
+              "text": "Serbest düşme hareketi yapan cisimlerin ivmesine yönelik tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Serbest düşen cisimleri gözlemleyerek ivme ve hız değişimi ilişkisini bulur.",
+                "b) Serbest düşen cisimlerin ivmesi hakkında genelleme yapar."
+              ]
+            },
+            {
+              "code": "FİZ.11.1.2",
+              "text": "Serbest düşme hareketi ile ilgili kanıt kullanabilme",
+              "subSkills": [
+                "a) Serbest düşme ile ilgili verileri toplayarak kaydeder.",
+                "b) Serbest düşme ile ilgili veri setleri oluşturur.",
+                "c) Serbest düşme hareketini verilere dayalı olarak açıklar."
+              ]
+            },
+            {
+              "code": "FİZ.11.1.3",
+              "text": "İki boyutta sabit ivmeli hareket ile ilgili tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Hareketin bileşenleri ile sabit hızlı ve sabit ivmeli hareket ilişkisini bulur.",
+                "b) İki boyutta sabit ivmeli harekete yönelik genelleme yapar."
+              ]
+            },
+            {
+              "code": "FİZ.11.1.4",
+              "text": "Newton'ın Hareket Yasaları ile ilgili tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Bileşke kuvvet ile cisimlerin hareketi arasındaki ilişkileri keşfeder.",
+                "b) Newton'ın Hareket Yasalarına yönelik genellemeler yapar."
+              ]
+            },
+            {
+              "code": "FİZ.11.1.5",
+              "text": "Newton'ın Hareket Yasalarını serbest cisim diyagramını kullanarak yorumlayabilme",
+              "subSkills": [
+                "a) Bir cisme etki eden kuvvetleri belirler.",
+                "b) Kuvvetleri serbest cisim diyagramı üzerinde gösterir.",
+                "c) Serbest cisim diyagramıyla Newton'ın Hareket Yasalarını yeniden ifade eder."
+              ]
+            },
+            {
+              "code": "FİZ.11.1.6",
+              "text": "Statik ve kinetik sürtünme kuvvetlerini karşılaştırabilme",
+              "subSkills": [
+                "a) Statik ve kinetik sürtünme kuvvetlerinin özelliklerini belirler.",
+                "b) Benzerliklerini listeler.",
+                "c) Farklılıklarını listeler."
+              ]
+            },
+            {
+              "code": "FİZ.11.1.7",
+              "text": "Sürtünme kuvvetinin matematiksel modeline ilişkin tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Sürtünme kuvvetinin değişkenleri arasındaki ilişkiyi keşfedip modele ulaşır.",
+                "b) Farklı veri setleriyle hesaplama yaparak modeli genelleştirir."
+              ]
+            },
+            {
+              "code": "FİZ.11.1.8",
+              "text": "Limit hızı etkileyen değişkenler ile ilgili bilimsel çıkarım yapabilme",
+              "subSkills": [
+                "a) Limit hızı etkileyen değişkenleri tanımlar.",
+                "b) Bu değişkenlerle ilgili verileri toplayarak kaydeder.",
+                "c) Verileri yorumlayarak değerlendirir."
+              ]
+            },
+            {
+              "code": "FİZ.11.1.9",
+              "text": "Düzgün çembersel hareket yapan cisimlerin yörüngeleri ve hız vektörleri hakkında analojik akıl yürütebilme",
+              "subSkills": [
+                "a) Düzgün çembersel hareket yapan cisimlerin hareketlerini gözlemler.",
+                "b) Hareketlerin özelliklerini tespit eder.",
+                "c) Benzerliklerden yörünge ve hız vektörü hakkında çıkarım yapar."
+              ]
+            },
+            {
+              "code": "FİZ.11.1.10",
+              "text": "Düzgün çembersel hareketin değişkenleri arasındaki ilişkilerin matematiksel modellenmesine ilişkin tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Değişkenleri keşfederek aralarındaki ilişkileri matematiksel olarak modeller.",
+                "b) Farklı veri setleriyle hesaplama yaparak modelleri genelleştirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Ünite: Elektrik Ve Manyetizma",
+          "url": "https://tymm.meb.gov.tr/fizik-dersi/unite/248",
+          "hours": 48,
+          "keyConcepts": [
+            "elektriksel kuvvet",
+            "elektriksel alan",
+            "manyetik alan",
+            "manyetik kuvvet",
+            "manyetik akı",
+            "indüksiyon akımı",
+            "indüksiyon gerilimi",
+            "alternatif akım",
+            "transformatör"
+          ],
+          "outcomes": [
+            {
+              "code": "FİZ.11.2.1",
+              "text": "Yükler arasındaki elektriksel kuvvetin matematiksel modeline yönelik tümevarımsal akıl yürütebilme.",
+              "subSkills": [
+                "a) Kuvvetin bağlı olduğu değişkenler arasındaki ilişkiyi matematiksel olarak modeller.",
+                "b) Matematiksel model üzerinden genellemeler yapar."
+              ]
+            },
+            {
+              "code": "FİZ.11.2.2",
+              "text": "Elektriksel alanın matematiksel modeline yönelik tümevarımsal akıl yürütebilme.",
+              "subSkills": [
+                "a) Alanla ilgili etmenler arasındaki ilişkiyi matematiksel olarak modeller.",
+                "b) Matematiksel model üzerinden genellemeler yapar."
+              ]
+            },
+            {
+              "code": "FİZ.11.2.3",
+              "text": "Faraday kafesi ve kullanım alanları hakkında bilgi toplayabilme.",
+              "subSkills": [
+                "a) Bilgiye ulaşmak için kullanacağı kaynakları belirler.",
+                "b) Kaynaklardan ilgili bilgileri bulur.",
+                "c) Ulaşılan bilgileri doğrular.",
+                "ç) Ulaşılan bilgileri kaydeder."
+              ]
+            },
+            {
+              "code": "FİZ.11.2.4",
+              "text": "Mıknatısların birbiriyle etkileşimine yönelik bilimsel gözlem yapabilme.",
+              "subSkills": [
+                "a) Mıknatısların etkileşimiyle ilgili nitelikleri tanımlar.",
+                "b) Etkileşimle ilgili verileri toplayarak kaydeder.",
+                "c) Verileri manyetik alan çizgileriyle açıklar."
+              ]
+            },
+            {
+              "code": "FİZ.11.2.5",
+              "text": "Akım geçen düz iletken telin manyetik alanına ilişkin tümevarımsal akıl yürütebilme.",
+              "subSkills": [
+                "a) Manyetik alana ilişkin matematiksel modeli bulur.",
+                "b) Matematiksel modeli genelleştirir."
+              ]
+            },
+            {
+              "code": "FİZ.11.2.6",
+              "text": "Akım makarası merkez ekseninde oluşan manyetik alanın modeline yönelik tümevarımsal akıl yürütebilme.",
+              "subSkills": [
+                "a) Keşfettiği ilişkiyi matematiksel olarak modeller.",
+                "b) Matematiksel model üzerinden genelleme yapar."
+              ]
+            },
+            {
+              "code": "FİZ.11.2.7",
+              "text": "Elektromıknatısların kullanım alanlarına ilişkin bilgi toplayabilme.",
+              "subSkills": [
+                "a) Bilgiye ulaşmak için kullanacağı kaynakları belirler.",
+                "b) Kaynaklardan kullanım alanlarıyla ilgili bilgileri bulur.",
+                "c) Ulaştığı bilgilerin doğruluğunu belirler.",
+                "ç) Günlük hayattaki kullanım alanlarıyla ilgili bilgileri kaydeder."
+              ]
+            },
+            {
+              "code": "FİZ.11.2.8",
+              "text": "Manyetik alanda akım geçen düz tele etki eden kuvvetin modeline yönelik tümevarımsal akıl yürütebilme.",
+              "subSkills": [
+                "a) Kuvvetin etmenleri arasındaki ilişkiyi matematiksel olarak modeller.",
+                "b) Matematiksel model üzerinden genelleme yapar."
+              ]
+            },
+            {
+              "code": "FİZ.11.2.9",
+              "text": "Akım geçen tele etki eden kuvvet deneyimini elektrik motorlarının çalışma prensibine yansıtabilme.",
+              "subSkills": [
+                "a) Deneyimini gözden geçirir.",
+                "b) Dikdörtgen telin bir eksen etrafında dönmesi hakkında çıkarım yapar.",
+                "c) Çıkarımlarını elektrik motorlarının çalışma prensibi açısından değerlendirir."
+              ]
+            },
+            {
+              "code": "FİZ.11.2.10",
+              "text": "Manyetik akıya etki eden etmenleri çözümleyebilme.",
+              "subSkills": [
+                "a) Manyetik akıya etki eden etmenleri belirler.",
+                "b) Bu etmenler arasındaki ilişkiyi belirler."
+              ]
+            },
+            {
+              "code": "FİZ.11.2.11",
+              "text": "İndüksiyon geriliminin matematiksel modeline ilişkin tümevarımsal akıl yürütebilme.",
+              "subSkills": [
+                "a) Etmenler arasındaki ilişkiyi matematiksel olarak modeller.",
+                "b) Matematiksel model üzerinden genellemeler yapar."
+              ]
+            },
+            {
+              "code": "FİZ.11.2.12",
+              "text": "İndüklenme sonucu oluşan alternatif akım hakkında bilimsel çıkarım yapabilme.",
+              "subSkills": [
+                "a) Alternatif akımı etkileyen etmenleri belirler.",
+                "b) Etmenler arasındaki ilişki için veri toplayıp kaydeder.",
+                "c) Topladığı verileri yorumlar ve değerlendirir."
+              ]
+            },
+            {
+              "code": "FİZ.11.2.13",
+              "text": "Transformatörün yapısı ve kullanım alanlarına yönelik bilimsel çıkarım yapabilme.",
+              "subSkills": [
+                "a) Transformatörün niteliklerini deney yaparak tanımlar.",
+                "b) Kullanım alanlarına yönelik verileri kaydeder.",
+                "c) Verilerden kullanım alanlarındaki rolünü yorumlar ve değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Ünite: Optik",
+          "url": "https://tymm.meb.gov.tr/fizik-dersi/unite/259",
+          "hours": 36,
+          "keyConcepts": [
+            "ışık şiddeti",
+            "ışık akısı",
+            "aydınlanma",
+            "merkez",
+            "tepe noktası",
+            "asal eksen",
+            "ortamın ışığı kırma indisi",
+            "Snell Yasası",
+            "tam yansıma",
+            "sınır açısı",
+            "görünür derinlik",
+            "fiber optik"
+          ],
+          "outcomes": [
+            {
+              "code": "FİZ.11.3.1",
+              "text": "Işık şiddeti, ışık akısı ve aydınlanma kavramlarına ilişkin bilimsel çıkarım yapabilme",
+              "subSkills": [
+                "a) Işık şiddeti, ışık akısı ve aydınlanma kavramlarını tanımlar.",
+                "b) Bu kavramlarla ilgili veri setlerini inceler.",
+                "c) Veri setleriyle kavramları yorumlayarak değerlendirir."
+              ]
+            },
+            {
+              "code": "FİZ.11.3.2",
+              "text": "Düzlem aynaları kullanarak bilimsel model oluşturabilme",
+              "subSkills": [
+                "a) Düzlem aynaları kullanarak bir model önerir.",
+                "b) Modeli yeni durumlara uyarlayarak geliştirir."
+              ]
+            },
+            {
+              "code": "FİZ.11.3.3",
+              "text": "Küresel aynaların özelliklerine ilişkin karşılaştırma yapabilme",
+              "subSkills": [
+                "a) Küresel aynaların özelliklerini ve yansıyan ışınların yolunu belirler.",
+                "b) Çukur ve tümsek aynaların benzer özelliklerini listeler.",
+                "c) Çukur ve tümsek aynaların farklı özelliklerini listeler."
+              ]
+            },
+            {
+              "code": "FİZ.11.3.4",
+              "text": "Küresel aynalarda görüntü oluşumu ile ilgili deney yapabilme",
+              "subSkills": [
+                "a) Görüntü oluşumu ile ilgili bir deney tasarlar.",
+                "b) Deney düzeneğinden veri toplayarak analiz eder."
+              ]
+            },
+            {
+              "code": "FİZ.11.3.5",
+              "text": "Işığın saydam ortamlardaki davranışını kullanarak deney yapabilme",
+              "subSkills": [
+                "a) Işığın saydam ortamlardaki davranışı ile ilgili deney tasarlar.",
+                "b) Deney düzeneğinden veri toplayarak analiz eder."
+              ]
+            },
+            {
+              "code": "FİZ.11.3.6",
+              "text": "Saydam ortamlarda görünür derinliğin değiştiğine ilişkin bilimsel gözlem yapabilme",
+              "subSkills": [
+                "a) Görünür derinliği etkileyen gerçek derinlik ve kırıcılık indisini tanımlar.",
+                "b) Görünür derinliğin bu değişkenlere bağlı değişimini gözlemleyip kaydeder.",
+                "c) Gözlemlerine dayanarak görünür derinliğin değişimini açıklar."
+              ]
+            },
+            {
+              "code": "FİZ.11.3.7",
+              "text": "Fiber optik malzemelerin yapısı, çalışma prensibi ve kullanım alanlarına ilişkin bilgi toplayabilme",
+              "subSkills": [
+                "a) Bilgiye ulaşmak için kullanacağı kaynakları belirler.",
+                "b) Belirlediği araçları kullanarak bilgi toplar.",
+                "c) Toplanan bilgiyi doğrular.",
+                "ç) Ulaşılan bilgileri kaydeder."
+              ]
+            },
+            {
+              "code": "FİZ.11.3.8",
+              "text": "Prizmalar ve birleşik sistemlerde ışığın izlediği yola ilişkin tümdengelimsel akıl yürütebilme",
+              "subSkills": [
+                "a) Kırılma yasalarının prizmalara uygulanabilirliğine dair hipotez kurup test eder.",
+                "b) Geçerli hipotezlerle tek renkli ışığın izleyeceği yolu açıklar."
+              ]
+            },
+            {
+              "code": "FİZ.11.3.9",
+              "text": "Merceklerin özelliklerine ilişkin karşılaştırma yapabilme",
+              "subSkills": [
+                "a) Merceklerin özelliklerini ve ışınların izlediği yolu belirler.",
+                "b) Yakınsak ve ıraksak merceklerin benzer özelliklerini listeler.",
+                "c) Yakınsak ve ıraksak merceklerin farklı özelliklerini listeler."
+              ]
+            },
+            {
+              "code": "FİZ.11.3.10",
+              "text": "Merceklerde görüntü oluşumu ile ilgili deney yapabilme",
+              "subSkills": [
+                "a) Merceklerde görüntü oluşumu ile ilgili deney tasarlar.",
+                "b) Deney düzeneğinden veri toplayarak analiz eder."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/fizik-dersi/14",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Ünite: Kuvvet Ve Hareket",
+          "url": "https://tymm.meb.gov.tr/fizik-dersi/unite/266",
+          "hours": 46,
+          "keyConcepts": [
+            "tork",
+            "denge",
+            "kütle merkezi",
+            "ağırlık merkezi",
+            "itme",
+            "momentum",
+            "eylemsizlik momenti",
+            "açısal momentum"
+          ],
+          "outcomes": [
+            {
+              "code": "FİZ.12.1.1",
+              "text": "Torkun matematiksel modeline ilişkin tümevarımsal akıl yürütebilme.",
+              "subSkills": [
+                "a) Torkun kuvvet, uzaklık ve uygulama açısı ile ilişkisini modeller.",
+                "b) Torkun matematiksel modelini genelleştirir."
+              ]
+            },
+            {
+              "code": "FİZ.12.1.2",
+              "text": "Denge, kütle merkezi ve ağırlık merkezi ile ilgili kanıt kullanabilme.",
+              "subSkills": [
+                "a) Denge, kütle merkezi ve ağırlık merkezi verilerini toplayıp kaydeder.",
+                "b) Bu kavramlara ilişkin veri setleri oluşturur.",
+                "c) Denge, kütle ve ağırlık merkezini veriye dayalı olarak açıklar."
+              ]
+            },
+            {
+              "code": "FİZ.12.1.3",
+              "text": "İtme ile momentum değişimi arasındaki ilişkiye dair bilimsel çıkarım yapabilme.",
+              "subSkills": [
+                "a) İtme-momentum değişimi ilişkisinin bileşenlerini tanımlar.",
+                "b) Bu ilişkiye yönelik verileri toplayıp kaydeder.",
+                "c) Bu verileri yorumlar."
+              ]
+            },
+            {
+              "code": "FİZ.12.1.4",
+              "text": "Momentumun korunumunu veriye dayalı olarak tahmin edebilme.",
+              "subSkills": [
+                "a) Momentumun korunumuna ilişkin verileri toplar.",
+                "b) Verilerle momentumun korunumuna dair hesaplamalar yapar.",
+                "c) Momentumun farklı uygulamalardaki korunumu hakkında yargıda bulunur."
+              ]
+            },
+            {
+              "code": "FİZ.12.1.5",
+              "text": "Eylemsizlik momentine yönelik tümevarımsal akıl yürütebilme.",
+              "subSkills": [
+                "a) Eylemsizlik momentinin etkilerini birden fazla durumda gözlemler.",
+                "b) Eylemsizlik momentinin bağlı olduğu değişkenlerle ilişkisini bulur.",
+                "c) Bu ilişkiyi değişkenler üzerinden genelleştirir."
+              ]
+            },
+            {
+              "code": "FİZ.12.1.6",
+              "text": "Açısal momentumun korunumuna yönelik tümevarımsal akıl yürütebilme.",
+              "subSkills": [
+                "a) Açısal momentumun bağlı olduğu değişkenleri gözlemler.",
+                "b) Açısal momentum ile bu değişkenler arasındaki ilişkiyi bulur.",
+                "c) Açısal momentumun korunumunu bu değişkenler üzerinden genelleştirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Ünite: Enerji",
+          "url": "https://tymm.meb.gov.tr/fizik-dersi/unite/268",
+          "hours": 36,
+          "keyConcepts": [
+            "yay sabiti",
+            "uzanım",
+            "yayın esneklik potansiyel enerjisi",
+            "sürtünme kuvvetinin yaptığı iş",
+            "enerjinin korunumu",
+            "verim"
+          ],
+          "outcomes": [
+            {
+              "code": "FİZ.12.2.1",
+              "text": "Yay sabitini tanımlamak için deney yapabilme",
+              "subSkills": [
+                "a) Kuvvet ve uzanıma göre yay sabitini bulacak bir deney tasarlar.",
+                "b) Farklı yaylar için kuvvet-uzanım grafikleri oluşturup analiz eder."
+              ]
+            },
+            {
+              "code": "FİZ.12.2.2",
+              "text": "Yay sabitinin matematiksel modeline ilişkin tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Kuvvet-uzanım örüntüsünü yay sabiti için matematiksel olarak modeller.",
+                "b) Matematiksel model üzerinden genelleme yapar."
+              ]
+            },
+            {
+              "code": "FİZ.12.2.3",
+              "text": "Yayın esneklik potansiyel enerjisinin matematiksel modeline ilişkin tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Kuvvet-uzanım grafiğinden esneklik potansiyel enerjisinin modeline ulaşır.",
+                "b) Farklı veri setleriyle hesaplama yapıp modeli genelleştirir."
+              ]
+            },
+            {
+              "code": "FİZ.12.2.4",
+              "text": "Sürtünme kuvvetinin yaptığı işe yönelik tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Sürtünme kuvvetinin yaptığı iş ile ilgili gözlem yapar.",
+                "b) Sürtünme kuvvetinin yaptığı işi matematiksel olarak modeller.",
+                "c) Bu işi matematiksel modelden yararlanarak genelleştirir."
+              ]
+            },
+            {
+              "code": "FİZ.12.2.5",
+              "text": "Enerjinin dönüşümü ve korunumuna ilişkin bilimsel çıkarım yapabilme",
+              "subSkills": [
+                "a) Enerjinin dönüşümü ve korunumuna ilişkin özellikleri tanımlar.",
+                "b) Enerjinin dönüşümü ve korunumuyla ilgili veri toplayıp kaydeder.",
+                "c) Enerjinin korunumunu matematiksel modellerle yorumlar ve değerlendirir."
+              ]
+            },
+            {
+              "code": "FİZ.12.2.6",
+              "text": "Mekanik sistemlerin verimi ile ilgili tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Sistemden alınan ve sisteme verilen enerjiyi belirler.",
+                "b) Verimle ilgili değişkenler arasındaki ilişkiyi belirler.",
+                "c) Hesaplamalar yaparak değişkenler arasındaki ilişkiyi genelleştirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Ünite: Dalgalar",
+          "url": "https://tymm.meb.gov.tr/fizik-dersi/unite/273",
+          "hours": 22,
+          "keyConcepts": [
+            "kırınım",
+            "girişim",
+            "yarıklar arası uzaklık",
+            "yarık genişliği",
+            "girişim deseni",
+            "elektromanyetik dalga spektrumu",
+            "elektromanyetik dalga enerjisi"
+          ],
+          "outcomes": [
+            {
+              "code": "FİZ.12.3.1",
+              "text": "Doğrusal su dalgalarında kırınım olayına ilişkin tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Doğrusal su dalgalarında kırınım olayını gözlemler.",
+                "b) Kırınımı frekans, dalga boyu ve yarık genişliği ile ilişkilendirir.",
+                "c) Kırınıma ilişkin genelleme yapar."
+              ]
+            },
+            {
+              "code": "FİZ.12.3.2",
+              "text": "Dairesel su dalgalarında girişim olayına ilişkin tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Dairesel su dalgalarında girişim olayını gözlemler.",
+                "b) Girişimi frekans, dalga boyu ve kaynaklar arası mesafe ile ilişkilendirir.",
+                "c) Girişime ilişkin genelleme yapar."
+              ]
+            },
+            {
+              "code": "FİZ.12.3.3",
+              "text": "Işıkta girişim ile ilgili deney yapabilme",
+              "subSkills": [
+                "a) Işığın girişimi ile ilgili deney tasarlar.",
+                "b) Deney düzeneğinden veri toplayarak girişimi analiz eder."
+              ]
+            },
+            {
+              "code": "FİZ.12.3.4",
+              "text": "Işıkta kırınım ile ilgili deney yapabilme",
+              "subSkills": [
+                "a) Işığın kırınımı ile ilgili deney tasarlar.",
+                "b) Deney düzeneğinden veri toplayarak kırınımı analiz eder."
+              ]
+            },
+            {
+              "code": "FİZ.12.3.5",
+              "text": "Elektromanyetik dalgaları sınıflandırabilme",
+              "subSkills": [
+                "a) Elektromanyetik dalgaların niteliklerini belirler.",
+                "b) Elektromanyetik dalgaları niteliklerine göre ayrıştırır.",
+                "c) Elektromanyetik dalgaları niteliklerine göre gruplandırır.",
+                "ç) Elektromanyetik dalgaları adlandırır."
+              ]
+            },
+            {
+              "code": "FİZ.12.3.6",
+              "text": "Işık renklerinin dalga boyları hakkında tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Işık renkleri ile dalga boyları arasındaki ilişkiyi bulur.",
+                "b) Işık renklerinin ana ışık renkleriyle ilişkisine dair genelleme yapar."
+              ]
+            },
+            {
+              "code": "FİZ.12.3.7",
+              "text": "Mekanik veya elektromanyetik dalgaların kullanıldığı cihazlardaki dalga türlerini sorgulayabilme",
+              "subSkills": [
+                "a) Merak ettiği cihazı belirler.",
+                "b) Cihaz hakkında sorular sorar.",
+                "c) Cihaz ile ilgili bilgi toplar.",
+                "ç) Topladığı bilgilerin doğruluğunu değerlendirir.",
+                "d) Topladığı bilgiler üzerinden çıkarım yapar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Ünite: Madde Ve Doğası",
+          "url": "https://tymm.meb.gov.tr/fizik-dersi/unite/279",
+          "hours": 34,
+          "keyConcepts": [
+            "fotoelektrik etki",
+            "foton",
+            "eşik enerjisi",
+            "yarı iletken",
+            "süper iletken",
+            "kuark",
+            "anti madde",
+            "büyük patlama",
+            "temel kuvvetler",
+            "atom",
+            "nükleon",
+            "fisyon",
+            "füzyon",
+            "iyonize radyasyon",
+            "iyonize olmayan radyasyon"
+          ],
+          "outcomes": [
+            {
+              "code": "FİZ.12.4.1",
+              "text": "Planck sabitinin modern fiziğin doğuşundaki etkisini çözümleyebilme.",
+              "subSkills": [
+                "a) Planck sabitinin etkisini siyah cisim ışıması üzerinden belirler.",
+                "b) Planck sabiti ile fotoelektrik etki arasındaki ilişkiyi belirler."
+              ]
+            },
+            {
+              "code": "FİZ.12.4.2",
+              "text": "Fotoelektrik etkinin koşullarına ve foton kavramına ilişkin tümevarımsal akıl yürütebilme.",
+              "subSkills": [
+                "a) Fotoelektrik etkinin bağlı olduğu değişkenleri gözlemler.",
+                "b) Fotoelektrik etkinin matematiksel modeline ulaşır.",
+                "c) Fotoelektrik etki ile foton kavramı arasındaki ilişkiyi genelleştirir."
+              ]
+            },
+            {
+              "code": "FİZ.12.4.3",
+              "text": "Fotoelektrik etkinin uygulamalarıyla ilgili sorgulama yapabilme.",
+              "subSkills": [
+                "a) Fotoelektrik etkiyi tanımlar.",
+                "b) Fotoelektrik etki hakkında sorular sorar.",
+                "c) Uygulamaları hakkında bilgi toplar.",
+                "ç) Toplanan bilgilerin doğruluğunu değerlendirir.",
+                "d) Toplanan bilgiler üzerinde çıkarım yapar."
+              ]
+            },
+            {
+              "code": "FİZ.12.4.4",
+              "text": "Yarı iletkenlerin kullanım alanlarını ve önemini sorgulayabilme.",
+              "subSkills": [
+                "a) Yarı iletkenleri tanımlar.",
+                "b) Yarı iletkenler hakkında sorular sorar.",
+                "c) Yarı iletkenler hakkında bilgi toplar.",
+                "ç) Toplanan bilgilerin doğruluğunu değerlendirir.",
+                "d) Kullanım alanları ve önemine yönelik çıkarım yapar."
+              ]
+            },
+            {
+              "code": "FİZ.12.4.5",
+              "text": "Süper iletkenlerin kullanım alanlarını ve önemini sorgulayabilme.",
+              "subSkills": [
+                "a) Süper iletkenleri tanımlar.",
+                "b) Süper iletkenler hakkında sorular sorar.",
+                "c) Süper iletkenler hakkında bilgi toplar.",
+                "ç) Toplanan bilgilerin doğruluğunu değerlendirir.",
+                "d) Kullanım alanları ve önemine yönelik çıkarım yapar."
+              ]
+            },
+            {
+              "code": "FİZ.12.4.6",
+              "text": "Standart modelin bileşenlerini çözümleyebilme.",
+              "subSkills": [
+                "a) Standart modeldeki temel parçacıkları belirler.",
+                "b) Temel parçacıklar ve temel kuvvetler arasındaki ilişkileri belirler."
+              ]
+            },
+            {
+              "code": "FİZ.12.4.7",
+              "text": "Modern Atom Teorisi ile ilgili bilgileri yapılandırabilme.",
+              "subSkills": [
+                "a) Atomun temel parçacıklarını inceleyip aralarındaki ilişkileri ortaya koyar.",
+                "b) Temel parçacık bilgileriyle atomun yapısını ortaya koyar."
+              ]
+            },
+            {
+              "code": "FİZ.12.4.8",
+              "text": "Nükleer enerjiyi sorgulayabilme.",
+              "subSkills": [
+                "a) Nükleer enerjiye ilişkin merak ettiği konuyu tanımlar.",
+                "b) Nükleer enerjiye ilişkin sorular sorar.",
+                "c) Nükleer enerji hakkında bilgi toplar.",
+                "ç) Bilgilerin doğruluğunu değerlendirir.",
+                "d) Toplanan bilgiler üzerinden çıkarımlar yapar."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Kaynak: tymm.meb.gov.tr Fizik Dersi (Ortaöğretim). Fizikte tema yerine 'Ünite' kullanılır. Kazanım ve süreç bileşeni metinleri resmi metnin kısa Türkçe özetidir (birebir alıntı değildir); ünite adları ve kodlar siteden alınmıştır."
+}

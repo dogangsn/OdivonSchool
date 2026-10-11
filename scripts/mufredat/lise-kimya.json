@@ -1,0 +1,1217 @@
+{
+  "level": "lise",
+  "subject": "Kimya",
+  "programUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ders/kimya-dersi",
+  "grades": [
+    {
+      "grade": 9,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/kimya-dersi/11",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Tema: Etkileşim",
+          "url": "https://tymm.meb.gov.tr/kimya-dersi/unite/92",
+          "hours": 22,
+          "keyConcepts": [
+            "atom yarıçapı",
+            "absorbsiyon",
+            "Aufbau ilkesi",
+            "elektronegatiflik",
+            "emisyon",
+            "Hund kuralı",
+            "iyonlaşma enerjisi",
+            "izoelektronik",
+            "kimya bilimi",
+            "kimyasal madde",
+            "küresel simetri",
+            "orbital",
+            "Pauli dışlama ilkesi",
+            "valans elektron"
+          ],
+          "outcomes": [
+            {
+              "code": "KİM.9.1.1",
+              "text": "Kimyasal ürünlerin niteliklerini gözlemleyerek kimya biliminin günlük hayata katkısına dair bilimsel çıkarım yapabilme",
+              "subSkills": [
+                "a) Ürünlerin nitelik farklarını gözlemlenebilir ortamlarda ortaya çıkarır.",
+                "b) Nitelik farklarını kimyayla ilişkilendirmek için veri toplayıp kaydeder.",
+                "c) Verileri yorumlayarak kimyanın günlük hayata katkısını değerlendirir."
+              ]
+            },
+            {
+              "code": "KİM.9.1.2",
+              "text": "Farklı ortamlarda kimyasal maddelerin kullanımından doğan problemleri çözebilme",
+              "subSkills": [
+                "a) Kimyasal madde kullanımından doğan problemleri yapılandırır.",
+                "b) Yapılandırdığı problemleri özetler.",
+                "c) Problemlerin çözümünü gözleme ya da veriye dayalı tahmin eder.",
+                "ç) Kullanım ve güvenlik temelinde problemler hakkında akıl yürütür.",
+                "d) Problemlerin çözümüne ilişkin değerlendirme yapar."
+              ]
+            },
+            {
+              "code": "KİM.9.1.3",
+              "text": "Atom teorilerindeki varsayımlarla bilimsel bilginin değişebilirliğine ilişkin çıkarım yapabilme",
+              "subSkills": [
+                "a) Atom teorilerinin gelişimindeki nitelik farklarını ortaya koyar.",
+                "b) Elektron, proton ve nötronun yük, kütle ve keşif verilerini kullanır.",
+                "c) Parçacık verilerini inceleyerek bilginin değişebilirliğini değerlendirir."
+              ]
+            },
+            {
+              "code": "KİM.9.1.4",
+              "text": "Atom orbitallerinin bağıl enerjilerine ilişkin veriye dayalı tahmin yapabilme",
+              "subSkills": [
+                "a) Verilere dayanarak orbitallerin bağıl enerjileri hakkında önermeler kurar.",
+                "b) Veriye dayalı ve dayalı olmayan önermeleri karşılaştırır.",
+                "c) Bağıl enerji diyagramlarından geçersiz çıkarımları ayıklar.",
+                "ç) Geçerli tahminlere dayanarak yargıya varır."
+              ]
+            },
+            {
+              "code": "KİM.9.1.5",
+              "text": "Elektronların atom orbitallerine yerleşimine ilişkin tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Elektronların orbitallere yerleşiminde örüntü bulur.",
+                "b) Örüntülerden bilimsel ilkelere yönelik genelleme yapar."
+              ]
+            },
+            {
+              "code": "KİM.9.1.6",
+              "text": "Elementlerin periyodik tablodaki yerlerine ilişkin tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Elektron dizilimi ile tablodaki yer arasındaki örüntüyü yeni örneklerde dener.",
+                "b) Periyodik tabloda yer belirleme kurallarına ilişkin genelleme yapar."
+              ]
+            },
+            {
+              "code": "KİM.9.1.7",
+              "text": "İyon oluşumuna ilişkin tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Atom ve iyon elektron dizilimleri arasındaki örüntüyü bulur.",
+                "b) İyon oluşumuna ilişkin genelleme yapar."
+              ]
+            },
+            {
+              "code": "KİM.9.1.8",
+              "text": "Elementlerin periyodik özelliklerinin periyodik tablodaki değişimini çözümleyebilme",
+              "subSkills": [
+                "a) Periyodik özellikleri etkileyen etmenleri belirler.",
+                "b) Bu etmenler ile periyodik tablodaki değişimler arasındaki ilişkiyi belirler."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Tema: Çeşitlilik",
+          "url": "https://tymm.meb.gov.tr/kimya-dersi/unite/121",
+          "hours": 38,
+          "keyConcepts": [
+            "adezyon kuvveti",
+            "akışkanlık",
+            "amorf katı",
+            "apolar kovalent",
+            "apolar molekül",
+            "buhar basıncı",
+            "dipol",
+            "dipol-dipol etkileşimi",
+            "dipol moment",
+            "hidrojen bağı",
+            "indüklenmiş dipol",
+            "iyonik bağ",
+            "iyonik katı",
+            "kaynama noktası",
+            "kılcallık (kapiler etki)",
+            "kohezyon kuvveti",
+            "kovalent bağ",
+            "kristal katı",
+            "London kuvveti",
+            "metalik bağ",
+            "metalik katı",
+            "moleküler katı",
+            "polar kovalent",
+            "polar molekül",
+            "van der Waals etkileşimi",
+            "viskozite",
+            "yüzey gerilimi"
+          ],
+          "outcomes": [
+            {
+              "code": "KİM.9.2.1",
+              "text": "Metalik bağın oluşumuna yönelik tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Pozitif metal iyonları ile serbest elektron denizi arasında örüntü oluşturur.",
+                "b) Metalik bağın oluşumuna ilişkin genelleme yapar."
+              ]
+            },
+            {
+              "code": "KİM.9.2.2",
+              "text": "İyonik bağın oluşumunu bilimsel gözleme dayalı tahmin edebilme",
+              "subSkills": [
+                "a) Katyon-anyon elektrostatik etkileşimine dair gözleme dayalı önermeler kurar.",
+                "b) Gözleme dayalı ve dayanmayan önermeleri karşılaştırır.",
+                "c) Tahminlerini desteklemek için gözlem verilerinden sonuç çıkarır.",
+                "ç) Gözlemlenmemiş iyonik etkileşim durumlarını tahmin eder.",
+                "d) Tahminlerinin geçerliliğini sorgular."
+              ]
+            },
+            {
+              "code": "KİM.9.2.3",
+              "text": "Kovalent bağın oluşumunu bilimsel gözleme dayalı tahmin edebilme",
+              "subSkills": [
+                "a) Ametal çekirdekleri ile ortak elektronlar arasındaki etkileşime dair önermeler kurar.",
+                "b) Gözleme dayalı ve dayanmayan önermeleri karşılaştırır.",
+                "c) Tahminlerini desteklemek için gözlem verilerinden sonuç çıkarır.",
+                "ç) Gözlemlenmemiş ametal etkileşimlerini tahmin eder.",
+                "d) Tahminlerinin geçerliliğini sorgular."
+              ]
+            },
+            {
+              "code": "KİM.9.2.4",
+              "text": "Moleküllerin Lewis nokta yapısına ilişkin çıkarım yapabilme",
+              "subSkills": [
+                "a) Lewis nokta yapılarına dair varsayımlar öne sürer.",
+                "b) Lewis yapılarından molekül yapısına dair örüntüler oluşturur.",
+                "c) Örüntülerle farklı moleküllerin yapılarını karşılaştırır.",
+                "ç) Lewis nokta yapısının oluşturulmasına ilişkin önermeler sunar.",
+                "d) Önermelerini farklı moleküllerin Lewis yapıları üzerinden değerlendirir."
+              ]
+            },
+            {
+              "code": "KİM.9.2.5",
+              "text": "Molekülleri polar ya da apolar olarak sınıflandırabilme",
+              "subSkills": [
+                "a) Polarlık için ölçütler (elektronegatiflik farkı, ortaklanmamış elektron çifti) oluşturur.",
+                "b) Elektronegatiflik farkı ve elektron çifti itmesiyle oluşan yapıları ayırt eder.",
+                "c) Molekülleri dipol momentine göre gruplandırır.",
+                "ç) Molekülleri polar veya apolar olarak adlandırır."
+              ]
+            },
+            {
+              "code": "KİM.9.2.6",
+              "text": "Bileşikleri adlandırma kurallarına ilişkin tümdengelimsel akıl yürütebilme",
+              "subSkills": [
+                "a) İyonik ve kovalent bileşikleri oluşturan atom veya iyonları belirler.",
+                "b) Atom/iyon adları ile bileşik adları arasında ilişki kurar.",
+                "c) İyonik ve kovalent bileşiklerin adlandırma kurallarını genelleştirir."
+              ]
+            },
+            {
+              "code": "KİM.9.2.7",
+              "text": "Moleküller arası etkileşimleri sınıflandırabilme",
+              "subSkills": [
+                "a) Sınıflandırma ölçütleri (atom, iyon, polar ve apolar molekül) belirler.",
+                "b) Ölçütlere göre kimyasal türler arasındaki etkileşimleri ayırt eder.",
+                "c) Moleküller arası etkileşimleri gruplandırır.",
+                "ç) Grupları adlandırıp bilimsel karşılıklarıyla kıyaslar."
+              ]
+            },
+            {
+              "code": "KİM.9.2.8",
+              "text": "Etkileşimlerin katıların özellikleri üzerindeki etkilerine ilişkin bilimsel çıkarım yapabilme",
+              "subSkills": [
+                "a) Farklı etkileşimli katıların nitelik farklarını ortaya koyar.",
+                "b) Etkileşim-katı ilişkisini gözlem veya hazır veriyle belirler.",
+                "c) Çıkarımlarını bilim insanlarının çıkarımlarıyla karşılaştırır."
+              ]
+            },
+            {
+              "code": "KİM.9.2.9",
+              "text": "Sıvıların buhar basıncını etkileyen faktörlere ilişkin hipotez oluşturabilme",
+              "subSkills": [
+                "a) Buhar basıncını etkileyebilecek faktörlere yönelik sorular oluşturur.",
+                "b) Faktörlerin etkisini neden-sonuç ilişkisiyle belirtir.",
+                "c) Bağımlı, bağımsız ve kontrol değişkenlerini belirler.",
+                "ç) Değişkenler arası ilişkiyi belirlemek için deneyler yapar.",
+                "d) Önermelerini bilimsel kuramlarla destekler."
+              ]
+            },
+            {
+              "code": "KİM.9.2.10",
+              "text": "Sıvıların kaynama sıcaklığını etkileyen faktörleri belirlemeye yönelik kanıt kullanabilme",
+              "subSkills": [
+                "a) Kaynama sıcaklığı için ölçütler (etkileşim türü, açık hava basıncı) belirler.",
+                "b) Verileri değişkenler arası ilişkiyi gösterecek biçimde düzenler.",
+                "c) İddialarını kanıta dayalı olarak açıklar."
+              ]
+            },
+            {
+              "code": "KİM.9.2.11",
+              "text": "Sıvıların viskozitesini etkileyen faktörlere ilişkin bilimsel gözlem yapabilme",
+              "subSkills": [
+                "a) Viskoziteye ilişkin nitelik farklarını ortaya koyar.",
+                "b) Nitelikler-viskozite ilişkisi için veri toplayıp kaydeder.",
+                "c) Verilerden keşfettiği örüntüleri açıklar."
+              ]
+            },
+            {
+              "code": "KİM.9.2.12",
+              "text": "Adezyon ve kohezyon kuvvetlerinin sıvıların özelliklerine etkilerine ilişkin bilimsel çıkarım yapabilme",
+              "subSkills": [
+                "a) Etkileşimlere göre sıvıların özelliklerindeki farkları ortaya koyar.",
+                "b) Etkileşim-özellik ilişkisini gözlem ve hazır veriyle belirler.",
+                "c) Çıkarımlarını bilim insanlarının çıkarımlarıyla karşılaştırır."
+              ]
+            },
+            {
+              "code": "KİM.9.2.13",
+              "text": "Sıvıların yüzey gerilimini etkileyen faktörlere ilişkin bilimsel sorgulama yapabilme",
+              "subSkills": [
+                "a) Yüzey gerilimine ilişkin araştırılabilir sorular oluşturur.",
+                "b) Moleküller arası etkileşim teorileriyle önermeler sunar.",
+                "c) Planladığı araştırmayı uygular.",
+                "ç) Araştırma verilerini yorumlar.",
+                "d) Sonuçlarını bilimsel bilgilerle karşılaştırır.",
+                "e) Günlük hayattaki yüzey gerilimi problemlerini bilimsel bilgiyle ilişkilendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Tema: Sürdürülebilirlik",
+          "url": "https://tymm.meb.gov.tr/kimya-dersi/unite/137",
+          "hours": 8,
+          "keyConcepts": [
+            "ağır metal",
+            "atık önleme",
+            "ekolojik ayak izi",
+            "kimyasal ayak izi",
+            "metal nanoparçacık"
+          ],
+          "outcomes": [
+            {
+              "code": "KİM.9.3.1",
+              "text": "Evsel atıklardan metal nanoparçacık elde etmek için deney yapabilme",
+              "subSkills": [
+                "a) Evsel atıklarla gümüş ve bakır nanoparçacık eldesi için deney planlar.",
+                "b) Elde edilen gümüş ve bakır nanoparçacık verilerini analiz eder."
+              ]
+            },
+            {
+              "code": "KİM.9.3.2",
+              "text": "Metal, alaşım ve nanoparçacıkların ekosistem etkilerine ilişkin problem çözebilme",
+              "subSkills": [
+                "a) Ekosistemdeki metal etkilerine ilişkin problemleri (ağır metal birikimi vb.) belirler.",
+                "b) Problemlerin ekosistem üzerindeki etkilerini özetler.",
+                "c) Çözüme yönelik veriye dayalı önermelerde bulunur.",
+                "ç) Çözüm önermelerine ilişkin akıl yürütür.",
+                "d) Problemin çözümüne ilişkin değerlendirmelerde bulunur."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/kimya-dersi/12",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Tema: Etkileşim",
+          "url": "https://tymm.meb.gov.tr/kimya-dersi/unite/138",
+          "hours": 32,
+          "keyConcepts": [
+            "asit-baz tepkimesi",
+            "çökelme tepkimesi",
+            "difüzyon",
+            "efüzyon",
+            "gaz basıncı",
+            "hacim",
+            "ideal gaz",
+            "indirgenme-yükseltgenme tepkimesi (redoks)",
+            "kimyasal tepkime",
+            "mol",
+            "mutlak sıcaklık",
+            "sınırlayıcı bileşen",
+            "standart-normal şartlar",
+            "tepkime denklemleri",
+            "yüzde verim"
+          ],
+          "outcomes": [
+            {
+              "code": "KİM.10.1.1",
+              "text": "Kimyasal değişimlere ilişkin kanıtları belirlemeye yönelik bilimsel gözlem yapabilme",
+              "subSkills": [
+                "a) Kimyasal değişimlerin gözlemlenebilir göstergelerini tanımlar.",
+                "b) Göstergelere ilişkin veri toplar ve kaydeder.",
+                "c) Verileri tepkenlerin alt mikro düzeydeki değişimiyle açıklar."
+              ]
+            },
+            {
+              "code": "KİM.10.1.2",
+              "text": "Kimyasal tepkimelerin oluşumunu açıklamak için bilimsel model oluşturabilme",
+              "subSkills": [
+                "a) Taneciklerin yeniden düzenlenmesine dayalı modelini farklı tepkimelerle sınar.",
+                "b) Kanıtlara göre modelini geliştirir."
+              ]
+            },
+            {
+              "code": "KİM.10.1.3",
+              "text": "Kimyasal tepkime türlerinin oluşum sürecine ilişkin bilimsel gözlem yapabilme",
+              "subSkills": [
+                "a) Çökelme, redoks ve asit-baz tepkimelerinin göstergelerini tanımlar.",
+                "b) Bu göstergelere ilişkin veri toplar ve kaydeder.",
+                "c) Verileri sembolik ve alt mikro düzey gösterimlerle açıklar."
+              ]
+            },
+            {
+              "code": "KİM.10.1.4",
+              "text": "Mol kavramına ilişkin operasyonel tanımlama yapabilme",
+              "subSkills": [
+                "a) Madde miktarını ifade etmek için ölçülebilir özellikleri belirler.",
+                "b) Aynı sayıda tanecik içeren örneklerin kütlesini ölçer.",
+                "c) Tanecik sayısını ifade etmek için uygun bir tanım yapar."
+              ]
+            },
+            {
+              "code": "KİM.10.1.5",
+              "text": "Saf maddelerin ölçülebilir özellikleri arasındaki ilişkilere yönelik tümdengelimsel akıl yürütebilme",
+              "subSkills": [
+                "a) Atom/molekül sayısı, kütle ve mol sayısı ilişkisini hipotezlerle test eder.",
+                "b) Orantısal ilişki hipotezlerini yeni durumları açıklamada kullanır."
+              ]
+            },
+            {
+              "code": "KİM.10.1.6",
+              "text": "Kimyasal tepkime denklemlerindeki tanecik sayısı tutarsızlıklarına ilişkin çelişkiyi giderebilme",
+              "subSkills": [
+                "a) Tepken ve ürünlerdeki tanecik sayısı tutarsızlıklarını belirler.",
+                "b) Denkleştirme için olası yolları araştırır.",
+                "c) Uygun denkleştirme yolunu seçip uygular.",
+                "ç) Tanecik sayılarının denkliğini değerlendirir."
+              ]
+            },
+            {
+              "code": "KİM.10.1.7",
+              "text": "Kimyasal tepkimelerde stokiyometrik ilişkilere yönelik tümdengelimsel akıl yürütebilme",
+              "subSkills": [
+                "a) Katsayılar ile mol sayıları arasındaki ilişkileri belirler.",
+                "b) Tepken ve ürünler arasındaki stokiyometrik ilişkileri kurar.",
+                "c) Stokiyometrik ilişkilere yönelik çıkarım yapar."
+              ]
+            },
+            {
+              "code": "KİM.10.1.8",
+              "text": "Gazların özelliklerine ilişkin bilimsel gözlem yapabilme",
+              "subSkills": [
+                "a) Gazların hacim, basınç, genleşme gibi özelliklerindeki farkı ortaya koyar.",
+                "b) Gazların özelliklerine ilişkin veri toplar ve kaydeder.",
+                "c) Verilerdeki örüntüleri tanecikli modelle açıklar."
+              ]
+            },
+            {
+              "code": "KİM.10.1.9",
+              "text": "Gazların özellikleri arasındaki ilişkileri bilimsel olarak sorgulayabilme",
+              "subSkills": [
+                "a) P, V, T ve n ilişkilerine yönelik araştırılabilir sorular oluşturur.",
+                "b) Değişkenler arasındaki ilişkiye dair hipotez kurar.",
+                "c) Gaz yasalarına yönelik araştırma planlar ve gerçekleştirir.",
+                "ç) Grafikler üzerinden matematiksel modeller önerir.",
+                "d) Grafik ve modellerle P, V, T, n ilişkilerini açıklar.",
+                "e) Gaz yasalarını kinetik moleküler teori ile değerlendirir."
+              ]
+            },
+            {
+              "code": "KİM.10.1.10",
+              "text": "İdeal gaz denklemini tümevarımsal akıl yürütmeyle oluşturabilme",
+              "subSkills": [
+                "a) Boyle, Charles ve Avogadro yasaları arasında örüntü oluşturur.",
+                "b) P, V, T ve n ilişkisini genel bir eşitlikle ifade eder."
+              ]
+            },
+            {
+              "code": "KİM.10.1.11",
+              "text": "Gazların farklı ortamlardaki yayılmasına ilişkin deney yapabilme",
+              "subSkills": [
+                "a) Efüzyon ve difüzyonla ilgili deney tasarlar.",
+                "b) Deney sonuçlarını günlük hayattaki durumları açıklamada kullanır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Tema: Çeşitlilik",
+          "url": "https://tymm.meb.gov.tr/kimya-dersi/unite/159",
+          "hours": 26,
+          "keyConcepts": [
+            "aşırı doymuş çözelti",
+            "çözelti",
+            "çözücü",
+            "çözünen",
+            "çözünme",
+            "çözünürlük",
+            "derişik çözelti",
+            "doymuş çözelti",
+            "doymamış çözelti",
+            "elektrolit çözelti",
+            "elektrolit olmayan çözelti",
+            "iyonik çözünme",
+            "koligatif özellik",
+            "milyonda bir derişim (ppm)",
+            "molar derişim",
+            "moleküler çözünme",
+            "seyreltik çözelti"
+          ],
+          "outcomes": [
+            {
+              "code": "KİM.10.2.1",
+              "text": "Çözünme sürecini açıklayan bilimsel model oluşturabilme",
+              "subSkills": [
+                "a) Çözünmeyi açıklamak için sade tanecik modelleri üretir.",
+                "b) Geliştirdiği modelleri bilimsel modellerle karşılaştırır."
+              ]
+            },
+            {
+              "code": "KİM.10.2.2",
+              "text": "Maddelerin birbiri içinde çözünebilirliğini kanıt kullanarak açıklayabilme",
+              "subSkills": [
+                "a) Çözünmeyi belirleyen ölçütleri (polarlık, iyonik yapı) saptar.",
+                "b) Çözünmeyi açıklayacak bir veri seti hazırlar.",
+                "c) Çözünme ya da çözünmeme durumunu kanıtlara dayanarak açıklar."
+              ]
+            },
+            {
+              "code": "KİM.10.2.3",
+              "text": "Çözünme olaylarını sınıflandırabilme",
+              "subSkills": [
+                "a) Suda çözünme olaylarını ayırt edecek ölçütleri belirler.",
+                "b) Olayları iyonik/moleküler ve fiziksel/kimyasal yönden ayrıştırır.",
+                "c) Çözünme olaylarını ölçütlerle gruplandırır.",
+                "ç) Grup adlarını bilimsel karşılıklarıyla kıyaslar."
+              ]
+            },
+            {
+              "code": "KİM.10.2.4",
+              "text": "Katıların saf sudaki çözünürlüğüne ilişkin operasyonel tanımlama yapabilme",
+              "subSkills": [
+                "a) Madde cinsi ve sıcaklığa dayalı çözünürlük ölçütlerini belirler.",
+                "b) Çözünürlük ölçütlerini deneyle test eder.",
+                "c) Kendi tanımı ile bilimsel tanım arasındaki farkı açıklar."
+              ]
+            },
+            {
+              "code": "KİM.10.2.5",
+              "text": "Katı ve gazların çözünürlüğüne etki eden faktörleri kanıt kullanarak açıklayabilme",
+              "subSkills": [
+                "a) Madde cinsi, sıcaklık ve basıncı ölçüt olarak belirler.",
+                "b) Verileri değişkenler arası ilişkiyi gösterecek biçimde düzenler.",
+                "c) Çözünürlüğe etki eden faktörleri veriye dayalı açıklar."
+              ]
+            },
+            {
+              "code": "KİM.10.2.6",
+              "text": "Çözeltileri doygunluk ve elektrolit özelliğine göre sınıflandırabilme",
+              "subSkills": [
+                "a) Doygunluk ve iyonik karakter temelli ölçütler belirler.",
+                "b) Çözeltileri ölçütlere göre ayrıştırır.",
+                "c) Çözeltileri farklı biçimlerde gruplandırır.",
+                "ç) Grup adlarını bilimsel karşılıklarıyla kıyaslar."
+              ]
+            },
+            {
+              "code": "KİM.10.2.7",
+              "text": "Çözeltilerin molar derişimine ilişkin tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Molar derişimdeki örüntüyü matematiksel modelleyip yeni çözeltilerde test eder.",
+                "b) Matematiksel model üzerinden molar derişimi genelleştirir."
+              ]
+            },
+            {
+              "code": "KİM.10.2.8",
+              "text": "Tanecik sayısının kaynama ve donma noktasına etkisine ilişkin hipotez oluşturabilme",
+              "subSkills": [
+                "a) Kaynama/donma noktası değişimine dair araştırma sorusu belirler.",
+                "b) Değişime ilişkin neden-sonuç ilişkilerini belirtir.",
+                "c) Bağımlı, bağımsız ve kontrol değişkenlerini belirler.",
+                "ç) Deney verilerine dayalı önermeler sunar.",
+                "d) Önermeleri bilimsel kuramlarla destekler."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Tema: Sürdürülebilirlik",
+          "url": "https://tymm.meb.gov.tr/kimya-dersi/unite/160",
+          "hours": 10,
+          "keyConcepts": [
+            "asit yağmurları",
+            "atom ekonomisi",
+            "emisyon ayak izi",
+            "hava kirliliği",
+            "küresel ısınma",
+            "makro ölçekli deney",
+            "mikro ölçekli deney",
+            "ozon azalımı",
+            "sera etkisi",
+            "sera gazı",
+            "su ayak izi"
+          ],
+          "outcomes": [
+            {
+              "code": "KİM.10.3.1",
+              "text": "Mikro ölçekli deney seçiminin sonuçlarını ekosistem bakımından değerlendirebilme",
+              "subSkills": [
+                "a) Deneylerin ekosistem etkisine ilişkin ölçütleri (madde, su, kirlilik miktarı) belirler.",
+                "b) Ölçütlere göre deneylerde ölçümler yapar.",
+                "c) Ölçüm sonuçlarından deneyleri ölçütlere göre karşılaştırır.",
+                "ç) Makro ve mikro ölçekli deneylerin ekosistem etkileri hakkında yargıya varır."
+              ]
+            },
+            {
+              "code": "KİM.10.3.2",
+              "text": "Atmosferdeki kimyasal tepkimelerin ekosistem üzerindeki etkilerine yönelik problem çözebilme",
+              "subSkills": [
+                "a) Atmosfer değişimine bağlı problemleri (hava kirliliği, ozon azalımı vb.) belirler.",
+                "b) Problemlerin ekosistem üzerindeki etkilerini özetler.",
+                "c) Çözüme yönelik veriye dayalı tahminlerde bulunur.",
+                "ç) Çözüm önermeleri üzerinden akıl yürütür.",
+                "d) Problemin çözümüne ilişkin değerlendirmelerde bulunur."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/kimya-dersi/13",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Tema: Etkileşim",
+          "url": "https://tymm.meb.gov.tr/kimya-dersi/unite/161",
+          "hours": 48,
+          "keyConcepts": [
+            "aktivasyon enerjisi",
+            "bağ enerjisi",
+            "çarpışma teorisi",
+            "ekzotermik tepkime",
+            "endotermik tepkime",
+            "enerji",
+            "entalpi",
+            "hız sabiti",
+            "katalizör",
+            "ortalama tepkime hızı",
+            "standart oluşum entalpisi",
+            "tepkime derecesi",
+            "tepkime entalpisi",
+            "tepkime hızı"
+          ],
+          "outcomes": [
+            {
+              "code": "KİM.11.1.1",
+              "text": "Fiziksel ve kimyasal olaylardaki enerji değişimini gözlemlemek için deney yapabilme",
+              "subSkills": [
+                "a) Enerji değişimini gözlemlemek için deney tasarlayıp gerçekleştirir.",
+                "b) Sonuçları günlük hayattaki olayları açıklamada kullanır."
+              ]
+            },
+            {
+              "code": "KİM.11.1.2",
+              "text": "Maddelerin enerji kaynağı olma potansiyeline ilişkin hipotez oluşturabilme",
+              "subSkills": [
+                "a) Yanma tepkimelerine dayanarak enerji potansiyeline ilişkin problem tanımlar.",
+                "b) Enerji kaynağı potansiyeline ilişkin neden-sonuç ilişkilerini belirler.",
+                "c) Bağımlı, bağımsız ve kontrol değişkenlerini belirler.",
+                "ç) Değişkenler arasındaki ilişkiyi belirlemek için deneyler yapar.",
+                "d) Deney verileriyle yakıt veya enerji maddesi hakkında önermeler geliştirir."
+              ]
+            },
+            {
+              "code": "KİM.11.1.3",
+              "text": "Bağ enerjileri temelinde entalpi değişimine ilişkin tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Kırılan ve oluşan bağ enerjileri ile entalpi arasındaki örüntüyü modeller.",
+                "b) Modeliyle tepkimelerin endotermik/ekzotermik olmasına genelleme yapar."
+              ]
+            },
+            {
+              "code": "KİM.11.1.4",
+              "text": "Standart oluşum entalpi verileriyle standart tepkime entalpilerini tahmin edebilme",
+              "subSkills": [
+                "a) Oluşum entalpi verileriyle entalpi hesabına ilişkin önermeler kurar.",
+                "b) Veriye dayalı ve dayalı olmayan önermeleri karşılaştırır.",
+                "c) Oluşum entalpi verileriyle farklı tepkimelerin entalpisini hesaplar.",
+                "ç) Hesaplama sonuçlarıyla önermelerinin geçerliliğini sorgular."
+              ]
+            },
+            {
+              "code": "KİM.11.1.5",
+              "text": "Kimyasal tepkimelerin gerçekleşme şartlarını açıklamak için kanıt kullanabilme",
+              "subSkills": [
+                "a) Gerekli enerji ve uygun doğrultuda çarpışma gibi ölçütler oluşturur.",
+                "b) Alt mikro seviye gösterimlerden seçtiği verilerle örüntüler oluşturur.",
+                "c) Gerçekleşme şartlarına ilişkin iddialarını çarpışma teorisiyle destekler."
+              ]
+            },
+            {
+              "code": "KİM.11.1.6",
+              "text": "Tepkime hızının zamanla değişimini bilimsel veriye dayalı tahmin edebilme",
+              "subSkills": [
+                "a) Derişim-zaman verileriyle tepkime hızına ilişkin önermeler oluşturur.",
+                "b) Veriye dayalı ve dayalı olmayan önermeleri karşılaştırır.",
+                "c) Farklı zaman aralıklarındaki ortalama hızları hesaplar.",
+                "ç) Hız değişimine ilişkin çıkarımları çarpışma teorisiyle sorgular."
+              ]
+            },
+            {
+              "code": "KİM.11.1.7",
+              "text": "Tepkime hızına etki eden faktörleri bilimsel olarak sorgulayabilme",
+              "subSkills": [
+                "a) Hıza etki eden faktörlere ilişkin araştırılabilir sorular oluşturur.",
+                "b) Değişkenlerin hıza etkisine ilişkin hipotezler oluşturur.",
+                "c) Bu faktörlere ilişkin deney planlar ve gerçekleştirir.",
+                "ç) Deney verilerini analiz ederek yorumlar.",
+                "d) Her değişkenin hıza etkisini alt mikro seviyede açıklar.",
+                "e) Hıza etki eden faktörleri çarpışma teorisiyle ilişkilendirir."
+              ]
+            },
+            {
+              "code": "KİM.11.1.8",
+              "text": "Kimyasal tepkimelerin hız denklemini bilimsel veriye dayalı tahmin edebilme",
+              "subSkills": [
+                "a) Başlangıç verileriyle derişimin hıza etkisine ilişkin önermeler oluşturur.",
+                "b) Veriye dayalı ve dayalı olmayan önermeleri karşılaştırır.",
+                "c) Veri setiyle derişim etkisine ilişkin tahminlerde bulunur.",
+                "ç) Hız denklemi tahminlerinin geçerliliğini sorgular."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Tema: Çeşitlilik",
+          "url": "https://tymm.meb.gov.tr/kimya-dersi/unite/162",
+          "hours": 70,
+          "keyConcepts": [
+            "asit-baz çifti",
+            "asitlik/bazlık sabiti",
+            "Arrhenius asidi/bazı",
+            "Brønsted-Lowry asidi/bazı",
+            "çözünürlük çarpımı",
+            "denge sabiti",
+            "eş değerlik noktası",
+            "fiziksel denge",
+            "indikatör",
+            "kimyasal denge",
+            "kuvvetli asit/baz",
+            "Le Chatelier ilkesi",
+            "nötralleşme",
+            "otoiyonizasyon",
+            "pH/pOH",
+            "titrasyon",
+            "zayıf asit/baz"
+          ],
+          "outcomes": [
+            {
+              "code": "KİM.11.2.1",
+              "text": "Tepkimelerin tersinir olabileceğine dair bilimsel gözlem yapabilme",
+              "subSkills": [
+                "a) Tersinirliğe kanıt sağlayacak gözlemlenebilir nitelikleri belirler.",
+                "b) Bu niteliklere ilişkin veri toplayıp kaydeder.",
+                "c) Tepkimenin tersinir olabileceğini verilere dayanarak açıklar."
+              ]
+            },
+            {
+              "code": "KİM.11.2.2",
+              "text": "Tepkimelerdeki denge sürecine ilişkin gözleme dayalı tahmin yapabilme",
+              "subSkills": [
+                "a) Denge sürecine ilişkin önermeler oluşturur.",
+                "b) Gözleme dayalı ve dayanmayan önermeleri karşılaştırır.",
+                "c) Gözlem verilerinden sonuç çıkararak önermelerini temellendirir.",
+                "ç) İleri ve geri tepkime hızlarının eşitliğine ilişkin tahminde bulunur.",
+                "d) Tahminlerinin geçerliliğini bilimsel verilerle sorgular."
+              ]
+            },
+            {
+              "code": "KİM.11.2.3",
+              "text": "Denge sabiti ifadesinin oluşturulmasına ilişkin tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Homojen ve heterojen denge tepkimelerindeki örüntüyü matematiksel modeller.",
+                "b) Denge sabiti ifadesinin modelini genelleştirir."
+              ]
+            },
+            {
+              "code": "KİM.11.2.4",
+              "text": "Tersinir tepkimelerin dengeye ulaşıp ulaşmadığını bilimsel veriye dayalı tahmin edebilme",
+              "subSkills": [
+                "a) Dengeye ulaşıp ulaşmadığına ilişkin önermeler oluşturur.",
+                "b) Veriye dayalı ve dayanmayan önermeleri karşılaştırır.",
+                "c) Tepkime oranını hesaplayarak denge durumunu tahmin eder.",
+                "ç) Tahminlerinin geçerliliğini sorgular."
+              ]
+            },
+            {
+              "code": "KİM.11.2.5",
+              "text": "Dengeye etki eden faktörleri bilimsel olarak sorgulayabilme",
+              "subSkills": [
+                "a) Derişim, hacim, basınç, sıcaklık ve katalizör etkisine dair sorular oluşturur.",
+                "b) Değişkenlerin dengeye etkisine ilişkin hipotezler kurar.",
+                "c) Değişkenlerin dengeye etkisine yönelik deney gerçekleştirir.",
+                "ç) Deney verilerini analiz edip yorumlar.",
+                "d) Deney sonuçlarını çarpışma kuramıyla açıklar.",
+                "e) Dengeye etki eden faktörleri Le Chatelier ilkesiyle ilişkilendirir."
+              ]
+            },
+            {
+              "code": "KİM.11.2.6",
+              "text": "Saf suyun otoiyonizasyonuna ilişkin bilimsel gözlem yapabilme",
+              "subSkills": [
+                "a) Otoiyonizasyonu gözlemleyebilecek nitelikleri tanımlar.",
+                "b) Gözlem yoluyla veri toplayıp kaydeder.",
+                "c) Otoiyonizasyonu suyun iyonlaşma sabitiyle açıklar."
+              ]
+            },
+            {
+              "code": "KİM.11.2.7",
+              "text": "Asit ve baz teorilerini karşılaştırabilme",
+              "subSkills": [
+                "a) Arrhenius ve Brønsted-Lowry teorilerinin varsayımlarına ilişkin özellikleri belirler.",
+                "b) Benzerlikleri listeler.",
+                "c) Farklılıkları listeler."
+              ]
+            },
+            {
+              "code": "KİM.11.2.8",
+              "text": "Asitlerin ve bazların kuvvetlerine ilişkin bilimsel sorgulama yapabilme",
+              "subSkills": [
+                "a) Asit ve baz kuvvetlerine ilişkin araştırma soruları oluşturur.",
+                "b) Sembolik ve alt mikro seviyede modeller geliştirir.",
+                "c) Farklı asit ve bazların kuvvetlerini karşılaştırmak için araştırma yapar.",
+                "ç) Verileri saf sudaki iyonlaşma yüzdeleriyle yorumlar.",
+                "d) Açıklamalarında alt mikro ve sembolik gösterimler kullanır.",
+                "e) Açıklamalarını bilimsel bilgilerle değerlendirir."
+              ]
+            },
+            {
+              "code": "KİM.11.2.9",
+              "text": "Kuvvetli-zayıf asit ve kuvvetli-zayıf baz çözeltilerindeki pH hesaplamalarını karşılaştırabilme",
+              "subSkills": [
+                "a) Aynı derişimdeki kuvvetli ve zayıf asit/baz çözeltilerinin pH özelliklerini belirler.",
+                "b) pH hesaplamalarına ilişkin benzerlikleri listeler.",
+                "c) pH hesaplamalarına ilişkin farklılıkları listeler."
+              ]
+            },
+            {
+              "code": "KİM.11.2.10",
+              "text": "Nötralleşme olayına ilişkin operasyonel tanımlama yapabilme",
+              "subSkills": [
+                "a) İletkenlik, pH değişimi ve indikatör renk değişimi gibi ölçütleri belirler.",
+                "b) Belirlenen ölçütleri test eder.",
+                "c) Nötralleşmeye ilişkin matematiksel ilişkiler içeren tanımlar yapar."
+              ]
+            },
+            {
+              "code": "KİM.11.2.11",
+              "text": "Kuvvetli asit ve baz çözeltilerinin derişimlerini titrasyonla belirlemeye yönelik deney yapabilme",
+              "subSkills": [
+                "a) Derişimi bilinmeyen kuvvetli asit/baz çözeltisi için deney planlar.",
+                "b) Derişimi bilinmeyen kuvvetli asit/baz çözeltisinin derişimini belirler."
+              ]
+            },
+            {
+              "code": "KİM.11.2.12",
+              "text": "Asidik ya da bazik ürünlerin en uygun olanına karar verebilme",
+              "subSkills": [
+                "a) Mide, ağız, diş ve cilt sağlığına yönelik ürün seçimi amacını belirler.",
+                "b) Amacına yönelik deneyler yaparak bilgi elde eder.",
+                "c) Gözlemlerine dayanarak asit-baz tepkimelerinin sonucuna ilişkin önermeler oluşturur.",
+                "ç) Önermeleri üzerinde mantıksal denetleme yapar.",
+                "d) Sağlık açısından uygun asidik veya bazik ürünleri seçer.",
+                "e) Seçtiği ürünlerin sağlığa etkisine yönelik yansıtma yapar."
+              ]
+            },
+            {
+              "code": "KİM.11.2.13",
+              "text": "Suda az çözünen tuzların çözünürlüğüne ilişkin bilimsel model oluşturabilme",
+              "subSkills": [
+                "a) Suda az çözünen tuzların çözünürlüğünü açıklamak için model önerir.",
+                "b) Modelini bilim insanlarının modelleriyle karşılaştırır."
+              ]
+            },
+            {
+              "code": "KİM.11.2.14",
+              "text": "Suda az çözünen tuzların çözünürlüğüne etki eden faktörlere ilişkin bilimsel çıkarım yapabilme",
+              "subSkills": [
+                "a) Çözünürlüğe etki eden faktörler için farklı gözlem ortamları oluşturur.",
+                "b) Ortak iyon ve sıcaklık etkisi için molar çözünürlük ve Kçç değerlerini kullanır.",
+                "c) Çıkarımlarını Le Chatelier ilkesiyle açıklar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Tema: Sürdürülebilirlik",
+          "url": "https://tymm.meb.gov.tr/kimya-dersi/unite/163",
+          "hours": 20,
+          "keyConcepts": [
+            "mikroplastik",
+            "nanoplastik",
+            "nanoteknoloji",
+            "yeşil hidrojen enerjisi"
+          ],
+          "outcomes": [
+            {
+              "code": "KİM.11.3.1",
+              "text": "Evsel atıklardan fermantasyonla yeşil hidrojen eldesine yönelik hipotez oluşturabilme",
+              "subSkills": [
+                "a) Hidrojen eldesini etkileyen faktörlere yönelik soru belirler.",
+                "b) Atık türünün hidrojen miktarına etkisi için neden-sonuç ilişkisi kurar.",
+                "c) Bağımlı, bağımsız ve kontrol değişkenlerini belirler.",
+                "ç) Değişkenler arasındaki ilişkiyi belirlemek için deney yapar.",
+                "d) Hidrojen miktarındaki değişimin nedenlerine ilişkin önermeler sunar."
+              ]
+            },
+            {
+              "code": "KİM.11.3.2",
+              "text": "Nanoteknolojik ürünlerin seçiminde fayda ve zararları eleştirel düşünerek değerlendirebilme",
+              "subSkills": [
+                "a) Nanoteknolojik ürünlerin olası fayda ve zararlarını sorgular.",
+                "b) Sağlık, etik, güvenlik ve sürdürülebilirlik açılarından akıl yürütür.",
+                "c) Ulaştığı çıkarımları yansıtır."
+              ]
+            },
+            {
+              "code": "KİM.11.3.3",
+              "text": "Mikroplastik ve nanoplastiklerin etkilerini sorgulayabilme",
+              "subSkills": [
+                "a) Merak ettiği mikro/nanoplastik etkisi konusunu tanımlar.",
+                "b) Çevre, sağlık, gıda, enerji, malzeme, kozmetik alanlarında soru sorar.",
+                "c) Etki alanlarına ilişkin bilgi toplar.",
+                "ç) Topladığı bilgilerin doğruluğunu değerlendirir.",
+                "d) Bilgilerden yola çıkarak etkilere ilişkin çıkarımlar yapar."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/kimya-dersi/14",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Tema: Etkileşim",
+          "url": "https://tymm.meb.gov.tr/kimya-dersi/unite/167",
+          "hours": 48,
+          "keyConcepts": [
+            "aktiflik",
+            "anot",
+            "elektrolit",
+            "elektrot",
+            "elektroliz",
+            "elektrolitik hücre",
+            "elektrokimyasal hücre",
+            "Faraday yasaları",
+            "galvanik hücre",
+            "indirgen",
+            "indirgenme",
+            "katodik koruma",
+            "katot",
+            "korozyon",
+            "redoks",
+            "tuz köprüsü",
+            "yarı hücre",
+            "yükseltgen",
+            "yükseltgenme",
+            "standart elektrot potansiyeli"
+          ],
+          "outcomes": [
+            {
+              "code": "KİM.12.1.1",
+              "text": "Redoks tepkime sürecine ilişkin bilimsel gözlem yapabilme",
+              "subSkills": [
+                "a) Metallerin tepkimelerindeki kimyasal değişimi gösteren nitelikleri tanımlar.",
+                "b) Kimyasal değişimi gösteren kanıtları toplar.",
+                "c) Tepkime sürecini makro kanıtlarla alt mikro ve sembolik düzeyde açıklar."
+              ]
+            },
+            {
+              "code": "KİM.12.1.2",
+              "text": "Metallerin aktiflik sıralamasını belirlemeye ilişkin bilimsel sorgulama yapabilme",
+              "subSkills": [
+                "a) Aktiflik sıralamasına ilişkin araştırma soruları oluşturur.",
+                "b) Araştırma sorusu için hipotez oluşturur.",
+                "c) Aktiflik sıralaması için deney planlayıp yürütür.",
+                "ç) Deney verilerini hipotezle ilişkilendirerek yorumlar.",
+                "d) Aktiflik açıklamasında alt mikro ve sembolik gösterimler kullanır.",
+                "e) Gösterimlerini bilimsel gösterimlerle karşılaştırır."
+              ]
+            },
+            {
+              "code": "KİM.12.1.3",
+              "text": "Galvanik hücrenin özelliklerini bilimsel gözleme dayalı tahmin edebilme",
+              "subSkills": [
+                "a) İstemli tepkimelerden elektrik üretimine ilişkin önermeler oluşturur.",
+                "b) Gözleme dayalı ve dayalı olmayan önermeleri karşılaştırır.",
+                "c) Makro, alt mikro ve sembolik gözlem verilerinden sonuç çıkarır.",
+                "ç) Gözlemlenemeyen galvanik hücre özelliklerini tahmin eder.",
+                "d) Tahminlerin geçerliliğini bilimsel bilgilerle sorgular."
+              ]
+            },
+            {
+              "code": "KİM.12.1.4",
+              "text": "Standart hücre potansiyelinin hesaplanmasına ilişkin tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Örüntüyü matematiksel modelleyip standart potansiyel hesabında kullanır.",
+                "b) Matematiksel modeller üzerinden genelleme yapar."
+              ]
+            },
+            {
+              "code": "KİM.12.1.5",
+              "text": "Galvanik hücrelerin potansiyelini etkileyen faktörlere ilişkin hipotez oluşturabilme",
+              "subSkills": [
+                "a) Hücre potansiyelini etkileyen faktörleri belirler.",
+                "b) Potansiyel değişimlerinin neden-sonuç ilişkisini belirler.",
+                "c) Bağımlı, bağımsız ve kontrol değişkenlerini belirler.",
+                "ç) Bağımsız değişkenlerin hücre potansiyeline etkisini dener.",
+                "d) Le Chatelier ilkesine dayalı önermeler oluşturur."
+              ]
+            },
+            {
+              "code": "KİM.12.1.6",
+              "text": "Elektrolitik hücrenin özelliklerini bilimsel gözleme dayalı tahmin edebilme",
+              "subSkills": [
+                "a) İstemsiz tepkimelerin gerçekleşme şartlarına ilişkin önermeler oluşturur.",
+                "b) Gözleme dayalı ve dayalı olmayan önermeleri karşılaştırır.",
+                "c) Makro, alt mikro ve sembolik gözlemlerden sonuç çıkarır.",
+                "ç) Gözlemlenemeyen elektrolitik hücre özelliklerini tahmin eder.",
+                "d) Tahminlerin geçerliliğini bilimsel bilgilerle sorgular."
+              ]
+            },
+            {
+              "code": "KİM.12.1.7",
+              "text": "Elektrolizde madde ve elektrik akımı miktarı ilişkisini açıklamak için kanıt kullanabilme",
+              "subSkills": [
+                "a) Elektrolizin gözlemlenebilir ve ölçülebilir niteliklerini ölçütlerle belirler.",
+                "b) Verileri örüntü ve değişken ilişkisini gösterecek şekilde düzenler.",
+                "c) Madde-akım ilişkisine dair iddialarını veriler ve Faraday yasasıyla açıklar."
+              ]
+            },
+            {
+              "code": "KİM.12.1.8",
+              "text": "Metallerin elektrolizle kaplanmasına yönelik deney yapabilme",
+              "subSkills": [
+                "a) Metal eşyanın bakırla kaplanmasına yönelik deney tasarlar.",
+                "b) Deney sonuçlarını günlük hayattaki örnekleri açıklamada kullanır."
+              ]
+            },
+            {
+              "code": "KİM.12.1.9",
+              "text": "Korozyonu önlemeye yönelik bilimsel sorgulama yapabilme",
+              "subSkills": [
+                "a) Korozyona neden olan faktörlere yönelik araştırma soruları oluşturur.",
+                "b) Faktörlerin etkisine ilişkin model önerir.",
+                "c) Faktörleri test etmek için deney planlayıp yapar.",
+                "ç) Korozyonu etkileyen faktörlere ilişkin verileri yorumlar.",
+                "d) Kanıta dayalı korozyon önleyici çözümler üretir.",
+                "e) Korozyonun önlenmesine ilişkin bilgileri paylaşır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Tema: Çeşitlilik",
+          "url": "https://tymm.meb.gov.tr/kimya-dersi/unite/168",
+          "hours": 70,
+          "keyConcepts": [
+            "aldehit",
+            "alifatik bileşik",
+            "alkan",
+            "alken",
+            "alkin",
+            "alkol",
+            "aromatik bileşik",
+            "basit formül",
+            "ester",
+            "eter",
+            "fonksiyonel grup",
+            "halkalı yapı",
+            "hidrokarbon",
+            "izomerlik",
+            "karboksilik asit",
+            "keton",
+            "molekül formülü",
+            "molekül geometrisi",
+            "pi bağı",
+            "sigma bağı",
+            "yapı formülü",
+            "yapısal izomerlik",
+            "yarı açık formül"
+          ],
+          "outcomes": [
+            {
+              "code": "KİM.12.2.1",
+              "text": "Atomlar arasındaki sigma ve pi bağlarını kanıt kullanarak açıklayabilme",
+              "subSkills": [
+                "a) Bağ sayısı, uzunluk, enerji ve örtüşmeye dayalı ölçütler geliştirir.",
+                "b) Veri setinden tek, çift ve üçlü bağların niteliklerine dair örüntü belirler.",
+                "c) Bağ niteliklerine ilişkin örüntülerini kanıta dayalı açıklar."
+              ]
+            },
+            {
+              "code": "KİM.12.2.2",
+              "text": "Hibrit orbitallerinin oluşumunu kanıt kullanarak açıklayabilme",
+              "subSkills": [
+                "a) Karbon bağ sayısı, orbital enerjileri ve valans orbitallerine dair ölçütler belirler.",
+                "b) Enerji diyagramları ve orbital şekillerini ölçütlerle ilişkilendirir.",
+                "c) Belirlediği örüntüleri kanıta dayalı açıklar."
+              ]
+            },
+            {
+              "code": "KİM.12.2.3",
+              "text": "Moleküllerin geometrisini belirlemeye ilişkin çıkarım yapabilme",
+              "subSkills": [
+                "a) Molekül geometrisine ilişkin varsayımda bulunur.",
+                "b) Hibrit orbital yönelimlerine göre geometriye ilişkin örüntü belirler.",
+                "c) Belirlediği geometrileri bilimsel geometrilerle karşılaştırır.",
+                "ç) Geometrinin oluşumuna ilişkin önermeler sunar.",
+                "d) Önermelerini VSEPR kuramı üzerinden değerlendirir."
+              ]
+            },
+            {
+              "code": "KİM.12.2.4",
+              "text": "Organik bileşiklerin farklı gösterim formüllerine ilişkin tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Farklı gösterimlerden yapı formülüne ilişkin örüntü belirler.",
+                "b) Yapı formüllerine ilişkin genelleme yapar."
+              ]
+            },
+            {
+              "code": "KİM.12.2.5",
+              "text": "Hidrokarbonları sınıflandırabilme",
+              "subSkills": [
+                "a) Bağ türü, halkalı yapı ve benzen halkasına dayalı ölçütler belirler.",
+                "b) Hidrokarbonları alifatik ve aromatik olarak ayırır.",
+                "c) Alifatik hidrokarbonları gruplandırır.",
+                "ç) Grupları adlandırıp bilimsel karşılıklarıyla kıyaslar."
+              ]
+            },
+            {
+              "code": "KİM.12.2.6",
+              "text": "Alifatik hidrokarbonların sistematik adlandırılmasına ilişkin tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Sistematik adlandırmaya ilişkin örüntü bulur.",
+                "b) IUPAC sistemine göre adlandırmaya ilişkin genelleme yapar."
+              ]
+            },
+            {
+              "code": "KİM.12.2.7",
+              "text": "Alifatik hidrokarbonların izomerliklerini sınıflandırabilme",
+              "subSkills": [
+                "a) Zincir, grup konumu, halka ve pi bağı konumuna dayalı ölçütler belirler.",
+                "b) Ölçütlere göre izomerlikleri ayırır.",
+                "c) İzomerlikleri gruplandırır.",
+                "ç) Grupları adlandırıp bilimsel karşılıklarıyla kıyaslar."
+              ]
+            },
+            {
+              "code": "KİM.12.2.8",
+              "text": "Alifatik hidrokarbonların fiziksel ve kimyasal özelliklerini karşılaştırabilme",
+              "subSkills": [
+                "a) Fiziksel ve kimyasal özellik kazandıran nitelikleri belirler.",
+                "b) Benzer özellikleri listeler.",
+                "c) Farklı özellikleri listeler."
+              ]
+            },
+            {
+              "code": "KİM.12.2.9",
+              "text": "Organik bileşikleri fonksiyonel gruplarına göre sınıflandırabilme",
+              "subSkills": [
+                "a) Fonksiyonel gruplara göre sınıflandırma ölçütleri belirler.",
+                "b) Ölçütlere göre bileşikleri ayırır.",
+                "c) Bileşikleri gruplandırır.",
+                "ç) Grup adlarını bilimsel karşılıklarıyla kıyaslar."
+              ]
+            },
+            {
+              "code": "KİM.12.2.10",
+              "text": "Fonksiyonel gruplu organik bileşiklerin adlandırma kurallarına ilişkin tümdengelimsel akıl yürütebilme",
+              "subSkills": [
+                "a) Fonksiyonel grubu, ana zinciri ve yan grupları belirler.",
+                "b) Fonksiyonel grup ile sistematik ad arasında ilişki kurar.",
+                "c) Sistematik adlandırma kurallarına ilişkin genelleme yapar."
+              ]
+            },
+            {
+              "code": "KİM.12.2.11",
+              "text": "Fonksiyonel grup izomeri olan organik bileşiklerin bilimsel modelini oluşturabilme",
+              "subSkills": [
+                "a) Kapalı formülü aynı, fonksiyonel grubu farklı bileşikler için model önerir.",
+                "b) Modellerini bilim insanlarının modelleriyle karşılaştırır."
+              ]
+            },
+            {
+              "code": "KİM.12.2.12",
+              "text": "Karbon temelli enerji kaynaklarının yanma sonuçlarına ilişkin çıkarım yapabilme",
+              "subSkills": [
+                "a) Yanma tepkimeleri ve ürünlerine ilişkin varsayımda bulunur.",
+                "b) Karbon içeriği, enerji ve emisyon ayak izine ilişkin örüntüler listeler.",
+                "c) Kaynakları enerji ve emisyon ayak izi açısından karşılaştırır.",
+                "ç) Kimyasal içerik, enerji ve çevresel etkilere ilişkin önermeler sunar.",
+                "d) Önermelerini bilimsel verilerle karşılaştırarak değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Tema: Sürdürülebilirlik",
+          "url": "https://tymm.meb.gov.tr/kimya-dersi/unite/169",
+          "hours": 20,
+          "keyConcepts": [
+            "biyobozunur polimer",
+            "biyopolimer",
+            "boyaya duyarlı güneş pili",
+            "fotosentez",
+            "güneş hücresi",
+            "nanoparçacıklı güneş pili",
+            "nanopolimer",
+            "yapay zekâ"
+          ],
+          "outcomes": [
+            {
+              "code": "KİM.12.3.1",
+              "text": "Boyaya duyarlı güneş pillerinin verimliliğine ilişkin bilimsel çıkarım yapabilme",
+              "subSkills": [
+                "a) Geleneksel ve boyaya duyarlı güneş pillerinin niteliklerini açıklar.",
+                "b) Verimliliği belirlemek için hazır veri setinden yararlanır.",
+                "c) Verimliliğe ilişkin verileri yorumlar."
+              ]
+            },
+            {
+              "code": "KİM.12.3.2",
+              "text": "Biyobozunur polimer eldesinde kullanılacak bileşenlere karar verebilme",
+              "subSkills": [
+                "a) Polimerin özelliğine göre elde etme sürecinin amacını belirler.",
+                "b) Amaca uygun bilgi toplar.",
+                "c) Elde etme sürecine ilişkin seçenekler belirler.",
+                "ç) Seçenekler üzerinde mantıksal denetleme yapar.",
+                "d) İstenen özellikte polimer için bileşenleri seçer.",
+                "e) Polimerin istenen özellikte elde edilip edilmediğini yansıtır."
+              ]
+            },
+            {
+              "code": "KİM.12.3.3",
+              "text": "Yapay zekâ uygulamalarının sürdürülebilirliğe etkilerine yönelik eleştirel düşünebilme",
+              "subSkills": [
+                "a) Yapay zekâ uygulamalarının sürdürülebilirliğe etkilerini sorgular.",
+                "b) Bu etkilere ilişkin akıl yürütür.",
+                "c) Ulaştığı çıkarımlar üzerine yansıtma yapar."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Kaynak: tymm.meb.gov.tr Kimya Dersi (Ortaöğretim). Her sınıfta aynı adlı üç tema (Etkileşim, Çeşitlilik, Sürdürülebilirlik) vardır. Kazanım ve süreç bileşeni metinleri resmi metnin kısa Türkçe özetidir (birebir alıntı değildir); tema adları ve kodlar siteden alınmıştır."
+}

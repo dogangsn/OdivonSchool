@@ -1,0 +1,569 @@
+{
+  "level": "lise",
+  "subject": "Tarih",
+  "programUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ders/tarih-dersi",
+  "grades": [
+    {
+      "grade": 9,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/tarih-dersi/11",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Ünite : Geçmişin İnşa Sürecinde Tarih",
+          "url": "https://tymm.meb.gov.tr/tarih-dersi/unite/26",
+          "hours": 18,
+          "keyConcepts": [
+            "arşiv",
+            "dijitalleşme",
+            "geçmiş",
+            "kanıt",
+            "olay",
+            "olgu",
+            "tarih",
+            "tarihçi",
+            "tarihsel bilgi",
+            "tarihsel zaman",
+            "yapay zekâ"
+          ],
+          "outcomes": [
+            {
+              "code": "TAR.9.1.1",
+              "text": "Tarih öğrenmenin birey ve topluma katkılarını yorumlayabilme",
+              "subSkills": [
+                "a) Tarih öğrenmenin faydalarıyla ilgili kaynakları inceler.",
+                "b) Kaynakları bağlamını koruyarak özetler.",
+                "c) Faydaları kendi cümleleriyle açıklar."
+              ]
+            },
+            {
+              "code": "TAR.9.1.2",
+              "text": "Farklı kaynaklar üzerinden tarihin doğasını inceleyebilme",
+              "subSkills": [
+                "a) Kaynaklardan tarihin doğasına ilişkin temel bilgileri tespit eder.",
+                "b) Bu bilgileri kaynakları inceleyerek açıklar."
+              ]
+            },
+            {
+              "code": "TAR.9.1.3",
+              "text": "Tarihsel bilginin üretim sürecini çözümleyebilme",
+              "subSkills": [
+                "a) Örnek çalışmalarda üretim sürecinin aşamalarını belirler.",
+                "b) Aşamalar arasındaki ilişkileri belirler."
+              ]
+            },
+            {
+              "code": "TAR.9.1.4",
+              "text": "Dijitalleşmenin tarih araştırma ve yazımına etkisini değerlendirebilme",
+              "subSkills": [
+                "a) Dijitalleşme öncesi ve dijital dönemdeki süreçleri karşılaştırır.",
+                "b) Tarih araştırma ve yazımındaki dönüşüme dair yargıda bulunur."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Ünite : Eski Çağ Medeniyetleri",
+          "url": "https://tymm.meb.gov.tr/tarih-dersi/unite/27",
+          "hours": 24,
+          "keyConcepts": [
+            "artı ürün",
+            "kağan",
+            "konargöçer",
+            "kurultay",
+            "medeniyet",
+            "onlu sistem",
+            "piramit",
+            "saban",
+            "senato",
+            "töre",
+            "yazıt",
+            "ziggurat"
+          ],
+          "outcomes": [
+            {
+              "code": "TAR.9.2.1",
+              "text": "Tarım Devrimi'nin Eski Çağ medeniyetlerinde yerleşme ve ekonomik faaliyetlere etkisini değerlendirebilme",
+              "subSkills": [
+                "a) Etkisini zaman ve mekân açısından karşılaştırır.",
+                "b) Etkileriyle ilgili yargıda bulunur."
+              ]
+            },
+            {
+              "code": "TAR.9.2.2",
+              "text": "Eski Çağ medeniyetlerinin yönetim ve ordu sistemlerini özetleyebilme",
+              "subSkills": [
+                "a) Yönetim ve ordu özelliklerini çözümler.",
+                "b) Yönetim ve ordu özelliklerini sınıflandırır.",
+                "c) Yönetim ve ordu özelliklerini yorumlar."
+              ]
+            },
+            {
+              "code": "TAR.9.2.3",
+              "text": "Eski Çağ medeniyetlerinde hukukun toplumsal düzeni sağlamadaki rolünü sorgulayabilme",
+              "subSkills": [
+                "a) Hukukun rolüyle ilgili merak ettiği konuları belirler.",
+                "b) Bu konular hakkında sorular sorar.",
+                "c) Farklı kaynaklardan bilgi toplar.",
+                "ç) Bilgilerin doğruluğunu değerlendirir.",
+                "d) Hukukun toplumsal düzendeki rolüne ilişkin çıkarım yapar."
+              ]
+            },
+            {
+              "code": "TAR.9.2.4",
+              "text": "Eski Çağ toplumlarında inançlar ile bilim ve sanat anlayışları arasındaki ilişkiyi yorumlayabilme",
+              "subSkills": [
+                "a) İnançlar ile bilim ve sanat anlayışına ilişkin kaynakları inceler.",
+                "b) Bilgileri bağlamını koruyarak sözlü, yazılı veya görsel biçime dönüştürür.",
+                "c) İnançlar ile bilim ve sanat arasındaki ilişkiyi açıklar."
+              ]
+            },
+            {
+              "code": "TAR.9.2.5",
+              "text": "Türklerde konargöçer yaşama ilişkin bakış açısı geliştirebilme",
+              "subSkills": [
+                "a) Konargöçer yaşamı birinci ve ikinci el kaynaklardan inceler.",
+                "b) Konargöçer yaşamın özelliklerini kendi cümleleriyle ifade eder.",
+                "c) Özelliklerini kaynaklara dayanarak çözümler.",
+                "ç) Temel özellikleri dönemin koşullarını dikkate alarak açıklar.",
+                "d) Geçmiş ve günümüz konargöçer yaşamını karşılaştırır.",
+                "e) Konargöçer yaşamın Türk kültüründeki yerine dair çıkarımda bulunur.",
+                "f) Konargöçer yaşamla ilgili kendi bakış açısını ifade eder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Ünite : Orta Çağ Medeniyetleri",
+          "url": "https://tymm.meb.gov.tr/tarih-dersi/unite/29",
+          "hours": 26,
+          "keyConcepts": [
+            "divan",
+            "feodalite",
+            "hicret",
+            "hilafet",
+            "kale",
+            "kervan",
+            "kervansaray",
+            "mevali",
+            "skolastik düşünce"
+          ],
+          "outcomes": [
+            {
+              "code": "TAR.9.3.1",
+              "text": "Orta Çağ'daki kitlesel göçlerin Avrupa ve Asya'da oluşturduğu değişimi neden ve sonuçlarıyla yorumlayabilme",
+              "subSkills": [
+                "a) Kitlesel göçlere neden olan unsurları inceler.",
+                "b) Göçlerin etkilediği unsurları inceler.",
+                "c) Göçlerin Avrupa ve Asya'daki değişim etkilerini sorgular.",
+                "ç) Değişimin neden ve sonuçlarını bağlamından kopmadan ifade eder."
+              ]
+            },
+            {
+              "code": "TAR.9.3.2",
+              "text": "Orta Çağ'daki başlıca devletlerin yönetim ve ordu yapılarını karşılaştırabilme",
+              "subSkills": [
+                "a) Yönetim ve ordu yapılarının özelliklerini belirler.",
+                "b) Benzerlikleri listeler.",
+                "c) Farklılıkları listeler."
+              ]
+            },
+            {
+              "code": "TAR.9.3.3",
+              "text": "Orta Çağ'daki ticaret yollarının çevresinde meydana getirdiği etkiyi sorgulayabilme",
+              "subSkills": [
+                "a) Ticaret yolları üzerindeki devlet ve toplum etkileşimiyle ilgili sorular sorar.",
+                "b) İlişkileri siyasi, ekonomik ve kültürel boyutlarıyla çözümler.",
+                "c) Ticaret yollarının ilişkilere etkisiyle ilgili çıkarımda bulunur."
+              ]
+            },
+            {
+              "code": "TAR.9.3.4",
+              "text": "Orta Çağ medeniyet havzalarının bilim, kültür ve sanata etkilerine ilişkin araştırma ürünlerini paylaşabilme",
+              "subSkills": [
+                "a) Kaynaklardan konuya ilişkin bilgi toplar.",
+                "b) Kaynakları inceleyerek araştırmasına dair bilgileri tespit eder.",
+                "c) Kaynakların sınırlılığını sorgular.",
+                "ç) Bilgileri araştırmasına uygun olarak yorumlar.",
+                "d) Kanıtlara dayalı araştırmasını paylaşır."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/tarih-dersi/12",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Ünite : Türkistan’dan Türkiye’ye (1040-1299)",
+          "url": "https://tymm.meb.gov.tr/tarih-dersi/unite/36",
+          "hours": 20,
+          "keyConcepts": [
+            "Ahilik",
+            "fetih",
+            "fütüvvet",
+            "gaza",
+            "Haçlı",
+            "medrese",
+            "örf",
+            "sultan",
+            "şifahane",
+            "tekke",
+            "Türkiye"
+          ],
+          "outcomes": [
+            {
+              "code": "TAR.10.1.1",
+              "text": "1040-1299 arasındaki önemli askerî mücadelelerin Türk tarihine etkilerini karşılaştırabilme",
+              "subSkills": [
+                "a) Askerî mücadeleleri tarih şeridi üzerinde sıralar.",
+                "b) Mücadelelerin özelliklerini belirler.",
+                "c) Etkilerini benzerlik ve farklılıkları açısından listeler."
+              ]
+            },
+            {
+              "code": "TAR.10.1.2",
+              "text": "Türklerde devlet ve ordu teşkilatındaki değişim ve sürekliliği yorumlayabilme",
+              "subSkills": [
+                "a) Değişim ve sürekliliği sağlayan unsurları inceler.",
+                "b) Değişim ve sürekliliğin etkilediği unsurları inceler.",
+                "c) Kurumlara etkilerini sorgular.",
+                "ç) Değişim ve sürekliliğin neden ve sonuçlarını açıklar."
+              ]
+            },
+            {
+              "code": "TAR.10.1.3",
+              "text": "Türklerin sosyoekonomik faaliyetleri ile yerleşme ve şehirleşme anlayışı arasındaki ilişkiyi sorgulayabilme",
+              "subSkills": [
+                "a) Bu ilişki hakkında merak ettiği konuları belirler.",
+                "b) Konular hakkında sorular sorar.",
+                "c) Farklı kaynaklardan bilgi toplar.",
+                "ç) Bilgilerin doğruluğunu değerlendirir.",
+                "d) Bilgilerden hareketle ilişki hakkında çıkarım yapar."
+              ]
+            },
+            {
+              "code": "TAR.10.1.4",
+              "text": "Türk-İslam medeniyetindeki gelişmeleri Anadolu’nun Türkleşme ve İslamlaşmasına etkisi açısından değerlendirebilme",
+              "subSkills": [
+                "a) Türk-İslam ve Batı medeniyetlerinin bilim, kültür, eğitim ve sanat anlayışlarını karşılaştırır.",
+                "b) Gelişmelerin Anadolu’ya etkisine ilişkin kanıtlarla yargıda bulunur.",
+                "c) Düşünür ve eserlerin insanlığın ortak mirasına katkısı hakkında yargıda bulunur."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Ünite : Beylikten Devlete Osmanlı (1299-1453)",
+          "url": "https://tymm.meb.gov.tr/tarih-dersi/unite/39",
+          "hours": 24,
+          "keyConcepts": [
+            "devşirme sistemi",
+            "irfan",
+            "iskân",
+            "istimalet",
+            "kapıkulu",
+            "Rumeli Türklüğü",
+            "tımar",
+            "vakıf"
+          ],
+          "outcomes": [
+            {
+              "code": "TAR.10.2.1",
+              "text": "Osmanlı'nın kuruluşuna ilişkin farklı tarihçi görüşlerini tartışabilme",
+              "subSkills": [
+                "a) Kuruluş görüşlerinin benzer ve farklı yönlerini belirler.",
+                "b) Görüşlerin güçlü, zayıf yönlerini ve tutarsızlıklarını tespit eder.",
+                "c) Görüşleri gerekçeleriyle çürütür veya kabul eder."
+              ]
+            },
+            {
+              "code": "TAR.10.2.2",
+              "text": "1299-1453 arasında Anadolu ve Rumeli'deki siyasi ve askerî mücadeleleri yorumlayabilme",
+              "subSkills": [
+                "a) Farklı kaynakları karşılaştırarak mücadeleleri inceler.",
+                "b) Kaynaklardaki bilgi ve bakış açılarını görsel forma dönüştürür.",
+                "c) Mücadeleleri kaynaklara dayanarak kendi cümleleriyle anlatır."
+              ]
+            },
+            {
+              "code": "TAR.10.2.3",
+              "text": "Ordu, hukuk ve toprak sistemi ile devletleşme arasındaki ilişkiyi çözümleyebilme",
+              "subSkills": [
+                "a) Devletleşmeyi sağlayan sistemlerin özelliklerini belirler.",
+                "b) Bu sistemler arasındaki ilişkiyi belirler."
+              ]
+            },
+            {
+              "code": "TAR.10.2.4",
+              "text": "Fethedilen topraklarda kalıcılık için izlenen politikaları sorgulayabilme",
+              "subSkills": [
+                "a) İskân ve istimalet politikalarına dair farklı bakış açılarının nedenlerini sorgular.",
+                "b) Kaynaklardaki bilgilerin sınırlılıkları hakkında çıkarım yapar.",
+                "c) Kaynaklara dayalı çıkarımlarda bulunur."
+              ]
+            },
+            {
+              "code": "TAR.10.2.5",
+              "text": "Şehir, kurum ve şahsiyetlerin ilim ve irfan geleneğine etkisine dair fikir üretebilme",
+              "subSkills": [
+                "a) Şehir, kurum ve şahsiyetlerin etkilerini fark eder.",
+                "b) İlk Türk-İslam devletlerindeki benzer deneyimleri inceler.",
+                "c) Bu role ilişkin fikir üretir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Ünite : Cihan Devleti Osmanlı (1453-1683)",
+          "url": "https://tymm.meb.gov.tr/tarih-dersi/unite/48",
+          "hours": 24,
+          "keyConcepts": [
+            "Celâli",
+            "cihanşümul",
+            "ıslahat",
+            "isyan",
+            "koloni",
+            "rasathane",
+            "sömürgecilik",
+            "vezir"
+          ],
+          "outcomes": [
+            {
+              "code": "TAR.10.3.1",
+              "text": "1453-1683 siyasi ve askerî mücadelelerinin Osmanlı'nın cihan devleti olmasındaki rolüne dair özgün fikir üretebilme",
+              "subSkills": [
+                "a) 1453-1683 arasındaki siyasi ve askerî mücadeleleri belirler.",
+                "b) Mücadeleleri cihan devleti olma süreciyle ilişkilendirir.",
+                "c) Cihan devleti Osmanlı'nın politikaları hakkında özgün içerik oluşturur."
+              ]
+            },
+            {
+              "code": "TAR.10.3.2",
+              "text": "1453-1683'te Osmanlı yönetim ve ordu yapısındaki değişim ve sürekliliği yorumlayabilme",
+              "subSkills": [
+                "a) Değişim ve sürekliliği kaynaklar üzerinden inceler.",
+                "b) Farklı kaynaklardaki bilgileri tablo hâlinde gösterir.",
+                "c) Değişimleri birden çok kaynaktaki kanıtlarla açıklar."
+              ]
+            },
+            {
+              "code": "TAR.10.3.3",
+              "text": "Avrupalıların sömürgeci politikalarının etkilerini tarihsel bağlamı içinde değerlendirebilme",
+              "subSkills": [
+                "a) Sömürgeci politikaları kaynaklara dayanarak çözümler.",
+                "b) Dönemin koşullarını fark eder.",
+                "c) Politikaların günümüze etkilerini açıklar.",
+                "ç) Etkileri dönemin koşulları içinde açıklar."
+              ]
+            },
+            {
+              "code": "TAR.10.3.4",
+              "text": "1453-1683'te Osmanlı'daki önemli isyanların neden ve sonuçlarını müzakere edebilme",
+              "subSkills": [
+                "a) İsyanlar konusunda farklı görüşler olabileceğini fark eder.",
+                "b) Kendi görüşünü başkalarının görüşleriyle karşılaştırır.",
+                "c) Nedenlere dayanarak dönemin şartlarında olası çözümler önerir.",
+                "ç) Farklı görüşleri değerlendirerek kendi görüşünü gözden geçirir.",
+                "d) Grubun ortak görüşünü ifade eder."
+              ]
+            },
+            {
+              "code": "TAR.10.3.5",
+              "text": "1453-1683'te bilim, kültür, eğitim ve sanat alanındaki gelişmelere dair araştırma ürünlerini paylaşabilme",
+              "subSkills": [
+                "a) Belirlenen kaynaklardan bilgi toplar.",
+                "b) Kaynakları inceleyerek araştırmaya dair bilgileri tespit eder.",
+                "c) Kaynakların sınırlılığını sorgular.",
+                "ç) Bilgileri araştırmaya uygun biçimde yorumlar.",
+                "d) Kanıtlara dayalı araştırmasını paylaşır."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/tarih-dersi/13",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Ünite : Değişen Dünyada Osmanlı Devleti (1683-1789)",
+          "url": "https://tymm.meb.gov.tr/tarih-dersi/unite/68",
+          "hours": 22,
+          "keyConcepts": [
+            "barok",
+            "devrim",
+            "hendesehane",
+            "matbaa",
+            "rokoko",
+            "sanayileşme",
+            "sefaret"
+          ],
+          "outcomes": [
+            {
+              "code": "TAR.11.1.1",
+              "text": "Osmanlı'nın 1683-1789 siyasi ve askerî mücadelelerini sonuçları açısından değerlendirebilme",
+              "subSkills": [
+                "a) Mücadelelerin sonuçlarını karşılaştırır.",
+                "b) Sonuçlara ilişkin yargıda bulunur."
+              ]
+            },
+            {
+              "code": "TAR.11.1.2",
+              "text": "Lale Devri'nde devlet ve toplum hayatındaki değişimi tarihsel bağlamı içinde yorumlayabilme",
+              "subSkills": [
+                "a) Değişimle ilgili dönemin kaynaklarını inceler.",
+                "b) Değişimi bağlamından kopmadan tablolaştırır.",
+                "c) Değişimi kendi ifadeleriyle açıklar."
+              ]
+            },
+            {
+              "code": "TAR.11.1.3",
+              "text": "1755 Lizbon ve 1766 İstanbul depremlerini etkileri bakımından karşılaştırabilme",
+              "subSkills": [
+                "a) Depremlerin etkilerini belirler.",
+                "b) Etkilerin benzerliklerini listeler.",
+                "c) Etkilerin farklılıklarını listeler."
+              ]
+            },
+            {
+              "code": "TAR.11.1.4",
+              "text": "Sanayi Devrimi'nin siyasi, sosyal ve ekonomik değişimini neden ve sonuçlarıyla yorumlayabilme",
+              "subSkills": [
+                "a) Değişimin nedenlerini belirler.",
+                "b) Değişimin sonuçlarını belirler.",
+                "c) Olumlu ve olumsuz sonuçlarını sorgular.",
+                "ç) Neden ve sonuçları kendi ifadeleriyle açıklar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Ünite : Dönüşüm Sürecinde Osmanlı (1789-1908)",
+          "url": "https://tymm.meb.gov.tr/tarih-dersi/unite/72",
+          "hours": 26,
+          "keyConcepts": [
+            "azınlık",
+            "cumhuriyetçilik",
+            "ihtilal",
+            "kapitalizm",
+            "komünizm",
+            "liberalizm",
+            "meşrutiyet",
+            "milliyetçilik",
+            "panslavizm",
+            "sosyalizm"
+          ],
+          "outcomes": [
+            {
+              "code": "TAR.11.2.1",
+              "text": "Fransız İhtilali'nin devlet ve toplum hayatındaki değişimini neden ve sonuçlarıyla yorumlayabilme",
+              "subSkills": [
+                "a) Değişime neden olan unsurları inceler.",
+                "b) Değişimin etkilediği unsurları inceler.",
+                "c) Etkilerin niteliğini sorgular.",
+                "ç) Neden ve sonuçları bağlamından kopmadan ifade eder."
+              ]
+            },
+            {
+              "code": "TAR.11.2.2",
+              "text": "1789-1908 siyasi, askerî ve idari gelişmelerin Osmanlı yönetim ve toplum yapısına etkisini sorgulayabilme",
+              "subSkills": [
+                "a) Etkiler hakkında merak ettiği konuları belirler.",
+                "b) Konular hakkında sorular sorar.",
+                "c) Farklı kaynaklardan bilgi toplar.",
+                "ç) Bilgilerin doğruluğunu değerlendirir.",
+                "d) Bilgilerden hareketle etkiler hakkında çıkarım yapar."
+              ]
+            },
+            {
+              "code": "TAR.11.2.3",
+              "text": "1789-1908 Osmanlı'da bilim, sanat ve teknoloji alanlarındaki uygulamaları yorumlayabilme",
+              "subSkills": [
+                "a) Uygulamalara ilişkin kaynakları inceler.",
+                "b) Bilgileri bağlamından kopmadan dönüştürür.",
+                "c) Bilgileri kendi ifadeleriyle açıklar."
+              ]
+            },
+            {
+              "code": "TAR.11.2.4",
+              "text": "Osmanlı'nın sanayileşmede geri kalma etmenlerini gidermeye yönelik alternatif fikirler üretebilme",
+              "subSkills": [
+                "a) Sanayileşmede geri kalma sorununu tanımlar.",
+                "b) Tarafların bakış açılarını çözümler.",
+                "c) Aynı dönemde sanayileşen devletlerin uygulamalarını değerlendirir.",
+                "ç) Uygulama ve kararların güncel sorunlara etkilerini belirler.",
+                "d) Soruna yönelik alternatif öneriler geliştirir.",
+                "e) Önerilerin olası sonuçlarını dönemin kararlarıyla karşılaştırır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Ünite : Savaşlar Sarmalında Osmanlı (1908- 1918)",
+          "url": "https://tymm.meb.gov.tr/tarih-dersi/unite/80",
+          "hours": 20,
+          "keyConcepts": [
+            "bloklaşma",
+            "darbe",
+            "fırka",
+            "göç",
+            "komita",
+            "muhacir",
+            "mütareke",
+            "müttefik",
+            "salgın"
+          ],
+          "outcomes": [
+            {
+              "code": "TAR.11.3.1",
+              "text": "1908-1918 siyasi ve askerî gelişmelerinin sonuçlarını tarihsel bağlamında değerlendirebilme",
+              "subSkills": [
+                "a) Dönemin siyasi ve askerî olaylarını kaynaklar üzerinden ayrıştırır.",
+                "b) Dönemin koşullarını fark eder.",
+                "c) Gelişmelerin günümüze yansıyan sonuçlarını açıklar.",
+                "ç) Sonuçları dönemin koşulları içinde yorumlar."
+              ]
+            },
+            {
+              "code": "TAR.11.3.2",
+              "text": "1908-1918 kitlesel göç ve salgınların devlet ve toplum hayatına etkilerine dair bakış açısı geliştirebilme",
+              "subSkills": [
+                "a) Etkileri birinci ve ikinci el kaynaklardan inceler.",
+                "b) Kaynakları yorumlar.",
+                "c) Etkileri kaynaklara dayanarak çözümler.",
+                "ç) Dönemin koşullarını belirler.",
+                "d) Dönemin göç ve salgınlarını günümüzdekilerle karşılaştırır.",
+                "e) Dönem koşulları çerçevesinde çıkarım yapar.",
+                "f) Bakış açısını kendi sözleriyle yansıtır.",
+                "g) Özgün bir ürün hazırlar."
+              ]
+            },
+            {
+              "code": "TAR.11.3.3",
+              "text": "Osmanlı Devleti'nin insanlık tarihine katkılarına ilişkin araştırma ürünlerini paylaşabilme",
+              "subSkills": [
+                "a) Belirlediği kaynaklardan bilgi toplar.",
+                "b) Kaynakları inceleyerek ilgili bilgileri tespit eder.",
+                "c) Kaynakların sınırlılıklarını sorgular.",
+                "ç) Uygun bilgileri yorumlar.",
+                "d) Kanıta dayalı araştırmasını paylaşır."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Kaynak: tymm.meb.gov.tr Tarih Dersi (Ortaöğretim). Tarih Dersi sayfasında yalnızca 9, 10 ve 11. sınıf bağlantıları vardır; 12. sınıf Tarih Dersi programı yoktur. 12. sınıfta ayrı bir ders olan 'T.C. İnkılap Tarihi ve Atatürkçülük' okutulur (https://tymm.meb.gov.tr/ogretim-programlari/tc-inkilap-tarihi-ve-ataturkculuk-dersi-2/14); kapsam dışı bırakıldı. Tarihte tema yerine 'Ünite' kullanılır. Kazanım ve süreç bileşeni metinleri resmi metnin kısa Türkçe özetidir (birebir alıntı değildir); ünite adları ve kodlar siteden alınmıştır."
+}

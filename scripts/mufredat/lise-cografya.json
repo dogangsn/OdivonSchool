@@ -1,0 +1,1339 @@
+{
+  "level": "lise",
+  "subject": "Coğrafya",
+  "programUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ders/cografya-dersi",
+  "grades": [
+    {
+      "grade": 9,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/cografya-dersi/11",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Ünite: Coğrafyanın Doğası",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/28",
+          "hours": 6,
+          "keyConcepts": [
+            "beşerî coğrafya",
+            "beşerî ortam",
+            "buz küre (kriyosfer)",
+            "coğrafya",
+            "coğrafi bakış",
+            "doğal ortam",
+            "fiziki coğrafya",
+            "hava küre (atmosfer)",
+            "su küre (hidrosfer)",
+            "taş küre (litosfer)",
+            "yaşam küre (biyosfer)"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.9.1.1",
+              "text": "Coğrafya biliminin konusunu ve bölümlerini çözümleyebilme",
+              "subSkills": [
+                "a) Konu ve bölümleri oluşturan bileşenleri belirler.",
+                "b) Bileşenler arasındaki ilişkileri belirler."
+              ]
+            },
+            {
+              "code": "COĞ.9.1.2",
+              "text": "Örnek olay, olgu veya konu üzerinden mekânsal düşünme ile coğrafya öğrenmenin önemini çözümleyebilme",
+              "subSkills": [
+                "a) Mekânda gerçekleşen coğrafi olay, olgu veya konuyu belirler.",
+                "b) Konu ile coğrafya öğrenmenin önemi arasındaki ilişkiyi belirler."
+              ]
+            },
+            {
+              "code": "COĞ.9.1.3",
+              "text": "Coğrafya biliminin gelişimi hakkında bilgi toplayabilme",
+              "subSkills": [
+                "a) Bilgiye ulaşmak için kullanacağı araçları belirler.",
+                "b) Araçlarla ihtiyaç duyduğu bilgilere ulaşır.",
+                "c) Ulaştığı bilgileri doğrular.",
+                "ç) Doğruladığı bilgileri kaydeder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Ünite: Mekânsal Bilgi Teknolojileri",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/31",
+          "hours": 10,
+          "keyConcepts": [
+            "coğrafi bilgi sistemleri (CBS)",
+            "göreceli konum",
+            "harita",
+            "izohips",
+            "jeopolitik",
+            "koordinat sistemi",
+            "mekân",
+            "mekânsal bilgi teknolojileri",
+            "mekânsal veri",
+            "mutlak konum",
+            "ölçek",
+            "projeksiyon",
+            "saat dilimleri",
+            "ulusal saat",
+            "uzaktan algılama",
+            "yerel saat"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.9.2.1",
+              "text": "Harita bileşenlerinden yararlanarak harita okuyabilme, çözümleyebilme, çıkarım yapabilme ve harita oluşturabilme",
+              "subSkills": [
+                "a) Harita bileşenleriyle haritaları okur.",
+                "b) Olay, olgu ve mekânlar arasındaki ilişkileri çözümler.",
+                "c) Olgu ve mekânların özellik, konum, dağılış ve ilişkilerine dair çıkarım yapar.",
+                "ç) Harita yapım aşamalarını kullanarak harita oluşturur."
+              ]
+            },
+            {
+              "code": "COĞ.9.2.2",
+              "text": "Türkiye'nin konum özelliklerini özetleyebilme",
+              "subSkills": [
+                "a) Türkiye'nin konum özelliklerini belirler.",
+                "b) Konum özelliklerini görselleştirir.",
+                "c) Konum özelliklerini özetler."
+              ]
+            },
+            {
+              "code": "COĞ.9.2.3",
+              "text": "Mekânsal bilgi teknolojilerini oluşturan bileşenleri çözümleyebilme",
+              "subSkills": [
+                "a) Mekânsal bilgi teknolojilerinin bileşenlerini belirler.",
+                "b) Bileşenler arasındaki ilişkileri belirler."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Ünite: Doğal Sistemler Ve Süreçler",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/34",
+          "hours": 20,
+          "keyConcepts": [
+            "aşırı hava olayları",
+            "atmosfer",
+            "basınç",
+            "biyoçeşitlilik",
+            "biyosfer",
+            "denizellik",
+            "dönme ve dolanma hareketi",
+            "ekosistem",
+            "eksen eğikliği",
+            "geoit",
+            "güneşlenme süresi",
+            "halk takvimi",
+            "hidrosfer",
+            "iklim",
+            "iklim sistemi",
+            "karasallık",
+            "kentsel ısı adası",
+            "kriyosfer",
+            "küresel iklim değişikliği",
+            "litosfer",
+            "mevsim",
+            "nem",
+            "okyanus akıntısı",
+            "rüzgâr",
+            "sıcaklık",
+            "topoğrafik faktörler",
+            "yağış"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.9.3.1",
+              "text": "Hava olaylarının günlük hayata etkisini gözleme dayalı tahmin edebilme",
+              "subSkills": [
+                "a) Bilgileri günlük hayattaki etkileriyle ilişkilendirir.",
+                "b) Günlük hayattaki etkilerine yönelik çıkarım yapar.",
+                "c) Günlük hayattaki etkilerine ilişkin yargıda bulunur."
+              ]
+            },
+            {
+              "code": "COĞ.9.3.2",
+              "text": "İklim sisteminin bileşen ve değişkenlerini çözümleyebilme",
+              "subSkills": [
+                "a) İklim sisteminin bileşen ve değişkenlerini belirler.",
+                "b) Değişkenler arasındaki ilişkileri belirler."
+              ]
+            },
+            {
+              "code": "COĞ.9.3.3",
+              "text": "Farklı iklim türlerindeki yerlerin verileriyle tablo, grafik, şekil ve/veya diyagram hazırlayabilme",
+              "subSkills": [
+                "a) Görselin amacını belirler.",
+                "b) Gerekli araç gereci belirler.",
+                "c) İklim verilerini toplar.",
+                "ç) İklim verilerini sınıflandırır.",
+                "d) Verileri görsel temsillerle görselleştirir.",
+                "e) Görseli amacına uygun kullanır."
+              ]
+            },
+            {
+              "code": "COĞ.9.3.4",
+              "text": "İklim sistemi ve sürecindeki değişiklikleri algılayabilme",
+              "subSkills": [
+                "a) Değişiklikleri coğrafi temsillerle karşılaştırır.",
+                "b) Değişiklikleri sıralar.",
+                "c) Küresel iklim değişikliğinin neden ve sonuçlarını yorumlar.",
+                "ç) Küresel iklim değişikliğini sentezler.",
+                "d) Olası değişime yönelik kanıta dayalı öngörüde bulunur."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Ünite: Beşerî Sistemler Ve Süreçler",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/37",
+          "hours": 16,
+          "keyConcepts": [
+            "bağımlı nüfus",
+            "demografik dönüşüm",
+            "doğum oranı",
+            "genç nüfus",
+            "göç",
+            "nüfus artış hızı",
+            "nüfus piramidi",
+            "nüfus politikası",
+            "nüfus yoğunluğu",
+            "ortanca yaş",
+            "ölüm oranı",
+            "yaşlı nüfus"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.9.4.1",
+              "text": "Nüfusun zaman içindeki değişimini tablo ve grafiklerle yorumlayabilme",
+              "subSkills": [
+                "a) Tablo ve grafiklerdeki bileşenleri anlamlandırır.",
+                "b) Bileşenler arası ilişkileri çözümler.",
+                "c) Tablo ve grafiklerden sonuç çıkarır.",
+                "ç) Farklı ülke nüfuslarındaki değişimi karşılaştırır."
+              ]
+            },
+            {
+              "code": "COĞ.9.4.2",
+              "text": "Nüfus yoğunluğu ve hareketlerini etkileyen faktörlere dair haritalardan çıkarım yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "COĞ.9.4.3",
+              "text": "Nüfus piramitlerinden yararlanarak demografik dönüşüm sürecini yorumlayabilme",
+              "subSkills": [
+                "a) Nüfus piramitlerini dönüşüm modeline göre anlamlandırır.",
+                "b) Aşamaları doğum-ölüm oranı ve nüfus yapısına göre çözümler.",
+                "c) Piramitleri dönüşüm aşamalarıyla ilişkilendirip sonuç çıkarır.",
+                "ç) Elde ettiği sonuçları karşılaştırır."
+              ]
+            },
+            {
+              "code": "COĞ.9.4.4",
+              "text": "Nüfusla ilgili fırsat ve sorunların nüfus politikalarının belirlenmesindeki etkisini sorgulayabilme",
+              "subSkills": [
+                "a) Fırsat ve sorunların politikalara etkisine ilişkin sorular sorar.",
+                "b) Bu etkiye ilişkin bilgi toplar.",
+                "c) Topladığı bilgileri düzenler.",
+                "ç) Düzenlediği bilgileri çözümler.",
+                "d) Çıkardığı sonuçları paylaşır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5. Ünite: Ekonomik Faaliyetler Ve Etkileri",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/40",
+          "hours": 4,
+          "keyConcepts": [
+            "bitki örtüsü",
+            "coğrafi konum",
+            "dağıtım",
+            "gelir düzeyi",
+            "ham madde",
+            "iklim",
+            "iş gücü",
+            "nüfus",
+            "sermaye",
+            "su kaynakları",
+            "teknoloji",
+            "topoğrafik faktörler",
+            "toprak",
+            "tüketim",
+            "üretim"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.9.5.1",
+              "text": "Doğal ve beşerî faktörlerin ekonomik faaliyetler üzerindeki etkilerini sorgulayabilme",
+              "subSkills": [
+                "a) Faktörlerin ekonomiye etkisine dair sorular sorar.",
+                "b) Faktörler ve ekonomik faaliyetlerle ilgili bilgi toplar.",
+                "c) Topladığı bilgileri düzenler.",
+                "ç) Düzenlediği bilgileri çözümler.",
+                "d) Sonuçlar çıkarıp paylaşır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "6. Ünite: Afetler Ve Sürdürülebilir Çevre",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/42",
+          "hours": 8,
+          "keyConcepts": [
+            "afet",
+            "bütüncül afet yönetimi",
+            "ekstrem doğa olayı",
+            "erken uyarı sistemi",
+            "maruziyet",
+            "risk",
+            "tehlike",
+            "Yeşil Vatan"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.9.6.1",
+              "text": "Tehlike, risk ve afet kavramlarını çözümleyebilme",
+              "subSkills": [
+                "a) Kavramların niteliklerini tanımlar.",
+                "b) Kavramlar arasındaki bağlantıları tespit eder."
+              ]
+            },
+            {
+              "code": "COĞ.9.6.2",
+              "text": "Afetleri oluşum kaynaklarına göre sınıflandırabilme",
+              "subSkills": [
+                "a) Oluşum kaynağına göre afetleri tanımlar.",
+                "b) Afetleri birbirinden ayırt eder.",
+                "c) Afetleri kategorilere ayırır.",
+                "ç) Afetlere uygun etiketler verir."
+              ]
+            },
+            {
+              "code": "COĞ.9.6.3",
+              "text": "Bütüncül afet yönetimi görsellerini yorumlayabilme",
+              "subSkills": [
+                "a) Grafik ve şemalardaki unsurları anlamlandırır.",
+                "b) Unsurları ve aralarındaki ilişkileri çözümler.",
+                "c) Unsurlardan hareketle sonuç çıkarır.",
+                "ç) Elde edilen sonuçları karşılaştırır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "7. Ünite: Bölgeler, Ülkeler Ve Küresel Bağlantılar",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/47",
+          "hours": 4,
+          "keyConcepts": [
+            "bölge",
+            "işlevsel bölge",
+            "şekilsel bölge"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.9.7.1",
+              "text": "Bölge belirleme kriterlerine göre bölge hakkında çıkarım yapabilme",
+              "subSkills": [
+                "a) Bölge ve bölge sınırı hakkında tahminde bulunur.",
+                "b) Bölge ve sınırındaki örüntüleri sıralar.",
+                "c) Bölge ve bölge sınırlarını kıyaslar.",
+                "ç) Bölge ve sınırları hakkında öneri ileri sürer.",
+                "d) Bölge ve bölge sınırlarını irdeler."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/cografya-dersi/12",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Ünite: Coğrafyanın Doğası",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/56",
+          "hours": 4,
+          "keyConcepts": [
+            "coğrafi bakış",
+            "dağılış",
+            "değişim",
+            "hareket",
+            "konum",
+            "mekân",
+            "zaman"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.10.1.1",
+              "text": "Örnek olay, olgu ve/veya mekânı coğrafyanın temel kavramlarıyla ilişkilendirebilme",
+              "subSkills": [
+                "a) Olay, olgu veya mekânın harita üzerindeki konumunu algılar.",
+                "b) Mekânın temel coğrafi koşullarını tanımlar.",
+                "c) Mekânın yakın ve uzak çevresiyle ilişkilerini çözümler.",
+                "ç) Mekânın çevredeki diğer olay ve mekânlara etkisini sorgular."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Ünite: Mekânsal Bilgi Teknolojileri",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/58",
+          "hours": 6,
+          "keyConcepts": [
+            "CBS",
+            "uydu görüntüsü",
+            "uzaktan algılama",
+            "veri"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.10.2.1",
+              "text": "CBS ve uzaktan algılamanın kullanım alanlarını örneklerle özetleyebilme",
+              "subSkills": [
+                "a) Örneklerden hareketle uygulama alanlarını çözümler.",
+                "b) Uygulama alanlarını örneklere göre gruplandırır.",
+                "c) Uygulama alanlarına ilişkin yorum yapar."
+              ]
+            },
+            {
+              "code": "COĞ.10.2.2",
+              "text": "Mekânsal bilgi teknolojileriyle altlık haritalar üzerinde mekânsal veri oluşturabilme",
+              "subSkills": [
+                "a) Haritanın amacını belirler.",
+                "b) Gerekli yöntem ve araç gereçleri kullanır.",
+                "c) Haritaya eklenecek verileri toplar.",
+                "ç) Haritanın türünü belirler.",
+                "d) Verileri haritaya işleyip bileşenlerini oluşturur.",
+                "e) Haritayı amacına uygun kullanır.",
+                "f) Haritayı gerektiğinde yeniden kullanır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Ünite: Doğal Sistemler Ve Süreçler",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/63",
+          "hours": 18,
+          "keyConcepts": [
+            "alüvyal",
+            "antroposen",
+            "aşınma",
+            "birikme",
+            "çözünme",
+            "deprem",
+            "fay",
+            "jeolojik zaman",
+            "jeotermal",
+            "karstlaşma",
+            "kayaç döngüsü (kayaç çevrimi)",
+            "levha",
+            "orojenez",
+            "taşınma",
+            "tektonizma",
+            "topoğrafya",
+            "volkanizma"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.10.3.1",
+              "text": "Yerkürenin tektonik yapısını levha tektoniği çerçevesinde çözümleyebilme",
+              "subSkills": [
+                "a) Levha tektoniğine neden olan süreçleri belirler.",
+                "b) Yeryüzü şekilleri ile levha tektoniği ilişkisini belirler."
+              ]
+            },
+            {
+              "code": "COĞ.10.3.2",
+              "text": "Aşınma ve çözünme süreçleri ile iklim ve kayaç özellikleri arasındaki ilişkileri yapılandırabilme",
+              "subSkills": [
+                "a) İklim ve kayaç ile aşınma-çözünme arasında neden-sonuç ilişkisi kurar.",
+                "b) Aşınma ve çözünme bilgilerini önceki bilgileriyle bütünleştirir."
+              ]
+            },
+            {
+              "code": "COĞ.10.3.3",
+              "text": "Yeryüzü şekillerinin oluşumunu aşınım ve birikim süreçleri açısından çözümleyebilme",
+              "subSkills": [
+                "a) Aşınım ve birikimle oluşan yeryüzü şekillerini belirler.",
+                "b) Aşınım-birikim ile yeryüzü şekilleri ilişkisini belirler."
+              ]
+            },
+            {
+              "code": "COĞ.10.3.4",
+              "text": "Yeryüzü şekillerinin oluşumunda doğal süreçlerin etkilerini saha/sanal saha çalışmasıyla araştırabilme",
+              "subSkills": [
+                "a) Saha çalışması için hazırlık yapar.",
+                "b) Etkili faktörleri belirlemek için sahada uygulama yapar.",
+                "c) Sahadan oluşum ve değişimle ilgili bilgi toplar.",
+                "ç) Sahadan elde ettiği bilgileri çözümler.",
+                "d) Bilgilere dayalı tahminde bulunur.",
+                "e) Tahminlerini raporlar."
+              ]
+            },
+            {
+              "code": "COĞ.10.3.5",
+              "text": "Yakın çevresindeki yeryüzü şekilleri ile beşerî faaliyetler arasındaki etkileşimi sorgulayabilme",
+              "subSkills": [
+                "a) Etkileşimle ilgili merak ettiği soruları sorar.",
+                "b) Etkileşimle ilgili bilgi toplar.",
+                "c) Bilgileri düzenler.",
+                "ç) Bilgileri çözümler.",
+                "d) Çıkardığı sonuçları paylaşır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Ünite: Beşerî Sistemler Ve Süreçler",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/81",
+          "hours": 8,
+          "keyConcepts": [
+            "bağlantı",
+            "konum",
+            "mekân",
+            "şehir",
+            "yerleşme",
+            "yerleşme fonksiyonu"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.10.4.1",
+              "text": "Yerleşme yeri seçimi ve gelişiminde etkili coğrafi faktörleri sorgulayabilme",
+              "subSkills": [
+                "a) Faktörlere yönelik sorular sorar.",
+                "b) Faktörlere yönelik bilgi toplar.",
+                "c) Bilgileri düzenler.",
+                "ç) Bilgileri çözümler.",
+                "d) Sonuçları çıkarıp paylaşır."
+              ]
+            },
+            {
+              "code": "COĞ.10.4.2",
+              "text": "Türkiye ve dünyadaki yerleşmeleri fonksiyonlarına göre sınıflandırabilme",
+              "subSkills": [
+                "a) Fonksiyonlarda etkili değişkenleri belirler.",
+                "b) Değişkenleri ayrıştırır.",
+                "c) Değişkenleri tasnif eder.",
+                "ç) Yerleşmeleri fonksiyonlarına göre etiketler."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5. Ünite: Ekonomik Faaliyetler Ve Etkileri",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/89",
+          "hours": 10,
+          "keyConcepts": [
+            "ekonomik faaliyet",
+            "ekonomik sektör",
+            "gayrisafi millî hasıla (GSMH)",
+            "gayrisafi yurt içi hasıla (GSYİH)",
+            "gelişmişlik",
+            "istihdam"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.10.5.1",
+              "text": "Ekonomik faaliyetleri sektörlere göre sınıflandırabilme",
+              "subSkills": [
+                "a) Sınıflandırma kriterlerini saptar.",
+                "b) Faaliyetleri sektörlere göre gruplandırır.",
+                "c) Faaliyetleri sektör bazında sistemli düzenler.",
+                "ç) Faaliyetlere sektöre uygun etiketler verir."
+              ]
+            },
+            {
+              "code": "COĞ.10.5.2",
+              "text": "Farklı gelişmişlikteki ülkeleri sektör dağılımı görselleri üzerinden karşılaştırabilme",
+              "subSkills": [
+                "a) Sektör dağılımı görsellerinin bileşenlerini anlamlandırır.",
+                "b) Görselleri inceleyerek çözümler.",
+                "c) Görsellerden ülkelere ilişkin sonuç çıkarır.",
+                "ç) Sonuçları ülkeler arasında kıyaslar."
+              ]
+            },
+            {
+              "code": "COĞ.10.5.3",
+              "text": "Sektörlerin Türkiye ekonomisindeki yerini gösteren tablo, grafik, şekil ve/veya diyagram hazırlayabilme",
+              "subSkills": [
+                "a) Görselin amacını belirler.",
+                "b) Görselin türünü ve araç gereci seçer.",
+                "c) Gerekli verileri toplar.",
+                "ç) Verileri sektörlere göre sınıflandırır.",
+                "d) Verileri görselleştirir.",
+                "e) Görseli amacına uygun kullanır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "6. Ünite: Afetler Ve Sürdürülebilir Çevre",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/94",
+          "hours": 16,
+          "keyConcepts": [
+            "afet bilinci",
+            "afete dirençli toplum",
+            "afete dirençli yaşam alanı",
+            "Yeşil Vatan"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.10.6.1",
+              "text": "Afetlerle mücadelede iyi uygulama örneklerini sorgulayabilme",
+              "subSkills": [
+                "a) İyi uygulama örneklerine ilişkin sorular sorar.",
+                "b) Örneklerle ilgili bilgi toplar.",
+                "c) Bilgileri düzenler.",
+                "ç) Bilgileri çözümler.",
+                "d) Çıkardığı sonuçları paylaşır."
+              ]
+            },
+            {
+              "code": "COĞ.10.6.2",
+              "text": "Afete dirençli yaşam alanlarının coğrafi koşullarını çözümleyebilme",
+              "subSkills": [
+                "a) Afete dirençli yaşam alanlarının coğrafi koşullarını tanımlar.",
+                "b) Mekânsal unsurlar arasındaki ilişkileri çözümler."
+              ]
+            },
+            {
+              "code": "COĞ.10.6.3",
+              "text": "Mekânın özelliklerine göre afetlerden korunma uygulamalarına karar verebilme",
+              "subSkills": [
+                "a) Korunma uygulamalarının amacını belirler.",
+                "b) Uygulamalara ilişkin bilgi toplar.",
+                "c) Alternatif seçenekler oluşturur.",
+                "ç) Seçenekler üzerinden çıkarım yapar.",
+                "d) Uygulamalar arasından seçim yapar.",
+                "e) Seçiminin sonuçları üzerinde yansıtma yapar."
+              ]
+            },
+            {
+              "code": "COĞ.10.6.4",
+              "text": "Afetlerden korunmada afet bilinci oluşturmanın faydalarını yansıtabilme",
+              "subSkills": [
+                "a) Afet bilinciyle ilgili deneyimlerini gözden geçirir.",
+                "b) Deneyimlerinden çıkarım yapar.",
+                "c) Çıkarımlarını değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "7. Ünite: Bölgeler, Ülkeler Ve Küresel Bağlantılar",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/98",
+          "hours": 6,
+          "keyConcepts": [
+            "kültür ocağı",
+            "kültürel miras",
+            "Türkistan",
+            "Türk dünyası",
+            "Türk kültürü"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.10.7.1",
+              "text": "Türk dünyasının ortak kültürel özellikleri hakkında analojik akıl yürütebilme",
+              "subSkills": [
+                "a) Türk kültürünün yayılım alanlarını gözlemler.",
+                "b) Bu alanlardaki kültürel özellikleri belirler.",
+                "c) Ortak kültürel özellikler hakkında çıkarım yapar."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/cografya-dersi/13",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Ünite: Coğrafyanın Doğası",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/107",
+          "hours": 6,
+          "keyConcepts": [
+            "bağlantı",
+            "bilimsel yaklaşım",
+            "dağılış",
+            "mekânsal sorunlar"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.11.1.1",
+              "text": "Coğrafya biliminin mekânsal sorunların çözümüne katkılarını yapılandırabilme",
+              "subSkills": [
+                "a) Katkıları inceleyerek nedensel/mantıksal ilişkileri ortaya koyar.",
+                "b) Elde edilen bilgileri uyumlu bir bütün hâline getirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Ünite: Mekânsal Bilgi Teknolojileri",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/110",
+          "hours": 12,
+          "keyConcepts": [
+            "bulut bilişim",
+            "detay",
+            "genelleme",
+            "katman",
+            "öz nitelik tablosu",
+            "sembol",
+            "sorgulama",
+            "veri girişi",
+            "veri görüntüleme",
+            "yaşayan atlas",
+            "web CBS"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.11.2.1",
+              "text": "Web tabanlı CBS ile harita uygulamaları yapabilme",
+              "subSkills": [
+                "a) Web tabanlı CBS ile harita okur.",
+                "b) Web tabanlı CBS ile harita çözümler.",
+                "c) Web tabanlı CBS ile haritadan çıkarım yapar.",
+                "ç) Web tabanlı CBS ile harita oluşturur."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Ünite: Doğal Sistemler Ve Süreçler",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/114",
+          "hours": 16,
+          "keyConcepts": [
+            "deniz hukuku",
+            "deniz yetki alanı",
+            "iç sular",
+            "kara suları",
+            "kıta sahanlığı",
+            "Mavi Vatan",
+            "münhasır ekonomik bölge",
+            "sınır oluşturan sular",
+            "sınıraşan sular",
+            "stratejik su yönetimi",
+            "su kaynağı",
+            "su kültürü",
+            "sürdürülebilirlik",
+            "tasarruf"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.11.3.1",
+              "text": "Yeryüzündeki su kaynaklarını ölçütlere göre sınıflandırabilme",
+              "subSkills": [
+                "a) Su kaynaklarını ayırmak için ölçütler belirler.",
+                "b) Su kaynaklarını ölçütlere göre ayırır.",
+                "c) Su kaynaklarını gruplandırır.",
+                "ç) Su kaynaklarına uygun etiketler verir."
+              ]
+            },
+            {
+              "code": "COĞ.11.3.2",
+              "text": "Türkiye'de su kaynaklarının çevresel, ekonomik, politik ve sosyokültürel etkilerini sorgulayabilme",
+              "subSkills": [
+                "a) Etkilere yönelik merak ettiği soruları ortaya koyar.",
+                "b) Etkilerle ilgili bilgi derler.",
+                "c) Bilgileri düzenler.",
+                "ç) Bilgileri çözümler.",
+                "d) Sonuçlarını paylaşır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Ünite: Beşerî Sistemler Ve Süreçler",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/123",
+          "hours": 12,
+          "keyConcepts": [
+            "konum",
+            "mekânsal desen",
+            "mekânsal etki",
+            "mekânsal hiyerarşi",
+            "mekânsal organizasyon",
+            "yerleşme"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.11.4.1",
+              "text": "Türkiye ve dünya yerleşmelerinin mekânsal düzenini çözümleyebilme",
+              "subSkills": [
+                "a) Mekânsal deseni Türkiye ve dünya örneklerinde algılar.",
+                "b) Mekânsal organizasyonu etkileyen coğrafi koşulları tanımlar.",
+                "c) Benzer özellikteki bölgeleri örneklerle belirler.",
+                "ç) Bölgeler arası geçişle ilgili çıkarım yapar.",
+                "d) Unsurlar arasındaki mekânsal bağlantıları çözümler.",
+                "e) Mekânsal hiyerarşiyi örneklerle çözümler.",
+                "f) Yerleşmeleri benzerlik ve farklılıklarına göre karşılaştırır."
+              ]
+            },
+            {
+              "code": "COĞ.11.4.2",
+              "text": "Yerleşmelerin etki alanlarını sorgulayabilme",
+              "subSkills": [
+                "a) Yerleşmelerin diğer mekânlara etkisiyle ilgili sorular sorar.",
+                "b) Etkilere ilişkin bilgi toplar.",
+                "c) Bilgileri düzenler.",
+                "ç) Bilgileri çözümler.",
+                "d) Bilgilerden çıkarım yapar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5. Ünite: Ekonomik Faaliyetler Ve Etkileri",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/253",
+          "hours": 34,
+          "keyConcepts": [
+            "arazi kullanımı",
+            "endüstri 4.0",
+            "enerji yönetimi",
+            "gıda güvencesi",
+            "gıda güvenliği",
+            "ham madde",
+            "kritik maden",
+            "organize sanayi bölgesi (OSB)",
+            "sanayi",
+            "sanayi türleri",
+            "stratejik maden",
+            "sürdürülebilirlik",
+            "tarım",
+            "tarım 4.0",
+            "tedarik zinciri",
+            "yenilenebilir enerji",
+            "yenilenemeyen enerji"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.11.5.1",
+              "text": "Tarımsal faaliyetleri gıda güvencesi açısından sorgulayabilme",
+              "subSkills": [
+                "a) Gıda güvencesiyle ilgili sorular sorar.",
+                "b) Tarım ve gıda güvencesi hakkında bilgi toplar.",
+                "c) Bilgileri düzenler.",
+                "ç) Bilgileri çözümler.",
+                "d) Çıkardığı sonuçları paylaşır."
+              ]
+            },
+            {
+              "code": "COĞ.11.5.2",
+              "text": "Dünya ve Türkiye'deki tarım uygulamalarını sürdürülebilirlik ölçütlerine göre değerlendirebilme",
+              "subSkills": [
+                "a) Sürdürülebilirlik ölçütlerine ulaşır.",
+                "b) Tarım uygulamalarının özelliklerini tespit eder.",
+                "c) Özellikleri sürdürülebilirlik ölçütleriyle karşılaştırır.",
+                "ç) Uygulamaların sürdürülebilirliği hakkında yargıda bulunur."
+              ]
+            },
+            {
+              "code": "COĞ.11.5.3",
+              "text": "Stratejik-kritik madenlerin ekonomi ve ülkeler arası ilişkilerdeki yerine yönelik çıkarım yapabilme",
+              "subSkills": [
+                "a) Bu madenlerin ekonomideki yerine dair varsayımda bulunur.",
+                "b) Coğrafi temsillerdeki eğilimleri inceler.",
+                "c) Coğrafi temsiller aracılığıyla karşılaştırma yapar.",
+                "ç) Madenlerin etkisine yönelik önerme sunar.",
+                "d) Etkisini ekonomi ve ilişkiler bağlamında değerlendirir."
+              ]
+            },
+            {
+              "code": "COĞ.11.5.4",
+              "text": "Dünya ve Türkiye'deki enerji kaynaklarının kullanımındaki değişim ve sürekliliği algılayabilme",
+              "subSkills": [
+                "a) Enerji kullanımındaki değişiklikleri temsil ve verilerle karşılaştırır.",
+                "b) Değişiklikleri sıralar.",
+                "c) Gelişimin neden ve sonuçlarını yorumlar.",
+                "ç) Gelişim sürecini sentezler.",
+                "d) Verilerle değişime yönelik öngörüde bulunur."
+              ]
+            },
+            {
+              "code": "COĞ.11.5.5",
+              "text": "Sanayi faaliyetlerinin mekânsal etkilerini sorgulayabilme",
+              "subSkills": [
+                "a) Sanayinin mekânsal etkileriyle ilgili sorular sorar.",
+                "b) Etkilerle ilgili bilgi toplar.",
+                "c) Bilgileri düzenler.",
+                "ç) Bilgileri çözümler.",
+                "d) Etkilerle ilgili çıkarımda bulunur."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "6. Ünite: Afetler Ve Sürdürülebilir Çevre",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/255",
+          "hours": 22,
+          "keyConcepts": [
+            "biyoçeşitlilik",
+            "çevre sorunları",
+            "ekosistem",
+            "gezegen sınırı",
+            "mutlak su kıtlığı",
+            "su ayak izi",
+            "su dengesi",
+            "su güvenliği",
+            "su kıtlığı",
+            "su stresi",
+            "su tasarrufu",
+            "sürdürülebilirlik",
+            "yeşil beceriler"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.11.6.1",
+              "text": "Gezegen sınırının zorlanması sonucu oluşan çevre sorunlarına yönelik özgün içerik oluşturabilme",
+              "subSkills": [
+                "a) Gezegen sınırı bileşenlerini ve beşerî etkileri belirler.",
+                "b) Sınır bileşenleri ile beşerî etkiler arasında ilişki kurar.",
+                "c) Çevre sorunlarına dair özgün bir içerik üretir."
+              ]
+            },
+            {
+              "code": "COĞ.11.6.2",
+              "text": "Küresel iklim değişikliğinin etkilerini azaltma ve uyum stratejilerini tartışabilme",
+              "subSkills": [
+                "a) Stratejiler için mantıksal temellendirme yapar.",
+                "b) Stratejilerdeki çelişki ve/veya geçersizlikleri tespit eder.",
+                "c) Stratejileri çürütür veya kabul eder."
+              ]
+            },
+            {
+              "code": "COĞ.11.6.3",
+              "text": "Türkiye'deki su kaynaklarının sürdürülebilir kullanımını sorgulayabilme",
+              "subSkills": [
+                "a) Sürdürülebilir kullanıma ilişkin sorular sorar.",
+                "b) Konuya ilişkin bilgi toplar.",
+                "c) Bilgileri düzenler.",
+                "ç) Bilgileri çözümler.",
+                "d) Sonuçları paylaşır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "7. Ünite: Bölgeler, Ülkeler Ve Küresel Bağlantılar",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/257",
+          "hours": 36,
+          "keyConcepts": [
+            "enerji kaynakları",
+            "kültürel hinterland",
+            "madencilik",
+            "sanayi",
+            "tarım"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.11.7.1",
+              "text": "Türkiye ile kültürel bağları güçlü yerler arasındaki etkileşimi sorgulayabilme",
+              "subSkills": [
+                "a) Etkileşime ilişkin sorular sorar.",
+                "b) Etkileşime ilişkin bilgi toplar.",
+                "c) Bilgileri düzenler.",
+                "ç) Bilgileri çözümler.",
+                "d) Etkileşime ilişkin çıkarımda bulunur."
+              ]
+            },
+            {
+              "code": "COĞ.11.7.2",
+              "text": "Örnek bir ülkenin tarımsal üretim özelliklerini coğrafi açıdan özetleyebilme",
+              "subSkills": [
+                "a) Tarımsal üretim özelliklerini coğrafi açıdan çözümler.",
+                "b) Özellikleri coğrafi açıdan sınıflandırır.",
+                "c) Özellikleri coğrafi açıdan yorumlar."
+              ]
+            },
+            {
+              "code": "COĞ.11.7.3",
+              "text": "Örnek ülkelerin sanayileşme süreçlerini coğrafi açıdan karşılaştırabilme",
+              "subSkills": [
+                "a) Sanayileşme süreçlerindeki coğrafi özellikleri tanımlar.",
+                "b) Benzerlikleri listeler.",
+                "c) Farklılıkları listeler."
+              ]
+            },
+            {
+              "code": "COĞ.11.7.4",
+              "text": "Örnek bir ülkedeki madencilik faaliyetleriyle ilgili tablo, grafik, şekil hazırlayabilme",
+              "subSkills": [
+                "a) Temsillerin amacını belirler.",
+                "b) Temsilin türünü ve araç gereci belirler.",
+                "c) Gerekli verileri toplar.",
+                "ç) Verileri sınıflandırır.",
+                "d) Verileri amaca uygun görselleştirir.",
+                "e) Temsilleri uygun yerde kullanır."
+              ]
+            },
+            {
+              "code": "COĞ.11.7.5",
+              "text": "Örnek ülkelerin enerji kaynaklarını coğrafi açıdan karşılaştırabilme",
+              "subSkills": [
+                "a) Enerji kaynaklarıyla ilgili özellikleri tanımlar.",
+                "b) Benzerlikleri listeler.",
+                "c) Farklılıkları listeler."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/cografya-dersi/14",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Ünite: Coğrafyanın Doğası",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/258",
+          "hours": 6,
+          "keyConcepts": [
+            "coğrafi bakış",
+            "coğrafi kanıt",
+            "coğrafya",
+            "kuantum teknolojileri",
+            "nesnelerin interneti",
+            "yapay zekâ",
+            "yeşil dönüşüm ve meslekler"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.12.1.1",
+              "text": "Coğrafya biliminin geleceğe yönelik etkilerine ilişkin öngörüde bulunabilme",
+              "subSkills": [
+                "a) Coğrafi kanıt ve deneyimleri geleceğe yönelik etkilerle bağlar.",
+                "b) Bunları ilişkilendirip çıkarım yapar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Ünite: Mekânsal Bilgi Teknolojileri",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/262",
+          "hours": 12,
+          "keyConcepts": [
+            "analiz",
+            "birleştirme",
+            "çakıştırma",
+            "değişken",
+            "dijital hikâye haritası",
+            "katman",
+            "öz nitelik tablosu",
+            "sembol",
+            "tematik harita",
+            "veri aralığı",
+            "veri girişi",
+            "veri görüntüleme"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.12.2.1",
+              "text": "Web tabanlı CBS ile hazırlanan tematik haritalarla uygulama yapabilme",
+              "subSkills": [
+                "a) Tematik haritaları okur.",
+                "b) Tematik haritaları çözümler.",
+                "c) Tematik haritalardan çıkarım yapar.",
+                "ç) Tematik haritalar oluşturur."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Ünite: Doğal Sistemler Ve Süreçler",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/272",
+          "hours": 18,
+          "keyConcepts": [
+            "ana kaya",
+            "anıt ağaç",
+            "bitki örtüsü",
+            "biyoçeşitlilik",
+            "endemik bitki",
+            "iklim",
+            "kayaç",
+            "relikt bitki",
+            "topoğrafik faktörler",
+            "toprak",
+            "zaman"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.12.3.1",
+              "text": "Toprak oluşumunu toprak türleri açısından bütünlüklü biçimde yapılandırabilme",
+              "subSkills": [
+                "a) Oluşum faktörleri ile toprak grupları arasındaki ilişkiyi ortaya koyar.",
+                "b) Bilgilerden tutarlı bir bütün oluşturur."
+              ]
+            },
+            {
+              "code": "COĞ.12.3.2",
+              "text": "Türkiye'de toprak kullanımının etkilerini sorgulayabilme",
+              "subSkills": [
+                "a) Ekonomik, çevresel ve sosyokültürel etkilere dair sorular sorar.",
+                "b) Etkilere yönelik bilgi toplar.",
+                "c) Bilgileri düzenler.",
+                "ç) Bilgileri çözümler.",
+                "d) Çıkardığı sonuçları paylaşır."
+              ]
+            },
+            {
+              "code": "COĞ.12.3.3",
+              "text": "Coğrafi faktörlerin bitki örtüsü çeşitliliği ve dağılışına etkisine dair haritalardan çıkarım yapabilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Ünite: Beşerî Sistemler Ve Süreçler",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/277",
+          "hours": 16,
+          "keyConcepts": [
+            "değişim",
+            "jeokültür",
+            "kültür",
+            "kültürel peyzaj",
+            "mekân",
+            "sürdürülebilirlik"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.12.4.1",
+              "text": "Kültür-mekân etkileşimini coğrafi açıdan sorgulayabilme",
+              "subSkills": [
+                "a) Etkileşimle ilgili sorular sorar.",
+                "b) Etkileşimle ilgili bilgi toplar.",
+                "c) Bilgileri düzenler.",
+                "ç) Bilgileri çözümler.",
+                "d) Sonuç çıkarıp paylaşır."
+              ]
+            },
+            {
+              "code": "COĞ.12.4.2",
+              "text": "Kültürel peyzajı sürdürülebilirlik açısından karşılaştırabilme",
+              "subSkills": [
+                "a) Yerleşmelerin mekânsal koşul ve ölçütlerini tanımlar.",
+                "b) Benzerlikleri listeler.",
+                "c) Farklılıkları listeler."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5. Ünite: Ekonomik Faaliyetler Ve Etkileri",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/280",
+          "hours": 20,
+          "keyConcepts": [
+            "coğrafi işaret",
+            "doğal ve kültürel miras",
+            "e-ticaret",
+            "jeoekonomi",
+            "jeopolitik",
+            "küresel ticaret",
+            "siber güvenlik",
+            "sürdürülebilirlik",
+            "transit ticaret",
+            "ulaşım sistemleri",
+            "ulusötesi şirketler"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.12.5.1",
+              "text": "Dünya ve Türkiye'de ulaşım sistemlerinin gelişimindeki değişim ve sürekliliği algılayabilme",
+              "subSkills": [
+                "a) Değişim ve sürekliliği temsil ve verilerle karşılaştırır.",
+                "b) Değişim ve sürekliliği sıralar.",
+                "c) Gelişimin neden ve sonuçlarını yorumlar.",
+                "ç) Gelişim sürecini sentezler.",
+                "d) Kanıt ve gözlemlere dayalı öngörüde bulunur."
+              ]
+            },
+            {
+              "code": "COĞ.12.5.2",
+              "text": "Küresel ticaretin mekânsal bağlantılarını çözümleyebilme",
+              "subSkills": [
+                "a) Küresel ticaret merkezlerini belirler.",
+                "b) Merkezler arasındaki bağlantıları belirler."
+              ]
+            },
+            {
+              "code": "COĞ.12.5.3",
+              "text": "Turizm faaliyetlerinin sosyal, kültürel, ekonomik, politik ve çevresel etkilerini sorgulayabilme",
+              "subSkills": [
+                "a) Turizmin etkilerine yönelik sorular sorar.",
+                "b) Etkilere yönelik bilgi toplar.",
+                "c) Bilgileri düzenler.",
+                "ç) Bilgileri çözümler.",
+                "d) Çıkardığı sonuçları paylaşır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "6. Ünite: Afetler Ve Sürdürülebilir Çevre",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/283",
+          "hours": 32,
+          "keyConcepts": [
+            "çevre politikaları",
+            "çevre sorunları",
+            "çevresel organizasyonlar",
+            "çoraklaşma",
+            "çölleşme",
+            "doğal miras",
+            "drenaj",
+            "endemik",
+            "erozyon",
+            "kültürel miras",
+            "relikt",
+            "sürdürülebilirlik",
+            "Yeşil Vatan"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.12.6.1",
+              "text": "Türkiye'de toprağın sürdürülebilir kullanımını sorgulayabilme",
+              "subSkills": [
+                "a) Sürdürülebilir kullanıma dair sorular sorar.",
+                "b) Konuyla ilgili bilgi toplar.",
+                "c) Bilgileri düzenler.",
+                "ç) Bilgileri çözümler.",
+                "d) Sonuç çıkarır ve paylaşır."
+              ]
+            },
+            {
+              "code": "COĞ.12.6.2",
+              "text": "Türkiye'deki bitki topluluklarında görülen değişim ve sürekliliği algılayabilme",
+              "subSkills": [
+                "a) Bitki topluluklarını çeşitlilik ve dağılış açısından karşılaştırır.",
+                "b) Bitki topluluklarını çeşitlilik ve dağılış açısından sıralar.",
+                "c) Zamansal değişimi neden ve sonuçlarıyla yorumlar.",
+                "ç) Bitki topluluklarını çeşitlilik ve dağılış açısından sentezler.",
+                "d) Bilgi ve gözlemlere dayanarak öngörüde bulunur."
+              ]
+            },
+            {
+              "code": "COĞ.12.6.3",
+              "text": "Türkiye ve farklı gelişmişlikteki ülkelerin çevre politika ve uygulamalarını karşılaştırabilme",
+              "subSkills": [
+                "a) Ülkelerin çevre politika ve uygulamalarını belirler.",
+                "b) Benzerlikleri listeler.",
+                "c) Farklılıkları listeler."
+              ]
+            },
+            {
+              "code": "COĞ.12.6.4",
+              "text": "Doğal çevreyi korumaya yönelik organizasyon ve anlaşmaların etkisine ilişkin bilgi toplayabilme",
+              "subSkills": [
+                "a) Kullanacağı araçları belirler.",
+                "b) Organizasyon ve anlaşmaların etkilerine ilişkin bilgi toplar.",
+                "c) Bilgileri doğrular.",
+                "ç) Doğruladığı bilgileri kaydeder."
+              ]
+            },
+            {
+              "code": "COĞ.12.6.5",
+              "text": "Dünya veya Türkiye'den örnek bir çevre sorununa yönelik problem çözebilme",
+              "subSkills": [
+                "a) Çevre sorununun nedenlerini yapılandırır.",
+                "b) Nedenleri özetler.",
+                "c) Çözüme ilişkin veriye dayalı tahminde bulunur.",
+                "ç) Çözüm önermeleri üzerinden akıl yürütür.",
+                "d) Çözüme ilişkin değerlendirmede bulunur."
+              ]
+            },
+            {
+              "code": "COĞ.12.6.6",
+              "text": "Doğal ve kültürel mirasa yönelik tehditleri ortadan kaldıracak uygulamalara karar verebilme",
+              "subSkills": [
+                "a) Sürecin amacını belirler.",
+                "b) Yapılması gerekenler hakkında bilgi toplar.",
+                "c) Alternatif önermeler oluşturur.",
+                "ç) Önermeler üzerinde mantıksal denetleme yapar.",
+                "d) Uygulamalar arasında seçim yapar.",
+                "e) Seçtiği uygulamalar üzerinde yansıtma yapar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "7. Ünite: Bölgeler, Ülkeler Ve Küresel Bağlantılar",
+          "url": "https://tymm.meb.gov.tr/cografya-dersi/unite/285",
+          "hours": 34,
+          "keyConcepts": [
+            "hizmet sektörü",
+            "sürdürülebilirlik",
+            "ticaret",
+            "turizm",
+            "ulaşım",
+            "uluslararası anlaşmazlık",
+            "uluslararası birliktelik",
+            "uluslararası organizasyon"
+          ],
+          "outcomes": [
+            {
+              "code": "COĞ.12.7.1",
+              "text": "Uluslararası birliklerin anlaşmazlıklara sunduğu çözümleri tartışabilme",
+              "subSkills": [
+                "a) Çözümlere ilişkin mantıksal temellendirme yapar.",
+                "b) Mantıksal tutarsızlık ve geçersizlikleri tespit eder.",
+                "c) Çözümleri kabul eder veya çürütür."
+              ]
+            },
+            {
+              "code": "COĞ.12.7.2",
+              "text": "Örnek ülkelerin ulaşım sistemlerini karşılaştırabilme",
+              "subSkills": [
+                "a) Ulaşım sistemlerinin genel özelliklerini tanımlar.",
+                "b) Benzerlikleri listeler.",
+                "c) Farklılıkları listeler."
+              ]
+            },
+            {
+              "code": "COĞ.12.7.3",
+              "text": "Örnek bir ülkeyi ticari faaliyetleri açısından sentezleyebilme",
+              "subSkills": [
+                "a) Ülkenin ticari faaliyetlerini belirler.",
+                "b) Ülke ile diğer ülkeler arasında ticari ilişki kurar.",
+                "c) Ticari faaliyetlerine yönelik özgün bir ürün oluşturur."
+              ]
+            },
+            {
+              "code": "COĞ.12.7.4",
+              "text": "Örnek ülkelerin turizm faaliyetlerini karşılaştırabilme",
+              "subSkills": [
+                "a) Turizm faaliyetlerinin genel özelliklerini tanımlar.",
+                "b) Benzerlikleri listeler.",
+                "c) Farklılıkları listeler."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Kaynak: tymm.meb.gov.tr Coğrafya Dersi (Ortaöğretim). Her sınıfta aynı adlı yedi ünite vardır. Coğrafyada tema yerine 'Ünite' kullanılır. COĞ.9.4.2 ve COĞ.12.3.3 (haritalardan çıkarım) kazanımlarının sitede harfli süreç bileşeni yoktur; subSkills boş bırakıldı. Kazanım ve süreç bileşeni metinleri resmi metnin kısa Türkçe özetidir (birebir alıntı değildir); ünite adları ve kodlar siteden alınmıştır."
+}

@@ -1,0 +1,1605 @@
+{
+  "level": "lise",
+  "subject": "Türk Dili ve Edebiyatı",
+  "programUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ders/turk-dili-ve-edebiyati-dersi",
+  "grades": [
+    {
+      "grade": 9,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/turk-dili-ve-edebiyati-dersi/11",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Tema: Sözün İnceliği",
+          "url": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/76",
+          "hours": 43,
+          "keyConcepts": [
+            "açık ve örtük ileti",
+            "çağrışım",
+            "edebî dil",
+            "gerçeklik",
+            "günlük dil",
+            "hayal gücü",
+            "imge",
+            "kurmaca",
+            "sembol",
+            "sürükleyicilik",
+            "yaratıcılık"
+          ],
+          "outcomes": [
+            {
+              "code": "TDE1.1",
+              "text": "Tema metinlerini dinlerken/izlerken dinleme/izleme sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.2",
+              "text": "Dinlediği/izlediği tema metinlerinde anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.1",
+              "text": "Tema metinlerini okurken okuma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.2",
+              "text": "Okuduğu tema metinlerinde anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.1",
+              "text": "Söyleyiş inceliklerini kullanarak akıcı bir konuşma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.2",
+              "text": "İkna amacıyla söyleyiş inceliklerine yer veren konuşma içeriği oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.3",
+              "text": "İkna edici konuşmasında söyleyiş inceliklerine ilişkin kuralları uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.4",
+              "text": "Söyleyiş inceliğinin konuşmaya etkisini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.1",
+              "text": "Edebî söyleyişin inceliğini yansıtan paragraf yazma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.2",
+              "text": "Edebî metinlerden edindiği söz varlığıyla yazısına içerik oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.3",
+              "text": "Edebî söyleyişi yansıtan yazısında yazım ve noktalama kurallarını uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.4",
+              "text": "Edebî söyleyişi yansıtan yazısının yazma sürecini değerlendirebilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Tema: Anlam Arayışı",
+          "url": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/101",
+          "hours": 43,
+          "keyConcepts": [
+            "açık ileti",
+            "ana duygu",
+            "ana düşünce",
+            "çağrışım",
+            "konu",
+            "örtük ileti",
+            "tema",
+            "yardımcı düşünce",
+            "yazarın tutumu",
+            "yazar-metin ilişkisi",
+            "yazma amacı"
+          ],
+          "outcomes": [
+            {
+              "code": "TDE1.1",
+              "text": "Anlam Arayışı temasındaki metinlerde dinleme/izleme sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.2",
+              "text": "Tema metinlerinde dinleme/izleme yoluyla anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.1",
+              "text": "Tema metinlerinde okuma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.2",
+              "text": "Tema metinlerinde okuma yoluyla anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.1",
+              "text": "Konuyu ana düşünce etrafında detaylandırarak akıcı bir konuşma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.2",
+              "text": "Konuyu ana düşünce etrafında detaylandıran konuşma içeriği oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.3",
+              "text": "Detaylandırdığı konuşmasında kuralları uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.4",
+              "text": "Konuşmasında kullandığı unsurların etkisini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.1",
+              "text": "Konu zenginliği ve çeşitliliği sağlayan yazma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.2",
+              "text": "Yazısını zenginleştirecek içerik oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.3",
+              "text": "Konu zenginliği ve çeşitliliği sağlayan yazısında kuralları uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.4",
+              "text": "Beğeni ve eleştirilerini dile getirdiği yazısının yazma sürecini değerlendirebilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Tema: Anlamın Yapı Taşları",
+          "url": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/106",
+          "hours": 43,
+          "keyConcepts": [
+            "ahenk unsurları (ölçü, kafiye, redif, durak, kafiye düzeni vb.)",
+            "anlatıcı",
+            "bakış açısı",
+            "bilgi görseli",
+            "giriş-gelişme-sonuç",
+            "kültürel farkındalık",
+            "mekân",
+            "nesnellik",
+            "olay örgüsü",
+            "öznellik",
+            "serim-düğüm-çözüm",
+            "şahıs kadrosu",
+            "zaman"
+          ],
+          "outcomes": [
+            {
+              "code": "TDE1.1",
+              "text": "Anadolu kültürünü anlatan belgeselde dinleme/izleme sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.2",
+              "text": "Belgesel metinlerinde anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.3",
+              "text": "Belgesel metinlerini yapısal olarak çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.1",
+              "text": "Hikâye gibi edebî metinlerde okuma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.2",
+              "text": "Okunan edebî metinlerde anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.3",
+              "text": "Okunan edebî metinleri yapısal olarak çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.1",
+              "text": "Edebî metinlerin yapısal ayrıntılarına odaklanan akıcı bir konuşma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.2",
+              "text": "Benzetme ve karşılaştırmayla yapısal özellikleri ortaya koyan konuşma içeriği oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.3",
+              "text": "Bu konuşmasında kuralları uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.4",
+              "text": "Edebî metinlerdeki yapısal inceliklerin konuşmaya etkisini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.1",
+              "text": "Yapısını özenle kurduğu yazılı anlatım sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.2",
+              "text": "Edebî metinlerden edindiği söz varlığıyla yazısına içerik oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.3",
+              "text": "Yapısını özenle kurduğu yazısında yazım kurallarını uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.4",
+              "text": "Yapısını özenle kurduğu yazısının yazma sürecini değerlendirebilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Tema: Dilin Zenginliği",
+          "url": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/112",
+          "hours": 43,
+          "keyConcepts": [
+            "anlatım özellikleri (duruluk, akıcılık, yalınlık, özgünlük, tutarlılık vb.)",
+            "anlatım teknikleri (geriye dönüş, monolog, diyalog vb.)",
+            "düşünceyi geliştirme yolları (tanımlama, karşılaştırma vb.)",
+            "edebî dil",
+            "öğretici metin",
+            "tenkit",
+            "üslup"
+          ],
+          "outcomes": [
+            {
+              "code": "TDE1.1",
+              "text": "Dilin Zenginliği temasındaki metinlerde dinleme/izleme sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.2",
+              "text": "Dinlediği/izlediği metinlerde anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.3",
+              "text": "Dinlediği/izlediği metinleri çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.4",
+              "text": "Dinleme/izleme sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.1",
+              "text": "Tema metinlerinde okuma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.2",
+              "text": "Okuduğu metinlerde anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.3",
+              "text": "Okuduğu metinleri çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.4",
+              "text": "Okuma sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.1",
+              "text": "Dilin zenginliğini kullanarak akıcı bir konuşma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.2",
+              "text": "Dilin zenginliğinden yararlanarak konuşma içeriği oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.3",
+              "text": "Konuşmasında dil kurallarını uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.4",
+              "text": "Kullandığı dil özelliklerinin konuşmasına etkisini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.1",
+              "text": "Öz yaşam öyküsü için yazılı anlatım sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.2",
+              "text": "Kendi üslubunu yansıtan yazılı anlatım içeriği oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.3",
+              "text": "Üslup özelliklerini yansıtan yazısında kuralları uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.4",
+              "text": "Yazma sürecini değerlendirip beğeni ve eleştirilerini dile getirebilme",
+              "subSkills": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/turk-dili-ve-edebiyati-dersi/12",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Tema: Sözün Ezgisi",
+          "url": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/242",
+          "hours": 43,
+          "keyConcepts": [
+            "ahenk",
+            "anonim",
+            "ezgi",
+            "gelenek",
+            "kurmaca",
+            "masal anlatıcısı",
+            "masalın bölümleri",
+            "olağanüstülük",
+            "ritim",
+            "sözlü kültür",
+            "varyant",
+            "yapı unsurları (olay, kişiler, zaman, mekân)"
+          ],
+          "outcomes": [
+            {
+              "code": "TDE1.1",
+              "text": "Sözün Ezgisi temasındaki metinlerde dinleme/izlemeyi yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.2",
+              "text": "Tema metinlerinde dinleme/izleme yoluyla anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.3",
+              "text": "Dinlediği/izlediği tema metinlerini çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.4",
+              "text": "Dinleme/izleme sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.1",
+              "text": "Tema metinlerinde okumayı yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.2",
+              "text": "Okuduğu tema metinlerinde anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.3",
+              "text": "Okuduğu tema metinlerini çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.4",
+              "text": "Okuma sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.1",
+              "text": "Seçilen şiirlerle şiir dinletisi hazırlama ve sunma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.2",
+              "text": "Şiirleri etkili sunmak için dinletinin içeriğini oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.3",
+              "text": "Şiirleri etkili ve güzel sunmak için kuralları uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.4",
+              "text": "Gerçekleştirilen şiir dinletisinin sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.1",
+              "text": "Dinlenen/izlenen masalı film şeridine dönüştürme sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.2",
+              "text": "Film şeridi yazısına içerik oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.3",
+              "text": "Film şeridi yazısında kuralları uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.4",
+              "text": "Film şeridi yazısının yazma sürecini değerlendirebilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Tema: Kelimelerin Ritmi",
+          "url": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/247",
+          "hours": 43,
+          "keyConcepts": [
+            "açık ve örtük ileti",
+            "ahenk unsurları",
+            "aruz",
+            "beyit",
+            "gerçeklik",
+            "imge",
+            "kafiye",
+            "ölçü",
+            "ritim",
+            "sembol (simge)"
+          ],
+          "outcomes": [
+            {
+              "code": "TDE1.1",
+              "text": "Kelimelerin Ritmi temasındaki metinlerde dinleme/izleme sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.2",
+              "text": "Dinlediği/izlediği metinlerde anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.3",
+              "text": "Dinlediği/izlediği metinleri çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.4",
+              "text": "Dinleme/izleme sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.1",
+              "text": "Tema metinlerinde okuma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.2",
+              "text": "Okuduğu metinlerde anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.3",
+              "text": "Okuduğu metinleri çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.4",
+              "text": "Okuma sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.1",
+              "text": "Ritmin estetik yönüyle bir edebî şahsiyeti tanıtan podcast hazırlama sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.2",
+              "text": "Podcast için gerekli içeriği oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.3",
+              "text": "Podcast sunumunda kuralları uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.4",
+              "text": "Podcast hazırlama sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.1",
+              "text": "Bilgilendirici metni edebî metne dönüştürme sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.2",
+              "text": "Edebî metne dönüştürülecek yazı için içerik oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.3",
+              "text": "Dönüştürdüğü yazıda kuralları uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.4",
+              "text": "Dönüştürme/yazma sürecini değerlendirebilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Tema: Dünden Bugüne",
+          "url": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/256",
+          "hours": 43,
+          "keyConcepts": [
+            "anlatım biçimleri",
+            "destan",
+            "didaktik üslup",
+            "doğal destan",
+            "fabl",
+            "halk hikâyesi",
+            "kurmaca",
+            "mesnevi",
+            "motif",
+            "olağanüstülük",
+            "sözlü gelenek",
+            "yapma destan"
+          ],
+          "outcomes": [
+            {
+              "code": "TDE1.1",
+              "text": "Dünden Bugüne temasındaki metinlerde dinleme/izlemeyi yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.2",
+              "text": "Tema metinlerinde dinleme/izleme yoluyla anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.3",
+              "text": "Dinlediği/izlediği tema metinlerini çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.4",
+              "text": "Dinleme/izleme sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.1",
+              "text": "Tema metinlerinde okumayı yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.2",
+              "text": "Okuduğu tema metinlerinde anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.3",
+              "text": "Okuduğu tema metinlerini çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.4",
+              "text": "Okuma sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.1",
+              "text": "Türk destanlarıyla ilgili konuşma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.2",
+              "text": "Türk destanlarıyla ilgili konuşmasında türe özgü içerik oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.3",
+              "text": "Türk destanlarıyla ilgili konuşmasında kuralları uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.4",
+              "text": "Destan konulu konuşmasının sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.1",
+              "text": "Fabl türünün özelliklerine uygun yazma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.2",
+              "text": "Fabl türüne uygun içerik oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.3",
+              "text": "Fabl yazısında kuralları uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.4",
+              "text": "Fabl yazma sürecini değerlendirebilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Tema: Nesillerin Mirası",
+          "url": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/261",
+          "hours": 43,
+          "keyConcepts": [
+            "açık ve örtük ileti",
+            "değişim",
+            "dönem",
+            "hikâye",
+            "kurmaca",
+            "millî bilinç",
+            "millî edebiyat",
+            "olağanüstülük",
+            "roman",
+            "sözlü kültür",
+            "şiir",
+            "yaşantı",
+            "yenilik"
+          ],
+          "outcomes": [
+            {
+              "code": "TDE1.1",
+              "text": "Nesillerin Mirası temasındaki metinlerde dinleme/izleme sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.2",
+              "text": "Dinlediği/izlediği metinlerde anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.3",
+              "text": "Dinlediği/izlediği metinleri çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.4",
+              "text": "Dinleme/izleme sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.1",
+              "text": "Tema metinlerinde okuma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.2",
+              "text": "Okuduğu metinlerde anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.3",
+              "text": "Okuduğu metinleri çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.4",
+              "text": "Okuma sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.1",
+              "text": "Dede Korkut hikâyelerinden birini canlandırırken konuşma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.2",
+              "text": "Canlandırdığı hikâyeye uygun konuşma içeriği oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.3",
+              "text": "Canlandırma konuşmasında dil kurallarını uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.4",
+              "text": "Canlandırma konuşmasının sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.1",
+              "text": "Hikâyeyi şiire dönüştürme sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.2",
+              "text": "Hikâyeyi şiire dönüştüren yazısında içerik oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.3",
+              "text": "Şiir yazısında dil ve yazım kurallarını uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.4",
+              "text": "Şiir yazma sürecini değerlendirebilme",
+              "subSkills": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/turk-dili-ve-edebiyati-dersi/13",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Tema: Bir Diyeceğim Var!",
+          "url": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/267",
+          "hours": 43,
+          "keyConcepts": [
+            "dilekçe",
+            "elektronik içerik",
+            "e-posta",
+            "figür",
+            "geleneksel Türk tiyatrosu",
+            "gölge oyunu",
+            "Karagöz",
+            "mektup",
+            "mizah"
+          ],
+          "outcomes": [
+            {
+              "code": "TDE1.1",
+              "text": "Çok modlu metinlerde dinleme/izleme sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.2",
+              "text": "Çok modlu dinleme/izleme metinlerinde anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.3",
+              "text": "Çok modlu dinleme/izleme metinlerini çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.4",
+              "text": "Çok modlu metinlerde dinleme/izleme sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.1",
+              "text": "Karagöz oyunu metninde okuma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.2",
+              "text": "Karagöz oyunu ve mektup metinlerinde anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.3",
+              "text": "Karagöz oyunu ve mektup metinlerini çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.4",
+              "text": "Karagöz ve mektup metinlerinden hareketle okuma sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.1",
+              "text": "Sözlü iletişim engellerini konu alan drama konuşmasını yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.2",
+              "text": "İletişim engellerinin neden, sonuç ve çözümlerini yansıtan konuşma içeriği oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.3",
+              "text": "İletişim engelleri canlandırmasında konuşma kurallarını uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.4",
+              "text": "İletişim engellerine yönelik konuşma performansının sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.1",
+              "text": "Duygu, düşünce ve isteklerini etkili ileten e-posta yazma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.2",
+              "text": "Günlük durumlara ilişkin e-posta için içerik oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.3",
+              "text": "E-posta yazımında kurallara uygun metin üretebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.4",
+              "text": "E-posta yazma sürecini değerlendirebilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Tema: Kültür Yolculuğu",
+          "url": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/276",
+          "hours": 43,
+          "keyConcepts": [
+            "anlatıcı",
+            "anlatma",
+            "diyalog",
+            "edebî metin",
+            "geriye dönüş",
+            "kişi",
+            "mekân",
+            "metin",
+            "olay örgüsü",
+            "öğretici metin",
+            "özetleme",
+            "söz varlığı",
+            "zaman"
+          ],
+          "outcomes": [
+            {
+              "code": "TDE1.1",
+              "text": "Âşık atışması gibi çok modlu metinlerde dinleme/izleme sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.2",
+              "text": "Âşık atışmasını dinleyip izleyerek anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.3",
+              "text": "Âşık atışmasını unsurlarına ayırarak çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.4",
+              "text": "Âşık atışmasına ilişkin dinleme/izleme sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.1",
+              "text": "Türk dünyası hikâyesini okuma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.2",
+              "text": "Hikâyedeki bilinmeyen söz varlığını bağlamdan anlamlandırabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.3",
+              "text": "Hikâyeyi yapı unsurlarıyla, Orhun Abideleri'ni öğretici metin olarak çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.4",
+              "text": "Hikâye ve Orhun Abideleri okuma sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.1",
+              "text": "Türk dünyasının ortak kültürünü görsellerle tanıtan konuşma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.2",
+              "text": "Kültürel çeşitlilik konulu konuşma için hedef kitleye uygun içerik oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.3",
+              "text": "Kültürel çeşitlilik konuşmasında dil ve konuşma kurallarını uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.4",
+              "text": "Türk kültürü konuşmasının hazırlık ve sunum sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.1",
+              "text": "Çevrim içi müze gezisi izlenimlerini yazma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.2",
+              "text": "Müzedeki kültürel unsurları benzerlik ve farklılıklarıyla ortaya koyan içerik oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.3",
+              "text": "Müze gezisi izlenimlerini yazım kurallarına uygun yazabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.4",
+              "text": "Müze gezisi yazısının sürecini değerlendirebilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Tema: Yaşamın İzinde",
+          "url": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/322",
+          "hours": 43,
+          "keyConcepts": [
+            "divan edebiyatı geleneği",
+            "gerçek",
+            "kişi tanıtımı",
+            "kurmaca",
+            "nesnellik",
+            "öznellik",
+            "radyo tiyatrosu",
+            "roman",
+            "tezkire",
+            "üslup",
+            "yaşam öyküsü"
+          ],
+          "outcomes": [
+            {
+              "code": "TDE1.1",
+              "text": "Radyo tiyatrosu metninde dinleme/izleme sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.2",
+              "text": "Radyo tiyatrosu metninde anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.3",
+              "text": "Radyo tiyatrosu metnini çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.4",
+              "text": "Radyo tiyatrosuna ilişkin dinleme/izleme sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.1",
+              "text": "Roman metninde okuma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.2",
+              "text": "Roman ve biyografi metinlerinde anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.3",
+              "text": "Roman ve biyografi metinlerini çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.4",
+              "text": "Yaşamın ve sanatçı hayatının edebiyata yansımasına ilişkin okuma sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.1",
+              "text": "Edebiyat ve sanatın yaşamdaki yansımalarına dair etkileşimli konuşma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.2",
+              "text": "Sanatçı ve roman karakterinin yaşam izlerini yaratıcılıkla birleştiren konuşma içeriği oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.3",
+              "text": "Bu konuşmasında kuralları uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.4",
+              "text": "Roman karakteriyle hayalî mülakat sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.1",
+              "text": "Edebiyat ve sanatın yaşamdaki yansımalarını kendi kurgusuyla anlatan yazma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.2",
+              "text": "Kendi yaşamını veya ilgi alanını kurguladığı yazı için içerik oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.3",
+              "text": "Kurguladığı yazıda kuralları uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.4",
+              "text": "Edebiyat ve sanatın yaşamdaki izlerine dair yazısının sürecini değerlendirebilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Tema: Hayatın Aynası",
+          "url": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/332",
+          "hours": 43,
+          "keyConcepts": [
+            "dekor",
+            "diyalog",
+            "dramatik örgü",
+            "gösterme tekniği",
+            "kostüm",
+            "küçürek hikâye",
+            "modern Türk tiyatrosu",
+            "monolog",
+            "oyun",
+            "perde",
+            "sahne"
+          ],
+          "outcomes": [
+            {
+              "code": "TDE1.1",
+              "text": "Belgesel dinleme/izleme sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.2",
+              "text": "Belgesel metninde anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.3",
+              "text": "Belgeseli yapı unsurları ve dil özellikleriyle çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.4",
+              "text": "Belgeselden hareketle görüş paylaşma sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.1",
+              "text": "Tiyatro metnini okuma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.2",
+              "text": "Tiyatro metninde anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.3",
+              "text": "Tiyatro ve küçürek hikâye metinlerini çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.4",
+              "text": "Tiyatro ve küçürek hikâye okuma sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.1",
+              "text": "Sosyal hayat gözlemlerini yansıtan tiyatro metninden hareketle konuşma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.2",
+              "text": "Günlük bir olay/durumu canlandırmak için konuşma içeriği oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.3",
+              "text": "Canlandırmada konuşma kurallarını uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.4",
+              "text": "Tiyatro canlandırmasının konuşma sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.1",
+              "text": "Günlük hayattaki olay ve durumları aktaran afiş yazma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.2",
+              "text": "Belgeselden hareketle farklı bakış açılarını yansıtan içerik oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.3",
+              "text": "Afiş yazısında yazım kurallarını uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.4",
+              "text": "Afiş yazma sürecini değerlendirebilme",
+              "subSkills": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/turk-dili-ve-edebiyati-dersi/14",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Tema: Benim Yolculuğum",
+          "url": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/335",
+          "hours": 43,
+          "keyConcepts": [
+            "bakış açısı",
+            "blog",
+            "edebî dil",
+            "edebî günlük",
+            "günlük dil",
+            "kişisel gelişim",
+            "nesnellik",
+            "öznellik",
+            "söz varlığı",
+            "üslup",
+            "yaşam"
+          ],
+          "outcomes": [
+            {
+              "code": "TDE1.1",
+              "text": "Hayat, hedef ve başarıları anlatan söyleşi türü çok modlu metinde dinleme/izleme sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.2",
+              "text": "Söyleşi metninde konu, amaç ve hedef kitleyi dikkate alarak anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.3",
+              "text": "Söyleşideki duygu ve düşünceleri çözümleyip ana düşünceyi belirleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.4",
+              "text": "Söyleşiyi kişisel gelişimiyle ilişkilendirip dinleme sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.1",
+              "text": "Günlük, şiir ve hikâye metinlerini okuma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.2",
+              "text": "Günlük ve şiir gibi edebî metinlerde anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.3",
+              "text": "Yazarın zaman içindeki karakter, duygu ve düşünce değişimini çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.4",
+              "text": "Okuma sürecini yazarın bakış açısı ve üslubu üzerinden değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.1",
+              "text": "Kişisel gelişimi etkileyen unsurlar hakkında hazırlıklı konuşma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.2",
+              "text": "Başkalarının deneyimleriyle empati kurarak konuşma içeriği oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.3",
+              "text": "Kişisel gelişimini anlatan konuşmasında dil ve bağdaşıklık kurallarını uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.4",
+              "text": "Deneyim ve gelişimini aktardığı konuşmanın sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.1",
+              "text": "Geleceğe dair planlarını dijital platformda forum metni olarak yazma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.2",
+              "text": "Kariyer, eğitim ve kişisel gelişim hedeflerini içeren yazı içeriği oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.3",
+              "text": "Gelecek planlarını anlatan yazısında dil, yazım ve noktalama kurallarını uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.4",
+              "text": "Dijital ortamdaki yazısının yazma sürecini değerlendirebilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Tema: Toplumun Ahengi",
+          "url": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/340",
+          "hours": 43,
+          "keyConcepts": [
+            "açıklık",
+            "akıcılık",
+            "bakış açısı",
+            "dipnot",
+            "edebî dil",
+            "gerçeklik",
+            "görsellik",
+            "günlük dil",
+            "intihal",
+            "kanıtlanabilirlik",
+            "kaynakça",
+            "kurmaca",
+            "nesnellik",
+            "özgünlük",
+            "özlülük",
+            "söz varlığı",
+            "temel hak ve özgürlükler",
+            "toplumsal yaşam",
+            "yansıtma"
+          ],
+          "outcomes": [
+            {
+              "code": "TDE1.1",
+              "text": "Hak ve özgürlükleri konu alan çok modlu haber metninde dinleme/izleme sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.2",
+              "text": "Haber metninde anlam oluşturabilme; bilinmeyen sözcükleri bağlamdan tahmin edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.3",
+              "text": "Haber metnini görsel ve işitsel öğeleriyle çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.4",
+              "text": "Dinleme/izleme sürecini öğrenme günlüğüyle değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.1",
+              "text": "Hak ve özgürlükleri ele alan roman ve makaleyi okuma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.2",
+              "text": "Roman ve makalede anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.3",
+              "text": "Romanın yapı unsurlarını ve makalenin özelliklerini çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.4",
+              "text": "Okuma sürecini değerlendirip hak ve özgürlüklerin toplumsal yansımalarını yorumlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.1",
+              "text": "Toplumsal konularda haber sunumu yapma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.2",
+              "text": "Toplumsal sorunları ele alan haber sunumu için içerik oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.3",
+              "text": "Haber sunumunda 5N1K planlaması ve uygun dil kurallarını uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.4",
+              "text": "Haber sunumunun sürecini öz ve akran değerlendirmesiyle değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.1",
+              "text": "Romanı hak ve özgürlükler bağlamında eleştiren yazı yazma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.2",
+              "text": "Eleştiri yazısı için roman hakkında içerik oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.3",
+              "text": "Eleştiri yazısında düşünceyi geliştirme yollarını ve dil kurallarını uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.4",
+              "text": "Eleştiri yazısının yazma sürecini değerlendirebilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Tema: Hayatın Dengesi",
+          "url": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/348",
+          "hours": 43,
+          "keyConcepts": [
+            "açık ve örtük ileti",
+            "anket",
+            "çevre",
+            "gerçeklik",
+            "görsellik",
+            "günlük dil",
+            "iş birliği",
+            "kurmaca",
+            "özlü anlatım",
+            "sürdürülebilirlik"
+          ],
+          "outcomes": [
+            {
+              "code": "TDE1.1",
+              "text": "Çok modlu haber metninde dinleme/izleme sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.2",
+              "text": "Teknoloji ve çevre konulu haber metninden anlam oluşturup bilgilerin güvenilirliğini sorgulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.3",
+              "text": "Haber metninin yapı, dil ve anlatım özelliklerini çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.4",
+              "text": "Dinleme/izleme sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.1",
+              "text": "Gezi yazısı ve hikâye okuma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.2",
+              "text": "Gezi yazısında tahminlerini karşılaştırarak anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.3",
+              "text": "Gezi yazısı ve hikâyeyi yapı, dil ve üslup özellikleriyle çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.4",
+              "text": "Okuma sürecini kendi belirlediği ölçütlerle değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.1",
+              "text": "Teknoloji ve çevre konusunda farkındalık oluşturan sunum sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.2",
+              "text": "Sürdürülebilirlik sunumu için içerik ve taslak oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.3",
+              "text": "Sunumda beden dili ve iletişim kurallarını uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.4",
+              "text": "Sunum sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.1",
+              "text": "Sürdürülebilir hayata yönelik toplumsal sorumlulukları ortaya koyan anket hazırlama sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.2",
+              "text": "Toplumsal yaşam ve çevreye ilişkin görüş toplayan yazının içeriğini oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.3",
+              "text": "Anket sonuçlarına dayalı yazısında dil, yazım ve noktalama kurallarını uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.4",
+              "text": "Anket sonuçlarını içeren yazının sürecini değerlendirebilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Tema: Hayalimdeki Yarın",
+          "url": "https://tymm.meb.gov.tr/turk-dili-ve-edebiyati-dersi/unite/351",
+          "hours": 43,
+          "keyConcepts": [
+            "açık ve örtük ileti",
+            "edebî dil",
+            "gerçeklik",
+            "günlük dil",
+            "iş birliği",
+            "kurmaca",
+            "öz geçmiş",
+            "söz varlığı",
+            "sunum",
+            "tutarlılık"
+          ],
+          "outcomes": [
+            {
+              "code": "TDE1.1",
+              "text": "Mülakat özellikli çok modlu metinde dinleme/izleme sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.2",
+              "text": "Mülakat metnindeki iletilerden anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.3",
+              "text": "Mülakat metnini çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE1.4",
+              "text": "Dinleme/izleme sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.1",
+              "text": "Makale ve hikâye metinlerinde okuma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.2",
+              "text": "Makale ve hikâye metinlerinden anlam oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.3",
+              "text": "Makale ve hikâye metinlerini çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE2.4",
+              "text": "Okuma sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.1",
+              "text": "Farklı meslek sahipleriyle röportaj konuşmasını yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.2",
+              "text": "Mesleklerin özelliklerini, zorluklarını ve keyifli yönlerini ele alan konuşma içeriği oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.3",
+              "text": "Meslek konuşmasında belirlenen kuralları uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE3.4",
+              "text": "Röportaj temelli konuşma sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.1",
+              "text": "Hayalindeki mesleği tanıtan yazı ve öz geçmiş hazırlama sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.2",
+              "text": "Meslek bilgilerinden yararlanarak tanıtım yazısı içeriği oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.3",
+              "text": "Meslek tanıtım yazısında kuralları uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "TDE4.4",
+              "text": "Meslek tanıtımı yazma sürecini değerlendirebilme",
+              "subSkills": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Kaynak: tymm.meb.gov.tr Türk Dili ve Edebiyatı Dersi (Ortaöğretim). Hazırlık sınıfı kapsam dışı bırakıldı. Öğrenme çıktısı kodları sitede sınıf/tema numarası içermez (TDE1.x Dinleme/İzleme, TDE2.x Okuma, TDE3.x Konuşma, TDE4.x Yazma) ve her temada yeniden kullanılır; benzersiz anahtar için sınıf+tema+kod birlikte kullanılmalıdır. Bu derste sayfalarda harfli süreç bileşeni (a, b, c) bulunmadığından subSkills boştur; açıklamalar 'Öğrenme-Öğretme Uygulamaları' bölümünde düzyazı olarak yer alır. Her tema 43 ders saatidir. Kazanım metinleri resmi metnin kısa Türkçe özetidir (birebir alıntı değildir); tema adları ve kodlar siteden alınmıştır."
+}

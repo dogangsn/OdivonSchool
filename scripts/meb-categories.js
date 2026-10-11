@@ -37,9 +37,11 @@ function slugify(text) {
     .replace(/^-|-$/g, '');
 }
 
-/** "Sayılar Ve Nicelikler (1)" -> "Sayılar ve Nicelikler (1)" */
+/** "4. Tema: Sayılar Ve Nicelikler (1)" -> "Sayılar ve Nicelikler (1)" */
 function tidyName(name) {
-  return name.replace(/\s+/g, ' ').replace(/ (Ve|İle|Ile) /g, (m) => m.toLocaleLowerCase('tr')).trim();
+  return name
+    .replace(/\s+/g, ' ')
+    .replace(/^\s*\d+\.\s*(Tema|Ünite|Öğrenme Alanı)\s*:\s*/i, '').replace(/ (Ve|İle|Ile) /g, (m) => m.toLocaleLowerCase('tr')).trim();
 }
 
 function describe(theme) {

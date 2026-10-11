@@ -1,0 +1,1504 @@
+{
+  "level": "lise",
+  "subject": "Matematik",
+  "programUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ders/matematik-dersi",
+  "grades": [
+    {
+      "grade": 9,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/matematik-dersi/11",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Tema: Sayılar",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/21",
+          "hours": 38,
+          "keyConcepts": [
+            "alt küme",
+            "ancak ve ancak",
+            "aralık",
+            "bazı",
+            "bilimsel gösterim",
+            "birleşim işlemi",
+            "boş küme",
+            "eşitsizlik",
+            "eşlenik",
+            "evrensel küme",
+            "fark işlemi",
+            "her",
+            "ise",
+            "ispat",
+            "kapalılık",
+            "kesişim işlemi",
+            "köklü gösterim",
+            "küme",
+            "kümenin elemanı",
+            "mutlak değer",
+            "önerme",
+            "önermenin değili",
+            "özdeşlik",
+            "sayı kümesi",
+            "tümleme",
+            "üslü gösterim",
+            "ve",
+            "veya",
+            "ya da"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.9.1.1",
+              "text": "Üslü ve köklü sayılarla işlemler hakkında akıl yürütüp genelleme yapma, önerme sunma ve doğrulama.",
+              "subSkills": [
+                "a) Üslü ve köklü sayılarla işlemler hakkında varsayımlarda bulunur.",
+                "b) Örüntülerden hareketle varsayımlarına dayalı genellemeler yapar.",
+                "c) Varsayımları ile genellemelerini karşılaştırır.",
+                "ç) Genellemelerinden üslü ve köklü gösterimlerle ilgili önermeler sunar.",
+                "d) Önermelerin kullanışlılığını problem durumlarında değerlendirir.",
+                "e) Üslü ve köklü gösterimler için matematiksel doğrulama yöntemleri kullanır.",
+                "f) Kullandığı doğrulama yöntemlerinin kullanışlılığını değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.9.1.2",
+              "text": "Gerçek sayı aralıklarını ve aralıklarla yapılan işlemleri küme sembol ve işlemleriyle gösterme ve kullanma.",
+              "subSkills": [
+                "a) Aralıkları ve bunlarla işlemlerdeki küme sembol ve işlemlerini bağlamdaki anlamıyla tanır.",
+                "b) Duruma uygun küme sembol ve işlemlerini belirler.",
+                "c) Küme sembol ve işlemlerini duruma uygun biçimde kullanır."
+              ]
+            },
+            {
+              "code": "MAT.9.1.3",
+              "text": "Farklı sayı kümelerinin özellikleri hakkında muhakeme yapma, genelleme, önerme sunma ve ispat etme.",
+              "subSkills": [
+                "a) Doğal, tam, rasyonel ve gerçek sayıların temel özelliklerine dair varsayımlarda bulunur.",
+                "b) Farklı sayı kümelerindeki örüntülerden genellemeler yapar.",
+                "c) Varsayımları ile genellemelerini karşılaştırır.",
+                "ç) Genellemelerinden sayı kümelerinin özellikleri hakkında önermeler sunar.",
+                "d) Önermelerin kullanışlılığını problem durumlarında değerlendirir.",
+                "e) Önermeleri ispatlamak ya da çürütmek için matematiksel ispat yöntemleri kullanır.",
+                "f) Kullandığı ispat yöntemlerinin kullanışlılığını değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.9.1.4",
+              "text": "Gerçek sayıların işlem özelliklerini cebirsel olarak ifade etmede analojik akıl yürütme.",
+              "subSkills": [
+                "a) İşlem özelliklerini ve bunların olası cebirsel karşılıklarını gözlemler.",
+                "b) Gözlemlerinden işlem özelliklerini ve cebirsel karşılıklarını tespit eder.",
+                "c) Tespit ettiği özelliklerden çıkarımlar yapar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Tema: Nicelikler Ve Değişimler",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/23",
+          "hours": 38,
+          "keyConcepts": [
+            "artanlık-azalanlık",
+            "bağımlı-bağımsız değişken",
+            "bire birlik",
+            "doğrusal denklem ve eşitsizlik",
+            "doğrusal fonksiyon",
+            "doğrusal ilişki",
+            "eğim",
+            "fonksiyonların parçalı gösterimi",
+            "fonksiyonun işareti",
+            "fonksiyonun sıfırı",
+            "katsayı",
+            "kök",
+            "maksimum-minimum noktaları",
+            "mutlak değer fonksiyonu",
+            "sabit fonksiyon",
+            "sabit terim"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.9.2.1",
+              "text": "Doğrusal fonksiyonların nitel özelliklerine ilişkin matematiksel muhakeme yapabilme",
+              "subSkills": [
+                "a) Doğrusal referans fonksiyonun nitel özelliklerini matematiksel temsilleri kullanarak belirler.",
+                "b) Nitel özellikler ile matematiksel temsiller arasındaki ilişkileri belirler.",
+                "c) Doğrusal referans fonksiyonu dönüşümlerle diğer doğrusal fonksiyonlara dönüştürür.",
+                "ç) Referans fonksiyon ile elde edilen doğrusal fonksiyonların grafik ve cebirsel temsilleri arasındaki ilişkiyi ifade eder.",
+                "d) Referans fonksiyonun nitel özelliklerinden hareketle varsayımlarda bulunur.",
+                "e) Varsayımlarına dayalı olarak örüntüleri genelleyerek ifade eder.",
+                "f) Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.",
+                "g) Genellemelerinden elde ettiği önermeleri uygun sözel veya sembolik dille sunar.",
+                "ğ) Önermelerin gerçek yaşam bağlamındaki kullanışlılığını değerlendirir.",
+                "h) Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.",
+                "ı) Kullandığı doğrulama veya ispat yöntemlerinin kullanışlılığını farklı durumlarda değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.9.2.2",
+              "text": "Mutlak değer fonksiyonlarını incelemek için doğrusal fonksiyonlara bağlı analojik akıl yürütebilme",
+              "subSkills": [
+                "a) Doğrusal fonksiyon ile mutlak değer fonksiyonları arasındaki cebirsel ve grafiksel benzerlik ve farklılıkları gözlemler.",
+                "b) Gözlemlerinden yola çıkarak m(x)=±|ax±b|±c fonksiyonunun nitel özelliklerini tespit eder.",
+                "c) Tespit ettiği nitel özelliklerden hareketle fonksiyonun parçalı gösterimine yönelik çıkarımlarda bulunur."
+              ]
+            },
+            {
+              "code": "MAT.9.2.3",
+              "text": "Doğrusal fonksiyonlarla ifade edilebilen denklem ve eşitsizlikler içeren problemleri çözebilme",
+              "subSkills": [
+                "a) Denklem ve eşitsizliklerin bileşenlerini (nitel özellikler, cebirsel ve grafik temsiller) belirler.",
+                "b) Bileşenler arasındaki ilişkileri belirler.",
+                "c) Problem bağlamındaki temsilleri farklı temsillere dönüştürür.",
+                "ç) Dönüştürdüğü temsillerin problem bağlamındaki anlamını ifade eder.",
+                "d) Farklı temsillere dayalı olarak problemin çözümü için strateji oluşturur.",
+                "e) Belirlediği stratejiyi kullanarak problemi çözer.",
+                "f) Elde ettiği çözümü uygun yöntemlerle doğrular.",
+                "g) Problemin olası çözüm stratejilerini gözden geçirir.",
+                "ğ) Olası stratejilere dayalı olarak çıkarımlar yapar.",
+                "h) Çıkarımlarının geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Tema: Geometrik Şekiller",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/25",
+          "hours": 12,
+          "keyConcepts": [
+            "açı",
+            "dış açı",
+            "iç açı",
+            "kenar",
+            "üçgen",
+            "üçgen eşitsizliği"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.9.3.1",
+              "text": "Üçgende açı ve kenarla ilgili özellikleri ile açı ve kenarlar arasındaki ilişkileri doğrulayabilme veya ispatlayabilme.",
+              "subSkills": [
+                "a) İç ve dış açı ölçüleri toplamı, açılara karşılık gelen kenarlar ve kenar uzunlukları ilişkisi için farklı doğrulama veya ispatları kullanır.",
+                "b) Yapılan doğrulama veya ispatları yeni durumlara uyarlayarak değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Tema: Eşlik Ve Benzerlik",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/83",
+          "hours": 36,
+          "keyConcepts": [
+            "benzerlik",
+            "dönme dönüşümü",
+            "eşlik",
+            "Öklid teoremi",
+            "Pisagor teoremi",
+            "Tales teoremi"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.9.4.1",
+              "text": "Geometrik dönüşümlerin (yansıma, öteleme, dönme) özellikleri hakkında çıkarım yapabilme.",
+              "subSkills": [
+                "a) Dönüşümlerin özellikleri ve şekillerin görüntüleri hakkında varsayımlarda bulunur.",
+                "b) İncelenen örneklerden hareketle örüntüleri genelleştirir.",
+                "c) Varsayımlarını ve genellemelerini karşılaştırır.",
+                "ç) Genellemelerinden önermeler sunar.",
+                "d) Elde ettiği önermeleri yeni çıkarımlarda kullanarak değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.9.4.2",
+              "text": "İki üçgenin eş veya benzer olması için gereken asgari koşullarla ilgili çıkarım yapabilme.",
+              "subSkills": [
+                "a) İki üçgenin eş veya benzer olma koşullarına ilişkin varsayımlarda bulunur.",
+                "b) Örneklerden hareketle varsayımlarına dayalı örüntüleri genelleştirir.",
+                "c) Varsayımlarını ve genellemelerini karşılaştırır.",
+                "ç) Genellemelerinden eş ve benzerlik koşullarına ilişkin önermeler sunar.",
+                "d) Elde ettiği önermelerin yeni durumların anlamlandırılmasına katkısını değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.9.4.3",
+              "text": "Bir üçgenden hareketle ona benzer üçgenler oluşturmaya ilişkin yansıtma yapabilme.",
+              "subSkills": [
+                "a) Benzer üçgen oluştururken eşlik ve benzerlik deneyimlerini gözden geçirir.",
+                "b) Deneyimlerine dayalı çıkarımlar yapar.",
+                "c) Ulaştığı çıkarımları farklı problem durumlarında değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.9.4.4",
+              "text": "Tales, Öklid ve Pisagor teoremlerini ispatlayabilme.",
+              "subSkills": [
+                "a) Bu teoremlere ilişkin farklı ispatları kullanır.",
+                "b) Kullandığı ispat ve teoremleri yeni durumlara uyarlayarak değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.9.4.5",
+              "text": "Eşlik ve benzerlikle ilgili çıkarım ve teoremleri içeren problemleri çözebilme.",
+              "subSkills": [
+                "a) Problemin verilen ve istenen kısımlarını belirler.",
+                "b) Verilenler, istenenler ve gerekli işlemler arasındaki ilişkileri belirler.",
+                "c) Problemin parçaları arasındaki ilişkileri bağlama uygun biçimde dönüştürür.",
+                "ç) Problemi matematiksel temsillerle kendi ifadeleriyle açıklar.",
+                "d) Çözüm için stratejiler oluşturur.",
+                "e) Belirlediği stratejiyi uygulayarak problemi çözer.",
+                "f) Çözümünü kontrol eder.",
+                "g) Stratejilerindeki kısa yolları ve çözüme ulaştırmayan yolları belirleyerek deneyimini gözden geçirir.",
+                "ğ) Hangi stratejilerin hangi problem türlerine uygulanabileceğine dair çıkarım yapar.",
+                "h) Çıkarımlarının geçerliliğini matematiksel örneklerle değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5. Tema: Algoritma Ve Bilişim",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/24",
+          "hours": 30,
+          "keyConcepts": [
+            "akış şeması",
+            "algoritma",
+            "çizge",
+            "mantık bağlaçları",
+            "niceleyiciler",
+            "sözde kod",
+            "şifreleme"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.9.5.1",
+              "text": "Algoritmaya dayalı yaklaşımlarla problem çözebilme",
+              "subSkills": [
+                "a) Algoritmik yönteme uygun bir problemin işlem ve süreç öğelerini tespit eder.",
+                "b) Liste, tablo, çizge, akış şeması ve sözde kod gibi temsiller arasındaki matematiksel bağlantıları belirler.",
+                "c) Sözel, görsel ya da cebirsel ifadeleri algoritmik bir dile çevirir.",
+                "ç) Problemlerde geçen algoritmik dili sözel, görsel veya cebirsel biçimde açıklar.",
+                "d) Problem için algoritmaya dayalı bir çözüm stratejisi geliştirir.",
+                "e) Seçtiği algoritmaya dayalı stratejiyi uygular.",
+                "f) Uyguladığı çözüm stratejisini denetler.",
+                "g) Algoritmayla çözülebilen problemlerin olası stratejilerini yeniden gözden geçirir.",
+                "ğ) Çözüme götüren stratejilerden genel çıkarımlar yapar.",
+                "h) Bu çıkarımları değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.9.5.2",
+              "text": "Algoritmik yapılardaki mantık bağlaçlarını ve niceleyicileri çözümleyebilme",
+              "subSkills": [
+                "a) Algoritmik yapılarda kullanılan mantık bağlaçlarını ve niceleyicileri tanımlar.",
+                "b) Algoritmik yapılarla mantık bağlaçları ve niceleyiciler arasındaki bağlantıları ortaya koyar."
+              ]
+            },
+            {
+              "code": "MAT.9.5.3",
+              "text": "Algoritmalardaki mantık bağlaçları ve niceleyici deneyimini farklı matematiksel görevlere aktarabilme",
+              "subSkills": [
+                "a) Karşılaştığı algoritmalarda mantık bağlaçları ve niceleyicilerin kullanımını yeniden inceler.",
+                "b) Problem çözme, doğrulama ve ispat süreçlerinde bu öğelerin kullanımına dair sonuçlar çıkarır.",
+                "c) Bu öğelerin matematiksel dilin sadeliği ve kesinliğindeki rolünü değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "6. Tema: İstatistiksel Araştırma Süreci",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/91",
+          "hours": 34,
+          "keyConcepts": [
+            "çeyrekler açıklığı",
+            "değişebilirlik",
+            "evren",
+            "histogram",
+            "kutu grafiği",
+            "nicel veri dağılımı",
+            "örneklem",
+            "standart sapma"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.9.6.1",
+              "text": "Tek nicel değişkenli veri dağılımlarıyla çalışıp bu verilere dayanarak karar verebilme.",
+              "subSkills": [
+                "a) Nicel veriye dayalı istatistiksel araştırma gerektiren gerçek yaşam durumlarını saptar.",
+                "b) Bağlama uygun, dağılımları betimleyen ve karşılaştıran araştırma soruları oluşturur.",
+                "c) Nicel veri toplamak için bir plan hazırlar.",
+                "ç) Topladığı nicel verileri analize uygun hâle getirir.",
+                "d) Soruya uygun görselleştirme (nokta grafiği, histogram, kutu grafiği) ve/veya özetleme aracını seçer.",
+                "e) Seçtiği araçlarla nicel verileri çözümler.",
+                "f) Dağılımlardan yola çıkarak verilerin arasını ve ötesini yorumlayıp sonuç çıkarır.",
+                "g) Elde ettiği sonuçları araştırma sorusu bağlamında değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.9.6.2",
+              "text": "Başkaları tarafından oluşturulan tek nicel değişkenli veri dağılımlarına ilişkin sonuç ve yorumları tartışabilme.",
+              "subSkills": [
+                "a) Başkaları tarafından üretilen sonuç ya da yorumları istatistiksel gerekçelerle destekler.",
+                "b) Bu sonuç ya da yorumlardaki hata ve yanlılıkları belirler.",
+                "c) Söz konusu sonuç ya da yorumları çürütür veya kabul eder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "7. Tema: Veriden Olasılığa",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/97",
+          "hours": 18,
+          "keyConcepts": [
+            "ayrık olay",
+            "ayrık olmayan olay",
+            "çıktı",
+            "deney",
+            "deneysel olasılık",
+            "olay",
+            "örnek uzay",
+            "teorik olasılık"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.9.7.1",
+              "text": "Deney yoluyla veri toplayarak olayların olasılığını gözleme dayalı tahmin etme.",
+              "subSkills": [
+                "a) Deneyle veri toplayıp olayları göreli sıklıklarla ilişkilendirir.",
+                "b) Tekrar sayısı ile çıktıların göreli sıklıkları arasındaki ilişkiye dair çıkarım yapar.",
+                "c) Çıkarımlardan hareketle yargıda bulunur."
+              ]
+            },
+            {
+              "code": "MAT.9.7.2",
+              "text": "Olayların olasılığına ilişkin tümevarımsal akıl yürütme.",
+              "subSkills": [
+                "a) Tüm olası durumları farklı gösterimlerle (liste, tablo, ağaç şeması) gözlemler.",
+                "b) Teorik olasılık hesabına yönelik matematiksel ilişkilere ulaşır.",
+                "c) Deneysel ve teorik olasılık değerleri arasındaki ilişkiye dair genelleme yapar."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/matematik-dersi/12",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Tema: Geometrik Şekiller",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/260",
+          "hours": 36,
+          "keyConcepts": [
+            "ağırlık merkezi",
+            "alan",
+            "birim çember",
+            "çevrel çember",
+            "dış açıortay",
+            "dış teğet çember",
+            "iç açıortay",
+            "iç teğet çember",
+            "kenar orta dikme",
+            "kosinüs teoremi",
+            "sinüs teoremi",
+            "trigonometrik oranlar",
+            "yönlü açı",
+            "yükseklik"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.10.1.1",
+              "text": "Dik üçgende trigonometrik oranlara ve trigonometrik özdeşliklere ilişkin çıkarım yapabilme",
+              "subSkills": [
+                "a) Trigonometrik oranlar ve özdeşliklerle ilgili varsayımlarda bulunur.",
+                "b) Trigonometrik oranlar ve özdeşliklerdeki örüntüleri genelleştirir.",
+                "c) Genellemelerini varsayımlarıyla karşılaştırır.",
+                "ç) Karşılaştırmalarından dik üçgende oranlara ve özdeşliklere ilişkin önermeler sunar.",
+                "d) Ulaştığı oranları ve özdeşlikleri problemler bağlamında değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.10.1.2",
+              "text": "Üçgenin yardımcı elemanlarının özellikleriyle ilgili çıkarım yapabilme",
+              "subSkills": [
+                "a) İç ve dış açıortay, kenarortay, kenar orta dikme ve yüksekliklerin özelliklerine dair varsayımlar kurar.",
+                "b) Farklı üçgen örneklerinden yararlanarak varsayımlarına ilişkin örüntüleri genelleştirir.",
+                "c) Genellemelerini varsayımlarıyla karşılaştırır.",
+                "ç) Genellemelerinden yardımcı elemanların özelliklerine ilişkin önermeler sunar.",
+                "d) Yardımcı elemanlarla ilgili önermeleri problemler bağlamında değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.10.1.3",
+              "text": "Kenar ve o kenara ait yüksekliğin değişimine bağlı olarak üçgen alanının değişimine ilişkin çıkarım yapabilme",
+              "subSkills": [
+                "a) Kenar ve yüksekliğindeki değişimin alana etkisine dair varsayımlarda bulunur.",
+                "b) Farklı üçgenlerdeki gözlemlerinden örüntüleri genelleştirir.",
+                "c) Genellemelerini varsayımlarıyla karşılaştırır.",
+                "ç) Alanın hangi elemanlara göre değiştiğine dair önermeler sunar.",
+                "d) Önermeleri gerçek yaşam problemleri bağlamında değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.10.1.4",
+              "text": "Sinüs ve kosinüs teoremlerini doğrulayabilme veya ispatlayabilme",
+              "subSkills": [
+                "a) Sinüs ve kosinüs teoremlerine ilişkin farklı doğrulama veya ispatları kullanır.",
+                "b) Yapılan doğrulama veya ispatları yeni durumlara uyarlayarak değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Tema: İstatistiksel Araştırma Süreci",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/271",
+          "hours": 24,
+          "keyConcepts": [
+            "iki kategorik değişken",
+            "iki yönlü tablo",
+            "ilişkililik",
+            "koşullu göreli sıklıklar",
+            "kümeli sütun grafikleri",
+            "veri dağılımları"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.10.2.1",
+              "text": "İki kategorik değişkenli veriyle çalışıp, değişkenler arasındaki ilişkililiğe dayalı karar verebilme.",
+              "subSkills": [
+                "a) Veriye dayalı istatistiksel araştırma gerektiren gerçek yaşam durumlarını belirler.",
+                "b) Bağlam içinde ilişkililiğe odaklanan araştırma soruları oluşturur.",
+                "c) İki kategorik değişkenli veri toplamak veya elde etmek için plan yapar.",
+                "ç) Verileri toplayarak veya elde ederek analize hazır hâle getirir.",
+                "d) Araştırma sorusuna uygun görselleştirme ve/veya özetleme araçlarını seçer.",
+                "e) Belirlediği araçlarla verileri analiz eder.",
+                "f) Dağılımlara dayalı bulguları yorumlayarak sonuç çıkarır.",
+                "g) Elde ettiği sonuçları araştırma sorusu bağlamında değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.10.2.2",
+              "text": "Başkaları tarafından oluşturulan iki kategorik değişkenli istatistiksel sonuç veya yorumları tartışabilme.",
+              "subSkills": [
+                "a) Bu sonuç veya yorumlar için istatistiksel temellendirme yapar.",
+                "b) Sonuç veya yorumlardaki hata ya da yanlılıkları tespit eder.",
+                "c) Sonuç veya yorumları çürütür ya da kabul eder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Tema: Sayılar",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/244",
+          "hours": 20,
+          "keyConcepts": [
+            "aralarında asal",
+            "asal sayı",
+            "bölen",
+            "bölme",
+            "bölüm",
+            "bölünebilme",
+            "çarpan",
+            "en büyük ortak bölen",
+            "en küçük ortak kat",
+            "kalan",
+            "kat",
+            "ortak bölen",
+            "ortak kat"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.10.3.1",
+              "text": "Doğal sayının asal çarpanları ve bölenleri arasındaki ilişkilere dair çıkarım yapma.",
+              "subSkills": [
+                "a) Doğal sayının asal çarpanları ve bölenleri hakkında varsayımlarda bulunur.",
+                "b) Örüntüleri listeleyerek varsayımlarına yönelik genellemeler yapar.",
+                "c) Genellemelerinin varsayımlarını karşılayıp karşılamadığını örneklerle sınar.",
+                "ç) Ulaştığı sonuçlara yönelik matematiksel önermeler sunar.",
+                "d) Önermelerin gerçek yaşam problemlerindeki kullanışlılığını değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.10.3.2",
+              "text": "Birden çok doğal sayının ortak bölen-kat ile EBOB-EKOK arasındaki ilişkilere dair muhakeme yapma.",
+              "subSkills": [
+                "a) Ortak bölenler, ortak katlar, EBOB ve EKOK arasındaki ilişkiler hakkında varsayımlarda bulunur.",
+                "b) Örüntüleri listeleyerek varsayımlarına yönelik genellemeler yapar.",
+                "c) Genellemelerinin varsayımlarını karşılayıp karşılamadığını örneklerle sınar.",
+                "ç) Genellemelerine yönelik matematiksel önermeler sunar.",
+                "d) Sunduğu önermelerin gerçek yaşam problemlerindeki katkısını değerlendirir.",
+                "e) Önermeleriyle ilgili matematiksel doğrulama yöntemlerini seçer ve kullanır.",
+                "f) Uyguladığı doğrulama yöntemini kullanışlılığı açısından değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.10.3.3",
+              "text": "Doğal sayının belirli doğal sayılara bölümünden kalanlara dair muhakeme yapma.",
+              "subSkills": [
+                "a) 2, 3, 4, 5, 8, 9 ve 10 ile bölünebilme özelliklerinden hareketle kalanlara ilişkin varsayımlarda bulunur.",
+                "b) Aynı sayıyla bölmeden elde edilecek kalanlara ilişkin örüntüleri listeleyerek genellemeler yapar.",
+                "c) Genellemesinin kendi varsayımını karşılayıp karşılamadığını örneklerle sınar.",
+                "ç) Ulaştığı sonuçlara yönelik matematiksel önermeleri doğrulanabilir biçimde sunar.",
+                "d) Önermelerin katkısını EKOK'tan oluşan sayılara bölümden kalanı bulma bağlamında değerlendirir.",
+                "e) Önermelere ilişkin matematiksel doğrulama yöntemlerini seçer ve kullanır.",
+                "f) Uyguladığı doğrulama yöntemini kullanışlılığı açısından değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Tema: Nicelikler Ve Değişimler",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/250",
+          "hours": 58,
+          "keyConcepts": [
+            "artanlık-azalanlık",
+            "bire birlik",
+            "fonksiyon",
+            "fonksiyonun işareti",
+            "fonksiyonun sıfırı",
+            "karekök fonksiyonu",
+            "karesel fonksiyon",
+            "kök",
+            "maksimum-minimum değer",
+            "maksimum-minimum nokta",
+            "örtenlik",
+            "parabol",
+            "rasyonel fonksiyon",
+            "simetri doğrusu",
+            "teklik-çiftlik",
+            "ters fonksiyon"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.10.4.1",
+              "text": "Gerçek sayılarda fonksiyon olma şartlarını ve fonksiyonların nitel özelliklerini matematiksel temsillerle değerlendirme.",
+              "subSkills": [
+                "a) Fonksiyon olma şartlarını ve nitel özellikleri grafik ve cebirsel temsiller üzerinden analiz eder.",
+                "b) Fonksiyonların temsillerini fonksiyon olma şartları ve nitel özellikler bakımından karşılaştırır.",
+                "c) Karşılaştırmalarından hareketle temsiller ve nitel özellikler hakkında yargıda bulunur."
+              ]
+            },
+            {
+              "code": "MAT.10.4.2",
+              "text": "Karesel referans fonksiyonun ve türetilen karesel fonksiyonların nitel özelliklerine ilişkin matematiksel muhakeme.",
+              "subSkills": [
+                "a) Karesel referans fonksiyonun nitel özelliklerini temsillerle belirler.",
+                "b) Nitel özellikler ile temsiller arasındaki ilişkileri belirler.",
+                "c) Referans fonksiyonu işlemlerle diğer karesel fonksiyonlara dönüştürür.",
+                "ç) Referans ve elde edilen fonksiyonların temsilleri arasındaki ilişkiyi ifade eder.",
+                "d) Nitel özelliklerden hareketle diğer karesel fonksiyonlar hakkında varsayımlarda bulunur.",
+                "e) Nitel özelliklere ilişkin örüntüleri genelleştirir.",
+                "f) Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.",
+                "g) Önermeleri uygun sözel veya cebirsel dille sunar.",
+                "ğ) Önermelerin gerçek yaşamdaki kullanışlılığını değerlendirir.",
+                "h) Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.",
+                "ı) Doğrulama/ispat yöntemlerinin kullanışlılığını değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.10.4.3",
+              "text": "Karekök referans fonksiyonun ve türetilen karekök fonksiyonlarının nitel özelliklerine ilişkin matematiksel muhakeme.",
+              "subSkills": [
+                "a) Karekök referans fonksiyonun nitel özelliklerini temsillerle belirler.",
+                "b) Nitel özellikler ile temsiller arasındaki ilişkileri belirler.",
+                "c) Referans fonksiyonu işlemlerle diğer karekök fonksiyonlarına dönüştürür.",
+                "ç) Referans ve elde edilen fonksiyonların temsilleri arasındaki ilişkiyi ifade eder.",
+                "d) Nitel özelliklerden hareketle diğer karekök fonksiyonları hakkında varsayımlarda bulunur.",
+                "e) Nitel özelliklere ilişkin örüntüleri genelleştirir.",
+                "f) Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.",
+                "g) Önermeleri uygun sözel veya cebirsel dille sunar.",
+                "ğ) Önermelerin gerçek yaşamdaki kullanışlılığını değerlendirir.",
+                "h) Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.",
+                "ı) Doğrulama/ispat yöntemlerinin kullanışlılığını değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.10.4.4",
+              "text": "Rasyonel referans fonksiyonun ve türetilen rasyonel fonksiyonların nitel özelliklerine ilişkin matematiksel muhakeme.",
+              "subSkills": [
+                "a) Rasyonel referans fonksiyonun nitel özelliklerini temsillerle belirler.",
+                "b) Nitel özellikler ile temsiller arasındaki ilişkileri belirler.",
+                "c) Referans fonksiyonu işlemlerle diğer rasyonel fonksiyonlara dönüştürür.",
+                "ç) Referans ve elde edilen fonksiyonların temsilleri arasındaki ilişkiyi ifade eder.",
+                "d) Nitel özelliklerden hareketle diğer rasyonel fonksiyonlar hakkında varsayımlarda bulunur.",
+                "e) Nitel özelliklere ilişkin örüntüleri genelleştirir.",
+                "f) Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.",
+                "g) Önermeleri uygun sözel veya cebirsel dille sunar.",
+                "ğ) Önermelerin gerçek yaşamdaki kullanışlılığını değerlendirir.",
+                "h) Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.",
+                "ı) Doğrulama/ispat yöntemlerinin kullanışlılığını değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.10.4.5",
+              "text": "Doğrusal, karesel, karekök ve rasyonel fonksiyonlarla ilişkili fonksiyonların ters fonksiyonlarına dair çıkarım.",
+              "subSkills": [
+                "a) Referans ve türetilen fonksiyonlar üzerinden ters fonksiyona ilişkin varsayımlarda bulunur.",
+                "b) Örüntüleri listeleyerek ters fonksiyonlara ilişkin genellemeler yapar.",
+                "c) Varsayım ve genellemelerini karşılaştırır.",
+                "ç) Ters fonksiyon ilişkisine ait önermeleri doğrulanabilir biçimde sunar.",
+                "d) Önermeleri fonksiyonların nitel özellikleri bağlamında değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.10.4.6",
+              "text": "Referans fonksiyonlar ve türetilenlerle ifade edilen denklem ve eşitsizlik içeren problemleri çözme.",
+              "subSkills": [
+                "a) Denklem ve eşitsizliklerin matematiksel bileşenlerini belirler.",
+                "b) Bileşenler arasındaki ilişkileri belirler.",
+                "c) Problem bağlamındaki temsilleri farklı temsillere dönüştürür.",
+                "ç) Dönüştürdüğü temsillerin problem bağlamındaki anlamını ifade eder.",
+                "d) Farklı temsillerden yararlanarak çözüm stratejisi oluşturur.",
+                "e) Belirlediği stratejiyi kullanır.",
+                "f) Elde ettiği çözümü farklı yöntemlerle doğrular.",
+                "g) Olası çözüm stratejilerini gözden geçirir.",
+                "ğ) Stratejilerin farklı durumlarda kullanımına ilişkin çıkarımlar yapar.",
+                "h) Çıkarımlarının geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5. Tema: Sayma, Algoritma Ve Bilişim",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/251",
+          "hours": 28,
+          "keyConcepts": [
+            "algoritma",
+            "faktöriyel",
+            "sayma",
+            "seçme sayısı",
+            "sıralama sayısı"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.10.5.1",
+              "text": "Sayma stratejileri kullanarak problem çözebilme",
+              "subSkills": [
+                "a) Sayma probleminde sayılacak nesneleri belirler.",
+                "b) Problemdeki nesneler arasındaki ilişkileri belirler.",
+                "c) Sözel ifadeleri görsel temsillere dönüştürür.",
+                "ç) Problemi eş bir problem ya da görsel, tablo veya cebirsel temsille yeniden ifade eder.",
+                "d) Farklı durumlara uygun bir çözüm stratejisi oluşturur.",
+                "e) Seçtiği çözüm stratejisini kullanır.",
+                "f) Seçtiği çözüm stratejisini kontrol eder.",
+                "g) Olası çözüm stratejilerini gözden geçirir.",
+                "ğ) Çözüme ulaştıran stratejilere yönelik çıkarımlar yapar.",
+                "h) Bu çıkarımları değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.10.5.2",
+              "text": "Cebirsel ve fonksiyonel işlemleri algoritmik bir dille yapılandırabilme",
+              "subSkills": [
+                "a) Problem durumlarındaki cebirsel ve fonksiyonel işlemlerin algoritmik yapısını ortaya koyar.",
+                "b) Ön bilgilerini kullanarak cebirsel/fonksiyonel yapılar ile algoritmalar arasında uyumlu bir bütün kurar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "6. Tema: Analitik İnceleme",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/263",
+          "hours": 22,
+          "keyConcepts": [
+            "çakışma",
+            "dik koordinat sistemi",
+            "doğru",
+            "eğim",
+            "eğim açısı",
+            "iki nokta arasındaki uzaklık",
+            "kesişme",
+            "paralellik"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.10.6.1",
+              "text": "İki nokta arasındaki uzaklığı ve bir doğru parçasını oranla bölen noktanın koordinatlarını kullanarak akıl yürütebilme.",
+              "subSkills": [
+                "a) Uzaklık bağıntısı ve bölen nokta koordinatlarıyla ilgili varsayımlarda bulunur.",
+                "b) Farklı örneklerdeki varsayım örüntülerini genelleştirir.",
+                "c) Genellemelerini ve varsayımlarını karşılaştırır.",
+                "ç) Uzaklık bağıntısı ve bölen nokta koordinatlarına ilişkin önermeler sunar.",
+                "d) Önermeleri gerçek yaşam problemleri bağlamında değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.10.6.2",
+              "text": "Dik koordinat sistemini doğrunun özelliklerini incelemek ve doğru problemlerini çözmek için temsil aracı olarak kullanabilme.",
+              "subSkills": [
+                "a) Dik koordinat sistemini eğim açısı, eğim ve doğruların konumunu belirlemede araç olarak tanır.",
+                "b) Problem durumlarında bu kavramları belirlemek için uygun temsil aracını seçer.",
+                "c) Eğim açısı, eğim ve doğruların konumunu temsil etme aracı olarak kullanır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "7. Tema: Veriden Olasılığa",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/274",
+          "hours": 18,
+          "keyConcepts": [
+            "bağımlı olay",
+            "bağımsız olay",
+            "Bayes teoremi",
+            "koşullu olasılık"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.10.7.1",
+              "text": "Bir olayın başka bir olaya bağlı olduğu durumlarda koşullu olasılıkla çıkarım yapabilme.",
+              "subSkills": [
+                "a) Mevcut olasılık bilgisini kullanarak bağlı durumlarda varsayımda bulunur.",
+                "b) Bağlı gerçek yaşam durumlarının tüm olası çıktılarını listeler.",
+                "c) Olası çıktı sayısını istenen durumların sayısıyla karşılaştırır.",
+                "ç) Bağlı durumların olasılığını hesaplamak için matematiksel bir önerme sunar.",
+                "d) Bağlı ya da bağımsız durumların olasılığını koşullu olasılıkla değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.10.7.2",
+              "text": "Bir olayın başka bir olaya bağlı olduğu durumların olasılığını mevcut bilgiye dayalı tahmin edebilme.",
+              "subSkills": [
+                "a) Bayes teoreminin kullanıldığı gerçek yaşam durumlarına ilişkin mevcut bilgileri kullanır.",
+                "b) Mevcut bilgilere dayanarak Bayes teoremine göre hesaplama yapar.",
+                "c) Bayes teoreminin kullanıldığı durumlar için ileriye yönelik yargıda bulunur."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/matematik-dersi/13",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Tema: İstatistiksel Araştırma Süreci",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/298",
+          "hours": 24,
+          "keyConcepts": [
+            "bölgelere göre sayım oranı",
+            "iki nicel değişkenli veri dağılımları",
+            "ilişkililik",
+            "korelasyon katsayısı",
+            "serpme diyagramı (saçılım grafiği)",
+            "tablo"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.11.1.1",
+              "text": "İki nicel değişkenli veriyle çalışıp değişkenler arasındaki ilişkililiğe dayalı karar verebilme.",
+              "subSkills": [
+                "a) Veriye dayalı istatistiksel araştırma gerektiren gerçek yaşam durumlarını saptar.",
+                "b) Bağlama uygun, ilişkililiğe odaklı araştırma soruları kurar.",
+                "c) İki nicel değişkenli veri toplamak için plan yapar.",
+                "ç) Verileri toplayıp analize hazır hâle getirir.",
+                "d) Uygun görselleştirme veya özetleme aracını (tablo, saçılım grafiği vb.) seçer.",
+                "e) Seçtiği araçlarla verileri analiz eder.",
+                "f) Bulgulara dayanarak yorum yapar ve sonuç çıkarır.",
+                "g) Sonuçları araştırma sorusu bağlamında değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.11.1.2",
+              "text": "Başkalarının oluşturduğu iki nicel değişkenli ilişkiye dayalı istatistiksel sonuç ve yorumları tartışma.",
+              "subSkills": [
+                "a) İstatistiksel sonuç ve yorumları istatistiksel gerekçelerle temellendirir.",
+                "b) Hata ya da yanlılıkları belirler.",
+                "c) Sonuç ve yorumları çürütür ya da kabul eder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Tema: Geometrik Şekiller",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/297",
+          "hours": 62,
+          "keyConcepts": [
+            "alan",
+            "deltoid",
+            "dışbükey çokgen",
+            "dikdörtgen",
+            "düzgün çokgen",
+            "eşkenar dörtgen",
+            "içbükey çokgen",
+            "kare",
+            "köşegen",
+            "paralelkenar",
+            "simetri",
+            "yamuk"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.11.2.1",
+              "text": "Üçgende açı, benzerlik ve alan özelliklerinden yola çıkarak dörtgenlerin özelliklerine ilişkin muhakeme yapma",
+              "subSkills": [
+                "a) Dörtgen özellikleri hakkında varsayımlar kurar.",
+                "b) Varsayımlarından yola çıkarak örüntüleri genelleştirir.",
+                "c) Varsayımları ile elde ettiği genellemeleri karşılaştırır.",
+                "ç) Genellemelerini kullanarak dörtgenlere ilişkin önermeler ortaya koyar.",
+                "d) Sunduğu önermeleri yeni durumlara uyarlayarak değerlendirir.",
+                "e) Önermeleri üçgenin açı, benzerlik ve alan özellikleriyle ispatlar.",
+                "f) Uyguladığı ispatı kullanışlılık açısından değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.11.2.2",
+              "text": "Özel dörtgenlerin kenar, açı, köşegen ve simetri özelliklerinden yola çıkarak aralarındaki ilişkileri yapılandırma",
+              "subSkills": [
+                "a) Özel dörtgenler arasında hiyerarşik veya nedensel ilişkiler kurar.",
+                "b) Özel dörtgenler arasındaki hiyerarşik ilişkilere dair anlamlı bir bütün oluşturur."
+              ]
+            },
+            {
+              "code": "MAT.11.2.3",
+              "text": "Çokgenleri içbükey veya dışbükey olarak sınıflandırma",
+              "subSkills": [
+                "a) Çokgenleri ayırt etmek için ölçütler belirler.",
+                "b) Çokgenleri belirlediği ölçütlere göre ayrıştırır.",
+                "c) Ayrıştırdığı çokgenleri tasnif eder.",
+                "ç) Çokgenleri belirlediği ölçüte uygun biçimde etiketler."
+              ]
+            },
+            {
+              "code": "MAT.11.2.4",
+              "text": "Dışbükey çokgenlerin kenar, açı, köşegen, simetri ve alan özelliklerine dair çıkarım yapma",
+              "subSkills": [
+                "a) Dışbükey çokgenlerin bu özelliklerine dair varsayımlarda bulunur.",
+                "b) Varsayımlarını kullanarak örüntüleri genelleştirir.",
+                "c) Genellemelerini varsayımlarıyla karşılaştırır.",
+                "ç) Genellemelerini kullanarak önermeler sunar.",
+                "d) Önermeleri problem durumlarına uyarlayıp kullanışlılığını değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.11.2.5",
+              "text": "Çokgenlerin kenar, açı, köşegen, simetri ve alan özelliklerini içeren problemleri çözme",
+              "subSkills": [
+                "a) Problemin parçalarını (nicelik, şekil) belirler.",
+                "b) Problemin parçaları arasındaki ilişkileri belirler.",
+                "c) Problem bileşenlerini bağlama uygun matematiksel temsillere dönüştürür.",
+                "ç) Problemin öncüllerini ve hedef sonucu kendi ifadeleriyle açıklar.",
+                "d) Problemin çözümü için stratejiler geliştirir.",
+                "e) Geliştirdiği stratejileri kullanarak problemi çözer.",
+                "f) Çözümünü kontrol eder ve sonuca ulaştırmayan stratejiyi değiştirir.",
+                "g) Farklı çözüm stratejilerini inceleyerek çözüm deneyimini gözden geçirir.",
+                "ğ) Stratejilerin hangi problemlere uygulanabileceğine dair çıkarım yapar.",
+                "h) Ulaştığı çıkarımların geçerliliğini değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Tema: Nicelikler Ve Değişimler (1)",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/281",
+          "hours": 42,
+          "keyConcepts": [
+            "artanlık-azalanlık",
+            "birim çember",
+            "derece",
+            "esas ölçü",
+            "maksimum-minimum değer",
+            "maksimum-minimum nokta",
+            "periyot",
+            "radyan",
+            "trigonometrik fonksiyon",
+            "yönlü açı"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.11.3.1",
+              "text": "Trigonometrik referans ve türetilen fonksiyonların nitel özellikleri hakkında matematiksel muhakeme yapma.",
+              "subSkills": [
+                "a) Referans fonksiyonların nitel özelliklerini matematiksel temsillerle belirler.",
+                "b) Nitel özellikler ile matematiksel temsiller arasındaki ilişkileri belirler.",
+                "c) Referans fonksiyonları işlemlerle diğer trigonometrik fonksiyonlara dönüştürür.",
+                "ç) Grafik ve cebirsel temsiller arasındaki ilişkiyi ifade eder.",
+                "d) Türetilen fonksiyonların nitel özelliklerine ilişkin varsayımlarda bulunur.",
+                "e) Varsayımlarından yararlanarak örüntüleri listeler ve genelleme yapar.",
+                "f) Genellemelerinin varsayımları karşılayıp karşılamadığını kontrol eder.",
+                "g) Genellemelerinden elde ettiği önermeleri uygun dille sunar.",
+                "ğ) Önermelerin gerçek yaşam bağlamlarındaki kullanışlılığını değerlendirir.",
+                "h) Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.",
+                "ı) Doğrulama yöntemlerinin farklı durumlardaki uygunluğunu değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.11.3.2",
+              "text": "Trigonometrik fonksiyonlarla ifade edilebilen denklemleri içeren problemleri çözme.",
+              "subSkills": [
+                "a) Denklemdeki fonksiyonların nitel özellik ve temsillerini belirler.",
+                "b) Denklemin matematiksel bileşenleri arasındaki ilişkileri belirler.",
+                "c) Problemdeki denklem temsillerini farklı temsillere dönüştürür.",
+                "ç) Dönüştürdüğü temsillerin problem bağlamındaki anlamını ifade eder.",
+                "d) Farklı temsillere dayanarak problemin çözümü için strateji oluşturur.",
+                "e) Belirlediği stratejiyi kullanır.",
+                "f) Elde ettiği çözümü farklı yöntemlerle doğrular.",
+                "g) Problemin olası çözüm stratejilerini gözden geçirir.",
+                "ğ) Stratejilerin farklı durumlardaki kullanımına ilişkin çıkarımlar yapar.",
+                "h) Çıkarımları sözel, cebirsel ve grafiksel argümanlarla değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "3. Tema: Nicelikler Ve Değişimler (2)",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/295",
+          "hours": 42,
+          "keyConcepts": [
+            "artanlık-azalanlık",
+            "bire birlik",
+            "doğal logaritmik fonksiyon",
+            "e sayısı",
+            "fonksiyonun işareti",
+            "fonksiyonun sıfırı",
+            "logaritmik fonksiyon",
+            "örtenlik",
+            "teklik-çiftlik",
+            "üstel fonksiyon"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.11.3.3",
+              "text": "Üstel referans fonksiyonun ve türetilen üstel fonksiyonların nitel özellikleri hakkında matematiksel muhakeme yapma.",
+              "subSkills": [
+                "a) Üstel referans fonksiyonun nitel özelliklerini matematiksel temsillerle belirler.",
+                "b) Nitel özellikler ile matematiksel temsiller arasındaki ilişkileri belirler.",
+                "c) Grafik ve cebirsel temsil üzerinde işlemlerle diğer üstel fonksiyonlara dönüştürür.",
+                "ç) Referans ve türetilen fonksiyonların temsilleri arasındaki ilişkiyi ifade eder.",
+                "d) Referans fonksiyonun özelliklerinden diğer üstel fonksiyonlar için varsayımlarda bulunur.",
+                "e) Türetilen fonksiyonlara ilişkin örüntüleri genelleştirir.",
+                "f) Genellemelerinin varsayımları karşılayıp karşılamadığını kontrol eder.",
+                "g) Önermelerini matematiksel olarak doğrulanabilecek biçimde sunar.",
+                "ğ) Önermelerin gerçek yaşam bağlamlarındaki kullanışlılığını değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.11.3.4",
+              "text": "Üstel fonksiyonların ters fonksiyonlarını inceleyerek logaritmik fonksiyona ilişkin çıkarım yapma.",
+              "subSkills": [
+                "a) Üstel fonksiyonların ters fonksiyonlarına ilişkin varsayımlarda bulunur.",
+                "b) Ters fonksiyonlara ilişkin örüntüleri genelleştirir.",
+                "c) Genellemelerinin varsayımları karşılayıp karşılamadığını kontrol eder.",
+                "ç) Logaritmik fonksiyonu üstel fonksiyonun tersi olarak ifade eden önermeler sunar.",
+                "d) Logaritmik fonksiyonu gerçek yaşamda kullanışlılık açısından değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.11.3.5",
+              "text": "Logaritmik referans fonksiyonun ve türetilen logaritmik fonksiyonların nitel özellikleri hakkında matematiksel muhakeme yapma.",
+              "subSkills": [
+                "a) Logaritmik referans fonksiyonu işlemlerle diğer logaritmik fonksiyonlara dönüştürür.",
+                "b) Referans ve türetilen fonksiyonların temsilleri arasındaki ilişkiyi ifade eder.",
+                "c) Referans fonksiyonun özelliklerinden diğer logaritmik fonksiyonlar hakkında varsayımlarda bulunur.",
+                "ç) Nitel ve işlem özelliklerine ilişkin örüntüleri genelleştirir.",
+                "d) Genellemelerinin varsayımları karşılayıp karşılamadığını kontrol eder.",
+                "e) Önermelerini matematiksel olarak doğrulanabilecek biçimde sunar.",
+                "f) Önermelerin gerçek yaşam bağlamlarındaki kullanışlılığını değerlendirir.",
+                "g) Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.",
+                "ğ) Doğrulama veya ispat yöntemlerinin kullanışlılığını değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.11.3.6",
+              "text": "Üstel ve logaritmik fonksiyonlarla ifade edilen denklem ve eşitsizlikleri içeren gerçek yaşam problemlerini çözme.",
+              "subSkills": [
+                "a) Denklemi oluşturan fonksiyonların nitel, cebirsel ve grafik bileşenlerini belirler.",
+                "b) Denklem bileşenleri arasındaki ilişkileri belirler.",
+                "c) Denklem ve eşitsizlikleri farklı temsillere dönüştürür.",
+                "ç) Dönüştürdüğü temsillerin problem bağlamındaki anlamını ifade eder.",
+                "d) Farklı temsillere dayalı çözüm stratejisi oluşturur.",
+                "e) Belirlediği stratejiyi uygular.",
+                "f) Elde ettiği çözümü farklı yöntemlerle doğrular.",
+                "g) Olası çözüm stratejilerini gözden geçirir.",
+                "ğ) Stratejilerin farklı durumlardaki kullanımına ilişkin çıkarımlar yapar.",
+                "h) Çıkarımların geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "3. Tema: Nicelikler Ve Değişimler (3)",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/296",
+          "hours": 36,
+          "keyConcepts": [
+            "artanlık-azalanlık",
+            "bileşke fonksiyon",
+            "bire birlik",
+            "fonksiyonun işareti",
+            "fonksiyonun sıfırı",
+            "maksimum-minimum değer",
+            "maksimum-minimum nokta",
+            "örtenlik",
+            "teklik-çiftlik",
+            "ters fonksiyon"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.11.3.7",
+              "text": "Bileşke fonksiyonlar hakkında akıl yürütme; varsayım kurma, genelleme ve önermeleri doğrulama.",
+              "subSkills": [
+                "a) Bileşke fonksiyonun bileşenlerini cebirsel ve grafik temsillerle belirler.",
+                "b) Bileşke fonksiyonun bileşenleri arasındaki ilişkileri belirler.",
+                "c) Bileşke ile elde edilen fonksiyonları sembolik dile dönüştürür.",
+                "ç) Verilen fonksiyonları iki veya daha fazla fonksiyonun bileşkesi olarak ifade eder.",
+                "d) Bileşke fonksiyonların nitel özellikleri hakkında varsayımlarda bulunur.",
+                "e) Bileşke fonksiyonlardaki örüntüleri genelleştirir.",
+                "f) Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.",
+                "g) Önermeleri matematiksel olarak doğrulanabilir biçimde sunar.",
+                "ğ) Bileşke fonksiyonu gerçek yaşamda kullanışlılık açısından değerlendirir.",
+                "h) Önermelerini grafiksel olarak doğrular veya cebirsel olarak ispatlar.",
+                "ı) Doğrulama ve ispat yöntemlerinin kullanışlılığını değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.11.3.8",
+              "text": "Fonksiyonlarda dört işlem özelliklerini inceleme, temsillerle ifade etme ve sözel yorumlama.",
+              "subSkills": [
+                "a) Fonksiyonlarda dört işlemin yapılabilme koşullarını inceler.",
+                "b) Fonksiyonlarda dört işlemi uygun cebirsel veya grafik temsillerle ifade eder.",
+                "c) Dört işlem özelliklerini dönüştürdüğü fonksiyonlar bağlamında sözel olarak açıklar."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/matematik-dersi/14",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Tema: Nicelikler Ve Değişimler (1)",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/305",
+          "hours": 14,
+          "keyConcepts": [
+            "aritmetik dizi",
+            "dizi",
+            "genel terim",
+            "geometrik dizi",
+            "monoton artan",
+            "monoton azalan",
+            "ortak fark",
+            "ortak oran (çarpan)",
+            "terim"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.12.1.1",
+              "text": "Aritmetik ve geometrik dizilerin özellikleri hakkında muhakeme yapabilme.",
+              "subSkills": [
+                "a) Sayı örüntülerindeki ardışık terimleri belirler.",
+                "b) Ardışık terimler arasındaki ortak fark/oran ilişkisini belirler.",
+                "c) Her terimi ortak fark/oranı kullanarak ifade eder.",
+                "ç) Ortak fark/oranı kullanarak örüntünün genel terimini belirler.",
+                "d) Sonlu toplamlara ilişkin varsayımlarda bulunur.",
+                "e) Sonlu toplam örüntülerini genelleştirir.",
+                "f) Genellemeleri ile varsayımlarını karşılaştırır.",
+                "g) Genellemelerinden sonlu toplamlara ilişkin önermeler sunar.",
+                "ğ) Önermelerinin faydasını gerçek yaşam problemlerinde değerlendirir.",
+                "h) Önermeleri görsel olarak doğrular ve cebirsel olarak ispatlar.",
+                "ı) Kullandığı ispat yöntemlerini kullanışlılık açısından değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.12.1.2",
+              "text": "Gerçek sayılarda tanımlı fonksiyonlar ile gerçek sayı dizilerini karşılaştırabilme.",
+              "subSkills": [
+                "a) Gerçek sayı dizileri ve fonksiyonların özelliklerini belirler.",
+                "b) Dizi ve fonksiyonların özelliklerindeki benzerlikleri listeler.",
+                "c) Dizi ve fonksiyonların özelliklerindeki farklılıkları listeler."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "1. Tema: Nicelikler Ve Değişimler (2)",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/306",
+          "hours": 22,
+          "keyConcepts": [
+            "artanlık-azalanlık",
+            "başkatsayı",
+            "bire birlik",
+            "derece",
+            "fonksiyonun işareti",
+            "fonksiyonun sıfırı",
+            "kök",
+            "örtenlik",
+            "polinom fonksiyon",
+            "rasyonel fonksiyon",
+            "sabit terim",
+            "teklik-çiftlik"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.12.1.3",
+              "text": "Doğrusal ve karesel fonksiyonlarla polinom fonksiyonlar arasındaki ilişkiyi analojik akıl yürütmeyle ifade etme.",
+              "subSkills": [
+                "a) Doğrusal, karesel ve çok terimli fonksiyonların sayısal, cebirsel ve grafiksel özelliklerini gözlemler.",
+                "b) Tanım-değer kümesi ve işlem özelliklerindeki benzerlikleri tespit eder.",
+                "c) Fonksiyonların aynı aileden olduğuna dair çıkarım yapar."
+              ]
+            },
+            {
+              "code": "MAT.12.1.4",
+              "text": "Gerçek katsayılı tek değişkenli polinom fonksiyonların nitel özelliklerine dair çıkarım yapabilme.",
+              "subSkills": [
+                "a) Nitel özelliklere dair varsayımlarda bulunur.",
+                "b) Varsayımlardan ulaştığı örüntüleri genelleştirir.",
+                "c) Genellemeleri ile varsayımlarını karşılaştırır.",
+                "ç) Genellemelerinden önermeler sunar.",
+                "d) Önermelerin faydasını gerçek yaşam durumlarında değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.12.1.5",
+              "text": "Polinom ve rasyonel fonksiyonlarla ifade edilebilen denklem ve eşitsizlikleri içeren problemleri çözebilme.",
+              "subSkills": [
+                "a) Gerçek yaşam problemleri için çözüm stratejileri oluşturur.",
+                "b) Oluşturduğu stratejiyi kullanarak problemi çözer.",
+                "c) Problemin çözümünü kontrol eder.",
+                "ç) Olası çözüm stratejilerini gözden geçirir.",
+                "d) Stratejilerin farklı durumlarda kullanımına dair çıkarımlar yapar.",
+                "e) Çıkarımlarının geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "2. Tema: Geometrik Şekiller",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/325",
+          "hours": 26,
+          "keyConcepts": [
+            "çap",
+            "çember",
+            "çevre açı",
+            "daire",
+            "daire dilimi",
+            "dairenin alanı",
+            "dış açı",
+            "iç açı",
+            "kesen",
+            "kiriş",
+            "kirişler dörtgeni",
+            "merkez açı",
+            "teğet",
+            "teğetler dörtgeni",
+            "teğet-kiriş açı",
+            "yay",
+            "yay uzunluğu"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.12.2.1",
+              "text": "Çemberle ilişkili elemanları (kesen, kiriş, teğet, çap, yay) çözümleyebilme.",
+              "subSkills": [
+                "a) Kesen, kiriş, teğet, çap ve yayı çemberin elemanları olarak tanımlar.",
+                "b) Bu elemanlar arasındaki ilişkileri belirler."
+              ]
+            },
+            {
+              "code": "MAT.12.2.2",
+              "text": "Çemberin açı, kiriş ve teğet özellikleriyle ilgili çıkarım yapabilme.",
+              "subSkills": [
+                "a) Çemberde açı, kiriş ve teğet özelliklerine dair varsayımlar öne sürer.",
+                "b) İlgili özelliklere ait örüntüleri genelleştirir.",
+                "c) Genellemelerini varsayımlarıyla karşılaştırır.",
+                "ç) Genellemelerinden önermeler ortaya koyar.",
+                "d) Önermelerinin farklı problem durumlarındaki kullanışlılığını değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.12.2.3",
+              "text": "Çemberin açı, kiriş, teğet özelliklerini ve dairenin alanını kullanarak problem çözme.",
+              "subSkills": [
+                "a) Problemlerin bileşenlerini (nicelik, şekil gibi) belirler.",
+                "b) Bileşenler arasındaki ilişkileri belirler.",
+                "c) Bileşenleri ve ilişkileri uygun matematiksel temsillere dönüştürür.",
+                "ç) Problemin öncüllerini ve hedeflenen sonucu kendi ifadeleriyle açıklar.",
+                "d) Problemin çözümü için stratejiler geliştirir.",
+                "e) Geliştirdiği stratejileri kullanarak problemi çözer.",
+                "f) Çözümünü kontrol eder, sonuca ulaştırmayan stratejiyi değiştirir.",
+                "g) Problem çözme sürecini gözden geçirir.",
+                "ğ) Stratejilerin hangi problemlere uyarlanabileceğine dair çıkarımlar yapar.",
+                "h) Ulaştığı çıkarımları değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "3. Tema: Geometrik Cisimler",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/329",
+          "hours": 30,
+          "keyConcepts": [
+            "ana doğru",
+            "ayrıt",
+            "cisim köşegeni",
+            "cisim yüksekliği",
+            "dik dairesel koni",
+            "dik dairesel silindir",
+            "dik piramit",
+            "dik prizma",
+            "hacim",
+            "küre",
+            "yan yüz yüksekliği",
+            "yarıçap",
+            "yüzey alanı",
+            "yüzey köşegeni"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.12.3.1",
+              "text": "Dik prizma ve dik dairesel silindirin elemanlarını çözümleme ve elemanlar arasındaki ilişkileri belirleme.",
+              "subSkills": [
+                "a) Dik prizma ve silindirin elemanlarını tespit eder.",
+                "b) Bu elemanlar arasındaki bağlantıları saptar."
+              ]
+            },
+            {
+              "code": "MAT.12.3.2",
+              "text": "Dik prizma ve silindirden yararlanarak piramit, koni ve küreye ilişkin analojik akıl yürütme.",
+              "subSkills": [
+                "a) Prizma ve silindirden yola çıkarak piramit, koni ve küre örneklerini gözlemler.",
+                "b) Piramit, koni ve küre örneklerinin niteliklerini belirler.",
+                "c) Benzerliklerden piramit, koni ve küre bağıntılarına dair çıkarım yapar."
+              ]
+            },
+            {
+              "code": "MAT.12.3.3",
+              "text": "Geometrik cisimleri içeren problemleri çözme ve çözüm stratejilerini değerlendirme.",
+              "subSkills": [
+                "a) Problemdeki bileşenleri (nicelik, şekil) belirler.",
+                "b) Bileşenler arasındaki ilişkileri saptar.",
+                "c) Bileşenleri ve ilişkileri uygun matematiksel temsillere dönüştürür.",
+                "ç) Temsile dönüştürdüğü problemi kendi ifadeleriyle açıklar.",
+                "d) Çözüm için gerekli işlemleri ve stratejileri geliştirir.",
+                "e) Belirlediği stratejileri uygulayarak problemi çözer.",
+                "f) Çözümü kontrol eder, sonuca ulaştırmayan stratejiyi değiştirir.",
+                "g) Kullandığı stratejileri ve olası farklı yolları gözden geçirir.",
+                "ğ) Stratejilerin hangi problemlere uyarlanabileceği hakkında çıkarım yapar.",
+                "h) Çıkarımların geçerliliğini matematiksel örneklerle değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "4. Tema: Değişimin Matematiği (1)",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/307",
+          "hours": 28,
+          "keyConcepts": [
+            "belirsizlik",
+            "dikey-düşey asimptot",
+            "limit",
+            "sağdan limit",
+            "soldan limit",
+            "sonsuzluk",
+            "süreklilik",
+            "tanımsızlık",
+            "yatay asimptot"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.12.4.1",
+              "text": "Fonksiyonların bir nokta civarındaki veya sonsuzdaki davranışını limit kavramıyla grafik üzerinden yorumlama.",
+              "subSkills": [
+                "a) Grafik üzerinden fonksiyonun bir nokta çevresindeki ya da sonsuzdaki davranışını çözümler.",
+                "b) Grafikten çıkardığı bilgileri tablo veya sözel gösterime aktararak yaklaşma fikrine ulaşır.",
+                "c) Bir nokta civarındaki ya da sonsuzdaki limiti kendi sözleriyle açıklar."
+              ]
+            },
+            {
+              "code": "MAT.12.4.2",
+              "text": "Cebirsel temsili verilen fonksiyonun bir nokta veya sonsuzdaki limiti hakkında akıl yürütme.",
+              "subSkills": [
+                "a) Fonksiyonun bir noktanın yakınında aldığı değerleri tablo, grafik ve cebirsel olarak belirler.",
+                "b) Bu değerler arasındaki ilişkileri tespit eder.",
+                "c) Değerler arasındaki ilişkileri limit tanımıyla yeniden biçimlendirir.",
+                "ç) Limiti matematiksel gösterimlerle yeniden ifade eder.",
+                "d) Farklı fonksiyonlar ve işlemler için limitlere dair varsayımlar öne sürer.",
+                "e) Varsayımlarına dayanarak örüntüleri genelleştirir.",
+                "f) Genellemelerinin varsayımlarını sağlayıp sağlamadığını denetler.",
+                "g) Genellemelerini önerme biçiminde ifade eder.",
+                "ğ) Önermelerini farklı problem durumlarında değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.12.4.3",
+              "text": "Bir fonksiyonun bir noktadaki limitinin belirsizlik durumunu yorumlama.",
+              "subSkills": [
+                "a) Belirsizlik durumunu grafik veya tablo yardımıyla inceler.",
+                "b) Cebirsel ifadeyi belirsizliği ortadan kaldıracak biçimde dönüştürür.",
+                "c) Limit değerini dönüştürülmüş ve özgün fonksiyon grafiklerini karşılaştırarak açıklar."
+              ]
+            },
+            {
+              "code": "MAT.12.4.4",
+              "text": "Bir fonksiyonun tanımlı olduğu noktalardaki sürekliliğini yorumlama.",
+              "subSkills": [
+                "a) Fonksiyonun bir noktadaki değeri ile o noktadaki limitini inceler.",
+                "b) Bu değer ve limiti sürekliliğin cebirsel ifadesine dönüştürür.",
+                "c) Sürekliliği noktadaki değerin limite eşitliği olarak açıklar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "4. Tema: Değişimin Matematiği (2)",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/318",
+          "hours": 28,
+          "keyConcepts": [
+            "anlık değişim oranı",
+            "değişim oranı",
+            "diferansiyel",
+            "eğim",
+            "kesen doğrusu",
+            "limit",
+            "ortalama değişim oranı",
+            "sağdan türev",
+            "soldan türev",
+            "süreklilik",
+            "teğet doğrusu",
+            "türev",
+            "türev alma operatörü"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.12.4.5",
+              "text": "Bir fonksiyonun belirli bir nokta civarındaki değişim oranına ilişkin muhakeme yapabilme.",
+              "subSkills": [
+                "a) Değişim oranının bileşenlerini nitel özellikler, cebirsel ve grafik temsille belirler.",
+                "b) Bu bileşenler arasındaki ilişkileri belirler.",
+                "c) Değişim oranını tablo, grafik ve limitle anlık değişim olarak ifade eder.",
+                "ç) Anlık değişimi o noktadaki türev olarak ifade eder.",
+                "d) Anlık değişimleri inceleyerek türeve ilişkin varsayımlarda bulunur.",
+                "e) Varsayımlarına dayalı örüntüleri genelleştirir.",
+                "f) Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.",
+                "g) Genellemelerini önerme olarak ifade eder.",
+                "ğ) Önermelerini anlık değişimi yorumlayan problemlerde değerlendirir.",
+                "h) Türevi limit gösteriminden yararlanarak bir noktada ispatlar.",
+                "ı) Uyguladığı ispatı kullanışlılık açısından değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.12.4.6",
+              "text": "Fonksiyonların türevinin bulunmadığı noktalar hakkında çıkarım yapabilme.",
+              "subSkills": [
+                "a) Türevin bulunmadığı durumlara ilişkin varsayımlarda bulunur.",
+                "b) Örüntüleri listeleyerek bu durumlara ilişkin genellemeler yapar.",
+                "c) Genellemelerini varsayımlarıyla karşılaştırır.",
+                "ç) Genellemelerinden önermeler sunar.",
+                "d) Önermelerini türev-süreklilik ilişkisi bağlamında değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.12.4.7",
+              "text": "Türevin limit gösteriminden yararlanarak toplam, fark, çarpım, bölüm ve bileşkenin türevine ilişkin muhakeme.",
+              "subSkills": [
+                "a) Toplam, fark, çarpım, bölüm ve bileşkenin türevine ilişkin varsayımlar geliştirir.",
+                "b) Varsayımlarına dayalı örüntüleri genelleştirir.",
+                "c) Genellemelerinin varsayımlarını karşılayıp karşılamadığını kontrol eder.",
+                "ç) Genellemelerini önerme olarak ifade eder.",
+                "d) Önermelerini farklı problem durumlarında değerlendirir.",
+                "e) Toplam, fark, çarpım ve bölüm kurallarını limitle ispatlar.",
+                "f) Uyguladığı ispatı kullanışlılık açısından değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "4. Tema: Değişimin Matematiği (3)",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/321",
+          "hours": 28,
+          "keyConcepts": [
+            "artanlık",
+            "azalanlık",
+            "eğim",
+            "ekstremum değer",
+            "mutlak maksimum-minimum değer",
+            "mutlak maksimum-minimum nokta",
+            "polinom fonksiyon",
+            "teğet doğrusu",
+            "türev",
+            "yerel ekstremum değer",
+            "yerel ekstremum nokta"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.12.4.8",
+              "text": "Bir fonksiyonun ve türev fonksiyonunun temsilleri ile aralarındaki ilişkiler hakkında çıkarım yapabilme.",
+              "subSkills": [
+                "a) Fonksiyon, türevi ve aralarındaki ilişki hakkında varsayımlarda bulunur.",
+                "b) Farklı durumlardaki örüntüleri listeler ve genelleme yapar.",
+                "c) Genellemeleri ile varsayımlarını karşılaştırır.",
+                "ç) Genellemelerden önermeler sunar.",
+                "d) Önermeleri polinom fonksiyon grafiklerini incelemede değerlendirir."
+              ]
+            },
+            {
+              "code": "MAT.12.4.9",
+              "text": "Gerçek yaşam durumlarında türevi kullanarak problemler çözebilme.",
+              "subSkills": [
+                "a) Türevin kullanılabileceği problemlerdeki matematiksel bileşenleri belirler.",
+                "b) Bileşenler arasındaki ilişkileri türev bağlamında inceler.",
+                "c) Değişim bağlamını fonksiyon, denklem ve türev temsillerine dönüştürür.",
+                "ç) Temsillerin problem bağlamındaki anlamını ifade eder.",
+                "d) Farklı temsillere dayanarak çözüm stratejisi oluşturur.",
+                "e) Belirlediği stratejiyi kullanarak problemi çözer.",
+                "f) Elde ettiği çözümü farklı yöntemlerle doğrular.",
+                "g) Olası çözüm stratejilerini gözden geçirir.",
+                "ğ) Maksimum-minimum problemlerinde strateji kullanımına ilişkin çıkarımlar yapar.",
+                "h) Çıkarımlarının geçerliliğini sözel, cebirsel ve grafiksel argümanlarla değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "5. Tema: Hazır Veriler Üzerinde Çalışma",
+          "url": "https://tymm.meb.gov.tr/matematik-dersi/unite/333",
+          "hours": 30,
+          "keyConcepts": [
+            "istatistiksel araştırma tasarımları"
+          ],
+          "outcomes": [
+            {
+              "code": "MAT.12.5.1",
+              "text": "Toplumsal ve bilimsel durumlarda hazır verilerle çalışıp bu verilere dayalı karar verme.",
+              "subSkills": [
+                "a) Araştırma tasarlanmasını gerektiren toplumsal ve bilimsel durumları belirler.",
+                "b) Betimleyici, karşılaştırmalı veya ilişkiye odaklı araştırma soruları oluşturur.",
+                "c) Verileri elde etmek için plan yapar.",
+                "ç) Verileri elde edip analize hazır hâle getirir.",
+                "d) Uygun görselleştirme ve/veya özetleme araçlarını seçer.",
+                "e) Seçtiği araçlarla veriyi analiz eder.",
+                "f) Çıktılardan yorum yaparak sonuç çıkarır.",
+                "g) Sonuçları araştırma sorusu bağlamında değerlendirir."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Kaynak: tymm.meb.gov.tr Matematik Dersi (Ortaöğretim). Hazırlık sınıfı kapsam dışı bırakıldı. Kazanım ve süreç bileşeni metinleri resmi metnin kısa Türkçe özetidir (birebir alıntı değildir); tema adları ve kodlar siteden alınmıştır. 11. ve 12. sınıfta bazı temalar sitede (1),(2),(3) şeklinde parçalara bölünmüştür; her parça ayrı tema kaydı olarak verildi ve saatler her parçanın sayfasında görünen değerdir."
+}

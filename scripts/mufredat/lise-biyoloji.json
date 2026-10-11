@@ -1,0 +1,889 @@
+{
+  "level": "lise",
+  "subject": "Biyoloji",
+  "programUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ders/biyoloji-dersi",
+  "grades": [
+    {
+      "grade": 9,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/biyoloji-dersi/11",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Tema: Yaşam",
+          "url": "https://tymm.meb.gov.tr/biyoloji-dersi/unite/2",
+          "hours": 44,
+          "keyConcepts": [
+            "bilimsel yöntem",
+            "bilim etiği",
+            "prokaryot",
+            "ökaryot",
+            "beslenme çeşitleri",
+            "adezyon",
+            "kohezyon",
+            "çözücülük",
+            "polimerizasyon",
+            "dehidrasyon",
+            "hidroliz",
+            "denatürasyon",
+            "indüklenmiş uyum",
+            "yüzey gerilimi"
+          ],
+          "outcomes": [
+            {
+              "code": "BİY.9.1.1",
+              "text": "Biyolojideki dönüm noktalarının insan hayatına katkılarını sorgulayabilme",
+              "subSkills": [
+                "a) Önemli gelişmelerin insanlara sağladığı faydaları tanımlar.",
+                "b) Bu faydalarla ilgili sorular üretir.",
+                "c) Konuyla ilgili bilgi edinir.",
+                "ç) Topladığı bilgilerin güvenilirliğini değerlendirir.",
+                "d) Elde ettiği bilgilerden sonuç çıkarır."
+              ]
+            },
+            {
+              "code": "BİY.9.1.2",
+              "text": "Bilimsel araştırma süreçlerinde bilimin doğasını yorumlayabilme",
+              "subSkills": [
+                "a) Bilimin doğasına ait özellikleri araştırma süreçlerinde inceler.",
+                "b) Bu bilgileri bağlamını koruyarak dönüştürür.",
+                "c) Bilgileri anlamı bozmadan kendi cümleleriyle ifade eder."
+              ]
+            },
+            {
+              "code": "BİY.9.1.3",
+              "text": "Bilimsel araştırmaların bilim etiğine uygunluğuyla ilgili bilgi toplayabilme",
+              "subSkills": [
+                "a) Uygunluğu incelemek için kullanacağı araçları seçer.",
+                "b) Seçtiği araçlarla etik uygunluğa ilişkin bilgilere ulaşır.",
+                "c) Ulaştığı bilgileri doğrular.",
+                "ç) Elde ettiği bilgileri kaydeder."
+              ]
+            },
+            {
+              "code": "BİY.9.1.4",
+              "text": "Çevresindeki canlıların özelliklerine ilişkin bilimsel gözlem yapabilme",
+              "subSkills": [
+                "a) Canlıların ortak özelliklerini gözlemleyerek tanımlar.",
+                "b) Gözlemlerinden veri toplar ve kaydeder.",
+                "c) Virüslerin canlı ya da cansız sınıflanmamasının nedenlerini açıklar."
+              ]
+            },
+            {
+              "code": "BİY.9.1.5",
+              "text": "İnorganik moleküllerin önemi hakkında bilimsel çıkarım yapabilme",
+              "subSkills": [
+                "a) İnorganik moleküllerin özelliklerini tanımlar.",
+                "b) Su ve minerallerin görevleri hakkında veri toplar ve kaydeder.",
+                "c) İnorganik moleküllerin önemine ilişkin verileri yorumlar ve değerlendirir."
+              ]
+            },
+            {
+              "code": "BİY.9.1.6",
+              "text": "Organik moleküllerin yapısı ve çeşitleriyle ilgili bilgi toplayabilme",
+              "subSkills": [
+                "a) Bilgi edinmek için kullanacağı araçları belirler.",
+                "b) Seçtiği araçlarla organik moleküllere ilişkin bilgilere ulaşır.",
+                "c) Ulaştığı bilgileri doğrular.",
+                "ç) Bu bilgileri kaydeder."
+              ]
+            },
+            {
+              "code": "BİY.9.1.7",
+              "text": "Besinlerde karbohidrat, lipit ve protein varlığını belirlemeye yönelik deney yapabilme",
+              "subSkills": [
+                "a) Besinlerde bu bileşikleri belirlemek için deney tasarlar.",
+                "b) Ayraçlarla karbohidrat, lipit ve protein analizi yapar."
+              ]
+            },
+            {
+              "code": "BİY.9.1.8",
+              "text": "pH ve sıcaklığın enzim aktivitesine etkisini gösteren deney yapabilme",
+              "subSkills": [
+                "a) Bu etkiyi gösterecek bir deney tasarlar.",
+                "b) pH ve sıcaklığın etkisini ölçer ve sonuçları analiz eder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Tema: Organizasyon",
+          "url": "https://tymm.meb.gov.tr/biyoloji-dersi/unite/3",
+          "hours": 24,
+          "keyConcepts": [
+            "endositoz",
+            "ekzositoz",
+            "aktif taşıma",
+            "pasif taşıma",
+            "organeller",
+            "sitoplazmik yapılar",
+            "sınıflandırma kategorileri",
+            "ikili adlandırma",
+            "domain",
+            "tür",
+            "arke",
+            "bakteri",
+            "protista",
+            "bitki",
+            "mantar",
+            "hayvan",
+            "endemik tür"
+          ],
+          "outcomes": [
+            {
+              "code": "BİY.9.2.1",
+              "text": "Hücre alt birimlerini, işlevlerini ve aralarındaki ilişkileri çözümleyebilme",
+              "subSkills": [
+                "a) Hücre alt birimlerini ve görevlerini belirler.",
+                "b) Alt birimler arasındaki bütüncül ilişkileri belirler."
+              ]
+            },
+            {
+              "code": "BİY.9.2.2",
+              "text": "Hücre zarından madde geçişlerini niteliklerine göre sınıflandırabilme",
+              "subSkills": [
+                "a) Madde geçişlerine ilişkin nitelikleri belirler.",
+                "b) Madde geçişlerini niteliklerine göre ayrıştırır.",
+                "c) Madde geçişlerini gruplandırır.",
+                "ç) Gruplandırdığı geçiş yöntemlerini adlandırır/etiketler."
+              ]
+            },
+            {
+              "code": "BİY.9.2.3",
+              "text": "Küçük moleküllerin hücre zarından pasif geçişiyle ilgili deney yapabilme",
+              "subSkills": [
+                "a) Difüzyon ve ozmoza ilişkin deney tasarlar.",
+                "b) Ölçme ve veri analizi yaparak günlük hayattaki etkileri açıklar."
+              ]
+            },
+            {
+              "code": "BİY.9.2.4",
+              "text": "Canlıları belirlenen niteliklere göre sınıflandırabilme",
+              "subSkills": [
+                "a) Sınıflandırma için kullanacağı nitelikleri belirler.",
+                "b) Niteliklere göre canlıları ayrıştırır.",
+                "c) Canlıları belirli başlıklar altında gruplandırır.",
+                "ç) Grupları modern sınıflandırmadaki bilimsel karşılığıyla etiketler."
+              ]
+            },
+            {
+              "code": "BİY.9.2.5",
+              "text": "Üç üst âlem (domain) sistemindeki canlıların özellikleriyle ilgili çıkarım yapabilme",
+              "subSkills": [
+                "a) Canlıların özelliklerine ilişkin varsayımda bulunur.",
+                "b) Özelliklere ilişkin örüntüleri listeler.",
+                "c) Özelliklere ilişkin karşılaştırma yapar.",
+                "ç) Özelliklere ilişkin önerme sunar.",
+                "d) Özelliklere ilişkin değerlendirme yapar."
+              ]
+            },
+            {
+              "code": "BİY.9.2.6",
+              "text": "Biyoçeşitliliği oluşturan unsurlarla ilgili bilimsel çıkarım yapabilme",
+              "subSkills": [
+                "a) Biyoçeşitliliği oluşturan unsurların niteliklerini tanımlar.",
+                "b) Türkiye'nin biyolojik çeşitliliğine ilişkin veri toplar ve kaydeder.",
+                "c) Verileri biyoçeşitlilik unsurlarıyla ilişkilendirerek yorumlar."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/biyoloji-dersi/12",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Tema: Enerji",
+          "url": "https://tymm.meb.gov.tr/biyoloji-dersi/unite/8",
+          "hours": 34,
+          "keyConcepts": [
+            "ışık enerjisi",
+            "kimyasal enerji",
+            "pigment",
+            "fotoliz",
+            "Calvin döngüsü",
+            "sindirim",
+            "sindirim sistemi",
+            "emilim",
+            "hücresel solunum",
+            "fermantasyon",
+            "elektron taşıma sistemi",
+            "ATP sentezi"
+          ],
+          "outcomes": [
+            {
+              "code": "BİY.10.1.1",
+              "text": "Canlıların yaşamı için enerjinin gerekliliğini sorgulayabilme",
+              "subSkills": [
+                "a) Enerjinin gerekliliğiyle ilgili merakını ifade eder.",
+                "b) Konuyla ilgili sorular sorar.",
+                "c) Konuyla ilgili bilgileri toplar.",
+                "ç) Topladığı bilgilerin doğruluğunu değerlendirir.",
+                "d) Topladığı bilgiler üzerinden çıkarım yapar."
+              ]
+            },
+            {
+              "code": "BİY.10.1.2",
+              "text": "Fotosentez reaksiyonlarıyla ilgili bilimsel model oluşturabilme",
+              "subSkills": [
+                "a) Fotosentez reaksiyonlarını açıklamak için model önerir.",
+                "b) Modelini bilimsel modellerle karşılaştırır ve kanıtlarla yeniler."
+              ]
+            },
+            {
+              "code": "BİY.10.1.3",
+              "text": "Fotosentezde kullanılan ve üretilen maddelerle ilgili deney yapabilme",
+              "subSkills": [
+                "a) Fotosentezde kullanılan/üretilen maddelerle ilgili deney tasarlar.",
+                "b) Deney sonuçlarını analiz edip fotosentezi açıklamada kullanır."
+              ]
+            },
+            {
+              "code": "BİY.10.1.4",
+              "text": "Kemosentez hakkında bilgi toplayabilme",
+              "subSkills": [
+                "a) Kullanacağı bilgi kaynaklarını/araçları belirler.",
+                "b) Araçlarla kemosentez bilgilerine ulaşır.",
+                "c) Ulaştığı bilgileri doğrular.",
+                "ç) Ulaştığı bilgileri kaydeder."
+              ]
+            },
+            {
+              "code": "BİY.10.1.5",
+              "text": "Canlılarda sindirim çeşitlerini ve yapılarını sınıflandırabilme",
+              "subSkills": [
+                "a) Sınıflandırma için ölçütler belirler.",
+                "b) Sindirim çeşitlerini ve yapılarını ölçütlere göre ayrıştırır.",
+                "c) Sindirim çeşitlerini ve yapılarını gruplandırır.",
+                "ç) Sindirim çeşitlerini ve yapılarını isimlendirir."
+              ]
+            },
+            {
+              "code": "BİY.10.1.6",
+              "text": "İnsanda enerji eldesi için sindirim, emilim ve taşımanın gerekliliğine dair bilimsel çıkarım yapabilme",
+              "subSkills": [
+                "a) Sindirim, emilim ve taşıma süreçlerinin niteliklerini tanımlar.",
+                "b) Süreçlerin gerekliliğine ilişkin veri toplar ve kaydeder.",
+                "c) Topladığı verileri yorumlar ve değerlendirir."
+              ]
+            },
+            {
+              "code": "BİY.10.1.7",
+              "text": "Hücresel solunum reaksiyonlarıyla ilgili bilimsel model oluşturabilme",
+              "subSkills": [
+                "a) Hücresel solunum reaksiyonlarını açıklamak için model önerir.",
+                "b) Modelini bilimsel modellerle karşılaştırır ve kanıtlarla yeniden yapılandırır."
+              ]
+            },
+            {
+              "code": "BİY.10.1.8",
+              "text": "Farklı besin gruplarından enerji eldesi süreçlerini karşılaştırabilme",
+              "subSkills": [
+                "a) Enerji eldesi süreçlerinin özelliklerini belirler.",
+                "b) Benzerlikleri listeler.",
+                "c) Farklılıkları listeler."
+              ]
+            },
+            {
+              "code": "BİY.10.1.9",
+              "text": "Fermantasyon ile ilgili deney yapabilme",
+              "subSkills": [
+                "a) Fermantasyon ile ilgili deney tasarlar.",
+                "b) Deney sonuçlarını analiz edip fermantasyonu açıklamada kullanır."
+              ]
+            },
+            {
+              "code": "BİY.10.1.10",
+              "text": "Besinlerden elde edilen enerjinin metabolik süreçlere katkısıyla ilgili bilimsel çıkarım yapabilme",
+              "subSkills": [
+                "a) Besinlerden elde edilen enerjinin özelliklerini tanımlar.",
+                "b) Enerjinin metabolik süreçlere katkısına ilişkin veri toplar ve kaydeder.",
+                "c) Topladığı verileri yorumlar ve değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Tema: Ekoloji",
+          "url": "https://tymm.meb.gov.tr/biyoloji-dersi/unite/10",
+          "hours": 34,
+          "keyConcepts": [
+            "rekabet",
+            "süksesyon",
+            "erozyon",
+            "endemik",
+            "iklim değişikliği",
+            "ötrofikasyon",
+            "çevre direnci",
+            "taşıma kapasitesi"
+          ],
+          "outcomes": [
+            {
+              "code": "BİY.10.2.1",
+              "text": "Ekosistemin cansız ve canlı bileşenlerini ve aralarındaki ilişkileri çözümleyebilme",
+              "subSkills": [
+                "a) Ekosistemin cansız ve canlı bileşenlerini tespit eder.",
+                "b) Bileşenler arasındaki bağlantıları saptar."
+              ]
+            },
+            {
+              "code": "BİY.10.2.2",
+              "text": "Komünite ve popülasyonlardaki etkileşim ve değişimleri sorgulayabilme",
+              "subSkills": [
+                "a) Komünite ve popülasyonlardaki etkileşim ve değişimleri tanımlar.",
+                "b) Bunlarla ilgili sorular oluşturur.",
+                "c) Bu konularda bilgi toplar.",
+                "ç) Topladığı bilgilerin doğruluğunu değerlendirir.",
+                "d) Topladığı bilgilerden çıkarım yapar."
+              ]
+            },
+            {
+              "code": "BİY.10.2.3",
+              "text": "Ekosistemdeki enerji akışıyla ilgili tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Enerji akışıyla ilgili gözlem yapar.",
+                "b) Enerji akışıyla ilgili örüntüler oluşturur.",
+                "c) Örüntülerden genelleme yapar."
+              ]
+            },
+            {
+              "code": "BİY.10.2.4",
+              "text": "Madde döngüleriyle ilgili bilimsel model oluşturabilme",
+              "subSkills": [
+                "a) Madde döngülerinin işleyişini açıklamak için model önerir.",
+                "b) Modelini bilimsel modellerle karşılaştırır ve kanıtlarla yeniler."
+              ]
+            },
+            {
+              "code": "BİY.10.2.5",
+              "text": "Ekolojik sürdürülebilirliğin önemini yorumlayabilme",
+              "subSkills": [
+                "a) Ekolojik sürdürülebilirliğin önemini inceler.",
+                "b) Bu önemi bağlamdan kopmadan dönüştürür.",
+                "c) Bu önemi anlamını koruyarak yeniden ifade eder."
+              ]
+            },
+            {
+              "code": "BİY.10.2.6",
+              "text": "Çevresinde sürdürülebilirliği kısıtlayan durumlarla ilgili gözleme dayalı tahmin yapabilme",
+              "subSkills": [
+                "a) Bu durumları gözlem ve deneyimleriyle ilişkilendirir.",
+                "b) Bu durumlara ilişkin çıkarım yapar.",
+                "c) Bu durumlara ilişkin yargıda bulunur."
+              ]
+            },
+            {
+              "code": "BİY.10.2.7",
+              "text": "Ekolojik ayak izini küçültme yollarını bilimsel olarak sorgulayabilme",
+              "subSkills": [
+                "a) Konuyla ilgili araştırma sorusu belirler.",
+                "b) Soruyu yanıtlamak için tablo veya model oluşturur.",
+                "c) Araştırma planlar.",
+                "ç) Verileri analiz eder ve yorumlar.",
+                "d) Kanıta dayalı açıklama yapar ve çözüm üretir.",
+                "e) Bilgileri değerlendirir ve paylaşır."
+              ]
+            },
+            {
+              "code": "BİY.10.2.8",
+              "text": "Doğal kaynakların ve biyoçeşitliliğin korunması için alınan önlemleri sorgulayabilme",
+              "subSkills": [
+                "a) Önlemlere ilişkin merakını ifade eder.",
+                "b) Önlemlerle ilgili sorular sorar.",
+                "c) Önlemlerle ilgili bilgi toplar.",
+                "ç) Topladığı bilgilerin doğruluğunu değerlendirir.",
+                "d) Topladığı bilgiler üzerinden çıkarım yapar."
+              ]
+            },
+            {
+              "code": "BİY.10.2.9",
+              "text": "Çevresindeki atık yönetimi çalışmalarıyla ilgili bilgi toplayabilme",
+              "subSkills": [
+                "a) Bilgiye ulaşmak için kullanacağı araçları belirler.",
+                "b) Araçlarla bilgilere ulaşır.",
+                "c) Ulaştığı bilgileri doğrular.",
+                "ç) Ulaştığı bilgileri kaydeder."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/biyoloji-dersi/13",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Tema: Tepki",
+          "url": "https://tymm.meb.gov.tr/biyoloji-dersi/unite/13",
+          "hours": 78,
+          "keyConcepts": [
+            "yönelme",
+            "irkilme",
+            "duyu",
+            "aksiyon potansiyeli",
+            "bütünleştirme",
+            "tepki",
+            "kasılma",
+            "hareket",
+            "bağışıklık"
+          ],
+          "outcomes": [
+            {
+              "code": "BİY.11.1.1",
+              "text": "Farklı canlıların uyaranlara karşı tepki mekanizmaları hakkında tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Farklı canlıların tepki mekanizmalarında örüntü bulur.",
+                "b) Bu tepki mekanizmaları hakkında genelleme yapar."
+              ]
+            },
+            {
+              "code": "BİY.11.1.2",
+              "text": "Bitkisel hormonların etkileri hakkında akıl yürütebilme",
+              "subSkills": [
+                "a) Bitkisel hormonların etkilerini deneyle gözlemler.",
+                "b) Bitkisel hormonların etkilerini tespit eder.",
+                "c) Etkilerinin benzerliklerinden çıkarım yapar."
+              ]
+            },
+            {
+              "code": "BİY.11.1.3",
+              "text": "Bitkilerdeki tepki mekanizmalarını sınıflandırabilme",
+              "subSkills": [
+                "a) Hareketin niteliklerini belirler.",
+                "b) Tepkileri uyaranın yönüne bağlı olan/olmayan olarak ayırır.",
+                "c) Tepki mekanizmalarını bu iki grupta toplar.",
+                "ç) Tepki çeşitlerini adlandırıp bilimsel karşılıklarıyla kıyaslar."
+              ]
+            },
+            {
+              "code": "BİY.11.1.4",
+              "text": "Bitkilerde yönelme hareketlerini gözlemleyebileceği deney yapabilme",
+              "subSkills": [
+                "a) Yönelme hareketlerini gözlemleyeceği bir deney tasarlar.",
+                "b) Deney sonuçlarını analiz edip hareketi etkileyen faktörleri açıklar."
+              ]
+            },
+            {
+              "code": "BİY.11.1.5",
+              "text": "Duyu reseptörlerini ve duyu organlarını sınıflandırabilme",
+              "subSkills": [
+                "a) Duyu reseptörleri ve organlarının niteliklerini belirler.",
+                "b) Bunları niteliklerine göre ayırır.",
+                "c) Ölçütlere göre gruplandırır.",
+                "ç) Ölçütlere göre etiketler."
+              ]
+            },
+            {
+              "code": "BİY.11.1.6",
+              "text": "Hayvanlardaki sinir sistemi farklılıkları hakkında analojik akıl yürütebilme",
+              "subSkills": [
+                "a) Sinir sistemi farklılıklarını inceler.",
+                "b) Farklılıkları tespit eder.",
+                "c) Farklılıklar üzerinden çıkarım yapar."
+              ]
+            },
+            {
+              "code": "BİY.11.1.7",
+              "text": "İnsanda sinir sisteminin yapısını çözümleyebilme",
+              "subSkills": [
+                "a) Sinir sistemi yapısının parçalarını belirler.",
+                "b) Parçalar arasındaki ilişkileri belirler."
+              ]
+            },
+            {
+              "code": "BİY.11.1.8",
+              "text": "Refleks olayını yorumlayabilme",
+              "subSkills": [
+                "a) Güncel hayattaki farklı refleks olaylarını inceler.",
+                "b) Refleks mekanizmasını bağlamdan kopmadan yazılı/sözlü ifadeye dönüştürür.",
+                "c) Refleks sürecini kendi cümleleriyle açıklar."
+              ]
+            },
+            {
+              "code": "BİY.11.1.9",
+              "text": "Harekete dayalı tepkide iskelet, kas ve eklemlerin eş güdümlü çalışmasına ilişkin eleştirel düşünebilme",
+              "subSkills": [
+                "a) Eş güdümlü çalışmanın gerekliliğini sorgular.",
+                "b) Bu konuda akıl yürütür.",
+                "c) Ulaştığı çıkarımları yansıtır."
+              ]
+            },
+            {
+              "code": "BİY.11.1.10",
+              "text": "İskelet kaslarının kasılma ve gevşeme mekanizması hakkında bilimsel model oluşturabilme",
+              "subSkills": [
+                "a) Kasılma ve gevşemeyi açıklayan modeller önerir.",
+                "b) Modelini bilimsel modellerle karşılaştırır ve kanıtlarla yeniler."
+              ]
+            },
+            {
+              "code": "BİY.11.1.11",
+              "text": "Bağışıklığı sınıflandırabilme",
+              "subSkills": [
+                "a) Bağışıklığın niteliklerini tanımlar.",
+                "b) Bağışıklık sistemi yapılarını niteliklerine göre ayırır.",
+                "c) Bağışıklık sistemini gruplandırır.",
+                "ç) Gruplandırmayı etiketler."
+              ]
+            },
+            {
+              "code": "BİY.11.1.12",
+              "text": "Alerjik tepkilerin oluşumunu sorgulayabilme",
+              "subSkills": [
+                "a) Alerji ile ilgili merak ettiği konuları belirler.",
+                "b) Alerji hakkında sorular sorar.",
+                "c) Alerji hakkında bilgi toplar.",
+                "ç) Bilgilerin doğruluğunu değerlendirir.",
+                "d) Alerjik tepkilerin oluşumu hakkında çıkarım yapar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Tema: Homeostazi",
+          "url": "https://tymm.meb.gov.tr/biyoloji-dersi/unite/16",
+          "hours": 60,
+          "keyConcepts": [
+            "elektrolit dengesi",
+            "geri bildirim",
+            "enerji dengesi",
+            "ısı dengesi",
+            "kan basıncı dengesi",
+            "pH dengesi",
+            "su dengesi"
+          ],
+          "outcomes": [
+            {
+              "code": "BİY.11.2.1",
+              "text": "Homeostazinin canlılar için önemine ilişkin bilimsel çıkarım yapabilme",
+              "subSkills": [
+                "a) Homeostazinin görevlerini açıklar.",
+                "b) Farklı canlılardaki homeostaziye dair veri toplar ve kaydeder.",
+                "c) Verileri yorumlayarak değerlendirir."
+              ]
+            },
+            {
+              "code": "BİY.11.2.2",
+              "text": "Homeostatik süreçleri sorgulayabilme",
+              "subSkills": [
+                "a) Homeostatik süreçlere yönelik merakını dile getirir.",
+                "b) Bu süreçlerle ilgili sorular sorar.",
+                "c) Bu süreçlerle ilgili bilgi toplar.",
+                "ç) Bilgilerin güvenilirliğini değerlendirir.",
+                "d) Topladığı bilgilerden çıkarım yapar."
+              ]
+            },
+            {
+              "code": "BİY.11.2.3",
+              "text": "Pozitif ve negatif geri bildirim mekanizmalarını karşılaştırabilme",
+              "subSkills": [
+                "a) Her iki mekanizmanın özelliklerini saptar.",
+                "b) Benzerlikleri sıralar.",
+                "c) Farklılıkları sıralar."
+              ]
+            },
+            {
+              "code": "BİY.11.2.4",
+              "text": "Sinir sisteminin homeostazideki etkilerini çözümleyebilme",
+              "subSkills": [
+                "a) Homeostaziye katkı veren sinir sistemi yapılarını belirler.",
+                "b) Bu yapılar arasındaki ilişkileri belirler."
+              ]
+            },
+            {
+              "code": "BİY.11.2.5",
+              "text": "Endokrin sistemin homeostaziye etkisine ilişkin bilimsel çıkarım yapabilme",
+              "subSkills": [
+                "a) Endokrin sistemin yapı ve görevlerini belirler.",
+                "b) Homeostazideki görevlerine dair veri toplar ve kaydeder.",
+                "c) Endokrin sistem-homeostazi ilişkisine dair verileri yorumlar."
+              ]
+            },
+            {
+              "code": "BİY.11.2.6",
+              "text": "Dolaşım sistemi ile homeostazi arasındaki ilişkiye dair bilimsel model oluşturabilme",
+              "subSkills": [
+                "a) Dolaşım sistemi-homeostazi ilişkisini açıklayan model önerir.",
+                "b) Modelini bilimsel modellerle karşılaştırır ve kanıtlarla yeniler."
+              ]
+            },
+            {
+              "code": "BİY.11.2.7",
+              "text": "Solunum sisteminin homeostazideki rolünü kanıt kullanarak açıklayabilme",
+              "subSkills": [
+                "a) Solunumun homeostazideki rolüne dair veri toplar ve kaydeder.",
+                "b) Topladığı verileri düzenler.",
+                "c) Verilere dayanarak açıklama yapar."
+              ]
+            },
+            {
+              "code": "BİY.11.2.8",
+              "text": "Boşaltım sisteminin homeostaziye etkisine ilişkin bilimsel çıkarım yapabilme",
+              "subSkills": [
+                "a) Nefronların yapı ve görevlerini tanımlar.",
+                "b) Boşaltım sisteminin homeostazideki görevlerine dair veri toplar.",
+                "c) Boşaltım sistemi-homeostazi ilişkisine dair verileri yorumlar."
+              ]
+            },
+            {
+              "code": "BİY.11.2.9",
+              "text": "Homeostazide sistemlerin eş güdümlü çalışmasına dair eleştirel düşünebilme",
+              "subSkills": [
+                "a) Sistemlerin eş güdümlü çalışmasını sorgular.",
+                "b) Bu konuda akıl yürütür.",
+                "c) Ulaştığı çıkarımları ortaya koyar."
+              ]
+            },
+            {
+              "code": "BİY.11.2.10",
+              "text": "Homeostazinin sağlanamadığı durumlardaki sağlık sorunlarına dair hipotez oluşturabilme",
+              "subSkills": [
+                "a) Bu sağlık sorunlarına yönelik araştırma sorusu belirler.",
+                "b) Olası neden-sonuç ilişkisini belirler.",
+                "c) Bağımlı ve bağımsız değişkenleri belirler.",
+                "ç) Değişkenleri belirlemek için gözlem yapar.",
+                "d) Bilimsel kuramlara dayanarak önermeler sunar."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 12,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/biyoloji-dersi/14",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Tema: Üreme",
+          "url": "https://tymm.meb.gov.tr/biyoloji-dersi/unite/19",
+          "hours": 69,
+          "keyConcepts": [
+            "eşeysiz üreme",
+            "eşeyli üreme",
+            "gametogenez",
+            "oogenez",
+            "spermatogenez",
+            "döllenme",
+            "çimlenme",
+            "dormansi"
+          ],
+          "outcomes": [
+            {
+              "code": "BİY.12.1.1",
+              "text": "Hücre bölünmesinin ve üremenin canlılar için önemini yorumlayabilme",
+              "subSkills": [
+                "a) Hücre bölünmesini inceler.",
+                "b) Hücre bölünmesinin nedenlerini kendi sözleriyle açıklar.",
+                "c) Bölünmenin üreme, büyüme ve gelişmedeki önemini değerlendirir."
+              ]
+            },
+            {
+              "code": "BİY.12.1.2",
+              "text": "Genetik materyalin organizasyonunu çözümleyebilme",
+              "subSkills": [
+                "a) Genetik materyalin organizasyonunu belirler.",
+                "b) Bileşenlerin birbiriyle bağlantısını saptar."
+              ]
+            },
+            {
+              "code": "BİY.12.1.3",
+              "text": "Hücre döngüsü ve hücre bölünmesini sorgulayabilme",
+              "subSkills": [
+                "a) Yeni hücre oluşumunda hücre döngüsünü tanımlar.",
+                "b) Mitoz ve mayozla ilgili sorular sorar.",
+                "c) Mitoz ve mayoz hakkında bilgi toplar.",
+                "ç) Bilgilerin doğruluğunu değerlendirir.",
+                "d) Kalıtsal çeşitlilikte mitoz ve mayozun önemi hakkında çıkarım yapar."
+              ]
+            },
+            {
+              "code": "BİY.12.1.4",
+              "text": "Kromozomlarda ayrılmanın sonuçlarıyla ilgili bilimsel çıkarım yapabilme",
+              "subSkills": [
+                "a) Kromozomlarda ayrılmanın özelliklerini tanımlar.",
+                "b) Bu olayla ilgili veri toplayıp kaydeder.",
+                "c) Sonuçlarını yorumlar ve değerlendirir."
+              ]
+            },
+            {
+              "code": "BİY.12.1.5",
+              "text": "Üreme hücrelerinin oluşum süreçlerini ve yapılarını karşılaştırabilme",
+              "subSkills": [
+                "a) Oluşum sürecinin özelliklerini belirler.",
+                "b) Benzerlikleri listeler.",
+                "c) Farklılıkları listeler."
+              ]
+            },
+            {
+              "code": "BİY.12.1.6",
+              "text": "Eşeysiz ve eşeyli üreme hakkında bilimsel çıkarım yapabilme",
+              "subSkills": [
+                "a) Eşeysiz ve eşeyli üremenin niteliklerini tanımlar.",
+                "b) Benzerlik ve farklılıklara dair bilgi toplayıp kaydeder.",
+                "c) Avantaj ve dezavantajları yorumlayıp değerlendirir."
+              ]
+            },
+            {
+              "code": "BİY.12.1.7",
+              "text": "Erkek ve dişi üreme sistemlerinin yapı ve işleyişi hakkında bilgi toplayabilme",
+              "subSkills": [
+                "a) Kullanacağı araçları belirler.",
+                "b) Araçlarla yapı ve işleyiş bilgilerine ulaşır.",
+                "c) Ulaştığı bilgileri doğrular.",
+                "ç) Ulaştığı bilgileri kaydeder."
+              ]
+            },
+            {
+              "code": "BİY.12.1.8",
+              "text": "Embriyonik gelişimle ilgili bilgi toplayabilme",
+              "subSkills": [
+                "a) Kullanacağı araçları belirler.",
+                "b) Araçlarla embriyonik gelişim bilgilerine ulaşır.",
+                "c) Ulaştığı bilgileri doğrular.",
+                "ç) Ulaştığı bilgileri kaydeder."
+              ]
+            },
+            {
+              "code": "BİY.12.1.9",
+              "text": "Çiçeğin kısımları ve görevleri hakkında bilimsel gözlem yapabilme",
+              "subSkills": [
+                "a) Tam çiçeğin kısımlarını tanımlar.",
+                "b) Çiçeğin kısımlarıyla ilgili veri toplayıp kaydeder.",
+                "c) Verileri tozlaşma, döllenme, tohum ve meyve oluşumunu açıklamada kullanır."
+              ]
+            },
+            {
+              "code": "BİY.12.1.10",
+              "text": "Çimlenmeyi etkileyen faktörlerle ilgili deney yapabilme",
+              "subSkills": [
+                "a) Çimlenmeyi etkileyen faktörleri gözlemleyeceği deney tasarlar.",
+                "b) Sonuçları analiz ederek çimlenme ve dormansinin kırılmasını açıklar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Tema: Gen",
+          "url": "https://tymm.meb.gov.tr/biyoloji-dersi/unite/22",
+          "hours": 69,
+          "keyConcepts": [
+            "DNA replikasyonu",
+            "gen ifadesi",
+            "fenotip",
+            "genotip",
+            "rekombinant DNA teknolojisi"
+          ],
+          "outcomes": [
+            {
+              "code": "BİY.12.2.1",
+              "text": "Nükleik asitlerin yapı ve işlevini sorgulayabilme",
+              "subSkills": [
+                "a) Nükleik asitlerle ilgili merak ettiği konuları belirler.",
+                "b) Konuyla ilgili sorular sorar.",
+                "c) Konuyla ilgili bilgi toplar.",
+                "ç) Bilgilerin doğruluğunu değerlendirir.",
+                "d) Bilgilerden çıkarım yapar."
+              ]
+            },
+            {
+              "code": "BİY.12.2.2",
+              "text": "DNA replikasyonunu açıklayan bilimsel model oluşturabilme",
+              "subSkills": [
+                "a) DNA replikasyonunu açıklamak için model önerir.",
+                "b) Modelini bilimsel modellerle karşılaştırıp kanıtlarla yeniden yapılandırır."
+              ]
+            },
+            {
+              "code": "BİY.12.2.3",
+              "text": "Genetik bilginin ürüne dönüşüm sürecini çözümleyebilme",
+              "subSkills": [
+                "a) Sürecin temel bileşenlerini ve işleyişlerini belirler.",
+                "b) Bileşenler arasındaki ilişkileri belirler."
+              ]
+            },
+            {
+              "code": "BİY.12.2.4",
+              "text": "Genetik yapıdaki değişikliklerin canlı yaşamına etkileri hakkında eleştirel düşünebilme",
+              "subSkills": [
+                "a) Genetik değişikliklerin etkilerini sorgular.",
+                "b) Bu etkiler hakkında akıl yürütür.",
+                "c) Ulaştığı çıkarımları yansıtır."
+              ]
+            },
+            {
+              "code": "BİY.12.2.5",
+              "text": "Mendel kalıtım ilkelerinin geçerli olduğu genetik problemleri çözebilme",
+              "subSkills": [
+                "a) Mendel ilkelerinin geçerli olduğu problemleri yapılandırır.",
+                "b) Problemleri özetler.",
+                "c) Çözümü verilere dayalı tahmin eder.",
+                "ç) Çözümde önermeler üzerinden akıl yürütür.",
+                "d) Çözüme ilişkin değerlendirmelerde bulunur."
+              ]
+            },
+            {
+              "code": "BİY.12.2.6",
+              "text": "Eş baskınlık ve çok alellilikle ilgili deney yapabilme",
+              "subSkills": [
+                "a) Kan gruplarıyla ilgili deney tasarlar.",
+                "b) Sonuçları analiz ederek eş baskınlık ve çok alelliliğin niteliklerini tespit eder."
+              ]
+            },
+            {
+              "code": "BİY.12.2.7",
+              "text": "Eşeye bağlı kalıtıma ilişkin soyağacı üzerinden tümevarımsal akıl yürütebilme",
+              "subSkills": [
+                "a) Eşeye bağlı kalıtım örüntüsünü soyağacında modeller.",
+                "b) Soyağacı modelini yeni gözlem verileriyle test eder.",
+                "c) Soyağacı modellemeleri üzerinden genelleme yapar.",
+                "ç) Soyağacı modelleriyle farklı veri setlerini yorumlar.",
+                "d) Genellemelerini bilim insanlarınınkilerle karşılaştırır.",
+                "e) Yeni verilerle genellemelerini geliştirir."
+              ]
+            },
+            {
+              "code": "BİY.12.2.8",
+              "text": "Genetik testlerin ve genetik danışmanlığın önemini sorgulayabilme",
+              "subSkills": [
+                "a) Konuyla ilgili merak ettiği konuyu tanımlar.",
+                "b) Konuyla ilgili sorular sorar.",
+                "c) Konuyla ilgili bilgi toplar.",
+                "ç) Bilgilerin doğruluğunu değerlendirir.",
+                "d) Bilgiler üzerinden çıkarım yapar."
+              ]
+            },
+            {
+              "code": "BİY.12.2.9",
+              "text": "Biyoteknolojinin uygulama alanlarıyla ilgili bilgi toplayabilme",
+              "subSkills": [
+                "a) Kullanacağı araçları belirler.",
+                "b) Uygulama alanlarıyla ilgili bilgilere ulaşır.",
+                "c) Ulaştığı bilgileri doğrular.",
+                "ç) Ulaştığı bilgileri kaydeder."
+              ]
+            },
+            {
+              "code": "BİY.12.2.10",
+              "text": "Biyoteknolojik uygulamaların etik boyutu hakkında eleştirel düşünebilme",
+              "subSkills": [
+                "a) Biyoteknolojik uygulamaları etik açıdan sorgular.",
+                "b) Uygulamaların etiği hakkında akıl yürütür.",
+                "c) Ulaştığı çıkarımları yansıtır."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Kaynak: tymm.meb.gov.tr Biyoloji Dersi (Ortaöğretim). Her sınıfta iki tema vardır. 10. sınıf 2. tema sayfasında başlık 'Ekoloji' olarak görünür; sınıf sayfasındaki ad '2. Tema: Ekoloji' kullanıldı. Kazanım ve süreç bileşeni metinleri resmi metnin kısa Türkçe özetidir (birebir alıntı değildir); tema adları ve kodlar siteden alınmıştır."
+}
