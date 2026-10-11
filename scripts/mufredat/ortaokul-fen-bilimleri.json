@@ -1,0 +1,1897 @@
+{
+  "level": "ortaokul",
+  "subject": "Fen Bilimleri",
+  "programUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ders/fen-bilimleri-dersi",
+  "grades": [
+    {
+      "grade": 5,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/fen-bilimleri-dersi/6",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Ünite: Gökyüzündeki Komşularımız Ve Biz",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/367",
+          "hours": 20,
+          "keyConcepts": [
+            "Güneş",
+            "Ay",
+            "Ay’ın evreleri",
+            "dönme ve dolanma hareketi"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.5.1.1",
+              "text": "Güneş’in yapısı ve dönme hareketiyle ilgili bilgi toplayabilme.",
+              "subSkills": [
+                "a) Bilgiye ulaşmak için kullanılacak araçları belirler.",
+                "b) Seçtiği araçlarla Güneş’in yapısı ve dönmesi hakkında bilgi bulur.",
+                "c) Bulduğu bilgileri doğrular.",
+                "ç) Ulaştığı bilgileri kaydeder."
+              ]
+            },
+            {
+              "code": "FB.5.1.2",
+              "text": "Ay’ın özellikleri, dönme ve dolanma hareketleriyle ilgili bilimsel çıkarım yapabilme.",
+              "subSkills": [
+                "a) Ay’ın özellikleri ve hareketleriyle ilgili nitelikleri tanımlar.",
+                "b) Topladığı verileri kaydeder.",
+                "c) Verileri yorumlar ve değerlendirir."
+              ]
+            },
+            {
+              "code": "FB.5.1.3",
+              "text": "Ay’ın evrelerini temsil eden bilimsel model oluşturabilme.",
+              "subSkills": [
+                "a) Ay’ın evrelerini temsil eden bir model önerir.",
+                "b) Modelini yeni kanıtlara bağlı olarak yeniler."
+              ]
+            },
+            {
+              "code": "FB.5.1.4",
+              "text": "Güneş, Dünya ve Ay’ın hareketlerini ve hacimsel büyüklüklerini temsil eden bilimsel model oluşturabilme.",
+              "subSkills": [
+                "a) Üç cismin birbirine göre hareketlerini ve büyüklüklerini temsil eden bir model önerir.",
+                "b) Modelini yeni kanıtlara göre yeniler."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Ünite: Kuvveti Tanıyalım",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/368",
+          "hours": 22,
+          "keyConcepts": [
+            "kuvvet",
+            "kuvvet birimi",
+            "dinamometre",
+            "kütle",
+            "ağırlık",
+            "sürtünme kuvveti",
+            "esneklik",
+            "pürüzlü ve az pürüzlü",
+            "su direnci",
+            "hava direnci"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.5.2.1",
+              "text": "Kuvveti niteliklerine göre tanımlayabilme ve büyüklüğünü dinamometre ile ölçebilme.",
+              "subSkills": [
+                "a) Kuvvetin niteliklerini tanımlar.",
+                "b) Kuvvetin büyüklüğünü dinamometre ile ölçer.",
+                "c) Kuvvetin büyüklüğünü Newton (N) birimiyle ifade eder."
+              ]
+            },
+            {
+              "code": "FB.5.2.2",
+              "text": "Basit araç gereçlerle bilimsel bir dinamometre modeli oluşturabilme.",
+              "subSkills": [
+                "a) Basit araç gereçlerle bir dinamometre modeli önerir.",
+                "b) Tasarladığı dinamometre modelini yeni kanıtlara göre günceller."
+              ]
+            },
+            {
+              "code": "FB.5.2.3",
+              "text": "Kütle ve ağırlık kavramlarını karşılaştırabilme.",
+              "subSkills": [
+                "a) Kütle ve ağırlığa ilişkin özellikleri belirler.",
+                "b) Bu özelliklere ilişkin benzerlikleri listeler.",
+                "c) Bu özelliklere ilişkin farklılıkları listeler."
+              ]
+            },
+            {
+              "code": "FB.5.2.4",
+              "text": "Sürtünme kuvvetinin çeşitli ortamlardaki etkilerine yönelik tümevarımsal akıl yürütebilme.",
+              "subSkills": [
+                "a) Günlük yaşam bilgilerini kullanarak sürtünmeye ilişkin örüntü oluşturur.",
+                "b) Sürtünme kuvvetinin çeşitli ortamlardaki etkilerine dair genelleme yapar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Ünite: Canlıların Yapısına Yolculuk",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/388",
+          "hours": 26,
+          "keyConcepts": [
+            "mikroskop",
+            "hücre",
+            "bitki hücresi",
+            "hayvan hücresi",
+            "organeller",
+            "doku",
+            "organ",
+            "sistem",
+            "organizma",
+            "kıkırdak",
+            "kemik ve kemik çeşitleri",
+            "eklem ve eklem çeşitleri",
+            "kas ve kas çeşitleri"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.5.3.1",
+              "text": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırabilme",
+              "subSkills": [
+                "a) Bitki ve hayvan hücrelerinin özelliklerini belirler.",
+                "b) Hücrelerin benzer özelliklerini listeler.",
+                "c) Hücrelerin farklı özelliklerini listeler."
+              ]
+            },
+            {
+              "code": "FB.5.3.2",
+              "text": "Hücre, doku, organ, sistem ve organizma kavramlarını yapılandırabilme",
+              "subSkills": [
+                "a) Bu kavramlar arasındaki hiyerarşik ilişkileri ortaya koyar.",
+                "b) Elde ettiği bilgileri uyumlu bir bütün olarak ortaya koyar."
+              ]
+            },
+            {
+              "code": "FB.5.3.3",
+              "text": "Destek ve hareket sistemine ait yapıları sınıflandırabilme",
+              "subSkills": [
+                "a) Yapıların niteliklerini tanımlar.",
+                "b) Yapıları niteliklerine göre ayrıştırır.",
+                "c) Yapıları gruplandırır.",
+                "ç) Yapıları etiketler."
+              ]
+            },
+            {
+              "code": "FB.5.3.4",
+              "text": "Destek ve hareket sisteminin sağlığı için yapılması gerekenler hakkında bilgi toplayabilme",
+              "subSkills": [
+                "a) Sağlık bilgisine ulaşmak için kullanacağı araçları belirler.",
+                "b) Bu araçlarla sistemin sağlığı hakkında bilgi bulur.",
+                "c) Bulduğu bilgileri doğrular.",
+                "ç) Ulaştığı bilgileri kaydeder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Ünite: Işığın Dünyası",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/399",
+          "hours": 14,
+          "keyConcepts": [
+            "ışığın doğrusal olarak yayılması",
+            "saydam",
+            "yarı saydam",
+            "saydam olmayan (opak) madde",
+            "tam gölge"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.5.4.1",
+              "text": "Bir kaynaktan çıkan ışığın her yönde doğrusal bir yol izlediğini bilimsel gözlemlerle fark edebilme",
+              "subSkills": [
+                "a) Işığın izlediği yolu gözlemleyerek niteliklerini tanımlar",
+                "b) Gözlemlerinden ışığın izlediği yola dair verileri kaydeder",
+                "c) Işığın her yönde doğrusal yol izlediğini açıklar"
+              ]
+            },
+            {
+              "code": "FB.5.4.2",
+              "text": "Maddeleri ışığı geçirme durumlarına göre sınıflandırabilme",
+              "subSkills": [
+                "a) Maddelerin ışık geçirme durumlarına göre niteliklerini belirler",
+                "b) Maddeleri ışık geçirme durumlarına göre ayırt eder",
+                "c) Maddeleri ışık geçirme durumlarına göre gruplandırır",
+                "ç) Maddeleri ışık geçirme durumlarına göre etiketler"
+              ]
+            },
+            {
+              "code": "FB.5.4.3",
+              "text": "Tam gölgeyi bilimsel olarak gözlemleyebilme",
+              "subSkills": [
+                "a) Tam gölgenin niteliklerini tanımlar",
+                "b) Tam gölgeye ait verileri kaydeder",
+                "c) Tam gölgeyi etkileyen değişkenleri açıklar"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5. Ünite: Maddenin Doğası",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/404",
+          "hours": 26,
+          "keyConcepts": [
+            "titreşim",
+            "öteleme",
+            "dönme",
+            "ısı",
+            "sıcaklık",
+            "erime",
+            "donma",
+            "kaynama",
+            "yoğuşma",
+            "buharlaşma",
+            "süblimleşme",
+            "kırağılaşma",
+            "ısı iletkenliği",
+            "ısı yalıtkanlığı",
+            "ısı yalıtımı"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.5.5.1",
+              "text": "Maddeleri tanecik, boşluk ve hareket özelliklerine göre sınıflandırır.",
+              "subSkills": [
+                "a) Taneciklerin, boşlukların ve hareketin niteliklerini belirler.",
+                "b) Maddeleri bu üç yapısal özelliğe göre ayrıştırır.",
+                "c) Maddeleri bu yapıya göre katı, sıvı ve gaz olarak gruplandırır.",
+                "ç) Maddeleri bu yapılara göre farklı gruplar altında etiketler."
+              ]
+            },
+            {
+              "code": "FB.5.5.2",
+              "text": "Isı ve sıcaklık kavramlarını karşılaştırır.",
+              "subSkills": [
+                "a) Isı ve sıcaklığın özelliklerini belirler.",
+                "b) Bu kavramların benzer yönlerini listeler.",
+                "c) Bu kavramların farklı yönlerini listeler."
+              ]
+            },
+            {
+              "code": "FB.5.5.3",
+              "text": "Sıcaklıkları farklı sıvıların karışmasından ısı alışverişi olduğunu bilimsel olarak çıkarır.",
+              "subSkills": [
+                "a) Sıvılar arasındaki ısı alışverişinin niteliklerini tanımlar.",
+                "b) Karıştırmadan önce ve sonra sıcaklık verilerini toplayıp kaydeder.",
+                "c) Karışan sıvılar arasında ısı alışverişi olduğunu yorumlayarak değerlendirir."
+              ]
+            },
+            {
+              "code": "FB.5.5.4",
+              "text": "Isının maddenin hâl değiştirebileceğine dair gözleme dayalı tahminde bulunur.",
+              "subSkills": [
+                "a) Ön bilgi ve deneyimlerine dayanarak bir önerme oluşturur.",
+                "b) Gözleme dayalı ve dayanmayan önermeleri karşılaştırır.",
+                "c) Hâl değişimini gerekçelendirmek için gözlem verilerinden sonuç çıkarır.",
+                "ç) Gözlemlenmemiş durumlar hakkında tahminde bulunur.",
+                "d) Tahminlerinin geçerliliğini sorgular."
+              ]
+            },
+            {
+              "code": "FB.5.5.5",
+              "text": "Maddeleri ısı iletimi bakımından iletken veya yalıtkan olarak sınıflandırır.",
+              "subSkills": [
+                "a) Maddelerin ısı iletimine ilişkin niteliklerini belirler.",
+                "b) Maddeleri ısı iletkeni ya da yalıtkanı olarak ayırır.",
+                "c) Maddeleri ısı iletkeni ya da yalıtkanı olarak gruplandırır.",
+                "ç) Maddeleri ısı iletkeni ya da yalıtkanı olarak etiketler."
+              ]
+            },
+            {
+              "code": "FB.5.5.6",
+              "text": "Isı yalıtımını gösteren bilimsel bir model oluşturur.",
+              "subSkills": [
+                "a) Isı yalıtımına ilişkin bir model önerir.",
+                "b) Yeni kanıtlara göre modelini yeniler."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "6. Ünite: Yaşamımızdaki Elektrik",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/407",
+          "hours": 14,
+          "keyConcepts": [
+            "basit elektrik devre elemanlarının sembolleri",
+            "devre şeması",
+            "pil sayısı",
+            "ampul sayısı"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.5.6.1",
+              "text": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırabilme",
+              "subSkills": [
+                "a) Devre elemanlarının sembollerini belirler.",
+                "b) Elemanları sembollerinin olup olmamasına göre ayrıştırır.",
+                "c) Elemanları sembollerinin olup olmamasına göre gruplandırır.",
+                "ç) Elemanların sembollerini niteliklerine göre etiketler."
+              ]
+            },
+            {
+              "code": "FB.5.6.2",
+              "text": "Şemasını çizdiği elektrik devresine uygun deney yapabilme",
+              "subSkills": [
+                "a) Çizdiği devreye uygun deney düzeneği tasarlar.",
+                "b) Deneyle ilgili ölçme ve veri analizi yapar."
+              ]
+            },
+            {
+              "code": "FB.5.6.3",
+              "text": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlere ilişkin hipotez oluşturabilme",
+              "subSkills": [
+                "a) Ampul parlaklığını etkileyen değişkenleri tanımlar.",
+                "b) Pil ve ampul sayısındaki değişimi neden-sonuç ilişkisiyle belirler.",
+                "c) Bağımlı, bağımsız ve kontrol edilen değişkenleri belirler.",
+                "ç) Bağımsız değişken olarak pil sayısı ve ampul sayısını kontrol eder.",
+                "d) Farklı devrelerde parlaklığın pil ve ampul sayısına bağlı değiştiğine dair önermelerde bulunur."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "7. Ünite: Sürdürülebilir Yaşam Ve Geri Dönüşüm",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/408",
+          "hours": 12,
+          "keyConcepts": [
+            "evsel atık",
+            "yeniden kullanım",
+            "atık yönetimi",
+            "geri kazanım",
+            "geri dönüşüm",
+            "ileri dönüşüm",
+            "sıfır atık hiyerarşisi",
+            "uzaklaştırma"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.5.7.1",
+              "text": "Evsel atıkları geri dönüştürülebilir ya da dönüştürülemez olarak ayırt edip sınıflandırma",
+              "subSkills": [
+                "a) Evsel atıkların niteliklerini betimler",
+                "b) Atıkları geri dönüştürülebilir ve dönüştürülemez olarak ayırır",
+                "c) Atıkları bu iki gruba göre gruplandırır",
+                "ç) Atıkları geri dönüştürülebilir veya dönüştürülemez diye etiketler"
+              ]
+            },
+            {
+              "code": "FB.5.7.2",
+              "text": "Kaynakların etkili kullanımında geri dönüşümün önemine dair bilimsel çıkarım yapma",
+              "subSkills": [
+                "a) Kaynakların etkili kullanımı ve geri dönüşümün niteliklerini tanımlar",
+                "b) Geri dönüşümün önemine ilişkin verileri kaydeder",
+                "c) Bu verileri değerlendirir"
+              ]
+            },
+            {
+              "code": "FB.5.7.3",
+              "text": "Yakın çevredeki atık yönetiminin uygulanabilirliğine ilişkin deneyimleri yansıtabilme",
+              "subSkills": [
+                "a) Yakın çevresindeki atık yönetimi deneyimlerini gözden geçirir",
+                "b) Bu deneyimlere dayanarak çıkarım yapar",
+                "c) Ulaştığı çıkarımları değerlendirir"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 6,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/fen-bilimleri-dersi/7",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Ünite: Güneş Sistemi Ve Tutulmalar",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/409",
+          "hours": 12,
+          "keyConcepts": [
+            "Güneş sistemi",
+            "gezegenler",
+            "asteroit",
+            "gök taşı",
+            "meteor",
+            "meteorit",
+            "Güneş tutulması",
+            "Ay tutulması"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.6.1.1",
+              "text": "Gezegenleri niteliklerine göre sınıflandırabilme",
+              "subSkills": [
+                "a) Gezegenlerin özelliklerini belirler",
+                "b) Gezegenleri özelliklerine göre ayırır",
+                "c) Gezegenleri özelliklerine göre gruplar",
+                "ç) Gezegenlere özelliklerine uygun etiketler verir"
+              ]
+            },
+            {
+              "code": "FB.6.1.2",
+              "text": "Güneş sistemiyle ilgili bilimsel bir model geliştirebilme",
+              "subSkills": [
+                "a) Güneş sistemi için bir model önerir",
+                "b) Modelini yeni kanıtlarla güncelleyip yeniler"
+              ]
+            },
+            {
+              "code": "FB.6.1.3",
+              "text": "Güneş ve Ay tutulmaları hakkında bilimsel çıkarımlar yapabilme",
+              "subSkills": [
+                "a) Tutulmaların niteliklerini tanımlar",
+                "b) Tutulmalarla ilgili veri toplayıp kaydeder",
+                "c) Tutulmaları değerlendirip yorumlar"
+              ]
+            },
+            {
+              "code": "FB.6.1.4",
+              "text": "Tutulmalarla ilgili bilimsel bir model geliştirebilme",
+              "subSkills": [
+                "a) Tutulmalarla ilgili bir model önerir",
+                "b) Modelini yeni kanıtlarla gözden geçirip yeniler"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Ünite: Kuvvetin Etkisinde Hareket",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/410",
+          "hours": 14,
+          "keyConcepts": [
+            "büyüklük",
+            "yön",
+            "doğrultu",
+            "uygulama noktası",
+            "bileşke kuvvet",
+            "dengelenmiş ve dengelenmemiş kuvvet",
+            "dengeleyici kuvvet",
+            "sürat-hız",
+            "alınan yol-yer değiştirme",
+            "zaman"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.6.2.1",
+              "text": "Aynı doğrultudaki kuvvetler arasındaki ilişkileri açıklayarak bileşke kuvveti yapılandırabilme",
+              "subSkills": [
+                "a) Aynı doğrultudaki kuvvetleri inceleyerek aralarındaki mantıksal ilişkileri ortaya koyar.",
+                "b) Bu kuvvetler arasındaki ilişkileri yapılandırarak bileşke kuvveti açıklar."
+              ]
+            },
+            {
+              "code": "FB.6.2.2",
+              "text": "Dengelenmiş ve dengelenmemiş kuvvetlerin cismin hareketine etkisine yönelik deney yapabilme",
+              "subSkills": [
+                "a) Bu kuvvetlerin hareket etkisini gösteren deney düzeneği tasarlar.",
+                "b) Deneyle ilgili ölçme yapar ve verileri analiz eder."
+              ]
+            },
+            {
+              "code": "FB.6.2.3",
+              "text": "Sürat ve hız kavramlarını karşılaştırabilme",
+              "subSkills": [
+                "a) Sürat ve hız kavramlarına ilişkin özellikleri belirler.",
+                "b) Sürat ve hız kavramlarının benzerliklerini listeler.",
+                "c) Sürat ve hız kavramlarının farklılıklarını listeler."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Ünite: Canlılarda Sistemler",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/411",
+          "hours": 22,
+          "keyConcepts": [
+            "eşeysiz üreme (vejetatif, bölünme, tomurcuklanma ve rejenerasyonla üreme)",
+            "eşeyli üreme",
+            "başkalaşım",
+            "tozlaşma",
+            "çimlenme",
+            "yaşam döngüsü",
+            "insanda üremeyi sağlayan yapı ve organlar",
+            "âdet döngüsü",
+            "sperm",
+            "yumurta",
+            "zigot",
+            "embriyo",
+            "fetüs",
+            "büyüme ve gelişme",
+            "sinir sistemi",
+            "sinir sisteminin bölümleri",
+            "merkezî ve çevresel sinir sistemi",
+            "refleks",
+            "iç salgı bezleri",
+            "hormon",
+            "iç salgı bezlerinin görevleri",
+            "ergenlik",
+            "ergen sağlığı",
+            "denetleyici ve düzenleyici sistemlerin sağlığı"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.6.3.1",
+              "text": "Eşeyli ve eşeysiz üremeyi kıyaslayabilme",
+              "subSkills": [
+                "a) Eşeyli ve eşeysiz üremeye ait özellikleri belirler.",
+                "b) Eşeyli ve eşeysiz üreme arasındaki benzerlikleri listeler.",
+                "c) Eşeyli ve eşeysiz üreme arasındaki farklılıkları listeler."
+              ]
+            },
+            {
+              "code": "FB.6.3.2",
+              "text": "Bitkilerde üreme, büyüme ve gelişmeyle ilgili bilimsel sonuçlar çıkarabilme",
+              "subSkills": [
+                "a) Bitkilerde üreme, büyüme ve gelişmeyi etkileyen temel faktörlerin niteliklerini tanımlar.",
+                "b) Bu faktörlere ilişkin veri toplar ve kaydeder.",
+                "c) Elde edilen verileri yorumlar ve değerlendirir."
+              ]
+            },
+            {
+              "code": "FB.6.3.3",
+              "text": "Tohumun çimlenmesini etkileyen faktörlere ilişkin hipotez kurabilme",
+              "subSkills": [
+                "a) Tohumun çimlenmesini etkileyen faktörleri tanımlar.",
+                "b) Bu faktörler arasındaki neden-sonuç ilişkilerini belirler.",
+                "c) Faktörlere ait değişkenleri belirler.",
+                "ç) Belirlediği değişkenleri kontrol eder.",
+                "d) Verilere dayanarak bir önerme sunar."
+              ]
+            },
+            {
+              "code": "FB.6.3.4",
+              "text": "Hayvanlarda üreme, büyüme ve gelişmeyle ilgili bilimsel sonuçlar çıkarabilme",
+              "subSkills": [
+                "a) Hayvanlarda üreme, büyüme ve gelişmeyi etkileyen temel faktörlerin niteliklerini tanımlar.",
+                "b) Bu faktörlere ilişkin veri toplar ve kaydeder.",
+                "c) Elde edilen verileri yorumlar ve değerlendirir."
+              ]
+            },
+            {
+              "code": "FB.6.3.5",
+              "text": "İnsanda üremeyi sağlayan yapı ve organlar arasındaki ilişkileri çözümleyebilme",
+              "subSkills": [
+                "a) İnsanda üremeyi sağlayan yapı ve organları poster veya şema üzerinde gösterir.",
+                "b) Bu yapı ve organlar arasındaki ilişkileri belirler."
+              ]
+            },
+            {
+              "code": "FB.6.3.6",
+              "text": "Sinir sisteminin görevlerini model üzerinde bilimsel olarak gözlemleyebilme",
+              "subSkills": [
+                "a) Sinir sisteminin özelliklerini tanımlar.",
+                "b) Sinir sistemini model üzerinde inceler.",
+                "c) Sinir sisteminin görevlerini açıklar."
+              ]
+            },
+            {
+              "code": "FB.6.3.7",
+              "text": "İç salgı bezlerinin vücut için önemini yapılandırabilme",
+              "subSkills": [
+                "a) İç salgı bezlerini inceleyerek mantıksal ilişkiler kurar.",
+                "b) İç salgı bezlerinin vücuttaki önemini bütünlüklü biçimde açıklar."
+              ]
+            },
+            {
+              "code": "FB.6.3.8",
+              "text": "Çocukluktan ergenliğe geçişteki bedensel ve ruhsal değişimleri genelleyebilme",
+              "subSkills": [
+                "a) Bu dönemdeki değişimler hakkında bilgi toplar.",
+                "b) Ortak değişimleri belirler.",
+                "c) Ortak olmayan değişimleri belirler.",
+                "ç) Değişimlerdeki örüntülerden genellemeler yapar."
+              ]
+            },
+            {
+              "code": "FB.6.3.9",
+              "text": "Denetleyici ve düzenleyici sistemlerin sağlığı için yapılması gerekenlere ilişkin bilgi toplayabilme",
+              "subSkills": [
+                "a) Bilgiye ulaşmak için kullanacağı araçları belirler.",
+                "b) Denetleyici ve düzenleyici sistemlerin sağlığına ilişkin bilgi bulur.",
+                "c) Bulduğu bilgileri doğrular.",
+                "ç) Ulaştığı bilgileri kaydeder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Ünite: Işığın Yansıması Ve Renkler",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/412",
+          "hours": 22,
+          "keyConcepts": [
+            "yansıma",
+            "gelen ışın",
+            "yansıyan ışın",
+            "yüzey normali",
+            "gelme açısı",
+            "yansıma açısı",
+            "düz ayna",
+            "çukur ayna",
+            "tümsek ayna",
+            "soğurma",
+            "cisimlerin siyah, beyaz ve renkli görünmesi"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.6.4.1",
+              "text": "Işığın farklı yüzeylerde yansımasıyla ilgili bilimsel çıkarımlar yapabilme",
+              "subSkills": [
+                "a) Farklı yüzeylerdeki yansıma olaylarının özelliklerini belirler.",
+                "b) Yansıma olaylarına dair veri toplar ve kaydeder.",
+                "c) Yansımayı düzgün ve dağınık yansıma olarak yorumlar, değerlendirir."
+              ]
+            },
+            {
+              "code": "FB.6.4.2",
+              "text": "Gelen ışın, yansıyan ışın ve yüzey normali arasındaki ilişkiyi kanıtlara dayanarak açıklayabilme",
+              "subSkills": [
+                "a) Yansımaya ilişkin deneysel verileri kaydeder.",
+                "b) Yansımayla ilgili veri setleri oluşturur.",
+                "c) Topladığı verilere dayanarak yansımayla ilgili açıklama yapar."
+              ]
+            },
+            {
+              "code": "FB.6.4.3",
+              "text": "Günlük yaşamdaki ayna türleri hakkında deneye dayalı bilimsel çıkarımlar yapabilme",
+              "subSkills": [
+                "a) Ayna çeşitlerinin özelliklerini deney yaparak tanımlar.",
+                "b) Aynaların özelliklerine dair veri toplar ve kaydeder.",
+                "c) Günlük aynaları düz, çukur ve tümsek ayna olarak sınıflandırıp değerlendirir."
+              ]
+            },
+            {
+              "code": "FB.6.4.4",
+              "text": "Işığın maddeyle etkileşimi sonucunda soğrulduğunu bilimsel gözlemlerle fark edebilme",
+              "subSkills": [
+                "a) Işığın maddeyle etkileşimine ilişkin özellikleri tanımlar.",
+                "b) Etkileşimle ilgili topladığı verileri kaydeder.",
+                "c) Işığın maddeler tarafından soğurulabildiğini verilere dayanarak açıklar."
+              ]
+            },
+            {
+              "code": "FB.6.4.5",
+              "text": "Beyaz ışığın, tüm renklerin birleşiminden oluştuğu yönünde bilimsel çıkarım yapabilme",
+              "subSkills": [
+                "a) Beyaz ışığı oluşturan özellikleri tanımlar.",
+                "b) Beyaz ışığın oluşumuna ilişkin verileri kaydeder.",
+                "c) Bu verileri yorumlar ve değerlendirir."
+              ]
+            },
+            {
+              "code": "FB.6.4.6",
+              "text": "Cisimlerin siyah, beyaz ya da renkli görünmesini gözlem sonuçlarıyla gerekçelendirebilme",
+              "subSkills": [
+                "a) Cisimlerin siyah, beyaz ve renkli görünmesine ilişkin özellikleri tanımlar.",
+                "b) Bu görünümlere yönelik veri toplar ve kaydeder.",
+                "c) Elde ettiği verileri yorumlayarak açıklar."
+              ]
+            },
+            {
+              "code": "FB.6.4.7",
+              "text": "Güneş enerjisinin gündelik yaşam ve teknolojideki yenilikçi kullanımları hakkında eleştirel düşünme",
+              "subSkills": [
+                "a) Güneş enerjisi uygulamalarına ilişkin fikirleri sorgular.",
+                "b) Bu uygulamalar üzerine akıl yürütür.",
+                "c) Vardığı sonuçları ifade eder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5. Ünite: Maddenin Ayırt Edici Özellikleri",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/413",
+          "hours": 32,
+          "keyConcepts": [
+            "genleşme",
+            "büzülme",
+            "erime noktası",
+            "donma noktası",
+            "kaynama noktası",
+            "yoğunluk"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.6.5.1",
+              "text": "Isının maddelerde genleşme ve büzülmeye yol açabileceğini gözleme dayalı olarak öngörebilme.",
+              "subSkills": [
+                "a) Ön bilgi ve deneyimlerine dayanarak genleşme ve büzülmeyle ilgili önermeler kurar.",
+                "b) Gözleme dayalı ve dayanmayan günlük yaşam önermelerini karşılaştırır.",
+                "c) Tahminlerini desteklemek için gözlem verilerinden çıkarım yapar.",
+                "ç) Günlük hayatta gözlemlenmemiş durumlar için tahminde bulunur.",
+                "d) Yaptığı tahminlerin geçerliliğini sorgular."
+              ]
+            },
+            {
+              "code": "FB.6.5.2",
+              "text": "Maddelerin erime, donma ve kaynama noktalarını ortaya koyan deneyler tasarlayıp yürütebilme.",
+              "subSkills": [
+                "a) Erime, donma ve kaynama noktalarını gösterecek bir deney tasarlar.",
+                "b) Deneyle ilgili ölçüm yapar ve verileri analiz eder."
+              ]
+            },
+            {
+              "code": "FB.6.5.3",
+              "text": "Yoğunluk hesaplamaları yaparak bilimsel veriye dayalı tahminde bulunabilme.",
+              "subSkills": [
+                "a) Yoğunlukla ilgili veri veya ön bilgilere dayanarak önerme kurar.",
+                "b) Veriye dayalı ve dayanmayan yoğunluk önermelerini karşılaştırır.",
+                "c) Yoğunluğu hesaplar ve bu konuda tahminlerde bulunur.",
+                "ç) Yaptığı tahminlerin geçerliliğini sorgular."
+              ]
+            },
+            {
+              "code": "FB.6.5.4",
+              "text": "Deneylere dayanarak çeşitli maddelerin yoğunluklarına ilişkin tümdengelimli akıl yürütebilme.",
+              "subSkills": [
+                "a) Çeşitli maddelerin yoğunluklarına dair hipotezler kurar ve bunları sınar.",
+                "b) Doğrulanan hipotezleri yeni durumları açıklamada kullanır."
+              ]
+            },
+            {
+              "code": "FB.6.5.5",
+              "text": "Suyun katı ve sıvı hallerinin yoğunluklarını karşılaştırarak canlılar için önemine dair çıkarımlar yapabilme.",
+              "subSkills": [
+                "a) Suyun katı ve sıvı hallerine ilişkin özellikleri tanımlar.",
+                "b) Suyun katı ve sıvı hallerinin yoğunluklarına ait veri toplar ve kaydeder.",
+                "c) Yoğunluk farkının canlılar için önemini yorumlar ve değerlendirir."
+              ]
+            },
+            {
+              "code": "FB.6.5.6",
+              "text": "Yoğunlukla ilgili bilimsel bir model oluşturabilme.",
+              "subSkills": [
+                "a) Yoğunlukla ilgili bir model önerir.",
+                "b) Yeni kanıtlar doğrultusunda modeli günceller."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "6. Ünite: Elektriğin İletimi Ve Direnç",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/414",
+          "hours": 18,
+          "keyConcepts": [
+            "iletken maddeler",
+            "yalıtkan maddeler",
+            "elektriksel direnç",
+            "reosta",
+            "elektriksel direncin bağlı olduğu faktörler (kesit alanı, uzunluk ve iletkenin cinsi)"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.6.6.1",
+              "text": "Maddelerin elektriği iletip iletmediğini gösteren bir deney tasarlayıp yürütebilme.",
+              "subSkills": [
+                "a) Maddelerin iletkenlik durumunu test etmek için bir elektrik devresi tasarlar.",
+                "b) Deneyle ilgili ölçüm yapar ve verileri analiz eder."
+              ]
+            },
+            {
+              "code": "FB.6.6.2",
+              "text": "Bir elektrik devresinde ampulün parlaklığını etkileyen değişkenleri belirlemeye yönelik deney yapabilme.",
+              "subSkills": [
+                "a) Ampul parlaklığının bağlı olduğu değişkenleri belirleyecek bir deney tasarlar.",
+                "b) Deneyle ilgili ölçüm yapar ve verileri analiz eder."
+              ]
+            },
+            {
+              "code": "FB.6.6.3",
+              "text": "Ayarlanabilir direncin ampul parlaklığına etkisi hakkında bilimsel çıkarım yapabilme.",
+              "subSkills": [
+                "a) Reosta kullanarak elektriksel dirençle ilgili nitelikleri tanımlar.",
+                "b) Direncin değişimini dikkate alarak veri toplar ve kaydeder.",
+                "c) Elektriksel direncin ampul parlaklığı üzerindeki etkisini yorumlar ve değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "7. Ünite: Sürdürülebilir Yaşam Ve Etkileşim",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/415",
+          "hours": 18,
+          "keyConcepts": [
+            "biyoçeşitlilik",
+            "doğal yaşam",
+            "nesli tükenen canlılar",
+            "habitat",
+            "ekosistem",
+            "ısınma amaçlı kullanılan yakıtlar",
+            "çevre kirliliği",
+            "insan-çevre etkileşimi",
+            "deniz ve tatlı su kirliliği",
+            "toprak kirliliği",
+            "orman yangınları",
+            "ormansızlaşma"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.6.7.1",
+              "text": "Biyoçeşitliliğin doğal yaşamdaki önemini sorgulayabilme.",
+              "subSkills": [
+                "a) Biyoçeşitliliğin doğal hayattaki rolünü açıklar.",
+                "b) Bu önem hakkında soru üretir.",
+                "c) Konuyla ilgili bilgi derler.",
+                "ç) Derlenen bilgilerin güvenilirliğini inceler.",
+                "d) Elde ettiği bilgilerden sonuç çıkarır."
+              ]
+            },
+            {
+              "code": "FB.6.7.2",
+              "text": "Biyoçeşitliliği tehdit eden faktörleri araştırma verilerine dayanarak tahmin edebilme.",
+              "subSkills": [
+                "a) Ön bilgilerden yola çıkarak önerme kurar.",
+                "b) Veriye dayalı ve dayanmayan önermeleri kıyaslar.",
+                "c) Tehdit eden faktörler hakkında tahminde bulunur.",
+                "ç) Yaptığı tahminlerin geçerliliğini sorgular."
+              ]
+            },
+            {
+              "code": "FB.6.7.3",
+              "text": "Isınma amaçlı yakıt kullanımının insan ve çevre üzerindeki etkilerini tartışabilme.",
+              "subSkills": [
+                "a) Yakıt kullanımının etkilerini mantıksal gerekçelerle savunur.",
+                "b) Bu etkilere ilişkin mantıksal çelişkileri saptar.",
+                "c) Konuyla ilgili geçerli görüşleri benimser."
+              ]
+            },
+            {
+              "code": "FB.6.7.4",
+              "text": "Yakın çevresindeki veya ülkemizdeki bir çevre sorununu çözmeye yönelik çalışabilme.",
+              "subSkills": [
+                "a) Seçilen çevre sorununu yapılandırır.",
+                "b) Sorunu kısaca özetler.",
+                "c) Çözümü için veriye dayalı tahmin yapar.",
+                "ç) Sorun üzerine önermelerle akıl yürütür.",
+                "d) Çözüm önerilerini değerlendirir."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 7,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/fen-bilimleri-dersi/8",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Ünite: Uzay Çağı",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/416",
+          "hours": 14,
+          "keyConcepts": [
+            "uzay",
+            "uzay teknolojileri",
+            "yıldız",
+            "takımyıldız",
+            "galaksi",
+            "evren"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.7.1.1",
+              "text": "Uzay araştırma teknolojilerini özelliklerine göre karşılaştırabilme",
+              "subSkills": [
+                "a) Uzay araştırma teknolojilerinin özelliklerini belirler.",
+                "b) Bu teknolojilerin özelliklerine göre benzerliklerini listeler.",
+                "c) Bu teknolojilerin özelliklerine göre farklılıklarını listeler."
+              ]
+            },
+            {
+              "code": "FB.7.1.2",
+              "text": "Uzay gözlem araçlarıyla ilgili bilimsel model oluşturabilme",
+              "subSkills": [
+                "a) Uzay gözlem araçlarıyla ilgili bir model önerir.",
+                "b) Hazırladığı modeli yeni kanıtlara göre yeniler."
+              ]
+            },
+            {
+              "code": "FB.7.1.3",
+              "text": "Uzay araştırmalarının yol açabileceği problemleri çözebilme",
+              "subSkills": [
+                "a) Bu problemleri yapılandırır.",
+                "b) Bu problemleri özetler.",
+                "c) Çözümüne yönelik veriye dayalı tahminde bulunur.",
+                "ç) Çözümüne yönelik önermeler üzerinden akıl yürütür.",
+                "d) Çözümüne ilişkin değerlendirmede bulunur."
+              ]
+            },
+            {
+              "code": "FB.7.1.4",
+              "text": "Yıldızların yaşamını açıklayarak yapılandırabilme",
+              "subSkills": [
+                "a) Yıldızların yaşamını inceleyerek hiyerarşik ilişkileri ortaya koyar.",
+                "b) Elde ettiği ilişkilere dayalı uyumlu bir bütün oluşturur."
+              ]
+            },
+            {
+              "code": "FB.7.1.5",
+              "text": "Yıldız, galaksi ve evren kavramlarını açıklayarak yapılandırabilme",
+              "subSkills": [
+                "a) Bu kavramları inceleyerek hiyerarşik ilişkileri ortaya koyar.",
+                "b) Elde ettiği ilişkilere dayalı uyumlu bir bütün oluşturur."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Ünite: Kuvvet Ve Enerjiyi Keşfedelim",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/429",
+          "hours": 20,
+          "keyConcepts": [
+            "iş",
+            "enerji",
+            "joule",
+            "kinetik ve potansiyel enerji (esneklik ve çekim)",
+            "ısı"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.7.2.1",
+              "text": "Fiziksel anlamda yapılan işin bağlı olduğu faktörler hakkında bilimsel çıkarım yapabilme.",
+              "subSkills": [
+                "a) İşin fiziksel anlamdaki niteliklerini tanımlar.",
+                "b) Çeşitli iş örneklerini gözlemleyerek veri toplar ve kaydeder.",
+                "c) İşin kuvvet ve yer değiştirmeyle ilişkisini yorumlayıp değerlendirir."
+              ]
+            },
+            {
+              "code": "FB.7.2.2",
+              "text": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırabilme.",
+              "subSkills": [
+                "a) Kinetik ve potansiyel enerjinin temel özelliklerini belirler.",
+                "b) Kinetik ve potansiyel enerjinin ortak yönlerini sıralar.",
+                "c) Kinetik ve potansiyel enerjinin ayrıcı yönlerini sıralar."
+              ]
+            },
+            {
+              "code": "FB.7.2.3",
+              "text": "Enerji dönüşümlerinden yola çıkarak enerjinin korunumu hakkında tümevarımsal akıl yürütebilme.",
+              "subSkills": [
+                "a) Kinetik ve potansiyel enerjinin birbirine dönüşümünde bir örüntü bulur.",
+                "b) Enerjinin korunumuna ilişkin genel bir sonuca ulaşır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Ünite: Vücudumuzdaki Sistemler",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/430",
+          "hours": 32,
+          "keyConcepts": [
+            "ağız",
+            "yutak",
+            "yemek borusu",
+            "mide",
+            "ince bağırsak",
+            "kalın bağırsak",
+            "anüs",
+            "enzim",
+            "fiziksel sindirim",
+            "kimyasal sindirim",
+            "karaciğer",
+            "pankreas",
+            "kalp",
+            "kan",
+            "kan damarları",
+            "nabız",
+            "kan bağışı",
+            "organ bağışı",
+            "burun",
+            "gırtlak",
+            "soluk borusu",
+            "akciğerler",
+            "Yeşilay",
+            "bağımlılık",
+            "böbrekler",
+            "üreter (idrar borusu)",
+            "mesane (idrar kesesi)",
+            "üretra (idrar kanalı)",
+            "deri"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.7.3.1",
+              "text": "Sindirim sistemi yapı ve organlarını model üzerinde bilimsel olarak gözlemleyebilme.",
+              "subSkills": [
+                "a) Sindirim sistemi yapı ve organlarının niteliklerini tanımlar.",
+                "b) Yapı ve organları model üzerinde inceleyip gözlem verilerini kaydeder.",
+                "c) Yapı ve organların görevlerini açıklar."
+              ]
+            },
+            {
+              "code": "FB.7.3.2",
+              "text": "Sindirim sisteminin sağlığına ilişkin bilgi toplayabilme.",
+              "subSkills": [
+                "a) Sağlık bilgisine ulaşmak için kullanacağı araçları belirler.",
+                "b) Belirlediği araçlarla sindirim sağlığı hakkında bilgi bulur.",
+                "c) Bulduğu bilgileri doğrular.",
+                "ç) Bulduğu bilgileri kaydeder."
+              ]
+            },
+            {
+              "code": "FB.7.3.3",
+              "text": "Dolaşım sistemi yapı ve organlarını model üzerinde bilimsel olarak gözlemleyebilme.",
+              "subSkills": [
+                "a) Dolaşım sistemi yapı ve organlarının niteliklerini tanımlar.",
+                "b) Yapı ve organları model üzerinde inceleyip gözlem verilerini kaydeder.",
+                "c) Yapı ve organların görevlerini açıklar."
+              ]
+            },
+            {
+              "code": "FB.7.3.4",
+              "text": "Kan bağışının toplumsal dayanışma açısından önemini tartışabilme.",
+              "subSkills": [
+                "a) Kan bağışının önemine yönelik mantıksal temellendirme yapar.",
+                "b) Bu konudaki mantıksal çelişkileri tespit eder.",
+                "c) Kan bağışının önemi hakkında geçerli fikirler oluşturur."
+              ]
+            },
+            {
+              "code": "FB.7.3.5",
+              "text": "Dolaşım sisteminin sağlığına ilişkin bilgi toplayabilme.",
+              "subSkills": [
+                "a) Sağlık bilgisine ulaşmak için kullanacağı aracı belirler.",
+                "b) Belirlediği aracı kullanarak dolaşım sağlığı hakkında bilgi bulur.",
+                "c) Bulduğu bilgileri doğrular.",
+                "ç) Bulduğu bilgileri kaydeder."
+              ]
+            },
+            {
+              "code": "FB.7.3.6",
+              "text": "Solunum sistemi yapı ve organlarını model üzerinde bilimsel olarak gözlemleyebilme.",
+              "subSkills": [
+                "a) Solunum sistemi yapı ve organlarının niteliklerini tanımlar.",
+                "b) Yapı ve organları model üzerinde inceleyip gözlem verilerini kaydeder.",
+                "c) Yapı ve organların görevlerini açıklar."
+              ]
+            },
+            {
+              "code": "FB.7.3.7",
+              "text": "Solunum sisteminin sağlığına ilişkin bilgi toplayabilme.",
+              "subSkills": [
+                "a) Sağlık bilgisine ulaşmak için kullanacağı aracı belirler.",
+                "b) Belirlediği aracı kullanarak solunum sağlığı hakkında bilgi bulur.",
+                "c) Bulduğu bilgileri doğrular.",
+                "ç) Bulduğu bilgileri kaydeder."
+              ]
+            },
+            {
+              "code": "FB.7.3.8",
+              "text": "Boşaltım sistemi yapı ve organlarını model üzerinde bilimsel olarak gözlemleyebilme.",
+              "subSkills": [
+                "a) Boşaltım sistemi yapı ve organlarının niteliklerini tanımlar.",
+                "b) Yapı ve organları model üzerinde inceleyip gözlem verilerini kaydeder.",
+                "c) Yapı ve organların özelliklerini açıklar."
+              ]
+            },
+            {
+              "code": "FB.7.3.9",
+              "text": "Boşaltım sisteminin sağlığına ilişkin bilgi toplayabilme.",
+              "subSkills": [
+                "a) Sağlık bilgisine ulaşmak için kullanacağı aracı belirler.",
+                "b) Belirlediği aracı kullanarak boşaltım sağlığı hakkında bilgi bulur.",
+                "c) Bulduğu bilgileri doğrular.",
+                "ç) Ulaştığı bilgileri kaydeder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Ünite: Işığın Kırılması Ve Mercekler",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/431",
+          "hours": 14,
+          "keyConcepts": [
+            "gelen ışın",
+            "kırılan ışın",
+            "gelme açısı",
+            "kırılma açısı",
+            "kırılma",
+            "ince kenarlı mercek",
+            "kalın kenarlı mercek",
+            "odak noktası"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.7.4.1",
+              "text": "Işığın ortam değiştirirken izlediği yolu gözleyerek kırılma olayıyla ilgili bilimsel çıkarım yapma.",
+              "subSkills": [
+                "a) Işık ışınlarının kırılmasına ilişkin niteliklerini tanımlar.",
+                "b) Farklı yoğunluktaki ortamlarda kırılmaya ait verileri toplayıp kaydeder.",
+                "c) Az ve çok yoğun ortamlarda ışığın izlediği yolları yorumlar ve değerlendirir."
+              ]
+            },
+            {
+              "code": "FB.7.4.2",
+              "text": "Mercek çeşitlerine ilişkin bilimsel çıkarım yapma.",
+              "subSkills": [
+                "a) Mercek türlerinin niteliklerini deneyerek tanımlar.",
+                "b) Mercekleri kullanarak özelliklerine dair veri kaydeder.",
+                "c) Mercekleri ince ve kalın kenarlı olarak yorumlar ve değerlendirir."
+              ]
+            },
+            {
+              "code": "FB.7.4.3",
+              "text": "Merceklerin günlük hayattaki kullanım alanlarını örneklerle sınıflandırma.",
+              "subSkills": [
+                "a) Merceklerin kullanım alanlarını belirler.",
+                "b) Kullanım alanlarını merceklerin niteliklerine göre ayrıştırır.",
+                "c) Kullanım alanlarını gruplandırır.",
+                "ç) Kullanım alanlarını niteliklerine göre etiketler."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5. Ünite: Maddenin Doğasına Yolculuk",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/432",
+          "hours": 34,
+          "keyConcepts": [
+            "atom (çekirdek, katman, proton, nötron ve elektron)",
+            "bilimsel bilginin özelliği",
+            "molekül",
+            "element ve sembolleri",
+            "bileşik ve formülleri",
+            "homojen karışım",
+            "heterojen karışım",
+            "çözelti (çözünen ve çözücü)",
+            "çözünme ve çözünme hızına etki eden faktörler",
+            "karışımları ayırma yöntemleri (buharlaştırma, yoğunluk farkı ve damıtma)"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.7.5.1",
+              "text": "Atomun yapısını ve içindeki temel parçacıkları inceleyip açıklayabilme",
+              "subSkills": [
+                "a) Atomdaki temel parçacıkları tanımlar.",
+                "b) Bu parçacıklar arasındaki bağlantıları saptar."
+              ]
+            },
+            {
+              "code": "FB.7.5.2",
+              "text": "Atom kavramına dair bilimsel bilgilerin tarihsel süreçte değişebileceğini sorgulayabilme",
+              "subSkills": [
+                "a) Atomun geçmişten bugüne gelişimini anlatır.",
+                "b) Atomla ilgili merak ettiği sorular ortaya koyar.",
+                "c) Atom hakkında kaynaklardan bilgi derler.",
+                "ç) Topladığı bilgilerin güvenilirliğini değerlendirir.",
+                "d) Derlediği bilgilerden sonuç çıkarır."
+              ]
+            },
+            {
+              "code": "FB.7.5.3",
+              "text": "Farklı moleküller için bilimsel model oluşturabilme",
+              "subSkills": [
+                "a) Aynı ya da farklı atomların birleşimine dair molekül modeli önerir.",
+                "b) Yeni kanıtlar doğrultusunda modelini günceller."
+              ]
+            },
+            {
+              "code": "FB.7.5.4",
+              "text": "Saf maddeleri element ve bileşik olarak sınıflandırabilme",
+              "subSkills": [
+                "a) Saf maddelerin yapısal farklılıklarını fark eder.",
+                "b) Saf maddeleri özelliklerine göre ayırt eder.",
+                "c) Saf maddeleri element ya da bileşik olarak gruplandırır.",
+                "ç) Çevresindeki maddeleri element veya bileşik olarak etiketler."
+              ]
+            },
+            {
+              "code": "FB.7.5.5",
+              "text": "Periyodik tablodaki ilk 18 elementin adlarını ve sembollerini düzenli bir yapı içinde kurabilme",
+              "subSkills": [
+                "a) İlk 18 elementin ad ve sembollerini inceleyerek mantıksal bağlantılar kurar.",
+                "b) Ön bilgilerini kullanarak tutarlı bir bütün oluşturur."
+              ]
+            },
+            {
+              "code": "FB.7.5.6",
+              "text": "Periyodik tablodaki grup ve periyotları karşılaştırabilme",
+              "subSkills": [
+                "a) Grup ve periyotların ayırt edici özelliklerini belirler.",
+                "b) Bu özelliklerdeki benzerlikleri listeler.",
+                "c) Bu özelliklerdeki farklılıkları listeler."
+              ]
+            },
+            {
+              "code": "FB.7.5.7",
+              "text": "Bileşiklerin adlarını formülleriyle ilişkilendirebilme",
+              "subSkills": [
+                "a) Yaygın bileşik formüllerini inceleyerek mantıksal örüntüler bulur.",
+                "b) Ön bilgilerine dayanarak tutarlı bir bütünlük oluşturur."
+              ]
+            },
+            {
+              "code": "FB.7.5.8",
+              "text": "Karışımları homojen ve heterojen olarak sınıflandırabilme",
+              "subSkills": [
+                "a) Karışımların görünüş farklılıklarını belirler.",
+                "b) Farklı görünümdeki karışımları özelliklerine göre ayırt eder.",
+                "c) Karışımları homojen ve heterojen olarak gruplandırır.",
+                "ç) Çevresindeki maddeleri homojen ya da heterojen karışım olarak etiketler."
+              ]
+            },
+            {
+              "code": "FB.7.5.9",
+              "text": "Çözünme hızını etkileyen faktörlere ilişkin hipotez kurabilme",
+              "subSkills": [
+                "a) Çözünme hızını etkileyen unsurları tanımlar.",
+                "b) Çözünme hızı ile etkenleri arasındaki neden-sonuç bağlantısını saptar.",
+                "c) Çözünme hızını etkileyen değişkenleri belirler.",
+                "ç) Temas yüzeyi, karıştırma ve sıcaklık değişkenlerini denetler.",
+                "d) Çözünme hızına ilişkin öne sürülebilir önermeler sunar."
+              ]
+            },
+            {
+              "code": "FB.7.5.10",
+              "text": "Karışımları ayırmak için çeşitli deneyler yapabilme",
+              "subSkills": [
+                "a) Farklı karışımları ayırmak amacıyla deney düzeneği tasarlar.",
+                "b) Deneyle ilgili ölçüm yapar ve verileri çözümler."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "6. Ünite: Elektriklenme",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/433",
+          "hours": 12,
+          "keyConcepts": [
+            "pozitif yüklü cisim",
+            "negatif yüklü cisim",
+            "nötr cisim",
+            "temaslı ve temassız elektriklenme",
+            "elektroskop"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.7.6.1",
+              "text": "Elektriklenme hakkında bilgi toplayabilme",
+              "subSkills": [
+                "a) Bilgiye ulaşmak için kullanacağı araçları belirler.",
+                "b) Belirlediği araçlarla elektriklenme hakkında bilgi bulur.",
+                "c) Bulduğu bilgileri doğrular.",
+                "ç) Bulduğu bilgileri kaydeder."
+              ]
+            },
+            {
+              "code": "FB.7.6.2",
+              "text": "Elektriklenme çeşitlerini belirlemek için deney yapabilme",
+              "subSkills": [
+                "a) Elektriklenme çeşitlerini gözlemleyecek bir deney tasarlar.",
+                "b) Deneyle ilgili ölçme yapar ve verileri analiz eder."
+              ]
+            },
+            {
+              "code": "FB.7.6.3",
+              "text": "Cisimlerin elektrik yüklerini sınıflandırabilme",
+              "subSkills": [
+                "a) Cisimlerin elektrik yüklerinin niteliklerini belirler.",
+                "b) Cisimlerin yük durumlarını ayrıştırır.",
+                "c) Cisimlerin yük durumlarını gruplandırır.",
+                "ç) Cisimleri negatif, pozitif veya nötr olarak etiketler."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "7. Ünite: Sürdürülebilir Yaşam Ve Enerji",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/434",
+          "hours": 12,
+          "keyConcepts": [
+            "besin zinciri",
+            "besin ağı",
+            "üretici",
+            "tüketici",
+            "ayrıştırıcı",
+            "ekoloji piramidi",
+            "biyolojik birikim",
+            "sürdürülebilir yaşam",
+            "kaynakların tasarruflu kullanımı",
+            "tatlı su kaynakları",
+            "su ayak izi",
+            "atık su"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.7.7.1",
+              "text": "Besin zincirindeki canlılar arasındaki ilişkileri yapılandırabilme.",
+              "subSkills": [
+                "a) Besin zincirindeki canlılar arasındaki nedensel bağlantıları ortaya koyar.",
+                "b) Besin zincirini birbiriyle uyumlu bütün olarak açıklar."
+              ]
+            },
+            {
+              "code": "FB.7.7.2",
+              "text": "Kaynakların tasarruflu kullanımının önemini sorgulayabilme.",
+              "subSkills": [
+                "a) Kaynakların tasarruflu kullanımıyla ilgili problemi tanımlar.",
+                "b) Bu problemin çözümü için bir model geliştirir.",
+                "c) Tasarruflu kullanıma yönelik planladığı araştırmayı yürütür.",
+                "ç) Elde ettiği verileri yorumlar.",
+                "d) Kanıtlara dayalı çözüm üretir.",
+                "e) Bilgileri değerlendirir ve paylaşır."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 8,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/fen-bilimleri-dersi/9",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Ünite: Mevsimler Ve İklim",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/435",
+          "hours": 12,
+          "keyConcepts": [
+            "Dünya’nın dönme ekseni",
+            "dolanma düzlemi",
+            "eksen eğikliği",
+            "mevsimler",
+            "ekvator",
+            "dönence",
+            "ekinoks",
+            "gölge boyu",
+            "ışının yüzeye düşme açısı",
+            "gece-gündüz süresi",
+            "iklim",
+            "iklim bilimi",
+            "iklim bilimci",
+            "meteoroloji",
+            "meteorolog"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.8.1.1",
+              "text": "Güneş etrafındaki dolanma ve eksen eğikliğinin sonuçlarından bilimsel çıkarım yapabilme.",
+              "subSkills": [
+                "a) Dolanma hareketi ve eksen eğikliğiyle ilgili özellikleri tanımlama.",
+                "b) Dolanma hareketi ve eksen eğikliğiyle ilgili verileri kaydetme.",
+                "c) Topladığı verileri yorumlayıp değerlendirme."
+              ]
+            },
+            {
+              "code": "FB.8.1.2",
+              "text": "İklim ve hava olaylarını benzerlik ve farklılıklarına göre karşılaştırabilme.",
+              "subSkills": [
+                "a) İklim ve hava olaylarının özelliklerini belirleme.",
+                "b) Belirlenen özelliklerdeki benzerlikleri listeleme.",
+                "c) Belirlenen özelliklerdeki farklılıkları listeleme."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Ünite: Yaşamı Kolaylaştıran Kuvvet",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/436",
+          "hours": 16,
+          "keyConcepts": [
+            "kaldıraç",
+            "sabit ve hareketli makara",
+            "makara sistemi",
+            "eğik düzlem",
+            "çıkrık",
+            "vida",
+            "çark ve kasnaklar",
+            "giriş ve çıkış kuvveti",
+            "bileşik makine"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.8.2.1",
+              "text": "Basit makineleri niteliklerine göre sınıflandırabilme.",
+              "subSkills": [
+                "a) Basit makinelere ilişkin nitelikleri belirler.",
+                "b) Basit makineleri niteliklerine göre ayrıştırır.",
+                "c) Basit makineleri niteliklerine göre gruplandırır.",
+                "ç) Basit makineleri etiketler."
+              ]
+            },
+            {
+              "code": "FB.8.2.2",
+              "text": "Günlük hayatta iş kolaylığı sağlayan bilimsel bir model oluşturabilme.",
+              "subSkills": [
+                "a) Günlük hayatta iş kolaylığı sağlayan basit makine modeli önerir.",
+                "b) Hazırladığı modeli yeni kanıtlara göre yeniler."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Ünite: Yaşamın Gizemi",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/437",
+          "hours": 26,
+          "keyConcepts": [
+            "DNA’nın yapısı",
+            "nükleotid",
+            "gen",
+            "kromozom",
+            "mitoz bölünme",
+            "mayoz bölünme",
+            "alel",
+            "genotip",
+            "fenotip",
+            "saf döl",
+            "melez döl",
+            "baskın",
+            "çekinik",
+            "çaprazlama",
+            "cinsiyet",
+            "akraba evlilikleri",
+            "mutasyon",
+            "adaptasyon",
+            "doğal seçilim",
+            "varyasyon"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.8.3.1",
+              "text": "Nükleotid, gen, DNA ve kromozom kavramlarını hiyerarşik ilişki içinde yapılandırabilme.",
+              "subSkills": [
+                "a) Kavramları inceleyerek aralarındaki hiyerarşik ilişkiyi ortaya koyar.",
+                "b) Kavramların uyumlu bir bütün oluşturduğunu açıklar."
+              ]
+            },
+            {
+              "code": "FB.8.3.2",
+              "text": "DNA’nın yapısını model üzerinde bilimsel olarak gözlemleyebilme.",
+              "subSkills": [
+                "a) DNA yapısının niteliklerini tanımlar.",
+                "b) Modeli inceleyerek veri toplar ve kaydeder.",
+                "c) Elde ettiği verileri açıklar."
+              ]
+            },
+            {
+              "code": "FB.8.3.3",
+              "text": "Mitoz ve mayoz bölünmeyi karşılaştırabilme.",
+              "subSkills": [
+                "a) Mitoz ve mayoza ilişkin özellikleri belirler.",
+                "b) Mitoz ve mayoz arasındaki benzerlikleri listeler.",
+                "c) Mitoz ve mayoz arasındaki farklılıkları listeler."
+              ]
+            },
+            {
+              "code": "FB.8.3.4",
+              "text": "Kalıtımla ilgili kavramları yapılandırabilme.",
+              "subSkills": [
+                "a) Kalıtım kavramları arasındaki mantıksal ilişkileri ortaya koyar.",
+                "b) Kalıtımla ilgili kavramları bütünlük içinde açıklar."
+              ]
+            },
+            {
+              "code": "FB.8.3.5",
+              "text": "Tek karakter çaprazlama problemlerinin sonuçlarına ilişkin bilimsel çıkarım yapabilme.",
+              "subSkills": [
+                "a) Tek karakter çaprazlamanın niteliklerini tanımlar.",
+                "b) Problemleri çözerek sonuçlara ilişkin veri toplar ve kaydeder.",
+                "c) Elde ettiği verileri yorumlar ve değerlendirir."
+              ]
+            },
+            {
+              "code": "FB.8.3.6",
+              "text": "Akraba evliliklerinin genetik sonuçlarını tartışabilme.",
+              "subSkills": [
+                "a) Genetik sonuçlara yönelik mantıksal gerekçeler oluşturur.",
+                "b) Bu sonuçlara ilişkin mantıksal tutarsızlıkları tespit eder.",
+                "c) Akraba evliliklerinin genetik sonuçlarına dair geçerli bir görüş oluşturur."
+              ]
+            },
+            {
+              "code": "FB.8.3.7",
+              "text": "Mutasyonla ilgili bilgi toplayabilme.",
+              "subSkills": [
+                "a) Mutasyon bilgisine ulaşmak için kullanacağı araçları belirler.",
+                "b) Mutasyon hakkındaki bilgileri bulur.",
+                "c) Bulduğu bilgileri doğrular.",
+                "ç) Mutasyon hakkında ulaştığı bilgileri kaydeder."
+              ]
+            },
+            {
+              "code": "FB.8.3.8",
+              "text": "Canlıların yaşadıkları çevreye uyumuna ilişkin bilimsel çıkarım yapabilme.",
+              "subSkills": [
+                "a) Canlıların çevreye uyumuna ilişkin nitelikleri tanımlar.",
+                "b) Uyuma ilişkin veri toplar ve kaydeder.",
+                "c) Elde ettiği verileri yorumlar ve değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Ünite: Sesin Dünyası",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/438",
+          "hours": 18,
+          "keyConcepts": [
+            "ses oluşumu",
+            "titreşim",
+            "ses kaynağından uzaklık",
+            "ses şiddeti",
+            "işitme kaybı",
+            "yalıtım",
+            "ses kirliliği",
+            "akustik",
+            "hertz",
+            "frekans"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.8.4.1",
+              "text": "Sesin oluşumu hakkında bilimsel çıkarım yapabilme",
+              "subSkills": [
+                "a) Sesi oluşturan nitelikleri açıklar",
+                "b) Sesin oluşumuyla ilgili veri toplar ve kaydeder",
+                "c) Sesin titreşimle oluşup dalga halinde yayıldığını yorumlar ve değerlendirir"
+              ]
+            },
+            {
+              "code": "FB.8.4.2",
+              "text": "Sesin yayıldığı ortamlarla ilgili deney yapabilme",
+              "subSkills": [
+                "a) Sesin yayıldığı ortamlar hakkında deney tasarlar",
+                "b) Deneyle ilgili ölçüm yapıp veri analizi yapar"
+              ]
+            },
+            {
+              "code": "FB.8.4.3",
+              "text": "Frekansa bağlı ince ve kalın sesi belirleyen özelliklerle ilgili deney yapabilme",
+              "subSkills": [
+                "a) Çevredeki seslerin ince-kalın duyulmasını sağlayan özellikleri için deney tasarlar",
+                "b) Deneyle ilgili ölçüm yapıp veri analizi yapar"
+              ]
+            },
+            {
+              "code": "FB.8.4.4",
+              "text": "Uzaklık ve ses şiddetinin işitmeye etkisi hakkında hipotez oluşturabilme",
+              "subSkills": [
+                "a) Uzaklık ve ses şiddetinin işitmeye etkisiyle ilgili problemi tanımlar",
+                "b) Bu etkiye ilişkin neden-sonuç ilişkilerini belirler",
+                "c) Etkiyi araştırmak için değişkenleri belirler",
+                "ç) Araştırma değişkenlerini kontrol eder",
+                "d) Etkiye ilişkin önerme sunar"
+              ]
+            },
+            {
+              "code": "FB.8.4.5",
+              "text": "Sesin maddeyle etkileşimi (iletilme, yansıma, soğurulma) hakkında bilimsel çıkarım yapabilme",
+              "subSkills": [
+                "a) Sesin iletilmesi, yansıması ve soğurulmasını tanımlar",
+                "b) İletilme, yansıma ve soğurulmaya ilişkin veri toplar ve kaydeder",
+                "c) Akustik uygulamaların sesin özellikleriyle ilişkili olduğunu yorumlar ve değerlendirir"
+              ]
+            },
+            {
+              "code": "FB.8.4.6",
+              "text": "Ses kirliliğini önlemeye yönelik alınabilecek önlemleri bilimsel yöntemle sorgulayabilme",
+              "subSkills": [
+                "a) Ses kirliliğinin canlılara etkisine ilişkin soru veya problem tanımlar",
+                "b) Problemi yanıtlamak için ses kirliliğini önleyici bir fikir veya model geliştirir",
+                "c) Ses kirliliğini önlemeye yönelik araştırmayı planlayıp gerçekleştirir",
+                "ç) Fikir veya modelle ilgili verileri analiz edip yorumlar",
+                "d) Kanıta dayalı açıklama yaparak çözüm üretir",
+                "e) Bu konudaki bilgiyi değerlendirip paylaşır"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5. Ünite: Periyodik Tablo Ve Maddenin Etkileşimi",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/439",
+          "hours": 22,
+          "keyConcepts": [
+            "metal",
+            "ametal",
+            "yarımetal",
+            "soy gaz",
+            "fiziksel değişim",
+            "kimyasal değişim",
+            "kimyasal tepkime",
+            "asitler",
+            "bazlar",
+            "ayıraçlar",
+            "pH"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.8.5.1",
+              "text": "Elementleri periyodik tablo üzerinde metal, ametal, yarı metal ve soy gaz olarak sınıflandırabilme.",
+              "subSkills": [
+                "a) Elementlerin metal, ametal, yarı metal ve soy gaz niteliklerini tanımlar",
+                "b) Bu sınıfları özelliklerine göre ayırt eder",
+                "c) Elementleri bu dört sınıfa göre gruplandırır",
+                "ç) Elementleri bu dört sınıfa göre etiketler"
+              ]
+            },
+            {
+              "code": "FB.8.5.2",
+              "text": "Fiziksel ve kimyasal değişimlerle ilgili bilimsel gözleme dayalı tahminlerde bulunabilme.",
+              "subSkills": [
+                "a) Ön bilgileriyle fiziksel ve kimyasal değişimlere dair önermeler kurar",
+                "b) Gözleme dayalı ve dayanmayan günlük önermeleri karşılaştırır",
+                "c) Tahminlerini destekleyecek sonuçları gözlem verilerinden çıkarır",
+                "ç) Gözlemlenmemiş günlük olaylara ilişkin tahminlerde bulunur",
+                "d) Tahminlerin geçerliliğini ölçütlere göre sorgular"
+              ]
+            },
+            {
+              "code": "FB.8.5.3",
+              "text": "Kimyasal tepkimelerle ilgili bilimsel çıkarım yapabilme.",
+              "subSkills": [
+                "a) Kimyasal tepkimelerin niteliklerini tanımlar",
+                "b) Yaptığı deneyle ilgili veri toplar ve kaydeder",
+                "c) Deneyle ilgili verileri yorumlar ve değerlendirir"
+              ]
+            },
+            {
+              "code": "FB.8.5.4",
+              "text": "Kimyasal tepkimelerin günlük yaşamdaki etkilerine yönelik bilgi toplayabilme.",
+              "subSkills": [
+                "a) Bilgi için kullanacağı araçları belirler",
+                "b) Belirlediği araçlarla konuya ilişkin bilgilere ulaşır",
+                "c) Ulaştığı bilgileri doğrular",
+                "ç) Ulaştığı bilgileri kaydeder"
+              ]
+            },
+            {
+              "code": "FB.8.5.5",
+              "text": "Asit ve bazların genel özelliklerini karşılaştırabilme.",
+              "subSkills": [
+                "a) Asit ve bazların özelliklerini belirler",
+                "b) Asit ve bazların benzer özelliklerini listeler",
+                "c) Asit ve bazların farklı özelliklerini listeler"
+              ]
+            },
+            {
+              "code": "FB.8.5.6",
+              "text": "Maddelerin asit veya baz olduğunu ayıraçlarla gözleme dayalı tahmin edebilme.",
+              "subSkills": [
+                "a) Ön bilgileriyle asit ve bazlara ilişkin önermeler kurar",
+                "b) Gözleme dayalı ve dayanmayan günlük önermeleri karşılaştırır",
+                "c) Tahminlerini destekleyecek sonuçları gözlem verilerinden çıkarır",
+                "ç) Gözlemlenmemiş günlük bir duruma ilişkin tahminde bulunur",
+                "d) Tahminlerin geçerliğini sorgular"
+              ]
+            },
+            {
+              "code": "FB.8.5.7",
+              "text": "Maddelerin pH değerlerini kullanarak tümevarımsal akıl yürütebilme.",
+              "subSkills": [
+                "a) pH değerleriyle ilgili örüntüler bulur",
+                "b) pH değerlerini kullanarak genelleme yapar"
+              ]
+            },
+            {
+              "code": "FB.8.5.8",
+              "text": "Asit ve bazların çeşitli maddeler üzerindeki etkilerine yönelik deney yapabilme.",
+              "subSkills": [
+                "a) Asit ve bazların etkilerini gösteren bir deney tasarlar",
+                "b) Deneyle ilgili ölçme ve veri analizi yapar"
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "6. Ünite: Elektriğin Yolculuğu",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/440",
+          "hours": 26,
+          "keyConcepts": [
+            "seri bağlama",
+            "paralel bağlama",
+            "elektrik akımı",
+            "gerilim",
+            "ampermetre",
+            "voltmetre",
+            "elektrik enerjisi santrali"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.8.6.1",
+              "text": "Ampullerin bağlanma durumunun parlaklığa etkisini incelemek için deney yapabilme.",
+              "subSkills": [
+                "a) Bağlanma durumuna göre parlaklık değişimini gösteren deney tasarlar.",
+                "b) Deney sonucuna ait verileri toplar ve analiz eder."
+              ]
+            },
+            {
+              "code": "FB.8.6.2",
+              "text": "Elektrik akımını operasyonel olarak tanımlayabilme.",
+              "subSkills": [
+                "a) Elektrik akımının niteliklerini tanımlar.",
+                "b) Akımın büyüklüğünü ampermetre ile ölçer.",
+                "c) Akımın büyüklüğünü amper birimiyle açıklar."
+              ]
+            },
+            {
+              "code": "FB.8.6.3",
+              "text": "Bir devre elemanının uçları arasındaki potansiyel farkı (gerilimi) operasyonel olarak tanımlayabilme.",
+              "subSkills": [
+                "a) Potansiyel farkın niteliklerini tanımlar.",
+                "b) Potansiyel farkın büyüklüğünü voltmetre ile ölçer.",
+                "c) Potansiyel farkın büyüklüğünü volt birimiyle açıklar."
+              ]
+            },
+            {
+              "code": "FB.8.6.4",
+              "text": "Gerilim ile akım arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme.",
+              "subSkills": [
+                "a) Devrede akım ve gerilim arasında örüntü oluşturur.",
+                "b) Akım-gerilim ilişkisine yönelik genelleme yapar."
+              ]
+            },
+            {
+              "code": "FB.8.6.5",
+              "text": "Özgün bir aydınlatma aracı modeli oluşturabilme.",
+              "subSkills": [
+                "a) Özgün bir aydınlatma aracı modeli önerir.",
+                "b) Aydınlatma aracı modelini yeni kanıtlara göre yeniler."
+              ]
+            },
+            {
+              "code": "FB.8.6.6",
+              "text": "Elektrik enerjisinin dönüştüğü enerji türlerini sınıflandırabilme.",
+              "subSkills": [
+                "a) Elektrik enerjisinin dönüşümüne ait nitelikleri belirler.",
+                "b) Dönüşüm örneklerini ısı, ışık, ses ve hareket enerjisine göre ayrıştırır.",
+                "c) Dönüşüm örneklerini ısı, ışık, ses ve hareket enerjisine göre gruplandırır.",
+                "ç) Dönüşüm örneklerini ısı, ışık, ses ve hareket enerjisine göre etiketler."
+              ]
+            },
+            {
+              "code": "FB.8.6.7",
+              "text": "Elektrik enerjisinin ısı, ışık, ses veya hareket enerjisine dönüşümüne yönelik bilimsel model oluşturabilme.",
+              "subSkills": [
+                "a) Elektrik enerjisinin belirtilen enerjilere dönüşümüne yönelik bir model önerir.",
+                "b) Tasarladığı modeli yeni kanıtlara göre yeniler."
+              ]
+            },
+            {
+              "code": "FB.8.6.8",
+              "text": "Elektrik enerjisi üretim santrallerini sınıflandırabilme.",
+              "subSkills": [
+                "a) Elektrik üretimi için gerekli nitelikleri belirler.",
+                "b) Santralleri kullanılan enerji kaynaklarına göre ayrıştırır.",
+                "c) Santralleri kullanılan enerji kaynaklarına göre gruplandırır.",
+                "ç) Santralleri yenilenebilir ve yenilenemeyen kaynaklara göre etiketler."
+              ]
+            },
+            {
+              "code": "FB.8.6.9",
+              "text": "Elektrik enerjisi üretim santrallerinin avantaj ve dezavantajlarını tartışabilme.",
+              "subSkills": [
+                "a) Santraller hakkındaki görüşlerini mantıksal temellendirir.",
+                "b) Kendi görüşlerini başkalarının görüşleriyle mantıksal olarak kıyaslar.",
+                "c) Santralleri avantaj ve dezavantajları bakımından tartışır."
+              ]
+            },
+            {
+              "code": "FB.8.6.10",
+              "text": "Elektrik enerjisinin bilinçli ve tasarruflu kullanılmasının önemini tartışabilme.",
+              "subSkills": [
+                "a) Elektrik kullanımına ilişkin görüşlerini mantıksal çerçevede sunar.",
+                "b) Kendi görüşlerini başkalarınınkiyle kıyaslayarak çelişkileri tespit eder.",
+                "c) Bilinçli ve tasarruflu kullanımın aile ve ülke ekonomisine katkısını kabul eder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "7. Ünite: Sürdürülebilir Yaşam Ve Madde Döngüleri",
+          "url": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/441",
+          "hours": 18,
+          "keyConcepts": [
+            "fotosentez",
+            "fotosentez hızını etkileyen faktörler",
+            "solunum",
+            "ATP",
+            "su döngüsü",
+            "oksijen döngüsü",
+            "karbon döngüsü",
+            "asit yağmurları",
+            "ozon tabakası",
+            "sera etkisi",
+            "küresel ısınma",
+            "küresel iklim değişikliği",
+            "fosil yakıtlar",
+            "hava kirliliği",
+            "karbon ayak izi"
+          ],
+          "outcomes": [
+            {
+              "code": "FB.8.7.1",
+              "text": "Bitkilerde besin üretiminde fotosentezin önemini yapılandırabilme.",
+              "subSkills": [
+                "a) Fotosentez ile bitkilerdeki besin üretimi arasındaki nedensel ilişkileri ortaya koyar.",
+                "b) Fotosentezin besin üretimindeki önemine dair bilgileri bütünlüklü biçimde açıklar."
+              ]
+            },
+            {
+              "code": "FB.8.7.2",
+              "text": "Fotosentez hızını etkileyen faktörlere ilişkin hipotez oluşturabilme.",
+              "subSkills": [
+                "a) Fotosentez hızını etkileyen faktörleri tanımlar.",
+                "b) Hız ile faktörler arasındaki neden-sonuç ilişkilerini belirler.",
+                "c) Fotosentez hızını etkileyen değişkenleri belirler.",
+                "ç) Bu değişkenleri kontrol eder.",
+                "d) Faktörlere ilişkin bir önerme sunar."
+              ]
+            },
+            {
+              "code": "FB.8.7.3",
+              "text": "Canlılarda solunumun önemini yapılandırabilme.",
+              "subSkills": [
+                "a) Solunumu inceleyerek önemi ile ilişkisini ortaya koyar.",
+                "b) Solunumun önemine dair bilgileri bütünlüklü biçimde açıklar."
+              ]
+            },
+            {
+              "code": "FB.8.7.4",
+              "text": "Madde döngülerine ilişkin şema üzerinden bilimsel çıkarım yapabilme.",
+              "subSkills": [
+                "a) Madde döngülerinin niteliklerini tanımlar.",
+                "b) Şema üzerinde inceleyerek veri toplar ve kaydeder.",
+                "c) Madde döngülerini yorumlar ve değerlendirir."
+              ]
+            },
+            {
+              "code": "FB.8.7.5",
+              "text": "Madde döngülerinin yaşam açısından önemini yapılandırabilme.",
+              "subSkills": [
+                "a) Madde döngülerinin önemi ile yaşam arasındaki ilişkiyi ortaya koyar.",
+                "b) Bu önemine dair bilgileri bütünlüklü biçimde açıklar."
+              ]
+            },
+            {
+              "code": "FB.8.7.6",
+              "text": "Küresel iklim değişikliğinin nedenlerini ve olası sonuçlarını tartışabilme.",
+              "subSkills": [
+                "a) Nedenler ve sonuçlara yönelik mantıksal temellendirme yapar.",
+                "b) Mantıksal tutarsızlıkları tespit eder.",
+                "c) Bu konuda geçerli bir fikir oluşturur."
+              ]
+            },
+            {
+              "code": "FB.8.7.7",
+              "text": "Ülkemizde küresel iklim değişikliğinin neden olduğu bir problemi çözebilme.",
+              "subSkills": [
+                "a) Problemi yapılandırır.",
+                "b) Yapılandırılan problemi özetler.",
+                "c) Gözleme ve veriye dayalı çözüm tahmini yürütür.",
+                "ç) Çözüm önermeleri üzerinden akıl yürütür.",
+                "d) Çözüme yönelik değerlendirme yapar."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Resmi ders adı: Fen Bilimleri Dersi (3-8. sınıflar tek program; burada yalnızca 5-8 alındı). Site temaları 'Ünite' olarak adlandırıyor; ad formatı 'N. Ünite: <Ad>'. Kazanım metinleri ve süreç bileşenleri kısa Türkçe özetlerdir (birebir metin değildir). hours = üniteye önerilen ders saati. Eksik yok."
+}

@@ -75,7 +75,7 @@ MEB SORU YAZIM KURALLARI:
 10. Doğru cevabın harfini sorular arasında dengeli dağıt.
 11. Sorular birbirinden bağımsız olsun; biri diğerine ipucu vermesin.
 12. Görsel gerektiren soru yazma (sadece metin kullanılabilir).
-13. Yazım ve noktalama kurallarına uy, anlatım bozukluğu yapma.
+13. Yazım ve noktalama kurallarına uy, anlatım bozukluğu yapma.${category.subject === 'İngilizce' ? '\n14. Bu bir İngilizce dersi: soru metni ve seçenekler İngilizce, çözüm açıklaması Türkçe olsun.' : ''}
 
 TEKNİK KURALLAR:
 - Her soruda TAM OLARAK 4 seçenek olmalı: "a", "b", "c", "d".

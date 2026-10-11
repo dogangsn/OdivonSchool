@@ -1,0 +1,251 @@
+{
+  "level": "ortaokul",
+  "subject": "T.C. İnkılap Tarihi ve Atatürkçülük",
+  "programUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ders/tc-inkilap-tarihi-ve-ataturkculuk-dersi",
+  "grades": [
+    {
+      "grade": 8,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/tc-inkilap-tarihi-ve-ataturkculuk-dersi/9",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Ünite: Mustafa Kemal’in Hayatı",
+          "url": "https://tymm.meb.gov.tr/tc-inkilap-tarihi-ve-ataturkculuk-dersi/unite/372",
+          "hours": 14,
+          "keyConcepts": [
+            "cephe",
+            "diplomasi",
+            "eğitim",
+            "ihtilal",
+            "kapitülasyon",
+            "milliyetçilik",
+            "modernleşme",
+            "sanayileşme",
+            "savaş"
+          ],
+          "outcomes": [
+            {
+              "code": "İTA.8.1.1",
+              "text": "Mustafa Kemal’in doğduğu dönemde Osmanlı’nın siyasi, sosyal ve ekonomik durumunu yorumlayabilme",
+              "subSkills": [
+                "a) Doğum dönemindeki Osmanlı siyasi, sosyal ve ekonomik koşullarını inceler.",
+                "b) Bu durumu kendi cümleleriyle yeniden ifade eder."
+              ]
+            },
+            {
+              "code": "İTA.8.1.2",
+              "text": "Çocuk, komutan ve devlet adamı olarak Atatürk’ün hayatına ilişkin özgün ürünleri paylaşabilme",
+              "subSkills": [
+                "a) Merak ettiği konular hakkında sorular sorar.",
+                "b) Ürün için belirlediği kaynaklardan bilgi toplar.",
+                "c) Topladığı bilgileri araştırma konusuna uygunluk açısından inceler.",
+                "ç) Kaynaklarının sınırlılığını sorgular.",
+                "d) Kaynaklardaki bilgileri yorumlar.",
+                "e) Kanıta dayalı oluşturduğu ürünleri paylaşır."
+              ]
+            },
+            {
+              "code": "İTA.8.1.3",
+              "text": "Mustafa Kemal’in kişilik özelliklerini özetleyebilme",
+              "subSkills": [
+                "a) Kişilik özelliklerini çözümler.",
+                "b) Kişilik özelliklerini kendi cümleleriyle ifade eder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Ünite: Birinci Dünya Savaşı",
+          "url": "https://tymm.meb.gov.tr/tc-inkilap-tarihi-ve-ataturkculuk-dersi/unite/377",
+          "hours": 16,
+          "keyConcepts": [
+            "antlaşma",
+            "imparatorluk",
+            "İspanyol gribi",
+            "itilaf",
+            "ittifak",
+            "konferans",
+            "mütareke",
+            "Wilson İlkeleri"
+          ],
+          "outcomes": [
+            {
+              "code": "İTA.8.2.1",
+              "text": "Birinci Dünya Savaşı'nın nedenlerini tarihsel bağlamına uygun açıklayabilme",
+              "subSkills": [
+                "a) Nedenleri kanıtlara dayanarak analiz eder.",
+                "b) Nedenlere yol açan koşulları belirler.",
+                "c) Bu koşulları günümüz koşullarıyla karşılaştırır.",
+                "ç) Nedenleri dönemin koşulları içinde açıklar."
+              ]
+            },
+            {
+              "code": "İTA.8.2.2",
+              "text": "Osmanlı Devleti'nin savaşa katılma sürecine ilişkin alternatif fikirler üretebilme",
+              "subSkills": [
+                "a) Katılma sürecindeki tarihsel sorunu tanımlar.",
+                "b) Sorunda tarafların bakış açılarını çözümler.",
+                "c) Sorunun çözümüne yönelik uygulama ve kararları değerlendirir.",
+                "ç) Bunların güncel sorunlara etkilerini belirler.",
+                "d) Sorunu çözmeye yönelik alternatif öneriler geliştirir.",
+                "e) Önerilerin olası sonuçlarını gerçek kararların sonuçlarıyla karşılaştırır."
+              ]
+            },
+            {
+              "code": "İTA.8.2.3",
+              "text": "Osmanlı Devleti'nin savaştığı cephelerin savaşın gidişatına etkisini sorgulayabilme",
+              "subSkills": [
+                "a) Cephelerin gidişata etkisine dair merak ettiği konuları belirler.",
+                "b) Cepheler hakkında 5N1K soruları sorar.",
+                "c) Cepheler hakkında farklı kaynaklardan bilgi toplar.",
+                "ç) Topladığı bilgilerin doğruluğunu değerlendirir.",
+                "d) Bilgilerden hareketle cephelerin etkisine dair çıkarım yapar."
+              ]
+            },
+            {
+              "code": "İTA.8.2.4",
+              "text": "Birinci Dünya Savaşı'nın sonuçlarını tablo, grafik ve diyagramlardan yorumlayabilme",
+              "subSkills": [
+                "a) Sonuçlarla ilgili görsellerden anlam çıkarır.",
+                "b) Görsellerden siyasi ve ekonomik etkileri çözümler.",
+                "c) Bu etkilerden siyasi ve ekonomik sonuçlara dair çıkarım yapar.",
+                "ç) Yaptığı siyasi ve ekonomik çıkarımları karşılaştırır."
+              ]
+            },
+            {
+              "code": "İTA.8.2.5",
+              "text": "Savaşın Türk toplumuna etkilerine yönelik bakış açısı geliştirebilme",
+              "subSkills": [
+                "a) Toplumsal etkileri kaynaklar üzerinden inceler.",
+                "b) Kaynaklardan edindiği bilgileri kendi cümleleriyle ifade eder.",
+                "c) Türk toplumuna etkileri kaynaklara dayanarak analiz eder.",
+                "ç) Savaşın yarattığı insani krizleri belirler.",
+                "d) Bu krizleri günümüzdeki insani krizlerle karşılaştırır.",
+                "e) Savaşın Türk toplumuna etkileri hakkında çıkarım yapar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Ünite: Millî Mücadele",
+          "url": "https://tymm.meb.gov.tr/tc-inkilap-tarihi-ve-ataturkculuk-dersi/unite/384",
+          "hours": 20,
+          "keyConcepts": [
+            "başkomutan",
+            "düzenli ordu",
+            "genelge",
+            "İstiklâl Marşı",
+            "işgal",
+            "kongre",
+            "Kuvâ-yı Milliye",
+            "Maarif Kongresi",
+            "mebusan",
+            "meclis",
+            "Mîsâk-ı Millî",
+            "Müdafa-i Hukuk Cemiyeti",
+            "Tekâlif-i Milliye"
+          ],
+          "outcomes": [
+            {
+              "code": "İTA.8.3.1",
+              "text": "Mondros Mütarekesi'ne karşı Osmanlı yönetimi, Mustafa Kemal, aydınlar ve halkın tutumlarını karşılaştırabilme.",
+              "subSkills": [
+                "a) Osmanlı yönetimi, Mustafa Kemal, aydınlar ve halkın tutumunu kaynaklardan belirler.",
+                "b) Bu tutumlar arasındaki benzerlik ve farklılıkları kaynaklardan belirler."
+              ]
+            },
+            {
+              "code": "İTA.8.3.2",
+              "text": "Millî Mücadele'nin hazırlık sürecinde yapılan çalışmaların etkilerini değerlendirebilme.",
+              "subSkills": [
+                "a) Hazırlık sürecindeki çalışmaları etkileri bakımından karşılaştırır.",
+                "b) Hazırlık sürecindeki çalışmaları etkileri bakımından değerlendirir."
+              ]
+            },
+            {
+              "code": "İTA.8.3.3",
+              "text": "Millî Mücadele sürecindeki siyasi ve askerî gelişmeleri neden ve sonuçlarıyla yorumlayabilme.",
+              "subSkills": [
+                "a) Siyasi ve askerî gelişmelerin nedenlerini inceler.",
+                "b) Bu gelişmelerin etkilediği unsurları inceler.",
+                "c) Gelişmelerin birey, toplum ve kurumlara etkilerini sorgular.",
+                "ç) Gelişmelerin nedenlerini ve sonuçlarını özetler."
+              ]
+            },
+            {
+              "code": "İTA.8.3.4",
+              "text": "Türk milletinin Millî Mücadele'deki rolüne ilişkin kanıta dayalı özgün ürünleri paylaşabilme.",
+              "subSkills": [
+                "a) Rolüne ilişkin merak ettiği konularda sorular sorar.",
+                "b) Bu konularda kaynaklardan bilgi toplar.",
+                "c) Topladığı bilgilerin araştırma konusuna uygunluğunu inceler.",
+                "ç) Kullanacağı kaynakların sınırlılıklarını sorgular.",
+                "d) Kaynaklardan elde ettiği bilgileri yorumlar.",
+                "e) Kanıta dayalı oluşturduğu ürünleri paylaşır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Ünite: Türkiye Cumhuriyeti’nin Kuruluşu Ve İnkılaplar",
+          "url": "https://tymm.meb.gov.tr/tc-inkilap-tarihi-ve-ataturkculuk-dersi/unite/386",
+          "hours": 18,
+          "keyConcepts": [
+            "akılcılık",
+            "anayasa",
+            "bağımsızlık",
+            "bilimsellik",
+            "cumhuriyetçilik",
+            "çağdaşlık",
+            "devletçilik",
+            "Gençliğe Hitabe",
+            "halkçılık",
+            "inkılapçılık",
+            "laiklik",
+            "millî kültür",
+            "millî tarih bilinci",
+            "milliyetçilik",
+            "Mîsâk-ı İktisadi",
+            "Nutuk",
+            "özgürlük",
+            "Türk modernleşmesi"
+          ],
+          "outcomes": [
+            {
+              "code": "İTA.8.4.1",
+              "text": "Cumhuriyet'e giden süreçteki siyasi ve diplomatik olayları özetleyebilme",
+              "subSkills": [
+                "a) Siyasi ve diplomatik olayları çözümler.",
+                "b) Bu olayları sınıflandırır.",
+                "c) Olayları kendi cümleleriyle, anlamını koruyarak yeniden yorumlar."
+              ]
+            },
+            {
+              "code": "İTA.8.4.2",
+              "text": "Türk modernleşmesi kapsamında Atatürk inkılaplarını neden ve sonuçlarıyla yorumlayabilme",
+              "subSkills": [
+                "a) İnkılapların nedenlerini inceler.",
+                "b) İnkılaplardan etkilenen unsurları inceler.",
+                "c) İnkılapların etkilerinin niteliğini sorgular.",
+                "ç) Nedenleri ve sonuçları bağlamından kopmadan ifade eder."
+              ]
+            },
+            {
+              "code": "İTA.8.4.3",
+              "text": "Atatürk ilkeleri ile inkılaplar arasındaki bağı gösteren özgün bir ürün oluşturabilme",
+              "subSkills": [
+                "a) Atatürk ilkelerinin özellikleri ile demokrasi ilkeleri arasındaki bağı belirler.",
+                "b) Cumhuriyet dönemi inkılaplarını Atatürk ilkeleriyle ilişkilendirir.",
+                "c) Oluşturduğu ürünü bu ilişki hakkında paylaşır."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Resmi ders adı: T.C. İnkılap Tarihi ve Atatürkçülük Dersi; yalnızca 8. sınıf. 4 ünite (toplam önerilen 68 saat). Kazanım kodları 'İTA.8.x.y' biçiminde (İ harfi Türkçe). Kazanım metinleri ve süreç bileşenleri kısa Türkçe özetlerdir (birebir metin değildir)."
+}

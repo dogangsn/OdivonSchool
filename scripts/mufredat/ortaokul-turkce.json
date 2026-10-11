@@ -1,0 +1,3868 @@
+{
+  "level": "ortaokul",
+  "subject": "Türkçe",
+  "programUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ders/ortaokul-turkce-dersi",
+  "grades": [
+    {
+      "grade": 5,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ortaokul-turkce-dersi/6",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Tema: Oyun Dünyası",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/54",
+          "hours": 34,
+          "keyConcepts": [
+            "strateji, yöntem ve teknik",
+            "konuşma süreci",
+            "söz varlığı",
+            "yüzey anlam",
+            "görsel unsurlar",
+            "akıcı okuma",
+            "metnin anahtar kelimeleri",
+            "hazırlıksız konuşma",
+            "yazıda içerik ve yapı",
+            "beden dili",
+            "yazım kuralları",
+            "noktalama işaretleri",
+            "dil yapıları ve söz varlığı"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.5.3",
+              "text": "Dinleyeceği/izleyeceği içerik hakkında tahminde bulunabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.4",
+              "text": "Dinlerken geçen, anlamını bilmediği sözcüklerin anlamını tahmin edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.5",
+              "text": "Dinlediğinin/izlediğinin yüzey anlamını belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.13",
+              "text": "Dinlediğinin anahtar kelimelerini bulmaya yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.17",
+              "text": "Dinlediklerinden yola çıkarak söz varlığını geliştirmeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.2",
+              "text": "Metni akıcı biçimde okuyabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.3",
+              "text": "Okumada kullanılacak strateji, yöntem ve tekniklerin seçimini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.4",
+              "text": "Okuyacağı metnin içeriği hakkında tahminde bulunabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.5",
+              "text": "Metinde geçen, anlamını bilmediği sözcüklerin anlamını tahmin edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.6",
+              "text": "Metnin yüzey anlamını belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.7",
+              "text": "Görsellerle iletilen anlamı belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.15",
+              "text": "Metnin anahtar kelimelerini bulmaya yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.20",
+              "text": "Metinden yola çıkarak söz varlığını geliştirmeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.1",
+              "text": "Konuşma sürecini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.7",
+              "text": "Önceden hazırlık yapmadan konuşabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.8",
+              "text": "Konuşurken sesini uygun biçimde kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.17",
+              "text": "Konuşmasını zenginleştirecek biçimde söz varlığını kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.20",
+              "text": "Konuşurken beden dilini uygun biçimde kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.1",
+              "text": "Yazma sürecini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.2",
+              "text": "Yazarken strateji, yöntem ve teknik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.3",
+              "text": "Yazısında içerik ve yapıyla ilgili seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.6",
+              "text": "Yazılı üretim ve etkileşimde tahminlerinden yararlanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.13",
+              "text": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.16",
+              "text": "Yazım ve noktalama kurallarını uygulayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "DYS.DO.5.1",
+              "text": "Okuduklarında isim ile fiili ayırt edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "DYS.DO.5.8",
+              "text": "Tahmin bildiren dil yapılarını ve sözcükleri tanıyabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "DYS.KY.5.8",
+              "text": "Tahmin bildiren dil yapılarını ve sözcükleri işlevine uygun kullanabilme.",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Tema: Atatürk’ü Tanımak",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/61",
+          "hours": 35,
+          "keyConcepts": [
+            "materyal seçimi",
+            "strateji, yöntem ve teknik",
+            "söz varlığı",
+            "yüzey anlam",
+            "şiir",
+            "söz sanatları",
+            "öyküleyici metin",
+            "metnin bölümleri",
+            "akıcı okuma",
+            "yazıda içerik ve yapı",
+            "konuşmada amaç ve içerik",
+            "bağlantı ifadeleri",
+            "yazım kuralları",
+            "noktalama işaretleri",
+            "dil yapıları ve söz varlığı"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.5.1",
+              "text": "Dinleme/izlemede materyal seçimini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.2",
+              "text": "Dinleme/izlemede strateji, yöntem ve teknik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.4",
+              "text": "Dinlerken bilinmeyen kelimelerin anlamını tahmin edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.5",
+              "text": "Dinlenenin/izlenenin yüzey anlamını belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.11",
+              "text": "Öyküleyici metindeki hikâye unsurlarını çözümleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.14",
+              "text": "Dinlenenin/izlenenin bölümlerini belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.17",
+              "text": "Dinlediklerinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.1",
+              "text": "Okumada materyal seçimini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.2",
+              "text": "Sesli ve sessiz okumada akıcılık unsurlarını yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.3",
+              "text": "Okumada strateji, yöntem ve teknik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.5",
+              "text": "Metindeki bilinmeyen kelimelerin anlamını tahmin edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.6",
+              "text": "Metnin yüzey anlamını belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.17",
+              "text": "Şiirin biçim özelliklerini çözümleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.19",
+              "text": "Metindeki söz sanatlarını belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.20",
+              "text": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.22",
+              "text": "Okuma sürecini değerlendirebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.1",
+              "text": "Konuşma sürecini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.2",
+              "text": "Konuşmada yöntem ve teknik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.3",
+              "text": "Konuşmada amaç ve içeriğe yönelik seçimleri yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.9",
+              "text": "Konuşmada tahminlerinden yararlanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.17",
+              "text": "Konuşmayı zenginleştiren söz varlığını kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.19",
+              "text": "Uygun bağlantı ifadelerini kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.2",
+              "text": "Yazmada strateji, yöntem ve teknik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.3",
+              "text": "Yazıda içerik ve yapıya yönelik seçimleri yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.13",
+              "text": "Yazıyı zenginleştiren söz varlığını kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.15",
+              "text": "Uygun bağlantı ifadelerini kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.16",
+              "text": "Yazım ve noktalama kurallarını uygulayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.17",
+              "text": "Yazma sürecini değerlendirebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "DYS.DO.5.3",
+              "text": "İsimleri niteleyen ve belirten dil yapılarını ve söz varlığını belirleme.",
+              "subSkills": []
+            },
+            {
+              "code": "DYS.KY.5.2",
+              "text": "Niteleyen ve belirten dil yapılarını işlevine uygun kullanma.",
+              "subSkills": []
+            },
+            {
+              "code": "DYS.DO.5.4",
+              "text": "Betimleme işlevli fiilimsi dil yapılarını belirleme.",
+              "subSkills": []
+            },
+            {
+              "code": "DYS.KY.5.3",
+              "text": "Betimleme işlevli fiilimsi dil yapılarını işlevine uygun kullanma.",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Tema: Duygularımı Tanıyorum",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/67",
+          "hours": 35,
+          "keyConcepts": [
+            "materyal seçimi",
+            "strateji, yöntem ve teknik",
+            "söz varlığı",
+            "yüzey anlam",
+            "derin anlam",
+            "hikâye unsurları",
+            "metnin bölümleri",
+            "düşünceyi geliştirme yolları",
+            "çoklu ortam ögeleri",
+            "yaratıcı konuşma ve yazma",
+            "yazıda içerik ve yapı",
+            "soru sorma",
+            "bağlantı ifadeleri",
+            "yazım kuralları",
+            "noktalama işaretleri",
+            "dil yapıları ve söz varlığı"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.5.2",
+              "text": "Dinleme/izlemede strateji, yöntem ve teknik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.4",
+              "text": "Dinleme/izlemede bilinmeyen söz varlığı unsurlarının anlamını tahmin edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.5",
+              "text": "Dinlediğinin/izlediğinin yüzey anlamını belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.6",
+              "text": "Basit çıkarımlarla dinlediğinin/izlediğinin derin anlamını belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.17",
+              "text": "Dinlediğinden/izlediğinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.18",
+              "text": "Çoklu ortam ögelerine yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.20",
+              "text": "Dinleme/izleme sürecini değerlendirebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.1",
+              "text": "Okumada materyal seçimini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.3",
+              "text": "Okumada strateji, yöntem ve teknik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.5",
+              "text": "Metinde bilinmeyen söz varlığı unsurlarının anlamını tahmin edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.6",
+              "text": "Metnin yüzey anlamını belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.11",
+              "text": "Metindeki unsurları sınıflandırabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.13",
+              "text": "Öyküleyici metinde hikâye unsurlarını belirlemeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.16",
+              "text": "Metnin bölümlerini belirlemeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.18",
+              "text": "Bilgilendirici metinde düşünceyi geliştirme yollarını belirlemeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.20",
+              "text": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.2",
+              "text": "Konuşmada yöntem ve teknik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.4",
+              "text": "İletişimi sürdürmek için soru sorabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.6",
+              "text": "Yaratıcı konuşma yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.16",
+              "text": "Düşünceyi geliştirme yollarıyla konuşmasını yapılandırabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.19",
+              "text": "Uygun bağlantı ifadelerini kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.21",
+              "text": "Konuşma sürecini değerlendirebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.2",
+              "text": "Yazmada strateji, yöntem ve teknik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.3",
+              "text": "Yazıda içerik ve yapıya yönelik seçimleri yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.4",
+              "text": "Yazıda çoklu ortam ögeleriyle içerik oluşturabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.5",
+              "text": "Yaratıcı yazı yazabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.8",
+              "text": "Yazısında sınıflandırma yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.13",
+              "text": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.15",
+              "text": "Uygun bağlantı ifadelerini kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.16",
+              "text": "Yazım ve noktalama kurallarını uygulayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "DYS.DO.5.2",
+              "text": "İsimlerin tür özelliklerini ayırt etme.",
+              "subSkills": []
+            },
+            {
+              "code": "DYS.KY.5.1",
+              "text": "İsimleri tür özelliklerine uygun kullanma.",
+              "subSkills": []
+            },
+            {
+              "code": "DYS.DO.5.7",
+              "text": "Amaç ifade eden dil yapılarını ve söz varlığını belirleme.",
+              "subSkills": []
+            },
+            {
+              "code": "DYS.KY.5.7",
+              "text": "Amaç ifade eden dil yapılarını ve söz varlığını işlevine uygun kullanma.",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Tema: Geleneklerimiz",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/74",
+          "hours": 34,
+          "keyConcepts": [
+            "materyal seçimi",
+            "strateji, yöntem ve teknik",
+            "söz varlığı",
+            "derin anlam",
+            "düşünceyi geliştirme yolları",
+            "özetleme",
+            "çoklu ortam ögeleri",
+            "yazıda içerik ve yapı",
+            "yazım kuralları",
+            "noktalama işaretleri",
+            "dil yapıları ve söz varlığı"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.5.1",
+              "text": "Dinleme/izlemede materyal seçimini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.2",
+              "text": "Dinleme/izlemede strateji, yöntem ve teknik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.4",
+              "text": "Dinlerken/izlerken bilinmeyen kelimelerin anlamını tahmin edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.6",
+              "text": "Basit çıkarımlarla dinlenen/izlenenin derin anlamını belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.7",
+              "text": "Üst düzey çıkarımlarla dinlenen/izlenenin derin anlamını belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.9",
+              "text": "Dinlenen/izlenen içerikteki unsurları sınıflandırabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.10",
+              "text": "Dinlediğini/izlediğini yorumlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.15",
+              "text": "Bilgilendirici metinde düşünceyi geliştirme yollarını çözümleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.17",
+              "text": "Dinlediğinden/izlediğinden yola çıkarak söz varlığını geliştirmeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.3",
+              "text": "Okumada strateji, yöntem ve teknik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.5",
+              "text": "Metinde geçen bilinmeyen kelimelerin anlamını tahmin edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.8",
+              "text": "Basit çıkarımlarla metnin derin anlamını belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.9",
+              "text": "Üst düzey çıkarımlarla metnin derin anlamını belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.10",
+              "text": "Okuduğu metinleri karşılaştırabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.20",
+              "text": "Metinden yola çıkarak söz varlığını geliştirmeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.21",
+              "text": "Okuduğu metni özetleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.22",
+              "text": "Okuma sürecini değerlendirebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.2",
+              "text": "Konuşmada yöntem ve teknik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.5",
+              "text": "Konuşmasında çoklu ortam ögeleriyle içerik oluşturabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.11",
+              "text": "Konuşmasında sınıflandırma yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.12",
+              "text": "Yorumunu sözlü olarak ifade edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.17",
+              "text": "Konuşmasını zenginleştirecek biçimde söz varlığı kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.2",
+              "text": "Yazmada strateji, yöntem ve teknik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.3",
+              "text": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.7",
+              "text": "Yazısında karşılaştırma yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.10",
+              "text": "Yazılı olarak özetleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.12",
+              "text": "Düşünceyi geliştirme yollarını kullanarak yazısını yapılandırabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.16",
+              "text": "Yazım ve noktalama kurallarını uygulayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.17",
+              "text": "Yazma sürecini değerlendirebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "DYS.DO.5.5",
+              "text": "İsmin yerine kullanılan söz varlığını belirleme.",
+              "subSkills": []
+            },
+            {
+              "code": "DYS.DO.5.6",
+              "text": "Karşılaştırma, benzerlik ve farklılık bildiren dil yapılarını belirleme.",
+              "subSkills": []
+            },
+            {
+              "code": "DYS.KY.5.4",
+              "text": "İsmin yerine geçen söz varlığını anlatımı zenginleştirecek biçimde kullanma.",
+              "subSkills": []
+            },
+            {
+              "code": "DYS.KY.5.5",
+              "text": "Karşılaştırma ve farklılık bildiren söz varlığını işlevine uygun kullanma.",
+              "subSkills": []
+            },
+            {
+              "code": "DYS.KY.5.6",
+              "text": "Özet ifade eden söz varlığını işlevine uygun kullanma.",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5. Tema: İletişim Ve Sosyal İlişkiler",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/78",
+          "hours": 34,
+          "keyConcepts": [
+            "materyal seçimi",
+            "strateji, yöntem ve teknik",
+            "söz varlığı",
+            "söz sanatları",
+            "derin anlam",
+            "soru sorma",
+            "yazıda içerik ve yapı",
+            "açık ve örtük ifade",
+            "özetleme",
+            "bağlantı ifadeleri",
+            "yazım kuralları",
+            "noktalama işaretleri",
+            "dil yapıları ve söz varlığı"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.5.2",
+              "text": "Dinleme/izlemede strateji, yöntem ve teknik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.4",
+              "text": "Dinlerken bilinmeyen söz varlığı unsurlarının anlamını tahmin edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.7",
+              "text": "Üst düzey çıkarımlarla dinlenen/izlenenin derin anlamını belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.8",
+              "text": "Dinlediklerini/izlediklerini karşılaştırabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.16",
+              "text": "Dinlenen/izlenen metindeki söz sanatlarını çözümleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.17",
+              "text": "Dinlediğinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.19",
+              "text": "Dinlediğini/izlediğini özetleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.20",
+              "text": "Dinleme/izleme sürecini değerlendirebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.1",
+              "text": "Okumada materyal seçimini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.3",
+              "text": "Okumada strateji, yöntem ve teknik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.5",
+              "text": "Metinde bilinmeyen söz varlığı unsurlarının anlamını tahmin edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.8",
+              "text": "Basit çıkarımlarla metnin derin anlamını belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.9",
+              "text": "Üst düzey çıkarımlarla metnin derin anlamını belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.12",
+              "text": "Metni yorumlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.20",
+              "text": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.4",
+              "text": "İletişimi sürdürmek için soru sorabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.10",
+              "text": "Konuşmasında karşılaştırma yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.13",
+              "text": "Sözlü olarak özetleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.18",
+              "text": "Konuşmasında açık ve örtük ifadeleri kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.19",
+              "text": "Uygun bağlantı ifadelerini kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.21",
+              "text": "Konuşma sürecini değerlendirebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.2",
+              "text": "Yazmada strateji, yöntem ve teknik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.3",
+              "text": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.9",
+              "text": "Yorumunu yazılı olarak ifade edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.13",
+              "text": "Yazısını zenginleştirecek biçimde söz varlığı kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.14",
+              "text": "Yazısında açık ve örtük ifadeleri kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.16",
+              "text": "Yazım ve noktalama kurallarını uygulayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "DYS.KY.5.9",
+              "text": "Cümleleri kendi ifadeleriyle yeniden kurabilme.",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "6. Tema: Sağlıklı Yaşıyorum",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/87",
+          "hours": 34,
+          "keyConcepts": [
+            "materyal seçimi",
+            "strateji, yöntem ve teknik",
+            "bilgilendirici metin",
+            "önemli bilgi",
+            "söz varlığı",
+            "derin anlam",
+            "yazıda içerik ve yapı",
+            "tartışma",
+            "hazırlıklı konuşma",
+            "bağlantı ifadeleri",
+            "yazım kuralları",
+            "noktalama işaretleri",
+            "dil yapıları ve söz varlığı"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.5.1",
+              "text": "Dinleme/izlemede materyal seçimini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.4",
+              "text": "Dinlerken geçen bilinmeyen söz varlığının anlamını tahmin edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.7",
+              "text": "Üst düzey çıkarımlarla dinlenen/izlenenin derin anlamını belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.12",
+              "text": "Bilgilendirici metinde yapıdan hareketle önemli bilgileri belirlemeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.17",
+              "text": "Dinlediğinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.5.20",
+              "text": "Dinleme/izleme sürecini değerlendirebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.3",
+              "text": "Okumada strateji, yöntem ve teknik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.5",
+              "text": "Metinde geçen bilinmeyen söz varlığının anlamını tahmin edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.14",
+              "text": "Bilgilendirici metinde yapıdan hareketle önemli bilgileri belirlemeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.20",
+              "text": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.5.22",
+              "text": "Okuma sürecini değerlendirebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.14",
+              "text": "Sözlü olarak tartışabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.15",
+              "text": "Hazırlıklı konuşmasını yapılandırabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.17",
+              "text": "Konuşmasını zenginleştirecek biçimde söz varlığını kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.5.21",
+              "text": "Konuşma sürecini değerlendirebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.1",
+              "text": "Yazma sürecini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.2",
+              "text": "Yazmada strateji, yöntem ve teknik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.3",
+              "text": "Yazıda içerik ve yapıya yönelik seçimleri yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.11",
+              "text": "Yazılı üretim ve etkileşimde tartışabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.13",
+              "text": "Yazısını zenginleştirecek biçimde söz varlığı kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.15",
+              "text": "Uygun bağlantı ifadelerini kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.16",
+              "text": "Yazım ve noktalama kurallarını uygulayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.5.17",
+              "text": "Yazma sürecini değerlendirebilme.",
+              "subSkills": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 6,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ortaokul-turkce-dersi/7",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Tema: Dilimizin Zenginliği",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/104",
+          "hours": 35,
+          "keyConcepts": [
+            "Türkçe",
+            "türkü",
+            "tekerleme",
+            "bilmece",
+            "mâni",
+            "ninni",
+            "atasözleri ve deyimler",
+            "merak",
+            "açık fikirlilik",
+            "akıcı okuma",
+            "söz varlığı",
+            "anahtar kelime",
+            "yüzey anlam",
+            "tahmin",
+            "kendini uyarlama (öz yansıtma)"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.6.1",
+              "text": "Dinleme/izlemede materyal seçimini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.2",
+              "text": "Dinleme/izlemede strateji ve yöntem seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.4",
+              "text": "Dinlerken bilmediği söz varlığı unsurlarının anlamını tahmin edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.5",
+              "text": "Dinlediğinin yüzey anlamını belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.15",
+              "text": "Bilgilendirici metinde anahtar kelimeleri belirlemeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.19",
+              "text": "Dinlediğinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.25",
+              "text": "Dinleme/izleme sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.1",
+              "text": "Okumada materyal seçimini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.2",
+              "text": "Sesli ve sessiz okurken akıcı okuma unsurlarını yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.3",
+              "text": "Okumada strateji ve yöntem seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.4",
+              "text": "Okuyacağı metnin içeriğine yönelik tahminde bulunabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.5",
+              "text": "Metinde bilmediği söz varlığı unsurlarının anlamını tahmin edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.6",
+              "text": "Metnin yüzey anlamını belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.16",
+              "text": "Bilgilendirici metinde anahtar kelimeleri belirlemeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.21",
+              "text": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.27",
+              "text": "Okuma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.1",
+              "text": "Konuşma sürecini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.2",
+              "text": "Konuşma yöntem ve tekniklerine yönelik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.3",
+              "text": "Konuşmasında amaç ve içeriğe yönelik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.9",
+              "text": "Konuşmasında sesini uygun şekilde kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.22",
+              "text": "Konuşmasını zenginleştirecek biçimde söz varlığını kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.26",
+              "text": "Konuşma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.1",
+              "text": "Yazma sürecini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.2",
+              "text": "Yazma strateji, yöntem ve tekniklerine yönelik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.3",
+              "text": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.18",
+              "text": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.21",
+              "text": "Yazım kuralları ve noktalama işaretlerini uygulayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.22",
+              "text": "Yazma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Tema: Bağımsızlık Yolu",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/118",
+          "hours": 35,
+          "keyConcepts": [
+            "Millî Mücadele",
+            "Cumhuriyet",
+            "karşılaştırma",
+            "sınıflandırma",
+            "özetleme",
+            "yüzey anlam",
+            "derin anlam",
+            "çalışkanlık",
+            "vatanseverlik",
+            "azim ve kararlılık",
+            "bağımsızlık",
+            "millî bilinç"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.6.2",
+              "text": "Dinleme/izlemede strateji ve yöntem seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.3",
+              "text": "Dinleyeceği/izleyeceği içerik hakkında tahminde bulunabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.6",
+              "text": "Görsellerle iletilen anlamı belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.7",
+              "text": "Dinlediğinin/izlediğinin derin anlamına yönelik basit çıkarımlar yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.8",
+              "text": "Dinlediğinin/izlediğinin derin anlamına yönelik üst düzey çıkarımlar yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.9",
+              "text": "Dinlediği/izlediği metni kendi içinde karşılaştırabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.11",
+              "text": "Dinlediği/izlediği metindeki unsurları sınıflandırabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.25",
+              "text": "Dinleme/izleme sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.3",
+              "text": "Okumada strateji ve yöntem seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.5",
+              "text": "Bilmediği sözcüklerin anlamını bağlamdan tahmin edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.8",
+              "text": "Metnin derin anlamına yönelik basit çıkarımlar yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.9",
+              "text": "Metnin derin anlamına yönelik üst düzey çıkarımlar yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.10",
+              "text": "Metni kendi içinde karşılaştırabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.11",
+              "text": "Metinler arasında karşılaştırma yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.12",
+              "text": "Metindeki unsurları sınıflandırabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.23",
+              "text": "Okuduğu metni özetleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.27",
+              "text": "Okuma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.1",
+              "text": "Konuşma sürecini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.4",
+              "text": "Konuşmasında ön bilgilerinden yararlanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.5",
+              "text": "Konuşmasında uygun tepki verebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.7",
+              "text": "Dili yaratıcı biçimde kullanarak konuşabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.8",
+              "text": "Hazırlıksız konuşma yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.12",
+              "text": "Konuşmasında karşılaştırma yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.15",
+              "text": "Sözlü olarak özetleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.25",
+              "text": "Beden dilini ve mekânı etkili kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.26",
+              "text": "Konuşma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.1",
+              "text": "Yazma sürecini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.3",
+              "text": "Yazısında içerik ve yapıya ilişkin seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.4",
+              "text": "Yazılı üretimde ön bilgilerinden yararlanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.5",
+              "text": "Yazılı etkileşimde uygun tepki verebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.11",
+              "text": "Yorumunu yazılı olarak ifade edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.21",
+              "text": "Yazım kurallarını ve noktalama işaretlerini uygulayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.22",
+              "text": "Yazma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Tema: Farklı Dünyalar",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/124",
+          "hours": 34,
+          "keyConcepts": [
+            "farklı ülkeler",
+            "görgü kuralları",
+            "geleneksel el sanatları",
+            "mutfak kültürü",
+            "giyim kuşam",
+            "halk dansları",
+            "beden dili",
+            "merak",
+            "empati",
+            "açık fikirlilik",
+            "çıkarım",
+            "karşılaştırma",
+            "tartışma",
+            "görsel okuma",
+            "düşünceyi geliştirme yolları",
+            "çoklu ortam ögeleri",
+            "yorumlama",
+            "sınıflandırma",
+            "yaratıcılık"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.6.1",
+              "text": "Dinleme/izlemede materyal seçimini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.8",
+              "text": "Dinlenen/izlenen metnin derin anlamına yönelik üst düzey çıkarımlar yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.9",
+              "text": "Dinlenen/izlenen metni kendi içinde karşılaştırabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.10",
+              "text": "Dinlenen/izlenen metinler arasında karşılaştırma yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.17",
+              "text": "Bilgilendirici metinde düşünceyi geliştirme yollarını çözümleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.20",
+              "text": "Çoklu ortam ögelerini çözümleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.21",
+              "text": "Dinlediğini/izlediğini özetleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.25",
+              "text": "Dinleme/izleme sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.1",
+              "text": "Okumada materyal seçimini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.7",
+              "text": "Görsellerle iletilen anlamı belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.17",
+              "text": "Metnin bölümlerini belirlemeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.18",
+              "text": "Şiirin biçim özelliklerini belirlemeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.19",
+              "text": "Bilgilendirici metinde düşünceyi geliştirme yollarını çözümleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.27",
+              "text": "Okuma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.1",
+              "text": "Konuşma sürecini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.6",
+              "text": "Konuşmasında çoklu ortam ögeleriyle içerik oluşturabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.13",
+              "text": "Konuşmasında sınıflandırma yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.14",
+              "text": "Yorumunu sözlü olarak ifade edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.17",
+              "text": "Sözlü olarak tartışabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.26",
+              "text": "Konuşma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.1",
+              "text": "Yazma sürecini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.7",
+              "text": "Yaratıcı yazı yazabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.9",
+              "text": "Yazısında karşılaştırma yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.10",
+              "text": "Yazısında sınıflandırma yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.17",
+              "text": "Yazısında düşünceyi geliştirme yollarını kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.21",
+              "text": "Yazım kurallarını ve noktalama işaretlerini uygulayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.22",
+              "text": "Yazma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Tema: İletişim Ve Sosyal İlişkiler",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/270",
+          "hours": 34,
+          "keyConcepts": [
+            "iletişim",
+            "etkili iletişim",
+            "kitle iletişim araçları",
+            "metin yapıları",
+            "yorumlama",
+            "önemli bilgileri belirleyebilme",
+            "özetleme",
+            "geçiş ve bağlantı ifadeleri",
+            "hazırlıklı konuşma",
+            "çoklu ortam ögeleri",
+            "yazım kuralları",
+            "noktalama işaretleri",
+            "empati",
+            "sorumluluk",
+            "güven",
+            "girişkenlik"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.6.1",
+              "text": "Dinleme/izlemede materyal seçimini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.2",
+              "text": "Dinleme/izlemede strateji ve yöntem seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.12",
+              "text": "Dinlediğini/izlediğini yorumlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.14",
+              "text": "Bilgilendirici metinde yapıdan yola çıkarak önemli bilgileri belirlemeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.25",
+              "text": "Dinleme/izleme sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.1",
+              "text": "Okumada materyal seçimini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.3",
+              "text": "Okumada strateji ve yöntem seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.13",
+              "text": "Metni yorumlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.15",
+              "text": "Bilgilendirici metnin yapısından önemli bilgileri belirlemeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.22",
+              "text": "Çoklu ortam ögelerini çözümleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.27",
+              "text": "Okuma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.1",
+              "text": "Konuşma sürecini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.20",
+              "text": "Hazırlıklı konuşmasını yapılandırabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.21",
+              "text": "Konuşmasında düşünceyi geliştirme yollarını kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.24",
+              "text": "Uygun geçiş ve bağlantı ifadelerini kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.26",
+              "text": "Konuşma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.1",
+              "text": "Yazma sürecini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.3",
+              "text": "Yazısında içerik ve yapıya ilişkin seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.6",
+              "text": "Yazısında çoklu ortam ögeleriyle içerik oluşturabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.12",
+              "text": "Yazılı olarak özetleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.21",
+              "text": "Yazım kurallarını ve noktalama işaretlerini uygulayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.22",
+              "text": "Yazma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5. Tema: Bilim Ve Teknoloji",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/278",
+          "hours": 34,
+          "keyConcepts": [
+            "bilim",
+            "teknoloji",
+            "gelecek",
+            "bilim insanları",
+            "yapay zekâ",
+            "çözümleme",
+            "söz sanatları",
+            "açık ve örtük ifade",
+            "geçiş ve bağlantı ifadeleri",
+            "tartışma",
+            "merak",
+            "azim ve kararlılık",
+            "uzmanlaşma",
+            "şüphe duyma",
+            "eleştirel bakma",
+            "analitik düşünme"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.6.2",
+              "text": "Dinleme/izlemede strateji ve yöntem seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.13",
+              "text": "Öyküleyici metinlerdeki hikâye unsurlarını çözümleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.16",
+              "text": "Metnin bölümlerini belirlemeye yönelik çözümleme yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.18",
+              "text": "Dinlediği/izlediği metindeki söz sanatlarını belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.25",
+              "text": "Dinleme/izleme sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.3",
+              "text": "Okumada strateji ve yöntem seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.14",
+              "text": "Öyküleyici metinlerdeki hikâye unsurlarını çözümleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.20",
+              "text": "Metindeki söz sanatlarını belirleyebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.27",
+              "text": "Okuma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.1",
+              "text": "Konuşma sürecini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.10",
+              "text": "Sözlü sunum yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.11",
+              "text": "Konuşmasında tahminlerinden yararlanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.23",
+              "text": "Konuşmasında açık ve örtük ifadeleri kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.26",
+              "text": "Konuşma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.1",
+              "text": "Yazma sürecini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.3",
+              "text": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.8",
+              "text": "Yazılı üretimde tahminlerinden yararlanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.14",
+              "text": "Yazılı üretim ve etkileşimde tartışabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.19",
+              "text": "Yazısında açık ve örtük ifadeleri kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.20",
+              "text": "Uygun geçiş ve bağlantı ifadelerini kullanabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.21",
+              "text": "Yazım kurallarını ve noktalama işaretlerini uygulayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.22",
+              "text": "Yazma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "6. Tema: Lider Ruhlar",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/282",
+          "hours": 34,
+          "keyConcepts": [
+            "bilim",
+            "sanat",
+            "spor",
+            "girişimcilik",
+            "finansal okuryazarlık",
+            "zaman yönetimi",
+            "planlama",
+            "meslekler",
+            "değerlendirme",
+            "eleştirme",
+            "probleme çözüm üretebilme",
+            "merak",
+            "azim ve kararlılık",
+            "empati",
+            "sorumluluk",
+            "girişkenlik",
+            "uzmanlaşma",
+            "yaratıcılık",
+            "açık fikirlilik",
+            "özgün düşünme"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.6.1",
+              "text": "Dinleme/izlemede materyal seçimini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.22",
+              "text": "Dinlediğini/izlediğini değerlendirebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.23",
+              "text": "Dinlediğini/izlediğini eleştirebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.24",
+              "text": "Dinlediğindeki probleme çözüm üretebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.6.25",
+              "text": "Dinleme/izleme sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.1",
+              "text": "Okumada materyal seçimini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.24",
+              "text": "Okuduğunu değerlendirebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.25",
+              "text": "Metni eleştirebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.26",
+              "text": "Metindeki probleme çözüm üretebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.6.27",
+              "text": "Okuma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.1",
+              "text": "Konuşma sürecini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.16",
+              "text": "Değerlendirmesini sözlü olarak ifade edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.18",
+              "text": "Eleştirisini sözlü olarak ifade edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.19",
+              "text": "Problem çözümüne yönelik konuşma yapabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.6.26",
+              "text": "Konuşma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.1",
+              "text": "Yazma sürecini yönetebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.13",
+              "text": "Değerlendirmesini yazılı olarak ifade edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.15",
+              "text": "Eleştirisini yazılı olarak ifade edebilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.16",
+              "text": "Problem çözümüne yönelik yazabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.21",
+              "text": "Yazım kurallarını ve noktalama işaretlerini uygulayabilme.",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.6.22",
+              "text": "Yazma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme.",
+              "subSkills": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 7,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ortaokul-turkce-dersi/8",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Tema: Hayat Boyu Gelişim",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/287",
+          "hours": 29,
+          "keyConcepts": [
+            "motivasyon",
+            "çalışkanlık",
+            "başarı",
+            "zaman yönetimi",
+            "karar verme",
+            "öz eleştiri",
+            "cömert olmak",
+            "merhamet",
+            "vefa",
+            "çözümleme",
+            "ön bilgi",
+            "tahmin",
+            "yüzey anlam",
+            "söz varlığı",
+            "yansıtma",
+            "kendine güvenme (öz güven)",
+            "kendine inanma (öz yeterlilik)",
+            "odaklanma"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.7.1",
+              "text": "Dinleme/izlemede materyal seçimini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.2",
+              "text": "Dinleme/izlemede strateji ve yöntem seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.4",
+              "text": "Dinlerken/izlerken bilmediği söz varlığının anlamını tahmin edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.5",
+              "text": "Dinlediğinin/izlediğinin yüzey anlamını belirleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.16",
+              "text": "Metnin bölümlerini belirlemeye yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.27",
+              "text": "Dinleme/izleme sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.1",
+              "text": "Okumada materyal seçimini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.2",
+              "text": "Okumada strateji ve yöntem seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.3",
+              "text": "Okuyacağı metnin içeriğine yönelik tahminde bulunabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.4",
+              "text": "Okurken bilmediği söz varlığının anlamını tahmin edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.5",
+              "text": "Metnin yüzey anlamını belirleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.21",
+              "text": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.28",
+              "text": "Okuma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.1",
+              "text": "Konuşma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.2",
+              "text": "Konuşma yöntem ve tekniklerine yönelik seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.3",
+              "text": "Konuşmasında amaç ve içeriğe yönelik seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.4",
+              "text": "Konuşmasında ön bilgilerinden yararlanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.26",
+              "text": "Konuşma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.1",
+              "text": "Yazma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.2",
+              "text": "Yazma strateji, yöntem ve tekniklerine yönelik seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.3",
+              "text": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.18",
+              "text": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.21",
+              "text": "Yazım kuralları ve noktalama işaretlerini uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.22",
+              "text": "Yazma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Tema: Bir Hilal Uğruna",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/290",
+          "hours": 28,
+          "keyConcepts": [
+            "Millî Mücadele",
+            "millî egemenlik",
+            "kahramanlık",
+            "sınıflandırma",
+            "çıkarım",
+            "metin yapıları",
+            "düşünceyi geliştirme yolları",
+            "söz sanatları",
+            "medya içerikleri",
+            "ikna etme teknikleri",
+            "hazırlıksız konuşma",
+            "azim ve kararlılık",
+            "sorumluluk",
+            "sistematik olma",
+            "kendine güvenme (öz güven)",
+            "bağımsızlık"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.7.2",
+              "text": "Dinleme/izlemede strateji ve yöntem seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.3",
+              "text": "Dinleyeceği/izleyeceği içerik hakkında tahminde bulunabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.14",
+              "text": "Bilgilendirici metnin yapısından önemli bilgileri belirlemeye yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.17",
+              "text": "Bilgilendirici metinde düşünceyi geliştirme yollarını belirleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.18",
+              "text": "Dinlediği/izlediği metindeki söz sanatlarını belirleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.20",
+              "text": "Dinlediklerinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.24",
+              "text": "Medya içeriğini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.27",
+              "text": "Dinleme/izleme sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.2",
+              "text": "Okumada strateji ve yöntem seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.6",
+              "text": "Görsellerle iletilen anlamı belirleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.7",
+              "text": "Metnin derin anlamına yönelik basit çıkarımlar yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.8",
+              "text": "Metnin derin anlamına yönelik üst düzey çıkarımlar yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.14",
+              "text": "Bilgilendirici metin yapılarından önemli bilgileri belirlemeye yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.15",
+              "text": "Bilgilendirici metinde anahtar kelimeleri belirleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.20",
+              "text": "Metinde kullanılan ikna etme tekniklerini çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.28",
+              "text": "Okuma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.1",
+              "text": "Konuşma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.5",
+              "text": "Konuşmasında uygun tepki verebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.7",
+              "text": "Yaratıcı konuşma yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.8",
+              "text": "Hazırlıksız konuşma yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.9",
+              "text": "Konuşmasında sesini uygun biçimde kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.13",
+              "text": "Konuşmasında sınıflandırma yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.22",
+              "text": "Konuşmasını zenginleştirecek biçimde söz varlığını kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.26",
+              "text": "Konuşma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.3",
+              "text": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.4",
+              "text": "Yazılı üretimde ön bilgilerinden yararlanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.5",
+              "text": "Yazılı etkileşimde uygun tepki verebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.10",
+              "text": "Yazısında sınıflandırma yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.21",
+              "text": "Yazım kurallarını ve noktalama işaretlerini uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.22",
+              "text": "Yazma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Tema: İletişim Ve Sosyal İlişkiler",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/291",
+          "hours": 28,
+          "keyConcepts": [
+            "iletişim",
+            "iletişim ortamları",
+            "nezaket ve görgü kuralları",
+            "çıkarım",
+            "karşılaştırma",
+            "derin anlam",
+            "özetleme",
+            "ikna etme teknikleri",
+            "değerlendirme",
+            "eleştirme",
+            "metnin bölümleri",
+            "şiirin biçim özellikleri",
+            "düşünceyi geliştirme yolları",
+            "söz sanatları",
+            "beden dili",
+            "empati",
+            "sorumluluk",
+            "güven",
+            "girişkenlik"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.7.1",
+              "text": "Dinleme/izlemede materyal seçimini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.7",
+              "text": "Dinlediğinin/izlediğinin derin anlamına yönelik basit çıkarımlar yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.8",
+              "text": "Dinlediğinin/izlediğinin derin anlamına yönelik üst düzey çıkarımlar yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.19",
+              "text": "Dinlediği/izlediği metindeki ikna etme tekniklerini çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.23",
+              "text": "Dinlediğini/izlediğini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.25",
+              "text": "Dinlediğini/izlediğini eleştirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.27",
+              "text": "Dinleme/izleme sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.1",
+              "text": "Okumada materyal seçimini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.16",
+              "text": "Metnin bölümlerini belirlemeye yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.17",
+              "text": "Şiirin biçim özelliklerini belirlemeye yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.18",
+              "text": "Bilgilendirici metinde düşünceyi geliştirme yollarını çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.19",
+              "text": "Metindeki söz sanatlarını çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.23",
+              "text": "Okuduğu metni özetleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.28",
+              "text": "Okuma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.1",
+              "text": "Konuşma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.15",
+              "text": "Sözlü olarak özetleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.17",
+              "text": "Sözlü olarak tartışabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.21",
+              "text": "Konuşmasında düşünceyi geliştirme yollarını kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.25",
+              "text": "Konuşmasında beden dilini ve mekânı etkili kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.26",
+              "text": "Konuşma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.1",
+              "text": "Yazma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.9",
+              "text": "Yazısında karşılaştırma yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.17",
+              "text": "Yazısında düşünceyi geliştirme yollarını kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.21",
+              "text": "Yazım kurallarını ve noktalama işaretlerini uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.22",
+              "text": "Yazma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Tema: Türk Sanatı",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/293",
+          "hours": 29,
+          "keyConcepts": [
+            "klasik Türk sanatları",
+            "geleneksel el sanatları",
+            "mimari",
+            "resim",
+            "müzik",
+            "sınıflandırma",
+            "tahmin etme",
+            "yorumlama",
+            "karşılaştırma",
+            "eleştirme",
+            "probleme çözüm üretebilme",
+            "özetleme",
+            "açık ve örtük ifade",
+            "çoklu ortam ögeleri",
+            "merak",
+            "açık fikirlilik"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.7.1",
+              "text": "Dinleme/izlemede materyal seçimini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.2",
+              "text": "Dinleme/izlemede strateji ve yöntem seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.6",
+              "text": "Görsellerle iletilen anlamı belirleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.11",
+              "text": "Dinlediği/izlediği metindeki unsurları sınıflandırabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.12",
+              "text": "Dinlediğini/izlediğini yorumlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.27",
+              "text": "Dinleme/izleme sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.1",
+              "text": "Okumada materyal seçimini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.2",
+              "text": "Okumada strateji ve yöntem seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.9",
+              "text": "Metni kendi içinde karşılaştırabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.10",
+              "text": "Metinler arasında karşılaştırma yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.11",
+              "text": "Metindeki unsurları sınıflandırabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.22",
+              "text": "Çoklu ortam ögelerine yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.26",
+              "text": "Metni eleştirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.28",
+              "text": "Okuma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.1",
+              "text": "Konuşma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.11",
+              "text": "Konuşmasında tahminlerinden yararlanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.12",
+              "text": "Konuşmasında karşılaştırma yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.20",
+              "text": "Hazırlıklı konuşmasını yapılandırabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.23",
+              "text": "Konuşmasında açık ve örtük ifadeleri kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.26",
+              "text": "Konuşma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.3",
+              "text": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.6",
+              "text": "Yazısında çoklu ortam ögeleriyle içerik oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.7",
+              "text": "Yaratıcı yazı yazabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.8",
+              "text": "Yazılı üretimde tahminlerinden yararlanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.12",
+              "text": "Yazılı olarak özetleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.21",
+              "text": "Yazım kuralları ve noktalama işaretlerini uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.22",
+              "text": "Yazma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5. Tema: Okuma Kültürü",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/309",
+          "hours": 28,
+          "keyConcepts": [
+            "okuma",
+            "okuma alışkanlığı",
+            "dijital okuma",
+            "anahtar kelime",
+            "karşılaştırma",
+            "çözümleme",
+            "özetleme",
+            "yorumlama",
+            "değerlendirme",
+            "problem çözme",
+            "tartışma",
+            "merak",
+            "kendine inanma (öz yeterlilik)",
+            "sistematik olma"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.7.1",
+              "text": "Dinleme/izlemede materyal seçimini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.2",
+              "text": "Dinleme/izlemede strateji ve yöntem seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.9",
+              "text": "Dinlediğini/izlediğini kendi içinde karşılaştırabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.15",
+              "text": "Bilgilendirici metinde anahtar kelimeleri bulmaya yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.22",
+              "text": "Dinlediğini/izlediğini özetleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.27",
+              "text": "Dinleme/izleme sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.1",
+              "text": "Okumada materyal seçimini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.2",
+              "text": "Okumada strateji ve yöntem seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.12",
+              "text": "Metni yorumlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.24",
+              "text": "Okuduğunu değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.27",
+              "text": "Metindeki probleme çözüm üretebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.28",
+              "text": "Okuma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.1",
+              "text": "Konuşma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.14",
+              "text": "Yorumunu sözlü olarak ifade edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.16",
+              "text": "Değerlendirmesini sözlü olarak ifade edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.18",
+              "text": "Eleştirisini sözlü olarak ifade edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.19",
+              "text": "Problem çözümüne yönelik konuşma yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.26",
+              "text": "Konuşma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.3",
+              "text": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.11",
+              "text": "Yorumunu yazılı olarak ifade edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.13",
+              "text": "Değerlendirmesini yazılı olarak ifade edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.14",
+              "text": "Yazılı üretim ve etkileşimde tartışabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.15",
+              "text": "Eleştirisini yazılı olarak ifade edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.16",
+              "text": "Problem çözümüne yönelik yazabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.21",
+              "text": "Yazım kurallarını ve noktalama işaretlerini uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.22",
+              "text": "Yazma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "6. Tema: Hak Ve Sorumluluklar",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/312",
+          "hours": 28,
+          "keyConcepts": [
+            "hak",
+            "sorumluluk",
+            "adalet",
+            "özgürlük",
+            "eşitlik",
+            "barış",
+            "karşılaştırma",
+            "çözümleme",
+            "değerlendirme",
+            "hikâye unsurları",
+            "çoklu ortam ögeleri",
+            "geçiş ve bağlantı ifadeleri",
+            "açık ve örtük ifade",
+            "bağımsızlık",
+            "güven"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.7.1",
+              "text": "Dinleme/izlemede materyal seçimini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.10",
+              "text": "Dinledikleri/izledikleri arasında karşılaştırma yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.13",
+              "text": "Öyküleyici metinlerdeki hikâye unsurlarını çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.21",
+              "text": "Çoklu ortam ögelerini çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.7.27",
+              "text": "Dinleme/izleme sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.1",
+              "text": "Okumada materyal seçimini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.13",
+              "text": "Öyküleyici metinlerdeki hikâye unsurlarını çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.25",
+              "text": "Basılı ve dijital medya metinlerini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.7.28",
+              "text": "Okuma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.1",
+              "text": "Konuşma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.6",
+              "text": "Konuşmasında çoklu ortam ögeleriyle içerik oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.10",
+              "text": "Sözlü sunum yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.24",
+              "text": "Uygun geçiş ve bağlantı ifadelerini kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.7.26",
+              "text": "Konuşma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.1",
+              "text": "Yazma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.19",
+              "text": "Yazısında açık ve örtük ifadeleri kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.20",
+              "text": "Uygun geçiş ve bağlantı ifadelerini kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.21",
+              "text": "Yazım kuralları ve noktalama işaretlerini uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.7.22",
+              "text": "Yazma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 8,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ortaokul-turkce-dersi/9",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Tema: İletişim Ve Sosyal İlişkiler",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/319",
+          "hours": 29,
+          "keyConcepts": [
+            "genel ağ",
+            "sosyal medya",
+            "dijital içerik",
+            "yönetebilme",
+            "tahmin etme",
+            "çıkarım",
+            "yüzey anlam",
+            "derin anlam",
+            "yaratıcılık",
+            "öz yansıtma/kendini uyarlama",
+            "ikna etme teknikleri",
+            "hazırlıksız konuşma",
+            "empati",
+            "sorumluluk",
+            "güven",
+            "girişkenlik"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.8.1",
+              "text": "Dinleme/izlemede materyal seçimini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.2",
+              "text": "Dinleme/izlemede strateji ve yöntem seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.4",
+              "text": "Dinlerken/izlerken bilmediği söz varlığının anlamını tahmin edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.5",
+              "text": "Dinlediğinin/izlediğinin yüzey anlamını belirleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.7",
+              "text": "Dinlediğinin/izlediğinin derin anlamına yönelik basit çıkarımlar yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.27",
+              "text": "Dinleme/izleme sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.1",
+              "text": "Okumada materyal seçimini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.2",
+              "text": "Okumada strateji ve yöntem seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.4",
+              "text": "Metinde bilmediği söz varlığının anlamını tahmin edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.5",
+              "text": "Metnin yüzey anlamını belirleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.20",
+              "text": "Metinde kullanılan ikna etme tekniklerini çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.28",
+              "text": "Okuma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.1",
+              "text": "Konuşma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.2",
+              "text": "Konuşma yöntem ve tekniklerine yönelik seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.3",
+              "text": "Konuşmasında amaç ve içeriğe yönelik seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.7",
+              "text": "Dili yaratıcı biçimde kullanarak konuşabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.8",
+              "text": "Hazırlıksız konuşma yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.26",
+              "text": "Konuşma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.1",
+              "text": "Yazma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.2",
+              "text": "Yazma strateji, yöntem ve tekniklerine yönelik seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.3",
+              "text": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.8",
+              "text": "Yazılı üretim ve etkileşimde tahminlerinden yararlanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.21",
+              "text": "Yazım kuralları ve noktalama işaretlerini uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.22",
+              "text": "Yazma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Tema: Vatan Sevgisi",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/323",
+          "hours": 28,
+          "keyConcepts": [
+            "Atatürk",
+            "millî irade",
+            "vatanseverlik",
+            "anahtar kelime",
+            "çözümleme",
+            "çıkarım",
+            "tahmin etme",
+            "derin anlam",
+            "değerlendirme",
+            "eleştirme",
+            "ikna etme teknikleri",
+            "tartışma",
+            "yaratıcılık",
+            "azim ve kararlılık",
+            "sorumluluk",
+            "bağımsızlık"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.8.1",
+              "text": "Dinleme/izlemede materyal seçimini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.3",
+              "text": "Dinleyeceği/izleyeceği içerik hakkında tahminde bulunabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.8",
+              "text": "Dinlediğinin/izlediğinin derin anlamına yönelik üst düzey çıkarımlar yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.19",
+              "text": "Dinlediğinde/izlediğinde kullanılan ikna etme tekniklerini çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.20",
+              "text": "Dinlediğinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.23",
+              "text": "Dinlediğini/izlediğini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.25",
+              "text": "Dinlediğini/izlediğini eleştirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.27",
+              "text": "Dinleme/izleme sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.1",
+              "text": "Okumada materyal seçimini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.3",
+              "text": "Okuyacağı metnin içeriği hakkında tahminde bulunabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.6",
+              "text": "Görsellerle iletilen anlamı belirleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.7",
+              "text": "Metnin derin anlamına yönelik basit çıkarımlar yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.8",
+              "text": "Metnin derin anlamına yönelik üst düzey çıkarımlar yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.14",
+              "text": "Bilgilendirici metin yapılarından önemli bilgileri belirlemeye yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.15",
+              "text": "Bilgilendirici metinde anahtar kelimeleri belirlemeye yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.21",
+              "text": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.28",
+              "text": "Okuma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.1",
+              "text": "Konuşma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.4",
+              "text": "Konuşmasında ön bilgilerinden yararlanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.9",
+              "text": "Konuşmasında sesini uygun şekilde kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.17",
+              "text": "Sözlü olarak tartışabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.22",
+              "text": "Konuşmasını zenginleştirecek biçimde söz varlığını kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.25",
+              "text": "Konuşmasında beden dilini ve mekânı etkili kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.26",
+              "text": "Konuşma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.1",
+              "text": "Yazma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.4",
+              "text": "Yazılı üretimde ön bilgilerinden yararlanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.5",
+              "text": "Yazılı etkileşimde uygun tepki verebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.7",
+              "text": "Yaratıcı yazı yazabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.18",
+              "text": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.21",
+              "text": "Yazım kuralları ve noktalama işaretlerini uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.22",
+              "text": "Yazma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Tema: Doğa Ve İnsan",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/330",
+          "hours": 28,
+          "keyConcepts": [
+            "canlılar",
+            "doğa olayları",
+            "sürdürülebilirlik",
+            "çözümleme",
+            "tahmin etme",
+            "özetleme",
+            "yorumlama",
+            "değerlendirme",
+            "çoklu ortam ögeleri",
+            "hazırlıklı konuşma",
+            "geçiş ve bağlantı ifadeleri",
+            "düşünceyi geliştirme yolları",
+            "yazım kuralları ve noktalama işaretleri",
+            "sorumluluk",
+            "analitik düşünme",
+            "eleştirel bakma"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.8.1",
+              "text": "Dinleme/izlemede materyal seçimini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.6",
+              "text": "Görsellerle iletilen anlamı belirleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.17",
+              "text": "Bilgilendirici metinde düşünceyi geliştirme yollarını çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.21",
+              "text": "Çoklu ortam ögelerini çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.22",
+              "text": "Dinlediğini/izlediğini özetleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.24",
+              "text": "Medya içeriğini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.27",
+              "text": "Dinleme/izleme sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.1",
+              "text": "Okumada materyal seçimini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.4",
+              "text": "Bilmediği sözcüklerin anlamını bağlamdan tahmin edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.12",
+              "text": "Metni yorumlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.16",
+              "text": "Metnin bölümlerini belirlemeye yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.17",
+              "text": "Şiirin biçim özelliklerini belirlemeye yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.18",
+              "text": "Bilgilendirici metinde düşünceyi geliştirme yollarını çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.22",
+              "text": "Çoklu ortam ögelerini çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.28",
+              "text": "Okuma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.1",
+              "text": "Konuşma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.5",
+              "text": "Konuşmasında uygun tepki verebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.6",
+              "text": "Konuşmasında çoklu ortam ögeleriyle içerik oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.11",
+              "text": "Konuşmasında tahminlerinden yararlanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.14",
+              "text": "Yorumunu sözlü olarak ifade edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.20",
+              "text": "Hazırlıklı konuşmasını yapılandırabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.24",
+              "text": "Uygun geçiş ve bağlantı ifadelerini kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.26",
+              "text": "Konuşma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.1",
+              "text": "Yazma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.11",
+              "text": "Yorumunu yazılı olarak ifade edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.17",
+              "text": "Yazısında düşünceyi geliştirme yollarını kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.21",
+              "text": "Yazım kurallarını ve noktalama işaretlerini uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.22",
+              "text": "Yazma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Tema: Türk Hikâye Geleneği Ve Destanları",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/341",
+          "hours": 29,
+          "keyConcepts": [
+            "destan",
+            "efsane",
+            "halk hikâyesi",
+            "masal",
+            "çözümleme",
+            "sınıflandırma",
+            "karşılaştırma",
+            "özetleme",
+            "değerlendirme",
+            "düşünceyi geliştirme yolları",
+            "açık ve örtük ifade etmeye yönelik yapılar",
+            "çoklu ortam ögeleri",
+            "söz sanatları",
+            "merak",
+            "açık fikirlilik"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.8.1",
+              "text": "Dinleme/izlemede materyal seçimini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.2",
+              "text": "Dinleme/izlemede strateji ve yöntem seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.13",
+              "text": "Öyküleyici metinlerdeki hikâye unsurlarını çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.14",
+              "text": "Bilgilendirici metin yapılarından önemli bilgileri belirlemeye yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.18",
+              "text": "Dinlediği/izlediği metindeki söz sanatlarını belirlemeye yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.27",
+              "text": "Dinleme/izleme sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.1",
+              "text": "Okumada materyal seçimini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.2",
+              "text": "Okumada strateji ve yöntem seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.11",
+              "text": "Metindeki unsurları sınıflandırabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.13",
+              "text": "Öyküleyici metinlerdeki hikâye unsurlarını çözümleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.19",
+              "text": "Metindeki söz sanatlarını belirlemeye yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.23",
+              "text": "Okuduğunu özetleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.28",
+              "text": "Okuma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.1",
+              "text": "Konuşma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.13",
+              "text": "Konuşmasında sınıflandırma yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.15",
+              "text": "Sözlü olarak özetleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.21",
+              "text": "Konuşmasında düşünceyi geliştirme yollarını kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.23",
+              "text": "Konuşmasında açık ve örtük ifadeleri kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.26",
+              "text": "Konuşma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.1",
+              "text": "Yazma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.3",
+              "text": "Yazısında içerik ve yapıya yönelik seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.6",
+              "text": "Yazısında çoklu ortam ögeleriyle içerik oluşturabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.10",
+              "text": "Yazısında sınıflandırma yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.12",
+              "text": "Yazılı olarak özetleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.19",
+              "text": "Yazısında açık ve örtük ifadeleri kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.21",
+              "text": "Yazım kuralları ve noktalama işaretlerini uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.22",
+              "text": "Yazma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5. Tema: Sanat Ve Estetik",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/345",
+          "hours": 29,
+          "keyConcepts": [
+            "materyal seçimi",
+            "strateji, yöntem ve teknik",
+            "söz varlığı",
+            "derin anlam",
+            "yüzey anlam",
+            "eleştirme",
+            "düşünceyi geliştirme yolları",
+            "probleme çözüm üretme",
+            "soru sorma",
+            "açık ve örtük ifade",
+            "özetleme",
+            "yazım kuralları",
+            "noktalama işaretleri",
+            "dil yapıları ve söz varlığı"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.8.4",
+              "text": "Dinlerken/izlerken bilmediği söz varlığının anlamını tahmin edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.5",
+              "text": "Dinlediğinin/izlediğinin yüzey anlamını belirleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.6",
+              "text": "Basit çıkarımlarla dinlediğinin/izlediğinin derin anlamını belirleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.7",
+              "text": "Üst düzey çıkarımlarla dinlediğinin/izlediğinin derin anlamını belirleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.8",
+              "text": "Dinlediklerini/izlediklerini karşılaştırabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.18",
+              "text": "Dinlediğinden/izlediğinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.20",
+              "text": "Dinlediğini/izlediğini özetleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.23",
+              "text": "Dinlediğini/izlediğini eleştirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.25",
+              "text": "Dinleme/izleme sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.1",
+              "text": "Okumada materyal seçimini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.2",
+              "text": "Okumada strateji, yöntem ve teknik seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.4",
+              "text": "Metinde geçen bilmediği söz varlığının anlamını tahmin edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.5",
+              "text": "Metnin yüzey anlamını belirleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.7",
+              "text": "Basit çıkarımlarla metnin derin anlamını belirleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.8",
+              "text": "Üst düzey çıkarımlarla metnin derin anlamını belirleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.9",
+              "text": "Okuduklarını karşılaştırabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.11",
+              "text": "Metni yorumlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.20",
+              "text": "Metinden hareketle söz varlığını geliştirmeye yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.4",
+              "text": "İletişimi sürdürmek amacıyla soru sorabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.11",
+              "text": "Konuşmasında karşılaştırma yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.14",
+              "text": "Sözlü olarak özetleyebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.17",
+              "text": "Eleştirisini sözlü olarak ifade edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.20",
+              "text": "Düşünceyi geliştirme yollarını kullanarak konuşmasını yapılandırabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.21",
+              "text": "Konuşmasını zenginleştirecek biçimde söz varlığını kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.24",
+              "text": "Uygun bağlantı ifadelerini kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.26",
+              "text": "Konuşma sürecini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.2",
+              "text": "Yazmada strateji, yöntem ve teknik seçimlerini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.9",
+              "text": "Yorumunu yazılı olarak ifade edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.14",
+              "text": "Problem çözümüne yönelik yazabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.16",
+              "text": "Yazısını zenginleştirecek biçimde söz varlığını kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.17",
+              "text": "Yazısında açık ve örtük ifadeleri kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.19",
+              "text": "Uygun bağlantı ifadelerini kullanabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.20",
+              "text": "Yazım ve noktalama kurallarını uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "DYS.KY.8.4",
+              "text": "Yorum bildiren dil yapılarını ve söz varlığını işlevine uygun kullanabilme",
+              "subSkills": []
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "6. Tema: Akademik Düşünme Dünyası",
+          "url": "https://tymm.meb.gov.tr/ortaokul-turkce-dersi/unite/350",
+          "hours": 28,
+          "keyConcepts": [
+            "bilim",
+            "düşünme",
+            "problem çözme",
+            "anahtar kelime",
+            "çözümleme",
+            "eleştirme",
+            "değerlendirme",
+            "basılı ve dijital metinler",
+            "merak",
+            "azim",
+            "kendine inanma (öz yeterlilik)",
+            "sorumluluk",
+            "uzmanlaşma",
+            "gerçeği arama",
+            "sistematik olma",
+            "şüphe duyma",
+            "özgün düşünme"
+          ],
+          "outcomes": [
+            {
+              "code": "T.D.8.1",
+              "text": "Dinleme/izlemede materyal seçimini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.15",
+              "text": "Bilgilendirici metinde anahtar kelimeleri belirlemeye yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.16",
+              "text": "Metnin bölümlerini belirlemeye yönelik çözümleme yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.26",
+              "text": "Dinlediği/izlediği metindeki probleme çözüm üretebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.D.8.27",
+              "text": "Dinleme/izleme sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.1",
+              "text": "Okumada materyal seçimini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.25",
+              "text": "Basılı ve dijital medya metinlerini değerlendirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.26",
+              "text": "Metni eleştirebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.27",
+              "text": "Metindeki probleme çözüm üretebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.O.8.28",
+              "text": "Okuma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.1",
+              "text": "Konuşma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.18",
+              "text": "Eleştirisini sözlü olarak ifade edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.19",
+              "text": "Problem çözümüne yönelik konuşma yapabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.K.8.26",
+              "text": "Konuşma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.1",
+              "text": "Yazma sürecini yönetebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.15",
+              "text": "Eleştirisini yazılı olarak ifade edebilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.16",
+              "text": "Problem çözümüne yönelik yazabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.21",
+              "text": "Yazım kuralları ve noktalama işaretlerini uygulayabilme",
+              "subSkills": []
+            },
+            {
+              "code": "T.Y.8.22",
+              "text": "Yazma sürecine yönelik öz yansıtma yapabilme/kendini uyarlayabilme",
+              "subSkills": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Resmi ders adı: Ortaokul Türkçe Dersi. Türkçe programında öğrenme çıktıları beceri alanına göre kodlanır: T.D (Dinleme/İzleme), T.O (Okuma), T.K (Konuşma), T.Y (Yazma); aynı çıktı birden çok temada tekrar eder (tema bazında listelendi). Bu programda süreç bileşenleri (a, b, c...) tema sayfalarında yer almıyor, bu yüzden subSkills boş. Dil yapıları ve söz varlığı (DYS.DO = dinleme/okuma, DYS.KY = konuşma/yazma) maddeleri de outcomes içinde verildi; 5. sınıf dışında yalnızca 8. sınıf 5. temada (DYS.KY.8.4) bulunuyor, 6-7. sınıf tema sayfalarında DYS maddesi yok. Sitedeki kod yazım hataları düzeltildi: 5. sınıf 6. temada 'T.O.5.5.14' -> 'T.O.5.14'; 8. sınıf 5. temada 'DYS. KY.8.4.' -> 'DYS.KY.8.4'; kodlardaki sondaki noktalar kaldırıldı. Not: 8. sınıf 5. tema (Sanat ve Estetik) sayfasındaki kod numaraları diğer 8. sınıf temalarıyla tutarsız (ör. T.D.8.20 burada 'özetleme'); sitede basıldığı gibi alındı. Metinler kısa Türkçe özetlerdir. hours = temaya önerilen ders saati."
+}

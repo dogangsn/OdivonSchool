@@ -1,0 +1,848 @@
+{
+  "level": "ortaokul",
+  "subject": "Sosyal Bilgiler",
+  "programUrl": "https://tymm.meb.gov.tr/ogretim-programlari/ders/sosyal-bilgiler-dersi",
+  "grades": [
+    {
+      "grade": 5,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/sosyal-bilgiler-dersi/6",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Öğrenme Alanı: Birlikte Yaşamak",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/379",
+          "hours": 16,
+          "keyConcepts": [
+            "birlik ve beraberlik",
+            "dayanışma",
+            "grup",
+            "hak",
+            "kültür",
+            "rol",
+            "saygı",
+            "sorumluluk",
+            "STK",
+            "yardımlaşma"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.5.1.1",
+              "text": "Dahil olunan gruplar ile bu gruplardaki roller arasındaki ilişkiyi çözümleyebilme.",
+              "subSkills": [
+                "a) Dahil olunan grupları ve bu gruplardaki rolleri tespit eder.",
+                "b) Grup ile rol arasındaki bağlantıları belirler."
+              ]
+            },
+            {
+              "code": "SB.5.1.2",
+              "text": "Kültürel özelliklere saygının birlikte yaşamaya etkisini yorumlayabilme.",
+              "subSkills": [
+                "a) Kültürel saygının etkisini somut örnekler üzerinden inceler.",
+                "b) Bu etkiyi yazılı, görsel ya da dijital bir ürüne dönüştürür.",
+                "c) Bu etkiyi sözlü olarak dile getirir."
+              ]
+            },
+            {
+              "code": "SB.5.1.3",
+              "text": "Toplumsal birliği sürdürmeye yönelik yardımlaşma ve dayanışma faaliyetlerine katkı sağlayabilme.",
+              "subSkills": [
+                "a) Yardımlaşma ve dayanışma faaliyetlerine eleştirel bakar.",
+                "b) Bu faaliyetler için sosyal bağlantı kurar.",
+                "c) Grubun birlikte çalışmasını destekleyecek düzeni sağlar.",
+                "ç) Sosyal sorumluluk projesi için fikirler üretir.",
+                "d) Ürettiği fikirleri tartışarak değerlendirir.",
+                "e) Seçilen fikri uygulamaya geçirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Öğrenme Alanı: Evimiz Dünya",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/383",
+          "hours": 22,
+          "keyConcepts": [
+            "AFAD",
+            "afet",
+            "beşerî çevre",
+            "coğrafya",
+            "doğal çevre",
+            "göreceli konum",
+            "komşu devlet",
+            "sınır"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.5.2.1",
+              "text": "Yaşadığı ilin göreceli konum özelliklerini algılayabilme",
+              "subSkills": [
+                "a) İlin göreceli konum özelliklerini tespit eder.",
+                "b) Bu özellikleri görsel bir ürünle gösterir.",
+                "c) Bu özellikleri kısaca özetleyerek anlatır."
+              ]
+            },
+            {
+              "code": "SB.5.2.2",
+              "text": "Yaşadığı ildeki doğal ve beşerî çevre değişimini neden ve sonuçlarıyla yorumlayabilme",
+              "subSkills": [
+                "a) Değişime yol açan etkenleri inceler.",
+                "b) Değişimden etkilenen unsurları inceler.",
+                "c) Değişimin etkilerini sorgular.",
+                "ç) Değişimin neden ve sonuçlarını kanıtlara dayanarak açıklar."
+              ]
+            },
+            {
+              "code": "SB.5.2.3",
+              "text": "Yaşadığı ilde olası afetlerin etkilerini azaltmaya yönelik farkındalık etkinliği fikrini eyleme dönüştürebilme",
+              "subSkills": [
+                "a) Farkındalık etkinliği planı hazırlar.",
+                "b) Hazırladığı planı uygular.",
+                "c) Uygulanan planı değerlendirir."
+              ]
+            },
+            {
+              "code": "SB.5.2.4",
+              "text": "Kara sınırı olan komşu devletler hakkında bilgi toplayabilme",
+              "subSkills": [
+                "a) Komşu devletler için kullanılacak kaynakları belirler.",
+                "b) Belirlediği kaynaklardan ilgili bilgileri bulur.",
+                "c) Edindiği bilgileri doğrular.",
+                "ç) Edindiği bilgileri kaydeder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Öğrenme Alanı: Ortak Mirasımız",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/389",
+          "hours": 18,
+          "keyConcepts": [
+            "avcı-toplayıcı toplum",
+            "medeniyet",
+            "milat",
+            "ortak miras",
+            "UNESCO",
+            "yerleşik hayat"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.5.3.1",
+              "text": "Yaşadığı ildeki ortak miras ögelerine dair bir ürün oluşturup paylaşabilme",
+              "subSkills": [
+                "a) Yerel kültürel miras ögelerinden ortak mirasın önemi hakkında çıkarım yapar.",
+                "b) Çıkarımlarından yola çıkarak ortak mirasın önemini anlatan bir ürün oluşturur.",
+                "c) Çıkarımlarına dayalı ürününü paylaşır."
+              ]
+            },
+            {
+              "code": "SB.5.3.2",
+              "text": "Anadolu'da ilk yerleşimleri kuran toplumların sosyal hayatına dair bakış açısı geliştirebilme",
+              "subSkills": [
+                "a) Kaynaklardaki bilgilerle ilk yerleşim toplumlarının sosyal hayatını yorumlar.",
+                "b) Bu toplumların sosyal hayatına ilişkin tarihsel bağlam oluşturur.",
+                "c) Kaynaklara dayanarak bu toplumların sosyal hayatına dair bakış açısını yapılandırır."
+              ]
+            },
+            {
+              "code": "SB.5.3.3",
+              "text": "Mezopotamya ve Anadolu medeniyetlerinin ortak mirasa katkılarını karşılaştırabilme",
+              "subSkills": [
+                "a) Mezopotamya ve Anadolu medeniyetlerinin ortak mirasa katkılarını belirler.",
+                "b) Bu katkıların benzerliklerini listeler.",
+                "c) Bu katkıların farklılıklarını listeler."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Öğrenme Alanı: Yaşayan Demokrasimiz",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/394",
+          "hours": 23,
+          "keyConcepts": [
+            "cumhuriyet",
+            "demokrasi",
+            "etkin vatandaşlık",
+            "milli egemenlik",
+            "katılım",
+            "çoğulculuk",
+            "hukukun üstünlüğü"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.5.4.1",
+              "text": "Demokrasi ve cumhuriyet kavramları arasındaki ilişkiyi çözümleyebilme.",
+              "subSkills": [
+                "a) Demokrasi ve cumhuriyetin niteliklerini belirler.",
+                "b) Demokrasi ve cumhuriyet arasındaki ilişkiyi belirler."
+              ]
+            },
+            {
+              "code": "SB.5.4.2",
+              "text": "Etkin vatandaş olmanın toplum düzenine etkisine ilişkin çıkarımda bulunabilme.",
+              "subSkills": [
+                "a) Etkin vatandaş olmanın önemine ilişkin varsayımda bulunur.",
+                "b) Etkin vatandaşın sahip olması gereken özellikleri listeler.",
+                "c) Etkin ve etkin olmayan vatandaş özelliklerini karşılaştırır.",
+                "ç) Etkin vatandaş davranışlarının toplum düzenine etkisine dair önermelerde bulunur.",
+                "d) Etkin vatandaş olmanın önemini toplum düzeni açısından değerlendirir."
+              ]
+            },
+            {
+              "code": "SB.5.4.3",
+              "text": "Temel insan hak ve sorumluluklarının önemini sorgulayabilme.",
+              "subSkills": [
+                "a) Bu hak ve sorumluluklarla ilgili merak ettiği konuları tanımlar.",
+                "b) Bu hak ve sorumlulukların önemine dair sorular sorar.",
+                "c) Bu konuya ilişkin bilgi toplar.",
+                "ç) Topladığı bilgilerin doğruluğunu değerlendirir.",
+                "d) Topladığı bilgilerden yola çıkarak çıkarımlar yapar."
+              ]
+            },
+            {
+              "code": "SB.5.4.4",
+              "text": "İhtiyaç veya sorun karşısında başvurulabilecek kurumlar hakkında bilgi toplayabilme.",
+              "subSkills": [
+                "a) Kurumlar hakkında bilgi alabileceği kaynakları belirler.",
+                "b) Belirlediği kaynaklardan kurumlara ilişkin bilgileri bulur.",
+                "c) Ulaştığı kurum bilgilerini doğrular.",
+                "ç) Kurumlara ilişkin ulaştığı bilgileri kaydeder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5. Öğrenme Alanı: Hayatımızdaki Ekonomi",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/402",
+          "hours": 18,
+          "keyConcepts": [
+            "bütçe",
+            "gelir",
+            "gider",
+            "ekonomik faaliyet",
+            "sürdürülebilirlik",
+            "tasarruf"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.5.5.1",
+              "text": "Kaynakları verimli kullanmanın doğa ve insanlar üzerindeki etkilerini yorumlayabilme.",
+              "subSkills": [
+                "a) Kaynakların verimli kullanımının etkisini farklı kaynaklardan inceler.",
+                "b) Bu etkilere ilişkin bilgileri bağlamına uygun biçimde dönüştürür.",
+                "c) Bu etkiyi tarafsız, doğru ve anlamını koruyarak yeniden ifade eder."
+              ]
+            },
+            {
+              "code": "SB.5.5.2",
+              "text": "İhtiyaç ve isteklerini karşılamak için gerekli bütçe kaynaklarını yönetebilme.",
+              "subSkills": [
+                "a) İhtiyaç ve istekleri için gereken bütçe kaynaklarını belirler.",
+                "b) Bu kaynakları temin etme ve etkin kullanma yönünde bir taslak oluşturur."
+              ]
+            },
+            {
+              "code": "SB.5.5.3",
+              "text": "Yaşadığı ildeki ekonomik faaliyetleri özetleyebilme.",
+              "subSkills": [
+                "a) Yaşadığı ildeki ekonomik faaliyetleri çözümler.",
+                "b) Yaşadığı ildeki ekonomik faaliyetleri alanlarına göre sınıflandırır.",
+                "c) Yaşadığı ildeki ekonomik faaliyetleri yorumlar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "6. Öğrenme Alanı: Teknoloji Ve Sosyal Bilimler",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/405",
+          "hours": 6,
+          "keyConcepts": [
+            "dijital ayak izi",
+            "genel ağ",
+            "e-ticaret",
+            "teknoloji"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.5.6.1",
+              "text": "Teknolojik gelişmelerin toplumsal yaşama etkilerini gerekçeleriyle tartışabilme.",
+              "subSkills": [
+                "a) Teknolojinin topluma etkileri hakkında mantıklı gerekçeler sunar.",
+                "b) Etki tartışmalarındaki çelişkileri fark eder.",
+                "c) Etkilere dair görüşleri gerekçeleriyle reddeder ya da onaylar."
+              ]
+            },
+            {
+              "code": "SB.5.6.2",
+              "text": "Teknolojik ürünlerin bilinçli kullanımı konusunda hazırladığı ürünü paylaşabilme.",
+              "subSkills": [
+                "a) Bilinçli kullanımın önemi hakkında kanıtlara dayanarak sonuç çıkarır.",
+                "b) Kendi çıkarımlarına dayanarak bir ürün hazırlar.",
+                "c) Hazırladığı ürünleri sınıfla paylaşır."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 6,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/sosyal-bilgiler-dersi/7",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Öğrenme Alanı: Birlikte Yaşamak",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/417",
+          "hours": 16,
+          "keyConcepts": [
+            "birlik ve beraberlik",
+            "dil",
+            "din",
+            "gelenek ve görenek",
+            "grup",
+            "hak",
+            "kültür",
+            "millî değer",
+            "rol",
+            "sanat",
+            "sorumluluk",
+            "tarih",
+            "toplum"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.6.1.1",
+              "text": "Dâhil olunan grupların ve bu gruplardaki rollerin zamanla değişebileceğine dair çıkarım yapabilme",
+              "subSkills": [
+                "a) Dâhil olunan grup ve rollerin zamanla değişebileceğine dair varsayımda bulunur.",
+                "b) Çeşitli grupları ve bu gruplarda üstlenilen rolleri sıralar.",
+                "c) Farklı grup ve rolleri birbiriyle kıyaslar.",
+                "ç) Gelecekte dâhil olunabilecek grup ve roller hakkında öneri sunar.",
+                "d) Grup ve rollerin zaman içindeki değişimini değerlendirir."
+              ]
+            },
+            {
+              "code": "SB.6.1.2",
+              "text": "Kültürel bağlarımızın ve millî değerlerimizin toplumsal birliğe etkisini yorumlayabilme",
+              "subSkills": [
+                "a) Kültürel bağ ve millî değerlerin toplumsal birliğe katkısını inceler.",
+                "b) Bu konudaki bilgilerini bağlamına uygun biçimde yeniden işler.",
+                "c) Konuyu nesnel ve doğru biçimde, anlamı bozmadan yeniden anlatır."
+              ]
+            },
+            {
+              "code": "SB.6.1.3",
+              "text": "Toplumsal hayatta karşılaşılan sorunlara yönelik çözüm önerilerini müzakere edebilme",
+              "subSkills": [
+                "a) Toplumda yaşanan sorunları fark eder.",
+                "b) Sorunların nedenlerine ilişkin farklı bakış açılarını kıyaslar.",
+                "c) Sorunlara yönelik çözüm önerileri üretir.",
+                "ç) Önerilerini farklı görüş ve düşünceleri gözeterek düzenler.",
+                "d) Çözüm önerilerini savunur."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Öğrenme Alanı: Evimiz Dünya",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/418",
+          "hours": 18,
+          "keyConcepts": [
+            "beşerî çevre",
+            "doğal çevre",
+            "göç",
+            "göreceli konum",
+            "iklim",
+            "kültürel iş birliği",
+            "mutlak konum",
+            "nüfus",
+            "Türk Dünyası"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.6.2.1",
+              "text": "Türkiye, kıta ve okyanusların göreceli ve mutlak konum özelliklerini algılayabilme.",
+              "subSkills": [
+                "a) Göreceli ve mutlak konum özelliklerini belirler.",
+                "b) Bu konum özelliklerini haritalar üzerinde görselleştirir.",
+                "c) Bu konum özelliklerini sözlü olarak özetler."
+              ]
+            },
+            {
+              "code": "SB.6.2.2",
+              "text": "Türkiye'nin doğal ve beşerî çevre özellikleri arasındaki ilişkiyi çözümleyebilme.",
+              "subSkills": [
+                "a) Doğal ve beşerî çevre özelliklerini tespit eder.",
+                "b) Bu özellikler arasındaki ilişkiyi belirler."
+              ]
+            },
+            {
+              "code": "SB.6.2.3",
+              "text": "Türkiye'nin Türk dünyasıyla kültürel iş birliklerini yorumlayabilme.",
+              "subSkills": [
+                "a) Kültürel iş birliklerini inceler.",
+                "b) Bağlamını koruyarak bu iş birliklerini yeniden biçimlendirir.",
+                "c) Nesnel ve doğru biçimde, anlamı bozmadan yeniden ifade eder."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Öğrenme Alanı: Ortak Mirasımız",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/419",
+          "hours": 22,
+          "keyConcepts": [
+            "balbal",
+            "destan",
+            "Gök Tengri",
+            "Hicret",
+            "İslamiyet",
+            "kâğıt",
+            "konargöçer",
+            "töre"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.6.3.1",
+              "text": "Türkistan'daki ilk Türk devletlerinin medeniyetimize katkılarını kaynaklara dayanarak sorgulayabilme.",
+              "subSkills": [
+                "a) Bu katkılarla ilgili merak ettiği konuyu belirler.",
+                "b) Kaynaklara dayanarak konuyla ilgili sorular üretir.",
+                "c) Kaynaklardan konuyla ilgili bilgi toplar.",
+                "ç) Topladığı bilgilerin doğruluğunu değerlendirir.",
+                "d) Topladığı bilgilerden çıkarımlar yapar."
+              ]
+            },
+            {
+              "code": "SB.6.3.2",
+              "text": "VII-XIII. yüzyıllarda İslam medeniyetinin ortak mirasa katkılarına dair akıl yürütebilme.",
+              "subSkills": [
+                "a) İslam medeniyetinin ortak mirasa katkılarını belirler.",
+                "b) Bu katkıları eğitim, bilim, hukuk, kültür, sanat ve mimariyle ilişkilendirir.",
+                "c) Bu katkılar hakkında çıkarımlar yapar."
+              ]
+            },
+            {
+              "code": "SB.6.3.3",
+              "text": "İslamiyet'in kabulüyle Türk toplumunun sosyal ve kültürel hayatındaki değişime tarihsel bağlam kurabilme.",
+              "subSkills": [
+                "a) Kaynaklara dayanarak bu değişimi inceler.",
+                "b) Değişimin yaşandığı dönemin koşullarını fark eder.",
+                "c) Değişimin sonuçlarını günümüz koşullarıyla karşılaştırır.",
+                "ç) Değişimin sonuçlarını dönemin koşulları içinde açıklar."
+              ]
+            },
+            {
+              "code": "SB.6.3.4",
+              "text": "XI-XIII. yüzyıllardaki siyasi ve askerî mücadelelerin Anadolu'nun Türkleşme ve İslamlaşmasına etkisini özetleyebilme.",
+              "subSkills": [
+                "a) Anadolu'nun Türkleşme ve İslamlaşmasını etkileyen mücadeleleri çözümler.",
+                "b) Bu siyasi ve askerî mücadeleleri sınıflandırır.",
+                "c) Bu faaliyetlerin etkisini yorumlar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Öğrenme Alanı: Yaşayan Demokrasimiz",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/420",
+          "hours": 18,
+          "keyConcepts": [
+            "dijital vatandaşlık",
+            "hukuk",
+            "kamuoyu",
+            "medya",
+            "sivil toplum kuruluşu (STK)",
+            "siyasi parti"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.6.4.1",
+              "text": "Yönetimin karar alma sürecini etkileyen unsurları çözümleyebilme",
+              "subSkills": [
+                "a) Yönetimin karar alma sürecini etkileyen unsurları belirler.",
+                "b) Bu unsurlar arasındaki ilişkiyi belirler."
+              ]
+            },
+            {
+              "code": "SB.6.4.2",
+              "text": "Toplumsal düzenin sürdürülmesinde temel hak ve sorumlulukların önemini yorumlayabilme",
+              "subSkills": [
+                "a) Toplumsal düzenin sürdürülmesinde temel hak ve sorumlulukların önemini inceler.",
+                "b) Bu önemi bağlamdan kopmadan dönüştürür.",
+                "c) Bu önemi nesnel ve doğru biçimde, anlamını koruyarak yeniden ifade eder."
+              ]
+            },
+            {
+              "code": "SB.6.4.3",
+              "text": "Vatandaşlık haklarının kullanımında dijitalleşme ve teknolojik gelişmelerin etkilerini sorgulayabilme",
+              "subSkills": [
+                "a) Vatandaşlık haklarının kullanımına etkilerini tanımlar.",
+                "b) Bu etkiler hakkında sorular sorar.",
+                "c) Bu etkiler hakkında bilgi toplar.",
+                "ç) Topladığı bilgileri güncellik ve bilimsellik açısından değerlendirir.",
+                "d) Doğruluğunu değerlendirdiği bilgilerden çıkarımlar yapar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5. Öğrenme Alanı: Hayatımızdaki Ekonomi",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/421",
+          "hours": 18,
+          "keyConcepts": [
+            "doğal kaynak",
+            "ekonomik faaliyet",
+            "meslek",
+            "pazarlama",
+            "tasarım",
+            "üretim-dağıtım-tüketim",
+            "yatırım"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.6.5.1",
+              "text": "Ülkemizin doğal kaynakları ile ekonomik faaliyetler arasındaki ilişkileri çözümleyebilme.",
+              "subSkills": [
+                "a) Doğal kaynakların ve ekonomik faaliyetlerin özelliklerini belirler.",
+                "b) Doğal kaynaklar ile ekonomik faaliyetler arasındaki ilişkileri belirler."
+              ]
+            },
+            {
+              "code": "SB.6.5.2",
+              "text": "Ekonomik faaliyetler ile meslekler arasında ilişki kurup geleceğin meslekleri hakkında çıkarım yapabilme.",
+              "subSkills": [
+                "a) Gözlem ve deneyimlerinden yola çıkarak faaliyet ve meslekleri ilişkilendirir.",
+                "b) Ekonomik değişime bağlı olarak gelecekte doğabilecek meslekler hakkında çıkarımda bulunur."
+              ]
+            },
+            {
+              "code": "SB.6.5.3",
+              "text": "Tasarladığı bir ürün için yatırım ve pazarlama proje önerisi hazırlayabilme.",
+              "subSkills": [
+                "a) Tasarladığı ürünün yatırım ve pazarlama projelerini sorgular.",
+                "b) Gözlemlerine dayalı olarak ürünün yatırım ve pazarlama alanlarına ilişkin tahminlerde bulunur.",
+                "c) Olası riskleri değerlendirerek yatırım ve pazarlama alanlarını gerekçeleriyle belirler.",
+                "ç) Ürünün yatırım ve pazarlama aşaması için gerekli kaynakları yönetir.",
+                "d) Ürün için yatırım ve pazarlama proje öneri raporu oluşturur."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "6. Öğrenme Alanı: Teknoloji Ve Sosyal Bilimler",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/422",
+          "hours": 11,
+          "keyConcepts": [
+            "emek",
+            "fikir",
+            "fikrî mülkiyet",
+            "iletişim",
+            "marka",
+            "patent",
+            "telif",
+            "tescil",
+            "ulaşım"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.6.6.1",
+              "text": "Ulaşım ve iletişim teknolojilerinin kültürel etkileşimdeki rolünü yapılandırabilme.",
+              "subSkills": [
+                "a) Ulaşım ve iletişim gelişmelerinin kültürel etkileşimdeki rolüne ilişkin nedensel bağlantıları ortaya koyar.",
+                "b) Bu role dair anlamlı ve bütünlüklü bir çerçeve oluşturur."
+              ]
+            },
+            {
+              "code": "SB.6.6.2",
+              "text": "Bir ürün veya fikrin telif ve patent haklarıyla ilgili bilgi toplayabilme.",
+              "subSkills": [
+                "a) Telif ve patent süreçleri için bilgi toplanacak kaynakları belirler.",
+                "b) Belirlediği kaynaklardan telif ve patent bilgilerini toplar.",
+                "c) Topladığı telif ve patent bilgilerini doğrular.",
+                "ç) Doğruladığı bilgileri kayıt altına alır."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "grade": 7,
+      "gradeUrl": "https://tymm.meb.gov.tr/ogretim-programlari/sosyal-bilgiler-dersi/8",
+      "themes": [
+        {
+          "order": 1,
+          "name": "1. Öğrenme Alanı: Birlikte Yaşamak",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/423",
+          "hours": 16,
+          "keyConcepts": [
+            "davranış",
+            "etkili iletişim",
+            "fırsat eşitliği",
+            "grup",
+            "iletişim",
+            "kitle iletişim",
+            "özel gereksinim",
+            "sosyal hayat",
+            "toplum",
+            "tutum"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.7.1.1",
+              "text": "Grup ve sosyal hayatta etkili iletişimin önemini sorgulayabilme.",
+              "subSkills": [
+                "a) Etkili iletişimin önemiyle ilgili merak ettiği konuları belirler.",
+                "b) Bu konularla ilgili sorular sorar.",
+                "c) Bu konularda bilgi toplar.",
+                "ç) Topladığı bilgilerin doğruluğunu değerlendirir.",
+                "d) Değerlendirmelerinden olumlu iletişimin önemine dair çıkarım yapar."
+              ]
+            },
+            {
+              "code": "SB.7.1.2",
+              "text": "Özel gereksinimli bireylere yönelik fırsat eşitliğini sürdürmek için fikir üretebilme.",
+              "subSkills": [
+                "a) Fırsat eşitliğini sürdürmenin önemini fark eder.",
+                "b) Benzer girişimleri inceler.",
+                "c) Yeni fikirler üretir."
+              ]
+            },
+            {
+              "code": "SB.7.1.3",
+              "text": "Türk toplumunun millî meselelerdeki tutum ve davranışları hakkında çıkarım yapabilme.",
+              "subSkills": [
+                "a) Türk toplumunun tutum ve davranışlarına ilişkin varsayımlarda bulunur.",
+                "b) Bu tutum ve davranışlara ilişkin örnekleri listeler.",
+                "c) Tutum ve davranışları karşılaştırır.",
+                "ç) Olası millî meseleler karşısındaki tutum ve davranışlara dair önermelerde bulunur.",
+                "d) Tutum ve davranışları toplumsal birlikteliğe etkisi açısından değerlendirir."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "2. Öğrenme Alanı: Evimiz Dünya",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/424",
+          "hours": 10,
+          "keyConcepts": [
+            "değişim",
+            "dış politika",
+            "girişimcilik",
+            "küreselleşme",
+            "küresel sorunlar"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.7.2.1",
+              "text": "Küreselleşmenin insan ve toplum yaşamındaki değişimlerini yorumlayabilme.",
+              "subSkills": [
+                "a) Küreselleşmenin insan ve toplum yaşamındaki değişimini inceler.",
+                "b) Bu değişimi bağlamından kopmadan dönüştürür.",
+                "c) Bu değişimi nesnel, doğru ve anlamı koruyarak yeniden ifade eder."
+              ]
+            },
+            {
+              "code": "SB.7.2.2",
+              "text": "Bölgesel ve küresel sorunların çözümünde ülkemizin rolünü özetleyebilme.",
+              "subSkills": [
+                "a) Ülkemizin bu sorunlardaki rolüne ilişkin çözümleme yapar.",
+                "b) Ülkemizin rolüne ilişkin sınıflandırma yapar.",
+                "c) Ülkemizin bu rolünü yorumlar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "3. Öğrenme Alanı: Ortak Mirasımız",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/425",
+          "hours": 25,
+          "keyConcepts": [
+            "cihad",
+            "fetih",
+            "gaza",
+            "iskân",
+            "istimalet"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.7.3.1",
+              "text": "Osmanlı Devleti'nin cihan devleti olmasını sağlayan politikaları kaynaklara dayanarak sorgulayabilme.",
+              "subSkills": [
+                "a) Politikalarla ilgili merak ettiği konuyu tanımlar.",
+                "b) Verilen kaynaklara dayanarak sorular sorar.",
+                "c) Verilen kaynaklardan bilgi toplar.",
+                "ç) Topladığı bilgilerin doğruluğunu değerlendirir.",
+                "d) Edindiği bilgilerden hareketle çıkarım yapar."
+              ]
+            },
+            {
+              "code": "SB.7.3.2",
+              "text": "Değişen dünya dengeleri karşısında Osmanlı'nın yeniliklerini neden ve sonuçlarıyla yorumlayabilme.",
+              "subSkills": [
+                "a) Yeniliklerin nedenlerini inceler.",
+                "b) Yeniliklerin etkilediği unsurları inceler.",
+                "c) Yeniliklerin etkilerini sorgular.",
+                "ç) Neden ve sonuçları elde ettiği bilgilere dayanarak ifade eder."
+              ]
+            },
+            {
+              "code": "SB.7.3.3",
+              "text": "Osmanlı kültür ve medeniyet unsurlarına ilişkin hazırladığı ürünü paylaşabilme.",
+              "subSkills": [
+                "a) Unsurların temel özelliklerine ilişkin kanıtlardan çıkarım yapar.",
+                "b) Kanıtlardaki bilgilerden yola çıkarak görüşünü yansıtan ürün oluşturur.",
+                "c) Görüşlerine dayalı olarak oluşturduğu ürünü paylaşır."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "4. Öğrenme Alanı: Yaşayan Demokrasimiz",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/426",
+          "hours": 22,
+          "keyConcepts": [
+            "demokratik devlet",
+            "genel oy ilkesi",
+            "hukuk devleti",
+            "kuvvetler ayrılığı",
+            "kuvvetler birliği",
+            "laik devlet",
+            "siyasi parti",
+            "sosyal devlet",
+            "yargı",
+            "yasama",
+            "yürütme"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.7.4.1",
+              "text": "Türkiye Cumhuriyeti'nin temel niteliklerini özetleyebilme.",
+              "subSkills": [
+                "a) Temel niteliklerini çözümler.",
+                "b) Temel niteliklerini sınıflandırır.",
+                "c) Temel niteliklerini yorumlar."
+              ]
+            },
+            {
+              "code": "SB.7.4.2",
+              "text": "Türkiye Cumhuriyeti Devleti'nin yönetim yapısını çözümleyebilme.",
+              "subSkills": [
+                "a) Yönetim yapısını belirler.",
+                "b) Yönetim yapısını oluşturan unsurlar arasındaki ilişkileri belirler."
+              ]
+            },
+            {
+              "code": "SB.7.4.3",
+              "text": "Ülkemizdeki demokrasinin gelişimini temel ilkeler açısından yorumlayabilme.",
+              "subSkills": [
+                "a) Demokrasi ile ülke demokrasi tarihi arasındaki ilişkiyi kaynaklardan inceler.",
+                "b) Aynı ilişkiyi anlamını değiştirmeden, nesnel biçimde yeniden ifade eder."
+              ]
+            },
+            {
+              "code": "SB.7.4.4",
+              "text": "Demokrasinin uygulama sürecinde karşılaşılan sorunları özetleyebilme.",
+              "subSkills": [
+                "a) Karşılaşılabilecek sorunları çözümler.",
+                "b) Karşılaşılabilecek sorunları sınıflandırır.",
+                "c) Karşılaşılabilecek sorunları yorumlar."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "5. Öğrenme Alanı: Hayatımızdaki Ekonomi",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/427",
+          "hours": 12,
+          "keyConcepts": [
+            "ekonomi",
+            "kalkınma",
+            "üretim-dağıtım-tüketim",
+            "yatırım"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.7.5.1",
+              "text": "Millî kalkınma hamlelerinin nedenlerini ve sonuçlarını yorumlayabilme.",
+              "subSkills": [
+                "a) Millî kalkınma hamlelerine yol açan etkenleri inceler.",
+                "b) Bu hamlelerden etkilenen unsurları inceler.",
+                "c) Hamlelerin etkilerinin niteliğini sorgular.",
+                "ç) Neden ve sonuçları bağlamından koparmadan yeniden ifade eder."
+              ]
+            },
+            {
+              "code": "SB.7.5.2",
+              "text": "Ekonomik gelişmişlik ile üretim-dağıtım-tüketim döngüsü arasındaki ilişkiyi çözümleyebilme.",
+              "subSkills": [
+                "a) Ekonomik gelişmişlik unsurlarını ve üretim-dağıtım-tüketim döngüsünü belirler.",
+                "b) Gelişmişlik unsurları ile üretim, dağıtım ve tüketim arasındaki ilişkiyi belirler."
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "6. Öğrenme Alanı: Teknoloji Ve Sosyal Bilimler",
+          "url": "https://tymm.meb.gov.tr/sosyal-bilgiler-dersi/unite/428",
+          "hours": 18,
+          "keyConcepts": [
+            "bilimsel etik",
+            "gelecek",
+            "problem",
+            "sosyal bilimler",
+            "önerme",
+            "toplum"
+          ],
+          "outcomes": [
+            {
+              "code": "SB.7.6.1",
+              "text": "Bilim ve teknolojinin gelecekte topluma etkilerine ilişkin kanıta dayalı öngörüde bulunabilme",
+              "subSkills": [
+                "a) Günümüzdeki bilim ve teknoloji etkilerini kanıt, gözlem ve deneyimlerle ilişkilendirir.",
+                "b) Bu ilişkilere dayanarak geleceğe yönelik çıkarımlar yapar."
+              ]
+            },
+            {
+              "code": "SB.7.6.2",
+              "text": "Örnek metinlerden hareketle sosyal bilimlerin çalışma alanlarına dair genellemeler yapabilme",
+              "subSkills": [
+                "a) Örnek metinlerden sosyal bilimlerin çalışma alanlarına dair bilgi toplar.",
+                "b) Çalışma alanlarının ortak özelliklerini belirler.",
+                "c) Çalışma alanlarının farklılıklarını belirler.",
+                "ç) Gözlenen örüntülerden yola çıkarak sosyal bilimler hakkında önermeler geliştirir."
+              ]
+            },
+            {
+              "code": "SB.7.6.3",
+              "text": "Toplumsal hayatta karşılaşılabilecek bir probleme yönelik bilimsel sorgulama yapabilme",
+              "subSkills": [
+                "a) Toplumsal hayatta karşılaşılabilecek bir problemi tanımlar.",
+                "b) Probleme yönelik kullanabileceği bir çözüm modeli geliştirir.",
+                "c) Çözüme yönelik araştırmayı planlar ve uygular.",
+                "ç) Probleme ilişkin verileri analiz eder ve yorumlar.",
+                "d) Kanıta dayalı açıklamalar yaparak probleme çözüm üretir.",
+                "e) Probleme ilişkin bilgiyi değerlendirir ve paylaşır."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": "Resmi ders adı: Sosyal Bilgiler Dersi (4-7. sınıflar tek program; burada 5-7 alındı). 8. sınıfta bu ders yoktur; yerine T.C. İnkılap Tarihi ve Atatürkçülük okutulur (ayrı dosya: ortaokul-inkilap-tarihi.json). Site temaları 'Öğrenme Alanı' olarak adlandırıyor; ad formatı 'N. Öğrenme Alanı: <Ad>'. Kazanım metinleri ve süreç bileşenleri kısa Türkçe özetlerdir (birebir metin değildir). hours = önerilen ders saati."
+}
