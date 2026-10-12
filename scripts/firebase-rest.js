@@ -9,7 +9,8 @@ const path = require('path');
 const https = require('https');
 
 const PROJECT_ID = 'odivonschool';
-const GEMINI_MODEL = 'gemini-3.8-flash';
+// Override with GEMINI_MODEL (e.g. gemini-3.5-flash-lite for a cheaper model).
+const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-3.8-flash';
 
 function readFirebaseToken() {
   const configPath = path.join(os.homedir(), '.config', 'configstore', 'firebase-tools.json');

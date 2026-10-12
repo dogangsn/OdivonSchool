@@ -19,6 +19,8 @@
  *   --start=0        listede kaldığı yerden devam
  *   --draft          soruları onay masasına taslak olarak yaz (varsayılan: onaylı yayınla)
  *   --dry-run        hiçbir şey yazmadan hangi kategorilerin işleneceğini listele
+ *
+ * Model: GEMINI_MODEL ortam değişkeniyle değiştirilebilir (varsayılan gemini-3.8-flash).
  */
 const { CATEGORIES } = require('./categories');
 const { buildQuestionPrompt } = require('./question-prompt');
@@ -145,8 +147,12 @@ async function main() {
       console.log(`  ✅ ${questions.length}/${raw.length} geçerli soru yazıldı.`);
     } catch (err) {
       console.error(`  ❌ Hata: ${err.message}`);
-      // Expired Firebase login or bad Gemini key: every later category would fail too.
-      if (/UNAUTHENTICATED|API_KEY_INVALID/.test(err.message)) process.exit(1);
+      // Expired Firebase login, bad Gemini key or daily quota used up: every later
+      // category would fail too, so stop and print where to resume.
+      if (/UNAUTHENTICATED|API_KEY_INVALID|PerDay/.test(err.message)) {
+        console.error(`\n⛔ Durduruldu. Kaldığı yerden devam için aynı komuta --start=${i} ekleyin.`);
+        process.exit(1);
+      }
     }
     if (i < targets.length - 1) await sleep(opts.delay);
   }
