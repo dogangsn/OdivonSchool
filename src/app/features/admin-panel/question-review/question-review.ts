@@ -1,8 +1,9 @@
-import { Component, inject, signal, computed, OnInit } from '@angular/core';
+import { Component, inject, signal, computed, effect, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
-import { toSignal } from '@angular/core/rxjs-interop';
-import { AiGeneratorService } from '../../../core/services/ai-generator';
+import { toObservable, toSignal } from '@angular/core/rxjs-interop';
+import { switchMap, tap } from 'rxjs';
+import { AiGeneratorService, DraftCursor, DraftPage } from '../../../core/services/ai-generator';
 import { FirestoreService } from '../../../core/services/firestore';
 import { Question } from '../../../models/question';
 import { TestCategory } from '../../../models/test-category';
@@ -20,8 +21,30 @@ export class QuestionReview implements OnInit {
   // All categories from Firestore
   categories = toSignal(this.firestoreSvc.allCategories(), { initialValue: [] });
 
-  // Real-time draft questions from Firestore
-  draftQuestions = toSignal(this.aiGen.draftQuestions(), { initialValue: [] });
+  // --- Draft pagination (server-side, 20 per page) ---
+  readonly pageSize = 20;
+  /** Cursors of the pages before the current one; empty on page 1. */
+  private cursorStack = signal<DraftCursor[]>([]);
+  pageNumber = computed(() => this.cursorStack().length + 1);
+  draftTotal = signal(0);
+  totalPages = computed(() => Math.max(1, Math.ceil(this.draftTotal() / this.pageSize)));
+
+  private draftPage = toSignal(
+    toObservable(this.cursorStack).pipe(
+      switchMap((stack) => this.aiGen.draftPage(stack.at(-1) ?? null, this.pageSize)),
+      tap(() => this.refreshDraftTotal())
+    ),
+    { initialValue: { items: [], hasNext: false } as DraftPage }
+  );
+  draftQuestions = computed(() => this.draftPage().items);
+  hasNextPage = computed(() => this.draftPage().hasNext);
+
+  // --- Selection on the current page ---
+  selectedIds = signal<ReadonlySet<string>>(new Set());
+  selectedCount = computed(() => this.selectedIds().size);
+  allOnPageSelected = computed(
+    () => this.draftQuestions().length > 0 && this.draftQuestions().every((q) => this.selectedIds().has(q.id))
+  );
 
   /** "3. Sınıf · " for single-grade (MEB tema) categories. */
   gradePrefix(cat: TestCategory): string {
@@ -52,6 +75,8 @@ export class QuestionReview implements OnInit {
   generateMessage = signal<{ type: 'success' | 'danger' | 'info'; text: string } | null>(null);
   reviewingId = signal<string | null>(null);
   bulkApproving = signal(false);
+  bulkRejecting = signal(false);
+  bulkBusy = computed(() => this.bulkApproving() || this.bulkRejecting());
 
   // API Key modal / drawer
   showApiKeyModal = signal(false);
@@ -70,6 +95,22 @@ export class QuestionReview implements OnInit {
   editExplanation = signal('');
   editDifficulty = signal<1 | 2 | 3 | 4 | 5>(2);
   savingEdit = signal(false);
+
+  constructor() {
+    // Keep the selection limited to questions still on this page, and step
+    // back a page when everything on the current one has been reviewed.
+    effect(() => {
+      const page = this.draftPage();
+      const ids = new Set(page.items.map((q) => q.id));
+      const selected = this.selectedIds();
+      if ([...selected].some((id) => !ids.has(id))) {
+        this.selectedIds.set(new Set([...selected].filter((id) => ids.has(id))));
+      }
+      if (page.items.length === 0 && this.cursorStack().length > 0) {
+        this.cursorStack.update((s) => s.slice(0, -1));
+      }
+    });
+  }
 
   ngOnInit() {
     this.apiKeyInput.set(this.aiGen.apiKey());
@@ -145,6 +186,7 @@ export class QuestionReview implements OnInit {
         type: 'success',
         text: `✔ Başarılı: Gemini 3.8 Flash tarafından ${questions.length} adet soru üretildi ve onay havuzuna eklendi!`,
       });
+      this.refreshDraftTotal();
     } catch (err: any) {
       this.generateMessage.set({
         type: 'danger',
@@ -164,6 +206,7 @@ export class QuestionReview implements OnInit {
       alert(`Onaylama hatası: ${err.message}`);
     } finally {
       this.reviewingId.set(null);
+      this.refreshDraftTotal();
     }
   }
 
@@ -176,18 +219,105 @@ export class QuestionReview implements OnInit {
       alert(`Silme hatası: ${err.message}`);
     } finally {
       this.reviewingId.set(null);
+      this.refreshDraftTotal();
+    }
+  }
+
+  // --- Pagination ---
+  nextPage() {
+    const last = this.draftQuestions().at(-1);
+    if (!last || !this.hasNextPage()) return;
+    this.selectedIds.set(new Set());
+    this.cursorStack.update((s) => [...s, { createdAt: last.createdAt ?? 0, id: last.id }]);
+  }
+
+  prevPage() {
+    if (this.cursorStack().length === 0) return;
+    this.selectedIds.set(new Set());
+    this.cursorStack.update((s) => s.slice(0, -1));
+  }
+
+  firstPage() {
+    this.selectedIds.set(new Set());
+    this.cursorStack.set([]);
+  }
+
+  private async refreshDraftTotal() {
+    try {
+      this.draftTotal.set(await this.aiGen.draftCount());
+    } catch {
+      // Count is informational; keep the last known value.
+    }
+  }
+
+  // --- Selection ---
+  isSelected(id: string): boolean {
+    return this.selectedIds().has(id);
+  }
+
+  toggleSelect(id: string) {
+    const next = new Set(this.selectedIds());
+    if (next.has(id)) next.delete(id);
+    else next.add(id);
+    this.selectedIds.set(next);
+  }
+
+  toggleSelectPage() {
+    this.selectedIds.set(
+      this.allOnPageSelected() ? new Set() : new Set(this.draftQuestions().map((q) => q.id))
+    );
+  }
+
+  // --- Bulk Actions ---
+  async bulkApproveSelected() {
+    const ids = [...this.selectedIds()];
+    if (ids.length === 0) return;
+    if (!confirm(`Seçili ${ids.length} soruyu onaylayıp canlıya almak istiyor musunuz?`)) return;
+
+    this.bulkApproving.set(true);
+    try {
+      await this.aiGen.bulkApprove(ids);
+      this.selectedIds.set(new Set());
+      this.generateMessage.set({
+        type: 'success',
+        text: `✔ Seçili ${ids.length} soru onaylandı ve öğrencilerin havuzuna eklendi!`,
+      });
+    } catch (err: any) {
+      alert(`Toplu onay hatası: ${err.message}`);
+    } finally {
+      this.bulkApproving.set(false);
+      this.refreshDraftTotal();
+    }
+  }
+
+  async bulkRejectSelected() {
+    const ids = [...this.selectedIds()];
+    if (ids.length === 0) return;
+    if (!confirm(`Seçili ${ids.length} taslak soruyu silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.`)) return;
+
+    this.bulkRejecting.set(true);
+    try {
+      await this.aiGen.bulkReject(ids);
+      this.selectedIds.set(new Set());
+      this.generateMessage.set({ type: 'info', text: `Seçili ${ids.length} taslak soru silindi.` });
+    } catch (err: any) {
+      alert(`Toplu silme hatası: ${err.message}`);
+    } finally {
+      this.bulkRejecting.set(false);
+      this.refreshDraftTotal();
     }
   }
 
   async bulkApproveAll() {
-    const drafts = this.draftQuestions();
-    if (drafts.length === 0) return;
-    if (!confirm(`Onay bekleyen ${drafts.length} sorunun tamamını onaylayıp canlıya almak istiyor musunuz?`)) return;
-
     this.bulkApproving.set(true);
     try {
-      const ids = drafts.map((q) => q.id);
+      const ids = await this.aiGen.allDraftIds();
+      if (ids.length === 0) return;
+      if (!confirm(`Onay bekleyen ${ids.length} sorunun tamamını (tüm sayfalar) onaylayıp canlıya almak istiyor musunuz?`)) return;
+
       await this.aiGen.bulkApprove(ids);
+      this.selectedIds.set(new Set());
+      this.cursorStack.set([]);
       this.generateMessage.set({
         type: 'success',
         text: `✔ Tüm sorular (${ids.length} adet) başarıyla onaylandı ve öğrencilerin havuzuna eklendi!`,
@@ -196,6 +326,7 @@ export class QuestionReview implements OnInit {
       alert(`Toplu onay hatası: ${err.message}`);
     } finally {
       this.bulkApproving.set(false);
+      this.refreshDraftTotal();
     }
   }
 

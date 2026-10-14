@@ -10,14 +10,35 @@ import {
   writeBatch,
   query,
   where,
+  orderBy,
+  limit,
+  startAfter,
+  documentId,
+  getDocs,
+  getCountFromServer,
+  QueryConstraint,
 } from '@angular/fire/firestore';
-import { Observable, map } from 'rxjs';
+import { Observable, catchError, map } from 'rxjs';
 import { Question } from '../../models/question';
 import { TestCategory } from '../../models/test-category';
 import { buildQuestionPrompt } from '../utils/question-prompt';
 
 const API_KEY_STORAGE_KEY = 'odivon_gemini_api_key';
 const GEMINI_MODEL = 'gemini-3.8-flash';
+
+/** Position of the last question on a page; the next page starts after it. */
+export interface DraftCursor {
+  createdAt: number;
+  id: string;
+}
+
+export interface DraftPage {
+  items: Question[];
+  hasNext: boolean;
+}
+
+/** Firestore batches accept at most 500 writes. */
+const BATCH_CHUNK = 450;
 
 export interface GeneratedQuestionItem {
   prompt: string;
@@ -211,11 +232,60 @@ export class AiGeneratorService {
    * Real-time stream of draft questions awaiting review.
    */
   draftQuestions(): Observable<Question[]> {
-    const ref = collection(this.firestore, 'questions');
-    const q = query(ref, where('reviewStatus', '==', 'draft'));
-    return (collectionData(q, { idField: 'id' }) as Observable<Question[]>).pipe(
-      map((list) => list.slice().sort((a, b) => (b.createdAt ?? 0) - (a.createdAt ?? 0)))
+    return (collectionData(this.draftQuery(), { idField: 'id' }) as Observable<Question[]>).pipe(
+      map((list) => list.slice().sort(compareDrafts))
     );
+  }
+
+  /**
+   * Real-time stream of one page of draft questions, newest first. Paging is
+   * done in Firestore with a (createdAt, id) cursor; one extra document is
+   * fetched to know whether a next page exists. Needs the
+   * questions(reviewStatus, createdAt desc) composite index — until it is
+   * deployed, falls back to paging the full draft list in the browser.
+   */
+  draftPage(cursor: DraftCursor | null, pageSize: number): Observable<DraftPage> {
+    const constraints: QueryConstraint[] = [
+      where('reviewStatus', '==', 'draft'),
+      orderBy('createdAt', 'desc'),
+      orderBy(documentId(), 'desc'),
+    ];
+    if (cursor) constraints.push(startAfter(cursor.createdAt, cursor.id));
+    constraints.push(limit(pageSize + 1));
+
+    const ref = collection(this.firestore, 'questions');
+    return (collectionData(query(ref, ...constraints), { idField: 'id' }) as Observable<Question[]>).pipe(
+      map((list) => ({ items: list.slice(0, pageSize), hasNext: list.length > pageSize })),
+      catchError((err) => {
+        console.warn(
+          'Taslak sayfalama indeksi bulunamadı, istemci tarafı sayfalamaya geçiliyor. ' +
+            '`firebase deploy --only firestore:indexes` çalıştırın.',
+          err
+        );
+        return this.draftQuestions().pipe(
+          map((list) => {
+            const rest = cursor ? list.filter((q) => compareDrafts(q, cursorAsQuestion(cursor)) > 0) : list;
+            return { items: rest.slice(0, pageSize), hasNext: rest.length > pageSize };
+          })
+        );
+      })
+    );
+  }
+
+  /** Total number of drafts, counted on the server. */
+  async draftCount(): Promise<number> {
+    const snap = await getCountFromServer(this.draftQuery());
+    return snap.data().count;
+  }
+
+  /** Ids of every draft question, for "approve all". */
+  async allDraftIds(): Promise<string[]> {
+    const snap = await getDocs(this.draftQuery());
+    return snap.docs.map((d) => d.id);
+  }
+
+  private draftQuery() {
+    return query(collection(this.firestore, 'questions'), where('reviewStatus', '==', 'draft'));
   }
 
   /**
@@ -243,14 +313,40 @@ export class AiGeneratorService {
   }
 
   /**
-   * Approves all draft questions in bulk.
+   * Approves the given draft questions in bulk.
    */
   async bulkApprove(questionIds: string[]): Promise<void> {
-    const batch = writeBatch(this.firestore);
-    for (const id of questionIds) {
-      const ref = doc(this.firestore, `questions/${id}`);
-      batch.update(ref, { reviewStatus: 'approved' });
-    }
-    await batch.commit();
+    await this.inBatches(questionIds, (batch, id) =>
+      batch.update(doc(this.firestore, `questions/${id}`), { reviewStatus: 'approved' })
+    );
   }
+
+  /**
+   * Deletes the given draft questions in bulk.
+   */
+  async bulkReject(questionIds: string[]): Promise<void> {
+    await this.inBatches(questionIds, (batch, id) => batch.delete(doc(this.firestore, `questions/${id}`)));
+  }
+
+  private async inBatches(
+    ids: string[],
+    op: (batch: ReturnType<typeof writeBatch>, id: string) => void
+  ): Promise<void> {
+    for (let i = 0; i < ids.length; i += BATCH_CHUNK) {
+      const batch = writeBatch(this.firestore);
+      for (const id of ids.slice(i, i + BATCH_CHUNK)) op(batch, id);
+      await batch.commit();
+    }
+  }
+}
+
+/** Newest first, ties broken by id descending — same order as draftPage(). */
+function compareDrafts(a: Pick<Question, 'createdAt' | 'id'>, b: Pick<Question, 'createdAt' | 'id'>): number {
+  const byTime = (b.createdAt ?? 0) - (a.createdAt ?? 0);
+  if (byTime !== 0) return byTime;
+  return a.id < b.id ? 1 : a.id > b.id ? -1 : 0;
+}
+
+function cursorAsQuestion(c: DraftCursor): Pick<Question, 'createdAt' | 'id'> {
+  return { createdAt: c.createdAt, id: c.id };
 }
