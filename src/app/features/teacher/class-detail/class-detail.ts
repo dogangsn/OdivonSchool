@@ -20,6 +20,8 @@ import { ClassTrackingComponent } from '../class-tracking/class-tracking';
 import { LiveService } from '../../../core/services/live';
 import { poolToLive, quizItemToLive } from '../../../core/live-scoring';
 import { LiveQuestion } from '../../../models/live';
+import { AccountResult, StudentAccountService } from '../../../core/services/student-accounts';
+import { MAX_ACCOUNTS_PER_BATCH, parseNameList } from '../../../core/student-accounts';
 
 type Tab = 'takip' | 'odevler' | 'ogrenciler';
 
@@ -42,6 +44,7 @@ export class ClassDetail {
   private classroomSvc = inject(ClassroomService);
   private firestoreSvc = inject(FirestoreService);
   private liveSvc = inject(LiveService);
+  private accountSvc = inject(StudentAccountService);
   private router = inject(Router);
 
   readonly classId = this.route.snapshot.paramMap.get('classId') ?? '';
@@ -130,6 +133,19 @@ export class ClassDetail {
   liveStarting = signal(false);
   liveError = signal<string | null>(null);
   activeLive = toSignal(this.liveSvc.activeSessions(this.classId), { initialValue: [] });
+
+  // --- Teacher-created student accounts ---
+  readonly maxAccounts = MAX_ACCOUNTS_PER_BATCH;
+  accounts = toSignal(this.accountSvc.accounts(this.classId), { initialValue: [] });
+  usernameByUid = computed(() => new Map(this.accounts().map((a) => [a.uid, a.username])));
+  accountsOpen = signal(false);
+  nameList = '';
+  parsedNames = signal<string[]>([]);
+  accountProgress = signal<{ done: number; total: number } | null>(null);
+  accountResults = signal<AccountResult[] | null>(null);
+  accountError = signal<string | null>(null);
+  okResults = computed(() => (this.accountResults() ?? []).filter((r) => r.account));
+  failedResults = computed(() => (this.accountResults() ?? []).filter((r) => r.error));
 
   constructor() {
     effect(() => {
@@ -321,6 +337,42 @@ export class ClassDetail {
       this.liveError.set(`Yarışma başlatılamadı: ${err?.message ?? err}`);
     } finally {
       this.liveStarting.set(false);
+    }
+  }
+
+  openAccounts() {
+    this.nameList = '';
+    this.parsedNames.set([]);
+    this.accountResults.set(null);
+    this.accountError.set(null);
+    this.accountProgress.set(null);
+    this.accountsOpen.set(true);
+  }
+
+  onNamesChange(text: string) {
+    this.nameList = text;
+    this.parsedNames.set(parseNameList(text));
+  }
+
+  async createAccounts() {
+    const c = this.classroom();
+    const names = this.parsedNames();
+    if (!c || names.length === 0 || this.accountProgress()) return;
+    if (names.length > MAX_ACCOUNTS_PER_BATCH) {
+      this.accountError.set(`Bir seferde en fazla ${MAX_ACCOUNTS_PER_BATCH} hesap açılabilir.`);
+      return;
+    }
+    this.accountError.set(null);
+    this.accountProgress.set({ done: 0, total: names.length });
+    try {
+      const results = await this.accountSvc.createAccounts(c, names, (done, total) =>
+        this.accountProgress.set({ done, total })
+      );
+      this.accountResults.set(results);
+    } catch (err: any) {
+      this.accountError.set(`Hesaplar açılamadı: ${err?.message ?? err}`);
+    } finally {
+      this.accountProgress.set(null);
     }
   }
 

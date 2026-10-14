@@ -34,6 +34,14 @@ export interface AppUser {
 
   // Öğretmen sınıfları the student joined (membership docs are the source of truth)
   classIds?: string[];
+
+  // Notification preferences (missing = on)
+  notifyPush?: boolean;
+  notifyEmail?: boolean;
+
+  /** Set when a teacher created this account (kullanıcı adı + şifre, no real e-mail). */
+  createdByTeacher?: string;
+  username?: string;
 }
 
 /** Profile chosen on the sign-up form. */

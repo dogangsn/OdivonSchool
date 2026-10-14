@@ -257,6 +257,18 @@
     background: linear-gradient(135deg, #f59e0b, #ef4444);
   }
 
+  &.tile-clock {
+    background: linear-gradient(135deg, #0ea5e9, #2563eb);
+  }
+
+  &.tile-numberline {
+    background: linear-gradient(135deg, #10b981, #0d9488);
+  }
+
+  &.tile-fraction {
+    background: linear-gradient(135deg, #a855f7, #f97316);
+  }
+
   &.tile-quiz {
     background: linear-gradient(135deg, #0ea5e9, #6366f1);
     min-height: 120px;

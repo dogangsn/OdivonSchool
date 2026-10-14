@@ -61,9 +61,22 @@ service cloud.firestore {
           request.resource.data.diff(resource.data).affectedKeys()
             .hasOnly(['displayName', 'gradeLevel', 'grade', 'school', 'branch',
                       'lastNotifSeenAt', 'xp', 'streakDays', 'lastPlayedDate', 'badges',
-                      'classIds']) &&
-          isValidProgress(request.resource.data, resource.data));
+                      'classIds', 'notifyPush', 'notifyEmail']) &&
+          isValidProgress(request.resource.data, resource.data) &&
+          request.resource.data.get('notifyPush', true) is bool &&
+          request.resource.data.get('notifyEmail', true) is bool);
       allow delete: if isAdmin();
+
+      // Browser/phone push tokens (FCM). Only the owner manages them; the
+      // daily digest function reads them with the Admin SDK.
+      match /fcmTokens/{tokenId} {
+        allow read, delete: if isOwner(userId);
+        allow create, update: if isOwner(userId) &&
+          request.resource.data.keys().hasOnly(['token', 'createdAt', 'userAgent']) &&
+          request.resource.data.token is string &&
+          request.resource.data.token.size() < 4096 &&
+          request.resource.data.createdAt is int;
+      }
     }
 
     match /categories/{categoryId} {
@@ -90,7 +103,7 @@ service cloud.firestore {
       allow read: if isAdmin() || (isSignedIn() && resource.data.userId == request.auth.uid);
       allow create: if isSignedIn() &&
         request.resource.data.userId == request.auth.uid &&
-        request.resource.data.gameType in ['speed', 'quiz', 'match', 'truefalse', 'sort'] &&
+        request.resource.data.gameType in ['speed', 'quiz', 'match', 'truefalse', 'sort', 'clock', 'numberline', 'fraction'] &&
         request.resource.data.score is int && request.resource.data.score >= 0 &&
         request.resource.data.score <= 100000 &&
         request.resource.data.correct is int && request.resource.data.total is int &&
@@ -201,6 +214,16 @@ service cloud.firestore {
         allow create, update: if request.auth.uid == studentId && isClassMember(classId) &&
           isValidClassProgress(request.resource.data);
         allow delete: if isClassTeacher(classId);
+      }
+
+      // Usernames of accounts the teacher opened (teacher only; never passwords).
+      match /accounts/{studentId} {
+        allow read, delete: if isClassTeacher(classId);
+        allow create: if isClassTeacher(classId) &&
+          request.resource.data.keys().hasOnly(['uid', 'name', 'username', 'createdAt']) &&
+          request.resource.data.uid == studentId &&
+          exists(/databases/$(database)/documents/classes/$(classId)/members/$(studentId));
+        allow update: if false;
       }
 
       // Weekly XP league inside the class; classmates see each other's XP only.

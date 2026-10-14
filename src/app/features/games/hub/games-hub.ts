@@ -9,10 +9,23 @@ import { SPEED_PRESETS } from '../../../games/math-generator';
 import { MATCH_SETS } from '../../../games/match-sets';
 import { TRUEFALSE_SETS } from '../../../games/truefalse-sets';
 import { SORT_SETS } from '../../../games/sort-sets';
+import { CLOCK_PRESETS } from '../../../games/clock-game';
+import { NUMBERLINE_PRESETS } from '../../../games/numberline-game';
+import { FRACTION_PRESETS } from '../../../games/fraction-game';
 import { ALL_BADGES, levelForXp, levelProgress } from '../../../games/scoring';
 
 const MIN_QUIZ_QUESTIONS = 3;
 const DEFAULT_GRADE = 3;
+
+interface InteractiveTile {
+  id: string;
+  game: string;
+  title: string;
+  description: string;
+  emoji: string;
+  link: string[];
+  tile: string;
+}
 
 interface SubjectGroup {
   subject: string;
@@ -45,6 +58,15 @@ export class GamesHub {
   matchSets = computed(() => MATCH_SETS.filter((s) => s.grades.includes(this.gameGrade())));
   trueFalseSets = computed(() => TRUEFALSE_SETS.filter((s) => s.grades.includes(this.gameGrade())));
   sortSets = computed(() => SORT_SETS.filter((s) => s.grades.includes(this.gameGrade())));
+  /** Etkileşimli Matematik: Saat Ustası, Sayı Doğrusu, Kesir Pizzası. */
+  interactiveGames = computed<InteractiveTile[]>(() => {
+    const g = this.gameGrade();
+    return [
+      ...CLOCK_PRESETS.filter((p) => p.grades.includes(g)).map((p) => ({ ...p, game: 'Saat Ustası', link: ['/oyun/saat', p.id], tile: 'tile-clock' })),
+      ...NUMBERLINE_PRESETS.filter((p) => p.grades.includes(g)).map((p) => ({ ...p, game: 'Sayı Doğrusu', link: ['/oyun/sayi-dogrusu', p.id], tile: 'tile-numberline' })),
+      ...FRACTION_PRESETS.filter((p) => p.grades.includes(g)).map((p) => ({ ...p, game: 'Kesir Pizzası', link: ['/oyun/kesir', p.id], tile: 'tile-fraction' })),
+    ];
+  });
 
   private levelCategories = toSignal(
     toObservable(this.grade).pipe(

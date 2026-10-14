@@ -272,6 +272,90 @@
   }
 }
 
+// Notification settings
+.notify-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.notify-row {
+  flex-wrap: nowrap;
+
+  .sec-text {
+    flex: 1;
+    min-width: 0;
+  }
+}
+
+.notify-note {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+  margin: -4px 4px 0;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 28px;
+  flex-shrink: 0;
+  cursor: pointer;
+
+  input {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    cursor: pointer;
+    z-index: 1;
+
+    &:disabled {
+      cursor: wait;
+    }
+  }
+
+  .slider {
+    position: absolute;
+    inset: 0;
+    background-color: var(--border-strong);
+    border-radius: var(--radius-full);
+    transition: background-color var(--transition-fast);
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 22px;
+      height: 22px;
+      left: 3px;
+      top: 3px;
+      background-color: #ffffff;
+      border-radius: 50%;
+      box-shadow: var(--shadow-sm);
+      transition: transform var(--transition-fast);
+    }
+  }
+
+  input:checked + .slider {
+    background-color: var(--primary);
+
+    &::before {
+      transform: translateX(20px);
+    }
+  }
+
+  input:focus-visible + .slider {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+  }
+
+  input:disabled + .slider {
+    opacity: 0.6;
+  }
+}
+
 @media (max-width: 900px) {
   .profile-grid {
     grid-template-columns: 1fr;

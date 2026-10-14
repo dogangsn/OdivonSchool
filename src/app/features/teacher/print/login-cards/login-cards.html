@@ -1,0 +1,43 @@
+<div class="container t-page">
+  <div class="print-toolbar">
+    <div>
+      <a [routerLink]="['/ogretmen/sinif', classId]" class="t-crumb">← Sınıfa dön</a>
+      <h1>Giriş kartları</h1>
+      @if (hasFresh()) {
+        <p class="t-sub">Yeni açılan {{ cards().length }} hesabın kartı. Şifreler kaydedilmez; sayfayı kapatmadan yazdırın.</p>
+      } @else {
+        <p class="t-sub">Şifreler güvenlik için saklanmaz. Kartlarda şifre yeri boş bırakılır; elle yazabilirsiniz.</p>
+      }
+    </div>
+    <div class="pt-actions">
+      <button type="button" class="btn primary" (click)="print()" [disabled]="!cards().length">🖨️ Yazdır / PDF</button>
+    </div>
+  </div>
+
+  @for (page of pages(); track $index) {
+    <div class="print-sheet cards-sheet">
+      @for (card of page; track card.username) {
+        <div class="login-card">
+          <div class="lc-head">
+            <span class="lc-brand">Odivon<b>School</b></span>
+            <span class="lc-class">{{ classroom()?.name }}</span>
+          </div>
+          <div class="lc-name">{{ card.name }}</div>
+          <div class="lc-row"><span>Adres</span><b>{{ site }}</b></div>
+          <div class="lc-row"><span>Kullanıcı adı</span><b class="mono">{{ card.username }}</b></div>
+          <div class="lc-row"><span>Şifre</span>@if (card.password) { <b class="mono">{{ card.password }}</b> } @else { <b class="blank"></b> }</div>
+          <p class="lc-note">
+            Sayın veli, çocuğunuz öğretmeni tarafından OdivonSchool'a eklendi. Hesapta e-posta yoktur; yalnızca ad ve sınıf bilgisi tutulur.
+            Giriş ekranında “E-posta veya kullanıcı adı” kutusuna kullanıcı adını yazın.
+          </p>
+        </div>
+      }
+    </div>
+  } @empty {
+    <div class="t-empty card">
+      <span class="t-empty-emoji">🪪</span>
+      <h3>Henüz öğretmen tarafından açılmış hesap yok</h3>
+      <a class="btn outline" [routerLink]="['/ogretmen/sinif', classId]">Sınıfa dön</a>
+    </div>
+  }
+</div>

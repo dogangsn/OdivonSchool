@@ -54,6 +54,18 @@ export const routes: Routes = [
     loadComponent: () => import('./features/games/sort-game/sort-game').then(m => m.SortGame),
   },
   {
+    path: 'oyun/saat/:presetId',
+    loadComponent: () => import('./features/games/clock/clock-game').then(m => m.ClockGame),
+  },
+  {
+    path: 'oyun/sayi-dogrusu/:presetId',
+    loadComponent: () => import('./features/games/number-line/number-line').then(m => m.NumberLine),
+  },
+  {
+    path: 'oyun/kesir/:presetId',
+    loadComponent: () => import('./features/games/fraction-pizza/fraction-pizza').then(m => m.FractionPizza),
+  },
+  {
     path: 'oyun/yarisma/:categoryId',
     loadComponent: () => import('./features/games/quiz/quiz').then(m => m.Quiz),
   },
@@ -82,6 +94,18 @@ export const routes: Routes = [
     path: 'ogretmen/icerik/:id',
     canActivate: [teacherGuard],
     loadComponent: () => import('./features/teacher/content-editor/content-editor').then(m => m.ContentEditor),
+  },
+  {
+    path: 'ogretmen/sinif/:classId/kartlar',
+    canActivate: [teacherGuard],
+    loadComponent: () =>
+      import('./features/teacher/print/login-cards/login-cards').then(m => m.LoginCards),
+  },
+  {
+    path: 'ogretmen/sinif/:classId/rapor',
+    canActivate: [teacherGuard],
+    loadComponent: () =>
+      import('./features/teacher/print/parent-report/parent-report').then(m => m.ParentReport),
   },
   {
     path: 'ogretmen/canli/:classId/:sessionId',

@@ -1,0 +1,233 @@
+<div class="game-page">
+  <div class="game-topbar">
+    <a [routerLink]="backLink()" class="game-back">← Geri</a>
+    <div class="game-tools">
+      @if (canSpeak && phase() === 'playing') {
+        <button class="icon-btn" type="button" title="Sesli oku" (click)="readAloud()">🔊</button>
+      }
+      <button class="icon-btn" type="button" [title]="sound() ? 'Sesi kapat' : 'Sesi aç'" (click)="toggleSound()">
+        {{ sound() ? '🔔' : '🔕' }}
+      </button>
+    </div>
+  </div>
+
+  @if (preset(); as preset) {
+    @switch (phase()) {
+      @case ('intro') {
+        <div class="game-stage theme-sky">
+          <div class="game-intro">
+            <div class="intro-emoji">{{ preset.emoji }}</div>
+            <h1>Saat Ustası · {{ preset.title }}</h1>
+            <p>{{ preset.description }}. Bazen saati okuyacak, bazen akrep ile yelkovanı sürükleyip saati kendin kuracaksın.</p>
+            <div class="intro-rules">
+              <span>🔟 {{ roundSize }} soru</span>
+              <span>🔵 Akrep: kısa kol</span>
+              <span>🔴 Yelkovan: uzun kol</span>
+              <span>✋ Sürükle ya da kadrana dokun</span>
+              <span>⌨️ Ok tuşları + Enter</span>
+            </div>
+            <button class="btn-play" type="button" (click)="start()">▶ Başla</button>
+          </div>
+        </div>
+      }
+
+      @case ('done') {
+        @if (outcome(); as o) {
+          <app-game-result [outcome]="o" [reward]="reward()" [backLink]="backLink()" (replay)="start()" />
+        }
+      }
+
+      @default {
+        @if (current(); as p) {
+          <div class="game-stage theme-sky">
+            <div class="game-hud">
+              <span class="hud-pill">Soru {{ round.index() + 1 }}/{{ round.total() }}</span>
+              @if (round.streak() > 1) {
+                <span class="hud-pill hud-combo">🔥 {{ round.streak() }} seri</span>
+              }
+              <span class="hud-pill">⭐ {{ round.score() }}</span>
+            </div>
+
+            <div class="ia-progress" aria-hidden="true">
+              <div class="ia-progress-fill" [style.width.%]="progressPercent()"></div>
+            </div>
+
+            <div class="ia-prompt" aria-live="polite">
+              @if (p.mode === 'read') {
+                <span class="ia-prompt-kicker">👀 Saati oku</span>
+                <strong class="ia-prompt-main">Saat kaç?</strong>
+              } @else {
+                <span class="ia-prompt-kicker">✋ Saati kur</span>
+                <strong class="ia-prompt-main clock-phrase">{{ capitalized(p.phrase) }}</strong>
+                <span class="ia-chip">{{ p.digital }}</span>
+              }
+            </div>
+
+            <div class="clock-board" [class.set-mode]="p.mode === 'set'">
+              <svg
+                class="clock-svg ia-board-svg"
+                viewBox="-110 -110 220 220"
+                [class.can-drag]="canDrag()"
+                [class.is-dragging]="dragging() !== null"
+                [attr.aria-label]="p.mode === 'read' ? 'Analog saat' : 'Kurulacak analog saat'"
+                (pointerdown)="onDialPointerDown($event)"
+                (pointermove)="onDialPointerMove($event)"
+                (pointerup)="onDialPointerUp($event)"
+                (pointercancel)="onDialPointerUp($event)"
+                (lostpointercapture)="onDialPointerUp($event)"
+              >
+                <circle class="dial-rim" r="104" />
+                <circle class="dial-face" r="98" />
+                @for (t of ticks; track $index) {
+                  <line [attr.x1]="t.x1" [attr.y1]="t.y1" [attr.x2]="t.x2" [attr.y2]="t.y2" [class.major]="t.major" class="dial-tick" />
+                }
+                @for (d of numbers; track d.n) {
+                  <text class="dial-num" [attr.x]="d.x" [attr.y]="d.y" text-anchor="middle" dominant-baseline="central">{{ d.n }}</text>
+                }
+
+                @if (ghost(); as g) {
+                  <g class="hand ghost" [attr.transform]="'rotate(' + g.hour + ')'">
+                    <line x1="0" y1="8" x2="0" y2="-50" class="hand-line hour" />
+                  </g>
+                  <g class="hand ghost" [attr.transform]="'rotate(' + g.minute + ')'">
+                    <line x1="0" y1="10" x2="0" y2="-80" class="hand-line minute" />
+                  </g>
+                }
+
+                <g
+                  class="hand hour-hand"
+                  data-hand="hour"
+                  [class.active]="canDrag() && activeHand() === 'hour'"
+                  [class.focused]="focusedHand() === 'hour'"
+                  [attr.transform]="'rotate(' + hourAngle() + ')'"
+                  [attr.tabindex]="canDrag() ? 0 : null"
+                  [attr.role]="canDrag() ? 'slider' : null"
+                  [attr.aria-label]="canDrag() ? 'Akrep (kısa kol). Ok tuşlarıyla çevir.' : null"
+                  [attr.aria-valuemin]="canDrag() ? 1 : null"
+                  [attr.aria-valuemax]="canDrag() ? 12 : null"
+                  [attr.aria-valuenow]="canDrag() ? time().hour : null"
+                  [attr.aria-valuetext]="canDrag() ? handValueText('hour') : null"
+                  (keydown)="onHandKey($event, 'hour')"
+                  (focus)="focusedHand.set('hour'); selectHand('hour')"
+                  (blur)="focusedHand.set(null)"
+                >
+                  <line x1="0" y1="8" x2="0" y2="-50" class="hand-hit" />
+                  <line x1="0" y1="8" x2="0" y2="-50" class="hand-line hour" />
+                  @if (canDrag()) {
+                    <circle cx="0" cy="-50" r="9" class="hand-knob hour" />
+                  }
+                </g>
+                <g
+                  class="hand minute-hand"
+                  data-hand="minute"
+                  [class.active]="canDrag() && activeHand() === 'minute'"
+                  [class.focused]="focusedHand() === 'minute'"
+                  [attr.transform]="'rotate(' + minuteAngle() + ')'"
+                  [attr.tabindex]="canDrag() ? 0 : null"
+                  [attr.role]="canDrag() ? 'slider' : null"
+                  [attr.aria-label]="canDrag() ? 'Yelkovan (uzun kol). Ok tuşlarıyla çevir.' : null"
+                  [attr.aria-valuemin]="canDrag() ? 0 : null"
+                  [attr.aria-valuemax]="canDrag() ? 59 : null"
+                  [attr.aria-valuenow]="canDrag() ? time().minute : null"
+                  [attr.aria-valuetext]="canDrag() ? handValueText('minute') : null"
+                  (keydown)="onHandKey($event, 'minute')"
+                  (focus)="focusedHand.set('minute'); selectHand('minute')"
+                  (blur)="focusedHand.set(null)"
+                >
+                  <line x1="0" y1="10" x2="0" y2="-80" class="hand-hit" />
+                  <line x1="0" y1="10" x2="0" y2="-80" class="hand-line minute" />
+                  @if (canDrag()) {
+                    <circle cx="0" cy="-80" r="8" class="hand-knob minute" />
+                  }
+                </g>
+                <circle class="dial-pin" r="6" />
+              </svg>
+            </div>
+
+            @if (p.mode === 'read') {
+              <div class="answer-grid clock-options">
+                @for (opt of p.options; track opt; let i = $index) {
+                  <button
+                    class="answer-btn"
+                    type="button"
+                    [disabled]="phase() !== 'playing'"
+                    [class.correct]="phase() === 'feedback' && opt === p.digital"
+                    [class.wrong]="picked() === opt && opt !== p.digital"
+                    [class.dimmed]="phase() === 'feedback' && opt !== p.digital && picked() !== opt"
+                    (click)="choose(opt)"
+                  >
+                    <span class="key-hint">{{ i + 1 }}</span>
+                    <span class="opt-digital">{{ opt }}</span>
+                    <span class="opt-phrase">{{ optionPhrase(opt) }}</span>
+                  </button>
+                }
+              </div>
+            } @else {
+              <div class="ia-controls">
+                <div class="hand-stepper hour">
+                  <button type="button" class="ia-step-btn" [disabled]="!canDrag()" aria-label="Akrebi geri al" (click)="nudge('hour', -1)">◀</button>
+                  <button
+                    type="button"
+                    class="hand-chip hour"
+                    [class.on]="activeHand() === 'hour'"
+                    [attr.aria-pressed]="activeHand() === 'hour'"
+                    [disabled]="!canDrag()"
+                    (click)="selectHand('hour')"
+                  >🔵 Akrep</button>
+                  <button type="button" class="ia-step-btn" [disabled]="!canDrag()" aria-label="Akrebi ileri al" (click)="nudge('hour', 1)">▶</button>
+                </div>
+                <div class="hand-stepper minute">
+                  <button type="button" class="ia-step-btn" [disabled]="!canDrag()" aria-label="Yelkovanı geri al" (click)="nudge('minute', -1)">◀</button>
+                  <button
+                    type="button"
+                    class="hand-chip minute"
+                    [class.on]="activeHand() === 'minute'"
+                    [attr.aria-pressed]="activeHand() === 'minute'"
+                    [disabled]="!canDrag()"
+                    (click)="selectHand('minute')"
+                  >🔴 Yelkovan</button>
+                  <button type="button" class="ia-step-btn" [disabled]="!canDrag()" aria-label="Yelkovanı ileri al" (click)="nudge('minute', 1)">▶</button>
+                </div>
+              </div>
+              @if (phase() === 'playing') {
+                <div class="ia-check-row">
+                  <button class="btn-play small" type="button" (click)="check()">✔ Kontrol et</button>
+                </div>
+              }
+            }
+
+            @if (phase() === 'feedback') {
+              @if (wasCorrect()) {
+                <div class="ia-toast">✅ Doğru! {{ capitalized(p.phrase) }} · +{{ round.lastPoints() }} puan</div>
+              } @else {
+                <div class="learn-panel">
+                  @if (p.mode === 'set') {
+                    <div class="learn-title">💡 Senin kurduğun saat: {{ picked() }} · Doğrusu: {{ p.digital }}</div>
+                    <p class="ghost-note"><span class="ghost-swatch"></span> Yeşil kollar doğru yeri gösteriyor.</p>
+                  } @else {
+                    <div class="learn-title">💡 Doğru cevap: {{ p.digital }}</div>
+                  }
+                  <p>{{ p.explanation }}</p>
+                  <div class="learn-actions">
+                    <button class="btn-play small" type="button" (click)="next()">
+                      {{ round.isLast() ? 'Sonuçları gör' : 'Anladım, devam →' }}
+                    </button>
+                  </div>
+                </div>
+              }
+            }
+          </div>
+        }
+      }
+    }
+  } @else {
+    <div class="game-stage theme-sky">
+      <div class="game-intro">
+        <div class="intro-emoji">🤔</div>
+        <h1>Bu oyunu bulamadık</h1>
+        <p>Oyun listesinden yeni bir oyun seçebilirsin.</p>
+        <a routerLink="/oyunlar" class="btn-play">Oyunlara Dön</a>
+      </div>
+    </div>
+  }
+</div>

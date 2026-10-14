@@ -35,7 +35,7 @@
   </section>
 
   @if (isReview()) {
-    <p class="review-note">Hız Turu, Eşleştir, Doğru mu Yanlış mı? ve Sınıflandır oyunları ilkokul konularını içerir; {{ grade() }}. sınıf için tekrar amaçlı 4. sınıf seviyesini gösteriyoruz.</p>
+    <p class="review-note">Hız Turu, Etkileşimli Matematik, Eşleştir, Doğru mu Yanlış mı? ve Sınıflandır oyunları ilkokul konularını içerir; {{ grade() }}. sınıf için tekrar amaçlı 4. sınıf seviyesini gösteriyoruz.</p>
   }
 
   <section class="game-section">
@@ -51,6 +51,25 @@
           <small>{{ p.description }}</small>
           <span class="tile-cta">Oyna →</span>
         </a>
+      }
+    </div>
+  </section>
+
+  <section class="game-section">
+    <div class="section-head">
+      <h2>🧮 Etkileşimli Matematik</h2>
+      <p>Saatin kollarını çevir, sayı doğrusunda yer bul, pizzayı dilim dilim boya.</p>
+    </div>
+    <div class="game-grid">
+      @for (t of interactiveGames(); track t.id) {
+        <a class="game-tile" [class]="t.tile" [routerLink]="t.link">
+          <span class="tile-emoji">{{ t.emoji }}</span>
+          <strong>{{ t.title }}</strong>
+          <small>{{ t.game }} · {{ t.description }}</small>
+          <span class="tile-cta">Oyna →</span>
+        </a>
+      } @empty {
+        <p class="empty-note">Bu sınıf için etkileşimli matematik oyunu yakında.</p>
       }
     </div>
   </section>

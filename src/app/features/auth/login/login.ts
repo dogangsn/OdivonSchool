@@ -3,6 +3,7 @@ import { FormsModule } from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
 import { AuthService } from '../../../core/services/auth';
 import { getAuthErrorMessage } from '../../../core/utils/auth-error';
+import { loginIdToEmail } from '../../../core/student-accounts';
 
 @Component({
   selector: 'app-login',
@@ -23,7 +24,7 @@ export class Login {
     this.errorMessage.set(null);
     this.loading.set(true);
     try {
-      await this.auth.login(this.email, this.password);
+      await this.auth.login(loginIdToEmail(this.email), this.password);
       this.router.navigateByUrl(await this.auth.homeUrl());
     } catch (err: any) {
       console.error('[Login] submit error:', err);

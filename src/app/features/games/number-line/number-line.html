@@ -1,0 +1,162 @@
+<div class="game-page">
+  <div class="game-topbar">
+    <a [routerLink]="backLink()" class="game-back">← Geri</a>
+    <div class="game-tools">
+      @if (canSpeak && phase() === 'playing') {
+        <button class="icon-btn" type="button" title="Sesli oku" (click)="readAloud()">🔊</button>
+      }
+      <button class="icon-btn" type="button" [title]="sound() ? 'Sesi kapat' : 'Sesi aç'" (click)="toggleSound()">
+        {{ sound() ? '🔔' : '🔕' }}
+      </button>
+    </div>
+  </div>
+
+  @if (preset(); as preset) {
+    @switch (phase()) {
+      @case ('intro') {
+        <div class="game-stage theme-mint">
+          <div class="game-intro">
+            <div class="intro-emoji">{{ preset.emoji }}</div>
+            <h1>Sayı Doğrusu · {{ preset.title }}</h1>
+            <p>{{ preset.description }}. İşaretçiyi sürükleyip sayının doğrudaki yerine bırak, sonra “Kontrol et”e bas.</p>
+            <div class="intro-rules">
+              <span>🔟 {{ roundSize }} soru</span>
+              <span>✋ Sürükle ya da doğruya dokun</span>
+              @if (preset.tolerance > 0) {
+                <span>🎯 ± {{ preset.tolerance }} yakınlık yeter</span>
+              }
+              <span>⌨️ Ok tuşları + Enter</span>
+            </div>
+            <button class="btn-play" type="button" (click)="start()">▶ Başla</button>
+          </div>
+        </div>
+      }
+
+      @case ('done') {
+        @if (outcome(); as o) {
+          <app-game-result [outcome]="o" [reward]="reward()" [backLink]="backLink()" (replay)="start()" />
+        }
+      }
+
+      @default {
+        @if (current(); as p) {
+          <div class="game-stage theme-mint">
+            <div class="game-hud">
+              <span class="hud-pill">Soru {{ round.index() + 1 }}/{{ round.total() }}</span>
+              @if (round.streak() > 1) {
+                <span class="hud-pill hud-combo">🔥 {{ round.streak() }} seri</span>
+              }
+              <span class="hud-pill">⭐ {{ round.score() }}</span>
+            </div>
+
+            <div class="ia-progress" aria-hidden="true">
+              <div class="ia-progress-fill" [style.width.%]="progressPercent()"></div>
+            </div>
+
+            <div class="ia-prompt" aria-live="polite">
+              <span class="ia-prompt-kicker">{{ promptKicker() }}</span>
+              <strong class="ia-prompt-big">{{ p.prompt }}</strong>
+            </div>
+
+            <div class="line-board">
+              <svg
+                class="line-svg ia-board-svg"
+                [attr.viewBox]="'0 0 ' + W + ' 210'"
+                [class.can-move]="canMove()"
+                [class.is-dragging]="dragging()"
+                (pointerdown)="onPointerDown($event)"
+                (pointermove)="onPointerMove($event)"
+                (pointerup)="onPointerUp($event)"
+                (pointercancel)="onPointerUp($event)"
+                (lostpointercapture)="onPointerUp($event)"
+              >
+                <rect class="line-hit" x="0" y="0" [attr.width]="W" height="210" />
+                <line class="line-main" [attr.x1]="PAD - 14" [attr.x2]="W - PAD + 14" [attr.y1]="LINE_Y" [attr.y2]="LINE_Y" />
+                @for (t of ticks(); track t.value) {
+                  <line
+                    class="line-tick"
+                    [class.major]="t.label !== null"
+                    [attr.x1]="t.x"
+                    [attr.x2]="t.x"
+                    [attr.y1]="LINE_Y - (t.label !== null ? 16 : 9)"
+                    [attr.y2]="LINE_Y + (t.label !== null ? 16 : 9)"
+                  />
+                  @if (t.label !== null) {
+                    <text class="line-label" [attr.x]="t.x" [attr.y]="LINE_Y + 44" text-anchor="middle">{{ t.label }}</text>
+                  }
+                }
+
+                @if (phase() === 'feedback' && !wasCorrect()) {
+                  <g class="target-pin" [attr.transform]="'translate(' + targetX() + ',0)'">
+                    <polygon [attr.points]="'0,' + (LINE_Y + 4) + ' -12,' + (LINE_Y + 22) + ' 12,' + (LINE_Y + 22)" />
+                    <rect x="-34" [attr.y]="LINE_Y + 56" width="68" height="34" rx="12" />
+                    <line x1="0" x2="0" [attr.y1]="LINE_Y + 22" [attr.y2]="LINE_Y + 56" />
+                    <text x="0" [attr.y]="LINE_Y + 79" text-anchor="middle">{{ p.answerLabel }}</text>
+                  </g>
+                }
+
+                <g
+                  class="marker"
+                  [class.ok]="phase() === 'feedback' && wasCorrect()"
+                  [class.bad]="phase() === 'feedback' && !wasCorrect()"
+                  [class.focused]="focused()"
+                  [attr.transform]="'translate(' + markerX() + ',0)'"
+                  [attr.tabindex]="canMove() ? 0 : null"
+                  role="slider"
+                  [attr.aria-label]="'İşaretçi: ' + p.prompt + ' için yer seç. Ok tuşlarıyla kaydır, Enter ile kontrol et.'"
+                  [attr.aria-valuemin]="preset.min"
+                  [attr.aria-valuemax]="preset.max"
+                  [attr.aria-valuenow]="value()"
+                  [attr.aria-valuetext]="valueLabel()"
+                  (keydown)="onMarkerKey($event)"
+                  (focus)="focused.set(true)"
+                  (blur)="focused.set(false)"
+                >
+                  <circle class="marker-hit" cx="0" cy="62" r="44" />
+                  <line class="marker-stem" x1="0" x2="0" y1="82" [attr.y2]="LINE_Y - 2" />
+                  <circle class="marker-head" cx="0" cy="56" r="27" />
+                  <text class="marker-text" x="0" y="57" text-anchor="middle" dominant-baseline="central">
+                    {{ phase() === 'feedback' ? valueLabel() : '?' }}
+                  </text>
+                </g>
+              </svg>
+            </div>
+
+            <div class="ia-controls">
+              <button type="button" class="ia-step-btn" [disabled]="!canMove()" aria-label="Sola kaydır" (click)="nudge(-1)">◀</button>
+              @if (phase() === 'playing') {
+                <button class="btn-play small" type="button" [disabled]="!moved()" (click)="check()">✔ Kontrol et</button>
+              }
+              <button type="button" class="ia-step-btn" [disabled]="!canMove()" aria-label="Sağa kaydır" (click)="nudge(1)">▶</button>
+            </div>
+
+            @if (phase() === 'feedback') {
+              @if (wasCorrect()) {
+                <div class="ia-toast">✅ Doğru yer! {{ p.kind === 'operation' ? p.prompt + ' = ' + p.answerLabel : p.answerLabel }} · +{{ round.lastPoints() }} puan</div>
+              } @else {
+                <div class="learn-panel">
+                  <div class="learn-title">💡 Senin yerin: {{ valueLabel() }} · Doğrusu: {{ p.answerLabel }}</div>
+                  <p>{{ p.explanation }}</p>
+                  <div class="learn-actions">
+                    <button class="btn-play small" type="button" (click)="next()">
+                      {{ round.isLast() ? 'Sonuçları gör' : 'Anladım, devam →' }}
+                    </button>
+                  </div>
+                </div>
+              }
+            }
+          </div>
+        }
+      }
+    }
+  } @else {
+    <div class="game-stage theme-mint">
+      <div class="game-intro">
+        <div class="intro-emoji">🤔</div>
+        <h1>Bu oyunu bulamadık</h1>
+        <p>Oyun listesinden yeni bir oyun seçebilirsin.</p>
+        <a routerLink="/oyunlar" class="btn-play">Oyunlara Dön</a>
+      </div>
+    </div>
+  }
+</div>

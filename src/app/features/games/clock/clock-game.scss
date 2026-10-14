@@ -1,0 +1,211 @@
+.clock-phrase {
+  max-width: 560px;
+}
+
+.clock-board {
+  display: flex;
+  justify-content: center;
+  margin: 4px auto 18px;
+}
+
+.clock-svg {
+  width: min(320px, 78vw);
+  filter: drop-shadow(0 14px 24px rgba(15, 23, 42, 0.28));
+
+  &.can-drag {
+    cursor: pointer;
+  }
+
+  &.is-dragging {
+    cursor: grabbing;
+  }
+}
+
+.dial-rim {
+  fill: #1e3a8a;
+}
+
+.dial-face {
+  fill: #fff;
+}
+
+.dial-tick {
+  stroke: #94a3b8;
+  stroke-width: 1.2;
+  stroke-linecap: round;
+
+  &.major {
+    stroke: #1e3a8a;
+    stroke-width: 2.6;
+  }
+}
+
+.dial-num {
+  fill: #1e3a8a;
+  font-family: var(--font-heading);
+  font-size: 17px;
+  font-weight: 900;
+  pointer-events: none;
+}
+
+.hand-line {
+  stroke-linecap: round;
+  pointer-events: none;
+
+  &.hour {
+    stroke: #2563eb;
+    stroke-width: 8;
+  }
+
+  &.minute {
+    stroke: #e11d48;
+    stroke-width: 4.5;
+  }
+}
+
+/* Wide invisible stroke so fingers can grab a thin hand. */
+.hand-hit {
+  stroke: transparent;
+  stroke-width: 26;
+  stroke-linecap: round;
+}
+
+.hand-knob {
+  stroke: #fff;
+  stroke-width: 3;
+
+  &.hour {
+    fill: #2563eb;
+  }
+
+  &.minute {
+    fill: #e11d48;
+  }
+}
+
+.can-drag .hand.active .hand-knob {
+  stroke: var(--game-sun);
+  stroke-width: 4;
+}
+
+.hand.focused .hand-hit {
+  stroke: rgba(251, 191, 36, 0.45);
+}
+
+.hand.ghost {
+  opacity: 0.85;
+
+  .hand-line {
+    stroke: #10b981;
+    stroke-dasharray: 6 5;
+  }
+}
+
+.dial-pin {
+  fill: #0f172a;
+  stroke: #fff;
+  stroke-width: 2;
+  pointer-events: none;
+}
+
+.clock-options {
+  .answer-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    min-height: 82px;
+  }
+
+  .opt-digital {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .opt-phrase {
+    font-family: var(--font-body);
+    font-size: 0.78rem;
+    font-weight: 700;
+    opacity: 0.75;
+    line-height: 1.2;
+  }
+}
+
+.hand-stepper {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.hand-chip {
+  min-height: 48px;
+  min-width: 118px;
+  padding: 6px 12px;
+  border: 3px solid transparent;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.9);
+  font-weight: 900;
+  font-size: 0.98rem;
+  cursor: pointer;
+
+  &.hour {
+    color: #1d4ed8;
+  }
+
+  &.minute {
+    color: #be123c;
+  }
+
+  &.on {
+    border-color: var(--game-sun);
+    background: #fff;
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: default;
+  }
+
+  &:focus-visible {
+    outline: 4px solid #fff;
+    outline-offset: 2px;
+  }
+}
+
+.ghost-note {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 6px;
+  font-weight: 700;
+
+  .ghost-swatch {
+    display: inline-block;
+    width: 26px;
+    height: 0;
+    border-top: 4px dashed #10b981;
+  }
+}
+
+@media (max-width: 520px) {
+  .clock-board {
+    margin-bottom: 12px;
+  }
+
+  .clock-options .answer-btn {
+    min-height: 72px;
+  }
+
+  .hand-stepper {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .hand-chip {
+    flex: 1;
+    min-width: 0;
+  }
+}

@@ -461,3 +461,160 @@
       linear-gradient(135deg, #f59e0b, #f97316 60%, #ef4444);
   }
 }
+
+/* ==========================================================================
+   Etkileşimli Matematik — Saat Ustası, Sayı Doğrusu, Kesir Pizzası
+   (shared prompt card, round progress, step buttons and toast)
+   ========================================================================== */
+
+.game-stage.theme-ocean {
+  background:
+    radial-gradient(circle at 15% 15%, rgba(255, 255, 255, 0.22) 0, transparent 35%),
+    linear-gradient(135deg, #0891b2, #2563eb);
+}
+
+.ia-progress {
+  height: 8px;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.25);
+  overflow: hidden;
+  margin: -8px 0 18px;
+
+  .ia-progress-fill {
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, var(--game-mint), var(--game-sun));
+    transition: width 0.3s ease;
+  }
+}
+
+.ia-prompt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  text-align: center;
+  margin-bottom: 16px;
+
+  .ia-prompt-kicker {
+    font-weight: 800;
+    font-size: 0.9rem;
+    opacity: 0.9;
+  }
+
+  .ia-prompt-main {
+    font-family: var(--font-heading);
+    font-size: clamp(1.6rem, 6vw, 2.4rem);
+    font-weight: 900;
+    line-height: 1.15;
+    text-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  }
+
+  .ia-prompt-big {
+    font-family: var(--font-heading);
+    font-size: clamp(2.4rem, 10vw, 3.6rem);
+    font-weight: 900;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    text-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+  }
+}
+
+.ia-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 14px;
+  border-radius: 9999px;
+  background: #fff;
+  color: #1e3a8a;
+  font-family: var(--font-heading);
+  font-weight: 900;
+  font-size: 1.1rem;
+  font-variant-numeric: tabular-nums;
+  box-shadow: 0 3px 0 rgba(30, 58, 138, 0.25);
+}
+
+.ia-controls {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.ia-step-btn {
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 14px;
+  background: #fff;
+  color: #1e3a8a;
+  font-size: 1.1rem;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 0 4px 0 rgba(30, 58, 138, 0.3);
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+  touch-action: manipulation;
+
+  &:active:not(:disabled) {
+    transform: translateY(3px);
+    box-shadow: 0 1px 0 rgba(30, 58, 138, 0.3);
+  }
+
+  &:disabled {
+    opacity: 0.45;
+    cursor: default;
+  }
+
+  &:focus-visible {
+    outline: 4px solid #fff;
+    outline-offset: 2px;
+  }
+}
+
+.ia-check-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.ia-toast {
+  margin: 18px auto 0;
+  width: fit-content;
+  max-width: 100%;
+  padding: 10px 18px;
+  border-radius: 9999px;
+  background: #fff;
+  color: #047857;
+  font-weight: 900;
+  text-align: center;
+  box-shadow: 0 5px 0 rgba(4, 120, 87, 0.3);
+  animation: pop 0.3s ease;
+}
+
+/* An SVG board the child drags on: never scroll the page while dragging. */
+.ia-board-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+
+  [tabindex]:focus {
+    outline: none;
+  }
+}
+
+@media (max-width: 520px) {
+  .ia-prompt {
+    margin-bottom: 12px;
+  }
+
+  .ia-step-btn {
+    width: 44px;
+    height: 44px;
+  }
+}

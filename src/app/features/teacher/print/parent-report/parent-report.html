@@ -1,0 +1,108 @@
+<div class="container t-page">
+  <div class="print-toolbar">
+    <div>
+      <a [routerLink]="['/ogretmen/sinif', classId]" class="t-crumb">← Sınıfa dön</a>
+      <h1>Veli raporu</h1>
+      <p class="t-sub">
+        {{ only ? 'Tek öğrenci' : reports().length + ' öğrenci, her biri ayrı sayfa' }}. Not alanına yazdıklarınız yazdırılır ama kaydedilmez.
+        PDF için yazdırma penceresinde “PDF olarak kaydet”i seçin.
+      </p>
+    </div>
+    <div class="pt-actions">
+      @if (only) {
+        <a class="btn outline" [routerLink]="['/ogretmen/sinif', classId, 'rapor']">Tüm sınıf</a>
+      }
+      <button type="button" class="btn primary" (click)="print()" [disabled]="!reports().length">🖨️ Yazdır / PDF</button>
+    </div>
+  </div>
+
+  @for (r of reports(); track r.row.uid) {
+    <article class="print-sheet report">
+      <header class="rp-head">
+        <div>
+          <div class="rp-brand">Odivon<b>School</b> · Gelişim raporu</div>
+          <h2>{{ r.row.name }}</h2>
+          <div class="rp-meta">
+            {{ classroom()?.name }}
+            @if (teacher()?.school) { · {{ teacher()?.school }} }
+            · Öğretmen: {{ teacher()?.displayName }}
+          </div>
+        </div>
+        <div class="rp-date">{{ today | date: 'd MMMM y' }}</div>
+      </header>
+
+      <section class="rp-stats">
+        <div><span>Çözülen soru</span><b>{{ r.row.answered }}</b></div>
+        <div><span>Başarı</span><b [attr.data-level]="level(r.row.successPct)">{{ r.row.successPct === null ? '—' : '%' + r.row.successPct }}</b></div>
+        <div><span>Ödev</span><b>{{ r.row.done }}/{{ assignments().length }}</b></div>
+        <div><span>Son etkinlik</span><b>{{ r.row.lastActiveAt ? (r.row.lastActiveAt | date: 'd MMM') : '—' }}</b></div>
+      </section>
+
+      @if (r.strong.length || r.practice.length) {
+        <section class="rp-two">
+          <div class="rp-box good">
+            <h3>💪 Güçlü olduğu konular</h3>
+            @for (t of r.strong; track t.key) { <p>{{ t.label }} <small>%{{ t.pct }}</small></p> } @empty { <p class="muted">Henüz yeterli veri yok.</p> }
+          </div>
+          <div class="rp-box work">
+            <h3>📚 Tekrar etmesi iyi olacak konular</h3>
+            @for (t of r.practice; track t.key) { <p>{{ t.label }} <small>%{{ t.pct }}</small></p> } @empty { <p class="muted">Belirgin bir eksik görünmüyor.</p> }
+          </div>
+        </section>
+      }
+
+      <section>
+        <h3 class="rp-title">Konulara göre başarı</h3>
+        @for (t of r.topics; track t.key) {
+          <div class="rp-topic">
+            <span class="rp-topic-name">{{ t.label }} <small>{{ t.subject }}</small></span>
+            <span class="rp-bar" [attr.data-level]="level(t.pct)"><span [style.width.%]="t.pct"></span></span>
+            <span class="rp-pct">%{{ t.pct }}</span>
+            <span class="rp-n">{{ t.total }} soru</span>
+          </div>
+        } @empty {
+          <p class="muted">Öğrenci sınıfa katıldıktan sonra henüz oyun veya test çözmedi.</p>
+        }
+      </section>
+
+      @if (r.homework.length) {
+        <section>
+          <h3 class="rp-title">Ödevler</h3>
+          <table class="rp-table">
+            <tbody>
+              @for (h of r.homework; track h.assignment.id) {
+                <tr>
+                  <td>{{ h.assignment.title }}</td>
+                  <td>{{ h.assignment.dueAt ? (h.assignment.dueAt | date: 'd MMM') : '' }}</td>
+                  <td class="rp-status">
+                    @switch (h.status) {
+                      @case ('done') { <span class="stars">{{ stars(h.submission!.bestStars) }}</span> {{ h.submission!.correct }}/{{ h.submission!.total }} }
+                      @case ('overdue') { <b class="late">Yapılmadı</b> }
+                      @default { Bekliyor }
+                    }
+                  </td>
+                </tr>
+              }
+            </tbody>
+          </table>
+        </section>
+      }
+
+      <section class="rp-note">
+        <h3 class="rp-title">Öğretmen notu</h3>
+        <textarea class="no-print" rows="3" placeholder="Veliye iletmek istediğiniz kısa not (isteğe bağlı)…" [value]="notes()[r.row.uid] ?? ''" (input)="setNote(r.row.uid, $any($event.target).value)"></textarea>
+        <p class="rp-note-print">{{ notes()[r.row.uid] }}</p>
+      </section>
+
+      <div class="rp-sign">
+        <span>Öğretmen imzası</span>
+        <span>Veli imzası</span>
+      </div>
+    </article>
+  } @empty {
+    <div class="t-empty card">
+      <span class="t-empty-emoji">📄</span>
+      <h3>Rapor için öğrenci bulunamadı</h3>
+    </div>
+  }
+</div>

@@ -4,8 +4,11 @@ import { RouterLink } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { AuthService } from '../../../core/services/auth';
 import { FirestoreService } from '../../../core/services/firestore';
+import { PushService } from '../../../core/services/push';
+import { STUDENT_EMAIL_DOMAIN } from '../../../core/student-accounts';
+import { Firestore, doc, updateDoc } from '@angular/fire/firestore';
 import { LEVEL_GRADES } from '../../../models/test-category';
-import { roleLabel } from '../../../models/user';
+import { isStudent, roleLabel } from '../../../models/user';
 
 @Component({
   selector: 'app-profile',
@@ -30,6 +33,20 @@ export class Profile {
 
   isResettingPassword = signal(false);
   resetMessage = signal<{ type: 'success' | 'danger'; text: string } | null>(null);
+
+  // Bildirim ayarları
+  readonly push = inject(PushService);
+  private firestore = inject(Firestore);
+  isStudentUser = computed(() => isStudent(this.appUser()));
+  /** Teacher-opened student accounts sign in with a username: no inbox to write to. */
+  hasRealEmail = computed(() => {
+    const user = this.appUser();
+    const email = (user?.email || '').toLowerCase();
+    return !!email && !user?.createdByTeacher && !email.endsWith('@' + STUDENT_EMAIL_DOMAIN);
+  });
+  emailOn = computed(() => this.appUser()?.notifyEmail !== false);
+  isSavingEmail = signal(false);
+  notifyMessage = signal<{ type: 'success' | 'danger'; text: string } | null>(null);
 
   constructor() {
     effect(() => {
@@ -76,6 +93,51 @@ export class Profile {
       });
     } finally {
       this.isSaving.set(false);
+    }
+  }
+
+  async togglePush(event?: Event) {
+    const input = event?.target as HTMLInputElement | undefined;
+    this.notifyMessage.set(null);
+    try {
+      if (this.push.enabled()) {
+        await this.push.disable();
+        this.notifyMessage.set({ type: 'success', text: 'Tarayıcı bildirimleri kapatıldı.' });
+      } else {
+        await this.push.enable();
+        this.notifyMessage.set({
+          type: 'success',
+          text: this.isStudentUser()
+            ? 'Bildirimler açıldı. Yeni bir şey olduğunda günde en fazla bir özet alacaksın.'
+            : 'Bildirimler açıldı. Sınıflarınızla ilgili günlük kısa özet bu tarayıcıya gelecek.',
+        });
+      }
+    } catch (err: any) {
+      this.notifyMessage.set({ type: 'danger', text: err?.message || 'Bildirim ayarı değiştirilemedi.' });
+    } finally {
+      // Keep the switch in line with the real state (e.g. permission refused).
+      if (input) input.checked = this.push.enabled();
+    }
+  }
+
+  async toggleEmail(event?: Event) {
+    const input = event?.target as HTMLInputElement | undefined;
+    const user = this.appUser();
+    if (!user || this.isSavingEmail()) return;
+    const next = !this.emailOn();
+    this.isSavingEmail.set(true);
+    this.notifyMessage.set(null);
+    try {
+      await updateDoc(doc(this.firestore, `users/${user.uid}`), { notifyEmail: next });
+      this.notifyMessage.set({
+        type: 'success',
+        text: next ? 'Haftalık e-posta özetleri açıldı.' : 'Haftalık e-posta özetleri kapatıldı.',
+      });
+    } catch (err: any) {
+      this.notifyMessage.set({ type: 'danger', text: `Hata: ${err?.message || 'Ayar kaydedilemedi.'}` });
+    } finally {
+      this.isSavingEmail.set(false);
+      if (input) input.checked = this.emailOn();
     }
   }
 

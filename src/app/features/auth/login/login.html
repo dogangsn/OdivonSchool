@@ -72,7 +72,7 @@
 
       <form (ngSubmit)="submit()" #f="ngForm" class="auth-form">
         <div class="form-group">
-          <label for="email">E-posta Adresi</label>
+          <label for="email">E-posta veya kullanıcı adı</label>
           <div class="input-container">
             <svg class="input-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <rect width="20" height="16" x="2" y="4" rx="2"/>
@@ -80,11 +80,14 @@
             </svg>
             <input
               id="email"
-              type="email"
+              type="text"
               name="email"
               [(ngModel)]="email"
               required
-              placeholder="ornek@ogrenci.com"
+              autocomplete="username"
+              autocapitalize="none"
+              spellcheck="false"
+              placeholder="ornek@eposta.com ya da ayse.k7m2"
             />
           </div>
         </div>

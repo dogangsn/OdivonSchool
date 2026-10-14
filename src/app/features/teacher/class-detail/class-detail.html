@@ -143,6 +143,12 @@
         }
       </div>
     } @else {
+      <div class="member-tools">
+        <button type="button" class="btn sm primary" (click)="openAccounts()">👤 Öğrenci hesabı aç</button>
+        @if (members().length) {
+          <a class="btn sm outline" [routerLink]="['/ogretmen/sinif', classId, 'rapor']">📄 Veli raporları</a>
+        }
+      </div>
       <div class="card member-card">
         @if (members().length) {
           <ul class="member-list">
@@ -151,8 +157,12 @@
                 <span class="m-avatar">{{ (m.displayName || '?').charAt(0).toUpperCase() }}</span>
                 <span class="m-name">
                   <strong>{{ m.displayName }}</strong>
-                  <small>{{ m.grade ? m.grade + '. sınıf · ' : '' }}Katıldı: {{ m.joinedAt | date: 'd MMM y' }}</small>
+                  <small>
+                    {{ m.grade ? m.grade + '. sınıf · ' : '' }}Katıldı: {{ m.joinedAt | date: 'd MMM y' }}
+                    @if (usernameByUid().get(m.uid); as un) { · kullanıcı adı: <b>{{ un }}</b> }
+                  </small>
                 </span>
+                <a class="btn sm outline" [routerLink]="['/ogretmen/sinif', classId, 'rapor']" [queryParams]="{ ogrenci: m.uid }" title="Veli raporu">📄</a>
                 <button type="button" class="btn sm outline" (click)="removeMember(m.uid, m.displayName)">Çıkar</button>
               </li>
             }
@@ -161,7 +171,7 @@
           <div class="t-empty">
             <span class="t-empty-emoji">👋</span>
             <h3>Sınıfta henüz öğrenci yok</h3>
-            <p>Sınıf kodunu <b>{{ c.joinCode }}</b> öğrencilerinizle paylaşın. Katılan öğrenciler burada listelenir.</p>
+            <p>Sınıf kodunu <b>{{ c.joinCode }}</b> öğrencilerinizle paylaşın ya da e-postası olmayan öğrencileriniz için <b>Öğrenci hesabı aç</b> ile kullanıcı adı ve şifre oluşturun.</p>
           </div>
         }
       </div>
@@ -340,6 +350,73 @@
       <button type="button" class="btn primary" [disabled]="liveStarting()" (click)="startLive()">
         {{ liveStarting() ? 'Hazırlanıyor…' : 'Lobiyi aç' }}
       </button>
+    </div>
+  </aside>
+}
+
+@if (accountsOpen()) {
+  <div class="t-drawer-backdrop" (click)="accountProgress() || accountsOpen.set(false)"></div>
+  <aside class="t-drawer" role="dialog" aria-label="Öğrenci hesabı aç">
+    <div class="t-drawer-head">
+      <div>
+        <h3>👤 Öğrenci hesabı aç</h3>
+        <p>E-postası olmayan öğrencilere kullanıcı adı ve şifre verin. Hesaplar doğrudan bu sınıfa eklenir.</p>
+      </div>
+      <button type="button" class="t-close" [disabled]="!!accountProgress()" (click)="accountsOpen.set(false)">✕</button>
+    </div>
+    <div class="t-drawer-body">
+      @if (accountError()) {
+        <div class="t-alert danger">{{ accountError() }}</div>
+      }
+
+      @if (accountResults()) {
+        @if (okResults().length) {
+          <div class="t-alert success">{{ okResults().length }} hesap açıldı ve sınıfa eklendi.</div>
+          <div class="t-alert danger">
+            Şifreler güvenlik için kaydedilmez. Bu pencereyi kapatmadan <b>kartları yazdırın</b> ya da not alın.
+          </div>
+          <ul class="acc-list">
+            @for (r of okResults(); track r.account!.uid) {
+              <li><strong>{{ r.name }}</strong><span><code>{{ r.account!.username }}</code> · <code>{{ r.password }}</code></span></li>
+            }
+          </ul>
+        }
+        @if (failedResults().length) {
+          <div class="t-alert danger">
+            {{ failedResults().length }} hesap açılamadı:
+            <ul>
+              @for (r of failedResults(); track r.name) { <li><b>{{ r.name }}</b>: {{ r.error }}</li> }
+            </ul>
+          </div>
+        }
+      } @else {
+        <div class="form-group">
+          <label for="names">Öğrenci adları (her satıra bir öğrenci)</label>
+          <textarea id="names" rows="10" [ngModel]="nameList" (ngModelChange)="onNamesChange($event)" placeholder="Ayşe Yılmaz&#10;Can Demir&#10;Elif Kaya" [disabled]="!!accountProgress()"></textarea>
+          <small class="acc-count">{{ parsedNames().length }} öğrenci · bir seferde en fazla {{ maxAccounts }}</small>
+        </div>
+        <div class="acc-privacy">
+          <b>Gizlilik:</b> Öğrencinin e-postası istenmez; yalnızca adı, kullanıcı adı ve sınıfı saklanır. Şifre hiçbir yerde saklanmaz, yalnızca şimdi yazdıracağınız kartta görünür.
+          13 yaşından küçük öğrenciler için velilere bilgi verilmesi önerilir; kartta kısa bir veli notu bulunur.
+        </div>
+        @if (accountProgress(); as p) {
+          <div class="acc-progress"><span [style.width.%]="(p.done / p.total) * 100"></span></div>
+          <p class="acc-note">{{ p.done }}/{{ p.total }} hesap açılıyor… Bu pencereyi kapatmayın.</p>
+        }
+      }
+    </div>
+    <div class="t-drawer-foot">
+      @if (accountResults()) {
+        <button type="button" class="btn outline" (click)="accountsOpen.set(false)">Kapat</button>
+        @if (okResults().length) {
+          <a class="btn primary" [routerLink]="['/ogretmen/sinif', classId, 'kartlar']">🖨️ Kartları yazdır</a>
+        }
+      } @else {
+        <button type="button" class="btn outline" [disabled]="!!accountProgress()" (click)="accountsOpen.set(false)">Vazgeç</button>
+        <button type="button" class="btn primary" [disabled]="!!accountProgress() || !parsedNames().length" (click)="createAccounts()">
+          {{ accountProgress() ? 'Açılıyor…' : parsedNames().length + ' hesap aç' }}
+        </button>
+      }
     </div>
   </aside>
 }

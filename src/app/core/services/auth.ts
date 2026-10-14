@@ -15,7 +15,7 @@ import { Observable, switchMap, of, firstValueFrom, filter, take } from 'rxjs';
 import { AppUser, SignupProfile } from '../../models/user';
 
 /** Builds the Firestore user document for a new account. */
-function newUserDoc(
+export function newUserDoc(
   uid: string,
   email: string,
   displayName: string,

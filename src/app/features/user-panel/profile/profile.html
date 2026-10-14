@@ -180,6 +180,90 @@
           </form>
         </div>
 
+        <!-- Notification Settings Card -->
+        <div class="card form-card notify-card">
+          <h2 class="card-title">Bildirim Ayarları</h2>
+          <p class="card-desc">
+            @if (isStudentUser()) {
+              Ödevlerini ve yeni soruları kaçırma. Bildirimleri istediğin zaman kapatabilirsin.
+            } @else {
+              Sınıflarınızda olanlardan haberdar olun. Ayarları istediğiniz zaman değiştirebilirsiniz.
+            }
+          </p>
+
+          @if (notifyMessage(); as msg) {
+            <div class="alert-box animate-fade-in" [class]="msg.type">
+              <span>{{ msg.text }}</span>
+            </div>
+          }
+
+          <div class="notify-list">
+            <div class="security-action notify-row">
+              <div class="sec-text">
+                <strong>🔔 Tarayıcı bildirimleri</strong>
+                @if (isStudentUser()) {
+                  <span>Teslim tarihi yaklaşan ödevlerin, yeni ödevler ve sınıfına eklenen yeni sorular bu tarayıcıya bildirilir.</span>
+                } @else {
+                  <span>Süresi dolan ödevlerin teslim durumu ve sınıfınıza katılan yeni öğrenciler bu tarayıcıya bildirilir.</span>
+                }
+              </div>
+              @switch (push.status()) {
+                @case ('on') {
+                  <label class="switch" title="Kapat">
+                    <input type="checkbox" [checked]="true" [disabled]="push.busy()" (change)="togglePush($event)" aria-label="Tarayıcı bildirimleri" />
+                    <span class="slider"></span>
+                  </label>
+                }
+                @case ('off') {
+                  <label class="switch" title="Aç">
+                    <input type="checkbox" [checked]="false" [disabled]="push.busy()" (change)="togglePush($event)" aria-label="Tarayıcı bildirimleri" />
+                    <span class="slider"></span>
+                  </label>
+                }
+                @case ('checking') {
+                  <span class="spinner sm"></span>
+                }
+                @default {
+                  <span class="badge badge-neutral">Kullanılamıyor</span>
+                }
+              }
+            </div>
+            @switch (push.status()) {
+              @case ('unconfigured') {
+                <p class="notify-note">Tarayıcı bildirimleri henüz hazırlanıyor; çok yakında buradan açabileceksiniz.</p>
+              }
+              @case ('unsupported') {
+                <p class="notify-note">Bu tarayıcı bildirimleri desteklemiyor. iPhone/iPad'de siteyi "Ana Ekrana Ekle" ile ekleyip oradan açmayı deneyin.</p>
+              }
+              @case ('denied') {
+                <p class="notify-note">Bu site için bildirimler tarayıcıda engellenmiş. Adres çubuğundaki kilit simgesinden bildirim iznini açıp sayfayı yenileyin.</p>
+              }
+            }
+            @if (isStudentUser()) {
+              <p class="notify-note">📬 Bildirimler tek tek gelmez: günde en fazla bir kez, akşam saatlerinde kısa bir özet olarak gelir.</p>
+            }
+
+            @if (!isStudentUser() && hasRealEmail()) {
+              <div class="security-action notify-row">
+                <div class="sec-text">
+                  <strong>✉️ E-posta özetleri</strong>
+                  <span>Her pazar akşamı sınıflarınızın haftalık özeti (aktif öğrenciler, 7+ gündür girmeyenler, geciken ödevler, zayıf konular) {{ user.email }} adresine gönderilir.</span>
+                </div>
+                <label class="switch" [title]="emailOn() ? 'Kapat' : 'Aç'">
+                  <input
+                    type="checkbox"
+                    [checked]="emailOn()"
+                    [disabled]="isSavingEmail()"
+                    (change)="toggleEmail($event)"
+                    aria-label="E-posta özetleri"
+                  />
+                  <span class="slider"></span>
+                </label>
+              </div>
+            }
+          </div>
+        </div>
+
         <!-- Security / Password Reset Card -->
         <div class="card form-card">
           <h2 class="card-title">Hesap Güvenliği &amp; Şifre</h2>

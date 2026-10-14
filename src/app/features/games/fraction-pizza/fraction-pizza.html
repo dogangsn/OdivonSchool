@@ -1,0 +1,202 @@
+<div class="game-page">
+  <div class="game-topbar">
+    <a [routerLink]="backLink()" class="game-back">← Geri</a>
+    <div class="game-tools">
+      @if (canSpeak && phase() === 'playing') {
+        <button class="icon-btn" type="button" title="Sesli oku" (click)="readAloud()">🔊</button>
+      }
+      <button class="icon-btn" type="button" [title]="sound() ? 'Sesi kapat' : 'Sesi aç'" (click)="toggleSound()">
+        {{ sound() ? '🔔' : '🔕' }}
+      </button>
+    </div>
+  </div>
+
+  @if (preset(); as preset) {
+    @switch (phase()) {
+      @case ('intro') {
+        <div class="game-stage theme-grape">
+          <div class="game-intro">
+            <div class="intro-emoji">{{ preset.emoji }}</div>
+            <h1>Kesir Pizzası · {{ preset.title }}</h1>
+            <p>{{ preset.description }}. Dilimlere dokunarak boya, parmağını dilimlerin üstünde gezdirerek hepsini birden boyayabilirsin.</p>
+            <div class="intro-rules">
+              <span>🔟 {{ roundSize }} soru</span>
+              <span>👆 Dokun ya da sürükleyerek boya</span>
+              @if (preset.compareShare > 0) {
+                <span>⚖️ Hangisi büyük?</span>
+              }
+              <span>⌨️ Boşluk: boya · Enter: kontrol</span>
+            </div>
+            <button class="btn-play" type="button" (click)="start()">▶ Başla</button>
+          </div>
+        </div>
+      }
+
+      @case ('done') {
+        @if (outcome(); as o) {
+          <app-game-result [outcome]="o" [reward]="reward()" [backLink]="backLink()" (replay)="start()" />
+        }
+      }
+
+      @default {
+        @if (current(); as p) {
+          <div class="game-stage theme-grape">
+            <div class="game-hud">
+              <span class="hud-pill">Soru {{ round.index() + 1 }}/{{ round.total() }}</span>
+              @if (round.streak() > 1) {
+                <span class="hud-pill hud-combo">🔥 {{ round.streak() }} seri</span>
+              }
+              <span class="hud-pill">⭐ {{ round.score() }}</span>
+            </div>
+
+            <div class="ia-progress" aria-hidden="true">
+              <div class="ia-progress-fill" [style.width.%]="progressPercent()"></div>
+            </div>
+
+            @if (shade(); as s) {
+              <div class="ia-prompt" aria-live="polite">
+                <span class="ia-prompt-kicker">🎨 Dilimlere dokunarak boya</span>
+                <strong class="ia-prompt-main">{{ s.prompt }}</strong>
+              </div>
+
+              <div class="shapes-row" [class.with-solution]="solution() !== null">
+                @if (board(); as b) {
+                  <figure class="shape-card shade-board" [class.rect]="b.shape === 'rect'">
+                    <svg
+                      class="shape-svg ia-board-svg"
+                      [class.can-paint]="phase() === 'playing'"
+                      [attr.viewBox]="b.viewBox"
+                      role="group"
+                      [attr.aria-label]="s.parts + ' eş parçaya bölünmüş ' + (b.shape === 'circle' ? 'pizza' : 'çikolata')"
+                      (pointerdown)="onPointerDown($event)"
+                      (pointermove)="onPointerMove($event)"
+                      (pointerup)="onPointerUp($event)"
+                      (pointercancel)="onPointerUp($event)"
+                      (lostpointercapture)="onPointerUp($event)"
+                    >
+                      @for (sl of b.slices; track $index; let i = $index) {
+                        <path
+                          class="slice"
+                          [class.on]="sl.on"
+                          [class.circle]="b.shape === 'circle'"
+                          [attr.d]="sl.d"
+                          [attr.data-slice]="i"
+                          [attr.tabindex]="phase() === 'playing' ? 0 : null"
+                          role="checkbox"
+                          [attr.aria-checked]="sl.on"
+                          [attr.aria-label]="sliceLabel(i, b.slices.length)"
+                          (keydown)="onSliceKey($event, i)"
+                        />
+                      }
+                      <path class="shape-outline" [class.circle]="b.shape === 'circle'" [attr.d]="b.outline" />
+                    </svg>
+                    @if (solution()) {
+                      <figcaption>Senin boyadığın</figcaption>
+                    }
+                  </figure>
+                }
+                @if (solution(); as sol) {
+                  <figure class="shape-card solution" [class.rect]="sol.shape === 'rect'">
+                    <svg class="shape-svg ia-board-svg" [attr.viewBox]="sol.viewBox" aria-hidden="true">
+                      @for (sl of sol.slices; track $index) {
+                        <path class="slice" [class.on]="sl.on" [class.circle]="sol.shape === 'circle'" [attr.d]="sl.d" />
+                      }
+                      <path class="shape-outline" [class.circle]="sol.shape === 'circle'" [attr.d]="sol.outline" />
+                    </svg>
+                    <figcaption>✔ Doğrusu: {{ s.answerLabel }}</figcaption>
+                  </figure>
+                }
+              </div>
+
+              <p class="shade-count" aria-live="polite">
+                Boyalı dilim: <strong>{{ shadedCount() }}</strong> / {{ s.parts }}
+              </p>
+
+              @if (phase() === 'playing') {
+                <div class="ia-check-row shade-actions">
+                  <button class="btn-ghost-light" type="button" [disabled]="shadedCount() === 0" (click)="clearShading()">↺ Temizle</button>
+                  <button class="btn-play small" type="button" [disabled]="shadedCount() === 0" (click)="checkShade()">✔ Kontrol et</button>
+                </div>
+              }
+            }
+
+            @if (compare(); as c) {
+              <div class="ia-prompt" aria-live="polite">
+                <span class="ia-prompt-kicker">⚖️ Karşılaştır</span>
+                <strong class="ia-prompt-main">Hangisi daha büyük?</strong>
+              </div>
+
+              @if (compareShapes(); as shapes) {
+                <div class="shapes-row compare">
+                  @for (sh of shapes; track $index; let side = $index) {
+                    <figure class="shape-card" [class.rect]="sh.shape === 'rect'" [class.win]="phase() === 'feedback' && c.answer === c.options[side]">
+                      <svg class="shape-svg ia-board-svg" [attr.viewBox]="sh.viewBox" aria-hidden="true">
+                        @for (sl of sh.slices; track $index) {
+                          <path class="slice" [class.on]="sl.on" [class.circle]="sh.shape === 'circle'" [attr.d]="sl.d" />
+                        }
+                        <path class="shape-outline" [class.circle]="sh.shape === 'circle'" [attr.d]="sh.outline" />
+                      </svg>
+                      <figcaption class="frac-label">{{ c.options[side] }}</figcaption>
+                    </figure>
+                  }
+                </div>
+              }
+
+              @if (!showCompareShading()) {
+                <div class="ia-check-row">
+                  <button class="btn-ghost-light" type="button" (click)="hint.set(true)">💡 İpucu: resimleri boya</button>
+                </div>
+              }
+
+              <div class="answer-grid three compare-options">
+                @for (opt of c.options; track opt; let i = $index) {
+                  <button
+                    class="answer-btn"
+                    type="button"
+                    [disabled]="phase() !== 'playing'"
+                    [class.correct]="phase() === 'feedback' && opt === c.answer"
+                    [class.wrong]="picked() === opt && opt !== c.answer"
+                    [class.dimmed]="phase() === 'feedback' && opt !== c.answer && picked() !== opt"
+                    (click)="choose(opt)"
+                  >
+                    <span class="key-hint">{{ i + 1 }}</span>
+                    {{ opt }}
+                  </button>
+                }
+              </div>
+            }
+
+            @if (phase() === 'feedback') {
+              @if (wasCorrect()) {
+                <div class="ia-toast">✅ Doğru! +{{ round.lastPoints() }} puan</div>
+              } @else {
+                <div class="learn-panel">
+                  @if (shade(); as s) {
+                    <div class="learn-title">💡 {{ s.parts }} dilimden {{ s.answer }} tanesi boyanmalıydı</div>
+                  } @else if (compare(); as c) {
+                    <div class="learn-title">💡 Doğru cevap: {{ c.answer }}</div>
+                  }
+                  <p>{{ p.explanation }}</p>
+                  <div class="learn-actions">
+                    <button class="btn-play small" type="button" (click)="next()">
+                      {{ round.isLast() ? 'Sonuçları gör' : 'Anladım, devam →' }}
+                    </button>
+                  </div>
+                </div>
+              }
+            }
+          </div>
+        }
+      }
+    }
+  } @else {
+    <div class="game-stage theme-grape">
+      <div class="game-intro">
+        <div class="intro-emoji">🤔</div>
+        <h1>Bu oyunu bulamadık</h1>
+        <p>Oyun listesinden yeni bir oyun seçebilirsin.</p>
+        <a routerLink="/oyunlar" class="btn-play">Oyunlara Dön</a>
+      </div>
+    </div>
+  }
+</div>

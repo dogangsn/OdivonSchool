@@ -1,0 +1,90 @@
+h1 {
+  margin: 0.25rem 0;
+}
+
+.cards-sheet {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+
+  @media print {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.login-card {
+  border: 1.5px dashed #94a3b8;
+  border-radius: 12px;
+  padding: 12px 14px;
+  break-inside: avoid;
+  font-size: 12px;
+  min-height: 60mm;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.lc-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+.lc-brand {
+  color: #4f46e5;
+
+  b {
+    color: #0f172a;
+  }
+}
+
+.lc-class {
+  background: #eef2ff;
+  color: #3730a3;
+  border-radius: 999px;
+  padding: 1px 8px;
+  font-weight: 700;
+}
+
+.lc-name {
+  font-size: 17px;
+  font-weight: 800;
+  margin: 4px 0 2px;
+}
+
+.lc-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 3px 0;
+
+  span {
+    color: #475569;
+  }
+
+  .mono {
+    font-family: ui-monospace, 'SFMono-Regular', Menlo, monospace;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+  }
+
+  .blank {
+    display: inline-block;
+    width: 40%;
+    border-bottom: 1px solid #0f172a;
+  }
+}
+
+.lc-note {
+  margin: auto 0 0;
+  padding-top: 6px;
+  font-size: 9.5px;
+  line-height: 1.35;
+  color: #475569;
+}
