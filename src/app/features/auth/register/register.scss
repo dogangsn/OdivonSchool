@@ -316,3 +316,116 @@
     padding: 28px 20px;
   }
 }
+
+/* Role picker (öğrenci / öğretmen) */
+.role-picker {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 20px;
+
+  .role-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: 16px 12px;
+    background: var(--bg-alt);
+    border: 2px solid var(--border);
+    border-radius: var(--radius-lg);
+    cursor: pointer;
+    text-align: center;
+    font-family: inherit;
+    transition: all var(--transition-fast);
+
+    .role-emoji {
+      font-size: 2rem;
+      line-height: 1.1;
+    }
+
+    strong {
+      font-size: 0.95rem;
+      color: var(--text-main);
+    }
+
+    small {
+      font-size: 0.74rem;
+      color: var(--text-subtle);
+      line-height: 1.35;
+    }
+
+    &:hover {
+      background: var(--surface);
+      transform: translateY(-2px);
+    }
+
+    &.selected {
+      background: var(--primary-light);
+      border-color: var(--primary);
+      box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.12);
+
+      strong {
+        color: var(--primary);
+      }
+    }
+  }
+}
+
+.grade-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 10px;
+
+  .grade-row-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+}
+
+.grade-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  .grade-chip {
+    padding: 8px 14px;
+    border-radius: var(--radius-full);
+    border: 1.5px solid var(--border);
+    background: var(--surface);
+    font-family: inherit;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--text-main);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+
+    &:hover {
+      border-color: var(--primary);
+    }
+
+    &.selected {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #fff;
+      box-shadow: var(--shadow-glow);
+    }
+  }
+}
+
+.teacher-fields {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 480px) {
+  .role-picker {
+    gap: 8px;
+
+    .role-card {
+      padding: 12px 8px;
+    }
+  }
+}

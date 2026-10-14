@@ -316,3 +316,14 @@
     gap: 8px;
   }
 }
+
+/* "Oyunlar" stands out a little: it's the main thing for young students */
+.main-nav .nav-link.nav-games {
+  color: #db2777;
+
+  &.active,
+  &:hover {
+    color: #be185d;
+    background: #fdf2f8;
+  }
+}

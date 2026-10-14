@@ -1,10 +1,13 @@
-import { Component, inject, computed } from '@angular/core';
+import { Component, inject, computed, signal } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { DatePipe } from '@angular/common';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { switchMap, of } from 'rxjs';
 import { AuthService } from '../../../core/services/auth';
 import { FirestoreService } from '../../../core/services/firestore';
+import { isStudent } from '../../../models/user';
+import { SIGNUP_GRADES, levelForGrade } from '../../../models/test-category';
+import { levelForXp, levelProgress } from '../../../games/scoring';
 
 @Component({
   selector: 'app-dashboard',
@@ -42,4 +45,35 @@ export class Dashboard {
   });
 
   recentAttempts = computed(() => this.attempts().slice(0, 5));
+
+  // --- Games progress ---
+  xp = computed(() => this.appUser()?.xp ?? 0);
+  level = computed(() => levelForXp(this.xp()));
+  levelProgress = computed(() => levelProgress(this.xp()));
+  streakDays = computed(() => this.appUser()?.streakDays ?? 0);
+  badgeCount = computed(() => this.appUser()?.badges?.length ?? 0);
+
+  // --- "Kaçıncı sınıftasın?" for accounts created without a sınıf ---
+  readonly gradeChoices = SIGNUP_GRADES;
+  needsGrade = computed(() => {
+    const u = this.appUser();
+    return isStudent(u) && !u!.grade && u!.gradeLevel !== 'kpss';
+  });
+  savingGrade = signal(false);
+
+  async chooseGrade(grade: number) {
+    const u = this.appUser();
+    if (!u || this.savingGrade()) return;
+    this.savingGrade.set(true);
+    try {
+      await this.firestoreSvc.updateUserProfile(u.uid, {
+        grade: grade === 0 ? null : grade,
+        gradeLevel: grade === 0 ? 'kpss' : levelForGrade(grade),
+      });
+    } catch (err) {
+      console.error('[Dashboard] saving grade failed:', err);
+    } finally {
+      this.savingGrade.set(false);
+    }
+  }
 }

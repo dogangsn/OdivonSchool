@@ -1,0 +1,75 @@
+<div class="game-page">
+  <div class="game-topbar">
+    <a routerLink="/oyunlar" class="game-back">← Oyunlar</a>
+    <div class="game-tools">
+      <button class="icon-btn" type="button" [title]="sound() ? 'Sesi kapat' : 'Sesi aç'" (click)="toggleSound()">
+        {{ sound() ? '🔔' : '🔕' }}
+      </button>
+    </div>
+  </div>
+
+  @if (!set) {
+    <div class="game-stage theme-mint">
+      <div class="game-intro">
+        <div class="intro-emoji">🤔</div>
+        <h1>Bu oyunu bulamadık</h1>
+        <a routerLink="/oyunlar" class="btn-play">Oyunlara Dön</a>
+      </div>
+    </div>
+  } @else {
+    @switch (phase()) {
+      @case ('intro') {
+        <div class="game-stage theme-mint">
+          <div class="game-intro">
+            <div class="intro-emoji">{{ set.emoji }}</div>
+            <h1>{{ set.title }}</h1>
+            <p>{{ set.description }}. Kartları çevir, birbirine uyan ikilileri bul. Ne kadar az hata, o kadar çok yıldız!</p>
+            <div class="intro-rules">
+              <span>🃏 12 kart</span>
+              <span>🎯 Az hata = 3 yıldız</span>
+              @if (canSpeak) {
+                <span>🔊 Kartlar sesli okunur</span>
+              }
+            </div>
+            <button class="btn-play" type="button" (click)="start()">▶ Başla</button>
+          </div>
+        </div>
+      }
+
+      @case ('done') {
+        @if (outcome(); as o) {
+          <app-game-result [outcome]="o" [reward]="reward()" (replay)="start()" />
+        }
+      }
+
+      @default {
+        <div class="game-stage theme-mint">
+          <div class="game-hud">
+            <span class="hud-pill">✅ {{ matchedPairs() }}/{{ pairCount() }}</span>
+            <span class="hud-pill">❌ {{ mistakes() }} hata</span>
+            <span class="hud-pill">⏱️ {{ seconds() }} sn</span>
+          </div>
+
+          <div class="card-grid">
+            @for (card of cards(); track card.id) {
+              <button
+                type="button"
+                class="mem-card"
+                [class.up]="card.state !== 'down'"
+                [class.matched]="card.state === 'matched'"
+                [class.side-b]="card.side === 'b'"
+                [attr.aria-label]="card.state === 'down' ? 'Kapalı kart' : card.text"
+                (click)="flip(card)"
+              >
+                <span class="mem-inner">
+                  <span class="mem-back">?</span>
+                  <span class="mem-front">{{ card.text }}</span>
+                </span>
+              </button>
+            }
+          </div>
+        </div>
+      }
+    }
+  }
+</div>

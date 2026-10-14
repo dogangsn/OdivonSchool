@@ -24,7 +24,7 @@ export class Login {
     this.loading.set(true);
     try {
       await this.auth.login(this.email, this.password);
-      this.router.navigateByUrl('/panel');
+      this.router.navigateByUrl(await this.auth.homeUrl());
     } catch (err: any) {
       console.error('[Login] submit error:', err);
       this.errorMessage.set(getAuthErrorMessage(err));
@@ -38,7 +38,7 @@ export class Login {
     this.loading.set(true);
     try {
       await this.auth.loginWithGoogle();
-      this.router.navigateByUrl('/panel');
+      this.router.navigateByUrl(await this.auth.homeUrl());
     } catch (err: any) {
       console.error('[Login] loginWithGoogle error:', err);
       if (err?.code !== 'auth/popup-closed-by-user') {

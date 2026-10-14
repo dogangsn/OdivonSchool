@@ -1,0 +1,83 @@
+.teacher {
+  padding-top: 28px;
+  padding-bottom: 56px;
+}
+
+.t-hero {
+  padding: 32px;
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at 90% 10%, rgba(255, 255, 255, 0.25) 0, transparent 35%),
+    linear-gradient(135deg, #0ea5e9, #6366f1);
+  color: #fff;
+
+  h1 {
+    color: #fff;
+    font-size: clamp(1.7rem, 4.5vw, 2.4rem);
+    font-weight: 900;
+    margin: 10px 0 8px;
+  }
+
+  p {
+    color: rgba(255, 255, 255, 0.92);
+    max-width: 620px;
+  }
+
+  .t-badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 6px 14px;
+    border-radius: 9999px;
+    font-weight: 700;
+    font-size: 0.85rem;
+  }
+
+  .t-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+
+    .btn.outline {
+      background: rgba(255, 255, 255, 0.12);
+      color: #fff;
+      border-color: rgba(255, 255, 255, 0.6);
+    }
+  }
+}
+
+.t-upcoming {
+  margin-top: 32px;
+
+  h2 {
+    font-size: 1.3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+  }
+}
+
+.t-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.t-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 20px;
+
+  .t-emoji {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 0.88rem;
+    flex: 1;
+  }
+
+  .badge {
+    align-self: flex-start;
+  }
+}

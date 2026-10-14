@@ -32,6 +32,36 @@
     </div>
   </section>
 
+  @if (needsGrade()) {
+    <section class="grade-prompt card">
+      <div>
+        <h2>🎒 Kaçıncı sınıftasın?</h2>
+        <p>Sana uygun oyunları göstermek ve sınıfına yeni soru gelince haber vermek için sınıfını seç.</p>
+      </div>
+      <div class="grade-prompt-chips">
+        @for (g of gradeChoices; track g.value) {
+          <button type="button" class="grade-chip" [disabled]="savingGrade()" (click)="chooseGrade(g.value)">{{ g.label }}</button>
+        }
+      </div>
+    </section>
+  }
+
+  <!-- Games progress -->
+  <section class="games-strip">
+    <div class="gs-level">
+      <span class="gs-num">{{ level() }}</span>
+      <span class="gs-label">Seviye</span>
+    </div>
+    <div class="gs-info">
+      <div class="gs-row">
+        <strong>{{ xp() }} XP</strong>
+        <span>🔥 {{ streakDays() }} günlük seri · 🏅 {{ badgeCount() }} rozet</span>
+      </div>
+      <div class="gs-bar"><div class="gs-fill" [style.width.%]="levelProgress()"></div></div>
+    </div>
+    <a routerLink="/oyunlar" class="gs-cta">🎮 Oyna ve XP kazan</a>
+  </section>
+
   <!-- Metrics Grid -->
   <section class="metrics-grid">
     <div class="stat-card">

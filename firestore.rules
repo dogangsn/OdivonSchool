@@ -30,20 +30,37 @@ service cloud.firestore {
         a.answers is list && a.answers.size() == a.totalCount;
     }
 
+    // Gamification fields the owner's own client updates after a game.
+    // Bounds keep a tampered client from minting huge XP in one write; moving
+    // XP to a Cloud Function is the long-term fix.
+    function isValidProgress(after, before) {
+      return after.get('xp', 0) is int &&
+        after.get('xp', 0) - before.get('xp', 0) >= 0 &&
+        after.get('xp', 0) - before.get('xp', 0) <= 600 &&
+        after.get('streakDays', 0) is int &&
+        after.get('streakDays', 0) >= 0 && after.get('streakDays', 0) <= 3660 &&
+        after.get('badges', []) is list && after.get('badges', []).size() <= 60;
+    }
+
     match /users/{userId} {
       allow read: if isOwner(userId) || isAdmin();
-      // Users may only touch their own profile fields (name, kademe, sınıf).
-      // Role and every subscription field are only written by admins or
-      // trusted backends (payment webhooks via the Admin SDK).
+      // People pick student or teacher for themselves ('user' = legacy
+      // student). Admin role, teacher verification and every subscription
+      // field are only written by admins or trusted backends (Admin SDK).
       allow create: if isOwner(userId) &&
-        request.resource.data.role == 'user' &&
+        request.resource.data.role in ['student', 'teacher', 'user'] &&
         request.resource.data.subscriptionStatus == 'none' &&
         !('subscriptionId' in request.resource.data) &&
-        !('subscriptionExpiresAt' in request.resource.data);
+        !('subscriptionExpiresAt' in request.resource.data) &&
+        !('teacherVerified' in request.resource.data) &&
+        request.resource.data.get('xp', 0) == 0 &&
+        request.resource.data.get('badges', []).size() == 0;
       allow update: if isAdmin() ||
         (isOwner(userId) &&
           request.resource.data.diff(resource.data).affectedKeys()
-            .hasOnly(['displayName', 'gradeLevel', 'grade']));
+            .hasOnly(['displayName', 'gradeLevel', 'grade', 'school', 'branch',
+                      'lastNotifSeenAt', 'xp', 'streakDays', 'lastPlayedDate', 'badges']) &&
+          isValidProgress(request.resource.data, resource.data));
       allow delete: if isAdmin();
     }
 
@@ -64,6 +81,29 @@ service cloud.firestore {
         request.resource.data.userId == request.auth.uid &&
         isValidAttempt(request.resource.data);
       allow update, delete: if isAdmin();
+    }
+
+    // One document per finished game (Hız Turu, Bilgi Yarışması, Eşleştir).
+    match /gameResults/{resultId} {
+      allow read: if isAdmin() || (isSignedIn() && resource.data.userId == request.auth.uid);
+      allow create: if isSignedIn() &&
+        request.resource.data.userId == request.auth.uid &&
+        request.resource.data.gameType in ['speed', 'quiz', 'match'] &&
+        request.resource.data.score is int && request.resource.data.score >= 0 &&
+        request.resource.data.score <= 100000 &&
+        request.resource.data.correct is int && request.resource.data.total is int &&
+        request.resource.data.correct >= 0 && request.resource.data.correct <= request.resource.data.total &&
+        request.resource.data.total <= 500 &&
+        request.resource.data.stars is int &&
+        request.resource.data.stars >= 0 && request.resource.data.stars <= 3;
+      allow update, delete: if isAdmin();
+    }
+
+    // "Havuza yeni soru eklendi" notices. Written by the admin approval
+    // screen, read by every student's notification bell.
+    match /poolUpdates/{updateId} {
+      allow read: if true;
+      allow write: if isAdmin();
     }
 
     match /subscriptions/{subscriptionId} {

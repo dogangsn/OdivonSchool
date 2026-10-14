@@ -12,12 +12,13 @@ import {
   addDoc,
   updateDoc,
   serverTimestamp,
+  getCountFromServer,
 } from '@angular/fire/firestore';
 import { Observable, map, take } from 'rxjs';
 import { TestCategory } from '../../models/test-category';
 import { Question } from '../../models/question';
 import { TestAttempt } from '../../models/test-attempt';
-import { AppUser } from '../../models/user';
+import { AppUser, UserRole } from '../../models/user';
 
 /**
  * Thin wrapper around Firestore collections used across the app.
@@ -69,6 +70,17 @@ export class FirestoreService {
     );
   }
 
+  /** Number of approved questions in a category (one aggregation read). */
+  async approvedCount(categoryId: string): Promise<number> {
+    const q = query(
+      collection(this.firestore, 'questions'),
+      where('categoryId', '==', categoryId),
+      where('reviewStatus', '==', 'approved')
+    );
+    const snap = await getCountFromServer(q);
+    return snap.data().count;
+  }
+
   // ---- Test attempts (history + success rates) ----
   saveAttempt(attempt: Omit<TestAttempt, 'id'>) {
     const ref = collection(this.firestore, 'testAttempts');
@@ -97,7 +109,7 @@ export class FirestoreService {
     return docData(doc(this.firestore, `users/${uid}`), { idField: 'uid' }) as Observable<AppUser>;
   }
 
-  async updateUserRole(uid: string, role: 'admin' | 'user'): Promise<void> {
+  async updateUserRole(uid: string, role: UserRole): Promise<void> {
     const ref = doc(this.firestore, `users/${uid}`);
     await updateDoc(ref, { role });
   }

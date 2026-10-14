@@ -3,6 +3,7 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 import { DatePipe } from '@angular/common';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { FirestoreService } from '../../../core/services/firestore';
+import { roleLabel } from '../../../models/user';
 
 @Component({
   selector: 'app-subscriber-detail',
@@ -11,6 +12,7 @@ import { FirestoreService } from '../../../core/services/firestore';
   styleUrl: './subscriber-detail.scss',
 })
 export class SubscriberDetail {
+  readonly roleLabel = roleLabel;
   private route = inject(ActivatedRoute);
   private firestoreSvc = inject(FirestoreService);
 
@@ -36,7 +38,7 @@ export class SubscriberDetail {
     const u = this.user();
     if (!u) return;
 
-    const newRole = u.role === 'admin' ? 'user' : 'admin';
+    const newRole = u.role === 'admin' ? 'student' : 'admin';
     const confirmMsg =
       newRole === 'admin'
         ? `Bu kullanıcıya (${u.email}) Yönetici (Admin) yetkisi vermek istediğinize emin misiniz?`

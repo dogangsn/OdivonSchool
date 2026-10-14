@@ -1,0 +1,127 @@
+<div class="game-page">
+  <div class="game-topbar">
+    <a routerLink="/oyunlar" class="game-back">← Oyunlar</a>
+    <div class="game-tools">
+      @if (canSpeak && phase() === 'playing') {
+        <button class="icon-btn" type="button" title="Sesli oku" (click)="readAloud()">🔊</button>
+      }
+      <button class="icon-btn" type="button" [title]="sound() ? 'Sesi kapat' : 'Sesi aç'" (click)="toggleSound()">
+        {{ sound() ? '🔔' : '🔕' }}
+      </button>
+    </div>
+  </div>
+
+  @if (!preset) {
+    <div class="game-stage">
+      <div class="game-intro">
+        <div class="intro-emoji">🤔</div>
+        <h1>Bu oyunu bulamadık</h1>
+        <p>Oyun listesinden yeni bir oyun seçebilirsin.</p>
+        <a routerLink="/oyunlar" class="btn-play">Oyunlara Dön</a>
+      </div>
+    </div>
+  } @else {
+    @switch (phase()) {
+      @case ('intro') {
+        <div class="game-stage">
+          <div class="game-intro">
+            <div class="intro-emoji">{{ preset.emoji }}</div>
+            <h1>{{ preset.title }}</h1>
+            <p>{{ preset.description }}. 60 saniyede olabildiğince çok doğru cevap ver! Art arda doğrular puanını katlar.</p>
+            <div class="intro-rules">
+              <span>⏱️ 60 saniye</span>
+              <span>❤️ 3 can</span>
+              <span>🔥 Kombo ×4'e kadar</span>
+              <span>⌨️ 1-4 tuşlarıyla da oynanır</span>
+            </div>
+            <button class="btn-play" type="button" (click)="start()">▶ Başla</button>
+          </div>
+        </div>
+      }
+
+      @case ('countdown') {
+        <div class="game-stage">
+          <div class="game-intro">
+            <p>Hazır ol…</p>
+            @for (n of [countdown()]; track n) {
+              <div class="countdown">{{ n }}</div>
+            }
+          </div>
+        </div>
+      }
+
+      @case ('done') {
+        @if (outcome(); as o) {
+          <app-game-result [outcome]="o" [reward]="reward()" (replay)="start()" />
+        }
+      }
+
+      @default {
+        <div class="game-stage">
+          <div class="game-hud">
+            <span class="hud-pill">⏱️ {{ secondsLeft() }} sn</span>
+            <span class="hud-pill lives">
+              @for (i of lifeSlots; track i) {
+                <span [class.lost]="i >= lives()">❤️</span>
+              }
+            </span>
+            @if (multiplier() > 1) {
+              @for (m of [multiplier()]; track m) {
+                <span class="hud-pill hud-combo">🔥 ×{{ m }}</span>
+              }
+            }
+            <span class="hud-pill">⭐ {{ score() }}</span>
+          </div>
+
+          <div class="time-bar" [class.low]="secondsLeft() <= 10">
+            <div class="time-fill" [style.width.%]="timePercent()"></div>
+          </div>
+
+          @if (problem(); as p) {
+            @for (key of [p.text + answered()]; track key) {
+              <div class="problem-card" [class.bump]="feedback() === 'bump'" [class.shake]="feedback() === 'shake'">
+                <div class="problem-text">{{ p.text }}</div>
+              </div>
+            }
+
+            <div class="answer-grid" [class.three]="p.options.length === 3">
+              @for (opt of p.options; track opt; let i = $index) {
+                <button
+                  class="answer-btn"
+                  type="button"
+                  [disabled]="phase() !== 'playing' || picked() !== null"
+                  [class.correct]="picked() !== null && opt === p.answer"
+                  [class.wrong]="picked() === opt && opt !== p.answer"
+                  (click)="choose(opt)"
+                >
+                  <span class="key-hint">{{ i + 1 }}</span>
+                  {{ opt }}
+                </button>
+              }
+            </div>
+
+            @if (phase() === 'learn') {
+              <div class="learn-panel">
+                <div class="learn-title">💡 Doğru cevap: {{ p.answer }}</div>
+                <p>{{ p.explanation }}</p>
+                @if (p.visual; as v) {
+                  <div class="dot-array" [style.grid-template-columns]="'repeat(' + v.cols + ', 14px)'">
+                    @for (d of dotRows(); track d) {
+                      <span class="dot" [style.animation-delay.ms]="d * 15"></span>
+                    }
+                  </div>
+                  <p class="dot-caption">{{ v.rows }} sıra, her sırada {{ v.cols }} nokta</p>
+                }
+                <div class="learn-actions">
+                  <button class="btn-play small" type="button" (click)="continueAfterLearn()">
+                    {{ lives() > 0 ? 'Anladım, devam →' : 'Sonuçları gör' }}
+                  </button>
+                </div>
+              </div>
+            }
+          }
+        </div>
+      }
+    }
+  }
+</div>

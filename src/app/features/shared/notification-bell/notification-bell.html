@@ -1,0 +1,41 @@
+<button
+  type="button"
+  class="bell-btn"
+  [class.has-unread]="notifications.unreadCount() > 0"
+  (click)="toggle()"
+  [attr.aria-expanded]="open()"
+  title="Bildirimler"
+>
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/>
+    <path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/>
+  </svg>
+  @if (notifications.unreadCount() > 0) {
+    <span class="bell-count">{{ notifications.unreadCount() > 9 ? '9+' : notifications.unreadCount() }}</span>
+  }
+</button>
+
+@if (open()) {
+  <div class="bell-panel">
+    <div class="bell-head">
+      <strong>Bildirimler</strong>
+      <span>Sınıfına eklenen yeni sorular</span>
+    </div>
+    <ul>
+      @for (n of notifications.items(); track n.id) {
+        <li [class.unread]="notifications.isUnread(n)">
+          <a [routerLink]="['/oyun/yarisma', n.categoryId]" (click)="close()">
+            <span class="n-icon">🆕</span>
+            <span class="n-body">
+              <strong>{{ n.count }} yeni soru · {{ n.subject }}</strong>
+              <span class="n-topic">{{ n.topic }}</span>
+              <span class="n-time">{{ n.createdAt | date: 'd MMM, HH:mm' }}</span>
+            </span>
+          </a>
+        </li>
+      } @empty {
+        <li class="bell-empty">Henüz bildirim yok. Sınıfına yeni soru eklenince burada göreceksin.</li>
+      }
+    </ul>
+  </div>
+}

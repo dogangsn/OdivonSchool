@@ -328,3 +328,136 @@
     padding: 20px 16px;
   }
 }
+
+/* Sınıf prompt for accounts without a sınıf */
+.grade-prompt {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 22px;
+  margin-bottom: 24px;
+  border: 2px solid var(--primary);
+  background: var(--primary-light);
+
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 800;
+  }
+
+  .grade-prompt-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .grade-chip {
+    padding: 8px 14px;
+    border-radius: 9999px;
+    border: 1.5px solid var(--border);
+    background: var(--surface);
+    font-family: inherit;
+    font-weight: 700;
+    cursor: pointer;
+
+    &:hover:not(:disabled) {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+  }
+}
+
+/* XP / seri strip linking to the games */
+.games-strip {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 18px 22px;
+  margin-bottom: 24px;
+  border-radius: 22px;
+  background: linear-gradient(135deg, #6366f1, #a855f7 60%, #ec4899);
+  color: #fff;
+  box-shadow: 0 18px 36px -18px rgba(99, 102, 241, 0.6);
+
+  .gs-level {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #fbbf24, #f97316);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gs-num {
+    font-family: var(--font-heading);
+    font-size: 1.6rem;
+    font-weight: 900;
+    line-height: 1;
+  }
+
+  .gs-label {
+    font-size: 0.6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  .gs-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .gs-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 6px;
+    font-size: 0.9rem;
+
+    strong {
+      font-size: 1.1rem;
+    }
+  }
+
+  .gs-bar {
+    height: 10px;
+    border-radius: 9999px;
+    background: rgba(255, 255, 255, 0.25);
+    overflow: hidden;
+  }
+
+  .gs-fill {
+    height: 100%;
+    border-radius: inherit;
+    background: var(--game-sun, #fbbf24);
+  }
+
+  .gs-cta {
+    flex-shrink: 0;
+    background: #fbbf24;
+    color: #78350f;
+    font-weight: 900;
+    padding: 12px 20px;
+    border-radius: 9999px;
+    box-shadow: 0 5px 0 #d97706;
+
+    &:hover {
+      color: #78350f;
+      transform: translateY(-2px);
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .games-strip {
+    flex-wrap: wrap;
+
+    .gs-cta {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}

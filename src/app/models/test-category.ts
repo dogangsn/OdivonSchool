@@ -34,3 +34,11 @@ export function levelForGrade(grade: number): EducationLevel {
   if (grade <= 8) return 'ortaokul';
   return 'lise';
 }
+
+/** Sınıf choices on the sign-up form; 0 stands for KPSS (no sınıf). */
+export const SIGNUP_GRADES: { value: number; label: string; level: EducationLevel }[] = [
+  ...[1, 2, 3, 4].map((g) => ({ value: g, label: `${g}. Sınıf`, level: 'ilkokul' as const })),
+  ...[5, 6, 7, 8].map((g) => ({ value: g, label: `${g}. Sınıf`, level: 'ortaokul' as const })),
+  ...[9, 10, 11, 12].map((g) => ({ value: g, label: `${g}. Sınıf`, level: 'lise' as const })),
+  { value: 0, label: 'KPSS', level: 'kpss' },
+];

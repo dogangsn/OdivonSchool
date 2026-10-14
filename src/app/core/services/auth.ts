@@ -11,8 +11,36 @@ import {
   updateProfile,
 } from '@angular/fire/auth';
 import { Firestore, doc, docData, setDoc, getDoc } from '@angular/fire/firestore';
-import { Observable, switchMap, of } from 'rxjs';
-import { AppUser } from '../../models/user';
+import { Observable, switchMap, of, firstValueFrom, filter, take } from 'rxjs';
+import { AppUser, SignupProfile } from '../../models/user';
+
+/** Builds the Firestore user document for a new account. */
+function newUserDoc(
+  uid: string,
+  email: string,
+  displayName: string,
+  profile?: SignupProfile
+): AppUser {
+  const user: AppUser = {
+    uid,
+    email,
+    displayName,
+    role: profile?.role ?? 'student',
+    gradeLevel: profile?.gradeLevel ?? 'ortaokul',
+    createdAt: Date.now(),
+    subscriptionStatus: 'none',
+    lastNotifSeenAt: Date.now(),
+    xp: 0,
+    streakDays: 0,
+    badges: [],
+  };
+  if (profile?.grade) user.grade = profile.grade;
+  if (profile?.role === 'teacher') {
+    if (profile.school?.trim()) user.school = profile.school.trim();
+    if (profile.branch?.trim()) user.branch = profile.branch.trim();
+  }
+  return user;
+}
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
@@ -35,7 +63,7 @@ export class AuthService {
     email: string,
     password: string,
     displayName: string,
-    gradeLevel?: 'ilkokul' | 'ortaokul' | 'lise' | 'kpss'
+    profile: SignupProfile
   ) {
     const cleanEmail = email.trim();
     const cleanName = displayName.trim();
@@ -49,15 +77,8 @@ export class AuthService {
       }
     }
 
-    const newUser: AppUser = {
-      uid: cred.user.uid,
-      email: cleanEmail,
-      displayName: cleanName || 'Öğrenci',
-      role: 'user',
-      gradeLevel: gradeLevel ?? 'ortaokul',
-      createdAt: Date.now(),
-      subscriptionStatus: 'none',
-    };
+    const fallbackName = profile.role === 'teacher' ? 'Öğretmen' : 'Öğrenci';
+    const newUser = newUserDoc(cred.user.uid, cleanEmail, cleanName || fallbackName, profile);
     await setDoc(doc(this.firestore, `users/${cred.user.uid}`), newUser);
     return cred;
   }
@@ -71,15 +92,11 @@ export class AuthService {
       const userDocRef = doc(this.firestore, `users/${cred.user.uid}`);
       const snap = await getDoc(userDocRef);
       if (!snap.exists()) {
-        const newUser: AppUser = {
-          uid: cred.user.uid,
-          email: cred.user.email ?? cleanEmail,
-          displayName: cred.user.displayName || 'Öğrenci',
-          role: 'user',
-          gradeLevel: 'ortaokul',
-          createdAt: Date.now(),
-          subscriptionStatus: 'none',
-        };
+        const newUser = newUserDoc(
+          cred.user.uid,
+          cred.user.email ?? cleanEmail,
+          cred.user.displayName || 'Öğrenci'
+        );
         await setDoc(userDocRef, newUser);
       }
     } catch (err) {
@@ -89,7 +106,12 @@ export class AuthService {
     return cred;
   }
 
-  async loginWithGoogle(gradeLevel?: 'ilkokul' | 'ortaokul' | 'lise' | 'kpss') {
+  /**
+   * Google sign-in. `profile` comes from the sign-up form; when it is missing
+   * (login page) a brand-new account is created as a student and asked for
+   * its sınıf on the dashboard.
+   */
+  async loginWithGoogle(profile?: SignupProfile) {
     const provider = new GoogleAuthProvider();
     provider.setCustomParameters({ prompt: 'select_account' });
     const cred = await signInWithPopup(this.auth, provider);
@@ -97,18 +119,27 @@ export class AuthService {
     const snap = await getDoc(userDocRef);
 
     if (!snap.exists()) {
-      const newUser: AppUser = {
-        uid: cred.user.uid,
-        email: cred.user.email ?? '',
-        displayName: cred.user.displayName || 'Öğrenci',
-        role: 'user',
-        gradeLevel: gradeLevel ?? 'ortaokul',
-        createdAt: Date.now(),
-        subscriptionStatus: 'none',
-      };
+      const newUser = newUserDoc(
+        cred.user.uid,
+        cred.user.email ?? '',
+        cred.user.displayName || (profile?.role === 'teacher' ? 'Öğretmen' : 'Öğrenci'),
+        profile
+      );
       await setDoc(userDocRef, newUser);
     }
     return cred;
+  }
+
+  /** Landing page for the signed-in user's role (waits for the user doc). */
+  async homeUrl(): Promise<string> {
+    const user = await firstValueFrom(
+      this.appUser$.pipe(
+        filter((u) => u !== undefined),
+        take(1)
+      )
+    );
+    if (user?.role === 'teacher') return '/ogretmen';
+    return '/panel';
   }
 
   logout() {

@@ -1,0 +1,20 @@
+.joker {
+  border: none;
+  color: #fff;
+  font-family: inherit;
+  cursor: pointer;
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: default;
+  }
+
+  &:not(:disabled):hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.answer-btn.text {
+  color: #0c4a6e;
+  box-shadow: 0 5px 0 rgba(12, 74, 110, 0.3);
+}

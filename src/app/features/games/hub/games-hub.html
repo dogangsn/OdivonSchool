@@ -1,0 +1,123 @@
+<div class="hub container animate-fade-in">
+  <section class="hub-hero">
+    <div class="hero-text">
+      <span class="hero-badge">🎮 Oyna, öğren, kazan</span>
+      <h1>Odivon Oyunları</h1>
+      <p>Müfredata uygun mini oyunlarla pratik yap. Her oyunda XP topla, yıldız kazan, rozet aç!</p>
+    </div>
+
+    @if (appUser(); as u) {
+      <div class="hero-progress">
+        <div class="lvl-ring">
+          <span class="lvl-num">{{ level() }}</span>
+          <span class="lvl-label">Seviye</span>
+        </div>
+        <div class="lvl-info">
+          <strong>{{ xp() }} XP</strong>
+          <div class="lvl-bar"><div class="lvl-fill" [style.width.%]="progress()"></div></div>
+          <span class="lvl-meta">🔥 {{ u.streakDays ?? 0 }} günlük seri · 🏅 {{ ownedBadges().size }}/{{ allBadges.length }} rozet</span>
+        </div>
+      </div>
+    } @else {
+      <div class="hero-progress guest">
+        <p>XP, seri ve rozetlerini kaydetmek için <a routerLink="/kayit">ücretsiz kayıt ol</a>.</p>
+      </div>
+    }
+  </section>
+
+  <section class="grade-bar">
+    <span class="grade-bar-label">Sınıf</span>
+    <div class="grade-scroll">
+      @for (g of gradeChoices; track g) {
+        <button type="button" class="grade-pill" [class.active]="grade() === g" (click)="selectGrade(g)">{{ g }}</button>
+      }
+    </div>
+  </section>
+
+  @if (isReview()) {
+    <p class="review-note">Hız Turu ve Eşleştir oyunları ilkokul konularını içerir; {{ grade() }}. sınıf için tekrar amaçlı 4. sınıf seviyesini gösteriyoruz.</p>
+  }
+
+  <section class="game-section">
+    <div class="section-head">
+      <h2>⚡ Hız Turu</h2>
+      <p>60 saniye, 3 can. Ne kadar hızlısın?</p>
+    </div>
+    <div class="game-grid">
+      @for (p of speedPresets(); track p.id) {
+        <a class="game-tile tile-speed" [routerLink]="['/oyun/hiz', p.id]">
+          <span class="tile-emoji">{{ p.emoji }}</span>
+          <strong>{{ p.title }}</strong>
+          <small>{{ p.description }}</small>
+          <span class="tile-cta">Oyna →</span>
+        </a>
+      }
+    </div>
+  </section>
+
+  <section class="game-section">
+    <div class="section-head">
+      <h2>🧠 Eşleştir</h2>
+      <p>Kartları çevir, ikilileri bul.</p>
+    </div>
+    <div class="game-grid">
+      @for (s of matchSets(); track s.id) {
+        <a class="game-tile tile-match" [routerLink]="['/oyun/eslestir', s.id]">
+          <span class="tile-emoji">{{ s.emoji }}</span>
+          <strong>{{ s.title }}</strong>
+          <small>{{ s.subject }} · {{ s.description }}</small>
+          <span class="tile-cta">Oyna →</span>
+        </a>
+      } @empty {
+        <p class="empty-note">Bu sınıf için eşleştirme seti yakında.</p>
+      }
+    </div>
+  </section>
+
+  <section class="game-section">
+    <div class="section-head">
+      <h2>🏆 Bilgi Yarışması</h2>
+      <p>Konu seç, 10 soruluk yarışmaya katıl. Hızlı cevap bonus puan getirir.</p>
+    </div>
+
+    @for (group of quizGroups(); track group.subject) {
+      <h3 class="subject-title">{{ group.subject }}</h3>
+      <div class="game-grid">
+        @for (c of group.categories; track c.id) {
+          <a class="game-tile tile-quiz" [routerLink]="['/oyun/yarisma', c.id]">
+            <strong>{{ c.topic }}</strong>
+            <small>{{ count(c.id) }} soru</small>
+            <span class="tile-cta">Yarış →</span>
+          </a>
+        }
+      </div>
+    } @empty {
+      @if (countsLoading()) {
+        <p class="empty-note">Konular yükleniyor…</p>
+      } @else {
+        <p class="empty-note">Bu sınıfın soru havuzu hazırlanıyor. Yeni sorular gelince bildirim alacaksın 🔔</p>
+      }
+    }
+
+    @if (quizGroups().length && comingSoonCount() > 0) {
+      <p class="empty-note">{{ comingSoonCount() }} konu daha soru eklendikçe açılacak.</p>
+    }
+  </section>
+
+  @if (appUser()) {
+    <section class="game-section">
+      <div class="section-head">
+        <h2>🏅 Rozetlerim</h2>
+      </div>
+      <div class="badge-grid">
+        @for (b of allBadges; track b.id) {
+          <div class="badge-card" [class.locked]="!ownedBadges().has(b.id)" [title]="b.description">
+            <span class="b-emoji">{{ b.emoji }}</span>
+            <strong>{{ b.title }}</strong>
+            <small>{{ b.description }}</small>
+          </div>
+        }
+      </div>
+    </section>
+  }
+</div>

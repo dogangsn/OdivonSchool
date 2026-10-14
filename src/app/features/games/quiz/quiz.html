@@ -1,0 +1,130 @@
+<div class="game-page">
+  <div class="game-topbar">
+    <a routerLink="/oyunlar" class="game-back">← Oyunlar</a>
+    <div class="game-tools">
+      @if (canSpeak && (phase() === 'playing' || phase() === 'reveal')) {
+        <button class="icon-btn" type="button" title="Sesli oku" (click)="readAloud()">🔊</button>
+      }
+      <button class="icon-btn" type="button" [title]="sound() ? 'Sesi kapat' : 'Sesi aç'" (click)="toggleSound()">
+        {{ sound() ? '🔔' : '🔕' }}
+      </button>
+    </div>
+  </div>
+
+  @switch (phase()) {
+    @case ('loading') {
+      <div class="game-stage theme-sky">
+        <div class="game-intro">
+          <div class="intro-emoji">⏳</div>
+          <p>Sorular hazırlanıyor…</p>
+        </div>
+      </div>
+    }
+
+    @case ('empty') {
+      <div class="game-stage theme-sky">
+        <div class="game-intro">
+          <div class="intro-emoji">📭</div>
+          <h1>Bu konuda henüz yeterli soru yok</h1>
+          <p>Yeni sorular eklenince sana haber vereceğiz. Şimdilik başka bir oyun seçebilirsin.</p>
+          <a routerLink="/oyunlar" class="btn-play">Oyunlara Dön</a>
+        </div>
+      </div>
+    }
+
+    @case ('intro') {
+      <div class="game-stage theme-sky">
+        <div class="game-intro">
+          <div class="intro-emoji">🏆</div>
+          <h1>Bilgi Yarışması</h1>
+          @if (category(); as c) {
+            <p><strong>{{ c.subject }}</strong> · {{ c.topic }}</p>
+          }
+          <div class="intro-rules">
+            <span>❓ {{ questions().length }} soru</span>
+            <span>⏱️ Soru başına 25 sn</span>
+            <span>⚡ Hızlı cevaba bonus</span>
+            <span>🃏 1 adet %50 jokeri</span>
+          </div>
+          <button class="btn-play" type="button" (click)="start()">▶ Yarışmaya Başla</button>
+        </div>
+      </div>
+    }
+
+    @case ('done') {
+      @if (outcome(); as o) {
+        <app-game-result [outcome]="o" [reward]="reward()" (replay)="start()" />
+      }
+    }
+
+    @default {
+      @if (current(); as q) {
+        <div class="game-stage theme-sky">
+          <div class="game-hud">
+            <span class="hud-pill">Soru {{ index() + 1 }}/{{ questions().length }}</span>
+            @if (streak() > 1) {
+              <span class="hud-pill hud-combo">🔥 {{ streak() }} seri</span>
+            }
+            <span class="hud-pill">⭐ {{ score() }}</span>
+            <button
+              class="hud-pill joker"
+              type="button"
+              [disabled]="jokerUsed() || phase() !== 'playing'"
+              (click)="useJoker()"
+              title="İki yanlış şıkkı kaldır"
+            >
+              🃏 %50
+            </button>
+          </div>
+
+          <div class="time-bar" [class.low]="secondsLeft() <= 5">
+            <div class="time-fill" [style.width.%]="timePercent()"></div>
+          </div>
+
+          @for (key of [q.id]; track key) {
+            <div class="problem-card">
+              <div class="problem-text long">{{ q.prompt }}</div>
+            </div>
+          }
+
+          <div class="answer-grid single">
+            @for (opt of q.options; track opt.id; let i = $index) {
+              <button
+                class="answer-btn text"
+                type="button"
+                [disabled]="phase() !== 'playing' || hidden().has(opt.id)"
+                [class.dimmed]="hidden().has(opt.id)"
+                [class.correct]="phase() === 'reveal' && opt.id === q.correctOptionId"
+                [class.wrong]="phase() === 'reveal' && picked() === opt.id && opt.id !== q.correctOptionId"
+                (click)="choose(opt.id)"
+              >
+                <span class="opt-letter">{{ letters[i] }}</span>
+                <span>{{ opt.text }}</span>
+              </button>
+            }
+          </div>
+
+          @if (phase() === 'reveal') {
+            <div class="learn-panel">
+              @if (wasCorrect()) {
+                <div class="learn-title ok">✅ Doğru! +{{ lastPoints() }} puan</div>
+              } @else if (picked() === null) {
+                <div class="learn-title">⏰ Süre doldu! Doğru cevap: {{ correctText() }}</div>
+              } @else {
+                <div class="learn-title">💡 Doğru cevap: {{ correctText() }}</div>
+              }
+              @if (q.explanation) {
+                <p>{{ q.explanation }}</p>
+              }
+              <div class="learn-actions">
+                <button class="btn-play small" type="button" (click)="next()">
+                  {{ isLast() ? 'Sonuçları gör' : 'Sonraki soru →' }}
+                </button>
+              </div>
+            </div>
+          }
+        </div>
+      }
+    }
+  }
+</div>

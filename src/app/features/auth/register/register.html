@@ -47,6 +47,51 @@
         </div>
       }
 
+      <!-- Step 1: who is signing up -->
+      <div class="role-picker">
+        <button type="button" class="role-card" [class.selected]="role() === 'student'" (click)="selectRole('student')">
+          <span class="role-emoji">🎒</span>
+          <strong>Ben öğrenciyim</strong>
+          <small>Oyun oyna, test çöz, rozet topla</small>
+        </button>
+        <button type="button" class="role-card" [class.selected]="role() === 'teacher'" (click)="selectRole('teacher')">
+          <span class="role-emoji">🧑‍🏫</span>
+          <strong>Ben öğretmenim</strong>
+          <small>Sınıfını kur, öğrencilerini takip et</small>
+        </button>
+      </div>
+
+      <!-- Step 2: sınıf (student) or school info (teacher) -->
+      @if (role() === 'student') {
+        <div class="form-group level-group">
+          <label class="level-group-label">Kaçıncı sınıftasın?</label>
+          <p class="level-group-hint">Sınıfına yeni soru ve oyun eklendiğinde sana haber vereceğiz.</p>
+          @for (group of levelGroups; track group.level) {
+            <div class="grade-row">
+              <span class="grade-row-title">{{ group.icon }} {{ group.title }}</span>
+              <div class="grade-chips">
+                @for (g of gradesOf(group.level); track g.value) {
+                  <button type="button" class="grade-chip" [class.selected]="grade() === g.value" (click)="selectGrade(g.value)">
+                    {{ g.label }}
+                  </button>
+                }
+              </div>
+            </div>
+          }
+        </div>
+      } @else {
+        <div class="teacher-fields">
+          <div class="form-group">
+            <label for="school">Okul (isteğe bağlı)</label>
+            <input id="school" type="text" [(ngModel)]="school" [ngModelOptions]="{ standalone: true }" placeholder="Atatürk İlkokulu" />
+          </div>
+          <div class="form-group">
+            <label for="branch">Branş (isteğe bağlı)</label>
+            <input id="branch" type="text" [(ngModel)]="branch" [ngModelOptions]="{ standalone: true }" placeholder="Sınıf Öğretmeni, Matematik..." />
+          </div>
+        </div>
+      }
+
       <!-- Google Sign Up Button -->
       <button type="button" class="btn outline lg google-btn" [disabled]="loading()" (click)="loginWithGoogle()">
         <svg width="20" height="20" viewBox="0 0 24 24">
@@ -76,7 +121,7 @@
               name="displayName"
               [(ngModel)]="displayName"
               required
-              placeholder="Ahmet Yılmaz"
+              [placeholder]="role() === 'teacher' ? 'Ayşe Öğretmen' : 'Ahmet Yılmaz'"
             />
           </div>
         </div>
@@ -94,7 +139,7 @@
               name="email"
               [(ngModel)]="email"
               required
-              placeholder="ornek@ogrenci.com"
+              placeholder="ornek@eposta.com"
             />
           </div>
         </div>
@@ -118,66 +163,7 @@
           </div>
         </div>
 
-        <!-- Grade / Education Level Selection -->
-        <div class="form-group level-group">
-          <label class="level-group-label">Eğitim Kademeni Seç</label>
-          <p class="level-group-hint">Hedefine en uygun ders ve soruları paneline hazırlayalım.</p>
-          <div class="grade-selector-grid">
-            <button
-              type="button"
-              class="grade-btn"
-              [class.selected]="gradeLevel() === 'ilkokul'"
-              (click)="selectGrade('ilkokul')"
-            >
-              <span class="grade-icon">🌱</span>
-              <div class="grade-info">
-                <strong>İlkokul</strong>
-                <small>1-4. Sınıflar</small>
-              </div>
-            </button>
-
-            <button
-              type="button"
-              class="grade-btn"
-              [class.selected]="gradeLevel() === 'ortaokul'"
-              (click)="selectGrade('ortaokul')"
-            >
-              <span class="grade-icon">🎒</span>
-              <div class="grade-info">
-                <strong>Ortaokul</strong>
-                <small>5-8. Sınıf &amp; LGS</small>
-              </div>
-            </button>
-
-            <button
-              type="button"
-              class="grade-btn"
-              [class.selected]="gradeLevel() === 'lise'"
-              (click)="selectGrade('lise')"
-            >
-              <span class="grade-icon">🏛️</span>
-              <div class="grade-info">
-                <strong>Lise</strong>
-                <small>9-12. &amp; YKS</small>
-              </div>
-            </button>
-
-            <button
-              type="button"
-              class="grade-btn"
-              [class.selected]="gradeLevel() === 'kpss'"
-              (click)="selectGrade('kpss')"
-            >
-              <span class="grade-icon">💼</span>
-              <div class="grade-info">
-                <strong>KPSS</strong>
-                <small>Genel Yetenek</small>
-              </div>
-            </button>
-          </div>
-        </div>
-
-        <button type="submit" class="btn primary lg submit-btn" [disabled]="f.invalid || loading()">
+        <button type="submit" class="btn primary lg submit-btn" [disabled]="f.invalid || !profileComplete() || loading()">
           @if (loading()) {
             <span class="spinner"></span>
             <span>Kayıt Yapılıyor...</span>

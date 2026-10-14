@@ -2,6 +2,7 @@ import { Component, inject, signal, computed } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { FirestoreService } from '../../../core/services/firestore';
+import { roleLabel } from '../../../models/user';
 
 @Component({
   selector: 'app-subscriber-list',
@@ -10,6 +11,7 @@ import { FirestoreService } from '../../../core/services/firestore';
   styleUrl: './subscriber-list.scss',
 })
 export class SubscriberList {
+  readonly roleLabel = roleLabel;
   private firestoreSvc = inject(FirestoreService);
 
   users = toSignal(this.firestoreSvc.allUsers(), { initialValue: [] });

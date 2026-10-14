@@ -5,6 +5,7 @@ import { toObservable, toSignal } from '@angular/core/rxjs-interop';
 import { switchMap, tap } from 'rxjs';
 import { AiGeneratorService, DraftCursor, DraftPage } from '../../../core/services/ai-generator';
 import { FirestoreService } from '../../../core/services/firestore';
+import { NotificationService } from '../../../core/services/notifications';
 import { Question } from '../../../models/question';
 import { TestCategory } from '../../../models/test-category';
 
@@ -17,6 +18,7 @@ import { TestCategory } from '../../../models/test-category';
 export class QuestionReview implements OnInit {
   aiGen = inject(AiGeneratorService);
   private firestoreSvc = inject(FirestoreService);
+  private notifications = inject(NotificationService);
 
   // All categories from Firestore
   categories = toSignal(this.firestoreSvc.allCategories(), { initialValue: [] });
@@ -202,6 +204,7 @@ export class QuestionReview implements OnInit {
     this.reviewingId.set(questionId);
     try {
       await this.aiGen.approveQuestion(questionId);
+      this.notifyStudents([questionId]);
     } catch (err: any) {
       alert(`Onaylama hatası: ${err.message}`);
     } finally {
@@ -221,6 +224,14 @@ export class QuestionReview implements OnInit {
       this.reviewingId.set(null);
       this.refreshDraftTotal();
     }
+  }
+
+  /** Tells students of the affected sınıflar that new questions arrived. */
+  private notifyStudents(ids: string[]) {
+    this.notifications.recordApprovals(ids).catch((err) => {
+      // The questions are already live; a missed notice is not worth an error dialog.
+      console.warn('[QuestionReview] pool update notice failed:', err);
+    });
   }
 
   // --- Pagination ---
@@ -277,6 +288,7 @@ export class QuestionReview implements OnInit {
     this.bulkApproving.set(true);
     try {
       await this.aiGen.bulkApprove(ids);
+      this.notifyStudents(ids);
       this.selectedIds.set(new Set());
       this.generateMessage.set({
         type: 'success',
@@ -316,6 +328,7 @@ export class QuestionReview implements OnInit {
       if (!confirm(`Onay bekleyen ${ids.length} sorunun tamamını (tüm sayfalar) onaylayıp canlıya almak istiyor musunuz?`)) return;
 
       await this.aiGen.bulkApprove(ids);
+      this.notifyStudents(ids);
       this.selectedIds.set(new Set());
       this.cursorStack.set([]);
       this.generateMessage.set({

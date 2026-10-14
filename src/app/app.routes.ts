@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { authGuard } from './core/guards/auth-guard';
 import { adminGuard } from './core/guards/admin-guard';
+import { teacherGuard } from './core/guards/teacher-guard';
 
 /**
  * NOTE on the admin panel path: 'y0n3t1m-9f3a2' is just an example
@@ -29,6 +30,30 @@ export const routes: Routes = [
   {
     path: 'test/:categoryId/sonuc',
     loadComponent: () => import('./features/test-solve/result/result').then(m => m.Result),
+  },
+
+  // Games (public; results are saved only for signed-in players)
+  {
+    path: 'oyunlar',
+    loadComponent: () => import('./features/games/hub/games-hub').then(m => m.GamesHub),
+  },
+  {
+    path: 'oyun/hiz/:presetId',
+    loadComponent: () => import('./features/games/speed-round/speed-round').then(m => m.SpeedRound),
+  },
+  {
+    path: 'oyun/eslestir/:setId',
+    loadComponent: () => import('./features/games/memory-match/memory-match').then(m => m.MemoryMatch),
+  },
+  {
+    path: 'oyun/yarisma/:categoryId',
+    loadComponent: () => import('./features/games/quiz/quiz').then(m => m.Quiz),
+  },
+
+  {
+    path: 'ogretmen',
+    canActivate: [teacherGuard],
+    loadComponent: () => import('./features/teacher/home/teacher-home').then(m => m.TeacherHome),
   },
 
   {

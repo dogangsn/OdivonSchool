@@ -1,0 +1,32 @@
+<div class="teacher container animate-fade-in">
+  <section class="t-hero">
+    <span class="t-badge">🧑‍🏫 Öğretmen Paneli</span>
+    <h1>Hoş geldiniz, {{ appUser()?.displayName || 'Öğretmenim' }}!</h1>
+    <p>
+      @if (appUser()?.school) {
+        {{ appUser()?.school }}
+        @if (appUser()?.branch) { · {{ appUser()?.branch }} }
+        <br />
+      }
+      Sınıf yönetimi araçları hazırlanıyor. Bu arada öğrencilerinizin oynayacağı oyunları deneyebilir, soru havuzunu inceleyebilirsiniz.
+    </p>
+    <div class="t-actions">
+      <a routerLink="/oyunlar" class="btn primary lg">🎮 Oyunları Dene</a>
+      <a routerLink="/kategoriler" class="btn outline lg">📚 Soru Havuzu</a>
+    </div>
+  </section>
+
+  <section class="t-upcoming">
+    <h2>Yakında öğretmen panelinde</h2>
+    <div class="t-grid">
+      @for (item of upcoming; track item.title) {
+        <div class="t-card card">
+          <span class="t-emoji">{{ item.emoji }}</span>
+          <strong>{{ item.title }}</strong>
+          <p>{{ item.text }}</p>
+          <span class="badge badge-warning">Yakında</span>
+        </div>
+      }
+    </div>
+  </section>
+</div>

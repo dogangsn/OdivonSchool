@@ -82,7 +82,7 @@
                     [class.badge-primary]="u.role === 'admin'"
                     [class.badge-neutral]="u.role !== 'admin'"
                   >
-                    {{ u.role === 'admin' ? 'Yönetici' : 'Öğrenci' }}
+                    {{ roleLabel(u.role) }}
                   </span>
                 </td>
                 <td>

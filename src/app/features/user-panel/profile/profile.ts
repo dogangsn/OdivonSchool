@@ -5,6 +5,7 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { AuthService } from '../../../core/services/auth';
 import { FirestoreService } from '../../../core/services/firestore';
 import { LEVEL_GRADES } from '../../../models/test-category';
+import { roleLabel } from '../../../models/user';
 
 @Component({
   selector: 'app-profile',
@@ -13,6 +14,7 @@ import { LEVEL_GRADES } from '../../../models/test-category';
   styleUrl: './profile.scss',
 })
 export class Profile {
+  readonly roleLabel = roleLabel;
   private auth = inject(AuthService);
   private firestoreSvc = inject(FirestoreService);
 

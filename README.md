@@ -47,3 +47,11 @@ Angular + Firebase ile İlkokul / Ortaokul / Lise / KPSS test çözme platformu.
 - **Pedagojik Test Çözümü:** "Pas Geç / Boş Bırak" ve doğru yanıtlarda da "Çözüm Açıklamasını Gör" kontrolleri.
 - **Yapay Zekâ ile Otomatik Soru Üretimi:** Admin panelinden veya `scripts/batch-generate-all.js` CLI aracıyla 77 kategorinin tamamına Google Gemini 3.8 Flash ile soru üretimi.
 
+
+## Oyunlar ve roller (Faz 1–2)
+
+- **Roller:** kayıtta `student` (öğrenci) veya `teacher` (öğretmen) seçilir; eski `user` rolü öğrenci sayılır. Öğrenci kayıtta sınıfını seçer, sınıfı olmayan eski hesaplara panelde sorulur. Öğretmen paneli `/ogretmen` (sınıf yönetimi Faz 3).
+- **Oyunlar** `/oyunlar`: Hız Turu (`src/app/games/math-generator.ts`, sorular otomatik üretilir), Bilgi Yarışması (onaylı soru havuzu), Eşleştir (`src/app/games/match-sets.ts`). Sonuçlar `gameResults` koleksiyonuna, XP / seri / rozetler kullanıcı dokümanına yazılır.
+- **Bildirim zili:** admin soru onaylayınca kategori başına bir `poolUpdates` kaydı yazılır; öğrenciler kendi sınıflarınınkini zilde görür.
+- Yeni kurallar ve indeksler için: `firebase deploy --only firestore:rules,firestore:indexes`.
+- Plan: `/mnt/project-files/planlama/oyunlastirma-ve-ogretmen-plani.md` (proje dosyaları).

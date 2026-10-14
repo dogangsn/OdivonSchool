@@ -34,7 +34,7 @@
               [class.badge-primary]="user.role === 'admin'"
               [class.badge-neutral]="user.role !== 'admin'"
             >
-              {{ user.role === 'admin' ? '🛡️ Yönetici' : '🎓 Öğrenci' }}
+              {{ user.role === 'admin' ? '🛡️' : user.role === 'teacher' ? '🧑‍🏫' : '🎓' }} {{ roleLabel(user.role) }}
             </span>
 
             <span

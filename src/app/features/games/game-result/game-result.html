@@ -1,0 +1,99 @@
+<div class="game-stage result-stage">
+  @if (outcome().stars >= 2) {
+    <div class="confetti" aria-hidden="true">
+      @for (c of confetti; track $index) {
+        <span
+          [style.left.%]="c.left"
+          [style.animation-delay.s]="c.delay"
+          [style.background]="c.color"
+          [style.transform]="'rotate(' + c.rotate + 'deg)'"
+        ></span>
+      }
+    </div>
+  }
+
+  <div class="result-head">
+    <div class="stars">
+      @for (s of starSlots; track s) {
+        <span class="star" [class.on]="outcome().stars >= s" [style.animation-delay.s]="s * 0.2">★</span>
+      }
+    </div>
+    <h1>{{ cheer() }}</h1>
+    <p class="result-sub">{{ outcome().title }}</p>
+  </div>
+
+  <div class="result-stats">
+    <div class="r-stat">
+      <span class="r-value">{{ outcome().score }}</span>
+      <span class="r-label">Puan</span>
+    </div>
+    <div class="r-stat">
+      <span class="r-value">{{ outcome().correct }}/{{ outcome().total }}</span>
+      <span class="r-label">Doğru</span>
+    </div>
+    <div class="r-stat">
+      <span class="r-value">%{{ accuracy() }}</span>
+      <span class="r-label">Başarı</span>
+    </div>
+  </div>
+
+  @if (reward(); as r) {
+    <div class="xp-box">
+      <div class="xp-row">
+        <span class="xp-gain">+{{ r.xpGained }} XP</span>
+        <span class="xp-level">Seviye {{ r.level }}</span>
+        <span class="xp-streak">🔥 {{ r.streakDays }} gün</span>
+      </div>
+      <div class="xp-bar"><div class="xp-fill" [style.width.%]="r.levelProgress"></div></div>
+      @if (!r.saved) {
+        <p class="guest-note">
+          XP ve rozetlerini kaydetmek için <a routerLink="/kayit">ücretsiz hesap aç</a>.
+        </p>
+      }
+    </div>
+
+    @if (r.newBadges.length) {
+      <div class="badges-earned">
+        <h3>Yeni rozet!</h3>
+        <div class="badge-list">
+          @for (b of r.newBadges; track b.id) {
+            <div class="badge-item">
+              <span class="badge-emoji">{{ b.emoji }}</span>
+              <strong>{{ b.title }}</strong>
+              <small>{{ b.description }}</small>
+            </div>
+          }
+        </div>
+      </div>
+    }
+  } @else {
+    <div class="xp-box saving">Sonucun kaydediliyor…</div>
+  }
+
+  <div class="result-actions">
+    <button class="btn-play" type="button" (click)="replay.emit()">🔁 Tekrar Oyna</button>
+    <a class="btn-ghost" routerLink="/oyunlar">Diğer Oyunlar</a>
+  </div>
+</div>
+
+@if (outcome().mistakes.length) {
+  <section class="mistakes card">
+    <h2>📖 Birlikte öğrenelim</h2>
+    <p class="mistakes-sub">Yanlış yaptığın sorular ve doğru cevapları. Bir dahaki sefere hepsini bileceksin!</p>
+    <ul>
+      @for (m of outcome().mistakes; track $index) {
+        <li>
+          <span class="m-prompt">{{ m.prompt }}</span>
+          <span class="m-answers">
+            @if (m.given !== null) {
+              <span class="m-given">Senin cevabın: {{ m.given }}</span>
+            } @else {
+              <span class="m-given">Süre doldu</span>
+            }
+            <span class="m-correct">Doğrusu: {{ m.correctAnswer }}</span>
+          </span>
+        </li>
+      }
+    </ul>
+  </section>
+}
