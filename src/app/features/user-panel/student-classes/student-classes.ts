@@ -3,10 +3,13 @@ import { DatePipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
-import { of, switchMap } from 'rxjs';
+import { combineLatest, map, of, switchMap } from 'rxjs';
 import { AuthService } from '../../../core/services/auth';
 import { ClassroomService, StudentAssignment } from '../../../core/services/classroom';
-import { KIND_LABELS } from '../../../models/classroom';
+import { Classroom, KIND_LABELS } from '../../../models/classroom';
+import { LeagueEntry, LiveSession } from '../../../models/live';
+import { LiveService } from '../../../core/services/live';
+import { toObservable } from '@angular/core/rxjs-interop';
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -20,6 +23,7 @@ const DAY_MS = 24 * 60 * 60 * 1000;
 export class StudentClasses {
   private auth = inject(AuthService);
   private classroom = inject(ClassroomService);
+  private live = inject(LiveService);
 
   readonly kindLabels = KIND_LABELS;
   readonly now = Date.now();
@@ -32,6 +36,45 @@ export class StudentClasses {
     this.auth.appUser$.pipe(switchMap((u) => (u ? this.classroom.studentAssignments(u) : of([])))),
     { initialValue: [] as StudentAssignment[] }
   );
+
+  /** Live competitions running right now in my classes. */
+  liveNow = toSignal(
+    toObservable(this.classes).pipe(
+      switchMap((classes: Classroom[]) =>
+        classes.length === 0
+          ? of([] as { classroom: Classroom; session: LiveSession }[])
+          : combineLatest(
+              classes.map((c) =>
+                this.live.activeSessions(c.id).pipe(map((list) => list.map((session) => ({ classroom: c, session }))))
+              )
+            ).pipe(map((groups) => groups.flat()))
+      )
+    ),
+    { initialValue: [] }
+  );
+
+  /** This week's league for each class. */
+  leagues = toSignal(
+    toObservable(this.classes).pipe(
+      switchMap((classes: Classroom[]) =>
+        classes.length === 0
+          ? of([] as { classroom: Classroom; entries: LeagueEntry[] }[])
+          : combineLatest(
+              classes.map((c) => this.classroom.league(c.id).pipe(map((entries) => ({ classroom: c, entries }))))
+            )
+      )
+    ),
+    { initialValue: [] }
+  );
+  myUid = toSignal(this.auth.appUser$.pipe(map((u) => u?.uid ?? null)), { initialValue: null });
+
+  /** Top 5, plus me below them when I'm not in the top 5. */
+  leagueRows(entries: LeagueEntry[]): { rank: number; entry: LeagueEntry }[] {
+    const rows = entries.map((entry, i) => ({ rank: i + 1, entry }));
+    const top = rows.slice(0, 5);
+    const mine = rows.find((r) => r.entry.uid === this.myUid());
+    return mine && mine.rank > 5 ? [...top, mine] : top;
+  }
 
   pending = computed(() => this.assignments().filter((a) => !a.submission));
   done = computed(() => this.assignments().filter((a) => a.submission).slice(0, 6));

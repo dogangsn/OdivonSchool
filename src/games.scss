@@ -443,3 +443,21 @@
     transition: none !important;
   }
 }
+
+/* ==========================================================================
+   Doğru mu Yanlış mı? + Sınıflandır — extra stage themes
+   ========================================================================== */
+
+.game-stage {
+  &.theme-grape {
+    background:
+      radial-gradient(circle at 15% 15%, rgba(255, 255, 255, 0.22) 0, transparent 35%),
+      linear-gradient(135deg, #8b5cf6, #d946ef);
+  }
+
+  &.theme-sun {
+    background:
+      radial-gradient(circle at 15% 15%, rgba(255, 255, 255, 0.22) 0, transparent 35%),
+      linear-gradient(135deg, #f59e0b, #f97316 60%, #ef4444);
+  }
+}

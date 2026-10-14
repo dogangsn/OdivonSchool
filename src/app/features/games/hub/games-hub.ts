@@ -7,6 +7,8 @@ import { FirestoreService } from '../../../core/services/firestore';
 import { TestCategory, levelForGrade } from '../../../models/test-category';
 import { SPEED_PRESETS } from '../../../games/math-generator';
 import { MATCH_SETS } from '../../../games/match-sets';
+import { TRUEFALSE_SETS } from '../../../games/truefalse-sets';
+import { SORT_SETS } from '../../../games/sort-sets';
 import { ALL_BADGES, levelForXp, levelProgress } from '../../../games/scoring';
 
 const MIN_QUIZ_QUESTIONS = 3;
@@ -41,6 +43,8 @@ export class GamesHub {
 
   speedPresets = computed(() => SPEED_PRESETS.filter((p) => p.grade === this.gameGrade()));
   matchSets = computed(() => MATCH_SETS.filter((s) => s.grades.includes(this.gameGrade())));
+  trueFalseSets = computed(() => TRUEFALSE_SETS.filter((s) => s.grades.includes(this.gameGrade())));
+  sortSets = computed(() => SORT_SETS.filter((s) => s.grades.includes(this.gameGrade())));
 
   private levelCategories = toSignal(
     toObservable(this.grade).pipe(

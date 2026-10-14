@@ -25,6 +25,13 @@ export function matchStars(mistakes: number): 1 | 2 | 3 {
   return 1;
 }
 
+/** Sınıflandır: wrong drops against the number of items. */
+export function sortStars(mistakes: number, total: number): 1 | 2 | 3 {
+  if (mistakes <= 1) return 3;
+  if (mistakes <= Math.max(2, Math.ceil(total * 0.3))) return 2;
+  return 1;
+}
+
 /** Combo multiplier: ×2 after 3 in a row, ×3 after 6, ×4 after 9. */
 export function comboMultiplier(streak: number): number {
   return Math.min(4, 1 + Math.floor(streak / 3));
@@ -110,6 +117,20 @@ const BADGE_RULES: BadgeRule[] = [
     title: 'Bilgi Kurdu',
     description: 'Bilgi Yarışması’nda tüm soruları bildin',
     earned: (c) => c.outcome.gameType === 'quiz' && c.outcome.total > 0 && c.outcome.correct === c.outcome.total,
+  },
+  {
+    id: 'dogru-dedektif',
+    emoji: '🕵️',
+    title: 'Doğru Dedektifi',
+    description: 'Doğru mu Yanlış mı’da tüm cümleleri bildin',
+    earned: (c) => c.outcome.gameType === 'truefalse' && c.outcome.total > 0 && c.outcome.correct === c.outcome.total,
+  },
+  {
+    id: 'duzen-ustasi',
+    emoji: '🗂️',
+    title: 'Düzen Ustası',
+    description: 'Sınıflandır’ı hiç hata yapmadan bitirdin',
+    earned: (c) => c.outcome.gameType === 'sort' && c.outcome.total > 0 && c.outcome.mistakes.length === 0,
   },
 ];
 

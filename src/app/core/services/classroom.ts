@@ -32,6 +32,8 @@ import {
   TeacherContent,
 } from '../../models/classroom';
 import { GameOutcome } from '../../games/game-models';
+import { LeagueEntry } from '../../models/live';
+import { isoWeekKey } from '../live-scoring';
 
 /** No 0/O, 1/I/L: codes are read aloud in class and typed by children. */
 const CODE_ALPHABET = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789';
@@ -398,6 +400,45 @@ export class ClassroomService {
           (err) => console.warn(`[Classroom] progress for ${classId} not saved:`, err)
         )
       )
+    );
+  }
+
+  /** Adds XP to this week's league in each of the student's classes. */
+  async recordLeague(user: AppUser, xpGained: number): Promise<void> {
+    const classIds = user.classIds ?? [];
+    if (classIds.length === 0 || xpGained <= 0) return;
+    const week = isoWeekKey(Date.now());
+    const gain = Math.min(600, Math.round(xpGained));
+    await Promise.all(
+      classIds.map(async (classId) => {
+        const ref = doc(this.firestore, `classes/${classId}/league/${user.uid}`);
+        try {
+          const snap = await getDoc(ref);
+          const prev = snap.exists() ? (snap.data() as LeagueEntry) : null;
+          const entry: LeagueEntry = {
+            uid: user.uid,
+            displayName: (user.displayName || 'Öğrenci').slice(0, 80),
+            week,
+            xp: prev?.week === week ? prev.xp + gain : gain,
+          };
+          await setDoc(ref, entry);
+        } catch (err) {
+          console.warn(`[Classroom] league for ${classId} not saved:`, err);
+        }
+      })
+    );
+  }
+
+  /** This week's league of a class, highest XP first. */
+  league(classId: string): Observable<LeagueEntry[]> {
+    const week = isoWeekKey(Date.now());
+    return (
+      collectionData(
+        query(collection(this.firestore, `classes/${classId}/league`), where('week', '==', week))
+      ) as Observable<LeagueEntry[]>
+    ).pipe(
+      map((list) => [...list].sort((a, b) => b.xp - a.xp)),
+      catchError(() => of([]))
     );
   }
 

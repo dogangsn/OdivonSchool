@@ -402,3 +402,51 @@
   color: var(--warning);
   white-space: nowrap;
 }
+
+// --- League ---
+.league-card {
+  margin-bottom: 1rem;
+}
+
+.league-row {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.4rem 1rem;
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.45rem 0.6rem;
+    border-radius: var(--radius-sm);
+    background: var(--bg-alt);
+  }
+
+  .lg-rank {
+    width: 1.6rem;
+    text-align: center;
+    font-weight: 800;
+  }
+
+  .lg-name {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 600;
+  }
+
+  .lg-xp {
+    font-weight: 800;
+    color: var(--primary);
+  }
+}
+
+.tr-empty.small {
+  font-size: 0.78rem;
+  margin-bottom: 0;
+}

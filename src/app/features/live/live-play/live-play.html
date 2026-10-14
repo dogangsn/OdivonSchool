@@ -1,0 +1,116 @@
+<div class="lv-stage">
+  <div class="lv-wrap play">
+    @if (session(); as s) {
+      <div class="lv-top">
+        <a routerLink="/panel">← Panel</a>
+        <span class="lv-badge" [class.live]="s.status !== 'finished'">{{ s.title }}</span>
+        @if (me(); as m) { <span class="lv-badge">⭐ {{ m.score }}</span> }
+      </div>
+
+      @if (joinError()) {
+        <div class="lv-panel lv-center">
+          <span class="lv-big-emoji">🚪</span>
+          <p>{{ joinError() }}</p>
+          <a class="lv-btn ghost" routerLink="/panel">Panele dön</a>
+        </div>
+      } @else {
+        @switch (s.status) {
+          @case ('lobby') {
+            <div class="lv-panel lv-center wait">
+              <span class="lv-big-emoji bounce">🎮</span>
+              <h2>Hazırsın{{ me() ? ', ' + me()!.displayName : '' }}!</h2>
+              <p>Öğretmenin yarışmayı başlatınca soru burada görünecek.</p>
+              <p class="lv-muted">{{ s.questionCount }} soru · her biri {{ s.durationSec }} saniye · hızlı ve doğru olan kazanır</p>
+            </div>
+          }
+
+          @case ('question') {
+            @if (s.question; as q) {
+              <div class="q-head">
+                <span class="lv-badge">Soru {{ s.questionIndex + 1 }} / {{ s.questionCount }}</span>
+                <div class="lv-timer" [class.low]="remaining() <= 5" [style.--p]="timerPct()">{{ remaining() }}</div>
+              </div>
+              <h2 class="lv-prompt">{{ q.prompt }}</h2>
+              @if (myChoice() === null) {
+                <div class="lv-options">
+                  @for (o of q.options; track $index) {
+                    <button type="button" class="lv-opt" (click)="choose($index)" [disabled]="sending()">
+                      <span class="lv-shape">{{ shapes[$index] }}</span>{{ o }}
+                    </button>
+                  }
+                </div>
+                @if (answerError()) { <p class="play-error">{{ answerError() }}</p> }
+              } @else {
+                <div class="lv-panel lv-center sent">
+                  <span class="lv-big-emoji">⏳</span>
+                  <h3>Cevabın gönderildi!</h3>
+                  <p class="lv-muted">Seçtiğin: {{ shapes[myChoice()!] }} {{ q.options[myChoice()!] }}</p>
+                </div>
+              }
+            }
+          }
+
+          @case ('reveal') {
+            @let m = me();
+            @let choice = choices()[s.questionIndex];
+            <div class="lv-panel lv-center result" [class.good]="choice === s.reveal?.correctIndex" [class.bad]="choice !== s.reveal?.correctIndex">
+              @if (choice === undefined) {
+                <span class="lv-big-emoji">⌛</span>
+                <h2>Bu soruda cevap vermedin</h2>
+              } @else if (choice === s.reveal?.correctIndex) {
+                <span class="lv-big-emoji">🎉</span>
+                <h2>Doğru!</h2>
+                @if (m?.lastGained) { <p class="gain">+{{ m!.lastGained }} puan</p> }
+              } @else {
+                <span class="lv-big-emoji">💪</span>
+                <h2>Bu sefer olmadı</h2>
+              }
+              @if (s.question && s.reveal) {
+                <p>Doğru cevap: <b>{{ s.question.options[s.reveal.correctIndex] }}</b></p>
+                @if (choice !== s.reveal.correctIndex && s.reveal.explanation) {
+                  <p class="explain">💡 {{ s.reveal.explanation }}</p>
+                }
+              }
+              @if (m?.rank) {
+                <p class="rank">Sıran: <b>{{ m!.rank }}.</b> · Toplam {{ m!.score }} puan</p>
+              }
+            </div>
+          }
+
+          @case ('finished') {
+            @let m = me();
+            <div class="lv-panel lv-center final">
+              <span class="lv-big-emoji">{{ m?.rank === 1 ? '🥇' : m?.rank === 2 ? '🥈' : m?.rank === 3 ? '🥉' : '🏅' }}</span>
+              <h2>Yarışma bitti!</h2>
+              @if (m) {
+                <p class="rank">{{ m.rank ? m.rank + '. oldun' : 'Katıldın' }} · {{ m.score }} puan · {{ m.correct }}/{{ s.questionCount }} doğru</p>
+              }
+              @if (reward(); as r) {
+                <p class="gain">+{{ r.xpGained }} XP @if (r.streakDays > 1) { · 🔥 {{ r.streakDays }} gün seri }</p>
+              }
+              @if (s.leaderboard.length) {
+                <ol class="lv-board final-board">
+                  @for (e of s.leaderboard.slice(0, 5); track e.uid; let i = $index) {
+                    <li [class.me]="e.uid === m?.uid">
+                      <span class="lv-rank">{{ i + 1 }}</span>
+                      <span class="lv-name">{{ e.name }}</span>
+                      <span class="lv-score">{{ e.score }}</span>
+                    </li>
+                  }
+                </ol>
+              }
+              <a class="lv-btn" routerLink="/panel">Panele dön</a>
+            </div>
+          }
+        }
+      }
+    } @else {
+      <div class="lv-panel lv-center">
+        <span class="lv-big-emoji">🔎</span>
+        <h2>Yarışma bulunamadı</h2>
+        <p class="lv-muted">Yarışma bitmiş ya da bu sınıfta değilsin.</p>
+        <a class="lv-btn ghost" routerLink="/panel">Panele dön</a>
+      </div>
+    }
+  </div>
+</div>

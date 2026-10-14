@@ -1,4 +1,4 @@
-export type GameType = 'speed' | 'quiz' | 'match';
+export type GameType = 'speed' | 'quiz' | 'match' | 'truefalse' | 'sort';
 
 /** A question a game asks; answers are compared as strings. */
 export interface GameProblem {

@@ -13,6 +13,7 @@ import {
   trackingCsv,
 } from '../../../core/tracking';
 import { Assignment, ClassMember, ClassProgress, Classroom, Submission } from '../../../models/classroom';
+import { LeagueEntry } from '../../../models/live';
 
 type SortKey = 'name' | 'success' | 'active' | 'overdue';
 
@@ -51,6 +52,11 @@ export class ClassTrackingComponent {
       switchMap(({ c, list }) => this.classroomSvc.allSubmissions(c.id, list))
     ),
     { initialValue: {} as Record<string, Submission[]> }
+  );
+
+  league = toSignal(
+    toObservable(this.classroom).pipe(switchMap((c) => this.classroomSvc.league(c.id))),
+    { initialValue: [] as LeagueEntry[] }
   );
 
   tracking = computed<ClassTracking>(() =>

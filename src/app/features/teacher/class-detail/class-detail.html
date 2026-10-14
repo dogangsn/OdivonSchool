@@ -7,12 +7,19 @@
         <p class="t-sub">{{ c.grade ? c.grade + '. sınıf' : 'Karma sınıf' }} · {{ members().length }} öğrenci</p>
       </div>
       <div class="t-head-actions">
+        <button type="button" class="btn live-btn" (click)="openLive()">⚡ Canlı yarışma</button>
         <button type="button" class="btn primary" (click)="openDrawer()">+ Ödev ver</button>
       </div>
     </div>
 
     @if (notice(); as n) {
       <div class="t-alert" [class.success]="n.type === 'success'" [class.danger]="n.type === 'danger'">{{ n.text }}</div>
+    }
+
+    @for (l of activeLive(); track l.id) {
+      <a class="live-running" [routerLink]="['/ogretmen/canli', classId, l.id]">
+        <span class="lv-dot"></span> <b>{{ l.title }}</b> devam ediyor · ekrana dön →
+      </a>
     }
 
     <section class="code-card">
@@ -253,6 +260,85 @@
       <button type="button" class="btn outline" (click)="drawerOpen.set(false)">Vazgeç</button>
       <button type="button" class="btn primary" [disabled]="saving()" (click)="saveAssignment()">
         {{ saving() ? 'Kaydediliyor…' : 'Ödevi ver' }}
+      </button>
+    </div>
+  </aside>
+}
+
+@if (liveOpen()) {
+  <div class="t-drawer-backdrop" (click)="liveOpen.set(false)"></div>
+  <aside class="t-drawer" role="dialog" aria-label="Canlı yarışma">
+    <div class="t-drawer-head">
+      <div>
+        <h3>⚡ Canlı yarışma</h3>
+        <p>Soruları tahtaya yansıtın; öğrenciler kendi cihazlarından cevaplar. Hızlı ve doğru olan kazanır.</p>
+      </div>
+      <button type="button" class="t-close" (click)="liveOpen.set(false)">✕</button>
+    </div>
+    <div class="t-drawer-body">
+      @if (liveError()) {
+        <div class="t-alert danger">{{ liveError() }}</div>
+      }
+
+      <label class="field-label">Sorular</label>
+      <div class="t-choice-grid">
+        <button type="button" [class.selected]="liveSource() === 'content'" (click)="chooseLiveSource('content')">
+          <strong>✍️ Kendi testim</strong>
+          <small>İçeriklerimdeki testlerden</small>
+        </button>
+        <button type="button" [class.selected]="liveSource() === 'pool'" (click)="chooseLiveSource('pool')">
+          <strong>🏆 Havuzdan konu</strong>
+          <small>Onaylı MEB soruları</small>
+        </button>
+      </div>
+
+      <div class="pick-list">
+        @if (liveSource() === 'content') {
+          @for (c of quizContent(); track c.id) {
+            <button type="button" [class.selected]="liveRef() === c.id" (click)="chooseLiveRef(c.id, c.title)">
+              <strong>{{ c.title }}</strong>
+              <small>{{ c.subject }} · {{ c.quizItems?.length ?? 0 }} soru</small>
+            </button>
+          } @empty {
+            <p class="pick-empty">Henüz testiniz yok. <a routerLink="/ogretmen/icerik/yeni" [queryParams]="{ tur: 'quiz' }">Yeni test hazırlayın →</a></p>
+          }
+        } @else {
+          @for (c of gradeCategories(); track c.id) {
+            <button type="button" [class.selected]="liveRef() === c.id" (click)="chooseLiveRef(c.id, c.topic)">
+              <strong>{{ c.topic }}</strong>
+              <small>{{ c.subject }}</small>
+            </button>
+          } @empty {
+            <p class="pick-empty">Bu sınıf seviyesi için konu bulunamadı.</p>
+          }
+        }
+      </div>
+
+      @if (liveSource() === 'pool') {
+        <label class="field-label">Soru sayısı</label>
+        <div class="t-chip-row">
+          @for (n of liveCounts; track n) {
+            <button type="button" [class.selected]="liveCount() === n" (click)="liveCount.set(n)">{{ n }}</button>
+          }
+        </div>
+      }
+
+      <label class="field-label">Her soru için süre</label>
+      <div class="t-chip-row">
+        @for (d of liveDurations; track d) {
+          <button type="button" [class.selected]="liveDuration() === d" (click)="liveDuration.set(d)">{{ d }} sn</button>
+        }
+      </div>
+
+      <div class="form-group">
+        <label for="liveTitle">Başlık</label>
+        <input id="liveTitle" type="text" [(ngModel)]="liveTitle" maxlength="120" placeholder="ör. Çarpım tablosu yarışması" />
+      </div>
+    </div>
+    <div class="t-drawer-foot">
+      <button type="button" class="btn outline" (click)="liveOpen.set(false)">Vazgeç</button>
+      <button type="button" class="btn primary" [disabled]="liveStarting()" (click)="startLive()">
+        {{ liveStarting() ? 'Hazırlanıyor…' : 'Lobiyi aç' }}
       </button>
     </div>
   </aside>

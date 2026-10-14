@@ -1,0 +1,92 @@
+.play {
+  max-width: 760px;
+}
+
+.q-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.wait {
+  padding: 2.5rem 1.25rem;
+
+  p {
+    color: rgba(255, 255, 255, 0.85);
+  }
+}
+
+.bounce {
+  animation: play-bounce 1.6s ease-in-out infinite;
+}
+
+@keyframes play-bounce {
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.sent {
+  padding: 2rem 1rem;
+}
+
+.result {
+  padding: 2rem 1.25rem;
+
+  &.good {
+    background: rgba(22, 163, 74, 0.35);
+    border-color: rgba(74, 222, 128, 0.6);
+  }
+
+  &.bad {
+    background: rgba(225, 29, 72, 0.25);
+    border-color: rgba(251, 113, 133, 0.5);
+  }
+
+  h2 {
+    margin: 0 0 0.5rem;
+  }
+}
+
+.gain {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #facc15;
+  margin: 0.25rem 0 0.75rem;
+}
+
+.rank {
+  font-size: 1.05rem;
+  margin-top: 0.75rem;
+}
+
+.explain {
+  margin: 0.75rem auto 0;
+  max-width: 520px;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  background: rgba(250, 204, 21, 0.15);
+  color: #fef9c3;
+}
+
+.play-error {
+  margin-top: 1rem;
+  text-align: center;
+  color: #fecdd3;
+}
+
+.final {
+  padding: 2rem 1.25rem;
+
+  .final-board {
+    max-width: 420px;
+    margin: 1.25rem auto 1.5rem;
+    text-align: left;
+
+    li.me {
+      background: rgba(250, 204, 21, 0.25);
+    }
+  }
+}

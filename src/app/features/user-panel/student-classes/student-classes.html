@@ -9,6 +9,17 @@
     }
   </div>
 
+  @for (l of liveNow(); track l.session.id) {
+    <a class="live-banner" [routerLink]="['/canli', l.classroom.id, l.session.id]">
+      <span class="live-pulse">⚡</span>
+      <span class="live-text">
+        <strong>Canlı yarışma başladı!</strong>
+        <small>{{ l.classroom.name }} · {{ l.session.title }}</small>
+      </span>
+      <span class="live-join">Katıl →</span>
+    </a>
+  }
+
   @if (message(); as m) {
     <div class="t-alert" [class.success]="m.type === 'success'" [class.danger]="m.type === 'danger'">{{ m.text }}</div>
   }
@@ -77,5 +88,21 @@
         </li>
       }
     </ul>
+  }
+
+  @for (lg of leagues(); track lg.classroom.id) {
+    @if (lg.entries.length) {
+      <h3 class="sc-sub">🏅 Bu haftanın ligi · {{ lg.classroom.name }}</h3>
+      <ol class="league">
+        @for (row of leagueRows(lg.entries); track row.entry.uid) {
+          <li [class.me]="row.entry.uid === myUid()" [class.gap]="row.rank > 5">
+            <span class="lg-rank">{{ row.rank <= 3 ? ['🥇', '🥈', '🥉'][row.rank - 1] : row.rank }}</span>
+            <span class="lg-name">{{ row.entry.displayName }}{{ row.entry.uid === myUid() ? ' (sen)' : '' }}</span>
+            <span class="lg-xp">{{ row.entry.xp }} XP</span>
+          </li>
+        }
+      </ol>
+      <p class="league-note">Oyun ve testlerden kazandığın XP buraya eklenir. Lig her pazartesi sıfırlanır.</p>
+    }
   }
 </section>

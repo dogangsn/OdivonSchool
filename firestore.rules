@@ -90,7 +90,7 @@ service cloud.firestore {
       allow read: if isAdmin() || (isSignedIn() && resource.data.userId == request.auth.uid);
       allow create: if isSignedIn() &&
         request.resource.data.userId == request.auth.uid &&
-        request.resource.data.gameType in ['speed', 'quiz', 'match'] &&
+        request.resource.data.gameType in ['speed', 'quiz', 'match', 'truefalse', 'sort'] &&
         request.resource.data.score is int && request.resource.data.score >= 0 &&
         request.resource.data.score <= 100000 &&
         request.resource.data.correct is int && request.resource.data.total is int &&
@@ -154,6 +154,22 @@ service cloud.firestore {
         p.topics is map && p.topics.size() <= 400;
     }
 
+    function liveQuestionOpen(classId, sessionId, q) {
+      let s = get(/databases/$(database)/documents/classes/$(classId)/live/$(sessionId)).data;
+      return s.status == 'question' && s.questionIndex == q &&
+        request.time < s.question.startedAt + duration.value(s.question.durationSec + 2, 's');
+    }
+
+    function isValidLeague(next, prev) {
+      return next.keys().hasOnly(['uid', 'displayName', 'week', 'xp']) &&
+        next.uid == request.auth.uid &&
+        next.displayName is string && next.displayName.size() <= 80 &&
+        next.week is string && next.week.size() <= 10 &&
+        next.xp is int && next.xp >= 0 &&
+        (((prev == null || prev.week != next.week) && next.xp <= 600) ||
+         (prev != null && prev.week == next.week && next.xp >= prev.xp && next.xp - prev.xp <= 600));
+    }
+
     match /classes/{classId} {
       allow read: if isAdmin() ||
         (isSignedIn() && resource.data.teacherId == request.auth.uid) ||
@@ -185,6 +201,62 @@ service cloud.firestore {
         allow create, update: if request.auth.uid == studentId && isClassMember(classId) &&
           isValidClassProgress(request.resource.data);
         allow delete: if isClassTeacher(classId);
+      }
+
+      // Weekly XP league inside the class; classmates see each other's XP only.
+      match /league/{studentId} {
+        allow read: if isClassMember(classId) || isClassTeacher(classId) || isAdmin();
+        allow create: if request.auth.uid == studentId && isClassMember(classId) &&
+          isValidLeague(request.resource.data, null);
+        allow update: if request.auth.uid == studentId && isClassMember(classId) &&
+          isValidLeague(request.resource.data, resource.data);
+        allow delete: if isClassTeacher(classId);
+      }
+
+      // Live competition. The teacher's app is the referee: it keeps the
+      // answers in `private`, opens questions and writes every score.
+      match /live/{sessionId} {
+        allow read: if isClassTeacher(classId) || isClassMember(classId) || isAdmin();
+        allow create: if isClassTeacher(classId) &&
+          request.resource.data.teacherId == request.auth.uid &&
+          request.resource.data.classId == classId &&
+          request.resource.data.status == 'lobby';
+        allow update: if isClassTeacher(classId) &&
+          request.resource.data.teacherId == resource.data.teacherId &&
+          request.resource.data.status in ['lobby', 'question', 'reveal', 'finished'];
+        allow delete: if isClassTeacher(classId);
+
+        match /private/{docId} {
+          allow read, write: if isClassTeacher(classId);
+        }
+
+        match /players/{playerId} {
+          allow read: if request.auth.uid == playerId || isClassTeacher(classId);
+          allow create: if request.auth.uid == playerId && isClassMember(classId) &&
+            request.resource.data.uid == playerId &&
+            request.resource.data.displayName is string &&
+            request.resource.data.displayName.size() <= 80 &&
+            request.resource.data.score == 0 && request.resource.data.correct == 0 &&
+            get(/databases/$(database)/documents/classes/$(classId)/live/$(sessionId)).data.status != 'finished';
+          allow update, delete: if isClassTeacher(classId);
+        }
+
+        // One answer per student per question, stamped with the server time
+        // and only while that question is open.
+        match /answers/{answerId} {
+          allow read: if isClassTeacher(classId) ||
+            (isSignedIn() && resource.data.uid == request.auth.uid);
+          allow create: if isSignedIn() && isClassMember(classId) &&
+            request.resource.data.keys().hasOnly(['uid', 'q', 'choice', 'answeredAt']) &&
+            request.resource.data.uid == request.auth.uid &&
+            request.resource.data.q is int &&
+            answerId == string(request.resource.data.q) + '_' + request.auth.uid &&
+            request.resource.data.choice is int &&
+            request.resource.data.choice >= 0 && request.resource.data.choice < 6 &&
+            request.resource.data.answeredAt == request.time &&
+            liveQuestionOpen(classId, sessionId, request.resource.data.q);
+          allow update, delete: if false;
+        }
       }
 
       match /assignments/{assignmentId} {

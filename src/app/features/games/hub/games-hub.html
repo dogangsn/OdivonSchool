@@ -35,7 +35,7 @@
   </section>
 
   @if (isReview()) {
-    <p class="review-note">Hız Turu ve Eşleştir oyunları ilkokul konularını içerir; {{ grade() }}. sınıf için tekrar amaçlı 4. sınıf seviyesini gösteriyoruz.</p>
+    <p class="review-note">Hız Turu, Eşleştir, Doğru mu Yanlış mı? ve Sınıflandır oyunları ilkokul konularını içerir; {{ grade() }}. sınıf için tekrar amaçlı 4. sınıf seviyesini gösteriyoruz.</p>
   }
 
   <section class="game-section">
@@ -70,6 +70,44 @@
         </a>
       } @empty {
         <p class="empty-note">Bu sınıf için eşleştirme seti yakında.</p>
+      }
+    </div>
+  </section>
+
+  <section class="game-section">
+    <div class="section-head">
+      <h2>✅ Doğru mu Yanlış mı?</h2>
+      <p>Cümleyi oku, süre bitmeden karar ver.</p>
+    </div>
+    <div class="game-grid">
+      @for (s of trueFalseSets(); track s.id) {
+        <a class="game-tile tile-truefalse" [routerLink]="['/oyun/dogru-yanlis', s.id]">
+          <span class="tile-emoji">{{ s.emoji }}</span>
+          <strong>{{ s.title }}</strong>
+          <small>{{ s.subject }} · {{ s.description }}</small>
+          <span class="tile-cta">Oyna →</span>
+        </a>
+      } @empty {
+        <p class="empty-note">Bu sınıf için doğru-yanlış seti yakında.</p>
+      }
+    </div>
+  </section>
+
+  <section class="game-section">
+    <div class="section-head">
+      <h2>🗂️ Sınıflandır</h2>
+      <p>Kartları sürükle, doğru kutuya yerleştir.</p>
+    </div>
+    <div class="game-grid">
+      @for (s of sortSets(); track s.id) {
+        <a class="game-tile tile-sort" [routerLink]="['/oyun/siniflandir', s.id]">
+          <span class="tile-emoji">{{ s.emoji }}</span>
+          <strong>{{ s.title }}</strong>
+          <small>{{ s.subject }} · {{ s.description }}</small>
+          <span class="tile-cta">Oyna →</span>
+        </a>
+      } @empty {
+        <p class="empty-note">Bu sınıf için sınıflandırma seti yakında.</p>
       }
     </div>
   </section>

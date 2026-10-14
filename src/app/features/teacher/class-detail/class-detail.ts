@@ -1,9 +1,9 @@
 import { Component, computed, effect, inject, signal, untracked } from '@angular/core';
 import { DatePipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { ActivatedRoute, RouterLink } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { toObservable, toSignal } from '@angular/core/rxjs-interop';
-import { catchError, filter, of, switchMap } from 'rxjs';
+import { catchError, filter, firstValueFrom, of, switchMap } from 'rxjs';
 import { AuthService } from '../../../core/services/auth';
 import { ClassroomService } from '../../../core/services/classroom';
 import { FirestoreService } from '../../../core/services/firestore';
@@ -17,6 +17,9 @@ import {
 import { TestCategory, levelForGrade } from '../../../models/test-category';
 import { SPEED_PRESETS } from '../../../games/math-generator';
 import { ClassTrackingComponent } from '../class-tracking/class-tracking';
+import { LiveService } from '../../../core/services/live';
+import { poolToLive, quizItemToLive } from '../../../core/live-scoring';
+import { LiveQuestion } from '../../../models/live';
 
 type Tab = 'takip' | 'odevler' | 'ogrenciler';
 
@@ -38,9 +41,13 @@ export class ClassDetail {
   private auth = inject(AuthService);
   private classroomSvc = inject(ClassroomService);
   private firestoreSvc = inject(FirestoreService);
+  private liveSvc = inject(LiveService);
+  private router = inject(Router);
 
   readonly classId = this.route.snapshot.paramMap.get('classId') ?? '';
   readonly kindLabels = KIND_LABELS;
+  readonly liveDurations = [10, 20, 30];
+  readonly liveCounts = [5, 10, 15];
   readonly speedPresets = SPEED_PRESETS;
   readonly kindChoices: KindChoice[] = [
     { kind: 'custom-quiz', title: '✍️ Kendi testim', hint: 'İçeriklerimdeki testlerden' },
@@ -112,6 +119,17 @@ export class ClassDetail {
     const sameGrade = SPEED_PRESETS.filter((p) => p.grade === Math.min(4, Math.max(1, g)));
     return [...sameGrade, ...SPEED_PRESETS.filter((p) => !sameGrade.includes(p))];
   });
+
+  // --- Live competition drawer ---
+  liveOpen = signal(false);
+  liveSource = signal<'content' | 'pool'>('pool');
+  liveRef = signal<string | null>(null);
+  liveTitle = '';
+  liveDuration = signal(20);
+  liveCount = signal(10);
+  liveStarting = signal(false);
+  liveError = signal<string | null>(null);
+  activeLive = toSignal(this.liveSvc.activeSessions(this.classId), { initialValue: [] });
 
   constructor() {
     effect(() => {
@@ -241,6 +259,68 @@ export class ClassDetail {
       this.drawerError.set(`Ödev kaydedilemedi: ${err?.message ?? err}`);
     } finally {
       this.saving.set(false);
+    }
+  }
+
+  openLive() {
+    this.liveSource.set(this.quizContent().length ? 'content' : 'pool');
+    this.liveRef.set(null);
+    this.liveTitle = '';
+    this.liveError.set(null);
+    this.liveOpen.set(true);
+  }
+
+  chooseLiveSource(source: 'content' | 'pool') {
+    this.liveSource.set(source);
+    this.liveRef.set(null);
+    this.liveTitle = '';
+  }
+
+  chooseLiveRef(id: string, title: string) {
+    this.liveRef.set(id);
+    this.liveTitle = title;
+  }
+
+  async startLive() {
+    const ref = this.liveRef();
+    const teacherId = this.classroom()?.teacherId;
+    if (!ref || !teacherId) {
+      this.liveError.set('Yarışmanın sorularını seçin.');
+      return;
+    }
+    this.liveStarting.set(true);
+    this.liveError.set(null);
+    try {
+      let questions: LiveQuestion[];
+      let subject = '';
+      let categoryId: string | null = null;
+      if (this.liveSource() === 'content') {
+        const content = this.quizContent().find((c) => c.id === ref);
+        questions = (content?.quizItems ?? []).slice(0, 20).map(quizItemToLive);
+        subject = content?.subject ?? '';
+      } else {
+        const cat = this.gradeCategories().find((c) => c.id === ref);
+        const pool = await firstValueFrom(this.firestoreSvc.questionsForCategory(ref, this.liveCount()));
+        questions = pool.map(poolToLive);
+        subject = cat?.subject ?? '';
+        categoryId = ref;
+      }
+      if (questions.length === 0) {
+        this.liveError.set('Bu konuda henüz onaylı soru yok. Başka bir konu ya da kendi testinizi seçin.');
+        return;
+      }
+      const id = await this.liveSvc.create(this.classId, teacherId, {
+        title: this.liveTitle.trim() || 'Canlı yarışma',
+        subject,
+        categoryId,
+        durationSec: this.liveDuration(),
+        questions,
+      });
+      await this.router.navigate(['/ogretmen/canli', this.classId, id]);
+    } catch (err: any) {
+      this.liveError.set(`Yarışma başlatılamadı: ${err?.message ?? err}`);
+    } finally {
+      this.liveStarting.set(false);
     }
   }
 

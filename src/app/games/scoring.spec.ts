@@ -7,6 +7,7 @@ import {
   newBadges,
   nextStreak,
   quizStars,
+  sortStars,
   speedStars,
   xpForOutcome,
 } from './scoring';
@@ -40,6 +41,19 @@ describe('scoring', () => {
     expect(matchStars(0)).toBe(3);
     expect(matchStars(5)).toBe(2);
     expect(matchStars(12)).toBe(1);
+    expect(sortStars(0, 10)).toBe(3);
+    expect(sortStars(1, 10)).toBe(3);
+    expect(sortStars(3, 10)).toBe(2);
+    expect(sortStars(4, 10)).toBe(1);
+  });
+
+  it('new game types have their own perfect-round badges', () => {
+    const tf = outcome({ gameType: 'truefalse', correct: 10, total: 10 });
+    expect(newBadges({ outcome: tf, xpTotal: 0, streakDays: 1 }, []).map((b) => b.id)).toContain('dogru-dedektif');
+    const sortClean = outcome({ gameType: 'sort', correct: 10, total: 10, mistakes: [] });
+    expect(newBadges({ outcome: sortClean, xpTotal: 0, streakDays: 1 }, []).map((b) => b.id)).toContain('duzen-ustasi');
+    const sortMessy = outcome({ gameType: 'sort', correct: 9, total: 10, mistakes: [{ prompt: 'taş', correctAnswer: 'Cansız', given: 'Canlı' }] });
+    expect(newBadges({ outcome: sortMessy, xpTotal: 0, streakDays: 1 }, []).map((b) => b.id)).not.toContain('duzen-ustasi');
   });
 
   it('combo multiplier steps every 3 and caps at 4', () => {

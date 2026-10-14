@@ -1,0 +1,127 @@
+<div class="game-page">
+  <div class="game-topbar">
+    <a [routerLink]="backLink()" class="game-back">← Geri</a>
+    <div class="game-tools">
+      @if (canSpeak && (phase() === 'playing' || phase() === 'reveal')) {
+        <button class="icon-btn" type="button" title="Sesli oku" (click)="readAloud()">🔊</button>
+      }
+      <button class="icon-btn" type="button" [title]="sound() ? 'Sesi kapat' : 'Sesi aç'" (click)="toggleSound()">
+        {{ sound() ? '🔔' : '🔕' }}
+      </button>
+    </div>
+  </div>
+
+  @if (set(); as set) {
+    @switch (phase()) {
+      @case ('intro') {
+        <div class="game-stage theme-grape">
+          <div class="game-intro">
+            <div class="intro-emoji">{{ set.emoji }}</div>
+            <h1>{{ set.title }}</h1>
+            <p>{{ set.description }}. Her cümleyi oku, doğruysa <strong>Doğru</strong>, yanlışsa <strong>Yanlış</strong> düğmesine bas!</p>
+            <div class="intro-rules">
+              <span>📝 {{ roundSize() }} cümle</span>
+              <span>⏱️ Cümle başına {{ seconds }} sn</span>
+              <span>🔥 Art arda doğrulara bonus</span>
+              <span>⌨️ D / Y tuşlarıyla da oynanır</span>
+            </div>
+            <button class="btn-play" type="button" (click)="start()">▶ Başla</button>
+          </div>
+        </div>
+      }
+
+      @case ('done') {
+        @if (outcome(); as o) {
+          <app-game-result [outcome]="o" [reward]="reward()" [backLink]="backLink()" (replay)="start()" />
+        }
+      }
+
+      @default {
+        @if (current(); as s) {
+          <div class="game-stage theme-grape">
+            <div class="game-hud">
+              <span class="hud-pill">Cümle {{ index() + 1 }}/{{ statements().length }}</span>
+              @if (streak() > 1) {
+                <span class="hud-pill hud-combo">🔥 {{ streak() }} seri</span>
+              }
+              <span class="hud-pill">⭐ {{ score() }}</span>
+            </div>
+
+            <div class="time-bar" [class.low]="secondsLeft() <= 3">
+              <div class="time-fill" [style.width.%]="timePercent()"></div>
+            </div>
+
+            @for (key of [index()]; track key) {
+              <div
+                class="tf-card"
+                [class.is-right]="phase() === 'reveal' && wasCorrect()"
+                [class.is-wrong]="phase() === 'reveal' && !wasCorrect()"
+                aria-live="polite"
+              >
+                <p class="tf-text">{{ s.text }}</p>
+                @if (phase() === 'reveal') {
+                  <span class="tf-stamp" [class.false]="!s.answer">{{ s.answer ? '✓ Doğru' : '✗ Yanlış' }}</span>
+                }
+              </div>
+            }
+
+            <div class="tf-buttons">
+              <button
+                class="tf-btn yes"
+                type="button"
+                [disabled]="phase() !== 'playing'"
+                [class.chosen]="picked() === true"
+                [class.missed]="phase() === 'reveal' && picked() === true && !s.answer"
+                [class.faded]="phase() === 'reveal' && !s.answer && picked() !== true"
+                (click)="answer(true)"
+              >
+                <span class="tf-icon">✓</span>
+                <span>Doğru</span>
+              </button>
+              <button
+                class="tf-btn no"
+                type="button"
+                [disabled]="phase() !== 'playing'"
+                [class.chosen]="picked() === false"
+                [class.missed]="phase() === 'reveal' && picked() === false && s.answer"
+                [class.faded]="phase() === 'reveal' && s.answer && picked() !== false"
+                (click)="answer(false)"
+              >
+                <span class="tf-icon">✗</span>
+                <span>Yanlış</span>
+              </button>
+            </div>
+
+            @if (phase() === 'reveal' && wasCorrect()) {
+              <div class="tf-toast">✅ Doğru bildin! +{{ lastPoints() }} puan</div>
+            }
+
+            @if (showLesson()) {
+              <div class="learn-panel">
+                @if (picked() === null) {
+                  <div class="learn-title">⏰ Süre doldu! Bu cümle {{ correctLabel() }}.</div>
+                } @else {
+                  <div class="learn-title">💡 Bu cümle {{ correctLabel() }}.</div>
+                }
+                <p>{{ s.explanation }}</p>
+                <div class="learn-actions">
+                  <button class="btn-play small" type="button" (click)="next()">
+                    {{ isLast() ? 'Sonuçları gör' : 'Sonraki cümle →' }}
+                  </button>
+                </div>
+              </div>
+            }
+          </div>
+        }
+      }
+    }
+  } @else {
+    <div class="game-stage theme-grape">
+      <div class="game-intro">
+        <div class="intro-emoji">🤔</div>
+        <h1>Bu oyunu bulamadık</h1>
+        <a routerLink="/oyunlar" class="btn-play">Oyunlara Dön</a>
+      </div>
+    </div>
+  }
+</div>

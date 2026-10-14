@@ -46,6 +46,14 @@ export const routes: Routes = [
     loadComponent: () => import('./features/games/memory-match/memory-match').then(m => m.MemoryMatch),
   },
   {
+    path: 'oyun/dogru-yanlis/:setId',
+    loadComponent: () => import('./features/games/true-false/true-false').then(m => m.TrueFalse),
+  },
+  {
+    path: 'oyun/siniflandir/:setId',
+    loadComponent: () => import('./features/games/sort-game/sort-game').then(m => m.SortGame),
+  },
+  {
     path: 'oyun/yarisma/:categoryId',
     loadComponent: () => import('./features/games/quiz/quiz').then(m => m.Quiz),
   },
@@ -74,6 +82,16 @@ export const routes: Routes = [
     path: 'ogretmen/icerik/:id',
     canActivate: [teacherGuard],
     loadComponent: () => import('./features/teacher/content-editor/content-editor').then(m => m.ContentEditor),
+  },
+  {
+    path: 'ogretmen/canli/:classId/:sessionId',
+    canActivate: [teacherGuard],
+    loadComponent: () => import('./features/live/live-host/live-host').then(m => m.LiveHost),
+  },
+  {
+    path: 'canli/:classId/:sessionId',
+    canActivate: [authGuard],
+    loadComponent: () => import('./features/live/live-play/live-play').then(m => m.LivePlay),
   },
   {
     path: 'odev/:classId/:assignmentId',

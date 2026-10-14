@@ -81,7 +81,10 @@ export class GameProgressService {
     } catch (err) {
       console.error('[GameProgress] saving result failed:', err);
     }
-    await this.classroom.recordProgress(user, entryFromOutcome(outcome), streakDays);
+    await Promise.all([
+      this.classroom.recordProgress(user, entryFromOutcome(outcome), streakDays),
+      reward.saved ? this.classroom.recordLeague(user, xpGained) : Promise.resolve(),
+    ]);
     if (assignment) {
       try {
         await this.classroom.submit(assignment, outcome);
