@@ -13,9 +13,9 @@
  *
  * Seçenekler:
  *   --count=5        kategori başına soru (varsayılan 5)
- *   --min=10         zaten bu kadar sorusu olan kategoriyi atla (varsayılan 10, 0 = hiç atlama)
+ *   --min=5          zaten bu kadar sorusu olan kategoriyi atla (varsayılan 5, 0 = hiç atlama)
  *   --difficulty=3   1-5, 0 = karışık (varsayılan 0)
- *   --delay=4000     istekler arası bekleme (ms)
+ *   --delay=13000    istekler arası bekleme (ms); ücretsiz katmanın dakikada 5 istek sınırına uyar
  *   --start=0        listede kaldığı yerden devam
  *   --draft          soruları onay masasına taslak olarak yaz (varsayılan: onaylı yayınla)
  *   --dry-run        hiçbir şey yazmadan hangi kategorilerin işleneceğini listele
@@ -36,9 +36,9 @@ const {
 const opts = {
   apiKey: process.env.GEMINI_API_KEY || '',
   count: 5,
-  min: 10,
+  min: 5,
   difficulty: 0,
-  delay: 4000,
+  delay: 13000,
   start: 0,
   draft: false,
   dryRun: false,
@@ -96,6 +96,58 @@ function normalize(q, cat) {
   };
 }
 
+const MAX_ATTEMPTS = 3;
+
+// Temporary failures worth retrying on the same category instead of skipping it:
+// per-minute quota, Gemini overload (503) and dropped network connections.
+function retryDelay(message) {
+  if (/PerMinute/.test(message)) return 60000;
+  if (/\b503\b|UNAVAILABLE|high demand/i.test(message)) return 30000;
+  if (/ENOTFOUND|ECONNRESET|ETIMEDOUT|EAI_AGAIN|socket hang up/.test(message)) return 30000;
+  return 0;
+}
+
+async function processCategory(token, cat) {
+  if (opts.min > 0) {
+    const existing = await countQuestions(token, cat.id);
+    if (existing >= opts.min) {
+      console.log(`  ⏭  ${existing} soru zaten var, atlandı.`);
+      return 0;
+    }
+  }
+
+  const raw = await callGemini(opts.apiKey, buildQuestionPrompt(cat, opts.count, opts.difficulty));
+  const questions = raw.map((q) => normalize(q, cat)).filter(Boolean);
+  const now = Date.now();
+
+  for (let j = 0; j < questions.length; j++) {
+    const doc = {
+      ...questions[j],
+      categoryId: cat.id,
+      level: cat.level,
+      subject: cat.subject,
+      source: 'ai-generated',
+      aiModel: GEMINI_MODEL,
+      reviewStatus: opts.draft ? 'draft' : 'approved',
+      createdAt: now,
+      usageCount: 0,
+      correctCount: 0,
+    };
+    // The Gemini request already used quota, so retry the write rather than lose the question.
+    for (let attempt = 1; ; attempt++) {
+      try {
+        await setDoc(token, 'questions', `${cat.id}_ai_${now}_${j + 1}`, doc);
+        break;
+      } catch (err) {
+        if (attempt === MAX_ATTEMPTS || !retryDelay(err.message)) throw err;
+        await sleep(10000);
+      }
+    }
+  }
+  console.log(`  ✅ ${questions.length}/${raw.length} geçerli soru yazıldı.`);
+  return questions.length;
+}
+
 async function main() {
   console.log(`\n🚀 OdivonSchool toplu soru üretici (${GEMINI_MODEL})`);
   console.log(`📊 ${targets.length} kategori seçildi | kategori başına ${opts.count} soru | ` +
@@ -116,42 +168,22 @@ async function main() {
   for (let i = opts.start; i < targets.length; i++) {
     const cat = targets[i];
     console.log(`[${i + 1}/${targets.length}] ${cat.id} — ${cat.subject} / ${cat.topic}`);
-    try {
-      if (opts.min > 0) {
-        const existing = await countQuestions(token, cat.id);
-        if (existing >= opts.min) {
-          console.log(`  ⏭  ${existing} soru zaten var, atlandı.`);
-          continue;
+    for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+      try {
+        created += await processCategory(token, cat);
+        break;
+      } catch (err) {
+        console.error(`  ❌ Hata: ${err.message}`);
+        // Expired Firebase login, bad Gemini key or daily quota used up: every later
+        // category would fail too, so stop and print where to resume.
+        if (/UNAUTHENTICATED|API_KEY_INVALID|PerDay/.test(err.message)) {
+          console.error(`\n⛔ Durduruldu. Kaldığı yerden devam için aynı komuta --start=${i} ekleyin.`);
+          process.exit(1);
         }
-      }
-
-      const raw = await callGemini(opts.apiKey, buildQuestionPrompt(cat, opts.count, opts.difficulty));
-      const questions = raw.map((q) => normalize(q, cat)).filter(Boolean);
-      const now = Date.now();
-
-      for (let j = 0; j < questions.length; j++) {
-        await setDoc(token, 'questions', `${cat.id}_ai_${now}_${j + 1}`, {
-          ...questions[j],
-          categoryId: cat.id,
-          level: cat.level,
-          subject: cat.subject,
-          source: 'ai-generated',
-          aiModel: GEMINI_MODEL,
-          reviewStatus: opts.draft ? 'draft' : 'approved',
-          createdAt: now,
-          usageCount: 0,
-          correctCount: 0,
-        });
-        created++;
-      }
-      console.log(`  ✅ ${questions.length}/${raw.length} geçerli soru yazıldı.`);
-    } catch (err) {
-      console.error(`  ❌ Hata: ${err.message}`);
-      // Expired Firebase login, bad Gemini key or daily quota used up: every later
-      // category would fail too, so stop and print where to resume.
-      if (/UNAUTHENTICATED|API_KEY_INVALID|PerDay/.test(err.message)) {
-        console.error(`\n⛔ Durduruldu. Kaldığı yerden devam için aynı komuta --start=${i} ekleyin.`);
-        process.exit(1);
+        const wait = retryDelay(err.message);
+        if (!wait || attempt === MAX_ATTEMPTS) break;
+        console.log(`  🔁 ${Math.round(wait / 1000)} sn sonra tekrar denenecek (${attempt + 1}/${MAX_ATTEMPTS}).`);
+        await sleep(wait);
       }
     }
     if (i < targets.length - 1) await sleep(opts.delay);
