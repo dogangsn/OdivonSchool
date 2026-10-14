@@ -1,0 +1,233 @@
+@let t = tracking();
+
+<div class="tr-stats">
+  <div class="tr-stat card">
+    <span class="tr-stat-label">Son 7 günde aktif</span>
+    <span class="tr-stat-value">{{ t.summary.active7 }}<small>/{{ t.summary.students }}</small></span>
+  </div>
+  <div class="tr-stat card">
+    <span class="tr-stat-label">Ödev teslim oranı</span>
+    <span class="tr-stat-value">{{ t.summary.submissionRate === null ? '—' : '%' + t.summary.submissionRate }}</span>
+    <span class="tr-stat-hint">{{ t.summary.assignments }} ödev</span>
+  </div>
+  <div class="tr-stat card">
+    <span class="tr-stat-label">Ortalama başarı</span>
+    <span class="tr-stat-value" [attr.data-level]="level(t.summary.avgSuccess)">
+      {{ t.summary.avgSuccess === null ? '—' : '%' + t.summary.avgSuccess }}
+    </span>
+    <span class="tr-stat-hint">oyun ve testlerde</span>
+  </div>
+  <div class="tr-stat card" [class.warn]="flaggedCount() > 0">
+    <span class="tr-stat-label">Dikkat isteyen</span>
+    <span class="tr-stat-value">{{ flaggedCount() }}</span>
+    <span class="tr-stat-hint">öğrenci</span>
+  </div>
+</div>
+
+@if (t.weakTopics.length || t.hardest.length) {
+  <div class="tr-insights">
+    @if (t.weakTopics.length) {
+      <section class="card tr-insight">
+        <h3>🔁 Tekrar anlatılması önerilen konular</h3>
+        <ul>
+          @for (c of t.weakTopics; track c.key) {
+            <li>
+              <span class="ins-main"><strong>{{ c.label }}</strong><small>{{ c.subject }} · {{ c.students }} öğrenci, {{ c.total }} soru</small></span>
+              <span class="ins-pct" [attr.data-level]="level(c.pct)">%{{ c.pct }}</span>
+            </li>
+          }
+        </ul>
+      </section>
+    }
+    @if (t.hardest.length) {
+      <section class="card tr-insight">
+        <h3>🧩 Bu haftanın en zor soruları</h3>
+        <ul>
+          @for (q of t.hardest; track $index) {
+            <li>
+              <span class="ins-main"><strong>{{ q.prompt }}</strong><small>{{ q.assignmentTitle }} · doğrusu: {{ q.correctAnswer }}</small></span>
+              <span class="ins-miss">{{ q.misses }} öğrenci</span>
+            </li>
+          }
+        </ul>
+      </section>
+    }
+  </div>
+}
+
+<section class="card tr-section">
+  <div class="tr-section-head">
+    <div>
+      <h3>Öğrenciler</h3>
+      <p>Bir öğrenciye tıklayın: konu konu başarısını ve ödevlerini görün.</p>
+    </div>
+    <div class="tr-tools">
+      <label class="tr-toggle">
+        <input type="checkbox" [checked]="onlyFlagged()" (change)="onlyFlagged.set(!onlyFlagged())" />
+        Sadece dikkat isteyenler
+      </label>
+      <select [value]="sortKey()" (change)="sortKey.set($any($event.target).value)" aria-label="Sırala">
+        <option value="name">Ada göre</option>
+        <option value="success">Başarısı en düşük</option>
+        <option value="active">En uzun süredir yok</option>
+        <option value="overdue">Geciken ödev</option>
+      </select>
+      <button type="button" class="btn sm outline" (click)="downloadCsv()" [disabled]="!t.rows.length">⬇️ CSV indir</button>
+    </div>
+  </div>
+
+  @if (t.rows.length) {
+    <div class="table-responsive">
+      <table class="modern-table tr-table">
+        <thead>
+          <tr>
+            <th>Öğrenci</th>
+            <th>Son etkinlik</th>
+            <th>Çözülen</th>
+            <th>Başarı</th>
+            <th>Seri</th>
+            <th>Ödev</th>
+            <th>Uyarı</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (r of rows(); track r.uid) {
+            <tr class="tr-row" (click)="selectedUid.set(r.uid)" tabindex="0" (keydown.enter)="selectedUid.set(r.uid)">
+              <td><strong>{{ r.name }}</strong></td>
+              <td [class.muted]="r.daysInactive === null">{{ lastSeen(r) }}</td>
+              <td>{{ r.answered }}</td>
+              <td>
+                @if (r.successPct !== null) {
+                  <span class="tr-bar" [attr.data-level]="level(r.successPct)"><span [style.width.%]="r.successPct"></span></span>
+                  <span class="tr-pct">%{{ r.successPct }}</span>
+                } @else { <span class="muted">—</span> }
+              </td>
+              <td>{{ r.streak ? '🔥 ' + r.streak : '—' }}</td>
+              <td>
+                {{ r.done }}/{{ t.summary.assignments }}
+                @if (r.overdue) { <span class="t-pill red">{{ r.overdue }} gecikti</span> }
+              </td>
+              <td class="tr-flags">
+                @for (f of r.flags; track f) {
+                  @if (f !== 'overdue') {
+                    <span class="t-pill" [class.amber]="f === 'inactive' || f === 'never'" [class.red]="f === 'low'">{{ flagLabels[f] }}</span>
+                  }
+                }
+              </td>
+            </tr>
+          } @empty {
+            <tr><td colspan="7" class="muted">Uyarı gerektiren öğrenci yok. 🎉</td></tr>
+          }
+        </tbody>
+      </table>
+    </div>
+  } @else {
+    <p class="tr-empty">Sınıfa öğrenci katıldığında takip tablosu burada oluşur.</p>
+  }
+</section>
+
+<section class="card tr-section">
+  <div class="tr-section-head">
+    <div>
+      <h3>Konu ısı haritası</h3>
+      <p>Her hücre öğrencinin o konudaki doğru oranı. Kırmızı konular tekrar isteyebilir.</p>
+    </div>
+    <div class="tr-legend">
+      <span data-level="low">%0–49</span>
+      <span data-level="mid">%50–74</span>
+      <span data-level="high">%75+</span>
+      <span data-level="none">veri yok</span>
+    </div>
+  </div>
+
+  @if (t.columns.length && t.rows.length) {
+    <div class="heat-wrap">
+      <table class="heat">
+        <thead>
+          <tr>
+            <th class="heat-name">Öğrenci</th>
+            @for (c of t.columns; track c.key) {
+              <th class="heat-col" [title]="c.subject + ' · ' + c.label">
+                <span class="heat-subject">{{ c.subject }}</span>
+                <span class="heat-label">{{ c.label }}</span>
+              </th>
+            }
+          </tr>
+        </thead>
+        <tbody>
+          @for (r of rows(); track r.uid) {
+            <tr>
+              <th class="heat-name" (click)="selectedUid.set(r.uid)">{{ r.name }}</th>
+              @for (c of t.columns; track c.key) {
+                @let cl = cell(r, c);
+                <td [attr.data-level]="level(cl?.pct ?? null)" [title]="cl ? r.name + ': ' + cl.total + ' soruda %' + cl.pct : 'Veri yok'">
+                  {{ cl?.pct ?? '' }}
+                </td>
+              }
+            </tr>
+          }
+        </tbody>
+        <tfoot>
+          <tr>
+            <th class="heat-name">Sınıf ortalaması</th>
+            @for (c of t.columns; track c.key) {
+              <td [attr.data-level]="level(c.pct)">{{ c.pct ?? '' }}</td>
+            }
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  } @else {
+    <p class="tr-empty">Öğrenciler oyun oynayıp test çözdükçe konular burada belirir.</p>
+  }
+</section>
+
+@if (selected(); as s) {
+  <div class="t-drawer-backdrop" (click)="selectedUid.set(null)"></div>
+  <aside class="t-drawer" role="dialog" [attr.aria-label]="s.name">
+    <div class="t-drawer-head">
+      <div>
+        <h3>{{ s.name }}</h3>
+        <p>
+          {{ lastSeen(s) === '—' ? 'Henüz etkinlik yok' : 'Son etkinlik: ' + lastSeen(s) }}
+          · {{ s.answered }} soru
+          @if (s.successPct !== null) { · başarı %{{ s.successPct }} }
+        </p>
+      </div>
+      <button type="button" class="t-close" (click)="selectedUid.set(null)">✕</button>
+    </div>
+    <div class="t-drawer-body">
+      <h4 class="sd-title">Konular</h4>
+      @for (tp of selectedTopics(); track tp.key) {
+        <div class="sd-topic">
+          <div class="sd-topic-head">
+            <span><strong>{{ tp.label }}</strong> <small>{{ tp.subject }}</small></span>
+            <span class="sd-pct">%{{ tp.pct }} <small>· {{ tp.total }} soru</small></span>
+          </div>
+          <span class="tr-bar wide" [attr.data-level]="level(tp.pct)"><span [style.width.%]="tp.pct"></span></span>
+        </div>
+      } @empty {
+        <p class="tr-empty">Bu öğrenci sınıfa katıldıktan sonra henüz oyun ya da test çözmedi.</p>
+      }
+
+      <h4 class="sd-title">Ödevler</h4>
+      @for (x of selectedAssignments(); track x.assignment.id) {
+        <div class="sd-hw">
+          <span class="sd-hw-main">
+            <strong>{{ x.assignment.title }}</strong>
+            @if (x.assignment.dueAt) { <small>Son gün {{ x.assignment.dueAt | date: 'd MMM' }}</small> }
+          </span>
+          @switch (x.status) {
+            @case ('done') {
+              <span class="sd-hw-done">{{ stars(x.submission!.bestStars) }} {{ x.submission!.correct }}/{{ x.submission!.total }}</span>
+            }
+            @case ('overdue') { <span class="t-pill red">Gecikti</span> }
+            @default { <span class="t-pill amber">Bekliyor</span> }
+          }
+        </div>
+      } @empty {
+        <p class="tr-empty">Bu sınıfa henüz ödev verilmedi.</p>
+      }
+    </div>
+  </aside>
+}

@@ -143,6 +143,17 @@ service cloud.firestore {
         s.attempts is int && s.attempts >= 1 && s.attempts <= 1000;
     }
 
+    function isValidClassProgress(p) {
+      return p.keys().hasOnly(['uid', 'displayName', 'lastActiveAt', 'streakDays',
+                               'activities', 'answered', 'correct', 'topics']) &&
+        p.uid == request.auth.uid &&
+        p.displayName is string && p.displayName.size() <= 80 &&
+        p.lastActiveAt is int && p.streakDays is int &&
+        p.activities is int && p.answered is int && p.correct is int &&
+        p.correct >= 0 && p.correct <= p.answered &&
+        p.topics is map && p.topics.size() <= 400;
+    }
+
     match /classes/{classId} {
       allow read: if isAdmin() ||
         (isSignedIn() && resource.data.teacherId == request.auth.uid) ||
@@ -165,6 +176,15 @@ service cloud.firestore {
           get(/databases/$(database)/documents/classCodes/$(request.resource.data.joinCode)).data.classId == classId;
         allow update: if false;
         allow delete: if request.auth.uid == memberId || isClassTeacher(classId);
+      }
+
+      // Running totals per student, written by the student's own app after
+      // each game or test, read by the teacher for the tracking tab.
+      match /progress/{studentId} {
+        allow read: if request.auth.uid == studentId || isClassTeacher(classId) || isAdmin();
+        allow create, update: if request.auth.uid == studentId && isClassMember(classId) &&
+          isValidClassProgress(request.resource.data);
+        allow delete: if isClassTeacher(classId);
       }
 
       match /assignments/{assignmentId} {

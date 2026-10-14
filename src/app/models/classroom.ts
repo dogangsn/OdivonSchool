@@ -112,3 +112,36 @@ export const SUBJECTS = [
   'Din Kültürü',
   'Diğer',
 ];
+
+/** One topic's running totals inside a student's class progress. */
+export interface TopicStat {
+  label: string;
+  subject: string;
+  correct: number;
+  total: number;
+  lastAt: number;
+}
+
+/**
+ * classes/{classId}/progress/{uid}: running totals the student's own app keeps
+ * for each class they are in (games and tests alike), read by the teacher.
+ */
+export interface ClassProgress {
+  uid: string;
+  displayName: string;
+  lastActiveAt: number;
+  streakDays: number;
+  activities: number;
+  answered: number;
+  correct: number;
+  topics: Record<string, TopicStat>;
+}
+
+/** A finished game or test, reduced to what the teacher tracks. */
+export interface ProgressEntry {
+  key: string;
+  label: string;
+  subject: string;
+  correct: number;
+  total: number;
+}

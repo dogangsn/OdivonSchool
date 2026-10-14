@@ -5,6 +5,7 @@ import { AuthService } from './auth';
 import { ClassroomService } from './classroom';
 import { AssignmentRef } from '../../models/classroom';
 import { GameOutcome, GameResultDoc, GameReward } from '../../games/game-models';
+import { entryFromOutcome } from '../tracking';
 import {
   levelForXp,
   levelProgress,
@@ -80,6 +81,7 @@ export class GameProgressService {
     } catch (err) {
       console.error('[GameProgress] saving result failed:', err);
     }
+    await this.classroom.recordProgress(user, entryFromOutcome(outcome), streakDays);
     if (assignment) {
       try {
         await this.classroom.submit(assignment, outcome);

@@ -5,6 +5,8 @@ import { FirestoreService } from '../../../core/services/firestore';
 import { AuthService } from '../../../core/services/auth';
 import { TestSessionService } from '../../../core/services/test-session';
 import { GuestQuotaService } from '../../../core/services/guest-quota';
+import { ClassroomService } from '../../../core/services/classroom';
+import { categoryEntry } from '../../../core/tracking';
 import { take } from 'rxjs';
 
 const QUESTIONS_PER_TEST = 10;
@@ -21,6 +23,7 @@ export class Solve implements OnInit {
   private router = inject(Router);
   private firestoreSvc = inject(FirestoreService);
   private auth = inject(AuthService);
+  private classroom = inject(ClassroomService);
   guestQuota = inject(GuestQuotaService);
   session = inject(TestSessionService);
 
@@ -107,7 +110,12 @@ export class Solve implements OnInit {
     const subject = cat ? `${cat.subject} - ${cat.topic}` : (q?.subject ?? '');
 
     if (user) {
-      await this.session.finish(user.uid, this.categoryId, level, subject);
+      const attempt = await this.session.finish(user.uid, this.categoryId, level, subject);
+      await this.classroom.recordProgress(
+        user,
+        categoryEntry(this.categoryId, cat?.topic ?? subject, cat?.subject ?? '', attempt.correctCount, attempt.totalCount),
+        user.streakDays ?? 0
+      );
     } else {
       // Guest attempt - save into local storage quota
       const attempt = await this.session.finish('guest', this.categoryId, level, subject);

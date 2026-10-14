@@ -29,6 +29,7 @@
     </section>
 
     <div class="t-tabs">
+      <button type="button" [class.active]="tab() === 'takip'" (click)="tab.set('takip')">📊 Takip</button>
       <button type="button" [class.active]="tab() === 'odevler'" (click)="tab.set('odevler')">
         Ödevler <span class="count">{{ assignments().length }}</span>
       </button>
@@ -37,7 +38,9 @@
       </button>
     </div>
 
-    @if (tab() === 'odevler') {
+    @if (tab() === 'takip') {
+      <app-class-tracking [classroom]="c" [members]="members()" [assignments]="assignments()" />
+    } @else if (tab() === 'odevler') {
       <div class="hw-list">
         @for (a of assignments(); track a.id) {
           <div class="hw card" [class.open]="expandedId() === a.id">

@@ -10,6 +10,7 @@ import {
   docData,
   getCountFromServer,
   getDoc,
+  increment,
   orderBy,
   query,
   setDoc,
@@ -24,7 +25,9 @@ import {
   Assignment,
   AssignmentRef,
   ClassMember,
+  ClassProgress,
   Classroom,
+  ProgressEntry,
   Submission,
   TeacherContent,
 } from '../../models/classroom';
@@ -341,6 +344,61 @@ export class ClassroomService {
       completedAt: now,
     };
     await setDoc(doc(this.firestore, path), submission);
+  }
+
+  /** Every student's running totals in a class (teacher's tracking tab). */
+  classProgress(classId: string): Observable<ClassProgress[]> {
+    return collectionData(collection(this.firestore, `classes/${classId}/progress`)) as Observable<
+      ClassProgress[]
+    >;
+  }
+
+  /** Submissions of every assignment, keyed by assignment id. */
+  allSubmissions(classId: string, assignments: Assignment[]): Observable<Record<string, Submission[]>> {
+    if (assignments.length === 0) return of({});
+    return combineLatest(
+      assignments.map((a) =>
+        this.submissions(classId, a.id).pipe(
+          catchError(() => of([] as Submission[])),
+          map((list) => [a.id, list] as const)
+        )
+      )
+    ).pipe(map((pairs) => Object.fromEntries(pairs)));
+  }
+
+  /**
+   * Adds a finished game or test to the student's progress in each of their
+   * classes. Failures are logged only: tracking must never block the result.
+   */
+  async recordProgress(user: AppUser, entry: ProgressEntry, streakDays: number): Promise<void> {
+    const classIds = user.classIds ?? [];
+    if (classIds.length === 0 || !(entry.total > 0)) return;
+    const now = Date.now();
+    const data = {
+      uid: user.uid,
+      displayName: user.displayName,
+      lastActiveAt: now,
+      streakDays,
+      activities: increment(1),
+      answered: increment(entry.total),
+      correct: increment(entry.correct),
+      topics: {
+        [entry.key]: {
+          label: entry.label.slice(0, 120),
+          subject: entry.subject.slice(0, 60),
+          correct: increment(entry.correct),
+          total: increment(entry.total),
+          lastAt: now,
+        },
+      },
+    };
+    await Promise.all(
+      classIds.map((classId) =>
+        setDoc(doc(this.firestore, `classes/${classId}/progress/${user.uid}`), data, { merge: true }).catch(
+          (err) => console.warn(`[Classroom] progress for ${classId} not saved:`, err)
+        )
+      )
+    );
   }
 
   /** For a teacher dashboard: how many students in a class. */

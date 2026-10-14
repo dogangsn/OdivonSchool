@@ -16,8 +16,9 @@ import {
 } from '../../../models/classroom';
 import { TestCategory, levelForGrade } from '../../../models/test-category';
 import { SPEED_PRESETS } from '../../../games/math-generator';
+import { ClassTrackingComponent } from '../class-tracking/class-tracking';
 
-type Tab = 'odevler' | 'ogrenciler';
+type Tab = 'takip' | 'odevler' | 'ogrenciler';
 
 interface KindChoice {
   kind: AssignmentKind;
@@ -25,10 +26,10 @@ interface KindChoice {
   hint: string;
 }
 
-/** /ogretmen/sinif/:classId — join code, students, assignments and results. */
+/** /ogretmen/sinif/:classId — join code, tracking, students, assignments and results. */
 @Component({
   selector: 'app-class-detail',
-  imports: [FormsModule, RouterLink, DatePipe],
+  imports: [FormsModule, RouterLink, DatePipe, ClassTrackingComponent],
   templateUrl: './class-detail.html',
   styleUrl: './class-detail.scss',
 })
@@ -70,7 +71,7 @@ export class ClassDetail {
     { initialValue: [] as TestCategory[] }
   );
 
-  tab = signal<Tab>('odevler');
+  tab = signal<Tab>('takip');
   copied = signal(false);
   notice = signal<{ type: 'success' | 'danger'; text: string } | null>(null);
 
