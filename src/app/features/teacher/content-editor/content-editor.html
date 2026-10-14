@@ -1,0 +1,150 @@
+<div class="t-page container animate-fade-in editor">
+  <div class="t-page-head">
+    <div>
+      <a routerLink="/ogretmen/icerik" class="t-crumb">← İçeriklerim</a>
+      <h1>
+        {{ id ? 'Düzenle' : 'Yeni' }}
+        {{ type() === 'quiz' ? 'test' : 'eşleştirme seti' }}
+      </h1>
+      <p class="t-sub">
+        @if (type() === 'quiz') {
+          Çoktan seçmeli sorular yazın. Öğrenciler bunu süreli, puanlı bir yarışma olarak oynar; yanlışta açıklamanızı görür.
+        } @else {
+          Birbirine uyan ikilileri yazın (ör. kelime – anlamı). Öğrenciler hafıza kartı oyunu olarak oynar.
+        }
+      </p>
+    </div>
+    <div class="t-head-actions">
+      <button type="button" class="btn outline" (click)="preview()">👀 Önizle</button>
+      <button type="button" class="btn primary" [disabled]="saving()" (click)="save()">
+        {{ saving() ? 'Kaydediliyor…' : 'Kaydet' }}
+      </button>
+    </div>
+  </div>
+
+  @if (errors().length) {
+    <div class="t-alert danger">
+      <ul class="err-list">
+        @for (e of errors(); track $index) {
+          <li>{{ e }}</li>
+        }
+      </ul>
+    </div>
+  }
+
+  @if (loading()) {
+    <p class="t-sub">Yükleniyor…</p>
+  } @else {
+    <section class="card meta-card">
+      <div class="form-group">
+        <label for="contentTitle">Başlık</label>
+        <input id="contentTitle" type="text" [(ngModel)]="title" maxlength="120"
+          [placeholder]="type() === 'quiz' ? 'ör. Kesirler tekrar testi' : 'ör. Zıt anlamlı kelimeler'" />
+      </div>
+      <div class="form-group">
+        <label>Ders</label>
+        <div class="t-chip-row">
+          @for (s of subjects; track s) {
+            <button type="button" [class.selected]="subject() === s" (click)="subject.set(s)">{{ s }}</button>
+          }
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Sınıf</label>
+        <div class="t-chip-row">
+          @for (g of grades; track g) {
+            <button type="button" [class.selected]="grade() === g" (click)="grade.set(g)">{{ g }}</button>
+          }
+        </div>
+      </div>
+    </section>
+
+    @if (type() === 'quiz') {
+      @for (item of items; track $index; let i = $index) {
+        <section class="card q-card">
+          <div class="q-head">
+            <span class="q-num">{{ i + 1 }}</span>
+            <strong>Soru {{ i + 1 }}</strong>
+            @if (items.length > 1) {
+              <button type="button" class="link-btn" (click)="removeQuestion(i)">Sil</button>
+            }
+          </div>
+          <div class="form-group">
+            <textarea rows="2" [(ngModel)]="item.prompt" placeholder="Soru metni" maxlength="500"></textarea>
+          </div>
+          <div class="opt-list">
+            @for (opt of item.options; track $index; let j = $index) {
+              <div class="opt-row" [class.correct]="item.correctIndex === j">
+                <button type="button" class="opt-mark" (click)="item.correctIndex = j" [title]="'Doğru cevap ' + letters[j] + ' olsun'">
+                  {{ item.correctIndex === j ? '✓' : letters[j] }}
+                </button>
+                <input type="text" [(ngModel)]="item.options[j]" [placeholder]="letters[j] + ' şıkkı'" maxlength="200" />
+                @if (item.options.length > minOptions) {
+                  <button type="button" class="link-btn" (click)="removeOption(item, j)" title="Şıkkı sil">✕</button>
+                }
+              </div>
+            }
+          </div>
+          <div class="opt-foot">
+            <span class="hint">Doğru şıkkı işaretlemek için harfe tıklayın.</span>
+            @if (item.options.length < maxOptions) {
+              <button type="button" class="link-btn" (click)="addOption(item)">+ Şık ekle</button>
+            }
+          </div>
+          <div class="form-group explain">
+            <textarea rows="2" [(ngModel)]="item.explanation" maxlength="600"
+              placeholder="Açıklama (isteğe bağlı): öğrenci yanlış yapınca ne görsün?"></textarea>
+          </div>
+        </section>
+      }
+      @if (items.length < maxQuestions) {
+        <button type="button" class="add-btn" (click)="addQuestion()">+ Soru ekle</button>
+      }
+    } @else {
+      <section class="card pair-card">
+        <div class="pair-head">
+          <span>Kart 1</span>
+          <span>Eşi (kart 2)</span>
+        </div>
+        @for (p of pairs; track $index; let i = $index) {
+          <div class="pair-row">
+            <input type="text" [(ngModel)]="p.a" placeholder="ör. büyük" maxlength="40" />
+            <span class="pair-link">↔</span>
+            <input type="text" [(ngModel)]="p.b" placeholder="ör. küçük" maxlength="40" />
+            @if (pairs.length > 3) {
+              <button type="button" class="link-btn" (click)="removePair(i)">✕</button>
+            }
+          </div>
+        }
+        <p class="hint">Oyunda her seferinde en fazla 6 eşleşme rastgele seçilir. Kısa yazılar kartlarda daha iyi görünür.</p>
+        @if (pairs.length < maxPairs) {
+          <button type="button" class="add-btn" (click)="addPair()">+ Eşleşme ekle</button>
+        }
+      </section>
+    }
+
+    <div class="bottom-actions">
+      <button type="button" class="btn outline" (click)="preview()">👀 Önizle</button>
+      <button type="button" class="btn primary" [disabled]="saving()" (click)="save()">
+        {{ saving() ? 'Kaydediliyor…' : 'Kaydet' }}
+      </button>
+    </div>
+  }
+</div>
+
+@if (previewQuestions() || previewSet()) {
+  <div class="preview-overlay">
+    <div class="preview-bar">
+      <strong>Önizleme — öğrenciler böyle görecek</strong>
+      <button type="button" class="btn sm" (click)="closePreview()">Önizlemeyi kapat</button>
+    </div>
+    <div class="preview-body">
+      @if (previewQuestions(); as qs) {
+        <app-quiz [customQuestions]="qs" [customTitle]="title" [customSubject]="subject()" [preview]="true" backLink="/ogretmen/icerik" />
+      }
+      @if (previewSet(); as set) {
+        <app-memory-match [customSet]="set" [preview]="true" backLink="/ogretmen/icerik" />
+      }
+    </div>
+  </div>
+}

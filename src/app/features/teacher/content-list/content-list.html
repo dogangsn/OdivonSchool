@@ -1,0 +1,44 @@
+<div class="t-page container animate-fade-in">
+  <div class="t-page-head">
+    <div>
+      <a routerLink="/ogretmen" class="t-crumb">← Öğretmen Paneli</a>
+      <h1>İçeriklerim</h1>
+      <p class="t-sub">Kendi testlerinizi ve eşleştirme setlerinizi hazırlayın, sonra herhangi bir sınıfa ödev olarak verin.</p>
+    </div>
+    <div class="t-head-actions">
+      <a class="btn primary" routerLink="/ogretmen/icerik/yeni" [queryParams]="{ tur: 'quiz' }">+ Yeni test</a>
+      <a class="btn outline" routerLink="/ogretmen/icerik/yeni" [queryParams]="{ tur: 'match' }">+ Eşleştirme seti</a>
+    </div>
+  </div>
+
+  @if (content() === undefined) {
+    <p class="t-sub">Yükleniyor…</p>
+  } @else {
+    <div class="content-grid">
+      @for (c of content(); track c.id) {
+        <div class="content-card card">
+          <span class="t-pill" [class.indigo]="c.type === 'quiz'" [class.green]="c.type === 'match'">
+            {{ c.type === 'quiz' ? '✍️ Test' : '🧠 Eşleştirme' }}
+          </span>
+          <strong>{{ c.title }}</strong>
+          <small>
+            {{ c.subject }} · {{ c.grade }}. sınıf ·
+            {{ c.type === 'quiz' ? (c.quizItems?.length ?? 0) + ' soru' : (c.pairs?.length ?? 0) + ' eşleşme' }}
+          </small>
+          <small class="updated">Güncellendi: {{ c.updatedAt | date: 'd MMM y' }}</small>
+          <div class="cc-actions">
+            <a class="btn sm" [routerLink]="['/ogretmen/icerik', c.id]">Düzenle</a>
+            <button type="button" class="btn sm outline" (click)="remove(c)">Sil</button>
+          </div>
+        </div>
+      } @empty {
+        <div class="t-empty card">
+          <span class="t-empty-emoji">✍️</span>
+          <h3>Henüz içerik yok</h3>
+          <p>Çoktan seçmeli bir test ya da kelime/kavram eşleştirme seti hazırlayın. Öğrenciler bunları oyun olarak oynar.</p>
+          <a class="btn primary" routerLink="/ogretmen/icerik/yeni" [queryParams]="{ tur: 'quiz' }">+ İlk testimi hazırla</a>
+        </div>
+      }
+    </div>
+  }
+</div>

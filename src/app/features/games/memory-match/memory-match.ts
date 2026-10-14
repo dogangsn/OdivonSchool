@@ -1,9 +1,10 @@
-import { Component, OnDestroy, computed, inject, signal } from '@angular/core';
+import { Component, OnDestroy, computed, inject, input, signal } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { GameResult } from '../game-result/game-result';
 import { GameProgressService } from '../../../core/services/game-progress';
 import { GameMistake, GameOutcome, GameReward } from '../../../games/game-models';
-import { matchSetById, pairsForGame } from '../../../games/match-sets';
+import { MatchSet, matchSetById, pairsForGame } from '../../../games/match-sets';
+import { AssignmentRef } from '../../../models/classroom';
 import { shuffled } from '../../../games/math-generator';
 import { matchStars } from '../../../games/scoring';
 import { setSoundEnabled, sfx, soundEnabled, speak, speechSupported } from '../../../games/sound';
@@ -29,7 +30,16 @@ export class MemoryMatch implements OnDestroy {
   private route = inject(ActivatedRoute);
   private progress = inject(GameProgressService);
 
-  readonly set = matchSetById(this.route.snapshot.paramMap.get('setId') ?? '');
+  /** A teacher's set (ödev); otherwise the built-in set from the route. */
+  customSet = input<MatchSet | null>(null);
+  assignment = input<AssignmentRef | null>(null);
+  backLink = input('/oyunlar');
+  /** Teacher preview: plays normally but nothing is saved. */
+  preview = input(false);
+
+  readonly set = computed(
+    () => this.customSet() ?? matchSetById(this.route.snapshot.paramMap.get('setId') ?? '')
+  );
   readonly canSpeak = speechSupported();
 
   phase = signal<Phase>('intro');
@@ -52,8 +62,9 @@ export class MemoryMatch implements OnDestroy {
   private flipBack: ReturnType<typeof setTimeout> | null = null;
 
   start() {
-    if (!this.set) return;
-    this.pairs = pairsForGame(this.set);
+    const set = this.set();
+    if (!set) return;
+    this.pairs = pairsForGame(set);
     const cards: Card[] = [];
     this.pairs.forEach(([a, b], pairId) => {
       cards.push({ id: pairId * 2, pairId, text: a, side: 'a', state: 'down' });
@@ -128,7 +139,8 @@ export class MemoryMatch implements OnDestroy {
   }
 
   private async finish() {
-    if (!this.set) return;
+    const set = this.set();
+    if (!set) return;
     this.stopTick();
     this.phase.set('done');
     sfx.finish();
@@ -137,10 +149,10 @@ export class MemoryMatch implements OnDestroy {
     const mistakes = this.mistakes();
     const outcome: GameOutcome = {
       gameType: 'match',
-      gameKey: this.set.id,
-      title: `Eşleştir · ${this.set.title}`,
-      subject: this.set.subject,
-      grade: this.set.grades.length === 1 ? this.set.grades[0] : null,
+      gameKey: set.id,
+      title: `Eşleştir · ${set.title}`,
+      subject: set.subject,
+      grade: set.grades.length === 1 ? set.grades[0] : null,
       score: Math.max(50, 600 - mistakes * 40 - Math.floor(durationMs / 1000) * 2),
       stars: matchStars(mistakes),
       correct: pairs,
@@ -150,6 +162,6 @@ export class MemoryMatch implements OnDestroy {
       meta: { matchMistakes: mistakes },
     };
     this.outcome.set(outcome);
-    this.reward.set(await this.progress.complete(outcome));
+    this.reward.set(await this.progress.complete(outcome, this.assignment(), this.preview()));
   }
 }

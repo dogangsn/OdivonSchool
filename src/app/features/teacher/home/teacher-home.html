@@ -1,32 +1,100 @@
-<div class="teacher container animate-fade-in">
+<div class="t-page container animate-fade-in">
   <section class="t-hero">
-    <span class="t-badge">🧑‍🏫 Öğretmen Paneli</span>
-    <h1>Hoş geldiniz, {{ appUser()?.displayName || 'Öğretmenim' }}!</h1>
-    <p>
-      @if (appUser()?.school) {
-        {{ appUser()?.school }}
-        @if (appUser()?.branch) { · {{ appUser()?.branch }} }
-        <br />
-      }
-      Sınıf yönetimi araçları hazırlanıyor. Bu arada öğrencilerinizin oynayacağı oyunları deneyebilir, soru havuzunu inceleyebilirsiniz.
-    </p>
-    <div class="t-actions">
-      <a routerLink="/oyunlar" class="btn primary lg">🎮 Oyunları Dene</a>
-      <a routerLink="/kategoriler" class="btn outline lg">📚 Soru Havuzu</a>
+    <div>
+      <span class="t-badge">🧑‍🏫 Öğretmen Paneli</span>
+      <h1>Hoş geldiniz, {{ appUser()?.displayName || 'Öğretmenim' }}!</h1>
+      <p>Sınıf kurun, kodu öğrencilerinizle paylaşın, ödevleri oyun olarak verin ve sonuçları buradan izleyin.</p>
+    </div>
+    <div class="t-hero-actions">
+      <button type="button" class="btn-play small" (click)="openDrawer()">+ Yeni sınıf</button>
+      <a routerLink="/ogretmen/icerik" class="t-hero-link">✍️ İçeriklerim</a>
     </div>
   </section>
 
-  <section class="t-upcoming">
-    <h2>Yakında öğretmen panelinde</h2>
-    <div class="t-grid">
-      @for (item of upcoming; track item.title) {
-        <div class="t-card card">
-          <span class="t-emoji">{{ item.emoji }}</span>
-          <strong>{{ item.title }}</strong>
-          <p>{{ item.text }}</p>
-          <span class="badge badge-warning">Yakında</span>
+  <div class="t-page-head">
+    <div>
+      <h1>Sınıflarım</h1>
+    </div>
+  </div>
+
+  @if (classes() === undefined) {
+    <p class="t-sub">Yükleniyor…</p>
+  } @else {
+    <div class="class-grid">
+      @for (c of classes(); track c.id) {
+        <a class="class-card card" [class.archived]="c.archived" [routerLink]="['/ogretmen/sinif', c.id]">
+          <div class="cc-top">
+            <span class="cc-grade">{{ c.grade ? c.grade + '. sınıf' : 'Karma' }}</span>
+            @if (c.archived) {
+              <span class="t-pill">Arşivde</span>
+            }
+          </div>
+          <strong class="cc-name">{{ c.name }}</strong>
+          <span class="cc-code">Kod: <b>{{ c.joinCode }}</b></span>
+          <span class="cc-cta">Sınıfı aç →</span>
+        </a>
+      } @empty {
+        <div class="t-empty card">
+          <span class="t-empty-emoji">🏫</span>
+          <h3>Henüz sınıfınız yok</h3>
+          <p>İlk sınıfınızı oluşturun; size 6 haneli bir katılım kodu verelim. Öğrencileriniz panellerinden bu kodla katılır.</p>
+          <button type="button" class="btn primary" (click)="openDrawer()">+ İlk sınıfımı oluştur</button>
         </div>
       }
     </div>
+  }
+
+  <section class="t-upcoming">
+    <h2>Sırada</h2>
+    <div class="t-grid">
+      <div class="t-card card">
+        <span class="t-emoji">🏁</span>
+        <strong>Canlı yarışma</strong>
+        <p>Sınıfta öğrencilerinizi projeksiyonda birbiriyle yarıştırın.</p>
+        <span class="badge badge-warning">Yakında</span>
+      </div>
+      <div class="t-card card">
+        <span class="t-emoji">📊</span>
+        <strong>Kazanım takibi</strong>
+        <p>Öğrenci bazında MEB kazanımı ısı haritası ve uyarılar.</p>
+        <span class="badge badge-warning">Yakında</span>
+      </div>
+    </div>
   </section>
 </div>
+
+@if (drawerOpen()) {
+  <div class="t-drawer-backdrop" (click)="drawerOpen.set(false)"></div>
+  <aside class="t-drawer" role="dialog" aria-label="Yeni sınıf">
+    <div class="t-drawer-head">
+      <div>
+        <h3>Yeni sınıf oluştur</h3>
+        <p>Oluşturunca öğrencileriniz için bir katılım kodu üretilir.</p>
+      </div>
+      <button type="button" class="t-close" (click)="drawerOpen.set(false)">✕</button>
+    </div>
+    <form class="t-drawer-body" id="newClassForm" (ngSubmit)="createClass()">
+      @if (error()) {
+        <div class="t-alert danger">{{ error() }}</div>
+      }
+      <div class="form-group">
+        <label for="className">Sınıf adı</label>
+        <input id="className" type="text" name="className" [(ngModel)]="newName" maxlength="60" placeholder="ör. 3-B Matematik" />
+      </div>
+      <div class="form-group">
+        <label>Sınıf seviyesi</label>
+        <div class="t-chip-row">
+          @for (g of gradeChoices; track g) {
+            <button type="button" [class.selected]="newGrade() === g" (click)="newGrade.set(g)">{{ g }}. sınıf</button>
+          }
+        </div>
+      </div>
+    </form>
+    <div class="t-drawer-foot">
+      <button type="button" class="btn outline" (click)="drawerOpen.set(false)">Vazgeç</button>
+      <button type="submit" form="newClassForm" class="btn primary" [disabled]="saving()">
+        {{ saving() ? 'Oluşturuluyor…' : 'Sınıfı oluştur' }}
+      </button>
+    </div>
+  </aside>
+}

@@ -45,7 +45,14 @@
         <span class="xp-streak">🔥 {{ r.streakDays }} gün</span>
       </div>
       <div class="xp-bar"><div class="xp-fill" [style.width.%]="r.levelProgress"></div></div>
-      @if (!r.saved) {
+      @if (r.submitted === true) {
+        <p class="submit-note ok">✅ Ödevin öğretmenine gönderildi.</p>
+      } @else if (r.submitted === false) {
+        <p class="submit-note">⚠️ Ödev sonucu gönderilemedi. İnternet bağlantını kontrol edip tekrar oyna.</p>
+      }
+      @if (r.preview) {
+        <p class="guest-note">Önizleme: sonuç kaydedilmedi.</p>
+      } @else if (!r.saved) {
         <p class="guest-note">
           XP ve rozetlerini kaydetmek için <a routerLink="/kayit">ücretsiz hesap aç</a>.
         </p>
@@ -72,7 +79,7 @@
 
   <div class="result-actions">
     <button class="btn-play" type="button" (click)="replay.emit()">🔁 Tekrar Oyna</button>
-    <a class="btn-ghost" routerLink="/oyunlar">Diğer Oyunlar</a>
+    <a class="btn-ghost" [routerLink]="backLink()">{{ backLink() === '/oyunlar' ? 'Diğer Oyunlar' : 'Geri Dön' }}</a>
   </div>
 </div>
 

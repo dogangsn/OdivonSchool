@@ -1,0 +1,44 @@
+@if (assignment(); as a) {
+  @switch (a.kind) {
+    @case ('speed') {
+      <app-speed-round [presetId]="a.presetId ?? ''" [assignment]="ref" backLink="/panel" />
+    }
+    @case ('pool-quiz') {
+      <app-quiz [categoryId]="a.categoryId ?? ''" [assignment]="ref" backLink="/panel" />
+    }
+    @case ('custom-quiz') {
+      <app-quiz
+        [customQuestions]="questions()"
+        [customTitle]="a.title"
+        [customSubject]="a.subject"
+        [assignment]="ref"
+        backLink="/panel"
+      />
+    }
+    @case ('custom-match') {
+      @if (matchSet(); as set) {
+        <app-memory-match [customSet]="set" [assignment]="ref" backLink="/panel" />
+      }
+    }
+  }
+} @else if (assignment() === null) {
+  <div class="game-page">
+    <div class="game-stage theme-sky">
+      <div class="game-intro">
+        <div class="intro-emoji">🔒</div>
+        <h1>Bu ödeve ulaşılamıyor</h1>
+        <p>Ödev silinmiş olabilir ya da bu sınıfın öğrencisi değilsin.</p>
+        <a routerLink="/panel" class="btn-play">Panele Dön</a>
+      </div>
+    </div>
+  </div>
+} @else {
+  <div class="game-page">
+    <div class="game-stage theme-sky">
+      <div class="game-intro">
+        <div class="intro-emoji">⏳</div>
+        <p>Ödev yükleniyor…</p>
+      </div>
+    </div>
+  </div>
+}

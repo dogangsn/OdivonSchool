@@ -1,8 +1,9 @@
-import { Component, HostListener, OnDestroy, computed, inject, signal } from '@angular/core';
+import { Component, HostListener, OnDestroy, computed, inject, input, signal } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { GameResult } from '../game-result/game-result';
 import { GameProgressService } from '../../../core/services/game-progress';
 import { GameMistake, GameOutcome, GameProblem, GameReward } from '../../../games/game-models';
+import { AssignmentRef } from '../../../models/classroom';
 import { Difficulty, generateProblem, presetById } from '../../../games/math-generator';
 import { comboMultiplier, speedStars } from '../../../games/scoring';
 import { setSoundEnabled, sfx, soundEnabled, speak, speechSupported } from '../../../games/sound';
@@ -27,7 +28,16 @@ export class SpeedRound implements OnDestroy {
   private route = inject(ActivatedRoute);
   private progress = inject(GameProgressService);
 
-  readonly preset = presetById(this.route.snapshot.paramMap.get('presetId') ?? '');
+  /** Set when embedded (ödev); otherwise taken from the route. */
+  presetId = input<string | null>(null);
+  assignment = input<AssignmentRef | null>(null);
+  backLink = input('/oyunlar');
+  /** Teacher preview: plays normally but nothing is saved. */
+  preview = input(false);
+
+  readonly preset = computed(() =>
+    presetById(this.presetId() ?? this.route.snapshot.paramMap.get('presetId') ?? '')
+  );
   readonly lifeSlots = Array.from({ length: LIVES }, (_, i) => i);
   readonly canSpeak = speechSupported();
 
@@ -162,10 +172,11 @@ export class SpeedRound implements OnDestroy {
   }
 
   private nextProblem() {
-    if (!this.preset) return;
-    let p = generateProblem(this.preset, this.difficulty());
+    const preset = this.preset();
+    if (!preset) return;
+    let p = generateProblem(preset, this.difficulty());
     // Avoid showing the exact same card twice in a row.
-    if (p.text === this.problem()?.text) p = generateProblem(this.preset, this.difficulty());
+    if (p.text === this.problem()?.text) p = generateProblem(preset, this.difficulty());
     this.problem.set(p);
     this.picked.set(null);
     this.feedback.set(null);
@@ -197,7 +208,8 @@ export class SpeedRound implements OnDestroy {
   }
 
   private async finish() {
-    if (this.phase() === 'done' || !this.preset) return;
+    const preset = this.preset();
+    if (this.phase() === 'done' || !preset) return;
     this.stopClock();
     if (this.nextTimer) clearTimeout(this.nextTimer);
     this.phase.set('done');
@@ -205,10 +217,10 @@ export class SpeedRound implements OnDestroy {
 
     const outcome: GameOutcome = {
       gameType: 'speed',
-      gameKey: this.preset.id,
-      title: `Hız Turu · ${this.preset.title}`,
+      gameKey: preset.id,
+      title: `Hız Turu · ${preset.title}`,
       subject: 'Matematik',
-      grade: this.preset.grade,
+      grade: preset.grade,
       score: this.score(),
       stars: speedStars(this.correct(), this.answered()),
       correct: this.correct(),
@@ -219,7 +231,7 @@ export class SpeedRound implements OnDestroy {
     };
     this.outcome.set(outcome);
     this.reward.set(null);
-    this.reward.set(await this.progress.complete(outcome));
+    this.reward.set(await this.progress.complete(outcome, this.assignment(), this.preview()));
   }
 
   private resetState() {

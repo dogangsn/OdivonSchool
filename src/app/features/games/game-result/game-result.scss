@@ -139,6 +139,17 @@
     transition: width 0.8s ease;
   }
 
+  .submit-note {
+    margin-top: 8px;
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: var(--warning-text);
+
+    &.ok {
+      color: var(--success-text);
+    }
+  }
+
   .guest-note {
     margin-top: 8px;
     font-size: 0.85rem;

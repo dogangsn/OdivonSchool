@@ -55,6 +55,32 @@ export const routes: Routes = [
     canActivate: [teacherGuard],
     loadComponent: () => import('./features/teacher/home/teacher-home').then(m => m.TeacherHome),
   },
+  {
+    path: 'ogretmen/sinif/:classId',
+    canActivate: [teacherGuard],
+    loadComponent: () => import('./features/teacher/class-detail/class-detail').then(m => m.ClassDetail),
+  },
+  {
+    path: 'ogretmen/icerik',
+    canActivate: [teacherGuard],
+    loadComponent: () => import('./features/teacher/content-list/content-list').then(m => m.ContentList),
+  },
+  {
+    path: 'ogretmen/icerik/yeni',
+    canActivate: [teacherGuard],
+    loadComponent: () => import('./features/teacher/content-editor/content-editor').then(m => m.ContentEditor),
+  },
+  {
+    path: 'ogretmen/icerik/:id',
+    canActivate: [teacherGuard],
+    loadComponent: () => import('./features/teacher/content-editor/content-editor').then(m => m.ContentEditor),
+  },
+  {
+    path: 'odev/:classId/:assignmentId',
+    canActivate: [authGuard],
+    loadComponent: () =>
+      import('./features/assignments/assignment-play/assignment-play').then(m => m.AssignmentPlay),
+  },
 
   {
     path: 'panel',

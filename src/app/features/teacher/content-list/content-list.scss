@@ -1,0 +1,40 @@
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px;
+
+  .t-empty {
+    grid-column: 1 / -1;
+  }
+}
+
+.content-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 18px;
+
+  .t-pill {
+    align-self: flex-start;
+  }
+
+  strong {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+  }
+
+  small {
+    color: var(--text-muted);
+  }
+
+  .updated {
+    color: var(--text-subtle);
+    font-size: 0.75rem;
+  }
+
+  .cc-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+  }
+}

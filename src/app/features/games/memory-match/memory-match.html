@@ -1,6 +1,6 @@
 <div class="game-page">
   <div class="game-topbar">
-    <a routerLink="/oyunlar" class="game-back">← Oyunlar</a>
+    <a [routerLink]="backLink()" class="game-back">← Geri</a>
     <div class="game-tools">
       <button class="icon-btn" type="button" [title]="sound() ? 'Sesi kapat' : 'Sesi aç'" (click)="toggleSound()">
         {{ sound() ? '🔔' : '🔕' }}
@@ -8,15 +8,7 @@
     </div>
   </div>
 
-  @if (!set) {
-    <div class="game-stage theme-mint">
-      <div class="game-intro">
-        <div class="intro-emoji">🤔</div>
-        <h1>Bu oyunu bulamadık</h1>
-        <a routerLink="/oyunlar" class="btn-play">Oyunlara Dön</a>
-      </div>
-    </div>
-  } @else {
+  @if (set(); as set) {
     @switch (phase()) {
       @case ('intro') {
         <div class="game-stage theme-mint">
@@ -25,7 +17,7 @@
             <h1>{{ set.title }}</h1>
             <p>{{ set.description }}. Kartları çevir, birbirine uyan ikilileri bul. Ne kadar az hata, o kadar çok yıldız!</p>
             <div class="intro-rules">
-              <span>🃏 12 kart</span>
+              <span>🃏 {{ (set.pairs?.length ?? 6) > 6 ? 12 : (set.pairs?.length ?? 6) * 2 }} kart</span>
               <span>🎯 Az hata = 3 yıldız</span>
               @if (canSpeak) {
                 <span>🔊 Kartlar sesli okunur</span>
@@ -38,7 +30,7 @@
 
       @case ('done') {
         @if (outcome(); as o) {
-          <app-game-result [outcome]="o" [reward]="reward()" (replay)="start()" />
+          <app-game-result [outcome]="o" [reward]="reward()" [backLink]="backLink()" (replay)="start()" />
         }
       }
 
@@ -71,5 +63,13 @@
         </div>
       }
     }
+  } @else {
+    <div class="game-stage theme-mint">
+      <div class="game-intro">
+        <div class="intro-emoji">🤔</div>
+        <h1>Bu oyunu bulamadık</h1>
+        <a routerLink="/oyunlar" class="btn-play">Oyunlara Dön</a>
+      </div>
+    </div>
   }
 </div>

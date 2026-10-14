@@ -39,7 +39,8 @@ service cloud.firestore {
         after.get('xp', 0) - before.get('xp', 0) <= 600 &&
         after.get('streakDays', 0) is int &&
         after.get('streakDays', 0) >= 0 && after.get('streakDays', 0) <= 3660 &&
-        after.get('badges', []) is list && after.get('badges', []).size() <= 60;
+        after.get('badges', []) is list && after.get('badges', []).size() <= 60 &&
+        after.get('classIds', []) is list && after.get('classIds', []).size() <= 30;
     }
 
     match /users/{userId} {
@@ -59,7 +60,8 @@ service cloud.firestore {
         (isOwner(userId) &&
           request.resource.data.diff(resource.data).affectedKeys()
             .hasOnly(['displayName', 'gradeLevel', 'grade', 'school', 'branch',
-                      'lastNotifSeenAt', 'xp', 'streakDays', 'lastPlayedDate', 'badges']) &&
+                      'lastNotifSeenAt', 'xp', 'streakDays', 'lastPlayedDate', 'badges',
+                      'classIds']) &&
           isValidProgress(request.resource.data, resource.data));
       allow delete: if isAdmin();
     }
@@ -104,6 +106,108 @@ service cloud.firestore {
     match /poolUpdates/{updateId} {
       allow read: if true;
       allow write: if isAdmin();
+    }
+
+    // ---------------------------------------------------------------------
+    // Öğretmen sınıfları
+    // ---------------------------------------------------------------------
+    function isTeacherOrAdmin() {
+      return isSignedIn() &&
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ['teacher', 'admin'];
+    }
+
+    function isClassTeacher(classId) {
+      return isSignedIn() &&
+        get(/databases/$(database)/documents/classes/$(classId)).data.teacherId == request.auth.uid;
+    }
+
+    function isClassMember(classId) {
+      return isSignedIn() &&
+        exists(/databases/$(database)/documents/classes/$(classId)/members/$(request.auth.uid));
+    }
+
+    function isValidClass(c) {
+      return c.name is string && c.name.size() > 0 && c.name.size() <= 60 &&
+        c.grade is int && c.grade >= 0 && c.grade <= 12 &&
+        c.joinCode is string && c.joinCode.size() == 6;
+    }
+
+    function isValidSubmission(s) {
+      return s.uid == request.auth.uid &&
+        s.score is int && s.score >= 0 && s.score <= 100000 &&
+        s.bestScore is int && s.bestScore >= s.score && s.bestScore <= 100000 &&
+        s.correct is int && s.total is int && s.correct >= 0 &&
+        s.correct <= s.total && s.total <= 500 &&
+        s.stars is int && s.stars >= 0 && s.stars <= 3 &&
+        s.bestStars is int && s.bestStars >= 0 && s.bestStars <= 3 &&
+        s.attempts is int && s.attempts >= 1 && s.attempts <= 1000;
+    }
+
+    match /classes/{classId} {
+      allow read: if isAdmin() ||
+        (isSignedIn() && resource.data.teacherId == request.auth.uid) ||
+        isClassMember(classId);
+      allow create: if isSignedIn() && isTeacherOrAdmin() &&
+        request.resource.data.teacherId == request.auth.uid &&
+        isValidClass(request.resource.data);
+      allow update: if isSignedIn() && resource.data.teacherId == request.auth.uid &&
+        request.resource.data.teacherId == request.auth.uid &&
+        isValidClass(request.resource.data);
+      allow delete: if isSignedIn() && resource.data.teacherId == request.auth.uid;
+
+      // Students add themselves with a valid join code; the teacher can
+      // remove anyone, a student can leave.
+      match /members/{memberId} {
+        allow read: if request.auth.uid == memberId || isClassTeacher(classId) || isAdmin();
+        allow create: if isSignedIn() && request.auth.uid == memberId &&
+          request.resource.data.uid == memberId &&
+          request.resource.data.joinCode is string &&
+          get(/databases/$(database)/documents/classCodes/$(request.resource.data.joinCode)).data.classId == classId;
+        allow update: if false;
+        allow delete: if request.auth.uid == memberId || isClassTeacher(classId);
+      }
+
+      match /assignments/{assignmentId} {
+        allow read: if isClassTeacher(classId) || isClassMember(classId) || isAdmin();
+        allow create, update: if isClassTeacher(classId) &&
+          request.resource.data.teacherId == request.auth.uid &&
+          request.resource.data.classId == classId &&
+          request.resource.data.title is string && request.resource.data.title.size() <= 120;
+        allow delete: if isClassTeacher(classId);
+
+        match /submissions/{studentId} {
+          allow read: if request.auth.uid == studentId || isClassTeacher(classId) || isAdmin();
+          allow create, update: if request.auth.uid == studentId && isClassMember(classId) &&
+            isValidSubmission(request.resource.data);
+          allow delete: if isClassTeacher(classId);
+        }
+      }
+    }
+
+    // Join code -> class lookup. Readable one code at a time, never listable.
+    match /classCodes/{code} {
+      allow get: if isSignedIn();
+      allow list: if false;
+      allow create: if isSignedIn() &&
+        request.resource.data.teacherId == request.auth.uid &&
+        getAfter(/databases/$(database)/documents/classes/$(request.resource.data.classId)).data.teacherId == request.auth.uid &&
+        getAfter(/databases/$(database)/documents/classes/$(request.resource.data.classId)).data.joinCode == code;
+      allow update: if false;
+      allow delete: if isSignedIn() && resource.data.teacherId == request.auth.uid;
+    }
+
+    // A teacher's own tests and matching sets. Students get a copy inside
+    // each assignment, so only the owner reads these.
+    match /teacherContent/{contentId} {
+      allow read: if isSignedIn() && (resource.data.ownerId == request.auth.uid || isAdmin());
+      allow create: if isSignedIn() && isTeacherOrAdmin() &&
+        request.resource.data.ownerId == request.auth.uid &&
+        request.resource.data.type in ['quiz', 'match'] &&
+        request.resource.data.title is string && request.resource.data.title.size() <= 120;
+      allow update: if isSignedIn() && resource.data.ownerId == request.auth.uid &&
+        request.resource.data.ownerId == request.auth.uid &&
+        request.resource.data.type == resource.data.type;
+      allow delete: if isSignedIn() && resource.data.ownerId == request.auth.uid;
     }
 
     match /subscriptions/{subscriptionId} {

@@ -31,6 +31,9 @@ export interface AppUser {
   streakDays?: number;
   lastPlayedDate?: string; // YYYY-MM-DD (local)
   badges?: string[];
+
+  // Öğretmen sınıfları the student joined (membership docs are the source of truth)
+  classIds?: string[];
 }
 
 /** Profile chosen on the sign-up form. */

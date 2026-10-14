@@ -1,0 +1,81 @@
+<section class="sc card">
+  <div class="sc-head">
+    <div>
+      <h2>📚 Sınıflarım ve Ödevlerim</h2>
+      <p>Öğretmeninin verdiği kodla sınıfına katıl, ödevlerini oyun gibi çöz.</p>
+    </div>
+    @if (classes().length > 0 && !showJoin()) {
+      <button type="button" class="btn sm outline" (click)="showJoin.set(true)">+ Sınıfa katıl</button>
+    }
+  </div>
+
+  @if (message(); as m) {
+    <div class="t-alert" [class.success]="m.type === 'success'" [class.danger]="m.type === 'danger'">{{ m.text }}</div>
+  }
+
+  @if (classes().length === 0 || showJoin()) {
+    <form class="join-form" (ngSubmit)="join()">
+      <input
+        type="text"
+        name="code"
+        [(ngModel)]="code"
+        maxlength="8"
+        placeholder="Sınıf kodu (ör. K7M2QX)"
+        autocomplete="off"
+        autocapitalize="characters"
+        aria-label="Sınıf kodu"
+      />
+      <button type="submit" class="btn primary" [disabled]="joining() || !code.trim()">
+        {{ joining() ? 'Katılınıyor…' : 'Katıl' }}
+      </button>
+    </form>
+  }
+
+  @if (classes().length > 0) {
+    <div class="class-chips">
+      @for (c of classes(); track c.id) {
+        <span class="class-chip">🏫 {{ c.name }} <small>· {{ c.teacherName }}</small></span>
+      }
+    </div>
+  }
+
+  @if (pending().length > 0) {
+    <h3 class="sc-sub">Yapılacak ödevler</h3>
+    <ul class="hw-list">
+      @for (item of pending(); track item.assignment.id) {
+        <li class="hw pending">
+          <div class="hw-info">
+            <strong>{{ item.assignment.title }}</strong>
+            <span class="hw-meta">
+              {{ kindLabels[item.assignment.kind] }} · {{ item.classroom.name }}
+              @if (dueLabel(item.assignment.dueAt); as d) {
+                <span class="t-pill" [class]="'t-pill ' + d.tone">{{ d.text }}</span>
+              }
+            </span>
+          </div>
+          <a class="btn primary sm" [routerLink]="['/odev', item.classroom.id, item.assignment.id]">▶ Başla</a>
+        </li>
+      }
+    </ul>
+  } @else if (classes().length > 0) {
+    <p class="sc-empty">Bekleyen ödevin yok. Harika! 🎉</p>
+  }
+
+  @if (done().length > 0) {
+    <h3 class="sc-sub">Tamamlananlar</h3>
+    <ul class="hw-list">
+      @for (item of done(); track item.assignment.id) {
+        <li class="hw">
+          <div class="hw-info">
+            <strong>{{ item.assignment.title }}</strong>
+            <span class="hw-meta">
+              {{ item.classroom.name }} · {{ item.submission!.completedAt | date: 'd MMM' }}
+            </span>
+          </div>
+          <span class="hw-stars" [title]="'En iyi: ' + item.submission!.bestScore + ' puan'">{{ stars(item.submission!.bestStars) }}</span>
+          <a class="btn outline sm" [routerLink]="['/odev', item.classroom.id, item.assignment.id]">Tekrar</a>
+        </li>
+      }
+    </ul>
+  }
+</section>

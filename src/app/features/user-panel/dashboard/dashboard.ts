@@ -1,6 +1,7 @@
 import { Component, inject, computed, signal } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { DatePipe } from '@angular/common';
+import { StudentClasses } from '../student-classes/student-classes';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { switchMap, of } from 'rxjs';
 import { AuthService } from '../../../core/services/auth';
@@ -11,7 +12,7 @@ import { levelForXp, levelProgress } from '../../../games/scoring';
 
 @Component({
   selector: 'app-dashboard',
-  imports: [RouterLink, DatePipe],
+  imports: [RouterLink, DatePipe, StudentClasses],
   templateUrl: './dashboard.html',
   styleUrl: './dashboard.scss',
 })
@@ -60,6 +61,7 @@ export class Dashboard {
     return isStudent(u) && !u!.grade && u!.gradeLevel !== 'kpss';
   });
   savingGrade = signal(false);
+  isStudent = computed(() => isStudent(this.appUser()));
 
   async chooseGrade(grade: number) {
     const u = this.appUser();

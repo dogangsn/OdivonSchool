@@ -1,6 +1,6 @@
 <div class="game-page">
   <div class="game-topbar">
-    <a routerLink="/oyunlar" class="game-back">← Oyunlar</a>
+    <a [routerLink]="backLink()" class="game-back">← Geri</a>
     <div class="game-tools">
       @if (canSpeak && (phase() === 'playing' || phase() === 'reveal')) {
         <button class="icon-btn" type="button" title="Sesli oku" (click)="readAloud()">🔊</button>
@@ -36,7 +36,10 @@
       <div class="game-stage theme-sky">
         <div class="game-intro">
           <div class="intro-emoji">🏆</div>
-          <h1>Bilgi Yarışması</h1>
+          <h1>{{ customTitle() ?? 'Bilgi Yarışması' }}</h1>
+          @if (customTitle()) {
+            <p>Öğretmeninin hazırladığı test</p>
+          }
           @if (category(); as c) {
             <p><strong>{{ c.subject }}</strong> · {{ c.topic }}</p>
           }
@@ -53,7 +56,7 @@
 
     @case ('done') {
       @if (outcome(); as o) {
-        <app-game-result [outcome]="o" [reward]="reward()" (replay)="start()" />
+        <app-game-result [outcome]="o" [reward]="reward()" [backLink]="backLink()" (replay)="start()" />
       }
     }
 

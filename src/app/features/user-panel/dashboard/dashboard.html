@@ -62,6 +62,10 @@
     <a routerLink="/oyunlar" class="gs-cta">🎮 Oyna ve XP kazan</a>
   </section>
 
+  @if (isStudent()) {
+    <app-student-classes />
+  }
+
   <!-- Metrics Grid -->
   <section class="metrics-grid">
     <div class="stat-card">

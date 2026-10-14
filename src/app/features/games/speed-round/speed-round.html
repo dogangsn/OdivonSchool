@@ -1,6 +1,6 @@
 <div class="game-page">
   <div class="game-topbar">
-    <a routerLink="/oyunlar" class="game-back">← Oyunlar</a>
+    <a [routerLink]="backLink()" class="game-back">← Geri</a>
     <div class="game-tools">
       @if (canSpeak && phase() === 'playing') {
         <button class="icon-btn" type="button" title="Sesli oku" (click)="readAloud()">🔊</button>
@@ -11,16 +11,7 @@
     </div>
   </div>
 
-  @if (!preset) {
-    <div class="game-stage">
-      <div class="game-intro">
-        <div class="intro-emoji">🤔</div>
-        <h1>Bu oyunu bulamadık</h1>
-        <p>Oyun listesinden yeni bir oyun seçebilirsin.</p>
-        <a routerLink="/oyunlar" class="btn-play">Oyunlara Dön</a>
-      </div>
-    </div>
-  } @else {
+  @if (preset(); as preset) {
     @switch (phase()) {
       @case ('intro') {
         <div class="game-stage">
@@ -52,7 +43,7 @@
 
       @case ('done') {
         @if (outcome(); as o) {
-          <app-game-result [outcome]="o" [reward]="reward()" (replay)="start()" />
+          <app-game-result [outcome]="o" [reward]="reward()" [backLink]="backLink()" (replay)="start()" />
         }
       }
 
@@ -123,5 +114,14 @@
         </div>
       }
     }
+  } @else {
+    <div class="game-stage">
+      <div class="game-intro">
+        <div class="intro-emoji">🤔</div>
+        <h1>Bu oyunu bulamadık</h1>
+        <p>Oyun listesinden yeni bir oyun seçebilirsin.</p>
+        <a routerLink="/oyunlar" class="btn-play">Oyunlara Dön</a>
+      </div>
+    </div>
   }
 </div>

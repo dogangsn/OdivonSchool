@@ -38,6 +38,8 @@ export interface GameOutcome {
 export interface GameResultDoc extends Omit<GameOutcome, 'meta'> {
   userId: string;
   createdAt: number;
+  classId?: string;
+  assignmentId?: string;
 }
 
 /** Outcome after XP, streak and badges were applied. */
@@ -49,6 +51,10 @@ export interface GameReward {
   streakDays: number;
   newBadges: BadgeDef[];
   saved: boolean; // false for guests
+  /** Set when the game was an assignment: whether the teacher got the result. */
+  submitted?: boolean;
+  /** Teacher preview: nothing was saved on purpose. */
+  preview?: boolean;
 }
 
 export interface BadgeDef {

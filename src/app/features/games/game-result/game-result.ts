@@ -13,6 +13,7 @@ export class GameResult {
   outcome = input.required<GameOutcome>();
   /** null while the result is being saved. */
   reward = input<GameReward | null>(null);
+  backLink = input('/oyunlar');
   replay = output<void>();
 
   readonly starSlots = [1, 2, 3];

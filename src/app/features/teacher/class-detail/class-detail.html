@@ -1,0 +1,256 @@
+<div class="t-page container animate-fade-in">
+  @if (classroom(); as c) {
+    <div class="t-page-head">
+      <div>
+        <a routerLink="/ogretmen" class="t-crumb">← Sınıflarım</a>
+        <h1>{{ c.name }}</h1>
+        <p class="t-sub">{{ c.grade ? c.grade + '. sınıf' : 'Karma sınıf' }} · {{ members().length }} öğrenci</p>
+      </div>
+      <div class="t-head-actions">
+        <button type="button" class="btn primary" (click)="openDrawer()">+ Ödev ver</button>
+      </div>
+    </div>
+
+    @if (notice(); as n) {
+      <div class="t-alert" [class.success]="n.type === 'success'" [class.danger]="n.type === 'danger'">{{ n.text }}</div>
+    }
+
+    <section class="code-card">
+      <div class="code-info">
+        <span class="code-label">Sınıf kodu</span>
+        <span class="code-value">{{ c.joinCode }}</span>
+        <span class="code-help">Öğrenciler kayıt olup panellerindeki <b>Sınıfa katıl</b> kutusuna bu kodu yazar.</span>
+      </div>
+      <div class="code-actions">
+        <button type="button" class="btn sm" (click)="copyCode()">{{ copied() ? '✓ Kopyalandı' : '📋 Kopyala' }}</button>
+        <button type="button" class="btn sm outline" (click)="regenerateCode()">🔄 Kodu yenile</button>
+        <button type="button" class="btn sm outline" (click)="toggleArchive()">{{ c.archived ? '📂 Arşivden çıkar' : '🗄️ Arşivle' }}</button>
+      </div>
+    </section>
+
+    <div class="t-tabs">
+      <button type="button" [class.active]="tab() === 'odevler'" (click)="tab.set('odevler')">
+        Ödevler <span class="count">{{ assignments().length }}</span>
+      </button>
+      <button type="button" [class.active]="tab() === 'ogrenciler'" (click)="tab.set('ogrenciler')">
+        Öğrenciler <span class="count">{{ members().length }}</span>
+      </button>
+    </div>
+
+    @if (tab() === 'odevler') {
+      <div class="hw-list">
+        @for (a of assignments(); track a.id) {
+          <div class="hw card" [class.open]="expandedId() === a.id">
+            <button type="button" class="hw-row" (click)="toggleExpanded(a.id)">
+              <div class="hw-main">
+                <strong>{{ a.title }}</strong>
+                <span class="hw-meta">
+                  <span class="t-pill indigo">{{ kindLabels[a.kind] }}</span>
+                  @if (a.subject) { <span>{{ a.subject }}</span> }
+                  <span>· Verildi: {{ a.createdAt | date: 'd MMM' }}</span>
+                  @if (a.dueAt) { <span>· Son gün: {{ a.dueAt | date: 'd MMM' }}</span> }
+                </span>
+              </div>
+              <div class="hw-progress">
+                <span class="hw-count">{{ counts()[a.id] ?? 0 }}/{{ members().length }}</span>
+                <span class="hw-count-label">teslim</span>
+              </div>
+              <span class="hw-chevron">{{ expandedId() === a.id ? '▲' : '▼' }}</span>
+            </button>
+
+            @if (expandedId() === a.id) {
+              <div class="hw-results">
+                @if (sortedSubmissions().length) {
+                  <div class="table-responsive">
+                    <table class="modern-table">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>Öğrenci</th>
+                          <th>En iyi</th>
+                          <th>Puan</th>
+                          <th>Doğru</th>
+                          <th>Süre</th>
+                          <th>Deneme</th>
+                          <th>Son</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        @for (s of sortedSubmissions(); track s.uid; let i = $index) {
+                          <tr>
+                            <td>{{ i + 1 }}</td>
+                            <td><strong>{{ s.displayName }}</strong></td>
+                            <td class="stars">{{ stars(s.bestStars) }}</td>
+                            <td>{{ s.bestScore }}</td>
+                            <td>{{ s.correct }}/{{ s.total }}</td>
+                            <td>{{ minutes(s.durationMs) }}</td>
+                            <td>{{ s.attempts }}</td>
+                            <td>{{ s.completedAt | date: 'd MMM HH:mm' }}</td>
+                          </tr>
+                        }
+                      </tbody>
+                    </table>
+                  </div>
+                } @else {
+                  <p class="hw-none">Henüz teslim eden yok.</p>
+                }
+
+                @if (notSubmitted().length) {
+                  <div class="not-done">
+                    <span class="nd-label">Henüz yapmayanlar:</span>
+                    @for (m of notSubmitted(); track m.uid) {
+                      <span class="t-pill amber">{{ m.displayName }}</span>
+                    }
+                  </div>
+                }
+
+                @if (sortedSubmissions().length) {
+                  <details class="mistake-box">
+                    <summary>Öğrencilerin yanlışları</summary>
+                    <ul>
+                      @for (s of sortedSubmissions(); track s.uid) {
+                        @for (m of s.mistakes; track $index) {
+                          <li><b>{{ s.displayName }}:</b> {{ m.prompt }} → doğrusu <b>{{ m.correctAnswer }}</b>@if (m.given) {, cevabı {{ m.given }}}</li>
+                        }
+                      }
+                    </ul>
+                  </details>
+                }
+
+                <div class="hw-actions">
+                  <button type="button" class="btn sm danger" (click)="deleteAssignment(a)">Ödevi sil</button>
+                </div>
+              </div>
+            }
+          </div>
+        } @empty {
+          <div class="t-empty card">
+            <span class="t-empty-emoji">📝</span>
+            <h3>Henüz ödev vermediniz</h3>
+            <p>Kendi testinizi, eşleştirme setinizi, havuzdan bir konuyu ya da Hız Turu'nu ödev olarak verin.</p>
+            <button type="button" class="btn primary" (click)="openDrawer()">+ İlk ödevi ver</button>
+          </div>
+        }
+      </div>
+    } @else {
+      <div class="card member-card">
+        @if (members().length) {
+          <ul class="member-list">
+            @for (m of members(); track m.uid) {
+              <li>
+                <span class="m-avatar">{{ (m.displayName || '?').charAt(0).toUpperCase() }}</span>
+                <span class="m-name">
+                  <strong>{{ m.displayName }}</strong>
+                  <small>{{ m.grade ? m.grade + '. sınıf · ' : '' }}Katıldı: {{ m.joinedAt | date: 'd MMM y' }}</small>
+                </span>
+                <button type="button" class="btn sm outline" (click)="removeMember(m.uid, m.displayName)">Çıkar</button>
+              </li>
+            }
+          </ul>
+        } @else {
+          <div class="t-empty">
+            <span class="t-empty-emoji">👋</span>
+            <h3>Sınıfta henüz öğrenci yok</h3>
+            <p>Sınıf kodunu <b>{{ c.joinCode }}</b> öğrencilerinizle paylaşın. Katılan öğrenciler burada listelenir.</p>
+          </div>
+        }
+      </div>
+    }
+  } @else {
+    <div class="t-empty card">
+      <span class="t-empty-emoji">🔎</span>
+      <h3>Sınıf yükleniyor ya da bulunamadı</h3>
+      <a routerLink="/ogretmen" class="btn outline">Sınıflarıma dön</a>
+    </div>
+  }
+</div>
+
+@if (drawerOpen()) {
+  <div class="t-drawer-backdrop" (click)="drawerOpen.set(false)"></div>
+  <aside class="t-drawer" role="dialog" aria-label="Ödev ver">
+    <div class="t-drawer-head">
+      <div>
+        <h3>Ödev ver</h3>
+        <p>Öğrenciler ödevi panellerinde görür ve oyun olarak çözer.</p>
+      </div>
+      <button type="button" class="t-close" (click)="drawerOpen.set(false)">✕</button>
+    </div>
+    <div class="t-drawer-body">
+      @if (drawerError()) {
+        <div class="t-alert danger">{{ drawerError() }}</div>
+      }
+
+      <label class="field-label">Ödev türü</label>
+      <div class="t-choice-grid">
+        @for (k of kindChoices; track k.kind) {
+          <button type="button" [class.selected]="kind() === k.kind" (click)="chooseKind(k.kind)">
+            <strong>{{ k.title }}</strong>
+            <small>{{ k.hint }}</small>
+          </button>
+        }
+      </div>
+
+      <label class="field-label">İçerik</label>
+      <div class="pick-list">
+        @switch (kind()) {
+          @case ('custom-quiz') {
+            @for (c of quizContent(); track c.id) {
+              <button type="button" [class.selected]="selectedRef() === c.id" (click)="chooseRef(c.id, c.title)">
+                <strong>{{ c.title }}</strong>
+                <small>{{ c.subject }} · {{ c.quizItems?.length ?? 0 }} soru</small>
+              </button>
+            } @empty {
+              <p class="pick-empty">Henüz testiniz yok. <a routerLink="/ogretmen/icerik/yeni" [queryParams]="{ tur: 'quiz' }">Yeni test hazırlayın →</a></p>
+            }
+          }
+          @case ('custom-match') {
+            @for (c of matchContent(); track c.id) {
+              <button type="button" [class.selected]="selectedRef() === c.id" (click)="chooseRef(c.id, c.title)">
+                <strong>{{ c.title }}</strong>
+                <small>{{ c.subject }} · {{ c.pairs?.length ?? 0 }} eşleşme</small>
+              </button>
+            } @empty {
+              <p class="pick-empty">Henüz eşleştirme setiniz yok. <a routerLink="/ogretmen/icerik/yeni" [queryParams]="{ tur: 'match' }">Yeni set hazırlayın →</a></p>
+            }
+          }
+          @case ('pool-quiz') {
+            @for (c of gradeCategories(); track c.id) {
+              <button type="button" [class.selected]="selectedRef() === c.id" (click)="chooseRef(c.id, c.subject + ' – ' + c.topic)">
+                <strong>{{ c.topic }}</strong>
+                <small>{{ c.subject }}</small>
+              </button>
+            } @empty {
+              <p class="pick-empty">Bu sınıf seviyesi için konu bulunamadı.</p>
+            }
+          }
+          @case ('speed') {
+            @for (p of presetsForClass(); track p.id) {
+              <button type="button" [class.selected]="selectedRef() === p.id" (click)="chooseRef(p.id, 'Hız Turu: ' + p.title)">
+                <strong>{{ p.emoji }} {{ p.title }}</strong>
+                <small>{{ p.grade }}. sınıf · {{ p.description }}</small>
+              </button>
+            }
+          }
+        }
+      </div>
+      @if (kind() === 'pool-quiz') {
+        <p class="pick-hint">Havuzda henüz az soru olan konularda test kısa olabilir.</p>
+      }
+
+      <div class="form-group">
+        <label for="hwTitle">Başlık</label>
+        <input id="hwTitle" type="text" [(ngModel)]="title" maxlength="120" placeholder="ör. Çarpım tablosu tekrarı" />
+      </div>
+      <div class="form-group">
+        <label for="hwDue">Son gün (isteğe bağlı)</label>
+        <input id="hwDue" type="date" [(ngModel)]="dueDate" />
+      </div>
+    </div>
+    <div class="t-drawer-foot">
+      <button type="button" class="btn outline" (click)="drawerOpen.set(false)">Vazgeç</button>
+      <button type="button" class="btn primary" [disabled]="saving()" (click)="saveAssignment()">
+        {{ saving() ? 'Kaydediliyor…' : 'Ödevi ver' }}
+      </button>
+    </div>
+  </aside>
+}

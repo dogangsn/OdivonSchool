@@ -1,4 +1,4 @@
-import { Component, HostListener, OnDestroy, OnInit, computed, inject, signal } from '@angular/core';
+import { Component, HostListener, OnDestroy, OnInit, computed, inject, input, signal } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { firstValueFrom, take } from 'rxjs';
 import { GameResult } from '../game-result/game-result';
@@ -6,6 +6,7 @@ import { FirestoreService } from '../../../core/services/firestore';
 import { GameProgressService } from '../../../core/services/game-progress';
 import { Question } from '../../../models/question';
 import { TestCategory } from '../../../models/test-category';
+import { AssignmentRef } from '../../../models/classroom';
 import { GameMistake, GameOutcome, GameReward } from '../../../games/game-models';
 import { shuffled } from '../../../games/math-generator';
 import { quizStars } from '../../../games/scoring';
@@ -32,7 +33,20 @@ export class Quiz implements OnInit, OnDestroy {
   private firestoreSvc = inject(FirestoreService);
   private progress = inject(GameProgressService);
 
-  readonly categoryId = this.route.snapshot.paramMap.get('categoryId') ?? '';
+  /** Pool category (route or ödev). */
+  categoryIdInput = input<string | null>(null, { alias: 'categoryId' });
+  /** A teacher's own questions (ödev); replaces the pool. */
+  customQuestions = input<Question[] | null>(null);
+  customTitle = input<string | null>(null);
+  customSubject = input<string>('');
+  assignment = input<AssignmentRef | null>(null);
+  backLink = input('/oyunlar');
+  /** Teacher preview: plays normally but nothing is saved. */
+  preview = input(false);
+
+  get categoryId(): string {
+    return this.categoryIdInput() ?? this.route.snapshot.paramMap.get('categoryId') ?? '';
+  }
   readonly canSpeak = speechSupported();
   readonly letters = ['A', 'B', 'C', 'D', 'E'];
 
@@ -73,6 +87,12 @@ export class Quiz implements OnInit, OnDestroy {
   private tick: ReturnType<typeof setInterval> | null = null;
 
   async ngOnInit() {
+    const custom = this.customQuestions();
+    if (custom) {
+      this.questions.set(custom.map((q) => ({ ...q, options: shuffled(Math.random, q.options) })));
+      this.phase.set(custom.length > 0 ? 'intro' : 'empty');
+      return;
+    }
     const [category, questions] = await Promise.all([
       firstValueFrom(this.firestoreSvc.categoryById(this.categoryId).pipe(take(1))),
       firstValueFrom(this.firestoreSvc.questionsForCategory(this.categoryId, QUESTION_COUNT)),
@@ -216,13 +236,16 @@ export class Quiz implements OnInit, OnDestroy {
     sfx.finish();
     const cat = this.category();
     const total = this.questions().length;
+    const custom = this.customTitle();
     const outcome: GameOutcome = {
       gameType: 'quiz',
-      gameKey: this.categoryId,
-      title: `Bilgi Yarışması · ${cat ? `${cat.subject} – ${cat.topic}` : 'Karışık'}`,
-      subject: cat?.subject ?? '',
+      gameKey: custom ? `ogretmen-${this.assignment()?.assignmentId ?? 'test'}` : this.categoryId,
+      title: custom
+        ? `Öğretmen Testi · ${custom}`
+        : `Bilgi Yarışması · ${cat ? `${cat.subject} – ${cat.topic}` : 'Karışık'}`,
+      subject: custom ? this.customSubject() : (cat?.subject ?? ''),
       grade: cat?.grades?.length === 1 ? cat.grades[0] : null,
-      categoryId: this.categoryId,
+      categoryId: custom ? undefined : this.categoryId,
       score: this.score(),
       stars: quizStars(this.correct(), total),
       correct: this.correct(),
@@ -232,6 +255,6 @@ export class Quiz implements OnInit, OnDestroy {
       meta: { maxCombo: this.maxCombo },
     };
     this.outcome.set(outcome);
-    this.reward.set(await this.progress.complete(outcome));
+    this.reward.set(await this.progress.complete(outcome, this.assignment(), this.preview()));
   }
 }
