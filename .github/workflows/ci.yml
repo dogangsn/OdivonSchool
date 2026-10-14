@@ -4,6 +4,7 @@ on:
   push:
     branches: [master]
   pull_request:
+  workflow_dispatch:
 
 jobs:
   web:
@@ -15,8 +16,13 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
-      - run: npx ng build
+      - run: npm run build
       - run: npx ng test --watch=false --browsers=ChromeHeadless
+      - uses: actions/upload-artifact@v4
+        with:
+          name: web-dist
+          path: dist/odivon-school/browser
+          retention-days: 3
 
   functions:
     runs-on: ubuntu-latest
@@ -30,3 +36,41 @@ jobs:
           node-version: 20
       - run: npm ci
       - run: npx tsc --noEmit
+
+  # Every push to master that passes build + tests is deployed to Firebase.
+  # Needs the FIREBASE_SERVICE_ACCOUNT repo secret (service account JSON key).
+  # Cloud Functions are only deployed when the repo variable
+  # DEPLOY_FUNCTIONS is "true" (requires the Blaze plan).
+  deploy:
+    needs: [web, functions]
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    concurrency:
+      group: firebase-deploy
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - uses: actions/download-artifact@v4
+        with:
+          name: web-dist
+          path: dist/odivon-school/browser
+      - name: Write service account key
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: |
+          if [ -z "$FIREBASE_SERVICE_ACCOUNT" ]; then
+            echo "::error::FIREBASE_SERVICE_ACCOUNT secret is missing (Settings > Secrets and variables > Actions)."
+            exit 1
+          fi
+          printf '%s' "$FIREBASE_SERVICE_ACCOUNT" > "$RUNNER_TEMP/sa.json"
+          echo "GOOGLE_APPLICATION_CREDENTIALS=$RUNNER_TEMP/sa.json" >> "$GITHUB_ENV"
+      - name: Deploy hosting + Firestore rules/indexes
+        run: npx -y firebase-tools@13 deploy --only hosting,firestore:rules,firestore:indexes --project odivonschool --non-interactive --force
+      - name: Deploy functions
+        if: vars.DEPLOY_FUNCTIONS == 'true'
+        run: |
+          npm --prefix functions ci
+          npx -y firebase-tools@13 deploy --only functions --project odivonschool --non-interactive --force
