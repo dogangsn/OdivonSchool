@@ -8,6 +8,7 @@ import { getFirestore, provideFirestore } from '@angular/fire/firestore';
 import { getFunctions, provideFunctions } from '@angular/fire/functions';
 
 import { routes } from './app.routes';
+import { AppVersionService } from './core/services/app-version';
 import { environment } from '../environments/environment';
 import { PushService } from './core/services/push';
 
@@ -23,6 +24,8 @@ export const appConfig: ApplicationConfig = {
     provideAuth(() => getAuth()),
     provideFirestore(() => getFirestore()),
     provideFunctions(() => getFunctions()),
+    // Yeni sürüm yayınlandıysa depolamayı temizle ve oturumu kapat.
+    provideAppInitializer(() => inject(AppVersionService).init()),
     // Browser notifications: no-op unless configured, supported and opted in (non-blocking).
     provideAppInitializer(() => inject(PushService).init()),
   ]
