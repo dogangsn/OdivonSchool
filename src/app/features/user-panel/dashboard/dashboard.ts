@@ -9,6 +9,8 @@ import { FirestoreService } from '../../../core/services/firestore';
 import { canPlayGames, isStudent } from '../../../models/user';
 import { SIGNUP_GRADES, levelForGrade } from '../../../models/test-category';
 import { levelForXp, levelProgress } from '../../../games/scoring';
+import { LearningService } from '../../../core/services/learning';
+import { dueCards } from '../../../core/learning';
 
 @Component({
   selector: 'app-dashboard',
@@ -19,6 +21,7 @@ import { levelForXp, levelProgress } from '../../../games/scoring';
 export class Dashboard {
   private auth = inject(AuthService);
   private firestoreSvc = inject(FirestoreService);
+  private learning = inject(LearningService);
 
   appUser = toSignal(this.auth.appUser$, { initialValue: null });
 
@@ -46,6 +49,15 @@ export class Dashboard {
   });
 
   recentAttempts = computed(() => this.attempts().slice(0, 5));
+
+  // --- Akıllı tekrar ---
+  reviewCards = toSignal(
+    this.auth.appUser$.pipe(
+      switchMap((u) => (u && isStudent(u) ? this.learning.cards(u.uid) : of([])))
+    ),
+    { initialValue: [] }
+  );
+  dueReviews = computed(() => dueCards(this.reviewCards(), Date.now()).length);
 
   // --- Games progress ---
   showGames = computed(() => canPlayGames(this.appUser()));

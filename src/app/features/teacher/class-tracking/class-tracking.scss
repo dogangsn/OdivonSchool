@@ -450,3 +450,30 @@
   font-size: 0.78rem;
   margin-bottom: 0;
 }
+
+.sd-outcomes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 8px;
+}
+
+.sd-outcome {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 8px;
+  align-items: baseline;
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--border);
+  font-size: 0.85rem;
+
+  code {
+    font-size: 0.75rem;
+    color: #b91c1c;
+  }
+
+  small {
+    color: var(--text-muted);
+    white-space: nowrap;
+  }
+}

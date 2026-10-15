@@ -65,6 +65,24 @@
         }
       </section>
 
+      @if (r.outcomes.total > 0) {
+        <section>
+          <h3 class="rp-title">MEB kazanımları</h3>
+          <p class="rp-outcomes">
+            Çalıştığı {{ r.outcomes.total }} kazanımdan <b>{{ r.outcomes.mastered }}</b> tanesini öğrendi,
+            <b>{{ r.outcomes.learning }}</b> tanesini öğreniyor.
+          </p>
+          @if (r.outcomes.weak.length) {
+            <p class="rp-outcomes">Tekrar edilmesi gereken kazanımlar:</p>
+            <ul class="rp-outcome-list">
+              @for (w of r.outcomes.weak; track w.code) {
+                <li><code>{{ w.code }}</code> {{ w.text }} <small>%{{ w.pct }}</small></li>
+              }
+            </ul>
+          }
+        </section>
+      }
+
       @if (r.homework.length) {
         <section>
           <h3 class="rp-title">Ödevler</h3>

@@ -5,6 +5,8 @@ import { GameResult } from '../game-result/game-result';
 import { FirestoreService } from '../../../core/services/firestore';
 import { GameProgressService } from '../../../core/services/game-progress';
 import { Question } from '../../../models/question';
+import { LearningService, answeredPool } from '../../../core/services/learning';
+import { AuthService } from '../../../core/services/auth';
 import { TestCategory } from '../../../models/test-category';
 import { AssignmentRef } from '../../../models/classroom';
 import { GameMistake, GameOutcome, GameReward } from '../../../games/game-models';
@@ -81,6 +83,10 @@ export class Quiz implements OnInit, OnDestroy {
   });
 
   private mistakes: GameMistake[] = [];
+  /** Pool answers for Akıllı tekrar (not for a teacher's own questions). */
+  private answerLog: { q: Question; correct: boolean }[] = [];
+  private learning = inject(LearningService);
+  private authSvc = inject(AuthService);
   private maxCombo = 0;
   private startedAt = 0;
   private questionStartedAt = 0;
@@ -109,6 +115,7 @@ export class Quiz implements OnInit, OnDestroy {
     this.streak.set(0);
     this.jokerUsed.set(false);
     this.mistakes = [];
+    this.answerLog = [];
     this.maxCombo = 0;
     this.outcome.set(null);
     this.reward.set(null);
@@ -124,6 +131,7 @@ export class Quiz implements OnInit, OnDestroy {
     this.stopTick();
     this.picked.set(optionId);
 
+    this.answerLog.push({ q, correct: optionId === q.correctOptionId });
     if (optionId === q.correctOptionId) {
       const elapsed = Date.now() - this.questionStartedAt;
       const speedBonus = Math.round(50 * Math.max(0, 1 - elapsed / QUESTION_MS));
@@ -211,6 +219,7 @@ export class Quiz implements OnInit, OnDestroy {
     const q = this.current();
     this.stopTick();
     if (!q || this.phase() !== 'playing') return;
+    this.answerLog.push({ q, correct: false });
     this.recordMistake(q, null);
     sfx.wrong();
     this.phase.set('reveal');
@@ -256,5 +265,9 @@ export class Quiz implements OnInit, OnDestroy {
     };
     this.outcome.set(outcome);
     this.reward.set(await this.progress.complete(outcome, this.assignment(), this.preview()));
+    if (!custom && !this.preview()) {
+      const user = await firstValueFrom(this.authSvc.appUser$);
+      if (user) void this.learning.record(user, this.answerLog.map((a) => answeredPool(a.q, a.correct)));
+    }
   }
 }

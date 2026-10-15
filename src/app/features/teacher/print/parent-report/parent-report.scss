@@ -232,3 +232,24 @@ h1 {
     grid-template-columns: 1fr;
   }
 }
+
+.rp-outcomes {
+  margin: 4px 0;
+  font-size: 0.9rem;
+}
+
+.rp-outcome-list {
+  margin: 4px 0 0;
+  padding-left: 18px;
+  font-size: 0.85rem;
+
+  code {
+    font-size: 0.75rem;
+    color: #b91c1c;
+    margin-right: 4px;
+  }
+
+  small {
+    color: #64748b;
+  }
+}

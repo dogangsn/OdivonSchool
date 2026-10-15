@@ -226,6 +226,26 @@
         <p class="tr-empty">Bu öğrenci sınıfa katıldıktan sonra henüz oyun ya da test çözmedi.</p>
       }
 
+      @if (selectedOutcomes(); as o) {
+        <h4 class="sd-title">Kazanımlar</h4>
+        @if (o.total > 0) {
+          <p class="sd-outcomes">
+            <span class="t-pill green">✅ {{ o.mastered }} öğrendi</span>
+            <span class="t-pill amber">🌱 {{ o.learning }} öğreniyor</span>
+            <span class="t-pill red">🔁 {{ o.weak.length }} tekrar gerekli</span>
+          </p>
+          @for (w of o.weak; track w.code) {
+            <div class="sd-outcome">
+              <code>{{ w.code }}</code>
+              <span>{{ w.text || 'Kazanım' }}</span>
+              <small>%{{ w.pct }} · {{ w.total }} soru</small>
+            </div>
+          }
+        } @else {
+          <p class="tr-empty">Kazanım verisi, öğrenci havuzdan test veya bilgi yarışması çözdükçe oluşur.</p>
+        }
+      }
+
       <h4 class="sd-title">Ödevler</h4>
       @for (x of selectedAssignments(); track x.assignment.id) {
         <div class="sd-hw">

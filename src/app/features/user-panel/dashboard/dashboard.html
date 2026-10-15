@@ -65,6 +65,20 @@
   }
 
   @if (isStudent()) {
+    <a routerLink="/tekrar" class="review-strip" [class.has-due]="dueReviews() > 0">
+      <span class="rs-icon">🧠</span>
+      <span class="rs-info">
+        <strong>Günün tekrarı</strong>
+        @if (dueReviews() > 0) {
+          <span>Bugün tekrar etmen gereken {{ dueReviews() }} soru var.</span>
+        } @else if (reviewCards().length > 0) {
+          <span>Bugünlük tekrarın bitti. Kazanım haritana göz at.</span>
+        } @else {
+          <span>Yanlış yaptığın sorular burada tekrar karşına çıkar.</span>
+        }
+      </span>
+      <span class="rs-cta">{{ dueReviews() > 0 ? 'Tekrara başla' : 'Kazanımlarım' }} →</span>
+    </a>
     <app-student-classes />
   }
 

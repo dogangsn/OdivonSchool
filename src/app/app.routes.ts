@@ -118,6 +118,11 @@ export const routes: Routes = [
     loadComponent: () => import('./features/live/live-play/live-play').then(m => m.LivePlay),
   },
   {
+    path: 'tekrar',
+    canActivate: [authGuard],
+    loadComponent: () => import('./features/review/smart-review/smart-review').then(m => m.SmartReview),
+  },
+  {
     path: 'duello/yeni',
     canActivate: [authGuard],
     loadComponent: () => import('./features/duel/duel-create/duel-create').then(m => m.DuelCreate),

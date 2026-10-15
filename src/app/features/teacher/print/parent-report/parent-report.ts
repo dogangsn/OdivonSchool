@@ -7,6 +7,9 @@ import { AuthService } from '../../../../core/services/auth';
 import { ClassroomService } from '../../../../core/services/classroom';
 import { buildTracking, masteryLevel } from '../../../../core/tracking';
 import { Assignment, ClassMember, ClassProgress, Submission } from '../../../../models/classroom';
+import { FirestoreService } from '../../../../core/services/firestore';
+import { TestCategory, levelForGrade } from '../../../../models/test-category';
+import { outcomeTexts, summarizeOutcomes } from '../../../../core/learning';
 
 interface TopicLine {
   key: string;
@@ -30,6 +33,7 @@ export class ParentReport {
   private route = inject(ActivatedRoute);
   private auth = inject(AuthService);
   private classroomSvc = inject(ClassroomService);
+  private firestoreSvc = inject(FirestoreService);
 
   readonly classId = this.route.snapshot.paramMap.get('classId') ?? '';
   readonly only = this.route.snapshot.queryParamMap.get('ogrenci');
@@ -51,6 +55,15 @@ export class ParentReport {
     toObservable(this.assignments).pipe(switchMap((list) => this.classroomSvc.allSubmissions(this.classId, list))),
     { initialValue: {} as Record<string, Submission[]> }
   );
+
+  private categories = toSignal(
+    toObservable(computed(() => this.classroom()?.grade ?? 0)).pipe(
+      switchMap((g) => (g ? this.firestoreSvc.categoriesByLevel(levelForGrade(g)) : of([] as TestCategory[]))),
+      catchError(() => of([] as TestCategory[]))
+    ),
+    { initialValue: [] as TestCategory[] }
+  );
+  private textByCode = computed(() => outcomeTexts(this.categories()));
 
   /** Teacher's note per student; typed on screen, printed, never saved. */
   notes = signal<Record<string, string | undefined>>({});
@@ -82,7 +95,8 @@ export class ParentReport {
         const status = sub ? 'done' : a.dueAt && a.dueAt < this.today ? 'overdue' : 'pending';
         return { assignment: a, submission: sub, status };
       });
-      return { row, topics, strong, practice, homework, activities: p?.activities ?? 0 };
+      const outcomes = summarizeOutcomes(p?.outcomes, this.textByCode(), 4);
+      return { row, topics, strong, practice, homework, outcomes, activities: p?.activities ?? 0 };
     });
   });
 

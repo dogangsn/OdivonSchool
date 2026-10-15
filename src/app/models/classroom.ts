@@ -135,6 +135,8 @@ export interface ClassProgress {
   answered: number;
   correct: number;
   topics: Record<string, TopicStat>;
+  /** Kazanım totals from pool questions, keyed by outcomeKey(code). */
+  outcomes?: Record<string, { code: string; correct: number; total: number }>;
 }
 
 /** A finished game or test, reduced to what the teacher tracks. */

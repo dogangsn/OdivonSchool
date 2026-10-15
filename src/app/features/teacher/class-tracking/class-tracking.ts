@@ -14,6 +14,9 @@ import {
 } from '../../../core/tracking';
 import { Assignment, ClassMember, ClassProgress, Classroom, Submission } from '../../../models/classroom';
 import { LeagueEntry } from '../../../models/live';
+import { FirestoreService } from '../../../core/services/firestore';
+import { levelForGrade } from '../../../models/test-category';
+import { outcomeTexts, summarizeOutcomes } from '../../../core/learning';
 
 type SortKey = 'name' | 'success' | 'active' | 'overdue';
 
@@ -33,6 +36,7 @@ const FLAG_LABELS: Record<StudentFlag, string> = {
 })
 export class ClassTrackingComponent {
   private classroomSvc = inject(ClassroomService);
+  private firestoreSvc = inject(FirestoreService);
 
   classroom = input.required<Classroom>();
   members = input.required<ClassMember[]>();
@@ -99,6 +103,18 @@ export class ClassTrackingComponent {
       .filter(([, t]) => t.total > 0)
       .map(([key, t]) => ({ key, label: t.label, subject: t.subject, total: t.total, pct: Math.round((t.correct / t.total) * 100) }))
       .sort((a, b) => a.pct - b.pct);
+  });
+  private outcomeText = toSignal(
+    toObservable(computed(() => this.classroom().grade)).pipe(
+      switchMap((g) => (g ? this.firestoreSvc.categoriesByLevel(levelForGrade(g)) : of([]))),
+      catchError(() => of([]))
+    ),
+    { initialValue: [] }
+  );
+  private textByCode = computed(() => outcomeTexts(this.outcomeText()));
+  selectedOutcomes = computed(() => {
+    const uid = this.selectedUid();
+    return summarizeOutcomes(this.progress().find((p) => p.uid === uid)?.outcomes, this.textByCode());
   });
   selectedAssignments = computed(() => {
     const row = this.selected();

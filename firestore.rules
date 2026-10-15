@@ -67,6 +67,32 @@ service cloud.firestore {
           request.resource.data.get('notifyEmail', true) is bool);
       allow delete: if isAdmin();
 
+      // Akıllı tekrar: one card per question the student got wrong, and
+      // their kazanım totals. Only the student reads and writes them.
+      match /reviewCards/{questionId} {
+        allow read, delete: if isOwner(userId);
+        allow create, update: if isOwner(userId) &&
+          request.resource.data.keys().hasOnly(['questionId', 'categoryId', 'subject', 'outcomeCode',
+                                                'box', 'dueAt', 'wrongCount', 'updatedAt']) &&
+          request.resource.data.questionId == questionId &&
+          request.resource.data.categoryId is string &&
+          request.resource.data.subject is string && request.resource.data.subject.size() <= 60 &&
+          (request.resource.data.outcomeCode == null ||
+           (request.resource.data.outcomeCode is string && request.resource.data.outcomeCode.size() <= 60)) &&
+          request.resource.data.box is int && request.resource.data.box >= 1 && request.resource.data.box <= 5 &&
+          request.resource.data.dueAt is int && request.resource.data.wrongCount is int &&
+          request.resource.data.updatedAt is int;
+      }
+
+      match /learning/{docId} {
+        allow read: if isOwner(userId);
+        allow create, update: if isOwner(userId) && docId == 'outcomes' &&
+          request.resource.data.keys().hasOnly(['outcomes', 'updatedAt']) &&
+          request.resource.data.outcomes is map && request.resource.data.outcomes.size() <= 1500 &&
+          request.resource.data.updatedAt is int;
+        allow delete: if isOwner(userId);
+      }
+
       // Browser/phone push tokens (FCM). Only the owner manages them; the
       // daily digest function reads them with the Admin SDK.
       match /fcmTokens/{tokenId} {
@@ -158,7 +184,8 @@ service cloud.firestore {
 
     function isValidClassProgress(p) {
       return p.keys().hasOnly(['uid', 'displayName', 'lastActiveAt', 'streakDays',
-                               'activities', 'answered', 'correct', 'topics']) &&
+                               'activities', 'answered', 'correct', 'topics', 'outcomes']) &&
+        (!('outcomes' in p) || (p.outcomes is map && p.outcomes.size() <= 600)) &&
         p.uid == request.auth.uid &&
         p.displayName is string && p.displayName.size() <= 80 &&
         p.lastActiveAt is int && p.streakDays is int &&

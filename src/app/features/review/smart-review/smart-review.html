@@ -1,0 +1,131 @@
+<div class="sr container animate-fade-in">
+  @switch (mode()) {
+    @case ('play') {
+      @if (current(); as q) {
+        <div class="sr-play card">
+          <div class="sr-play-head">
+            <span class="sr-pill">{{ sessionTitle() }}</span>
+            <span class="sr-count">Soru {{ index() + 1 }} / {{ questions().length }}</span>
+          </div>
+          <div class="sr-bar"><div class="sr-fill" [style.width.%]="((index() + (picked() ? 1 : 0)) / questions().length) * 100"></div></div>
+          <h2 class="sr-prompt">{{ q.prompt }}</h2>
+          <div class="sr-options">
+            @for (o of q.options; track o.id) {
+              <button type="button" class="sr-opt" [class]="'sr-opt ' + optionClass(o.id)" [disabled]="!!picked()" (click)="choose(o.id)">
+                {{ o.text }}
+              </button>
+            }
+          </div>
+          @if (picked(); as p) {
+            @if (p === q.correctOptionId) {
+              <p class="sr-feedback good">🎉 Doğru! Bu soru bir sonraki tekrarda daha geç gelecek.</p>
+            } @else {
+              <div class="sr-feedback bad">
+                <p>💪 Doğru cevap: <b>{{ correctText(q) }}</b></p>
+                @if (q.explanation) { <p class="sr-explain">💡 {{ q.explanation }}</p> }
+                <p class="sr-small">Bu soruyu yarın tekrar soracağım.</p>
+              </div>
+            }
+            <button type="button" class="btn primary" (click)="next()">{{ index() < questions().length - 1 ? 'Sonraki →' : 'Bitir' }}</button>
+          }
+        </div>
+      }
+    }
+    @case ('done') {
+      <div class="sr-done card">
+        <span class="sr-big">{{ correct() === questions().length ? '🏆' : '🌱' }}</span>
+        <h2>{{ correct() }}/{{ questions().length }} doğru</h2>
+        <p>{{ correct() === questions().length ? 'Harika! Hepsini hatırladın.' : 'Yanlışların yarın yeniden karşına çıkacak. Tekrar ettikçe kalıcı olacak!' }}</p>
+        @if (reward(); as r) { <p class="sr-xp">+{{ r.xpGained }} XP @if (r.streakDays > 1) { · 🔥 {{ r.streakDays }} gün seri }</p> }
+        <button type="button" class="btn primary" (click)="backHome()">Tekrar sayfasına dön</button>
+      </div>
+    }
+    @default {
+      <a routerLink="/panel" class="sr-back">← Panel</a>
+      <section class="sr-hero">
+        <div>
+          <span class="sr-badge">🧠 Akıllı Tekrar</span>
+          <h1>Unutmadan önce hatırla</h1>
+          <p>Yanlış yaptığın sorular burada birikir. Doğru bildikçe daha seyrek, yanlış yaptıkça daha sık karşına çıkar.</p>
+        </div>
+        <div class="sr-today">
+          @if (due().length) {
+            <strong class="sr-due">{{ due().length }}</strong>
+            <span>soru bugün tekrar bekliyor</span>
+            <button type="button" class="btn primary lg" [disabled]="mode() === 'loading'" (click)="startReview()">
+              {{ mode() === 'loading' ? 'Hazırlanıyor…' : '▶ Günün tekrarını başlat' }}
+            </button>
+          } @else {
+            <strong class="sr-due">🎉</strong>
+            <span>Bugün tekrar edecek sorun yok.</span>
+            @if (nextDue(); as n) { <small>Sıradaki tekrar {{ dayLabel(n.at) }}: {{ n.count }} soru</small> }
+            @if (weak().length) {
+              <button type="button" class="btn outline" [disabled]="mode() === 'loading'" (click)="practiceWeakest()">
+                Zayıf kazanımından 5 soru çöz
+              </button>
+            } @else if (!cards().length) {
+              <small>Test çözdükçe ve Bilgi Yarışması oynadıkça yanlışların buraya gelir.</small>
+              <a routerLink="/panel/kategoriler" class="btn outline">Test çöz</a>
+            }
+          }
+        </div>
+      </section>
+      @if (error()) { <div class="t-alert danger">{{ error() }}</div> }
+
+      <section class="sr-map card">
+        <div class="sr-map-head">
+          <div>
+            <h2>🗺️ Kazanım haritam</h2>
+            <p>{{ user()?.grade ? user()!.grade + '. sınıf' : 'Sınıfın' }} öğrenme çıktıları. Bir kutuya dokun, ne olduğunu gör ve alıştırma yap.</p>
+          </div>
+          <div class="sr-legend">
+            @for (m of legend; track m) {
+              <span class="sr-leg" [class]="'sr-leg m-' + m"><i></i>{{ masteryLabels[m] }} · {{ counts()[m] }}</span>
+            }
+          </div>
+        </div>
+
+        @if (map().length > 1) {
+          <div class="sr-subjects">
+            <button type="button" [class.active]="!subjectFilter()" (click)="subjectFilter.set(null)">Tümü</button>
+            @for (s of map(); track s.subject) {
+              <button type="button" [class.active]="subjectFilter() === s.subject" (click)="subjectFilter.set(s.subject)">{{ s.subject }}</button>
+            }
+          </div>
+        }
+
+        @if (selected(); as c) {
+          <div class="sr-detail" [class]="'sr-detail m-' + c.mastery">
+            <div>
+              <b>{{ c.code }}</b> · {{ masteryLabels[c.mastery] }}{{ c.total ? ' · ' + c.correct + '/' + c.total + ' doğru' : '' }}
+              <p>{{ c.text }}</p>
+            </div>
+            <div class="sr-detail-actions">
+              <button type="button" class="btn primary sm" [disabled]="mode() === 'loading'" (click)="practiceOutcome(c.code, c.categoryId)">Alıştırma yap</button>
+              <button type="button" class="btn outline sm" (click)="selected.set(null)">Kapat</button>
+            </div>
+          </div>
+        }
+
+        @for (s of shownMap(); track s.subject) {
+          <h3 class="sr-subject">{{ s.subject }}</h3>
+          @for (t of s.topics; track t.category.id) {
+            <div class="sr-topic">
+              <span class="sr-topic-name">{{ t.category.topic }}</span>
+              <div class="sr-cells">
+                @for (c of t.cells; track c.code) {
+                  <button type="button" class="sr-cell" [class]="'sr-cell m-' + c.mastery" [class.sel]="selected()?.code === c.code"
+                          [title]="c.code + ' · ' + c.text" (click)="selected.set(c)">
+                    {{ c.code.split('.').slice(-2).join('.') }}
+                  </button>
+                }
+              </div>
+            </div>
+          }
+        } @empty {
+          <p class="sr-empty">Sınıfın için kazanım listesi henüz yok.</p>
+        }
+      </section>
+    }
+  }
+</div>

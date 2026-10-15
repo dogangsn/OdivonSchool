@@ -7,6 +7,7 @@ import { TestSessionService } from '../../../core/services/test-session';
 import { GuestQuotaService } from '../../../core/services/guest-quota';
 import { ClassroomService } from '../../../core/services/classroom';
 import { categoryEntry } from '../../../core/tracking';
+import { LearningService, answeredPool } from '../../../core/services/learning';
 import { take } from 'rxjs';
 
 const QUESTIONS_PER_TEST = 10;
@@ -24,6 +25,7 @@ export class Solve implements OnInit {
   private firestoreSvc = inject(FirestoreService);
   private auth = inject(AuthService);
   private classroom = inject(ClassroomService);
+  private learning = inject(LearningService);
   guestQuota = inject(GuestQuotaService);
   session = inject(TestSessionService);
 
@@ -115,6 +117,14 @@ export class Solve implements OnInit {
         user,
         categoryEntry(this.categoryId, cat?.topic ?? subject, cat?.subject ?? '', attempt.correctCount, attempt.totalCount),
         user.streakDays ?? 0
+      );
+      // Akıllı tekrar: wrong answers become review cards (skipped ones too).
+      const byId = new Map(this.session.questions().map((q) => [q.id, q]));
+      void this.learning.record(
+        user,
+        attempt.answers
+          .filter((a) => byId.has(a.questionId))
+          .map((a) => answeredPool(byId.get(a.questionId)!, a.isCorrect))
       );
     } else {
       // Guest attempt - save into local storage quota
