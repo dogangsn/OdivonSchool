@@ -118,6 +118,16 @@ export const routes: Routes = [
     loadComponent: () => import('./features/live/live-play/live-play').then(m => m.LivePlay),
   },
   {
+    path: 'duello/yeni',
+    canActivate: [authGuard],
+    loadComponent: () => import('./features/duel/duel-create/duel-create').then(m => m.DuelCreate),
+  },
+  {
+    path: 'duello/:classId/:duelId',
+    canActivate: [authGuard],
+    loadComponent: () => import('./features/duel/duel-room/duel-room').then(m => m.DuelRoom),
+  },
+  {
     path: 'odev/:classId/:assignmentId',
     canActivate: [authGuard],
     loadComponent: () =>

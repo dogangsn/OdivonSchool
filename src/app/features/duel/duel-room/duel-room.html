@@ -1,0 +1,181 @@
+<div class="lv-stage">
+  <div class="lv-wrap dr">
+    @if (loading()) {
+      <div class="lv-panel lv-center"><span class="lv-big-emoji bounce">⚔️</span><p>Yükleniyor…</p></div>
+    } @else if (duel(); as d) {
+      <div class="lv-top">
+        <a [routerLink]="backLink()">← {{ backLabel() }}</a>
+        <span class="lv-badge" [class.live]="d.status === 'running'">
+          {{ d.byTeacher ? '🏟️ Karşılaşma' : '⚔️ Düello' }} · {{ d.title }}
+        </span>
+        @if (playing()) { <span class="lv-badge">⭐ {{ score() }}</span> }
+      </div>
+
+      @if (error()) { <p class="dr-error">{{ error() }}</p> }
+
+      @if (playing()) {
+        <!-- ===================== my race ===================== -->
+        @if (question(); as q) {
+          <div class="dr-play">
+            <div class="dr-q-head">
+              <span class="lv-badge">Soru {{ index() + 1 }} / {{ total() }}</span>
+              <div class="lv-timer" [class.low]="timeLeft() <= 10" [style.--p]="timerPct()">{{ timeLeft() }}</div>
+            </div>
+            <h2 class="lv-prompt">{{ q.prompt }}</h2>
+            <div class="lv-options">
+              @for (o of q.options; track $index) {
+                <button
+                  type="button"
+                  class="lv-opt"
+                  [class.right]="feedback() && $index === feedback()!.correctIndex"
+                  [class.dim]="feedback() && $index !== feedback()!.correctIndex"
+                  [disabled]="!!feedback()"
+                  (click)="choose($index)"
+                >
+                  <span class="lv-shape">{{ shapes[$index] }}</span>{{ o }}
+                </button>
+              }
+            </div>
+            @if (feedback(); as f) {
+              <p class="dr-flash" [class.good]="f.right">{{ f.right ? '🎉 Doğru!' : '💪 Doğrusu: ' + q.options[f.correctIndex] }}</p>
+            }
+          </div>
+          <ng-container *ngTemplateOutlet="race" />
+        }
+      } @else if (showResults()) {
+        <!-- ===================== results ===================== -->
+        <div class="lv-panel lv-center dr-result">
+          @let top = ranked()[0];
+          @if (d.status === 'finished' || allDone()) {
+            <span class="lv-big-emoji">🏆</span>
+            <h2>{{ top ? top.name + ' kazandı!' : 'Bitti!' }}</h2>
+          } @else {
+            <span class="lv-big-emoji bounce">⏳</span>
+            <h2>Bitirdin! Diğerleri hâlâ yarışıyor…</h2>
+          }
+          @if (amPlayer()) {
+            <p class="dr-mine">{{ correct() || me()?.correct || 0 }}/{{ total() }} doğru · {{ me()?.score ?? score() }} puan</p>
+          }
+          @if (reward(); as r) {
+            <p class="gain">+{{ r.xpGained }} XP @if (r.streakDays > 1) { · 🔥 {{ r.streakDays }} gün seri }</p>
+          }
+          <ol class="lv-board dr-board">
+            @for (p of ranked(); track p.uid; let i = $index) {
+              <li [class.me]="p.uid === uid()">
+                <span class="lv-rank">{{ medal(i) }}</span>
+                <span class="lv-name">{{ p.name }}{{ p.uid === uid() ? ' (sen)' : '' }}
+                  <small>{{ p.correct }}/{{ total() }} doğru{{ p.done ? '' : ' · oynuyor' }}</small>
+                </span>
+                <span class="lv-score">{{ p.score }}</span>
+              </li>
+            }
+          </ol>
+          <div class="dr-actions">
+            @if (!d.byTeacher) {
+              <a class="lv-btn" routerLink="/duello/yeni" [queryParams]="{ sinif: d.classId }">⚔️ Yeni düello</a>
+            }
+            <a class="lv-btn ghost" [routerLink]="backLink()">{{ backLabel() === 'Sınıf' ? 'Sınıfa dön' : 'Panele dön' }}</a>
+          </div>
+        </div>
+      } @else {
+        @switch (d.status) {
+          @case ('waiting') {
+            <!-- ===================== lobby ===================== -->
+            <div class="dr-lobby">
+              <div class="lv-panel lv-center">
+                <span class="lv-big-emoji bounce">{{ d.byTeacher ? '🏟️' : '⚔️' }}</span>
+                <h2>{{ d.title }}</h2>
+                <p class="lv-muted">
+                  {{ d.questions.length }} soru · {{ d.timeLimitSec }} saniye · {{ d.subject }}
+                  @if (!d.byTeacher) { · {{ d.creatorName }} meydan okudu }
+                </p>
+
+                @if (canJoin()) {
+                  <button type="button" class="lv-btn big" [disabled]="busy()" (click)="join()">
+                    {{ busy() ? 'Katılınıyor…' : '✋ Katıl' }}
+                  </button>
+                } @else if (notInvited()) {
+                  <p>Bu karşılaşma belirli öğrenciler için. Öğretmenin seni eklemediyse katılamazsın.</p>
+                } @else if (!amPlayer() && !isHost()) {
+                  <p>Bu düello dolu.</p>
+                } @else if (amPlayer() && !isHost()) {
+                  <p class="dr-ready">✅ Hazırsın! {{ d.byTeacher ? 'Öğretmenin' : d.creatorName }} başlatınca sorular gelecek.</p>
+                }
+
+                @if (isHost()) {
+                  <div class="dr-share">
+                    <p><b>Linki gönder:</b> {{ d.byTeacher ? 'Seçtiğiniz öğrencilere mesaj olarak da gitti.' : 'Sınıfından bir arkadaşına gönder, açınca katılır.' }}</p>
+                    <div class="dr-link">
+                      <input type="text" readonly [value]="shareUrl" (focus)="$any($event.target).select()" aria-label="Düello linki" />
+                      <button type="button" class="lv-btn" (click)="copyLink()">{{ copied() ? '✓ Kopyalandı' : '📋 Kopyala' }}</button>
+                      <a class="lv-btn wa" [href]="whatsapp()" target="_blank" rel="noopener">WhatsApp</a>
+                    </div>
+                  </div>
+                  <button type="button" class="lv-btn big" [disabled]="!canStart() || busy()" (click)="start()">
+                    ▶ Başlat
+                  </button>
+                  @if (!canStart()) {
+                    <p class="lv-muted">{{ d.byTeacher ? 'En az bir öğrenci katılınca başlatabilirsiniz.' : 'Rakibin katılınca başlatabilirsin.' }}</p>
+                  }
+                  <button type="button" class="dr-cancel" (click)="cancel()">Düelloyu sil</button>
+                }
+              </div>
+
+              <div class="lv-panel dr-joined">
+                <h3>Katılanlar · {{ d.joined.length }}/{{ d.maxPlayers }}</h3>
+                <ul>
+                  @for (p of players(); track p.uid) {
+                    <li><span class="dr-avatar">{{ (p.name || '?').charAt(0) }}</span> {{ p.name }}{{ p.uid === uid() ? ' (sen)' : '' }}</li>
+                  }
+                  @for (slot of emptySlots(); track slot) {
+                    <li class="empty"><span class="dr-avatar">?</span> Bekleniyor…</li>
+                  }
+                </ul>
+              </div>
+            </div>
+          }
+          @case ('running') {
+            <!-- ===================== spectator (teacher / not playing) ===================== -->
+            <div class="lv-panel dr-spectate">
+              <div class="dr-q-head">
+                <h2>Yarış sürüyor</h2>
+                @if (serverLeft() !== null) { <div class="lv-timer" [style.--p]="100">{{ serverLeft() }}</div> }
+              </div>
+              @if (isHost()) {
+                <button type="button" class="lv-btn ghost" [disabled]="busy()" (click)="end()">⏹ Bitir</button>
+              }
+            </div>
+            <ng-container *ngTemplateOutlet="race" />
+          }
+          @case ('finished') {
+            <div class="lv-panel lv-center"><p>Düello bitti.</p></div>
+          }
+        }
+      }
+
+      <ng-template #race>
+        <div class="lv-panel dr-race">
+          <h3>🏁 Yarış durumu</h3>
+          @for (p of ranked(); track p.uid; let i = $index) {
+            <div class="dr-lane" [class.me]="p.uid === uid()">
+              <span class="dr-lane-name">{{ medal(i) }} {{ p.name }}</span>
+              <span class="dr-track"><span class="dr-fill" [style.width.%]="barPct(p)"></span><span class="dr-runner" [style.left.%]="barPct(p)">{{ p.done ? '🏁' : '🏃' }}</span></span>
+              <span class="dr-lane-score">{{ p.score }}</span>
+            </div>
+          } @empty {
+            <p class="lv-muted">Henüz kimse yok.</p>
+          }
+        </div>
+      </ng-template>
+    } @else {
+      <div class="lv-panel lv-center">
+        <span class="lv-big-emoji">🔎</span>
+        <h2>Düello bulunamadı</h2>
+        <p class="lv-muted">
+          {{ denied() ? 'Bu düello başka bir sınıfa ait. Katılmak için o sınıfta olman gerekiyor.' : 'Düello silinmiş olabilir.' }}
+        </p>
+        <a class="lv-btn ghost" routerLink="/panel">Panele dön</a>
+      </div>
+    }
+  </div>
+</div>

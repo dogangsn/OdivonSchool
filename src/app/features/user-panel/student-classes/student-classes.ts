@@ -10,6 +10,11 @@ import { Classroom, KIND_LABELS } from '../../../models/classroom';
 import { LeagueEntry, LiveSession } from '../../../models/live';
 import { LiveService } from '../../../core/services/live';
 import { toObservable } from '@angular/core/rxjs-interop';
+import { DuelService } from '../../../core/services/duel';
+import { NotificationService } from '../../../core/services/notifications';
+import { Duel } from '../../../models/duel';
+
+const DUEL_FRESH_MS = 24 * 60 * 60 * 1000;
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -24,6 +29,8 @@ export class StudentClasses {
   private auth = inject(AuthService);
   private classroom = inject(ClassroomService);
   private live = inject(LiveService);
+  private duels = inject(DuelService);
+  private notifications = inject(NotificationService);
 
   readonly kindLabels = KIND_LABELS;
   readonly now = Date.now();
@@ -52,6 +59,39 @@ export class StudentClasses {
     ),
     { initialValue: [] }
   );
+
+  /** Düellolar I was invited to or opened, still waiting or running. */
+  openDuels = toSignal(
+    combineLatest([toObservable(this.classes), this.auth.appUser$]).pipe(
+      switchMap(([classes, user]) =>
+        !user || classes.length === 0
+          ? of([] as { classroom: Classroom; duel: Duel; invited: boolean }[])
+          : combineLatest(
+              classes.flatMap((c) => [
+                this.duels.openFor(c.id, user.uid).pipe(map((list) => list.map((duel) => ({ classroom: c, duel, invited: true })))),
+                this.duels.mine(c.id, user.uid).pipe(
+                  map((list) =>
+                    list
+                      .filter((d) => d.status !== 'finished' && Date.now() - d.createdAt < DUEL_FRESH_MS)
+                      .map((duel) => ({ classroom: c, duel, invited: false }))
+                  )
+                ),
+              ])
+            ).pipe(
+              map((groups) => {
+                const byId = new Map<string, { classroom: Classroom; duel: Duel; invited: boolean }>();
+                for (const g of groups.flat()) if (!byId.has(g.duel.id)) byId.set(g.duel.id, g);
+                return [...byId.values()].sort((a, b) => b.duel.createdAt - a.duel.createdAt);
+              })
+            )
+      )
+    ),
+    { initialValue: [] }
+  );
+
+  /** Latest notes from my teachers. */
+  messages = computed(() => this.notifications.messages().slice(0, 3));
+  classNames = computed(() => new Map(this.classes().map((c) => [c.id, c.name])));
 
   /** This week's league for each class. */
   leagues = toSignal(

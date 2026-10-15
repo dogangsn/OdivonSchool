@@ -8,6 +8,7 @@
       </div>
       <div class="t-head-actions">
         <button type="button" class="btn live-btn" (click)="openLive()">⚡ Canlı yarışma</button>
+        <button type="button" class="btn duel-btn" (click)="openDuel()">⚔️ Karşılaşma kur</button>
         <button type="button" class="btn primary" (click)="openDrawer()">+ Ödev ver</button>
       </div>
     </div>
@@ -19,6 +20,13 @@
     @for (l of activeLive(); track l.id) {
       <a class="live-running" [routerLink]="['/ogretmen/canli', classId, l.id]">
         <span class="lv-dot"></span> <b>{{ l.title }}</b> devam ediyor · ekrana dön →
+      </a>
+    }
+
+    @for (d of openDuels(); track d.id) {
+      <a class="live-running duel-running" [routerLink]="['/duello', classId, d.id]">
+        ⚔️ <b>{{ d.title }}</b> · {{ d.joined.length }}/{{ d.maxPlayers }} katıldı ·
+        {{ d.status === 'running' ? 'yarış sürüyor' : 'başlatmayı bekliyor' }} →
       </a>
     }
 
@@ -42,6 +50,9 @@
       </button>
       <button type="button" [class.active]="tab() === 'ogrenciler'" (click)="tab.set('ogrenciler')">
         Öğrenciler <span class="count">{{ members().length }}</span>
+      </button>
+      <button type="button" [class.active]="tab() === 'mesajlar'" (click)="tab.set('mesajlar')">
+        ✉️ Mesajlar <span class="count">{{ messages().length }}</span>
       </button>
     </div>
 
@@ -142,6 +153,58 @@
           </div>
         }
       </div>
+    } @else if (tab() === 'mesajlar') {
+      <div class="msg-layout">
+        <section class="card msg-compose">
+          <h3>Yeni mesaj</h3>
+          <div class="t-chip-row">
+            <button type="button" [class.selected]="messageToAll()" (click)="messageToAll.set(true)">👥 Tüm sınıf</button>
+            <button type="button" [class.selected]="!messageToAll()" (click)="messageToAll.set(false)">🎯 Seçili öğrenciler</button>
+          </div>
+          @if (!messageToAll()) {
+            <div class="pick-students">
+              @for (m of members(); track m.uid) {
+                <label><input type="checkbox" [checked]="messagePicked().has(m.uid)" (change)="toggleMessageStudent(m.uid)" /> {{ m.displayName }}</label>
+              } @empty {
+                <p class="pick-empty">Sınıfta henüz öğrenci yok.</p>
+              }
+            </div>
+          }
+          <textarea
+            rows="4"
+            [(ngModel)]="messageText"
+            [maxlength]="messageMax"
+            placeholder="ör. Yarın matematik dersinde çarpım tablosu yarışması yapacağız, hazırlanın! 🚀"
+            aria-label="Mesaj"
+          ></textarea>
+          <div class="msg-foot">
+            <small>{{ messageText.length }}/{{ messageMax }} · Öğrenciler panelinde ve bildirim zilinde görür.</small>
+            <button type="button" class="btn primary" [disabled]="messageBusy() || !messageText.trim()" (click)="sendMessage()">
+              {{ messageBusy() ? 'Gönderiliyor…' : '📨 Gönder' }}
+            </button>
+          </div>
+          @if (messageInfo(); as i) {
+            <div class="t-alert" [class.success]="i.type === 'success'" [class.danger]="i.type === 'danger'">{{ i.text }}</div>
+          }
+        </section>
+
+        <section class="msg-sent">
+          <h3>Gönderilenler</h3>
+          @for (m of messages(); track m.id) {
+            <article class="card msg-item">
+              <div class="msg-meta">
+                <span class="t-pill indigo">{{ audienceLabel(m) }}</span>
+                <span>{{ m.createdAt | date: 'd MMM, HH:mm' }}</span>
+                <button type="button" class="msg-del" (click)="deleteMessage(m)" title="Sil">🗑️</button>
+              </div>
+              <p>{{ m.text }}</p>
+              @if (m.link) { <a [routerLink]="m.link" class="btn sm outline">{{ m.linkLabel || 'Aç' }}</a> }
+            </article>
+          } @empty {
+            <p class="pick-empty">Henüz mesaj göndermediniz.</p>
+          }
+        </section>
+      </div>
     } @else {
       <div class="member-tools">
         <button type="button" class="btn sm primary" (click)="openAccounts()">👤 Öğrenci hesabı aç</button>
@@ -162,6 +225,7 @@
                     @if (usernameByUid().get(m.uid); as un) { · kullanıcı adı: <b>{{ un }}</b> }
                   </small>
                 </span>
+                <button type="button" class="btn sm outline" (click)="messageStudent(m.uid)" title="Mesaj gönder">✉️</button>
                 <a class="btn sm outline" [routerLink]="['/ogretmen/sinif', classId, 'rapor']" [queryParams]="{ ogrenci: m.uid }" title="Veli raporu">📄</a>
                 <button type="button" class="btn sm outline" (click)="removeMember(m.uid, m.displayName)">Çıkar</button>
               </li>
@@ -417,6 +481,110 @@
           {{ accountProgress() ? 'Açılıyor…' : parsedNames().length + ' hesap aç' }}
         </button>
       }
+    </div>
+  </aside>
+}
+
+@if (duelOpen()) {
+  <div class="t-drawer-backdrop" (click)="duelOpen.set(false)"></div>
+  <aside class="t-drawer" role="dialog" aria-label="Karşılaşma kur">
+    <div class="t-drawer-head">
+      <div>
+        <h3>⚔️ Karşılaşma kur</h3>
+        <p>Öğrencileri seçin; davet linki onlara mesaj olarak gider. Hepsi katılınca <b>Başlat</b>'a basın, aynı soruları aynı anda çözsünler.</p>
+      </div>
+      <button type="button" class="t-close" (click)="duelOpen.set(false)">✕</button>
+    </div>
+    <div class="t-drawer-body">
+      @if (duelError()) {
+        <div class="t-alert danger">{{ duelError() }}</div>
+      }
+
+      <label class="field-label">Kimler karşılaşacak? <small>({{ duelPicked().size }} seçili)</small></label>
+      <div class="t-chip-row">
+        <button type="button" (click)="pickAllForDuel(true)">Hepsini seç</button>
+        <button type="button" (click)="pickAllForDuel(false)">Temizle</button>
+      </div>
+      <div class="pick-students">
+        @for (m of members(); track m.uid) {
+          <label><input type="checkbox" [checked]="duelPicked().has(m.uid)" (change)="toggleDuelStudent(m.uid)" /> {{ m.displayName }}</label>
+        } @empty {
+          <p class="pick-empty">Sınıfta henüz öğrenci yok.</p>
+        }
+      </div>
+
+      <label class="field-label">Sorular</label>
+      <div class="t-choice-grid three">
+        <button type="button" [class.selected]="duelSource() === 'content'" (click)="chooseDuelSource('content')">
+          <strong>✍️ Kendi testim</strong>
+          <small>İçeriklerimden</small>
+        </button>
+        <button type="button" [class.selected]="duelSource() === 'pool'" (click)="chooseDuelSource('pool')">
+          <strong>🏆 Havuzdan konu</strong>
+          <small>Onaylı MEB soruları</small>
+        </button>
+        <button type="button" [class.selected]="duelSource() === 'speed'" (click)="chooseDuelSource('speed')">
+          <strong>⚡ Hız Turu</strong>
+          <small>Matematik işlemleri</small>
+        </button>
+      </div>
+
+      <div class="pick-list">
+        @switch (duelSource()) {
+          @case ('content') {
+            @for (c of quizContent(); track c.id) {
+              <button type="button" [class.selected]="duelRef() === c.id" (click)="chooseDuelRef(c.id, c.title)">
+                <strong>{{ c.title }}</strong>
+                <small>{{ c.subject }} · {{ c.quizItems?.length ?? 0 }} soru</small>
+              </button>
+            } @empty {
+              <p class="pick-empty">Henüz testiniz yok. <a routerLink="/ogretmen/icerik/yeni" [queryParams]="{ tur: 'quiz' }">Yeni test hazırlayın →</a></p>
+            }
+          }
+          @case ('pool') {
+            @for (c of gradeCategories(); track c.id) {
+              <button type="button" [class.selected]="duelRef() === c.id" (click)="chooseDuelRef(c.id, c.topic)">
+                <strong>{{ c.topic }}</strong>
+                <small>{{ c.subject }}</small>
+              </button>
+            } @empty {
+              <p class="pick-empty">Bu sınıf seviyesi için konu bulunamadı.</p>
+            }
+          }
+          @default {
+            @for (p of presetsForClass(); track p.id) {
+              <button type="button" [class.selected]="duelRef() === p.id" (click)="chooseDuelRef(p.id, p.title)">
+                <strong>{{ p.emoji }} {{ p.title }}</strong>
+                <small>{{ p.grade }}. sınıf · {{ p.description }}</small>
+              </button>
+            }
+          }
+        }
+      </div>
+
+      @if (duelSource() !== 'content') {
+        <label class="field-label">Soru sayısı</label>
+        <div class="t-chip-row">
+          @for (n of liveCounts; track n) {
+            <button type="button" [class.selected]="duelCount() === n" (click)="duelCount.set(n)">{{ n }}</button>
+          }
+        </div>
+      }
+
+      <div class="form-group">
+        <label for="duelTitle">Başlık</label>
+        <input id="duelTitle" type="text" [(ngModel)]="duelTitle" maxlength="120" placeholder="ör. 3-A çarpım tablosu kapışması" />
+      </div>
+      <div class="form-group">
+        <label for="duelNote">Davet mesajı (isteğe bağlı)</label>
+        <textarea id="duelNote" rows="2" [(ngModel)]="duelNote" maxlength="500" placeholder="Boş bırakırsanız hazır bir davet metni gider."></textarea>
+      </div>
+    </div>
+    <div class="t-drawer-foot">
+      <button type="button" class="btn outline" (click)="duelOpen.set(false)">Vazgeç</button>
+      <button type="button" class="btn primary" [disabled]="duelBusy()" (click)="createDuel()">
+        {{ duelBusy() ? 'Hazırlanıyor…' : 'Kur ve linki gönder' }}
+      </button>
     </div>
   </aside>
 }

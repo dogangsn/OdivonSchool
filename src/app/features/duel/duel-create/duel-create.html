@@ -1,0 +1,68 @@
+<div class="dc container animate-fade-in">
+  <a routerLink="/panel" class="dc-back">← Panel</a>
+  <h1>⚔️ Arkadaşına meydan oku</h1>
+  <p class="dc-sub">Bir oyun seç, linki sınıfından bir arkadaşına gönder. İkiniz de aynı soruları aynı anda çözersiniz; hızlı ve doğru olan kazanır.</p>
+
+  @if (!isStudent()) {
+    <div class="card dc-empty">
+      <p>Öğretmenler karşılaşmayı sınıf sayfasındaki <b>⚔️ Karşılaşma kur</b> düğmesiyle hazırlar.</p>
+      <a routerLink="/ogretmen" class="btn outline">Sınıflarıma git</a>
+    </div>
+  } @else if (classes().length === 0) {
+    <div class="card dc-empty">
+      <p>Düello sınıf arkadaşlarınla yapılır. Önce öğretmeninin verdiği kodla bir sınıfa katıl.</p>
+      <a routerLink="/panel" class="btn primary">Sınıfa katıl</a>
+    </div>
+  } @else {
+    @if (classes().length > 1) {
+      <h3 class="dc-h">Hangi sınıfta?</h3>
+      <div class="dc-chips">
+        @for (c of classes(); track c.id) {
+          <button type="button" [class.selected]="classroom().id === c.id" (click)="pickClass(c.id)">🏫 {{ c.name }}</button>
+        }
+      </div>
+    }
+
+    <h3 class="dc-h">Oyun</h3>
+    <div class="dc-tabs">
+      <button type="button" [class.selected]="source() === 'speed'" (click)="pickSource('speed')">⚡ Hız Turu <small>Matematik işlemleri</small></button>
+      <button type="button" [class.selected]="source() === 'pool'" (click)="pickSource('pool')">🏆 Konu yarışması <small>Dersten sorular</small></button>
+    </div>
+
+    <div class="dc-grid">
+      @if (source() === 'speed') {
+        @for (p of presets(); track p.id) {
+          <button type="button" class="dc-item" [class.selected]="ref() === p.id" (click)="ref.set(p.id)">
+            <span class="dc-emoji">{{ p.emoji }}</span>
+            <strong>{{ p.title }}</strong>
+            <small>{{ p.grade }}. sınıf · {{ p.description }}</small>
+          </button>
+        }
+      } @else {
+        @for (c of categories(); track c.id) {
+          <button type="button" class="dc-item" [class.selected]="ref() === c.id" (click)="ref.set(c.id)">
+            <strong>{{ c.topic }}</strong>
+            <small>{{ c.subject }}</small>
+          </button>
+        } @empty {
+          <p class="dc-none">Sınıfın için konu bulunamadı.</p>
+        }
+      }
+    </div>
+
+    <h3 class="dc-h">Soru sayısı</h3>
+    <div class="dc-chips">
+      @for (n of counts; track n) {
+        <button type="button" [class.selected]="count() === n" (click)="count.set(n)">{{ n }} soru</button>
+      }
+    </div>
+
+    @if (error()) { <div class="t-alert danger">{{ error() }}</div> }
+
+    <div class="dc-foot">
+      <button type="button" class="btn primary lg" [disabled]="!ref() || busy()" (click)="create()">
+        {{ busy() ? 'Hazırlanıyor…' : '⚔️ Düelloyu aç ve link al' }}
+      </button>
+    </div>
+  }
+</div>

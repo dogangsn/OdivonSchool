@@ -173,6 +173,46 @@ service cloud.firestore {
         request.time < s.question.startedAt + duration.value(s.question.durationSec + 2, 's');
     }
 
+    function duelDoc(classId, duelId) {
+      return get(/databases/$(database)/documents/classes/$(classId)/duels/$(duelId)).data;
+    }
+
+    // A new duel. A student's is a 2-player duel they join at once; a
+    // teacher's lists the invited students and the teacher only hosts.
+    function isValidNewDuel(classId, d) {
+      return d.keys().hasOnly(['classId', 'createdBy', 'creatorName', 'byTeacher', 'title', 'subject',
+                               'questions', 'timeLimitSec', 'invited', 'joined', 'maxPlayers',
+                               'status', 'startedAt', 'createdAt', 'endedAt']) &&
+        d.classId == classId && d.createdBy == request.auth.uid &&
+        d.creatorName is string && d.creatorName.size() <= 80 &&
+        d.title is string && d.title.size() > 0 && d.title.size() <= 120 &&
+        d.subject is string && d.subject.size() <= 40 &&
+        d.questions is list && d.questions.size() > 0 && d.questions.size() <= 30 &&
+        d.timeLimitSec is int && d.timeLimitSec >= 30 && d.timeLimitSec <= 1800 &&
+        d.status == 'waiting' && d.startedAt == null && d.endedAt == null &&
+        d.invited is list && d.joined is list &&
+        ((d.byTeacher == true && isClassTeacher(classId) &&
+          d.joined.size() == 0 && d.invited.size() > 0 && d.invited.size() <= 40 &&
+          d.maxPlayers == d.invited.size()) ||
+         (d.byTeacher == false && isClassMember(classId) &&
+          d.invited.size() == 0 && d.joined == [request.auth.uid] && d.maxPlayers == 2));
+    }
+
+    function canHostDuel(classId, d) {
+      return d.createdBy == request.auth.uid || isClassTeacher(classId);
+    }
+
+    function isValidDuelPlayer(p, total) {
+      return p.keys().hasOnly(['uid', 'name', 'joinedAt', 'answered', 'correct', 'score',
+                               'durationMs', 'done']) &&
+        p.uid == request.auth.uid &&
+        p.name is string && p.name.size() <= 80 &&
+        p.answered is int && p.answered >= 0 && p.answered <= total &&
+        p.correct is int && p.correct >= 0 && p.correct <= p.answered &&
+        p.score is int && p.score >= 0 && p.score <= p.correct * 150 &&
+        p.durationMs is int && p.durationMs >= 0 && p.done is bool;
+    }
+
     function isValidLeague(next, prev) {
       return next.keys().hasOnly(['uid', 'displayName', 'week', 'xp']) &&
         next.uid == request.auth.uid &&
@@ -280,6 +320,82 @@ service cloud.firestore {
             liveQuestionOpen(classId, sessionId, request.resource.data.q);
           allow update, delete: if false;
         }
+      }
+
+      // Düello (student, via link) and karşılaşma (teacher picks students).
+      // Everyone plays the same questions at once; each player writes only
+      // their own progress, and only while the duel is running.
+      match /duels/{duelId} {
+        allow read: if isClassMember(classId) || isClassTeacher(classId) || isAdmin();
+        allow create: if isSignedIn() && isValidNewDuel(classId, request.resource.data);
+        allow update: if isSignedIn() && (
+          // join: add yourself while waiting, if invited (or the duel is open) and there is room
+          (resource.data.status == 'waiting' && isClassMember(classId) &&
+           request.resource.data.diff(resource.data).affectedKeys().hasOnly(['joined']) &&
+           !(request.auth.uid in resource.data.joined) &&
+           request.resource.data.joined.toSet() == resource.data.joined.toSet().union([request.auth.uid].toSet()) &&
+           request.resource.data.joined.size() == resource.data.joined.size() + 1 &&
+           request.resource.data.joined.size() <= resource.data.maxPlayers &&
+           (resource.data.invited.size() == 0 || request.auth.uid in resource.data.invited)) ||
+          // start: the host presses Başlat
+          (resource.data.status == 'waiting' && canHostDuel(classId, resource.data) &&
+           request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'startedAt']) &&
+           request.resource.data.status == 'running' && request.resource.data.startedAt == request.time &&
+           resource.data.joined.size() >= (resource.data.byTeacher ? 1 : 2)) ||
+          // finish: the host at any time, a player once time is up
+          (resource.data.status in ['waiting', 'running'] &&
+           request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'endedAt']) &&
+           request.resource.data.status == 'finished' && request.resource.data.endedAt is int &&
+           (canHostDuel(classId, resource.data) ||
+            (resource.data.status == 'running' && request.auth.uid in resource.data.joined &&
+             request.time > resource.data.startedAt + duration.value(resource.data.timeLimitSec + 5, 's'))))
+        );
+        allow delete: if isSignedIn() && canHostDuel(classId, resource.data);
+
+        match /players/{playerId} {
+          allow read: if isClassMember(classId) || isClassTeacher(classId) || isAdmin();
+          allow create: if isSignedIn() && request.auth.uid == playerId &&
+            request.auth.uid in getAfter(/databases/$(database)/documents/classes/$(classId)/duels/$(duelId)).data.joined &&
+            isValidDuelPlayer(request.resource.data, 0) &&
+            request.resource.data.done == false;
+          allow update: if isSignedIn() && request.auth.uid == playerId &&
+            isValidDuelPlayer(request.resource.data, duelDoc(classId, duelId).questions.size()) &&
+            request.resource.data.uid == resource.data.uid &&
+            request.resource.data.joinedAt == resource.data.joinedAt &&
+            request.resource.data.answered >= resource.data.answered &&
+            request.resource.data.correct >= resource.data.correct &&
+            request.resource.data.score >= resource.data.score &&
+            resource.data.done == false &&
+            duelDoc(classId, duelId).status == 'running' &&
+            request.time < duelDoc(classId, duelId).startedAt +
+              duration.value(duelDoc(classId, duelId).timeLimitSec + 30, 's');
+          allow delete: if isClassTeacher(classId);
+        }
+      }
+
+      // Notes from the teacher to the whole class or to chosen students.
+      match /messages/{messageId} {
+        allow read: if isClassTeacher(classId) || isAdmin() ||
+          (isClassMember(classId) &&
+           ('all' in resource.data.audience || request.auth.uid in resource.data.audience));
+        allow create: if isClassTeacher(classId) &&
+          request.resource.data.keys().hasOnly(['classId', 'teacherId', 'teacherName', 'text', 'audience',
+                                                'link', 'linkLabel', 'createdAt']) &&
+          request.resource.data.classId == classId &&
+          request.resource.data.teacherId == request.auth.uid &&
+          request.resource.data.teacherName is string && request.resource.data.teacherName.size() <= 80 &&
+          request.resource.data.text is string && request.resource.data.text.size() > 0 &&
+          request.resource.data.text.size() <= 1000 &&
+          request.resource.data.audience is list && request.resource.data.audience.size() > 0 &&
+          request.resource.data.audience.size() <= 60 &&
+          (request.resource.data.link == null ||
+           (request.resource.data.link is string && request.resource.data.link.size() <= 200 &&
+            request.resource.data.link.matches('^/[a-z].*'))) &&
+          (request.resource.data.linkLabel == null ||
+           (request.resource.data.linkLabel is string && request.resource.data.linkLabel.size() <= 60)) &&
+          request.resource.data.createdAt is int;
+        allow update: if false;
+        allow delete: if isClassTeacher(classId);
       }
 
       match /assignments/{assignmentId} {

@@ -22,8 +22,13 @@ import { poolToLive, quizItemToLive } from '../../../core/live-scoring';
 import { LiveQuestion } from '../../../models/live';
 import { AccountResult, StudentAccountService } from '../../../core/services/student-accounts';
 import { MAX_ACCOUNTS_PER_BATCH, parseNameList } from '../../../core/student-accounts';
+import { DuelService } from '../../../core/services/duel';
+import { DuelQuestionService, DuelSource } from '../../../core/services/duel-questions';
+import { ClassMessageService, MESSAGE_MAX_LENGTH } from '../../../core/services/class-messages';
+import { DUEL_MAX_INVITED, DUEL_SECONDS_PER_QUESTION, duelPath } from '../../../core/duel';
+import { AUDIENCE_ALL, ClassMessage, Duel } from '../../../models/duel';
 
-type Tab = 'takip' | 'odevler' | 'ogrenciler';
+type Tab = 'takip' | 'odevler' | 'ogrenciler' | 'mesajlar';
 
 interface KindChoice {
   kind: AssignmentKind;
@@ -46,12 +51,17 @@ export class ClassDetail {
   private liveSvc = inject(LiveService);
   private accountSvc = inject(StudentAccountService);
   private router = inject(Router);
+  private duelSvc = inject(DuelService);
+  private duelQuestions = inject(DuelQuestionService);
+  private messageSvc = inject(ClassMessageService);
 
   readonly classId = this.route.snapshot.paramMap.get('classId') ?? '';
   readonly kindLabels = KIND_LABELS;
   readonly liveDurations = [10, 20, 30];
   readonly liveCounts = [5, 10, 15];
   readonly speedPresets = SPEED_PRESETS;
+  readonly messageMax = MESSAGE_MAX_LENGTH;
+  readonly audienceAll = AUDIENCE_ALL;
   readonly kindChoices: KindChoice[] = [
     { kind: 'custom-quiz', title: '✍️ Kendi testim', hint: 'İçeriklerimdeki testlerden' },
     { kind: 'custom-match', title: '🧠 Eşleştirme setim', hint: 'Kendi kartlarınla Eşleştir' },
@@ -374,6 +384,155 @@ export class ClassDetail {
     } finally {
       this.accountProgress.set(null);
     }
+  }
+
+  // --- Karşılaşma (teacher-set duel) drawer ---
+  duelOpen = signal(false);
+  duelPicked = signal<Set<string>>(new Set());
+  duelSource = signal<DuelSource>('content');
+  duelRef = signal<string | null>(null);
+  duelTitle = '';
+  duelNote = '';
+  duelCount = signal(10);
+  duelBusy = signal(false);
+  duelError = signal<string | null>(null);
+  myDuels = toSignal(
+    this.auth.appUser$.pipe(switchMap((u) => (u ? this.duelSvc.byTeacher(this.classId, u.uid) : of([])))),
+    { initialValue: [] as Duel[] }
+  );
+  openDuels = computed(() => this.myDuels().filter((d) => d.status !== 'finished').slice(0, 5));
+
+  openDuel(preselect: string[] = []) {
+    this.duelPicked.set(new Set(preselect));
+    this.duelSource.set(this.quizContent().length ? 'content' : 'pool');
+    this.duelRef.set(null);
+    this.duelTitle = '';
+    this.duelNote = '';
+    this.duelError.set(null);
+    this.duelOpen.set(true);
+  }
+
+  toggleDuelStudent(uid: string) {
+    this.duelPicked.update((set) => {
+      const next = new Set(set);
+      next.has(uid) ? next.delete(uid) : next.add(uid);
+      return next;
+    });
+  }
+
+  pickAllForDuel(all: boolean) {
+    this.duelPicked.set(new Set(all ? this.members().map((m) => m.uid).slice(0, DUEL_MAX_INVITED) : []));
+  }
+
+  chooseDuelSource(source: DuelSource) {
+    this.duelSource.set(source);
+    this.duelRef.set(null);
+    this.duelTitle = '';
+  }
+
+  chooseDuelRef(id: string, title: string) {
+    this.duelRef.set(id);
+    this.duelTitle = title;
+  }
+
+  async createDuel() {
+    const user = await firstValueFrom(this.auth.appUser$);
+    const ref = this.duelRef();
+    const invited = [...this.duelPicked()];
+    if (!user) return;
+    if (invited.length === 0) return this.duelError.set('Karşılaşacak öğrencileri seçin.');
+    if (invited.length > DUEL_MAX_INVITED) return this.duelError.set(`En fazla ${DUEL_MAX_INVITED} öğrenci seçebilirsiniz.`);
+    if (!ref) return this.duelError.set('Soruları seçin.');
+    this.duelBusy.set(true);
+    this.duelError.set(null);
+    try {
+      const cat = this.gradeCategories().find((c) => c.id === ref);
+      const set = await this.duelQuestions.build(this.duelSource(), ref, this.duelCount(), {
+        content: this.quizContent().find((c) => c.id === ref),
+        topic: cat?.topic,
+        subject: cat?.subject,
+      });
+      if (set.questions.length === 0) {
+        this.duelError.set('Bu seçimde soru yok. Başka bir konu ya da test seçin.');
+        return;
+      }
+      const title = this.duelTitle.trim() || set.title || 'Karşılaşma';
+      const id = await this.duelSvc.createTeacherDuel(this.classId, user, {
+        title,
+        subject: set.subject,
+        questions: set.questions,
+        timeLimitSec: Math.max(30, set.questions.length * DUEL_SECONDS_PER_QUESTION),
+        invited,
+      });
+      const note = this.duelNote.trim() || `"${title}" karşılaşmasına davetlisin! Linke tıkla ve Katıl'a bas, başlatınca sorular gelecek.`;
+      await this.messageSvc.send(this.classId, user, note, invited, { path: duelPath(this.classId, id), label: '⚔️ Karşılaşmaya katıl' });
+      await this.router.navigate(['/duello', this.classId, id]);
+    } catch (err: any) {
+      this.duelError.set(`Karşılaşma kurulamadı: ${err?.message ?? err}`);
+    } finally {
+      this.duelBusy.set(false);
+    }
+  }
+
+  // --- Mesajlar ---
+  messages = toSignal(this.messageSvc.sent(this.classId), { initialValue: [] as ClassMessage[] });
+  messageText = '';
+  messageToAll = signal(true);
+  messagePicked = signal<Set<string>>(new Set());
+  messageBusy = signal(false);
+  messageInfo = signal<{ type: 'success' | 'danger'; text: string } | null>(null);
+  memberName = computed(() => new Map(this.members().map((m) => [m.uid, m.displayName])));
+
+  toggleMessageStudent(uid: string) {
+    this.messagePicked.update((set) => {
+      const next = new Set(set);
+      next.has(uid) ? next.delete(uid) : next.add(uid);
+      return next;
+    });
+  }
+
+  /** Opens the Mesajlar tab addressed to one student. */
+  messageStudent(uid: string) {
+    this.messageToAll.set(false);
+    this.messagePicked.set(new Set([uid]));
+    this.messageInfo.set(null);
+    this.tab.set('mesajlar');
+  }
+
+  async sendMessage() {
+    const user = await firstValueFrom(this.auth.appUser$);
+    const text = this.messageText.trim();
+    const audience = this.messageToAll() ? [AUDIENCE_ALL] : [...this.messagePicked()];
+    if (!user || !text || this.messageBusy()) return;
+    if (audience.length === 0) {
+      this.messageInfo.set({ type: 'danger', text: 'Mesajın gideceği öğrencileri seçin.' });
+      return;
+    }
+    this.messageBusy.set(true);
+    this.messageInfo.set(null);
+    try {
+      await this.messageSvc.send(this.classId, user, text, audience.slice(0, 60));
+      this.messageText = '';
+      this.messageInfo.set({
+        type: 'success',
+        text: this.messageToAll() ? 'Mesaj tüm sınıfa gönderildi.' : `Mesaj ${audience.length} öğrenciye gönderildi.`,
+      });
+    } catch (err: any) {
+      this.messageInfo.set({ type: 'danger', text: `Gönderilemedi: ${err?.message ?? err}` });
+    } finally {
+      this.messageBusy.set(false);
+    }
+  }
+
+  async deleteMessage(m: ClassMessage) {
+    if (!confirm('Bu mesaj öğrencilerin ekranından da silinsin mi?')) return;
+    await this.messageSvc.remove(this.classId, m.id);
+  }
+
+  audienceLabel(m: ClassMessage): string {
+    if (m.audience.includes(AUDIENCE_ALL)) return 'Tüm sınıf';
+    const names = m.audience.map((uid) => this.memberName().get(uid) ?? 'Ayrılan öğrenci');
+    return names.length <= 3 ? names.join(', ') : `${names.slice(0, 3).join(', ')} +${names.length - 3}`;
   }
 
   stars(n: number): string {

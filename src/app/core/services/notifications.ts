@@ -21,6 +21,9 @@ import { AppUser, isStudent } from '../../models/user';
 import { PoolUpdate } from '../../models/pool-update';
 import { Question } from '../../models/question';
 import { TestCategory } from '../../models/test-category';
+import { ClassMessage } from '../../models/duel';
+import { ClassroomService } from './classroom';
+import { ClassMessageService } from './class-messages';
 
 const FEED_LIMIT = 30;
 /** Firestore `in` queries accept at most 30 values. */
@@ -41,6 +44,8 @@ export function updatesForUser(updates: PoolUpdate[], user: Pick<AppUser, 'grade
 export class NotificationService {
   private firestore = inject(Firestore);
   private auth = inject(AuthService);
+  private classroom = inject(ClassroomService);
+  private classMessages = inject(ClassMessageService);
 
   private readonly feed$: Observable<PoolUpdate[]> = this.auth.appUser$.pipe(
     switchMap((user) => {
@@ -57,15 +62,30 @@ export class NotificationService {
     })
   );
 
+  /** Notes from the student's teachers, newest first. */
+  private readonly messages$: Observable<ClassMessage[]> = this.auth.appUser$.pipe(
+    switchMap((user) => {
+      if (!user || !isStudent(user) || !user.classIds?.length) return of([]);
+      return this.classroom
+        .studentClasses(user)
+        .pipe(switchMap((classes) => this.classMessages.forStudentClasses(classes, user.uid)));
+    }),
+    map((list) => list.slice(0, FEED_LIMIT))
+  );
+
   private readonly user = toSignal(this.auth.appUser$, { initialValue: null });
   readonly items = toSignal(this.feed$, { initialValue: [] as PoolUpdate[] });
+  readonly messages = toSignal(this.messages$, { initialValue: [] as ClassMessage[] });
   readonly unreadCount = computed(() => {
     const seen = this.user()?.lastNotifSeenAt ?? 0;
-    return this.items().filter((u) => u.createdAt > seen).length;
+    return (
+      this.items().filter((u) => u.createdAt > seen).length +
+      this.messages().filter((m) => m.createdAt > seen).length
+    );
   });
 
-  isUnread(update: PoolUpdate): boolean {
-    return update.createdAt > (this.user()?.lastNotifSeenAt ?? 0);
+  isUnread(item: { createdAt: number }): boolean {
+    return item.createdAt > (this.user()?.lastNotifSeenAt ?? 0);
   }
 
   async markAllSeen(): Promise<void> {

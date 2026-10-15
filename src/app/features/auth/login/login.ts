@@ -1,6 +1,6 @@
 import { Component, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { Router, RouterLink } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { AuthService } from '../../../core/services/auth';
 import { getAuthErrorMessage } from '../../../core/utils/auth-error';
 import { loginIdToEmail } from '../../../core/student-accounts';
@@ -14,6 +14,7 @@ import { loginIdToEmail } from '../../../core/student-accounts';
 export class Login {
   private auth = inject(AuthService);
   private router = inject(Router);
+  private route = inject(ActivatedRoute);
 
   email = '';
   password = '';
@@ -25,7 +26,7 @@ export class Login {
     this.loading.set(true);
     try {
       await this.auth.login(loginIdToEmail(this.email), this.password);
-      this.router.navigateByUrl(await this.auth.homeUrl());
+      this.router.navigateByUrl(this.returnUrl() ?? (await this.auth.homeUrl()));
     } catch (err: any) {
       console.error('[Login] submit error:', err);
       this.errorMessage.set(getAuthErrorMessage(err));
@@ -39,7 +40,7 @@ export class Login {
     this.loading.set(true);
     try {
       await this.auth.loginWithGoogle();
-      this.router.navigateByUrl(await this.auth.homeUrl());
+      this.router.navigateByUrl(this.returnUrl() ?? (await this.auth.homeUrl()));
     } catch (err: any) {
       console.error('[Login] loginWithGoogle error:', err);
       if (err?.code !== 'auth/popup-closed-by-user') {
@@ -49,5 +50,10 @@ export class Login {
       this.loading.set(false);
     }
   }
-}
 
+  /** Where the auth guard sent us from (e.g. a düello link), internal paths only. */
+  private returnUrl(): string | null {
+    const url = this.route.snapshot.queryParamMap.get('donus');
+    return url && url.startsWith('/') && !url.startsWith('//') ? url : null;
+  }
+}

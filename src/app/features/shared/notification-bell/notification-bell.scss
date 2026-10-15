@@ -137,3 +137,11 @@
     left: 0;
   }
 }
+
+.n-msg {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  white-space: pre-wrap;
+}

@@ -19,9 +19,21 @@
   <div class="bell-panel">
     <div class="bell-head">
       <strong>Bildirimler</strong>
-      <span>Sınıfına eklenen yeni sorular</span>
+      <span>Öğretmeninin mesajları ve sınıfına eklenen yeni sorular</span>
     </div>
     <ul>
+      @for (m of notifications.messages(); track m.id) {
+        <li [class.unread]="notifications.isUnread(m)">
+          <a [routerLink]="m.link || '/panel'" (click)="close()">
+            <span class="n-icon">{{ m.link ? '⚔️' : '✉️' }}</span>
+            <span class="n-body">
+              <strong>{{ m.teacherName }}</strong>
+              <span class="n-topic n-msg">{{ m.text }}</span>
+              <span class="n-time">{{ m.createdAt | date: 'd MMM, HH:mm' }}{{ m.link ? ' · ' + (m.linkLabel || 'Aç') : '' }}</span>
+            </span>
+          </a>
+        </li>
+      }
       @for (n of notifications.items(); track n.id) {
         <li [class.unread]="notifications.isUnread(n)">
           <a [routerLink]="['/oyun/yarisma', n.categoryId]" (click)="close()">
@@ -34,7 +46,9 @@
           </a>
         </li>
       } @empty {
+        @if (notifications.messages().length === 0) {
         <li class="bell-empty">Henüz bildirim yok. Sınıfına yeni soru eklenince burada göreceksin.</li>
+        }
       }
     </ul>
   </div>
