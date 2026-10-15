@@ -269,6 +269,10 @@
     background: linear-gradient(135deg, #a855f7, #f97316);
   }
 
+  &.tile-reading {
+    background: linear-gradient(135deg, #14b8a6, #2563eb);
+  }
+
   &.tile-quiz {
     background: linear-gradient(135deg, #0ea5e9, #6366f1);
     min-height: 120px;

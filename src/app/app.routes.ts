@@ -65,6 +65,15 @@ export const routes: Routes = [
     path: 'oyun/kesir/:presetId',
     loadComponent: () => import('./features/games/fraction-pizza/fraction-pizza').then(m => m.FractionPizza),
   },
+  // Sesli Okuma Koçu (public; results are saved only for signed-in readers)
+  {
+    path: 'okuma',
+    loadComponent: () => import('./features/games/reading/reading-list/reading-list').then(m => m.ReadingList),
+  },
+  {
+    path: 'okuma/:textId',
+    loadComponent: () => import('./features/games/reading/reader/reader').then(m => m.Reader),
+  },
   {
     path: 'oyun/yarisma/:categoryId',
     loadComponent: () => import('./features/games/quiz/quiz').then(m => m.Quiz),

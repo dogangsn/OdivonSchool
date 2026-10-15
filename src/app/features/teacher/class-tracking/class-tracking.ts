@@ -14,6 +14,7 @@ import {
 } from '../../../core/tracking';
 import { Assignment, ClassMember, ClassProgress, Classroom, Submission } from '../../../models/classroom';
 import { LeagueEntry } from '../../../models/live';
+import { ReadingPanel } from '../reading-panel/reading-panel';
 
 type SortKey = 'name' | 'success' | 'active' | 'overdue';
 
@@ -27,7 +28,7 @@ const FLAG_LABELS: Record<StudentFlag, string> = {
 /** "Takip" tab of a class: summary, student table, topic heat map, CSV. */
 @Component({
   selector: 'app-class-tracking',
-  imports: [DatePipe],
+  imports: [DatePipe, ReadingPanel],
   templateUrl: './class-tracking.html',
   styleUrl: './class-tracking.scss',
 })
