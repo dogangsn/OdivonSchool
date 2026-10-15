@@ -17,6 +17,7 @@ import { LeagueEntry } from '../../../models/live';
 import { FirestoreService } from '../../../core/services/firestore';
 import { levelForGrade } from '../../../models/test-category';
 import { outcomeTexts, summarizeOutcomes } from '../../../core/learning';
+import { ReadingPanel } from '../reading-panel/reading-panel';
 
 type SortKey = 'name' | 'success' | 'active' | 'overdue';
 
@@ -30,7 +31,7 @@ const FLAG_LABELS: Record<StudentFlag, string> = {
 /** "Takip" tab of a class: summary, student table, topic heat map, CSV. */
 @Component({
   selector: 'app-class-tracking',
-  imports: [DatePipe],
+  imports: [DatePipe, ReadingPanel],
   templateUrl: './class-tracking.html',
   styleUrl: './class-tracking.scss',
 })

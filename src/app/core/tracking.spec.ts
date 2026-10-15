@@ -109,6 +109,8 @@ describe('tracking', () => {
       mistakes: [],
     };
     expect(entryFromOutcome(base)).toEqual({ key: 'cat_abc', label: 'Kesirler', subject: 'Matematik', correct: 3, total: 5 });
+    expect(entryFromOutcome({ ...base, gameType: 'reading', gameKey: 'yagmur', categoryId: undefined, title: 'Sesli Okuma · Yağmur', subject: 'Türkçe', correct: 45, total: 50 }))
+      .toEqual({ key: 'reading', label: 'Sesli okuma', subject: 'Türkçe', correct: 9, total: 10 });
     const speed = entryFromOutcome({ ...base, gameType: 'speed', gameKey: 'carpma.3', categoryId: undefined, title: 'Hız Turu · Çarpma' });
     expect(speed.key).toBe('speed_carpma_3');
     expect(speed.label).toBe('Çarpma');

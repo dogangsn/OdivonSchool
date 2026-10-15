@@ -1,0 +1,190 @@
+<div class="game-page reader-page">
+  <div class="game-topbar">
+    <a routerLink="/okuma" class="game-back">← Metinler</a>
+    @if (text(); as t) {
+      <span class="rd-grade-pill">{{ t.grade }}. sınıf</span>
+    }
+  </div>
+
+  @if (text(); as t) {
+    @if (phase() === 'done') {
+      @if (stats(); as s) {
+        <div class="game-stage theme-reading rd-result">
+          <div class="rd-stars" [attr.aria-label]="stars() + ' yıldız'">
+            @for (n of [1, 2, 3]; track n) {
+              <span class="star" [class.on]="stars() >= n">★</span>
+            }
+          </div>
+          <h1 class="rd-feedback">{{ feedback() }}</h1>
+
+          <div class="rd-stats">
+            <div class="rd-stat main">
+              <span class="rd-value">{{ s.wcpm }}</span>
+              <span class="rd-label">doğru kelime / dakika</span>
+            </div>
+            <div class="rd-stat">
+              <span class="rd-value">%{{ s.accuracy }}</span>
+              <span class="rd-label">doğruluk</span>
+            </div>
+            <div class="rd-stat">
+              <span class="rd-value">{{ formatDuration(s.durationMs) }}</span>
+              <span class="rd-label">süre</span>
+            </div>
+          </div>
+
+          <div class="rd-band" [attr.data-level]="level()">
+            <div class="rd-band-head">
+              <span>🎯 {{ t.grade }}. sınıf hedefi: <strong>{{ band().min }}–{{ band().max }}</strong> doğru kelime/dakika</span>
+            </div>
+            <div class="rd-band-track" aria-hidden="true">
+              <span class="rd-band-zone" [style.left.%]="(band().min / (band().max * 1.5)) * 100" [style.width.%]="((band().max - band().min) / (band().max * 1.5)) * 100"></span>
+              <span class="rd-band-dot" [style.left.%]="(s.wcpm >= band().max * 1.5 ? 100 : (s.wcpm / (band().max * 1.5)) * 100)"></span>
+            </div>
+            <small>
+              {{ s.correct }} kelimeyi doğru okudun
+              @if (s.wrong) { · {{ s.wrong }} kelimede zorlandın }
+              @if (s.skipped) { · {{ s.skipped }} kelime atlandı }
+              @if (s.unread) { · {{ s.unread }} kelimeye gelmedin }
+            </small>
+          </div>
+
+          <div class="rd-words">
+            @if (s.struggled.length) {
+              <h2>🔊 Takıldığın kelimeler</h2>
+              <p>Dinlemek için kelimeye dokun, sonra sen de yüksek sesle söyle.</p>
+              <div class="rd-chips">
+                @for (w of s.struggled; track w) {
+                  <button type="button" class="rd-chip" [disabled]="!canSpeak" (click)="hear(w)">
+                    @if (canSpeak) { <span aria-hidden="true">🔊</span> }
+                    {{ w }}
+                  </button>
+                }
+              </div>
+            } @else if (s.correct > 0) {
+              <h2>🎉 Hiç takılmadın!</h2>
+            }
+          </div>
+
+          @if (reward(); as r) {
+            <p class="rd-xp">
+              +{{ r.xpGained }} XP · 🔥 {{ r.streakDays }} gün
+              @if (!r.saved) { · <a routerLink="/kayit">Kaydetmek için ücretsiz hesap aç</a> }
+            </p>
+          } @else {
+            <p class="rd-xp">Sonucun kaydediliyor…</p>
+          }
+
+          <div class="rd-actions">
+            <button class="btn-play" type="button" (click)="start()">🔁 Tekrar oku</button>
+            <a class="rd-ghost" routerLink="/okuma">📚 Başka metin</a>
+          </div>
+        </div>
+
+        <section class="card rd-review">
+          <h2>Okuman</h2>
+          <p class="rd-text grade-{{ t.grade }}">
+            @for (tok of passage().tokens; track $index; let i = $index) {
+              <span class="w" [attr.data-s]="statuses()[i]">{{ tok.display }}</span>{{ ' ' }}
+            }
+          </p>
+          <div class="rd-legend">
+            <span data-s="correct">doğru</span>
+            <span data-s="wrong">zorlandı</span>
+            <span data-s="skipped">atlandı</span>
+          </div>
+        </section>
+      }
+    } @else {
+      <div class="game-stage theme-reading">
+        <div class="rd-head">
+          <span class="rd-emoji" aria-hidden="true">{{ t.emoji }}</span>
+          <div>
+            <h1>{{ t.title }}</h1>
+            <p>{{ passage().tokens.length }} kelime · hedef {{ band().min }}–{{ band().max }} doğru kelime/dakika</p>
+          </div>
+        </div>
+
+        @switch (phase()) {
+          @case ('intro') {
+            <div class="rd-panel">
+              @if (note(); as n) {
+                <p class="rd-note">ℹ️ {{ n }}</p>
+              }
+              @if (mode() === 'speech') {
+                <p class="rd-howto">Butona bas, sonra metni yüksek sesle oku. Okudukça kelimeler renklenecek.</p>
+                <button class="btn-play" type="button" (click)="start()">🎤 Okumaya başla</button>
+                <button class="rd-link" type="button" (click)="useListener()">Mikrofon yerine bir büyüğüm dinlesin</button>
+              } @else {
+                <p class="rd-howto">
+                  <strong>Dinleyici modu:</strong> Başla'ya basın, çocuk okurken takıldığı kelimelere dokunun.
+                  Bitince Bitir'e basın.
+                </p>
+                <button class="btn-play" type="button" (click)="start()">▶ Başla</button>
+                @if (speechAvailable) {
+                  <button class="rd-link" type="button" (click)="useSpeech()">Mikrofonla okumayı dene</button>
+                }
+              }
+              <p class="rd-privacy">🔒 Sesin kaydedilmez; yalnızca okuma hızın ve takıldığın kelimeler saklanır.</p>
+            </div>
+          }
+          @case ('reading') {
+            <div class="rd-hud">
+              @if (mode() === 'speech') {
+                <span class="hud-pill rd-mic" [class.on]="listening()">{{ listening() ? '🎤 Dinliyorum…' : '🎤 Bekle…' }}</span>
+              } @else {
+                <span class="hud-pill">👂 Dinleyici modu</span>
+              }
+              <span class="hud-pill">⏱ {{ timeLabel() }}</span>
+              @if (mode() === 'speech') {
+                <span class="hud-pill">📖 {{ readCount() }}/{{ passage().tokens.length }}</span>
+              }
+              <button class="btn-play small rd-stop" type="button" (click)="stop()">⏹ Bitir</button>
+            </div>
+            @if (mode() === 'listener') {
+              <p class="rd-hint">Çocuğun takıldığı kelimeye dokunun (yanlışlıkla dokunduysanız bir daha dokunun).</p>
+            }
+          }
+          @case ('confirm') {
+            <div class="rd-panel">
+              <p class="rd-howto">Metnin sonuna kadar okudu mu? Daha önce durduysa <strong>son okuduğu kelimeye</strong> dokunun.</p>
+              <div class="rd-confirm-actions">
+                <button class="rd-ghost" type="button" (click)="readAll()">✓ Hepsini okudu</button>
+                <button class="btn-play small" type="button" (click)="confirmListener()">Sonucu gör →</button>
+              </div>
+            </div>
+          }
+        }
+
+        <div class="rd-sheet" [class.is-confirm]="phase() === 'confirm'" aria-live="off">
+          <p class="rd-text grade-{{ t.grade }}">
+            @for (tok of passage().tokens; track $index; let i = $index) {
+              @if (mode() === 'listener' && phase() !== 'intro') {
+                <button type="button" class="w" [attr.data-s]="statuses()[i]" [attr.aria-pressed]="statuses()[i] === 'wrong'" (click)="tapWord(i)">{{ tok.display }}</button>{{ ' ' }}
+              } @else {
+                <span class="w" [attr.data-s]="statuses()[i]" [class.current]="current() === i">{{ tok.display }}</span>{{ ' ' }}
+              }
+            }
+          </p>
+        </div>
+
+        @if (phase() === 'reading' && mode() === 'speech') {
+          <div class="rd-legend on-stage">
+            <span data-s="correct">doğru</span>
+            <span data-s="wrong">zorlandı</span>
+            <span data-s="skipped">atlandı</span>
+            <span data-s="current">sıradaki</span>
+          </div>
+        }
+      </div>
+    }
+  } @else {
+    <div class="game-stage theme-reading">
+      <div class="game-intro">
+        <div class="intro-emoji">🤔</div>
+        <h1>Bu metni bulamadık</h1>
+        <p>Okuma listesinden başka bir metin seçebilirsin.</p>
+        <a routerLink="/okuma" class="btn-play">Metinlere dön</a>
+      </div>
+    </div>
+  }
+</div>

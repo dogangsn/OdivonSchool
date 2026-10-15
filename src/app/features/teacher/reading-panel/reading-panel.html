@@ -1,0 +1,56 @@
+<section class="card rp">
+  <div class="rp-head">
+    <h3>📖 Sesli okuma</h3>
+    <span class="rp-sub">Hız: dakikada doğru okunan kelime</span>
+  </div>
+
+  @if (rows().length) {
+    @if (classWords().length) {
+      <div class="rp-class-words">
+        <span class="rp-label">Sınıfta sık takılınan:</span>
+        @for (w of classWords(); track w.word) {
+          <span class="rp-chip strong">{{ w.word }} <small>{{ w.students }}</small></span>
+        }
+      </div>
+    }
+    <div class="table-responsive">
+      <table class="rp-table">
+        <thead>
+          <tr>
+            <th>Öğrenci</th>
+            <th>Son hız</th>
+            <th>En iyi</th>
+            <th>Doğruluk</th>
+            <th>Okuma</th>
+            <th>Takıldığı kelimeler</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (r of rows(); track r.uid) {
+            <tr>
+              <td>
+                <strong>{{ r.name }}</strong>
+                <small class="rp-muted">{{ r.lastAt | date: 'd MMM' }}@if (r.textTitle) { · {{ r.textTitle }} }</small>
+              </td>
+              <td class="rp-num">{{ r.lastWcpm }}</td>
+              <td class="rp-num">{{ r.bestWcpm }}</td>
+              <td class="rp-num" [attr.data-level]="r.lastAccuracy >= 95 ? 'high' : r.lastAccuracy >= 85 ? 'mid' : 'low'">%{{ r.lastAccuracy }}</td>
+              <td class="rp-num">{{ r.sessions }}</td>
+              <td>
+                <div class="rp-words">
+                @for (w of r.struggled.slice(0, 6); track w) {
+                  <span class="rp-chip">{{ w }}</span>
+                } @empty {
+                  <span class="rp-muted">—</span>
+                }
+                </div>
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+  } @else {
+    <p class="rp-empty">Öğrenciler Sesli Okuma Koçu'nda metin okudukça okuma hızları burada görünür.</p>
+  }
+</section>

@@ -80,6 +80,23 @@
 
   <section class="game-section">
     <div class="section-head">
+      <h2>📖 Sesli Okuma</h2>
+      <p>Metni yüksek sesle oku; okudukça kelimeler renklensin, hızını gör. <a routerLink="/okuma">Tüm metinler →</a></p>
+    </div>
+    <div class="game-grid">
+      @for (t of readingTexts(); track t.id) {
+        <a class="game-tile tile-reading" [routerLink]="['/okuma', t.id]">
+          <span class="tile-emoji">{{ t.emoji }}</span>
+          <strong>{{ t.title }}</strong>
+          <small>Sesli Okuma Koçu</small>
+          <span class="tile-cta">Oku →</span>
+        </a>
+      }
+    </div>
+  </section>
+
+  <section class="game-section">
+    <div class="section-head">
       <h2>🧠 Eşleştir</h2>
       <p>Kartları çevir, ikilileri bul.</p>
     </div>

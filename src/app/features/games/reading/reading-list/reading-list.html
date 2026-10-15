@@ -1,0 +1,31 @@
+<div class="rl container animate-fade-in">
+  <div class="rl-top">
+    <a routerLink="/oyunlar" class="rl-back">← Oyunlar</a>
+  </div>
+
+  <section class="rl-hero">
+    <span class="rl-badge">📖 Sesli Okuma Koçu</span>
+    <h1>Yüksek sesle oku, akıcılığını gör!</h1>
+    <p>Bir metin seç ve yüksek sesle oku. Okudukça kelimeler renklenir; sonunda dakikada kaç kelimeyi doğru okuduğunu görürsün.</p>
+    <p class="rl-privacy">🔒 Sesin kaydedilmez; yalnızca okuma hızın ve takıldığın kelimeler saklanır.</p>
+  </section>
+
+  @for (g of groups(); track g.grade) {
+    <section class="rl-section">
+      <div class="rl-section-head">
+        <h2>{{ g.grade }}. sınıf @if (myGrade() === g.grade) { <span class="rl-mine">Senin sınıfın</span> }</h2>
+        <p>Yıl sonu hedefi: yaklaşık {{ g.band.min }}–{{ g.band.max }} doğru kelime/dakika</p>
+      </div>
+      <div class="rl-grid">
+        @for (t of g.texts; track t.id) {
+          <a class="rl-tile" [routerLink]="['/okuma', t.id]">
+            <span class="rl-emoji">{{ t.emoji }}</span>
+            <strong>{{ t.title }}</strong>
+            <small>{{ t.words }} kelime</small>
+            <span class="rl-cta">Oku →</span>
+          </a>
+        }
+      </div>
+    </section>
+  }
+</div>

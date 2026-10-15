@@ -129,7 +129,7 @@ service cloud.firestore {
       allow read: if isAdmin() || (isSignedIn() && resource.data.userId == request.auth.uid);
       allow create: if isSignedIn() &&
         request.resource.data.userId == request.auth.uid &&
-        request.resource.data.gameType in ['speed', 'quiz', 'match', 'truefalse', 'sort', 'clock', 'numberline', 'fraction'] &&
+        request.resource.data.gameType in ['speed', 'quiz', 'match', 'truefalse', 'sort', 'clock', 'numberline', 'fraction', 'reading'] &&
         request.resource.data.score is int && request.resource.data.score >= 0 &&
         request.resource.data.score <= 100000 &&
         request.resource.data.correct is int && request.resource.data.total is int &&
@@ -302,6 +302,39 @@ service cloud.firestore {
           isValidLeague(request.resource.data, resource.data);
         allow delete: if isClassTeacher(classId);
       }
+
+      // --- reading (sesli okuma) ---
+      // Read-aloud summary per student, written by the student's own app after
+      // each Sesli Okuma session, read by the teacher. Numbers and struggled
+      // words only; audio is never stored.
+      function isValidReading(next, prev) {
+        return next.keys().hasOnly(['uid', 'displayName', 'sessions', 'lastWcpm', 'bestWcpm',
+                                    'lastAccuracy', 'lastTextId', 'lastAt', 'struggled']) &&
+          next.keys().hasAll(['uid', 'displayName', 'sessions', 'lastWcpm', 'bestWcpm',
+                              'lastAccuracy', 'lastTextId', 'lastAt', 'struggled']) &&
+          next.uid == request.auth.uid &&
+          next.displayName is string && next.displayName.size() <= 80 &&
+          next.sessions is int && next.sessions == (prev == null ? 1 : prev.sessions + 1) &&
+          next.lastWcpm is int && next.lastWcpm >= 0 && next.lastWcpm <= 400 &&
+          next.bestWcpm is int && next.bestWcpm >= next.lastWcpm && next.bestWcpm <= 400 &&
+          (prev == null ? next.bestWcpm == next.lastWcpm
+                        : (next.bestWcpm >= prev.bestWcpm &&
+                           (next.bestWcpm == prev.bestWcpm || next.bestWcpm == next.lastWcpm))) &&
+          next.lastAccuracy is int && next.lastAccuracy >= 0 && next.lastAccuracy <= 100 &&
+          next.lastTextId is string && next.lastTextId.size() > 0 && next.lastTextId.size() <= 40 &&
+          next.lastAt is int &&
+          next.struggled is list && next.struggled.size() <= 20;
+      }
+
+      match /reading/{studentId} {
+        allow read: if request.auth.uid == studentId || isClassTeacher(classId) || isAdmin();
+        allow create: if request.auth.uid == studentId && isClassMember(classId) &&
+          isValidReading(request.resource.data, null);
+        allow update: if request.auth.uid == studentId && isClassMember(classId) &&
+          isValidReading(request.resource.data, resource.data);
+        allow delete: if isClassTeacher(classId);
+      }
+      // --- end reading ---
 
       // Live competition. The teacher's app is the referee: it keeps the
       // answers in `private`, opens questions and writes every score.

@@ -455,6 +455,10 @@
   .games-strip {
     flex-wrap: wrap;
 
+    .gs-ctas {
+      width: 100%;
+    }
+
     .gs-cta {
       width: 100%;
       text-align: center;
@@ -517,4 +521,11 @@
       width: 100%;
     }
   }
+}
+
+.gs-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  flex-shrink: 0;
 }

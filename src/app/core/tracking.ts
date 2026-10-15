@@ -126,6 +126,12 @@ export function entryFromOutcome(o: GameOutcome): ProgressEntry {
     if (dash >= 0) label = label.slice(dash + 3);
     return categoryEntry(o.categoryId, label, o.subject, o.correct, o.total);
   }
+  if (o.gameType === 'reading') {
+    // One column for every passage; a reading weighs like a 10-question
+    // activity (accuracy in tenths) so word counts don't swamp test results.
+    const correct = o.total > 0 ? Math.round((o.correct / o.total) * 10) : 0;
+    return { key: 'reading', label: 'Sesli okuma', subject: o.subject, correct, total: 10 };
+  }
   return {
     key: safeKey(`${o.gameType}_${o.gameKey}`),
     label: stripGamePrefix(o.title),
