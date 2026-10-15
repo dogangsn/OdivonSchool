@@ -46,7 +46,8 @@
     </section>
   }
 
-  <!-- Games progress -->
+  <!-- Games progress (ilkokul only) -->
+  @if (showGames()) {
   <section class="games-strip">
     <div class="gs-level">
       <span class="gs-num">{{ level() }}</span>
@@ -61,6 +62,7 @@
     </div>
     <a routerLink="/oyunlar" class="gs-cta">🎮 Oyna ve XP kazan</a>
   </section>
+  }
 
   @if (isStudent()) {
     <app-student-classes />

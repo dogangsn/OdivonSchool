@@ -57,6 +57,16 @@ export function isStudent(user: Pick<AppUser, 'role'> | null | undefined): boole
   return !!user && (user.role === 'student' || user.role === 'user');
 }
 
+/** Games (and düellolar) are for ilkokul: sınıf 1-4. */
+export const GAMES_MAX_GRADE = 4;
+
+/** Guests, teachers and ilkokul students see the games; older students don't. */
+export function canPlayGames(user: Pick<AppUser, 'role' | 'grade' | 'gradeLevel'> | null | undefined): boolean {
+  if (!user || !isStudent(user)) return true;
+  if (user.grade) return user.grade <= GAMES_MAX_GRADE;
+  return !user.gradeLevel || user.gradeLevel === 'ilkokul';
+}
+
 export function isTeacher(user: Pick<AppUser, 'role'> | null | undefined): boolean {
   return !!user && user.role === 'teacher';
 }

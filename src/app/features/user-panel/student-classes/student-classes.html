@@ -5,7 +5,7 @@
       <p>Öğretmeninin verdiği kodla sınıfına katıl, ödevlerini oyun gibi çöz.</p>
     </div>
     <div class="sc-head-actions">
-      @if (classes().length > 0) {
+      @if (classes().length > 0 && canDuel()) {
         <a class="btn sm duel" routerLink="/duello/yeni">⚔️ Arkadaşına meydan oku</a>
       }
       @if (classes().length > 0 && !showJoin()) {

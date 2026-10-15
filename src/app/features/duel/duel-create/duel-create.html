@@ -8,6 +8,11 @@
       <p>Öğretmenler karşılaşmayı sınıf sayfasındaki <b>⚔️ Karşılaşma kur</b> düğmesiyle hazırlar.</p>
       <a routerLink="/ogretmen" class="btn outline">Sınıflarıma git</a>
     </div>
+  } @else if (!allowed()) {
+    <div class="card dc-empty">
+      <p>Düellolar ilkokul (1-4. sınıf) öğrencileri içindir.</p>
+      <a routerLink="/panel/kategoriler" class="btn primary">Test çözmeye git</a>
+    </div>
   } @else if (classes().length === 0) {
     <div class="card dc-empty">
       <p>Düello sınıf arkadaşlarınla yapılır. Önce öğretmeninin verdiği kodla bir sınıfa katıl.</p>

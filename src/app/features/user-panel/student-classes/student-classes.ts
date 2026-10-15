@@ -13,6 +13,7 @@ import { toObservable } from '@angular/core/rxjs-interop';
 import { DuelService } from '../../../core/services/duel';
 import { NotificationService } from '../../../core/services/notifications';
 import { Duel } from '../../../models/duel';
+import { canPlayGames } from '../../../models/user';
 
 const DUEL_FRESH_MS = 24 * 60 * 60 * 1000;
 
@@ -106,6 +107,7 @@ export class StudentClasses {
     ),
     { initialValue: [] }
   );
+  canDuel = toSignal(this.auth.appUser$.pipe(map((u) => canPlayGames(u))), { initialValue: false });
   myUid = toSignal(this.auth.appUser$.pipe(map((u) => u?.uid ?? null)), { initialValue: null });
 
   /** Top 5, plus me below them when I'm not in the top 5. */

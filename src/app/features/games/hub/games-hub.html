@@ -25,6 +25,13 @@
     }
   </section>
 
+  @if (!allowed()) {
+    <section class="card review-note older-note">
+      <h3>🎒 Oyunlar ilkokul öğrencileri için</h3>
+      <p>Bu bölümdeki oyunlar 1-4. sınıf konularını içerir. {{ appUser()?.grade ? appUser()!.grade + '. sınıf' : 'Senin seviyen' }} için sana uygun testler seni bekliyor.</p>
+      <a routerLink="/panel/kategoriler" class="btn primary">Test çözmeye git</a>
+    </section>
+  } @else {
   <section class="grade-bar">
     <span class="grade-bar-label">Sınıf</span>
     <div class="grade-scroll">
@@ -34,9 +41,6 @@
     </div>
   </section>
 
-  @if (isReview()) {
-    <p class="review-note">Hız Turu, Etkileşimli Matematik, Eşleştir, Doğru mu Yanlış mı? ve Sınıflandır oyunları ilkokul konularını içerir; {{ grade() }}. sınıf için tekrar amaçlı 4. sınıf seviyesini gösteriyoruz.</p>
-  }
 
   <section class="game-section">
     <div class="section-head">
@@ -176,5 +180,6 @@
         }
       </div>
     </section>
+  }
   }
 </div>

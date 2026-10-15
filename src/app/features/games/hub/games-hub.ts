@@ -1,3 +1,4 @@
+import { GAMES_MAX_GRADE, canPlayGames } from '../../../models/user';
 import { Component, computed, effect, inject, signal, untracked } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { toObservable, toSignal } from '@angular/core/rxjs-interop';
@@ -43,16 +44,16 @@ export class GamesHub {
   private auth = inject(AuthService);
   private firestoreSvc = inject(FirestoreService);
 
-  readonly gradeChoices = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+  readonly gradeChoices = Array.from({ length: GAMES_MAX_GRADE }, (_, i) => i + 1);
   readonly allBadges = ALL_BADGES;
 
   appUser = toSignal(this.auth.appUser$, { initialValue: null });
   grade = signal(DEFAULT_GRADE);
   private gradeTouched = false;
 
-  /** Ilkokul games stay available to older students as review. */
-  private gameGrade = computed(() => Math.min(4, this.grade()));
-  isReview = computed(() => this.grade() > 4);
+  /** Games are for sınıf 1-4; older students are sent to the tests. */
+  allowed = computed(() => canPlayGames(this.appUser()));
+  private gameGrade = computed(() => Math.min(GAMES_MAX_GRADE, this.grade()));
 
   speedPresets = computed(() => SPEED_PRESETS.filter((p) => p.grade === this.gameGrade()));
   matchSets = computed(() => MATCH_SETS.filter((s) => s.grades.includes(this.gameGrade())));
@@ -106,7 +107,7 @@ export class GamesHub {
     // Start on the student's own sınıf.
     effect(() => {
       const g = this.appUser()?.grade;
-      if (!this.gradeTouched && g && g >= 1 && g <= 12) this.grade.set(g);
+      if (!this.gradeTouched && g && g >= 1 && g <= GAMES_MAX_GRADE) this.grade.set(g);
     });
 
     // Count questions for the categories of the selected sınıf.

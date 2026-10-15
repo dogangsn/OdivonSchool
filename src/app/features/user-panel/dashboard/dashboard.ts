@@ -6,7 +6,7 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { switchMap, of } from 'rxjs';
 import { AuthService } from '../../../core/services/auth';
 import { FirestoreService } from '../../../core/services/firestore';
-import { isStudent } from '../../../models/user';
+import { canPlayGames, isStudent } from '../../../models/user';
 import { SIGNUP_GRADES, levelForGrade } from '../../../models/test-category';
 import { levelForXp, levelProgress } from '../../../games/scoring';
 
@@ -48,6 +48,7 @@ export class Dashboard {
   recentAttempts = computed(() => this.attempts().slice(0, 5));
 
   // --- Games progress ---
+  showGames = computed(() => canPlayGames(this.appUser()));
   xp = computed(() => this.appUser()?.xp ?? 0);
   level = computed(() => levelForXp(this.xp()));
   levelProgress = computed(() => levelProgress(this.xp()));

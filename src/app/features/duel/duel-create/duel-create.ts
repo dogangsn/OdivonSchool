@@ -11,7 +11,7 @@ import { DUEL_SECONDS_PER_QUESTION } from '../../../core/duel';
 import { Classroom } from '../../../models/classroom';
 import { TestCategory, levelForGrade } from '../../../models/test-category';
 import { SPEED_PRESETS } from '../../../games/math-generator';
-import { isStudent } from '../../../models/user';
+import { canPlayGames, isStudent } from '../../../models/user';
 
 /** /duello/yeni — a student picks a class and a game, then shares the link. */
 @Component({
@@ -33,6 +33,7 @@ export class DuelCreate {
 
   user = toSignal(this.auth.appUser$, { initialValue: null });
   isStudent = computed(() => isStudent(this.user()));
+  allowed = computed(() => canPlayGames(this.user()));
   classes = toSignal(
     this.auth.appUser$.pipe(switchMap((u) => (u ? this.classroomSvc.studentClasses(u) : of([])))),
     { initialValue: [] as Classroom[] }

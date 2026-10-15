@@ -4,7 +4,7 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { AuthService } from './core/services/auth';
 import { GuestQuotaService } from './core/services/guest-quota';
 import { NotificationBell } from './features/shared/notification-bell/notification-bell';
-import { isStudent, roleLabel } from './models/user';
+import { isStudent, canPlayGames, roleLabel } from './models/user';
 
 @Component({
   selector: 'app-root',
@@ -19,6 +19,7 @@ export class App {
 
   appUser = toSignal(this.auth.appUser$, { initialValue: null });
   showBell = computed(() => isStudent(this.appUser()));
+  showGames = computed(() => canPlayGames(this.appUser()));
   readonly roleLabel = roleLabel;
 
   async logout() {
