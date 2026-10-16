@@ -16,6 +16,7 @@ export const adminGuard: CanActivateFn = () => {
 
   return auth.appUser$.pipe(
     take(1),
-    map((appUser) => (appUser?.role === 'admin' ? true : router.createUrlTree(['/giris'])))
+    // Non-admins see the 404 page, so the panel's address reveals nothing.
+    map((appUser) => (appUser?.role === 'admin' ? true : router.createUrlTree(['/sayfa-bulunamadi'])))
   );
 };

@@ -87,7 +87,7 @@ OdivonSchool/
             ├── user-panel/         # Öğrenci kontrol merkezi:
             │   ├── dashboard/      # İstatistik özeti (/panel/genel-bakis)
             │   └── test-history/   # Geçmiş testler listesi (/panel/gecmis)
-            └── admin-panel/        # Yönetici Kontrol Merkezi (/y0n3t1m-9f3a2):
+            └── admin-panel/        # Yönetici Kontrol Merkezi (/yonetim):
                 ├── dashboard/      # Platform istatistikleri
                 ├── subscriber-list # Üye ve abone tablosu
                 ├── subscriber-detail # Abone detayı ve yetkilendirme
@@ -162,7 +162,7 @@ OdivonSchool/
 Sistem yöneticileri için güvenli, gizli bir rota kurgulanmıştır.
 
 ### 5.1. Admin Rotası & Güvenlik
-- **Yönetim Rotası:** `http://localhost:4200/y0n3t1m-9f3a2` (İstenirse `src/app/app.routes.ts` üzerinden değiştirilebilir).
+- **Yönetim Rotası:** `http://localhost:4200/yonetim` (İstenirse `src/app/app.routes.ts` üzerinden değiştirilebilir).
 - **AdminGuard:** Oturum açmamış veya Firestore'daki `users/{uid}` kaydında `role: 'admin'` olmayan kullanıcılar giriş yapamaz, otomatik olarak ana sayfaya yönlendirilir.
 
 ### 5.2. İlk Kullanıcıya Admin Rolü Verme
@@ -173,14 +173,14 @@ Yeni kurulan bir ortamda ilk admin yetkisini vermek için:
 4. Tarayıcıyı yenilediğinizde panel erişimi anında aktif olacaktır.
 
 ### 5.3. Admin Alt Menüleri
-1. **Genel Bakış (`/y0n3t1m-9f3a2/genel-bakis`):**
+1. **Genel Bakış (`/yonetim/genel-bakis`):**
    - Kayıtlı toplam üye, aktif abone ve çözülen toplam test istatistikleri.
-2. **Aboneler (`/y0n3t1m-9f3a2/aboneler`):**
+2. **Aboneler (`/yonetim/aboneler`):**
    - Tüm kullanıcıların e-postası, adı, abonelik durumu (`active`/`inactive`), rolü ve kayıt tarihi.
    - İsim veya e-postaya göre canlı arama filtrelemesi.
-3. **Abone Detayı (`/y0n3t1m-9f3a2/abone/:uid`):**
+3. **Abone Detayı (`/yonetim/abone/:uid`):**
    - Kullanıcının çözdüğü tüm testlerin listesi ve tek tıkla rolünü admin yapma / kaldırma yetkisi.
-4. **AI Soru Havuzu (`/y0n3t1m-9f3a2/sorular`):**
+4. **AI Soru Havuzu (`/yonetim/sorular`):**
    - Yapay zekâ ile yeni soru üretme, taslakları gözden geçirme, düzenleme ve canlıya alma masası.
 
 ---
@@ -197,7 +197,7 @@ Soru üretim mimarisi, ek bir sunucu bağımlılığı olmaksızın doğrudan Go
 
 ### 6.2. Gemini API Anahtarı Tanımlama
 1. [Google AI Studio](https://aistudio.google.com/app/apikey) adresinden ücretsiz bir API anahtarı alın.
-2. Yönetici panelinde (`/y0n3t1m-9f3a2/sorular`) sağ üstteki **"🔑 API Anahtarı Gerekli"** butonuna tıklayın.
+2. Yönetici panelinde (`/yonetim/sorular`) sağ üstteki **"🔑 API Anahtarı Gerekli"** butonuna tıklayın.
 3. Açılan modal penceresine anahtarınızı yapıştırıp **"Test Et & Kaydet"** butonuna basın.
 4. Sistem `testApiKey()` ile Gemini servisine bir ping gönderir. Doğrulandığında anahtar tarayıcı hafızasında saklanır ve durum **"⚡ Gemini 2.0 Flash (Bağlı)"** yeşile döner.
 
@@ -389,7 +389,7 @@ Uygulamanız Firebase tarafından sağlanan canlı alan adında (Örn: `https://
 
 ### Q3: Sorular üretildi ancak `/kategoriler` ekranında görünmüyor
 - **Sebep:** Üretilen sorular güvenlik gereği ilk olarak **Taslak (Draft)** havuzuna düşer.
-- **Çözüm:** `/y0n3t1m-9f3a2/sorular` sayfasına gidin, üretilen soruları kontrol edip **"Onayla & Yayınla"** veya **"Tümünü Onayla"** butonuna basın. Onaylanan sorular derhal öğrenci ekranlarına yansıyacaktır.
+- **Çözüm:** `/yonetim/sorular` sayfasına gidin, üretilen soruları kontrol edip **"Onayla & Yayınla"** veya **"Tümünü Onayla"** butonuna basın. Onaylanan sorular derhal öğrenci ekranlarına yansıyacaktır.
 
 ### Q4: Admin paneline girmeye çalışınca ana sayfaya atıyor
 - **Sebep:** Kullanıcınızın Firestore'daki `role` değeri `admin` değildir.

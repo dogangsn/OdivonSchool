@@ -71,7 +71,7 @@ Bu plan; OdivonSchool platformunda **Google Gemini AI (Gemini 2.0 Flash)** model
 2. `scripts/generate-questions.js` ile örnek kategori üzerinde soru üretimi testi.
 
 ### Manuel Doğrulama (Tarayıcı & Admin Paneli)
-1. `/y0n3t1m-9f3a2/sorular` sayfasına gidilmesi.
+1. `/yonetim/sorular` sayfasına gidilmesi.
 2. 77 kategorinin gruplu şekilde yüklendiğinin doğrulanması.
 3. Gemini API anahtarı girilerek bağlantının test edilmesi.
 4. "Soruları Üret" butonuna basılarak 3-5 adet yeni sorunun üretilmesi.

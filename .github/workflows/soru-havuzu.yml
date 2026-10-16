@@ -1,0 +1,70 @@
+name: Soru havuzunu doldur
+
+# Runs scripts/batch-generate-all.js from GitHub so no one needs a local
+# firebase login. Needs the repository secret GEMINI_API_KEY; Firestore is
+# written with the same keyless service account the deploy job uses.
+on:
+  workflow_dispatch:
+    inputs:
+      levels:
+        description: 'Kademeler (boşlukla ayır): ilkokul ortaokul lise kpss'
+        default: 'ilkokul ortaokul'
+        required: true
+      count:
+        description: 'Kategori başına üretilecek soru'
+        default: '5'
+        required: true
+      min:
+        description: 'Bu kadar sorusu olan kategoriyi atla (0 = hiç atlama)'
+        default: '5'
+        required: true
+      draft:
+        description: 'Soruları yayınlamadan onay masasına taslak olarak yaz'
+        type: boolean
+        default: false
+
+concurrency:
+  group: soru-havuzu
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: projects/85105551551/locations/global/workloadIdentityPools/github-actions/providers/github
+          service_account: github-deploy@odivonschool.iam.gserviceaccount.com
+      - uses: google-github-actions/setup-gcloud@v2
+      - name: Generate questions
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          FIREBASE_TOKEN_COMMAND: gcloud auth print-access-token
+          LEVELS: ${{ inputs.levels }}
+          COUNT: ${{ inputs.count }}
+          MIN: ${{ inputs.min }}
+          DRAFT: ${{ inputs.draft }}
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "::error::GEMINI_API_KEY repository secret is missing (Settings → Secrets and variables → Actions)."
+            exit 1
+          fi
+          extra=""
+          if [ "$DRAFT" = "true" ]; then extra="--draft"; fi
+          for level in $LEVELS; do
+            case "$level" in ilkokul|ortaokul|lise|kpss) ;; *) echo "::error::Unknown level $level"; exit 1 ;; esac
+            # MEB categories carry kazanım codes; KPSS has none.
+            meb="--meb"; if [ "$level" = "kpss" ]; then meb=""; fi
+            echo "::group::$level"
+            node scripts/batch-generate-all.js --level="$level" $meb --count="$COUNT" --min="$MIN" $extra
+            echo "::endgroup::"
+          done

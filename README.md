@@ -8,7 +8,7 @@ Angular + Firebase ile İlkokul / Ortaokul / Lise / KPSS test çözme platformu.
 
 - **Auth**: E-posta/şifre ile giriş-kayıt (`src/app/features/auth`)
 - **Kullanıcı Paneli** (`/panel`): Dashboard (özet istatistik), test geçmişi, kategori seçimi, test çözme ve sonuç ekranı
-- **Admin Paneli**: gizli path `/y0n3t1m-9f3a2` altında (`src/app/app.routes.ts` içinde değiştirin) — tüm aboneler, genel istatistikler, abone detayı
+- **Admin Paneli**: `/yonetim` adresinde (yalnızca admin rolü; diğerleri 404 görür) — tüm aboneler, genel istatistikler, abone detayı
 - **Veri modeli**: `src/app/models/*.ts` — `AppUser`, `Subscription`, `TestCategory`, `Question`, `TestAttempt`
 - **Firestore erişim katmanı**: `src/app/core/services/firestore.ts`
 - **Auth servisi**: `src/app/core/services/auth.ts`
@@ -19,7 +19,7 @@ Angular + Firebase ile İlkokul / Ortaokul / Lise / KPSS test çözme platformu.
   - `generateQuestions` — admin çağırır, Gemini API ile taslak (`reviewStatus: 'draft'`) soru üretir
   - `reviewQuestion` — admin taslağı onaylar/reddeder
   - `setUserRole` — admin başka bir kullanıcıyı admin yapabilir (ilk admin'i Firestore konsolundan elle atayın)
-  - Admin panelinde `/y0n3t1m-9f3a2/sorular` sayfası bu fonksiyonları çağırıyor
+  - Admin panelinde `/yonetim/sorular` sayfası bu fonksiyonları çağırıyor
 - **Seed script** (`scripts/`): `categories.js` (İlkokul/Orta/Lise/KPSS ders-konu kataloğu) ve `questions.js` (birkaç kategori için elle yazılmış örnek soru) içerir; `seed.js` bunları Firestore'a yazar
 
 ## Kurulum
@@ -42,7 +42,7 @@ Angular + Firebase ile İlkokul / Ortaokul / Lise / KPSS test çözme platformu.
 
 - **Ana Sayfa (Landing Page):** İnteraktif soru önizlemeli, 4 kademe tanıtımlı ve dönüşüm odaklı karşılama sayfası (`src/app/features/home`).
 - **Öğrenci Profili & Ayarlar:** Sınıf seviyesi, isim ve şifre yönetimi (`src/app/features/user-panel/profile`).
-- **Admin Panelinde Yetki & Abonelik Yönetimi:** Tek tıkla Admin yetkisi verme veya Pro/VIP abonelik tanımlama (`/y0n3t1m-9f3a2/aboneler/:userId`).
+- **Admin Panelinde Yetki & Abonelik Yönetimi:** Tek tıkla Admin yetkisi verme veya Pro/VIP abonelik tanımlama (`/yonetim/aboneler/:userId`).
 - **İnteraktif Ödeme & Aktivasyon Modalı:** `/fiyatlandirma` sayfasından anında Pro üyeliği aktive eden güvenli ödeme penceresi.
 - **Pedagojik Test Çözümü:** "Pas Geç / Boş Bırak" ve doğru yanıtlarda da "Çözüm Açıklamasını Gör" kontrolleri.
 - **Yapay Zekâ ile Otomatik Soru Üretimi:** Admin panelinden veya `scripts/batch-generate-all.js` CLI aracıyla 77 kategorinin tamamına Google Gemini 3.8 Flash ile soru üretimi.

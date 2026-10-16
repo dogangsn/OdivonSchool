@@ -4,10 +4,9 @@ import { adminGuard } from './core/guards/admin-guard';
 import { teacherGuard } from './core/guards/teacher-guard';
 
 /**
- * NOTE on the admin panel path: 'y0n3t1m-9f3a2' is just an example
- * hard-to-guess slug. Change it before going live, and remember the guard
- * (backed by Firestore rules) is the real security boundary - the odd
- * looking URL only reduces casual discovery, it does not replace auth.
+ * Admin panel lives at /yonetim. Every route path ships in the JS bundle, so a
+ * "secret" slug hides nothing; the Firestore rules are the security boundary
+ * and adminGuard shows non-admins the 404 page.
  */
 export const routes: Routes = [
   { path: '', loadComponent: () => import('./features/home/home').then(m => m.Home) },
@@ -185,7 +184,7 @@ export const routes: Routes = [
   },
 
   {
-    path: 'y0n3t1m-9f3a2',
+    path: 'yonetim',
     canActivate: [adminGuard],
     children: [
       { path: '', redirectTo: 'genel-bakis', pathMatch: 'full' },
@@ -216,5 +215,5 @@ export const routes: Routes = [
     ],
   },
 
-  { path: '**', redirectTo: 'giris' },
+  { path: '**', loadComponent: () => import('./features/not-found/not-found').then(m => m.NotFound) },
 ];

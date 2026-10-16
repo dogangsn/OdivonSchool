@@ -12,7 +12,22 @@ const PROJECT_ID = 'odivonschool';
 // Override with GEMINI_MODEL (e.g. gemini-3.5-flash-lite for a cheaper model).
 const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-3.8-flash';
 
+let cachedToken = null;
+
+/**
+ * Access token for the Firestore REST API. In CI, FIREBASE_TOKEN_COMMAND (e.g.
+ * `gcloud auth print-access-token`) is re-run every 30 minutes so long runs
+ * outlive the 1-hour token; otherwise the local `firebase login` token is used.
+ */
 function readFirebaseToken() {
+  const command = process.env.FIREBASE_TOKEN_COMMAND;
+  if (command) {
+    if (!cachedToken || Date.now() - cachedToken.at > 30 * 60 * 1000) {
+      const value = require('child_process').execSync(command, { encoding: 'utf8' }).trim();
+      cachedToken = { value, at: Date.now() };
+    }
+    return cachedToken.value;
+  }
   const configPath = path.join(os.homedir(), '.config', 'configstore', 'firebase-tools.json');
   if (!fs.existsSync(configPath)) {
     throw new Error(`firebase-tools.json bulunamadı: ${configPath} (önce "firebase login" çalıştırın)`);

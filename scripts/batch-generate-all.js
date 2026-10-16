@@ -20,6 +20,8 @@
  *   --draft          soruları onay masasına taslak olarak yaz (varsayılan: onaylı yayınla)
  *   --dry-run        hiçbir şey yazmadan hangi kategorilerin işleneceğini listele
  *
+ * CI: .github/workflows/soru-havuzu.yml runs this from GitHub (Actions → "Soru havuzunu doldur").
+ *
  * Model: GEMINI_MODEL ortam değişkeniyle değiştirilebilir (varsayılan gemini-3.8-flash).
  */
 const { CATEGORIES } = require('./categories');
@@ -162,7 +164,6 @@ async function main() {
     process.exit(1);
   }
 
-  const token = readFirebaseToken();
   let created = 0;
 
   for (let i = opts.start; i < targets.length; i++) {
@@ -170,7 +171,7 @@ async function main() {
     console.log(`[${i + 1}/${targets.length}] ${cat.id} — ${cat.subject} / ${cat.topic}`);
     for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
       try {
-        created += await processCategory(token, cat);
+        created += await processCategory(readFirebaseToken(), cat);
         break;
       } catch (err) {
         console.error(`  ❌ Hata: ${err.message}`);

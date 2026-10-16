@@ -16,7 +16,7 @@ Bu belge; OdivonSchool projesinin mevcut durumunu, tamamlanmış bileşenlerini 
   - ✅ **Öğrenci Profil & Ayarlar:** İsim, sınıf seviyesi güncelleme, şifre sıfırlama e-postası (`/panel/profil`).
   - ✅ **Test Çözme Motoru:** Zamanlayıcı, 4 seçenek, "Pas Geç / Boş Bırak", "Çözümü İncele" ve detaylı çözüm açıklamaları (`/coz/:id`).
   - ✅ **Fiyatlandırma & Ödeme:** Pro/VIP paketler, 256-bit SSL ödeme modalı ve anında üyelik aktivasyonu (`/fiyatlandirma`).
-  - ✅ **Admin Yönetim Paneli:** Kullanıcı yetkilendirme (Admin/User), üyelik statüsü tanımlama (Pro/Trial/Expired), Gemini 2.0 Flash soru üretim ve onay masası (`/y0n3t1m-9f3a2`).
+  - ✅ **Admin Yönetim Paneli:** Kullanıcı yetkilendirme (Admin/User), üyelik statüsü tanımlama (Pro/Trial/Expired), Gemini 2.0 Flash soru üretim ve onay masası (`/yonetim`).
 
 ---
 
