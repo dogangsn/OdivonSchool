@@ -106,6 +106,8 @@ function retryDelay(message) {
   if (/PerMinute/.test(message)) return 60000;
   if (/\b503\b|UNAVAILABLE|high demand/i.test(message)) return 30000;
   if (/ENOTFOUND|ECONNRESET|ETIMEDOUT|EAI_AGAIN|socket hang up/.test(message)) return 30000;
+  // Gemini occasionally returns truncated JSON or questions that all fail validation; a new request usually works.
+  if (/Unexpected token|Unexpected end of JSON|JSON at position|boş yanıt|geçerli soru yok/i.test(message)) return 5000;
   return 0;
 }
 
@@ -120,6 +122,10 @@ async function processCategory(token, cat) {
 
   const raw = await callGemini(opts.apiKey, buildQuestionPrompt(cat, opts.count, opts.difficulty));
   const questions = raw.map((q) => normalize(q, cat)).filter(Boolean);
+  if (!questions.length) {
+    console.log(`  ⚠️  Örnek geçersiz yanıt: ${JSON.stringify(raw[0] || null).slice(0, 300)}`);
+    throw new Error(`Gemini ${raw.length} soru döndürdü ama geçerli soru yok.`);
+  }
   const now = Date.now();
 
   for (let j = 0; j < questions.length; j++) {
