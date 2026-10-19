@@ -1,0 +1,1092 @@
+{
+ "file": "ilkokul-fen-bilimleri",
+ "notes": [
+  {
+   "grade": 3,
+   "order": 1,
+   "intro": "Bu temada bilim insanlarının nasıl çalıştığını öğreniyoruz. Gözlem, tahmin ve deney gibi yollarla bilgiye ulaşmayı keşfediyoruz. Biz de küçük bir bilim insanı gibi düşünmeye başlıyoruz.",
+   "sections": [
+    {
+     "title": "Bilimsel bilgiye nasıl ulaşırız?",
+     "text": "Bilim insanları merak ettikleri bir soruya cevap ararlar. Önce dikkatle gözlem yaparlar. Gözlem, duyu organlarımızla çevremizi incelemektir. Sonra soruya olası bir cevap tahmin ederler. Tahminlerini denemek için deney yaparlar. Deney sırasında veri toplar ve bu verileri kaydederler. Kaydettikleri verileri karşılaştırarak bir sonuca, yani çıkarıma ulaşırlar. Bazen bir şeyi daha iyi anlamak için model oluştururlar.",
+     "points": [
+      "Gözlem yap.",
+      "Tahmin et.",
+      "Deney yap ve verileri kaydet.",
+      "Karşılaştır ve sonuç çıkar."
+     ]
+    },
+    {
+     "title": "Bilim insanlarının özellikleri",
+     "text": "Bilim insanları meraklıdır ve çok soru sorarlar. Sabırlıdırlar; bir deneyi defalarca tekrar edebilirler. Dikkatli ve düzenlidirler, yaptıkları her şeyi not ederler. Yanılabileceklerini kabul eder, yeni kanıtlar bulunca fikirlerini değiştirebilirler. Başkalarıyla iş birliği yaparlar. Buldukları sonuçları diğer insanlarla paylaşırlar; buna iletişim kurma denir. Kadın ya da erkek, herkes bilim insanı olabilir.",
+     "points": [
+      "Meraklı ve sabırlı",
+      "Dikkatli ve düzenli",
+      "Paylaşımcı ve iş birliğine açık"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Bilim insanı",
+     "meaning": "Bilimsel yöntemlerle araştırma yapan kişi."
+    },
+    {
+     "term": "Gözlem yapma",
+     "meaning": "Duyu organlarıyla bir şeyi dikkatle incelemek."
+    },
+    {
+     "term": "Tahmin etme",
+     "meaning": "Bir sorunun cevabını önceden düşünmek."
+    },
+    {
+     "term": "Deney yapma",
+     "meaning": "Bir tahmini denemek için yapılan uygulama."
+    },
+    {
+     "term": "Veri kaydetme",
+     "meaning": "Gözlem ve deney sonuçlarını not etmek."
+    },
+    {
+     "term": "Çıkarım yapma",
+     "meaning": "Verilere bakarak bir sonuca varmak."
+    },
+    {
+     "term": "Model oluşturma",
+     "meaning": "Bir şeyi anlamak için onun benzerini yapmak."
+    },
+    {
+     "term": "İletişim kurma",
+     "meaning": "Sonuçları başkalarıyla paylaşmak."
+    }
+   ],
+   "example": {
+    "question": "Bitkilerin büyümesi için ışık gerekli mi? Bunu nasıl araştırırız?",
+    "solution": "Önce tahmin ederiz: Bitkiler ışık olmadan iyi büyümez. Aynı türden iki bitki alırız. Birini aydınlık, diğerini karanlık bir yere koyarız. İkisini de eşit sulayarız. Her gün boylarını ölçüp kaydederiz. Sonunda verileri karşılaştırıp sonuca ulaşırız."
+   },
+   "remember": [
+    "Bilim merakla ve soru sormakla başlar.",
+    "Gözlem, duyularımızla yapılır.",
+    "Deney sonuçlarını mutlaka kaydet.",
+    "Bilim insanları sonuçlarını paylaşır."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 2,
+   "intro": "Bu temada canlıların ortak özelliklerini ve gruplarını öğreniyoruz. Canlıların çevrelerini nasıl algıladığını keşfediyoruz. Yaşam döngülerini inceliyoruz.",
+   "sections": [
+    {
+     "title": "Canlıların ortak özellikleri",
+     "text": "Canlılar beslenir, solunum yapar, büyür ve gelişir. Ürer, yani yavru meydana getirirler. Vücutlarındaki atıkları dışarı atarlar; buna boşaltım denir. Hareket ederler; bitkiler de yapraklarını ışığa doğru çevirerek hareket eder. Canlıları dört gruba ayırabiliriz: mikroskobik canlılar, mantarlar, bitkiler ve hayvanlar. Mikroskobik canlıları gözle göremeyiz, onları mikroskopla inceleriz. Bu özelliklerin hepsini taşıyan varlıklar canlıdır. Taş, su ve hava ise cansız varlıklardır.",
+     "points": [
+      "Beslenme, solunum, boşaltım",
+      "Büyüme, üreme, hareket",
+      "Mikroskobik canlılar, mantarlar, bitkiler, hayvanlar"
+     ]
+    },
+    {
+     "title": "Çevreyi algılama",
+     "text": "Canlılar çevrelerindeki değişiklikleri algılar ve bunlara tepki verir. Bizi etkileyen ışık, ses, koku gibi değişikliklere uyaran denir. İnsanlar uyaranları beş duyu organıyla algılar: göz, kulak, burun, dil ve deri. Elimiz sıcak bir şeye değince hemen çekeriz; bu bir tepkidir. Hayvanlar da duyularını kullanır. Bitkiler ışığa doğru yönelerek ışığı algıladıklarını gösterir.",
+     "points": [
+      "Göz görme, kulak işitme, burun koklama",
+      "Dil tatma, deri dokunma duyusu"
+     ]
+    },
+    {
+     "title": "Yaşam döngüsü",
+     "text": "Her canlı doğar ya da çimlenir, büyür, ürer ve sonunda ölür. Bu sürece yaşam döngüsü denir. Kelebek yumurtadan tırtıl olarak çıkar, sonra pupa olur ve en sonunda kelebeğe dönüşür. Kurbağa yumurtadan iribaş olarak çıkar, büyüyünce kurbağa olur. Bitkiler tohumdan çimlenir, büyür, çiçek açar ve yeni tohumlar oluşturur. Yaşam döngüsü sayesinde canlıların nesli devam eder.",
+     "points": [
+      "Kelebek: yumurta, tırtıl, pupa, kelebek",
+      "Bitki: tohum, fide, olgun bitki, çiçek ve tohum"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Beslenme",
+     "meaning": "Canlının yaşamak için besin alması."
+    },
+    {
+     "term": "Solunum",
+     "meaning": "Canlının yaşamak için gereken enerjiyi elde etmesi; bunun için çoğu canlı oksijen kullanır."
+    },
+    {
+     "term": "Üreme",
+     "meaning": "Canlının yavru meydana getirmesi."
+    },
+    {
+     "term": "Mikroskop",
+     "meaning": "Gözle görülemeyen küçük canlıları büyüterek gösteren araç."
+    },
+    {
+     "term": "Mantar",
+     "meaning": "Bitki ve hayvanlardan ayrı bir canlı grubu."
+    },
+    {
+     "term": "Uyaran",
+     "meaning": "Canlıyı etkileyen ışık, ses, sıcaklık gibi değişiklikler."
+    },
+    {
+     "term": "Tepki",
+     "meaning": "Canlının uyarana verdiği cevap."
+    },
+    {
+     "term": "Yaşam döngüsü",
+     "meaning": "Canlının doğumdan ölüme kadar geçirdiği evreler."
+    }
+   ],
+   "example": {
+    "question": "Bir öğrenci kek yerken hangi duyu organlarını kullanır?",
+    "solution": "Kekin rengini ve şeklini gözüyle görür. Kokusunu burnuyla alır. Tadını diliyle tadar. Kekin yumuşaklığını eli ile, yani derisiyle hisseder. Isırırken çıkan sesi kulağıyla duyar."
+   },
+   "remember": [
+    "Bütün canlılar beslenir, büyür ve ürer.",
+    "Mikroskobik canlılar mikroskopla görülür.",
+    "Uyaranları duyu organlarımızla algılarız.",
+    "Yaşam döngüsü canlıların neslini sürdürür."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 3,
+   "intro": "Bu temada yer bilimcilerin çalışmalarını öğreniyoruz. Kayaçları, madenleri ve fosilleri tanıyoruz. Fosillerin geçmiş hakkında bize neler anlattığını keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Kayaç, mineral ve maden",
+     "text": "Yer kabuğunu oluşturan katı parçalara kayaç denir. Kayaçlar minerallerden oluşur. Mineraller doğada kendiliğinden oluşan, belirli özellikleri olan katı maddelerdir. Bazı kayaç ve minerallerden insanlar için yararlı maddeler elde edilir; bunlara maden denir. Demir, bakır, altın ve gümüş birer madendir. Kömür de yeraltından çıkarılan önemli bir kaynaktır. Madenlerden araç gereçler, takılar ve makineler yapılır.",
+     "points": [
+      "Kayaçlar minerallerden oluşur.",
+      "Demir, bakır, altın birer madendir."
+     ]
+    },
+    {
+     "title": "Fosiller nasıl oluşur?",
+     "text": "Fosiller, çok uzun zaman önce yaşamış canlıların kalıntıları ya da izleridir. Bir canlı öldüğünde bazen çamur ya da kum gibi tortuların altında kalır. Yumuşak kısımları zamanla çürür. Kemik ve kabuk gibi sert kısımlar tortuların arasında korunabilir. Çok uzun yıllar boyunca tortular sertleşip kayaç olur ve canlının izi taşın içinde kalır. Ayak izleri ve yaprak izleri de fosil olabilir.",
+     "points": [
+      "Canlı tortuların altında kalır.",
+      "Sert kısımlar korunur.",
+      "Tortular kayaç olur, fosil oluşur."
+     ]
+    },
+    {
+     "title": "Fosil bilim",
+     "text": "Fosilleri inceleyen bilim dalına fosil bilim, yani paleontoloji denir. Bu bilimle uğraşan kişiye fosil bilimci, yani paleontolog denir. Fosil bilimciler fosilleri dikkatle kazıp çıkarır, temizler ve inceler. Fosiller sayesinde dinozorlar gibi artık yaşamayan canlıları tanırız. Ayrıca bir bölgenin geçmişte deniz mi kara mı olduğunu da anlayabiliriz. Fosiller müzelerde sergilenir ve herkes onları inceleyebilir. Fosil bulursak kırmadan uzmanlara haber vermeliyiz.",
+     "points": []
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Kayaç",
+     "meaning": "Yer kabuğunu oluşturan, minerallerden meydana gelen katı kütle."
+    },
+    {
+     "term": "Mineral",
+     "meaning": "Doğada kendiliğinden oluşan, belirli özellikleri olan katı madde."
+    },
+    {
+     "term": "Maden",
+     "meaning": "Kayaç ve minerallerden elde edilen yararlı madde."
+    },
+    {
+     "term": "Fosil",
+     "meaning": "Geçmişte yaşamış canlıların taşlaşmış kalıntısı ya da izi."
+    },
+    {
+     "term": "Fosil bilim (paleontoloji)",
+     "meaning": "Fosilleri inceleyen bilim dalı."
+    },
+    {
+     "term": "Fosil bilimci (paleontolog)",
+     "meaning": "Fosilleri inceleyen bilim insanı."
+    }
+   ],
+   "example": {
+    "question": "Yüksek bir dağda deniz kabuğu fosili bulundu. Bundan ne çıkarabiliriz?",
+    "solution": "Deniz kabukluları denizde yaşar. Fosil dağda bulunduğuna göre bu bölge çok uzun zaman önce denizle kaplı olabilir. Fosiller, bir yerin geçmişi hakkında ipucu verir."
+   },
+   "remember": [
+    "Kayaçlar minerallerden oluşur.",
+    "Madenler kayaç ve minerallerden elde edilir.",
+    "Fosiller geçmişteki canlıların izleridir.",
+    "Fosilleri paleontologlar inceler."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 4,
+   "intro": "Bu temada maddelerin katı, sıvı ve gaz hâllerini tanıyoruz. Karışımları ve onları ayırma yollarını öğreniyoruz. Atıkları ayrıştırarak çevremizi korumayı keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Maddenin hâlleri",
+     "text": "Çevremizdeki her şey maddeden oluşur. Maddeler katı, sıvı ya da gaz hâlinde bulunur. Katıların belirli bir şekli vardır; taş, kalem ve buz katıdır. Sıvılar akar ve konuldukları kabın şeklini alır; su, süt ve zeytinyağı sıvıdır. Gazlar bulundukları ortama yayılır; hava ve su buharı gazdır. Gazları genellikle göremeyiz ama balonu şişirdiğinde havanın yer kapladığını anlarız.",
+     "points": [
+      "Katı: belirli şekli var.",
+      "Sıvı: kabın şeklini alır.",
+      "Gaz: ortama yayılır."
+     ]
+    },
+    {
+     "title": "Karışımları ayırma",
+     "text": "Birden fazla maddenin bir araya gelmesiyle karışım oluşur. Karışımları farklı yöntemlerle ayırabiliriz. Elemede tane büyüklüğü farklı katıları elekle ayırırız, örneğin un ve kepek. Süzmede sıvının içindeki katıyı süzgeç kâğıdıyla ayırırız. Dinlendirmede karışımı bekletir, dibe çöken katıdan sıvıyı ayırırız. Yüzdürmede suda yüzen maddeyi batandan ayırırız. Mıknatısla demir tozu gibi maddeleri ayırabiliriz.",
+     "points": [
+      "Eleme: tane büyüklüğü farklı katılar",
+      "Süzme ve dinlendirme: sıvı ve katı",
+      "Mıknatısla ayırma: demir içeren maddeler"
+     ]
+    },
+    {
+     "title": "Atıkların ayrıştırılması",
+     "text": "Kullandığımız ürünlerden geriye kalan maddelere atık denir. Kâğıt, plastik, cam ve metal atıklar geri dönüştürülebilir. Bu atıkları ayrı kutulara atarak ayrıştırırız. Ayrıştırılan atıklar fabrikalarda yeniden kullanılabilir hâle getirilir. Böylece doğal kaynaklarımız korunur ve çevre kirliliği azalır. Pil gibi zararlı atıkları ise özel toplama kutularına atmalıyız. Evde de atıkları ayrı poşetlerde toplayarak geri dönüşüme katkı sağlayabiliriz.",
+     "points": [
+      "Kâğıt, plastik, cam, metal ayrı toplanır.",
+      "Atık piller özel kutulara atılır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Katı",
+     "meaning": "Belirli bir şekli olan madde hâli."
+    },
+    {
+     "term": "Sıvı",
+     "meaning": "Akabilen ve kabın şeklini alan madde hâli."
+    },
+    {
+     "term": "Gaz",
+     "meaning": "Bulunduğu ortama yayılan madde hâli."
+    },
+    {
+     "term": "Karışım",
+     "meaning": "Birden fazla maddenin bir araya gelmesi."
+    },
+    {
+     "term": "Süzme",
+     "meaning": "Sıvıdaki katıyı süzgeçle ayırma."
+    },
+    {
+     "term": "Dinlendirme",
+     "meaning": "Karışımı bekleterek dibe çöken katıyı ayırma."
+    },
+    {
+     "term": "Atık",
+     "meaning": "Kullanıldıktan sonra artan madde."
+    },
+    {
+     "term": "Ayrıştırma",
+     "meaning": "Atıkları türlerine göre ayırma."
+    }
+   ],
+   "example": {
+    "question": "Kum, demir tozu ve su karışımını nasıl ayırırız?",
+    "solution": "Önce karışıma mıknatıs yaklaştırırız; demir tozu mıknatısa yapışır. Sonra kalan kum ve suyu süzgeç kâğıdından geçiririz. Kum kâğıtta kalır, su aşağı geçer. Böylece üç madde ayrılmış olur."
+   },
+   "remember": [
+    "Maddeler katı, sıvı ya da gaz hâlinde olabilir.",
+    "Karışımın türüne göre ayırma yöntemi seçilir.",
+    "Mıknatıs demir içeren maddeleri çeker.",
+    "Atıkları ayrıştırmak doğayı korur."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 5,
+   "intro": "Bu temada varlıkların hareketlerini gözlemliyoruz. Kuvvetin itme ya da çekme olduğunu öğreniyoruz. Kuvvetin varlıklar üzerindeki etkilerini keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Hareket çeşitleri",
+     "text": "Çevremizdeki varlıklar farklı şekillerde hareket eder. Araba yolda ileri gider; bu hareket bir yönden diğerine doğrudur. Dönme dolap ve rüzgâr gülü kendi çevresinde döner. Salıncak ve saat sarkacı ileri geri sallanır. Bazı varlıklar hareket ederken hızlanır, bazıları yavaşlar. Futbol topu bir oyuncuya çarpınca yön değiştirir. Hareketleri dikkatle gözleyerek bir sonraki hareketi tahmin edebiliriz.",
+     "points": [
+      "Dönme: dönme dolap",
+      "Sallanma: salıncak",
+      "Hızlanma, yavaşlama, yön değiştirme"
+     ]
+    },
+    {
+     "title": "Kuvvet",
+     "text": "Bir varlığa uygulanan itme ya da çekmeye kuvvet denir. Kapıyı açarken iteriz ya da çekeriz. Alışveriş arabasını iteriz, çekmeceyi çekeriz. Kuvvet sayesinde duran bir varlığı hareket ettirebiliriz. Hareket eden bir varlığı durdurabilir, hızlandırabilir ya da yavaşlatabiliriz. Kuvvet, varlığın yönünü de değiştirebilir. Kuvvetin büyüklüğü arttıkça etkisi de artar. Örneğin topa hafif vurursak az, güçlü vurursak çok uzağa gider.",
+     "points": [
+      "Kuvvet itme ya da çekmedir.",
+      "Kuvvet hareket ettirir, durdurur, yön değiştirir."
+     ]
+    },
+    {
+     "title": "Kuvvet şekil değiştirir",
+     "text": "Kuvvet bazı varlıkların şeklini de değiştirebilir. Oyun hamurunu sıktığımızda şekli değişir. Süngeri sıkınca küçülür, bırakınca eski hâline döner. Bir yayı çekince uzar. Kuru bir dalı büktüğümüzde kırılabilir. Her varlık kuvvete aynı tepkiyi vermez. Bu yüzden kuvvet uygularken dikkatli olmalı, eşyalarımıza zarar vermemeliyiz. Bazı varlıklar kuvvet kalkınca eski şekline döner, bazıları ise dönmez. Hamur sıkılınca yeni şeklinde kalır ama sünger eski hâline döner.",
+     "points": [
+      "Hamur sıkılınca şekil değiştirir.",
+      "Yay çekilince uzar."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Kuvvet",
+     "meaning": "Bir varlığa uygulanan itme ya da çekme."
+    },
+    {
+     "term": "İtme",
+     "meaning": "Bir varlığı kendimizden uzaklaştıracak şekilde kuvvet uygulama."
+    },
+    {
+     "term": "Çekme",
+     "meaning": "Bir varlığı kendimize doğru getirecek şekilde kuvvet uygulama."
+    },
+    {
+     "term": "Hızlanma",
+     "meaning": "Hareket eden varlığın hızının artması."
+    },
+    {
+     "term": "Yavaşlama",
+     "meaning": "Hareket eden varlığın hızının azalması."
+    },
+    {
+     "term": "Dönme",
+     "meaning": "Bir varlığın bir nokta ya da eksen etrafında dönmesi."
+    },
+    {
+     "term": "Sallanma",
+     "meaning": "İleri geri tekrarlanan hareket."
+    },
+    {
+     "term": "Şekil değiştirme",
+     "meaning": "Kuvvet etkisiyle varlığın biçiminin değişmesi."
+    }
+   ],
+   "example": {
+    "question": "Kaleci kendisine gelen topu yumruğuyla geri gönderiyor. Kuvvetin topa etkisi nedir?",
+    "solution": "Top kaleciye doğru gelirken kaleci ona kuvvet uygular. Bu kuvvet topun yönünü değiştirir. Top artık geldiği yönün tersine gider."
+   },
+   "remember": [
+    "Kuvvet itme ya da çekmedir.",
+    "Kuvvet hareket başlatır, durdurur ya da yön değiştirir.",
+    "Kuvvet bazı varlıkların şeklini değiştirir.",
+    "Hareketleri gözleyerek tahmin yapabiliriz."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 6,
+   "intro": "Bu temada elektrikle çalışan araç gereçleri tanıyoruz. Elektriği güvenli kullanmanın yollarını öğreniyoruz. Elektrik tasarrufunun önemini anlıyoruz.",
+   "sections": [
+    {
+     "title": "Elektrikli araç gereçler",
+     "text": "Evimizde ve okulumuzda birçok araç elektrikle çalışır. Buzdolabı, çamaşır makinesi, televizyon ve lamba şehir elektriğiyle çalışır. Bunların fişi prize takılır. El feneri, oyuncak araba ve kumanda ise pille çalışır. Telefon ve tablet şarj edilebilir pille çalışır. Bir aracın elektrikli olup olmadığını fişinden, kablosundan ya da pil yerinden anlayabiliriz. Elektrik hayatımızı kolaylaştırır.",
+     "points": [
+      "Şehir elektriği: buzdolabı, lamba",
+      "Pil: el feneri, kumanda"
+     ]
+    },
+    {
+     "title": "Elektrikle güvenlik",
+     "text": "Elektrik çok yararlıdır ama dikkatsiz kullanılırsa tehlikelidir. Prizlere çivi, tel gibi cisimler sokmamalıyız. Islak elle elektrikli araçlara dokunmamalıyız. Kablosu hasar görmüş araçları kullanmamalıyız. Fişi prizden çekerken kablodan değil, fişin kendisinden tutmalıyız. Bir prize çok fazla araç takmamalıyız. Elektrik direklerine ve trafolara yaklaşmamalı, yakınlarında uçurtma uçurmamalıyız. Elektrikle ilgili bir sorun olduğunda bir büyüğümüze haber vermeliyiz.",
+     "points": [
+      "Islak elle dokunma.",
+      "Prize cisim sokma.",
+      "Fişi kablodan çekme."
+     ]
+    },
+    {
+     "title": "Elektrik tasarrufu",
+     "text": "Elektriği tasarruflu kullanmak hem aile bütçemize hem de doğaya katkı sağlar. Boş odalarda yanan ışıkları söndürmeliyiz. Kullanmadığımız aletleri kapatmalı, şarj aletini işi bitince prizden çıkarmalıyız. Gün ışığından olabildiğince yararlanmalıyız. Az elektrik harcayan lambalar kullanmalıyız. Buzdolabının kapağını gereksiz yere açık tutmamalıyız. Çamaşır ve bulaşık makinelerini tam dolmadan çalıştırmamak da tasarruf sağlar. Ailemizle birlikte elektrik faturasını inceleyerek ne kadar harcadığımızı takip edebiliriz.",
+     "points": [
+      "Boş odada ışığı söndür.",
+      "Gün ışığından yararlan."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Elektrik",
+     "meaning": "Birçok aracı çalıştıran enerji türü."
+    },
+    {
+     "term": "Pil",
+     "meaning": "Elektrik depolayan küçük kaynak."
+    },
+    {
+     "term": "Güvenlik",
+     "meaning": "Tehlikelerden korunma durumu."
+    },
+    {
+     "term": "Elektrik tasarrufu",
+     "meaning": "Elektriği gereksiz harcamamak."
+    },
+    {
+     "term": "Priz",
+     "meaning": "Elektrikli araçların fişlerinin takıldığı yer."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Bazı araçlar şehir elektriğiyle, bazıları pille çalışır.",
+    "Islak elle elektrikli araca dokunma.",
+    "Fişi kablosundan çekme.",
+    "Boş odada ışığı söndür."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 7,
+   "intro": "Bu temada toprağın nasıl oluştuğunu ve neyden meydana geldiğini öğreniyoruz. Bitkilerin yetişmesi için nelere ihtiyaç olduğunu keşfediyoruz. Tarımın hayatımızdaki yerini anlıyoruz.",
+   "sections": [
+    {
+     "title": "Toprak nasıl oluşur?",
+     "text": "Toprak, kayaçların çok uzun yıllar boyunca parçalanmasıyla oluşur. Güneş, rüzgâr, yağmur ve sıcaklık değişimleri kayaçları yavaş yavaş ufalar. Bitki kökleri ve canlılar da bu parçalanmaya katkı sağlar. Ölen bitki ve hayvanların çürümesiyle toprağa besin karışır. Toprakta kum, kil, taş parçaları, su, hava ve çürümüş canlı kalıntıları bulunur. Solucan gibi canlılar toprağı havalandırır.",
+     "points": [
+      "Kayaçlar ufalanarak toprağı oluşturur.",
+      "Toprakta su, hava ve çürümüş kalıntılar vardır."
+     ]
+    },
+    {
+     "title": "Bitki yetiştirme",
+     "text": "Bir bitkinin yetişmesi için toprak, su, hava, ışık ve uygun sıcaklık gerekir. Tohum, içinde yavru bitkiyi taşıyan kısımdır. Tohumu toprağa ekip sularız. Tohum çimlenir ve küçük bir bitki olur; buna fide denir. Fideler büyüyünce tarlaya ya da bahçeye dikilebilir. Bitkiyi düzenli sulamak ve güneş alan bir yere koymak sağlıklı büyümesini sağlar.",
+     "points": [
+      "Toprak, su, hava, ışık, sıcaklık",
+      "Tohum → fide → olgun bitki"
+     ]
+    },
+    {
+     "title": "Tarım",
+     "text": "Toprağı işleyerek bitki yetiştirmeye ve hayvan beslemeye tarım denir. Buğday, mısır, sebze ve meyveler tarım yoluyla elde edilir. Ekmeğimiz buğdaydan, yağımızın bir kısmı ayçiçeğinden gelir. Çiftçiler toprağı sürer, tohum eker, sular ve ürünü hasat eder. Tarım, insanların beslenmesi için çok önemlidir. Toprağı kirletmemek ve korumak hepimizin görevidir. Toprağın verimli kalması için onu korumalıyız.",
+     "points": []
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Toprak",
+     "meaning": "Kayaçların ufalanması ve canlı kalıntılarıyla oluşan yer yüzeyi tabakası."
+    },
+    {
+     "term": "Tohum",
+     "meaning": "İçinde yavru bitkiyi taşıyan, bitkiyi çoğaltan kısım."
+    },
+    {
+     "term": "Fide",
+     "meaning": "Tohumdan yeni çıkmış genç bitki."
+    },
+    {
+     "term": "Tarım",
+     "meaning": "Toprağı işleyerek bitki yetiştirme ve hayvan besleme."
+    },
+    {
+     "term": "Çimlenme",
+     "meaning": "Tohumdan yeni bitkinin çıkması."
+    }
+   ],
+   "example": {
+    "question": "İki fasulye tohumundan birini sularız, diğerini sulamayız. Ne olur?",
+    "solution": "Sulanan tohum suyu alır ve birkaç gün içinde çimlenir. Sulanmayan tohum çimlenmez. Bundan, tohumun çimlenmesi için suya ihtiyaç olduğu sonucunu çıkarırız."
+   },
+   "remember": [
+    "Toprak, kayaçların ufalanmasıyla çok uzun sürede oluşur.",
+    "Bitkiler su, hava, ışık ve uygun sıcaklık ister.",
+    "Tohum çimlenince fide olur.",
+    "Tarım beslenmemiz için çok önemlidir."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 8,
+   "intro": "Bu temada canlıların yaşadığı farklı yerleri tanıyoruz. Her yaşam alanında farklı canlılar bulunduğunu görüyoruz. Yaşam alanlarını korumak için neler yapabileceğimizi düşünüyoruz.",
+   "sections": [
+    {
+     "title": "Yaşam alanları",
+     "text": "Bir canlının yaşadığı, beslendiği ve barındığı yere yaşam alanı denir. Ormanlar, çöller, göller, denizler, kutuplar ve çayırlar farklı yaşam alanlarıdır. Her yaşam alanının sıcaklığı, su miktarı ve bitki örtüsü farklıdır. Canlılar yaşadıkları yere uygun özelliklere sahiptir. Örneğin balıklar suda solunum yapabilir. Kutup ayısının kalın kürkü onu soğuktan korur. Deve çölde uzun süre susuz kalabilir.",
+     "points": [
+      "Orman, çöl, göl, deniz, kutup",
+      "Canlılar yaşam alanına uygun özelliklere sahiptir."
+     ]
+    },
+    {
+     "title": "Canlı çeşitliliği",
+     "text": "Bir yaşam alanında birçok farklı canlı birlikte yaşar. Buna canlı çeşitliliği denir. Örneğin bir ormanda ağaçlar, mantarlar, kuşlar, böcekler ve sincaplar bir arada bulunur. Canlı çeşitliliğini ölçmek için bir alanda gördüğümüz canlıları sayıp türlerini not edebiliriz. Ne kadar çok tür varsa çeşitlilik o kadar fazladır. Canlılar birbirine besin ve barınak sağlar.",
+     "points": [
+      "Farklı tür sayısı çeşitliliği gösterir."
+     ]
+    },
+    {
+     "title": "Yaşam alanlarını koruma",
+     "text": "Ağaçların kesilmesi, orman yangınları, çöplerin doğaya atılması ve suların kirlenmesi yaşam alanlarına zarar verir. Yaşam alanı bozulan canlılar zorlanır, sayıları azalabilir. Yaşam alanlarını korumak için çöplerimizi doğaya atmamalıyız. Ağaç dikmeli, suları kirletmemeliyiz. Piknikte ateşi söndürmeden ayrılmamalıyız. Yabani hayvanları rahatsız etmemeliyiz. Okulumuzda ve mahallemizde fidan dikme ya da çevre temizliği etkinliklerine katılabiliriz. Kuşlar için yemlik ve su kabı koymak da onlara yardım eder.",
+     "points": [
+      "Çöpünü doğaya atma.",
+      "Ağaç dik, suyu kirletme.",
+      "Ateşi söndürmeden ayrılma."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Yaşam alanı",
+     "meaning": "Bir canlının yaşadığı, beslendiği ve barındığı yer."
+    },
+    {
+     "term": "Canlı çeşitliliği",
+     "meaning": "Bir yerde yaşayan farklı canlı türlerinin çokluğu."
+    },
+    {
+     "term": "Tür",
+     "meaning": "Birbirine benzeyen ve birlikte yavru meydana getirebilen canlılar grubu."
+    },
+    {
+     "term": "Koruma",
+     "meaning": "Zarar görmesini engelleme."
+    }
+   ],
+   "example": {
+    "question": "Bir öğrenci bahçede 4 çeşit böcek, 2 çeşit kuş ve 6 çeşit bitki saydı. Bahçede kaç farklı tür gözlemledi?",
+    "solution": "Türleri toplarız: 4 + 2 + 6 = 12. Öğrenci bahçede 12 farklı tür gözlemlemiştir."
+   },
+   "remember": [
+    "Her canlının bir yaşam alanı vardır.",
+    "Canlılar yaşam alanına uygun özelliklere sahiptir.",
+    "Çok tür, çok çeşitlilik demektir.",
+    "Yaşam alanlarını korumak hepimizin görevidir."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 1,
+   "intro": "Bu temada bilimin özelliklerini öğreniyoruz. Bilimsel bilginin nasıl elde edildiğini düşünüyoruz. Bir bilgi kaynağının güvenilir olup olmadığını sorgulamayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Bilimin özellikleri",
+     "text": "Bilim, doğayı ve çevremizi anlamak için soru sorma, gözlem yapma ve deney yapma yoluyla bilgi üretmektir. Bilimsel bilgi kanıtlara dayanır. Yeni kanıtlar bulunduğunda bilimsel bilgi değişebilir ya da gelişebilir. Bilim insanları aynı deneyi tekrarlayarak sonuçların doğru olup olmadığını kontrol eder. Bilimde hayal gücü ve yaratıcılık da önemlidir. Bilim insanları iş birliği yaparak birbirlerinin çalışmalarından yararlanır.",
+     "points": [
+      "Bilimsel bilgi kanıta dayanır.",
+      "Bilimsel bilgi değişebilir.",
+      "Deneyler tekrar edilebilir."
+     ]
+    },
+    {
+     "title": "Güvenilir bilgi kaynağı",
+     "text": "Bilgiyi kitaplardan, ansiklopedilerden, internetten, öğretmenlerimizden ve uzmanlardan edinebiliriz. Ancak her kaynak güvenilir değildir. Bir kaynağı kullanmadan önce kimin yazdığına bakmalıyız. Bilginin uzman kişiler ya da resmî kurumlar tarafından verilip verilmediğini kontrol etmeliyiz. Aynı bilgiyi birden fazla kaynakta aramak doğruluğunu anlamamıza yardım eder. Sosyal medyada paylaşılan her habere inanmamalıyız. Emin olmadığımız bir bilgiyi öğretmenimize sorabiliriz.",
+     "points": [
+      "Yazarı ve kurumu kontrol et.",
+      "Birden fazla kaynağa bak.",
+      "Her paylaşıma hemen inanma."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Bilim",
+     "meaning": "Doğayı ve çevreyi anlamak için yapılan sistemli çalışma."
+    },
+    {
+     "term": "Bilimsel bilgi",
+     "meaning": "Gözlem ve deneyle elde edilen, kanıta dayalı bilgi."
+    },
+    {
+     "term": "Bilgi kaynağı",
+     "meaning": "Bilgiye ulaştığımız kitap, internet sitesi, uzman gibi yerler."
+    },
+    {
+     "term": "Kanıt",
+     "meaning": "Bir düşüncenin doğru olduğunu gösteren veri."
+    },
+    {
+     "term": "Güvenilirlik",
+     "meaning": "Bir kaynağın doğru bilgi vermesine güvenilebilmesi."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Bilimsel bilgi kanıtlara dayanır.",
+    "Yeni kanıtlarla bilimsel bilgi değişebilir.",
+    "Kaynağın kim tarafından hazırlandığına bak.",
+    "Bilgiyi birden fazla kaynaktan kontrol et."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 2,
+   "intro": "Bu temada besinlerin içinde neler bulunduğunu öğreniyoruz. Karbonhidrat, protein, yağ, vitamin, mineral ve suyun vücudumuzdaki görevlerini keşfediyoruz. Dengeli beslenmenin sağlığımız için önemini anlıyoruz.",
+   "sections": [
+    {
+     "title": "Besin içerikleri",
+     "text": "Yediğimiz besinlerin içinde farklı maddeler bulunur. Karbonhidratlar vücudumuza enerji verir; ekmek, makarna, pirinç ve patateste bolca bulunur. Proteinler büyümemizi ve vücudumuzun onarılmasını sağlar; et, yumurta, süt, balık ve kuru baklagillerde bulunur. Yağlar da enerji verir ve vücudumuzu soğuktan korur; tereyağı, zeytinyağı ve fındıkta bulunur. Bir besinde birden fazla içerik bulunabilir.",
+     "points": [
+      "Karbonhidrat: enerji verir.",
+      "Protein: büyüme ve onarım sağlar.",
+      "Yağ: enerji verir, ısı kaybını azaltır."
+     ]
+    },
+    {
+     "title": "Vitamin, mineral ve su",
+     "text": "Vitaminler ve mineraller vücudumuzun düzenli çalışmasını sağlar ve hastalıklara karşı direncimizi artırır. Meyve ve sebzeler vitamin ve mineral açısından zengindir. Örneğin portakalda C vitamini bulunur. Süt ve süt ürünlerinde kemiklerimiz için gerekli kalsiyum minerali bulunur. Su da vücudumuz için çok önemlidir. Vücudumuzun büyük bir kısmı sudur ve her gün yeterince su içmeliyiz.",
+     "points": [
+      "Meyve ve sebzeler vitamin deposudur.",
+      "Süt kalsiyum içerir.",
+      "Günde yeterince su iç."
+     ]
+    },
+    {
+     "title": "Basit deneyler ve sağlıklı yaşam",
+     "text": "Bazı besin içeriklerini basit deneylerle ayırt edebiliriz. Fındık, ceviz gibi yağlı bir besini beyaz kâğıda sürttüğümüzde kâğıtta yarı saydam bir yağ lekesi kalır. Bu leke kuruyunca kaybolmaz. Sağlıklı yaşam için her öğünde farklı besin gruplarından yemeliyiz. Kahvaltı yapmalı, şekerli ve çok tuzlu yiyeceklerden uzak durmalıyız. Düzenli spor yapmak da sağlığımızı korur.",
+     "points": [
+      "Yağlı besin kâğıtta yağ lekesi bırakır.",
+      "Kahvaltıyı atlama."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Karbonhidrat",
+     "meaning": "Vücuda enerji veren besin içeriği."
+    },
+    {
+     "term": "Protein",
+     "meaning": "Büyümeyi ve vücudun onarılmasını sağlayan besin içeriği."
+    },
+    {
+     "term": "Yağ",
+     "meaning": "Enerji veren ve vücudu soğuktan koruyan besin içeriği."
+    },
+    {
+     "term": "Vitamin",
+     "meaning": "Vücudun düzenli çalışmasını sağlayan, hastalıklara karşı koruyan madde."
+    },
+    {
+     "term": "Mineral",
+     "meaning": "Kemik, diş ve kan gibi yapılar için gerekli madde."
+    },
+    {
+     "term": "Su",
+     "meaning": "Vücudumuzun büyük kısmını oluşturan, yaşam için gerekli madde."
+    },
+    {
+     "term": "Sağlıklı yaşam",
+     "meaning": "Dengeli beslenme, uyku ve hareketle sürdürülen yaşam."
+    }
+   ],
+   "example": {
+    "question": "Bir besinde yağ olup olmadığını nasıl anlarız?",
+    "solution": "Besini beyaz bir kâğıda sürteriz. Kâğıdı bir süre bekletiriz. Kâğıtta ışığı geçiren yarı saydam bir leke kalırsa besinde yağ vardır. Su lekesi kuruyunca kaybolur, yağ lekesi kaybolmaz."
+   },
+   "remember": [
+    "Karbonhidrat ve yağ enerji verir.",
+    "Protein büyümemizi sağlar.",
+    "Vitamin ve mineraller bizi hastalıklardan korur.",
+    "Her gün yeterince su iç."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 3,
+   "intro": "Bu temada Dünya'mızın şeklini, katmanlarını ve hareketlerini öğreniyoruz. Gece ile gündüzün ve yılın nasıl oluştuğunu keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Dünya'nın şekli",
+     "text": "Dünya'mız küreye benzer. Bunu gösteren birçok kanıt vardır. Uzaydan çekilen fotoğraflarda Dünya yuvarlak görünür. Denizden kıyıya yaklaşan bir geminin önce üst kısmı, sonra alt kısmı görünür. Ay tutulmasında Dünya'nın Ay'a düşen gölgesi yuvarlaktır. Dünya'nın kutupları biraz basık olduğu için tam bir küre değildir. Dünya'yı modellemek için küre biçimli olan küre modelini kullanırız.",
+     "points": [
+      "Dünya küreye benzer.",
+      "Uzay fotoğrafları bunun kanıtıdır."
+     ]
+    },
+    {
+     "title": "Dünya'nın katmanları",
+     "text": "Dünya'nın çevresini saran gaz tabakasına hava küre denir. Dünya'daki okyanus, deniz, göl ve akarsuların tümüne su küre denir. Canlıların yaşadığı alanların tümüne canlı küre denir. Dünya'nın katı kısmına taş küre denir. Dünya'nın içinde dıştan içe doğru yer kabuğu, manto, dış çekirdek ve iç çekirdek bulunur. Merkeze yaklaştıkça sıcaklık artar. Biz taş kürenin en üstündeki yer kabuğunda yaşarız.",
+     "points": [
+      "Hava küre, su küre, canlı küre, taş küre",
+      "İçten dışa: iç çekirdek, dış çekirdek, manto, yer kabuğu"
+     ]
+    },
+    {
+     "title": "Dünya'nın hareketleri",
+     "text": "Dünya kendi çevresinde döner; buna dönme hareketi denir. Bir tam dönüş yaklaşık 24 saat sürer ve bir gün oluşur. Dönme hareketi sayesinde gece ve gündüz birbirini izler. Güneş'e bakan taraf aydınlıktır ve orada gündüz yaşanır, öbür tarafta gecedir. Dünya aynı zamanda Güneş'in çevresinde dolanır. Bir tam dolanma yaklaşık 365 gün sürer ve bir yıl oluşur.",
+     "points": [
+      "Dönme: yaklaşık 24 saat, gece ve gündüz",
+      "Dolanma: yaklaşık 365 gün, bir yıl"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Dünya",
+     "meaning": "Üzerinde yaşadığımız, Güneş'in çevresinde dolanan gezegen."
+    },
+    {
+     "term": "Hava küre",
+     "meaning": "Dünya'yı saran gaz tabakası."
+    },
+    {
+     "term": "Su küre",
+     "meaning": "Dünya'daki suların tümü."
+    },
+    {
+     "term": "Taş küre",
+     "meaning": "Dünya'nın katı kısmı."
+    },
+    {
+     "term": "Canlı küre",
+     "meaning": "Canlıların yaşadığı alanların tümü."
+    },
+    {
+     "term": "Dönme",
+     "meaning": "Dünya'nın kendi çevresinde dönmesi."
+    },
+    {
+     "term": "Dolanma",
+     "meaning": "Dünya'nın Güneş'in çevresinde dolaşması."
+    },
+    {
+     "term": "Manto",
+     "meaning": "Yer kabuğu ile çekirdek arasındaki katman."
+    }
+   ],
+   "example": {
+    "question": "Türkiye'de gündüz yaşanırken Dünya'nın öbür yüzünde ne yaşanır? Neden?",
+    "solution": "Dünya kendi çevresinde döndüğü için Güneş'e bakan yüzü aydınlık, diğer yüzü karanlıktır. Türkiye Güneş'e bakarken Dünya'nın öbür yüzü Güneş ışığı almaz. Orada gece yaşanır."
+   },
+   "remember": [
+    "Dünya küreye benzer.",
+    "Dönme hareketi gece ve gündüzü oluşturur.",
+    "Dolanma hareketi bir yılı oluşturur.",
+    "Dünya'nın merkezine doğru sıcaklık artar."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 4,
+   "intro": "Bu temada maddelerin ısı alınca ve ısı verince nasıl değiştiğini öğreniyoruz. Erime, donma, buharlaşma ve yoğuşmayı tanıyoruz. Bu değişimleri günlük yaşamda gözlemliyoruz.",
+   "sections": [
+    {
+     "title": "Isı alma ve ısı verme",
+     "text": "Maddeler ısı alınca ısınır, ısı verince soğur. Ocakta ısıttığımız su ısı alır. Buzdolabına koyduğumuz meyve suyu ısı verir ve soğur. Sıcak bir çay bardağını tuttuğumuzda bardaktan elimize ısı geçer. Isı, sıcak olan maddeden soğuk olan maddeye doğru geçer. Isı alan ya da ısı veren bir maddenin hâli değişebilir. Buna hâl değişimi denir.",
+     "points": [
+      "Isı sıcaktan soğuğa geçer.",
+      "Isı alan madde ısınır, ısı veren soğur."
+     ]
+    },
+    {
+     "title": "Erime ve donma",
+     "text": "Katı bir maddenin ısı alarak sıvı hâle geçmesine erime denir. Güneşte bırakılan buzun ya da çikolatanın erimesi buna örnektir. Sıvı bir maddenin ısı vererek katı hâle geçmesine donma denir. Buzluğa konulan suyun buza dönüşmesi donmadır. Kışın soğuk havada su birikintilerinin donması da bir örnektir. Erime ve donma birbirinin tersidir. Su 0 derecede donar ve buz 0 derecede erir.",
+     "points": [
+      "Erime: katı → sıvı (ısı alır)",
+      "Donma: sıvı → katı (ısı verir)"
+     ]
+    },
+    {
+     "title": "Buharlaşma ve yoğuşma",
+     "text": "Sıvı bir maddenin ısı alarak gaz hâle geçmesine buharlaşma denir. Islak çamaşırların kuruması ve kaynayan suyun buharlaşması buna örnektir. Gaz hâldeki bir maddenin ısı vererek sıvı hâle geçmesine yoğuşma ya da yoğunlaşma denir. Soğuk bir bardağın dışında su damlacıklarının oluşması, havadaki su buharının yoğuşmasıdır. Banyo aynasının buğulanması da yoğuşmadır. Buharlaşma ile yoğuşma da birbirinin tersidir.",
+     "points": [
+      "Buharlaşma: sıvı → gaz (ısı alır)",
+      "Yoğuşma: gaz → sıvı (ısı verir)"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Isı alma",
+     "meaning": "Bir maddeye ısı geçmesi, maddenin ısınması."
+    },
+    {
+     "term": "Isı verme",
+     "meaning": "Bir maddeden ısı çıkması, maddenin soğuması."
+    },
+    {
+     "term": "Hâl değişimi",
+     "meaning": "Maddenin katı, sıvı ya da gaz hâlinden başka bir hâle geçmesi."
+    },
+    {
+     "term": "Erime",
+     "meaning": "Katının ısı alarak sıvıya dönüşmesi."
+    },
+    {
+     "term": "Donma",
+     "meaning": "Sıvının ısı vererek katıya dönüşmesi."
+    },
+    {
+     "term": "Buharlaşma",
+     "meaning": "Sıvının ısı alarak gaza dönüşmesi."
+    },
+    {
+     "term": "Yoğuşma (yoğunlaşma)",
+     "meaning": "Gazın ısı vererek sıvıya dönüşmesi."
+    }
+   ],
+   "example": {
+    "question": "Buzdolabından çıkardığımız soğuk şişenin dış yüzeyi neden ıslanır?",
+    "solution": "Havada gözle göremediğimiz su buharı vardır. Bu su buharı soğuk şişeye değince ısı verir. Isı veren su buharı sıvı hâle geçer. Bu olay yoğuşmadır ve şişenin dışında su damlacıkları oluşur."
+   },
+   "remember": [
+    "Isı sıcak maddeden soğuk maddeye geçer.",
+    "Erime ve buharlaşmada madde ısı alır.",
+    "Donma ve yoğuşmada madde ısı verir.",
+    "Erime ile donma birbirinin tersidir."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 5,
+   "intro": "Bu temada mıknatısları ve kutuplarını tanıyoruz. Mıknatısın hangi maddeleri çektiğini deneyerek buluyoruz. Mıknatısların günlük yaşamda nerelerde kullanıldığını öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Mıknatısın kutupları",
+     "text": "Mıknatıs, bazı maddeleri kendine çeken bir cisimdir. Her mıknatısın iki kutbu vardır: kuzey kutbu ve güney kutbu. Kuzey kutbu N, güney kutbu S harfiyle gösterilir. Mıknatısın çekim etkisi en çok kutuplarında hissedilir. İki mıknatısın aynı kutuplarını yaklaştırırsak birbirlerini iterler. Farklı kutuplarını yaklaştırırsak birbirlerini çekerler. Bir mıknatısı ikiye bölersek her parçanın yine iki kutbu olur.",
+     "points": [
+      "Aynı kutuplar iter.",
+      "Farklı kutuplar çeker.",
+      "Kutuplar: N (kuzey) ve S (güney)"
+     ]
+    },
+    {
+     "title": "Mıknatısın çektiği maddeler",
+     "text": "Mıknatıs her maddeyi çekmez. Demir, nikel ve kobalt içeren maddeleri çeker. Örneğin toplu iğne, ataş ve demir çivi mıknatısa yapışır. Tahta, plastik, kâğıt, cam ve kumaş mıknatıs tarafından çekilmez. Alüminyum ve bakır gibi bazı metaller de çekilmez. Bu yüzden her metal mıknatısa yapışmaz. Mıknatısın etkisi bazı maddelerin içinden geçebilir; kâğıdın arkasındaki ataşı hareket ettirebilir.",
+     "points": [
+      "Demir, nikel, kobalt çekilir.",
+      "Tahta, plastik, cam çekilmez.",
+      "Her metal mıknatısa yapışmaz."
+     ]
+    },
+    {
+     "title": "Mıknatısın kullanım alanları",
+     "text": "Mıknatıslar günlük yaşamda pek çok yerde kullanılır. Buzdolabı kapakları mıknatıs sayesinde sıkıca kapanır. Pusulanın iğnesi bir mıknatıstır ve kuzeyi gösterir. Hurdalıklarda büyük mıknatıslar demir parçalarını ayırır. Hoparlörlerde, bazı oyuncaklarda, çanta kapaklarında ve dolap kapılarında da mıknatıs vardır. Mıknatısları elektronik eşyalara ve kartlara yaklaştırmamalıyız, onlara zarar verebilir. Mıknatısları düşürmemeli ve dikkatli kullanmalıyız.",
+     "points": [
+      "Pusula, buzdolabı kapağı, hoparlör",
+      "Hurdalıkta demir ayırma"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Mıknatıs",
+     "meaning": "Demir, nikel ve kobalt içeren maddeleri çeken cisim."
+    },
+    {
+     "term": "Kutup",
+     "meaning": "Mıknatısın çekim etkisinin en fazla olduğu uçlar."
+    },
+    {
+     "term": "İtme",
+     "meaning": "Aynı kutupların birbirini uzaklaştırması."
+    },
+    {
+     "term": "Çekme",
+     "meaning": "Farklı kutupların birbirine yaklaşması."
+    },
+    {
+     "term": "Pusula",
+     "meaning": "İğnesi mıknatıs olan, yön bulmaya yarayan araç."
+    }
+   ],
+   "example": {
+    "question": "İki mıknatısın N kutuplarını birbirine yaklaştırırsak ne olur? Birinin N, diğerinin S kutbunu yaklaştırırsak ne olur?",
+    "solution": "N ve N aynı kutuplardır, birbirini iterler. N ve S farklı kutuplardır, birbirini çekerler ve birbirine yapışırlar."
+   },
+   "remember": [
+    "Mıknatısın iki kutbu vardır: N ve S.",
+    "Aynı kutuplar iter, farklı kutuplar çeker.",
+    "Mıknatıs demir, nikel ve kobaltı çeker.",
+    "Pusula iğnesi bir mıknatıstır."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 6,
+   "intro": "Bu temada basit bir elektrik devresi kurmayı öğreniyoruz. Devre elemanlarını tanıyoruz. Elektrik üretiminde kullanılan enerji kaynaklarını karşılaştırıyoruz.",
+   "sections": [
+    {
+     "title": "Devre elemanları",
+     "text": "Basit bir elektrik devresinde pil, ampul, duy, kablo ve anahtar bulunur. Pil devreye elektrik enerjisi sağlar. Ampul elektrik enerjisini ışığa dönüştürür. Duy, ampulün takıldığı parçadır. Kablolar devre elemanlarını birbirine bağlar ve elektriğin geçmesini sağlar. Anahtar devreyi açıp kapatmaya yarar. Elektrik devresi, bu elemanların uygun şekilde birleştirilmesiyle oluşur. Devre elemanları sembollerle de çizilebilir.",
+     "points": [
+      "Pil: enerji kaynağı",
+      "Ampul: ışık verir",
+      "Anahtar: devreyi açar ya da kapatır"
+     ]
+    },
+    {
+     "title": "Devre nasıl çalışır?",
+     "text": "Ampulün yanabilmesi için elektriğin pilden çıkıp kablolar ve ampul üzerinden geçerek yeniden pile dönmesi gerekir. Yani devre kesintisiz bir yol oluşturmalıdır; buna kapalı devre denir. Anahtar açıksa ya da bir kablo kopuksa yol kesilir ve ampul yanmaz; buna açık devre denir. Ampul yanmıyorsa pilin bitip bitmediğini, kabloların düzgün bağlanıp bağlanmadığını kontrol ederiz.",
+     "points": [
+      "Kapalı devrede ampul yanar.",
+      "Açık devrede ampul yanmaz."
+     ]
+    },
+    {
+     "title": "Enerji kaynakları",
+     "text": "Elektrik enerjisi farklı kaynaklardan üretilir. Güneş, rüzgâr ve akarsu gibi tükenmeyen kaynaklara yenilenebilir enerji kaynakları denir. Kömür, petrol ve doğal gaz gibi kullandıkça azalan kaynaklara yenilenemeyen enerji kaynakları denir. Yenilenemeyen kaynaklar yakıldığında havayı kirletir. Yenilenebilir kaynaklar çevreye daha az zarar verir. Bu yüzden yenilenebilir enerjiyi daha çok kullanmalıyız. Ülkemizde de güneş ve rüzgâr santralleri kurulmaktadır.",
+     "points": [
+      "Yenilenebilir: güneş, rüzgâr, akarsu",
+      "Yenilenemeyen: kömür, petrol, doğal gaz"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Elektrik devresi",
+     "meaning": "Elektriğin dolaştığı, devre elemanlarından oluşan yol."
+    },
+    {
+     "term": "Pil",
+     "meaning": "Devreye elektrik enerjisi sağlayan eleman."
+    },
+    {
+     "term": "Ampul",
+     "meaning": "Elektrik enerjisini ışığa dönüştüren eleman."
+    },
+    {
+     "term": "Duy",
+     "meaning": "Ampulün takıldığı devre elemanı."
+    },
+    {
+     "term": "Kablo",
+     "meaning": "Elektriği ileten tel."
+    },
+    {
+     "term": "Anahtar",
+     "meaning": "Devreyi açıp kapatan eleman."
+    },
+    {
+     "term": "Yenilenebilir enerji",
+     "meaning": "Tükenmeyen kaynaklardan elde edilen enerji."
+    },
+    {
+     "term": "Yenilenemeyen enerji",
+     "meaning": "Kullandıkça azalan kaynaklardan elde edilen enerji."
+    }
+   ],
+   "example": {
+    "question": "Kurduğumuz devrede anahtar kapalı olduğu hâlde ampul yanmıyor. Ne yapmalıyız?",
+    "solution": "Önce pilin bitip bitmediğini kontrol ederiz. Sonra ampulün duya iyice takılı olup olmadığına bakarız. Kabloların uçlarının sıkıca bağlı olduğunu kontrol ederiz. Ampul bozuksa yenisiyle değiştiririz."
+   },
+   "remember": [
+    "Devrede pil, ampul, duy, kablo ve anahtar bulunur.",
+    "Ampul yalnızca kapalı devrede yanar.",
+    "Güneş ve rüzgâr yenilenebilir kaynaklardır.",
+    "Kömür ve petrol kullandıkça tükenir."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 7,
+   "intro": "Bu temada ışığın görmemizdeki rolünü öğreniyoruz. Doğal ve yapay ışık kaynaklarını karşılaştırıyoruz. Işık kirliliğinin canlılara etkilerini düşünüyoruz.",
+   "sections": [
+    {
+     "title": "Işık ve görme",
+     "text": "Bir cismi görebilmemiz için ışık gerekir. Işık kaynağından çıkan ışık cisme çarpar ve oradan gözümüze gelir. Böylece cismi görürüz. Tamamen karanlık bir odada hiçbir şeyi göremeyiz; çünkü ortamda ışık yoktur. Işık kaynakları kendi ışığını üretir. Ay ise kendi ışığını üretmez; Güneş'ten aldığı ışığı yansıttığı için parlak görünür. Bu nedenle Ay bir ışık kaynağı değildir.",
+     "points": [
+      "Görmek için ışık gerekir.",
+      "Işık cisimden gözümüze gelir.",
+      "Ay ışık kaynağı değildir."
+     ]
+    },
+    {
+     "title": "Doğal ve yapay ışık kaynakları",
+     "text": "Kendiliğinden ışık veren ve insan yapımı olmayan kaynaklara doğal ışık kaynağı denir. Güneş, diğer yıldızlar, ateş böceği ve şimşek doğal ışık kaynaklarıdır. İnsanlar tarafından yapılan ışık kaynaklarına yapay ışık kaynağı denir. Ampul, el feneri, mum ve trafik lambası yapay ışık kaynaklarıdır. Güneş, Dünya'mızın en önemli ışık kaynağıdır. Yapay ışık kaynakları geceleri ve kapalı ortamlarda görmemizi sağlar.",
+     "points": [
+      "Doğal: Güneş, yıldızlar, ateş böceği",
+      "Yapay: ampul, el feneri, mum"
+     ]
+    },
+    {
+     "title": "Işık kirliliği",
+     "text": "Yapay ışıkların gereğinden fazla ve yanlış kullanılmasına ışık kirliliği denir. Gece boyunca yanan reklam panoları ve gökyüzüne doğru yönelen lambalar ışık kirliliğine yol açar. Işık kirliliği yüzünden şehirlerde yıldızları göremeyiz. Göç eden kuşlar ve yumurtadan çıkan deniz kaplumbağası yavruları yönlerini şaşırabilir. İnsanların uyku düzeni de bozulabilir. Gereksiz ışıkları söndürmek ve lambaları aşağıya yönlendirmek çözüm olabilir.",
+     "points": [
+      "Gereksiz ışıkları söndür.",
+      "Lambalar yere doğru yönlendirilmeli."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Görme",
+     "meaning": "Cisimlerden gelen ışığın göze ulaşmasıyla gerçekleşen olay."
+    },
+    {
+     "term": "Işık kaynağı",
+     "meaning": "Kendiliğinden ışık veren cisim."
+    },
+    {
+     "term": "Doğal ışık kaynağı",
+     "meaning": "İnsan yapımı olmayan ışık kaynağı."
+    },
+    {
+     "term": "Yapay ışık kaynağı",
+     "meaning": "İnsanlar tarafından yapılan ışık kaynağı."
+    },
+    {
+     "term": "Işık kirliliği",
+     "meaning": "Yapay ışığın gereğinden fazla ve yanlış kullanılması."
+    }
+   ],
+   "example": {
+    "question": "Kapalı bir kutuya bir oyuncak koyup küçük bir delikten bakıyoruz. Önce hiçbir şey göremiyoruz. Kutuya ikinci bir delik açıp el feneri tutunca oyuncağı görüyoruz. Neden?",
+    "solution": "İlk durumda kutunun içinde ışık yoktu, bu yüzden oyuncağı göremedik. El fenerinden gelen ışık oyuncağa çarptı ve gözümüze ulaştı. Görmek için ışığın gerekli olduğunu anladık."
+   },
+   "remember": [
+    "Görmek için ışık gereklidir.",
+    "Ay kendi ışığını üretmez.",
+    "Güneş en önemli doğal ışık kaynağıdır.",
+    "Işık kirliliği canlılara zarar verir."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 8,
+   "intro": "Bu temada sürdürülebilir yaşam alanlarının nasıl kurulabileceğini araştırıyoruz. Enerjiyi verimli kullanmayı ve temiz enerjiyi öğreniyoruz. Herkesin sağlıklı besine ulaşmasının önemini düşünüyoruz.",
+   "sections": [
+    {
+     "title": "Sürdürülebilirlik nedir?",
+     "text": "Sürdürülebilirlik, bugünkü ihtiyaçlarımızı karşılarken gelecek nesillerin de ihtiyaçlarını karşılayabilmesini sağlamaktır. Doğal kaynaklarımız sınırlıdır. Suyu, toprağı ve enerjiyi dikkatsiz kullanırsak gelecekte yetmeyebilir. Sürdürülebilir bir yaşam alanında kaynaklar tasarruflu kullanılır. Atıklar ayrıştırılır ve geri dönüştürülür. Doğa ve canlılar korunur. Herkesin bu konuda yapabileceği küçük adımlar vardır. Örneğin dişimizi fırçalarken musluğu kapatmak su tasarrufu sağlar.",
+     "points": [
+      "Kaynakları tasarruflu kullan.",
+      "Atıkları ayrıştır.",
+      "Doğayı koru."
+     ]
+    },
+    {
+     "title": "Temiz enerji ve verimlilik",
+     "text": "Güneş ve rüzgâr gibi kaynaklardan elde edilen, çevreyi kirletmeyen enerjiye temiz enerji denir. Evlerin çatısına güneş panelleri koyarak elektrik üretebiliriz. Verimlilik, bir işi daha az enerjiyle yapmaktır. Az enerji harcayan lambalar ve cihazlar kullanmak verimliliği artırır. Evlerin iyi yalıtılması ısınmak için gereken enerjiyi azaltır. Toplu taşıma ya da bisiklet kullanmak da enerji tasarrufu sağlar.",
+     "points": [
+      "Güneş paneli temiz enerji üretir.",
+      "Yalıtım enerji kaybını azaltır."
+     ]
+    },
+    {
+     "title": "Gıda erişimi",
+     "text": "Herkesin yeterli ve sağlıklı besine ulaşabilmesine gıda erişimi denir. Sürdürülebilir bir yaşam alanında yiyecekler israf edilmez. Tabağımıza yiyebileceğimiz kadar yemek almalıyız. Evde ya da okulda küçük bahçeler kurarak sebze yetiştirebiliriz. Yerel üreticilerden alışveriş yapmak, ürünlerin uzaklardan taşınması için harcanan enerjiyi azaltır. Yemek artıklarından kompost yaparak toprağı besleyebiliriz. Kompost, toprağı doğal yoldan besler.",
+     "points": [
+      "Yemeği israf etme.",
+      "Okul bahçesinde sebze yetiştir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Sürdürülebilirlik",
+     "meaning": "Kaynakları gelecek nesillerin ihtiyacını da düşünerek kullanma."
+    },
+    {
+     "term": "Enerji",
+     "meaning": "İş yapabilme yeteneği."
+    },
+    {
+     "term": "Verimlilik",
+     "meaning": "Bir işi daha az kaynak ve enerjiyle yapabilme."
+    },
+    {
+     "term": "Temiz enerji",
+     "meaning": "Çevreyi kirletmeyen kaynaklardan elde edilen enerji."
+    },
+    {
+     "term": "Gıda erişimi",
+     "meaning": "Herkesin yeterli ve sağlıklı besine ulaşabilmesi."
+    },
+    {
+     "term": "Kompost",
+     "meaning": "Yemek ve bitki artıklarının çürütülmesiyle elde edilen doğal gübre."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Sürdürülebilirlik geleceği düşünmektir.",
+    "Güneş ve rüzgâr temiz enerji kaynaklarıdır.",
+    "Yemeği israf etmemeliyiz.",
+    "Küçük adımlar büyük fark yaratır."
+   ]
+  }
+ ]
+}

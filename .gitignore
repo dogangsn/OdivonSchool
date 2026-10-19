@@ -52,3 +52,6 @@ functions/lib/
 # Build sırasında üretilen sürüm dosyaları (scripts/write-version.js)
 src/environments/build-version.ts
 public/version.json
+
+# Defter Notları verisi (scripts/build-defter.js üretir)
+public/defter/

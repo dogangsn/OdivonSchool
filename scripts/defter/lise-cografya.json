@@ -1,0 +1,1918 @@
+{
+ "file": "lise-cografya",
+ "notes": [
+  {
+   "grade": 9,
+   "order": 1,
+   "intro": "Coğrafya, insan ile doğal ortam arasındaki karşılıklı etkileşimi mekân üzerinden inceleyen bir bilimdir. Bu ünitede coğrafyanın konusunu, bölümlerini ve tarih boyunca nasıl geliştiğini öğreniyoruz. Coğrafi bakış kazanmak, çevremizdeki olayların nedenlerini ve sonuçlarını anlamamızı sağlar.",
+   "sections": [
+    {
+     "title": "Coğrafyanın konusu ve bölümleri",
+     "text": "Coğrafya; yeryüzündeki doğal ve beşerî olayların nerede, neden orada ve nasıl dağıldığını araştırır. Doğal ortam, insan etkisi olmadan oluşan yeryüzü şekilleri, iklim, sular, toprak ve bitki örtüsünü kapsar. Beşerî ortam ise insanların oluşturduğu yerleşmeler, yollar, tarlalar ve fabrikalar gibi unsurlardan oluşur. Coğrafya iki ana bölüme ayrılır: Fiziki coğrafya doğal ortamı (iklim, yer şekilleri, sular, toprak, bitkiler) inceler. Beşerî coğrafya ise nüfus, yerleşme, ekonomik faaliyetler ve kültür gibi insan kaynaklı konuları inceler. Bu iki alan birbirinden kopuk değildir; örneğin iklim tarım ürünlerini, tarım ise yerleşmeyi etkiler.",
+     "points": [
+      "Fiziki coğrafya: klimatoloji, jeomorfoloji, hidrografya, biyocoğrafya.",
+      "Beşerî coğrafya: nüfus, yerleşme, ekonomi, siyasi coğrafya.",
+      "Coğrafya hem doğa hem sosyal bilimlerle ilişkilidir."
+     ]
+    },
+    {
+     "title": "Dünya'nın sistemleri: küreler",
+     "text": "Coğrafyacılar Dünya'yı birbiriyle etkileşim içinde olan sistemler olarak inceler. Taş küre (litosfer), yerkabuğu ve yeryüzü şekillerinden oluşan katı kısımdır. Su küre (hidrosfer), okyanuslar, denizler, göller, akarsular ve yer altı sularını kapsar. Hava küre (atmosfer), Dünya'yı saran gaz tabakasıdır ve iklim olaylarının yaşandığı yerdir. Buz küre (kriyosfer), buzullar, kalıcı kar örtüsü ve donmuş topraklardan oluşur. Yaşam küre (biyosfer) ise canlıların yaşadığı, diğer kürelerin kesiştiği alandır. Bir küredeki değişim diğerlerini de etkiler: örneğin atmosferdeki ısınma buz küredeki buzulların erimesine, bu da deniz seviyesinin yükselmesine yol açar.",
+     "points": [
+      "Litosfer: taş küre.",
+      "Hidrosfer: su küre.",
+      "Atmosfer: hava küre.",
+      "Kriyosfer: buz küre.",
+      "Biyosfer: yaşam küre."
+     ]
+    },
+    {
+     "title": "Coğrafi bakış ve coğrafyanın gelişimi",
+     "text": "Coğrafi bakış, bir olayı nerede olduğu, neden orada olduğu ve başka yerlerle nasıl bağlantılı olduğu sorularıyla incelemektir. Bu mekânsal düşünme biçimi, bir okulun, hastanenin ya da fabrikanın yerini seçmekten afet risklerini anlamaya kadar pek çok konuda karar vermemize yardım eder. Coğrafya çok eski bir bilimdir. Antik Yunan'da Eratosthenes Dünya'nın çevresini hesaplamış ve coğrafya kelimesini kullanmıştır. İslam ve Türk dünyasında Kaşgarlı Mahmut'un Divanü Lügati't-Türk'teki dünya haritası, Biruni'nin çalışmaları ve Piri Reis'in haritaları önemli katkılardır. Günümüzde coğrafya; uydu görüntüleri ve bilgisayar teknolojileriyle çalışan modern bir bilimdir.",
+     "points": [
+      "Coğrafi soru: Nerede? Neden orada? Nasıl etkiliyor?",
+      "Piri Reis, Kitab-ı Bahriye adlı denizcilik eserini yazmıştır.",
+      "Modern coğrafya teknolojiyle iç içedir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Coğrafya",
+     "meaning": "İnsan ile doğal ortam arasındaki etkileşimi mekân açısından inceleyen bilim."
+    },
+    {
+     "term": "Fiziki coğrafya",
+     "meaning": "Doğal ortamı inceleyen coğrafya bölümü."
+    },
+    {
+     "term": "Beşerî coğrafya",
+     "meaning": "İnsan faaliyetlerini ve bunların mekâna etkisini inceleyen bölüm."
+    },
+    {
+     "term": "Doğal ortam",
+     "meaning": "İnsan etkisi olmadan oluşmuş yeryüzü unsurlarının bütünü."
+    },
+    {
+     "term": "Beşerî ortam",
+     "meaning": "İnsanların oluşturduğu yerleşme, yol, tarla gibi unsurların bütünü."
+    },
+    {
+     "term": "Coğrafi bakış",
+     "meaning": "Olayları konum, dağılış ve bağlantı açısından değerlendirme."
+    },
+    {
+     "term": "Biyosfer",
+     "meaning": "Canlıların yaşadığı, diğer kürelerin kesiştiği alan."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Coğrafya insan ile doğa arasındaki etkileşimi inceler.",
+    "Coğrafya fiziki ve beşerî olmak üzere iki ana bölüme ayrılır.",
+    "Beş küre birbirini sürekli etkiler.",
+    "Coğrafi bakış, nerede ve neden sorularıyla başlar."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 2,
+   "intro": "Haritalar, yeryüzünü küçültülmüş ve sembollerle anlatılmış biçimde gösteren en önemli coğrafya araçlarıdır. Bu ünitede harita okumayı, konumu belirlemeyi, yerel ve ulusal saat farklarını, Türkiye'nin konum özelliklerini ve mekânsal bilgi teknolojilerini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Harita ve bileşenleri",
+     "text": "Harita, yeryüzünün tamamının veya bir parçasının belirli bir ölçeğe göre küçültülerek düzleme aktarılmış çizimidir. Bir haritada başlık, ölçek, lejant (açıklama), yön oku ve koordinat ağı bulunur. Ölçek, haritadaki uzunluğun gerçekteki uzunluğa oranıdır; 1:100 000 ölçekli haritada 1 cm gerçekte 1 km'yi gösterir. Paydası küçük olan ölçek büyük ölçektir ve daha ayrıntılı gösterir. Küre şeklindeki Dünya düzleme aktarılırken bazı bozulmalar olur; bu aktarma yöntemlerine projeksiyon denir. Yükseltiyi göstermek için izohipsler kullanılır. İzohips, aynı yükseklikteki noktaları birleştiren eğrilerdir; eğriler sıklaştıkça eğim artar, seyreldikçe azalır.",
+     "points": [
+      "Büyük ölçek: dar alan, çok ayrıntı.",
+      "Küçük ölçek: geniş alan, az ayrıntı.",
+      "İzohipsler birbirini kesmez.",
+      "Sık izohips dik yamaç demektir."
+     ]
+    },
+    {
+     "title": "Konum ve saat",
+     "text": "Bir yerin enlem ve boylam değerleriyle belirlenen yerine mutlak (matematik) konum denir. Bir yerin başka yerlere, denizlere veya dağlara göre durumuna göreceli (özel) konum denir. Enlemler Ekvator'dan kutuplara doğru, boylamlar ise başlangıç meridyeninden (Greenwich) doğuya ve batıya doğru sayılır. Dünya kendi ekseni etrafında 24 saatte döndüğü için iki meridyen arasında 4 dakikalık zaman farkı vardır. Güneş'in konumuna göre belirlenen saate yerel saat denir; doğudaki yerlerin yerel saati ileridedir. Ülkeler günlük yaşamda karışıklık olmaması için ortak bir saat kullanır; buna ulusal saat denir. Dünya bu amaçla saat dilimlerine ayrılmıştır. Türkiye ulusal saat olarak UTC+3'ü kullanır.",
+     "points": [
+      "İki meridyen arası 4 dakika.",
+      "Doğudaki yerin yerel saati ileridir.",
+      "Mutlak konum koordinatla, göreceli konum çevreyle ilgilidir."
+     ]
+    },
+    {
+     "title": "Türkiye'nin konumu",
+     "text": "Türkiye, yaklaşık 36° ile 42° kuzey enlemleri ve 26° ile 45° doğu boylamları arasında yer alır. Kuzey Yarım Küre'de, orta kuşakta bulunduğu için dört mevsim belirgin yaşanır. Doğusu ile batısı arasında yaklaşık 19 meridyen bulunduğundan iki uç arasında 76 dakikalık yerel saat farkı vardır. Göreceli konum bakımından Türkiye, Asya ve Avrupa kıtalarını birbirine bağlar; üç tarafı denizlerle çevrilidir. İstanbul ve Çanakkale boğazları Karadeniz'i Akdeniz'e bağlar. Enerji kaynaklarına yakınlığı ve önemli ticaret yollarının üzerinde bulunması Türkiye'ye jeopolitik önem kazandırır. Jeopolitik, coğrafi konumun bir ülkenin siyasi gücüne ve ilişkilerine etkisini inceler.",
+     "points": [
+      "Türkiye orta kuşaktadır, dört mevsim görülür.",
+      "Doğu-batı arası yerel saat farkı 76 dakikadır.",
+      "Boğazlar Türkiye'ye stratejik önem kazandırır."
+     ]
+    },
+    {
+     "title": "Mekânsal bilgi teknolojileri",
+     "text": "Mekânsal veri, bir yerin konumuyla birlikte o yere ait bilgiyi (nüfus, sıcaklık, yükselti gibi) içeren veridir. Mekânsal bilgi teknolojileri bu verileri toplar, depolar, analiz eder ve haritaya dönüştürür. Coğrafi bilgi sistemleri (CBS); donanım, yazılım, veri, insan ve yöntemden oluşan, mekânsal verileri katmanlar hâlinde işleyen sistemlerdir. Uzaktan algılama, yeryüzü hakkında uydular, uçaklar veya insansız hava araçlarıyla, cisme dokunmadan bilgi toplama yöntemidir. Küresel konum belirleme sistemleri ise uydu sinyalleriyle bir noktanın koordinatını belirler. Telefonlardaki harita uygulamaları bu teknolojilerin günlük hayattaki örnekleridir.",
+     "points": [
+      "CBS bileşenleri: donanım, yazılım, veri, insan, yöntem.",
+      "Uzaktan algılama temas olmadan veri toplar.",
+      "Navigasyon uygulamaları konum teknolojilerini kullanır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Harita",
+     "meaning": "Yeryüzünün ölçekle küçültülüp düzleme aktarılmış çizimi."
+    },
+    {
+     "term": "Ölçek",
+     "meaning": "Haritadaki uzunluğun gerçek uzunluğa oranı."
+    },
+    {
+     "term": "İzohips",
+     "meaning": "Aynı yükseltideki noktaları birleştiren eğri."
+    },
+    {
+     "term": "Projeksiyon",
+     "meaning": "Küre biçimli Dünya'nın düzleme aktarılma yöntemi."
+    },
+    {
+     "term": "Mutlak konum",
+     "meaning": "Bir yerin enlem ve boylamla belirlenen yeri."
+    },
+    {
+     "term": "Göreceli konum",
+     "meaning": "Bir yerin çevresindeki yerlere göre durumu."
+    },
+    {
+     "term": "Yerel saat",
+     "meaning": "Güneş'in konumuna göre belirlenen saat."
+    },
+    {
+     "term": "Coğrafi bilgi sistemleri (CBS)",
+     "meaning": "Mekânsal verileri toplayıp analiz eden ve haritalayan bilgisayar sistemleri."
+    }
+   ],
+   "example": {
+    "question": "1:500 000 ölçekli bir haritada iki şehir arası 6 cm ölçülüyor. Gerçek uzaklık kaç km'dir?",
+    "solution": "1. Gerçek uzunluk = harita uzunluğu × ölçek paydası.\n2. 6 cm × 500 000 = 3 000 000 cm.\n3. 1 km = 100 000 cm olduğundan 3 000 000 ÷ 100 000 = 30 km.\nSonuç: İki şehir arası gerçekte 30 km'dir."
+   },
+   "remember": [
+    "Ölçeğin paydası küçüldükçe ayrıntı artar.",
+    "İzohipsler sıklaştıkça eğim artar.",
+    "Her meridyen 4 dakikalık zaman farkı yaratır.",
+    "Türkiye Asya ile Avrupa arasında köprü konumundadır.",
+    "CBS verileri katmanlar hâlinde işler."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 3,
+   "intro": "Hava olayları giyimimizden tarımsal üretime kadar günlük hayatımızın her alanını etkiler. Bu ünitede Dünya'nın hareketlerini, iklim sistemini, sıcaklık, basınç, rüzgâr, nem ve yağış gibi iklim elemanlarını ve küresel iklim değişikliğini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Dünya'nın şekli ve hareketleri",
+     "text": "Dünya'nın kendine özgü şekline geoit denir; kutuplardan basık, Ekvator'dan şişkindir. Dünya kendi ekseni etrafında batıdan doğuya doğru yaklaşık 24 saatte döner; buna dönme (günlük) hareketi denir. Dönme sonucunda gece ile gündüz birbirini izler ve yerel saat farkları oluşur. Dünya ayrıca Güneş etrafında yaklaşık 365 gün 6 saatte dolanır. Dünya'nın ekseni yörünge düzlemine göre yaklaşık 23° 27' eğiktir. Bu eksen eğikliği ve dolanma hareketi sayesinde mevsimler oluşur, gece ve gündüz süreleri yıl içinde değişir ve güneşlenme süresi farklılaşır. Halk takvimindeki zemheri, cemre, kocakarı soğuğu gibi kavramlar, insanların mevsim değişimlerini yüzyıllardır gözlemlediğini gösterir.",
+     "points": [
+      "Dönme: gece-gündüz, 24 saat.",
+      "Dolanma + eksen eğikliği: mevsimler.",
+      "21 Haziran'da Kuzey Yarım Küre'de en uzun gündüz yaşanır."
+     ]
+    },
+    {
+     "title": "Hava, iklim ve iklim elemanları",
+     "text": "Hava durumu, kısa süreli atmosfer olaylarıdır; iklim ise geniş bir alanda uzun yıllar boyunca görülen ortalama hava koşullarıdır. İklim sistemi atmosfer, hidrosfer, kriyosfer, litosfer ve biyosferin etkileşimiyle oluşur. Sıcaklık; enlem, yükselti, denizellik-karasallık ve bakı gibi etkenlere bağlıdır. Ekvator'dan kutuplara ve yükseldikçe sıcaklık azalır. Denize yakın yerlerde sıcaklık farkları az (denizellik), iç kesimlerde fazladır (karasallık). Basınç, havanın yere yaptığı ağırlıktır. Rüzgâr, yüksek basınçtan alçak basınca doğru hareket eden havadır. Nem, havadaki su buharıdır; nemli hava yükselip soğuyunca yoğuşma olur ve yağış oluşur. Okyanus akıntıları da kıyıların sıcaklığını etkiler.",
+     "points": [
+      "Yükseltinin artmasıyla sıcaklık azalır.",
+      "Rüzgâr yüksek basınçtan alçak basınca eser.",
+      "Yağış türleri: yamaç, cephe, konveksiyonel.",
+      "Şehirler kırsala göre daha sıcaktır; buna kentsel ısı adası denir."
+     ]
+    },
+    {
+     "title": "İklim tipleri ve iklim değişikliği",
+     "text": "Sıcaklık ve yağış verileri bir yerin iklim tipini belirler; bu veriler genellikle sıcaklık-yağış grafikleriyle gösterilir. Türkiye'de üç ana iklim tipi görülür. Akdeniz ikliminde yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır. Karadeniz ikliminde her mevsim yağışlıdır ve sıcaklık farkları azdır. Karasal iklimde yazlar sıcak ve kurak, kışlar soğuk ve kar yağışlıdır. Küresel iklim değişikliği, özellikle fosil yakıt kullanımıyla artan sera gazları nedeniyle Dünya'nın ortalama sıcaklığının yükselmesidir. Bunun sonucunda buzullar erir, deniz seviyesi yükselir, kuraklık ve sel gibi aşırı hava olayları daha sık görülür. Bu olaylar tarımı, su kaynaklarını ve biyoçeşitliliği olumsuz etkiler.",
+     "points": [
+      "Akdeniz iklimi: yaz kurak, kış yağışlı.",
+      "Karadeniz iklimi: her mevsim yağışlı.",
+      "Karasal iklim: yaz-kış sıcaklık farkı büyük.",
+      "Aşırı hava olayları: sıcak hava dalgası, sel, şiddetli fırtına."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Geoit",
+     "meaning": "Dünya'nın kutuplardan basık, Ekvator'dan şişkin kendine özgü şekli."
+    },
+    {
+     "term": "Eksen eğikliği",
+     "meaning": "Dünya ekseninin yörünge düzlemine göre yaklaşık 23° 27' eğik olması."
+    },
+    {
+     "term": "İklim",
+     "meaning": "Bir yerde uzun yıllar boyunca görülen ortalama hava koşulları."
+    },
+    {
+     "term": "Karasallık",
+     "meaning": "Denizden uzak yerlerde sıcaklık farklarının büyük olması."
+    },
+    {
+     "term": "Denizellik",
+     "meaning": "Denizin etkisiyle sıcaklık farklarının az olması."
+    },
+    {
+     "term": "Kentsel ısı adası",
+     "meaning": "Şehirlerin çevresindeki kırsal alanlardan daha sıcak olması."
+    },
+    {
+     "term": "Küresel iklim değişikliği",
+     "meaning": "Sera gazı artışıyla Dünya ikliminde görülen uzun süreli değişim."
+    }
+   ],
+   "example": {
+    "question": "Deniz seviyesinde sıcaklık 20 °C iken 1500 m yükseklikteki bir dağın zirvesinde sıcaklık yaklaşık kaç °C olur? (Her 200 m'de sıcaklığın yaklaşık 1 °C azaldığını kabul edin.)",
+    "solution": "1. Yükselti farkı 1500 m'dir.\n2. 1500 ÷ 200 = 7,5; yani sıcaklık yaklaşık 7,5 °C azalır.\n3. 20 − 7,5 = 12,5 °C.\nSonuç: Zirvede sıcaklık yaklaşık 12,5 °C olur."
+   },
+   "remember": [
+    "Hava kısa süreli, iklim uzun süreli koşullardır.",
+    "Mevsimler eksen eğikliği ve dolanma ile oluşur.",
+    "Yükseldikçe sıcaklık ve basınç azalır.",
+    "Türkiye'de üç ana iklim tipi görülür.",
+    "İklim değişikliği aşırı hava olaylarını artırır."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 4,
+   "intro": "Nüfus, bir ülkenin en önemli kaynaklarından biridir. Bu ünitede nüfusun zaman içinde nasıl değiştiğini, nüfus yoğunluğunu ve göçü etkileyen etkenleri, nüfus piramitlerini ve ülkelerin uyguladığı nüfus politikalarını öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Nüfusun değişimi",
+     "text": "Nüfus artışı doğum, ölüm ve göçe bağlıdır. Bir yılda her bin kişiye düşen doğum sayısına doğum oranı, ölüm sayısına ölüm oranı denir. Nüfus artış hızı, nüfusun bir yıl içinde ne oranda arttığını gösterir. Dünya nüfusu sanayi devriminden sonra, özellikle sağlık hizmetlerinin gelişmesiyle ölüm oranları düşünce hızla artmıştır. Demografik dönüşüm, bir ülkenin yüksek doğum ve ölüm oranlarından düşük doğum ve ölüm oranlarına geçme sürecidir. Bu süreçte önce ölüm oranı düşer ve nüfus hızla artar; sonra doğum oranı da düşer ve artış yavaşlar. Gelişmiş ülkelerin çoğu bu dönüşümün son aşamalarındadır.",
+     "points": [
+      "Doğal artış = doğumlar − ölümler.",
+      "Gelişmiş ülkelerde doğum ve ölüm oranları düşüktür.",
+      "Ortanca yaş, nüfusu yaşa göre iki eşit parçaya bölen yaştır."
+     ]
+    },
+    {
+     "title": "Nüfus yoğunluğu ve göç",
+     "text": "Aritmetik nüfus yoğunluğu, bir ülkenin nüfusunun yüz ölçümüne bölünmesiyle bulunur ve kilometrekareye düşen kişi sayısını gösterir. Nüfus dünyada dengeli dağılmamıştır. Ilıman iklim, verimli düz araziler, su kaynakları, sanayi ve ulaşım olanakları nüfusu artırır. Aşırı soğuk veya kurak iklim, yüksek ve engebeli arazi ise nüfusu azaltır. Türkiye'de kıyı bölgeleri ve sanayileşmiş şehirler kalabalık, Doğu Anadolu'nun yüksek kesimleri ve İç Anadolu'nun bazı kurak alanları seyrek nüfusludur. Göç, insanların yaşadığı yeri değiştirmesidir. İş bulma, eğitim, sağlık hizmetleri gibi çekici etkenler ile işsizlik, savaş ve afet gibi itici etkenler göçe neden olur.",
+     "points": [
+      "Nüfus yoğunluğu = nüfus ÷ yüz ölçümü.",
+      "Türkiye'de en yaygın göç kırdan kente doğrudur.",
+      "Göç hem gönderen hem alan yeri etkiler."
+     ]
+    },
+    {
+     "title": "Nüfus piramitleri ve politikalar",
+     "text": "Nüfus piramitleri, nüfusun yaş gruplarına ve cinsiyete göre dağılımını gösteren grafiklerdir. Tabanı geniş, üstü dar piramit genç nüfusu ve yüksek doğum oranını gösterir; bu tür piramitler genellikle gelişmekte olan ülkelere aittir. Tabanı dar, üst kısmı genişlemiş piramit yaşlı nüfusu ve düşük doğum oranını gösterir; gelişmiş ülkelerde görülür. Çalışma çağındaki nüfusa (15-64 yaş) bakmakla yükümlü olunan çocuk ve yaşlılara bağımlı nüfus denir. Ülkeler nüfus sorunlarına göre nüfus politikaları uygular: doğum oranı çok yüksek ülkeler nüfus artışını yavaşlatmaya, yaşlanan ülkeler ise doğumları teşvik etmeye çalışır. Genç nüfus bir fırsattır, ancak eğitim ve istihdam sağlanmazsa soruna dönüşebilir.",
+     "points": [
+      "Geniş taban: genç nüfus.",
+      "Dar taban: yaşlanan nüfus.",
+      "Bağımlı nüfus: 0-14 ve 65 yaş üstü."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Doğum oranı",
+     "meaning": "Bir yılda her bin kişiye düşen doğum sayısı."
+    },
+    {
+     "term": "Ölüm oranı",
+     "meaning": "Bir yılda her bin kişiye düşen ölüm sayısı."
+    },
+    {
+     "term": "Nüfus artış hızı",
+     "meaning": "Nüfusun belirli bir sürede artış oranı."
+    },
+    {
+     "term": "Nüfus yoğunluğu",
+     "meaning": "Kilometrekareye düşen ortalama kişi sayısı."
+    },
+    {
+     "term": "Nüfus piramidi",
+     "meaning": "Nüfusun yaş ve cinsiyete göre dağılımını gösteren grafik."
+    },
+    {
+     "term": "Demografik dönüşüm",
+     "meaning": "Yüksek doğum-ölüm oranlarından düşük oranlara geçiş süreci."
+    },
+    {
+     "term": "Bağımlı nüfus",
+     "meaning": "Çalışma çağı dışındaki çocuk ve yaşlı nüfus."
+    },
+    {
+     "term": "Göç",
+     "meaning": "İnsanların yaşadığı yeri sürekli veya geçici olarak değiştirmesi."
+    }
+   ],
+   "example": {
+    "question": "Nüfusu 2 000 000, yüz ölçümü 40 000 km² olan bir ülkenin aritmetik nüfus yoğunluğu kaçtır?",
+    "solution": "1. Nüfus yoğunluğu = nüfus ÷ yüz ölçümü.\n2. 2 000 000 ÷ 40 000 = 50.\nSonuç: Bu ülkede kilometrekareye ortalama 50 kişi düşer."
+   },
+   "remember": [
+    "Nüfus doğum, ölüm ve göçle değişir.",
+    "Nüfus dağılışını doğal ve beşerî etkenler belirler.",
+    "Piramidin tabanı genişse nüfus gençtir.",
+    "Nüfus politikaları ülkenin ihtiyacına göre değişir."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 5,
+   "intro": "İnsanlar ihtiyaçlarını karşılamak için üretim, dağıtım ve tüketim faaliyetlerinde bulunur. Bu ünitede tarım, sanayi, ticaret gibi ekonomik faaliyetlerin nerede ve neden geliştiğini, bunları etkileyen doğal ve beşerî faktörleri öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Ekonomik faaliyetlerin döngüsü",
+     "text": "Ekonomik faaliyetler üretim, dağıtım ve tüketim aşamalarından oluşur. Üretim, doğal kaynakların işlenerek mal ve hizmete dönüştürülmesidir. Dağıtım, üretilen ürünlerin ulaşım ve ticaret yoluyla tüketiciye ulaştırılmasıdır. Tüketim ise mal ve hizmetlerin kullanılmasıdır. Bu üç aşama birbirine bağlıdır; örneğin buğday tarlada üretilir, kamyon ve trenlerle taşınır, un ve ekmek olarak tüketilir. Ekonomik faaliyetlerin bir yerde gelişmesi o yerin doğal koşullarına ve insanların sahip olduğu imkânlara bağlıdır. Bu nedenle her bölgenin ekonomik yapısı farklıdır.",
+     "points": [
+      "Üretim → dağıtım → tüketim.",
+      "Ulaşım ağı dağıtımın temelidir.",
+      "Gelir düzeyi tüketim miktarını etkiler."
+     ]
+    },
+    {
+     "title": "Doğal faktörler",
+     "text": "İklim, ekonomik faaliyetleri en çok etkileyen doğal faktördür. Sıcaklık ve yağış, hangi tarım ürünlerinin yetiştirileceğini belirler; örneğin muz ve turunçgiller sıcak ve nemli kıyılarda, buğday ise karasal iklimde yetişir. Topoğrafik faktörler yani yükselti ve eğim; düz ovalar tarım ve ulaşım için elverişlidir, dağlık alanlarda ise hayvancılık ve ormancılık öne çıkar. Toprak verimliliği tarımsal üretimi artırır. Su kaynakları sulama, sanayi ve enerji üretimi için gereklidir. Bitki örtüsü ormancılık ve hayvancılığı etkiler. Maden ve enerji gibi ham madde kaynakları, sanayinin kurulacağı yeri belirleyebilir.",
+     "points": [
+      "İklim tarım ürünlerinin dağılışını belirler.",
+      "Ovalar tarım ve yerleşme için uygundur.",
+      "Ham madde sanayinin yer seçimini etkiler."
+     ]
+    },
+    {
+     "title": "Beşerî faktörler",
+     "text": "Ekonomik faaliyetlerde insanın etkisi de büyüktür. Nüfus hem iş gücü hem de tüketici pazar oluşturur. Kalifiye iş gücü, yani eğitimli ve deneyimli çalışanlar, ileri teknoloji gerektiren sektörler için önemlidir. Sermaye, üretim için gereken para ve araç-gereçtir; sermayesi güçlü ülkeler yeni yatırımlar yapabilir. Teknoloji, aynı alandan daha fazla ürün almayı ve doğal koşulların olumsuz etkilerini azaltmayı sağlar; seracılık ve sulama buna örnektir. Coğrafi konum ve ulaşım olanakları ürünlerin pazara ulaşmasını kolaylaştırır. Devletin uyguladığı teşvikler ve gelir düzeyi de ekonomik faaliyetlerin gelişimini etkiler.",
+     "points": [
+      "İş gücü, sermaye ve teknoloji üretimi artırır.",
+      "Seracılık iklimin olumsuz etkisini azaltır.",
+      "Liman ve ana yollara yakınlık ticareti geliştirir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Üretim",
+     "meaning": "Kaynakların işlenerek mal ve hizmete dönüştürülmesi."
+    },
+    {
+     "term": "Dağıtım",
+     "meaning": "Ürünlerin tüketiciye ulaştırılması."
+    },
+    {
+     "term": "Tüketim",
+     "meaning": "Mal ve hizmetlerin kullanılması."
+    },
+    {
+     "term": "Ham madde",
+     "meaning": "Sanayide işlenecek doğal veya yarı işlenmiş madde."
+    },
+    {
+     "term": "İş gücü",
+     "meaning": "Üretimde çalışan insan gücü."
+    },
+    {
+     "term": "Sermaye",
+     "meaning": "Üretim için gereken para ve araç-gereç birikimi."
+    },
+    {
+     "term": "Teknoloji",
+     "meaning": "Bilginin üretimde araç ve yöntem olarak kullanılması."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Ekonomik faaliyetler üretim, dağıtım ve tüketimden oluşur.",
+    "İklim tarımı en çok etkileyen doğal faktördür.",
+    "Teknoloji doğal sınırlamaları azaltabilir.",
+    "Her bölgenin ekonomik yapısı coğrafi koşullarına göre farklıdır."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 6,
+   "intro": "Deprem, sel, heyelan gibi doğa olayları can ve mal kaybına yol açabilir. Bu ünitede tehlike, risk ve afet kavramları arasındaki farkı, afetlerin türlerini ve afet yönetiminin aşamalarını öğreniyoruz. Afetleri tanımak, onlara hazırlıklı olmanın ilk adımıdır.",
+   "sections": [
+    {
+     "title": "Tehlike, risk ve afet",
+     "text": "Tehlike, can ve mal kaybına yol açma potansiyeli olan bir olaydır; örneğin bir fay hattı üzerinde deprem olma ihtimali. Risk, bir tehlikenin belirli bir yerde zarar verme olasılığıdır ve insanların o tehlikeye ne kadar açık (maruz) olduğuna bağlıdır. Maruziyet, insanların, binaların ve altyapının tehlikeli alanda bulunmasıdır. Afet ise toplumun normal yaşamını durduran, kendi imkânlarıyla baş edemediği, can ve mal kaybına yol açan olaydır. Her doğa olayı afet değildir: ıssız bir alanda olan deprem bir ekstrem doğa olayıdır, ancak kalabalık bir şehirde yıkıma yol açarsa afete dönüşür. Bu nedenle afetleri belirleyen yalnızca doğa değil, insanın hazırlık düzeyidir.",
+     "points": [
+      "Tehlike: olası zararlı olay.",
+      "Risk: tehlike ve maruziyetin birleşimi.",
+      "Afet: toplumun baş edemediği kayıp."
+     ]
+    },
+    {
+     "title": "Afet türleri",
+     "text": "Afetler oluşum kaynaklarına göre sınıflandırılır. Jeolojik kökenli afetler yerin iç ve dış süreçlerinden kaynaklanır: deprem, volkanizma, heyelan ve tsunami. Meteorolojik ve iklimsel kökenli afetler atmosfer olaylarından kaynaklanır: sel, kuraklık, çığ, dolu, fırtına, hortum ve sıcak hava dalgası. Biyolojik kökenli afetler salgın hastalıklar ve tarım zararlıları gibi canlı kaynaklı olaylardır. Bunların yanında insan kaynaklı afetler de vardır: sanayi kazaları, büyük yangınlar ve kimyasal sızıntılar. Bazı afetler birbirini tetikleyebilir; örneğin şiddetli yağış heyelana, deniz altındaki deprem tsunamiye yol açabilir. Türkiye'de en çok can kaybına yol açan afet depremdir.",
+     "points": [
+      "Jeolojik: deprem, heyelan, volkanizma.",
+      "Meteorolojik: sel, kuraklık, çığ, fırtına.",
+      "Biyolojik: salgınlar.",
+      "İnsan kaynaklı: endüstriyel kazalar."
+     ]
+    },
+    {
+     "title": "Bütüncül afet yönetimi",
+     "text": "Bütüncül afet yönetimi, afet öncesi, sırası ve sonrasında yapılacak çalışmaların bir döngü hâlinde planlanmasıdır. Afet öncesinde zarar azaltma ve hazırlık yapılır: tehlike haritaları hazırlanır, binalar dayanıklı yapılır, tatbikatlar düzenlenir ve erken uyarı sistemleri kurulur. Afet anında müdahale aşamasında arama-kurtarma, ilk yardım ve barınma hizmetleri sunulur. Afet sonrasında iyileştirme ve yeniden yapılanma ile yaşam normale döndürülür. Türkiye'de bu çalışmaları AFAD koordine eder. Yeşil Vatan anlayışı ise ağaçlandırma ve doğayı koruma yoluyla sel, erozyon ve heyelan gibi afetlerin etkisini azaltmayı da amaçlar.",
+     "points": [
+      "Hazırlık afet öncesinde yapılır.",
+      "Erken uyarı sistemleri can kaybını azaltır.",
+      "Afet çantası her evde hazır olmalıdır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Tehlike",
+     "meaning": "Zarar verme potansiyeli taşıyan olay veya durum."
+    },
+    {
+     "term": "Risk",
+     "meaning": "Bir tehlikenin belirli bir yerde zarara yol açma olasılığı."
+    },
+    {
+     "term": "Maruziyet",
+     "meaning": "İnsan ve yapıların tehlikeli bir alanda bulunması."
+    },
+    {
+     "term": "Afet",
+     "meaning": "Toplumun kendi imkânlarıyla baş edemediği, kayba yol açan olay."
+    },
+    {
+     "term": "Ekstrem doğa olayı",
+     "meaning": "Olağan dışı şiddette gerçekleşen doğa olayı."
+    },
+    {
+     "term": "Erken uyarı sistemi",
+     "meaning": "Tehlikeyi önceden tespit edip insanları uyaran sistem."
+    },
+    {
+     "term": "Bütüncül afet yönetimi",
+     "meaning": "Afet öncesi, sırası ve sonrasını kapsayan planlı yönetim."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Her doğa olayı afet değildir.",
+    "Riski azaltmak afetin etkisini azaltır.",
+    "Afetler kaynaklarına göre sınıflandırılır.",
+    "Afet yönetimi bir döngüdür: hazırlık, müdahale, iyileştirme."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 7,
+   "intro": "Coğrafyacılar yeryüzünü daha kolay incelemek için benzer özellikteki alanları bölgelere ayırır. Bu ünitede bölgenin ne olduğunu, bölgelerin hangi ölçütlere göre belirlendiğini ve şekilsel ile işlevsel bölge arasındaki farkı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Bölge nedir?",
+     "text": "Bölge, bir veya birkaç özellik bakımından benzerlik gösteren ve bu özellikleriyle çevresinden ayrılan alandır. Bölgeler belirlenirken iklim, yer şekilleri, bitki örtüsü gibi doğal ölçütler veya nüfus, dil, ekonomik faaliyet, kültür gibi beşerî ölçütler kullanılabilir. Seçilen ölçüte göre aynı yer farklı bölgelere dâhil edilebilir; örneğin Antalya iklim bakımından Akdeniz iklim bölgesinde, ekonomik açıdan ise turizm bölgesinde yer alır. Bölgelerin sınırları genellikle keskin değildir; bir bölgeden diğerine geçiş alanları vardır. Türkiye'nin coğrafi bölgeleri 1941'de toplanan Birinci Coğrafya Kongresi'nde belirlenmiştir.",
+     "points": [
+      "Bölge belirlemede doğal veya beşerî ölçüt kullanılır.",
+      "Bölge sınırları genellikle geçişlidir.",
+      "Türkiye yedi coğrafi bölgeye ayrılmıştır."
+     ]
+    },
+    {
+     "title": "Şekilsel ve işlevsel bölge",
+     "text": "Şekilsel (formal) bölge, belirli bir özelliğin alan içinde benzer biçimde görüldüğü bölgedir. İklim bölgeleri, tarım bölgeleri, bitki örtüsü bölgeleri ve dil bölgeleri şekilsel bölgelere örnektir. İşlevsel (fonksiyonel) bölge ise bir merkez ile onun etkilediği çevre arasındaki ilişkiye göre belirlenir. Bu bölgede merkez ile çevre arasında mal, hizmet, insan ve bilgi akışı vardır. Bir şehrin ticaret ve hizmet etki alanı, bir limanın hizmet verdiği art bölge (hinterland), bir televizyon kanalının yayın alanı işlevsel bölgelere örnektir. İşlevsel bölgelerin sınırları merkezin gücüne göre zamanla genişleyip daralabilir.",
+     "points": [
+      "Şekilsel bölge: benzerliğe dayanır.",
+      "İşlevsel bölge: merkez ile çevre arasındaki ilişkiye dayanır.",
+      "Bir limanın art bölgesi işlevsel bölgeye örnektir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Bölge",
+     "meaning": "Bir veya birkaç özellik bakımından benzerlik gösteren alan."
+    },
+    {
+     "term": "Şekilsel bölge",
+     "meaning": "Belirli bir özelliğin benzer görüldüğü alana göre belirlenen bölge."
+    },
+    {
+     "term": "İşlevsel bölge",
+     "meaning": "Bir merkez ve onun etkilediği çevre arasındaki ilişkiye göre belirlenen bölge."
+    },
+    {
+     "term": "Bölge ölçütü",
+     "meaning": "Bölgeyi belirlemek için kullanılan doğal veya beşerî özellik."
+    },
+    {
+     "term": "Hinterland (art bölge)",
+     "meaning": "Bir limanın veya merkezin hizmet verdiği gerisindeki alan."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Bölgeler seçilen ölçüte göre değişir.",
+    "Şekilsel bölge benzerliğe, işlevsel bölge ilişkiye dayanır.",
+    "Bölge sınırları keskin değildir.",
+    "Bir yer aynı anda birden fazla bölgeye ait olabilir."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 1,
+   "intro": "Coğrafyacılar olayları incelerken bazı temel kavramları birer düşünme aracı olarak kullanır. Bu ünitede konum, mekân, dağılış, hareket, değişim ve zaman kavramlarını ve bunlarla bir olayın coğrafi olarak nasıl yorumlanacağını öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Coğrafyanın temel kavramları",
+     "text": "Konum, bir yerin yeryüzündeki yeridir; koordinatlarla belirlenen mutlak konum ve çevresine göre tanımlanan göreceli konum olarak ikiye ayrılır. Mekân, insanın yaşadığı, doğal ve beşerî unsurların bir araya geldiği yerdir ve kendine özgü özellikler taşır. Dağılış, bir olgunun yeryüzüne nasıl yayıldığını gösterir; örneğin zeytin ağaçlarının kıyı bölgelerde toplanması. Hareket, insanların, malların, bilginin ve maddelerin yer değiştirmesidir; göç, ticaret ve rüzgârlar buna örnektir. Değişim, mekânın zaman içinde farklılaşmasıdır; bir köyün şehre dönüşmesi gibi. Zaman ise bu değişimlerin hangi süreçte gerçekleştiğini anlamamızı sağlar.",
+     "points": [
+      "Konum: Nerede?",
+      "Dağılış: Nasıl yayılmış?",
+      "Hareket: Ne nereye taşınıyor?",
+      "Değişim ve zaman: Nasıl ve ne kadar sürede farklılaşmış?"
+     ]
+    },
+    {
+     "title": "Kavramlarla bir olayı yorumlamak",
+     "text": "Coğrafi bakış, bir olayı bu kavramların hepsini kullanarak bütüncül biçimde ele almaktır. Örneğin bir şehirde yeni bir havalimanının kurulmasını düşünelim. Konum açısından şehre ve ana yollara ne kadar yakın olduğu incelenir. Mekân açısından arazinin düzlüğü ve rüzgâr koşulları değerlendirilir. Hareket açısından yolcu ve yük akışının artışı ele alınır. Dağılış açısından çevresinde otel, depo ve lojistik firmalarının nasıl yayıldığı görülür. Değişim ve zaman açısından ise yıllar içinde çevrenin tarım alanından yerleşim ve ticaret alanına dönüşmesi izlenir. Böylece tek bir olay, birbirine bağlı pek çok coğrafi süreçle açıklanır.",
+     "points": [
+      "Coğrafi olaylar birbirine bağlıdır.",
+      "Aynı olay farklı kavramlarla zenginleşir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Konum",
+     "meaning": "Bir yerin yeryüzündeki yeri."
+    },
+    {
+     "term": "Mekân",
+     "meaning": "Doğal ve beşerî unsurların bir araya geldiği yaşam alanı."
+    },
+    {
+     "term": "Dağılış",
+     "meaning": "Bir olgunun yeryüzüne yayılış biçimi."
+    },
+    {
+     "term": "Hareket",
+     "meaning": "İnsan, mal, bilgi veya maddenin yer değiştirmesi."
+    },
+    {
+     "term": "Değişim",
+     "meaning": "Mekânın zaman içinde farklılaşması."
+    },
+    {
+     "term": "Zaman",
+     "meaning": "Coğrafi süreçlerin gerçekleştiği süre."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Coğrafyanın temel kavramları birer düşünme aracıdır.",
+    "Coğrafi bakış olayları bütüncül ele alır.",
+    "Mekânlar zamanla değişir.",
+    "Her olayın bir konumu ve dağılışı vardır."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 2,
+   "intro": "Uydular ve bilgisayarlar sayesinde yeryüzü hakkında çok hızlı ve ayrıntılı bilgi toplayabiliyoruz. Bu ünitede coğrafi bilgi sistemleri (CBS) ile uzaktan algılamanın hangi alanlarda kullanıldığını ve altlık haritalar üzerinde nasıl veri oluşturulduğunu öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Uzaktan algılama ve uydu görüntüleri",
+     "text": "Uzaktan algılama, yeryüzündeki nesneler hakkında onlara dokunmadan, uydu, uçak veya insansız hava aracındaki algılayıcılarla bilgi toplamaktır. Algılayıcılar yeryüzünden yansıyan veya yayılan enerjiyi kaydeder ve bu kayıtlar uydu görüntüsüne dönüştürülür. Uydu görüntüleri; orman yangınlarının izlenmesi, sel ve deprem sonrası hasar tespiti, tarım ürünlerinin takibi, buzulların erimesi, kentlerin büyümesi ve hava tahmini gibi pek çok alanda kullanılır. Aynı yerin farklı yıllara ait görüntüleri karşılaştırılarak değişim izlenebilir; örneğin bir gölün zamanla küçülmesi veya bir şehrin genişlemesi açıkça görülebilir.",
+     "points": [
+      "Uzaktan algılama temas gerektirmez.",
+      "Farklı yıllara ait görüntüler değişimi gösterir.",
+      "Meteoroloji uydu verileriyle tahmin yapar."
+     ]
+    },
+    {
+     "title": "CBS ve kullanım alanları",
+     "text": "CBS, konuma bağlı verileri toplayan, depolayan, sorgulayan, analiz eden ve harita olarak gösteren sistemlerdir. Veriler katmanlar hâlinde tutulur: yollar bir katman, akarsular bir katman, binalar başka bir katmandır. Bu katmanlar üst üste getirilerek analiz yapılır. CBS; şehir planlamasında okul ve hastane yerinin seçilmesinde, afet risk haritalarının hazırlanmasında, ulaşım ve navigasyonda, tarım ve orman yönetiminde, altyapı ağlarının izlenmesinde kullanılır. Örneğin bir belediye, deprem riskli alanları, nüfus yoğunluğunu ve toplanma alanlarını katmanlar hâlinde çakıştırarak afet planı yapabilir.",
+     "points": [
+      "CBS verileri katmanlar hâlinde işler.",
+      "Uzaktan algılama CBS'ye veri sağlar.",
+      "CBS karar vermeyi kolaylaştırır."
+     ]
+    },
+    {
+     "title": "Altlık harita üzerinde veri oluşturmak",
+     "text": "Altlık harita, üzerine yeni bilgiler eklenecek temel haritadır; genellikle sınırları, yolları ve yer şekillerini gösterir. Öğrenciler de dijital harita uygulamalarında altlık harita üzerine kendi verilerini ekleyebilir. Veri, nokta (okul, çeşme), çizgi (yol, akarsu) veya alan (park, göl) olarak çizilir. Her nesneye ad, tür veya sayı gibi bilgiler eklenir. Örneğin okulunuzun çevresindeki parkları alan, otobüs duraklarını nokta, bisiklet yollarını çizgi olarak işaretleyip bir harita hazırlayabilirsiniz. Haritaya başlık, lejant ve ölçek eklemek, haritanın doğru okunmasını sağlar.",
+     "points": [
+      "Veri türleri: nokta, çizgi, alan.",
+      "Her haritada başlık ve lejant olmalıdır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "CBS",
+     "meaning": "Mekânsal verileri toplayıp analiz eden ve haritalayan sistem."
+    },
+    {
+     "term": "Uzaktan algılama",
+     "meaning": "Yeryüzü hakkında temas etmeden uzaktan bilgi toplama."
+    },
+    {
+     "term": "Uydu görüntüsü",
+     "meaning": "Uydulardaki algılayıcıların kaydettiği yeryüzü görüntüsü."
+    },
+    {
+     "term": "Veri",
+     "meaning": "Analiz edilmek üzere toplanan bilgi."
+    },
+    {
+     "term": "Katman",
+     "meaning": "CBS'de aynı türden verilerin bulunduğu harita tabakası."
+    },
+    {
+     "term": "Altlık harita",
+     "meaning": "Üzerine yeni veri eklenen temel harita."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Uzaktan algılama veri toplar, CBS bu veriyi işler.",
+    "Katmanlar üst üste getirilerek analiz yapılır.",
+    "Uydu görüntüleri zaman içindeki değişimi gösterir.",
+    "Haritalarda nokta, çizgi ve alan verileri kullanılır."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 3,
+   "intro": "Dağlar, ovalar, vadiler ve mağaralar gibi yeryüzü şekilleri milyonlarca yıl süren doğal süreçlerle oluşmuştur. Bu ünitede yerkürenin iç yapısını, levha hareketlerini, depremleri, volkanizmayı ve akarsu, rüzgâr, buzul, dalga ve karstlaşma gibi dış süreçleri öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Yerkürenin yapısı ve jeolojik zaman",
+     "text": "Yerküre içten dışa doğru çekirdek, manto ve yerkabuğu katmanlarından oluşur. Yerkabuğu ve mantonun üst kısmı birlikte taş küreyi oluşturur. Yerkabuğu, levha adı verilen büyük parçalara bölünmüştür. Bu levhalar mantodaki konveksiyon (ısı) akımları nedeniyle çok yavaş hareket eder. Dünya'nın yaklaşık 4,6 milyar yıllık tarihi jeolojik zamanlara ayrılır. Kayaçlar oluşumlarına göre üç gruptur: magmanın soğumasıyla oluşan katılaşım (magmatik) kayaçlar, birikimle oluşan tortul kayaçlar, sıcaklık ve basınçla değişen başkalaşım kayaçları. Kayaçlar zamanla birbirine dönüşür; buna kayaç döngüsü denir. Günümüzde insanın yeryüzü üzerindeki etkisi o kadar artmıştır ki bazı bilim insanları bu döneme antroposen (insan çağı) adını verir.",
+     "points": [
+      "Yer katmanları: yerkabuğu, manto, çekirdek.",
+      "Kayaç türleri: katılaşım, tortul, başkalaşım.",
+      "Mermer bir başkalaşım kayacıdır."
+     ]
+    },
+    {
+     "title": "İç kuvvetler: tektonizma, deprem, volkanizma",
+     "text": "Yer şekillerini oluşturan iç kuvvetler enerjisini yerin içinden alır. Levhaların birbirine yaklaşması, uzaklaşması veya yan yana kayması tektonik hareketleri oluşturur. Kıvrılma ve kırılma sonucu dağların oluşmasına orojenez (dağ oluşumu) denir. Yerkabuğundaki kırık hatlarına fay denir. Fay boyunca biriken enerjinin aniden açığa çıkmasıyla oluşan sarsıntılar depremdir. Türkiye, Avrasya, Afrika ve Arap levhalarının etkileşim alanında bulunduğu için deprem riski yüksek bir ülkedir; Kuzey Anadolu ve Doğu Anadolu fay hatları önemli fay zonlarıdır. Volkanizma, magmanın yeryüzüne veya yerkabuğunun içine sokulmasıdır. Türkiye'de Ağrı, Erciyes, Hasan ve Nemrut dağları volkanik dağlara örnektir. Yer altındaki sıcak sular jeotermal enerji kaynağıdır.",
+     "points": [
+      "Türkiye aktif fay hatları üzerindedir.",
+      "Volkanik araziler verimli topraklar oluşturur.",
+      "Jeotermal enerji seracılık ve ısınmada kullanılır."
+     ]
+    },
+    {
+     "title": "Dış kuvvetler: aşınma, taşınma, birikme",
+     "text": "Dış kuvvetler enerjisini Güneş'ten ve yer çekiminden alır; iç kuvvetlerin oluşturduğu yükseltileri aşındırıp düzlemeye çalışır. Akarsular vadiler, kanyonlar ve menderesler oluşturur; taşıdıkları alüvyonları biriktirerek delta ve alüvyal ovalar meydana getirir. Rüzgâr, kurak bölgelerde kumul ve mantar kaya oluşturur. Buzullar sirk ve buzul vadileri açar. Dalgalar kıyılarda falez ve kumsal oluşturur. Karstlaşma, kireç taşı gibi suda çözünebilen kayaçların karbondioksitli sularla çözünmesidir; bu süreçle mağaralar, obruklar ve traverten basamakları oluşur (Pamukkale travertenleri gibi). Aşınmanın şekli iklime ve kayaç türüne bağlıdır: nemli iklimde kimyasal çözünme, kurak iklimde fiziksel parçalanma ve rüzgâr aşındırması baskındır.",
+     "points": [
+      "Delta: akarsuyun denize döküldüğü yerde biriktirdiği alüvyal düzlük.",
+      "Karstik şekiller kireç taşı arazilerde görülür.",
+      "Mağaralardaki sarkıt ve dikitler birikim şekilleridir.",
+      "Yer şekilleri yerleşme ve tarımı doğrudan etkiler."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Levha",
+     "meaning": "Yerkabuğunu oluşturan, hareket eden büyük parçalar."
+    },
+    {
+     "term": "Fay",
+     "meaning": "Yerkabuğundaki kırık hattı."
+    },
+    {
+     "term": "Deprem",
+     "meaning": "Fay boyunca biriken enerjinin aniden boşalmasıyla oluşan sarsıntı."
+    },
+    {
+     "term": "Volkanizma",
+     "meaning": "Magmanın yerkabuğuna sokulması veya yeryüzüne çıkması."
+    },
+    {
+     "term": "Orojenez",
+     "meaning": "Kıvrılma ve kırılmalarla dağ oluşumu."
+    },
+    {
+     "term": "Karstlaşma",
+     "meaning": "Kireç taşı gibi kayaçların su ile çözünmesi süreci."
+    },
+    {
+     "term": "Alüvyal",
+     "meaning": "Akarsuların taşıyıp biriktirdiği malzemeden oluşan."
+    },
+    {
+     "term": "Kayaç döngüsü",
+     "meaning": "Kayaçların zamanla birbirine dönüşmesi süreci."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "İç kuvvetler yükseltir, dış kuvvetler aşındırıp düzler.",
+    "Türkiye deprem riski yüksek bir ülkedir.",
+    "Akarsular en etkili dış kuvvettir.",
+    "Karstik şekiller çözünmeyle oluşur.",
+    "Yer şekilleri insan faaliyetlerini etkiler."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 4,
+   "intro": "İnsanlar yaşamak için su, verimli toprak ve güvenli yerler aramış, böylece köyler ve şehirler kurmuştur. Bu ünitede yerleşme yerlerinin seçiminde etkili olan coğrafi faktörleri ve yerleşmelerin işlevlerine göre nasıl sınıflandırıldığını öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Yerleşme yeri seçimi",
+     "text": "Yerleşme, insanların barınmak ve faaliyetlerini sürdürmek için oluşturduğu yaşam alanıdır. İlk yerleşmeler genellikle su kaynaklarının yakınında, verimli ovalarda ve güvenli tepelerde kurulmuştur. Doğal faktörler arasında su kaynakları, iklim, yer şekilleri, toprak verimliliği ve doğal afet riski yer alır. Beşerî faktörler ise ulaşım yollarına yakınlık, savunma, ticaret, maden ve sanayi olanaklarıdır. Örneğin pek çok tarihî şehir ticaret yolları üzerinde veya boğaz ve limanlar gibi stratejik noktalarda gelişmiştir. Yerleşmelerin gelişimi de bu faktörlere bağlıdır: bağlantıları güçlü, ekonomik olanakları fazla olan yerleşmeler büyür, olanakları azalanlar ise nüfus kaybeder.",
+     "points": [
+      "Su kaynağı en eski yerleşme faktörüdür.",
+      "Kavşak noktaları ticaret şehirlerini doğurur.",
+      "Afet riski taşıyan alanlar yerleşmeye uygun değildir."
+     ]
+    },
+    {
+     "title": "Kır ve şehir yerleşmeleri",
+     "text": "Yerleşmeler kır ve şehir olarak ikiye ayrılır. Kır yerleşmelerinde nüfus azdır ve halk çoğunlukla tarım, hayvancılık ve ormancılıkla geçinir. Türkiye'de köyün yanında mezra, yayla, kom ve dam gibi geçici veya küçük kır yerleşmeleri vardır. Şehir yerleşmelerinde nüfus fazladır; sanayi, ticaret ve hizmet faaliyetleri ön plandadır. Şehirler eğitim, sağlık, kültür ve yönetim hizmetlerinin merkezidir. Kırdan kente göç ve sanayileşme ile şehirler büyümüştür. Şehirleşme fırsatlar yaratırken trafik, çevre kirliliği ve plansız yapılaşma gibi sorunlara da yol açabilir.",
+     "points": [
+      "Kır: tarım ve hayvancılık ağırlıklı.",
+      "Şehir: sanayi, ticaret ve hizmet ağırlıklı.",
+      "Yayla geçici bir kır yerleşmesidir."
+     ]
+    },
+    {
+     "title": "Yerleşmelerin fonksiyonları",
+     "text": "Şehirler ağırlıklı olarak yaptıkları işe göre sınıflandırılır; buna yerleşme fonksiyonu denir. Sanayi şehirleri fabrika ve üretim tesislerinin yoğun olduğu yerlerdir. Liman şehirleri deniz ticaretiyle gelişmiştir. Ticaret şehirleri ulaşım kavşaklarında yer alır. Turizm şehirleri doğal güzellikleri veya tarihî eserleriyle ziyaretçi çeker. Yönetim şehirleri başkentler gibi idari merkezlerdir. Maden şehirleri yer altı kaynaklarının çıkarıldığı yerlerde kurulmuştur. Ayrıca kültür, eğitim, din ve sağlık fonksiyonlu şehirler de vardır. Büyük şehirler genellikle birden fazla fonksiyona sahiptir; örneğin İstanbul hem sanayi, hem ticaret, hem liman, hem de turizm şehridir.",
+     "points": [
+      "Ankara yönetim fonksiyonuyla öne çıkar.",
+      "Zonguldak taş kömürü madenciliğiyle gelişmiştir.",
+      "Büyük şehirler çok fonksiyonludur."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Yerleşme",
+     "meaning": "İnsanların barınmak ve faaliyetlerini sürdürmek için kurduğu yaşam alanı."
+    },
+    {
+     "term": "Şehir",
+     "meaning": "Nüfusu fazla, sanayi, ticaret ve hizmet faaliyetlerinin ağırlıklı olduğu yerleşme."
+    },
+    {
+     "term": "Yerleşme fonksiyonu",
+     "meaning": "Bir yerleşmenin ağırlıklı olarak üstlendiği ekonomik veya sosyal işlev."
+    },
+    {
+     "term": "Konum",
+     "meaning": "Yerleşmenin bulunduğu yer ve çevresine göre durumu."
+    },
+    {
+     "term": "Bağlantı",
+     "meaning": "Yerleşmenin ulaşım ve ilişkilerle diğer yerlere bağlanması."
+    },
+    {
+     "term": "Mekân",
+     "meaning": "Yerleşmenin doğal ve beşerî unsurlarıyla oluşturduğu alan."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Yerleşme yeri seçiminde su, toprak ve güvenlik önemlidir.",
+    "Kır ve şehir yerleşmelerinin ekonomik faaliyetleri farklıdır.",
+    "Şehirler fonksiyonlarına göre sınıflandırılır.",
+    "Büyük şehirler birden fazla fonksiyona sahiptir."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 5,
+   "intro": "Ülkelerin ekonomisi tarım, sanayi ve hizmet gibi farklı sektörlerden oluşur. Bu ünitede ekonomik faaliyetlerin sektörlere göre sınıflandırılmasını, ülkelerin gelişmişlik düzeyinin nasıl ölçüldüğünü ve sektörlerin Türkiye ekonomisindeki yerini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Ekonomik sektörler",
+     "text": "Ekonomik faaliyetler sektörlere ayrılır. Birincil sektör doğal kaynakların doğrudan kullanıldığı faaliyetlerdir: tarım, hayvancılık, ormancılık, balıkçılık ve madencilik. İkincil sektör ham maddelerin işlenerek ürüne dönüştürüldüğü sanayi ve inşaat faaliyetleridir. Üçüncül sektör hizmetlerden oluşur: ticaret, ulaşım, turizm, eğitim ve sağlık. Bazı kaynaklarda bilgi teknolojileri, araştırma ve yönetim gibi faaliyetler dördüncül sektör olarak ayrıca ele alınır. Örneğin pamuğun tarlada yetiştirilmesi birincil, fabrikada kumaşa dönüştürülmesi ikincil, mağazada satılması üçüncül sektöre girer.",
+     "points": [
+      "Birincil: doğadan doğrudan yararlanma.",
+      "İkincil: işleme ve üretim.",
+      "Üçüncül: hizmet.",
+      "Dördüncül: bilgi ve teknoloji odaklı hizmetler."
+     ]
+    },
+    {
+     "title": "Gelişmişlik ve ölçütleri",
+     "text": "Ülkelerin ekonomik büyüklüğünü ölçmek için bazı göstergeler kullanılır. Gayrisafi yurt içi hasıla (GSYİH), bir ülkenin sınırları içinde bir yılda üretilen tüm mal ve hizmetlerin değeridir. Gayrisafi millî hasıla (GSMH) ise bir ülkenin vatandaşlarının yurt içi ve yurt dışında ürettiği mal ve hizmetlerin değeridir. Kişi başına düşen gelir, bu değerin nüfusa bölünmesiyle bulunur. Ancak gelişmişlik yalnızca gelirle ölçülmez; eğitim düzeyi, ortalama yaşam süresi ve sağlık hizmetleri de önemlidir. Gelişmiş ülkelerde çalışanların çoğu hizmet ve sanayi sektöründe, az gelişmiş ülkelerde ise tarım sektöründedir. İstihdam, çalışma çağındaki insanların bir işte çalışmasıdır.",
+     "points": [
+      "Gelişmiş ülke: hizmet sektörü payı yüksek.",
+      "Az gelişmiş ülke: tarım sektörü payı yüksek.",
+      "Gelişmişlik eğitim ve sağlıkla da ölçülür."
+     ]
+    },
+    {
+     "title": "Türkiye ekonomisinde sektörler",
+     "text": "Türkiye'de geçmişte nüfusun büyük çoğunluğu tarımla geçinirken sanayileşme ve şehirleşmeyle birlikte sanayi ve hizmet sektörlerinin payı artmıştır. Günümüzde hem istihdamda hem de üretilen değerde en büyük payı hizmet sektörü almaktadır. Tarım hâlâ önemlidir; Türkiye fındık, kayısı ve incir gibi ürünlerde dünyanın önde gelen üreticileri arasındadır. Sanayide otomotiv, tekstil, beyaz eşya, demir-çelik ve gıda sektörleri öne çıkar. Turizm, döviz geliri sağlayan önemli bir hizmet faaliyetidir. Sektörlerin payını göstermek için daire veya sütun grafikleri kullanılabilir. Bu grafikler bir ülkenin ekonomik yapısını ve gelişmişlik düzeyini kolayca karşılaştırmamızı sağlar.",
+     "points": [
+      "Türkiye'de hizmet sektörünün payı en yüksektir.",
+      "Sektör payları daire grafiğiyle gösterilebilir.",
+      "Turizm önemli bir döviz kaynağıdır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Ekonomik faaliyet",
+     "meaning": "İnsanların ihtiyaçlarını karşılamak için yaptığı üretim, dağıtım ve tüketim işleri."
+    },
+    {
+     "term": "Ekonomik sektör",
+     "meaning": "Benzer ekonomik faaliyetlerin oluşturduğu grup."
+    },
+    {
+     "term": "GSYİH",
+     "meaning": "Bir ülke sınırları içinde bir yılda üretilen mal ve hizmetlerin toplam değeri."
+    },
+    {
+     "term": "GSMH",
+     "meaning": "Bir ülke vatandaşlarının yurt içi ve dışında ürettiği mal ve hizmetlerin toplam değeri."
+    },
+    {
+     "term": "Gelişmişlik",
+     "meaning": "Bir ülkenin ekonomik ve sosyal refah düzeyi."
+    },
+    {
+     "term": "İstihdam",
+     "meaning": "Çalışma çağındaki insanların bir işte çalıştırılması."
+    }
+   ],
+   "example": {
+    "question": "Bir ülkede çalışanların yüzde 55'i hizmet, yüzde 30'u sanayi, yüzde 15'i tarım sektöründedir. Bu ülkenin gelişmişlik düzeyi hakkında ne söylenebilir?",
+    "solution": "1. Hizmet sektörünün payı en yüksektir.\n2. Tarımın payı düşüktür.\n3. Bu dağılım, sanayileşmesini büyük ölçüde tamamlamış, gelişmiş veya gelişmişliğe yakın bir ülkeyi gösterir.\n4. Kesin yargı için eğitim ve sağlık göstergelerine de bakılmalıdır."
+   },
+   "remember": [
+    "Ekonomik faaliyetler sektörlere ayrılır.",
+    "GSYİH sınırlar içindeki, GSMH vatandaşların üretimidir.",
+    "Gelişmişlik arttıkça tarımın payı azalır.",
+    "Türkiye'de hizmet sektörünün payı en yüksektir."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 6,
+   "intro": "Afetleri tamamen önleyemeyiz ama etkilerini büyük ölçüde azaltabiliriz. Bu ünitede afete dirençli toplum ve yaşam alanının özelliklerini, afetlerle mücadelede iyi uygulama örneklerini ve afet bilincinin önemini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Afete dirençli yaşam alanları",
+     "text": "Afete dirençli yaşam alanı, afetlerin etkisini en aza indirecek şekilde planlanmış yerleşmedir. Bu tür alanlar fay hatları, dere yatakları, heyelan riski olan yamaçlar ve dolgu zeminler gibi tehlikeli yerlerden uzakta kurulur. Binalar sağlam zemin üzerinde, yönetmeliklere uygun malzeme ve teknikle inşa edilir. Şehirlerde yeterli sayıda toplanma alanı, geniş yollar ve yeşil alanlar bulunur. Hastane, okul ve itfaiye gibi kritik yapılar afete karşı özellikle güçlendirilir. Akarsu yatakları daraltılmaz, kıyılarda taşkın riskine göre yapılaşma sınırlanır. Kısacası mekânın özellikleri doğru okunarak yer seçimi yapılır.",
+     "points": [
+      "Dere yataklarına yapılaşma sel riskini artırır.",
+      "Zemin etüdü sağlam bina için şarttır.",
+      "Toplanma alanları önceden belirlenmelidir."
+     ]
+    },
+    {
+     "title": "Afete dirençli toplum ve afet bilinci",
+     "text": "Afete dirençli toplum, afetlere önceden hazırlanan, afet anında doğru davranan ve afetten sonra hızla toparlanabilen toplumdur. Bunun temeli afet bilincidir. Afet bilinci; yaşadığımız yerin risklerini bilmek, afet çantası hazırlamak, evde ve okulda sabitlenmemiş eşyaları sabitlemek, aile afet planı yapmak ve tatbikatlara katılmaktır. Depremde çök-kapan-tutun hareketi, selde yüksek yerlere çıkmak gibi doğru davranışları bilmek hayat kurtarır. Gönüllülük ve dayanışma da toplumun direncini artırır. Afet eğitimi alan bireyler hem kendilerini hem de çevrelerini korur.",
+     "points": [
+      "Deprem anında: çök, kapan, tutun.",
+      "Afet çantasında su, yiyecek, el feneri, düdük ve ilk yardım malzemesi olmalıdır.",
+      "Aile buluşma noktası önceden belirlenmelidir."
+     ]
+    },
+    {
+     "title": "İyi uygulama örnekleri",
+     "text": "Afetlerle mücadelede başarılı ülkeler; sıkı yapı denetimi, erken uyarı sistemleri ve düzenli eğitimle can kayıplarını azaltmıştır. Örneğin depremlere sık maruz kalan Japonya, bina yönetmelikleri, okul tatbikatları ve tsunami uyarı sistemleriyle bilinir. Hollanda, deniz seviyesinin altındaki arazilerini setler ve barajlarla taşkınlara karşı korur. Türkiye'de de AFAD'ın eğitimleri, kentsel dönüşüm çalışmaları, zorunlu deprem sigortası ve ağaçlandırma projeleri önemli adımlardır. Yeşil Vatan anlayışıyla yapılan ağaçlandırma ve erozyon kontrolü çalışmaları, sel ve heyelan riskini azaltır. Bu örnekler, afet zararlarının büyük ölçüde hazırlıkla azaltılabileceğini gösterir.",
+     "points": [
+      "Yapı denetimi can kaybını azaltır.",
+      "Ağaçlandırma sel ve heyelan riskini azaltır.",
+      "Tatbikatlar doğru davranışı alışkanlık hâline getirir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Afet bilinci",
+     "meaning": "Afet risklerini bilmek ve öncesinde, sırasında, sonrasında doğru davranmak."
+    },
+    {
+     "term": "Afete dirençli toplum",
+     "meaning": "Afete hazırlıklı olan ve afetten hızla toparlanabilen toplum."
+    },
+    {
+     "term": "Afete dirençli yaşam alanı",
+     "meaning": "Afet riskleri dikkate alınarak planlanmış yerleşme."
+    },
+    {
+     "term": "Yeşil Vatan",
+     "meaning": "Doğayı koruma ve ağaçlandırmayı ön plana çıkaran çevre anlayışı."
+    },
+    {
+     "term": "Toplanma alanı",
+     "meaning": "Afet sonrası insanların güvenle toplanacağı önceden belirlenmiş açık alan."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Afet zararlarını hazırlık azaltır.",
+    "Yer seçimi afet riskine göre yapılmalıdır.",
+    "Afet çantası ve aile planı her evde olmalıdır.",
+    "Afet bilinci toplumun direncini artırır."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 7,
+   "intro": "Türkler tarih boyunca Orta Asya'dan Anadolu'ya, Balkanlardan Kafkasya'ya kadar geniş bir coğrafyada yaşamıştır. Bu ünitede Türk dünyasının coğrafyasını, kültür ocaklarını ve ortak kültürel mirasını öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Türk dünyası ve Türkistan",
+     "text": "Türk dünyası, Türk dilini konuşan ve ortak tarih, kültür ve değerleri paylaşan toplulukların yaşadığı geniş bir coğrafyadır. Bu coğrafyanın merkezi tarihî olarak Türkistan olarak adlandırılan Orta Asya'dır. Bugün Türkiye, Azerbaycan, Kazakistan, Kırgızistan, Özbekistan ve Türkmenistan bağımsız Türk devletleridir; Kuzey Kıbrıs Türk Cumhuriyeti de Türk dünyasının bir parçasıdır. Ayrıca Balkanlarda, Kafkasya'da, Rusya Federasyonu'nda ve Doğu Türkistan'da Türk toplulukları yaşar. Bu geniş alan bozkırlar, çöller, yüksek dağlar ve verimli vadiler gibi farklı doğal ortamları kapsar. Bu çeşitlilik, Türklerin farklı yaşam biçimleri geliştirmesine yol açmıştır.",
+     "points": [
+      "Türkistan, Türk dünyasının tarihî merkezidir.",
+      "Türk dünyası birçok farklı iklim ve yer şekli içerir.",
+      "Türk Devletleri Teşkilatı iş birliğini güçlendirir."
+     ]
+    },
+    {
+     "title": "Kültür ocakları ve ortak miras",
+     "text": "Kültür ocağı, tarih boyunca kültürün doğduğu, geliştiği ve çevreye yayıldığı merkezlerdir. Türk kültürü bozkır yaşamıyla şekillenmiş, göçlerle Anadolu ve Balkanlara taşınmıştır. Türk dünyasında dil yakınlığının yanı sıra pek çok ortak kültürel öğe görülür: Nevruz kutlamaları, at kültürü, yurt (çadır) mimarisi, halı ve kilim dokumacılığı, destanlar ve halk müziği. Dede Korkut Hikâyeleri ve Manas Destanı gibi eserler ortak edebî mirasın parçalarıdır. Kültürel miras, geçmişten bugüne aktarılan somut (yapılar, el sanatları) ve somut olmayan (gelenekler, sözlü edebiyat) değerlerdir. Bu ortak miras, Türk toplulukları arasında bağları güçlendirir.",
+     "points": [
+      "Nevruz, Türk dünyasında ortak bir bayramdır.",
+      "Halı ve kilim motifleri benzer simgeler taşır.",
+      "Kültürel miras korunarak gelecek nesillere aktarılmalıdır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Türk dünyası",
+     "meaning": "Türk dilini konuşan ve ortak kültürü paylaşan toplulukların yaşadığı coğrafya."
+    },
+    {
+     "term": "Türkistan",
+     "meaning": "Orta Asya'da Türklerin tarihî ana yurdu olan bölge."
+    },
+    {
+     "term": "Kültür ocağı",
+     "meaning": "Kültürün doğup geliştiği ve çevreye yayıldığı merkez."
+    },
+    {
+     "term": "Kültürel miras",
+     "meaning": "Geçmişten aktarılan somut ve somut olmayan değerler."
+    },
+    {
+     "term": "Türk kültürü",
+     "meaning": "Türklerin tarih boyunca oluşturduğu dil, gelenek, sanat ve değerlerin bütünü."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Türk dünyası geniş ve çeşitli bir coğrafyadır.",
+    "Türk toplulukları ortak dil ve kültür bağlarına sahiptir.",
+    "Kültürel miras somut ve somut olmayan öğelerden oluşur.",
+    "Coğrafi ortam yaşam biçimini ve kültürü etkiler."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 1,
+   "intro": "Trafik sıkışıklığı, çarpık kentleşme, su kıtlığı ve afet riskleri gibi sorunlar bir mekânda ortaya çıkar ve mekânsal çözümler gerektirir. Bu ünitede coğrafyanın bilimsel yaklaşımıyla bu sorunların çözümüne nasıl katkı sağladığını öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Mekânsal sorunlar",
+     "text": "Mekânsal sorun, belirli bir yerde ortaya çıkan, nedenleri ve sonuçları o mekânın özellikleriyle ilişkili olan sorundur. Hızlı ve plansız şehirleşme, tarım arazilerinin yapılaşmaya açılması, hava ve su kirliliği, trafik yoğunluğu, kuraklık ve afet riskli alanlarda yerleşme bu sorunlara örnektir. Bu sorunlar tek bir nedene bağlı değildir; doğal ve beşerî etkenler bir arada rol oynar. Örneğin bir şehirdeki hava kirliliği hem yer şekillerinin havayı hapsetmesiyle hem de ısınmada kullanılan yakıtlarla ilgilidir. Bu nedenle mekânsal sorunlar, farklı etkenleri birlikte değerlendiren bütüncül bir bakışla ele alınmalıdır.",
+     "points": [
+      "Mekânsal sorunların hem doğal hem beşerî nedenleri vardır.",
+      "Çukur alanlardaki şehirlerde hava kirliliği artabilir.",
+      "Verimli tarım arazileri yapılaşmaya karşı korunmalıdır."
+     ]
+    },
+    {
+     "title": "Coğrafyanın çözüme katkısı",
+     "text": "Coğrafya bilimsel yaklaşımla çalışır: önce sorun tanımlanır, sonra veri toplanır, veriler haritalanıp analiz edilir ve çözüm önerileri geliştirilir. Coğrafyacılar sorunun dağılışını, yani nerede yoğunlaştığını ve diğer yerlerle bağlantısını inceler. Örneğin bir şehirde yeni bir hastane yeri belirlenirken nüfus dağılışı, ulaşım ağı, mevcut hastanelerin konumu ve afet riski birlikte değerlendirilir. CBS ve uydu verileri bu analizleri kolaylaştırır. Coğrafyacılar şehir planlamada, afet yönetiminde, çevre korumada ve bölgesel kalkınmada diğer meslek gruplarıyla birlikte çalışarak sürdürülebilir çözümler üretir.",
+     "points": [
+      "Sorun tanımlanır, veri toplanır, analiz edilir, çözüm üretilir.",
+      "Dağılış ve bağlantı analizi çözümün temelidir.",
+      "Coğrafya disiplinler arası çalışır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Mekânsal sorunlar",
+     "meaning": "Bir mekânın özellikleriyle ilişkili olarak ortaya çıkan sorunlar."
+    },
+    {
+     "term": "Bilimsel yaklaşım",
+     "meaning": "Sorunu veri, analiz ve kanıta dayanarak inceleme yöntemi."
+    },
+    {
+     "term": "Dağılış",
+     "meaning": "Bir olgunun mekânda nasıl yayıldığı."
+    },
+    {
+     "term": "Bağlantı",
+     "meaning": "Mekânlar arasındaki ilişki ve etkileşim."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Mekânsal sorunların birden fazla nedeni vardır.",
+    "Coğrafya sorunlara bütüncül bakar.",
+    "Veriyi haritalamak sorunu görünür kılar.",
+    "Çözüm önerileri sürdürülebilir olmalıdır."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 2,
+   "intro": "Artık harita yapmak için özel programlara ihtiyaç yok; internet tarayıcısı üzerinden çalışan web tabanlı CBS uygulamalarıyla herkes harita hazırlayabilir. Bu ünitede web CBS'nin temel işlemlerini ve harita tasarlarken dikkat edilmesi gerekenleri öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Web CBS ve bulut bilişim",
+     "text": "Web CBS, coğrafi bilgi sistemlerinin internet üzerinden kullanılmasıdır. Veriler ve uygulamalar bulut bilişim sayesinde uzak sunucularda saklanır; kullanıcı yalnızca bir tarayıcıyla bu verilere ulaşır, harita oluşturur ve paylaşır. Bu sistemlerin bir avantajı, verilerin sürekli güncellenebilmesidir. Yaşayan atlas, verileri güncellendikçe değişen dinamik dijital atlaslardır; nüfus, iklim veya trafik bilgileri gerçeğe yakın zamanda izlenebilir. Web CBS; belediyelerin kent rehberlerinde, afet bilgilendirme haritalarında ve eğitimde yaygın biçimde kullanılır.",
+     "points": [
+      "Bulut bilişim verilerin uzak sunucularda tutulmasıdır.",
+      "Web CBS için özel yazılım kurmak gerekmez.",
+      "Yaşayan atlaslar sürekli güncellenir."
+     ]
+    },
+    {
+     "title": "Veri girişi, katman ve öz nitelik tablosu",
+     "text": "Web CBS'de harita oluşturmanın ilk adımı veri girişidir. Veriler haritaya nokta, çizgi veya alan olarak çizilerek ya da tablo dosyalarından aktarılarak eklenir. Her veri grubu ayrı bir katmanda tutulur. Her katmanın bir öz nitelik tablosu vardır; bu tabloda haritadaki her nesnenin adı, türü, nüfusu gibi bilgileri satır ve sütunlar hâlinde yer alır. Sorgulama ile bu tablodan belirli koşulları sağlayan nesneler seçilebilir; örneğin nüfusu 100 binden fazla olan ilçeler. Veri görüntüleme aşamasında nesnelere uygun sembol ve renkler verilir.",
+     "points": [
+      "Katman: aynı türden verilerin tabakası.",
+      "Öz nitelik tablosu: nesnelere ait sözel ve sayısal bilgiler.",
+      "Sorgulama: koşula uyan verilerin seçilmesi."
+     ]
+    },
+    {
+     "title": "Harita tasarımı: sembol, detay ve genelleme",
+     "text": "İyi bir harita hem doğru hem de kolay okunur olmalıdır. Semboller, haritadaki nesneleri temsil eden işaretlerdir; anlaşılır ve tutarlı seçilmelidir. Örneğin sular için mavi, ormanlar için yeşil kullanmak alışılmış bir yaklaşımdır. Detay, haritada gösterilen ayrıntı miktarıdır. Ölçek küçüldükçe her ayrıntıyı göstermek mümkün olmaz; bu yüzden küçük nesneler birleştirilir, kıvrımlar sadeleştirilir. Buna genelleme denir. Genelleme yapılmazsa harita karmaşık ve okunaksız hâle gelir. Ayrıca her harita başlık, lejant, ölçek ve yön oku içermelidir.",
+     "points": [
+      "Ölçek küçüldükçe genelleme artar.",
+      "Sembol ve renkler lejantta açıklanmalıdır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Web CBS",
+     "meaning": "İnternet tarayıcısı üzerinden kullanılan coğrafi bilgi sistemi."
+    },
+    {
+     "term": "Bulut bilişim",
+     "meaning": "Veri ve uygulamaların internet üzerindeki sunucularda saklanıp kullanılması."
+    },
+    {
+     "term": "Katman",
+     "meaning": "Aynı türden mekânsal verilerin bulunduğu harita tabakası."
+    },
+    {
+     "term": "Öz nitelik tablosu",
+     "meaning": "Haritadaki nesnelere ait bilgileri içeren tablo."
+    },
+    {
+     "term": "Sorgulama",
+     "meaning": "Belirli koşulları sağlayan verilerin seçilmesi işlemi."
+    },
+    {
+     "term": "Genelleme",
+     "meaning": "Ölçeğe göre ayrıntıların sadeleştirilmesi."
+    },
+    {
+     "term": "Sembol",
+     "meaning": "Haritada bir nesneyi temsil eden işaret."
+    },
+    {
+     "term": "Yaşayan atlas",
+     "meaning": "Verileri sürekli güncellenen dinamik dijital atlas."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Web CBS ile herkes harita oluşturabilir.",
+    "Her katmanın bir öz nitelik tablosu vardır.",
+    "Sorgulama veriyi süzmemizi sağlar.",
+    "Küçük ölçekli haritalarda genelleme yapılır."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 3,
+   "intro": "Su, yaşamın ve ekonominin temelidir; aynı zamanda ülkeler arasında işbirliği veya anlaşmazlık konusu olabilir. Bu ünitede su kaynaklarının sınıflandırılmasını, Türkiye'nin su kaynaklarını ve denizlerdeki yetki alanlarını öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Su kaynaklarının sınıflandırılması",
+     "text": "Yeryüzündeki suyun çok büyük kısmı okyanus ve denizlerdeki tuzlu sudur. Tatlı suyun büyük bölümü ise buzullarda ve yer altında bulunur; insanların kolayca kullanabildiği yüzey tatlı suyu oldukça azdır. Su kaynakları farklı ölçütlerle sınıflandırılır: bulunduğu yere göre yüzey suları (akarsu, göl) ve yer altı suları; tuzluluğuna göre tatlı ve tuzlu sular. Siyasi sınırlarla ilişkisine göre de ayrılır: Sınır oluşturan sular iki ülke arasında sınır çizen akarsu veya göllerdir; Meriç Nehri buna örnektir. Sınıraşan sular bir ülkede doğup başka ülkeye geçen akarsulardır; Fırat ve Dicle bunun örnekleridir.",
+     "points": [
+      "Kullanılabilir tatlı su miktarı sınırlıdır.",
+      "Meriç: sınır oluşturan su.",
+      "Fırat ve Dicle: sınıraşan sular."
+     ]
+    },
+    {
+     "title": "Türkiye'de su kaynaklarının etkileri",
+     "text": "Su kaynakları Türkiye'de çok yönlü etkilere sahiptir. Çevresel açıdan sulak alanlar ve göller biyoçeşitliliğin yaşam alanıdır. Ekonomik açıdan su; tarımsal sulama, içme suyu, sanayi ve hidroelektrik enerji üretiminde kullanılır. Güneydoğu Anadolu Projesi (GAP) kapsamında Fırat ve Dicle üzerine kurulan barajlar bölgede sulamayı ve enerji üretimini artırmıştır. Politik açıdan sınıraşan sular komşu ülkelerle iş birliğini gerektirir. Sosyokültürel açıdan ise çeşmeler, hamamlar, su vakıfları ve suyu israf etmeme anlayışı Türk su kültürünün parçalarıdır. Stratejik su yönetimi, suyun tasarruflu, adil ve sürdürülebilir kullanılmasını amaçlar.",
+     "points": [
+      "Sulama, suyun en çok kullanıldığı alandır.",
+      "Damla sulama su tasarrufu sağlar.",
+      "Su kültürü suya saygıyı ve israfı önlemeyi öğütler."
+     ]
+    },
+    {
+     "title": "Deniz yetki alanları ve Mavi Vatan",
+     "text": "Denizlerde ülkelerin hak ve yetkileri deniz hukukuyla belirlenir. İç sular, kıyı çizgisinin kara tarafında kalan liman, körfez gibi sulardır ve ülkenin tam egemenliğindedir. Kara suları, kıyıdan itibaren belirli genişlikteki deniz alanıdır; uluslararası hukukta en fazla 12 deniz mili olabilir. Türkiye, Karadeniz ve Akdeniz'de 12 mil, Ege Denizi'nde 6 mil kara suyu uygular. Kıta sahanlığı, kara topraklarının deniz altındaki doğal uzantısıdır ve deniz tabanındaki kaynaklar üzerinde hak verir. Münhasır ekonomik bölge, kıyıdan en fazla 200 deniz miline kadar uzanabilen ve balıkçılık, enerji gibi ekonomik kaynakların kullanım hakkını veren alandır. Mavi Vatan, Türkiye'nin denizlerdeki hak ve çıkarlarını ifade eden kavramdır.",
+     "points": [
+      "Kara suları en fazla 12 deniz mili olabilir.",
+      "Münhasır ekonomik bölge en fazla 200 deniz mili olabilir.",
+      "Kıta sahanlığı deniz tabanı kaynaklarıyla ilgilidir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Su kaynağı",
+     "meaning": "İnsanların ve canlıların yararlandığı yüzey veya yer altı suyu."
+    },
+    {
+     "term": "Sınıraşan sular",
+     "meaning": "Bir ülkede doğup başka ülkeye geçen akarsular."
+    },
+    {
+     "term": "Sınır oluşturan sular",
+     "meaning": "İki ülke arasında sınır çizen akarsu veya göller."
+    },
+    {
+     "term": "Kara suları",
+     "meaning": "Kıyı devletinin egemenliğindeki, kıyıdan belirli genişlikteki deniz alanı."
+    },
+    {
+     "term": "Kıta sahanlığı",
+     "meaning": "Kara topraklarının deniz altındaki doğal uzantısı."
+    },
+    {
+     "term": "Münhasır ekonomik bölge",
+     "meaning": "Kıyı devletine ekonomik kaynak kullanım hakkı veren, en fazla 200 mile uzanan alan."
+    },
+    {
+     "term": "Mavi Vatan",
+     "meaning": "Türkiye'nin denizlerdeki hak ve çıkarlarını ifade eden kavram."
+    },
+    {
+     "term": "Stratejik su yönetimi",
+     "meaning": "Suyun tasarruflu, adil ve sürdürülebilir kullanımının planlanması."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Kullanılabilir tatlı su azdır ve değerlidir.",
+    "Fırat ve Dicle sınıraşan sulardır.",
+    "Türkiye Ege'de 6, diğer denizlerde 12 mil kara suyu uygular.",
+    "Su tasarrufu herkesin sorumluluğudur."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 4,
+   "intro": "Yerleşmeler rastgele dağılmaz; büyüklükleri, birbirine uzaklıkları ve aralarındaki ilişkiler belirli bir düzen oluşturur. Bu ünitede yerleşmelerin mekânsal düzenini, kademelenmesini ve şehirlerin çevrelerini nasıl etkilediğini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Yerleşmelerin mekânsal deseni",
+     "text": "Mekânsal desen, yerleşmelerin bir alanda dağılış biçimidir. Yerleşmeler toplu, dağınık veya çizgisel bir desen oluşturabilir. Su kaynaklarının az olduğu kurak ovalarda evler su kaynağı çevresinde toplanır ve toplu desen görülür. Karadeniz kıyıları gibi engebeli ve yağışlı yerlerde su her yerde bulunduğu ve düz alan az olduğu için evler dağınık yerleşir. Akarsu boyları, kıyılar ve yollar boyunca ise çizgisel desen oluşur. Şehirlerin iç düzeni de bir mekânsal organizasyon gösterir: merkezde ticaret ve hizmet alanları, çevrede konut, şehrin dışında ise sanayi bölgeleri yer alabilir.",
+     "points": [
+      "Toplu desen: su kaynağı az olan yerler.",
+      "Dağınık desen: engebeli ve yağışlı yerler.",
+      "Çizgisel desen: yol, kıyı, akarsu boyu."
+     ]
+    },
+    {
+     "title": "Mekânsal hiyerarşi ve etki alanı",
+     "text": "Mekânsal hiyerarşi, yerleşmelerin büyüklük ve sundukları hizmetlere göre kademelenmesidir. En altta köyler, sonra kasabalar, ilçe merkezleri, il merkezleri, bölge merkezleri ve en üstte metropoller yer alır. Kademe yükseldikçe yerleşme sayısı azalır, nüfus ve hizmet çeşitliliği artar. Basit ihtiyaçlar yakın küçük merkezlerden karşılanırken üniversite, büyük hastane veya havalimanı gibi hizmetler için büyük merkezlere gidilir. Her yerleşmenin hizmet verdiği, insanların gelip gittiği bir etki alanı vardır. Büyük şehirlerin etki alanı il sınırlarını aşabilir. Ulaşım ve iletişim olanakları geliştikçe etki alanları genişler.",
+     "points": [
+      "Kademe yükseldikçe hizmet çeşitliliği artar.",
+      "Metropoller geniş bir alana hizmet verir.",
+      "Etki alanı ulaşımla genişler."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Mekânsal desen",
+     "meaning": "Yerleşmelerin bir alandaki dağılış biçimi."
+    },
+    {
+     "term": "Mekânsal hiyerarşi",
+     "meaning": "Yerleşmelerin büyüklük ve hizmetlerine göre kademelenmesi."
+    },
+    {
+     "term": "Mekânsal organizasyon",
+     "meaning": "Mekândaki unsurların belirli bir düzen içinde yerleşmesi."
+    },
+    {
+     "term": "Mekânsal etki",
+     "meaning": "Bir yerleşmenin çevresi üzerindeki ekonomik ve sosyal etkisi."
+    },
+    {
+     "term": "Etki alanı",
+     "meaning": "Bir merkezin hizmet verdiği ve ilişki kurduğu çevre."
+    },
+    {
+     "term": "Konum",
+     "meaning": "Yerleşmenin bulunduğu yer ve diğer yerlere göre durumu."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Yerleşme deseni doğal koşullardan etkilenir.",
+    "Küçük yerleşme çok, büyük yerleşme azdır.",
+    "Büyük merkezler geniş etki alanına sahiptir.",
+    "Ulaşım ağı yerleşmeler arası ilişkiyi güçlendirir."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 5,
+   "intro": "Tarım, madencilik, enerji ve sanayi bir ülkenin ekonomik gücünü belirleyen temel faaliyetlerdir. Bu ünitede gıda güvencesini, sürdürülebilir tarımı, stratejik madenleri, enerji kaynaklarını ve sanayinin mekâna etkilerini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Tarım ve gıda güvencesi",
+     "text": "Gıda güvencesi, herkesin her zaman yeterli, besleyici ve güvenli gıdaya ulaşabilmesidir. Gıda güvenliği ise gıdanın üretimden tüketime kadar sağlığa zarar vermeyecek şekilde hazırlanmasıdır. Artan dünya nüfusu, iklim değişikliği, kuraklık ve tarım arazilerinin yapılaşmaya açılması gıda güvencesini tehdit eder. Sürdürülebilir tarım; toprağı ve suyu koruyan, aşırı gübre ve ilaç kullanmayan, nöbetleşe ekim ve damla sulama gibi yöntemler uygulayan tarımdır. Tarım 4.0, sensörler, uydu verileri, insansız hava araçları ve akıllı sulama sistemleri gibi dijital teknolojilerin tarımda kullanılmasıdır. Bu teknolojiler aynı alandan daha az kaynakla daha çok ürün almayı sağlar. Arazi kullanımının doğru planlanması verimli toprakların korunması için gereklidir.",
+     "points": [
+      "Verimli tarım arazileri korunmalıdır.",
+      "Damla sulama su tasarrufu sağlar.",
+      "Tarım 4.0 verimliliği artırır."
+     ]
+    },
+    {
+     "title": "Madenler ve enerji kaynakları",
+     "text": "Bazı madenler ekonomi ve savunma için hayati öneme sahiptir. Stratejik madenler bir ülkenin sanayi ve güvenliği için vazgeçilmez olanlardır. Kritik madenler ise ileri teknoloji ürünlerinde (pil, elektronik, yenilenebilir enerji ekipmanları) kullanılan ve tedariki risk taşıyan madenlerdir. Türkiye dünya bor rezervlerinin büyük bölümüne sahiptir. Bu madenlere sahip olmak ülkelere ekonomik ve siyasi güç sağlar, ülkeler arası ilişkileri etkiler. Enerji kaynakları yenilenemeyen (kömür, petrol, doğal gaz) ve yenilenebilir (güneş, rüzgâr, hidroelektrik, jeotermal, biyokütle) olarak ikiye ayrılır. Fosil yakıtlar hava kirliliği ve iklim değişikliğine yol açtığı için dünyada yenilenebilir enerjinin payı artmaktadır. Türkiye de güneş ve rüzgâr enerjisi yatırımlarını artırmaktadır.",
+     "points": [
+      "Bor, Türkiye için stratejik bir madendir.",
+      "Yenilenebilir enerji tükenmez ve daha temizdir.",
+      "Enerji yönetimi verimli ve tasarruflu kullanımı amaçlar."
+     ]
+    },
+    {
+     "title": "Sanayi ve mekânsal etkileri",
+     "text": "Sanayi, ham maddelerin işlenerek ürüne dönüştürülmesidir. Sanayi türleri; gıda, tekstil, otomotiv, kimya, demir-çelik ve elektronik gibi kollara ayrılır. Sanayinin yer seçiminde ham madde, enerji, iş gücü, pazar, ulaşım ve sermaye etkilidir. Organize sanayi bölgeleri (OSB), fabrikaların altyapısı hazır, planlı alanlarda toplandığı yerlerdir; şehir içinde çevre kirliliğini ve plansız yapılaşmayı azaltır. Endüstri 4.0; robotlar, yapay zekâ ve nesnelerin interneti ile akıllı fabrikaların kurulmasıdır. Tedarik zinciri, ham maddeden ürünün tüketiciye ulaşmasına kadar olan süreçtir. Sanayi; iş olanakları, göç, şehirleşme ve ulaşım ağlarının gelişmesine yol açarken çevre kirliliği gibi olumsuz etkiler de yaratabilir.",
+     "points": [
+      "OSB'ler planlı sanayileşmeyi sağlar.",
+      "Sanayi göçü ve şehirleşmeyi hızlandırır.",
+      "Endüstri 4.0 akıllı üretim demektir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Gıda güvencesi",
+     "meaning": "Herkesin yeterli, besleyici ve güvenli gıdaya sürekli ulaşabilmesi."
+    },
+    {
+     "term": "Gıda güvenliği",
+     "meaning": "Gıdanın sağlığa zarar vermeyecek şekilde üretilip tüketiciye ulaştırılması."
+    },
+    {
+     "term": "Tarım 4.0",
+     "meaning": "Dijital teknolojilerin tarımda kullanılması."
+    },
+    {
+     "term": "Stratejik maden",
+     "meaning": "Ülkenin ekonomisi ve güvenliği için vazgeçilmez maden."
+    },
+    {
+     "term": "Kritik maden",
+     "meaning": "İleri teknolojide kullanılan ve tedarik riski taşıyan maden."
+    },
+    {
+     "term": "Yenilenebilir enerji",
+     "meaning": "Doğada sürekli yenilenen, tükenmeyen enerji kaynakları."
+    },
+    {
+     "term": "Organize sanayi bölgesi (OSB)",
+     "meaning": "Altyapısı hazır, planlı sanayi alanı."
+    },
+    {
+     "term": "Endüstri 4.0",
+     "meaning": "Robot, yapay zekâ ve internet teknolojileriyle akıllı üretim."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Gıda güvencesi için toprak ve su korunmalıdır.",
+    "Kritik madenler ülkeler arası ilişkileri etkiler.",
+    "Yenilenebilir enerjinin payı artmaktadır.",
+    "Sanayi mekânı hem olumlu hem olumsuz etkiler."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 6,
+   "intro": "İnsan faaliyetleri Dünya'nın doğal dengelerini zorlamaktadır. Bu ünitede gezegen sınırları kavramını, küresel iklim değişikliğine karşı alınabilecek önlemleri ve Türkiye'nin su kaynaklarının sürdürülebilir kullanımını öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Gezegen sınırları ve çevre sorunları",
+     "text": "Gezegen sınırı, insanlığın Dünya'nın doğal sistemlerini bozmadan güvenle yaşayabileceği sınırları ifade eden bir kavramdır. İklim değişikliği, biyoçeşitlilik kaybı, arazi kullanımındaki değişim, tatlı su kullanımı ve kimyasal kirlilik bu sınırların zorlandığı alanlardır. Ormansızlaşma, aşırı tüketim, plastik atıklar ve fosil yakıt kullanımı ekosistemlere zarar verir. Bir ekosistemde bir türün yok olması besin ağı yoluyla diğer türleri de etkiler. Bu sorunları çözmek için yeşil beceriler, yani çevre dostu teknolojileri ve yaşam biçimlerini uygulama becerisi önemlidir. Geri dönüşüm, enerji verimliliği ve sürdürülebilir tüketim bu becerilere örnektir.",
+     "points": [
+      "Gezegen sınırları aşılırsa doğal sistemler bozulur.",
+      "Biyoçeşitlilik kaybı ekosistemleri zayıflatır.",
+      "Yeşil beceriler geleceğin mesleklerinde önemlidir."
+     ]
+    },
+    {
+     "title": "İklim değişikliğiyle mücadele",
+     "text": "İklim değişikliğiyle mücadelede iki temel strateji vardır. Azaltma (hafifletme) stratejisi, sera gazı salımını düşürmeyi amaçlar: yenilenebilir enerjiye geçiş, enerji verimliliği, toplu taşıma kullanımı ve ağaçlandırma bu stratejinin parçalarıdır. Uyum stratejisi ise değişen iklime hazırlanmayı amaçlar: kuraklığa dayanıklı tarım ürünleri yetiştirmek, sel risklerine karşı altyapıyı güçlendirmek ve sıcak hava dalgalarına karşı şehirleri yeşillendirmek gibi. İki strateji birlikte uygulanmalıdır, çünkü salımlar azaltılsa bile bazı etkiler hâlihazırda yaşanmaktadır. Uluslararası anlaşmalar, ülkelerin bu konuda ortak hedefler belirlemesini sağlar.",
+     "points": [
+      "Azaltma: sera gazını düşürmek.",
+      "Uyum: değişen iklime hazırlanmak.",
+      "Bireysel tasarruf da mücadeleye katkıdır."
+     ]
+    },
+    {
+     "title": "Su güvenliği ve su tasarrufu",
+     "text": "Su güvenliği, insanların sağlıklı yaşamaları ve ekonomik faaliyetleri için yeterli ve temiz suya güvenilir biçimde ulaşabilmesidir. Kişi başına düşen kullanılabilir su miktarı azaldıkça su stresi, su kıtlığı ve mutlak su kıtlığı aşamaları ortaya çıkar. Türkiye su zengini bir ülke değildir; artan nüfus, kuraklık ve kirlilik su kaynaklarını baskı altına almaktadır. Su ayak izi, bir ürünün üretiminden tüketimine kadar harcanan toplam su miktarıdır; örneğin bir tişörtün üretimi için pamuk yetiştirmekten boyamaya kadar çok su harcanır. Su dengesi korunmalı, yer altı suları aşırı çekilmemelidir. Damla sulama, sızıntıların giderilmesi, atık suyun arıtılıp yeniden kullanılması ve bilinçli tüketim su tasarrufu sağlar.",
+     "points": [
+      "Türkiye su zengini bir ülke değildir.",
+      "Tarımda vahşi sulama yerine damla sulama tercih edilmelidir.",
+      "Su ayak izi görünmeyen su tüketimini gösterir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Gezegen sınırı",
+     "meaning": "İnsanlığın doğal sistemleri bozmadan güvenle yaşayabileceği sınırlar."
+    },
+    {
+     "term": "Su güvenliği",
+     "meaning": "Yeterli ve temiz suya güvenilir biçimde ulaşabilme."
+    },
+    {
+     "term": "Su stresi",
+     "meaning": "Kişi başına kullanılabilir suyun azalarak ihtiyacı zorlamaya başlaması."
+    },
+    {
+     "term": "Su kıtlığı",
+     "meaning": "Kullanılabilir suyun ihtiyacı karşılayamayacak kadar azalması."
+    },
+    {
+     "term": "Su ayak izi",
+     "meaning": "Bir ürünün üretim ve tüketiminde harcanan toplam su miktarı."
+    },
+    {
+     "term": "Yeşil beceriler",
+     "meaning": "Çevre dostu teknoloji ve yaşam biçimlerini uygulama becerileri."
+    },
+    {
+     "term": "Sürdürülebilirlik",
+     "meaning": "Kaynakları gelecek nesillerin ihtiyacını tehlikeye atmadan kullanma."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Gezegen sınırları insan faaliyetleriyle zorlanmaktadır.",
+    "İklim değişikliğinde azaltma ve uyum birlikte gereklidir.",
+    "Türkiye'de su tasarrufu zorunluluktur.",
+    "Her ürünün görünmeyen bir su ayak izi vardır."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 7,
+   "intro": "Ülkeler tarım, sanayi, madencilik ve enerji kaynakları bakımından birbirinden farklıdır; bu farkların arkasında coğrafi koşullar yatar. Bu ünitede örnek ülkeleri ekonomik faaliyetleri açısından karşılaştırmayı ve Türkiye'nin kültürel bağları güçlü olduğu yerlerle etkileşimini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Kültürel hinterland",
+     "text": "Kültürel hinterland, bir ülkenin tarih, dil, din ve gelenek gibi ortak değerler yoluyla etkileşim içinde olduğu geniş alandır. Türkiye'nin kültürel hinterlandı; Türk dünyası, Balkanlar, Kafkasya, Orta Doğu ve Kuzey Afrika'nın bazı kesimlerini kapsar. Bu bölgelerle tarih boyunca kurulan bağlar bugün eğitim, ticaret, turizm, kültür ve insani yardım alanlarında iş birliğine dönüşmektedir. Öğrenci değişimleri, ortak televizyon dizileri, kültür merkezleri ve tarihî eserlerin restorasyonu bu etkileşimin örnekleridir. Kültürel yakınlık ekonomik ve siyasi ilişkileri de güçlendirir.",
+     "points": [
+      "Ortak tarih ve kültür ilişkileri kolaylaştırır.",
+      "Eğitim ve turizm etkileşimi artırır."
+     ]
+    },
+    {
+     "title": "Ülkelerin tarım ve madencilik özellikleri",
+     "text": "Bir ülkenin tarımsal üretimi iklimine, yer şekillerine, toprağına, su kaynaklarına, nüfusuna ve teknolojisine bağlıdır. Geniş ve düz arazilere sahip, makineleşmiş ülkelerde büyük ölçekli tahıl üretimi yapılır; örneğin ABD ve Kanada büyük buğday üreticileridir. Muson ikliminin görüldüğü Güney ve Doğu Asya'da sıcaklık ve bol yağış sayesinde pirinç tarımı yaygındır. Madencilik ise yer altı kaynaklarının varlığına bağlıdır. Örneğin Avustralya demir ve kömür gibi madenlerde, Şili bakırda öne çıkar. Madenlerin üretim ve ihracat miktarları tablo ve grafiklerle gösterilerek ülkeler karşılaştırılabilir.",
+     "points": [
+      "Pirinç sıcak ve bol yağışlı muson bölgelerinde yetişir.",
+      "Makineleşme tarımda verimi artırır.",
+      "Madencilik rezervlere ve teknolojiye bağlıdır."
+     ]
+    },
+    {
+     "title": "Sanayileşme ve enerji kaynakları",
+     "text": "Ülkelerin sanayileşme süreçleri farklıdır. Sanayi devrimi 18. yüzyılda İngiltere'de başlamış, kömür ve demir kaynakları bu süreçte belirleyici olmuştur. Almanya gibi ülkeler kömür ve demir kaynakları, nitelikli iş gücü ve teknolojiyle güçlü sanayi kurmuştur. Japonya ise ham madde bakımından fakir olmasına rağmen teknoloji, sermaye ve deniz ticaretiyle sanayileşmiştir; bu durum sanayide beşerî faktörlerin önemini gösterir. Enerji kaynakları da ülkeden ülkeye değişir: Suudi Arabistan petrolde, Rusya doğal gazda, Norveç hidroelektrikte, İzlanda jeotermal enerjide öne çıkar. Enerji kaynağı bakımından zengin ülkeler ihracatçı, fakir ülkeler ise ithalatçı konumdadır.",
+     "points": [
+      "Sanayi devrimi İngiltere'de başlamıştır.",
+      "Japonya ham madde ithal ederek sanayileşmiştir.",
+      "Enerji kaynakları ülkeler arası bağımlılık yaratır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Kültürel hinterland",
+     "meaning": "Bir ülkenin ortak kültürel bağlarla etkileşim içinde olduğu alan."
+    },
+    {
+     "term": "Tarım",
+     "meaning": "Bitki yetiştirme ve hayvan besleme faaliyetleri."
+    },
+    {
+     "term": "Sanayi",
+     "meaning": "Ham maddelerin işlenerek ürüne dönüştürülmesi."
+    },
+    {
+     "term": "Madencilik",
+     "meaning": "Yer altı kaynaklarının çıkarılıp işlenmesi."
+    },
+    {
+     "term": "Enerji kaynakları",
+     "meaning": "Enerji üretiminde kullanılan doğal kaynaklar."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Ekonomik faaliyetler coğrafi koşullara bağlıdır.",
+    "Beşerî faktörler doğal eksiklikleri telafi edebilir.",
+    "Enerji kaynakları ülkeler arası ilişkileri etkiler.",
+    "Kültürel bağlar iş birliğini güçlendirir."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 1,
+   "intro": "Yapay zekâ, nesnelerin interneti ve yeşil dönüşüm gibi gelişmeler coğrafyanın çalışma biçimini ve meslekleri değiştirmektedir. Bu ünitede coğrafyanın gelecekte nasıl bir rol üstleneceğini ve coğrafi kanıtın önemini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Coğrafya ve yeni teknolojiler",
+     "text": "Coğrafya, her dönemde dönemin teknolojisini kullanarak gelişmiştir. Bugün nesnelerin interneti sayesinde sensörler; sıcaklık, hava kalitesi, trafik ve su seviyesi gibi verileri anlık olarak toplar. Yapay zekâ bu büyük verileri hızla analiz ederek uydu görüntülerindeki değişimleri belirleyebilir, sel ve yangın risklerini tahmin edebilir. Kuantum teknolojilerinin gelecekte çok karmaşık hesaplamaları hızlandırması ve konum belirleme gibi alanlara katkı sağlaması beklenmektedir. Bu teknolojiler akıllı şehirler, hassas tarım ve afet yönetimi gibi alanlarda coğrafi bilginin önemini artırmaktadır.",
+     "points": [
+      "Nesnelerin interneti anlık veri toplar.",
+      "Yapay zekâ büyük veriyi analiz eder.",
+      "Akıllı şehirler coğrafi veriye dayanır."
+     ]
+    },
+    {
+     "title": "Coğrafi kanıt ve geleceğin meslekleri",
+     "text": "Coğrafi kanıt, bir iddiayı destekleyen harita, uydu görüntüsü, istatistik veya saha gözlemi gibi mekâna dayalı verilerdir. Sağlam kararlar ancak güvenilir kanıtlarla verilebilir; örneğin bir bölgenin erozyon riski uydu görüntüleri ve toprak analizleriyle kanıtlanır. Yeşil dönüşüm, ekonominin daha az karbon salan, kaynakları verimli kullanan bir yapıya geçmesidir. Bu dönüşüm yenilenebilir enerji planlama, karbon ayak izi analizi, akıllı şehir planlama, CBS uzmanlığı ve iklim danışmanlığı gibi yeni meslekleri ortaya çıkarmaktadır. Coğrafi bakışa sahip bireyler, geleceğin bu mesleklerinde avantaj kazanacaktır.",
+     "points": [
+      "Kanıta dayalı karar daha güvenilirdir.",
+      "Yeşil dönüşüm yeni meslekler doğurur.",
+      "CBS uzmanlığı aranan bir beceridir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Coğrafi kanıt",
+     "meaning": "Bir iddiayı destekleyen mekâna dayalı veri."
+    },
+    {
+     "term": "Yapay zekâ",
+     "meaning": "Bilgisayarların öğrenme ve karar verme gibi insan zekâsına benzer işler yapması."
+    },
+    {
+     "term": "Nesnelerin interneti",
+     "meaning": "Cihaz ve sensörlerin internet üzerinden birbirine bağlanıp veri paylaşması."
+    },
+    {
+     "term": "Kuantum teknolojileri",
+     "meaning": "Kuantum fiziğine dayanan yeni nesil hesaplama ve ölçüm teknolojileri."
+    },
+    {
+     "term": "Yeşil dönüşüm",
+     "meaning": "Ekonominin düşük karbonlu ve kaynak verimli yapıya geçmesi."
+    },
+    {
+     "term": "Coğrafi bakış",
+     "meaning": "Olayları konum, dağılış ve bağlantı açısından değerlendirme."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Coğrafya teknolojiyle birlikte gelişir.",
+    "Kararlar coğrafi kanıta dayanmalıdır.",
+    "Yeşil dönüşüm yeni meslekler yaratır.",
+    "Coğrafi bakış geleceğin önemli becerisidir."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 2,
+   "intro": "Tematik haritalar, nüfus, sıcaklık, gelir gibi belirli bir konuyu harita üzerinde anlatır. Bu ünitede web tabanlı CBS ile tematik harita hazırlamayı, veri aralıklarını belirlemeyi, katmanları çakıştırarak analiz yapmayı ve dijital hikâye haritalarını öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Tematik harita hazırlama",
+     "text": "Tematik harita, belirli bir konunun mekânsal dağılışını gösteren haritadır; nüfus yoğunluğu, yağış miktarı veya tarım ürünlerinin dağılışı gibi. Hazırlamaya önce veri girişi ile başlanır; veriler öz nitelik tablosuna eklenir. Gösterilecek değişken seçilir, örneğin illere göre nüfus yoğunluğu. Sonra veriler veri aralıklarına bölünür; her aralık farklı bir renk tonuyla gösterilir. Genellikle değer arttıkça renk koyulaşır, bu da haritanın kolay okunmasını sağlar. Nokta, çizgi ve alan sembolleri amaca uygun seçilir. Son olarak başlık, lejant ve kaynak bilgisi eklenir.",
+     "points": [
+      "Değişken: haritada gösterilen ölçülebilir özellik.",
+      "Veri aralığı sayısı çok fazla olmamalıdır.",
+      "Açık-koyu renk tonları az-çok değerini gösterir."
+     ]
+    },
+    {
+     "title": "Analiz: birleştirme ve çakıştırma",
+     "text": "CBS'nin en güçlü yanı, farklı katmanları bir arada analiz edebilmesidir. Birleştirme, bir tablodaki verilerin ortak bir alan (örneğin il adı) üzerinden harita katmanına eklenmesidir. Çakıştırma ise farklı katmanların üst üste getirilerek ortak alanların belirlenmesidir. Örneğin deprem riski yüksek alanlar katmanı ile okul konumları katmanı çakıştırıldığında hangi okulların öncelikli olarak güçlendirilmesi gerektiği belirlenebilir. Benzer şekilde verimli toprak katmanı ile yerleşme katmanı çakıştırılarak tarım arazisi kaybı tespit edilebilir. Bu analizler karar vericilere somut bilgi sağlar.",
+     "points": [
+      "Birleştirme: tablo verisini haritaya bağlama.",
+      "Çakıştırma: katmanları üst üste getirerek analiz."
+     ]
+    },
+    {
+     "title": "Dijital hikâye haritaları",
+     "text": "Dijital hikâye haritası, haritaları metin, fotoğraf, video ve grafiklerle birleştirerek bir konuyu adım adım anlatan etkileşimli sunumlardır. Kullanıcı sayfayı kaydırdıkça harita yakınlaşır, yeni katmanlar görünür ve açıklamalar değişir. Örneğin bir akarsuyun kaynağından denize kadar yolculuğu, bir göç hareketinin aşamaları ya da bir şehrin yıllar içindeki büyümesi hikâye haritasıyla anlatılabilir. Bu haritalar coğrafi bilgiyi geniş kitlelere ilgi çekici biçimde ulaştırır. Hazırlarken güvenilir veri kullanmak ve kaynakları belirtmek gerekir.",
+     "points": [
+      "Hikâye haritaları anlatım ile haritayı birleştirir.",
+      "Kaynak göstermek güvenilirliği artırır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Tematik harita",
+     "meaning": "Belirli bir konunun mekânsal dağılışını gösteren harita."
+    },
+    {
+     "term": "Değişken",
+     "meaning": "Haritada gösterilen, değeri yerden yere değişen özellik."
+    },
+    {
+     "term": "Veri aralığı",
+     "meaning": "Verilerin gruplandırıldığı değer sınıfları."
+    },
+    {
+     "term": "Birleştirme",
+     "meaning": "Tablo verilerinin ortak alan üzerinden harita katmanına eklenmesi."
+    },
+    {
+     "term": "Çakıştırma",
+     "meaning": "Farklı katmanların üst üste getirilerek analiz edilmesi."
+    },
+    {
+     "term": "Dijital hikâye haritası",
+     "meaning": "Harita, metin ve görselleri birleştiren etkileşimli anlatım."
+    },
+    {
+     "term": "Öz nitelik tablosu",
+     "meaning": "Haritadaki nesnelere ait bilgilerin tutulduğu tablo."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Tematik harita tek bir konuya odaklanır.",
+    "Veri aralıkları renk tonlarıyla gösterilir.",
+    "Çakıştırma ile katmanlar arasındaki ilişki bulunur.",
+    "Her haritada lejant ve kaynak bulunmalıdır."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 3,
+   "intro": "Toprak ve bitki örtüsü, yaşamın sürmesi için vazgeçilmez doğal kaynaklardır. Bu ünitede toprağın nasıl oluştuğunu, toprak türlerini, Türkiye'de toprak kullanımını ve bitki örtüsünün dağılışını etkileyen faktörleri öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Toprak oluşumu ve türleri",
+     "text": "Toprak, ana kayanın fiziksel ve kimyasal ayrışması sonucu oluşan ve içinde organik madde, su ve hava bulunan gevşek tabakadır. Toprak oluşumunu ana kaya, iklim, yer şekilleri (topoğrafya), canlılar ve zaman etkiler. Sıcak ve nemli iklimlerde kimyasal ayrışma hızlı olduğu için topraklar kalın olur. Eğimli yamaçlarda toprak erozyonla taşındığı için incedir. Topraklar oluştuğu yerde kalan yerinde (sabit) topraklar ve taşınarak biriken taşınmış topraklar olarak ayrılır. Yerinde topraklara örnek olarak terra rossa (Akdeniz kıyılarında kireç taşı üzerinde gelişen kırmızı toprak), çernozyom (bozkırlarda oluşan, humusça zengin kara toprak) ve laterit (sıcak nemli bölgelerin kırmızı toprağı) verilebilir. Taşınmış topraklara ise akarsuların biriktirdiği alüvyal topraklar örnektir.",
+     "points": [
+      "Toprak oluşumu çok uzun zaman alır.",
+      "Alüvyal topraklar çok verimlidir.",
+      "Humus, toprağın organik kısmıdır."
+     ]
+    },
+    {
+     "title": "Türkiye'de toprak kullanımı",
+     "text": "Türkiye'de topraklar tarım, hayvancılık, ormancılık ve yerleşme için kullanılır. Kıyı ovaları ve akarsu vadilerindeki alüvyal topraklar en verimli tarım alanlarıdır. Ancak bu alanların bir kısmı şehirleşme, sanayi ve yol yapımıyla tarım dışına çıkmaktadır. Yanlış toprak kullanımı ciddi sorunlara yol açar: eğimli arazilerin sürülmesi ve ormanların tahribi erozyonu artırır; aşırı sulama ve kötü drenaj toprakta tuzlanmaya yol açar; aşırı gübre ve ilaç toprağı kirletir. Toprağın korunması için arazi kullanım planlaması yapılmalı, eğimli alanlarda taraçalama uygulanmalı, ağaçlandırma yapılmalı ve verimli topraklar yapılaşmaya açılmamalıdır.",
+     "points": [
+      "Erozyon toprağın en büyük düşmanıdır.",
+      "Taraçalama eğimli arazide toprağı korur.",
+      "Verimli ovalar yapılaşmaya açılmamalıdır."
+     ]
+    },
+    {
+     "title": "Bitki örtüsünün dağılışı",
+     "text": "Bitki örtüsünün dağılışını en çok iklim etkiler; sıcaklık ve yağış hangi bitkilerin yetişebileceğini belirler. Yer şekilleri, yükselti ve bakı da önemlidir: yükseldikçe sıcaklık düştüğü için bitki türleri değişir ve belli bir yükseltiden sonra orman yerini alpin çayırlara bırakır. Toprak özellikleri ve insan etkisi de bitki örtüsünü şekillendirir. Türkiye'de Akdeniz kıyılarında maki, Karadeniz'de nemli ormanlar, İç Anadolu ve Doğu Anadolu'nun iç kesimlerinde bozkır yaygındır. Türkiye, endemik bitki türleri bakımından zengin bir ülkedir. Geçmiş jeolojik dönemlerden günümüze ulaşan ve yalnızca belirli yerlerde kalabilmiş bitkilere relikt bitki denir; Muğla-Köyceğiz çevresindeki sığla ağacı buna örnektir. Anıt ağaçlar, yaşı ve büyüklüğüyle korunması gereken doğal miraslardır.",
+     "points": [
+      "Maki: Akdeniz iklimine özgü bodur çalı topluluğu.",
+      "Bozkır: yağışın az olduğu yerlerde kısa otlar.",
+      "Relikt ve endemik türler korunmalıdır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Ana kaya",
+     "meaning": "Toprağın altında bulunan ve ayrışarak toprağı oluşturan kayaç."
+    },
+    {
+     "term": "Toprak",
+     "meaning": "Ana kayanın ayrışmasıyla oluşan, organik madde içeren gevşek tabaka."
+    },
+    {
+     "term": "Bitki örtüsü",
+     "meaning": "Bir alanda doğal olarak yetişen bitki topluluklarının tümü."
+    },
+    {
+     "term": "Endemik bitki",
+     "meaning": "Doğal olarak yalnızca belirli bir bölgede yetişen bitki."
+    },
+    {
+     "term": "Relikt bitki",
+     "meaning": "Geçmiş jeolojik dönemlerden günümüze kalmış, sınırlı alanda yaşayan bitki."
+    },
+    {
+     "term": "Anıt ağaç",
+     "meaning": "Yaşı, büyüklüğü veya tarihî değeri nedeniyle koruma altındaki ağaç."
+    },
+    {
+     "term": "Topoğrafik faktörler",
+     "meaning": "Yükselti, eğim ve bakı gibi yer şekli özellikleri."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Toprak oluşumunda iklim en önemli etkendir.",
+    "Alüvyal topraklar en verimli topraklardır.",
+    "Erozyon ve yanlış kullanım toprağı yok eder.",
+    "Türkiye endemik bitkiler bakımından zengindir.",
+    "Yükseldikçe bitki örtüsü değişir."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 4,
+   "intro": "Kültür, insanların yaşadıkları mekâna bıraktıkları izlerle görünür hâle gelir: evler, camiler, tarlalar, köprüler ve şehir dokuları. Bu ünitede kültür ile mekân arasındaki etkileşimi ve kültürel peyzajın sürdürülebilirliğini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Kültür ve mekân etkileşimi",
+     "text": "Kültür; bir toplumun dili, dini, gelenekleri, sanatı, yaşam biçimi ve değerlerinin bütünüdür. Kültür mekândan etkilenir: insanlar yaşadıkları yerin iklimine ve malzemesine göre ev yapar. Örneğin Karadeniz'de bol yağış nedeniyle ahşap ve çatısı eğimli evler, Güneydoğu Anadolu'da sıcağa karşı kalın taş duvarlı evler, Kapadokya'da ise volkanik tüflere oyulmuş yapılar görülür. Kültür de mekânı etkiler: insanlar inançlarına, ekonomik faaliyetlerine ve geleneklerine göre mekânı şekillendirir. Jeokültür, kültürün coğrafi dağılışını ve mekânla ilişkisini ifade eder. Kültürel öğeler göç, ticaret ve iletişimle yayılır ve zamanla değişir.",
+     "points": [
+      "Ev mimarisi iklim ve malzemeye göre şekillenir.",
+      "Mutfak kültürü yetişen ürünlerle ilişkilidir.",
+      "Kültür göç ve iletişimle yayılır."
+     ]
+    },
+    {
+     "title": "Kültürel peyzaj ve sürdürülebilirlik",
+     "text": "Kültürel peyzaj, insanların doğal ortamı kendi kültürlerine göre değiştirerek oluşturduğu görünümdür. Taraçalı tarım alanları, tarihî şehir merkezleri, köy dokuları, kervansaraylar ve geleneksel yayla yerleşmeleri kültürel peyzaja örnektir. Hızlı şehirleşme, plansız yapılaşma, terk edilme ve yanlış turizm uygulamaları kültürel peyzajı tehdit eder. Sürdürülebilir bir yaklaşım, geleneksel dokuyu korurken bölgenin ekonomik gelişimini de sağlamayı amaçlar. Örneğin tarihî evlerin restore edilip yaşatılması, yerel ürünlerin değerlendirilmesi ve çevreye uyumlu turizm, kültürel peyzajın korunmasına katkı sağlar. Safranbolu ve Cumalıkızık gibi yerleşmeler geleneksel dokusunu koruyan örneklerdir.",
+     "points": [
+      "Kültürel peyzaj insan ile doğanın ortak eseridir.",
+      "Plansız yapılaşma geleneksel dokuyu bozar.",
+      "Koruma ve kalkınma birlikte planlanmalıdır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Kültür",
+     "meaning": "Bir toplumun dil, inanç, gelenek ve yaşam biçimlerinin bütünü."
+    },
+    {
+     "term": "Kültürel peyzaj",
+     "meaning": "İnsanın kültürüne göre doğal ortamı değiştirerek oluşturduğu görünüm."
+    },
+    {
+     "term": "Jeokültür",
+     "meaning": "Kültürün coğrafi dağılışı ve mekânla ilişkisi."
+    },
+    {
+     "term": "Mekân",
+     "meaning": "Doğal ve beşerî unsurların bir araya geldiği yaşam alanı."
+    },
+    {
+     "term": "Değişim",
+     "meaning": "Kültürün ve mekânın zaman içinde farklılaşması."
+    },
+    {
+     "term": "Sürdürülebilirlik",
+     "meaning": "Değerleri gelecek nesillere aktarabilecek şekilde koruyarak kullanma."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Kültür ve mekân birbirini karşılıklı etkiler.",
+    "Geleneksel mimari doğal koşullara uyumludur.",
+    "Kültürel peyzaj korunması gereken bir mirastır.",
+    "Sürdürülebilirlik koruma ile kullanma dengesidir."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 5,
+   "intro": "Ulaşım, ticaret ve turizm dünyayı birbirine bağlayan hizmet faaliyetleridir. Bu ünitede ulaşım sistemlerinin gelişimini, küresel ticaretin mekânsal bağlantılarını ve turizmin farklı alanlardaki etkilerini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Ulaşım sistemlerinin gelişimi",
+     "text": "Ulaşım, insan ve yüklerin bir yerden başka bir yere taşınmasıdır. Tarih boyunca İpek Yolu ve Baharat Yolu gibi ticaret yolları kıtaları birbirine bağlamış, Anadolu bu yolların önemli bir geçiş alanı olmuştur. Buhar makinesinin icadıyla demir yolu ve buharlı gemiler, 20. yüzyılda ise kara yolu ve hava yolu ulaşımı yaygınlaşmıştır. Günümüzde konteyner taşımacılığı, hızlı trenler ve boru hatları önem kazanmıştır. Ulaşım sistemleri seçilirken yük türü, mesafe, maliyet ve hız dikkate alınır: ağır ve hacimli yükler için deniz yolu ve demir yolu ucuzdur, hava yolu hızlı ama pahalıdır. Türkiye, Asya ile Avrupa arasındaki konumu sayesinde transit ulaşım ve enerji koridorları üzerinde yer alır.",
+     "points": [
+      "Deniz yolu en ucuz yük taşıma yoludur.",
+      "Hava yolu en hızlı ama en pahalı yoldur.",
+      "Türkiye tarihî ve modern ticaret yollarının kavşağındadır."
+     ]
+    },
+    {
+     "title": "Küresel ticaret",
+     "text": "Küresel ticaret, ülkeler arasında mal, hizmet ve sermaye alışverişidir. Ülkeler ürettikleri fazla ürünü ihraç eder, ihtiyaç duyduklarını ithal eder. Ulusötesi şirketler birçok ülkede üretim ve satış yaparak küresel bağlantıları güçlendirir. Transit ticaret, bir ülkenin topraklarından geçerek başka ülkeye ulaşan ticarettir. E-ticaret ise internet üzerinden yapılan alışveriştir ve sınırları ortadan kaldırmıştır; bu nedenle siber güvenlik önem kazanmıştır. Jeoekonomi, ekonomik güç ve kaynakların ülkeler arası ilişkilerdeki rolünü, jeopolitik ise coğrafi konumun siyasi önemini inceler. Coğrafi işaret, bir ürünün özelliğini kaynaklandığı yerden aldığını gösteren tescildir ve yerel ürünlerin değerini artırır.",
+     "points": [
+      "Boğazlar ve kanallar küresel ticaretin kilit noktalarıdır.",
+      "Coğrafi işaret yerel ürünü korur ve tanıtır.",
+      "E-ticaret siber güvenliği gerekli kılar."
+     ]
+    },
+    {
+     "title": "Turizmin etkileri",
+     "text": "Turizm, insanların dinlenme, eğlence, kültür, sağlık veya inanç amacıyla geçici olarak yer değiştirmesidir. Doğal miras (kıyılar, dağlar, mağaralar) ve kültürel miras (tarihî eserler, müzeler, gelenekler) turizmin temel kaynaklarıdır. Turizmin ekonomik etkileri döviz geliri, istihdam ve yerel ürünlerin satışıdır. Sosyal ve kültürel olarak farklı toplumları tanıştırır, kültür alışverişini artırır. Politik olarak ülkelerin tanıtımına ve ilişkilerine katkı sağlar. Ancak plansız turizm çevre kirliliğine, kıyıların yapılaşmasına, su kaynaklarının tükenmesine ve yerel kültürün bozulmasına yol açabilir. Sürdürülebilir turizm, bu olumsuz etkileri en aza indirerek doğal ve kültürel mirası korur.",
+     "points": [
+      "Turizm önemli bir döviz kaynağıdır.",
+      "Plansız turizm çevreyi tahrip eder.",
+      "Sürdürülebilir turizm mirası korur."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Ulaşım sistemleri",
+     "meaning": "Kara, deniz, hava, demir yolu ve boru hattından oluşan taşıma ağları."
+    },
+    {
+     "term": "Küresel ticaret",
+     "meaning": "Ülkeler arasında mal, hizmet ve sermaye alışverişi."
+    },
+    {
+     "term": "Transit ticaret",
+     "meaning": "Bir ülkenin topraklarından geçerek başka ülkeye ulaşan ticaret."
+    },
+    {
+     "term": "Ulusötesi şirketler",
+     "meaning": "Birçok ülkede üretim ve satış yapan büyük şirketler."
+    },
+    {
+     "term": "Coğrafi işaret",
+     "meaning": "Ürünün özelliğini kaynaklandığı yerden aldığını gösteren tescil."
+    },
+    {
+     "term": "Jeoekonomi",
+     "meaning": "Ekonomik güç ve kaynakların uluslararası ilişkilerdeki rolü."
+    },
+    {
+     "term": "Jeopolitik",
+     "meaning": "Coğrafi konumun bir ülkenin siyasi gücüne etkisi."
+    },
+    {
+     "term": "E-ticaret",
+     "meaning": "İnternet üzerinden yapılan alım satım."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Ulaşım seçimi yük, mesafe, maliyet ve hıza bağlıdır.",
+    "Türkiye transit ticaret açısından avantajlıdır.",
+    "Coğrafi işaret yerel ürünlerin değerini artırır.",
+    "Turizm sürdürülebilir şekilde planlanmalıdır."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 6,
+   "intro": "Toprak kaybı, çölleşme, ormansızlaşma ve doğal mirasın zarar görmesi ciddi çevre sorunlarıdır. Bu ünitede bu sorunların nedenlerini, Türkiye'nin ve diğer ülkelerin çevre politikalarını, uluslararası çevre anlaşmalarını ve doğal ve kültürel mirası koruma yollarını öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Toprak kaybı, erozyon ve çölleşme",
+     "text": "Erozyon, toprağın su ve rüzgârla aşınıp taşınmasıdır. Türkiye'de eğimli arazilerin fazla olması, yağışların sağanak şeklinde düşmesi, bitki örtüsünün tahrip edilmesi ve yanlış tarım uygulamaları erozyonu artırır. Çoraklaşma, toprağın verimini kaybederek tuzlanması veya kuruması; çölleşme ise kurak ve yarı kurak alanlarda iklim değişikliği ve insan etkisiyle arazinin bozulmasıdır. Yanlış sulama ve kötü drenaj toprakta tuz birikmesine neden olur. Toprağın sürdürülebilir kullanımı için ağaçlandırma, taraçalama, eğime dik sürme, nöbetleşe ekim, damla sulama ve meraların aşırı otlatılmaması gerekir. Türkiye'de TEMA Vakfı gibi kuruluşlar ve Yeşil Vatan anlayışıyla yürütülen ağaçlandırma kampanyaları bu alanda önemli çalışmalar yapmaktadır.",
+     "points": [
+      "Bitki örtüsü toprağı tutar.",
+      "Eğime dik sürme erozyonu azaltır.",
+      "Kötü drenaj tuzlanmaya yol açar."
+     ]
+    },
+    {
+     "title": "Bitki toplulukları ve çevre politikaları",
+     "text": "Türkiye'deki bitki toplulukları zaman içinde hem doğal hem de insan etkisiyle değişmiştir. Orman yangınları, aşırı otlatma, tarla açma ve yapılaşma orman alanlarını daraltmış, bazı yerlerde ormanların yerini maki veya bozkır almıştır. Ağaçlandırma çalışmalarıyla bu kayıplar telafi edilmeye çalışılmaktadır. Endemik ve relikt türlerin yaşam alanlarının korunması biyoçeşitlilik için önemlidir. Ülkeler çevre sorunlarına karşı farklı politikalar uygular: gelişmiş ülkeler genellikle sıkı çevre denetimi, temiz teknoloji ve geri dönüşüm sistemlerine yatırım yapar. Türkiye'de de sıfır atık uygulamaları, milli parklar, tabiat parkları ve koruma alanları gibi uygulamalar bulunmaktadır.",
+     "points": [
+      "Orman yangınları bitki örtüsünü değiştirir.",
+      "Milli parklar doğal mirası korur.",
+      "Sıfır atık, atıkların kaynağında ayrıştırılmasını amaçlar."
+     ]
+    },
+    {
+     "title": "Uluslararası anlaşmalar ve mirasın korunması",
+     "text": "Çevre sorunları sınır tanımadığı için ülkeler ortak hareket eder. Birleşmiş Milletlere bağlı kuruluşlar ve çevre örgütleri çevre koruma çalışmalarını yönlendirir. Ozon tabakasını korumaya yönelik Montreal Protokolü, iklim değişikliğiyle mücadele için Paris Anlaşması ve sulak alanları koruyan Ramsar Sözleşmesi önemli uluslararası anlaşmalardır. UNESCO, insanlık için olağanüstü değer taşıyan doğal ve kültürel varlıkları Dünya Mirası Listesi'ne alarak korunmalarını destekler; Türkiye'den Göreme Milli Parkı ve Kapadokya ile Hierapolis-Pamukkale bu listededir. Doğal ve kültürel miras; kirlilik, plansız yapılaşma, aşırı turizm ve ilgisizlik nedeniyle tehdit altındadır. Bu tehditleri azaltmak için koruma yasaları, eğitim, ziyaretçi sınırlamaları ve yerel halkın katılımı gereklidir.",
+     "points": [
+      "Montreal Protokolü: ozon tabakası.",
+      "Paris Anlaşması: iklim değişikliği.",
+      "Ramsar Sözleşmesi: sulak alanlar.",
+      "UNESCO Dünya Mirası Listesi ortak mirası korur."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Erozyon",
+     "meaning": "Toprağın su ve rüzgârla aşınıp taşınması."
+    },
+    {
+     "term": "Çölleşme",
+     "meaning": "Kurak ve yarı kurak alanlarda arazinin bozularak verimsizleşmesi."
+    },
+    {
+     "term": "Çoraklaşma",
+     "meaning": "Toprağın tuzlanma veya kuruma ile verimini kaybetmesi."
+    },
+    {
+     "term": "Drenaj",
+     "meaning": "Topraktaki fazla suyun uzaklaştırılması."
+    },
+    {
+     "term": "Çevre politikaları",
+     "meaning": "Devletlerin çevreyi korumak için uyguladığı kurallar ve programlar."
+    },
+    {
+     "term": "Doğal miras",
+     "meaning": "Korunması gereken olağanüstü doğal alan ve oluşumlar."
+    },
+    {
+     "term": "Kültürel miras",
+     "meaning": "Geçmişten aktarılan tarihî, sanatsal ve geleneksel değerler."
+    },
+    {
+     "term": "Relikt",
+     "meaning": "Geçmiş dönemlerden kalıp sınırlı alanda yaşamını sürdüren tür."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Erozyonu önlemenin en etkili yolu bitki örtüsünü korumaktır.",
+    "Çölleşme insan etkisiyle hızlanır.",
+    "Çevre sorunları uluslararası iş birliği gerektirir.",
+    "Doğal ve kültürel miras gelecek nesillerin hakkıdır."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 7,
+   "intro": "Ülkeler ulaşım, ticaret ve turizm gibi hizmet faaliyetleriyle birbirine bağlanır; bu bağlar bazen iş birliği, bazen anlaşmazlık doğurur. Bu ünitede uluslararası birliklerin rolünü ve örnek ülkelerin ulaşım, ticaret ve turizm özelliklerini karşılaştırmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Uluslararası birlikler ve anlaşmazlıklar",
+     "text": "Ülkeler arasında sınırlar, su kaynakları, enerji ve ticaret gibi konularda anlaşmazlıklar çıkabilir. Uluslararası örgütler bu anlaşmazlıkların barışçıl yollarla çözülmesine yardım eder. Birleşmiş Milletler dünya barışını korumayı ve ülkeler arası iş birliğini amaçlar. NATO bir savunma birliğidir. Avrupa Birliği ekonomik ve siyasi bir birliktir. İslam İşbirliği Teşkilatı, Türk Devletleri Teşkilatı ve Karadeniz Ekonomik İşbirliği Örgütü gibi kuruluşlar da bölgesel iş birliğini güçlendirir. Bu örgütler müzakere, arabuluculuk, uluslararası mahkemeler ve ortak projeler yoluyla çözüm üretir. Türkiye bu örgütlerin birçoğunda üye olarak etkin rol oynar.",
+     "points": [
+      "Türkiye NATO ve BM üyesidir.",
+      "Türk Devletleri Teşkilatı Türk dünyasında iş birliğini güçlendirir.",
+      "Diplomasi anlaşmazlıkların barışçıl çözüm yoludur."
+     ]
+    },
+    {
+     "title": "Ülkelerin ulaşım ve ticaret özellikleri",
+     "text": "Ülkelerin ulaşım sistemleri coğrafi koşullarına ve gelişmişlik düzeyine göre farklıdır. Geniş ve düz alanlara sahip ülkelerde demir yolu ve kara yolu ağı yaygındır. Ada ülkelerinde ve uzun kıyılara sahip ülkelerde deniz yolu öne çıkar. Hollanda, Rotterdam Limanı ile Avrupa'nın önemli ticaret kapılarından biridir. Singapur, Malakka Boğazı'na yakın konumu sayesinde dünyanın en işlek limanlarından birine sahiptir. Bir ülkenin ticaretini incelerken ihraç ve ithal ettiği ürünlere, ticaret ortaklarına, ulaşım altyapısına ve coğrafi konumuna bakılır. Örneğin enerji kaynakları zengin ülkeler genellikle ham madde ihraç ederken sanayileşmiş ülkeler işlenmiş ürün ihraç eder.",
+     "points": [
+      "Konum, limanların önemini belirler.",
+      "Ticaret yapısı gelişmişlik düzeyini yansıtır."
+     ]
+    },
+    {
+     "title": "Ülkelerin turizm faaliyetleri",
+     "text": "Ülkelerin turizm potansiyeli doğal ve kültürel çekiciliklerine bağlıdır. Akdeniz çevresindeki ülkeler güneşli iklimleri, kumsalları ve tarihî eserleriyle deniz-kum-güneş turizminde öne çıkar; Türkiye, İspanya, İtalya ve Yunanistan bu ülkeler arasındadır. Alp Dağları'ndaki İsviçre ve Avusturya kış ve dağ turizmiyle bilinir. Mısır antik eserleriyle kültür turizmi açısından önemlidir. Turizmin gelişmesinde ulaşım kolaylığı, konaklama olanakları, güvenlik ve tanıtım da etkilidir. Türkiye; deniz, kültür, inanç, sağlık, termal, kış ve yayla turizmi gibi çok çeşitli turizm türlerine sahip olması bakımından avantajlıdır.",
+     "points": [
+      "İklim ve tarihî miras turizmin temel kaynaklarıdır.",
+      "Türkiye çok çeşitli turizm olanaklarına sahiptir.",
+      "Ulaşım ve güvenlik turizmi destekler."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Uluslararası organizasyon",
+     "meaning": "Birden fazla ülkenin ortak amaçlarla kurduğu örgüt."
+    },
+    {
+     "term": "Uluslararası birliktelik",
+     "meaning": "Ülkelerin ekonomik, siyasi veya askerî alanlarda iş birliği yapması."
+    },
+    {
+     "term": "Uluslararası anlaşmazlık",
+     "meaning": "Ülkeler arasında çıkan çıkar çatışması veya uyuşmazlık."
+    },
+    {
+     "term": "Hizmet sektörü",
+     "meaning": "Ulaşım, ticaret, turizm, eğitim gibi hizmet faaliyetleri."
+    },
+    {
+     "term": "Ticaret",
+     "meaning": "Mal ve hizmetlerin alınıp satılması."
+    },
+    {
+     "term": "Turizm",
+     "meaning": "İnsanların dinlenme, kültür veya sağlık amacıyla geçici olarak yer değiştirmesi."
+    },
+    {
+     "term": "Ulaşım",
+     "meaning": "İnsan ve yüklerin bir yerden başka bir yere taşınması."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Uluslararası örgütler barışçıl çözüm arar.",
+    "Ülkelerin ulaşım sistemleri coğrafyalarına göre farklıdır.",
+    "Konum, ticarette büyük avantaj sağlar.",
+    "Turizm doğal ve kültürel çekiciliklere dayanır."
+   ]
+  }
+ ]
+}

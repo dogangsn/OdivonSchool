@@ -15,4 +15,11 @@ export const environment = {
    * notifications are not configured (the profile page hides the switch).
    */
   vapidKey: '',
+  /**
+   * Akıllı Kütüphane: optional URL of the kitapPdf function
+   * (functions/src/bookProxy.ts), used when MEB's server does not let the
+   * browser read a PDF cross-site. Empty = only MEB's own links are tried.
+   * After deploying functions: https://us-central1-odivonschool.cloudfunctions.net/kitapPdf
+   */
+  libraryProxyUrl: '',
 };

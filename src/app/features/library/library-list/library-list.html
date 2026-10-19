@@ -1,0 +1,85 @@
+<div class="lib container animate-fade-in">
+  <section class="lib-hero">
+    <div>
+      <span class="lib-badge">📚 Akıllı Kütüphane</span>
+      <h1>MEB ders kitapları, gerçek bir kitap gibi</h1>
+      <p>Kitabını seç, sayfaları çevirerek oku. Kaldığın sayfayı hatırlarız; başka cihazdan girince oradan devam edersin.</p>
+    </div>
+    <a routerLink="/defter-notlari" class="lib-hero-link">📒 Defter Notları →</a>
+  </section>
+
+  @if (recent().length) {
+    <section class="lib-recent">
+      <h2>Kaldığın yerden devam et</h2>
+      <div class="lib-recent-row">
+        @for (r of recent(); track r.bookId) {
+          <a class="lib-recent-card" [routerLink]="['/kutuphane', r.bookId]">
+            <span class="lib-mini-cover" [style.background]="cover(r.book.subject)">{{ icon(r.book.subject) }}</span>
+            <span class="lib-recent-text">
+              <strong>{{ r.book.title }}</strong>
+              <small>Sayfa {{ r.page }} / {{ r.pageCount }}</small>
+              <span class="lib-progress"><span [style.width.%]="percent(r)"></span></span>
+            </span>
+          </a>
+        }
+      </div>
+    </section>
+  }
+
+  <section class="lib-toolbar">
+    <div class="lib-levels" role="tablist" aria-label="Kademe">
+      @for (l of levels; track l.id) {
+        <button type="button" role="tab" class="lib-chip" [class.active]="level() === l.id && !search()"
+          [attr.aria-selected]="level() === l.id" (click)="pickLevel(l.id)">{{ l.label }}</button>
+      }
+    </div>
+    <div class="lib-filters">
+      <div class="lib-grades">
+        <button type="button" class="lib-pill" [class.active]="grade() === null" (click)="pickGrade(null)">Tümü</button>
+        @for (g of grades(); track g) {
+          <button type="button" class="lib-pill" [class.active]="grade() === g" (click)="pickGrade(g)">{{ g }}. sınıf</button>
+        }
+      </div>
+      <select class="lib-select" (change)="onSubject($event)" aria-label="Ders">
+        <option value="" [selected]="!subject()">Tüm dersler</option>
+        @for (s of subjects(); track s) {
+          <option [value]="s" [selected]="s === subject()">{{ s }}</option>
+        }
+      </select>
+      <div class="lib-search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input type="search" [value]="search()" (input)="onSearch($event)" placeholder="Kitap ara (ör. 5. sınıf matematik)" />
+      </div>
+    </div>
+  </section>
+
+  @if (loading()) {
+    <div class="lib-state">Kitaplar yükleniyor...</div>
+  } @else if (error()) {
+    <div class="lib-state">Kitap listesi yüklenemedi. <button type="button" class="btn sm outline" (click)="load()">Tekrar dene</button></div>
+  } @else if (!shown().length) {
+    <div class="lib-state">Bu seçime uygun kitap bulunamadı.</div>
+  } @else {
+    <div class="lib-shelf">
+      @for (b of shown(); track b.id) {
+        <a class="lib-book" [routerLink]="['/kutuphane', b.id]" [attr.aria-label]="b.title">
+          <span class="lib-cover" [style.background]="cover(b.subject)">
+            <span class="lib-cover-grade">{{ b.grade }}. SINIF</span>
+            <span class="lib-cover-icon">{{ icon(b.subject) }}</span>
+            <span class="lib-cover-subject">{{ b.subject }}</span>
+            @if (b.volume) {
+              <span class="lib-cover-volume">{{ b.volume }}. Kitap</span>
+            }
+            <span class="lib-cover-meb">T.C. MİLLÎ EĞİTİM BAKANLIĞI</span>
+          </span>
+          <span class="lib-book-title">{{ b.title }}</span>
+        </a>
+      }
+    </div>
+  }
+
+  <p class="lib-note">
+    Kitaplar Millî Eğitim Bakanlığının resmî sitesinden (tymm.meb.gov.tr) açılır; OdivonSchool kitapların kopyasını barındırmaz.
+    Telif hakları MEB'e aittir.
+  </p>
+</div>

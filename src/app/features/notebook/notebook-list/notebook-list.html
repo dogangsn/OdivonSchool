@@ -1,0 +1,77 @@
+<div class="nb container animate-fade-in">
+  <section class="nb-hero">
+    <div class="nb-hero-text">
+      <span class="nb-badge">📒 Defter Notları</span>
+      <h1>Konu anlatımlı defter notları</h1>
+      <p>MEB Maarif Modeli müfredatındaki her tema için kısa konu anlatımı, kavramlar, çözümlü örnek ve "Akılda Kalsın" kutusu. Oku, deftere yaz, sonra testini çöz.</p>
+    </div>
+    <a routerLink="/kutuphane" class="nb-hero-link">📚 Akıllı Kütüphane →</a>
+  </section>
+
+  <section class="nb-toolbar">
+    <div class="nb-levels" role="tablist" aria-label="Kademe">
+      @for (l of levels; track l.id) {
+        <button type="button" role="tab" class="nb-chip" [class.active]="level() === l.id && !search()"
+          [attr.aria-selected]="level() === l.id" (click)="pickLevel(l.id)">{{ l.label }}</button>
+      }
+    </div>
+
+    <div class="nb-filters">
+      <div class="nb-grades">
+        <button type="button" class="nb-pill" [class.active]="grade() === null" (click)="pickGrade(null)">Tümü</button>
+        @for (g of grades(); track g) {
+          <button type="button" class="nb-pill" [class.active]="grade() === g" (click)="pickGrade(g)">{{ g }}. sınıf</button>
+        }
+      </div>
+
+      <select class="nb-select" [value]="subject()" (change)="onSubject($event)" aria-label="Ders">
+        <option value="">Tüm dersler</option>
+        @for (s of subjects(); track s) {
+          <option [value]="s" [selected]="s === subject()">{{ s }}</option>
+        }
+      </select>
+
+      <div class="nb-search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input type="search" [value]="search()" (input)="onSearch($event)" placeholder="Konu ara (ör. kesirler, maddenin halleri)" />
+      </div>
+    </div>
+  </section>
+
+  @if (loading()) {
+    <div class="nb-state">Notlar yükleniyor...</div>
+  } @else if (error()) {
+    <div class="nb-state">
+      Notlar yüklenemedi. <button type="button" class="btn sm outline" (click)="load()">Tekrar dene</button>
+    </div>
+  } @else if (!groups().length) {
+    <div class="nb-state">Aramana uygun not bulunamadı.</div>
+  } @else {
+    @if (search()) {
+      <p class="nb-count">"{{ search() }}" için {{ total() }} not bulundu.</p>
+    }
+    @for (g of groups(); track g.key) {
+      <section class="nb-section">
+        <h2>
+          <span class="nb-subject-icon">{{ subjectIcon(g.subject) }}</span>
+          {{ g.grade }}. Sınıf {{ g.subject }}
+          <small>{{ g.notes.length }} not</small>
+        </h2>
+        <div class="nb-grid">
+          @for (n of g.notes; track n.slug) {
+            <a class="nb-card" [routerLink]="['/defter-notlari', n.slug]">
+              <span class="nb-card-tema">{{ n.order }}. Tema</span>
+              <strong>{{ n.title }}</strong>
+              @if (n.hasNote) {
+                <p>{{ n.intro }}</p>
+              } @else {
+                <p class="nb-soon">Özet hazırlanıyor; kazanımlar ve kavramlar hazır.</p>
+              }
+              <span class="nb-card-cta">Notu aç →</span>
+            </a>
+          }
+        </div>
+      </section>
+    }
+  }
+</div>

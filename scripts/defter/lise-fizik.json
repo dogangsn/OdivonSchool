@@ -1,0 +1,1248 @@
+{
+ "file": "lise-fizik",
+ "notes": [
+  {
+   "grade": 9,
+   "order": 1,
+   "intro": "Bu ünitede fiziğin ne olduğunu, hangi alt dallara ayrıldığını ve fizik bilgisinin nerelerde kullanıldığını öğreniyoruz. Fizik; telefonlardan hastanelerdeki görüntüleme cihazlarına, enerji santrallerinden uzay araştırmalarına kadar hayatımızın her alanındadır.",
+   "sections": [
+    {
+     "title": "Fizik bilimi nedir?",
+     "text": "Fizik; madde, enerji, hareket, kuvvet, uzay ve zaman arasındaki ilişkileri inceleyen temel bir bilim dalıdır. Fizikçiler doğadaki olayları gözlemler, ölçer, hipotez kurar ve bunları deneylerle sınar. Elde edilen sonuçlar çoğunlukla matematiksel bağıntılarla ifade edilir; bu sayede olaylar yalnızca açıklanmakla kalmaz, önceden tahmin de edilebilir. Bilimsel bilgi kesin ve değişmez değildir; yeni kanıtlar ortaya çıktıkça modeller geliştirilir ya da değiştirilir. Fizik, kimya, biyoloji, mühendislik ve tıp gibi alanlarla iç içedir ve teknolojik gelişmelerin temelini oluşturur.",
+     "points": [
+      "Bilimsel yöntem: gözlem → hipotez → deney → sonuç",
+      "Bilimsel bilgi yeni kanıtlarla değişebilir."
+     ]
+    },
+    {
+     "title": "Fiziğin alt dalları",
+     "text": "Fizik, incelediği konulara göre alt dallara ayrılır. Mekanik, kuvvet ve hareketi inceler. Termodinamik, ısı, sıcaklık ve enerji dönüşümlerini inceler. Elektromanyetizma, elektrik ve manyetizma olaylarını ve aralarındaki ilişkiyi inceler. Optik, ışığın davranışını; dalga mekaniği, ses ve diğer dalgaları inceler. Atom fiziği atomun yapısını, nükleer fizik çekirdeği ve radyoaktiviteyi araştırır. Katıhal fiziği katıların yapısını ve elektriksel özelliklerini inceler; yarı iletken teknolojisi bu alandan doğmuştur. Yüksek enerji ve plazma fiziği gibi dallar da vardır.",
+     "points": [
+      "Mekanik: kuvvet ve hareket",
+      "Termodinamik: ısı ve sıcaklık",
+      "Elektromanyetizma: elektrik ve manyetizma",
+      "Optik: ışık",
+      "Atom ve nükleer fizik: atom ve çekirdek"
+     ]
+    },
+    {
+     "title": "Bilim insanları ve kariyer olanakları",
+     "text": "Fiziğin gelişiminde pek çok bilim insanının emeği vardır. Isaac Newton hareket yasalarını ve evrensel çekim yasasını ortaya koymuştur. Albert Einstein görelilik kuramıyla uzay ve zaman anlayışımızı değiştirmiştir. Marie Curie radyoaktivite üzerine çalışmalarıyla iki farklı alanda Nobel ödülü almıştır. Fizik eğitimi alan kişiler üniversitelerde, araştırma merkezlerinde, hastanelerde (medikal fizik), enerji, savunma, uzay ve yazılım sektörlerinde çalışabilir. Ülkemizde ve dünyada parçacık hızlandırıcıları, uzay ajansları ve teknoloji enstitüleri gibi bilimsel araştırma merkezleri fizikçilere önemli kariyer imkânları sunar.",
+     "points": [
+      "Newton: hareket yasaları",
+      "Einstein: görelilik kuramı",
+      "Marie Curie: radyoaktivite"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Fizik bilimi",
+     "meaning": "Madde, enerji ve aralarındaki etkileşimleri inceleyen bilim dalı."
+    },
+    {
+     "term": "Bilimsel araştırma merkezi",
+     "meaning": "Bilimsel bilgi üretmek için deney ve araştırma yapılan kurum."
+    },
+    {
+     "term": "Hipotez",
+     "meaning": "Bir olayı açıklamak için öne sürülen, sınanabilir önerme."
+    },
+    {
+     "term": "Mekanik",
+     "meaning": "Kuvvet ve hareketi inceleyen fizik dalı."
+    },
+    {
+     "term": "Termodinamik",
+     "meaning": "Isı, sıcaklık ve enerji dönüşümlerini inceleyen fizik dalı."
+    },
+    {
+     "term": "Optik",
+     "meaning": "Işığın davranışını inceleyen fizik dalı."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Fizik, doğa olaylarını gözlem, deney ve matematikle açıklar.",
+    "Bilimsel bilgi yeni kanıtlarla güncellenebilir.",
+    "Her teknolojik cihazın arkasında fizik ilkeleri vardır.",
+    "Fizik eğitimi birçok farklı mesleğe kapı açar."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 2,
+   "intro": "Bu ünitede fiziksel nicelikleri, vektörleri, doğadaki temel kuvvetleri ve hareketi tanımlamak için kullanılan kavramları öğreniyoruz. Bunlar, fiziğin geri kalanını anlamak için gereken temel dili oluşturur.",
+   "sections": [
+    {
+     "title": "Temel ve türetilmiş nicelikler",
+     "text": "Ölçülebilen her büyüklüğe fiziksel nicelik denir. Uluslararası Birim Sistemi'nde (SI) yedi temel nicelik vardır: uzunluk (metre), kütle (kilogram), zaman (saniye), elektrik akımı (amper), sıcaklık (kelvin), madde miktarı (mol) ve ışık şiddeti (kandela). Temel niceliklerin birleştirilmesiyle elde edilen niceliklere türetilmiş nicelik denir. Örneğin hız, uzunluğun zamana bölünmesiyle bulunur ve birimi m/s'dir. Alan (m²), hacim (m³), özkütle (kg/m³) ve kuvvet (newton) da türetilmiş niceliklerdir. Ortak bir birim sistemi, bilim insanlarının dünyanın her yerinde aynı dili konuşmasını sağlar.",
+     "points": [
+      "7 temel nicelik: uzunluk, kütle, zaman, akım, sıcaklık, madde miktarı, ışık şiddeti",
+      "Türetilmiş: hız, ivme, kuvvet, enerji, basınç"
+     ]
+    },
+    {
+     "title": "Skaler ve vektörel nicelikler",
+     "text": "Yalnızca büyüklük ve birimle tam olarak ifade edilebilen niceliklere skaler nicelik denir; kütle, zaman, sıcaklık, enerji ve alınan yol skalerdir. Büyüklüğünün yanında yönü de belirtilmesi gereken niceliklere vektörel nicelik denir; kuvvet, yer değiştirme, hız ve ivme vektöreldir. Vektörler ok ile gösterilir: okun uzunluğu büyüklüğü, ucu yönü gösterir. Aynı doğrultudaki vektörler aynı yöndeyse büyüklükleri toplanır, zıt yöndeyse çıkarılır. Farklı doğrultudaki vektörler uç uca ekleme yöntemiyle ya da paralelkenar yöntemiyle toplanır. Toplam sonucu bulunan vektöre bileşke vektör denir.",
+     "points": [
+      "Skaler: büyüklük + birim",
+      "Vektörel: büyüklük + birim + yön",
+      "Uç uca ekleme: ikinci vektörün başlangıcı birincinin ucuna konur."
+     ]
+    },
+    {
+     "title": "Kuvvet ve temel kuvvetler",
+     "text": "Kuvvet, cisimlerin hareket durumunu ya da şeklini değiştirebilen itme veya çekme etkisidir; birimi newtondur (N) ve vektörel bir niceliktir. Doğada dört temel kuvvet vardır. Kütle çekim kuvveti kütleli tüm cisimler arasında etkilidir; en zayıf temel kuvvettir ama gezegenlerin hareketini yönetir. Elektromanyetik kuvvet yüklü parçacıklar arasında etkilidir; sürtünme ve esneklik gibi günlük kuvvetlerin kaynağıdır. Güçlü çekirdek kuvveti çekirdekteki proton ve nötronları bir arada tutar; en güçlü kuvvettir ama etki mesafesi çok kısadır. Zayıf çekirdek kuvveti bazı radyoaktif bozunmalardan sorumludur.",
+     "points": [
+      "Kütle çekim: en zayıf, sonsuz menzil",
+      "Elektromanyetik: yüklü parçacıklar arasında",
+      "Güçlü çekirdek: en güçlü, çok kısa menzil",
+      "Zayıf çekirdek: radyoaktif bozunma"
+     ]
+    },
+    {
+     "title": "Hareketin temel kavramları",
+     "text": "Hareketi tanımlamak için önce bir referans noktası seçilir. Cismin referans noktasına göre yeri konumdur. Cismin izlediği yolun toplam uzunluğu alınan yoldur ve skalerdir. İlk konumdan son konuma çizilen vektör ise yer değiştirmedir. Alınan yolun geçen süreye oranı sürat, yer değiştirmenin süreye oranı hızdır. Ortalama değerler bütün bir zaman aralığı için, anlık değerler ise belirli bir an için hesaplanır. Hızdaki değişimin süreye oranına ivme denir. Hareket türleri öteleme (bütün noktalar aynı yönde kayar), dönme (bir eksen etrafında) ve titreşim (bir denge noktası etrafında gidip gelme) olarak sınıflandırılır.",
+     "points": [
+      "Sürat = alınan yol / süre (skaler)",
+      "Hız = yer değiştirme / süre (vektörel)",
+      "İvme = hız değişimi / süre"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Temel nicelik",
+     "meaning": "Başka niceliklerden türetilmeyen, SI'da yedi tane olan nicelik."
+    },
+    {
+     "term": "Vektörel nicelik",
+     "meaning": "Büyüklüğü ve yönü olan nicelik."
+    },
+    {
+     "term": "Bileşke vektör",
+     "meaning": "Birden fazla vektörün toplamına eşit tek vektör."
+    },
+    {
+     "term": "Kuvvet",
+     "meaning": "Cismin hareketini veya şeklini değiştiren etki; birimi newton."
+    },
+    {
+     "term": "Yer değiştirme",
+     "meaning": "İlk konumdan son konuma çizilen vektör."
+    },
+    {
+     "term": "Alınan yol",
+     "meaning": "Cismin izlediği yolun toplam uzunluğu."
+    },
+    {
+     "term": "Hız",
+     "meaning": "Birim zamandaki yer değiştirme."
+    },
+    {
+     "term": "İvme",
+     "meaning": "Birim zamandaki hız değişimi."
+    }
+   ],
+   "example": {
+    "question": "Bir öğrenci önce 40 m doğuya, sonra 30 m kuzeye yürüyor. Toplam 50 s sürüyor. Alınan yolu, yer değiştirmeyi, ortalama sürati ve ortalama hızın büyüklüğünü bulunuz.",
+    "solution": "1) Alınan yol: 40 + 30 = 70 m.\n2) Yer değiştirme dik üçgenin hipotenüsüdür: √(40² + 30²) = √2500 = 50 m (kuzeydoğu yönünde).\n3) Ortalama sürat: 70 / 50 = 1,4 m/s.\n4) Ortalama hızın büyüklüğü: 50 / 50 = 1 m/s."
+   },
+   "remember": [
+    "SI'da yedi temel nicelik vardır.",
+    "Vektörel niceliklerde yön mutlaka belirtilir.",
+    "Yol skaler, yer değiştirme vektöreldir.",
+    "Doğada dört temel kuvvet vardır."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 3,
+   "intro": "Bu ünitede sıvı ve gazların, yani akışkanların uyguladığı basıncı, kaldırma kuvvetini ve akış hızı ile basınç arasındaki ilişkiyi öğreniyoruz. Barajlar, gemiler, uçaklar ve hidrolik frenler bu ilkeler sayesinde çalışır.",
+   "sections": [
+    {
+     "title": "Basınç",
+     "text": "Birim yüzeye dik olarak etki eden kuvvete basınç denir: P = F / A. Birimi pascaldır (Pa = N/m²). Aynı kuvvet küçük bir yüzeye uygulanırsa basınç büyür, geniş bir yüzeye dağıtılırsa basınç küçülür. Bıçağın keskin tarafının kolay kesmesi, kar ayakkabılarının karda batmayı önlemesi ve ağır iş makinelerinin geniş paletlerle yapılması bu ilkeyle açıklanır. Katılar üzerlerine uygulanan kuvveti uygulandığı doğrultuda iletir. Kapalı kaptaki sıvılar ise üzerlerine uygulanan basıncı her yöne aynen iletir; bu Pascal ilkesidir ve hidrolik kriko ile fren sistemleri bu ilkeyle çalışır.",
+     "points": [
+      "P = F / A",
+      "Yüzey küçülürse basınç artar.",
+      "Pascal ilkesi: sıvılar basıncı her yöne iletir."
+     ]
+    },
+    {
+     "title": "Durgun sıvılarda basınç ve açık hava basıncı",
+     "text": "Durgun bir sıvının belirli bir derinlikte oluşturduğu basınç P = h × d × g bağıntısıyla bulunur; h derinlik, d sıvının özkütlesi, g yer çekimi ivmesidir. Sıvı basıncı kabın şekline ya da sıvının miktarına değil, derinliğe ve sıvının cinsine bağlıdır. Bu yüzden barajların duvarları tabana doğru kalınlaşır ve dalgıçlar derine indikçe daha büyük basınç hisseder. Birbirine bağlı kaplarda (bileşik kaplar) aynı sıvı aynı seviyede durur. Atmosferdeki havanın ağırlığından kaynaklanan basınca açık hava basıncı denir. Deniz seviyesinde yaklaşık 1 atmosferdir ve yükseklere çıkıldıkça azalır.",
+     "points": [
+      "P = h × d × g",
+      "Sıvı basıncı kabın şekline bağlı değildir.",
+      "Yükseklik arttıkça açık hava basıncı azalır."
+     ]
+    },
+    {
+     "title": "Kaldırma kuvveti",
+     "text": "Bir sıvıya batırılan cisme sıvı tarafından yukarı doğru uygulanan kuvvete kaldırma kuvveti denir. Bu kuvvetin kaynağı, cismin alt yüzeyine etki eden sıvı basıncının üst yüzeyine etki edenden büyük olmasıdır. Arşimet ilkesine göre kaldırma kuvveti, cismin yer değiştirdiği sıvının ağırlığına eşittir: Fk = V(batan) × d(sıvı) × g. Kaldırma kuvveti cismin batan hacmine ve sıvının özkütlesine bağlıdır; cismin kendi özkütlesine bağlı değildir. Cismin özkütlesi sıvınınkinden küçükse cisim yüzer, eşitse askıda kalır, büyükse batar. Çelikten yapılan gemiler, içlerindeki hava sayesinde ortalama özkütleleri sudan küçük olduğu için yüzer.",
+     "points": [
+      "Fk = V(batan) × d(sıvı) × g",
+      "d(cisim) < d(sıvı): yüzer",
+      "d(cisim) = d(sıvı): askıda",
+      "d(cisim) > d(sıvı): batar"
+     ]
+    },
+    {
+     "title": "Akışkanlarda hız ve basınç",
+     "text": "Bir boru içinde akan sıvı, boru daraldığında hızlanır; çünkü birim zamanda borunun her kesitinden aynı miktarda sıvı geçmek zorundadır. Bu ilişki kesit alanı × hız = sabit biçiminde ifade edilir. Bahçe hortumunun ucunu sıkınca suyun daha hızlı fışkırması buna örnektir. Bernoulli ilkesine göre akışkanın hızının arttığı yerde basıncı azalır. Uçak kanatlarının üst yüzeyi, havanın üstte daha hızlı akmasını sağlayacak biçimde tasarlanır; böylece üstteki basınç alttakinden küçük olur ve kanada yukarı doğru bir kaldırma etkisi oluşur. Rüzgârlı havada çatıların uçması ve hızlı tren geçerken yakınındakilerin trene doğru çekilmesi de bu ilkeyle açıklanır.",
+     "points": [
+      "Kesit alanı küçülürse akış hızı artar.",
+      "Hız artarsa basınç azalır (Bernoulli)."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Basınç",
+     "meaning": "Birim yüzeye dik etki eden kuvvet; birimi pascal."
+    },
+    {
+     "term": "Kaldırma kuvveti",
+     "meaning": "Akışkanın içindeki cisme uyguladığı yukarı yönlü kuvvet."
+    },
+    {
+     "term": "Akışkan",
+     "meaning": "Akabilen madde; sıvılar ve gazlar."
+    },
+    {
+     "term": "Açık hava basıncı",
+     "meaning": "Atmosferin yeryüzündeki cisimlere uyguladığı basınç."
+    },
+    {
+     "term": "Pascal ilkesi",
+     "meaning": "Kapalı kaptaki sıvının basıncı her yöne aynen iletmesi."
+    },
+    {
+     "term": "Arşimet ilkesi",
+     "meaning": "Kaldırma kuvvetinin, yer değiştiren sıvının ağırlığına eşit olması."
+    },
+    {
+     "term": "Özkütle",
+     "meaning": "Birim hacimdeki kütle miktarı."
+    }
+   ],
+   "example": {
+    "question": "Özkütlesi 1000 kg/m³ olan suyun 5 m derinliğindeki sıvı basıncı kaç pascaldır? (g = 10 m/s²)",
+    "solution": "1) P = h × d × g bağıntısı kullanılır.\n2) P = 5 × 1000 × 10.\n3) P = 50 000 Pa.\n4) Bu değer yalnızca suyun basıncıdır; yüzeydeki açık hava basıncı da eklenirse toplam basınç daha büyük olur."
+   },
+   "remember": [
+    "Aynı kuvvet küçük yüzeyde daha büyük basınç yapar.",
+    "Sıvı basıncı derinliğe ve sıvının cinsine bağlıdır.",
+    "Kaldırma kuvveti, yer değiştiren sıvının ağırlığına eşittir.",
+    "Akışkanın hızlandığı yerde basınç düşer."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 4,
+   "intro": "Bu ünitede ısı ile sıcaklık arasındaki farkı, maddelerin ısınıp soğumasını, hâl değişimlerini ve ısının nasıl aktarıldığını öğreniyoruz. Bu bilgiler; evlerin yalıtımından mutfakta yemek pişirmeye kadar günlük hayatta sürekli karşımıza çıkar.",
+   "sections": [
+    {
+     "title": "İç enerji, ısı ve sıcaklık",
+     "text": "Maddeyi oluşturan taneciklerin kinetik ve potansiyel enerjilerinin toplamına iç enerji denir. Sıcaklık, taneciklerin ortalama hareket (kinetik) enerjisinin bir göstergesidir ve termometreyle ölçülür; birimi SI'da kelvin, günlük hayatta santigrat derecedir (°C). Isı ise sıcaklık farkı nedeniyle sıcak maddeden soğuk maddeye aktarılan enerjidir; birimi joule'dür (J). Isı bir enerji aktarımıdır, sıcaklık ise bir durum göstergesidir. Bu yüzden 'cismin ısısı' yerine 'cismin sıcaklığı' denmelidir. Bir maddeye ısı verildiğinde iç enerjisi artar; bu artış sıcaklık artışı veya hâl değişimi biçiminde görülür.",
+     "points": [
+      "Sıcaklık: ortalama kinetik enerjinin göstergesi",
+      "Isı: sıcaklık farkıyla aktarılan enerji",
+      "K = °C + 273"
+     ]
+    },
+    {
+     "title": "Öz ısı ve ısı sığası",
+     "text": "Bir maddenin 1 gramının sıcaklığını 1 °C artırmak için gereken ısıya öz ısı (c) denir. Öz ısı maddeler için ayırt edici bir özelliktir. Suyun öz ısısı yaklaşık 4,18 J/(g·°C) olup birçok maddeye göre büyüktür; bu yüzden deniz kenarındaki yerlerde sıcaklık farkları daha azdır. Bir maddenin sıcaklığını değiştirmek için gereken ısı Q = m × c × ΔT bağıntısıyla bulunur. Kütle ile öz ısının çarpımına ısı sığası (C = m × c) denir; cismin sıcaklığını 1 °C artırmak için gereken ısıdır. Isı sığası maddenin miktarına bağlıdır, öz ısı bağlı değildir.",
+     "points": [
+      "Q = m × c × ΔT",
+      "Isı sığası C = m × c",
+      "Öz ısı ayırt edicidir, ısı sığası değildir."
+     ]
+    },
+    {
+     "title": "Hâl değişimi ve ısıl denge",
+     "text": "Saf bir madde hâl değiştirirken aldığı ya da verdiği ısı sıcaklığını değiştirmez; enerji tanecikler arası bağları değiştirmek için kullanılır. Bu nedenle erime ve kaynama sırasında sıcaklık sabit kalır. Birim kütle için gereken ısıya hâl değişim ısısı (L) denir ve Q = m × L bağıntısı kullanılır. Erime, buharlaşma ve süblimleşmede madde ısı alır; donma, yoğuşma ve kırağılaşmada ısı verir. Sıcaklıkları farklı maddeler temas ettiğinde, sıcak olan ısı verir, soğuk olan ısı alır. Sıcaklıklar eşitlendiğinde ısı akışı durur; bu duruma ısıl denge denir. Dış ortamla ısı alışverişi yoksa alınan ısı, verilen ısıya eşittir.",
+     "points": [
+      "Hâl değişimi sırasında sıcaklık sabittir.",
+      "Q = m × L",
+      "Isıl dengede: alınan ısı = verilen ısı"
+     ]
+    },
+    {
+     "title": "Isı aktarım yolları",
+     "text": "Isı üç yolla aktarılır. İletim, birbirine temas eden tanecikler arasında enerjinin aktarılmasıdır ve en çok katılarda görülür; metal kaşığın sapının ısınması buna örnektir. Metaller iyi iletken, tahta, plastik ve hava ise yalıtkandır. Katılarda iletim hızı maddenin cinsine, kesit alanına, kalınlığına ve uçları arasındaki sıcaklık farkına bağlıdır. Konveksiyon (taşıma), sıvı ve gazlarda ısınan akışkanın yer değiştirmesiyle olur; kalorifer peteklerinin odayı ısıtması böyledir. Işıma ise elektromanyetik dalgalarla gerçekleşir ve madde gerektirmez; Güneş'in enerjisi Dünya'ya boşluktan ışımayla ulaşır.",
+     "points": [
+      "İletim: temasla, en çok katılarda",
+      "Konveksiyon: akışkanın hareketiyle",
+      "Işıma: elektromanyetik dalgalarla, boşlukta da olur"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Isı",
+     "meaning": "Sıcaklık farkından dolayı aktarılan enerji; birimi joule."
+    },
+    {
+     "term": "Sıcaklık",
+     "meaning": "Taneciklerin ortalama kinetik enerjisinin göstergesi."
+    },
+    {
+     "term": "İç enerji",
+     "meaning": "Taneciklerin kinetik ve potansiyel enerjilerinin toplamı."
+    },
+    {
+     "term": "Öz ısı",
+     "meaning": "1 g maddenin sıcaklığını 1 °C artırmak için gereken ısı."
+    },
+    {
+     "term": "Isı sığası",
+     "meaning": "Bir cismin sıcaklığını 1 °C artırmak için gereken ısı."
+    },
+    {
+     "term": "Hâl değişimi",
+     "meaning": "Maddenin katı, sıvı, gaz hâlleri arasında geçiş yapması."
+    },
+    {
+     "term": "Isıl denge",
+     "meaning": "Temas eden cisimlerin sıcaklıklarının eşitlendiği durum."
+    },
+    {
+     "term": "Isı aktarımı",
+     "meaning": "Isının iletim, konveksiyon ya da ışımayla yayılması."
+    }
+   ],
+   "example": {
+    "question": "200 g suyun sıcaklığını 20 °C'den 70 °C'ye çıkarmak için kaç joule ısı gerekir? (c(su) = 4,18 J/(g·°C))",
+    "solution": "1) ΔT = 70 − 20 = 50 °C.\n2) Q = m × c × ΔT = 200 × 4,18 × 50.\n3) Q = 41 800 J, yani 41,8 kJ."
+   },
+   "remember": [
+    "Isı ve sıcaklık aynı şey değildir.",
+    "Öz ısısı büyük madde geç ısınır, geç soğur.",
+    "Hâl değişimi sırasında saf maddenin sıcaklığı değişmez.",
+    "Isı her zaman sıcaktan soğuğa akar."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 1,
+   "intro": "Bu ünitede düz bir yol boyunca hareket eden cisimleri inceliyoruz: hızı sabit olan hareket ve hızı düzenli olarak artan ya da azalan, yani sabit ivmeli hareket. Bu hareketleri grafik ve denklemlerle anlatmayı öğreneceğiz.",
+   "sections": [
+    {
+     "title": "Sabit hızlı hareket",
+     "text": "Bir cisim eşit zaman aralıklarında eşit yer değiştirmeler yapıyorsa sabit hızlı hareket yapıyor demektir. Bu harekette hız ne büyüklük ne de yön olarak değişmez ve ivme sıfırdır. Yer değiştirme Δx = v × t bağıntısıyla bulunur. Konum-zaman grafiği eğik bir doğrudur ve bu doğrunun eğimi hızı verir. Hız-zaman grafiği ise zaman eksenine paralel yatay bir doğrudur; bu grafiğin altında kalan alan yer değiştirmeyi verir. Sabit hızlı harekete örnek olarak yürüyen merdiven ya da düz yolda hız sabitleyiciyle giden bir araç verilebilir.",
+     "points": [
+      "Δx = v × t",
+      "Konum-zaman grafiğinin eğimi = hız",
+      "Hız-zaman grafiğinin altındaki alan = yer değiştirme"
+     ]
+    },
+    {
+     "title": "İvme ve hız değişimi",
+     "text": "Hızın birim zamandaki değişimine ivme denir: a = Δv / Δt. Birimi m/s²'dir. 2 m/s²'lik ivme, hızın her saniye 2 m/s değiştiğini gösterir. İvme vektöreldir. İvme ile hız aynı yöndeyse cisim hızlanır, zıt yöndeyse yavaşlar. İvme sabitse cismin hızı eşit zaman aralıklarında eşit miktarda değişir; bu harekete sabit ivmeli hareket denir. Hız-zaman grafiğinde sabit ivmeli hareket eğik bir doğruyla gösterilir ve doğrunun eğimi ivmeyi verir. İvme-zaman grafiği ise yatay bir doğrudur ve altındaki alan hız değişimini verir.",
+     "points": [
+      "a = Δv / Δt",
+      "İvme ve hız aynı yönde: hızlanma",
+      "Zıt yönde: yavaşlama"
+     ]
+    },
+    {
+     "title": "Sabit ivmeli hareketin denklemleri",
+     "text": "Bir boyutta sabit ivmeli harekette üç temel denklem kullanılır. Son hız: v = v₀ + a × t. Yer değiştirme: Δx = v₀ × t + (1/2) × a × t². Zamansız hız denklemi: v² = v₀² + 2 × a × Δx. Burada v₀ ilk hız, v son hızdır. Ayrıca yer değiştirme ortalama hız ile de bulunabilir: Δx = ((v₀ + v)/2) × t. Hız-zaman grafiğinin altındaki alan yer değiştirmeyi verir. Konum-zaman grafiği ise parabol biçimindedir. Duran bir aracın kalkışı ya da fren yapan bir aracın durması bu denklemlerle incelenir.",
+     "points": [
+      "v = v₀ + at",
+      "Δx = v₀t + (1/2)at²",
+      "v² = v₀² + 2aΔx"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Sabit hızlı hareket",
+     "meaning": "Hızın büyüklük ve yönünün değişmediği, ivmesiz hareket."
+    },
+    {
+     "term": "Bir boyutta sabit ivmeli hareket",
+     "meaning": "Doğrusal yolda hızın eşit sürelerde eşit miktarda değiştiği hareket."
+    },
+    {
+     "term": "İvme",
+     "meaning": "Birim zamandaki hız değişimi; birimi m/s²."
+    },
+    {
+     "term": "Konum-zaman grafiği",
+     "meaning": "Konumun zamana göre değişimini gösteren grafik; eğimi hızdır."
+    },
+    {
+     "term": "Hız-zaman grafiği",
+     "meaning": "Hızın zamana göre değişimini gösteren grafik; eğimi ivme, alanı yer değiştirmedir."
+    },
+    {
+     "term": "İlk hız",
+     "meaning": "Hareketin incelenmeye başlandığı andaki hız, v₀."
+    }
+   ],
+   "example": {
+    "question": "Durmakta olan bir araç 3 m/s² sabit ivmeyle hızlanıyor. 5 saniye sonra hızı ve bu sürede aldığı yol nedir?",
+    "solution": "1) v₀ = 0, a = 3 m/s², t = 5 s.\n2) v = v₀ + at = 0 + 3 × 5 = 15 m/s.\n3) Δx = v₀t + (1/2)at² = 0 + (1/2) × 3 × 25 = 37,5 m.\n4) Kontrol: ortalama hız (0 + 15)/2 = 7,5 m/s; 7,5 × 5 = 37,5 m."
+   },
+   "remember": [
+    "Sabit hızlı harekette ivme sıfırdır.",
+    "Hız-zaman grafiğinin eğimi ivme, alanı yer değiştirmedir.",
+    "İvme hızla zıt yöndeyse cisim yavaşlar.",
+    "Problemlerde önce v₀, a ve t'yi belirle."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 2,
+   "intro": "Bu ünitede fizikteki iş kavramını, enerjinin biçimlerini, gücü ve mekanik enerjinin korunumunu öğreniyoruz. Ayrıca yenilenebilir ve yenilenemeyen enerji kaynaklarını karşılaştırarak enerjinin bilinçli kullanımını tartışacağız.",
+   "sections": [
+    {
+     "title": "İş",
+     "text": "Fizikte iş, bir kuvvetin cismi kendi doğrultusunda hareket ettirmesiyle yapılır. Kuvvet ve yer değiştirme aynı doğrultudaysa iş W = F × Δx ile hesaplanır; birimi joule'dür (J). Kuvvet hareket doğrultusuna dikse iş yapılmaz. Örneğin çantayı yatay yolda taşırken çantayı tutan kuvvet yukarı, hareket ise yataydır; fiziksel anlamda bu kuvvet iş yapmaz. Bir duvarı ne kadar itersek itelim, duvar hareket etmiyorsa iş yapılmamıştır. Kuvvet-yer değiştirme grafiğinde grafiğin altında kalan alan, yapılan işi verir. Bu yöntem, kuvvetin değiştiği durumlarda da işi bulmamızı sağlar.",
+     "points": [
+      "W = F × Δx (aynı doğrultuda)",
+      "Kuvvet harekete dikse iş sıfırdır.",
+      "F-x grafiğinin altındaki alan = iş"
+     ]
+    },
+    {
+     "title": "Enerji ve güç",
+     "text": "Enerji, iş yapabilme yeteneğidir ve birimi işle aynıdır (J). Bir cisim üzerinde iş yapıldığında cismin enerjisi değişir. Hareketli cisimlerin sahip olduğu enerjiye kinetik enerji denir: Ek = (1/2)mv². Yerden yüksekte bulunan cismin konumundan dolayı sahip olduğu enerjiye çekim potansiyel enerjisi denir: Ep = m × g × h. Enerjinin ısı, ışık, ses, elektrik, kimyasal ve nükleer gibi birçok biçimi vardır ve bunlar birbirine dönüşebilir. Güç, birim zamanda yapılan iş ya da aktarılan enerjidir: P = W / t. Birimi watt'tır (W). Aynı işi daha kısa sürede yapan makine daha güçlüdür.",
+     "points": [
+      "Ek = (1/2)mv²",
+      "Ep = mgh",
+      "P = W / t, 1 W = 1 J/s"
+     ]
+    },
+    {
+     "title": "Mekanik enerjinin korunumu",
+     "text": "Kinetik enerji ile potansiyel enerjinin toplamına mekanik enerji denir. Sürtünmenin ve hava direncinin ihmal edildiği sistemlerde mekanik enerji korunur; yani enerji bir biçimden diğerine dönüşür ama toplam değişmez. Örneğin yukarıdan serbest bırakılan bir top düşerken potansiyel enerjisi azalır, kinetik enerjisi aynı miktarda artar. Sarkaçta da en yüksek noktada potansiyel enerji, en alçak noktada kinetik enerji en büyüktür. Sürtünme varsa mekanik enerjinin bir kısmı ısıya dönüşür; ama toplam enerji yine korunur. Enerji yoktan var edilemez, var olan enerji yok edilemez.",
+     "points": [
+      "Mekanik enerji = Ek + Ep",
+      "Sürtünmesiz ortamda mekanik enerji korunur.",
+      "Sürtünme mekanik enerjiyi ısıya dönüştürür."
+     ]
+    },
+    {
+     "title": "Enerji kaynakları",
+     "text": "Doğada kendiliğinden yenilenen ve tükenme tehlikesi olmayan kaynaklara yenilenebilen enerji kaynakları denir: güneş, rüzgâr, hidroelektrik, jeotermal, dalga ve biyokütle enerjisi bunlara örnektir. Oluşması çok uzun zaman alan ve kullanıldıkça tükenen kaynaklara yenilenemeyen enerji kaynakları denir: kömür, petrol, doğal gaz gibi fosil yakıtlar ve nükleer yakıtlar bu gruptadır. Fosil yakıtlar yakıldığında karbondioksit gibi sera gazları açığa çıkar. Yenilenebilen kaynaklar çevre dostudur ama hava koşullarına bağlı olabilir ve kurulum maliyetleri yüksek olabilir. Enerji tasarrufu, her iki kaynak türü için de önemlidir.",
+     "points": [
+      "Yenilenebilen: güneş, rüzgâr, su, jeotermal, biyokütle",
+      "Yenilenemeyen: kömür, petrol, doğal gaz, nükleer yakıt"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "İş",
+     "meaning": "Kuvvetin cismi kendi doğrultusunda hareket ettirmesi; W = F × Δx."
+    },
+    {
+     "term": "Enerji",
+     "meaning": "İş yapabilme yeteneği; birimi joule."
+    },
+    {
+     "term": "Güç",
+     "meaning": "Birim zamanda yapılan iş; birimi watt."
+    },
+    {
+     "term": "Mekanik enerji",
+     "meaning": "Kinetik ve potansiyel enerjinin toplamı."
+    },
+    {
+     "term": "Mekanik enerjinin korunumu",
+     "meaning": "Sürtünmesiz sistemde mekanik enerjinin sabit kalması."
+    },
+    {
+     "term": "Enerji biçimi",
+     "meaning": "Enerjinin kinetik, potansiyel, ısı, elektrik gibi farklı türleri."
+    },
+    {
+     "term": "Yenilenebilen enerji",
+     "meaning": "Doğada sürekli yenilenen kaynaklardan elde edilen enerji."
+    },
+    {
+     "term": "Yenilenemeyen enerji",
+     "meaning": "Kullanıldıkça tükenen kaynaklardan elde edilen enerji."
+    }
+   ],
+   "example": {
+    "question": "2 kg kütleli bir top 20 m yükseklikten serbest bırakılıyor. Sürtünmeler önemsiz olduğuna göre yere çarpma hızı kaç m/s'dir? (g = 10 m/s²)",
+    "solution": "1) Başlangıçta yalnızca potansiyel enerji vardır: Ep = mgh = 2 × 10 × 20 = 400 J.\n2) Yere çarptığında bu enerjinin tamamı kinetik enerjiye dönüşür: (1/2)mv² = 400.\n3) (1/2) × 2 × v² = 400, v² = 400.\n4) v = 20 m/s. Not: Sonuç kütleye bağlı değildir."
+   },
+   "remember": [
+    "Kuvvet harekete dikse iş yapılmaz.",
+    "Enerji yoktan var edilemez, yok edilemez; yalnızca dönüşür.",
+    "Güç, işin ne kadar hızlı yapıldığını gösterir.",
+    "Fosil yakıtlar yenilenemeyen kaynaklardır."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 3,
+   "intro": "Bu ünitede elektrik akımını, potansiyel farkı, direnci ve bunlar arasındaki ilişkiyi veren Ohm Yasası'nı öğreniyoruz. Ayrıca dirençlerin ve üreteçlerin bağlanma biçimlerini ve elektrikten korunmak için alınacak önlemleri tartışacağız.",
+   "sections": [
+    {
+     "title": "Akım, potansiyel fark ve direnç",
+     "text": "Elektrik devresini bir su tesisatına benzetebiliriz. Pompa, suyu yükseğe çıkararak basınç farkı oluşturur; üreteç de devrede potansiyel fark (gerilim) oluşturur ve birimi volttur (V). Borulardan akan su elektrik akımına benzer. Elektrik akımı, bir iletkenin kesitinden birim zamanda geçen yük miktarıdır: I = q / t; birimi amperdir (A). Metal tellerde akımı serbest elektronlar taşır. Dar boruların suyun akışını zorlaştırması gibi, direnç de akıma karşı gösterilen zorluktur ve birimi ohmdur (Ω). Bir telin direnci boyu arttıkça artar, kesit alanı arttıkça azalır ve telin cinsine bağlıdır.",
+     "points": [
+      "Akım: ampermetreyle, devreye seri bağlanarak ölçülür.",
+      "Potansiyel fark: voltmetreyle, paralel bağlanarak ölçülür.",
+      "R = ρ × L / A"
+     ]
+    },
+    {
+     "title": "Ohm Yasası",
+     "text": "Sıcaklığı sabit tutulan bir iletkenin uçları arasındaki potansiyel farkın, iletkenden geçen akıma oranı sabittir ve bu sabit iletkenin direncine eşittir: V = I × R. Bu ilişki Ohm Yasası olarak bilinir. Potansiyel fark iki katına çıkarsa akım da iki katına çıkar. Aynı potansiyel fark altında direnç büyüdükçe akım küçülür. Potansiyel fark-akım grafiği orijinden geçen bir doğrudur ve bu doğrunun eğimi direnci verir. Ohm Yasası, devredeki bilinmeyen akım, gerilim ya da direnci hesaplamak için kullanılır.",
+     "points": [
+      "V = I × R",
+      "V-I grafiğinin eğimi = direnç"
+     ]
+    },
+    {
+     "title": "Eşdeğer direnç ve üreteçlerin bağlanması",
+     "text": "Seri bağlı dirençlerden aynı akım geçer ve eşdeğer direnç dirençlerin toplamıdır: Reş = R₁ + R₂ + ... Seri bağlamada eşdeğer direnç her dirençten büyüktür. Paralel bağlı dirençlerin uçları arasındaki potansiyel fark aynıdır ve 1/Reş = 1/R₁ + 1/R₂ + ... olur. Paralel bağlamada eşdeğer direnç en küçük dirençten bile küçüktür; evlerdeki prizler bu yüzden paralel bağlanır. Üreteçler seri bağlandığında gerilimleri toplanır. Özdeş üreteçler paralel bağlandığında toplam gerilim tek bir üretecin gerilimine eşittir, ancak üreteçler daha uzun süre akım verebilir.",
+     "points": [
+      "Seri: Reş = R₁ + R₂",
+      "Paralel: 1/Reş = 1/R₁ + 1/R₂",
+      "Seri üreteçler: gerilimler toplanır."
+     ]
+    },
+    {
+     "title": "Elektriğin tehlikeleri ve topraklama",
+     "text": "Elektrik akımı vücuttan geçtiğinde kas kasılmalarına, yanıklara ve kalp ritim bozukluklarına yol açabilir. Kısa devre, akımın direnci çok küçük bir yoldan geçmesiyle oluşur; akım aşırı yükselir, teller ısınır ve yangın çıkabilir. Bu tehlikelere karşı sigortalar ve kaçak akım röleleri kullanılır. Topraklama, cihazların metal gövdesinin bir iletkenle toprağa bağlanmasıdır. Gövdeye kaçak elektrik geldiğinde akım insan yerine toprak hattından akar. Islak elle prize ya da cihazlara dokunmamak, yıpranmış kabloları kullanmamak ve prizlere çok sayıda cihaz bağlamamak önemli önlemlerdir.",
+     "points": [
+      "Kısa devre yangına yol açabilir.",
+      "Sigorta ve kaçak akım rölesi devreyi korur.",
+      "Topraklama, kaçak akımı toprağa iletir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Elektrik akımı",
+     "meaning": "Birim zamanda iletken kesitinden geçen yük miktarı; birimi amper."
+    },
+    {
+     "term": "Potansiyel fark",
+     "meaning": "Yükleri harekete geçiren elektriksel 'basınç'; birimi volt."
+    },
+    {
+     "term": "Direnç",
+     "meaning": "İletkenin akıma karşı gösterdiği zorluk; birimi ohm."
+    },
+    {
+     "term": "Ohm Yasası",
+     "meaning": "V = I × R; gerilim ile akımın doğru orantılı olması."
+    },
+    {
+     "term": "Eşdeğer direnç",
+     "meaning": "Bir grup direncin yerine konabilecek tek direnç."
+    },
+    {
+     "term": "Kısa devre",
+     "meaning": "Akımın çok düşük dirençli bir yoldan geçerek aşırı yükselmesi."
+    },
+    {
+     "term": "Topraklama",
+     "meaning": "Cihaz gövdesinin kaçak akım için toprağa bağlanması."
+    }
+   ],
+   "example": {
+    "question": "4 Ω ve 12 Ω'luk iki direnç paralel bağlanıp 12 V'luk bir üretece bağlanıyor. Eşdeğer direnci ve üreteçten çekilen toplam akımı bulunuz.",
+    "solution": "1) 1/Reş = 1/4 + 1/12 = 3/12 + 1/12 = 4/12.\n2) Reş = 3 Ω.\n3) Ohm Yasası: I = V / Reş = 12 / 3 = 4 A.\n4) Kontrol: 4 Ω'dan 3 A, 12 Ω'dan 1 A geçer; toplam 4 A."
+   },
+   "remember": [
+    "V = I × R.",
+    "Seri bağlamada akım, paralel bağlamada gerilim ortaktır.",
+    "Paralel eşdeğer direnç en küçük dirençten de küçüktür.",
+    "Topraklama hayat kurtarır; ıslak elle elektrikli cihaza dokunma."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 4,
+   "intro": "Bu ünitede kendini tekrar eden hareketleri, dalgaların özelliklerini, yansıma ve kırılmayı, rezonansı ve depremi öğreniyoruz. Ses, ışık ve deprem dalgaları enerjiyi bir yerden başka bir yere taşır.",
+   "sections": [
+    {
+     "title": "Periyodik hareket ve dalga kavramları",
+     "text": "Eşit zaman aralıklarında kendini tekrar eden harekete periyodik hareket denir; salıncak, sarkaç ve yaydaki kütlenin hareketi buna örnektir. Bir denge noktası etrafında gidip gelme hareketine salınım denir. Dalga, bir ortamda oluşan titreşimin enerji taşıyarak yayılmasıdır; dalga ilerlerken ortamın tanecikleri değil enerji taşınır. Dalgada en yüksek nokta tepe, en alçak nokta çukurdur. Ardışık iki tepe arası uzaklık dalga boyudur (λ). Bir tam dalganın oluşma süresi periyot (T), bir saniyede oluşan dalga sayısı frekanstır (f = 1/T, birimi hertz). Denge konumundan en büyük uzaklık genliktir.",
+     "points": [
+      "f = 1 / T",
+      "Yayılma sürati: v = λ × f",
+      "Genlik, dalganın taşıdığı enerjiyle ilgilidir."
+     ]
+    },
+    {
+     "title": "Dalgaların sınıflandırılması ve yayılma sürati",
+     "text": "Yayılmak için maddesel ortama ihtiyaç duyan dalgalara mekanik dalga denir; su, ses ve deprem dalgaları mekaniktir. Boşlukta da yayılabilen dalgalara elektromanyetik dalga denir; ışık, radyo dalgaları ve X ışınları bu türdendir. Titreşim doğrultusuna göre dalgalar ikiye ayrılır: titreşim yayılma doğrultusuna dikse enine dalga (su yüzeyi dalgası, ışık), paralelse boyuna dalga (ses) denir. Dalganın yayılma sürati kaynağa değil ortama bağlıdır. Örneğin ses havada, suda ve katılarda farklı hızlarda yayılır. Su dalgaları derin suda sığ suya göre daha hızlı ilerler. Frekansı kaynak belirler.",
+     "points": [
+      "Mekanik dalga: ortam gerekir.",
+      "Elektromanyetik dalga: boşlukta da yayılır.",
+      "Hızı ortam, frekansı kaynak belirler."
+     ]
+    },
+    {
+     "title": "Yansıma, kırılma ve rezonans",
+     "text": "Dalgalar bir engele çarptığında geri döner; buna yansıma denir. Yansımada gelme açısı yansıma açısına eşittir. Dalga bir ortamdan başka bir ortama geçerken sürati değişir ve doğrultusu değişebilir; buna kırılma denir. Su dalgaları derin sudan sığ suya geçerken yavaşlar ve dalga boyu kısalır, ancak frekansı değişmez. Her cismin kendine özgü bir doğal titreşim frekansı vardır. Bir cisme dışarıdan doğal frekansına eşit frekansta titreşim uygulanırsa cismin titreşim genliği büyük ölçüde artar; buna rezonans denir. Salıncağı doğru zamanlarda itmek rezonansa örnektir. Rezonans, binalarda ve köprülerde büyük hasarlara da yol açabilir.",
+     "points": [
+      "Gelme açısı = yansıma açısı",
+      "Kırılmada frekans değişmez.",
+      "Rezonans: dış frekans = doğal frekans"
+     ]
+    },
+    {
+     "title": "Deprem",
+     "text": "Deprem, yer kabuğundaki fay hatlarında biriken enerjinin aniden boşalmasıyla oluşan sarsıntıdır. Enerjinin ilk açığa çıktığı yer altındaki noktaya odak noktası, odağın yeryüzündeki tam üstündeki noktaya merkez üssü denir. Deprem dalgaları odaktan her yöne yayılır. Depremin büyüklüğü, açığa çıkan enerjiyle ilgilidir ve ölçeklerle sayısal olarak ifade edilir; bir depremin tek bir büyüklük değeri vardır. Depremin şiddeti ise belirli bir yerde gözlenen etki ve hasarı anlatır; yerden yere değişir. Zemin türü ve bina yapısı hasarı çok etkiler. Ülkemiz deprem kuşağında olduğu için depreme dayanıklı yapılar ve deprem çantası gibi hazırlıklar hayati önem taşır.",
+     "points": [
+      "Odak: yer altındaki başlangıç noktası",
+      "Merkez üssü: odağın yeryüzündeki izdüşümü",
+      "Büyüklük tektir, şiddet yere göre değişir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Periyot",
+     "meaning": "Bir tam salınım ya da dalga için geçen süre."
+    },
+    {
+     "term": "Frekans",
+     "meaning": "Bir saniyedeki salınım ya da dalga sayısı; birimi hertz."
+    },
+    {
+     "term": "Dalga boyu",
+     "meaning": "Ardışık iki tepe ya da iki çukur arası uzaklık."
+    },
+    {
+     "term": "Genlik",
+     "meaning": "Denge konumundan en büyük uzaklık."
+    },
+    {
+     "term": "Mekanik dalga",
+     "meaning": "Yayılmak için maddesel ortam gereken dalga."
+    },
+    {
+     "term": "Elektromanyetik dalga",
+     "meaning": "Boşlukta da yayılabilen dalga; ışık gibi."
+    },
+    {
+     "term": "Rezonans",
+     "meaning": "Doğal frekansta uyarılan cismin genliğinin büyümesi."
+    },
+    {
+     "term": "Merkez üssü",
+     "meaning": "Deprem odağının yeryüzündeki tam üstündeki nokta."
+    }
+   ],
+   "example": {
+    "question": "Frekansı 5 Hz olan bir su dalgasının dalga boyu 0,4 m'dir. Dalganın yayılma süratini ve periyodunu bulunuz.",
+    "solution": "1) v = λ × f = 0,4 × 5 = 2 m/s.\n2) T = 1 / f = 1 / 5 = 0,2 s."
+   },
+   "remember": [
+    "Dalgalar madde değil enerji taşır.",
+    "v = λ × f.",
+    "Dalganın sürati ortama, frekansı kaynağa bağlıdır.",
+    "Depremin büyüklüğü tektir, şiddeti yerden yere değişir."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 1,
+   "intro": "Bu ünitede serbest düşmeyi, iki boyutta hareketi, Newton'ın hareket yasalarını, sürtünmeyi ve çembersel hareketi öğreniyoruz. Bu yasalar, düşen bir elmadan dönen bir uyduya kadar hareketin nedenlerini açıklar.",
+   "sections": [
+    {
+     "title": "Serbest düşme ve iki boyutta hareket",
+     "text": "Hava direncinin önemsenmediği ortamda yalnızca yer çekimi etkisiyle düşen cismin hareketine serbest düşme denir. Serbest düşmede bütün cisimler kütlelerinden bağımsız olarak aynı ivmeyle düşer; bu ivme yer çekimi ivmesidir ve Dünya yüzeyinde yaklaşık 9,8 m/s²'dir (problemlerde çoğu zaman 10 m/s² alınır). Hava boşaltılmış bir tüpte tüy ile bozuk paranın aynı anda düşmesi bunun kanıtıdır. Yatay doğrultuda atılan bir cismin hareketi iki bağımsız hareketin birleşimidir: yatayda sabit hızlı hareket, düşeyde serbest düşme. Bu yüzden cisim parabol biçiminde bir yol izler. Aynı yükseklikten yatay atılan ve serbest bırakılan cisimler yere aynı anda düşer.",
+     "points": [
+      "Serbest düşmede ivme kütleye bağlı değildir.",
+      "h = (1/2)gt², v = gt",
+      "Yatay atış: yatayda sabit hız, düşeyde serbest düşme"
+     ]
+    },
+    {
+     "title": "Newton'ın hareket yasaları",
+     "text": "Birinci yasa (eylemsizlik): Bir cisme etki eden net kuvvet sıfırsa cisim duruyorsa durmaya, hareket ediyorsa sabit hızla doğrusal hareketine devam eder. Otobüs aniden fren yaptığında yolcuların öne savrulması eylemsizliktir. İkinci yasa: Net kuvvet, cismin kütlesi ile ivmesinin çarpımına eşittir: F(net) = m × a. Aynı kuvvet altında kütlesi büyük cismin ivmesi küçüktür. Üçüncü yasa (etki-tepki): Bir cisim diğerine kuvvet uyguladığında, diğeri de ona eşit büyüklükte ve zıt yönde kuvvet uygular. Etki ve tepki kuvvetleri farklı cisimlere etki ettiği için birbirini dengelemez. Cisme etki eden tüm kuvvetleri gösteren çizime serbest cisim diyagramı denir.",
+     "points": [
+      "1. yasa: net kuvvet sıfır → hız sabit",
+      "2. yasa: F(net) = m × a",
+      "3. yasa: etki = −tepki, farklı cisimler üzerinde"
+     ]
+    },
+    {
+     "title": "Sürtünme kuvveti ve limit hız",
+     "text": "Birbirine temas eden yüzeyler arasında harekete karşı koyan kuvvete sürtünme kuvveti denir. Cisim durgunken etki eden sürtünmeye statik sürtünme denir; uygulanan kuvvet arttıkça bir maksimum değere kadar artar. Cisim kaymaya başladıktan sonra etki eden kinetik sürtünme kuvveti genellikle maksimum statik sürtünmeden küçüktür. Kinetik sürtünme Fs = k × N bağıntısıyla bulunur; k sürtünme katsayısı, N yüzeyin tepki kuvvetidir. Sürtünme yüzey alanına bağlı değildir. Havada düşen bir cisme etki eden hava direnci hız arttıkça artar. Hava direnci ağırlığa eşit olduğunda net kuvvet sıfır olur ve cisim sabit hızla düşer; bu hıza limit hız denir. Paraşüt limit hızı küçülterek güvenli iniş sağlar.",
+     "points": [
+      "Fs = k × N",
+      "Kinetik sürtünme genellikle maksimum statik sürtünmeden küçüktür.",
+      "Limit hızda hava direnci = ağırlık"
+     ]
+    },
+    {
+     "title": "Düzgün çembersel hareket",
+     "text": "Bir cismin çembersel yörüngede sabit süratle dolanmasına düzgün çembersel hareket denir. Sürat sabittir ama hızın yönü sürekli değiştiğinden cismin ivmesi vardır. Hız vektörü her an çembere teğettir. İvme ise çemberin merkezine doğrudur ve merkezcil ivme olarak adlandırılır: a = v² / r. Cismi çembersel yörüngede tutan, merkeze doğru olan net kuvvete merkezcil kuvvet denir: F = m × v² / r. Çizgisel sürat v = 2πr / T, açısal hız ω = 2π / T ile bulunur ve v = ω × r'dir. İpe bağlı dönen taşta merkezcil kuvveti ip gerilmesi, Dünya etrafında dönen uyduda ise kütle çekim kuvveti sağlar.",
+     "points": [
+      "a = v² / r, merkeze doğru",
+      "F = m v² / r",
+      "v = ω × r"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Serbest düşme",
+     "meaning": "Yalnızca yer çekimi etkisiyle yapılan düşme hareketi."
+    },
+    {
+     "term": "Eylemsizlik",
+     "meaning": "Cismin hareket durumunu koruma eğilimi."
+    },
+    {
+     "term": "Etki-tepki kuvvetleri",
+     "meaning": "İki cismin birbirine uyguladığı eşit büyüklükte, zıt yönlü kuvvetler."
+    },
+    {
+     "term": "Serbest cisim diyagramı",
+     "meaning": "Bir cisme etki eden tüm kuvvetleri oklarla gösteren çizim."
+    },
+    {
+     "term": "Statik sürtünme kuvveti",
+     "meaning": "Duran cisme etki eden ve harekete başlamayı engelleyen sürtünme."
+    },
+    {
+     "term": "Kinetik sürtünme kuvveti",
+     "meaning": "Kayan cisme etki eden sürtünme."
+    },
+    {
+     "term": "Limit hız",
+     "meaning": "Hava direncinin ağırlığa eşitlendiği andaki sabit düşme hızı."
+    },
+    {
+     "term": "Merkezcil kuvvet",
+     "meaning": "Çembersel hareketi sağlayan, merkeze yönelik net kuvvet."
+    }
+   ],
+   "example": {
+    "question": "5 kg kütleli bir kutu yatay zeminde 30 N'luk yatay kuvvetle çekiliyor. Kinetik sürtünme katsayısı 0,2 ise kutunun ivmesi nedir? (g = 10 m/s²)",
+    "solution": "1) Zeminin tepki kuvveti N = m × g = 5 × 10 = 50 N.\n2) Sürtünme kuvveti Fs = 0,2 × 50 = 10 N.\n3) Net kuvvet = 30 − 10 = 20 N.\n4) a = F(net) / m = 20 / 5 = 4 m/s²."
+   },
+   "remember": [
+    "Hava direnci yoksa tüm cisimler aynı ivmeyle düşer.",
+    "F(net) = m × a; önce net kuvveti bul.",
+    "Etki ve tepki farklı cisimlere etki eder, birbirini dengelemez.",
+    "Düzgün çembersel harekette sürat sabit, ivme merkeze doğrudur."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 2,
+   "intro": "Bu ünitede elektrik yükleri arasındaki kuvveti, elektrik alanı, mıknatısları, akımın oluşturduğu manyetik alanı ve elektromanyetik indüksiyonu öğreniyoruz. Elektrik motorları, jeneratörler ve transformatörler bu ilkelerle çalışır.",
+   "sections": [
+    {
+     "title": "Elektriksel kuvvet ve elektriksel alan",
+     "text": "Aynı cins yükler birbirini iter, zıt cins yükler birbirini çeker. Coulomb Yasası'na göre iki noktasal yük arasındaki elektriksel kuvvet F = k × q₁ × q₂ / d² bağıntısıyla bulunur. Kuvvet, yüklerin çarpımıyla doğru orantılı, aradaki uzaklığın karesiyle ters orantılıdır. Bir yükün çevresinde, başka yüklere kuvvet uyguladığı bölgeye elektriksel alan denir: E = k × q / d². Alan vektöreldir; pozitif yükten dışarı, negatif yüke doğru yönelir. İletken kapalı yüzeylerin içinde elektriksel alan sıfırdır. Bu ilke Faraday kafesinde kullanılır: yıldırım düşen bir arabanın içindekiler, arabanın metal gövdesi sayesinde korunur.",
+     "points": [
+      "F = k q₁ q₂ / d²",
+      "E = k q / d²",
+      "Faraday kafesi: iletken kabuğun içinde alan sıfırdır."
+     ]
+    },
+    {
+     "title": "Mıknatıslar ve akımın manyetik alanı",
+     "text": "Her mıknatısın kuzey (N) ve güney (S) olmak üzere iki kutbu vardır. Aynı kutuplar birbirini iter, zıt kutuplar çeker. Mıknatısın çevresinde manyetik alan oluşur; alan çizgileri mıknatısın dışında N kutbundan S kutbuna doğrudur. Danimarkalı bilim insanı Oersted, akım geçen bir telin yakınındaki pusula iğnesinin saptığını gözlemleyerek akımın manyetik alan oluşturduğunu keşfetmiştir. Düz telin manyetik alanı tel etrafında halkalar biçimindedir ve akım arttıkça artar, telden uzaklaştıkça azalır. Tel sarılarak akım makarası yapılırsa içindeki alan güçlenir; içine demir çekirdek konunca elektromıknatıs elde edilir. Elektromıknatıslar hurda vinçleri, zil ve hoparlörlerde kullanılır.",
+     "points": [
+      "Alan çizgileri dışarıda N'den S'ye",
+      "Akım geçen tel manyetik alan oluşturur.",
+      "Makarada sarım sayısı ve akım artarsa alan güçlenir."
+     ]
+    },
+    {
+     "title": "Manyetik kuvvet ve elektrik motoru",
+     "text": "Manyetik alan içindeki akım geçen bir tele manyetik kuvvet etki eder. Tel alana dik olduğunda kuvvetin büyüklüğü F = B × I × L'dir; B manyetik alan, I akım, L telin alan içindeki uzunluğudur. Tel alana paralelse kuvvet sıfırdır. Kuvvetin yönü sağ el kuralıyla bulunur ve hem akıma hem alana diktir. Elektrik motorları bu ilkeyle çalışır: manyetik alan içine yerleştirilen akım geçen bir bobine etki eden kuvvetler, bobini döndürür. Akımın yönü her yarım turda değiştirilerek dönmenin sürekli olması sağlanır. Böylece elektrik enerjisi hareket (mekanik) enerjisine dönüşür.",
+     "points": [
+      "F = B I L (tel alana dikken)",
+      "Elektrik motoru: elektrik enerjisi → mekanik enerji"
+     ]
+    },
+    {
+     "title": "İndüksiyon, alternatif akım ve transformatör",
+     "text": "Bir yüzeyden geçen manyetik alan çizgilerinin miktarına manyetik akı denir: Φ = B × A (alan yüzeye dikken). Akı; alanın büyüklüğüne, yüzey alanına ve yüzeyin alana göre açısına bağlıdır. Faraday, bir bobindeki manyetik akı değiştiğinde bobinde gerilim oluştuğunu keşfetmiştir; buna indüksiyon gerilimi, oluşan akıma indüksiyon akımı denir. Gerilim, akının ne kadar hızlı değiştiğine ve sarım sayısına bağlıdır. Manyetik alanda döndürülen bir bobinde yönü ve büyüklüğü düzenli değişen alternatif akım oluşur; jeneratörler böyle çalışır. Transformatörler alternatif gerilimi yükseltir ya da düşürür: V₁/V₂ = N₁/N₂. Elektrik, kayıpları azaltmak için yüksek gerilimle iletilir.",
+     "points": [
+      "Akı değişirse indüksiyon akımı oluşur.",
+      "Jeneratör: mekanik enerji → elektrik enerjisi",
+      "Transformatör: V₁/V₂ = N₁/N₂"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Elektriksel kuvvet",
+     "meaning": "Yüklü cisimlerin birbirine uyguladığı itme ya da çekme kuvveti."
+    },
+    {
+     "term": "Elektriksel alan",
+     "meaning": "Bir yükün çevresinde diğer yüklere kuvvet uyguladığı bölge."
+    },
+    {
+     "term": "Manyetik alan",
+     "meaning": "Mıknatıs ya da akım çevresinde manyetik etkinin görüldüğü bölge."
+    },
+    {
+     "term": "Manyetik kuvvet",
+     "meaning": "Manyetik alanın akım geçen tele ya da hareketli yüke uyguladığı kuvvet."
+    },
+    {
+     "term": "Manyetik akı",
+     "meaning": "Bir yüzeyden geçen manyetik alan çizgilerinin miktarı."
+    },
+    {
+     "term": "İndüksiyon akımı",
+     "meaning": "Manyetik akı değişimiyle iletkende oluşan akım."
+    },
+    {
+     "term": "Alternatif akım",
+     "meaning": "Yönü ve büyüklüğü düzenli olarak değişen akım."
+    },
+    {
+     "term": "Transformatör",
+     "meaning": "Alternatif gerilimi yükselten ya da düşüren cihaz."
+    }
+   ],
+   "example": {
+    "question": "Birincil sargısında 200, ikincil sargısında 20 sarım olan ideal bir transformatörün birincil sargısına 220 V uygulanıyor. İkincil sargıdaki gerilim kaç volttur?",
+    "solution": "1) V₁/V₂ = N₁/N₂.\n2) 220 / V₂ = 200 / 20 = 10.\n3) V₂ = 22 V.\n4) Sarım sayısı azaldığı için bu bir gerilim düşürücü transformatördür."
+   },
+   "remember": [
+    "Aynı cins yükler iter, zıt cins yükler çeker.",
+    "Akım geçen tel manyetik alan oluşturur.",
+    "Manyetik akı değişmezse indüksiyon akımı oluşmaz.",
+    "Transformatör yalnızca alternatif akımla çalışır."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 3,
+   "intro": "Bu ünitede ışığın aydınlatma özelliklerini, aynalarda yansımayı, saydam ortamlarda kırılmayı, prizmaları ve mercekleri öğreniyoruz. Gözlüklerden mikroskoplara, fiber optik internet kablolarından kameralara kadar birçok teknoloji optiğe dayanır.",
+   "sections": [
+    {
+     "title": "Işık şiddeti, ışık akısı ve aydınlanma",
+     "text": "Bir ışık kaynağının belirli bir yönde yaydığı ışık miktarına ışık şiddeti denir; birimi kandeladır (cd). Kaynaktan birim zamanda yayılan toplam ışık enerjisi ışık akısıyla ifade edilir; birimi lümendir (lm). Bir yüzeyin birim alanına düşen ışık akısına aydınlanma denir; birimi lükstür (lx). Noktasal bir kaynağın bir yüzeyde oluşturduğu aydınlanma, kaynağın ışık şiddetiyle doğru orantılı, yüzeyin kaynağa uzaklığının karesiyle ters orantılıdır: E = I / d². Lambadan iki kat uzaklaştığımızda aydınlanma dörtte birine düşer. Işık yüzeye eğik gelirse aydınlanma azalır.",
+     "points": [
+      "E = I / d² (ışık dik gelirken)",
+      "Uzaklık 2 katına çıkarsa aydınlanma 1/4'e düşer."
+     ]
+    },
+    {
+     "title": "Düzlem ve küresel aynalar",
+     "text": "Yansımada gelen ışın, yansıyan ışın ve normal aynı düzlemdedir ve gelme açısı yansıma açısına eşittir. Düzlem aynada görüntü sanal, düz, cisimle aynı boyda ve aynaya cisimle eşit uzaklıktadır. Küresel aynalar, bir kürenin yüzeyinden kesilmiş aynalardır. Kürenin merkezine merkez (M), aynanın ortasındaki noktaya tepe noktası (T), bu iki noktadan geçen doğruya asal eksen denir. İçi parlatılmış çukur ayna asal eksene paralel gelen ışınları odakta toplar; el fenerlerinde ve makyaj aynalarında kullanılır. Dışı parlatılmış tümsek ayna ışınları dağıtır, her zaman küçük ve düz görüntü verir; geniş görüş alanı sağladığı için araç dikiz aynalarında kullanılır.",
+     "points": [
+      "Gelme açısı = yansıma açısı",
+      "Çukur ayna: toplayıcı",
+      "Tümsek ayna: dağıtıcı, geniş görüş alanı",
+      "Odak uzaklığı f = r / 2"
+     ]
+    },
+    {
+     "title": "Kırılma, tam yansıma ve fiber optik",
+     "text": "Işık bir saydam ortamdan diğerine geçerken sürati değiştiği için doğrultusu değişir; buna kırılma denir. Bir ortamın kırma indisi n = c / v'dir; c ışığın boşluktaki, v ortamdaki süratidir. Snell Yasası'na göre n₁ × sin θ₁ = n₂ × sin θ₂. Işık az yoğun ortama geçerken normalden uzaklaşır. Kırılma açısını 90° yapan gelme açısına sınır açısı denir; gelme açısı sınır açısından büyükse ışık hiç geçmez ve tamamen geri yansır. Buna tam yansıma denir. Fiber optik kablolarda ışık, bu sayede kablo içinde defalarca yansıyarak çok uzak mesafelere taşınır. Havuzun olduğundan sığ görünmesi kırılmadan kaynaklanır; buna görünür derinlik denir.",
+     "points": [
+      "n = c / v",
+      "n₁ sin θ₁ = n₂ sin θ₂",
+      "Tam yansıma: yoğun ortamdan az yoğun ortama, gelme açısı > sınır açısı"
+     ]
+    },
+    {
+     "title": "Prizmalar ve mercekler",
+     "text": "Prizma, ışığı kırarak yönünü değiştiren saydam cisimdir. Beyaz ışık prizmadan geçerken renklerine ayrılır, çünkü her rengin kırılma miktarı farklıdır; mor en çok, kırmızı en az kırılır. Gökkuşağı da su damlalarında benzer şekilde oluşur. Mercekler iki yüzeyinden en az biri küresel olan saydam cisimlerdir. Kenarları ince, ortası kalın olan ince kenarlı mercek, paralel ışınları odakta toplar; büyüteç ve hipermetrop gözlükleri böyledir. Kenarları kalın, ortası ince olan kalın kenarlı mercek ışınları dağıtır; miyop gözlüklerinde kullanılır. İnce kenarlı mercekte cismin odağa göre konumu görüntünün gerçek ya da sanal, büyük ya da küçük olmasını belirler.",
+     "points": [
+      "Beyaz ışık prizmada renklerine ayrılır.",
+      "İnce kenarlı mercek: toplayıcı, hipermetropi",
+      "Kalın kenarlı mercek: dağıtıcı, miyopi"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Işık şiddeti",
+     "meaning": "Kaynağın belirli bir yönde yaydığı ışık miktarı; birimi kandela."
+    },
+    {
+     "term": "Işık akısı",
+     "meaning": "Kaynaktan yayılan toplam ışık miktarı; birimi lümen."
+    },
+    {
+     "term": "Aydınlanma",
+     "meaning": "Birim yüzeye düşen ışık akısı; birimi lüks."
+    },
+    {
+     "term": "Asal eksen",
+     "meaning": "Küresel aynada merkez ile tepe noktasından geçen doğru."
+    },
+    {
+     "term": "Kırma indisi",
+     "meaning": "Işığın boşluktaki süratinin ortamdaki süratine oranı."
+    },
+    {
+     "term": "Snell Yasası",
+     "meaning": "n₁ sin θ₁ = n₂ sin θ₂ kırılma bağıntısı."
+    },
+    {
+     "term": "Tam yansıma",
+     "meaning": "Sınır açısından büyük açıyla gelen ışığın tamamen geri yansıması."
+    },
+    {
+     "term": "Fiber optik",
+     "meaning": "Işığı tam yansımayla taşıyan ince cam ya da plastik lif."
+    }
+   ],
+   "example": {
+    "question": "Işık şiddeti 100 cd olan noktasal bir lambanın 2 m uzaklıktaki bir yüzeyde oluşturduğu aydınlanma kaç lükstür? Yüzey 4 m uzağa götürülürse ne olur? (Işık yüzeye dik geliyor.)",
+    "solution": "1) E = I / d² = 100 / 2² = 25 lx.\n2) d = 4 m için: E = 100 / 16 = 6,25 lx.\n3) Uzaklık 2 katına çıkınca aydınlanma 1/4'e düşmüştür."
+   },
+   "remember": [
+    "Aydınlanma uzaklığın karesiyle ters orantılıdır.",
+    "Düzlem aynada görüntü sanal ve cisimle aynı boydadır.",
+    "Tam yansıma için ışık yoğun ortamdan az yoğun ortama gitmelidir.",
+    "Miyopiye kalın kenarlı, hipermetropiye ince kenarlı mercek."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 1,
+   "intro": "Bu ünitede dönme etkisi olan torku, dengeyi, kütle merkezini, itme ve momentumu, dönme hareketindeki eylemsizlik momenti ve açısal momentumu öğreniyoruz. Kapı açmaktan buz patencisinin dönüşüne kadar birçok olay bu kavramlarla açıklanır.",
+   "sections": [
+    {
+     "title": "Tork ve denge",
+     "text": "Bir kuvvetin cismi bir eksen etrafında döndürme etkisine tork denir: τ = F × d. Burada d, kuvvetin uygulama doğrultusunun dönme eksenine dik uzaklığıdır (kuvvet kolu). Birimi N·m'dir. Kapının menteşeden uzak noktasından itilmesi bu yüzden daha kolaydır. Bir cismin dengede olması için iki koşul gerekir: cisme etki eden net kuvvet sıfır olmalı (öteleme dengesi) ve herhangi bir noktaya göre net tork sıfır olmalıdır (dönme dengesi). Tahterevallide ağır olan çocuğun desteğe daha yakın oturması, iki torku eşitlemek içindir. Kaldıraçlar, el arabası ve makaslar tork ilkesiyle çalışır.",
+     "points": [
+      "τ = F × d",
+      "Denge: net kuvvet = 0 ve net tork = 0"
+     ]
+    },
+    {
+     "title": "Kütle merkezi ve ağırlık merkezi",
+     "text": "Bir cismin tüm kütlesinin toplanmış gibi düşünülebildiği noktaya kütle merkezi denir. Cismin ağırlığının etki ettiği kabul edilen noktaya ise ağırlık merkezi denir. Yer çekimi ivmesinin her yerde aynı olduğu düzgün çekim alanında bu iki nokta çakışır. Düzgün ve simetrik cisimlerde kütle merkezi geometrik merkezdedir. Bir cismin ağırlık merkezi destek tabanının üzerindeyse cisim devrilmez. Ağırlık merkezi alçak ve destek tabanı geniş olan cisimler daha kararlıdır; yarış arabalarının basık yapılması bu yüzdendir. Kütle merkezi cismin dışında da olabilir; örneğin bir halkanın kütle merkezi boşlukta, halkanın merkezindedir.",
+     "points": [
+      "Düzgün çekim alanında kütle merkezi = ağırlık merkezi",
+      "Ağırlık merkezi alçak olan cisim daha kararlıdır."
+     ]
+    },
+    {
+     "title": "İtme ve momentum",
+     "text": "Kütle ile hızın çarpımına momentum denir: p = m × v. Momentum vektöreldir ve birimi kg·m/s'dir. Bir cisme etki eden kuvvet ile etki süresinin çarpımına itme denir: I = F × Δt. İtme, momentumdaki değişime eşittir: F × Δt = Δp. Aynı momentum değişimi daha uzun sürede gerçekleşirse kuvvet küçülür; hava yastıkları ve kasklar bu ilkeyle insanı korur. Dış kuvvetlerin etki etmediği bir sistemde toplam momentum korunur. Çarpışmalarda ve patlamalarda momentum korunumu kullanılır. Örneğin tüfek ateşlendiğinde mermi ileri, tüfek geri hareket eder; ikisinin momentumları eşit büyüklükte ve zıt yönlüdür.",
+     "points": [
+      "p = m × v",
+      "F × Δt = Δp",
+      "Dış kuvvet yoksa toplam momentum korunur."
+     ]
+    },
+    {
+     "title": "Eylemsizlik momenti ve açısal momentum",
+     "text": "Cisimlerin dönme hareketindeki değişime karşı gösterdiği direnç eylemsizlik momentiyle ölçülür. Eylemsizlik momenti yalnızca kütleye değil, kütlenin dönme eksenine göre nasıl dağıldığına da bağlıdır: kütle eksenden uzaklaştıkça eylemsizlik momenti artar. Dönen bir cismin açısal momentumu L = I × ω'dır; I eylemsizlik momenti, ω açısal hızdır. Dış tork etki etmezse açısal momentum korunur. Buz patencisi kollarını kapatınca eylemsizlik momenti azalır ve daha hızlı döner; kollarını açınca yavaşlar. Dönen bisiklet tekerleğinin dengeyi kolaylaştırması da açısal momentumla ilgilidir.",
+     "points": [
+      "L = I × ω",
+      "Dış tork yoksa açısal momentum korunur.",
+      "Kütle eksene yaklaşınca dönme hızlanır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Tork",
+     "meaning": "Kuvvetin döndürme etkisi; kuvvet ile kuvvet kolunun çarpımı."
+    },
+    {
+     "term": "Denge",
+     "meaning": "Net kuvvetin ve net torkun sıfır olduğu durum."
+    },
+    {
+     "term": "Kütle merkezi",
+     "meaning": "Cismin kütlesinin toplandığı kabul edilen nokta."
+    },
+    {
+     "term": "Ağırlık merkezi",
+     "meaning": "Cismin ağırlığının etki ettiği kabul edilen nokta."
+    },
+    {
+     "term": "Momentum",
+     "meaning": "Kütle ile hızın çarpımı; p = m × v."
+    },
+    {
+     "term": "İtme",
+     "meaning": "Kuvvet ile etki süresinin çarpımı; momentum değişimine eşittir."
+    },
+    {
+     "term": "Eylemsizlik momenti",
+     "meaning": "Cismin dönme hareketindeki değişime karşı direnci."
+    },
+    {
+     "term": "Açısal momentum",
+     "meaning": "Dönen cismin eylemsizlik momenti ile açısal hızının çarpımı."
+    }
+   ],
+   "example": {
+    "question": "Durmakta olan 60 kg'lık bir kaykaycı, elindeki 3 kg'lık topu 4 m/s hızla ileri fırlatıyor. Sürtünme önemsiz ise kaykaycı hangi hızla geri gider?",
+    "solution": "1) Başlangıçta herkes duruyor: toplam momentum 0.\n2) Momentum korunur: 3 × 4 + 60 × v = 0.\n3) 60v = −12, v = −0,2 m/s.\n4) Kaykaycı 0,2 m/s hızla topun ters yönünde hareket eder."
+   },
+   "remember": [
+    "Kuvvet kolu büyüdükçe tork büyür.",
+    "Denge için hem net kuvvet hem net tork sıfır olmalı.",
+    "İtme = momentum değişimi; süre uzarsa kuvvet azalır.",
+    "Dış etki yoksa momentum ve açısal momentum korunur."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 2,
+   "intro": "Bu ünitede yayların esneklik özelliğini, yayda depolanan enerjiyi, sürtünmenin yaptığı işi ve enerji dönüşümlerinde verimi öğreniyoruz. Bu kavramlar; araba amortisörlerinden enerji santrallerinin verimliliğine kadar geniş bir alanda karşımıza çıkar.",
+   "sections": [
+    {
+     "title": "Yay sabiti ve Hooke Yasası",
+     "text": "Bir yay çekildiğinde ya da sıkıştırıldığında boyundaki değişime uzanım (x) denir. Esneklik sınırı aşılmadığı sürece yayı geren kuvvet ile uzanım doğru orantılıdır: F = k × x. Bu bağıntı Hooke Yasası olarak bilinir. k yay sabitidir ve birimi N/m'dir. Yay sabiti büyük olan yay sert yaydır; aynı kuvvetle daha az uzar. Yay sabiti, yayın yapıldığı malzemeye, telin kalınlığına ve yayın sarım biçimine bağlıdır. Deneyde yaya farklı ağırlıklar asılıp uzanımlar ölçülür; kuvvet-uzanım grafiği orijinden geçen bir doğru olur ve eğimi yay sabitini verir.",
+     "points": [
+      "F = k × x",
+      "F-x grafiğinin eğimi = k",
+      "Esneklik sınırı aşılırsa yay kalıcı olarak bozulur."
+     ]
+    },
+    {
+     "title": "Esneklik potansiyel enerjisi",
+     "text": "Gerilen ya da sıkıştırılan yayda enerji depolanır; buna esneklik potansiyel enerjisi denir. Yayı germek için yapılan iş, kuvvet-uzanım grafiğinin altındaki üçgenin alanına eşittir. Bu yüzden enerji E = (1/2) × k × x² bağıntısıyla bulunur. Uzanım iki katına çıkarsa depolanan enerji dört katına çıkar. Yay serbest bırakıldığında bu enerji kinetik enerjiye dönüşebilir. Oyuncak tabancalar, mekanik saatler ve trambolin bu enerji dönüşümüne örnektir. Yay sistemlerinde enerji, kinetik ve potansiyel biçimler arasında sürekli dönüşür.",
+     "points": [
+      "E = (1/2) k x²",
+      "Uzanım 2 kat → enerji 4 kat"
+     ]
+    },
+    {
+     "title": "Sürtünmenin işi ve enerjinin korunumu",
+     "text": "Sürtünme kuvveti, hareketin tersi yönünde etki ettiği için cisim üzerinde negatif iş yapar ve cismin mekanik enerjisini azaltır. Sürtünmenin yaptığı işin büyüklüğü W = Fs × Δx'tir. Bu enerji yok olmaz; ısı enerjisine dönüşür ve yüzeyleri ısıtır. Elleri birbirine sürtünce ısınması bunu gösterir. Enerjinin korunumu ilkesine göre kapalı bir sistemde toplam enerji sabittir; yalnızca biçim değiştirir. Sürtünmeli bir sistemde ilk mekanik enerji, son mekanik enerji ile sürtünmeye harcanan enerjinin toplamına eşittir. Bu ilke, fiziğin en temel yasalarından biridir.",
+     "points": [
+      "Sürtünme mekanik enerjiyi ısıya dönüştürür.",
+      "İlk enerji = son mekanik enerji + ısıya dönüşen enerji"
+     ]
+    },
+    {
+     "title": "Verim",
+     "text": "Hiçbir makine kendisine verilen enerjinin tamamını istenen işe dönüştüremez; bir kısmı sürtünme, ısı ve ses gibi biçimlerde kaybolur. Faydalı enerjinin verilen toplam enerjiye oranına verim denir: Verim = (faydalı enerji / toplam enerji) × 100. Verim her zaman %100'den küçüktür. Örneğin akkor flamanlı ampuller enerjinin büyük kısmını ısıya dönüştürdüğü için düşük verimlidir; LED lambalar aynı ışık için çok daha az enerji harcar. Makinelerde yağlama, düzgün yüzeyler ve iyi tasarım verimi artırır. Verimli cihazlar kullanmak hem enerji tasarrufu sağlar hem de çevreyi korur.",
+     "points": [
+      "Verim = faydalı / toplam × 100",
+      "Verim her zaman %100'den küçüktür.",
+      "LED lambalar akkor ampullerden daha verimlidir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Yay sabiti",
+     "meaning": "Yayın sertliğini gösteren, kuvvetin uzanıma oranı; birimi N/m."
+    },
+    {
+     "term": "Uzanım",
+     "meaning": "Yayın boyundaki uzama ya da kısalma miktarı."
+    },
+    {
+     "term": "Yayın esneklik potansiyel enerjisi",
+     "meaning": "Gerilmiş ya da sıkışmış yayda depolanan enerji."
+    },
+    {
+     "term": "Sürtünme kuvvetinin yaptığı iş",
+     "meaning": "Sürtünmenin ısıya dönüştürdüğü mekanik enerji miktarı."
+    },
+    {
+     "term": "Enerjinin korunumu",
+     "meaning": "Kapalı sistemde toplam enerjinin sabit kalması."
+    },
+    {
+     "term": "Verim",
+     "meaning": "Faydalı enerjinin toplam enerjiye oranı."
+    },
+    {
+     "term": "Hooke Yasası",
+     "meaning": "Esneklik sınırı içinde kuvvetin uzanımla doğru orantılı olması."
+    }
+   ],
+   "example": {
+    "question": "Yay sabiti 200 N/m olan bir yay 0,1 m sıkıştırılıyor. Yayda depolanan enerji nedir? Bu enerji 0,5 kg'lık bir topa sürtünmesiz aktarılırsa topun hızı ne olur?",
+    "solution": "1) E = (1/2) × 200 × 0,1² = (1/2) × 200 × 0,01 = 1 J.\n2) Enerji kinetik enerjiye dönüşür: (1/2) × 0,5 × v² = 1.\n3) 0,25 × v² = 1, v² = 4.\n4) v = 2 m/s."
+   },
+   "remember": [
+    "F = k × x, esneklik sınırı içinde geçerlidir.",
+    "Yay enerjisi uzanımın karesiyle artar.",
+    "Sürtünme enerjiyi yok etmez, ısıya dönüştürür.",
+    "Hiçbir makinenin verimi %100 değildir."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 3,
+   "intro": "Bu ünitede dalgaların engellerin arkasına bükülmesi olan kırınımı, dalgaların üst üste binmesi olan girişimi ve elektromanyetik dalga spektrumunu öğreniyoruz. Bu olaylar, ışığın bir dalga gibi davrandığının en güçlü kanıtlarıdır.",
+   "sections": [
+    {
+     "title": "Kırınım",
+     "text": "Dalgaların bir engelin kenarından ya da dar bir aralıktan geçerken bükülerek engelin arkasına yayılmasına kırınım denir. Dalga leğeninde doğrusal su dalgaları dar bir yarıktan geçtiğinde yarığın arkasında dairesel dalgalar oluşur. Kırınım, yarık genişliği dalga boyuna yakın ya da ondan küçük olduğunda belirgin olur. Yarık genişliği dalga boyuna göre çok büyükse dalgalar neredeyse bükülmeden geçer. Kapı aralığından sesi duyabilmemiz ama ışığı köşeden görememiz bu yüzdendir: sesin dalga boyu kapı genişliğine yakındır, ışığınki ise çok çok küçüktür. Işığın kırınımı ancak çok dar yarıklarla gözlenebilir.",
+     "points": [
+      "Yarık dar, dalga boyu büyük → kırınım belirgin",
+      "Kırınımda dalga boyu ve frekans değişmez."
+     ]
+    },
+    {
+     "title": "Girişim",
+     "text": "İki ya da daha fazla dalganın aynı noktada karşılaşıp üst üste binmesine girişim denir. İki tepe ya da iki çukur karşılaşırsa genlikler toplanır; buna yapıcı girişim denir. Bir tepe ile bir çukur karşılaşırsa genlikler birbirini azaltır ya da yok eder; buna yıkıcı girişim denir. Dalga leğeninde aynı frekansta titreşen iki kaynak, yapıcı girişimin olduğu dalgalı çizgiler ile yıkıcı girişimin olduğu sakin çizgilerden oluşan bir girişim deseni oluşturur. Gürültü önleyici kulaklıklar, gelen sese zıt fazda bir ses üreterek yıkıcı girişimle gürültüyü azaltır.",
+     "points": [
+      "Tepe + tepe: yapıcı girişim",
+      "Tepe + çukur: yıkıcı girişim"
+     ]
+    },
+    {
+     "title": "Işıkta girişim ve kırınım",
+     "text": "Thomas Young, ışığı birbirine çok yakın iki yarıktan geçirerek perdede aydınlık ve karanlık saçaklar gözlemlemiştir. Bu deney, ışığın dalga özelliği gösterdiğini kanıtlamıştır. Aydınlık saçaklar yapıcı, karanlık saçaklar yıkıcı girişimle oluşur. Ardışık iki aydınlık saçak arası uzaklık Δx = λ × L / d bağıntısıyla bulunur; λ dalga boyu, L yarıklar ile perde arası uzaklık, d yarıklar arası uzaklıktır. Dalga boyu büyüdükçe ya da yarıklar arası uzaklık küçüldükçe saçaklar genişler. Tek yarıkta da kırınım deseni oluşur; ortadaki aydınlık saçak en geniş ve en parlak olanıdır.",
+     "points": [
+      "Δx = λ L / d",
+      "Kırmızı ışıkta saçaklar mor ışıktakinden geniştir."
+     ]
+    },
+    {
+     "title": "Elektromanyetik spektrum",
+     "text": "Elektromanyetik dalgalar, birbirine dik titreşen elektrik ve manyetik alanlardan oluşur ve boşlukta ışık süratiyle (yaklaşık 300 000 km/s) yayılır. Dalga boyları uzundan kısaya doğru radyo dalgaları, mikrodalgalar, kızılötesi, görünür ışık, morötesi, X ışınları ve gama ışınları olarak sıralanır. Görünür ışıkta kırmızının dalga boyu en uzun, morun en kısadır. Dalga boyu kısaldıkça frekans ve taşınan enerji artar. Radyo dalgaları iletişimde, mikrodalgalar fırınlarda ve radarlarda, kızılötesi uzaktan kumandalarda, morötesi sterilizasyonda, X ışınları tıbbi görüntülemede kullanılır. Ses ve ultrason ise mekanik dalgalardır.",
+     "points": [
+      "Radyo → mikrodalga → kızılötesi → görünür → morötesi → X → gama",
+      "Dalga boyu kısaldıkça enerji artar.",
+      "Morötesi, X ve gama ışınları canlılar için zararlı olabilir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Kırınım",
+     "meaning": "Dalgaların engel kenarında ya da dar aralıkta bükülerek yayılması."
+    },
+    {
+     "term": "Girişim",
+     "meaning": "Dalgaların üst üste binerek genliklerinin birleşmesi."
+    },
+    {
+     "term": "Yarık genişliği",
+     "meaning": "Dalganın geçtiği açıklığın genişliği."
+    },
+    {
+     "term": "Yarıklar arası uzaklık",
+     "meaning": "Çift yarık deneyinde iki yarığın merkezleri arası mesafe."
+    },
+    {
+     "term": "Girişim deseni",
+     "meaning": "Girişimle oluşan aydınlık-karanlık ya da dalgalı-sakin bölgeler düzeni."
+    },
+    {
+     "term": "Elektromanyetik dalga spektrumu",
+     "meaning": "Elektromanyetik dalgaların dalga boyuna göre sıralanışı."
+    },
+    {
+     "term": "Elektromanyetik dalga enerjisi",
+     "meaning": "Frekansla artan, dalganın taşıdığı enerji."
+    }
+   ],
+   "example": {
+    "question": "Çift yarık deneyinde dalga boyu 600 nm olan ışık kullanılıyor. Yarıklar arası uzaklık 0,3 mm, perde uzaklığı 1,5 m'dir. Ardışık iki aydınlık saçak arası uzaklık nedir?",
+    "solution": "1) Birimleri metreye çevir: λ = 600 × 10⁻⁹ m, d = 0,3 × 10⁻³ m, L = 1,5 m.\n2) Δx = λL / d = (600 × 10⁻⁹ × 1,5) / (0,3 × 10⁻³).\n3) Δx = (900 × 10⁻⁹) / (0,3 × 10⁻³) = 3 × 10⁻³ m.\n4) Saçak aralığı 3 mm'dir."
+   },
+   "remember": [
+    "Kırınım, yarık dalga boyuna yakınken belirgindir.",
+    "Tepe-tepe yapıcı, tepe-çukur yıkıcı girişim yapar.",
+    "Young deneyi ışığın dalga doğasını kanıtlar.",
+    "Dalga boyu kısaldıkça elektromanyetik dalganın enerjisi artar."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 4,
+   "intro": "Bu ünitede modern fiziğin temellerini öğreniyoruz: ışığın parçacık gibi davrandığı fotoelektrik olay, yarı iletkenler ve süper iletkenler, maddenin temel parçacıkları, atom modeli ve nükleer enerji. Bu bilgiler bilgisayarlardan güneş panellerine kadar günümüz teknolojisinin temelidir.",
+   "sections": [
+    {
+     "title": "Planck ve fotoelektrik olay",
+     "text": "Max Planck, 1900 yılında ışık enerjisinin sürekli değil, paketler (kuantlar) hâlinde yayıldığını öne sürdü. Bir paketin enerjisi E = h × f'dir; h Planck sabiti, f frekanstır. Bu fikir modern fiziğin başlangıcı kabul edilir. Metal bir yüzeye ışık düşürüldüğünde yüzeyden elektron sökülmesine fotoelektrik olay denir. Elektron sökülmesi ışığın şiddetine değil frekansına bağlıdır: frekans belirli bir eşik değerinin altındaysa ışık ne kadar şiddetli olursa olsun elektron sökülmez. Einstein bunu ışığın foton adı verilen parçacıklardan oluştuğunu kabul ederek açıkladı. Elektronun kinetik enerjisi, foton enerjisi ile metalin eşik enerjisinin farkıdır.",
+     "points": [
+      "E = h × f",
+      "Ek(max) = h f − eşik enerjisi",
+      "Şiddet artarsa sökülen elektron sayısı artar, enerjisi değişmez."
+     ]
+    },
+    {
+     "title": "Uygulamalar: güneş pilleri, yarı iletkenler ve süper iletkenler",
+     "text": "Fotoelektrik olay ve benzeri ilkeler; güneş pillerinde, otomatik kapılardaki ışık sensörlerinde, dijital kameraların görüntü sensörlerinde kullanılır. Yarı iletkenler, elektriksel iletkenlikleri iletkenler ile yalıtkanlar arasında olan maddelerdir; silisyum en bilinen örnektir. İletkenlikleri sıcaklık ve katkı maddeleriyle kontrol edilebildiği için diyot, transistör, LED ve mikroçiplerin yapımında kullanılırlar. Süper iletkenler ise belirli bir kritik sıcaklığın altına soğutulduğunda elektrik direnci tamamen sıfır olan maddelerdir. Çok güçlü elektromıknatıslar yapılmasını sağlarlar; MR cihazlarında ve manyetik olarak havada tutulan hızlı trenlerde kullanılırlar.",
+     "points": [
+      "Yarı iletken: diyot, transistör, LED, çip",
+      "Süper iletken: kritik sıcaklık altında direnç sıfır",
+      "Süper iletken uygulamaları: MR, maglev trenleri"
+     ]
+    },
+    {
+     "title": "Standart model ve atom",
+     "text": "Standart model, maddenin temel parçacıklarını ve aralarındaki kuvvetleri açıklayan kuramdır. Buna göre madde kuarklar ve leptonlardan oluşur. Proton ve nötron üçer kuarktan oluşur; elektron ise bir leptondur ve bölünemez kabul edilir. Çekirdekteki proton ve nötronların ortak adı nükleondur. Her parçacığın kütlesi aynı, yükü zıt bir anti parçacığı vardır; örneğin elektronun anti parçacığı pozitrondur. Modern atom teorisine göre elektronlar belirli yörüngelerde değil, bulunma olasılıklarının yüksek olduğu bölgelerde (orbitallerde) bulunur. Büyük Patlama kuramı ise evrenin yaklaşık 13,8 milyar yıl önce çok sıcak ve yoğun bir hâlden genişleyerek oluştuğunu söyler.",
+     "points": [
+      "Proton: 2 yukarı + 1 aşağı kuark",
+      "Nötron: 1 yukarı + 2 aşağı kuark",
+      "Nükleon: proton ve nötronun ortak adı"
+     ]
+    },
+    {
+     "title": "Nükleer enerji ve radyasyon",
+     "text": "Atom çekirdeklerindeki tepkimelerden açığa çıkan enerjiye nükleer enerji denir. Fisyon, uranyum gibi ağır bir çekirdeğin nötronla bombardıman edilerek daha küçük çekirdeklere bölünmesidir; nükleer santraller bu yolla elektrik üretir. Füzyon ise hafif çekirdeklerin birleşerek daha ağır bir çekirdek oluşturmasıdır; Güneş'in enerjisi hidrojen çekirdeklerinin füzyonundan gelir. Nükleer santraller sera gazı salmaz ama radyoaktif atık ve güvenlik riskleri taşır. Radyasyon, atomları iyonlaştırabilen (X ve gama ışınları, alfa ve beta parçacıkları) ve iyonlaştıramayan (radyo dalgaları, görünür ışık) olarak ikiye ayrılır. İyonize radyasyon canlı hücrelere zarar verebilir.",
+     "points": [
+      "Fisyon: ağır çekirdek bölünür (nükleer santral).",
+      "Füzyon: hafif çekirdekler birleşir (Güneş).",
+      "İyonize radyasyondan korunmak için süre, mesafe ve zırh önemlidir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Foton",
+     "meaning": "Işığın enerji paketi; enerjisi h × f."
+    },
+    {
+     "term": "Fotoelektrik etki",
+     "meaning": "Işığın metal yüzeyden elektron sökmesi."
+    },
+    {
+     "term": "Eşik enerjisi",
+     "meaning": "Metalden elektron sökmek için gereken en küçük enerji."
+    },
+    {
+     "term": "Yarı iletken",
+     "meaning": "İletkenliği iletken ile yalıtkan arasında olan, kontrol edilebilen madde."
+    },
+    {
+     "term": "Süper iletken",
+     "meaning": "Kritik sıcaklık altında direnci sıfır olan madde."
+    },
+    {
+     "term": "Kuark",
+     "meaning": "Proton ve nötronu oluşturan temel parçacık."
+    },
+    {
+     "term": "Fisyon",
+     "meaning": "Ağır bir çekirdeğin daha küçük çekirdeklere bölünmesi."
+    },
+    {
+     "term": "Füzyon",
+     "meaning": "Hafif çekirdeklerin birleşerek ağır çekirdek oluşturması."
+    }
+   ],
+   "example": {
+    "question": "Eşik enerjisi 2 eV olan bir metale enerjisi 3,5 eV olan fotonlar düşürülüyor. Sökülen elektronların en büyük kinetik enerjisi nedir? Enerjisi 1,5 eV olan fotonlar kullanılsaydı ne olurdu?",
+    "solution": "1) Ek(max) = foton enerjisi − eşik enerjisi = 3,5 − 2 = 1,5 eV.\n2) 1,5 eV'luk foton enerjisi eşik enerjisinden küçüktür.\n3) Bu durumda ışık ne kadar şiddetli olursa olsun elektron sökülmez."
+   },
+   "remember": [
+    "Fotoelektrik olay ışığın parçacık özelliğini gösterir.",
+    "Elektron sökülmesi ışığın şiddetine değil frekansına bağlıdır.",
+    "Yarı iletkenler modern elektroniğin temelidir.",
+    "Güneş füzyonla, nükleer santraller fisyonla enerji üretir."
+   ]
+  }
+ ]
+}

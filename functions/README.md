@@ -94,3 +94,12 @@ hesaplarına hiçbir zaman e-posta gönderilmez.
 - Servis çalışanı: `src/firebase-messaging-sw.js` (derlemede sitenin köküne
   kopyalanır). Firebase sürümünü yükseltirseniz dosyanın başındaki
   `firebasejs/11.10.0` adreslerini de güncelleyin.
+
+## kitapPdf (Akıllı Kütüphane)
+
+Akıllı Kütüphane kitapları önce doğrudan MEB'in bağlantısından açmayı dener. MEB'in sunucusu tarayıcının PDF'i başka siteden okumasına izin vermezse okuyucu "PDF'i MEB'de aç / indirdiğim PDF'i aç" seçeneklerini gösterir. Kitapların uygulama içinde her zaman açılması için:
+
+1. Fonksiyonları deploy et (Blaze gerekir): `firebase deploy --only functions:kitapPdf`
+2. `src/environments/environment*.ts` içindeki `libraryProxyUrl` alanına fonksiyon adresini yaz (ör. `https://us-central1-odivonschool.cloudfunctions.net/kitapPdf`).
+
+Fonksiyon yalnızca MEB adreslerini (tymm.meb.gov.tr, meb.ai) açar; PDF'leri saklamaz, akış olarak iletir.

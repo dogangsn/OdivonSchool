@@ -1,0 +1,2095 @@
+{
+ "file": "lise-matematik",
+ "notes": [
+  {
+   "grade": 9,
+   "order": 1,
+   "intro": "Bu temada sayı kümelerini, üslü ve köklü ifadeleri, gerçek sayı aralıklarını ve matematiksel dilin temeli olan önermeleri inceliyoruz. Bu konular, ileride göreceğin fonksiyonlar, denklemler ve ispatlar için ortak bir dil ve sağlam bir zemin oluşturur.",
+   "sections": [
+    {
+     "title": "Önermeler ve mantık bağlaçları",
+     "text": "Doğru ya da yanlış olduğu kesin olarak söylenebilen ifadelere önerme denir. Bir önermenin değili, doğruluk değerini tersine çevirir. Önermeler 've', 'veya', 'ise', 'ancak ve ancak' bağlaçlarıyla birleştirilir. 'p ve q' yalnızca ikisi de doğruyken doğrudur; 'p veya q' en az biri doğruysa doğrudur. 'p ise q' yalnızca p doğru, q yanlışken yanlıştır. 'Her' ve 'bazı' niceleyicileri ifadenin kaç elemanı kapsadığını belirtir. 'Her x için' diye başlayan bir önermenin değili 'en az bir x için değil' biçimindedir. Bir genellemenin yanlış olduğunu göstermek için tek bir karşı örnek yeterlidir.",
+     "points": [
+      "'Her' önermesinin değili 'bazı ... değildir' olur.",
+      "'p ise q' doğruysa 'q değilse p değildir' de doğrudur.",
+      "İspat, kabul edilen bilgilerden mantıklı adımlarla sonuca ulaşmaktır."
+     ]
+    },
+    {
+     "title": "Kümeler ve gerçek sayı aralıkları",
+     "text": "Küme, iyi tanımlanmış nesnelerin topluluğudur. Hiç elemanı olmayan kümeye boş küme denir ve ∅ ile gösterilir. A'nın her elemanı B'de de varsa A, B'nin alt kümesidir. Birleşim (A ∪ B) iki kümedeki tüm elemanları, kesişim (A ∩ B) ortak elemanları, fark (A \\ B) A'da olup B'de olmayanları verir. Tümleme, evrensel kümede olup A'da olmayan elemanlardır. Gerçek sayı aralıkları da birer kümedir: [2, 5] uç noktaları içeren kapalı aralık, (2, 5) uçları içermeyen açık aralıktır. Aralıklar sayı doğrusu üzerinde gösterilir ve kümeler gibi birleştirilip kesiştirilebilir.",
+     "points": [
+      "Doğal sayılar ⊂ Tam sayılar ⊂ Rasyonel sayılar ⊂ Gerçek sayılar",
+      "İrrasyonel sayılar kesir olarak yazılamaz: √2, π gibi.",
+      "x ≥ 3 eşitsizliği [3, ∞) aralığıyla gösterilir."
+     ]
+    },
+    {
+     "title": "Üslü ve köklü ifadeler",
+     "text": "aⁿ ifadesi a sayısının n kez kendisiyle çarpımıdır. Aynı tabanlı üslü sayılar çarpılırken üsler toplanır, bölünürken çıkarılır. Sıfırdan farklı her sayının sıfırıncı kuvveti 1'dir ve a⁻ⁿ = 1/aⁿ olur. Köklü ifadeler üslü biçimde yazılabilir: √a = a^(1/2). Paydada kök bulunan bir ifade, eşleniği ile genişletilerek paydası rasyonel yapılır; örneğin √3 + 1'in eşleniği √3 − 1'dir. Çok büyük ve çok küçük sayılar bilimsel gösterimle a × 10ⁿ biçiminde yazılır; burada 1 ≤ |a| < 10 olmalıdır.",
+     "points": [
+      "aᵐ × aⁿ = aᵐ⁺ⁿ",
+      "(aᵐ)ⁿ = aᵐˣⁿ",
+      "√a × √b = √(a × b) (a, b ≥ 0 için)",
+      "Örnek: 0,00052 = 5,2 × 10⁻⁴"
+     ]
+    },
+    {
+     "title": "Mutlak değer ve işlem özellikleri",
+     "text": "Bir sayının mutlak değeri, sayı doğrusunda sıfıra olan uzaklığıdır; bu yüzden hiçbir zaman negatif olmaz. |x| ifadesi x ≥ 0 ise x, x < 0 ise −x olarak açılır. |x − a| ise x ile a arasındaki uzaklıktır. Gerçek sayılarda toplama ve çarpma işlemleri değişme, birleşme ve dağılma özelliklerine sahiptir. Bir küme bir işleme göre kapalıysa, o kümeden alınan iki elemanın işlem sonucu yine o kümededir. Örneğin doğal sayılar toplamaya göre kapalıdır ama çıkarmaya göre kapalı değildir, çünkü 2 − 5 bir doğal sayı değildir. Özdeşlikler, değişkenin her değeri için doğru olan eşitliklerdir.",
+     "points": [
+      "|x| < 3 ise −3 < x < 3",
+      "(a + b)² = a² + 2ab + b² bir özdeşliktir.",
+      "a(b + c) = ab + ac dağılma özelliğidir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Önerme",
+     "meaning": "Doğru ya da yanlış olduğu kesin olarak belirlenebilen hüküm bildiren ifade."
+    },
+    {
+     "term": "Küme",
+     "meaning": "Elemanları açıkça belirlenebilen nesneler topluluğu."
+    },
+    {
+     "term": "Aralık",
+     "meaning": "Sayı doğrusunda iki sınır arasındaki tüm gerçek sayıların kümesi."
+    },
+    {
+     "term": "Mutlak değer",
+     "meaning": "Bir sayının sıfıra olan uzaklığı; her zaman sıfır ya da pozitiftir."
+    },
+    {
+     "term": "Eşlenik",
+     "meaning": "√a + b ile √a − b gibi, çarpıldığında kökü yok eden ifade çifti."
+    },
+    {
+     "term": "Kapalılık",
+     "meaning": "Bir kümeden alınan elemanların işlem sonucunun yine o kümede kalması."
+    },
+    {
+     "term": "Bilimsel gösterim",
+     "meaning": "Sayıyı a × 10ⁿ biçiminde (1 ≤ |a| < 10) yazma."
+    },
+    {
+     "term": "Özdeşlik",
+     "meaning": "Değişkenlerin her değeri için doğru olan eşitlik."
+    }
+   ],
+   "example": {
+    "question": "A = [−2, 4) ve B = (1, 6] aralıkları veriliyor. A ∩ B ve A ∪ B kümelerini bulunuz.",
+    "solution": "1) İki aralığı sayı doğrusunda çizelim. A, −2'den başlar (dahil) ve 4'e kadar gider (4 hariç). B, 1'den sonra başlar (1 hariç) ve 6'ya kadar gider (6 dahil).\n2) Ortak kısım 1 ile 4 arasıdır. 1, B'de olmadığı için hariç; 4, A'da olmadığı için hariçtir. A ∩ B = (1, 4).\n3) Birleşim en soldan en sağa uzanır: A ∪ B = [−2, 6]."
+   },
+   "remember": [
+    "Bir genellemeyi çürütmek için tek karşı örnek yeter.",
+    "Açık aralık ( ) uçları içermez, kapalı aralık [ ] içerir.",
+    "Mutlak değer asla negatif olamaz.",
+    "Paydada kök varsa eşlenikle genişlet.",
+    "Sıfırdan farklı her sayının sıfırıncı kuvveti 1'dir."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 2,
+   "intro": "Bu temada iki nicelik arasındaki ilişkiyi fonksiyonlarla ifade etmeyi öğreniyoruz. Doğrusal fonksiyonlar, sabit hızla değişen durumları (taksi ücreti, dolum hızı gibi) modellemenin en temel aracıdır; mutlak değer fonksiyonu ise uzaklık gibi durumları anlatır.",
+   "sections": [
+    {
+     "title": "Fonksiyon ve değişkenler",
+     "text": "Fonksiyon, tanım kümesindeki her elemanı değer kümesindeki yalnızca bir elemana eşleyen kuraldır. Değeri bizim seçtiğimiz değişkene bağımsız değişken (genellikle x), ona göre belirlenen değişkene bağımlı değişken (y veya f(x)) denir. Fonksiyonlar tablo, grafik, sözel ifade ve cebirsel kural ile temsil edilebilir. Farklı x değerleri her zaman farklı y değerlerine gidiyorsa fonksiyon bire birdir. Bir fonksiyonun grafiğinin x eksenini kestiği noktalar fonksiyonun sıfırları, yani f(x) = 0 denkleminin kökleridir. Grafiğin x ekseninin üstünde kaldığı bölgede fonksiyon pozitif, altında kaldığı bölgede negatiftir.",
+     "points": [
+      "Bağımsız değişken: girdi (x)",
+      "Bağımlı değişken: çıktı (y)",
+      "Sıfır: f(x) = 0 yapan x değeri"
+     ]
+    },
+    {
+     "title": "Doğrusal fonksiyon ve eğim",
+     "text": "f(x) = ax + b biçimindeki fonksiyonlara doğrusal fonksiyon denir ve grafikleri bir doğrudur. a katsayısı eğimdir; x bir birim arttığında y'nin ne kadar değiştiğini gösterir. b sabit terimdir ve doğrunun y eksenini kestiği noktayı verir. a > 0 ise fonksiyon artan, a < 0 ise azalan, a = 0 ise sabit fonksiyondur. Eğim, doğru üzerindeki iki noktadan (y₂ − y₁) / (x₂ − x₁) ile hesaplanır. Gerçek hayatta eğim bir değişim hızıdır: örneğin km başına ücret ya da dakikada dolan su miktarı. Sabit terim ise başlangıç değeridir; taksideki açılış ücreti buna örnektir.",
+     "points": [
+      "a > 0: artan, a < 0: azalan",
+      "a = 0: sabit fonksiyon, grafik yatay doğru",
+      "Kök: x = −b/a (a ≠ 0)"
+     ]
+    },
+    {
+     "title": "Mutlak değer fonksiyonu ve parçalı gösterim",
+     "text": "f(x) = |x| fonksiyonu x ≥ 0 için x, x < 0 için −x değerini alır. Bu yüzden iki farklı doğrusal parçadan oluşur ve grafiği tepe noktası orijinde olan bir V harfine benzer. Böyle, tanım kümesinin farklı bölgelerinde farklı kurallarla yazılan fonksiyonlara parçalı fonksiyon denir. f(x) = |x − 2| + 1 gibi fonksiyonlar, |x| grafiğinin kaydırılmasıyla elde edilir: grafik 2 birim sağa ve 1 birim yukarı kayar. Tepe noktası (2, 1) olur ve fonksiyonun minimum değeri 1'dir. Fonksiyon bu noktanın solunda azalan, sağında artandır.",
+     "points": [
+      "|x − a|: grafik a birim sağa kayar.",
+      "+ k: grafik k birim yukarı kayar.",
+      "V grafiğin tepe noktası maksimum ya da minimum noktadır."
+     ]
+    },
+    {
+     "title": "Doğrusal denklem ve eşitsizlikler",
+     "text": "ax + b = c biçimindeki denklemler eşitliğin iki yanına aynı işlemler uygulanarak çözülür. Eşitsizliklerde de aynı yol izlenir; ancak her iki taraf negatif bir sayıyla çarpılır ya da bölünürse eşitsizliğin yönü değişir. Mutlak değerli denklemlerde iki durum incelenir: |x − 3| = 5 ise x − 3 = 5 ya da x − 3 = −5 olur, yani x = 8 veya x = −2. |x| < a biçimindeki eşitsizlikler −a < x < a aralığını, |x| > a ise x < −a veya x > a durumunu verir. Çözümleri sayı doğrusunda ya da aralık gösterimiyle yazmak sonucu yorumlamayı kolaylaştırır.",
+     "points": [
+      "Negatifle çarpınca eşitsizlik yön değiştirir.",
+      "Mutlak değerli denklemde iki durumu da kontrol et."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Doğrusal fonksiyon",
+     "meaning": "f(x) = ax + b biçiminde olan, grafiği doğru olan fonksiyon."
+    },
+    {
+     "term": "Eğim",
+     "meaning": "x bir birim arttığında y'deki değişim miktarı; doğrunun dikliği."
+    },
+    {
+     "term": "Sabit terim",
+     "meaning": "x = 0 iken fonksiyonun aldığı değer; y eksenini kesim noktası."
+    },
+    {
+     "term": "Fonksiyonun sıfırı",
+     "meaning": "f(x) = 0 yapan x değeri; grafiğin x eksenini kestiği yer."
+    },
+    {
+     "term": "Artan fonksiyon",
+     "meaning": "x büyüdükçe f(x) değeri de büyüyen fonksiyon."
+    },
+    {
+     "term": "Mutlak değer fonksiyonu",
+     "meaning": "f(x) = |x| ve ondan türetilen, V biçimli grafiğe sahip fonksiyonlar."
+    },
+    {
+     "term": "Parçalı fonksiyon",
+     "meaning": "Farklı aralıklarda farklı kurallarla tanımlanan fonksiyon."
+    }
+   ],
+   "example": {
+    "question": "Bir taksinin açılış ücreti 40 TL, kilometre başı ücreti 25 TL'dir. Ücreti x km'ye bağlı fonksiyon olarak yazınız ve 300 TL ile en fazla kaç km gidilebileceğini bulunuz.",
+    "solution": "1) Ücret = açılış + km × birim ücret: f(x) = 25x + 40.\n2) Eğim 25 (her km için artış), sabit terim 40 (açılış ücreti).\n3) 25x + 40 ≤ 300 eşitsizliğini kuralım.\n4) 25x ≤ 260, x ≤ 10,4.\n5) En fazla 10,4 km gidilebilir."
+   },
+   "remember": [
+    "f(x) = ax + b'de a eğim, b başlangıç değeridir.",
+    "Eğim pozitifse artan, negatifse azalan fonksiyon.",
+    "|x| grafiği V biçimlidir, tepe noktası en küçük değeri verir.",
+    "Negatif sayıyla çarpınca eşitsizlik yön değiştirir."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 3,
+   "intro": "Bu temada üçgenin açıları ve kenarları arasındaki ilişkileri inceliyoruz. Üçgen, en basit çokgendir ve diğer tüm şekillerin incelenmesinde temel taş olarak kullanılır.",
+   "sections": [
+    {
+     "title": "Üçgende iç ve dış açılar",
+     "text": "Bir üçgenin üç iç açısının ölçüleri toplamı 180°'dir. Bunu, bir köşeden karşı kenara paralel bir doğru çizip iç ters açıları karşılaştırarak ispatlayabiliriz. Bir iç açının komşusu olan dış açı, o köşedeki iç açıyla birlikte 180° eder. Bir dış açının ölçüsü, kendisine komşu olmayan iki iç açının ölçüleri toplamına eşittir. Üçgenin dış açılarının toplamı ise her zaman 360°'dir. Açılarına göre üçgenler dar açılı, dik açılı ve geniş açılı olarak; kenarlarına göre çeşitkenar, ikizkenar ve eşkenar olarak sınıflandırılır.",
+     "points": [
+      "İç açılar toplamı: 180°",
+      "Dış açılar toplamı: 360°",
+      "Dış açı = komşu olmayan iki iç açının toplamı"
+     ]
+    },
+    {
+     "title": "Açı ve kenar ilişkisi",
+     "text": "Bir üçgende büyük açının karşısında büyük kenar, küçük açının karşısında küçük kenar bulunur. Bu ilişki iki yönde de geçerlidir: en uzun kenarın karşısındaki açı en büyük açıdır. İkizkenar üçgende eşit kenarların karşısındaki açılar da eşittir. Eşkenar üçgende üç kenar eşit olduğu için üç açı da 60°'dir. Bu özellikler sayesinde, açı ölçüleri verilen bir üçgende kenarları uzunluklarına göre sıralayabilir ya da kenar uzunlukları verilen üçgende açıları sıralayabiliriz. Dik üçgende en uzun kenar her zaman 90°'lik açının karşısındaki hipotenüstür.",
+     "points": [
+      "Büyük açı ↔ büyük kenar",
+      "Eşit kenarlar ↔ eşit açılar",
+      "Eşkenar üçgende her açı 60°"
+     ]
+    },
+    {
+     "title": "Üçgen eşitsizliği",
+     "text": "Her üç doğru parçası bir üçgen oluşturamaz. Bir üçgende herhangi bir kenarın uzunluğu, diğer iki kenarın uzunlukları toplamından küçük, farklarının mutlak değerinden büyüktür. Yani kenarları a, b, c olan bir üçgende |b − c| < a < b + c olmalıdır. Bunun nedeni, iki nokta arasındaki en kısa yolun doğru parçası olmasıdır; başka bir köşeye uğrayarak gitmek her zaman daha uzundur. Bu eşitsizlik, verilen uzunluklarla üçgen çizilip çizilemeyeceğini kontrol etmek ve bilinmeyen bir kenarın alabileceği değerleri bulmak için kullanılır.",
+     "points": [
+      "|b − c| < a < b + c",
+      "Kontrol için en uzun kenarın diğer ikisinin toplamından küçük olması yeter."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Üçgen",
+     "meaning": "Doğrusal olmayan üç noktayı birleştiren doğru parçalarının oluşturduğu kapalı şekil."
+    },
+    {
+     "term": "İç açı",
+     "meaning": "Üçgenin iki kenarı arasında, üçgenin içinde kalan açı."
+    },
+    {
+     "term": "Dış açı",
+     "meaning": "Bir kenarın uzantısı ile komşu kenar arasında oluşan, iç açıyı 180°'ye tamamlayan açı."
+    },
+    {
+     "term": "Kenar",
+     "meaning": "Üçgenin iki köşesini birleştiren doğru parçası."
+    },
+    {
+     "term": "Üçgen eşitsizliği",
+     "meaning": "Bir kenarın, diğer iki kenarın toplamından küçük, farkından büyük olması kuralı."
+    },
+    {
+     "term": "Açı",
+     "meaning": "Başlangıç noktaları ortak iki ışının oluşturduğu şekil."
+    }
+   ],
+   "example": {
+    "question": "Kenar uzunlukları 5 cm, 8 cm ve x cm olan bir üçgende x'in alabileceği tam sayı değerleri kaç tanedir?",
+    "solution": "1) Üçgen eşitsizliği: |8 − 5| < x < 8 + 5.\n2) 3 < x < 13.\n3) x tam sayı ise 4, 5, 6, ..., 12 değerlerini alabilir.\n4) 12 − 4 + 1 = 9 farklı değer vardır."
+   },
+   "remember": [
+    "İç açılar toplamı 180°, dış açılar toplamı 360°.",
+    "Büyük açının karşısında büyük kenar bulunur.",
+    "Bir kenar, diğer iki kenarın toplamından küçük olmalıdır.",
+    "Dış açı, komşu olmayan iki iç açının toplamına eşittir."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 4,
+   "intro": "Bu temada şekillerin konumunu değiştiren dönüşümleri, iki üçgenin ne zaman eş ya da benzer olduğunu ve geometrinin en ünlü teoremlerinden Tales, Öklid ve Pisagor teoremlerini öğreniyoruz. Benzerlik; harita ölçeklerinden yüksekliği ölçülemeyen yapıların hesaplanmasına kadar pek çok yerde kullanılır.",
+   "sections": [
+    {
+     "title": "Geometrik dönüşümler",
+     "text": "Öteleme, yansıma ve dönme dönüşümleri bir şeklin konumunu değiştirir ama boyutunu ve biçimini değiştirmez. Ötelemede şeklin her noktası aynı yönde ve aynı miktarda kayar. Yansımada şekil bir doğruya göre ayna görüntüsü gibi çevrilir. Dönmede şekil sabit bir merkez etrafında belirli bir açıyla döndürülür. Bu dönüşümler kenar uzunluklarını ve açı ölçülerini koruduğu için, dönüşüm sonucu elde edilen şekil ilk şekle eştir. Bir şekli büyütme ya da küçültme (ölçekleme) ise açıları korur ama uzunlukları değiştirir; böylece benzer şekiller ortaya çıkar.",
+     "points": [
+      "Öteleme, yansıma, dönme: eşlik korunur.",
+      "Ölçekleme: açılar korunur, uzunluklar oranla değişir."
+     ]
+    },
+    {
+     "title": "Eşlik ve benzerlik koşulları",
+     "text": "Karşılıklı kenarları ve açıları eşit olan üçgenler eştir (≅). Eşlik için altı eşitliği de kontrol etmeye gerek yoktur; şu asgari koşullar yeterlidir: Kenar-Açı-Kenar (iki kenar ve aradaki açı), Açı-Kenar-Açı (iki açı ve aradaki kenar), Kenar-Kenar-Kenar (üç kenar). Karşılıklı açıları eşit, karşılıklı kenarları orantılı olan üçgenler benzerdir (∼). Benzerlik için iki açının eşit olması yeterlidir (Açı-Açı). Ayrıca üç kenar orantılıysa ya da iki kenar orantılı ve aradaki açılar eşitse üçgenler benzerdir. Benzerlik oranı k ise alanlar oranı k² olur.",
+     "points": [
+      "Eşlik: KAK, AKA, KKK",
+      "Benzerlik: AA, KKK, KAK (oranlı)",
+      "Benzerlik oranı k ise çevreler oranı k, alanlar oranı k²"
+     ]
+    },
+    {
+     "title": "Tales teoremi",
+     "text": "Paralel doğrular, kendilerini kesen iki doğru üzerinde orantılı parçalar ayırır. Bir üçgende bir kenara paralel çizilen doğru, diğer iki kenarı aynı oranda böler ve ana üçgene benzer küçük bir üçgen oluşturur. Örneğin ABC üçgeninde DE ∥ BC ise AD/AB = AE/AC = DE/BC olur. Bu teorem, doğrudan ölçemediğimiz uzunlukları hesaplamamıza yarar. Güneşli bir günde bir direğin gölge boyunu ve bir çubuğun boyu ile gölgesini ölçerek direğin yüksekliğini benzer üçgenlerle bulabiliriz.",
+     "points": [
+      "DE ∥ BC ise AD/AB = AE/AC = DE/BC",
+      "Paralellik, benzer üçgen oluşturur."
+     ]
+    },
+    {
+     "title": "Pisagor ve Öklid teoremleri",
+     "text": "Pisagor teoremine göre dik üçgende dik kenarların kareleri toplamı hipotenüsün karesine eşittir: a² + b² = c². Bu teorem, dik kenarlar üzerine çizilen karelerin alanları toplamının hipotenüs üzerindeki karenin alanına eşit olduğunu gösterir. Öklid bağıntıları ise hipotenüse ait yüksekliğin oluşturduğu benzer üçgenlerden elde edilir. Hipotenüse çizilen h yüksekliği hipotenüsü p ve k parçalarına ayırırsa h² = p × k olur. Ayrıca her dik kenarın karesi, hipotenüs ile o kenarın hipotenüs üzerindeki izdüşümünün çarpımına eşittir. Bu bağıntıların hepsi benzerlikten ispatlanır.",
+     "points": [
+      "a² + b² = c²",
+      "h² = p × k",
+      "Bilinen Pisagor üçlüleri: 3-4-5, 5-12-13, 8-15-17"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Eşlik",
+     "meaning": "İki şeklin biçim ve boyutça tamamen aynı olması."
+    },
+    {
+     "term": "Benzerlik",
+     "meaning": "Açıları eşit, kenarları orantılı olan şekillerin ilişkisi."
+    },
+    {
+     "term": "Dönme dönüşümü",
+     "meaning": "Bir şeklin sabit bir nokta etrafında belirli açıyla döndürülmesi."
+    },
+    {
+     "term": "Tales teoremi",
+     "meaning": "Paralel doğruların kesenler üzerinde orantılı parçalar ayırması."
+    },
+    {
+     "term": "Pisagor teoremi",
+     "meaning": "Dik üçgende dik kenarların kareleri toplamının hipotenüsün karesine eşit olması."
+    },
+    {
+     "term": "Öklid teoremi",
+     "meaning": "Dik üçgende hipotenüse ait yükseklik ve parçalar arasındaki bağıntılar."
+    },
+    {
+     "term": "Hipotenüs",
+     "meaning": "Dik üçgende 90°'lik açının karşısındaki en uzun kenar."
+    }
+   ],
+   "example": {
+    "question": "Boyu 1,5 m olan bir öğrencinin gölgesi 2 m iken, aynı anda bir ağacın gölgesi 12 m'dir. Ağacın boyu kaç metredir?",
+    "solution": "1) Güneş ışınları paralel geldiği için öğrenci-gölge üçgeni ile ağaç-gölge üçgeni benzerdir (AA benzerliği).\n2) Boy / gölge oranları eşittir: 1,5 / 2 = h / 12.\n3) h = 12 × 1,5 / 2 = 9.\n4) Ağacın boyu 9 m'dir."
+   },
+   "remember": [
+    "Öteleme, yansıma ve dönme şeklin boyutunu değiştirmez.",
+    "Benzerlik için iki açının eşit olması yeter.",
+    "Benzerlik oranı k ise alanlar oranı k²'dir.",
+    "Pisagor: a² + b² = c², yalnızca dik üçgende geçerlidir."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 5,
+   "intro": "Bu temada bir problemi adım adım çözmeyi sağlayan algoritmaları, bunları göstermek için kullanılan akış şemalarını ve sözde kodu öğreniyoruz. Bilgisayar programları, navigasyon uygulamaları ve şifreleme sistemleri algoritmalar sayesinde çalışır.",
+   "sections": [
+    {
+     "title": "Algoritma, akış şeması ve sözde kod",
+     "text": "Algoritma, bir problemi çözmek için izlenen sonlu, açık ve sıralı adımlar dizisidir. İyi bir algoritmanın başı ve sonu bellidir, her adımı tek anlamlıdır. Algoritmalar akış şeması ile görsel olarak gösterilebilir: oval başla-bitir, dikdörtgen işlem, eşkenar dörtgen karar (koşul), paralelkenar girdi-çıktı adımlarını belirtir. Sözde kod ise algoritmayı programlama diline benzeyen ama günlük dile yakın bir biçimde yazmaktır. Algoritmalarda üç temel yapı vardır: sıralı adımlar, koşullu karar (eğer ... ise) ve tekrar (döngü).",
+     "points": [
+      "Sıralı yapı: adımlar sırayla yapılır.",
+      "Karar yapısı: koşula göre farklı yol izlenir.",
+      "Döngü: bir koşul sağlanana kadar adımlar tekrarlanır."
+     ]
+    },
+    {
+     "title": "Mantık bağlaçları ve niceleyiciler",
+     "text": "Algoritmalardaki koşullar mantık bağlaçlarıyla kurulur. 've' bağlacıyla kurulan koşul, iki şart da sağlandığında doğrudur; 'veya' ile kurulan koşul en az biri sağlandığında doğrudur; 'değil' koşulun tersini alır. Örneğin bir yılın artık yıl olması için 'yıl 4'e bölünür ve 100'e bölünmez' veya 'yıl 400'e bölünür' koşulu kullanılır. Niceleyiciler ise bir koşulun kaç eleman için geçerli olduğunu belirtir: 'her' tüm elemanları, 'bazı' (en az bir) elemanı kapsar. Bir listedeki tüm sayıların pozitif olup olmadığını kontrol eden algoritma 'her' niceleyicisini, en az bir çift sayı arayan algoritma 'bazı' niceleyicisini uygular.",
+     "points": [
+      "ve: ikisi de doğru olmalı",
+      "veya: en az biri doğru olmalı",
+      "'her' kontrolünde tek bir aykırı eleman sonucu yanlış yapar."
+     ]
+    },
+    {
+     "title": "Çizgeler ve şifreleme",
+     "text": "Çizge (graf), noktalar (düğümler) ve bu noktaları birleştiren çizgilerden (kenarlar) oluşan bir modeldir. Şehirler arası yollar, arkadaşlık ağları veya bilgisayar ağları çizgelerle gösterilebilir. Bir düğüme bağlı kenar sayısına o düğümün derecesi denir. En kısa yolu bulmak gibi problemler çizgeler üzerinde algoritmalarla çözülür. Şifreleme ise bir mesajı yalnızca anahtarı bilenin okuyabileceği hâle getirme işlemidir. Basit bir örnek olan kaydırma şifresinde her harf alfabede belirli sayıda ileri kaydırılır. Çözmek için aynı sayıda geri kaydırmak yeterlidir. Bu yöntem de bir algoritmadır.",
+     "points": [
+      "Düğüm: nokta, kenar: bağlantı",
+      "Şifreleme ve şifre çözme birbirinin tersi olan algoritmalardır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Algoritma",
+     "meaning": "Bir problemi çözmek için izlenen sonlu ve sıralı adımlar."
+    },
+    {
+     "term": "Akış şeması",
+     "meaning": "Algoritma adımlarını şekil ve oklarla gösteren diyagram."
+    },
+    {
+     "term": "Sözde kod",
+     "meaning": "Algoritmanın günlük dile yakın, program benzeri yazımı."
+    },
+    {
+     "term": "Mantık bağlaçları",
+     "meaning": "Koşulları birleştiren 've', 'veya', 'değil' gibi ifadeler."
+    },
+    {
+     "term": "Niceleyiciler",
+     "meaning": "Bir ifadenin kaç elemanı kapsadığını belirten 'her' ve 'bazı' sözcükleri."
+    },
+    {
+     "term": "Çizge",
+     "meaning": "Düğümler ve onları birleştiren kenarlardan oluşan yapı."
+    },
+    {
+     "term": "Şifreleme",
+     "meaning": "Mesajı yalnızca anahtarı bilenin okuyabileceği biçime dönüştürme."
+    }
+   ],
+   "example": {
+    "question": "Girilen bir pozitif tam sayının çift mi tek mi olduğunu bulan algoritmayı sözde kodla yazınız.",
+    "solution": "1) Başla.\n2) Bir n sayısı al.\n3) n'nin 2'ye bölümünden kalanı k olarak hesapla.\n4) Eğer k = 0 ise 'Çift' yaz; değilse 'Tek' yaz.\n5) Bitir.\nÖrneğin n = 17 için kalan 1 olduğundan çıktı 'Tek' olur."
+   },
+   "remember": [
+    "Algoritmanın başı, sonu ve açık adımları olmalıdır.",
+    "Akış şemasında karar adımı eşkenar dörtgenle gösterilir.",
+    "'ve' iki koşulun da, 'veya' en az birinin sağlanmasını ister.",
+    "Çizge = düğümler + kenarlar."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 6,
+   "intro": "Bu temada bir araştırma sorusundan yola çıkarak nicel veri toplamayı, veriyi grafiklerle göstermeyi ve verinin yayılımını ölçmeyi öğreniyoruz. İstatistik, haberlerdeki ve günlük hayattaki sayısal iddiaları doğru değerlendirmemizi sağlar.",
+   "sections": [
+    {
+     "title": "İstatistiksel araştırma süreci",
+     "text": "İstatistiksel araştırma, cevabı değişkenlik gösteren bir soruyla başlar. Örneğin 'Okulumuzdaki öğrenciler günde kaç dakika kitap okuyor?' sorusunun cevabı kişiden kişiye değişir. Araştırmanın ilgilendiği tüm bireylere evren, evrenden seçilen ve veri toplanan gruba örneklem denir. Örneklem evreni iyi temsil etmelidir; aksi hâlde sonuçlar yanıltıcı olur. Süreç dört aşamadan oluşur: soru oluşturma, veri toplama, veriyi analiz etme ve sonuçları yorumlama. Sayılarla ifade edilen veriler (boy, süre, puan) nicel veridir.",
+     "points": [
+      "Evren: araştırılan tüm grup",
+      "Örneklem: evrenden seçilen temsilci grup",
+      "Süreç: soru → veri → analiz → yorum"
+     ]
+    },
+    {
+     "title": "Histogram ve kutu grafiği",
+     "text": "Nicel verinin dağılımını görmek için histogram ve kutu grafiği kullanılır. Histogramda veriler eşit genişlikte gruplara ayrılır ve her gruptaki veri sayısı bitişik sütunlarla gösterilir. Histogram, dağılımın simetrik mi yoksa bir tarafa çarpık mı olduğunu gösterir. Kutu grafiği beş sayı ile çizilir: en küçük değer, birinci çeyrek (Q1), ortanca (medyan), üçüncü çeyrek (Q3) ve en büyük değer. Kutunun içinde verilerin ortadaki yarısı yer alır. Kutu grafikleri iki farklı grubu karşılaştırmak için çok kullanışlıdır.",
+     "points": [
+      "Medyan: sıralı verinin ortasındaki değer",
+      "Q1: alt yarının ortancası, Q3: üst yarının ortancası",
+      "Çeyrekler açıklığı = Q3 − Q1"
+     ]
+    },
+    {
+     "title": "Değişebilirlik ve standart sapma",
+     "text": "Ortalaması aynı olan iki veri grubu çok farklı dağılabilir. Verilerin ne kadar yayıldığını gösteren ölçülere yayılım ölçüleri denir. Açıklık, en büyük ile en küçük değerin farkıdır ama uç değerlerden çok etkilenir. Çeyrekler açıklığı (Q3 − Q1) ortadaki verilerin yayılımını gösterdiği için uç değerlerden daha az etkilenir. Standart sapma ise verilerin ortalamadan ortalama olarak ne kadar uzaklaştığını gösterir. Standart sapma küçükse veriler ortalamaya yakın ve tutarlıdır, büyükse veriler daha dağınıktır. Karar verirken hem merkezi hem de yayılımı birlikte değerlendirmek gerekir.",
+     "points": [
+      "Standart sapma küçük → veriler tutarlı",
+      "Uç değer varsa medyan ve çeyrekler açıklığı daha güvenilirdir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Evren",
+     "meaning": "Araştırma sorusunun ilgilendiği bireylerin tamamı."
+    },
+    {
+     "term": "Örneklem",
+     "meaning": "Evrenden seçilen ve verisi toplanan alt grup."
+    },
+    {
+     "term": "Histogram",
+     "meaning": "Gruplanmış nicel veriyi bitişik sütunlarla gösteren grafik."
+    },
+    {
+     "term": "Kutu grafiği",
+     "meaning": "Beş sayılık özetle veri dağılımını gösteren grafik."
+    },
+    {
+     "term": "Çeyrekler açıklığı",
+     "meaning": "Üçüncü çeyrek ile birinci çeyrek arasındaki fark."
+    },
+    {
+     "term": "Standart sapma",
+     "meaning": "Verilerin ortalamadan ortalama uzaklığını gösteren yayılım ölçüsü."
+    },
+    {
+     "term": "Değişebilirlik",
+     "meaning": "Veri değerlerinin birbirinden farklı olabilmesi, yayılma durumu."
+    }
+   ],
+   "example": {
+    "question": "Bir öğrencinin 7 sınavdaki puanları: 55, 60, 70, 75, 80, 85, 95. Medyanı, Q1'i, Q3'ü ve çeyrekler açıklığını bulunuz.",
+    "solution": "1) Veriler sıralıdır. 7 veri olduğundan medyan 4. değerdir: 75.\n2) Alt yarı: 55, 60, 70. Ortancası Q1 = 60.\n3) Üst yarı: 80, 85, 95. Ortancası Q3 = 85.\n4) Çeyrekler açıklığı = 85 − 60 = 25."
+   },
+   "remember": [
+    "Örneklem evreni temsil etmelidir.",
+    "Kutu grafiği beş sayıyla çizilir.",
+    "Standart sapma küçükse veriler ortalamaya yakındır.",
+    "Ortalama tek başına yeterli değildir; yayılıma da bak."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 7,
+   "intro": "Bu temada bir olayın gerçekleşme şansını sayılarla ifade etmeyi öğreniyoruz. Deney yaparak bulduğumuz deneysel olasılığı, hesapla bulduğumuz teorik olasılıkla karşılaştıracağız.",
+   "sections": [
+    {
+     "title": "Deney, çıktı ve örnek uzay",
+     "text": "Sonucu önceden kesin olarak bilinemeyen işlemlere deney denir; zar atmak veya para atmak birer deneydir. Bir deneyin her bir olası sonucuna çıktı, tüm çıktıların kümesine örnek uzay denir. Zar atma deneyinde örnek uzay {1, 2, 3, 4, 5, 6} kümesidir. Örnek uzayın herhangi bir alt kümesine olay denir. 'Çift sayı gelmesi' olayı {2, 4, 6} kümesidir. Hiçbir çıktısı olmayan olaya imkânsız olay, örnek uzayın tamamına kesin olay denir. Bir olayın olasılığı 0 ile 1 arasında bir sayıdır.",
+     "points": [
+      "İmkânsız olayın olasılığı 0",
+      "Kesin olayın olasılığı 1",
+      "0 ≤ P(A) ≤ 1"
+     ]
+    },
+    {
+     "title": "Deneysel ve teorik olasılık",
+     "text": "Teorik olasılık, tüm çıktıların eşit şansa sahip olduğu durumlarda P(A) = istenen çıktı sayısı / tüm çıktı sayısı ile hesaplanır. Deneysel olasılık ise deneyin birçok kez yapılmasıyla bulunur: P(A) ≈ olayın gerçekleşme sayısı / deneme sayısı. Örneğin bir parayı 20 kez atıp 12 kez yazı gelmişse deneysel olasılık 12/20 = 0,6'dır, teorik olasılık ise 0,5'tir. Deneme sayısı arttıkça deneysel olasılık teorik olasılığa yaklaşır. Bu yüzden az sayıda denemeye dayanarak kesin sonuç çıkarmak yanıltıcı olabilir. Teorik hesap yapılamayan durumlarda deneysel olasılık tahmin aracıdır.",
+     "points": [
+      "Deneme sayısı arttıkça deneysel olasılık teorik olasılığa yaklaşır."
+     ]
+    },
+    {
+     "title": "Ayrık ve ayrık olmayan olaylar",
+     "text": "Aynı anda gerçekleşemeyen olaylara ayrık olaylar denir. Bir zar atıldığında '2 gelmesi' ile '5 gelmesi' ayrıktır. Ayrık olaylarda P(A veya B) = P(A) + P(B) olur. Aynı anda gerçekleşebilen olaylar ayrık değildir. Örneğin 'çift sayı gelmesi' ve '3'ten büyük gelmesi' olaylarında 4 ve 6 ortaktır. Bu durumda ortak çıktılar iki kez sayılmasın diye P(A veya B) = P(A) + P(B) − P(A ve B) formülü kullanılır. Bir olayın gerçekleşmeme olasılığı ise 1 − P(A) ile bulunur.",
+     "points": [
+      "Ayrık: P(A ∪ B) = P(A) + P(B)",
+      "Ayrık değil: P(A ∪ B) = P(A) + P(B) − P(A ∩ B)",
+      "P(A olmaması) = 1 − P(A)"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Deney",
+     "meaning": "Sonucu önceden kesin bilinmeyen işlem."
+    },
+    {
+     "term": "Çıktı",
+     "meaning": "Bir deneyin olası sonuçlarından her biri."
+    },
+    {
+     "term": "Örnek uzay",
+     "meaning": "Bir deneyin tüm olası çıktılarının kümesi."
+    },
+    {
+     "term": "Olay",
+     "meaning": "Örnek uzayın herhangi bir alt kümesi."
+    },
+    {
+     "term": "Deneysel olasılık",
+     "meaning": "Deney tekrarlarına dayanarak bulunan olasılık."
+    },
+    {
+     "term": "Teorik olasılık",
+     "meaning": "Eş olası çıktılar için istenen çıktıların tüm çıktılara oranı."
+    },
+    {
+     "term": "Ayrık olay",
+     "meaning": "Aynı anda gerçekleşemeyen olaylar."
+    }
+   ],
+   "example": {
+    "question": "Bir zar atılıyor. Çift sayı veya 3'ten büyük sayı gelme olasılığı nedir?",
+    "solution": "1) A = çift sayı = {2, 4, 6}, P(A) = 3/6.\n2) B = 3'ten büyük = {4, 5, 6}, P(B) = 3/6.\n3) Ortak çıktılar {4, 6}, P(A ∩ B) = 2/6.\n4) Olaylar ayrık değildir: P(A ∪ B) = 3/6 + 3/6 − 2/6 = 4/6 = 2/3.\n5) Kontrol: A ∪ B = {2, 4, 5, 6}, 4 çıktı, 4/6 = 2/3."
+   },
+   "remember": [
+    "Olasılık her zaman 0 ile 1 arasındadır.",
+    "Çok sayıda deneme deneysel olasılığı teorik olasılığa yaklaştırır.",
+    "Ayrık olmayan olaylarda ortak kısmı bir kez çıkar.",
+    "Bir olayın olmama olasılığı 1 − P(A)'dır."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 1,
+   "intro": "Bu temada dik üçgendeki trigonometrik oranları, üçgenin yardımcı elemanlarını (yükseklik, açıortay, kenarortay, kenar orta dikme), alan hesabını ve sinüs-kosinüs teoremlerini öğreniyoruz. Trigonometri; mühendislikte, haritacılıkta ve astronomide ölçülemeyen uzaklıkları bulmak için kullanılır.",
+   "sections": [
+    {
+     "title": "Dik üçgende trigonometrik oranlar",
+     "text": "Bir dik üçgende dar açılardan birine α diyelim. sin α = karşı dik kenar / hipotenüs, cos α = komşu dik kenar / hipotenüs, tan α = karşı dik kenar / komşu dik kenar ve cot α = komşu / karşı olarak tanımlanır. Bu oranlar üçgenin büyüklüğüne değil, yalnızca açıya bağlıdır; çünkü aynı açılı tüm dik üçgenler benzerdir. Pisagor teoreminden sin²α + cos²α = 1 özdeşliği elde edilir. Ayrıca tan α = sin α / cos α ve tan α × cot α = 1'dir. Tümler açılarda sin α = cos(90° − α) olur. Birim çember, yarıçapı 1 olan ve merkezi orijinde bulunan çemberdir; açıların kosinüs ve sinüs değerleri bu çember üzerindeki noktanın koordinatlarıdır.",
+     "points": [
+      "sin 30° = 1/2, cos 30° = √3/2",
+      "sin 45° = cos 45° = √2/2",
+      "sin 60° = √3/2, cos 60° = 1/2",
+      "sin²α + cos²α = 1"
+     ]
+    },
+    {
+     "title": "Üçgenin yardımcı elemanları",
+     "text": "Bir köşeden karşı kenara dik çizilen doğru parçasına yükseklik denir; üç yükseklik bir noktada kesişir. Bir köşeyi karşı kenarın orta noktasına birleştiren doğru parçası kenarortaydır. Üç kenarortay ağırlık merkezinde kesişir ve ağırlık merkezi her kenarortayı köşeden itibaren 2:1 oranında böler. İç açıortaylar bir açıyı iki eş parçaya ayırır ve iç teğet çemberin merkezinde kesişir; bu nokta üç kenara eşit uzaklıktadır. Kenar orta dikmeler, kenarların orta noktasından dik çıkılan doğrulardır ve çevrel çemberin merkezinde kesişir; bu nokta üç köşeye eşit uzaklıktadır.",
+     "points": [
+      "Kenarortaylar → ağırlık merkezi (2:1 oranı)",
+      "İç açıortaylar → iç teğet çemberin merkezi",
+      "Kenar orta dikmeler → çevrel çemberin merkezi"
+     ]
+    },
+    {
+     "title": "Üçgende alan",
+     "text": "Üçgenin alanı, bir kenar ile o kenara ait yüksekliğin çarpımının yarısıdır: A = (a × hₐ) / 2. Bu formülden şu sonuçlar çıkar: Tabanı sabit tutup yüksekliği iki katına çıkarırsak alan da iki katına çıkar. Tabanları aynı doğru üzerinde ve tepe noktaları ortak olan üçgenlerin yükseklikleri eşittir, bu yüzden alanları tabanlarıyla orantılıdır. Kenarortay üçgeni alanları eşit iki üçgene ayırır. İki kenarı ve aralarındaki açısı bilinen üçgenin alanı A = (1/2) × b × c × sin A ile de hesaplanabilir.",
+     "points": [
+      "A = taban × yükseklik / 2",
+      "A = (1/2) × b × c × sin A",
+      "Yükseklikleri eşit üçgenlerin alanları tabanlarıyla orantılıdır."
+     ]
+    },
+    {
+     "title": "Sinüs ve kosinüs teoremleri",
+     "text": "Dik olmayan üçgenlerde de kenar ve açıları ilişkilendirmek için iki teorem kullanılır. Sinüs teoremine göre her kenarın karşısındaki açının sinüsüne oranı sabittir ve çevrel çemberin çapına eşittir: a / sin A = b / sin B = c / sin C = 2R. Kosinüs teoremine göre a² = b² + c² − 2bc × cos A olur. Açı 90° olduğunda cos 90° = 0 olacağından kosinüs teoremi Pisagor teoremine dönüşür. İki kenar ve aradaki açı biliniyorsa üçüncü kenarı kosinüs teoremiyle; iki açı ve bir kenar biliniyorsa diğer kenarları sinüs teoremiyle buluruz.",
+     "points": [
+      "a / sin A = 2R",
+      "a² = b² + c² − 2bc cos A",
+      "Kosinüs teoremi, Pisagor teoreminin genellemesidir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Trigonometrik oranlar",
+     "meaning": "Dik üçgende kenarların birbirine oranıyla tanımlanan sin, cos, tan, cot değerleri."
+    },
+    {
+     "term": "Birim çember",
+     "meaning": "Merkezi orijinde, yarıçapı 1 birim olan çember."
+    },
+    {
+     "term": "Yükseklik",
+     "meaning": "Bir köşeden karşı kenara (veya uzantısına) çizilen dik doğru parçası."
+    },
+    {
+     "term": "Ağırlık merkezi",
+     "meaning": "Üç kenarortayın kesiştiği nokta."
+    },
+    {
+     "term": "İç açıortay",
+     "meaning": "Üçgenin bir iç açısını iki eş parçaya ayıran doğru parçası."
+    },
+    {
+     "term": "Kenar orta dikme",
+     "meaning": "Bir kenarın orta noktasından o kenara dik çizilen doğru."
+    },
+    {
+     "term": "Sinüs teoremi",
+     "meaning": "Kenarın karşı açının sinüsüne oranının sabit (2R) olması."
+    },
+    {
+     "term": "Kosinüs teoremi",
+     "meaning": "a² = b² + c² − 2bc cos A bağıntısı."
+    }
+   ],
+   "example": {
+    "question": "Bir ABC üçgeninde b = 5 cm, c = 8 cm ve A açısı 60°'dir. a kenarını bulunuz.",
+    "solution": "1) Kosinüs teoremi: a² = b² + c² − 2bc cos A.\n2) cos 60° = 1/2.\n3) a² = 25 + 64 − 2 × 5 × 8 × 1/2 = 89 − 40 = 49.\n4) a = 7 cm."
+   },
+   "remember": [
+    "Trigonometrik oranlar üçgenin büyüklüğüne değil açıya bağlıdır.",
+    "sin²α + cos²α = 1 her açı için geçerlidir.",
+    "Ağırlık merkezi kenarortayı köşeden 2:1 oranında böler.",
+    "Kosinüs teoremi, A = 90° iken Pisagor teoremi olur."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 2,
+   "intro": "Bu temada iki kategorik değişken arasında bir ilişki olup olmadığını iki yönlü tablolar ve grafiklerle incelemeyi öğreniyoruz. Örneğin 'spor yapma alışkanlığı cinsiyete göre farklılaşıyor mu?' gibi soruları veriyle cevaplayacağız.",
+   "sections": [
+    {
+     "title": "Kategorik değişken ve iki yönlü tablo",
+     "text": "Değerleri sayı değil kategori olan değişkenlere kategorik değişken denir: cinsiyet, sevilen spor, kan grubu gibi. İki kategorik değişken birlikte incelenirken veriler iki yönlü tabloya yazılır. Satırlarda bir değişkenin, sütunlarda diğer değişkenin kategorileri bulunur; hücrelerde ise her kategori çiftine düşen kişi sayısı yer alır. Tablonun kenarlarındaki toplamlar her değişkenin tek başına dağılımını gösterir. Örneğin satırlarda 'kız-erkek', sütunlarda 'kahvaltı yapıyor-yapmıyor' olan bir tablo, iki değişkenin birlikte nasıl dağıldığını gösterir.",
+     "points": [
+      "Hücre: iki kategorinin kesişimindeki sayı",
+      "Satır/sütun toplamları tek değişkenin dağılımını verir."
+     ]
+    },
+    {
+     "title": "Koşullu göreli sıklık",
+     "text": "Gruplar farklı büyüklükteyse sayıları doğrudan karşılaştırmak yanıltıcı olur. Bu yüzden koşullu göreli sıklık kullanılır: bir hücredeki sayı, ait olduğu satırın (veya sütunun) toplamına bölünür. Örneğin 80 kız öğrenciden 60'ı kahvaltı yapıyorsa kızların kahvaltı yapma oranı 60/80 = 0,75'tir. 120 erkek öğrenciden 72'si kahvaltı yapıyorsa erkeklerin oranı 72/120 = 0,60'tır. Oranlar karşılaştırılarak gruplar arasında fark olup olmadığı yorumlanır. Bu oranlar yüzde olarak da ifade edilebilir.",
+     "points": [
+      "Koşullu göreli sıklık = hücre değeri / ilgili satır ya da sütun toplamı",
+      "Farklı büyüklükteki grupları oranlarla karşılaştır."
+     ]
+    },
+    {
+     "title": "İlişkililik ve kümeli sütun grafiği",
+     "text": "Bir değişkenin kategorisine göre diğer değişkenin koşullu göreli sıklıkları belirgin biçimde farklıysa iki değişken arasında ilişki vardır denir. Oranlar birbirine çok yakınsa ilişki zayıftır ya da yoktur. Kümeli sütun grafiğinde her grup için sütunlar yan yana çizilir ve farklar kolayca görülür. Ancak ilişkililik, bir değişkenin diğerine neden olduğu anlamına gelmez. Örneklem küçükse ya da evreni temsil etmiyorsa sonuçlar genellenemez. Başkalarının yaptığı yorumları değerlendirirken bu noktalara dikkat edilmelidir.",
+     "points": [
+      "İlişki varsa oranlar belirgin şekilde farklıdır.",
+      "İlişki, neden-sonuç ilişkisi demek değildir.",
+      "Grafiğin eksen ölçeği farkları abartabilir; dikkatli oku."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "İki kategorik değişken",
+     "meaning": "Aynı bireyler üzerinde birlikte incelenen, kategori değerli iki değişken."
+    },
+    {
+     "term": "İki yönlü tablo",
+     "meaning": "İki kategorik değişkenin birlikte dağılımını gösteren tablo."
+    },
+    {
+     "term": "Koşullu göreli sıklık",
+     "meaning": "Bir hücredeki değerin ait olduğu satır ya da sütun toplamına oranı."
+    },
+    {
+     "term": "İlişkililik",
+     "meaning": "Bir değişkenin kategorisine göre diğerinin dağılımının farklılaşması."
+    },
+    {
+     "term": "Kümeli sütun grafiği",
+     "meaning": "Grupların sütunlarının yan yana çizildiği karşılaştırma grafiği."
+    },
+    {
+     "term": "Veri dağılımı",
+     "meaning": "Verilerin kategorilere ya da değerlere göre nasıl yayıldığı."
+    }
+   ],
+   "example": {
+    "question": "Bir ankette 50 kişilik A sınıfından 30 kişi, 40 kişilik B sınıfından 30 kişi bisiklet sürmeyi bildiğini söylemiştir. Hangi sınıfta bisiklet bilme oranı daha yüksektir?",
+    "solution": "1) A sınıfı: 30/50 = 0,60, yani %60.\n2) B sınıfı: 30/40 = 0,75, yani %75.\n3) Sayılar eşit (30) olsa da oranlar farklıdır.\n4) B sınıfında bisiklet bilme oranı daha yüksektir."
+   },
+   "remember": [
+    "Kategorik veri sayı değil kategori bildirir.",
+    "Grupları karşılaştırırken sayıları değil oranları kullan.",
+    "İlişkililik nedensellik değildir.",
+    "Örneklem evreni temsil etmiyorsa sonuç genellenemez."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 3,
+   "intro": "Bu temada doğal sayıların asal çarpanlarını, bölenlerini, EBOB ve EKOK'u ve bölme işleminde kalanlarla ilgili özellikleri öğreniyoruz. Bu bilgiler; zaman çizelgeleri hazırlamaktan şifreleme sistemlerine kadar birçok alanda kullanılır.",
+   "sections": [
+    {
+     "title": "Asal sayılar ve asal çarpanlara ayırma",
+     "text": "1'den ve kendisinden başka pozitif böleni olmayan, 1'den büyük doğal sayılara asal sayı denir: 2, 3, 5, 7, 11, 13 gibi. 2 tek çift asal sayıdır; 1 asal değildir. 1'den büyük her doğal sayı, asal sayıların çarpımı olarak tek bir şekilde yazılabilir; buna asal çarpanlara ayırma denir. Örneğin 360 = 2³ × 3² × 5. Bir sayının asal çarpanları bilinirse bölenleri kolayca bulunur. Sayı n = aˣ × bʸ × cᶻ biçimindeyse pozitif bölen sayısı (x + 1)(y + 1)(z + 1)'dir. Ortak asal böleni olmayan, yani EBOB'u 1 olan sayılara aralarında asal sayılar denir.",
+     "points": [
+      "1 asal değildir, 2 tek çift asaldır.",
+      "360'ın pozitif bölen sayısı: (3+1)(2+1)(1+1) = 24",
+      "8 ile 15 aralarında asaldır."
+     ]
+    },
+    {
+     "title": "Bölünebilme kuralları",
+     "text": "Bölme yapmadan bir sayının bölünüp bölünmediğini anlamak için bölünebilme kuralları kullanılır. Son basamağı çift olan sayı 2'ye, rakamları toplamı 3'ün katı olan sayı 3'e, son iki basamağı 4'ün katı olan sayı 4'e, son basamağı 0 veya 5 olan sayı 5'e bölünür. Hem 2'ye hem 3'e bölünen sayı 6'ya bölünür. Rakamları toplamı 9'un katı olan sayı 9'a bölünür. Son basamağı 0 olan sayı 10'a bölünür. 11 kuralında rakamlar sağdan başlayarak sırayla + ve − işaretleriyle toplanır; sonuç 11'in katıysa sayı 11'e bölünür. Aralarında asal sayılara bölünebilme birleştirilebilir: 12 için 3 ve 4 kuralı birlikte kullanılır.",
+     "points": [
+      "3 ve 9: rakamlar toplamına bak.",
+      "4: son iki basamağa bak.",
+      "12 = 3 × 4, 15 = 3 × 5 (aralarında asal çarpanlar)"
+     ]
+    },
+    {
+     "title": "EBOB ve EKOK",
+     "text": "İki ya da daha fazla sayının ortak bölenlerinin en büyüğüne EBOB, ortak katlarının en küçüğüne EKOK denir. Asal çarpanlara ayırma yöntemiyle EBOB, ortak asal çarpanların en küçük üslüleri çarpılarak; EKOK, tüm asal çarpanların en büyük üslüleri çarpılarak bulunur. İki pozitif tam sayı için a × b = EBOB(a, b) × EKOK(a, b) bağıntısı geçerlidir. EBOB genellikle bir bütünü eşit ve en büyük parçalara bölme problemlerinde; EKOK ise tekrar eden olayların yeniden aynı anda olacağı zamanı bulma problemlerinde kullanılır.",
+     "points": [
+      "EBOB: parçalama, en büyük ortak ölçü",
+      "EKOK: tekrar eden olayların buluşması",
+      "a × b = EBOB × EKOK"
+     ]
+    },
+    {
+     "title": "Bölme ve kalan",
+     "text": "Bölme işleminde bölünen = bölen × bölüm + kalan bağıntısı vardır ve kalan, bölenden küçük, sıfıra eşit ya da sıfırdan büyük olmalıdır. Bir sayının bir bölene göre kalanı bilindiğinde, sayıyı bölen × k + kalan biçiminde yazabiliriz. Örneğin 7'ye bölündüğünde 3 kalanını veren sayılar 7k + 3 biçimindedir. Toplamın kalanı, kalanların toplamının kalanına; çarpımın kalanı, kalanların çarpımının kalanına eşittir. Bu özellik sayesinde büyük sayıların kalanları kolayca bulunur. Kalanlar düzenli tekrar ettiği için haftanın günleri gibi döngüsel problemler de bu yolla çözülür.",
+     "points": [
+      "Bölünen = bölen × bölüm + kalan",
+      "0 ≤ kalan < bölen",
+      "Haftanın günleri 7'ye göre kalanla tekrar eder."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Asal sayı",
+     "meaning": "1'den büyük olup yalnızca 1'e ve kendisine bölünen doğal sayı."
+    },
+    {
+     "term": "Bölen",
+     "meaning": "Bir sayıyı kalansız bölen doğal sayı."
+    },
+    {
+     "term": "Kat",
+     "meaning": "Bir sayının bir tam sayıyla çarpılmasıyla elde edilen sayı."
+    },
+    {
+     "term": "Aralarında asal",
+     "meaning": "Ortak bölenleri yalnızca 1 olan sayılar."
+    },
+    {
+     "term": "En büyük ortak bölen",
+     "meaning": "Sayıların hepsini bölen en büyük doğal sayı (EBOB)."
+    },
+    {
+     "term": "En küçük ortak kat",
+     "meaning": "Sayıların hepsinin katı olan en küçük pozitif sayı (EKOK)."
+    },
+    {
+     "term": "Kalan",
+     "meaning": "Bölme işleminde bölenin katlarından arta kalan, bölenden küçük sayı."
+    }
+   ],
+   "example": {
+    "question": "Bir otobüs durağından A hattı her 12 dakikada, B hattı her 18 dakikada bir kalkıyor. İki otobüs saat 08.00'de birlikte kalktıysa, bir sonraki birlikte kalkış saat kaçtadır?",
+    "solution": "1) Birlikte kalkış için 12 ve 18'in ortak katı gerekir; ilk buluşma EKOK'tadır.\n2) 12 = 2² × 3, 18 = 2 × 3².\n3) EKOK = 2² × 3² = 36.\n4) 36 dakika sonra, yani saat 08.36'da birlikte kalkarlar."
+   },
+   "remember": [
+    "1 asal sayı değildir.",
+    "Bölen sayısı için asal çarpanların üslerine 1 ekleyip çarp.",
+    "EBOB parçalamada, EKOK buluşmada kullanılır.",
+    "Kalan her zaman bölenden küçüktür."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 4,
+   "intro": "Bu temada fonksiyon kavramını derinleştiriyor; karesel, karekök ve rasyonel fonksiyonları ve ters fonksiyonu öğreniyoruz. Atılan bir topun yüksekliği, bir kare alanın kenarı ya da hız ile süre arasındaki ilişki bu fonksiyonlarla modellenir.",
+   "sections": [
+    {
+     "title": "Fonksiyonun özellikleri",
+     "text": "Bir bağıntının fonksiyon olması için tanım kümesindeki her elemanın tam olarak bir görüntüsü olmalıdır. Grafikte bunu düşey doğru testiyle kontrol ederiz: her düşey doğru grafiği en fazla bir noktada kesmelidir. Farklı elemanların görüntüleri her zaman farklıysa fonksiyon bire birdir (yatay doğru testi). Değer kümesindeki her eleman bir elemanın görüntüsüyse fonksiyon örtendir. f(−x) = f(x) ise fonksiyon çifttir ve grafiği y eksenine göre simetriktir; f(−x) = −f(x) ise tektir ve grafiği orijine göre simetriktir. Fonksiyonların artan-azalan oldukları aralıklar, sıfırları ve işaretleri grafikten okunabilir.",
+     "points": [
+      "Düşey doğru testi: fonksiyon mu?",
+      "Yatay doğru testi: bire bir mi?",
+      "Çift: y eksenine simetrik; tek: orijine simetrik"
+     ]
+    },
+    {
+     "title": "Karesel fonksiyon ve parabol",
+     "text": "f(x) = ax² + bx + c (a ≠ 0) biçimindeki fonksiyonlara karesel fonksiyon denir; grafiği paraboldür. Referans fonksiyon f(x) = x²'dir; grafiği tepe noktası orijinde olan ve yukarı açılan bir paraboldür. a > 0 ise kollar yukarı, a < 0 ise aşağı doğrudur. Tepe noktasının apsisi r = −b / (2a)'dır ve parabol x = r simetri doğrusuna göre simetriktir. a > 0 iken tepe noktası minimum, a < 0 iken maksimum değeri verir. f(x) = a(x − r)² + k biçimi, tepe noktasını (r, k) olarak doğrudan gösterir. Parabolün x eksenini kestiği noktalar ax² + bx + c = 0 denkleminin kökleridir.",
+     "points": [
+      "Tepe noktası: r = −b/(2a), k = f(r)",
+      "Δ = b² − 4ac > 0: iki kök, = 0: tek kök, < 0: gerçek kök yok"
+     ]
+    },
+    {
+     "title": "Karekök ve rasyonel fonksiyonlar",
+     "text": "Karekök referans fonksiyonu f(x) = √x'tir ve yalnızca x ≥ 0 için tanımlıdır. Grafiği orijinden başlar, sürekli artar ama giderek daha yavaş yükselir. f(x) = √(x − 2) + 1 gibi fonksiyonlar bu grafiğin 2 birim sağa ve 1 birim yukarı kaydırılmasıyla elde edilir. Rasyonel referans fonksiyonu f(x) = 1/x'tir ve x = 0'da tanımsızdır. Grafiği iki koldan oluşur; x büyüdükçe 0'a yaklaşır ama 0 olmaz. x = 0 ve y = 0 doğruları grafiğin yaklaştığı ama kesmediği doğrulardır. Bu fonksiyon tektir ve grafiği orijine göre simetriktir.",
+     "points": [
+      "√x: tanım kümesi x ≥ 0",
+      "1/x: x ≠ 0, grafik iki koldan oluşur",
+      "f(x − a) + b: a birim sağa, b birim yukarı kaydırma"
+     ]
+    },
+    {
+     "title": "Ters fonksiyon",
+     "text": "Bire bir ve örten bir f fonksiyonunun yaptığı eşlemeyi geri alan fonksiyona ters fonksiyon denir ve f⁻¹ ile gösterilir. f(a) = b ise f⁻¹(b) = a olur. Ters fonksiyonu bulmak için y = f(x) yazılır, x yalnız bırakılır ve sonra x ile y'nin yerleri değiştirilir. Örneğin f(x) = 2x + 3 için y = 2x + 3, x = (y − 3)/2 ve f⁻¹(x) = (x − 3)/2 bulunur. Bir fonksiyon ile tersinin grafikleri y = x doğrusuna göre simetriktir. f(x) = x² tüm gerçek sayılarda bire bir değildir; ancak tanım kümesi x ≥ 0 ile sınırlanırsa tersi f⁻¹(x) = √x olur.",
+     "points": [
+      "Tersi olması için fonksiyon bire bir ve örten olmalı.",
+      "f ve f⁻¹ grafikleri y = x'e göre simetriktir.",
+      "x ≥ 0 için x² ile √x birbirinin tersidir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Bire birlik",
+     "meaning": "Farklı elemanların farklı görüntülere sahip olması."
+    },
+    {
+     "term": "Örtenlik",
+     "meaning": "Değer kümesinde açıkta eleman kalmaması."
+    },
+    {
+     "term": "Parabol",
+     "meaning": "Karesel fonksiyonun U biçimli grafiği."
+    },
+    {
+     "term": "Simetri doğrusu",
+     "meaning": "Parabolü birbirinin aynası olan iki parçaya ayıran x = r doğrusu."
+    },
+    {
+     "term": "Karekök fonksiyonu",
+     "meaning": "f(x) = √x ve ondan türetilen fonksiyonlar."
+    },
+    {
+     "term": "Rasyonel fonksiyon",
+     "meaning": "İki polinomun bölümü biçimindeki fonksiyon; referansı 1/x."
+    },
+    {
+     "term": "Ters fonksiyon",
+     "meaning": "Bir fonksiyonun eşlemesini tersine çeviren fonksiyon (f⁻¹)."
+    },
+    {
+     "term": "Teklik-çiftlik",
+     "meaning": "Grafiğin orijine (tek) ya da y eksenine (çift) göre simetrik olması."
+    }
+   ],
+   "example": {
+    "question": "f(x) = x² − 6x + 5 fonksiyonunun tepe noktasını, köklerini ve en küçük değerini bulunuz.",
+    "solution": "1) a = 1, b = −6, c = 5. Tepe noktasının apsisi r = −(−6)/(2 × 1) = 3.\n2) k = f(3) = 9 − 18 + 5 = −4. Tepe noktası (3, −4).\n3) a > 0 olduğundan parabol yukarı açılır; en küçük değer −4'tür.\n4) Kökler: x² − 6x + 5 = (x − 1)(x − 5) = 0, x = 1 veya x = 5.\n5) Kontrol: kökler simetri doğrusu x = 3'e eşit uzaklıktadır."
+   },
+   "remember": [
+    "Düşey doğru testi fonksiyonu, yatay doğru testi bire birliği kontrol eder.",
+    "a > 0 ise parabol yukarı açılır ve minimumu vardır.",
+    "√x yalnızca x ≥ 0 için tanımlıdır.",
+    "f ve f⁻¹ grafikleri y = x doğrusuna göre simetriktir."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 5,
+   "intro": "Bu temada bir işin kaç farklı şekilde yapılabileceğini hesaplamayı öğreniyoruz. Sayma yöntemleri; şifre olasılıklarını hesaplamaktan turnuva eşleşmelerini planlamaya kadar pek çok problemi çözmemizi sağlar.",
+   "sections": [
+    {
+     "title": "Toplama ve çarpma yoluyla sayma",
+     "text": "Bir iş birbirinden ayrık seçeneklerle yapılabiliyorsa seçenek sayıları toplanır: 3 farklı otobüs veya 2 farklı trenle gidilebiliyorsa 3 + 2 = 5 yol vardır. Bir iş art arda yapılan aşamalardan oluşuyorsa her aşamadaki seçenek sayıları çarpılır: 4 tişört ve 3 pantolondan 4 × 3 = 12 farklı kombin yapılabilir. Buna çarpma ilkesi denir. Örneğin rakamları 0-9 olan 3 haneli bir kilit şifresi 10 × 10 × 10 = 1000 farklı şekilde oluşturulabilir. Problemlerde önce işin aşamalarını belirlemek, sonra her aşamadaki seçenek sayısını bulmak gerekir.",
+     "points": [
+      "'veya' → topla",
+      "'ve' (art arda) → çarp"
+     ]
+    },
+    {
+     "title": "Faktöriyel ve sıralama (permütasyon)",
+     "text": "1'den n'ye kadar olan doğal sayıların çarpımına n faktöriyel denir ve n! ile gösterilir: 5! = 5 × 4 × 3 × 2 × 1 = 120. Tanım gereği 0! = 1'dir. n farklı nesne bir sıraya n! farklı şekilde dizilir. n farklı nesneden r tanesini seçip sıralamanın sayısı P(n, r) = n! / (n − r)! ile bulunur. Burada sıra önemlidir: AB ile BA farklı sayılır. Örneğin 8 kişilik bir yarışmada ilk üç dereceyi alanların sıralanması P(8, 3) = 8 × 7 × 6 = 336 farklı şekilde olabilir.",
+     "points": [
+      "0! = 1, 1! = 1",
+      "P(n, r) = n! / (n − r)!",
+      "Sıralamada sıra önemlidir."
+     ]
+    },
+    {
+     "title": "Seçme (kombinasyon)",
+     "text": "Sıranın önemli olmadığı seçimlerde kombinasyon kullanılır. n farklı nesneden r tanesini seçme sayısı C(n, r) = n! / (r! × (n − r)!) ile hesaplanır. Örneğin 5 kişiden 2 kişilik bir ekip seçerken Ali-Ayşe ile Ayşe-Ali aynı ekiptir; bu yüzden C(5, 2) = 10'dur. Sıralama sayısı, seçme sayısının seçilenlerin kendi aralarındaki sıralama sayısıyla çarpımıdır: P(n, r) = C(n, r) × r!. Ayrıca C(n, r) = C(n, n − r) olur; çünkü r kişiyi seçmek, geri kalan n − r kişiyi dışarıda bırakmakla aynıdır.",
+     "points": [
+      "C(n, r) = n! / (r!(n − r)!)",
+      "C(n, 0) = C(n, n) = 1",
+      "Ekip, grup, komisyon → seçme; sıralama, şifre, derece → sıralama"
+     ]
+    },
+    {
+     "title": "Sayma ve algoritmalar",
+     "text": "Sayma problemleri ve cebirsel işlemler algoritmik bir dille yazılabilir. Örneğin n! hesaplayan bir algoritmada sonuç 1 ile başlatılır ve 1'den n'ye kadar her sayı sonuçla çarpılır. Bu bir döngü yapısıdır. Bir fonksiyonun belirli x değerleri için çıktılarını üreten algoritma ise girdi alır, kuralı uygular ve çıktıyı yazar. Algoritmik düşünme, problemleri küçük ve tekrar eden adımlara bölmeyi öğretir. Bir algoritmanın doğru çalıştığını küçük değerlerle elle deneyerek kontrol etmek iyi bir alışkanlıktır.",
+     "points": [
+      "Faktöriyel algoritması: sonuç = 1; i = 1'den n'ye: sonuç = sonuç × i",
+      "Algoritmayı küçük girdilerle test et."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Sayma",
+     "meaning": "Bir işin kaç farklı şekilde yapılabileceğini sistemli bulma."
+    },
+    {
+     "term": "Faktöriyel",
+     "meaning": "1'den n'ye kadar doğal sayıların çarpımı, n!."
+    },
+    {
+     "term": "Sıralama sayısı",
+     "meaning": "Nesnelerin sıra önemli olacak şekilde dizilme sayısı (permütasyon)."
+    },
+    {
+     "term": "Seçme sayısı",
+     "meaning": "Sıra önemsizken nesnelerden grup oluşturma sayısı (kombinasyon)."
+    },
+    {
+     "term": "Algoritma",
+     "meaning": "Bir işlemi yapmak için sıralı ve açık adımlar."
+    },
+    {
+     "term": "Çarpma ilkesi",
+     "meaning": "Art arda aşamalardaki seçenek sayılarının çarpılması."
+    }
+   ],
+   "example": {
+    "question": "6 kız ve 4 erkek öğrenci arasından 2 kız ve 1 erkekten oluşan 3 kişilik bir ekip kaç farklı şekilde seçilebilir?",
+    "solution": "1) Sıra önemsiz olduğundan seçme (kombinasyon) kullanılır.\n2) Kızlar için: C(6, 2) = 6 × 5 / 2 = 15.\n3) Erkekler için: C(4, 1) = 4.\n4) İki seçim art arda yapıldığından çarpılır: 15 × 4 = 60 farklı ekip."
+   },
+   "remember": [
+    "'veya' durumunda topla, art arda aşamalarda çarp.",
+    "0! = 1'dir.",
+    "Sıra önemliyse sıralama, önemsizse seçme kullan.",
+    "C(n, r) = C(n, n − r)."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 6,
+   "intro": "Bu temada geometrik şekilleri dik koordinat sisteminde sayılarla incelemeyi öğreniyoruz. Noktalar arası uzaklık, bir doğrunun eğimi ve denklemi; harita uygulamalarından bilgisayar grafiklerine kadar her yerde kullanılır.",
+   "sections": [
+    {
+     "title": "İki nokta arasındaki uzaklık",
+     "text": "Dik koordinat sisteminde her nokta (x, y) sıralı ikilisiyle gösterilir. A(x₁, y₁) ve B(x₂, y₂) noktaları arasındaki uzaklık, yatay ve düşey farkların oluşturduğu dik üçgende Pisagor teoremiyle bulunur: |AB| = √((x₂ − x₁)² + (y₂ − y₁)²). İki noktanın orta noktası, koordinatların ortalamasıdır: ((x₁ + x₂)/2, (y₁ + y₂)/2). Bir doğru parçasını belirli bir oranda bölen noktanın koordinatları da oran kullanılarak bulunur. Örneğin AB'yi A'dan itibaren 1:2 oranında bölen nokta, A'dan B'ye giden yolun üçte biri kadar ilerideki noktadır.",
+     "points": [
+      "|AB| = √((Δx)² + (Δy)²)",
+      "Orta nokta: koordinatların ortalaması"
+     ]
+    },
+    {
+     "title": "Eğim ve eğim açısı",
+     "text": "Bir doğrunun x ekseninin pozitif yönüyle yaptığı açıya eğim açısı denir. Eğim, bu açının tanjantıdır: m = tan α. Doğru üzerindeki iki noktadan eğim m = (y₂ − y₁) / (x₂ − x₁) ile bulunur. Eğim pozitifse doğru sağa doğru yükselir, negatifse alçalır. Yatay doğruların eğimi 0'dır. Düşey doğruların eğimi tanımsızdır, çünkü x değerleri değişmez ve payda sıfır olur. Eğim, doğrunun ne kadar dik olduğunu gösterir: mutlak değeri büyüdükçe doğru dikleşir.",
+     "points": [
+      "m = tan α",
+      "Yatay doğru: m = 0",
+      "Düşey doğru: eğim tanımsız"
+     ]
+    },
+    {
+     "title": "Doğru denklemi ve doğruların durumu",
+     "text": "Eğimi m olan ve (x₁, y₁) noktasından geçen doğrunun denklemi y − y₁ = m(x − x₁)'dir. Bu denklem y = mx + n biçiminde de yazılabilir; burada n, doğrunun y eksenini kestiği noktadır. Düzlemdeki iki doğru paralel, kesişen ya da çakışık olabilir. Eğimleri eşit, y eksenini kestikleri noktalar farklı olan doğrular paraleldir ve hiç kesişmez. Eğimleri ve kesim noktaları aynı olan doğrular çakışıktır. Eğimleri farklı olan doğrular tek bir noktada kesişir; kesim noktası iki denklemin ortak çözümüdür. Eğimlerinin çarpımı −1 olan doğrular birbirine diktir.",
+     "points": [
+      "Paralel: m₁ = m₂",
+      "Dik: m₁ × m₂ = −1",
+      "Kesişim noktası: denklemlerin ortak çözümü"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Dik koordinat sistemi",
+     "meaning": "Birbirine dik x ve y eksenlerinden oluşan düzlem."
+    },
+    {
+     "term": "İki nokta arasındaki uzaklık",
+     "meaning": "Noktaları birleştiren doğru parçasının uzunluğu."
+    },
+    {
+     "term": "Eğim",
+     "meaning": "Doğrunun dikliğini gösteren, düşey değişimin yatay değişime oranı."
+    },
+    {
+     "term": "Eğim açısı",
+     "meaning": "Doğrunun x ekseninin pozitif yönüyle yaptığı açı."
+    },
+    {
+     "term": "Paralellik",
+     "meaning": "Eğimleri eşit, ortak noktası olmayan doğruların durumu."
+    },
+    {
+     "term": "Kesişme",
+     "meaning": "İki doğrunun tek bir ortak noktasının olması."
+    },
+    {
+     "term": "Çakışma",
+     "meaning": "İki doğrunun tüm noktalarının ortak olması."
+    }
+   ],
+   "example": {
+    "question": "A(1, 2) ve B(4, 6) noktaları veriliyor. |AB| uzunluğunu ve AB doğrusunun denklemini bulunuz.",
+    "solution": "1) Δx = 4 − 1 = 3, Δy = 6 − 2 = 4.\n2) |AB| = √(3² + 4²) = √25 = 5 birim.\n3) Eğim m = 4/3.\n4) Denklem: y − 2 = (4/3)(x − 1).\n5) Düzenlersek: y = (4/3)x + 2/3."
+   },
+   "remember": [
+    "Uzaklık formülü Pisagor teoreminden gelir.",
+    "Eğim = düşey değişim / yatay değişim.",
+    "Paralel doğruların eğimleri eşittir.",
+    "Dik doğruların eğimleri çarpımı −1'dir."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 7,
+   "intro": "Bu temada bir olayın gerçekleştiği bilindiğinde başka bir olayın olasılığının nasıl değiştiğini öğreniyoruz. Koşullu olasılık; tıbbi testlerin yorumlanmasından hava tahminlerine kadar yeni bilgiyle karar vermemizi sağlar.",
+   "sections": [
+    {
+     "title": "Koşullu olasılık",
+     "text": "B olayının gerçekleştiği bilindiğinde A olayının olasılığına koşullu olasılık denir ve P(A | B) ile gösterilir. Bu durumda örnek uzay artık yalnızca B'nin çıktılarından oluşur. Formülü P(A | B) = P(A ∩ B) / P(B)'dir (P(B) > 0). Örneğin bir zar atıldığında sonucun çift olduğu biliniyorsa 4 gelme olasılığı 1/3'tür, çünkü yeni örnek uzay {2, 4, 6} kümesidir. Koşullu olasılık iki yönlü tablolardan da kolayca hesaplanır: ilgili hücre, koşulun bulunduğu satırın ya da sütunun toplamına bölünür.",
+     "points": [
+      "P(A | B) = P(A ∩ B) / P(B)",
+      "Koşul, örnek uzayı daraltır."
+     ]
+    },
+    {
+     "title": "Bağımlı ve bağımsız olaylar",
+     "text": "Bir olayın gerçekleşmesi diğerinin olasılığını değiştirmiyorsa olaylar bağımsızdır. Bu durumda P(A | B) = P(A) ve P(A ∩ B) = P(A) × P(B) olur. Bir parayı iki kez atmak bağımsız olaylara örnektir; ilk atışın sonucu ikinciyi etkilemez. Bir torbadan geri koymadan iki top çekmek ise bağımlı olaylardır; ilk çekiliş torbadaki top sayısını değiştirir. Bağımlı olaylarda P(A ∩ B) = P(A) × P(B | A) çarpma kuralı kullanılır. Bağımsızlık ile ayrıklık karıştırılmamalıdır: olasılıkları sıfırdan büyük ayrık olaylar aynı anda gerçekleşemediği için bağımsız olamaz.",
+     "points": [
+      "Bağımsız: P(A ∩ B) = P(A) × P(B)",
+      "Geri koymadan çekiliş → bağımlı olaylar",
+      "Ayrık ≠ bağımsız"
+     ]
+    },
+    {
+     "title": "Bayes teoremi",
+     "text": "Bayes teoremi, bir sonucun gözlendiği bilindiğinde bu sonuca yol açan nedenin olasılığını hesaplamamızı sağlar. P(A | B) = P(B | A) × P(A) / P(B) biçiminde yazılır. Burada P(B), B'nin oluşabileceği tüm yolların olasılıkları toplanarak bulunur. Örneğin bir fabrikada ürünlerin bir kısmı birinci makinede, bir kısmı ikinci makinede üretilir ve makinelerin hata oranları farklıdır. Seçilen bir ürünün hatalı olduğu biliniyorsa birinci makinede üretilmiş olma olasılığı Bayes teoremiyle bulunur. Bu tür problemlerde olasılık ağacı çizmek çözümü çok kolaylaştırır.",
+     "points": [
+      "P(A | B) = P(B | A) × P(A) / P(B)",
+      "Olasılık ağacında dallar boyunca çarp, sonuçları topla."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Koşullu olasılık",
+     "meaning": "Bir olayın gerçekleştiği bilindiğinde başka bir olayın olasılığı."
+    },
+    {
+     "term": "Bağımsız olay",
+     "meaning": "Gerçekleşmesi diğer olayın olasılığını etkilemeyen olay."
+    },
+    {
+     "term": "Bağımlı olay",
+     "meaning": "Gerçekleşmesi diğer olayın olasılığını değiştiren olay."
+    },
+    {
+     "term": "Bayes teoremi",
+     "meaning": "Gözlenen sonuca göre nedenin olasılığını güncelleyen bağıntı."
+    },
+    {
+     "term": "Olasılık ağacı",
+     "meaning": "Art arda olayların olasılıklarını dallarla gösteren şema."
+    }
+   ],
+   "example": {
+    "question": "Bir torbada 3 kırmızı ve 2 mavi top vardır. Geri koymadan art arda iki top çekiliyor. İkisinin de kırmızı olma olasılığı nedir?",
+    "solution": "1) İlk topun kırmızı olma olasılığı: 3/5.\n2) İlk top kırmızı çekildiyse torbada 2 kırmızı, 2 mavi kalır. İkincinin kırmızı olma olasılığı: 2/4 = 1/2.\n3) Olaylar bağımlıdır: P = 3/5 × 1/2 = 3/10."
+   },
+   "remember": [
+    "Koşul verildiğinde örnek uzay daralır.",
+    "Bağımsız olaylarda olasılıklar doğrudan çarpılır.",
+    "Geri koymadan çekilişler bağımlıdır.",
+    "Bayes problemlerinde olasılık ağacı çiz."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 1,
+   "intro": "Bu temada iki nicel değişken arasındaki ilişkiyi serpme diyagramı ve korelasyon katsayısıyla incelemeyi öğreniyoruz. Örneğin çalışma süresi ile sınav puanı ya da sıcaklık ile dondurma satışı arasındaki ilişkiyi verilerle yorumlayacağız.",
+   "sections": [
+    {
+     "title": "İki nicel değişkenli veri ve serpme diyagramı",
+     "text": "Aynı bireylerden iki farklı sayısal ölçüm alındığında iki nicel değişkenli veri elde edilir; örneğin her öğrencinin boyu ve ayakkabı numarası. Bu veriler önce bir tabloya yazılır, sonra serpme diyagramında (saçılım grafiği) gösterilir. Serpme diyagramında her birey bir noktadır: yatay eksende bir değişken, düşey eksende diğer değişken yer alır. Noktaların genel görünümü ilişkinin yönünü ve gücünü gösterir. Noktalar sağa doğru yükseliyorsa pozitif, alçalıyorsa negatif ilişki vardır. Belirli bir düzen yoksa ilişki yoktur. Diğer noktalardan çok uzakta kalan aykırı değerler de grafikte kolayca görülür.",
+     "points": [
+      "Sağa doğru yükselen noktalar → pozitif ilişki",
+      "Sağa doğru alçalan noktalar → negatif ilişki",
+      "Dağınık noktalar → ilişki yok"
+     ]
+    },
+    {
+     "title": "Korelasyon katsayısı",
+     "text": "Doğrusal ilişkinin yönünü ve gücünü sayıyla ifade eden ölçüye korelasyon katsayısı denir ve r ile gösterilir. r her zaman −1 ile 1 arasındadır. r = 1 ise tüm noktalar artan bir doğru üzerindedir, r = −1 ise azalan bir doğru üzerindedir. r 0'a yakınsa doğrusal ilişki yok denecek kadar zayıftır. Genel olarak r'nin mutlak değeri 1'e yaklaştıkça ilişki güçlenir. Korelasyon yalnızca doğrusal ilişkiyi ölçer; noktalar bir eğri boyunca dizilse bile r küçük çıkabilir. Bu yüzden r yorumlanırken mutlaka serpme diyagramına da bakılmalıdır.",
+     "points": [
+      "−1 ≤ r ≤ 1",
+      "|r| büyükse ilişki güçlü",
+      "r yalnızca doğrusal ilişkiyi ölçer."
+     ]
+    },
+    {
+     "title": "Sonuçları yorumlama",
+     "text": "İki değişken arasında güçlü bir korelasyon bulunması, birinin diğerine neden olduğunu göstermez. Örneğin yaz aylarında hem dondurma satışı hem de boğulma vakaları artabilir; ama dondurma boğulmaya neden olmaz, ikisini de sıcak hava etkiler. Böyle durumlarda üçüncü bir değişken ilişkiyi açıklar. Ayrıca bölgelere göre sayım oranları gibi verilerde, nüfusu farklı bölgeleri karşılaştırırken ham sayılar yerine oranlar kullanılmalıdır. Başkalarının istatistiksel iddialarını değerlendirirken örneklemin büyüklüğüne, verinin nasıl toplandığına ve grafiğin nasıl çizildiğine dikkat etmek gerekir.",
+     "points": [
+      "Korelasyon nedensellik değildir.",
+      "Üçüncü bir değişken ilişkiyi açıklayabilir.",
+      "Farklı büyüklükteki bölgeleri oranlarla karşılaştır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "İki nicel değişkenli veri",
+     "meaning": "Aynı bireylerden alınan iki sayısal ölçümden oluşan veri."
+    },
+    {
+     "term": "Serpme diyagramı",
+     "meaning": "Her bireyin bir nokta olarak gösterildiği iki eksenli grafik (saçılım grafiği)."
+    },
+    {
+     "term": "İlişkililik",
+     "meaning": "Bir değişken değişirken diğerinin de belirli bir eğilimle değişmesi."
+    },
+    {
+     "term": "Korelasyon katsayısı",
+     "meaning": "Doğrusal ilişkinin yönünü ve gücünü gösteren, −1 ile 1 arasındaki sayı."
+    },
+    {
+     "term": "Tablo",
+     "meaning": "Verilerin satır ve sütunlarda düzenli gösterimi."
+    },
+    {
+     "term": "Bölgelere göre sayım oranı",
+     "meaning": "Bir bölgedeki sayımın o bölgenin nüfusuna veya büyüklüğüne oranı."
+    }
+   ],
+   "example": {
+    "question": "Bir araştırmada öğrencilerin günlük ekran süresi ile uyku süresi arasında r = −0,82 bulunmuştur. Bu sonucu yorumlayınız.",
+    "solution": "1) r negatiftir: ekran süresi arttıkça uyku süresi azalma eğilimindedir.\n2) |r| = 0,82, 1'e yakındır: doğrusal ilişki güçlüdür.\n3) Ancak bu sonuç, ekran süresinin uykuyu azalttığını tek başına kanıtlamaz; başka etkenler de olabilir.\n4) Doğru yorum: İki değişken arasında güçlü, negatif yönlü bir doğrusal ilişki vardır."
+   },
+   "remember": [
+    "Serpme diyagramında her nokta bir bireydir.",
+    "r, −1 ile 1 arasındadır.",
+    "|r| 1'e yaklaştıkça doğrusal ilişki güçlenir.",
+    "Korelasyon, neden-sonuç ilişkisi demek değildir."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 2,
+   "intro": "Bu temada dörtgenleri ve çokgenleri; kenar, açı, köşegen, simetri ve alan özellikleriyle inceliyoruz. Üçgenlerden öğrendiklerimizi kullanarak paralelkenar, yamuk, deltoid gibi şekillerin özelliklerini keşfedeceğiz.",
+   "sections": [
+    {
+     "title": "Dörtgenler ve özel dörtgenler",
+     "text": "Dörtgenin iç açıları toplamı 360°'dir; çünkü bir köşegen dörtgeni iki üçgene ayırır. Karşılıklı kenarları paralel olan dörtgene paralelkenar denir; karşılıklı kenarları ve açıları eşittir, köşegenleri birbirini ortalar. Tüm açıları 90° olan paralelkenar dikdörtgendir ve köşegenleri eşittir. Tüm kenarları eşit olan paralelkenar eşkenar dörtgendir ve köşegenleri birbirine diktir. Hem dikdörtgen hem eşkenar dörtgen olan şekil karedir. En az bir çift karşılıklı kenarı paralel olan dörtgen yamuktur. İki çift komşu kenarı eşit olan dörtgen deltoittir; köşegenleri birbirine diktir.",
+     "points": [
+      "Kare ⊂ dikdörtgen ⊂ paralelkenar",
+      "Kare ⊂ eşkenar dörtgen ⊂ paralelkenar",
+      "Eşkenar dörtgen ve deltoidde köşegenler diktir."
+     ]
+    },
+    {
+     "title": "Dörtgenlerde alan",
+     "text": "Paralelkenarın alanı taban ile yüksekliğin çarpımıdır: A = a × h. Bunun nedeni, paralelkenardan kesilen bir üçgenin diğer tarafa taşınmasıyla aynı taban ve yükseklikte bir dikdörtgen elde edilmesidir. Yamuğun alanı paralel kenarların toplamının yarısı ile yüksekliğin çarpımıdır: A = (a + c) × h / 2. Köşegenleri dik olan dörtgenlerde (eşkenar dörtgen, deltoit, kare) alan, köşegen uzunluklarının çarpımının yarısıdır: A = e × f / 2. Herhangi bir dörtgenin alanı, köşegenle üçgenlere ayrılıp üçgenlerin alanları toplanarak da bulunabilir.",
+     "points": [
+      "Paralelkenar: A = a × h",
+      "Yamuk: A = (a + c) × h / 2",
+      "Köşegenleri dik dörtgen: A = e × f / 2"
+     ]
+    },
+    {
+     "title": "Çokgenler",
+     "text": "Kenar sayısı üç ya da daha fazla olan kapalı şekillere çokgen denir. Tüm iç açıları 180°'den küçük olan ve herhangi iki noktasını birleştiren doğru parçası tamamen içinde kalan çokgen dışbükeydir. En az bir iç açısı 180°'den büyük olan çokgen içbükeydir. n kenarlı bir dışbükey çokgenin iç açıları toplamı (n − 2) × 180°, dış açıları toplamı 360°'dir. Bir köşeden çizilebilen köşegen sayısı n − 3, toplam köşegen sayısı n(n − 3)/2'dir. Tüm kenarları ve tüm açıları eşit olan çokgen düzgün çokgendir; düzgün n-genin her bir dış açısı 360°/n'dir ve n tane simetri ekseni vardır.",
+     "points": [
+      "İç açılar toplamı: (n − 2) × 180°",
+      "Dış açılar toplamı: 360°",
+      "Köşegen sayısı: n(n − 3)/2"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Paralelkenar",
+     "meaning": "Karşılıklı kenarları paralel olan dörtgen."
+    },
+    {
+     "term": "Yamuk",
+     "meaning": "En az bir çift karşılıklı kenarı paralel olan dörtgen."
+    },
+    {
+     "term": "Deltoit",
+     "meaning": "İki çift komşu kenarı eşit olan, köşegenleri dik dörtgen."
+    },
+    {
+     "term": "Eşkenar dörtgen",
+     "meaning": "Tüm kenarları eşit olan paralelkenar."
+    },
+    {
+     "term": "Köşegen",
+     "meaning": "Çokgenin komşu olmayan iki köşesini birleştiren doğru parçası."
+    },
+    {
+     "term": "Dışbükey çokgen",
+     "meaning": "Tüm iç açıları 180°'den küçük çokgen."
+    },
+    {
+     "term": "İçbükey çokgen",
+     "meaning": "En az bir iç açısı 180°'den büyük çokgen."
+    },
+    {
+     "term": "Düzgün çokgen",
+     "meaning": "Tüm kenarları ve tüm açıları eşit çokgen."
+    }
+   ],
+   "example": {
+    "question": "Düzgün bir altıgenin bir iç açısı kaç derecedir ve kaç köşegeni vardır?",
+    "solution": "1) İç açılar toplamı: (6 − 2) × 180° = 720°.\n2) Düzgün altıgende 6 açı eşittir: 720° / 6 = 120°.\n3) Kontrol: bir dış açı 360°/6 = 60°, iç açı 180° − 60° = 120°.\n4) Köşegen sayısı: 6 × (6 − 3) / 2 = 9."
+   },
+   "remember": [
+    "Dörtgenin iç açıları toplamı 360°'dir.",
+    "Her kare bir dikdörtgendir, ama her dikdörtgen kare değildir.",
+    "Köşegenleri dik dörtgenin alanı e × f / 2.",
+    "Her dışbükey çokgenin dış açıları toplamı 360°'dir."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 3,
+   "intro": "Bu temada açıları radyanla ölçmeyi ve sinüs, kosinüs, tanjant fonksiyonlarını birim çember üzerinde tanımlamayı öğreniyoruz. Trigonometrik fonksiyonlar; ses dalgaları, gelgitler ve dönme hareketi gibi kendini tekrar eden olayları modeller.",
+   "sections": [
+    {
+     "title": "Yönlü açı, derece ve radyan",
+     "text": "Saat yönünün tersine ölçülen açılar pozitif, saat yönünde ölçülenler negatif yönlü kabul edilir. Açılar derece ya da radyan ile ölçülür. Yarıçap uzunluğundaki bir yayı gören merkez açının ölçüsü 1 radyandır. Tam çember 360° = 2π radyandır; bu yüzden 180° = π radyan olur. Dereceyi radyana çevirmek için π/180 ile, radyanı dereceye çevirmek için 180/π ile çarparız. 360°'den büyük ya da negatif açılar, 360°'nin katları eklenip çıkarılarak [0°, 360°) aralığına getirilir; bu değere açının esas ölçüsü denir. Örneğin 750°'nin esas ölçüsü 750° − 720° = 30°'dir.",
+     "points": [
+      "180° = π radyan",
+      "90° = π/2, 60° = π/3, 45° = π/4, 30° = π/6",
+      "Esas ölçü: 0° ≤ α < 360°"
+     ]
+    },
+    {
+     "title": "Birim çemberde trigonometrik fonksiyonlar",
+     "text": "Merkezi orijinde ve yarıçapı 1 olan birim çemberde, pozitif x ekseninden başlayarak α açısıyla dönen ışın çemberi bir P noktasında keser. P'nin apsisi cos α, ordinatı sin α'dır. Bu tanım her gerçek sayı için geçerli olduğundan sin ve cos birer fonksiyon olur. Değerleri her zaman −1 ile 1 arasındadır. tan α = sin α / cos α'dır ve cos α = 0 olan açılarda tanımsızdır. Bölgelere göre işaretler: birinci bölgede hepsi pozitif; ikinci bölgede yalnız sin; üçüncü bölgede tan ve cot; dördüncü bölgede yalnız cos pozitiftir.",
+     "points": [
+      "−1 ≤ sin x ≤ 1, −1 ≤ cos x ≤ 1",
+      "sin x tek, cos x çift fonksiyondur.",
+      "tan x, x = π/2 + kπ için tanımsızdır."
+     ]
+    },
+    {
+     "title": "Periyot ve grafikler",
+     "text": "Bir fonksiyonun değerleri belirli aralıklarla aynen tekrar ediyorsa fonksiyon periyodiktir; tekrar eden en küçük pozitif aralığa periyot denir. sin x ve cos x'in periyodu 2π, tan x'in periyodu π'dir. sin x'in grafiği 0'dan başlayıp π/2'de 1 ile maksimuma çıkar, 3π/2'de −1 ile minimuma iner. f(x) = a sin(bx) + c gibi türetilmiş fonksiyonlarda a genliği (en büyük ve en küçük değeri), b periyodu (2π/|b|), c ise grafiğin yukarı-aşağı kaymasını belirler. Böylece en büyük değer |a| + c, en küçük değer −|a| + c olur.",
+     "points": [
+      "sin ve cos periyodu 2π, tan periyodu π",
+      "a sin(bx) + c'nin periyodu 2π/|b|",
+      "Maksimum = |a| + c, minimum = −|a| + c"
+     ]
+    },
+    {
+     "title": "Trigonometrik denklemler",
+     "text": "sin x = a gibi denklemlerde önce birim çemberde bu değeri veren açılar bulunur, sonra periyot eklenerek tüm çözümler yazılır. Örneğin sin x = 1/2 denkleminin [0, 2π) aralığındaki çözümleri x = π/6 ve x = 5π/6'dır. Tüm çözümler x = π/6 + 2kπ veya x = 5π/6 + 2kπ (k tam sayı) biçimindedir. cos x = a denkleminde çözümler x ve −x simetrisinden bulunur. |a| > 1 ise sin x = a ve cos x = a denklemlerinin gerçek çözümü yoktur. Gerçek hayat problemlerinde çözümler, problemin verdiği zaman aralığına göre seçilir.",
+     "points": [
+      "sin x = a: x ve π − x çözümdür.",
+      "cos x = a: x ve −x çözümdür.",
+      "|a| > 1 ise sin x = a'nın çözümü yoktur."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Yönlü açı",
+     "meaning": "Dönme yönü belirtilmiş açı; saat yönünün tersi pozitiftir."
+    },
+    {
+     "term": "Radyan",
+     "meaning": "Yarıçap uzunluğundaki yayı gören merkez açının ölçüsü."
+    },
+    {
+     "term": "Esas ölçü",
+     "meaning": "Bir açının [0°, 360°) aralığına indirgenmiş ölçüsü."
+    },
+    {
+     "term": "Birim çember",
+     "meaning": "Merkezi orijinde, yarıçapı 1 olan çember."
+    },
+    {
+     "term": "Trigonometrik fonksiyon",
+     "meaning": "Açıya birim çemberdeki koordinat ya da oranlarını eşleyen fonksiyon."
+    },
+    {
+     "term": "Periyot",
+     "meaning": "Fonksiyon değerlerinin tekrar ettiği en küçük pozitif aralık."
+    },
+    {
+     "term": "Maksimum-minimum değer",
+     "meaning": "Fonksiyonun alabileceği en büyük ve en küçük değer."
+    }
+   ],
+   "example": {
+    "question": "f(x) = 3 sin(2x) + 1 fonksiyonunun periyodunu, en büyük ve en küçük değerini bulunuz.",
+    "solution": "1) Periyot: 2π / |2| = π.\n2) sin(2x) değeri −1 ile 1 arasındadır.\n3) 3 sin(2x), −3 ile 3 arasındadır.\n4) 1 eklenince f(x), −2 ile 4 arasında olur.\n5) En büyük değer 4, en küçük değer −2'dir."
+   },
+   "remember": [
+    "π radyan = 180°.",
+    "Birim çemberde nokta (cos α, sin α)'dır.",
+    "sin ve cos değerleri −1 ile 1 arasındadır.",
+    "Trigonometrik denklemlerde periyodu ekleyerek tüm çözümleri yaz."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 4,
+   "intro": "Bu temada hızlı büyüme ve azalmayı anlatan üstel fonksiyonları ve onların tersi olan logaritmik fonksiyonları öğreniyoruz. Nüfus artışı, faiz, radyoaktif bozunma ve ses şiddeti gibi birçok olay bu fonksiyonlarla modellenir.",
+   "sections": [
+    {
+     "title": "Üstel fonksiyon",
+     "text": "a > 0 ve a ≠ 1 olmak üzere f(x) = aˣ biçimindeki fonksiyonlara üstel fonksiyon denir. Tanım kümesi tüm gerçek sayılar, görüntü kümesi pozitif gerçek sayılardır; yani aˣ hiçbir zaman sıfır ya da negatif olmaz. Grafik her zaman (0, 1) noktasından geçer. a > 1 ise fonksiyon artandır ve büyüme giderek hızlanır; 0 < a < 1 ise fonksiyon azalandır. Üstel fonksiyon bire birdir. Doğada ve ekonomide sık görülen özel bir taban vardır: e sayısı. Yaklaşık değeri 2,718 olan bu irrasyonel sayıyla yazılan f(x) = eˣ fonksiyonu sürekli büyüme modellerinde kullanılır.",
+     "points": [
+      "aˣ > 0 her x için",
+      "Grafik (0, 1)'den geçer.",
+      "a > 1: artan, 0 < a < 1: azalan",
+      "e ≈ 2,718"
+     ]
+    },
+    {
+     "title": "Logaritma ve logaritmik fonksiyon",
+     "text": "Üstel fonksiyon bire bir ve örten olduğu için tersi vardır; bu ters fonksiyona logaritma fonksiyonu denir. aˣ = b ise x = logₐ b yazılır; yani logaritma, 'a'nın hangi kuvveti b'yi verir?' sorusunun cevabıdır. Örneğin 2³ = 8 olduğundan log₂ 8 = 3'tür. Logaritmik fonksiyon yalnızca pozitif sayılar için tanımlıdır ve grafiği (1, 0) noktasından geçer. Grafiği, üstel fonksiyonun grafiğinin y = x doğrusuna göre simetriğidir. Tabanı 10 olan logaritmaya onluk logaritma (log x), tabanı e olana doğal logaritma (ln x) denir.",
+     "points": [
+      "aˣ = b ⇔ x = logₐ b",
+      "logₐ 1 = 0, logₐ a = 1",
+      "ln x = logₑ x"
+     ]
+    },
+    {
+     "title": "Logaritma kuralları",
+     "text": "Logaritmanın işlem özellikleri üslü sayıların kurallarından gelir. Çarpımın logaritması logaritmaların toplamıdır: logₐ(xy) = logₐ x + logₐ y. Bölümün logaritması logaritmaların farkıdır: logₐ(x/y) = logₐ x − logₐ y. Kuvvetin logaritmasında üs başa çarpan olarak gelir: logₐ(xⁿ) = n × logₐ x. Taban değiştirme kuralıyla logₐ b = log b / log a yazılabilir. Bu kurallar, bilinmeyenin üste olduğu denklemleri çözmekte kullanılır. Örneğin 2ˣ = 10 denkleminde her iki tarafın logaritması alınır ve x = log 10 / log 2 bulunur.",
+     "points": [
+      "log(xy) = log x + log y",
+      "log(x/y) = log x − log y",
+      "log(xⁿ) = n log x"
+     ]
+    },
+    {
+     "title": "Üstel ve logaritmik modeller",
+     "text": "Bir nicelik her eşit zaman aralığında aynı oranda artıyor ya da azalıyorsa üstel modelle ifade edilir: N(t) = N₀ × aᵗ. Burada N₀ başlangıç miktarıdır. Örneğin her saat ikiye katlanan bir bakteri topluluğu N(t) = N₀ × 2ᵗ ile modellenir. Yıllık %10 değer kaybeden bir aracın değeri her yıl 0,9 ile çarpılır. 'Ne zaman belli bir değere ulaşır?' sorusunun cevabı logaritmayla bulunur. Üstel eşitsizliklerde taban 1'den büyükse eşitsizlik yönü korunur; taban 0 ile 1 arasındaysa yön değişir.",
+     "points": [
+      "Artış: a > 1, azalış: 0 < a < 1",
+      "Süre bulmak için logaritma kullan.",
+      "Taban 0 ile 1 arasında ise eşitsizlik yön değiştirir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Üstel fonksiyon",
+     "meaning": "f(x) = aˣ (a > 0, a ≠ 1) biçimindeki fonksiyon."
+    },
+    {
+     "term": "Logaritmik fonksiyon",
+     "meaning": "Üstel fonksiyonun tersi olan f(x) = logₐ x fonksiyonu."
+    },
+    {
+     "term": "e sayısı",
+     "meaning": "Yaklaşık 2,718 olan, doğal büyüme modellerinde kullanılan irrasyonel sayı."
+    },
+    {
+     "term": "Doğal logaritmik fonksiyon",
+     "meaning": "Tabanı e olan logaritma fonksiyonu, ln x."
+    },
+    {
+     "term": "Bire birlik",
+     "meaning": "Farklı girdilerin farklı çıktılar vermesi; tersi olabilmenin koşulu."
+    },
+    {
+     "term": "Fonksiyonun sıfırı",
+     "meaning": "f(x) = 0 yapan x; logₐ x için x = 1'dir."
+    },
+    {
+     "term": "Artanlık-azalanlık",
+     "meaning": "Tabana göre fonksiyonun büyüyerek ya da küçülerek değişmesi."
+    }
+   ],
+   "example": {
+    "question": "Bir bakteri topluluğu her 3 saatte ikiye katlanıyor. Başlangıçta 500 bakteri varsa kaç saat sonra 8000 bakteri olur?",
+    "solution": "1) Model: N(t) = 500 × 2^(t/3).\n2) 500 × 2^(t/3) = 8000 ise 2^(t/3) = 16.\n3) 16 = 2⁴ olduğundan t/3 = 4.\n4) t = 12 saat sonra 8000 bakteri olur."
+   },
+   "remember": [
+    "aˣ her zaman pozitiftir.",
+    "Logaritma, 'hangi kuvvet?' sorusunun cevabıdır.",
+    "Logaritma yalnızca pozitif sayılar için tanımlıdır.",
+    "aˣ ile logₐ x grafikleri y = x'e göre simetriktir."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 5,
+   "intro": "Bu temada fonksiyonları birbirine bağlayarak yeni fonksiyonlar oluşturmayı öğreniyoruz: fonksiyonlarda dört işlem ve bileşke fonksiyon. Gerçek hayatta bir işlemin çıktısı çoğu zaman başka bir işlemin girdisi olur; bileşke bu zinciri modeller.",
+   "sections": [
+    {
+     "title": "Fonksiyonlarda dört işlem",
+     "text": "Tanım kümeleri ortak olan iki fonksiyon toplanabilir, çıkarılabilir, çarpılabilir ve bölünebilir. (f + g)(x) = f(x) + g(x), (f − g)(x) = f(x) − g(x), (f × g)(x) = f(x) × g(x) ve (f / g)(x) = f(x) / g(x) olarak tanımlanır. Bölme işleminde g(x) = 0 yapan x değerleri tanım kümesinden çıkarılır. Yeni fonksiyonun tanım kümesi, iki fonksiyonun tanım kümelerinin kesişimidir. Örneğin bir firmanın kâr fonksiyonu, gelir fonksiyonundan maliyet fonksiyonunun çıkarılmasıyla elde edilir: K(x) = G(x) − M(x). İşlemler grafik üzerinden de yorumlanabilir.",
+     "points": [
+      "Tanım kümesi: kesişim",
+      "f / g'de g(x) ≠ 0 olmalı.",
+      "Kâr = gelir − maliyet"
+     ]
+    },
+    {
+     "title": "Bileşke fonksiyon",
+     "text": "Bir fonksiyonun çıktısının başka bir fonksiyona girdi olarak verilmesiyle bileşke fonksiyon oluşur. (f ∘ g)(x) = f(g(x)) şeklinde yazılır ve 'f bileşke g' diye okunur. Önce g uygulanır, sonra f uygulanır. Örneğin g(x) = x + 2 ve f(x) = x² ise (f ∘ g)(x) = (x + 2)², (g ∘ f)(x) = x² + 2 olur. Bu örnek, bileşke işleminin genel olarak değişme özelliği olmadığını gösterir. Ancak birleşme özelliği vardır: f ∘ (g ∘ h) = (f ∘ g) ∘ h. Birim fonksiyon I(x) = x, bileşke işleminin etkisiz elemanıdır.",
+     "points": [
+      "(f ∘ g)(x) = f(g(x)): önce g, sonra f",
+      "Genellikle f ∘ g ≠ g ∘ f",
+      "f ∘ f⁻¹ = f⁻¹ ∘ f = I"
+     ]
+    },
+    {
+     "title": "Bileşke ve ters fonksiyonun özellikleri",
+     "text": "Bir fonksiyon ile tersinin bileşkesi birim fonksiyonu verir: f(f⁻¹(x)) = x. Bu özellik, bulunan ters fonksiyonun doğru olup olmadığını kontrol etmek için kullanılır. İki bire bir fonksiyonun bileşkesi de bire birdir. Bileşkenin tersi ters sırayla alınır: (f ∘ g)⁻¹ = g⁻¹ ∘ f⁻¹. Bunu çorap ve ayakkabıya benzetebiliriz: önce çorap sonra ayakkabı giyilir, çıkarırken önce ayakkabı sonra çorap çıkarılır. İki artan fonksiyonun bileşkesi artandır. Bileşke fonksiyonun artanlık, azalanlık ve tek-çiftlik gibi özellikleri, bileşenlerinin özelliklerinden çıkarılabilir.",
+     "points": [
+      "(f ∘ g)⁻¹ = g⁻¹ ∘ f⁻¹",
+      "İki artan fonksiyonun bileşkesi artandır.",
+      "Artan ile azalanın bileşkesi azalandır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Bileşke fonksiyon",
+     "meaning": "Bir fonksiyonun çıktısının diğerine girdi olduğu fonksiyon, f(g(x))."
+    },
+    {
+     "term": "Ters fonksiyon",
+     "meaning": "Fonksiyonun eşlemesini geri alan fonksiyon."
+    },
+    {
+     "term": "Bire birlik",
+     "meaning": "Her çıktının yalnızca bir girdiden gelmesi."
+    },
+    {
+     "term": "Örtenlik",
+     "meaning": "Değer kümesindeki her elemanın bir görüntü olması."
+    },
+    {
+     "term": "Teklik-çiftlik",
+     "meaning": "f(−x) = −f(x) (tek) veya f(−x) = f(x) (çift) olma özelliği."
+    },
+    {
+     "term": "Birim fonksiyon",
+     "meaning": "Her elemanı kendisine eşleyen I(x) = x fonksiyonu."
+    }
+   ],
+   "example": {
+    "question": "f(x) = 2x − 1 ve g(x) = x² + 3 veriliyor. (f ∘ g)(2) ve (g ∘ f)(2) değerlerini bulunuz.",
+    "solution": "1) (f ∘ g)(2) = f(g(2)). g(2) = 4 + 3 = 7. f(7) = 14 − 1 = 13.\n2) (g ∘ f)(2) = g(f(2)). f(2) = 4 − 1 = 3. g(3) = 9 + 3 = 12.\n3) Sonuçlar farklıdır: 13 ≠ 12. Bileşkede sıra önemlidir."
+   },
+   "remember": [
+    "f ∘ g'de önce g, sonra f uygulanır.",
+    "Bileşke işlemi genelde değişmeli değildir.",
+    "f(f⁻¹(x)) = x ile ters fonksiyonu kontrol et.",
+    "Bölme işleminde paydayı sıfır yapan değerler tanım kümesinden çıkar."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 1,
+   "intro": "Bu temada belirli bir kurala göre sıralanmış sayı listeleri olan dizileri, özellikle aritmetik ve geometrik dizileri öğreniyoruz. Düzenli birikim, taksitli ödemeler ve nüfus büyümesi gibi durumlar dizilerle modellenir.",
+   "sections": [
+    {
+     "title": "Dizi ve genel terim",
+     "text": "Tanım kümesi pozitif tam sayılar olan fonksiyonlara dizi denir. Dizinin her elemanına terim denir ve n'inci terim aₙ ile gösterilir. Dizinin herhangi bir terimini veren kurala genel terim denir; örneğin aₙ = 2n + 1 dizisi 3, 5, 7, 9, ... şeklindedir. Diziler, gerçek sayılarda tanımlı fonksiyonlara benzer; ancak grafikleri sürekli bir çizgi değil, ayrık noktalardır. Her terim bir öncekinden büyükse dizi monoton artan, küçükse monoton azalandır. Bunu anlamak için aₙ₊₁ − aₙ farkının işaretine bakılır.",
+     "points": [
+      "aₙ₊₁ − aₙ > 0 → monoton artan",
+      "aₙ₊₁ − aₙ < 0 → monoton azalan",
+      "Dizi grafiği ayrık noktalardan oluşur."
+     ]
+    },
+    {
+     "title": "Aritmetik dizi",
+     "text": "Ardışık iki terimi arasındaki farkı sabit olan diziye aritmetik dizi, bu sabit farka ortak fark (d) denir. 4, 7, 10, 13, ... dizisinde d = 3'tür. Genel terim aₙ = a₁ + (n − 1)d formülüyle bulunur. Aritmetik dizide her terim, kendisine eşit uzaklıktaki iki terimin aritmetik ortalamasıdır. İlk n terimin toplamı Sₙ = n(a₁ + aₙ)/2'dir. Aritmetik dizinin terimleri, eğimi d olan doğrusal bir fonksiyonun pozitif tam sayılardaki değerleri gibidir. d > 0 ise dizi artan, d < 0 ise azalandır.",
+     "points": [
+      "aₙ = a₁ + (n − 1)d",
+      "Sₙ = n(a₁ + aₙ)/2",
+      "Aritmetik dizi ↔ doğrusal fonksiyon"
+     ]
+    },
+    {
+     "title": "Geometrik dizi",
+     "text": "Ardışık iki terimin oranı sabit olan diziye geometrik dizi, bu sabit orana ortak oran ya da çarpan (r) denir. 3, 6, 12, 24, ... dizisinde r = 2'dir. Genel terim aₙ = a₁ × rⁿ⁻¹ formülüyle bulunur. Geometrik dizide her terim, kendisine eşit uzaklıktaki iki terimin geometrik ortalamasıdır; yani b² = a × c olur. İlk n terimin toplamı r ≠ 1 için Sₙ = a₁(rⁿ − 1)/(r − 1)'dir. Geometrik dizi, üstel fonksiyonun tam sayılardaki değerlerine benzer. Faiz, bakteri çoğalması ve değer kaybı gibi sabit oranlı değişimler geometrik dizilerle modellenir.",
+     "points": [
+      "aₙ = a₁ × rⁿ⁻¹",
+      "Sₙ = a₁(rⁿ − 1)/(r − 1), r ≠ 1",
+      "Geometrik dizi ↔ üstel fonksiyon"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Dizi",
+     "meaning": "Tanım kümesi pozitif tam sayılar olan fonksiyon."
+    },
+    {
+     "term": "Terim",
+     "meaning": "Dizinin her bir elemanı."
+    },
+    {
+     "term": "Genel terim",
+     "meaning": "Dizinin n'inci terimini veren kural, aₙ."
+    },
+    {
+     "term": "Aritmetik dizi",
+     "meaning": "Ardışık terimleri arasındaki farkı sabit olan dizi."
+    },
+    {
+     "term": "Ortak fark",
+     "meaning": "Aritmetik dizide ardışık terimlerin sabit farkı, d."
+    },
+    {
+     "term": "Geometrik dizi",
+     "meaning": "Ardışık terimlerinin oranı sabit olan dizi."
+    },
+    {
+     "term": "Ortak oran (çarpan)",
+     "meaning": "Geometrik dizide ardışık terimlerin sabit oranı, r."
+    },
+    {
+     "term": "Monoton artan",
+     "meaning": "Her terimi bir öncekinden büyük olan dizi."
+    }
+   ],
+   "example": {
+    "question": "Bir öğrenci ilk hafta 20 TL biriktiriyor ve her hafta bir önceki haftadan 5 TL fazla biriktiriyor. 10. hafta kaç TL biriktirir, 10 haftada toplam ne kadar birikir?",
+    "solution": "1) Fark sabit olduğundan aritmetik dizidir: a₁ = 20, d = 5.\n2) a₁₀ = 20 + 9 × 5 = 65 TL.\n3) S₁₀ = 10 × (20 + 65) / 2 = 10 × 85 / 2 = 425 TL."
+   },
+   "remember": [
+    "Dizi, pozitif tam sayılarda tanımlı bir fonksiyondur.",
+    "Aritmetik dizide fark, geometrik dizide oran sabittir.",
+    "Aritmetik dizi doğrusal, geometrik dizi üstel fonksiyona benzer.",
+    "Formül kullanmadan önce dizinin türünü belirle."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 2,
+   "intro": "Bu temada doğrusal ve karesel fonksiyonların genellemesi olan polinom fonksiyonları ve polinomların bölümüyle oluşan rasyonel fonksiyonları inceliyoruz. Polinomlar, fizikteki hareket denklemlerinden ekonomideki maliyet modellerine kadar geniş bir alanda kullanılır.",
+   "sections": [
+    {
+     "title": "Polinom fonksiyonlar",
+     "text": "P(x) = aₙxⁿ + aₙ₋₁xⁿ⁻¹ + ... + a₁x + a₀ biçimindeki fonksiyonlara polinom fonksiyon denir. Burada n bir doğal sayıdır ve aₙ ≠ 0 ise polinomun derecesi n'dir. En büyük dereceli terimin katsayısı aₙ başkatsayıdır; a₀ ise sabit terimdir ve P(0)'a eşittir. Doğrusal fonksiyonlar birinci, karesel fonksiyonlar ikinci dereceden polinomlardır. Katsayılar toplamı P(1)'e eşittir. Polinomlarda toplama, çıkarma ve çarpma yapılabilir; sonuç yine polinomdur. Bölme işleminde P(x) = Q(x) × B(x) + K(x) bağıntısı vardır ve kalanın derecesi bölenin derecesinden küçüktür.",
+     "points": [
+      "Sabit terim = P(0)",
+      "Katsayılar toplamı = P(1)",
+      "P(x)'in (x − a) ile bölümünden kalan P(a)'dır."
+     ]
+    },
+    {
+     "title": "Kökler ve grafiğin davranışı",
+     "text": "P(a) = 0 ise a, polinomun bir köküdür ve (x − a) polinomun bir çarpanıdır. n'inci dereceden bir polinomun en fazla n gerçek kökü vardır. Bir kök çift katlıysa grafik x eksenine o noktada teğet olur ve işaret değiştirmez; tek katlıysa grafik ekseni keser ve işaret değiştirir. Polinomun uç davranışı, yani x çok büyürken veya çok küçülürken ne yaptığı, derece ve başkatsayıya bağlıdır. Çift dereceli ve başkatsayısı pozitif polinomun iki ucu da yukarı gider. Tek dereceli ve başkatsayısı pozitif polinom solda aşağıdan gelir, sağda yukarı çıkar.",
+     "points": [
+      "Tek katlı kök: grafik ekseni keser.",
+      "Çift katlı kök: grafik eksene teğettir.",
+      "Uç davranış: derece ve başkatsayıya bak."
+     ]
+    },
+    {
+     "title": "Rasyonel fonksiyonlar, denklem ve eşitsizlikler",
+     "text": "İki polinomun bölümü olan f(x) = P(x)/Q(x) biçimindeki fonksiyonlara rasyonel fonksiyon denir; Q(x) = 0 yapan değerlerde fonksiyon tanımsızdır. Polinom ve rasyonel eşitsizlikleri çözmek için işaret tablosu kullanılır. Önce pay ve paydanın kökleri bulunur ve sayı doğrusuna sıralanır. Sonra en sağdaki aralıkta işaret başkatsayılara göre belirlenir; tek katlı köklerde işaret değişir, çift katlı köklerde değişmez. Paydanın kökleri hiçbir zaman çözüm kümesine dahil edilmez. Son olarak eşitsizliğin istediği işaretteki aralıklar çözüm kümesi olarak yazılır.",
+     "points": [
+      "Paydayı sıfır yapan değerler çözüme girmez.",
+      "Eşitsizlikte iki tarafı bilinmeyen içeren ifadeyle çarpma; işaret tablosu kullan."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Polinom fonksiyon",
+     "meaning": "Değişkenin doğal sayı kuvvetlerinin katsayılarla toplamından oluşan fonksiyon."
+    },
+    {
+     "term": "Derece",
+     "meaning": "Polinomdaki en büyük kuvvet."
+    },
+    {
+     "term": "Başkatsayı",
+     "meaning": "En büyük dereceli terimin katsayısı."
+    },
+    {
+     "term": "Sabit terim",
+     "meaning": "Değişken içermeyen terim, P(0)."
+    },
+    {
+     "term": "Kök",
+     "meaning": "Polinomu sıfır yapan değer."
+    },
+    {
+     "term": "Rasyonel fonksiyon",
+     "meaning": "İki polinomun bölümü olarak yazılan fonksiyon."
+    },
+    {
+     "term": "Fonksiyonun işareti",
+     "meaning": "Fonksiyonun hangi aralıklarda pozitif, hangilerinde negatif olduğu."
+    }
+   ],
+   "example": {
+    "question": "(x − 1)(x + 2) / (x − 3) ≤ 0 eşitsizliğinin çözüm kümesini bulunuz.",
+    "solution": "1) Kökler: pay için x = 1 ve x = −2; payda için x = 3.\n2) Sayı doğrusuna sırala: −2, 1, 3.\n3) x > 3 için tüm çarpanlar pozitif, ifade pozitiftir. Her tek katlı kökte işaret değişir: (1, 3) negatif, (−2, 1) pozitif, (−∞, −2) negatif.\n4) ≤ 0 istendiği için negatif aralıklar ve payın kökleri alınır; 3 tanımsız olduğu için alınmaz.\n5) Çözüm: (−∞, −2] ∪ [1, 3)."
+   },
+   "remember": [
+    "n'inci dereceden polinomun en fazla n gerçek kökü vardır.",
+    "P(a) = 0 ise (x − a) bir çarpandır.",
+    "Çift katlı kökte işaret değişmez.",
+    "Paydanın kökü asla çözüm kümesine girmez."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 3,
+   "intro": "Bu temada çemberin elemanlarını, çemberde açıları, kiriş ve teğet özelliklerini ve dairenin alanını öğreniyoruz. Tekerlekten saat kadranına kadar çember, günlük hayatta en çok karşılaştığımız şekillerden biridir.",
+   "sections": [
+    {
+     "title": "Çemberin elemanları",
+     "text": "Düzlemde sabit bir noktaya eşit uzaklıktaki noktaların kümesine çember denir. Sabit nokta merkez, bu uzaklık yarıçaptır (r). Çember üzerindeki iki noktayı birleştiren doğru parçası kiriştir; merkezden geçen en uzun kiriş çaptır ve uzunluğu 2r'dir. Çemberi iki noktada kesen doğruya kesen, yalnızca bir noktada değen doğruya teğet denir. Teğet, değme noktasındaki yarıçapa diktir. Çember üzerindeki iki nokta arasında kalan çember parçası yaydır. Merkezden bir kirişe çizilen dikme kirişi ve gördüğü yayı iki eşit parçaya böler. Çemberin iç bölgesiyle birlikte oluşturduğu düzlem parçasına daire denir.",
+     "points": [
+      "Çap = 2r, en uzun kiriştir.",
+      "Teğet ⊥ değme noktasındaki yarıçap",
+      "Dış noktadan çizilen iki teğet parçası eşittir."
+     ]
+    },
+    {
+     "title": "Çemberde açılar",
+     "text": "Köşesi merkezde olan açıya merkez açı denir; ölçüsü gördüğü yayın ölçüsüne eşittir. Köşesi çember üzerinde, kenarları kiriş olan açıya çevre açı denir; ölçüsü gördüğü yayın ölçüsünün yarısıdır. Bu yüzden aynı yayı gören çevre açılar eşittir ve çapı gören çevre açı 90°'dir. Teğet-kiriş açısının ölçüsü de gördüğü yayın yarısıdır. Köşesi çemberin içinde olan açı, gördüğü iki yayın toplamının yarısıdır. Köşesi çemberin dışında olan açı ise gördüğü büyük ve küçük yayların farkının yarısıdır.",
+     "points": [
+      "Merkez açı = gördüğü yay",
+      "Çevre açı = gördüğü yay / 2",
+      "Çapı gören çevre açı 90°",
+      "Dış açı = (büyük yay − küçük yay) / 2"
+     ]
+    },
+    {
+     "title": "Kirişler ve teğetler dörtgeni",
+     "text": "Dört köşesi de aynı çember üzerinde olan dörtgene kirişler dörtgeni denir. Kirişler dörtgeninde karşılıklı açıların toplamı 180°'dir. Bunun nedeni, karşılıklı iki açının gördüğü yayların toplamının 360° olmasıdır. Dört kenarı da aynı çembere teğet olan dörtgene teğetler dörtgeni denir. Teğetler dörtgeninde karşılıklı kenar uzunluklarının toplamları eşittir: a + c = b + d. Bu özellik, bir dış noktadan çembere çizilen iki teğet parçasının eşit olmasından gelir. Kare ve dikdörtgen kirişler dörtgenidir; kare ve eşkenar dörtgen ise teğetler dörtgenidir.",
+     "points": [
+      "Kirişler dörtgeni: karşılıklı açılar toplamı 180°",
+      "Teğetler dörtgeni: a + c = b + d"
+     ]
+    },
+    {
+     "title": "Çevre, yay uzunluğu ve daire alanı",
+     "text": "Çemberin çevresi Ç = 2πr, dairenin alanı A = πr² formülüyle hesaplanır. π, çevrenin çapa oranıdır ve yaklaşık 3,14'tür. Merkez açısı α derece olan yayın uzunluğu, tam çevrenin α/360'ı kadardır: L = 2πr × α/360. Benzer şekilde, iki yarıçap ve aralarındaki yaydan oluşan daire diliminin alanı A = πr² × α/360 olur. Daire halkasının alanı, büyük dairenin alanından küçük dairenin alanı çıkarılarak bulunur. Problemlerde birimlere ve π'nin yaklaşık mı yoksa sembol olarak mı bırakılacağına dikkat edilmelidir.",
+     "points": [
+      "Ç = 2πr",
+      "A = πr²",
+      "Yay uzunluğu = 2πr × α/360",
+      "Dilim alanı = πr² × α/360"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Çember",
+     "meaning": "Bir noktaya eşit uzaklıktaki noktaların kümesi."
+    },
+    {
+     "term": "Kiriş",
+     "meaning": "Çember üzerindeki iki noktayı birleştiren doğru parçası."
+    },
+    {
+     "term": "Teğet",
+     "meaning": "Çembere tek noktada değen doğru."
+    },
+    {
+     "term": "Merkez açı",
+     "meaning": "Köşesi çemberin merkezinde olan açı."
+    },
+    {
+     "term": "Çevre açı",
+     "meaning": "Köşesi çember üzerinde, kenarları kiriş olan açı."
+    },
+    {
+     "term": "Yay",
+     "meaning": "Çember üzerindeki iki nokta arasında kalan parça."
+    },
+    {
+     "term": "Daire dilimi",
+     "meaning": "İki yarıçap ve aralarındaki yaydan oluşan bölge."
+    },
+    {
+     "term": "Kirişler dörtgeni",
+     "meaning": "Köşeleri aynı çember üzerinde olan dörtgen."
+    }
+   ],
+   "example": {
+    "question": "Yarıçapı 6 cm olan bir dairede merkez açısı 60° olan daire diliminin alanını ve yay uzunluğunu bulunuz.",
+    "solution": "1) Dilim, dairenin 60/360 = 1/6'sıdır.\n2) Daire alanı: π × 6² = 36π cm². Dilim alanı: 36π / 6 = 6π cm².\n3) Çevre: 2π × 6 = 12π cm. Yay uzunluğu: 12π / 6 = 2π cm."
+   },
+   "remember": [
+    "Teğet, değme noktasındaki yarıçapa diktir.",
+    "Çevre açı, aynı yayı gören merkez açının yarısıdır.",
+    "Çapı gören çevre açı 90°'dir.",
+    "Kirişler dörtgeninde karşılıklı açılar toplamı 180°'dir."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 4,
+   "intro": "Bu temada prizma, silindir, piramit, koni ve küre gibi geometrik cisimleri; elemanları, yüzey alanları ve hacimleriyle inceliyoruz. Bir depoya ne kadar su sığacağını ya da bir kutuyu kaplamak için ne kadar malzeme gerektiğini bu bilgilerle hesaplarız.",
+   "sections": [
+    {
+     "title": "Dik prizma ve dik dairesel silindir",
+     "text": "Dik prizma, birbirine paralel ve eş iki taban ile tabanlara dik yan yüzlerden oluşur. Yüzlerin kesiştiği doğru parçalarına ayrıt denir. Prizmanın hacmi taban alanı ile yüksekliğin çarpımıdır: V = A(taban) × h. Yüzey alanı, iki taban alanı ile yan yüzlerin alanları toplamıdır. Dikdörtgenler prizmasında bir yüzün köşegeni yüzey köşegeni, karşıt köşeleri birleştiren köşegen ise cisim köşegenidir: √(a² + b² + c²). Dik dairesel silindir, tabanı daire olan prizmaya benzer: hacmi V = πr²h, yanal alanı 2πrh, toplam yüzey alanı 2πr² + 2πrh'dir.",
+     "points": [
+      "Prizma hacmi: taban alanı × yükseklik",
+      "Cisim köşegeni: √(a² + b² + c²)",
+      "Silindir: V = πr²h, yanal alan = 2πrh"
+     ]
+    },
+    {
+     "title": "Dik piramit ve dik dairesel koni",
+     "text": "Piramit, bir çokgen taban ile tepe noktasında birleşen üçgen yan yüzlerden oluşur. Dik piramitte tepe noktasından tabana inen dikme tabanın merkezine düşer; bu dikmenin uzunluğu cisim yüksekliğidir. Yan yüzlerin yüksekliğine yan yüz yüksekliği denir. Koni ise dairesel taban ve tepe noktasından oluşur; tepe noktasını taban çemberine birleştiren doğru parçalarına ana doğru (l) denir ve l² = r² + h² olur. Aynı taban ve yükseklikteki prizmanın içini piramitle üç kez doldurabiliriz; bu yüzden piramit ve koninin hacmi, prizma ve silindirin üçte biridir.",
+     "points": [
+      "Piramit: V = (1/3) × taban alanı × h",
+      "Koni: V = (1/3)πr²h",
+      "Koni yanal alanı: πrl"
+     ]
+    },
+    {
+     "title": "Küre",
+     "text": "Uzayda sabit bir noktaya eşit uzaklıktaki noktaların kümesine küre denir; sabit nokta merkez, bu uzaklık yarıçaptır. Kürenin yüzey alanı A = 4πr², hacmi V = (4/3)πr³ formülüyle bulunur. Kürenin yüzey alanı, aynı yarıçaplı dairenin alanının tam 4 katıdır. Ayrıca bir küre, kendisini tam içine alan silindirin hacminin üçte ikisi kadar yer kaplar. Bu ilişkiyi ilk kez Antik Yunan matematikçisi Arşimet göstermiştir. Kürenin bir düzlemle kesişimi bir dairedir; düzlem merkezden geçerse oluşan daireye büyük daire denir.",
+     "points": [
+      "A = 4πr²",
+      "V = (4/3)πr³",
+      "Yarıçap 2 katına çıkarsa hacim 8 katına çıkar."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Ayrıt",
+     "meaning": "Cismin iki yüzünün kesiştiği doğru parçası."
+    },
+    {
+     "term": "Dik prizma",
+     "meaning": "Eş ve paralel iki tabanı, tabanlara dik yan yüzleri olan cisim."
+    },
+    {
+     "term": "Dik dairesel silindir",
+     "meaning": "Tabanları eş ve paralel daireler olan dik cisim."
+    },
+    {
+     "term": "Dik piramit",
+     "meaning": "Tepe noktasının dik izdüşümü taban merkezine düşen piramit."
+    },
+    {
+     "term": "Ana doğru",
+     "meaning": "Koninin tepe noktasını taban çemberine birleştiren doğru parçası."
+    },
+    {
+     "term": "Küre",
+     "meaning": "Bir merkeze eşit uzaklıktaki uzay noktalarının kümesi."
+    },
+    {
+     "term": "Hacim",
+     "meaning": "Bir cismin uzayda kapladığı yer miktarı."
+    },
+    {
+     "term": "Cisim köşegeni",
+     "meaning": "Cismin aynı yüzde olmayan iki köşesini birleştiren doğru parçası."
+    }
+   ],
+   "example": {
+    "question": "Taban yarıçapı 3 cm, yüksekliği 4 cm olan dik dairesel koninin ana doğrusunu ve hacmini bulunuz.",
+    "solution": "1) Ana doğru: l² = r² + h² = 9 + 16 = 25, l = 5 cm.\n2) Hacim: V = (1/3) × π × 3² × 4 = (1/3) × 36π = 12π cm³.\n3) π ≈ 3,14 alınırsa V ≈ 37,68 cm³."
+   },
+   "remember": [
+    "Prizma ve silindir hacmi: taban alanı × yükseklik.",
+    "Piramit ve koni hacmi bunun üçte biridir.",
+    "Küre: A = 4πr², V = (4/3)πr³.",
+    "Hacim birimi küp (cm³), alan birimi kare (cm²)."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 5,
+   "intro": "Bu temada bir fonksiyonun bir noktaya ya da sonsuza yaklaşırken nasıl davrandığını anlatan limit kavramını ve sürekliliği öğreniyoruz. Limit, türev ve integral gibi ileri matematik konularının temelidir.",
+   "sections": [
+    {
+     "title": "Limit kavramı",
+     "text": "x değeri bir a sayısına yaklaştıkça f(x) değerleri bir L sayısına yaklaşıyorsa, f'nin a noktasındaki limiti L'dir denir: lim(x→a) f(x) = L. Limit, fonksiyonun o noktadaki değeriyle ilgilenmez; fonksiyon a'da tanımsız bile olabilir. Önemli olan a'nın çevresindeki davranıştır. x'in a'ya soldan (a'dan küçük değerlerle) yaklaşmasıyla bulunan değere soldan limit, sağdan yaklaşmasıyla bulunana sağdan limit denir. Bir noktada limitin var olması için sağdan ve soldan limitlerin var ve birbirine eşit olması gerekir. Parçalı fonksiyonlarda kırılma noktalarında bu kontrol özellikle önemlidir.",
+     "points": [
+      "Limit var ⇔ sağdan limit = soldan limit",
+      "Limit, fonksiyonun o noktadaki değerinden bağımsızdır."
+     ]
+    },
+    {
+     "title": "Limit hesaplama ve belirsizlik",
+     "text": "Polinom gibi düzgün fonksiyonlarda limit, x yerine a yazılarak bulunur. Ancak bu yerine koyma 0/0 gibi bir ifade verirse belirsizlik vardır; bu, limitin olmadığı anlamına gelmez. Belirsizliği gidermek için ifade çarpanlarına ayrılıp sadeleştirilir ya da eşlenikle çarpılır. Örneğin (x² − 4)/(x − 2) ifadesi x = 2'de tanımsızdır; ama sadeleştirince x + 2 olur ve limit 4 bulunur. Payda sıfıra giderken pay sıfırdan farklı bir sayıya gidiyorsa fonksiyon sonsuza ıraksar ve x = a doğrusu düşey asimptot olur.",
+     "points": [
+      "0/0 belirsizliği: çarpanlara ayır, sadeleştir.",
+      "Sayı/0 durumu: fonksiyon sonsuza gider, düşey asimptot vardır."
+     ]
+    },
+    {
+     "title": "Sonsuzda limit ve asimptotlar",
+     "text": "x sınırsız büyürken (x → ∞) veya sınırsız küçülürken (x → −∞) fonksiyonun yaklaştığı değere sonsuzdaki limit denir. Örneğin 1/x ifadesi x → ∞ iken 0'a yaklaşır. Fonksiyon x → ±∞ iken bir L değerine yaklaşıyorsa y = L doğrusu yatay asimptottur. Rasyonel fonksiyonlarda sonsuzdaki limit, pay ve paydanın derecelerine bakarak bulunur: dereceler eşitse limit başkatsayıların oranıdır; paydanın derecesi büyükse limit 0'dır; payın derecesi büyükse fonksiyon sonsuza gider. Asimptotlar, fonksiyonun grafiğini çizerken uçlardaki davranışı gösterir.",
+     "points": [
+      "Dereceler eşit: limit = başkatsayılar oranı",
+      "Payda derecesi büyük: limit 0",
+      "Yatay asimptot: y = L"
+     ]
+    },
+    {
+     "title": "Süreklilik",
+     "text": "Bir f fonksiyonunun x = a noktasında sürekli olması için üç koşul gerekir: f(a) tanımlı olmalı, lim(x→a) f(x) var olmalı ve bu limit f(a)'ya eşit olmalıdır. Sezgisel olarak, grafiği o noktada kalemi kaldırmadan çizebiliyorsak fonksiyon süreklidir. Polinom fonksiyonlar her yerde süreklidir. Rasyonel fonksiyonlar paydayı sıfır yapmayan her noktada süreklidir. Grafikte boşluk, sıçrama ya da düşey asimptot bulunan noktalarda süreklilik bozulur. Parçalı fonksiyonlarda geçiş noktalarında üç koşul tek tek kontrol edilmelidir.",
+     "points": [
+      "Süreklilik: f(a) tanımlı, limit var, limit = f(a)",
+      "Polinomlar her yerde süreklidir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Limit",
+     "meaning": "x bir değere yaklaşırken f(x)'in yaklaştığı değer."
+    },
+    {
+     "term": "Soldan limit",
+     "meaning": "x'in a'ya küçük değerlerle yaklaşmasıyla bulunan limit."
+    },
+    {
+     "term": "Sağdan limit",
+     "meaning": "x'in a'ya büyük değerlerle yaklaşmasıyla bulunan limit."
+    },
+    {
+     "term": "Belirsizlik",
+     "meaning": "Yerine koymada 0/0 gibi sonucu belirli olmayan ifade çıkması."
+    },
+    {
+     "term": "Süreklilik",
+     "meaning": "Fonksiyonun bir noktadaki limitinin o noktadaki değerine eşit olması."
+    },
+    {
+     "term": "Düşey asimptot",
+     "meaning": "Fonksiyonun sonsuza gittiği x = a doğrusu."
+    },
+    {
+     "term": "Yatay asimptot",
+     "meaning": "x → ±∞ iken fonksiyonun yaklaştığı y = L doğrusu."
+    },
+    {
+     "term": "Tanımsızlık",
+     "meaning": "Fonksiyonun bir noktada değerinin olmaması."
+    }
+   ],
+   "example": {
+    "question": "lim(x→3) (x² − 9) / (x − 3) limitini bulunuz.",
+    "solution": "1) x yerine 3 yazılırsa (9 − 9)/(3 − 3) = 0/0 belirsizliği çıkar.\n2) Pay çarpanlarına ayrılır: x² − 9 = (x − 3)(x + 3).\n3) x ≠ 3 için sadeleştirme yapılır: (x − 3)(x + 3)/(x − 3) = x + 3.\n4) Limit: 3 + 3 = 6."
+   },
+   "remember": [
+    "Limit, noktanın kendisini değil çevresini inceler.",
+    "Sağdan ve soldan limit eşit değilse limit yoktur.",
+    "0/0 limit yok demek değildir; sadeleştir.",
+    "Sürekli olmak için limit, fonksiyon değerine eşit olmalıdır."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 6,
+   "intro": "Bu temada bir fonksiyonun bir noktadaki anlık değişim oranı olan türevi öğreniyoruz. Türev; hızı, büyüme oranını ve bir eğrinin herhangi bir noktadaki eğimini hesaplamamızı sağlar.",
+   "sections": [
+    {
+     "title": "Ortalama ve anlık değişim oranı",
+     "text": "Bir fonksiyonun [a, b] aralığındaki ortalama değişim oranı (f(b) − f(a))/(b − a)'dır. Bu, grafiğin (a, f(a)) ve (b, f(b)) noktalarından geçen kesen doğrusunun eğimidir. Örneğin bir aracın 2 saatte 160 km gitmesi, ortalama hızının 80 km/sa olduğunu gösterir. Ancak araç her an aynı hızla gitmemiş olabilir. b noktası a'ya giderek yaklaştırıldığında kesen doğrusu, a noktasındaki teğet doğrusuna yaklaşır. Bu limitin değerine anlık değişim oranı denir. Hız göstergesindeki değer, anlık değişim oranına bir örnektir.",
+     "points": [
+      "Ortalama değişim oranı = kesen eğimi",
+      "Anlık değişim oranı = teğet eğimi"
+     ]
+    },
+    {
+     "title": "Türevin tanımı",
+     "text": "f fonksiyonunun x = a noktasındaki türevi f'(a) = lim(h→0) (f(a + h) − f(a))/h limitiyle tanımlanır. Bu limit varsa f, a noktasında türevlenebilirdir ve f'(a), grafiğin bu noktadaki teğet doğrusunun eğimidir. Teğet doğrusunun denklemi y − f(a) = f'(a)(x − a) olur. Limitin h > 0 için hesaplanan değerine sağdan türev, h < 0 için hesaplanan değerine soldan türev denir. Türevin var olması için bu ikisi eşit olmalıdır. Türev alma işlemine diferansiyel hesap da denir ve d/dx operatörüyle gösterilir.",
+     "points": [
+      "f'(a) = lim(h→0) (f(a + h) − f(a))/h",
+      "f'(a) = teğetin eğimi",
+      "Teğet denklemi: y − f(a) = f'(a)(x − a)"
+     ]
+    },
+    {
+     "title": "Türevin olmadığı noktalar",
+     "text": "Bir fonksiyonun bir noktada türevli olması için o noktada sürekli olması gerekir. Ancak süreklilik türev için yeterli değildir. Örneğin f(x) = |x| fonksiyonu x = 0'da süreklidir; fakat soldan türev −1, sağdan türev 1 olduğundan türevi yoktur. Grafikte sivri uç (köşe) bulunan noktalarda türev yoktur. Ayrıca fonksiyonun süreksiz olduğu noktalarda ve teğetin düşey olduğu noktalarda da türev tanımlı değildir. Grafiği düzgün ve kesintisiz bir eğri olan fonksiyonlar her noktada türevlidir.",
+     "points": [
+      "Türevli ⇒ sürekli; sürekli ⇏ türevli",
+      "Köşe, süreksizlik ve düşey teğet noktalarında türev yoktur."
+     ]
+    },
+    {
+     "title": "Türev alma kuralları",
+     "text": "Türevin limit tanımından pratik kurallar elde edilir. Sabit fonksiyonun türevi 0'dır. (xⁿ)' = n xⁿ⁻¹ kuvvet kuralıdır. Sabitle çarpılmış fonksiyonun türevi (c f)' = c f' olur. Toplam ve farkın türevi türevlerin toplamı ve farkıdır. Çarpımın türevi (f g)' = f' g + f g'; bölümün türevi (f/g)' = (f' g − f g')/g²'dir. Bileşke fonksiyonun türevi zincir kuralıyla bulunur: (f(g(x)))' = f'(g(x)) × g'(x). Örneğin (3x² + 1)⁴ ifadesinin türevi 4(3x² + 1)³ × 6x'tir.",
+     "points": [
+      "(xⁿ)' = n xⁿ⁻¹",
+      "(f g)' = f'g + fg'",
+      "(f/g)' = (f'g − fg')/g²",
+      "Zincir kuralı: f'(g(x)) × g'(x)"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Ortalama değişim oranı",
+     "meaning": "Bir aralıkta fonksiyon değişiminin x değişimine oranı."
+    },
+    {
+     "term": "Anlık değişim oranı",
+     "meaning": "Aralık sıfıra yaklaşırken ortalama değişim oranının limiti."
+    },
+    {
+     "term": "Türev",
+     "meaning": "Bir noktadaki anlık değişim oranı; teğetin eğimi."
+    },
+    {
+     "term": "Kesen doğrusu",
+     "meaning": "Grafiği iki noktada kesen doğru."
+    },
+    {
+     "term": "Teğet doğrusu",
+     "meaning": "Grafiğe bir noktada değen ve o noktadaki eğimi gösteren doğru."
+    },
+    {
+     "term": "Sağdan türev",
+     "meaning": "h sağdan sıfıra yaklaşırken bulunan türev limiti."
+    },
+    {
+     "term": "Soldan türev",
+     "meaning": "h soldan sıfıra yaklaşırken bulunan türev limiti."
+    },
+    {
+     "term": "Türev alma operatörü",
+     "meaning": "Fonksiyonun türevini almayı gösteren d/dx simgesi."
+    }
+   ],
+   "example": {
+    "question": "f(x) = x³ − 2x fonksiyonunun x = 1 noktasındaki teğet doğrusunun denklemini bulunuz.",
+    "solution": "1) Türev: f'(x) = 3x² − 2.\n2) Eğim: f'(1) = 3 − 2 = 1.\n3) Değme noktası: f(1) = 1 − 2 = −1, nokta (1, −1).\n4) Teğet denklemi: y − (−1) = 1 × (x − 1), yani y = x − 2."
+   },
+   "remember": [
+    "Türev, anlık değişim oranıdır.",
+    "Türev, teğet doğrusunun eğimini verir.",
+    "Türevli her fonksiyon süreklidir, tersi her zaman doğru değildir.",
+    "Bileşke fonksiyonda zincir kuralını unutma."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 7,
+   "intro": "Bu temada türevi kullanarak bir fonksiyonun nerede arttığını, nerede azaldığını ve en büyük ya da en küçük değerlerini bulmayı öğreniyoruz. En az malzemeyle en büyük hacmi elde etmek gibi optimizasyon problemleri türevle çözülür.",
+   "sections": [
+    {
+     "title": "Türev ve artanlık-azalanlık",
+     "text": "Türev, fonksiyonun değişim yönünü gösterir. Bir aralıkta f'(x) > 0 ise teğetlerin eğimi pozitiftir ve fonksiyon artandır. f'(x) < 0 ise fonksiyon azalandır. f'(x) = 0 olan noktalarda teğet yataydır; bu noktalara kritik noktalar denir. Bir fonksiyonun artan ve azalan olduğu aralıkları bulmak için önce türevi alınır, türevin kökleri bulunur ve türevin işaret tablosu yapılır. Böylece fonksiyonun grafiği çizilmeden bile genel davranışı anlaşılabilir. Türev fonksiyonunun grafiği ile fonksiyonun grafiği arasında bu şekilde sıkı bir ilişki vardır.",
+     "points": [
+      "f' > 0 → f artan",
+      "f' < 0 → f azalan",
+      "f' = 0 → yatay teğet (kritik nokta)"
+     ]
+    },
+    {
+     "title": "Yerel ve mutlak ekstremumlar",
+     "text": "Bir noktanın çevresindeki en büyük değere yerel maksimum, en küçük değere yerel minimum denir; ikisine birden yerel ekstremum denir. Türevlenebilir bir fonksiyonda türev bir noktada pozitiften negatife geçiyorsa orada yerel maksimum, negatiften pozitife geçiyorsa yerel minimum vardır. Türev sıfır olup işaret değiştirmiyorsa ekstremum yoktur; örneğin x³ fonksiyonunda x = 0. Kapalı bir [a, b] aralığında sürekli fonksiyonun mutlak maksimum ve minimum değerleri, kritik noktalardaki ve uç noktalardaki değerler karşılaştırılarak bulunur.",
+     "points": [
+      "+ → − : yerel maksimum",
+      "− → + : yerel minimum",
+      "Mutlak ekstremum için uç noktaları da kontrol et."
+     ]
+    },
+    {
+     "title": "Gerçek yaşam problemleri",
+     "text": "Türev, en iyi sonucu arayan optimizasyon problemlerinde kullanılır. Önce en büyük ya da en küçük yapılmak istenen nicelik belirlenir ve bir değişkene bağlı fonksiyon olarak yazılır. Verilen koşullar kullanılarak fonksiyon tek değişkene indirgenir ve değişkenin anlamlı olduğu aralık belirlenir. Sonra türev alınıp sıfıra eşitlenir, kritik noktalar bulunur ve bu noktaların maksimum mu minimum mu olduğu kontrol edilir. Ayrıca konum fonksiyonunun türevi hızı, hız fonksiyonunun türevi ivmeyi verir. Maliyet fonksiyonunun türevi ise üretimdeki anlık maliyet değişimini gösterir.",
+     "points": [
+      "Adımlar: fonksiyon kur → türev al → sıfıra eşitle → kontrol et",
+      "Konumun türevi hız, hızın türevi ivmedir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Artanlık",
+     "meaning": "x büyüdükçe fonksiyon değerinin büyümesi; f' > 0."
+    },
+    {
+     "term": "Azalanlık",
+     "meaning": "x büyüdükçe fonksiyon değerinin küçülmesi; f' < 0."
+    },
+    {
+     "term": "Yerel ekstremum nokta",
+     "meaning": "Çevresine göre en büyük ya da en küçük değerin alındığı nokta."
+    },
+    {
+     "term": "Mutlak maksimum-minimum değer",
+     "meaning": "Fonksiyonun tüm tanım aralığındaki en büyük ve en küçük değeri."
+    },
+    {
+     "term": "Teğet doğrusu",
+     "meaning": "Eğimi türeve eşit olan, grafiğe değen doğru."
+    },
+    {
+     "term": "Polinom fonksiyon",
+     "meaning": "Türevi kolayca alınabilen, her yerde türevli fonksiyon."
+    },
+    {
+     "term": "Ekstremum değer",
+     "meaning": "Fonksiyonun maksimum ya da minimum değeri."
+    }
+   ],
+   "example": {
+    "question": "Çevresi 40 m olan dikdörtgen biçimli bir bahçenin alanı en fazla kaç m² olabilir?",
+    "solution": "1) Kenarlar x ve y olsun: 2x + 2y = 40, y = 20 − x.\n2) Alan: A(x) = x(20 − x) = 20x − x², 0 < x < 20.\n3) A'(x) = 20 − 2x = 0 ise x = 10.\n4) x < 10 için A' > 0, x > 10 için A' < 0; x = 10'da maksimum vardır.\n5) y = 10, alan = 100 m². En büyük alan kare biçiminde elde edilir."
+   },
+   "remember": [
+    "f' > 0 ise artan, f' < 0 ise azalan.",
+    "Türev sıfır olan her nokta ekstremum değildir; işaret değişimine bak.",
+    "Kapalı aralıkta uç noktaları da kontrol et.",
+    "Optimizasyonda önce fonksiyonu doğru kur."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 8,
+   "intro": "Bu temada başkalarının topladığı hazır verilerle (resmî istatistikler, araştırma sonuçları, açık veri setleri) çalışarak toplumsal ve bilimsel sorulara cevap aramayı öğreniyoruz. Bu beceri, bilgiye dayalı karar veren bilinçli bir vatandaş olmanın temelidir.",
+   "sections": [
+    {
+     "title": "Hazır veri ve araştırma tasarımları",
+     "text": "Hazır veri (ikincil veri), başka kişi ya da kurumların daha önce topladığı ve paylaştığı veridir. Resmî istatistik kurumlarının yayımladığı nüfus, eğitim ve ekonomi verileri buna örnektir. Hazır veriyle çalışmadan önce verinin hangi araştırma tasarımıyla toplandığı bilinmelidir. Gözlemsel çalışmalarda araştırmacı duruma müdahale etmeden veri toplar; anket ve sayımlar böyledir. Deneysel çalışmalarda ise araştırmacı katılımcıları rastgele gruplara ayırır ve bir gruba uygulama yapar. Neden-sonuç ilişkisi ancak iyi tasarlanmış deneysel çalışmalarla güçlü biçimde desteklenebilir.",
+     "points": [
+      "Gözlemsel çalışma: müdahale yok",
+      "Deneysel çalışma: rastgele atama ve uygulama var",
+      "Nedensellik için deneysel tasarım gerekir."
+     ]
+    },
+    {
+     "title": "Veriyi değerlendirme",
+     "text": "Hazır veri kullanılırken bazı sorular sorulmalıdır: Veriyi kim, ne zaman ve hangi amaçla topladı? Örneklem ne kadar büyük ve evreni temsil ediyor mu? Değişkenler nasıl tanımlandı ve ölçüldü? Eksik ya da hatalı veri var mı? Güvenilir kaynaklar yöntemlerini açıkça paylaşır. Veri seti düzenlenirken eksik değerler, birim farklılıkları ve aykırı değerler kontrol edilmelidir. Farklı yıllara ya da bölgelere ait veriler karşılaştırılırken aynı tanımların kullanılıp kullanılmadığına dikkat edilmelidir.",
+     "points": [
+      "Kaynağı ve toplama yöntemini kontrol et.",
+      "Örneklemin temsil gücünü sorgula.",
+      "Eksik ve aykırı değerleri belirle."
+     ]
+    },
+    {
+     "title": "Analiz, karar ve iletişim",
+     "text": "Araştırma sorusuna göre uygun analiz seçilir: tek değişken için merkezi eğilim ve yayılım ölçüleri, iki kategorik değişken için iki yönlü tablolar, iki nicel değişken için serpme diyagramı ve korelasyon kullanılır. Sonuçlar uygun grafiklerle gösterilir; grafiğin eksenleri ve ölçeği yanıltıcı olmamalıdır. Karar verirken verinin sınırlılıkları da açıkça belirtilmelidir. İyi bir istatistiksel rapor; soruyu, veri kaynağını, kullanılan yöntemi, bulguları ve sonuçların neyi kanıtlayıp neyi kanıtlamadığını içerir. Bu yaklaşım, medyadaki yanıltıcı iddiaları fark etmemizi sağlar.",
+     "points": [
+      "Analiz yöntemi, değişkenin türüne göre seçilir.",
+      "Sınırlılıkları raporda belirt.",
+      "Grafik ölçeği yanıltıcı olmamalı."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Hazır veri",
+     "meaning": "Başkaları tarafından toplanmış ve paylaşılmış veri (ikincil veri)."
+    },
+    {
+     "term": "İstatistiksel araştırma tasarımları",
+     "meaning": "Verinin nasıl toplanacağını belirleyen plan: gözlemsel ya da deneysel."
+    },
+    {
+     "term": "Gözlemsel çalışma",
+     "meaning": "Araştırmacının müdahale etmeden veri topladığı çalışma."
+    },
+    {
+     "term": "Deneysel çalışma",
+     "meaning": "Katılımcıların rastgele gruplara ayrılıp uygulama yapıldığı çalışma."
+    },
+    {
+     "term": "Temsil edici örneklem",
+     "meaning": "Evrenin özelliklerini doğru yansıtan örneklem."
+    },
+    {
+     "term": "Aykırı değer",
+     "meaning": "Diğer verilerden belirgin biçimde uzak olan değer."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Hazır veride önce kaynağı ve yöntemi sorgula.",
+    "Gözlemsel çalışmalar nedensellik kanıtlamaz.",
+    "Analiz yöntemini değişken türüne göre seç.",
+    "Sonuçlarla birlikte sınırlılıkları da yaz."
+   ]
+  }
+ ]
+}

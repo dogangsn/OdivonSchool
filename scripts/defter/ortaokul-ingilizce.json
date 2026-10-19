@@ -1,0 +1,2200 @@
+{
+ "file": "ortaokul-ingilizce",
+ "notes": [
+  {
+   "grade": 5,
+   "order": 1,
+   "intro": "Bu temada okuldaki insanları, yerleri ve kuralları İngilizce anlatmayı öğreniyoruz. Ayrıca okul kulüplerini, ülkeleri ve millî bayramları konuşacağız. Kendimizi tanıtmak ve okulumuzu anlatmak İngilizce iletişimin ilk adımıdır.",
+   "sections": [
+    {
+     "title": "Kendini Tanıtma ve Ülkeler",
+     "text": "Yeni biriyle tanışırken önce selamlaşır, adımızı ve nereden geldiğimizi söyleriz. Hello! / Hi! diyerek selam veririz. Adımızı söylemek için My name is Ali. ya da I'm Ali. kalıbını kullanırız. Birinin nereli olduğunu sormak için Where are you from? sorusunu sorarız; cevap olarak I'm from Türkiye. deriz. Milliyet için I'm Turkish. deriz. Ülke ve milliyet kelimeleri her zaman büyük harfle başlar: Germany - German, Japan - Japanese, England - English.",
+     "points": [
+      "What's your name? — My name is Elif.",
+      "Where are you from? — I'm from Türkiye.",
+      "Nice to meet you! — Nice to meet you, too."
+     ]
+    },
+    {
+     "title": "Okuldaki Yerler ve İnsanlar",
+     "text": "Okulumuzda birçok yer ve görevli vardır. Yerler: classroom (sınıf), library (kütüphane), canteen (kantin), gym (spor salonu), playground (oyun bahçesi), science lab (fen laboratuvarı), teachers' room (öğretmenler odası). İnsanlar: teacher (öğretmen), principal (okul müdürü), school nurse (okul hemşiresi), librarian (kütüphaneci). Bir yeri tarif ederken There is / There are kalıbını kullanırız: There is a library in my school. There are twenty classrooms. Bir yerin nerede olduğunu next to (yanında), opposite (karşısında), between (arasında) ile anlatırız.",
+     "points": []
+    },
+    {
+     "title": "Okul Kuralları, Kulüpler ve Bayramlar",
+     "text": "Okul kurallarını anlatırken emir cümleleri ve must / mustn't kullanırız. Be quiet in the library. (Kütüphanede sessiz ol.) Don't run in the corridors. (Koridorlarda koşma.) We must wear our uniforms. Okul kulüplerimizi anlatmak için I'm in the drama club. ya da I like the chess club. deriz. Millî bayramlarımızı da İngilizce anlatabiliriz: Republic Day (Cumhuriyet Bayramı) is on 29th October. Children's Day (23 Nisan Ulusal Egemenlik ve Çocuk Bayramı) is on 23rd April.",
+     "points": [
+      "Be on time. / Don't eat in the classroom.",
+      "We celebrate Republic Day on 29th October.",
+      "Which club are you in? — I'm in the science club."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "school rules",
+     "meaning": "okul kuralları"
+    },
+    {
+     "term": "principal",
+     "meaning": "okul müdürü"
+    },
+    {
+     "term": "library",
+     "meaning": "kütüphane"
+    },
+    {
+     "term": "school club",
+     "meaning": "okul kulübü"
+    },
+    {
+     "term": "country / nationality",
+     "meaning": "ülke / milliyet"
+    },
+    {
+     "term": "national day",
+     "meaning": "millî bayram"
+    },
+    {
+     "term": "celebration",
+     "meaning": "kutlama"
+    }
+   ],
+   "example": {
+    "question": "Boşlukları doldur: 1) Where ___ you from? 2) There ___ a big library in our school. 3) ___ run in the corridors!",
+    "solution": "1. Where are you from? — you ile are kullanılır.\n2. There is a big library in our school. — tekil isim (a library) için there is kullanılır.\n3. Don't run in the corridors! — yasak bildiren emir cümlesi Don't ile başlar."
+   },
+   "remember": [
+    "Ülke ve milliyet kelimeleri büyük harfle yazılır: Türkiye, Turkish.",
+    "Tekil için there is, çoğul için there are kullan.",
+    "Yasak bildirmek için Don't + fiil kullan.",
+    "Kendini tanıtırken: I'm ... I'm from ..."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 2,
+   "intro": "Bu temada sınıfta kullanılan eşyaları, sınıf kurallarını, ders adlarını, günleri ve saatleri İngilizce öğreniyoruz. Böylece ders programımızı İngilizce okuyup anlatabileceğiz.",
+   "sections": [
+    {
+     "title": "Sınıf Eşyaları ve Sınıf Dili",
+     "text": "Sınıfta sık kullandığımız eşyalar: pencil (kurşun kalem), eraser (silgi), ruler (cetvel), notebook (defter), board (tahta), desk (sıra), schoolbag (okul çantası). Bir şeyi sormak için What's this? — It's a ruler. deriz. Sınıf dili, ders sırasında öğretmen ve öğrencilerin kullandığı kalıplardır: Open your books. (Kitaplarınızı açın.) Close the door, please. Can I go out? (Dışarı çıkabilir miyim?) Can you repeat, please? (Tekrar eder misiniz?) How do you say silgi in English? Bu kalıplar derste kendimizi rahatça ifade etmemizi sağlar.",
+     "points": [
+      "Can I borrow your pencil? — Sure, here you are.",
+      "Sorry, I'm late. May I come in?",
+      "I don't understand."
+     ]
+    },
+    {
+     "title": "Dersler ve Ders Programı",
+     "text": "Ders adları: Turkish, Maths, Science, English, Social Studies, Art, Music, Physical Education (P.E.), Information Technologies. Hafta günleri büyük harfle yazılır: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday. Ders programımızı anlatırken We have Maths on Monday. deriz. Gün adlarından önce on edatı kullanılır. Hangi dersi sevdiğimizi söylemek için What's your favourite lesson? — My favourite lesson is Science. kalıbını kullanırız. Nedenini de ekleyebiliriz: because it's fun.",
+     "points": []
+    },
+    {
+     "title": "Saatler",
+     "text": "Saati sormak için What time is it? sorusunu kullanırız. Tam saatlerde o'clock deriz: It's three o'clock. (Saat üç.) Buçuklarda half past kullanılır: It's half past nine. (Saat dokuz buçuk.) Çeyrek geçe için quarter past, çeyrek kala için quarter to deriz: It's quarter past two. (İkiyi çeyrek geçiyor.) It's quarter to five. (Beşe çeyrek var.) Bir dersin saatini söylerken saatten önce at kullanılır: The English lesson starts at ten o'clock.",
+     "points": [
+      "Günlerle on: on Friday",
+      "Saatlerle at: at 9 o'clock",
+      "half past = buçuk, quarter = çeyrek"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "timetable",
+     "meaning": "ders programı"
+    },
+    {
+     "term": "school subjects",
+     "meaning": "dersler"
+    },
+    {
+     "term": "classroom objects",
+     "meaning": "sınıf eşyaları"
+    },
+    {
+     "term": "classroom rules",
+     "meaning": "sınıf kuralları"
+    },
+    {
+     "term": "days of the week",
+     "meaning": "haftanın günleri"
+    },
+    {
+     "term": "What time is it?",
+     "meaning": "Saat kaç?"
+    },
+    {
+     "term": "favourite",
+     "meaning": "en sevilen"
+    }
+   ],
+   "example": {
+    "question": "Saat 07.30 ve 11.15'i İngilizce yaz. Ayrıca şu cümledeki boşluğu doldur: We have Art ___ Thursday.",
+    "solution": "1. 07.30: It's half past seven.\n2. 11.15: It's quarter past eleven.\n3. We have Art on Thursday. — gün adlarından önce on gelir."
+   },
+   "remember": [
+    "Günler büyük harfle yazılır ve önlerine on gelir.",
+    "Saatlerden önce at kullanılır.",
+    "Kibar istek için please ekle.",
+    "What's your favourite lesson? — My favourite lesson is ..."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 3,
+   "intro": "Bu temada vücudumuzun bölümlerini, dış görünüşümüzü, kıyafetlerimizi ve günlük rutinlerimizi İngilizce anlatmayı öğreniyoruz. Kendimizi ve arkadaşlarımızı tarif edebileceğiz.",
+   "sections": [
+    {
+     "title": "Vücudun Bölümleri ve Fiziksel Özellikler",
+     "text": "Temel vücut bölümleri: head (baş), hair (saç), eye (göz), ear (kulak), nose (burun), mouth (ağız), arm (kol), hand (el), leg (bacak), foot (ayak). Birini tarif ederken have got / has got kalıbını kullanırız: I have got brown eyes. She has got long, curly hair. Boy ve kilo için be fiilini kullanırız: He is tall. She is short. Saç tipi: straight (düz), curly (kıvırcık), wavy (dalgalı). Renk sıfatı isimden önce gelir: blue eyes, black hair.",
+     "points": [
+      "I / You / We / They have got",
+      "He / She / It has got",
+      "What does she look like? — She is tall and she has got blond hair."
+     ]
+    },
+    {
+     "title": "Kıyafetler",
+     "text": "Sık kullanılan kıyafet adları: T-shirt, shirt (gömlek), skirt (etek), dress (elbise), trousers (pantolon), jeans, jacket (ceket), coat (palto), sweater (kazak), shoes (ayakkabı), boots (bot), hat (şapka), scarf (atkı). Şu an üzerimizde olanı anlatırken I'm wearing a red T-shirt. deriz. Hava durumuna göre giyinmeyi şöyle anlatırız: It's cold. I wear a coat and boots. It's hot. I wear shorts and a T-shirt. Trousers, jeans ve shorts her zaman çoğul kullanılır.",
+     "points": []
+    },
+    {
+     "title": "Günlük Rutinler",
+     "text": "Her gün düzenli yaptığımız işler günlük rutinlerimizdir. Bunları Simple Present Tense (geniş zaman) ile anlatırız: I get up at seven. I have breakfast. I brush my teeth. I go to school. I do my homework. I go to bed at ten. Üçüncü tekil şahıslarda (he, she, it) fiile -s takısı eklenir: She gets up at seven. He goes to school by bus. Zaman sırasını göstermek için first, then, after that, finally kelimelerini kullanırız.",
+     "points": [
+      "What time do you get up? — I get up at 7 o'clock.",
+      "go → goes, watch → watches, have → has"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "body parts",
+     "meaning": "vücudun bölümleri"
+    },
+    {
+     "term": "physical features",
+     "meaning": "fiziksel özellikler"
+    },
+    {
+     "term": "clothes",
+     "meaning": "kıyafetler"
+    },
+    {
+     "term": "daily routines",
+     "meaning": "günlük rutinler"
+    },
+    {
+     "term": "get up",
+     "meaning": "kalkmak (yataktan)"
+    },
+    {
+     "term": "curly hair",
+     "meaning": "kıvırcık saç"
+    },
+    {
+     "term": "tall / short",
+     "meaning": "uzun boylu / kısa boylu"
+    }
+   ],
+   "example": {
+    "question": "Cümleleri tamamla: 1) My brother ___ got green eyes. 2) Ayşe ___ (brush) her teeth every morning. 3) I ___ (wear) a jacket now.",
+    "solution": "1. My brother has got green eyes. — he için has got kullanılır.\n2. Ayşe brushes her teeth every morning. — she için fiile -es eklenir (sh ile biten fiil).\n3. I am wearing a jacket now. — şu an olanı anlatmak için am wearing."
+   },
+   "remember": [
+    "He / She / It için has got, diğerleri için have got.",
+    "Geniş zamanda he / she / it için fiile -s eklenir.",
+    "Sıfat isimden önce gelir: long hair.",
+    "Rutinleri sıralarken first, then, after that kullan."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 4,
+   "intro": "Bu temada aile üyelerimizi, onların günlük rutinlerini, hobilerini ve birlikte yaptığımız etkinlikleri İngilizce anlatmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Aile Üyeleri",
+     "text": "Aile üyeleri: mother (anne), father (baba), sister (kız kardeş), brother (erkek kardeş), grandmother (büyükanne), grandfather (büyükbaba), aunt (teyze, hala, yenge), uncle (amca, dayı, enişte), cousin (kuzen). Birinin kim olduğunu sormak için Who is he? — He is my uncle. deriz. Sahiplik bildirmek için 's kullanılır: This is my father's car. (Bu babamın arabası.) Kaç kardeşimiz olduğunu söylerken I have got one brother and two sisters. deriz. İngilizcede teyze ve hala için aynı kelime (aunt) kullanılır.",
+     "points": [
+      "Who is she? — She is my cousin.",
+      "my mother's name = annemin adı"
+     ]
+    },
+    {
+     "title": "Aile Üyelerinin Rutinleri",
+     "text": "Aile üyelerimizin her gün yaptıklarını anlatırken geniş zaman kullanırız. He, she ve it ile fiile -s eklenir: My father goes to work at eight. My mother cooks dinner. My grandmother waters the flowers. Ne sıklıkla yapıldığını belirtmek için sıklık zarflarını kullanırız: always (her zaman), usually (genellikle), often (sık sık), sometimes (bazen), never (asla). Sıklık zarfı fiilden önce gelir: My brother always gets up early. Olumsuz cümlede doesn't kullanılır: She doesn't drink coffee.",
+     "points": []
+    },
+    {
+     "title": "Hobiler ve Etkinlikler",
+     "text": "Hobilerimizi anlatmak için like / love / enjoy + fiil-ing kalıbını kullanırız: I like reading books. My sister loves dancing. My father enjoys fishing. Sevmediğimiz şeyler için don't like ya da hate deriz: I don't like playing computer games. Aile olarak yaptığımız etkinlikleri şöyle anlatırız: We have a picnic at the weekend. We visit our grandparents on Sundays. Birine hobisini sormak için What are your hobbies? ya da What do you like doing? sorularını kullanırız.",
+     "points": [
+      "What does your mother like doing? — She likes gardening.",
+      "Does he play chess? — Yes, he does. / No, he doesn't."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "family members",
+     "meaning": "aile üyeleri"
+    },
+    {
+     "term": "hobby",
+     "meaning": "hobi, uğraş"
+    },
+    {
+     "term": "routine",
+     "meaning": "rutin, her gün yapılan iş"
+    },
+    {
+     "term": "activity",
+     "meaning": "etkinlik"
+    },
+    {
+     "term": "always / sometimes / never",
+     "meaning": "her zaman / bazen / asla"
+    },
+    {
+     "term": "grandparents",
+     "meaning": "büyükanne ve büyükbaba"
+    }
+   ],
+   "example": {
+    "question": "Doğru seçeneği bul: 1) My sister (like / likes) painting. 2) My father (doesn't / don't) watch TV in the morning. 3) We (usually go / go usually) to the park.",
+    "solution": "1. likes — my sister (she) üçüncü tekil şahıstır, fiile -s eklenir.\n2. doesn't — he / she / it olumsuzunda doesn't kullanılır.\n3. usually go — sıklık zarfı fiilden önce gelir."
+   },
+   "remember": [
+    "He / She / It ile fiile -s, olumsuzda doesn't.",
+    "Sıklık zarfları fiilden önce gelir.",
+    "like / love / enjoy + fiil-ing: I like swimming.",
+    "Sahiplik için 's: my brother's bike."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 5,
+   "intro": "Bu temada mahallemizdeki ve şehrimizdeki eğlence ve gezi yerlerini, farklı ev türlerini İngilizce öğreniyoruz. Ayrıca yol tarif etmeyi ve bir yerin nerede olduğunu söylemeyi öğreneceğiz.",
+   "sections": [
+    {
+     "title": "Mahalle ve Şehirdeki Yerler",
+     "text": "Mahallemizdeki ve şehrimizdeki yerler: park, cinema (sinema), museum (müze), zoo (hayvanat bahçesi), shopping mall (alışveriş merkezi), bakery (fırın), hospital (hastane), bank, post office (postane), mosque (cami), stadium (stadyum), aquarium (akvaryum). Bir yerde ne olduğunu anlatırken There is / There are kullanırız: There is a big park in my neighbourhood. There are two cinemas in the city. Eğlenmek için gittiğimiz yerlere places for recreation, gezip görülecek yerlere attractions denir.",
+     "points": [
+      "Is there a museum near here? — Yes, there is. / No, there isn't.",
+      "Are there any parks? — Yes, there are."
+     ]
+    },
+    {
+     "title": "Yer Bildirme ve Yol Tarifi",
+     "text": "Bir yerin konumunu anlatmak için edatlar kullanırız: next to (yanında), opposite (karşısında), between (arasında), behind (arkasında), in front of (önünde), near (yakınında). Örnek: The bakery is next to the bank. Yol tarif ederken emir cümleleri kullanırız: Go straight ahead. (Dümdüz git.) Turn left. (Sola dön.) Turn right. (Sağa dön.) Take the second street on the right. It's on your left. Yol sormak için Excuse me, how can I get to the museum? ya da Where is the post office? deriz.",
+     "points": []
+    },
+    {
+     "title": "Ev Türleri",
+     "text": "Farklı ev türleri: flat / apartment (apartman dairesi), detached house (müstakil ev), cottage (kır evi), villa, farmhouse (çiftlik evi), tree house (ağaç ev). Evimizi anlatırken odaların adlarını kullanırız: living room (oturma odası), bedroom (yatak odası), kitchen (mutfak), bathroom (banyo), garden (bahçe), balcony (balkon). Örnek: I live in a flat. It has got three bedrooms and a balcony. Karşılaştırma için şöyle deriz: My grandparents live in a farmhouse in the village.",
+     "points": [
+      "Where do you live? — I live in a flat in the city centre.",
+      "How many rooms are there? — There are four rooms."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "neighbourhood",
+     "meaning": "mahalle"
+    },
+    {
+     "term": "city",
+     "meaning": "şehir"
+    },
+    {
+     "term": "places for recreation",
+     "meaning": "eğlence ve dinlenme yerleri"
+    },
+    {
+     "term": "attractions",
+     "meaning": "gezilecek ilgi çekici yerler"
+    },
+    {
+     "term": "different types of houses",
+     "meaning": "farklı ev türleri"
+    },
+    {
+     "term": "next to / opposite / between",
+     "meaning": "yanında / karşısında / arasında"
+    },
+    {
+     "term": "turn left / turn right",
+     "meaning": "sola dön / sağa dön"
+    }
+   ],
+   "example": {
+    "question": "Bir turist size soruyor: Excuse me, where is the museum? Müze düz gidince ikinci sokaktan sağda ve bankanın karşısında. İngilizce cevap verin.",
+    "solution": "1. Önce dümdüz gitmesini söyle: Go straight ahead.\n2. İkinci sokaktan sağa dönmesini söyle: Take the second street on the right.\n3. Yerini tarif et: The museum is opposite the bank.\nCevap: Go straight ahead and take the second street on the right. The museum is opposite the bank."
+   },
+   "remember": [
+    "Yol tarifinde emir cümleleri kullanılır: Turn left.",
+    "Soru: Is there ...? / Are there any ...?",
+    "between iki şeyin arasını anlatır: between the bank and the bakery.",
+    "Kibarca yol sormak için Excuse me ile başla."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 6,
+   "intro": "Bu temada temel yiyecek türlerini, restoranda sipariş vermeyi ve şehirdeki yemek etkinliklerini İngilizce öğreniyoruz. Böylece bir restoranda rahatça sipariş verebileceğiz.",
+   "sections": [
+    {
+     "title": "Yiyecek Türleri",
+     "text": "Temel yiyecek grupları: fruit (meyve), vegetables (sebzeler), meat (et), fish (balık), dairy products (süt ürünleri), grains (tahıllar). Örnek kelimeler: apple, banana, tomato, potato, chicken, cheese, milk, bread, rice, egg. Sayılabilen isimler tekil ve çoğul olabilir: an apple, two apples. Sayılamayan isimler çoğul olmaz: milk, water, bread, cheese. Bunlar için some kullanırız: some milk, some bread. Sevdiğimiz yiyecekleri I like pizza but I don't like fish. şeklinde anlatırız.",
+     "points": [
+      "a / an: sayılabilen tekil isimlerle (a banana, an egg)",
+      "some: olumlu cümlelerde (some cheese)",
+      "any: soru ve olumsuzlarda (Is there any milk?)"
+     ]
+    },
+    {
+     "title": "Restoranda Sipariş Verme",
+     "text": "Restoranda garson (waiter) bize Are you ready to order? ya da What would you like? diye sorar. Kibarca istekte bulunmak için I'd like ... kalıbını kullanırız: I'd like a tomato soup, please. Içecek için: Can I have a glass of orange juice, please? Fiyat sormak için How much is it? deriz. Hesabı istemek için Can I have the bill, please? deriz. Menüde starters (başlangıçlar), main courses (ana yemekler), desserts (tatlılar) ve drinks (içecekler) bölümleri bulunur.",
+     "points": []
+    },
+    {
+     "title": "Şehirdeki Yemek Etkinlikleri",
+     "text": "Birçok şehirde yöresel yemekleri tanıtan festivaller ve yemek etkinlikleri düzenlenir. Bu etkinlikleri İngilizce anlatabiliriz: There is a food festival in our city every year. People cook and taste traditional food. Ülkemizin farklı şehirlerinin meşhur yemeklerini de İngilizce anlatabiliriz: Gaziantep is famous for baklava. Adana is famous for kebab. Bir etkinliğe davet ederken Let's go to the food festival! ya da Would you like to come? deriz. Cevap: Sure, I'd love to. / Sorry, I can't.",
+     "points": [
+      "be famous for = ile ünlü olmak",
+      "traditional food = geleneksel yemek"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "food types",
+     "meaning": "yiyecek türleri"
+    },
+    {
+     "term": "order",
+     "meaning": "sipariş vermek"
+    },
+    {
+     "term": "restaurant / waiter",
+     "meaning": "restoran / garson"
+    },
+    {
+     "term": "menu",
+     "meaning": "menü, yemek listesi"
+    },
+    {
+     "term": "I'd like ...",
+     "meaning": "... istiyorum (kibar)"
+    },
+    {
+     "term": "the bill",
+     "meaning": "hesap"
+    },
+    {
+     "term": "food festival",
+     "meaning": "yemek festivali"
+    }
+   ],
+   "example": {
+    "question": "Restoranda geçen diyaloğu tamamla. Waiter: What would you like? You: ___ a chicken salad, please. Waiter: Anything to drink? You: Can I ___ some water, please?",
+    "solution": "1. I'd like a chicken salad, please. — kibar istek için I'd like.\n2. Can I have some water, please? — Can I have ...? kibar istek kalıbıdır; water sayılamadığı için some kullanılır."
+   },
+   "remember": [
+    "Kibar sipariş: I'd like ..., please.",
+    "Sayılamayan isimler (milk, water, bread) çoğul olmaz.",
+    "Hesabı istemek: Can I have the bill, please?",
+    "be famous for: bir şeyle ünlü olmak."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 7,
+   "intro": "Bu temada hayvanları ve doğayı İngilizce anlatmayı öğreniyoruz. Hayvanların nerede yaşadığını, neler yapabildiğini söyleyecek ve doğayı korumak için yapabileceklerimizi konuşacağız.",
+   "sections": [
+    {
+     "title": "Hayvanlar ve Yaşam Alanları",
+     "text": "Hayvan adları: cat, dog, bird (kuş), fish (balık), horse (at), cow (inek), sheep (koyun), lion (aslan), elephant (fil), monkey (maymun), bear (ayı), dolphin (yunus), turtle (kaplumbağa). Hayvanların yaşadığı yerler: farm (çiftlik), forest (orman), jungle (orman, tropikal), sea (deniz), desert (çöl), river (nehir). Örnek: Cows live on farms. Dolphins live in the sea. Lions live in Africa. Hayvanları sıfatlarla tarif ederiz: big, small, fast (hızlı), slow (yavaş), dangerous (tehlikeli), cute (sevimli).",
+     "points": [
+      "Where do bears live? — They live in forests.",
+      "An elephant is big. A turtle is slow."
+     ]
+    },
+    {
+     "title": "Hayvanların Yetenekleri: can / can't",
+     "text": "Bir canlının yapabildiği şeyleri anlatmak için can, yapamadıklarını anlatmak için can't (cannot) kullanırız. Can'den sonra fiil yalın hâliyle gelir ve tüm şahıslarda aynıdır. Örnek: Birds can fly. Fish can swim. Penguins can't fly. A horse can run fast. Soru sorarken can başa gelir: Can a monkey climb trees? — Yes, it can. Can a cat swim? — Yes, it can, but it doesn't like water. Kendi yeteneklerimizi de böyle anlatırız: I can ride a bike.",
+     "points": []
+    },
+    {
+     "title": "Doğayı Korumak",
+     "text": "Doğa (nature); ağaçları, nehirleri, dağları, denizleri ve tüm canlıları kapsar. Doğayı korumak için yapmamız ve yapmamamız gerekenleri emir cümleleriyle anlatırız: Don't throw litter. (Çöp atma.) Don't pick the flowers. (Çiçekleri koparma.) Plant trees. (Ağaç dik.) Save water. (Suyu tasarruflu kullan.) Feed the stray animals. (Sokak hayvanlarını besle.) Ayrıca must ile zorunluluk bildirebiliriz: We must protect animals. We mustn't hurt them.",
+     "points": [
+      "Recycle paper and plastic.",
+      "Be kind to animals."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "animals",
+     "meaning": "hayvanlar"
+    },
+    {
+     "term": "nature",
+     "meaning": "doğa"
+    },
+    {
+     "term": "can / can't",
+     "meaning": "-ebilir / -emez (yetenek)"
+    },
+    {
+     "term": "forest",
+     "meaning": "orman"
+    },
+    {
+     "term": "protect",
+     "meaning": "korumak"
+    },
+    {
+     "term": "wild animals",
+     "meaning": "vahşi hayvanlar"
+    }
+   ],
+   "example": {
+    "question": "can veya can't ile tamamla: 1) A fish ___ walk. 2) A kangaroo ___ jump high. 3) ___ an elephant swim? — Yes, it ___.",
+    "solution": "1. A fish can't walk. — balıklar yürüyemez.\n2. A kangaroo can jump high. — kangurular yükseğe zıplayabilir.\n3. Can an elephant swim? — Yes, it can. — filler yüzebilir; soru cümlesinde can başa gelir."
+   },
+   "remember": [
+    "can'den sonra fiil yalın gelir: She can swim.",
+    "can tüm şahıslarda aynıdır, -s almaz.",
+    "Soru: Can + özne + fiil?",
+    "Doğayı korumak için: Don't throw litter. Plant trees."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 8,
+   "intro": "Bu temada Dünya gezegenimizi, tatil yerlerini ve tatil planlarımızı İngilizce anlatmayı öğreniyoruz. Gelecekte yapacaklarımızı ifade etmeyi de öğreneceğiz.",
+   "sections": [
+    {
+     "title": "Dünya Gezegeni",
+     "text": "Planet Earth (Dünya gezegeni) yaşadığımız gezegendir. Dünya'yı anlatırken kullanacağımız kelimeler: continent (kıta), ocean (okyanus), mountain (dağ), river (nehir), lake (göl), island (ada), desert (çöl). Örnek cümleler: The Earth is round. There are seven continents on Earth. Most of the Earth is water. Türkiye is in both Asia and Europe. Dünya'nın Güneş'in etrafında döndüğünü şöyle anlatırız: The Earth goes around the Sun. Bu tür genel gerçekleri geniş zamanla anlatırız.",
+     "points": [
+      "continent: Asia, Europe, Africa ...",
+      "ocean: the Pacific Ocean, the Atlantic Ocean ..."
+     ]
+    },
+    {
+     "title": "Tatil Yerleri ve Etkinlikler",
+     "text": "Tatilde gidebileceğimiz yerler: beach (plaj), seaside (deniz kenarı), mountain (dağ), village (köy), campsite (kamp alanı), historical places (tarihî yerler). Tatil etkinlikleri: swim in the sea (denizde yüzmek), go camping (kampa gitmek), go hiking (doğa yürüyüşü yapmak), build sandcastles (kumdan kale yapmak), visit museums (müzeleri gezmek), take photos (fotoğraf çekmek), go skiing (kayak yapmak). Hava durumuna göre etkinlik seçeriz: It's sunny, so we can swim. It's snowy, so we can go skiing.",
+     "points": []
+    },
+    {
+     "title": "Tatil Planları: going to",
+     "text": "Önceden planladığımız gelecek etkinlikleri anlatmak için be going to + fiil kalıbını kullanırız. I am going to visit my grandparents. She is going to swim in the sea. We are going to stay in a hotel. Olumsuz: I'm not going to stay at home. Soru: Are you going to go camping? — Yes, I am. / No, I'm not. Where are you going to go this summer? sorusuna I'm going to go to Antalya. diye cevap veririz. Zaman ifadeleri: next week, this summer, tomorrow.",
+     "points": [
+      "I am going to ...",
+      "He / She is going to ...",
+      "We / You / They are going to ..."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Planet Earth",
+     "meaning": "Dünya gezegeni"
+    },
+    {
+     "term": "holiday",
+     "meaning": "tatil"
+    },
+    {
+     "term": "school holiday",
+     "meaning": "okul tatili"
+    },
+    {
+     "term": "plan",
+     "meaning": "plan, planlamak"
+    },
+    {
+     "term": "be going to",
+     "meaning": "-ecek / -acak (planlanmış gelecek)"
+    },
+    {
+     "term": "go camping",
+     "meaning": "kampa gitmek"
+    },
+    {
+     "term": "continent",
+     "meaning": "kıta"
+    }
+   ],
+   "example": {
+    "question": "Ece'nin yaz tatili planı: Bodrum'a gitmek, denizde yüzmek, müze gezmek. Bunu going to ile üç cümlede anlat.",
+    "solution": "1. Ece is going to go to Bodrum this summer.\n2. She is going to swim in the sea.\n3. She is going to visit a museum.\nAçıklama: Ece üçüncü tekil şahıs (she) olduğu için is going to kullanılır ve ardından fiil yalın gelir."
+   },
+   "remember": [
+    "Planlanmış gelecek için be going to + fiil kullan.",
+    "am / is / are özneye göre değişir.",
+    "Genel gerçekler geniş zamanla anlatılır: The Earth is round.",
+    "Zaman ifadeleri: next week, this summer, tomorrow."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 1,
+   "intro": "Bu temada okuldaki rollerimizi, sorumluluklarımızı ve okul rutinlerimizi İngilizce anlatmayı öğreniyoruz. Ayrıca millî bayramlarımızı ve okuldaki kutlamaları İngilizce ifade edeceğiz.",
+   "sections": [
+    {
+     "title": "Okuldaki Roller ve Sorumluluklar",
+     "text": "Okulda herkesin bir rolü vardır: class president (sınıf başkanı), student on duty (nöbetçi öğrenci), team captain (takım kaptanı), club member (kulüp üyesi). Sorumlulukları anlatmak için have to / has to kalıbını kullanırız. Bu kalıp yapılması gereken işleri anlatır: The student on duty has to clean the board. I have to bring my books every day. Gerekli olmayan bir şey için don't have to deriz: We don't have to wear a hat. Görevleri anlatırken responsible for (-den sorumlu) ifadesi de kullanılır: The class president is responsible for the class list.",
+     "points": [
+      "I / You / We / They have to ...",
+      "He / She has to ...",
+      "What do you have to do? — I have to water the plants."
+     ]
+    },
+    {
+     "title": "Okul Rutinleri",
+     "text": "Okulda her gün tekrarlanan işler okul rutinlerimizdir. Bunları geniş zamanla anlatırız: We sing the National Anthem on Monday mornings. The first lesson starts at 8.30. We have lunch in the canteen. We go home at 3 o'clock. Sıklık zarfları rutinleri anlatırken çok kullanışlıdır: We always line up before the lesson. We sometimes go on school trips. Bir rutini sormak için What time does school start? ya da How often do you have P.E.? sorularını kullanırız. Cevap: Twice a week. (Haftada iki kez.)",
+     "points": []
+    },
+    {
+     "title": "Millî Bayramlar ve Kutlamalar",
+     "text": "Okulda millî bayramlarımızı törenlerle kutlarız. National Sovereignty and Children's Day is on 23rd April. Commemoration of Atatürk, Youth and Sports Day is on 19th May. Victory Day is on 30th August. Republic Day is on 29th October. Kutlamaları anlatırken şu ifadeleri kullanırız: We decorate the school with flags. Students read poems. We perform folk dances. We sing songs. Tarihleri söylerken sıra sayıları kullanılır: on the twenty-ninth of October.",
+     "points": [
+      "When is Victory Day? — It's on 30th August.",
+      "How do you celebrate it? — We watch a ceremony."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "role",
+     "meaning": "rol, görev"
+    },
+    {
+     "term": "responsibility",
+     "meaning": "sorumluluk"
+    },
+    {
+     "term": "have to",
+     "meaning": "zorunda olmak"
+    },
+    {
+     "term": "student on duty",
+     "meaning": "nöbetçi öğrenci"
+    },
+    {
+     "term": "national day",
+     "meaning": "millî bayram"
+    },
+    {
+     "term": "celebrate",
+     "meaning": "kutlamak"
+    },
+    {
+     "term": "ceremony",
+     "meaning": "tören"
+    }
+   ],
+   "example": {
+    "question": "Doğru seçeneği yaz: 1) The team captain (have to / has to) help the players. 2) We (don't have to / doesn't have to) come to school on Sunday.",
+    "solution": "1. has to — the team captain üçüncü tekil şahıstır (he / she).\n2. don't have to — we ile don't kullanılır; pazar günü okula gelmek zorunda değiliz."
+   },
+   "remember": [
+    "Zorunluluk: have to / has to + fiil.",
+    "Gereklilik yoksa: don't have to / doesn't have to.",
+    "Tarihlerde sıra sayısı: 29th October.",
+    "Rutinler geniş zamanla anlatılır."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 2,
+   "intro": "Bu temada günlük ve ders çalışma rutinlerimizi, sınıftaki öğrenme etkinliklerini İngilizce anlatmayı öğreniyoruz. Ayrıca 100-500 arası sayıları ve 1-50 arası sıra sayılarını kullanacağız.",
+   "sections": [
+    {
+     "title": "Çalışma Rutinleri ve Öğrenme Etkinlikleri",
+     "text": "Ders çalışma alışkanlıklarımızı geniş zamanla anlatırız: I study for one hour every evening. I revise my notes before exams. I take notes in class. Sınıftaki öğrenme etkinlikleri: work in pairs (ikili çalışmak), work in groups (grup çalışması yapmak), do a project (proje yapmak), give a presentation (sunum yapmak), do experiments (deney yapmak), play games (oyun oynamak). Şu an sınıfta olanları anlatmak için şimdiki zaman (Present Continuous) kullanırız: We are working in groups now. The teacher is explaining the topic.",
+     "points": [
+      "Şimdiki zaman: am / is / are + fiil-ing",
+      "How do you study for exams? — I make mind maps."
+     ]
+    },
+    {
+     "title": "Sayılar: 100-500",
+     "text": "Yüzlü sayıları söylerken hundred kelimesini kullanırız ve yüzlerden sonra genellikle and gelir: 100 one hundred, 125 one hundred and twenty-five, 250 two hundred and fifty, 500 five hundred. Hundred kelimesi çoğul eki almaz: three hundred (three hundreds değil). Sayıları fiyat, sayfa numarası ve öğrenci sayısını anlatırken kullanırız: There are three hundred and forty students in our school. Open your books to page one hundred and twelve. Soru: How many students are there in your school?",
+     "points": []
+    },
+    {
+     "title": "Sıra Sayıları: 1-50",
+     "text": "Sıra sayıları bir şeyin kaçıncı olduğunu gösterir. İlk üçü düzensizdir: first (1st), second (2nd), third (3rd). Diğerlerinde sayıya -th eklenir: fourth (4th), fifth (5th), tenth (10th). Bazılarında yazım değişir: fifth, ninth, twelfth, twentieth. 21, 22, 23 gibi sayılar yine first, second, third ile biter: twenty-first (21st), thirty-second (32nd), forty-third (43rd). Sıra sayılarını tarihlerde, yarış sonuçlarında, katlarda ve sınıflarda kullanırız: I'm in the sixth grade. Our classroom is on the second floor.",
+     "points": [
+      "1st first, 2nd second, 3rd third",
+      "12th twelfth, 20th twentieth, 50th fiftieth"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "study routines",
+     "meaning": "ders çalışma rutinleri"
+    },
+    {
+     "term": "learning activities",
+     "meaning": "öğrenme etkinlikleri"
+    },
+    {
+     "term": "cardinal numbers",
+     "meaning": "sayma sayıları (one, two ...)"
+    },
+    {
+     "term": "ordinal numbers",
+     "meaning": "sıra sayıları (first, second ...)"
+    },
+    {
+     "term": "work in pairs",
+     "meaning": "ikili çalışmak"
+    },
+    {
+     "term": "give a presentation",
+     "meaning": "sunum yapmak"
+    },
+    {
+     "term": "take notes",
+     "meaning": "not almak"
+    }
+   ],
+   "example": {
+    "question": "İngilizce yaz: a) 345 b) 22. (sıra sayısı) c) Şu an sınıfta ikili çalışıyoruz.",
+    "solution": "a) three hundred and forty-five\nb) twenty-second (22nd) — 2 ile biten sıra sayıları second ile biter.\nc) We are working in pairs in the classroom now. — şu an olan iş için Present Continuous."
+   },
+   "remember": [
+    "hundred çoğul eki almaz: four hundred.",
+    "first, second, third düzensizdir.",
+    "21st, 22nd, 23rd: sondaki sayıya göre biter.",
+    "Şu an olanlar için am / is / are + fiil-ing."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 3,
+   "intro": "Bu temada fiziksel görünüşü, kıyafetleri, kişilik ve karakter özelliklerini İngilizce anlatmayı öğreniyoruz. Ayrıca insanları birbiriyle karşılaştırmayı öğreneceğiz.",
+   "sections": [
+    {
+     "title": "Fiziksel Görünüş",
+     "text": "Birinin görünüşünü sormak için What does he / she look like? deriz. Cevapta boy, yapı, saç ve göz özelliklerini kullanırız: He is tall and slim. She is short and plump. He has got short, dark hair and brown eyes. Sakal (beard) ve bıyık (moustache) için de has got kullanılır: My grandfather has got a grey beard. Yaş için: She is middle-aged / young / old. Kıyafetleri de ekleyebiliriz: She usually wears jeans and trainers.",
+     "points": [
+      "What does she look like? — She is tall and has got curly hair.",
+      "slim = ince, plump = tombul, middle-aged = orta yaşlı"
+     ]
+    },
+    {
+     "title": "Kişilik ve Karakter",
+     "text": "Görünüş dışında bir insanın nasıl biri olduğunu anlatmak için What is he / she like? sorusunu kullanırız. Kişilik sıfatları: friendly (arkadaş canlısı), kind (nazik), funny (komik), clever (zeki), hardworking (çalışkan), lazy (tembel), shy (utangaç), generous (cömert), honest (dürüst), selfish (bencil), talkative (konuşkan). Örnek: My best friend is very friendly and funny. She is always honest. Dikkat: What does she look like? görünüşü, What is she like? kişiliği sorar.",
+     "points": []
+    },
+    {
+     "title": "Karşılaştırma Yapma",
+     "text": "İki kişiyi veya şeyi karşılaştırırken sıfatların karşılaştırma hâlini (comparative) kullanırız. Kısa sıfatlara -er eklenir ve than kullanılır: tall → taller than, short → shorter than. Sessiz harfle biten bazı sıfatlarda son harf ikilenir: big → bigger. -y ile bitenlerde y → i olur: funny → funnier. Uzun sıfatlarda more kullanılır: more hardworking than, more generous than. Düzensiz olanlar: good → better, bad → worse. Örnek: Ali is taller than Can. My sister is more talkative than me.",
+     "points": [
+      "kısa sıfat + er + than",
+      "more + uzun sıfat + than",
+      "good → better, bad → worse"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "physical appearance",
+     "meaning": "fiziksel görünüş"
+    },
+    {
+     "term": "personality",
+     "meaning": "kişilik"
+    },
+    {
+     "term": "character",
+     "meaning": "karakter"
+    },
+    {
+     "term": "body parts",
+     "meaning": "vücudun bölümleri"
+    },
+    {
+     "term": "clothes",
+     "meaning": "kıyafetler"
+    },
+    {
+     "term": "friendly / shy",
+     "meaning": "arkadaş canlısı / utangaç"
+    },
+    {
+     "term": "than",
+     "meaning": "-den daha (karşılaştırmada)"
+    }
+   ],
+   "example": {
+    "question": "Karşılaştırma cümlesi kur: 1) Deniz 1.60 m, Zeynep 1.50 m (tall). 2) Emre her gün çalışır, Kaan çalışmaz (hardworking).",
+    "solution": "1. Deniz is taller than Zeynep. — tall kısa sıfattır, -er alır.\n2. Emre is more hardworking than Kaan. — hardworking uzun sıfattır, more ile kullanılır."
+   },
+   "remember": [
+    "Görünüş: What does he look like?",
+    "Kişilik: What is he like?",
+    "Kısa sıfatlar -er, uzun sıfatlar more alır.",
+    "Karşılaştırmada than kullanılır."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 4,
+   "intro": "Bu temada aile üyelerimizin mesleklerini, çalıştıkları yerleri ve iş rutinlerini İngilizce anlatmayı öğreniyoruz. Ayrıca farklı aile evleri ve konut türlerini konuşacağız.",
+   "sections": [
+    {
+     "title": "Meslekler ve Çalışma Yerleri",
+     "text": "Birinin mesleğini sormak için What does your father do? ya da What's his job? deriz. Meslekler: doctor (doktor), nurse (hemşire), teacher (öğretmen), engineer (mühendis), farmer (çiftçi), cook / chef (aşçı), pilot, police officer (polis), firefighter (itfaiyeci), vet (veteriner), shop assistant (tezgâhtar). Meslek söylerken a / an kullanılır: My mother is a nurse. My uncle is an engineer. Çalışma yerini anlatmak için work in / at kullanırız: She works in a hospital. He works at a school. A farmer works on a farm.",
+     "points": [
+      "Where does she work? — She works in a bank.",
+      "an + sesli harfle başlayan meslek: an architect"
+     ]
+    },
+    {
+     "title": "İş Rutinleri",
+     "text": "Bir mesleğin günlük işlerini geniş zamanla anlatırız ve üçüncü tekil şahısta fiile -s ekleriz: A doctor examines patients. A teacher teaches students. A chef cooks meals. A firefighter puts out fires. A vet looks after sick animals. Çalışma saatlerini de anlatabiliriz: My father starts work at 9 a.m. and finishes at 6 p.m. Some nurses work at night. Olumsuz ve soru cümlelerinde does / doesn't kullanılır: Does she work at weekends? — No, she doesn't.",
+     "points": []
+    },
+    {
+     "title": "Aile Evleri ve Konut Türleri",
+     "text": "Aileler farklı türde evlerde yaşar: flat / apartment (apartman dairesi), detached house (müstakil ev), terraced house (sıra ev), cottage (kır evi), farmhouse (çiftlik evi), villa. Evimizi tarif ederken there is / there are ile oda ve özellikleri anlatırız: There is a big garden. There are three bedrooms upstairs. Konum için on the ground floor (giriş katında), on the third floor (üçüncü katta) deriz. Ev eşyaları: sofa (kanepe), bed (yatak), wardrobe (gardırop), fridge (buzdolabı), carpet (halı).",
+     "points": [
+      "upstairs = üst katta, downstairs = alt katta",
+      "We live on the fourth floor."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "job",
+     "meaning": "meslek, iş"
+    },
+    {
+     "term": "working place",
+     "meaning": "çalışma yeri"
+    },
+    {
+     "term": "job routine",
+     "meaning": "iş rutini"
+    },
+    {
+     "term": "What does he do?",
+     "meaning": "Mesleği ne?"
+    },
+    {
+     "term": "family home",
+     "meaning": "aile evi"
+    },
+    {
+     "term": "detached house",
+     "meaning": "müstakil ev"
+    },
+    {
+     "term": "flat",
+     "meaning": "apartman dairesi"
+    }
+   ],
+   "example": {
+    "question": "Cümleleri tamamla: 1) My aunt is ___ architect. 2) A vet ___ (look) after animals. 3) ___ your father work in a factory? — Yes, he ___.",
+    "solution": "1. an — architect sesli harfle başlar.\n2. looks — a vet üçüncü tekil şahıstır, fiile -s eklenir.\n3. Does your father work in a factory? — Yes, he does."
+   },
+   "remember": [
+    "Meslek sorusu: What does he / she do?",
+    "Meslekten önce a / an kullan.",
+    "He / She için fiile -s ekle: She works.",
+    "Katlar sıra sayısıyla söylenir: on the second floor."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 5,
+   "intro": "Bu temada mahallemizde ve şehrimizde düzenlenen spor, müzik ve sanat etkinliklerini, festivalleri ve şehir içi ulaşımı İngilizce anlatmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Festivaller ve Etkinlikler",
+     "text": "Şehirlerde birçok etkinlik düzenlenir: music festival (müzik festivali), film festival, art exhibition (sanat sergisi), book fair (kitap fuarı), concert (konser), marathon (maraton), football match (futbol maçı), theatre play (tiyatro oyunu). Etkinlikleri anlatırken there is / there are ve zaman bildiren edatları kullanırız: There is a book fair in the city centre in October. The concert is on Saturday at 8 p.m. Birini davet ederken Would you like to come to the concert? deriz. Kabul: I'd love to! Ret: Sorry, I can't. I have to study.",
+     "points": [
+      "in + ay: in May",
+      "on + gün: on Saturday",
+      "at + saat: at 7 p.m."
+     ]
+    },
+    {
+     "title": "Şehir İçi Ulaşım",
+     "text": "Ulaşım araçları: bus (otobüs), metro / underground (metro), tram (tramvay), ferry (vapur), taxi, train (tren), bike (bisiklet), car. Bir yere nasıl gittiğimizi anlatırken by + araç kalıbını kullanırız: I go to school by bus. My father goes to work by car. Yürüyerek gitmek için on foot deriz: I walk to school. / I go to school on foot. Ulaşımı sormak için How do you get to school? sorusu kullanılır. Süre sormak için How long does it take? deriz: It takes twenty minutes.",
+     "points": []
+    },
+    {
+     "title": "Toplu Taşıma Kuralları ve Tercihler",
+     "text": "Toplu taşımada uyulması gereken kuralları should / shouldn't ile anlatırız: You should give your seat to elderly people. You shouldn't talk loudly on the bus. Ulaşım araçlarını karşılaştırabiliriz: The metro is faster than the bus. A bike is cheaper than a taxi. A ferry is more relaxing than a car. Tercih bildirmek için I prefer ... kalıbı kullanılır: I prefer the metro because it is fast. Bisiklet ve toplu taşıma kullanmak çevreyi korur: Using public transport is good for the environment.",
+     "points": [
+      "should = -meli / -malı (tavsiye)",
+      "public transport = toplu taşıma"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "festival",
+     "meaning": "festival, şenlik"
+    },
+    {
+     "term": "event",
+     "meaning": "etkinlik"
+    },
+    {
+     "term": "transportation",
+     "meaning": "ulaşım"
+    },
+    {
+     "term": "by bus / on foot",
+     "meaning": "otobüsle / yürüyerek"
+    },
+    {
+     "term": "How do you get to ...?",
+     "meaning": "... nasıl gidersin?"
+    },
+    {
+     "term": "public transport",
+     "meaning": "toplu taşıma"
+    },
+    {
+     "term": "Would you like to ...?",
+     "meaning": "... ister misin? (davet)"
+    }
+   ],
+   "example": {
+    "question": "Soruları cevapla: 1) How do you get to school? (otobüs, 15 dakika) 2) Arkadaşını cumartesi saat 5'teki konsere davet et.",
+    "solution": "1. I go to school by bus. It takes fifteen minutes. — araçla by kullanılır, süre için it takes.\n2. Would you like to come to the concert on Saturday at 5 p.m.? — gün için on, saat için at."
+   },
+   "remember": [
+    "Ulaşım: by bus, by car, on foot.",
+    "Süre: It takes ... minutes.",
+    "Davet: Would you like to ...? — I'd love to!",
+    "in + ay, on + gün, at + saat."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 6,
+   "intro": "Bu temada ülkeleri, milliyetleri ve dünyada konuşulan dilleri İngilizce öğreniyoruz. Ayrıca dünyanın farklı yerlerinden yemekleri ve yemek etkinliklerini tanıyacağız.",
+   "sections": [
+    {
+     "title": "Ülkeler, Milliyetler ve Diller",
+     "text": "Ülke, milliyet ve dil adları İngilizcede her zaman büyük harfle yazılır. Örnekler: Türkiye - Turkish - Turkish, Germany - German - German, France - French - French, Spain - Spanish - Spanish, Italy - Italian - Italian, Japan - Japanese - Japanese, China - Chinese - Chinese, Brazil - Brazilian - Portuguese, the USA - American - English. Soru kalıpları: Where is he from? — He is from Italy. What nationality is she? — She is Japanese. What language do they speak in Brazil? — They speak Portuguese.",
+     "points": [
+      "Ülke, milliyet ve dil adları büyük harfle başlar.",
+      "Bazı ülkelerde birden fazla dil konuşulur."
+     ]
+    },
+    {
+     "title": "Dünyadan Yemekler",
+     "text": "Her ülkenin ünlü yemekleri vardır. Italy is famous for pizza and pasta. Japan is famous for sushi. Mexico is famous for tacos. Türkiye is famous for kebab, baklava and Turkish delight. Yemeklerin tadını sıfatlarla anlatırız: sweet (tatlı), salty (tuzlu), spicy (acı, baharatlı), sour (ekşi), delicious (lezzetli). Bir yemeğin neyle yapıldığını şöyle anlatırız: Pizza is made with flour, tomato and cheese. Yemek tercihlerimizi de anlatabiliriz: I love spicy food, but my brother prefers sweet food.",
+     "points": []
+    },
+    {
+     "title": "Yemek Etkinlikleri",
+     "text": "Dünyanın farklı yerlerinde yemekle ilgili festivaller düzenlenir. Bu etkinliklerde insanlar yöresel yemekleri pişirir, tadar ve tanıtır. Örneğin şehrimizde bir dünya mutfağı festivali olduğunu şöyle anlatabiliriz: There is an international food festival in our city. You can taste food from different countries. Bir etkinliği anlatırken can ile yapılabilecekleri söyleriz: You can watch cooking shows. You can learn traditional recipes. Önerilerde bulunmak için Let's try Japanese food! ya da Why don't we go to the festival? deriz.",
+     "points": [
+      "taste = tatmak",
+      "recipe = yemek tarifi",
+      "international = uluslararası"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "country",
+     "meaning": "ülke"
+    },
+    {
+     "term": "nationality",
+     "meaning": "milliyet, uyruk"
+    },
+    {
+     "term": "language",
+     "meaning": "dil"
+    },
+    {
+     "term": "food types",
+     "meaning": "yiyecek türleri"
+    },
+    {
+     "term": "food event",
+     "meaning": "yemek etkinliği"
+    },
+    {
+     "term": "be famous for",
+     "meaning": "ile ünlü olmak"
+    },
+    {
+     "term": "spicy",
+     "meaning": "acı, baharatlı"
+    }
+   ],
+   "example": {
+    "question": "Tabloyu kullanarak cümle kur: Hiroshi - Japan - Japanese - sushi.",
+    "solution": "1. Hiroshi is from Japan.\n2. He is Japanese.\n3. He speaks Japanese.\n4. Japan is famous for sushi.\nNot: Ülke (Japan), milliyet ve dil (Japanese) büyük harfle yazılır."
+   },
+   "remember": [
+    "Ülke, milliyet ve dil adları büyük harfle yazılır.",
+    "Where is he from? — He is from Spain.",
+    "be famous for = ile ünlü olmak.",
+    "Tat sıfatları: sweet, salty, spicy, sour."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 7,
+   "intro": "Bu temada doğada yapılan etkinlikleri, çevre sorunlarını ve bu sorunlara çözüm önerilerini İngilizce anlatmayı öğreniyoruz. Doğayı korumak için neler yapmamız gerektiğini tartışacağız.",
+   "sections": [
+    {
+     "title": "Doğada Etkinlikler",
+     "text": "Doğada yapabileceğimiz etkinlikler: go hiking (doğa yürüyüşü yapmak), go camping (kamp yapmak), go fishing (balık tutmak), go cycling (bisiklet sürmek), have a picnic (piknik yapmak), climb mountains (dağa tırmanmak), watch birds (kuş gözlemek). Sevdiğimiz etkinlikleri like / love / enjoy + fiil-ing ile anlatırız: I enjoy going camping with my family. Ne sıklıkla yaptığımızı da söyleyebiliriz: We go hiking once a month. Önerilerde bulunmak için Let's have a picnic by the lake! deriz.",
+     "points": [
+      "go + fiil-ing: go swimming, go skiing",
+      "once a week = haftada bir"
+     ]
+    },
+    {
+     "title": "Çevre Sorunları",
+     "text": "Dünyamız birçok çevre sorunuyla karşı karşıyadır: air pollution (hava kirliliği), water pollution (su kirliliği), global warming (küresel ısınma), deforestation (ormansızlaşma), forest fires (orman yangınları), plastic waste (plastik atık), drought (kuraklık). Bu sorunların nedenlerini because ile anlatırız: The air is dirty because factories and cars produce smoke. Sonuçları için so kullanırız: People cut down trees, so animals lose their homes. Çevre sorunları sadece bir ülkeyi değil tüm dünyayı etkiler.",
+     "points": []
+    },
+    {
+     "title": "Çözüm Önerileri",
+     "text": "Çevre sorunlarına çözüm önerirken should / shouldn't kullanırız: We should recycle paper, glass and plastic. We should use public transport. We should plant more trees. We shouldn't waste water. We shouldn't leave litter in nature. Daha güçlü zorunluluk için must / mustn't kullanılabilir: We must protect forests. Günlük hayatta yapabileceklerimiz: turn off the lights (ışıkları kapatmak), use cloth bags (bez çanta kullanmak), save energy (enerji tasarrufu yapmak). Küçük adımlar büyük fark yaratır.",
+     "points": [
+      "Reduce, reuse, recycle. (Azalt, yeniden kullan, geri dönüştür.)",
+      "should = tavsiye, must = zorunluluk"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "environment",
+     "meaning": "çevre"
+    },
+    {
+     "term": "environmental problems",
+     "meaning": "çevre sorunları"
+    },
+    {
+     "term": "pollution",
+     "meaning": "kirlilik"
+    },
+    {
+     "term": "global warming",
+     "meaning": "küresel ısınma"
+    },
+    {
+     "term": "recycle",
+     "meaning": "geri dönüştürmek"
+    },
+    {
+     "term": "solution",
+     "meaning": "çözüm"
+    },
+    {
+     "term": "activities in nature",
+     "meaning": "doğadaki etkinlikler"
+    }
+   ],
+   "example": {
+    "question": "Su kirliliği sorunu için should ve shouldn't kullanarak iki çözüm önerisi yaz.",
+    "solution": "1. Sorun: Water pollution — rivers and seas are dirty.\n2. Öneri 1: Factories should clean their waste water.\n3. Öneri 2: People shouldn't throw rubbish into the sea.\nAçıklama: should ve shouldn't'tan sonra fiil yalın gelir."
+   },
+   "remember": [
+    "Tavsiye: should / shouldn't + fiil.",
+    "Neden için because, sonuç için so kullan.",
+    "go + fiil-ing: go hiking, go camping.",
+    "Reduce, reuse, recycle!"
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 8,
+   "intro": "Bu temada Güneş Sistemi'ndeki gezegenleri, bir gezegen olarak Dünya'yı ve gelecekte Dünya'daki yaşamı İngilizce anlatmayı öğreniyoruz. Gelecekle ilgili tahminlerde bulunmayı da öğreneceğiz.",
+   "sections": [
+    {
+     "title": "Gezegenler",
+     "text": "Güneş Sistemi'ndeki (the Solar System) sekiz gezegen Güneş'e yakınlık sırasıyla şunlardır: Mercury (Merkür), Venus (Venüs), Earth (Dünya), Mars, Jupiter (Jüpiter), Saturn (Satürn), Uranus (Uranüs), Neptune (Neptün). Gezegenleri sıfatlarla ve karşılaştırmalarla anlatırız: Jupiter is the biggest planet. Mercury is the smallest planet. Mercury is the closest planet to the Sun. Saturn has got rings. Mars is called the Red Planet. En üstünlük (superlative) için kısa sıfatlara the + -est, uzun sıfatlara the most eklenir.",
+     "points": [
+      "big → bigger → the biggest",
+      "hot → hotter → the hottest",
+      "beautiful → more beautiful → the most beautiful"
+     ]
+    },
+    {
+     "title": "Bir Gezegen Olarak Dünya",
+     "text": "Earth, yaşam olduğu bilinen tek gezegendir. Dünya'yı geniş zamanla anlatırız çünkü bunlar genel gerçeklerdir: The Earth goes around the Sun. It takes about 365 days. The Earth has got one moon. There is water and air on Earth, so living things can survive. Dünya'nın yüzeyinin büyük bölümü sularla kaplıdır. Dünya'da yaşamı mümkün kılanlar: water (su), oxygen (oksijen), sunlight (güneş ışığı), the right temperature (uygun sıcaklık). Bu nedenle gezegenimizi korumalıyız.",
+     "points": []
+    },
+    {
+     "title": "Gelecekte Dünya'da Yaşam: will",
+     "text": "Gelecekle ilgili tahminlerde bulunmak için will + fiil kalıbını kullanırız. Will tüm şahıslarda aynıdır. Olumlu: People will live longer. Robots will do housework. Olumsuz: won't (will not) kullanılır: There won't be enough water. Soru: Will people live on Mars? — Yes, they will. / No, they won't. Tahminlerimizi güçlendirmek için I think / I believe ifadelerini kullanırız: I think cars will fly in the future. Zaman ifadeleri: in the future, in 2050, in fifty years.",
+     "points": [
+      "will + fiil (tahmin)",
+      "won't = will not",
+      "I think people will travel to Mars."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "planet",
+     "meaning": "gezegen"
+    },
+    {
+     "term": "the Earth",
+     "meaning": "Dünya"
+    },
+    {
+     "term": "the Solar System",
+     "meaning": "Güneş Sistemi"
+    },
+    {
+     "term": "life on Earth",
+     "meaning": "Dünya'da yaşam"
+    },
+    {
+     "term": "in the future",
+     "meaning": "gelecekte"
+    },
+    {
+     "term": "will / won't",
+     "meaning": "-ecek / -meyecek (tahmin)"
+    },
+    {
+     "term": "the biggest",
+     "meaning": "en büyük"
+    }
+   ],
+   "example": {
+    "question": "Boşlukları doldur: 1) Jupiter is ___ (big) planet in the Solar System. 2) I think people ___ (live) on the Moon in the future. 3) There ___ (not / be) any petrol cars.",
+    "solution": "1. the biggest — en üstünlükte kısa sıfat the + -est alır; big son harfi ikilenir.\n2. will live — gelecek tahmini için will + fiil.\n3. won't be — olumsuz tahmin için won't."
+   },
+   "remember": [
+    "Gezegen sırası: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune.",
+    "En üstünlük: the + -est / the most.",
+    "Tahmin: will + fiil, olumsuzu won't.",
+    "Genel gerçekler geniş zamanla anlatılır."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 1,
+   "intro": "Bu temada okuldaki ders dışı etkinlikleri, yarışmaları, kutlamaları ve millî bayramları İngilizce anlatmayı öğreniyoruz. Geçmişte yaşadığımız okul etkinliklerini anlatmak için geçmiş zamanı (Simple Past Tense) kullanacağız.",
+   "sections": [
+    {
+     "title": "Ders Dışı Etkinlikler",
+     "text": "Ders dışı etkinlikler (extra-curricular activities), ders saatleri dışında katıldığımız kulüp ve faaliyetlerdir: chess club (satranç kulübü), robotics club (robotik kulübü), school choir (okul korosu), drama club, volleyball team, school newspaper (okul gazetesi). Bu etkinliklerin faydalarını anlatırken şu ifadeleri kullanırız: It helps me make new friends. It improves my skills. It's fun and relaxing. Bir etkinliğe katıldığımızı join ile anlatırız: I joined the robotics club this year. Sorular: Which club are you in? What do you do in the club?",
+     "points": [
+      "join = katılmak, improve = geliştirmek",
+      "I'm interested in drama. (Dramaya ilgim var.)"
+     ]
+    },
+    {
+     "title": "Geçmiş Zaman: Yarışmalar ve Kutlamalar",
+     "text": "Geçmişte olmuş olayları Simple Past Tense ile anlatırız. Düzenli fiillere -ed eklenir: join → joined, celebrate → celebrated, organize → organized. Düzensiz fiiller ezberlenir: go → went, win → won, have → had, take → took, see → saw. be fiilinin geçmişi was / were'dir. Örnek: Our team won the science competition last year. We had a great time. The ceremony was amazing. Olumsuz ve soruda did kullanılır ve fiil yalın kalır: We didn't win the match. Did you take part in the contest? — Yes, I did.",
+     "points": []
+    },
+    {
+     "title": "Millî Bayramlar",
+     "text": "Millî bayramlarımızı geçmiş zamanla da anlatabiliriz: Last year, we celebrated Republic Day with a big ceremony. Students recited poems and sang the National Anthem. We decorated our classroom with Turkish flags. Bayramların anlamını şöyle açıklarız: On 29th October 1923, the Republic of Türkiye was founded. Victory Day celebrates the Great Victory on 30th August 1922. Zaman ifadeleri: yesterday (dün), last week (geçen hafta), last year (geçen yıl), two days ago (iki gün önce), in 2023.",
+     "points": [
+      "last + zaman: last Monday",
+      "zaman + ago: three years ago"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "extra-curricular activity",
+     "meaning": "ders dışı etkinlik"
+    },
+    {
+     "term": "competition",
+     "meaning": "yarışma"
+    },
+    {
+     "term": "celebration",
+     "meaning": "kutlama"
+    },
+    {
+     "term": "national days",
+     "meaning": "millî bayramlar"
+    },
+    {
+     "term": "take part in",
+     "meaning": "katılmak"
+    },
+    {
+     "term": "win (won)",
+     "meaning": "kazanmak (kazandı)"
+    },
+    {
+     "term": "last year / ago",
+     "meaning": "geçen yıl / önce"
+    }
+   ],
+   "example": {
+    "question": "Cümleleri geçmiş zamana çevir: 1) We join the poetry competition. 2) Our team wins the cup. 3) Do you go to the ceremony?",
+    "solution": "1. We joined the poetry competition. — join düzenli fiildir, -ed alır.\n2. Our team won the cup. — win düzensizdir: won.\n3. Did you go to the ceremony? — soruda did kullanılır, fiil yalın kalır."
+   },
+   "remember": [
+    "Düzenli fiiller -ed alır: played, visited.",
+    "Düzensiz fiiller ezberlenir: go-went, win-won, see-saw.",
+    "Olumsuz ve soruda did / didn't + yalın fiil.",
+    "be fiilinin geçmişi: was / were."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 2,
+   "intro": "Bu temada öğrenmeyi kolaylaştıran teknolojik araçları ve sınıftaki öğrenme etkinliklerini İngilizce anlatmayı öğreniyoruz. Ayrıca büyük sayıları ve sıra sayılarını kullanmayı pekiştireceğiz.",
+   "sections": [
+    {
+     "title": "Öğrenmede Teknolojik Araçlar",
+     "text": "Derslerde kullandığımız teknolojik araçlar: smart board (akıllı tahta), tablet, laptop (dizüstü bilgisayar), projector (projeksiyon), online dictionary (çevrim içi sözlük), educational app (eğitim uygulaması), e-book (elektronik kitap), headphones (kulaklık). Bir aracın ne işe yaradığını use ... to ... kalıbıyla anlatırız: We use the smart board to watch videos. I use an online dictionary to learn new words. Araçları karşılaştırabiliriz: A tablet is lighter than a laptop. E-books are more practical than printed books.",
+     "points": [
+      "use + araç + to + fiil",
+      "It is useful for ... (... için faydalıdır)"
+     ]
+    },
+    {
+     "title": "Öğrenme Etkinlikleri ve Görüş Bildirme",
+     "text": "Sınıfta yapılan öğrenme etkinlikleri: online quizzes (çevrim içi sınavlar), video projects (video projeleri), group presentations (grup sunumları), coding activities (kodlama etkinlikleri), science experiments (deneyler). Bir etkinlik hakkında görüş bildirmek için I think ..., In my opinion ... kalıplarını kullanırız: In my opinion, coding activities are interesting. Katılıyorsak I agree with you., katılmıyorsak I don't agree. / I disagree. deriz. Teknolojinin dezavantajlarını da belirtebiliriz: Using screens for a long time is bad for our eyes.",
+     "points": []
+    },
+    {
+     "title": "Büyük Sayılar ve Sıra Sayıları",
+     "text": "Büyük sayılar: 1,000 one thousand, 10,000 ten thousand, 100,000 one hundred thousand, 1,000,000 one million. İngilizcede binler basamağı virgülle ayrılır: 2,500 two thousand five hundred. Thousand ve million çoğul eki almaz: three thousand. Yılları genellikle ikişer ikişer okuruz: 1923 nineteen twenty-three; 2000'den sonraki yıllar two thousand and ... ya da twenty ... diye okunur: 2025 twenty twenty-five. Sıra sayıları tarihlerde ve sıralamalarda kullanılır: She finished the race in first place. Our school is the third in the city.",
+     "points": [
+      "1,500 = one thousand five hundred",
+      "1453 = fourteen fifty-three"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "technological tools",
+     "meaning": "teknolojik araçlar"
+    },
+    {
+     "term": "learning activities",
+     "meaning": "öğrenme etkinlikleri"
+    },
+    {
+     "term": "smart board",
+     "meaning": "akıllı tahta"
+    },
+    {
+     "term": "cardinal numbers",
+     "meaning": "sayma sayıları"
+    },
+    {
+     "term": "ordinal numbers",
+     "meaning": "sıra sayıları"
+    },
+    {
+     "term": "In my opinion",
+     "meaning": "Bence"
+    },
+    {
+     "term": "useful",
+     "meaning": "faydalı, kullanışlı"
+    }
+   ],
+   "example": {
+    "question": "İngilizce yaz: a) 7,250 b) 1071 yılı c) Kelimeleri öğrenmek için eğitim uygulaması kullanıyoruz.",
+    "solution": "a) seven thousand two hundred and fifty\nb) ten seventy-one — yıllar ikişer basamak okunur.\nc) We use an educational app to learn words. — use + araç + to + fiil kalıbı."
+   },
+   "remember": [
+    "use ... to ... bir aracın amacını anlatır.",
+    "thousand ve million çoğul eki almaz.",
+    "Görüş bildirme: I think / In my opinion.",
+    "Binler basamağı virgülle ayrılır: 3,000."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 3,
+   "intro": "Bu temada hastalıkları, sağlıklı kalmanın yollarını ve teknolojinin insan hayatındaki yerini İngilizce anlatmayı öğreniyoruz. Tavsiye vermeyi ve sağlık sorunlarımızı ifade etmeyi öğreneceğiz.",
+   "sections": [
+    {
+     "title": "Hastalıklar ve Şikâyetler",
+     "text": "Sağlık sorunlarını anlatırken have got / have kalıbını kullanırız: I have a headache. (Başım ağrıyor.) She has a toothache. (Dişi ağrıyor.) He has a stomachache. (Midesi ağrıyor.) I have a cold. (Nezleyim.) I have a fever. (Ateşim var.) I have a sore throat. (Boğazım ağrıyor.) I have a cough. (Öksürüğüm var.) Birine ne olduğunu sormak için What's wrong? ya da What's the matter? deriz. Geçmiş zamanla da anlatabiliriz: Yesterday I felt sick, so I didn't go to school.",
+     "points": [
+      "What's the matter? — I have a backache.",
+      "ache = ağrı: headache, earache, toothache"
+     ]
+    },
+    {
+     "title": "Tavsiye Verme ve Sağlıklı Yaşam",
+     "text": "Hasta olan birine tavsiye vermek için should / shouldn't kullanırız: You should see a doctor. You should drink a lot of water. You should stay in bed. You shouldn't eat junk food. You shouldn't go out in the cold. Sağlıklı kalmak için yapılması gerekenleri de anlatırız: We should eat fruit and vegetables. We should exercise regularly. We should sleep at least eight hours. We should wash our hands often. Get well soon! (Geçmiş olsun!) ifadesi hasta birine iyi dileklerimizi iletir.",
+     "points": []
+    },
+    {
+     "title": "Teknolojinin Hayatımızdaki Yeri",
+     "text": "Teknoloji sağlık alanında büyük kolaylıklar sağlar: smart watches (akıllı saatler) kalp atışını ölçer, health apps (sağlık uygulamaları) adımlarımızı sayar, online appointments (çevrim içi randevu) zaman kazandırır. Ancak teknolojinin aşırı kullanımı sağlık sorunlarına yol açabilir: Using phones too much can cause eye problems and backache. Avantaj ve dezavantajları şöyle anlatırız: One advantage is that ... One disadvantage is that ... Görüşlerimizi bağlaçlarla destekleriz: and, but, because, so.",
+     "points": [
+      "advantage = avantaj, disadvantage = dezavantaj",
+      "Technology is useful, but we shouldn't use it too much."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "illness",
+     "meaning": "hastalık"
+    },
+    {
+     "term": "good health",
+     "meaning": "sağlıklı olma"
+    },
+    {
+     "term": "headache / toothache",
+     "meaning": "baş ağrısı / diş ağrısı"
+    },
+    {
+     "term": "should / shouldn't",
+     "meaning": "-meli / -memeli (tavsiye)"
+    },
+    {
+     "term": "What's the matter?",
+     "meaning": "Neyin var? Sorun ne?"
+    },
+    {
+     "term": "Get well soon!",
+     "meaning": "Geçmiş olsun! / Çabuk iyileş!"
+    },
+    {
+     "term": "keep good health",
+     "meaning": "sağlığı korumak"
+    }
+   ],
+   "example": {
+    "question": "Arkadaşın: I have a sore throat and a fever. Ona should ve shouldn't ile iki tavsiye ver.",
+    "solution": "1. Şikâyet: boğaz ağrısı ve ateş.\n2. Tavsiye 1: You should drink warm water and rest.\n3. Tavsiye 2: You shouldn't drink cold drinks.\n4. İyi dilek: Get well soon!"
+   },
+   "remember": [
+    "Şikâyet: I have a headache / a cold / a fever.",
+    "Tavsiye: You should / shouldn't + fiil.",
+    "What's wrong? = What's the matter?",
+    "Teknolojinin avantajları ve dezavantajları vardır."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 4,
+   "intro": "Bu temada aile üyelerimizin hobilerini, kuşaklar arası farkları ve aile içindeki sorunlara çözüm önerilerini İngilizce anlatmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Aile Üyelerinin Hobileri",
+     "text": "Aile üyelerimizin hobilerini spor, kitap, film, müzik ve yemek pişirme gibi alanlarda anlatabiliriz: My father is interested in football. My mother is good at cooking. My grandfather enjoys reading history books. My sister is fond of pop music. Bu kalıplardan sonra isim ya da fiil-ing gelir: be interested in (-e ilgi duymak), be good at (-de iyi olmak), be fond of (-e düşkün olmak), enjoy (-den hoşlanmak). Film türleri: comedy, action, cartoon, documentary, science fiction.",
+     "points": [
+      "She is good at playing the guitar.",
+      "What kind of films does he like? — He likes documentaries."
+     ]
+    },
+    {
+     "title": "Kuşak Farkı: Geçmiş ve Şimdi",
+     "text": "Kuşak farkı (generation gap), farklı yaşlardaki aile üyelerinin düşünce, alışkanlık ve beğenileri arasındaki farklılıktır. Geçmişteki alışkanlıkları used to ile anlatırız: My grandparents used to listen to the radio. Now we watch videos online. When my father was young, he used to play outside all day. People didn't use to have mobile phones. Karşılaştırma için ise but ve while bağlaçlarını kullanırız: My grandmother likes folk music, but I prefer pop music. Bu farklılıklara saygı göstermek aile içinde uyumu sağlar.",
+     "points": []
+    },
+    {
+     "title": "Aile Sorunları ve Çözümleri",
+     "text": "Aile içinde bazı sorunlar yaşanabilir: spending too much time on screens (ekran başında çok zaman geçirmek), not helping with housework (ev işlerine yardım etmemek), arguing about TV programmes (televizyon programları için tartışmak). Sorunlara çözüm önerirken should, Why don't we ...?, How about ...? ve Let's ... kalıplarını kullanırız: We should talk to each other calmly. Why don't we make a screen time plan? How about sharing the housework? Let's have dinner together every evening. Empati ve iletişim ailede sorunları azaltır.",
+     "points": [
+      "How about + fiil-ing?",
+      "Why don't we + fiil?",
+      "Let's + fiil"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "family members",
+     "meaning": "aile üyeleri"
+    },
+    {
+     "term": "hobbies",
+     "meaning": "hobiler"
+    },
+    {
+     "term": "generation gap",
+     "meaning": "kuşak farkı"
+    },
+    {
+     "term": "family problems",
+     "meaning": "aile sorunları"
+    },
+    {
+     "term": "solution",
+     "meaning": "çözüm"
+    },
+    {
+     "term": "used to",
+     "meaning": "eskiden ... -erdi"
+    },
+    {
+     "term": "be interested in",
+     "meaning": "-e ilgi duymak"
+    }
+   ],
+   "example": {
+    "question": "Dedenin gençliğinde mektup yazdığını, senin ise mesaj gönderdiğini used to ile anlat. Sonra ailede ekran süresi sorunu için bir öneri yaz.",
+    "solution": "1. My grandfather used to write letters, but now I send messages.\n2. used to geçmişte olup artık olmayan alışkanlıkları anlatır.\n3. Öneri: Why don't we turn off our phones during dinner?"
+   },
+   "remember": [
+    "be interested in / good at / fond of + isim veya fiil-ing.",
+    "Geçmiş alışkanlık: used to + fiil.",
+    "Öneri: Why don't we ...? / How about ...-ing? / Let's ...",
+    "Kuşak farklarına saygı ailede uyumu sağlar."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 5,
+   "intro": "Bu temada mahallemizdeki ve şehrimizdeki kamu hizmetlerini, farklı şehirlerdeki yaşamı ve şehirleri karşılaştırmayı İngilizce öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Kamu Hizmetleri",
+     "text": "Kamu hizmetleri (public services), devletin ve belediyelerin halka sunduğu hizmetlerdir. Kurumlar: hospital (hastane), police station (karakol), fire station (itfaiye), post office (postane), library (kütüphane), municipality (belediye), public transport (toplu taşıma). Hizmetleri ve görevlileri şöyle anlatırız: Firefighters put out fires. Police officers keep us safe. Doctors and nurses look after patients. The municipality collects the rubbish. Bir hizmet için nereye gidileceğini sormak için Where can I get a new library card? deriz.",
+     "points": [
+      "public services = kamu hizmetleri",
+      "Acil durumlarda Türkiye'de 112 aranır."
+     ]
+    },
+    {
+     "title": "Farklı Şehirlerde Yaşam",
+     "text": "Şehirlerin özelliklerini sıfatlarla anlatırız: crowded (kalabalık), noisy (gürültülü), quiet (sakin), modern, historical (tarihî), expensive (pahalı), cheap (ucuz), safe (güvenli), clean (temiz). Şehir türleri: capital city (başkent), coastal city (kıyı şehri), industrial city (sanayi şehri), historical city (tarihî şehir). Örnek: İstanbul is a crowded and historical city. Trabzon is a coastal city with green mountains. Bir şehirdeki yaşamı anlatırken there is / there are ve can kullanırız: You can visit museums. There are many factories.",
+     "points": []
+    },
+    {
+     "title": "Şehirleri Karşılaştırma",
+     "text": "İki şehri karşılaştırırken comparative, birçok şehir arasında en üstünü söylerken superlative kullanırız. Kısa sıfatlar: big → bigger → the biggest, noisy → noisier → the noisiest. Uzun sıfatlar: crowded → more crowded → the most crowded, expensive → more expensive → the most expensive. Eşitlik için as ... as kalıbı kullanılır: Bursa is not as crowded as İstanbul. Örnek: İstanbul is more crowded than Ankara. İstanbul is the most crowded city in Türkiye. Village life is quieter than city life.",
+     "points": [
+      "comparative + than",
+      "the + superlative",
+      "as + sıfat + as (eşitlik)"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "public services",
+     "meaning": "kamu hizmetleri"
+    },
+    {
+     "term": "neighbourhood",
+     "meaning": "mahalle"
+    },
+    {
+     "term": "municipality",
+     "meaning": "belediye"
+    },
+    {
+     "term": "life in the city",
+     "meaning": "şehir hayatı"
+    },
+    {
+     "term": "crowded / quiet",
+     "meaning": "kalabalık / sakin"
+    },
+    {
+     "term": "capital city",
+     "meaning": "başkent"
+    },
+    {
+     "term": "as ... as",
+     "meaning": "... kadar (eşitlik)"
+    }
+   ],
+   "example": {
+    "question": "Boşlukları doldur: 1) A village is ___ (quiet) than a city. 2) Tokyo is one of ___ (crowded) cities in the world. 3) My town isn't ___ big ___ Ankara.",
+    "solution": "1. quieter — kısa sıfat, -er alır.\n2. the most crowded — uzun sıfat, en üstünlükte the most alır.\n3. as big as — eşitlik kalıbı; olumsuzda eşit olmadığını gösterir."
+   },
+   "remember": [
+    "Kamu hizmetleri halkın ortak ihtiyaçlarını karşılar.",
+    "İki şey: comparative + than.",
+    "Üç ve daha fazla: the + superlative.",
+    "Eşitlik: as ... as."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 6,
+   "intro": "Bu temada dünyanın başkentlerini, ünlü yapılarını ve yerlerini, buralarda yapılabilecek etkinlikleri ve dünyanın farklı yerlerindeki spor etkinliklerini İngilizce öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Başkentler ve Ünlü Yerler",
+     "text": "Başkentler (capitals): Ankara is the capital of Türkiye. London is the capital of the United Kingdom. Paris is the capital of France. Rome is the capital of Italy. Tokyo is the capital of Japan. Ünlü yapılar ve yerler (landmarks): the Eiffel Tower in Paris, the Colosseum in Rome, Big Ben in London, the Statue of Liberty in New York, Anıtkabir in Ankara, the Galata Tower in İstanbul. Bir yerin nerede olduğunu sormak için Where is the Eiffel Tower? — It's in Paris. deriz.",
+     "points": [
+      "the capital of = -in başkenti",
+      "landmark = simge yapı"
+     ]
+    },
+    {
+     "title": "Gezi Deneyimleri: Geçmiş Zaman",
+     "text": "Gezdiğimiz yerleri anlatırken geçmiş zaman kullanırız: Last summer, we visited Rome. We saw the Colosseum. We ate delicious pizza. We took a lot of photos. The weather was hot. Bir yerde yapılabilecek etkinlikleri ise can ile anlatırız: In Paris, you can climb the Eiffel Tower and visit the Louvre Museum. Bir gezi hakkında soru sorarken did kullanırız: Where did you go? What did you see? How was the trip? — It was fantastic! Gezi anlatırken first, then, after that, finally ile olayları sıralarız.",
+     "points": []
+    },
+    {
+     "title": "Dünyada Spor Etkinlikleri",
+     "text": "Dünyanın farklı yerlerinde büyük spor etkinlikleri düzenlenir: the Olympic Games (Olimpiyat Oyunları) every four years, the FIFA World Cup (Dünya Kupası), Wimbledon (tenis turnuvası), the Tour de France (bisiklet yarışı), marathons. Türkiye'de de İstanbul Maratonu gibi uluslararası etkinlikler yapılır; bu maratonda koşucular Asya'dan Avrupa'ya koşar. Spor etkinliklerini anlatırken take place (gerçekleşmek), athlete (sporcu), medal (madalya), win the gold medal (altın madalya kazanmak) ifadelerini kullanırız: The Olympic Games take place every four years.",
+     "points": [
+      "take place = düzenlenmek, gerçekleşmek",
+      "every four years = dört yılda bir"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "capital",
+     "meaning": "başkent"
+    },
+    {
+     "term": "landmark",
+     "meaning": "simge yapı, ünlü yer"
+    },
+    {
+     "term": "famous places",
+     "meaning": "ünlü yerler"
+    },
+    {
+     "term": "sports events",
+     "meaning": "spor etkinlikleri"
+    },
+    {
+     "term": "take place",
+     "meaning": "gerçekleşmek, düzenlenmek"
+    },
+    {
+     "term": "athlete",
+     "meaning": "sporcu"
+    },
+    {
+     "term": "medal",
+     "meaning": "madalya"
+    }
+   ],
+   "example": {
+    "question": "Geçen yıl Londra'ya gittin; Big Ben'i gördün ve bir müze gezdin. Bunu geçmiş zamanla üç cümlede anlat.",
+    "solution": "1. Last year, I went to London. — go düzensiz fiil: went.\n2. I saw Big Ben. — see düzensiz fiil: saw.\n3. I visited a museum. — visit düzenli fiil: visited.\nEk: London is the capital of the United Kingdom."
+   },
+   "remember": [
+    "the capital of + ülke: Ankara is the capital of Türkiye.",
+    "Gezi anlatırken geçmiş zaman kullan.",
+    "Yapılabilecekler: You can ...",
+    "Olimpiyat Oyunları dört yılda bir düzenlenir."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 7,
+   "intro": "Bu temada hayvanları, doğal kaynakları ve hayvanlarla doğayı korumanın yollarını İngilizce anlatmayı öğreniyoruz. Nesli tükenmekte olan hayvanlar ve doğa için yapabileceklerimizi tartışacağız.",
+   "sections": [
+    {
+     "title": "Hayvanlar ve Nesli Tükenen Türler",
+     "text": "Bazı hayvanların nesli tehlike altındadır; bunlara endangered animals denir. Örnek: pandas, polar bears (kutup ayıları), sea turtles (deniz kaplumbağaları), tigers, elephants. Ülkemizde Akdeniz kıyılarındaki Caretta caretta kaplumbağaları korunan türlerdendir. Bu hayvanların neden tehlikede olduğunu because ile anlatırız: Polar bears are in danger because the ice is melting. Elephants are in danger because people hunt them. Şu an olan durumları Present Continuous ile anlatırız: Forests are disappearing. The number of tigers is decreasing.",
+     "points": [
+      "endangered = nesli tükenmekte olan",
+      "extinct = nesli tükenmiş",
+      "habitat = yaşam alanı"
+     ]
+    },
+    {
+     "title": "Doğal Kaynaklar",
+     "text": "Doğal kaynaklar (natural resources), doğada bulunan ve insanların kullandığı değerli varlıklardır: water (su), air (hava), soil (toprak), forests (ormanlar), minerals (madenler), oil (petrol), sunlight (güneş ışığı), wind (rüzgâr). Bazıları yenilenebilir (renewable): sun, wind, water. Bazıları ise yenilenemez (non-renewable): oil, coal (kömür), natural gas (doğal gaz). Yenilenemez kaynaklar bir gün bitebilir. Bu nedenle yenilenebilir enerji kaynaklarını kullanmak önemlidir: We can use solar energy and wind energy.",
+     "points": []
+    },
+    {
+     "title": "Hayvanları ve Doğayı Koruma",
+     "text": "Hayvanları ve doğayı korumak için yapılması gerekenleri must / mustn't ve should ile anlatırız: We must stop hunting endangered animals. We mustn't destroy their habitats. We should create national parks. We should save water and energy. People shouldn't buy products made from animal skin. Gönüllü olarak yapabileceklerimiz: join a nature club, clean the beaches, build bird houses, adopt a stray animal. Doğal kaynakları korumak gelecek kuşakların da yaşayabilmesi için gereklidir.",
+     "points": [
+      "must = zorunluluk, mustn't = yasak",
+      "protect animals, protect nature"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "animals",
+     "meaning": "hayvanlar"
+    },
+    {
+     "term": "natural resources",
+     "meaning": "doğal kaynaklar"
+    },
+    {
+     "term": "protect",
+     "meaning": "korumak"
+    },
+    {
+     "term": "endangered",
+     "meaning": "nesli tükenmekte olan"
+    },
+    {
+     "term": "habitat",
+     "meaning": "yaşam alanı"
+    },
+    {
+     "term": "renewable",
+     "meaning": "yenilenebilir"
+    },
+    {
+     "term": "national park",
+     "meaning": "millî park"
+    }
+   ],
+   "example": {
+    "question": "Deniz kaplumbağaları neden tehlikede? because ile bir neden yaz, must ve mustn't ile iki çözüm öner.",
+    "solution": "1. Neden: Sea turtles are in danger because people leave plastic on the beaches.\n2. Çözüm 1: We must keep the beaches clean.\n3. Çözüm 2: We mustn't disturb their nests."
+   },
+   "remember": [
+    "endangered: nesli tükenmekte; extinct: nesli tükenmiş.",
+    "Yenilenebilir kaynaklar: güneş, rüzgâr, su.",
+    "must = zorunluluk, mustn't = yasak.",
+    "Şu an süren değişimler Present Continuous ile anlatılır."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 8,
+   "intro": "Bu temada uzayı, uzay teknolojisini, gelecekteki yaşamı ve robotları İngilizce anlatmayı öğreniyoruz. Gelecek hakkında tahminlerde bulunmayı ve olasılık bildirmeyi öğreneceğiz.",
+   "sections": [
+    {
+     "title": "Uzay ve Uzay Teknolojisi",
+     "text": "Uzayla ilgili kelimeler: space (uzay), astronaut (astronot), spaceship / spacecraft (uzay aracı), rocket (roket), satellite (uydu), space station (uzay istasyonu), telescope (teleskop), galaxy (galaksi), orbit (yörünge). Uzay teknolojisi günlük hayatımızı da etkiler: Satellites help us use GPS and watch TV. Weather satellites help us predict the weather. Geçmişteki önemli olayları geçmiş zamanla anlatırız: In 1969, astronauts walked on the Moon for the first time. Türkiye'nin de iletişim ve gözlem uyduları vardır.",
+     "points": [
+      "satellite = uydu",
+      "astronaut = astronot",
+      "orbit the Earth = Dünya'nın etrafında dönmek"
+     ]
+    },
+    {
+     "title": "Robotlar",
+     "text": "Robotlar bugün fabrikalarda, hastanelerde, evlerde ve uzay araştırmalarında kullanılıyor. Robotların yapabildiklerini can ile anlatırız: Robots can clean the house. Some robots can help doctors in operations. Mars rovers can collect rock samples. Gelecekte yapabilecekleri için will be able to kullanılır: In the future, robots will be able to cook meals and teach lessons. Robotların avantajları: They work fast and don't get tired. Dezavantajları: They are expensive and some people may lose their jobs.",
+     "points": []
+    },
+    {
+     "title": "Gelecekte Yaşam: will ve may",
+     "text": "Gelecekle ilgili emin olduğumuz tahminler için will, emin olmadığımız olasılıklar için may / might kullanırız. Örnek: People will use more technology in the future. People may live on Mars one day. We might travel to space for holidays. Olumsuz: won't, may not. Fikrimizi belirtmek için I think, I'm sure, Maybe, Probably ifadelerini kullanırız: I'm sure robots will help us at home. Maybe people will live under the sea. Zaman ifadeleri: in 2050, in the next century, one day.",
+     "points": [
+      "will = kesin tahmin",
+      "may / might = olasılık",
+      "will be able to = -ebilecek"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "space",
+     "meaning": "uzay"
+    },
+    {
+     "term": "space technology",
+     "meaning": "uzay teknolojisi"
+    },
+    {
+     "term": "robot",
+     "meaning": "robot"
+    },
+    {
+     "term": "life in the future",
+     "meaning": "gelecekteki yaşam"
+    },
+    {
+     "term": "satellite",
+     "meaning": "uydu"
+    },
+    {
+     "term": "may / might",
+     "meaning": "-ebilir (olasılık)"
+    },
+    {
+     "term": "will be able to",
+     "meaning": "-ebilecek (gelecekte yetenek)"
+    }
+   ],
+   "example": {
+    "question": "Uygun olanı seç ve nedenini açıkla: 1) I'm sure robots (will / may) do the housework. 2) Maybe people (will / might) live on the Moon.",
+    "solution": "1. will — I'm sure kesinlik bildirir, kesin tahminde will kullanılır.\n2. might — Maybe emin olmadığımızı gösterir, olasılıkta may / might kullanılır. (Maybe ile will da kullanılabilir ama might olasılığı daha iyi vurgular.)"
+   },
+   "remember": [
+    "Kesin tahmin: will; olasılık: may / might.",
+    "Gelecekte yetenek: will be able to.",
+    "Bugünkü yetenek: can.",
+    "1969'da insanlar ilk kez Ay'a ayak bastı."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 1,
+   "intro": "Bu temada okul etkinliklerini ve spor, müzik, drama kutlamalarını, okul çevresini geliştirme projelerini ve millî bayramlarımızı İngilizce anlatmayı öğreniyoruz. Bir etkinliği planlamayı, davet etmeyi ve geçmişteki etkinlikleri anlatmayı pekiştireceğiz.",
+   "sections": [
+    {
+     "title": "Okul Etkinlikleri ve Kutlamalar",
+     "text": "Okulda düzenlenen etkinlikler: sports day (spor şenliği), school concert (okul konseri), drama show (tiyatro gösterisi), science fair (bilim fuarı), graduation ceremony (mezuniyet töreni), charity sale (yardım satışı). Gelecekteki planlanmış etkinlikleri be going to ile anlatırız: We are going to organize a concert next month. Davet için Would you like to join us? ya da Do you want to come? deriz. Daveti kabul etmek: Sure, why not? / That sounds great! Reddetmek: I'm sorry, but I can't. I have to help my mother. Reddederken bir neden belirtmek kibar bir davranıştır.",
+     "points": [
+      "Kabul: That sounds fun! / I'd love to.",
+      "Ret: Sorry, I'm busy. / Maybe another time."
+     ]
+    },
+    {
+     "title": "Okul Çevresini Geliştirme",
+     "text": "Okulumuzu ve çevresini daha güzel bir yer hâline getirmek için projeler yapabiliriz: plant trees in the schoolyard (okul bahçesine ağaç dikmek), set up recycling bins (geri dönüşüm kutuları koymak), paint the walls (duvarları boyamak), create a school garden (okul bahçesi oluşturmak). Projeleri önerirken We could ..., Why don't we ...? ve Let's ... kalıplarını kullanırız: We could make a vegetable garden. Why don't we collect plastic bottles? Bir projenin sonucunu anlatırken If we plant trees, the air will be cleaner. gibi koşul cümleleri kurabiliriz.",
+     "points": []
+    },
+    {
+     "title": "Millî Bayramlar",
+     "text": "Millî bayramlarımızı ve önemli günleri anlatırken tarih ve neden belirtiriz: We celebrate Republic Day on 29th October because the Republic of Türkiye was founded on this day in 1923. On 10th November, we commemorate Atatürk. On 18th March, we remember the Çanakkale Victory and our martyrs. Geçmişteki bir kutlamayı geçmiş zamanla anlatırız: Last year, our class prepared a special show for 23rd April. We performed folk dances and read poems. Everyone enjoyed it. commemorate kelimesi saygıyla anmak demektir.",
+     "points": [
+      "commemorate = anmak",
+      "martyr = şehit",
+      "was founded = kuruldu"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "school events",
+     "meaning": "okul etkinlikleri"
+    },
+    {
+     "term": "celebration",
+     "meaning": "kutlama"
+    },
+    {
+     "term": "the environment",
+     "meaning": "çevre"
+    },
+    {
+     "term": "develop the environment",
+     "meaning": "çevreyi geliştirmek"
+    },
+    {
+     "term": "national days",
+     "meaning": "millî bayramlar"
+    },
+    {
+     "term": "accept / refuse",
+     "meaning": "kabul etmek / reddetmek"
+    },
+    {
+     "term": "commemorate",
+     "meaning": "anmak"
+    }
+   ],
+   "example": {
+    "question": "Arkadaşın seni cumartesi günkü okul konserine davet ediyor: Would you like to come to the school concert on Saturday? Önce kabul eden, sonra nedenini belirterek reddeden bir cevap yaz.",
+    "solution": "1. Kabul: Sure, I'd love to! What time does it start?\n2. Ret: I'm sorry, but I can't. I'm going to visit my grandparents on Saturday.\nAçıklama: Kibarca reddederken önce özür dileriz, sonra bir neden söyleriz."
+   },
+   "remember": [
+    "Planlanmış gelecek: be going to.",
+    "Davet: Would you like to ...?",
+    "Reddederken özür dile ve neden belirt.",
+    "Öneri: We could ... / Why don't we ...?"
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 2,
+   "intro": "Bu temada farklı öğrenme etkinlikleri ve öğrenme teknolojileri arasındaki tercihlerimizi İngilizce ifade etmeyi öğreniyoruz. Tercih bildirirken nedenlerimizi açıklamayı da öğreneceğiz.",
+   "sections": [
+    {
+     "title": "Tercih Bildirme",
+     "text": "Tercihlerimizi anlatmak için çeşitli kalıplar kullanırız. prefer ... to ...: I prefer group work to individual work. prefer + fiil-ing: I prefer learning with videos. would rather + yalın fiil + than: I'd rather study in the library than at home. Soru: Which do you prefer, online lessons or face-to-face lessons? — I prefer face-to-face lessons. Beğeni dereceleri: I love, I really like, I like, I don't mind (fark etmez), I don't like, I can't stand (dayanamam). Tercihimizi because ile gerekçelendiririz.",
+     "points": [
+      "prefer A to B",
+      "would rather + fiil + than + fiil",
+      "I don't mind = Bana fark etmez."
+     ]
+    },
+    {
+     "title": "Öğrenme Etkinlikleri",
+     "text": "Her öğrenci farklı yollarla öğrenebilir. Bazıları görerek (visual), bazıları dinleyerek (auditory), bazıları yaparak (hands-on) daha iyi öğrenir. Öğrenme etkinlikleri: doing projects, making mind maps (zihin haritası), watching documentaries, role-playing (canlandırma), doing experiments, reading aloud. Tercihimizi açıklarken şöyle deriz: I prefer doing experiments because I learn better by doing. My friend likes making mind maps because she is a visual learner. Görüşümüzü desteklemek için First of all, Also, Finally gibi bağlayıcılar kullanırız.",
+     "points": []
+    },
+    {
+     "title": "Öğrenme Teknolojileri",
+     "text": "Öğrenmede kullanılan teknolojiler: online courses (çevrim içi kurslar), educational apps, e-books, podcasts, video lessons, virtual reality (sanal gerçeklik), interactive whiteboards. Bunların avantaj ve dezavantajlarını karşılaştırabiliriz: Online courses are more flexible than classroom lessons, but they are less social. Podcasts are useful because you can listen to them anywhere. Karşıt fikirleri bağlarken however (ancak) ve although (-e rağmen) kullanılır: Although e-books are practical, I prefer printed books.",
+     "points": [
+      "flexible = esnek",
+      "however = ancak",
+      "although = -e rağmen"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "preferences",
+     "meaning": "tercihler"
+    },
+    {
+     "term": "prefer ... to ...",
+     "meaning": "...yi ...ye tercih etmek"
+    },
+    {
+     "term": "would rather",
+     "meaning": "tercih ederim, -meyi yeğlerim"
+    },
+    {
+     "term": "learning activities",
+     "meaning": "öğrenme etkinlikleri"
+    },
+    {
+     "term": "learning technologies",
+     "meaning": "öğrenme teknolojileri"
+    },
+    {
+     "term": "I don't mind",
+     "meaning": "Bana fark etmez"
+    },
+    {
+     "term": "I can't stand",
+     "meaning": "Dayanamam, hiç sevmem"
+    }
+   ],
+   "example": {
+    "question": "Cümleyi verilen kalıpla yeniden yaz: I like watching videos more than reading books. a) prefer ... to ... b) would rather ... than ...",
+    "solution": "a) I prefer watching videos to reading books. — prefer'den sonra iki fiil de -ing alır.\nb) I would rather watch videos than read books. — would rather'dan sonra fiiller yalın gelir."
+   },
+   "remember": [
+    "prefer A to B: prefer'den sonra fiil -ing alır.",
+    "would rather + yalın fiil + than + yalın fiil.",
+    "Tercihini because ile açıkla.",
+    "Karşıtlık: however, although, but."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 3,
+   "intro": "Bu temada cep telefonlarının sağlığımıza ve sosyal hayatımıza etkilerini tartışmayı ve film ile görsel sanatlarla ilgili kişisel tercihlerimizi İngilizce anlatmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Cep Telefonlarının Etkileri",
+     "text": "Cep telefonları iletişimi kolaylaştırır: We can contact our families easily. We can find information quickly. Ancak aşırı kullanım sağlık ve sosyal hayat üzerinde olumsuz etkiler yaratabilir: It can cause headaches, eye strain (göz yorgunluğu), sleep problems and neck pain. People may spend less time with their families and friends. Sonuçları anlatırken cause (neden olmak), lead to (yol açmak), affect (etkilemek) fiillerini kullanırız: Using phones at night affects our sleep. Bir konuda görüş bildirirken I believe that ..., It seems to me that ... deriz.",
+     "points": [
+      "advantage / disadvantage",
+      "addicted to = -e bağımlı",
+      "screen time = ekran süresi"
+     ]
+    },
+    {
+     "title": "Tartışma ve Öneri",
+     "text": "Bir konuyu tartışırken fikrimizi söyler, gerekçe gösterir ve karşı görüşe saygıyla cevap veririz. Katılma: I agree with you. / You're right. / Exactly! Kısmen katılma: I partly agree, but ... Katılmama: I'm afraid I disagree. / I see your point, but ... Telefon kullanımı için öneriler: We should limit our screen time. We shouldn't use phones before bed. It's a good idea to turn off notifications. Ayrıca koşul cümleleri kurabiliriz: If you use your phone too much, you will feel tired.",
+     "points": []
+    },
+    {
+     "title": "Filmler ve Görsel Sanatlar",
+     "text": "Film türleri: action, comedy, drama, horror (korku), science fiction, animation, documentary, fantasy, adventure. Görsel sanatlar: painting (resim), sculpture (heykel), photography (fotoğrafçılık), street art (sokak sanatı), cartoon (karikatür). Tercihlerimizi anlatırken sıfatlarla duygularımızı belirtiriz: exciting (heyecan verici), boring (sıkıcı), scary (korkutucu), funny, touching (dokunaklı), impressive (etkileyici). Örnek: I'm keen on science fiction films because they are exciting. I'm not into horror films; they are too scary. Sanat eserlerini yorumlarken It makes me feel ... deriz.",
+     "points": [
+      "be keen on / be into = -den hoşlanmak, -e meraklı olmak",
+      "-ing sıfatı: boring (şey); -ed sıfatı: bored (kişi)"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "mobile phones",
+     "meaning": "cep telefonları"
+    },
+    {
+     "term": "health",
+     "meaning": "sağlık"
+    },
+    {
+     "term": "social life",
+     "meaning": "sosyal hayat"
+    },
+    {
+     "term": "impact",
+     "meaning": "etki"
+    },
+    {
+     "term": "personal preferences",
+     "meaning": "kişisel tercihler"
+    },
+    {
+     "term": "visual arts",
+     "meaning": "görsel sanatlar"
+    },
+    {
+     "term": "I agree / I disagree",
+     "meaning": "Katılıyorum / Katılmıyorum"
+    }
+   ],
+   "example": {
+    "question": "Doğru sıfatı seç: 1) The film was very (boring / bored). 2) I was (exciting / excited) at the cinema. 3) If you play games all night, you (feel / will feel) tired.",
+    "solution": "1. boring — şeyin özelliğini anlatan -ing sıfatı.\n2. excited — kişinin hissini anlatan -ed sıfatı.\n3. will feel — If + geniş zaman, will + fiil (gelecekteki olası sonuç)."
+   },
+   "remember": [
+    "Fikir bildir, gerekçe göster: I believe that ... because ...",
+    "Katılmazken kibar ol: I see your point, but ...",
+    "-ing sıfatı şeyi, -ed sıfatı hissi anlatır.",
+    "Sonuç: If + geniş zaman, will + fiil."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 4,
+   "intro": "Bu temada aile içindeki ilişkileri, aile sorunlarını ve çözümlerini, farklı ev türlerini ve yaşam tarzlarını İngilizce anlatmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Aile İlişkileri",
+     "text": "Aile ilişkilerini anlatırken şu ifadeleri kullanırız: get on well with (biriyle iyi geçinmek), argue with (tartışmak), respect (saygı duymak), share (paylaşmak), support (desteklemek), rely on (güvenmek), look after (bakmak, ilgilenmek). Örnek: I get on well with my brother. My parents always support me. I can rely on my sister. Aile üyelerinin kişilik özelliklerini de ekleyebiliriz: My father is patient and understanding. Duygularımızı anlatırken feel + sıfat kalıbı kullanılır: I feel happy when we have dinner together.",
+     "points": [
+      "get on well with = iyi geçinmek",
+      "rely on = güvenmek"
+     ]
+    },
+    {
+     "title": "Aile Sorunları ve Çözümleri",
+     "text": "Aile içinde zaman zaman sorunlar yaşanabilir: sharing a room (oda paylaşmak), doing housework (ev işleri), using the computer, coming home late, spending too much time online. Bir sorunu anlatırken My problem is that ... ya da The problem is ... deriz. Tavsiye vermek için should, ought to ve If I were you, I would ... kalıplarını kullanırız: You should talk to your parents. You ought to be patient. If I were you, I would make a plan with my sister. Bu kalıp kendimizi başkasının yerine koyarak öneri vermemizi sağlar.",
+     "points": []
+    },
+    {
+     "title": "Ev Türleri ve Yaşam Tarzları",
+     "text": "Farklı ev türleri: apartment / flat, detached house, cottage, villa, farmhouse, mansion (konak), tiny house (küçük ev), stone house (taş ev). Ev ve yaşam tarzlarını sıfatlarla anlatırız: modern, traditional (geleneksel), spacious (geniş), cosy (sıcak, rahat), eco-friendly (çevre dostu). Örnek: My grandparents live in a traditional stone house in the village. It's cosy and peaceful. Living in a flat is practical but noisy. Bazı insanlar sade bir yaşam tarzını (a simple lifestyle) tercih eder, bazıları ise şehirde modern bir yaşamı.",
+     "points": [
+      "lifestyle = yaşam tarzı",
+      "spacious = ferah, geniş",
+      "eco-friendly = çevre dostu"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "relationships",
+     "meaning": "ilişkiler"
+    },
+    {
+     "term": "family problems",
+     "meaning": "aile sorunları"
+    },
+    {
+     "term": "solutions",
+     "meaning": "çözümler"
+    },
+    {
+     "term": "types of houses",
+     "meaning": "ev türleri"
+    },
+    {
+     "term": "living styles",
+     "meaning": "yaşam tarzları"
+    },
+    {
+     "term": "get on well with",
+     "meaning": "ile iyi geçinmek"
+    },
+    {
+     "term": "If I were you, I would ...",
+     "meaning": "Senin yerinde olsam, ... -erdim"
+    }
+   ],
+   "example": {
+    "question": "Arkadaşın: My brother always uses my computer without asking. If I were you ile bir tavsiye ve should ile bir tavsiye ver.",
+    "solution": "1. Sorun: Kardeşi bilgisayarını izinsiz kullanıyor.\n2. If I were you, I would talk to him calmly.\n3. You should make a schedule for using the computer.\nNot: If I were you kalıbında tüm şahıslarla were kullanılır."
+   },
+   "remember": [
+    "get on well with = iyi geçinmek.",
+    "Tavsiye: should, ought to, If I were you, I would ...",
+    "Sorunlar sakin iletişimle çözülür.",
+    "Yaşam tarzını sıfatlarla anlat: cosy, modern, traditional."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 5,
+   "intro": "Bu temada şehirde ve kırsal alanda düzenlenen spor etkinliklerini, şehirde ve kırsalda yaşamanın artılarını ve eksilerini İngilizce tartışmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Şehirde ve Kırsalda Spor Etkinlikleri",
+     "text": "Şehirlerde genellikle büyük stadyumlarda ve spor salonlarında etkinlikler düzenlenir: football matches, basketball tournaments, marathons, swimming competitions. Kırsal alanlarda ise doğayla ilgili ve geleneksel sporlar öne çıkar: oil wrestling (yağlı güreş), horse riding (binicilik), rafting, mountain biking, paragliding (yamaç paraşütü), cirit (javelin game on horseback). Kırkpınar Yağlı Güreşleri Edirne'de yapılan geleneksel bir etkinliktir. Bu etkinlikleri anlatırken take place, be held (düzenlenmek) ifadelerini kullanırız: The race is held every summer.",
+     "points": [
+      "be held = düzenlenmek",
+      "tournament = turnuva"
+     ]
+    },
+    {
+     "title": "Şehir Hayatının Artıları ve Eksileri",
+     "text": "Artılar (pros): There are more job opportunities. Public transport is better. You can easily find hospitals, schools and shopping centres. There are lots of cultural activities like concerts and theatres. Eksiler (cons): Cities are crowded and noisy. There is air pollution and heavy traffic. Life is more expensive. People are often busy and stressed. Karşılaştırma yaparken comparative yapıları kullanırız: City life is more exciting than country life, but it is also more stressful.",
+     "points": []
+    },
+    {
+     "title": "Kırsal Hayatın Artıları ve Eksileri",
+     "text": "Artılar: The air is fresh and clean. It is quiet and peaceful. People know each other and are friendly. Food is fresh and natural. Eksiler: There are fewer job opportunities. Transport can be difficult. There are fewer hospitals and schools. There isn't much entertainment. Fikirleri bağlamak için on the one hand (bir yandan), on the other hand (öte yandan), however, although kullanırız: On the one hand, the countryside is peaceful. On the other hand, it can be boring for young people.",
+     "points": [
+      "pros and cons = artılar ve eksiler",
+      "On the one hand ... On the other hand ...",
+      "rural area = kırsal alan"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "sports events",
+     "meaning": "spor etkinlikleri"
+    },
+    {
+     "term": "rural areas",
+     "meaning": "kırsal alanlar"
+    },
+    {
+     "term": "pros and cons",
+     "meaning": "artılar ve eksiler"
+    },
+    {
+     "term": "living in the city",
+     "meaning": "şehirde yaşamak"
+    },
+    {
+     "term": "job opportunities",
+     "meaning": "iş imkânları"
+    },
+    {
+     "term": "peaceful",
+     "meaning": "huzurlu, sakin"
+    },
+    {
+     "term": "on the other hand",
+     "meaning": "öte yandan"
+    }
+   ],
+   "example": {
+    "question": "Şehirde yaşamanın bir artısını ve bir eksisini on the one hand / on the other hand ile tek bir paragrafta yaz.",
+    "solution": "1. Artı: On the one hand, there are many job opportunities and cultural activities in the city.\n2. Eksi: On the other hand, the city is crowded and the traffic is heavy.\n3. Sonuç: So, city life has both pros and cons."
+   },
+   "remember": [
+    "pros = artılar, cons = eksiler.",
+    "Karşıt fikir: however, although, on the other hand.",
+    "be held / take place = düzenlenmek.",
+    "Karşılaştırmada comparative + than kullan."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 6,
+   "intro": "Bu temada dünyadaki farklı pişirme yöntemlerini, yemek tercihlerini ve yemek kültürlerini İngilizce öğreniyoruz. Bir yemek tarifini adım adım anlatmayı da öğreneceğiz.",
+   "sections": [
+    {
+     "title": "Pişirme Yöntemleri ve Mutfak Kelimeleri",
+     "text": "Pişirme yöntemleri (cooking styles): boil (haşlamak), fry (kızartmak), bake (fırında pişirmek), grill (ızgara yapmak), steam (buharda pişirmek), roast (kızartmak, fırınlamak). Hazırlık fiilleri: chop (doğramak), slice (dilimlemek), peel (soymak), mix (karıştırmak), stir (karıştırmak), pour (dökmek), add (eklemek). Ölçüler: a cup of flour, a spoonful of sugar, a pinch of salt (bir tutam tuz), 200 grams of cheese. Örnek: In Japan, people usually steam vegetables. In Türkiye, we often grill meat.",
+     "points": [
+      "boil an egg, fry potatoes, bake a cake",
+      "a pinch of = bir tutam"
+     ]
+    },
+    {
+     "title": "Tarif Anlatma ve Edilgen Yapı",
+     "text": "Tarif anlatırken emir cümleleri ve sıralama kelimeleri kullanırız: First, chop the onions. Then, fry them in oil. Next, add the tomatoes. After that, stir for five minutes. Finally, serve it hot. Tarifler edilgen yapıyla (passive voice) da anlatılabilir. Bu yapıda işi yapan değil, yapılan iş önemlidir: am / is / are + fiilin 3. hâli (V3). Örnek: The onions are chopped. The cake is baked for 40 minutes. Rice is boiled in water. Düzenli fiillerde V3 -ed ile yapılır, düzensizler ezberlenir: cut → cut, eat → eaten.",
+     "points": []
+    },
+    {
+     "title": "Dünyada Yemek Kültürleri",
+     "text": "Her ülkenin yemek kültürü farklıdır. In Italy, pasta is eaten almost every day. In India, many spices are used in dishes. In Japan, people eat with chopsticks (yemek çubukları). In Türkiye, breakfast is an important meal and tea is served in small glasses. Yemek tercihlerimizi anlatırken I prefer homemade food to fast food. ya da I'd rather eat vegetarian food. deriz. Sağlıklı beslenme ile ilgili ifadeler: balanced diet (dengeli beslenme), organic food, junk food (abur cubur).",
+     "points": [
+      "chopsticks = yemek çubukları",
+      "homemade = ev yapımı",
+      "balanced diet = dengeli beslenme"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "cooking style",
+     "meaning": "pişirme yöntemi"
+    },
+    {
+     "term": "cooking preferences",
+     "meaning": "yemek pişirme tercihleri"
+    },
+    {
+     "term": "food culture",
+     "meaning": "yemek kültürü"
+    },
+    {
+     "term": "recipe",
+     "meaning": "yemek tarifi"
+    },
+    {
+     "term": "ingredients",
+     "meaning": "malzemeler"
+    },
+    {
+     "term": "boil / fry / bake",
+     "meaning": "haşlamak / kızartmak / fırında pişirmek"
+    },
+    {
+     "term": "passive voice",
+     "meaning": "edilgen yapı (yapılır, edilir)"
+    }
+   ],
+   "example": {
+    "question": "Cümleleri edilgen yapıya çevir: 1) We peel the potatoes. 2) We add some salt. 3) They serve tea in small glasses.",
+    "solution": "1. The potatoes are peeled. — çoğul özne: are + V3.\n2. Some salt is added. — sayılamayan isim: is + V3.\n3. Tea is served in small glasses. — işi yapan önemli olmadığı için belirtilmez."
+   },
+   "remember": [
+    "Tarif sıralaması: First, Then, Next, After that, Finally.",
+    "Edilgen yapı: am / is / are + V3.",
+    "Pişirme fiilleri: boil, fry, bake, grill, steam.",
+    "Her ülkenin kendine özgü yemek kültürü vardır."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 7,
+   "intro": "Bu temada doğal afetleri ve bu afetlerin insanlara, hayvanlara ve doğaya verdiği zararları İngilizce anlatmayı öğreniyoruz. Afetlerde alınacak önlemleri ifade etmeyi de öğreneceğiz.",
+   "sections": [
+    {
+     "title": "Doğal Afetler",
+     "text": "Doğal afetler (natural disasters): earthquake (deprem), flood (sel), wildfire / forest fire (orman yangını), landslide (heyelan), avalanche (çığ), drought (kuraklık), storm (fırtına), hurricane (kasırga), tsunami, volcanic eruption (yanardağ patlaması). Türkiye bir deprem ülkesi olduğu için depremler hakkında bilgi sahibi olmak önemlidir. Afetleri anlatırken şu fiilleri kullanırız: destroy (yok etmek), damage (zarar vermek), collapse (çökmek), injure (yaralamak), rescue (kurtarmak). Örnek: The flood damaged many houses.",
+     "points": [
+      "earthquake, flood, wildfire, landslide",
+      "rescue team = kurtarma ekibi"
+     ]
+    },
+    {
+     "title": "Afetlerin Zararları: Geçmiş Zaman ve Edilgen Yapı",
+     "text": "Geçmişte yaşanan afetleri geçmiş zamanla anlatırız: A strong storm hit the city last week. Many trees fell down. Afetlerin zararlarını anlatırken edilgen yapı da kullanılır, çünkü kimin yaptığından çok ne olduğu önemlidir: was / were + V3. Örnek: Many buildings were destroyed. Thousands of animals were affected by the wildfires. A lot of people were injured. Afetler doğaya da zarar verir: Forests are burnt, rivers are polluted and animals lose their habitats. Afet anındaki süregelen olayları past continuous ile anlatırız: We were sleeping when the earthquake happened.",
+     "points": []
+    },
+    {
+     "title": "Afetlere Hazırlık ve Önlemler",
+     "text": "Afetlerden önce, afet sırasında ve sonrasında yapılması gerekenleri should ve must ile anlatırız: We should prepare an emergency kit (acil durum çantası). We must fix heavy furniture to the walls. During an earthquake, you should drop, cover and hold on. You mustn't use the lift. After a flood, you shouldn't drink tap water. Afetzedelere yardım için: We can donate clothes, food and blankets. Volunteers help the victims. Hayvanları da unutmamalıyız: People should rescue animals and give them shelter.",
+     "points": [
+      "emergency kit = acil durum çantası",
+      "Drop, cover and hold on! = Çök, kapan, tutun!",
+      "donate = bağışlamak"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "natural disasters",
+     "meaning": "doğal afetler"
+    },
+    {
+     "term": "damage",
+     "meaning": "zarar, zarar vermek"
+    },
+    {
+     "term": "earthquake",
+     "meaning": "deprem"
+    },
+    {
+     "term": "flood",
+     "meaning": "sel"
+    },
+    {
+     "term": "wildfire",
+     "meaning": "orman yangını"
+    },
+    {
+     "term": "people's lives",
+     "meaning": "insanların yaşamları"
+    },
+    {
+     "term": "emergency kit",
+     "meaning": "acil durum çantası"
+    }
+   ],
+   "example": {
+    "question": "Cümleleri edilgen yapıya çevir: 1) The fire destroyed the forest. 2) The flood damaged the bridges. 3) Volunteers rescued the cats.",
+    "solution": "1. The forest was destroyed (by the fire). — tekil: was + V3.\n2. The bridges were damaged (by the flood). — çoğul: were + V3.\n3. The cats were rescued (by volunteers)."
+   },
+   "remember": [
+    "Geçmişte edilgen yapı: was / were + V3.",
+    "Depremde: Drop, cover and hold on!",
+    "Önlemler: should / must, yasaklar: mustn't.",
+    "Afetler insanlara, hayvanlara ve doğaya zarar verir."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 8,
+   "intro": "Bu temada gelecekte ulaşımın nasıl değişebileceğini, sürücüsüz arabaları ve uçan araçları İngilizce tartışmayı öğreniyoruz. Gelecekle ilgili tahminleri ve koşulları ifade edeceğiz.",
+   "sections": [
+    {
+     "title": "Geleceğin Ulaşım Araçları",
+     "text": "Gelecekte ulaşımın daha hızlı, güvenli ve çevre dostu olması bekleniyor. Geleceğin araçları: self-driving cars (sürücüsüz arabalar), flying cars / flying vehicles (uçan araçlar), electric cars (elektrikli arabalar), high-speed trains (hızlı trenler), drones (insansız hava araçları), hyperloop (yüksek hızlı tüp taşıma). Bu araçları anlatırken teknolojinin nasıl çalıştığını açıklarız: Self-driving cars use cameras and sensors. Electric cars don't produce exhaust fumes, so they are better for the environment.",
+     "points": [
+      "self-driving = sürücüsüz",
+      "sensor = algılayıcı",
+      "eco-friendly = çevre dostu"
+     ]
+    },
+    {
+     "title": "Gelecekle İlgili Tahminler",
+     "text": "Gelecekle ilgili tahminlerde will ve won't kullanırız: In the future, people will travel in flying cars. There won't be traffic jams. Olasılık için may / might kullanılır: Self-driving cars might reduce accidents. Kesinlik derecesini gösteren ifadeler: definitely (kesinlikle), probably (muhtemelen), possibly (belki). Örnek: Cars will definitely be electric. People will probably use drones for delivery. Tahminlerimizi gerekçelendirmek için because ile neden söyleriz: Flying cars will be popular because they will save time.",
+     "points": []
+    },
+    {
+     "title": "Artılar, Eksiler ve Koşul Cümleleri",
+     "text": "Geleceğin araçlarını tartışırken avantaj ve dezavantajları belirtiriz. Advantages: They will save time. They will reduce pollution. Disadvantages: They may be very expensive. Hackers might control self-driving cars. Olası sonuçları birinci tip koşul cümlesiyle (First Conditional) anlatırız: If + geniş zaman, will + fiil. Örnek: If we use electric cars, the air will be cleaner. If flying cars become common, we will need new traffic rules. Görüş bildirirken I strongly believe that ... ya da I'm not sure that ... kalıplarını kullanabiliriz.",
+     "points": [
+      "If + present simple, will + fiil",
+      "Kesinlik sırası: definitely, probably, possibly"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "transportation",
+     "meaning": "ulaşım"
+    },
+    {
+     "term": "future",
+     "meaning": "gelecek"
+    },
+    {
+     "term": "self-driving car",
+     "meaning": "sürücüsüz araba"
+    },
+    {
+     "term": "flying vehicle",
+     "meaning": "uçan araç"
+    },
+    {
+     "term": "prediction",
+     "meaning": "tahmin"
+    },
+    {
+     "term": "probably",
+     "meaning": "muhtemelen"
+    },
+    {
+     "term": "If ..., ... will ...",
+     "meaning": "Eğer ...-se, ...-ecek (koşul)"
+    }
+   ],
+   "example": {
+    "question": "Birinci tip koşul cümlesi kur: 1) we / use public transport → traffic / decrease. 2) self-driving cars / become cheap → many people / buy them.",
+    "solution": "1. If we use public transport, traffic will decrease.\n2. If self-driving cars become cheap, many people will buy them.\nAçıklama: If'li kısımda geniş zaman, sonuç kısmında will + yalın fiil kullanılır."
+   },
+   "remember": [
+    "Tahmin: will / won't; olasılık: may / might.",
+    "First Conditional: If + geniş zaman, will + fiil.",
+    "Kesinlik: definitely, probably, possibly.",
+    "Geleceğin araçları: self-driving cars, flying cars, electric cars."
+   ]
+  }
+ ]
+}

@@ -91,6 +91,7 @@
     font-weight: 600;
     color: var(--text-muted);
     text-decoration: none;
+    white-space: nowrap;
     transition: all var(--transition-fast);
 
     svg {
@@ -116,6 +117,20 @@
       &:hover, &.active {
         color: #7c3aed;
         background-color: var(--accent-light);
+      }
+    }
+  }
+}
+
+@media (max-width: 1360px) and (min-width: 769px) {
+  .main-nav {
+    gap: 2px;
+
+    .nav-link {
+      padding: 8px 10px;
+
+      svg {
+        display: none;
       }
     }
   }

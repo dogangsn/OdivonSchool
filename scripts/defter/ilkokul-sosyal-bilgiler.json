@@ -1,0 +1,410 @@
+{
+ "file": "ilkokul-sosyal-bilgiler",
+ "notes": [
+  {
+   "grade": 4,
+   "order": 1,
+   "intro": "Bu temada sosyal bilgiler dersinin bize ne kazandırdığını öğreniyoruz. Her insanın farklı özellikleri ve ilgi alanları olduğunu fark ediyoruz. Toplumsal birliği korumak için neler yapabileceğimizi düşünüyoruz.",
+   "sections": [
+    {
+     "title": "Sosyal bilgiler dersi",
+     "text": "Sosyal bilgiler; insanları, toplumları, yaşadığımız yeri, geçmişi ve günümüzü inceleyen bir derstir. Bu derste tarih, coğrafya, ekonomi ve vatandaşlık gibi konuları öğreniriz. Sosyal bilgiler, iyi bir vatandaş olmamıza yardım eder. Haklarımızı ve sorumluluklarımızı öğreniriz. Çevremizdeki sorunları fark eder, çözüm üretmeyi deneriz. Başkalarıyla uyum içinde yaşamayı ve farklı görüşlere saygı göstermeyi de bu derste geliştiririz.",
+     "points": [
+      "Tarih, coğrafya, ekonomi, vatandaşlık",
+      "Hak ve sorumluluklarımızı öğretir."
+     ]
+    },
+    {
+     "title": "Bireysel farklılıklar",
+     "text": "Her insan birbirinden farklıdır. Boyumuz, görünüşümüz, sevdiğimiz yemekler, ilgi alanlarımız ve yeteneklerimiz farklı olabilir. Kimimiz resim yapmayı, kimimiz spor yapmayı, kimimiz kitap okumayı sever. Bu farklılıklar hayatı zenginleştirir. Farklılıklarımız nedeniyle kimseyle alay etmemeli, kimseyi dışlamamalıyız. Herkesin duygularına ve düşüncelerine saygı göstermeliyiz. Farklı özelliklere sahip insanlar bir araya gelince daha güzel işler başarabilir.",
+     "points": [
+      "Farklılıklar hayatı zenginleştirir.",
+      "Kimseyi farklılığı nedeniyle dışlama."
+     ]
+    },
+    {
+     "title": "Toplumsal birlik",
+     "text": "Toplumsal birlik, bir toplumu oluşturan insanların ortak değerler etrafında bir arada olmasıdır. Ortak dilimiz, bayrağımız, millî ve dinî bayramlarımız, gelenek ve göreneklerimiz bizi birbirimize bağlar. Zor zamanlarda yardımlaşmak, afetlerde birbirimize destek olmak birliğimizi güçlendirir. Komşuluk ilişkilerini sürdürmek, bayramlarda büyükleri ziyaret etmek ve ortak etkinliklere katılmak da toplumsal birliğe katkı sağlar.",
+     "points": [
+      "Ortak değerler bizi birleştirir.",
+      "Yardımlaşma birliği güçlendirir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Bireysel özellik",
+     "meaning": "Bir kişiyi diğerlerinden ayıran özellik."
+    },
+    {
+     "term": "İlgi alanı",
+     "meaning": "Bir kişinin sevdiği ve merak ettiği konular."
+    },
+    {
+     "term": "Sosyal bilgiler",
+     "meaning": "İnsanı, toplumu ve çevreyi inceleyen ders."
+    },
+    {
+     "term": "Toplumsal birlik",
+     "meaning": "Toplumun ortak değerler etrafında bir arada olması."
+    },
+    {
+     "term": "Saygı",
+     "meaning": "Başkalarının duygu, düşünce ve haklarını önemseme."
+    },
+    {
+     "term": "Vatandaş",
+     "meaning": "Bir ülkeye bağlı olan, hak ve sorumlulukları bulunan kişi."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Sosyal bilgiler iyi vatandaş olmamıza yardım eder.",
+    "Her insan farklıdır ve değerlidir.",
+    "Farklılıklara saygı gösteririz.",
+    "Ortak değerler toplumu bir arada tutar."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 2,
+   "intro": "Bu temada haritaları okumayı ve yön bulmayı öğreniyoruz. Doğa ile insan arasındaki ilişkiyi inceliyoruz. Afetlerin etkilerini azaltmak için neler yapılabileceğini düşünüyoruz.",
+   "sections": [
+    {
+     "title": "Harita ve harita anahtarı",
+     "text": "Harita, Dünya'nın tamamının ya da bir bölümünün kuşbakışı görünümünün belirli bir oranda küçültülerek düz bir yüzeye çizilmesidir. Haritalarda her şeyi çizmek mümkün olmadığı için semboller kullanılır. Bu sembollerin anlamını gösteren bölüme harita anahtarı ya da lejant denir. Haritalarda kuzey yönü genellikle yukarıyı gösterir. Yön oku ve harita anahtarını kullanarak haritayı doğru okuyabiliriz.",
+     "points": [
+      "Harita kuşbakışı ve küçültülerek çizilir.",
+      "Harita anahtarı sembollerin anlamını gösterir.",
+      "Kuzey genellikle yukarıdadır."
+     ]
+    },
+    {
+     "title": "Navigasyon ve konum",
+     "text": "Günümüzde telefon ve taşıtlardaki yol uygulamaları, yani navigasyon, gideceğimiz yere en uygun yolu gösterir. Bu uygulamalar uydu sinyallerinden yararlanarak konumumuzu belirler. Haritada bir yeri bulurken çevresindeki önemli yerlerden ve yönlerden yararlanırız. Örneğin 'Okul, parkın kuzeyindedir' diyebiliriz. Navigasyon kullanırken de çevremize dikkat etmeli, trafik kurallarına uymalıyız. Navigasyonun internet ya da sinyal olmadığında çalışmayabileceğini de unutmamalıyız; bu yüzden harita okumayı bilmek önemlidir.",
+     "points": [
+      "Navigasyon en uygun yolu gösterir.",
+      "Konum anlatırken yönleri kullan."
+     ]
+    },
+    {
+     "title": "Doğa ile insan ilişkisi ve afetler",
+     "text": "Doğal çevre unsurları; dağlar, ovalar, akarsular, göller, denizler, ormanlar ve iklimdir. İnsanlar yaşayacakları yeri seçerken bu unsurları dikkate alır. Örneğin verimli ovalarda tarım yapılır, kıyılarda balıkçılık gelişir. İnsanlar da doğayı değiştirir: baraj, yol ve köprü yapar. Deprem, sel ve heyelan gibi afetlerin zararlarını azaltmak için sağlam binalar yapmak, dere yataklarına ev yapmamak ve ağaçlandırma yapmak gerekir.",
+     "points": [
+      "Ovalarda tarım, kıyılarda balıkçılık",
+      "Dere yataklarına yapı yapılmamalı."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Doğal çevre unsuru",
+     "meaning": "Dağ, ova, akarsu, orman gibi doğanın oluşturduğu unsurlar."
+    },
+    {
+     "term": "Harita",
+     "meaning": "Bir yerin kuşbakışı görünümünün küçültülerek düz yüzeye çizimi."
+    },
+    {
+     "term": "Harita anahtarı",
+     "meaning": "Haritadaki sembollerin anlamını gösteren bölüm."
+    },
+    {
+     "term": "Navigasyon (yol uygulamaları)",
+     "meaning": "Konumu belirleyip gidilecek yolu gösteren uygulama."
+    },
+    {
+     "term": "Kuşbakışı",
+     "meaning": "Bir yere tam yukarıdan bakış."
+    },
+    {
+     "term": "Afet",
+     "meaning": "İnsanlara ve çevreye büyük zarar veren olay."
+    }
+   ],
+   "example": {
+    "question": "Harita anahtarında mavi çizgi akarsuyu, yeşil üçgen ormanı gösteriyor. Haritada köyün kuzeyinde mavi bir çizgi var. Bu ne anlama gelir?",
+    "solution": "Harita anahtarına bakarız: mavi çizgi akarsudur. Kuzey haritanın yukarısıdır. Demek ki köyün kuzeyinden bir akarsu geçmektedir."
+   },
+   "remember": [
+    "Haritalar kuşbakışı ve küçültülerek çizilir.",
+    "Sembollerin anlamı harita anahtarındadır.",
+    "İnsan doğayı etkiler, doğa da insanı.",
+    "Afetlere karşı önlem almak zararı azaltır."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 3,
+   "intro": "Bu temada kültürümüzü ve ortak mirasımızı tanıyoruz. Eski ve yeni çocuk oyunlarını karşılaştırıyoruz. Aile tarihimizi araştırarak geçmişimizle bağ kuruyoruz.",
+   "sections": [
+    {
+     "title": "Kültür ve ortak miras",
+     "text": "Kültür, bir toplumun dili, gelenekleri, inançları, yemekleri, giyimi, müziği ve sanatı gibi maddi ve manevi değerlerinin tümüdür. Bir milletin geçmişten getirdiği ve onu diğer milletlerden ayıran değerlere millî kültür denir. Tarihî yapılar, el sanatları, türküler, masallar ve bayramlar ortak mirasımızdır. Bu miras geçmiş nesillerden bize kalmıştır. Onu korumak ve gelecek nesillere aktarmak hepimizin görevidir.",
+     "points": [
+      "Dil, gelenek, yemek, müzik kültürün parçasıdır.",
+      "Ortak mirası koruyup aktarmalıyız."
+     ]
+    },
+    {
+     "title": "Eski ve yeni oyunlar",
+     "text": "Büyüklerimizin çocukluğunda saklambaç, birdirbir, seksek, yakan top, mendil kapmaca ve uzun eşek gibi oyunlar oynanırdı. Oyuncaklar çoğu zaman tahta, bez ya da kâğıttan elde yapılırdı. Bugün ise elektronik oyuncaklar ve bilgisayar oyunları yaygındır. Oyunlar zamanla değişse de oyunun eğlendirme, arkadaşlık kurma ve öğrenme gibi amaçları aynı kalmıştır. Geleneksel oyunları oynamak hem eğlenceli hem de sağlıklıdır.",
+     "points": [
+      "Eski oyunlar: saklambaç, seksek, mendil kapmaca",
+      "Oyunların amacı değişmez."
+     ]
+    },
+    {
+     "title": "Aile tarihi",
+     "text": "Aile tarihimiz, büyüklerimizin yaşadıklarını, nereden geldiklerini ve hangi işleri yaptıklarını anlatır. Aile tarihimizi öğrenmek için büyükanne ve büyükbabalarımızla sohbet ederiz. Eski fotoğraflara, mektuplara ve belgelere bakarız. Bu bilgilerle bir soy ağacı, zaman şeridi ya da fotoğraf albümü hazırlayabiliriz. Aile tarihimizi bilmek kim olduğumuzu anlamamıza yardım eder ve büyüklerimizle bağımızı güçlendirir.",
+     "points": [
+      "Büyüklerinle sohbet et.",
+      "Soy ağacı ya da zaman şeridi hazırla."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Kültür",
+     "meaning": "Bir toplumun maddi ve manevi değerlerinin tümü."
+    },
+    {
+     "term": "Millî kültür",
+     "meaning": "Bir milleti diğerlerinden ayıran kültürel değerler."
+    },
+    {
+     "term": "Ortak miras",
+     "meaning": "Geçmiş nesillerden kalan ve toplumun paylaştığı değerler."
+    },
+    {
+     "term": "Sanat",
+     "meaning": "Duygu ve düşünceleri estetik biçimde anlatma."
+    },
+    {
+     "term": "Soy ağacı",
+     "meaning": "Aile bireylerini kuşaklarıyla gösteren şema."
+    },
+    {
+     "term": "Gelenek",
+     "meaning": "Kuşaktan kuşağa aktarılan alışkanlıklar."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Kültür bir toplumun ortak değerleridir.",
+    "Ortak mirasımızı korumalıyız.",
+    "Oyunlar değişse de amaçları aynıdır.",
+    "Aile tarihimiz geçmişimizi anlatır."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 4,
+   "intro": "Bu temada Millî Mücadele'yi, Atatürk'ü ve milletimizin fedakârlıklarını öğreniyoruz. Cumhuriyetin hayatımıza getirdiği yenilikleri inceliyoruz. Okulda demokratik katılımın nasıl yapıldığını keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Millî Mücadele",
+     "text": "Birinci Dünya Savaşı'ndan sonra ülkemizin toprakları düşman devletler tarafından işgal edilmeye başlandı. Mustafa Kemal, 19 Mayıs 1919'da Samsun'a çıkarak Millî Mücadele'yi başlattı. 23 Nisan 1920'de Ankara'da Türkiye Büyük Millet Meclisi açıldı. Kadın, erkek, genç, yaşlı herkes bu mücadeleye katıldı. Kadınlar cepheye kağnılarla cephane taşıdı. 30 Ağustos 1922'de Başkomutanlık Meydan Muharebesi kazanıldı ve vatanımız kurtarıldı.",
+     "points": [
+      "19 Mayıs 1919: Samsun'a çıkış",
+      "23 Nisan 1920: TBMM'nin açılışı",
+      "30 Ağustos 1922: Büyük zafer"
+     ]
+    },
+    {
+     "title": "Cumhuriyetin getirdikleri",
+     "text": "Millî Mücadele'nin kazanılmasından sonra 29 Ekim 1923'te Cumhuriyet ilan edildi. Atatürk ilk cumhurbaşkanı oldu. Cumhuriyetle birlikte birçok yenilik yapıldı. Yeni Türk harfleri kabul edildi ve okuma yazma öğrenmek kolaylaştı. Eğitim herkes için yaygınlaştırıldı. Soyadı Kanunu ile herkes bir soyadı aldı. Kadınlara seçme ve seçilme hakkı tanındı. Bu yenilikler bugün yaşadığımız hayatın temelini oluşturur.",
+     "points": [
+      "29 Ekim 1923: Cumhuriyetin ilanı",
+      "Yeni Türk harfleri kabul edildi.",
+      "Kadınlara seçme ve seçilme hakkı tanındı."
+     ]
+    },
+    {
+     "title": "Okulda demokrasi",
+     "text": "Demokrasi, insanların görüşlerini özgürce söyleyebildiği ve kararlara katılabildiği yönetimdir. Okulumuzda da demokratik süreçler vardır. Sınıf başkanı ve okul öğrenci temsilcisi seçimlerinde oy kullanırız. Seçimlerde aday olabilir, fikirlerimizi anlatabiliriz. Okul meclisinde sorunları konuşur, çözüm önerileri sunarız. Kararlara katılırken başkalarının görüşlerine saygı gösterir, çoğunluğun kararını kabul ederiz. Dayanışma içinde çalışmak okulumuzu güzelleştirir.",
+     "points": [
+      "Seçimlerde oy kullan.",
+      "Farklı görüşlere saygı göster."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Millî Mücadele",
+     "meaning": "Türk milletinin işgallere karşı verdiği bağımsızlık mücadelesi."
+    },
+    {
+     "term": "Cumhuriyet",
+     "meaning": "Halkın yöneticilerini seçimle belirlediği yönetim şekli."
+    },
+    {
+     "term": "Demokratik katılım",
+     "meaning": "Seçim ve oylama gibi yollarla kararlara katılma."
+    },
+    {
+     "term": "Dayanışma",
+     "meaning": "İnsanların birbirine destek olarak birlikte hareket etmesi."
+    },
+    {
+     "term": "Fedakârlık",
+     "meaning": "Başkaları için kendi isteklerinden vazgeçme."
+    },
+    {
+     "term": "TBMM",
+     "meaning": "Türkiye Büyük Millet Meclisi, yasaları yapan meclis."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Millî Mücadele 19 Mayıs 1919'da başladı.",
+    "TBMM 23 Nisan 1920'de açıldı.",
+    "Cumhuriyet 29 Ekim 1923'te ilan edildi.",
+    "Okulda seçimlere katılmak demokrasiyi yaşatır."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 5,
+   "intro": "Bu temada istek ve ihtiyaçlarımızı ayırt etmeyi öğreniyoruz. Bir ürünün üretimden tüketime nasıl ulaştığını inceliyoruz. Doğal kaynakları bilinçli tüketmenin önemini anlıyoruz.",
+   "sections": [
+    {
+     "title": "İstek ve ihtiyaç",
+     "text": "Yaşamak için mutlaka sahip olmamız gereken şeylere ihtiyaç denir. Beslenme, barınma, giyinme, sağlık ve eğitim temel ihtiyaçlarımızdır. Sahip olmasak da yaşamımızı sürdürebileceğimiz ama sahip olmak istediğimiz şeylere istek denir. Yeni bir oyuncak ya da pahalı bir ayakkabı istektir. Paramızı harcarken önce ihtiyaçlarımızı karşılamalıyız. Bilinçli tüketici, gerçekten gerekli olanı alır ve israf etmez.",
+     "points": [
+      "İhtiyaç: beslenme, barınma, giyinme",
+      "İstek: olmasa da yaşanabilecek şeyler",
+      "Önce ihtiyaçları karşıla."
+     ]
+    },
+    {
+     "title": "Üretim, dağıtım, tüketim",
+     "text": "İnsanların ihtiyaçlarını karşılamak için mal ve hizmet ortaya koymasına üretim denir. Üretilen ürünlerin tüketicilere ulaştırılmasına dağıtım denir. Ürünlerin ihtiyaç için kullanılmasına ise tüketim denir. Örneğin ekmek, çiftçinin buğday yetiştirmesiyle başlar. Buğday değirmende un olur, fırında ekmeğe dönüşür. Ekmek araçlarla marketlere dağıtılır. Biz de satın alıp tüketiriz. Bu süreçte birçok insan çalışır.",
+     "points": [
+      "Buğday → un → ekmek → market → sofra",
+      "Her aşamada emek vardır."
+     ]
+    },
+    {
+     "title": "Doğal kaynaklar ve bilinçli tüketim",
+     "text": "Su, toprak, orman, maden ve petrol gibi doğadan elde ettiğimiz değerlere doğal kaynak denir. Bu kaynakların bir kısmı sınırlıdır ve dikkatsiz kullanılırsa tükenebilir. Su ya da elektrik tüketimini gösteren grafikleri inceleyerek hangi aylarda daha çok tüketim yapıldığını görebiliriz. Bilinçli tüketim için gerektiği kadar almalı, ürünleri tamir ederek uzun süre kullanmalı ve atıkları geri dönüştürmeliyiz.",
+     "points": [
+      "Doğal kaynaklar sınırlıdır.",
+      "Grafikle tüketimi takip et.",
+      "Tamir et, yeniden kullan."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "İhtiyaç",
+     "meaning": "Yaşamak için mutlaka gerekli olan şey."
+    },
+    {
+     "term": "İstek",
+     "meaning": "Olmasa da yaşanabilecek, sahip olunmak istenen şey."
+    },
+    {
+     "term": "Üretim",
+     "meaning": "Mal ve hizmet ortaya koyma."
+    },
+    {
+     "term": "Dağıtım",
+     "meaning": "Ürünlerin tüketicilere ulaştırılması."
+    },
+    {
+     "term": "Tüketim",
+     "meaning": "Ürünlerin ihtiyaç için kullanılması."
+    },
+    {
+     "term": "Doğal kaynak",
+     "meaning": "Su, toprak, orman gibi doğadan elde edilen değerler."
+    },
+    {
+     "term": "Kaynak",
+     "meaning": "İhtiyaçları karşılamak için kullanılan her şey."
+    },
+    {
+     "term": "Bilinçli tüketim",
+     "meaning": "Gerektiği kadar ve israf etmeden tüketme."
+    }
+   ],
+   "example": {
+    "question": "Bir ailenin su tüketimi grafiğinde ocak ayında 10, temmuz ayında 18 ton su kullanıldığı görülüyor. Temmuzda ne kadar fazla su kullanılmış, nedeni ne olabilir?",
+    "solution": "Farkı buluruz: 18 − 10 = 8. Temmuzda 8 ton daha fazla su kullanılmıştır. Yaz aylarında havalar sıcak olduğu için daha çok su içilir, daha sık duş alınır ve bahçe sulanır."
+   },
+   "remember": [
+    "İhtiyaçlar isteklerden önce gelir.",
+    "Ürünler üretim, dağıtım ve tüketim aşamalarından geçer.",
+    "Doğal kaynaklar sınırlıdır.",
+    "Bilinçli tüketici israf etmez."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 6,
+   "intro": "Bu temada internette güvenli davranmayı öğreniyoruz. Dijital mahremiyetimizi korumayı ve siber zorbalığa karşı ne yapacağımızı keşfediyoruz. Bilim insanlarının çocukluk yıllarını inceliyoruz.",
+   "sections": [
+    {
+     "title": "Dijital güvenlik ve mahremiyet",
+     "text": "İnternet bilgiye ulaşmak için çok yararlıdır ama dikkatli kullanılmalıdır. Dijital güvenlik, internette kendimizi ve cihazlarımızı tehlikelere karşı korumaktır. Güçlü şifreler oluşturmalı ve şifremizi kimseyle paylaşmamalıyız. Dijital mahremiyet ise kişisel bilgilerimizin korunmasıdır. Adımızı, adresimizi, okulumuzu, fotoğraflarımızı ve telefon numaramızı tanımadığımız kişilerle paylaşmamalıyız. İnternete yüklenen bir bilgi kolayca silinemeyebilir. Bilmediğimiz bağlantılara tıklamamalıyız.",
+     "points": [
+      "Güçlü şifre kullan, kimseyle paylaşma.",
+      "Kişisel bilgilerini paylaşma.",
+      "İnternete yüklenen kolay silinmez."
+     ]
+    },
+    {
+     "title": "Siber zorbalık",
+     "text": "İnternet üzerinden birini aşağılamak, tehdit etmek, onunla alay etmek ya da izni olmadan fotoğrafını paylaşmak siber zorbalıktır. Siber zorbalık insanları çok üzer. Böyle bir durumla karşılaşırsak zorbaya cevap vermemeli, mesajların ekran görüntüsünü almalı ve hemen ailemize ya da öğretmenimize haber vermeliyiz. Zorbalık yapan kişiyi engelleyebiliriz. Biz de internette herkese saygılı davranmalı, kimseyi kırmamalıyız.",
+     "points": [
+      "Cevap verme, kanıt sakla.",
+      "Bir büyüğüne haber ver.",
+      "İnternette de saygılı ol."
+     ]
+    },
+    {
+     "title": "Bilim insanlarının çocukluğu",
+     "text": "Bilim insanlarının çoğu çocukken çok meraklıydı ve sık sık soru sorardı. Kitap okumayı, doğayı gözlemlemeyi ve bir şeyleri kurcalamayı severlerdi. Örneğin Aziz Sancar, Mardin'de büyüdü ve çalışkanlığıyla Nobel Kimya Ödülü'nü kazandı. Bilim insanlarının çocukluk yıllarını incelerken yaşadıkları dönemin şartlarını da düşünmeliyiz. O dönemde teknoloji ve imkânlar bugünden farklıydı. Bu hikâyeler bize merakın ve emeğin önemini gösterir.",
+     "points": [
+      "Merak ve soru sormak bilimin başlangıcıdır.",
+      "Dönemin şartlarını göz önünde bulundur."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Dijital güvenlik",
+     "meaning": "İnternette kendimizi ve cihazlarımızı tehlikelere karşı koruma."
+    },
+    {
+     "term": "Dijital mahremiyet",
+     "meaning": "Kişisel bilgilerimizin internette korunması."
+    },
+    {
+     "term": "Siber zorbalık",
+     "meaning": "İnternet üzerinden birine zarar verici davranışlarda bulunma."
+    },
+    {
+     "term": "Bilim insanı",
+     "meaning": "Bilimsel araştırmalar yapan kişi."
+    },
+    {
+     "term": "Şifre",
+     "meaning": "Hesaplarımızı korumak için kullandığımız gizli sözcük ya da karakterler."
+    },
+    {
+     "term": "Çevrim içi",
+     "meaning": "İnternete bağlı olma durumu."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Şifreni kimseyle paylaşma.",
+    "Kişisel bilgilerini internette koru.",
+    "Siber zorbalığı hemen bir büyüğüne bildir.",
+    "Bilim insanları da meraklı çocuklardı."
+   ]
+  }
+ ]
+}

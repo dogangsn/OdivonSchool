@@ -1,6 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 import { provideRouter } from '@angular/router';
 import { of } from 'rxjs';
+import { Auth } from '@angular/fire/auth';
 import { App } from './app';
 import { AuthService } from './core/services/auth';
 
@@ -10,6 +11,8 @@ describe('App', () => {
       imports: [App],
       providers: [
         provideRouter([]),
+        // AppVersionService (sürüm modalı) signs out on a new build; the app shell only needs the token.
+        { provide: Auth, useValue: {} },
         { provide: AuthService, useValue: { appUser$: of(null), logout: () => Promise.resolve() } },
       ],
     }).compileComponents();

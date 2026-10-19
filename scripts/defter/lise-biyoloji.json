@@ -1,0 +1,723 @@
+{
+ "file": "lise-biyoloji",
+ "notes": [
+  {
+   "grade": 9,
+   "order": 1,
+   "intro": "Bu temada biyolojinin bir bilim olarak nasıl çalıştığını, canlıları cansızlardan ayıran ortak özellikleri ve canlıların yapısını oluşturan kimyasal molekülleri öğreniyoruz. Su, mineraller, karbohidratlar, lipitler, proteinler, enzimler ve nükleik asitler yaşamın temel taşlarıdır. Bu konular, ileride göreceğimiz hücre, enerji ve kalıtım konularının temelini oluşturur.",
+   "sections": [
+    {
+     "title": "Bilimsel yöntem ve bilim etiği",
+     "text": "Biyoloji, canlıları gözlem ve deneyle inceleyen bir bilimdir. Bilimsel yöntem; gözlem yapma, problem belirleme, hipotez kurma, kontrollü deney yapma, verileri analiz etme ve sonuç çıkarma adımlarından oluşur. Bilimsel bilgi kanıta dayanır, sınanabilir ve yeni kanıtlarla değişebilir. Aşılar, antibiyotikler ve mikroskobun icadı gibi dönüm noktaları insan sağlığına büyük katkı sağlamıştır. Bilim etiği ise araştırmalarda dürüstlüğü, verilerin uydurulmamasını, başkalarının emeğine saygıyı ve deneylerde insan ile hayvan haklarının korunmasını gerektirir.",
+     "points": [
+      "Hipotez, sınanabilir bir ön tahmindir.",
+      "Kontrollü deneyde yalnızca bir değişken (bağımsız değişken) değiştirilir.",
+      "Bilimsel bilgi kesin değildir; yeni kanıtlarla güncellenebilir.",
+      "Etik ihlaller: veri uydurma, intihal, izinsiz deney."
+     ]
+    },
+    {
+     "title": "Canlıların ortak özellikleri",
+     "text": "Tüm canlılar hücrelerden oluşur, beslenir, solunum yaparak enerji üretir, metabolizma faaliyetleri gösterir, uyaranlara tepki verir, büyür, gelişir, ürer ve homeostaziyi (iç dengeyi) korur. Hücre yapısına göre canlılar ikiye ayrılır: Prokaryot hücrelerde zarla çevrili çekirdek ve zarlı organeller yoktur (bakteriler ve arkeler). Ökaryot hücrelerde ise çekirdek ve zarlı organeller bulunur (bitki, hayvan, mantar, protista). Beslenme bakımından canlılar ototrof (kendi besinini üreten) ve heterotrof (besinini dışarıdan alan) olarak gruplanır. Virüsler hücre yapısında olmadıkları ve ancak bir konak hücre içinde çoğalabildikleri için canlı ya da cansız olarak kesin biçimde sınıflandırılmaz.",
+     "points": [
+      "Prokaryot: çekirdek zarı yok, ribozom var.",
+      "Ökaryot: çekirdek ve zarlı organeller var.",
+      "Ototroflar fotosentez veya kemosentez yapar.",
+      "Virüsler kendi başına metabolizma gösteremez."
+     ]
+    },
+    {
+     "title": "İnorganik moleküller: su ve mineraller",
+     "text": "İnorganik moleküller canlılar tarafından üretilmez, dışarıdan hazır alınır; su, mineraller, asitler, bazlar ve tuzlar bu gruptadır. Su, canlı vücudunun büyük kısmını oluşturur. Su moleküllerinin birbirini çekmesine kohezyon, başka yüzeylere tutunmasına adezyon denir; bu özellikler sayesinde su bitkilerde ince borularda yükselir ve yüzey gerilimi oluşur. Su iyi bir çözücüdür, bu yüzden pek çok madde hücrede suda çözünmüş hâlde taşınır. Ayrıca suyun ısınması ve soğuması yavaş olduğu için vücut sıcaklığının dengelenmesine yardım eder. Mineraller ise kemik yapısı (kalsiyum), oksijen taşınması (demir) ve sinir iletimi (sodyum, potasyum) gibi görevlerde kullanılır.",
+     "points": [
+      "Kohezyon: su molekülleri arası çekim.",
+      "Adezyon: suyun farklı yüzeylere tutunması.",
+      "Su, kimyasal tepkimelerin gerçekleştiği ortamdır.",
+      "Mineraller enerji vermez ama düzenleyici ve yapıcıdır."
+     ]
+    },
+    {
+     "title": "Organik moleküller ve enzimler",
+     "text": "Organik moleküller karbon iskeletine sahiptir. Karbohidratlar temel enerji kaynağıdır (glikoz, nişasta, glikojen, selüloz). Lipitler enerji depolar ve hücre zarının yapısına katılır. Proteinler amino asitlerden oluşur; yapı, taşıma, savunma ve enzim görevleri vardır. Nükleik asitler (DNA ve RNA) kalıtsal bilgiyi taşır. Küçük birimlerin su çıkararak birleşmesine dehidrasyon sentezi (polimerizasyon), büyük moleküllerin su katılarak parçalanmasına hidroliz denir. Enzimler tepkimeleri hızlandıran protein yapılı biyolojik katalizörlerdir. İndüklenmiş uyum modeline göre enzimin aktif bölgesi, substrat bağlanınca ona tam uyacak şekilde biçim değiştirir. Aşırı sıcaklık veya uygun olmayan pH, enzimin yapısını bozar; buna denatürasyon denir.",
+     "points": [
+      "Nişasta testi: iyot çözeltisi mavi-mor renk verir.",
+      "Lipit testi: kâğıtta yağ lekesi bırakır.",
+      "Protein testi: biüret ayıracı mor renk verir.",
+      "Her enzimin bir optimum sıcaklığı ve pH değeri vardır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Prokaryot",
+     "meaning": "Zarla çevrili çekirdeği ve zarlı organeli olmayan hücre tipi."
+    },
+    {
+     "term": "Ökaryot",
+     "meaning": "Çekirdeği ve zarlı organelleri bulunan hücre tipi."
+    },
+    {
+     "term": "Kohezyon",
+     "meaning": "Aynı tür moleküllerin, örneğin su moleküllerinin birbirini çekmesi."
+    },
+    {
+     "term": "Adezyon",
+     "meaning": "Moleküllerin farklı bir yüzeye tutunması."
+    },
+    {
+     "term": "Dehidrasyon sentezi",
+     "meaning": "Küçük moleküllerin su açığa çıkararak birleşmesi."
+    },
+    {
+     "term": "Hidroliz",
+     "meaning": "Büyük bir molekülün su kullanılarak küçük parçalara ayrılması."
+    },
+    {
+     "term": "Denatürasyon",
+     "meaning": "Proteinin yüksek sıcaklık veya uygun olmayan pH ile yapısının ve işlevinin bozulması."
+    },
+    {
+     "term": "İndüklenmiş uyum",
+     "meaning": "Enzimin aktif bölgesinin substrata uyacak şekilde biçim değiştirmesi."
+    }
+   ],
+   "example": {
+    "question": "Bir öğrenci, bir enzimin 10 °C, 37 °C ve 70 °C'de çalışma hızını ölçüyor. En hızlı 37 °C'de çalıştığını, 70 °C'de ise hiç çalışmadığını görüyor. Bu sonucu nasıl açıklarsınız?",
+    "solution": "1. Bu deneyde bağımsız değişken sıcaklık, bağımlı değişken enzimin çalışma hızıdır.\n2. 37 °C bu enzimin optimum sıcaklığıdır; aktif bölge substrata en iyi bu sıcaklıkta uyar.\n3. 10 °C'de moleküllerin hareketi yavaş olduğu için tepkime yavaşlar ama enzim bozulmaz.\n4. 70 °C'de enzim denatüre olur; yapısı bozulduğu için substratı bağlayamaz ve tepkime durur."
+   },
+   "remember": [
+    "Bilimsel bilgi kanıta dayanır ve değişebilir.",
+    "Tüm canlılar hücreden oluşur; virüsler hücresel değildir.",
+    "Dehidrasyon birleştirir, hidroliz parçalar.",
+    "Enzimler protein yapılıdır ve tepkimeden değişmeden çıkar.",
+    "Sıcaklık ve pH enzim aktivitesini etkiler."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 2,
+   "intro": "Bu temada canlılığın en küçük birimi olan hücrenin bölümlerini, hücre zarından maddelerin nasıl geçtiğini ve canlıların nasıl sınıflandırıldığını öğreniyoruz. Ayrıca biyoçeşitliliğin ne olduğunu ve Türkiye'nin bu açıdan neden zengin bir ülke olduğunu inceliyoruz.",
+   "sections": [
+    {
+     "title": "Hücrenin yapısı ve organeller",
+     "text": "Ökaryot bir hücre; hücre zarı, sitoplazma ve çekirdekten oluşur. Hücre zarı seçici geçirgendir ve madde alışverişini denetler. Çekirdek, DNA'yı taşır ve hücreyi yönetir. Ribozomlar protein sentezler. Endoplazmik retikulum maddeleri taşır, granüllü olanı protein, granülsüz olanı lipit üretimiyle ilgilidir. Golgi cisimciği maddeleri paketleyip salgılar. Mitokondri hücresel solunumla ATP üretir. Kloroplast bitkilerde fotosentez yapar. Lizozom sindirim enzimleri içerir. Koful depolama yapar. Bitki hücrelerinde ayrıca selülozdan oluşan hücre duvarı bulunur. Organeller birbiriyle iş birliği içinde çalışır; örneğin bir salgı proteini ribozomda üretilir, ER ile taşınır, Golgide paketlenir ve dışarı verilir.",
+     "points": [
+      "Ribozom zarsız organeldir; tüm hücrelerde bulunur.",
+      "Mitokondri ve kloroplast kendi DNA'sına sahiptir.",
+      "Hücre duvarı ve kloroplast bitki hücresine özgüdür.",
+      "Sentrozom hayvan hücrelerinde bölünmede görev alır."
+     ]
+    },
+    {
+     "title": "Hücre zarından madde geçişi",
+     "text": "Maddeler hücre zarından farklı yollarla geçer. Pasif taşımada enerji (ATP) harcanmaz ve maddeler çok yoğun ortamdan az yoğun ortama geçer. Difüzyon, ozmoz ve kolaylaştırılmış difüzyon pasif taşımadır. Ozmoz, suyun seçici geçirgen zardan az yoğun (seyreltik) çözeltiden çok yoğun çözeltiye geçmesidir. Aktif taşımada ise madde az yoğun ortamdan çok yoğun ortama, taşıyıcı protein ve ATP kullanılarak taşınır. Zardan geçemeyecek kadar büyük moleküller, zarın kese oluşturmasıyla taşınır: hücre içine alıma endositoz, dışarı atıma ekzositoz denir. Günlük hayatta salatanın tuzlanınca suyunu bırakması ve kuru üzümün suda şişmesi ozmoza örnektir.",
+     "points": [
+      "Pasif taşıma: ATP harcanmaz.",
+      "Aktif taşıma: ATP ve taşıyıcı protein gerekir.",
+      "Endositoz ve ekzositozda zar harcanır veya eklenir.",
+      "Hipertonik ortamdaki hücre su kaybeder, hipotonik ortamdaki hücre su alır."
+     ]
+    },
+    {
+     "title": "Canlıların sınıflandırılması",
+     "text": "Bilim insanları canlıları benzerliklerine ve evrimsel akrabalıklarına göre sınıflandırır. Sınıflandırma kategorileri büyükten küçüğe domain (üst âlem), âlem, şube, sınıf, takım, aile, cins ve türdür. Tür, birbiriyle çiftleştiğinde verimli yavrular oluşturabilen bireyler topluluğudur. Carl Linnaeus'un geliştirdiği ikili adlandırmada her türün bilimsel adı iki kelimeden oluşur: birinci kelime cins, ikinci kelime tür adını belirtir; örneğin insan Homo sapiens olarak adlandırılır. Bilimsel adlar Latincedir ve dünya genelinde ortak kullanılır, böylece aynı canlı için farklı dillerdeki adlar karışıklık yaratmaz.",
+     "points": [
+      "Kategori küçüldükçe benzerlik artar, birey sayısı azalır.",
+      "Cins adı büyük harfle, tür adı küçük harfle yazılır.",
+      "En küçük sınıflandırma birimi türdür."
+     ]
+    },
+    {
+     "title": "Üç domain ve biyoçeşitlilik",
+     "text": "Modern sınıflandırmada canlılar üç domainde toplanır: Bakteri, Arke ve Ökarya. Bakteriler ve arkeler prokaryottur; arkeler genellikle çok tuzlu, çok sıcak veya oksijensiz gibi zor koşullarda yaşayabilir. Ökarya domaini protistler, mantarlar, bitkiler ve hayvanlardan oluşur. Biyoçeşitlilik; genetik çeşitlilik, tür çeşitliliği ve ekosistem çeşitliliğini kapsar. Türkiye, üç farklı iklim tipinin etkisinde olması, yer şekillerinin çeşitliliği ve üç bitki coğrafyası bölgesinin kesiştiği yerde bulunması nedeniyle biyoçeşitlilik bakımından zengindir. Yalnızca belirli bir bölgede doğal olarak yaşayan türlere endemik tür denir; Türkiye'de çok sayıda endemik bitki türü vardır.",
+     "points": [
+      "Bakteri ve Arke: prokaryot; Ökarya: ökaryot.",
+      "Mantarlar heterotroftur, hücre duvarlarında kitin bulunur.",
+      "Endemik türler o bölgenin doğal mirasıdır.",
+      "Biyoçeşitlilik ekosistemlerin dengesini korur."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Organel",
+     "meaning": "Hücre içinde belirli bir görevi yapan yapı."
+    },
+    {
+     "term": "Pasif taşıma",
+     "meaning": "Enerji harcanmadan, çok yoğun ortamdan az yoğun ortama madde geçişi."
+    },
+    {
+     "term": "Aktif taşıma",
+     "meaning": "ATP harcanarak, az yoğun ortamdan çok yoğun ortama madde taşınması."
+    },
+    {
+     "term": "Endositoz",
+     "meaning": "Büyük moleküllerin zar keseleriyle hücre içine alınması."
+    },
+    {
+     "term": "Ekzositoz",
+     "meaning": "Hücrede üretilen maddelerin keselerle hücre dışına atılması."
+    },
+    {
+     "term": "İkili adlandırma",
+     "meaning": "Her türün cins ve tür adından oluşan iki kelimelik bilimsel adla anılması."
+    },
+    {
+     "term": "Domain",
+     "meaning": "Sınıflandırmadaki en büyük kategori; Bakteri, Arke ve Ökarya."
+    },
+    {
+     "term": "Endemik tür",
+     "meaning": "Doğal olarak yalnızca belirli bir bölgede yaşayan tür."
+    }
+   ],
+   "example": {
+    "question": "Bir patates parçası çok tuzlu suya, diğeri saf suya konuyor. Bir saat sonra parçalarda ne değişiklik olur?",
+    "solution": "1. Ozmozda su, az yoğun ortamdan çok yoğun ortama geçer.\n2. Tuzlu su, patates hücrelerine göre daha yoğundur (hipertonik). Hücrelerden dışarı su çıkar; patates küçülür ve yumuşar.\n3. Saf su, hücrelere göre daha az yoğundur (hipotonik). Hücrelere su girer; patates şişer ve sertleşir.\n4. Bu olay pasif taşımadır, enerji harcanmaz."
+   },
+   "remember": [
+    "Hücre zarı seçici geçirgendir.",
+    "Ozmozda hareket eden madde sudur.",
+    "Aktif taşıma ATP ister, pasif taşıma istemez.",
+    "Bilimsel adda önce cins, sonra tür adı yazılır.",
+    "Üç domain: Bakteri, Arke, Ökarya."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 1,
+   "intro": "Canlılar büyümek, hareket etmek ve yaşamlarını sürdürmek için sürekli enerjiye ihtiyaç duyar. Bu temada güneş enerjisinin fotosentezle besine nasıl dönüştüğünü, besinlerin sindirim sisteminde nasıl parçalandığını ve hücresel solunumla ATP'ye nasıl çevrildiğini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Fotosentez ve kemosentez",
+     "text": "Fotosentez, ışık enerjisinin klorofil gibi pigmentler yardımıyla kimyasal enerjiye dönüştürülmesidir. Bitkilerde kloroplastta gerçekleşir. Genel denklemi: karbondioksit + su + ışık enerjisi → glikoz + oksijen. Işığa bağımlı tepkimelerde ışık enerjisi soğurulur, su parçalanır (fotoliz), oksijen açığa çıkar, ATP ve NADPH üretilir. Işıktan bağımsız tepkimelerde (Calvin döngüsü) bu ATP ve NADPH kullanılarak karbondioksitten glikoz yapılır. Açığa çıkan oksijenin kaynağı sudur. Kemosentez ise bazı bakterilerin ışık yerine inorganik maddelerin (amonyak, hidrojen sülfür gibi) oksitlenmesinden elde ettiği enerjiyle besin üretmesidir; bu canlılar da ototroftur.",
+     "points": [
+      "Fotosentezi ışık şiddeti, CO₂ miktarı, sıcaklık ve su etkiler.",
+      "Fotosentezde oluşan O₂ sudan gelir.",
+      "Calvin döngüsü kloroplastın stroma kısmında gerçekleşir.",
+      "Kemosentez yapanlar ışık olmayan ortamlarda da besin üretebilir."
+     ]
+    },
+    {
+     "title": "Sindirim ve emilim",
+     "text": "Heterotrof canlılar aldıkları büyük besin moleküllerini hücre zarından geçebilecek küçük birimlere parçalamak zorundadır; buna sindirim denir. Mekanik sindirimde besin dişler ve mide hareketleriyle fiziksel olarak küçültülür. Kimyasal sindirimde enzimler hidroliz tepkimeleriyle molekülleri parçalar. Karbohidratlar glikoza, proteinler amino asitlere, yağlar yağ asidi ve gliserole dönüşür. Sindirim hücre içinde (tek hücrelilerde) veya hücre dışında (insanda sindirim kanalında) olabilir. İnsanda karbohidrat sindirimi ağızda, protein sindirimi midede, yağ sindirimi ince bağırsakta başlar ve hepsinin sindirimi ince bağırsakta tamamlanır. Sindirilen besinler ince bağırsaktaki villuslardan kana ve lenfe emilir ve dolaşım sistemiyle hücrelere taşınır.",
+     "points": [
+      "Ağız, yutak, yemek borusu, mide, ince ve kalın bağırsak sindirim kanalını oluşturur.",
+      "Karaciğer safra salgılar; safra yağları küçük damlacıklara ayırır.",
+      "Pankreas birçok sindirim enzimi üretir.",
+      "Villuslar emilim yüzeyini artırır."
+     ]
+    },
+    {
+     "title": "Hücresel solunum ve ATP",
+     "text": "Hücresel solunum, besinlerdeki kimyasal enerjinin ATP'ye aktarılmasıdır. Oksijenli solunumda glikoz önce sitoplazmada glikolizle pirüvata parçalanır. Ökaryotlarda pirüvat mitokondriye girer, Krebs döngüsünde karbondioksit açığa çıkar. Son aşama olan elektron taşıma sisteminde oksijen son elektron alıcısıdır ve su oluşur; ATP'nin büyük kısmı bu aşamada sentezlenir. Genel denklem: glikoz + oksijen → karbondioksit + su + ATP. Oksijensiz ortamda bazı canlılar fermantasyon yapar. Etil alkol fermantasyonunda (maya) etil alkol ve karbondioksit, laktik asit fermantasyonunda (bazı bakteriler ve yorgun kas hücreleri) laktik asit oluşur. Fermantasyon oksijenli solunuma göre çok daha az ATP üretir.",
+     "points": [
+      "Glikoliz tüm canlılarda ortaktır ve oksijen gerektirmez.",
+      "Mayalı hamurun kabarması CO₂ çıkışından kaynaklanır.",
+      "Yoğurt yapımı laktik asit fermantasyonuna örnektir.",
+      "ATP, hücrenin doğrudan kullandığı enerji molekülüdür."
+     ]
+    },
+    {
+     "title": "Farklı besinlerden enerji",
+     "text": "Hücreler öncelikle karbohidratları enerji için kullanır. Karbohidrat yetersiz kaldığında yağlar, en son olarak da proteinler enerji kaynağı olarak kullanılır. Yağlar gram başına karbohidrat ve proteinlerden daha fazla enerji verir; bu nedenle uzun süreli enerji deposudur. Proteinler daha çok yapı malzemesi olarak kullanılır; enerji için yıkıldıklarında azotlu atıklar oluşur ve bu atıklar boşaltım sistemiyle atılır. Elde edilen ATP; kas kasılması, aktif taşıma, sinir iletimi, büyüme ve molekül sentezi gibi tüm metabolik olaylarda harcanır. Dengeli beslenme, vücudun ihtiyaç duyduğu enerjiyi ve yapı maddelerini karşılamak için gereklidir.",
+     "points": [
+      "Enerji kullanım önceliği: karbohidrat, yağ, protein.",
+      "Proteinlerin yıkımında azotlu atık oluşur.",
+      "Enerji fazlası vücutta yağ olarak depolanır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Pigment",
+     "meaning": "Işığı soğuran renk maddesi; fotosentezde en önemlisi klorofildir."
+    },
+    {
+     "term": "Fotoliz",
+     "meaning": "Fotosentezde suyun ışık enerjisiyle parçalanması."
+    },
+    {
+     "term": "Calvin döngüsü",
+     "meaning": "Fotosentezde CO₂'nin ATP ve NADPH kullanılarak glikoza dönüştürüldüğü tepkimeler."
+    },
+    {
+     "term": "Emilim",
+     "meaning": "Sindirilmiş besinlerin bağırsaktan kana veya lenfe geçmesi."
+    },
+    {
+     "term": "Hücresel solunum",
+     "meaning": "Besinlerdeki enerjinin parçalanarak ATP'ye aktarılması."
+    },
+    {
+     "term": "Fermantasyon",
+     "meaning": "Oksijen kullanılmadan, az miktarda ATP üretilen enerji eldesi."
+    },
+    {
+     "term": "Elektron taşıma sistemi",
+     "meaning": "Oksijenli solunumda ATP'nin çoğunun üretildiği, oksijenin suya dönüştüğü son aşama."
+    },
+    {
+     "term": "ATP",
+     "meaning": "Hücrede enerji taşıyan ve harcanan temel molekül."
+    }
+   ],
+   "example": {
+    "question": "Kapalı bir cam fanusa bir saksı bitkisi konup ışıkta bırakılıyor. Fanus içindeki CO₂ ve O₂ miktarı zamanla nasıl değişir? Fanus karanlığa alınırsa ne olur?",
+    "solution": "1. Işıkta bitki hem fotosentez hem solunum yapar; fotosentez hızı daha yüksektir.\n2. Bu yüzden ışıkta CO₂ azalır, O₂ artar.\n3. Karanlıkta fotosentez durur, yalnızca solunum devam eder.\n4. Karanlıkta O₂ azalır, CO₂ artar. Sonuç: solunum her zaman, fotosentez yalnızca ışıkta gerçekleşir."
+   },
+   "remember": [
+    "Fotosentez enerji depolar, solunum enerjiyi açığa çıkarır.",
+    "Fotosentezde çıkan O₂ suyun parçalanmasından gelir.",
+    "Sindirim büyük molekülleri hidrolizle küçültür.",
+    "Oksijenli solunum fermantasyondan çok daha fazla ATP üretir.",
+    "Bitkiler de gece gündüz solunum yapar."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 2,
+   "intro": "Ekoloji, canlıların birbirleriyle ve çevreleriyle olan ilişkilerini inceleyen bilim dalıdır. Bu temada ekosistemin bileşenlerini, enerji akışını, madde döngülerini ve doğal kaynakları korumak için neler yapabileceğimizi öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Ekosistem ve bileşenleri",
+     "text": "Ekosistem, belirli bir alanda yaşayan canlılar ile onları çevreleyen cansız ortamın oluşturduğu bütündür. Cansız (abiyotik) bileşenler ışık, sıcaklık, su, toprak, mineraller ve havadır. Canlı (biyotik) bileşenler üreticiler, tüketiciler ve ayrıştırıcılardır. Üreticiler besinlerini kendileri yapar. Tüketiciler (otçul, etçil, hepçil) besinlerini diğer canlılardan alır. Ayrıştırıcılar (bakteri ve mantarlar) ölü canlıları parçalayarak inorganik maddeleri toprağa geri kazandırır. Aynı türden bireylerin oluşturduğu topluluğa popülasyon, bir alandaki farklı popülasyonların tümüne komünite denir. Organizasyon sırası: birey, popülasyon, komünite, ekosistem, biyosfer.",
+     "points": [
+      "Habitat: canlının yaşadığı yer.",
+      "Ekolojik niş: canlının ekosistemdeki rolü ve yaşam biçimi.",
+      "Ayrıştırıcılar madde döngüsünü tamamlar."
+     ]
+    },
+    {
+     "title": "Popülasyon ve komünitedeki etkileşimler",
+     "text": "Canlılar arasında farklı ilişkiler görülür. Aynı kaynağı (besin, su, yer) kullanan canlılar arasında rekabet olur. Av-avcı ilişkisinde avcı, av popülasyonunu kontrol eder. Simbiyotik ilişkiler üç türlüdür: mutualizmde iki taraf da yararlanır (liken), kommensalizmde biri yararlanır diğeri etkilenmez, parazitizmde biri yararlanırken diğeri zarar görür. Popülasyonların büyümesini besin azlığı, hastalık, avcılar ve yer darlığı gibi çevre direnci sınırlar. Bir ortamın sürekli besleyebileceği en fazla birey sayısına taşıma kapasitesi denir. Çıplak bir kayalıkta veya yanmış bir ormanda zamanla canlı topluluklarının birbirini izleyerek yerleşmesine süksesyon (ekolojik ardalanma) denir.",
+     "points": [
+      "Çevre direnci arttıkça popülasyon büyümesi yavaşlar.",
+      "Süksesyon genellikle liken ve yosunlarla başlar.",
+      "Rekabet, ortak kaynak kullanımı arttıkça şiddetlenir."
+     ]
+    },
+    {
+     "title": "Enerji akışı ve madde döngüleri",
+     "text": "Ekosistemde enerji güneşten üreticilere, oradan tüketicilere besin zinciriyle aktarılır. Birden fazla besin zincirinin birbirine bağlanmasıyla besin ağı oluşur. Her basamakta enerjinin büyük kısmı solunum ve ısı olarak kaybolur; bir üst basamağa ortalama yaklaşık yüzde onu aktarılır. Bu yüzden besin zincirleri kısa olur ve enerji piramidinin tabanı geniştir. Enerji tek yönlü akar ve geri dönmez; madde ise döngüsel olarak tekrar tekrar kullanılır. Su döngüsünde buharlaşma, terleme, yoğuşma ve yağış görülür. Karbon döngüsünde fotosentez havadan CO₂ alır; solunum, ayrışma ve yanma CO₂ verir. Azot döngüsünde bakteriler havadaki azotu bitkilerin kullanabileceği hâle getirir.",
+     "points": [
+      "Enerji akışı tek yönlüdür, madde döngüseldir.",
+      "Üst basamaklara çıkıldıkça kullanılabilir enerji azalır.",
+      "Fosil yakıtların yakılması havadaki CO₂'yi artırır.",
+      "Azot bağlayıcı bakteriler toprağı zenginleştirir."
+     ]
+    },
+    {
+     "title": "Sürdürülebilirlik ve çevre sorunları",
+     "text": "Ekolojik sürdürülebilirlik, doğal kaynakları gelecek nesillerin ihtiyaçlarını tehlikeye atmadan kullanmaktır. Hava, su ve toprak kirliliği, ormansızlaşma, aşırı avlanma ve habitat kaybı bu dengeyi bozar. Erozyon, toprağın su ve rüzgârla taşınmasıdır; bitki örtüsünün yok edilmesi erozyonu hızlandırır. Gübre ve atık sularla göllere fazla besin girmesi algleri aşırı çoğaltır; algler ölüp ayrışınca sudaki oksijen azalır ve balıklar ölür; buna ötrofikasyon denir. Sera gazlarının artışı küresel iklim değişikliğine yol açar. Ekolojik ayak izi, bir kişinin tükettiği kaynakları yeniden üretmek için gereken alandır. Geri dönüşüm, enerji ve su tasarrufu, toplu taşıma kullanımı ve koruma alanları ayak izimizi küçültür.",
+     "points": [
+      "Atıkları kaynağında ayrıştırmak geri dönüşümü kolaylaştırır.",
+      "Milli parklar ve koruma alanları biyoçeşitliliği korur.",
+      "Endemik türler habitat kaybına karşı çok hassastır.",
+      "Az tüketmek, ayak izini küçültmenin en etkili yoludur."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Rekabet",
+     "meaning": "Aynı kaynağı kullanan canlılar arasındaki çekişme."
+    },
+    {
+     "term": "Süksesyon",
+     "meaning": "Bir alanda canlı topluluklarının zamanla birbirini izleyerek yerleşmesi."
+    },
+    {
+     "term": "Çevre direnci",
+     "meaning": "Popülasyonun büyümesini sınırlayan etkenlerin tümü."
+    },
+    {
+     "term": "Taşıma kapasitesi",
+     "meaning": "Bir ortamın sürekli olarak besleyebileceği en fazla birey sayısı."
+    },
+    {
+     "term": "Erozyon",
+     "meaning": "Toprağın su ve rüzgâr gibi etkenlerle aşınıp taşınması."
+    },
+    {
+     "term": "Ötrofikasyon",
+     "meaning": "Suya fazla besin girmesiyle alglerin aşırı çoğalıp oksijenin tükenmesi."
+    },
+    {
+     "term": "Endemik",
+     "meaning": "Yalnızca belirli bir bölgede doğal olarak yaşayan."
+    },
+    {
+     "term": "İklim değişikliği",
+     "meaning": "Sera gazı artışı gibi nedenlerle iklimde uzun süreli değişim."
+    }
+   ],
+   "example": {
+    "question": "Ot → çekirge → kurbağa → yılan besin zincirinde otların depoladığı enerji 10 000 birimdir. Her basamağa yaklaşık yüzde 10 aktarıldığına göre yılana ne kadar enerji ulaşır?",
+    "solution": "1. Ot: 10 000 birim.\n2. Çekirge: 10 000 × 0,1 = 1000 birim.\n3. Kurbağa: 1000 × 0,1 = 100 birim.\n4. Yılan: 100 × 0,1 = 10 birim.\nSonuç: Yılana yaklaşık 10 birim enerji ulaşır; enerjinin çoğu her basamakta ısı ve solunumla kaybolur."
+   },
+   "remember": [
+    "Ayrıştırıcılar olmadan madde döngüsü tamamlanamaz.",
+    "Enerji akışı tek yönlüdür.",
+    "Popülasyon taşıma kapasitesini uzun süre aşamaz.",
+    "Ötrofikasyon sudaki oksijeni azaltır.",
+    "Sürdürülebilirlik gelecek nesillerin hakkını korur."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 1,
+   "intro": "Canlılar çevrelerindeki değişikliklere, yani uyaranlara tepki vererek yaşamlarını sürdürür. Bu temada bitkilerin ve hayvanların tepki mekanizmalarını, insanda duyu organlarını, sinir sistemini, kas ve iskelet sistemini ve bağışıklık sistemini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Bitkilerde tepkiler ve hormonlar",
+     "text": "Bitkiler yer değiştiremez ama uyaranlara büyüme veya şekil değişikliğiyle tepki verir. Uyaranın yönüne bağlı tepkilere yönelme (tropizma) denir: gövdenin ışığa doğru büyümesi pozitif fototropizma, kökün yer çekimi yönünde büyümesi pozitif gravitropizmadır. Uyaranın yönünden bağımsız tepkilere irkilme (nasti) denir; küstüm otunun dokununca yapraklarını kapatması ve bazı çiçeklerin gece kapanması örnektir. Bitkisel hormonlar büyümeyi ve tepkileri düzenler. Oksin hücre uzamasını sağlar ve ışık gelmeyen tarafta biriktiği için gövde ışığa doğru eğilir. Giberellin gövde uzaması ve çimlenmeyi, sitokinin hücre bölünmesini artırır. Absisik asit büyümeyi yavaşlatır ve tohum uykusunu sağlar. Etilen meyve olgunlaşmasını hızlandırır.",
+     "points": [
+      "Yönelme: uyaranın yönüne bağlı, genellikle büyümeyle olur.",
+      "İrkilme: yönden bağımsız, genellikle turgor değişimiyle olur.",
+      "Olgun bir elma, yanındaki meyvelerin olgunlaşmasını etilenle hızlandırır."
+     ]
+    },
+    {
+     "title": "Sinir sistemi ve refleks",
+     "text": "Hayvanlarda sinir sistemi canlının karmaşıklığına göre farklılık gösterir: denizanasında ağ şeklinde, solucanda gangliyonlu, omurgalılarda ise beyin ve omurilikten oluşan merkezî sinir sistemi vardır. İnsanda sinir sistemi merkezî (beyin, omurilik) ve çevresel (sinirler) olmak üzere ikiye ayrılır. Sinir hücresi (nöron); dendrit, hücre gövdesi ve aksondan oluşur. Uyarı, nöron zarındaki iyon geçişleriyle oluşan elektriksel bir değişim olan aksiyon potansiyeli şeklinde iletilir. Nöronlar arası iletim sinapslarda kimyasal maddelerle gerçekleşir. Refleks, beynin denetimi olmadan, çoğunlukla omurilik tarafından yönetilen ani ve istemsiz tepkidir; sıcak bir yüzeye dokununca eli hemen çekmek buna örnektir. Refleks yayı: reseptör, duyu nöronu, ara nöron, motor nöron, efektör.",
+     "points": [
+      "Beyin bilgileri bütünleştirir ve karar verir.",
+      "Omurilik refleks merkezidir ve iletim yolu sağlar.",
+      "Duyu nöronu uyarıyı merkeze, motor nöron merkezden organa taşır.",
+      "Refleksler vücudu tehlikelerden hızla korur."
+     ]
+    },
+    {
+     "title": "Duyu organları, kas ve iskelet",
+     "text": "Duyu reseptörleri uyaranın türüne göre sınıflandırılır: ışık (göz), ses ve denge (kulak), kimyasal (dil ve burun), dokunma, basınç, sıcaklık ve ağrı (deri) reseptörleri. Reseptörler uyarıyı sinir sinyaline çevirir; algılama ise beyinde gerçekleşir. Hareket, iskelet, kas ve eklemlerin eş güdümlü çalışmasıyla olur. Kaslar yalnızca kasılarak kemikleri çeker; bu nedenle kollarımızdaki ön kol kası ve arka kol kası gibi zıt çalışan kas çiftleri vardır. Kasılma, kas hücresindeki aktin ve miyozin iplikçiklerinin ATP enerjisiyle birbiri üzerinde kaymasıyla gerçekleşir; bu modele kayan iplikler modeli denir. Kasılma için kalsiyum iyonları ve ATP gereklidir. Eklemler, kemiklerin birleşme yerleridir ve hareketin yönünü belirler.",
+     "points": [
+      "Algı beyinde oluşur, reseptör yalnızca uyarıyı alır.",
+      "Kasılmada kas kısalır, aktin ve miyozinin boyu değişmez.",
+      "Kaslar çeker, itemez."
+     ]
+    },
+    {
+     "title": "Bağışıklık sistemi ve alerji",
+     "text": "Bağışıklık sistemi vücudu mikroplara ve yabancı maddelere karşı korur. Doğal (doğuştan) bağışıklık özgül değildir: deri, mukus, gözyaşı, mide asidi, ateş, yangı tepkisi ve fagositoz yapan akyuvarlar ilk savunma hatlarıdır. Kazanılmış (özgül) bağışıklık belirli bir antijene karşı gelişir. B lenfositleri antikor üretir, T lenfositleri enfekte hücreleri yok eder. Hafıza hücreleri aynı mikrop tekrar geldiğinde hızlı ve güçlü tepki verilmesini sağlar. Aşı, zayıflatılmış veya öldürülmüş mikrop ya da parçalarıyla vücudun hafıza hücresi oluşturmasını sağlar; buna aktif bağışıklık denir. Hazır antikor verilmesi pasif bağışıklıktır ve kısa sürelidir. Alerji, bağışıklık sisteminin polen, toz veya bazı besinler gibi zararsız maddelere aşırı tepki vermesidir.",
+     "points": [
+      "Antijen: bağışıklık tepkisini başlatan yabancı madde.",
+      "Antikor: antijene özgü bağlanan protein.",
+      "Aşı aktif, serum pasif bağışıklık sağlar.",
+      "Alerjide histamin salgısı kaşıntı ve şişliğe neden olur."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Yönelme",
+     "meaning": "Bitkinin uyaranın yönüne bağlı olarak büyüyerek verdiği tepki."
+    },
+    {
+     "term": "İrkilme",
+     "meaning": "Bitkinin uyaranın yönünden bağımsız olarak verdiği tepki."
+    },
+    {
+     "term": "Duyu",
+     "meaning": "Uyaranın reseptörlerce alınıp beyinde algılanması."
+    },
+    {
+     "term": "Aksiyon potansiyeli",
+     "meaning": "Nöron zarında iyon geçişleriyle oluşan ve uyarıyı ileten elektriksel değişim."
+    },
+    {
+     "term": "Bütünleştirme",
+     "meaning": "Merkezî sinir sisteminin gelen bilgileri değerlendirip uygun tepkiye karar vermesi."
+    },
+    {
+     "term": "Kasılma",
+     "meaning": "Aktin ve miyozin iplikçiklerinin kaymasıyla kasın kısalması."
+    },
+    {
+     "term": "Refleks",
+     "meaning": "Beyin denetimi olmadan gerçekleşen ani, istemsiz tepki."
+    },
+    {
+     "term": "Bağışıklık",
+     "meaning": "Vücudun mikroplara ve yabancı maddelere karşı savunma yeteneği."
+    }
+   ],
+   "example": {
+    "question": "Bir saksı bitkisi pencere kenarında yalnızca bir yandan ışık alıyor. Birkaç gün sonra gövde ışığa doğru eğiliyor. Bu nasıl açıklanır?",
+    "solution": "1. Bu olay pozitif fototropizmadır, yani yönelmedir.\n2. Oksin hormonu gövdenin ışık almayan (gölge) tarafında birikir.\n3. Oksin, gölge taraftaki hücrelerin daha fazla uzamasını sağlar.\n4. Gölge taraf daha hızlı uzadığı için gövde ışık gelen yöne doğru eğilir."
+   },
+   "remember": [
+    "Yönelme uyaranın yönüne bağlıdır, irkilme değildir.",
+    "Refleks merkezi çoğunlukla omuriliktir.",
+    "Kas kasılması için ATP ve kalsiyum gerekir.",
+    "Hafıza hücreleri aşının koruyuculuğunu sağlar.",
+    "Alerji zararsız maddeye verilen aşırı tepkidir."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 2,
+   "intro": "Vücudumuzun iç ortamı; sıcaklık, su, tuz, pH ve kan şekeri gibi bakımlardan dar sınırlar içinde sabit tutulur. Bu dengeye homeostazi denir. Bu temada sinir, endokrin, dolaşım, solunum ve boşaltım sistemlerinin bu dengeyi birlikte nasıl koruduğunu öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Homeostazi ve geri bildirim",
+     "text": "Homeostazi, dış ortam değişse bile iç ortamın kararlı tutulmasıdır. Hücrelerdeki enzimler belirli sıcaklık ve pH aralığında çalıştığı için bu denge yaşamsaldır. Denge çoğunlukla geri bildirim mekanizmalarıyla sağlanır. Negatif geri bildirimde bir değişiklik, kendisini tersine çevirecek bir yanıt başlatır; vücut sıcaklığı yükselince terleme ile düşürülmesi buna örnektir. Homeostazinin büyük kısmı negatif geri bildirimle sağlanır. Pozitif geri bildirimde ise değişiklik daha da güçlendirilir ve süreç bir sonuca ulaşınca durur; doğum sırasında kasılmaların giderek artması ve kanın pıhtılaşması örnektir. Her iki mekanizmada da bir algılayıcı, bir kontrol merkezi ve bir etkileyici bulunur.",
+     "points": [
+      "Negatif geri bildirim değişimi azaltır, dengeyi korur.",
+      "Pozitif geri bildirim değişimi artırır, süreci tamamlar.",
+      "Dengelenen başlıca değerler: ısı, su, elektrolit, pH, kan şekeri, kan basıncı."
+     ]
+    },
+    {
+     "title": "Sinir ve endokrin sistemin rolü",
+     "text": "Sinir sistemi hızlı ve kısa süreli, endokrin sistem daha yavaş ama uzun süreli düzenleme yapar. Beyindeki hipotalamus homeostazinin merkezidir: vücut sıcaklığını, susama ve açlık hissini denetler ve hipofiz bezini yönetir. Hipofiz, diğer bezleri düzenleyen hormonlar salgılar. Pankreastan salgılanan insülin kan şekerini düşürür, glukagon yükseltir; bu iki hormon zıt etkilidir. Tiroit bezi metabolizma hızını ayarlar. Böbrek üstü bezleri stres anında hormon salgılar. Hipofizin arka lobundan salınan ADH, böbreklerden suyun geri emilimini artırarak vücut suyunu korur. Sinir ve endokrin sistemler birbirine bağlı çalışır; bu yüzden ikisine birlikte nöroendokrin sistem de denir.",
+     "points": [
+      "Hipotalamus: homeostazinin kontrol merkezi.",
+      "İnsülin kan şekerini düşürür, glukagon artırır.",
+      "Hormonlar kanla taşınır ve hedef hücrelere etki eder."
+     ]
+    },
+    {
+     "title": "Dolaşım, solunum ve boşaltım",
+     "text": "Dolaşım sistemi oksijeni, besinleri, hormonları ve ısıyı tüm vücuda taşır, atıkları ise boşaltım organlarına götürür. Kalp ve damarlar kan basıncını dengeler. Solunum sistemi oksijen alıp karbondioksit vererek kanın pH değerini dengeler; kanda CO₂ artınca kan asitleşir, beyindeki solunum merkezi bunu algılayıp soluk alma hızını artırır. Boşaltım sisteminin temel birimi böbrekteki nefrondur. Nefronda süzülme, geri emilim ve salgılama olmak üzere üç aşama vardır. Kan böbrek yumağında süzülür, gerekli maddeler (glikoz, su, tuzlar) geri emilir, fazla iyonlar ve atıklar idrara salgılanır. Böylece böbrekler su dengesini, elektrolit dengesini ve pH'yi düzenler.",
+     "points": [
+      "Nefron: süzülme, geri emilim, salgılama.",
+      "Sağlıklı bireyde idrarda glikoz bulunmaz.",
+      "CO₂ artışı solunum hızını artırır.",
+      "Deride damarların genişlemesi ısı kaybını artırır."
+     ]
+    },
+    {
+     "title": "Sistemlerin eş güdümü ve dengenin bozulması",
+     "text": "Homeostazi tek bir sistemin değil, sistemlerin birlikte çalışmasının sonucudur. Örneğin egzersiz sırasında kaslar daha çok ATP kullanır; solunum hızlanır, kalp atışı artar, deri damarları genişler, terleme başlar ve böbrekler su kaybını azaltır. Denge sağlanamadığında sağlık sorunları ortaya çıkar. İnsülin üretimi veya etkisi yetersiz olduğunda kan şekeri yüksek kalır ve diyabet görülür. Uzun süre yüksek seyreden kan basıncı kalp ve damarlara zarar verir. Aşırı sıcakta vücut ısısını düşüremezse sıcak çarpması, aşırı su kaybında ise dehidrasyon oluşur. Bu sorunları araştırırken bağımsız değişken (neden) ve bağımlı değişken (sonuç) belirlenerek hipotez kurulur.",
+     "points": [
+      "Diyabet, kan şekeri dengesinin bozulmasıdır.",
+      "Yeterli su içmek su ve elektrolit dengesine yardım eder.",
+      "Düzenli egzersiz ve dengeli beslenme homeostaziyi destekler."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Homeostazi",
+     "meaning": "İç ortamın dış değişikliklere rağmen kararlı tutulması."
+    },
+    {
+     "term": "Geri bildirim",
+     "meaning": "Bir sürecin sonucunun o süreci yeniden etkilemesi."
+    },
+    {
+     "term": "Isı dengesi",
+     "meaning": "Vücut sıcaklığının terleme, titreme ve damar değişimleriyle sabit tutulması."
+    },
+    {
+     "term": "Su dengesi",
+     "meaning": "Vücuda giren ve çıkan su miktarının dengelenmesi."
+    },
+    {
+     "term": "Elektrolit dengesi",
+     "meaning": "Sodyum, potasyum gibi iyonların vücut sıvılarında uygun derişimde tutulması."
+    },
+    {
+     "term": "pH dengesi",
+     "meaning": "Kan ve doku sıvısının asitlik-bazlık derecesinin sabit tutulması."
+    },
+    {
+     "term": "Kan basıncı dengesi",
+     "meaning": "Kanın damar duvarına yaptığı basıncın uygun aralıkta tutulması."
+    },
+    {
+     "term": "Enerji dengesi",
+     "meaning": "Alınan ve harcanan enerji arasındaki denge."
+    }
+   ],
+   "example": {
+    "question": "Yemekten sonra kan şekeri yükselen bir kişide vücut dengeyi nasıl sağlar? Bu hangi tür geri bildirimdir?",
+    "solution": "1. Pankreas kan şekerinin yükseldiğini algılar.\n2. Pankreas insülin salgılar.\n3. İnsülin, hücrelerin glikozu almasını ve karaciğerde glikoz depolanmasını artırır.\n4. Kan şekeri normale döner ve insülin salgısı azalır.\n5. Değişiklik tersine çevrildiği için bu negatif geri bildirimdir."
+   },
+   "remember": [
+    "Homeostazi yaşam için şarttır.",
+    "Vücut dengesinin çoğu negatif geri bildirimle sağlanır.",
+    "Hipotalamus homeostazinin merkezidir.",
+    "Nefron böbreğin işlevsel birimidir.",
+    "Sistemler dengeyi birlikte korur."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 1,
+   "intro": "Canlıların neslini sürdürmesi, büyümesi ve yaralarını onarması hücre bölünmesine bağlıdır. Bu temada genetik materyalin düzenlenişini, mitoz ve mayoz bölünmeyi, eşeyli ve eşeysiz üremeyi, insanda üreme sistemini ve bitkilerde çiçek, tohum ve çimlenmeyi öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Genetik materyal ve hücre döngüsü",
+     "text": "Ökaryot hücrelerde DNA, histon proteinlerine sarılarak kromatini oluşturur. Bölünme öncesinde kromatin kısalıp kalınlaşarak kromozomları meydana getirir. Kendini eşlemiş bir kromozomda iki kardeş kromatit sentromerle birbirine bağlıdır. Gen, belirli bir özelliği belirleyen DNA parçasıdır. Hücre döngüsü interfaz ve bölünme evresinden oluşur. İnterfazda hücre büyür, organellerini çoğaltır ve DNA'sını eşler. Mitozda bir hücreden kalıtsal yapısı aynı iki hücre oluşur ve kromozom sayısı korunur; büyüme, yenilenme ve eşeysiz üreme mitozla gerçekleşir. Mayozda ise üreme hücreleri oluşur; kromozom sayısı yarıya iner (2n'den n'ye). Mayozda görülen krossing-over ve kromozomların bağımsız dağılımı kalıtsal çeşitliliği artırır.",
+     "points": [
+      "İnsan vücut hücresi 2n = 46, üreme hücresi n = 23 kromozom taşır.",
+      "Mitoz: 1 hücre, 2 özdeş hücre.",
+      "Mayoz: 1 hücre, 4 farklı üreme hücresi.",
+      "Kromozomların ayrılamaması kromozom sayısı bozukluklarına yol açabilir."
+     ]
+    },
+    {
+     "title": "Eşeysiz ve eşeyli üreme",
+     "text": "Eşeysiz üremede tek bir ata canlı mitozla kendisinin genetik kopyası olan yavrular oluşturur. Bölünme (bakteri, amip), tomurcuklanma (bira mayası, hidra), sporla üreme (mantarlar), rejenerasyon (deniz yıldızı) ve bitkilerde vejetatif üreme (çilek, patates) örneklerdir. Eşeysiz üreme hızlıdır ve eş gerektirmez ama çeşitlilik oluşmaz, bu yüzden değişen çevre koşullarına uyum zorlaşır. Eşeyli üremede iki farklı bireyden gelen üreme hücreleri (gametler) döllenmeyle birleşerek zigotu oluşturur. Gametler mayozla oluştuğu ve iki ebeveynin genleri karıştığı için yavrular genetik olarak farklıdır. Bu çeşitlilik türün değişen çevreye uyum sağlama şansını artırır.",
+     "points": [
+      "Eşeysiz üreme: hızlı, çeşitlilik yok.",
+      "Eşeyli üreme: yavaş, çeşitlilik fazla.",
+      "Zigot: döllenmiş yumurta, 2n kromozomlu."
+     ]
+    },
+    {
+     "title": "İnsanda üreme ve gelişme",
+     "text": "Üreme hücrelerinin oluşmasına gametogenez denir. Erkekte testislerde gerçekleşen spermatogenezde bir ana hücreden dört sperm oluşur ve bu süreç ergenlikten itibaren sürekli devam eder. Dişide yumurtalıklarda gerçekleşen oogenezde ise sitoplazma eşit bölünmediği için bir ana hücreden bir büyük yumurta ve küçük kutup hücreleri oluşur. Yumurta besin depolar ve hareketsizdir; sperm küçüktür ve kamçısıyla hareket eder. Döllenme genellikle yumurta kanalında gerçekleşir. Zigot, mitozla bölünerek embriyoyu oluşturur ve embriyo rahim duvarına tutunur. Embriyonik gelişimde hücreler farklılaşarak doku, organ ve sistemleri meydana getirir. Embriyo, plasenta aracılığıyla anneden besin ve oksijen alır.",
+     "points": [
+      "Spermatogenez: 4 sperm; oogenez: 1 yumurta.",
+      "Döllenme sonucu zigot oluşur.",
+      "Plasenta, anne ile embriyo arasında madde alışverişini sağlar."
+     ]
+    },
+    {
+     "title": "Bitkilerde üreme ve çimlenme",
+     "text": "Çiçekli bitkilerde üreme organı çiçektir. Tam bir çiçekte çanak yapraklar, taç yapraklar, erkek organ (başçık ve sapçık) ve dişi organ (tepecik, dişicik borusu ve yumurtalık) bulunur. Polenlerin başçıktan tepeciğe taşınmasına tozlaşma denir; rüzgâr, böcekler ve kuşlar tozlaşmaya yardım eder. Tozlaşmadan sonra polen tüpü yumurtalığa ulaşır ve döllenme gerçekleşir. Döllenmeden sonra tohum taslağı tohuma, yumurtalık ise meyveye dönüşür. Tohum içinde embriyo ve besin deposu bulunur. Uygun koşullar oluşana kadar tohumun canlılığını koruyup gelişmemesine dormansi (tohum uykusu) denir. Su, uygun sıcaklık ve oksijen sağlandığında dormansi kırılır ve embriyonun gelişerek fide oluşturmasına çimlenme denir.",
+     "points": [
+      "Çimlenme için su, oksijen ve uygun sıcaklık gerekir.",
+      "Çimlenmede ilk ihtiyaç su almaktır.",
+      "Meyve, tohumu korur ve yayılmasına yardım eder."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Eşeysiz üreme",
+     "meaning": "Tek atadan, mitozla genetik olarak özdeş yavruların oluşması."
+    },
+    {
+     "term": "Eşeyli üreme",
+     "meaning": "İki farklı bireyin gametlerinin döllenmeyle birleşmesiyle yavru oluşması."
+    },
+    {
+     "term": "Gametogenez",
+     "meaning": "Mayozla üreme hücrelerinin oluşması."
+    },
+    {
+     "term": "Spermatogenez",
+     "meaning": "Testislerde sperm hücrelerinin oluşması."
+    },
+    {
+     "term": "Oogenez",
+     "meaning": "Yumurtalıklarda yumurta hücresinin oluşması."
+    },
+    {
+     "term": "Döllenme",
+     "meaning": "Sperm ve yumurta çekirdeklerinin birleşerek zigotu oluşturması."
+    },
+    {
+     "term": "Çimlenme",
+     "meaning": "Tohumdaki embriyonun uygun koşullarda gelişerek fide oluşturması."
+    },
+    {
+     "term": "Dormansi",
+     "meaning": "Tohumun uygun koşullar oluşana kadar gelişmeden beklemesi."
+    }
+   ],
+   "example": {
+    "question": "Kromozom sayısı 2n = 20 olan bir bitkinin yaprak hücresi mitozla, polen ana hücresi mayozla bölünüyor. Oluşan hücrelerin sayısı ve kromozom sayısı nedir?",
+    "solution": "1. Mitozda 1 hücreden 2 hücre oluşur ve kromozom sayısı korunur: 2 hücre, her biri 2n = 20.\n2. Mayozda 1 hücreden 4 hücre oluşur ve kromozom sayısı yarıya iner: 4 hücre, her biri n = 10.\n3. Mitozla oluşan hücreler özdeş, mayozla oluşanlar genetik olarak farklıdır."
+   },
+   "remember": [
+    "Mitoz kromozom sayısını korur, mayoz yarıya indirir.",
+    "Mayoz kalıtsal çeşitliliği artırır.",
+    "Eşeyli üremede çeşitlilik, eşeysiz üremede hız vardır.",
+    "Döllenmeden sonra yumurtalık meyveye, tohum taslağı tohuma dönüşür.",
+    "Çimlenmenin ilk koşulu sudur."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 2,
+   "intro": "Bir canlının göz rengi, kan grubu ya da boyu gibi özellikleri genlerinde yazılıdır. Bu temada DNA ve RNA'nın yapısını, DNA'nın kendini nasıl eşlediğini, genlerin proteine nasıl dönüştüğünü, Mendel kalıtımını ve biyoteknolojinin kullanım alanlarını öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Nükleik asitler ve DNA replikasyonu",
+     "text": "Nükleik asitler nükleotitlerden oluşur. Her nükleotitte bir şeker, bir fosfat ve bir organik baz bulunur. DNA'da deoksiriboz şekeri ve adenin, timin, guanin, sitozin bazları vardır; RNA'da riboz şekeri bulunur ve timin yerine urasil yer alır. DNA çift zincirli sarmal yapıdadır; adenin timinle, guanin sitozinle hidrojen bağı kurarak eşleşir. RNA genellikle tek zincirlidir. DNA replikasyonunda iki zincir birbirinden ayrılır ve her eski zincir kalıp olarak kullanılarak karşısına yeni zincir sentezlenir. Bu yüzden oluşan her DNA molekülünde bir eski, bir yeni zincir bulunur; buna yarı korunumlu eşlenme denir. Bu süreçte DNA polimeraz gibi enzimler görev yapar.",
+     "points": [
+      "DNA'da A = T, G ≡ C şeklinde eşleşme vardır.",
+      "RNA'da timin yerine urasil bulunur.",
+      "Replikasyon hücre bölünmesinden önce, interfazda olur."
+     ]
+    },
+    {
+     "title": "Gen ifadesi: protein sentezi",
+     "text": "Genetik bilginin ürüne, yani proteine dönüşmesine gen ifadesi denir. Bu iki aşamada gerçekleşir. Transkripsiyonda (yazılma) DNA'daki genin bilgisi, ökaryotlarda çekirdekte mRNA'ya kopyalanır. Translasyonda (çevrilme) mRNA sitoplazmadaki ribozoma gelir. mRNA'daki üçlü baz dizileri (kodonlar) okunur; tRNA'lar her kodona uygun amino asidi getirir ve amino asitler peptit bağlarıyla birleşerek protein oluşur. Proteinler enzim, hormon ve yapı molekülü olarak canlının özelliklerini belirler. Bir canlının sahip olduğu genlerin tümüne genotip, bu genlerin çevreyle etkileşimi sonucu ortaya çıkan gözlenebilir özelliklere fenotip denir. Genlerde oluşan kalıcı değişikliklere mutasyon denir; mutasyonlar zararlı, zararsız veya nadiren yararlı olabilir.",
+     "points": [
+      "DNA → mRNA (transkripsiyon) → protein (translasyon).",
+      "Bir kodon üç nükleotitten oluşur.",
+      "Fenotip = genotip + çevre etkisi.",
+      "Üreme hücrelerindeki mutasyonlar yavrulara aktarılabilir."
+     ]
+    },
+    {
+     "title": "Mendel kalıtımı ve kan grupları",
+     "text": "Gregor Mendel bezelyelerle yaptığı deneylerle kalıtımın temel ilkelerini ortaya koydu. Her özellik bir çift alel genle belirlenir; aleller gamet oluşumunda birbirinden ayrılır. Baskın alel büyük harfle, çekinik alel küçük harfle gösterilir. Aynı alelleri taşıyan birey homozigot (AA veya aa), farklı alelleri taşıyan heterozigot (Aa) olarak adlandırılır. Çekinik özellik yalnızca homozigot durumda görülür. İnsanda ABO kan grubu çok alellilik ve eş baskınlık örneğidir: üç alel vardır (A, B, O); A ve B birbirine eş baskındır, ikisi de O'ya baskındır. AB kan grubunda iki alel birlikte fenotipe yansır. Eşeye bağlı kalıtımda gen X kromozomu üzerindedir; renk körlüğü ve hemofili erkeklerde daha sık görülür, çünkü erkeklerde tek X kromozomu vardır.",
+     "points": [
+      "Aa × Aa çaprazlamasında fenotip oranı 3 : 1'dir.",
+      "AB kan grubu eş baskınlık örneğidir.",
+      "Erkek: XY, dişi: XX.",
+      "Soyağacında kare erkeği, daire dişiyi gösterir."
+     ]
+    },
+    {
+     "title": "Biyoteknoloji ve etik",
+     "text": "Biyoteknoloji, canlıları veya onların parçalarını insan yararına ürün üretmek için kullanmaktır. Rekombinant DNA teknolojisinde bir canlının geni başka bir canlıya aktarılır; örneğin insan insülin geni bakteriye aktarılarak ilaç olarak insülin üretilir. Gen aktarımıyla elde edilen canlılara genetiği değiştirilmiş organizma (GDO) denir. Biyoteknoloji tıpta aşı ve ilaç üretiminde, tarımda dayanıklı bitki geliştirmede, adli bilimlerde DNA parmak izi ile kimlik belirlemede kullanılır. Genetik testler bazı kalıtsal hastalıkların riskini belirlemeye yarar; genetik danışmanlık aileleri bu konuda bilgilendirir. Ancak bu uygulamalar; genetik bilginin gizliliği, ekosisteme olası etkiler ve canlıların değiştirilmesinin sınırları gibi etik soruları da beraberinde getirir.",
+     "points": [
+      "Rekombinant DNA ile insülin gibi ilaçlar üretilir.",
+      "DNA parmak izi kişiye özgüdür.",
+      "Genetik bilgi kişisel ve gizli bir veridir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "DNA replikasyonu",
+     "meaning": "DNA'nın kendini yarı korunumlu şekilde eşlemesi."
+    },
+    {
+     "term": "Gen ifadesi",
+     "meaning": "Gendeki bilginin transkripsiyon ve translasyonla proteine dönüşmesi."
+    },
+    {
+     "term": "Genotip",
+     "meaning": "Bir canlının taşıdığı genlerin bütünü."
+    },
+    {
+     "term": "Fenotip",
+     "meaning": "Genotip ve çevrenin etkisiyle ortaya çıkan gözlenebilir özellik."
+    },
+    {
+     "term": "Alel",
+     "meaning": "Aynı özelliğin farklı biçimlerini belirleyen gen çeşitleri."
+    },
+    {
+     "term": "Eş baskınlık",
+     "meaning": "İki farklı alelin heterozigot bireyde birlikte etkisini göstermesi."
+    },
+    {
+     "term": "Rekombinant DNA teknolojisi",
+     "meaning": "Farklı kaynaklardan gelen DNA parçalarının birleştirilip bir canlıya aktarılması."
+    }
+   ],
+   "example": {
+    "question": "Heterozigot uzun boylu (Uu) iki bezelye çaprazlanıyor. U uzun boy için baskın, u kısa boy için çekiniktir. Oluşacak bitkilerin genotip ve fenotip oranları nedir?",
+    "solution": "1. Her ebeveyn U ve u olmak üzere iki tür gamet oluşturur.\n2. Olası birleşmeler: UU, Uu, uU, uu.\n3. Genotip oranı: 1 UU : 2 Uu : 1 uu.\n4. UU ve Uu uzun, uu kısa boyludur.\n5. Fenotip oranı: 3 uzun : 1 kısa. Yani kısa boylu bitki olma olasılığı 1/4'tür."
+   },
+   "remember": [
+    "DNA'da A-T, G-C eşleşir; RNA'da T yerine U vardır.",
+    "Replikasyon yarı korunumludur.",
+    "Protein sentezi: transkripsiyon, sonra translasyon.",
+    "Çekinik özellik yalnızca homozigot bireyde görülür.",
+    "Biyoteknoloji fayda sağlar ama etik sorumluluk ister."
+   ]
+  }
+ ]
+}

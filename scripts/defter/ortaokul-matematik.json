@@ -1,0 +1,2085 @@
+{
+ "file": "ortaokul-matematik",
+ "notes": [
+  {
+   "grade": 5,
+   "order": 1,
+   "intro": "Bu temada milyonlar ve milyarlar gibi çok basamaklı doğal sayıları okumayı, yazmayı ve bu sayılarla dört işlem yapmayı öğreniyoruz. Nüfus, mesafe ve para gibi büyük miktarları anlamak için bu beceri günlük hayatta çok işimize yarar.",
+   "sections": [
+    {
+     "title": "Basamak ve Bölükler",
+     "text": "Doğal sayılar 0, 1, 2, 3, ... diye sonsuza kadar devam eder. Çok basamaklı bir sayıyı kolay okumak için sağdan sola doğru üçerli gruplara ayırırız; her gruba bölük denir. Sağdan ilk bölük birler, ikincisi binler, üçüncüsü milyonlar, dördüncüsü milyarlar bölüğüdür. Her bölükte birler, onlar ve yüzler basamağı bulunur. Bir rakamın sayı değeri rakamın kendisidir; basamak değeri ise bulunduğu basamağa göre aldığı değerdir. Örneğin 5 284 000 sayısında 5 rakamının basamak değeri 5 000 000’dur.",
+     "points": [
+      "Bölükler sağdan sola: birler, binler, milyonlar, milyarlar.",
+      "Her bölük üç basamaklıdır: yüzler, onlar, birler.",
+      "Sayı okunurken her bölük kendi adıyla okunur."
+     ]
+    },
+    {
+     "title": "Büyük Sayıları Okuma ve Yazma",
+     "text": "Bir sayıyı okurken en soldaki bölükten başlarız ve her bölüğü okuduktan sonra bölüğün adını söyleriz. Örneğin 3 405 020 017 sayısı üç milyar dört yüz beş milyon yirmi bin on yedi diye okunur. Yazıyla verilen bir sayıyı rakamla yazarken de bölükleri sırayla yerleştiririz; söylenmeyen basamaklara 0 yazarız. Sayıları çözümleyerek, yani basamak değerlerinin toplamı biçiminde de gösterebiliriz: 48 306 = 40 000 + 8 000 + 300 + 6. Bu çözümleme, sayının yapısını görmemizi sağlar.",
+     "points": [
+      "Söylenmeyen basamak boş bırakılmaz, 0 yazılır.",
+      "Bölükler arasında bir boşluk bırakmak okumayı kolaylaştırır."
+     ]
+    },
+    {
+     "title": "Doğal Sayılarla Problemler",
+     "text": "Günlük hayattaki problemleri çözerken önce soruyu dikkatle okur, verilenleri ve isteneni belirleriz. Ardından hangi işlemi yapacağımıza karar veririz: bir araya getirme için toplama, eksilme ya da fark için çıkarma, eşit grupların toplamı için çarpma, eşit paylaştırma için bölme kullanılır. İşlemi yaptıktan sonra sonucun mantıklı olup olmadığını tahminle kontrol ederiz. Örneğin sayıları en yakın binliğe yuvarlayarak hızlı bir tahmin yapabilir, bulduğumuz sonucu bu tahminle karşılaştırabiliriz.",
+     "points": [
+      "Verilenleri ve isteneni yaz.",
+      "Uygun işlemi seç.",
+      "Sonucu tahminle kontrol et."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Doğal sayılar",
+     "meaning": "0, 1, 2, 3, ... biçiminde devam eden sayılar."
+    },
+    {
+     "term": "Bölük",
+     "meaning": "Sayının sağdan sola üçerli olarak ayrılmış her bir grubu."
+    },
+    {
+     "term": "Basamak değeri",
+     "meaning": "Bir rakamın bulunduğu basamağa göre aldığı değer."
+    },
+    {
+     "term": "Toplama",
+     "meaning": "Çoklukları bir araya getirme işlemi."
+    },
+    {
+     "term": "Çıkarma",
+     "meaning": "Bir çokluktan bir kısmını ayırma ya da iki çokluğun farkını bulma işlemi."
+    },
+    {
+     "term": "Çarpma",
+     "meaning": "Eşit çoklukların tekrarlı toplamını kısa yoldan bulma işlemi."
+    },
+    {
+     "term": "Bölme",
+     "meaning": "Bir çokluğu eşit gruplara ayırma işlemi."
+    }
+   ],
+   "example": {
+    "question": "Bir fabrika günde 12 450 şişe su üretiyor. Fabrika 30 günde kaç şişe su üretir? Bu şişeler 6’lı paketlere konursa kaç paket olur?",
+    "solution": "1. adım: 30 günlük üretim için çarparız: 12 450 × 30 = 373 500 şişe.\n2. adım: Paket sayısı için böleriz: 373 500 ÷ 6 = 62 250 paket.\nCevap: 373 500 şişe üretilir ve 62 250 paket olur."
+   },
+   "remember": [
+    "Büyük sayıları üçerli bölüklere ayırarak oku.",
+    "Basamak değeri ile sayı değeri farklı şeylerdir.",
+    "Söylenmeyen basamaklara 0 yaz.",
+    "Problem çözdükten sonra sonucu tahminle kontrol et."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 2,
+   "intro": "Bu temada bir bütünün parçalarını gösteren kesirleri farklı biçimlerde yazmayı ve karşılaştırmayı öğreniyoruz. Kesirleri ondalık gösterim ve yüzde olarak da ifade edeceğiz; indirim, tarif ve ölçme gibi pek çok günlük durumda bu gösterimleri kullanırız.",
+   "sections": [
+    {
+     "title": "Kesir Çeşitleri",
+     "text": "Bir bütünün eşit parçalarından bir kısmını gösteren sayıya kesir denir. Kesir çizgisinin altındaki payda bütünün kaç eşit parçaya bölündüğünü, üstündeki pay ise kaç parçanın alındığını gösterir. Payı 1 olan kesirlere birim kesir denir, örneğin 1/4. Payı paydasından küçük olan kesirler basit kesirdir. Payı paydasına eşit ya da paydasından büyük olan kesirler bileşik kesirdir, örneğin 7/3. Bileşik kesirler tam sayılı kesir olarak da yazılabilir: 7/3 = 2 tam 1/3. Bunun için pay paydaya bölünür; bölüm tam kısmı, kalan yeni payı verir.",
+     "points": [
+      "Birim kesir: pay 1’dir.",
+      "Bileşik kesir: pay ≥ payda.",
+      "Tam sayılı kesir: bir tam sayı ve bir basit kesirden oluşur."
+     ]
+    },
+    {
+     "title": "Denk Kesirler ve Karşılaştırma",
+     "text": "Aynı miktarı gösteren kesirlere denk kesirler denir. Bir kesrin payını ve paydasını aynı sayma sayısıyla çarparak ya da bölerek denk kesirler elde ederiz: 1/2 = 2/4 = 3/6. Kesirleri karşılaştırırken paydaları eşitse payı büyük olan kesir daha büyüktür. Payları eşitse paydası küçük olan kesir daha büyüktür, çünkü bütün daha az parçaya bölünmüştür ve her parça daha büyüktür. Paydalar farklıysa önce kesirleri denk kesirlere çevirip paydaları eşitleriz, sonra payları karşılaştırırız.",
+     "points": [
+      "Pay ve payda aynı sayıyla çarpılırsa kesrin değeri değişmez.",
+      "Paylar eşitse küçük paydalı kesir büyüktür."
+     ]
+    },
+    {
+     "title": "Ondalık Gösterim ve Yüzde",
+     "text": "Paydası 10, 100 veya 1000 olan kesirler ondalık gösterimle yazılabilir. Virgülün solunda tam kısım, sağında ise ondalık kısım bulunur: 3/10 = 0,3 ve 27/100 = 0,27. Paydası 100 olan kesirler yüzde sembolüyle de gösterilir: 45/100 = %45. Yani yüzde, bir bütünün 100 eşit parçasından kaçının alındığını anlatır. Bir kesri yüzdeye çevirmek için paydasını 100 yapan denk kesri buluruz: 3/4 = 75/100 = %75 = 0,75. Böylece aynı miktarı üç farklı biçimde gösterebiliriz.",
+     "points": [
+      "1/2 = 0,5 = %50",
+      "1/4 = 0,25 = %25",
+      "1/10 = 0,1 = %10"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Birim kesir",
+     "meaning": "Payı 1 olan kesir; bütünün tek bir eşit parçasını gösterir."
+    },
+    {
+     "term": "Bileşik kesir",
+     "meaning": "Payı paydasına eşit ya da paydasından büyük olan kesir."
+    },
+    {
+     "term": "Tam sayılı kesir",
+     "meaning": "Bir tam sayı ile bir basit kesrin birlikte yazıldığı kesir."
+    },
+    {
+     "term": "Denklik",
+     "meaning": "Farklı yazılan kesirlerin aynı miktarı göstermesi."
+    },
+    {
+     "term": "Ondalık gösterim",
+     "meaning": "Kesrin virgül kullanılarak yazılması, örneğin 0,25."
+    },
+    {
+     "term": "Yüzde",
+     "meaning": "Paydası 100 olan kesrin % sembolüyle gösterimi."
+    }
+   ],
+   "example": {
+    "question": "Elif kitabının 3/5’ini, Can ise aynı kitabın %55’ini okudu. Kim daha fazla okumuştur?",
+    "solution": "1. adım: 3/5 kesrinin paydasını 100 yaparız: 3/5 = 60/100 = %60.\n2. adım: %60 ile %55’i karşılaştırırız: %60 > %55.\nCevap: Elif daha fazla okumuştur."
+   },
+   "remember": [
+    "Payda, bütünün kaç eşit parçaya bölündüğünü gösterir.",
+    "Denk kesir için pay ve paydayı aynı sayıyla çarp ya da böl.",
+    "Yüzde, paydası 100 olan kesirdir.",
+    "Karşılaştırmadan önce kesirleri aynı biçime getir."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 3,
+   "intro": "Bu temada işlemlerin özelliklerini, işlem önceliğini ve sayı ile şekil örüntülerini inceliyoruz. Bu konular cebirsel düşünmenin temelidir ve hesapları daha hızlı, doğru yapmamızı sağlar.",
+   "sections": [
+    {
+     "title": "İşlem Özellikleri ve Eşitlik",
+     "text": "Toplama ve çarpmada değişme özelliği vardır: sayıların yeri değişse de sonuç değişmez, 4 + 7 = 7 + 4 ve 3 × 8 = 8 × 3. Birleşme özelliğine göre üç sayıyı toplarken ya da çarparken hangi ikisini önce gruplandırdığımız sonucu değiştirmez: (2 × 5) × 9 = 2 × (5 × 9). Dağılma özelliği ise çarpmanın toplama üzerine dağılmasıdır: 6 × (10 + 3) = 6 × 10 + 6 × 3. Eşitlik işareti iki tarafın aynı değeri gösterdiğini anlatır. Eşitliğin iki tarafına aynı işlemi uygularsak eşitlik korunur.",
+     "points": [
+      "Çıkarma ve bölmede değişme özelliği yoktur.",
+      "Eşittir işareti bir terazinin dengede olması gibidir."
+     ]
+    },
+    {
+     "title": "İşlem Önceliği",
+     "text": "Birden fazla işlem içeren ifadelerde herkesin aynı sonucu bulması için bir sıra kullanırız. Önce parantez içindeki işlemler yapılır. Daha sonra varsa üslü ifadeler hesaplanır. Ardından çarpma ve bölme işlemleri soldan sağa doğru yapılır. En son toplama ve çıkarma işlemleri yine soldan sağa doğru yapılır. Üslü ifade, bir sayının kendisiyle tekrarlı çarpımının kısa yazılışıdır: 2³ = 2 × 2 × 2 = 8. Burada 2 taban, 3 ise üstür. Bir sayının karesi kendisiyle çarpımıdır: 5² = 25.",
+     "points": [
+      "1. Parantez",
+      "2. Üslü ifade",
+      "3. Çarpma ve bölme (soldan sağa)",
+      "4. Toplama ve çıkarma (soldan sağa)"
+     ]
+    },
+    {
+     "title": "Örüntüler ve Algoritmalar",
+     "text": "Belirli bir kurala göre devam eden sayı ya da şekil dizilerine örüntü denir. Örneğin 3, 7, 11, 15, ... örüntüsünde her terim bir öncekinden 4 fazladır. Kuralı bulmak için ardışık terimler arasındaki farka ya da ilişkiye bakarız, bulduğumuz kuralı sonraki terimlerde deneyerek sınarız. Şekil örüntülerinde de her adımdaki şekil sayısını sayarak bir sayı örüntüsü elde edebiliriz. Algoritma ise bir işi yapmak için izlenen, sırası belli adımlar dizisidir. Toplama veya bölmeyi alt alta yaparken uyguladığımız adımlar da birer algoritmadır.",
+     "points": [
+      "Kuralı bul, sonra birkaç terimde sına.",
+      "Algoritmada adımların sırası önemlidir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Değişme özelliği",
+     "meaning": "Toplama ve çarpmada sayıların yer değiştirmesinin sonucu değiştirmemesi."
+    },
+    {
+     "term": "Birleşme özelliği",
+     "meaning": "Üç sayı toplanırken ya da çarpılırken gruplamanın sonucu değiştirmemesi."
+    },
+    {
+     "term": "Dağılma özelliği",
+     "meaning": "Bir sayıyla toplamın çarpımının, sayının her terimle çarpımlarının toplamına eşit olması."
+    },
+    {
+     "term": "Eşitlik",
+     "meaning": "İki ifadenin aynı değere sahip olması durumu."
+    },
+    {
+     "term": "Üslü ifade",
+     "meaning": "Bir sayının kendisiyle tekrarlı çarpımının kısa gösterimi."
+    },
+    {
+     "term": "Örüntü",
+     "meaning": "Belirli bir kurala göre devam eden sayı ya da şekil dizisi."
+    },
+    {
+     "term": "Algoritma",
+     "meaning": "Bir işi yapmak için izlenen sıralı adımlar dizisi."
+    }
+   ],
+   "example": {
+    "question": "18 + 3 × (10 − 4) − 2² işleminin sonucu kaçtır?",
+    "solution": "1. adım (parantez): 10 − 4 = 6.\n2. adım (üslü ifade): 2² = 4.\n3. adım (çarpma): 3 × 6 = 18.\n4. adım (soldan sağa toplama ve çıkarma): 18 + 18 − 4 = 32.\nCevap: 32."
+   },
+   "remember": [
+    "Toplama ve çarpma değişme ve birleşme özelliğine sahiptir.",
+    "İşlem sırası: parantez, üs, çarpma-bölme, toplama-çıkarma.",
+    "Örüntünün kuralını bulunca birkaç terimde sına.",
+    "Eşitliğin iki tarafına aynı işlem yapılırsa denge bozulmaz."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 4,
+   "intro": "Bu temada nokta, doğru, ışın gibi temel geometrik kavramları, açıları ve çokgenleri tanıyoruz. Cetvel, gönye, iletki ve pergel gibi araçlarla çizim yapmayı ve açı ölçmeyi öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Temel Geometrik Kavramlar",
+     "text": "Nokta bir konum belirtir ve büyük harfle adlandırılır. Doğru, iki yönde sınırsız uzanan düz bir çizgidir. Doğru parçası iki ucu belli olan ve ölçülebilen kısımdır; ışın ise bir başlangıç noktası olup tek yönde sınırsız uzanır. Düzlem, her yöne sınırsız uzanan düz bir yüzey olarak düşünülür. Aynı düzlemdeki iki doğru hiç kesişmiyorsa paralel, tek bir noktada kesişiyorsa kesişen doğrulardır. Tüm noktaları ortak olan doğrulara çakışık doğrular denir. Birbirini dik kesen doğrulardan birine diğerinin dikmesi denir.",
+     "points": [
+      "Doğru parçası ölçülebilir; doğru ve ışın ölçülemez.",
+      "Paralel doğrular arasındaki uzaklık hep aynıdır.",
+      "Bir doğruyu kesen başka bir doğruya kesen denir."
+     ]
+    },
+    {
+     "title": "Açılar ve Ölçme",
+     "text": "Başlangıç noktaları ortak olan iki ışının oluşturduğu şekle açı denir. Açılar iletki ile derece biriminden ölçülür. Ölçüsü 0° ile 90° arasında olan açı dar açı, tam 90° olan dik açı, 90° ile 180° arasında olan geniş açı, 180° olan doğru açı, 360° olan ise tam açıdır. Ölçüleri toplamı 90° olan iki açıya tümler açılar, 180° olan iki açıya bütünler açılar denir. Köşesi ve bir kenarı ortak olan açılara komşu açılar denir. Kesişen iki doğrunun oluşturduğu karşılıklı açılar ters açılardır ve ölçüleri eşittir.",
+     "points": [
+      "Tümler açılar: toplam 90°.",
+      "Bütünler açılar: toplam 180°.",
+      "Ters açıların ölçüleri eşittir."
+     ]
+    },
+    {
+     "title": "Çokgenler ve Çember",
+     "text": "Ardışık kesişen doğru parçalarının oluşturduğu kapalı şekillere çokgen denir. Üçgen, dörtgen, beşgen bunlara örnektir. Bütün kenarları ve bütün iç açıları eş olan çokgene düzgün çokgen denir. Üçgenler açılarına göre dar açılı, dik açılı ve geniş açılı olarak sınıflandırılır. Bir üçgenin iç açılarının ölçüleri toplamı 180°’dir. Çember, düzlemde bir merkez noktasına eşit uzaklıktaki noktaların oluşturduğu kapalı eğridir; çemberin iç bölgesiyle birlikte oluşturduğu şekle daire denir. Merkezden çembere olan uzaklık yarıçap, merkezden geçerek çemberin iki noktasını birleştiren doğru parçası çaptır. Pergelle aynı yarıçaplı iki çember çizip merkezleri ve bir kesişim noktasını birleştirirsek ikizkenar bir üçgen elde ederiz.",
+     "points": [
+      "Çap = 2 × yarıçap.",
+      "Üçgenin iç açıları toplamı 180°’dir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Işın",
+     "meaning": "Bir başlangıç noktası olan ve tek yönde sınırsız uzanan çizgi."
+    },
+    {
+     "term": "Açı",
+     "meaning": "Başlangıç noktaları ortak iki ışının oluşturduğu şekil."
+    },
+    {
+     "term": "Tümler açılar",
+     "meaning": "Ölçüleri toplamı 90° olan iki açı."
+    },
+    {
+     "term": "Bütünler açılar",
+     "meaning": "Ölçüleri toplamı 180° olan iki açı."
+    },
+    {
+     "term": "Ters açı",
+     "meaning": "Kesişen iki doğrunun oluşturduğu, köşeleri ortak ve karşılıklı olan eş açılar."
+    },
+    {
+     "term": "Düzgün çokgen",
+     "meaning": "Bütün kenarları ve açıları eş olan çokgen."
+    },
+    {
+     "term": "Yarıçap",
+     "meaning": "Çemberin merkezinden çember üzerindeki bir noktaya olan uzaklık."
+    },
+    {
+     "term": "Paralellik",
+     "meaning": "Aynı düzlemdeki iki doğrunun hiç kesişmemesi durumu."
+    }
+   ],
+   "example": {
+    "question": "Bir açının bütünleri 125° ise bu açının tümleri kaç derecedir?",
+    "solution": "1. adım: Bütünler açıların toplamı 180°’dir. Açı = 180° − 125° = 55°.\n2. adım: Tümler açıların toplamı 90°’dir. Tümleri = 90° − 55° = 35°.\nCevap: 35°."
+   },
+   "remember": [
+    "Açılar iletkiyle ölçülür, birimi derecedir.",
+    "Ters açılar eştir.",
+    "Çap, yarıçapın iki katıdır.",
+    "Çokgen, doğru parçalarından oluşan kapalı şekildir."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 5,
+   "intro": "Bu temada dikdörtgenin çevresini ve alanını öğreniyoruz. Bir bahçenin etrafına çit çekmek ya da bir odanın tabanını döşemek gibi günlük işlerde bu hesaplara ihtiyaç duyarız.",
+   "sections": [
+    {
+     "title": "Dikdörtgenin Çevresi",
+     "text": "Bir şeklin çevresi, onu çevreleyen kenarların uzunlukları toplamıdır. Dikdörtgenin karşılıklı kenarları eşit olduğu için çevresini kısa yoldan bulabiliriz: Çevre = 2 × (uzun kenar + kısa kenar). Örneğin kenarları 8 cm ve 5 cm olan dikdörtgenin çevresi 2 × (8 + 5) = 26 cm’dir. Çevresi verilen bir dikdörtgenin kenarlarını bulmak için çevrenin yarısını alırız; bu yarı, bir uzun ve bir kısa kenarın toplamıdır. Örneğin çevresi 20 cm ise kenarların toplamı 10 cm’dir ve kenarlar 1 ile 9, 2 ile 8, 3 ile 7 gibi farklı biçimlerde olabilir.",
+     "points": [
+      "Çevre bir uzunluktur; birimi cm, m gibi uzunluk birimidir.",
+      "Karenin çevresi = 4 × kenar."
+     ]
+    },
+    {
+     "title": "Dikdörtgenin Alanı",
+     "text": "Alan, bir şeklin kapladığı yüzeyin büyüklüğüdür. Alanı ölçmek için birim kareleri kullanırız. Kenarları 1 cm olan bir karenin alanı 1 santimetrekaredir ve 1 cm² diye yazılır. Bir dikdörtgenin içine kaç birim kare sığdığını saymak yerine, bir sıradaki kare sayısını sıra sayısıyla çarparız. Böylece Alan = uzun kenar × kısa kenar kuralına ulaşırız. Kenarları 6 cm ve 4 cm olan dikdörtgenin alanı 6 × 4 = 24 cm²’dir. Karenin alanı ise kenar × kenar ile bulunur.",
+     "points": [
+      "Alanın birimi cm², m² gibi kare birimlerdir.",
+      "Alan = uzun kenar × kısa kenar."
+     ]
+    },
+    {
+     "title": "Çevre ile Alan Arasındaki İlişki",
+     "text": "Çevreleri aynı olan dikdörtgenlerin alanları farklı olabilir. Çevresi 16 cm olan dikdörtgenleri düşünelim: kenarları 7 ve 1 olanın alanı 7 cm², 6 ve 2 olanın 12 cm², 5 ve 3 olanın 15 cm², 4 ve 4 olan karenin alanı ise 16 cm²’dir. Kenarlar birbirine yaklaştıkça alan büyür. Benzer şekilde alanı aynı olan dikdörtgenlerin çevreleri de farklı olabilir. Alanı 12 cm² olan dikdörtgenler 12 ve 1, 6 ve 2, 4 ve 3 kenarlı olabilir; çevreleri sırasıyla 26, 16 ve 14 cm’dir. Problemlerde bu ilişkileri tablo yaparak incelemek işimizi kolaylaştırır.",
+     "points": [
+      "Aynı çevre, farklı alan olabilir.",
+      "Aynı alan, farklı çevre olabilir.",
+      "Tablo yapmak tüm durumları görmeyi sağlar."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Çevre",
+     "meaning": "Bir şekli çevreleyen kenarların uzunlukları toplamı."
+    },
+    {
+     "term": "Alan",
+     "meaning": "Bir şeklin kapladığı yüzeyin büyüklüğü."
+    },
+    {
+     "term": "Dikdörtgen",
+     "meaning": "Karşılıklı kenarları eşit ve paralel, dört açısı da dik olan dörtgen."
+    },
+    {
+     "term": "Birim kare",
+     "meaning": "Alan ölçmede kullanılan, kenarı 1 birim olan kare."
+    },
+    {
+     "term": "Santimetrekare",
+     "meaning": "Kenarı 1 cm olan karenin alanı; cm² ile gösterilir."
+    }
+   ],
+   "example": {
+    "question": "Kısa kenarı 9 m, alanı 108 m² olan dikdörtgen şeklindeki bir bahçenin etrafına çit çekilecektir. Kaç metre çit gerekir?",
+    "solution": "1. adım: Alan = uzun kenar × kısa kenar olduğundan uzun kenar = 108 ÷ 9 = 12 m.\n2. adım: Çevre = 2 × (12 + 9) = 2 × 21 = 42 m.\nCevap: 42 metre çit gerekir."
+   },
+   "remember": [
+    "Çevre = 2 × (uzun kenar + kısa kenar).",
+    "Alan = uzun kenar × kısa kenar.",
+    "Çevre uzunluk birimiyle, alan kare birimle yazılır.",
+    "Aynı çevreli dikdörtgenler arasında en büyük alan kareye aittir."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 6,
+   "intro": "Bu temada bir soruya cevap bulmak için veri toplamayı, düzenlemeyi ve grafiklerle göstermeyi öğreniyoruz. Verilere dayanarak karar vermek, hem okulda hem de günlük hayatta doğru seçimler yapmamıza yardım eder.",
+   "sections": [
+    {
+     "title": "İstatistiksel Araştırma Adımları",
+     "text": "Bir istatistiksel araştırma, merak ettiğimiz bir soruyla başlar. Örneğin sınıfımızdaki öğrencilerin en sevdiği meyve hangisidir? Soruyu belirledikten sonra veri toplarız; bunun için anket, gözlem ya da sayım yapabiliriz. Toplanan verileri sıklık tablosunda düzenleriz, ardından uygun bir grafikle gösteririz. Son adımda grafiği yorumlayarak sorumuza cevap verir ve bir karar alırız. Meyve, renk, spor dalı gibi sayı olmayan, gruplara ayrılan verilere kategorik veri denir.",
+     "points": [
+      "1. Soru oluştur.",
+      "2. Veri topla.",
+      "3. Verileri düzenle ve göster.",
+      "4. Yorumla ve karar ver."
+     ]
+    },
+    {
+     "title": "Grafik Türleri",
+     "text": "Sıklık tablosunda her kategorinin kaç kez tekrarlandığını yazarız; bu sayıya sıklık değeri denir. Sütun grafiğinde her kategori bir sütunla gösterilir, sütunun yüksekliği sıklığı belirtir ve sütunlar eşit genişlikte çizilir. Nokta grafiğinde her veri bir nokta ile gösterilir ve noktalar ilgili kategorinin üstüne üst üste dizilir. Daire grafiği ise bir bütünün parçalarını gösterir; her kategorinin daireden aldığı pay, toplam içindeki payıyla orantılıdır. Daire grafiği özellikle bir kategorinin bütüne göre ne kadar yer tuttuğunu görmek için kullanışlıdır.",
+     "points": [
+      "Sütun grafiği: karşılaştırma için uygundur.",
+      "Daire grafiği: bütünün parçalarını gösterir.",
+      "Grafiğe başlık ve eksen adları yazılmalıdır."
+     ]
+    },
+    {
+     "title": "Dağılım ve Yorum Yapma",
+     "text": "Verilerin kategorilere nasıl yayıldığına dağılım denir. Farklı kişilerden toplanan verilerin farklı çıkmasına ise değişebilirlik denir; herkesin aynı cevabı vermemesi doğaldır. Bir grafiği yorumlarken en çok ve en az tercih edilen kategorilere, kategoriler arasındaki farklara bakarız. Başkalarının yaptığı yorumları değerlendirirken de verinin kimden ve nasıl toplandığını sorgularız. Örneğin yalnızca bir sınıftan toplanan veriyle bütün okul hakkında kesin bir karar vermek doğru olmayabilir. Grafik ölçeğinin yanıltıcı olup olmadığını da kontrol etmeliyiz.",
+     "points": [
+      "Verinin kaynağını sorgula.",
+      "Grafiğin ölçeğine dikkat et."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Kategorik veri",
+     "meaning": "Sayı yerine gruplar ya da özelliklerle ifade edilen veri, örneğin renk."
+    },
+    {
+     "term": "Sıklık değeri",
+     "meaning": "Bir kategorinin veri grubunda kaç kez tekrarlandığı."
+    },
+    {
+     "term": "Sütun grafiği",
+     "meaning": "Kategorilerin sıklıklarını sütun yükseklikleriyle gösteren grafik."
+    },
+    {
+     "term": "Nokta grafiği",
+     "meaning": "Her veriyi bir nokta ile gösteren grafik."
+    },
+    {
+     "term": "Daire grafiği",
+     "meaning": "Bütünün parçalarını daire dilimleriyle gösteren grafik."
+    },
+    {
+     "term": "Dağılım",
+     "meaning": "Verilerin kategorilere ya da değerlere nasıl yayıldığı."
+    },
+    {
+     "term": "Değişebilirlik",
+     "meaning": "Verilerin kişiden kişiye ya da durumdan duruma farklılık göstermesi."
+    }
+   ],
+   "example": {
+    "question": "Bir sınıfta öğrencilere en sevdikleri spor soruldu: futbol 9, voleybol 7, basketbol 5, yüzme 3 kişi. Sınıf mevcudu kaçtır, en çok hangi spor tercih edilmiştir ve futbolu seçenler sınıfın kaçta kaçıdır?",
+    "solution": "1. adım: Sınıf mevcudu = 9 + 7 + 5 + 3 = 24.\n2. adım: En büyük sıklık 9 olduğundan en çok futbol tercih edilmiştir.\n3. adım: Futbolu seçenler 9/24 = 3/8’dir.\nCevap: 24 öğrenci; futbol; 3/8."
+   },
+   "remember": [
+    "Araştırma bir soruyla başlar.",
+    "Sıklık tablosu verileri düzenler.",
+    "Grafiğe başlık ve etiket yaz.",
+    "Karar verirken verinin kaynağını sorgula."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 7,
+   "intro": "Bu temada bir olayın gerçekleşme şansını 0 ile 1 arasındaki bir çizgi üzerinde düşünmeyi öğreniyoruz. Hava durumu, oyunlar ve günlük kararlar olasılık düşüncesiyle daha iyi anlaşılır.",
+   "sections": [
+    {
+     "title": "Olay ve Olasılık Spektrumu",
+     "text": "Bir deneyde ortaya çıkabilecek durumlara olay denir. Örneğin bir zar atıldığında 4 gelmesi bir olaydır. Olayların gerçekleşme şansını 0 ile 1 arasında bir çizgi üzerinde gösterebiliriz; bu çizgiye olasılık spektrumu denir. Hiç gerçekleşemeyecek olaylar imkânsız olaydır ve 0 noktasındadır; örneğin bir zarda 7 gelmesi. Kesinlikle gerçekleşecek olaylar kesin olaydır ve 1 noktasındadır; örneğin zarda 7’den küçük bir sayı gelmesi. Gerçekleşme şansı yarı yarıya olan olaylar ise 1/2 noktasına yerleşir.",
+     "points": [
+      "0: imkânsız",
+      "1/2: eşit şans",
+      "1: kesin"
+     ]
+    },
+    {
+     "title": "Az ve Çok Olasılıklı Olaylar",
+     "text": "Olasılık spektrumunda 0’a yakın olan olaylar az olasılıklı, 1’e yakın olan olaylar çok olasılıklıdır. Örneğin içinde 9 kırmızı, 1 mavi top bulunan bir torbadan bakmadan top çekersek kırmızı top gelmesi çok olasılıklı, mavi top gelmesi az olasılıklıdır. Olayları karşılaştırırken her bir sonucun kaç farklı biçimde ortaya çıkabileceğini düşünürüz. Bir olaya uyan durum sayısı arttıkça o olayın gerçekleşme olasılığı da artar. Böylece olayları en az olasılıklıdan en çok olasılıklıya doğru sıralayabiliriz.",
+     "points": [
+      "0’a yakın: az olasılıklı.",
+      "1’e yakın: çok olasılıklı.",
+      "Uygun durum sayısı arttıkça olasılık artar."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Olay",
+     "meaning": "Bir deneyde ortaya çıkabilecek durum ya da durumlar."
+    },
+    {
+     "term": "Olasılık spektrumu",
+     "meaning": "Olayların gerçekleşme şansını 0’dan 1’e kadar gösteren çizgi."
+    },
+    {
+     "term": "İmkânsız olay",
+     "meaning": "Hiçbir zaman gerçekleşmeyecek olay; olasılığı 0’dır."
+    },
+    {
+     "term": "Kesin olay",
+     "meaning": "Mutlaka gerçekleşecek olay; olasılığı 1’dir."
+    },
+    {
+     "term": "Az olasılıklı",
+     "meaning": "Gerçekleşme şansı düşük olan, 0’a yakın olay."
+    },
+    {
+     "term": "Çok olasılıklı",
+     "meaning": "Gerçekleşme şansı yüksek olan, 1’e yakın olay."
+    }
+   ],
+   "example": {
+    "question": "Bir torbada 6 sarı, 3 yeşil ve 1 mor bilye var. Bakmadan bir bilye çekiliyor. Sarı, yeşil, mor ve beyaz bilye çekme olaylarını olasılığı en azdan en çoğa sıralayınız.",
+    "solution": "1. adım: Torbada beyaz bilye yok, bu olay imkânsızdır (0).\n2. adım: Mor 1, yeşil 3, sarı 6 tanedir; sayı arttıkça olasılık artar.\nCevap: beyaz, mor, yeşil, sarı."
+   },
+   "remember": [
+    "Olasılık 0 ile 1 arasındadır.",
+    "İmkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir.",
+    "Uygun durum ne kadar çoksa olay o kadar olasıdır."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 1,
+   "intro": "Bu temada doğal sayıların çarpanlarını ve katlarını, bölünebilme kurallarını, asal sayıları ve ortak bölen ile ortak katı öğreniyoruz. Bu bilgiler eşit paylaştırma, gruplama ve zamanlama problemlerini kolayca çözmemizi sağlar.",
+   "sections": [
+    {
+     "title": "Çarpanlar ve Katlar",
+     "text": "Bir doğal sayıyı kalansız bölen doğal sayılara o sayının çarpanları ya da bölenleri denir. Örneğin 12’nin çarpanları 1, 2, 3, 4, 6 ve 12’dir. Bir sayının bir sayma sayısıyla çarpımına ise o sayının katı denir; 5’in katları 5, 10, 15, 20, ... diye devam eder. Bir sayının çarpanları sınırlıdır, katları ise sonsuzdur. Çarpanları bulurken çarpımı o sayıyı veren sayı çiftlerini yazmak düzenli çalışmamızı sağlar: 12 = 1 × 12 = 2 × 6 = 3 × 4.",
+     "points": [
+      "1 her sayının çarpanıdır.",
+      "Her sayı kendisinin hem çarpanı hem katıdır."
+     ]
+    },
+    {
+     "title": "Bölünebilme Kuralları",
+     "text": "Bölme yapmadan bir sayının başka bir sayıya tam bölünüp bölünmediğini anlamak için bölünebilme kurallarını kullanırız. Birler basamağı çift olan sayılar 2 ile bölünür. Rakamları toplamı 3’ün katı olan sayılar 3 ile, 9’un katı olan sayılar 9 ile bölünür. Son iki basamağının oluşturduğu sayı 4’ün katı olan sayılar 4 ile bölünür. Birler basamağı 0 veya 5 olan sayılar 5 ile, 0 olan sayılar 10 ile bölünür. Hem 2 hem de 3 ile bölünebilen sayılar 6 ile de tam bölünür.",
+     "points": [
+      "2: son rakam çift.",
+      "3 ve 9: rakamlar toplamı 3’ün ya da 9’un katı.",
+      "4: son iki basamak 4’ün katı.",
+      "5: son rakam 0 veya 5; 10: son rakam 0.",
+      "6: hem 2 hem 3 ile bölünür."
+     ]
+    },
+    {
+     "title": "Asal Sayılar ve Asal Çarpanlar",
+     "text": "1’den büyük olup yalnızca 1’e ve kendisine bölünebilen doğal sayılara asal sayı denir: 2, 3, 5, 7, 11, 13, ... 2 tek çift asal sayıdır; 1 ise asal değildir. Asal olmayan bir sayıyı asal sayıların çarpımı şeklinde yazabiliriz; bu sayılara o sayının asal çarpanları denir. Bunun için çarpan ağacı ya da bölen listesi yöntemini kullanırız. Örneğin 60 sayısını en küçük asal sayıdan başlayarak böleriz: 60 = 2 × 2 × 3 × 5 = 2² × 3 × 5. Buna göre 60’ın asal çarpanları 2, 3 ve 5’tir.",
+     "points": [
+      "1 asal sayı değildir.",
+      "En küçük asal sayı 2’dir."
+     ]
+    },
+    {
+     "title": "Ortak Bölen ve Ortak Kat",
+     "text": "İki ya da daha fazla sayının her birini bölen sayılara ortak bölen denir. Bunların en büyüğü en büyük ortak bölendir (EBOB). Eşit parçalara ayırma, en büyük ölçüyü bulma gibi problemlerde EBOB kullanılır. İki ya da daha fazla sayının her birinin katı olan sayılara ortak kat denir; bunların en küçüğüne en küçük ortak kat (EKOK) denir. Olayların yeniden aynı anda gerçekleşeceği zamanı bulma gibi problemlerde EKOK kullanılır. Örneğin 12 ve 18 için EBOB 6, EKOK 36’dır.",
+     "points": [
+      "Bölme, paylaştırma: EBOB.",
+      "Tekrar buluşma, aynı anda olma: EKOK."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Çarpan",
+     "meaning": "Bir sayıyı kalansız bölen doğal sayı."
+    },
+    {
+     "term": "Kat",
+     "meaning": "Bir sayının bir sayma sayısıyla çarpımı."
+    },
+    {
+     "term": "Bölünebilme",
+     "meaning": "Bir sayının başka bir sayıya kalansız bölünmesi."
+    },
+    {
+     "term": "Asal sayı",
+     "meaning": "1’den büyük, yalnızca 1’e ve kendisine bölünebilen doğal sayı."
+    },
+    {
+     "term": "Asal çarpanlar",
+     "meaning": "Bir sayıyı bölen asal sayılar."
+    },
+    {
+     "term": "Ortak bölen",
+     "meaning": "Birden fazla sayının her birini kalansız bölen sayı."
+    },
+    {
+     "term": "Ortak kat",
+     "meaning": "Birden fazla sayının her birinin katı olan sayı."
+    }
+   ],
+   "example": {
+    "question": "Bir otobüs durağından A otobüsü 15 dakikada bir, B otobüsü 20 dakikada bir kalkıyor. İkisi saat 08.00’de birlikte kalktıysa bir sonraki birlikte kalkış saat kaçta olur?",
+    "solution": "1. adım: Birlikte kalkış için 15 ve 20’nin EKOK’u bulunur. 15 = 3 × 5, 20 = 2² × 5.\n2. adım: EKOK = 2² × 3 × 5 = 60 dakika.\n3. adım: 08.00 + 60 dakika = 09.00.\nCevap: Saat 09.00’da."
+   },
+   "remember": [
+    "1 asal değildir, 2 tek çift asal sayıdır.",
+    "Rakamları toplamı 3’ün katıysa sayı 3’e bölünür.",
+    "Paylaştırma problemlerinde EBOB, buluşma problemlerinde EKOK düşün.",
+    "Her doğal sayı asal çarpanlarının çarpımı olarak yazılabilir."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 2,
+   "intro": "Bu temada ondalık gösterimlerin basamak değerlerini, kesir ile bölme arasındaki ilişkiyi, kesir, ondalık ve yüzde içeren işlemleri ve uzunluk ölçme birimlerini öğreniyoruz. Alışverişten yol ölçmeye kadar pek çok alanda bu bilgileri kullanırız.",
+   "sections": [
+    {
+     "title": "Ondalık Gösterimde Basamak Değeri",
+     "text": "Ondalık gösterimde virgülün sağındaki ilk basamak onda birler, ikinci basamak yüzde birler, üçüncü basamak binde birler basamağıdır. Örneğin 4,326 sayısında 3’ün basamak değeri 3/10 = 0,3; 2’nin basamak değeri 2/100 = 0,02; 6’nın basamak değeri 6/1000 = 0,006’dır. Ondalık gösterimler de doğal sayılar gibi çözümlenebilir: 4,326 = 4 + 0,3 + 0,02 + 0,006. Ondalık gösterimleri karşılaştırırken önce tam kısımlara, eşitse sırasıyla onda birler, yüzde birler basamaklarına bakarız.",
+     "points": [
+      "0,5 ile 0,50 aynı değeri gösterir.",
+      "Virgülün sağındaki her basamak, solundakinin onda biridir."
+     ]
+    },
+    {
+     "title": "Kesir ve Bölme İlişkisi",
+     "text": "Her kesir aslında bir bölme işlemidir: a/b kesri a ÷ b anlamına gelir. Örneğin 3 pizzayı 4 kişiye eşit paylaştırırsak her kişiye 3 ÷ 4 = 3/4 pizza düşer. Bu ilişki sayesinde bir kesri ondalık gösterime çevirmek için payı paydaya böleriz: 3/4 = 0,75. Kesirlerle işlem yaparken toplama ve çıkarmada önce paydaları eşitleriz. Çarpmada paylar kendi arasında, paydalar kendi arasında çarpılır. Bölmede ise birinci kesir, ikinci kesrin ters çevrilmiş hâliyle çarpılır: 2/3 ÷ 4/5 = 2/3 × 5/4 = 10/12 = 5/6.",
+     "points": [
+      "a/b = a ÷ b",
+      "Kesirlerle bölme: ikinciyi ters çevir ve çarp."
+     ]
+    },
+    {
+     "title": "Yüzde Hesapları",
+     "text": "Bir çokluğun belirli bir yüzdesini bulmak için çokluğu yüzde ile ifade edilen kesirle çarparız. Örneğin 240 TL’nin %25’i, 240 × 25/100 = 60 TL’dir. Bir ürün %25 indirimle satılıyorsa yeni fiyat 240 − 60 = 180 TL olur. Yüzde problemlerinde yüzdeyi kesre ya da ondalık gösterime çevirmek işlemi kolaylaştırır: %25 = 1/4 = 0,25. Ondalık gösterimlerle toplama ve çıkarma yaparken virgüller alt alta gelecek şekilde yazılır. Çarpmada virgül yokmuş gibi çarpılır, sonra çarpanlardaki toplam ondalık basamak sayısı kadar virgül konur.",
+     "points": [
+      "%10 bulmak için 10’a böl.",
+      "%50 bir çokluğun yarısıdır."
+     ]
+    },
+    {
+     "title": "Uzunluk Ölçme Birimleri",
+     "text": "Uzunluk ölçmede standart birim metredir (m). Metrenin as katları milimetre (mm), santimetre (cm) ve desimetredir (dm); üst katları ise dekametre (dam), hektometre (hm) ve kilometredir (km). Uzunluk birimleri onar onar büyür ya da küçülür. Büyük birimden küçük birime geçerken 10, 100, 1000 gibi sayılarla çarparız; küçük birimden büyük birime geçerken bu sayılara böleriz. Örneğin 2,5 km = 2500 m ve 350 cm = 3,5 m’dir. Ölçülecek uzunluğa uygun birim seçmek önemlidir; kalem boyu cm ile, şehirler arası mesafe km ile ifade edilir.",
+     "points": [
+      "1 km = 1000 m",
+      "1 m = 100 cm",
+      "1 cm = 10 mm"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Basamak değeri",
+     "meaning": "Bir rakamın bulunduğu basamağa göre aldığı değer; ondalıkta onda bir, yüzde bir gibi."
+    },
+    {
+     "term": "Ondalık gösterim",
+     "meaning": "Kesirlerin virgül kullanılarak yazılması."
+    },
+    {
+     "term": "Onda birler basamağı",
+     "meaning": "Virgülün sağındaki ilk basamak."
+    },
+    {
+     "term": "Yüzde",
+     "meaning": "Paydası 100 olan kesrin % sembolüyle gösterimi."
+    },
+    {
+     "term": "Uzunluk ölçme",
+     "meaning": "Bir uzunluğu standart birimlerle karşılaştırarak sayıyla ifade etme."
+    },
+    {
+     "term": "Metre",
+     "meaning": "Uzunluk ölçmede kullanılan temel standart birim."
+    }
+   ],
+   "example": {
+    "question": "Bir koşu parkuru 1,2 km uzunluğundadır. Ayşe bu parkurun 3/4’ünü koştu. Ayşe kaç metre koşmuştur?",
+    "solution": "1. adım: 1,2 km = 1200 m.\n2. adım: 1200 × 3/4 = 3600 ÷ 4 = 900 m.\nCevap: Ayşe 900 metre koşmuştur."
+   },
+   "remember": [
+    "Kesir çizgisi bölme anlamına gelir.",
+    "Ondalıklarda virgülleri alt alta yaz.",
+    "Uzunluk birimleri onar onar değişir.",
+    "Yüzdeyi kesre çevirmek hesabı kolaylaştırır."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 3,
+   "intro": "Bu temada bilinmeyen nicelikleri harflerle göstermeyi, cebirsel ifadeler yazmayı ve örüntülerin kuralını cebirle ifade etmeyi öğreniyoruz. Cebir, matematikte genel kuralları kısa ve açık biçimde yazmamızı sağlayan bir dildir.",
+   "sections": [
+    {
+     "title": "Değişken ve Cebirsel İfade",
+     "text": "Değeri bilinmeyen ya da değişebilen nicelikleri göstermek için kullanılan harflere değişken denir. Değişken içeren ifadelere cebirsel ifade denir. Örneğin bir kalemin fiyatı x TL ise 5 kalemin fiyatı 5x TL’dir. Cebirsel ifadede toplama ya da çıkarma işaretleriyle ayrılan her bir parçaya terim denir. Değişkenin önündeki sayıya katsayı, değişken içermeyen terime sabit terim denir. 3a + 7 ifadesinde iki terim vardır; a’nın katsayısı 3, sabit terim 7’dir. Değişkene bir değer verdiğimizde ifadenin değerini hesaplayabiliriz.",
+     "points": [
+      "5x, 5 × x demektir.",
+      "x’in katsayısı 1’dir, yani x = 1x."
+     ]
+    },
+    {
+     "title": "Sözel İfadeleri Cebire Çevirme",
+     "text": "Günlük hayattaki durumları cebirsel ifadeyle yazabiliriz. Bir sayının 3 fazlası x + 3, bir sayının 2 katının 5 eksiği 2x − 5, bir sayının yarısı x/2 biçiminde yazılır. Bilinen niceliklerden yola çıkarak bilinmeyen hakkında akıl yürütürüz. Örneğin Ali’nin yaşı Zeynep’in yaşının 2 katı ise Zeynep’in yaşına y dersek Ali’nin yaşı 2y olur. Cebirsel ifadeyi doğru yazmak için ifadedeki anahtar sözcüklere dikkat ederiz: fazlası toplama, eksiği çıkarma, katı çarpma, yarısı ya da parçası bölme anlamı taşır.",
+     "points": [
+      "Fazlası: +",
+      "Eksiği: −",
+      "Katı: ×",
+      "Yarısı: ÷ 2"
+     ]
+    },
+    {
+     "title": "Örüntüler ve Algoritmalar",
+     "text": "Bir örüntünün herhangi bir adımındaki terimi bulmamızı sağlayan kurala genel kural denir ve cebirsel ifadeyle yazılır. Örneğin 4, 7, 10, 13, ... örüntüsünde her adımda 3 eklenir. Adım sayısına n dersek kural 3n + 1 olur. Kontrol edelim: n = 1 için 4, n = 2 için 7 bulunur. Bu kuralla 20. terimi de kolayca buluruz: 3 × 20 + 1 = 61. Bir algoritmayı, örneğin bir sayıyı 2 ile çarpıp 3 ekle adımlarını, tablo ile ya da 2x + 3 cebirsel ifadesiyle gösterebiliriz.",
+     "points": [
+      "Ardışık terimler arasındaki fark, n’nin katsayısını verir.",
+      "Kuralı birkaç adımda sınamayı unutma."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Değişken",
+     "meaning": "Bilinmeyen ya da değişebilen bir niceliği gösteren harf."
+    },
+    {
+     "term": "Cebirsel ifade",
+     "meaning": "En az bir değişken ve işlem içeren matematiksel ifade."
+    },
+    {
+     "term": "Terim",
+     "meaning": "Cebirsel ifadede + veya − ile ayrılan her bir parça."
+    },
+    {
+     "term": "Katsayı",
+     "meaning": "Bir terimde değişkenle çarpılan sayı."
+    },
+    {
+     "term": "Sabit terim",
+     "meaning": "Cebirsel ifadede değişken içermeyen terim."
+    },
+    {
+     "term": "Algoritma",
+     "meaning": "Bir sonuca ulaşmak için izlenen sıralı adımlar."
+    }
+   ],
+   "example": {
+    "question": "Kibrit çöpleriyle yan yana kareler yapılıyor: 1 kare için 4, 2 kare için 7, 3 kare için 10 çöp kullanılıyor. n kare için kaç çöp gerekir? 15 kare için kaç çöp gerekir?",
+    "solution": "1. adım: Çöp sayıları 4, 7, 10, ... her adımda 3 artıyor, kural 3n + 1 biçimindedir.\n2. adım: Kontrol: n = 1 için 3 × 1 + 1 = 4 doğru.\n3. adım: n = 15 için 3 × 15 + 1 = 46.\nCevap: n kare için 3n + 1 çöp; 15 kare için 46 çöp gerekir."
+   },
+   "remember": [
+    "Değişken, bilinmeyeni gösteren harftir.",
+    "Katsayı değişkenin önündeki sayıdır.",
+    "Örüntünün kuralını n ile yaz ve sına.",
+    "Sözel ifadedeki anahtar kelimeler işlemi gösterir."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 4,
+   "intro": "Bu temada iki paralel doğrunun bir kesenle oluşturduğu açıları ve dörtgenlerin özelliklerini inceliyoruz. Bu bilgilerle şekillerdeki bilinmeyen açıları hesaplayabiliriz.",
+   "sections": [
+    {
+     "title": "Paralel Doğrular ve Kesen",
+     "text": "İki paralel doğruyu bir doğru kestiğinde sekiz açı oluşur. Kesenin aynı tarafında olup biri paralellerin arasında, diğeri dışında kalan ve aynı yöne bakan açılara yöndeş açılar denir; yöndeş açıların ölçüleri eşittir. Paralellerin arasında kalıp kesenin farklı taraflarında bulunan açılara iç ters açılar denir ve bunlar da eştir. Paralellerin dışında kalıp kesenin farklı taraflarında bulunan açılar ise dış ters açılardır ve ölçüleri eşittir. Ayrıca kesenin aynı tarafındaki iki iç açının ölçüleri toplamı 180°’dir.",
+     "points": [
+      "Yöndeş açılar eştir.",
+      "İç ters açılar eştir.",
+      "Dış ters açılar eştir.",
+      "Oluşan açılardan dar olanlar kendi arasında, geniş olanlar kendi arasında eştir."
+     ]
+    },
+    {
+     "title": "Dörtgenler",
+     "text": "Yamuk, en az iki kenarı birbirine paralel olan dörtgendir. Paralelkenarın karşılıklı kenarları paralel ve eşit uzunluktadır; karşılıklı açıları eştir, komşu açılarının toplamı 180°’dir. Eşkenar dörtgen, bütün kenarları eşit olan paralelkenardır. Dikdörtgen, bütün açıları dik olan paralelkenardır. Kare ise hem dikdörtgenin hem de eşkenar dörtgenin özelliklerini taşır. Paralelkenarın köşegenleri birbirini ortalar, yani kesişme noktası her iki köşegeni de iki eş parçaya ayırır. Tersine, köşegenleri birbirini ortalayan her dörtgen bir paralelkenardır.",
+     "points": [
+      "Her kare bir dikdörtgendir, her dikdörtgen bir paralelkenardır.",
+      "Dörtgenin iç açıları toplamı 360°’dir."
+     ]
+    },
+    {
+     "title": "Açı Problemleri Çözme",
+     "text": "Açı problemlerinde önce şekildeki paralel doğruları ve kesenleri belirleriz. Ardından yöndeş, iç ters ve dış ters açı ilişkilerini kullanarak bilinen açıları şeklin farklı yerlerine taşırız. Üçgenin iç açılarının toplamının 180°, dörtgenin iç açılarının toplamının 360° olduğunu da sıkça kullanırız. Bir doğru üzerindeki komşu açıların toplamı 180°’dir. Çözüm sırasında her adımı hangi kurala dayandırdığımızı yazmak, hem hatayı azaltır hem de akıl yürütmemizi gösterir.",
+     "points": [
+      "Paralel doğruları ok işaretiyle belirt.",
+      "Her adımın gerekçesini yaz."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Yöndeş açılar",
+     "meaning": "Paralel doğrular ve kesenle oluşan, aynı yöne bakan eş açılar."
+    },
+    {
+     "term": "İç ters açılar",
+     "meaning": "Paralellerin arasında, kesenin farklı yanlarında kalan eş açılar."
+    },
+    {
+     "term": "Dış ters açılar",
+     "meaning": "Paralellerin dışında, kesenin farklı yanlarında kalan eş açılar."
+    },
+    {
+     "term": "Yamuk",
+     "meaning": "En az iki kenarı paralel olan dörtgen."
+    },
+    {
+     "term": "Paralelkenar",
+     "meaning": "Karşılıklı kenarları paralel olan dörtgen."
+    },
+    {
+     "term": "Eşkenar dörtgen",
+     "meaning": "Bütün kenarları eşit uzunlukta olan paralelkenar."
+    }
+   ],
+   "example": {
+    "question": "Bir paralelkenarın bir açısı 65° ise diğer açıları kaç derecedir?",
+    "solution": "1. adım: Komşu açıların toplamı 180°’dir: 180° − 65° = 115°.\n2. adım: Karşılıklı açılar eştir.\nCevap: Açılar 65°, 115°, 65° ve 115°’dir. Kontrol: toplam 360°."
+   },
+   "remember": [
+    "Paraleller ve kesende yöndeş, iç ters ve dış ters açılar eştir.",
+    "Paralelkenarda karşılıklı açılar eş, komşu açılar bütünlerdir.",
+    "Dörtgenin iç açıları toplamı 360°’dir.",
+    "Köşegenleri birbirini ortalayan dörtgen paralelkenardır."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 5,
+   "intro": "Bu temada alan ölçme birimlerini, paralelkenar ve üçgenin alanını, çemberin uzunluğunu ve π sayısını öğreniyoruz. Bu bilgiler tarla, oda, bisiklet tekerleği gibi gerçek nesnelerle ilgili hesaplarda kullanılır.",
+   "sections": [
+    {
+     "title": "Alan Ölçme Birimleri",
+     "text": "Alan ölçmede temel birim metrekaredir (m²); kenarı 1 m olan karenin alanıdır. Metrekarenin as katları desimetrekare (dm²), santimetrekare (cm²) ve milimetrekaredir (mm²). Üst katları ise dekametrekare (dam²), hektometrekare (hm²) ve kilometrekaredir (km²). Uzunluk birimleri onar onar değişirken alan birimleri yüzer yüzer değişir. Bunun nedeni, kenarı 10 kat büyüyen bir karenin alanının 10 × 10 = 100 kat büyümesidir. Örneğin 1 m = 10 dm olduğundan 1 m² = 100 dm²’dir.",
+     "points": [
+      "1 m² = 100 dm² = 10 000 cm²",
+      "1 km² = 1 000 000 m²",
+      "Alan birimleri yüzer yüzer büyür ya da küçülür."
+     ]
+    },
+    {
+     "title": "Paralelkenarın ve Üçgenin Alanı",
+     "text": "Bir paralelkenarın bir kenarına karşı köşeden indirilen dikmeye yükseklik denir. Paralelkenarın bir ucundan dik üçgen şeklinde bir parça kesip diğer uca eklersek bir dikdörtgen elde ederiz. Bu nedenle paralelkenarın alanı taban × yükseklik ile bulunur. Bir paralelkenar köşegeniyle iki eş üçgene ayrılır. Bu yüzden üçgenin alanı, aynı taban ve yüksekliğe sahip paralelkenarın alanının yarısıdır: Üçgenin alanı = (taban × yükseklik) ÷ 2. Yükseklik her zaman tabana dik olarak ölçülür; eğik kenar yükseklik değildir.",
+     "points": [
+      "Paralelkenarın alanı = taban × yükseklik",
+      "Üçgenin alanı = (taban × yükseklik) ÷ 2"
+     ]
+    },
+    {
+     "title": "Çemberin Uzunluğu ve π",
+     "text": "Farklı büyüklükteki çemberlerin uzunluğunu çaplarına böldüğümüzde hep yaklaşık 3,14 sonucunu buluruz. Bu sabit orana pi sayısı denir ve π ile gösterilir. π’nin ondalık gösterimi sonsuza kadar düzensiz biçimde devam eder; işlemlerde genellikle yaklaşık 3 veya 3,14 değeri kullanılır. Buna göre çemberin uzunluğu = π × çap = 2 × π × yarıçap bağıntısıyla bulunur. Çemberin iki noktası arasında kalan parçasına yay denir. Köşesi çemberin merkezinde olan açıya merkez açı denir. Merkez açının ölçüsü ile gördüğü yayın uzunluğu orantılıdır: 90°’lik merkez açı çemberin 1/4’ünü, 180°’lik açı yarısını görür.",
+     "points": [
+      "Çember uzunluğu = 2πr",
+      "Yay uzunluğu = çember uzunluğu × (merkez açı ÷ 360°)"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Metrekare",
+     "meaning": "Kenarı 1 m olan karenin alanı; m² ile gösterilir."
+    },
+    {
+     "term": "Hektometrekare",
+     "meaning": "Kenarı 1 hm olan karenin alanı; 10 000 m²’dir."
+    },
+    {
+     "term": "Yükseklik",
+     "meaning": "Bir köşeden karşı kenara ya da uzantısına indirilen dikme."
+    },
+    {
+     "term": "Paralelkenarın alanı",
+     "meaning": "Taban uzunluğu ile o tabana ait yüksekliğin çarpımı."
+    },
+    {
+     "term": "Üçgenin alanı",
+     "meaning": "Taban ile yüksekliğin çarpımının yarısı."
+    },
+    {
+     "term": "Pi sayısı",
+     "meaning": "Çemberin uzunluğunun çapına oranı; yaklaşık 3,14."
+    },
+    {
+     "term": "Merkez açı",
+     "meaning": "Köşesi çemberin merkezinde olan açı."
+    },
+    {
+     "term": "Yay",
+     "meaning": "Çember üzerinde iki nokta arasında kalan parça."
+    }
+   ],
+   "example": {
+    "question": "Yarıçapı 30 cm olan bir bisiklet tekerleği 10 tam tur dönüyor. Bisiklet kaç cm yol alır? (π yerine 3,14 alınız.)",
+    "solution": "1. adım: Bir turda alınan yol çember uzunluğudur: 2 × 3,14 × 30 = 188,4 cm.\n2. adım: 10 turda: 188,4 × 10 = 1884 cm.\nCevap: 1884 cm, yani 18,84 m yol alır."
+   },
+   "remember": [
+    "Alan birimleri yüzer yüzer değişir.",
+    "Yükseklik tabana diktir.",
+    "Üçgenin alanı, aynı taban ve yükseklikli paralelkenarın yarısıdır.",
+    "Çember uzunluğu = 2πr; π yaklaşık 3,14’tür."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 6,
+   "intro": "Bu temada sayısal verilerle araştırma yapmayı ve verileri aritmetik ortalama, ortanca ve tepe değer gibi merkezi ölçülerle özetlemeyi öğreniyoruz. Kök-yaprak gösterimi gibi yeni bir gösterim biçimini de tanıyoruz.",
+   "sections": [
+    {
+     "title": "Nicel Veri ve Kök-Yaprak Gösterimi",
+     "text": "Sayıyla ifade edilen verilere nicel veri denir. Kardeş sayısı, bir kitaptaki sayfa sayısı gibi sayarak elde edilen veriler kesikli veridir. Bu tür verileri nokta grafiği, sıklık tablosu ya da kök-yaprak gösterimi ile düzenleyebiliriz. Kök-yaprak gösteriminde her sayının son basamağı yaprak, diğer basamakları kök olarak yazılır. Örneğin 34, 37 ve 41 sayılarında kökler 3 ve 4, yapraklar 4, 7 ve 1’dir. Bu gösterim hem verilerin tamamını korur hem de dağılımın şeklini bir bakışta görmemizi sağlar. Yapraklar küçükten büyüğe sıralanarak yazılır.",
+     "points": [
+      "Kök: onlar basamağı (ve daha büyükler).",
+      "Yaprak: birler basamağı."
+     ]
+    },
+    {
+     "title": "Merkezi Ölçüler",
+     "text": "Bir veri grubunu tek bir sayıyla özetlemek için merkezi ölçüleri kullanırız. Aritmetik ortalama, verilerin toplamının veri sayısına bölünmesiyle bulunur. Ortanca, veriler küçükten büyüğe sıralandığında tam ortada kalan değerdir; veri sayısı çiftse ortadaki iki değerin ortalamasıdır. Tepe değer ise veri grubunda en çok tekrar eden değerdir; kategorik verilerde de kullanılabilir. Uç değerler, yani diğerlerinden çok büyük ya da çok küçük veriler aritmetik ortalamayı büyük ölçüde etkiler. Böyle durumlarda ortanca, veriyi daha iyi temsil edebilir.",
+     "points": [
+      "Ortalama = toplam ÷ veri sayısı",
+      "Ortanca için önce verileri sırala.",
+      "Tepe değer en sık tekrar edendir."
+     ]
+    },
+    {
+     "title": "Veriye Dayalı Karar ve Tartışma",
+     "text": "Bir araştırmada verilerin ne kadar yayıldığına da bakarız; bu yayılmaya dağılım denir. Aynı ortalamaya sahip iki veri grubu çok farklı dağılımlara sahip olabilir. Bu nedenle karar verirken yalnızca ortalamaya değil, verilerin bütününe ve grafiğe bakmak gerekir. Başkalarının yorumlarını değerlendirirken hangi merkezi ölçüyü kullandıklarını, verinin nasıl toplandığını ve yeterli sayıda veri olup olmadığını sorgularız. Doğru seçilmiş bir ölçü ve grafik, araştırma sorusuna güvenilir bir cevap vermemizi sağlar.",
+     "points": [
+      "Uç değer varsa ortancayı kullanmayı düşün.",
+      "Ortalama tek başına her şeyi anlatmaz."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Nicel (kesikli) veri",
+     "meaning": "Sayarak elde edilen sayısal veri."
+    },
+    {
+     "term": "Kök-yaprak gösterimi",
+     "meaning": "Sayıların son basamağını yaprak, diğer basamaklarını kök olarak yazan gösterim."
+    },
+    {
+     "term": "Aritmetik ortalama",
+     "meaning": "Verilerin toplamının veri sayısına bölümü."
+    },
+    {
+     "term": "Ortanca",
+     "meaning": "Sıralanmış verilerin tam ortasındaki değer."
+    },
+    {
+     "term": "Tepe değer",
+     "meaning": "Veri grubunda en çok tekrar eden değer."
+    },
+    {
+     "term": "Merkez",
+     "meaning": "Verilerin toplandığı orta noktayı anlatan ölçü."
+    },
+    {
+     "term": "Dağılım",
+     "meaning": "Verilerin değerler arasında nasıl yayıldığı."
+    }
+   ],
+   "example": {
+    "question": "Bir öğrencinin haftalık kitap okuma süreleri (dakika): 20, 35, 20, 40, 25, 30, 90. Ortalama, ortanca ve tepe değeri bulunuz.",
+    "solution": "1. adım: Toplam = 20 + 35 + 20 + 40 + 25 + 30 + 90 = 260. Ortalama = 260 ÷ 7 ≈ 37,1 dakika.\n2. adım: Sıralama: 20, 20, 25, 30, 35, 40, 90. Ortadaki (4.) değer 30’dur. Ortanca = 30.\n3. adım: En çok tekrar eden 20’dir. Tepe değer = 20.\nYorum: 90 uç değeri ortalamayı yükseltmiştir; ortanca daha iyi temsil eder."
+   },
+   "remember": [
+    "Ortancayı bulmadan önce verileri sırala.",
+    "Uç değerler ortalamayı etkiler.",
+    "Tepe değer kategorik veride de kullanılır.",
+    "Kök-yaprak gösteriminde veriler kaybolmaz."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 7,
+   "intro": "Bu temada bir deneyi tekrar tekrar yaparak sonuçları gözlemlemeyi ve bir olayın olasılığını göreli sıklık ile tahmin etmeyi öğreniyoruz. Deney sayısı arttıkça tahminlerimiz daha güvenilir hâle gelir.",
+   "sections": [
+    {
+     "title": "Deney ve Çıktı",
+     "text": "Sonucu önceden kesin olarak bilinemeyen ve aynı koşullarda tekrarlanabilen işlemlere deney denir. Bir para atmak, zar atmak veya torbadan bilye çekmek birer deneydir. Bir deneyin her bir olası sonucuna çıktı denir. Para atma deneyinin çıktıları yazı ve turadır; zar atma deneyinin çıktıları ise 1, 2, 3, 4, 5 ve 6’dır. Bir olay bir ya da birden fazla çıktıdan oluşabilir. Örneğin zar atıldığında çift sayı gelmesi olayı 2, 4 ve 6 çıktılarından oluşur.",
+     "points": [
+      "Deney aynı koşullarda tekrarlanabilmelidir.",
+      "Her olası sonuç bir çıktıdır."
+     ]
+    },
+    {
+     "title": "Göreli Sıklık ile Olasılık Tahmini",
+     "text": "Bir deneyi birçok kez tekrarladığımızda, bir olayın kaç kez gerçekleştiğini sayarız. Bu sayının toplam deneme sayısına bölünmesiyle göreli sıklık bulunur: göreli sıklık = olayın gerçekleşme sayısı ÷ toplam deneme sayısı. Göreli sıklık 0 ile 1 arasında bir değerdir ve olayın olasılığı için bir tahmin verir. Örneğin bir raptiye 50 kez atıldığında 30 kez ucu yukarı düşerse, ucunun yukarı gelme olasılığını 30/50 = 0,6 olarak tahmin ederiz. Deneme sayısı arttıkça göreli sıklık genellikle belirli bir değere yaklaşır ve tahminimiz güçlenir.",
+     "points": [
+      "Göreli sıklık = gerçekleşme sayısı ÷ deneme sayısı",
+      "Çok sayıda deneme daha iyi tahmin verir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Deney",
+     "meaning": "Sonucu önceden kesin bilinemeyen, tekrarlanabilen işlem."
+    },
+    {
+     "term": "Çıktı",
+     "meaning": "Bir deneyin olası sonuçlarından her biri."
+    },
+    {
+     "term": "Olay",
+     "meaning": "Bir deneyin bir ya da daha fazla çıktısından oluşan durum."
+    },
+    {
+     "term": "Göreli sıklık",
+     "meaning": "Bir olayın gerçekleşme sayısının toplam deneme sayısına oranı."
+    }
+   ],
+   "example": {
+    "question": "Bir öğrenci bir zarı 60 kez atıyor ve 12 kez 6 geldiğini görüyor. Bu deneye göre 6 gelme olasılığını tahmin ediniz. Öğrenci zarı 300 kez atsa yaklaşık kaç kez 6 gelmesini bekler?",
+    "solution": "1. adım: Göreli sıklık = 12 ÷ 60 = 1/5 = 0,2.\n2. adım: 300 atışta beklenen sayı yaklaşık 300 × 0,2 = 60.\nCevap: Olasılık tahmini 0,2; 300 atışta yaklaşık 60 kez 6 beklenir."
+   },
+   "remember": [
+    "Deneyin her olası sonucu bir çıktıdır.",
+    "Göreli sıklık olasılık için bir tahmindir.",
+    "Deneme sayısını artırmak tahmini iyileştirir."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 1,
+   "intro": "Bu temada tam sayıları ve rasyonel sayıları tanıyor, bunları karşılaştırıyor ve dört işlem yapıyoruz. Sıcaklık, deniz seviyesi, borç ve alacak gibi durumlar bu sayılarla ifade edilir.",
+   "sections": [
+    {
+     "title": "Tam Sayılar ve Mutlak Değer",
+     "text": "Pozitif tam sayılar, negatif tam sayılar ve sıfırın oluşturduğu sayılara tam sayılar denir: ..., −3, −2, −1, 0, 1, 2, 3, ... Sıfır ne pozitif ne de negatiftir. Sayı doğrusunda sıfırın sağındakiler pozitif, solundakiler negatiftir. Bir sayının sayı doğrusunda sıfıra olan uzaklığına mutlak değer denir ve |a| ile gösterilir. Uzaklık negatif olamayacağı için mutlak değer hiçbir zaman negatif değildir: |−5| = 5 ve |5| = 5. Tam sayılarla toplama yaparken işaretler aynıysa mutlak değerler toplanır ve ortak işaret verilir; işaretler farklıysa büyük mutlak değerden küçüğü çıkarılır ve büyüğün işareti verilir.",
+     "points": [
+      "(+) × (+) = (+), (−) × (−) = (+)",
+      "(+) × (−) = (−)",
+      "Bölmede de işaret kuralı aynıdır."
+     ]
+    },
+    {
+     "title": "Rasyonel Sayılar",
+     "text": "a ve b tam sayı ve b sıfırdan farklı olmak üzere a/b biçiminde yazılabilen sayılara rasyonel sayılar denir. Her tam sayı bir rasyonel sayıdır, çünkü örneğin 4 = 4/1 biçiminde yazılabilir. Rasyonel sayıların ondalık gösterimi ya sonludur ya da devirlidir. Örneğin 3/8 = 0,375 sonlu bir ondalık gösterimdir. 1/3 = 0,333... ise devirli bir ondalık gösterimdir ve tekrar eden kısım üzerine çizgi çekilerek gösterilir. Bir kesrin sadeleştirilmiş hâlinde paydanın asal çarpanları yalnızca 2 ve 5 ise ondalık gösterim sonlu olur.",
+     "points": [
+      "Doğal sayılar ⊂ tam sayılar ⊂ rasyonel sayılar",
+      "Devirli gösterimde tekrar eden basamaklar devreder."
+     ]
+    },
+    {
+     "title": "Sıralama ve İşlemler",
+     "text": "Rasyonel sayıları sıralarken sayı doğrusunda sağdaki sayının daha büyük olduğunu hatırlarız. Negatif sayılarda mutlak değeri büyük olan sayı daha küçüktür: −3/4 < −1/2. Kesirleri karşılaştırmak için paydaları eşitleyebilir ya da ondalık gösterime çevirebiliriz. Rasyonel sayılarla toplama ve çıkarmada paydaları eşitler, işaret kurallarını uygularız. Çarpmada payları ve paydaları çarpar, bölmede ikinci sayının çarpmaya göre tersiyle çarparız. Bir sayıyı çıkarmak, onun toplama işlemine göre tersini eklemekle aynıdır: 5 − (−3) = 5 + 3 = 8.",
+     "points": [
+      "Negatiflerde mutlak değeri büyük olan daha küçüktür.",
+      "Çıkarma, tersini toplamaktır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Tam sayılar",
+     "meaning": "Negatif tam sayılar, sıfır ve pozitif tam sayıların tümü."
+    },
+    {
+     "term": "Mutlak değer",
+     "meaning": "Bir sayının sayı doğrusunda sıfıra olan uzaklığı."
+    },
+    {
+     "term": "Rasyonel sayılar",
+     "meaning": "b ≠ 0 olmak üzere a/b biçiminde yazılabilen sayılar."
+    },
+    {
+     "term": "Devirli ondalıklı gösterim",
+     "meaning": "Virgülden sonra bazı basamakları sonsuza kadar tekrar eden ondalık gösterim."
+    },
+    {
+     "term": "Ters işaretli sayı",
+     "meaning": "Sıfıra uzaklığı aynı, işareti farklı olan sayı; toplamları sıfırdır."
+    }
+   ],
+   "example": {
+    "question": "Bir şehirde sabah sıcaklık −4,5 °C idi. Öğlene kadar 7,2 °C arttı, akşam ise 3,8 °C azaldı. Akşam sıcaklık kaç °C oldu?",
+    "solution": "1. adım: −4,5 + 7,2 = 2,7 °C (öğle).\n2. adım: 2,7 − 3,8 = −1,1 °C (akşam).\nCevap: Akşam sıcaklık −1,1 °C oldu."
+   },
+   "remember": [
+    "Sıfır ne pozitif ne negatiftir.",
+    "Mutlak değer negatif olamaz.",
+    "Aynı işaretlilerin çarpımı pozitif, farklı işaretlilerin çarpımı negatiftir.",
+    "Her tam sayı bir rasyonel sayıdır."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 2,
+   "intro": "Bu temada iki çokluğu karşılaştırmak için oranı, eşit oranlar için orantıyı ve doğru orantılı durumları öğreniyoruz. Tarif ölçekleri, harita ölçekleri ve fiyat hesapları bu konunun günlük hayattaki örnekleridir.",
+   "sections": [
+    {
+     "title": "Oran",
+     "text": "İki çokluğun bölme yoluyla karşılaştırılmasına oran denir ve a/b ya da a : b biçiminde gösterilir. Aynı birimle ölçülen iki çokluğun oranı birimsizdir; örneğin bir sınıftaki kız sayısının erkek sayısına oranı 12/15 = 4/5’tir. Farklı birimlerle ölçülen çoklukların oranı ise birimlidir; örneğin 150 km yolun 2 saatte gidilmesi 75 km/sa hız oranını verir. Paydası 1 olan orana birim oran denir. Birim fiyat, saatlik hız gibi birim oranlar farklı seçenekleri karşılaştırmamızı kolaylaştırır.",
+     "points": [
+      "Aynı birim: birimsiz oran.",
+      "Farklı birim: birimli oran.",
+      "Birim oran: 1 birime düşen miktar."
+     ]
+    },
+    {
+     "title": "Orantı ve Doğru Orantı",
+     "text": "İki oranın eşitliğine orantı denir: a/b = c/d. Eşit oranlara denk oran denir. Bir orantıda içler çarpımı dışlar çarpımına eşittir, yani a × d = b × c olur. İki çokluktan biri artarken diğeri de aynı oranda artıyorsa ya da biri azalırken diğeri aynı oranda azalıyorsa bu çokluklar doğru orantılıdır. Doğru orantılı iki çokluğun oranı her zaman sabittir; bu sabit sayıya orantı sabiti denir. Örneğin 1 kg elma 30 TL ise 2 kg 60 TL, 5 kg 150 TL’dir ve fiyatın kütleye oranı hep 30’dur.",
+     "points": [
+      "İçler çarpımı = dışlar çarpımı.",
+      "Doğru orantıda y/x oranı sabittir.",
+      "Doğru orantının grafiği başlangıç noktasından geçen bir doğrudur."
+     ]
+    },
+    {
+     "title": "Doğru Orantı Problemleri",
+     "text": "Doğru orantı problemlerini çözmek için önce iki çokluğun gerçekten doğru orantılı olup olmadığını kontrol ederiz. Ardından bilinen değerlerle bir orantı kurar ve içler dışlar çarpımı ile bilinmeyeni buluruz. Birim oran yöntemi de kullanılabilir: önce bir birime düşen miktar bulunur, sonra istenen miktarla çarpılır. Harita ölçekleri de bir orandır. 1 : 100 000 ölçekli bir haritada 1 cm, gerçekte 100 000 cm yani 1 km’ye karşılık gelir. Tarifleri kişi sayısına göre ayarlamak da doğru orantının bir uygulamasıdır.",
+     "points": [
+      "Önce çoklukların doğru orantılı olduğunu kontrol et.",
+      "Birimlerin tutarlı olmasına dikkat et."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Oran",
+     "meaning": "İki çokluğun bölme yoluyla karşılaştırılması."
+    },
+    {
+     "term": "Birimli oran",
+     "meaning": "Farklı birimlerdeki iki çokluğun oranı, örneğin km/sa."
+    },
+    {
+     "term": "Birimsiz oran",
+     "meaning": "Aynı birimdeki iki çokluğun oranı."
+    },
+    {
+     "term": "Birim oran",
+     "meaning": "Paydası 1 olan oran; bir birime düşen miktar."
+    },
+    {
+     "term": "Orantı",
+     "meaning": "İki oranın birbirine eşit olması."
+    },
+    {
+     "term": "Denk oran",
+     "meaning": "Aynı değeri gösteren oranlar."
+    },
+    {
+     "term": "Doğru orantı",
+     "meaning": "Biri artarken diğeri de aynı oranda artan iki çokluk arasındaki ilişki."
+    }
+   ],
+   "example": {
+    "question": "4 kişilik bir kek tarifinde 240 g un kullanılıyor. Aynı tarifle 10 kişilik kek yapmak için kaç gram un gerekir?",
+    "solution": "1. adım: Kişi sayısı ile un miktarı doğru orantılıdır: 4/240 = 10/x.\n2. adım: İçler dışlar çarpımı: 4 × x = 240 × 10, 4x = 2400.\n3. adım: x = 600.\nCevap: 600 g un gerekir."
+   },
+   "remember": [
+    "Oran a/b ya da a : b ile gösterilir.",
+    "Orantıda içler çarpımı dışlar çarpımına eşittir.",
+    "Doğru orantıda oran sabittir.",
+    "Birim oran karşılaştırmayı kolaylaştırır."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 3,
+   "intro": "Bu temada cebirsel ifadelerle toplama, çıkarma ve çarpma yapmayı, birinci dereceden bir bilinmeyenli denklem ve eşitsizlikleri çözmeyi öğreniyoruz. Ayrıca sayıların özellikleriyle ilgili basit ispatlar yapmayı deneyeceğiz.",
+   "sections": [
+    {
+     "title": "Cebirsel İfadelerle İşlemler",
+     "text": "Değişkenleri ve bu değişkenlerin üsleri aynı olan terimlere benzer terimler denir; örneğin 3x ile −5x benzer terimlerdir, 3x ile 3x² ise değildir. Cebirsel ifadelerde toplama ve çıkarma yalnızca benzer terimler arasında yapılır ve katsayılar toplanıp çıkarılır: 4a + 2b − a + 5b = 3a + 7b. Bir cebirsel ifadeyi bir sayıyla çarparken dağılma özelliğini kullanırız ve sayıyı her terimle çarparız: 3(2x − 4) = 6x − 12. Parantezin önünde eksi işareti varsa parantez içindeki tüm terimlerin işareti değişir: −(x − 5) = −x + 5.",
+     "points": [
+      "Yalnızca benzer terimler toplanır.",
+      "Dağılma özelliği: a(b + c) = ab + ac."
+     ]
+    },
+    {
+     "title": "Denklem Çözme",
+     "text": "İçinde bilinmeyen bulunan eşitliklere denklem denir. Bilinmeyenin üssü 1 olan denklemlere birinci dereceden bir bilinmeyenli denklem denir, örneğin 2x + 5 = 17. Denklemi çözmek, eşitliği sağlayan değeri bulmaktır. Bunun için eşitliğin iki tarafına aynı işlemi uygularız; böylece denge bozulmaz. 2x + 5 = 17 denkleminde önce her iki taraftan 5 çıkarırız: 2x = 12. Sonra her iki tarafı 2’ye böleriz: x = 6. Bulduğumuz değeri denklemde yerine koyarak kontrol ederiz: 2 × 6 + 5 = 17.",
+     "points": [
+      "İki tarafa aynı işlemi uygula.",
+      "Çözümü yerine koyarak kontrol et."
+     ]
+    },
+    {
+     "title": "Eşitsizlikler ve İspat",
+     "text": "İki ifadenin <, >, ≤ veya ≥ sembolleriyle karşılaştırılmasına eşitsizlik denir. x + 3 > 7 eşitsizliğini çözmek için yine iki taraftan 3 çıkarırız: x > 4. Eşitsizliğin iki tarafı negatif bir sayıyla çarpılır veya bölünürse eşitsizliğin yönü değişir: −2x < 6 ise x > −3. Çözümler sayı doğrusunda gösterilir; dahil olan uç dolu, dahil olmayan uç boş daireyle işaretlenir. İspat ise bir ifadenin her durumda doğru olduğunu mantıkla göstermektir. Örneğin ardışık iki tam sayı n ve n + 1 ise toplamları 2n + 1 olur; bu her zaman tek sayıdır.",
+     "points": [
+      "Negatif sayıyla çarpma ya da bölmede yön değişir.",
+      "Birkaç örnek denemek ispat değildir; genel gösterim gerekir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Cebirsel ifade",
+     "meaning": "Değişken, sayı ve işlemlerden oluşan ifade."
+    },
+    {
+     "term": "Benzer terim",
+     "meaning": "Değişkenleri ve üsleri aynı olan terimler."
+    },
+    {
+     "term": "Katsayı",
+     "meaning": "Terimde değişkenle çarpılan sayı."
+    },
+    {
+     "term": "Sabit terim",
+     "meaning": "Değişken içermeyen terim."
+    },
+    {
+     "term": "Denklem",
+     "meaning": "Bilinmeyen içeren eşitlik."
+    },
+    {
+     "term": "Eşitsizlik",
+     "meaning": "İki ifadenin <, >, ≤, ≥ ile karşılaştırılması."
+    },
+    {
+     "term": "İspat",
+     "meaning": "Bir ifadenin her durumda doğru olduğunun mantıkla gösterilmesi."
+    },
+    {
+     "term": "Algoritma",
+     "meaning": "Bir problemi çözmek için izlenen sıralı adımlar."
+    }
+   ],
+   "example": {
+    "question": "Bir sayının 3 katının 7 eksiği, aynı sayının 9 fazlasına eşittir. Bu sayı kaçtır?",
+    "solution": "1. adım: Sayıya x diyelim: 3x − 7 = x + 9.\n2. adım: Her iki taraftan x çıkaralım: 2x − 7 = 9.\n3. adım: Her iki tarafa 7 ekleyelim: 2x = 16.\n4. adım: Her iki tarafı 2’ye bölelim: x = 8.\nKontrol: 3 × 8 − 7 = 17 ve 8 + 9 = 17.\nCevap: 8."
+   },
+   "remember": [
+    "Yalnızca benzer terimleri topla ya da çıkar.",
+    "Denklemde iki tarafa aynı işlemi uygula.",
+    "Eşitsizlikte negatifle çarpınca yön değişir.",
+    "Çözümü mutlaka kontrol et."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 4,
+   "intro": "Bu temada şekillerin bir doğruya göre yansımasını ve yansıma fikrini kullanarak orta dikme ile açıortay çizmeyi öğreniyoruz. Ayna görüntüleri ve simetrik desenler bu konunun günlük hayattaki örnekleridir.",
+   "sections": [
+    {
+     "title": "Yansıma Dönüşümü",
+     "text": "Bir şeklin bir doğruya göre ayna görüntüsünü oluşturmaya yansıma dönüşümü denir; bu doğruya yansıma doğrusu ya da simetri ekseni denir. Şeklin her noktası ile görüntüsü yansıma doğrusuna eşit uzaklıktadır. Ayrıca bir nokta ile görüntüsünü birleştiren doğru parçası yansıma doğrusuna diktir. Yansımada şeklin boyutu ve biçimi değişmez; yani şekil ile görüntüsü eştir. Yalnızca yönü değişir, sağ ve sol yer değiştirir. Kareli kâğıtta yansıma yaparken her köşenin yansıma doğrusuna olan kare sayısını sayıp diğer tarafa aynı uzaklıkta işaretleriz.",
+     "points": [
+      "Görüntü ile şekil eştir.",
+      "Her nokta ve görüntüsü yansıma doğrusuna eşit uzaklıktadır."
+     ]
+    },
+    {
+     "title": "Orta Dikme",
+     "text": "Bir doğru parçasını iki eş parçaya bölen ve ona dik olan doğruya orta dikme denir. Bir doğru parçasının iki ucu, orta dikmeye göre birbirinin yansımasıdır. Orta dikme üzerindeki her nokta, doğru parçasının iki ucuna eşit uzaklıktadır. Orta dikmeyi pergel ve cetvelle çizmek için doğru parçasının iki ucunu merkez alarak, parçanın yarısından uzun ve aynı yarıçaplı iki yay çizeriz. Yayların kesiştiği iki noktayı birleştiren doğru, orta dikmedir. Kâğıdı katlayarak uçları üst üste getirdiğimizde oluşan kat izi de orta dikmeyi verir.",
+     "points": [
+      "Orta dikme parçayı ortalar ve ona diktir.",
+      "Orta dikme üzerindeki noktalar uçlara eşit uzaklıktadır."
+     ]
+    },
+    {
+     "title": "Açıortay",
+     "text": "Bir açıyı iki eş açıya bölen ışına açıortay denir. Açının iki kolu açıortaya göre birbirinin yansımasıdır. Açıortay üzerindeki her nokta, açının iki koluna eşit uzaklıktadır. Pergel ve cetvelle açıortay çizmek için önce açının köşesini merkez alan bir yay çizip iki kolu kestiririz. Sonra bu iki kesişim noktasını merkez alarak aynı yarıçaplı iki yay daha çizeriz. Bu yayların kesiştiği nokta ile açının köşesini birleştiren ışın açıortaydır. Kâğıt katlama yöntemiyle iki kolu üst üste getirerek de açıortayı bulabiliriz.",
+     "points": [
+      "Açıortay açıyı iki eş parçaya böler.",
+      "Açıortay üzerindeki noktalar kollara eşit uzaklıktadır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Yansıma dönüşümü",
+     "meaning": "Bir şeklin bir doğruya göre ayna görüntüsünün oluşturulması."
+    },
+    {
+     "term": "Yansıma doğrusu",
+     "meaning": "Şekil ile görüntüsünün kendisine göre simetrik olduğu doğru."
+    },
+    {
+     "term": "Orta dikme",
+     "meaning": "Bir doğru parçasını ortalayan ve ona dik olan doğru."
+    },
+    {
+     "term": "Açıortay",
+     "meaning": "Bir açıyı iki eş açıya bölen ışın."
+    },
+    {
+     "term": "Eşlik",
+     "meaning": "İki şeklin biçim ve boyutlarının aynı olması."
+    }
+   ],
+   "example": {
+    "question": "A noktası, dikey bir yansıma doğrusunun 3 birim solunda ve 2 birim yukarısındadır. A’nın bu doğruya göre görüntüsü nerededir?",
+    "solution": "1. adım: Yansımada nokta, doğruya dik olarak diğer tarafa aynı uzaklıkta taşınır.\n2. adım: Doğrunun 3 birim solundaki nokta 3 birim sağa geçer; yükseklik değişmez.\nCevap: Görüntü, doğrunun 3 birim sağında ve aynı yükseklikte, yani 2 birim yukarısındadır."
+   },
+   "remember": [
+    "Yansımada şekil ve görüntüsü eştir.",
+    "Nokta ile görüntüsünü birleştiren parça yansıma doğrusuna diktir.",
+    "Orta dikme uçlara, açıortay kollara eşit uzaklıktadır.",
+    "Kâğıt katlama yansımayı anlamanın kolay bir yoludur."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 5,
+   "intro": "Bu temada küplerden oluşan yapıların farklı yönlerden görünümlerini, dikdörtgenler prizmasının yüzey alanını ve hacmini öğreniyoruz. Kutu, akvaryum ve oda gibi nesnelerin ne kadar malzeme gerektirdiğini ya da ne kadar şey alabileceğini bu bilgilerle hesaplarız.",
+   "sections": [
+    {
+     "title": "Prizma ve Görünümler",
+     "text": "Alt ve üst tabanları birbirine paralel ve eş çokgenlerden oluşan cisimlere prizma denir; dik prizmalarda yan yüzler dikdörtgendir. Dikdörtgenler prizmasının 6 yüzü, 12 ayrıtı ve 8 köşesi vardır; karşılıklı yüzleri eştir. Ayrıt, iki yüzün kesiştiği çizgidir. Birim küplerden oluşan bir yapıya önden, yandan ve üstten baktığımızda farklı görünümler elde ederiz. Bu görünümler kareli kâğıda çizilerek gösterilir. Görünümlerden yola çıkarak yapıyı oluşturmak ya da yapıdaki küp sayısını tahmin etmek uzamsal düşünmemizi geliştirir.",
+     "points": [
+      "Dikdörtgenler prizması: 6 yüz, 12 ayrıt, 8 köşe.",
+      "Küp, bütün ayrıtları eşit olan dikdörtgenler prizmasıdır."
+     ]
+    },
+    {
+     "title": "Yüzey Alanı",
+     "text": "Bir prizmanın tüm yüzlerinin alanları toplamına yüzey alanı denir. Prizmayı ayrıtlarından kesip düz bir yüzeye açtığımızda elde edilen şekle yüzey açınımı denir; yüzey alanı bu açınımın alanına eşittir. Ayrıt uzunlukları a, b ve c olan dikdörtgenler prizmasının karşılıklı yüzleri eş olduğu için yüzey alanı 2 × (a × b + a × c + b × c) bağıntısıyla bulunur. Ayrıt uzunluğu a olan küpün ise 6 eş kare yüzü vardır, yüzey alanı 6 × a²’dir. Yüzey alanı bir alan olduğundan birimi cm², m² gibi kare birimlerdir.",
+     "points": [
+      "Yüzey alanı = 2(ab + ac + bc)",
+      "Küpün yüzey alanı = 6a²"
+     ]
+    },
+    {
+     "title": "Hacim ve Birimleri",
+     "text": "Bir cismin uzayda kapladığı yer miktarına hacim denir. Hacim, birim küplerle ölçülür; ayrıtı 1 cm olan küpün hacmi 1 santimetreküptür (cm³). Dikdörtgenler prizmasını birim küplerle doldurduğumuzda bir katmandaki küp sayısı taban alanını verir; bunu yükseklikle çarparak hacmi buluruz: Hacim = a × b × c = taban alanı × yükseklik. Hacim birimleri biner biner değişir: 1 m³ = 1000 dm³, 1 dm³ = 1000 cm³. Sıvı ölçmede litre kullanılır ve 1 L = 1 dm³’tür. Ayrıca 1 mL = 1 cm³’tür. Litre ile desilitre, santilitre ve mililitre onar onar değişir.",
+     "points": [
+      "Hacim = taban alanı × yükseklik",
+      "1 L = 1 dm³ = 1000 cm³",
+      "1 mL = 1 cm³"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Prizma",
+     "meaning": "Eş ve paralel iki çokgen tabanı olan cisim."
+    },
+    {
+     "term": "Ayrıt",
+     "meaning": "Cismin iki yüzünün kesiştiği doğru parçası."
+    },
+    {
+     "term": "Yüzey alanı",
+     "meaning": "Cismin tüm yüzlerinin alanları toplamı."
+    },
+    {
+     "term": "Hacim",
+     "meaning": "Bir cismin uzayda kapladığı yer miktarı."
+    },
+    {
+     "term": "Santimetreküp",
+     "meaning": "Ayrıtı 1 cm olan küpün hacmi; cm³ ile gösterilir."
+    },
+    {
+     "term": "Litre",
+     "meaning": "Sıvı ölçme birimi; 1 dm³’e eşittir."
+    },
+    {
+     "term": "Mililitre",
+     "meaning": "Litrenin binde biri; 1 cm³’e eşittir."
+    }
+   ],
+   "example": {
+    "question": "İç ölçüleri 50 cm, 30 cm ve 40 cm olan dikdörtgenler prizması şeklindeki bir akvaryum tamamen suyla dolduruluyor. Akvaryuma kaç litre su konur?",
+    "solution": "1. adım: Hacim = 50 × 30 × 40 = 60 000 cm³.\n2. adım: 1 L = 1000 cm³ olduğundan 60 000 ÷ 1000 = 60 L.\nCevap: 60 litre su konur."
+   },
+   "remember": [
+    "Yüzey alanı kare birimle, hacim küp birimle yazılır.",
+    "Hacim = taban alanı × yükseklik.",
+    "1 L = 1 dm³, 1 mL = 1 cm³.",
+    "Hacim birimleri biner biner değişir."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 6,
+   "intro": "Bu temada dairenin, daire diliminin, eşkenar dörtgenin ve yamuğun alanını bulmayı öğreniyoruz. Pizza dilimleri, bahçe tasarımları ve süsleme işleri bu hesapların günlük hayattaki örnekleridir.",
+   "sections": [
+    {
+     "title": "Dairenin Alanı",
+     "text": "Bir daireyi çok sayıda eş dilime ayırıp bu dilimleri sırayla ters düz dizdiğimizde paralelkenara, dilim sayısı arttıkça da dikdörtgene benzeyen bir şekil elde ederiz. Bu şeklin uzun kenarı çember uzunluğunun yarısı, yani π × r; kısa kenarı ise yarıçap r’dir. Dikdörtgenin alanı uzun kenar ile kısa kenarın çarpımı olduğundan dairenin alanı π × r × r = πr² olur. Örneğin yarıçapı 10 cm olan dairenin alanı, π = 3,14 alınırsa 3,14 × 100 = 314 cm²’dir.",
+     "points": [
+      "Dairenin alanı = πr²",
+      "Çap verilirse önce yarıçapı bul."
+     ]
+    },
+    {
+     "title": "Daire Diliminin Alanı",
+     "text": "İki yarıçap ile bu yarıçapların arasında kalan yayın sınırladığı bölgeye daire dilimi denir. Merkez açı ile gördüğü yay arasında orantı olduğu gibi, merkez açı ile daire diliminin alanı arasında da orantı vardır. Tam daire 360°’lik merkez açıya karşılık geldiğinden, merkez açısı α olan daire diliminin alanı πr² × α/360° bağıntısıyla bulunur. Örneğin 90°’lik daire dilimi dairenin 1/4’ü, 120°’lik daire dilimi dairenin 1/3’üdür. Pizza ya da pasta dilimlerini düşünmek bu ilişkiyi anlamayı kolaylaştırır.",
+     "points": [
+      "Dilim alanı = πr² × (α ÷ 360°)",
+      "180° yarım daire, 90° çeyrek dairedir."
+     ]
+    },
+    {
+     "title": "Eşkenar Dörtgen ve Yamuğun Alanı",
+     "text": "Eşkenar dörtgenin köşegenleri birbirini dik keser ve ortalar. Eşkenar dörtgeni köşegen uzunluklarına eşit kenarlı bir dikdörtgenin içine yerleştirirsek, eşkenar dörtgenin bu dikdörtgenin yarısı kadar yer kapladığını görürüz. Bu yüzden eşkenar dörtgenin alanı (e × f) ÷ 2 ile bulunur; e ve f köşegen uzunluklarıdır. Eşkenar dörtgen bir paralelkenar olduğu için alanı taban × yükseklik ile de bulunabilir. Yamuğun alanı ise iki eş yamuğu ters çevirip yan yana koyarak oluşan paralelkenardan bulunur: Alan = (alt taban + üst taban) × yükseklik ÷ 2.",
+     "points": [
+      "Eşkenar dörtgenin alanı = (e × f) ÷ 2",
+      "Yamuğun alanı = (a + c) × h ÷ 2"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Dairenin alanı",
+     "meaning": "Çemberin sınırladığı bölgenin alanı; πr² ile bulunur."
+    },
+    {
+     "term": "Daire dilimi",
+     "meaning": "İki yarıçap ve aralarındaki yayın sınırladığı bölge."
+    },
+    {
+     "term": "Daire diliminin alanı",
+     "meaning": "Merkez açıyla orantılı olarak bulunan alan: πr² × α/360°."
+    },
+    {
+     "term": "Eşkenar dörtgenin alanı",
+     "meaning": "Köşegen uzunlukları çarpımının yarısı."
+    },
+    {
+     "term": "Yamuğun alanı",
+     "meaning": "Tabanlar toplamı ile yüksekliğin çarpımının yarısı."
+    }
+   ],
+   "example": {
+    "question": "Yarıçapı 12 cm olan bir pizza 6 eş dilime bölünmüştür. Bir dilimin alanı kaç cm²’dir? (π = 3 alınız.)",
+    "solution": "1. adım: Bir dilimin merkez açısı 360° ÷ 6 = 60°.\n2. adım: Dairenin alanı = 3 × 12² = 3 × 144 = 432 cm².\n3. adım: Dilim alanı = 432 × 60/360 = 432 ÷ 6 = 72 cm².\nCevap: 72 cm²."
+   },
+   "remember": [
+    "Dairenin alanı πr², çemberin uzunluğu 2πr’dir; karıştırma.",
+    "Daire dilimi alanı merkez açıyla orantılıdır.",
+    "Eşkenar dörtgenin alanı köşegenler çarpımının yarısıdır.",
+    "Yamukta tabanları topla, yükseklikle çarp, ikiye böl."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 7,
+   "intro": "Bu temada üçgenin kenarortay, açıortay ve yüksekliklerini inceliyor, pergel ve cetvelle çizimler yapıyoruz. Üçgenin ağırlık merkezi gibi özel noktaları tanıyarak denge kavramıyla da bağlantı kuruyoruz.",
+   "sections": [
+    {
+     "title": "Üçgende Yükseklik",
+     "text": "Bir üçgenin bir köşesinden karşı kenara ya da karşı kenarın uzantısına çizilen dik doğru parçasına o kenara ait yükseklik denir. Her üçgenin üç yüksekliği vardır. Dar açılı üçgende yüksekliklerin hepsi üçgenin içinde kalır. Dik üçgende dik kenarlar aynı zamanda birbirine ait yüksekliklerdir. Geniş açılı üçgende ise geniş açının yanındaki kenarlara ait yükseklikler üçgenin dışına, yani kenarın uzantısına düşer. Yükseklikler alan hesabında taban ile birlikte kullanılır.",
+     "points": [
+      "Yükseklik karşı kenara diktir.",
+      "Geniş açılı üçgende iki yükseklik dışarıda kalır."
+     ]
+    },
+    {
+     "title": "Kenarortay ve Ağırlık Merkezi",
+     "text": "Bir üçgenin bir köşesini karşı kenarın orta noktasına birleştiren doğru parçasına kenarortay denir. Kenarortayı çizmek için önce karşı kenarın orta noktasını bulmamız gerekir. Bunu, o kenarın orta dikmesini pergel ve cetvelle çizerek yaparız; orta dikmenin kenarı kestiği nokta orta noktadır. Bir üçgenin üç kenarortayı tek bir noktada kesişir. Bu noktaya ağırlık merkezi denir. Kartondan kesilmiş bir üçgeni ağırlık merkezinden parmağımızın ucuyla tutarsak üçgen dengede durur. Kenarortay, üçgeni alanları eşit iki üçgene ayırır.",
+     "points": [
+      "Kenarortay karşı kenarı ortalar.",
+      "Üç kenarortay ağırlık merkezinde kesişir."
+     ]
+    },
+    {
+     "title": "Üçgende Açıortay",
+     "text": "Bir üçgenin bir iç açısını iki eş açıya bölen ve karşı kenara kadar uzanan doğru parçasına iç açıortay denir. Açıortay, pergel ve cetvelle bir açının açıortayını çizdiğimiz yöntemle çizilir. Üçgenin üç iç açıortayı da tek bir noktada kesişir. Bu nokta üçgenin üç kenarına eşit uzaklıktadır. Bir üçgende aynı köşeden çizilen yükseklik, kenarortay ve açıortay genellikle farklı doğru parçalarıdır. Ancak ikizkenar üçgende tepe köşesinden çizilen yükseklik, kenarortay ve açıortay çakışır. Eşkenar üçgende ise bu durum her köşe için geçerlidir.",
+     "points": [
+      "Açıortay açıyı iki eş açıya böler.",
+      "İkizkenar üçgende tepe köşesinden çizilen üç çizgi çakışır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Kenarortay",
+     "meaning": "Bir köşeyi karşı kenarın orta noktasına birleştiren doğru parçası."
+    },
+    {
+     "term": "Ağırlık merkezi",
+     "meaning": "Üçgenin üç kenarortayının kesiştiği nokta."
+    },
+    {
+     "term": "Üçgende açıortay",
+     "meaning": "Bir iç açıyı iki eş açıya bölen, karşı kenara uzanan doğru parçası."
+    },
+    {
+     "term": "Orta dikme",
+     "meaning": "Bir kenarı ortalayan ve ona dik olan doğru."
+    },
+    {
+     "term": "Yükseklik",
+     "meaning": "Bir köşeden karşı kenara ya da uzantısına çizilen dik doğru parçası."
+    }
+   ],
+   "example": {
+    "question": "ABC üçgeninde AD açıortaydır ve D noktası BC kenarı üzerindedir. A açısı 70° ise BAD açısı kaç derecedir?",
+    "solution": "1. adım: Açıortay açıyı iki eş açıya böler.\n2. adım: BAD = 70° ÷ 2 = 35°.\nCevap: 35°."
+   },
+   "remember": [
+    "Kenarortay kenarı, açıortay açıyı ikiye böler.",
+    "Yükseklik karşı kenara diktir.",
+    "Kenarortaylar ağırlık merkezinde kesişir.",
+    "Orta noktayı bulmak için orta dikme çizilir."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 8,
+   "intro": "Bu temada evren ve örneklem kavramlarını, çizgi grafiğini ve verilerin yayılımını gösteren açıklık ile ortalama mutlak sapmayı öğreniyoruz. Bu araçlar, veriye dayanarak daha sağlam kararlar vermemizi sağlar.",
+   "sections": [
+    {
+     "title": "Evren ve Örneklem",
+     "text": "Bir araştırmada hakkında bilgi edinmek istediğimiz grubun tamamına evren denir. Evrenin tamamından veri toplamak çoğu zaman zor ya da imkânsızdır. Bu yüzden evreni temsil edecek biçimde seçilen daha küçük bir gruba, yani örnekleme başvururuz. Örneğin bir okuldaki öğrencilerin uyku süresini araştırırken her sınıftan rastgele seçilen öğrenciler bir örneklemdir. Örneklem evreni iyi temsil etmezse varılan sonuçlar yanlış olabilir. Yalnızca bir sınıftan ya da yalnızca gönüllülerden veri toplamak yanlı sonuçlara yol açabilir.",
+     "points": [
+      "Örneklem evreni temsil etmelidir.",
+      "Rastgele seçim yanlılığı azaltır."
+     ]
+    },
+    {
+     "title": "Çizgi Grafiği ve Diğer Gösterimler",
+     "text": "Zaman içinde değişen sürekli verileri göstermek için çizgi grafiği kullanılır. Örneğin bir haftadaki günlük sıcaklık değişimi ya da bir fidanın aylara göre boyu çizgi grafiğiyle gösterilir. Yatay eksene genellikle zaman, dikey eksene ölçülen nicelik yazılır; noktalar çizgilerle birleştirilir. Çizginin yükselmesi artışı, alçalması azalışı, yatay olması değişmemeyi gösterir. Kategorik veriler için sütun ya da daire grafiği, az sayıdaki nicel veri için nokta grafiği uygundur. Veriye uygun grafik seçmek, sonucu doğru anlatmanın ilk adımıdır.",
+     "points": [
+      "Zamanla değişim: çizgi grafiği.",
+      "Kategorik karşılaştırma: sütun grafiği."
+     ]
+    },
+    {
+     "title": "Açıklık ve Ortalama Mutlak Sapma",
+     "text": "Verilerin ne kadar yayıldığını ölçmek için açıklık ve ortalama mutlak sapma kullanılır. Açıklık, en büyük değer ile en küçük değer arasındaki farktır. Ortalama mutlak sapma ise her verinin aritmetik ortalamadan ne kadar uzak olduğunun ortalamasıdır. Bunu bulmak için önce aritmetik ortalama hesaplanır, sonra her verinin ortalamadan farkının mutlak değeri bulunur, bu değerler toplanıp veri sayısına bölünür. Ortalama mutlak sapma küçükse veriler ortalamaya yakın, yani tutarlıdır; büyükse veriler daha dağınıktır.",
+     "points": [
+      "Açıklık = en büyük − en küçük",
+      "Küçük sapma: tutarlı veriler."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Evren",
+     "meaning": "Araştırmada hakkında bilgi edinilmek istenen grubun tamamı."
+    },
+    {
+     "term": "Örneklem",
+     "meaning": "Evreni temsil etmek için seçilen daha küçük grup."
+    },
+    {
+     "term": "Veri",
+     "meaning": "Bir araştırma için toplanan bilgi ya da ölçüm."
+    },
+    {
+     "term": "Çizgi grafiği",
+     "meaning": "Zaman içindeki değişimi noktaları çizgiyle birleştirerek gösteren grafik."
+    },
+    {
+     "term": "Açıklık",
+     "meaning": "En büyük ve en küçük veri arasındaki fark."
+    },
+    {
+     "term": "Ortalama mutlak sapma",
+     "meaning": "Verilerin aritmetik ortalamaya olan uzaklıklarının ortalaması."
+    },
+    {
+     "term": "Değişebilirlik",
+     "meaning": "Verilerin birbirinden farklı olabilmesi."
+    }
+   ],
+   "example": {
+    "question": "Bir basketbolcunun 5 maçta attığı sayılar: 12, 15, 10, 18, 20. Açıklığı ve ortalama mutlak sapmayı bulunuz.",
+    "solution": "1. adım: Açıklık = 20 − 10 = 10.\n2. adım: Ortalama = (12 + 15 + 10 + 18 + 20) ÷ 5 = 75 ÷ 5 = 15.\n3. adım: Ortalamadan uzaklıklar: 3, 0, 5, 3, 5. Toplam = 16.\n4. adım: Ortalama mutlak sapma = 16 ÷ 5 = 3,2.\nCevap: Açıklık 10, ortalama mutlak sapma 3,2."
+   },
+   "remember": [
+    "Örneklem evreni iyi temsil etmelidir.",
+    "Zamanla değişimi çizgi grafiği gösterir.",
+    "Açıklık en büyük ile en küçük değerin farkıdır.",
+    "Ortalama mutlak sapma küçükse veriler tutarlıdır."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 9,
+   "intro": "Bu temada bir deneyin örnek uzayını yazmayı, eşit olasılıklı olayları, bir olay ile tümleyeninin olasılığını ve ayrık olayları öğreniyoruz. Bu kavramlar şansa dayalı durumları matematikle açıklamamızı sağlar.",
+   "sections": [
+    {
+     "title": "Örnek Uzay ve Olasılık Değeri",
+     "text": "Bir deneyin tüm olası çıktılarından oluşan kümeye örnek uzay denir. Zar atma deneyinin örnek uzayı {1, 2, 3, 4, 5, 6}’dır. Bir deneyde tüm çıktıların gerçekleşme şansı aynıysa çıktılar eşit olasılıklıdır. Hileli olmayan bir zar ya da para için bu durum geçerlidir. Eşit olasılıklı çıktılarda bir olayın olasılık değeri, olaya uygun çıktı sayısının örnek uzaydaki tüm çıktı sayısına bölünmesiyle bulunur. Örneğin zarda asal sayı gelme olasılığı, uygun çıktılar 2, 3, 5 olduğu için 3/6 = 1/2’dir.",
+     "points": [
+      "Olasılık = uygun çıktı sayısı ÷ tüm çıktı sayısı",
+      "Olasılık değeri 0 ile 1 arasındadır."
+     ]
+    },
+    {
+     "title": "Tümleyen Olay",
+     "text": "Bir olayın gerçekleşmemesi durumuna o olayın tümleyeni denir. Örneğin zar atıldığında 6 gelmesi olayının tümleyeni 6 gelmemesi, yani 1, 2, 3, 4 veya 5 gelmesidir. Bir olay ile tümleyeni birlikte örnek uzaydaki tüm çıktıları kapsar. Bu nedenle bir olayın olasılığı ile tümleyeninin olasılığının toplamı her zaman 1’dir. 6 gelme olasılığı 1/6 ise 6 gelmeme olasılığı 1 − 1/6 = 5/6’dır. Bir olayın olasılığını doğrudan bulmak zor olduğunda önce tümleyeninin olasılığını bulup 1’den çıkarmak kolaylık sağlar.",
+     "points": [
+      "P(A) + P(A’nın tümleyeni) = 1"
+     ]
+    },
+    {
+     "title": "Ayrık ve Ayrık Olmayan Olaylar",
+     "text": "Aynı deneyde aynı anda gerçekleşemeyen olaylara ayrık olaylar denir. Örneğin bir zar atıldığında tek sayı gelmesi ile çift sayı gelmesi ayrık olaylardır; ortak çıktıları yoktur. Ortak çıktısı olan, yani aynı anda gerçekleşebilen olaylar ise ayrık olmayan olaylardır. Zar atıldığında çift sayı gelmesi ile 3’ten büyük sayı gelmesi ayrık değildir, çünkü 4 ve 6 her iki olaya da uygundur. Olayları ayrık olup olmadıklarına göre sınıflandırmak için her olayın çıktılarını yazıp ortak çıktı olup olmadığına bakarız.",
+     "points": [
+      "Ortak çıktı yoksa ayrık olaylardır.",
+      "Bir olay ile tümleyeni her zaman ayrıktır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Örnek uzay",
+     "meaning": "Bir deneyin tüm olası çıktılarının kümesi."
+    },
+    {
+     "term": "Olasılık değeri",
+     "meaning": "Bir olayın gerçekleşme şansını gösteren 0 ile 1 arasındaki sayı."
+    },
+    {
+     "term": "Eşit olasılık",
+     "meaning": "Tüm çıktıların gerçekleşme şansının aynı olması."
+    },
+    {
+     "term": "Tümleyen olay",
+     "meaning": "Bir olayın gerçekleşmemesi durumu."
+    },
+    {
+     "term": "Ayrık olaylar",
+     "meaning": "Aynı anda gerçekleşemeyen, ortak çıktısı olmayan olaylar."
+    },
+    {
+     "term": "Ayrık olmayan olaylar",
+     "meaning": "En az bir ortak çıktısı olan olaylar."
+    }
+   ],
+   "example": {
+    "question": "Bir torbada 1’den 20’ye kadar numaralandırılmış 20 kart var. Rastgele bir kart çekiliyor. Çekilen kartın 4’ün katı olmama olasılığı kaçtır?",
+    "solution": "1. adım: 4’ün katları: 4, 8, 12, 16, 20; yani 5 kart. P(4’ün katı) = 5/20 = 1/4.\n2. adım: Tümleyen olayın olasılığı = 1 − 1/4 = 3/4.\nCevap: 3/4."
+   },
+   "remember": [
+    "Örnek uzay tüm olası çıktılardır.",
+    "Bir olay ve tümleyeninin olasılıkları toplamı 1’dir.",
+    "Ortak çıktısı olmayan olaylar ayrıktır.",
+    "Olasılık formülü yalnızca eşit olasılıklı çıktılarda geçerlidir."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 1,
+   "intro": "Bu temada üslü ifadeleri ve özelliklerini, kareköklü ifadeleri, irrasyonel sayıları ve gerçek sayıları öğreniyoruz. Çok büyük ve çok küçük sayıları bilimsel gösterimle yazmak ve karenin kenarını alanından bulmak bu konunun önemli uygulamalarıdır.",
+   "sections": [
+    {
+     "title": "Üslü İfadeler ve Özellikleri",
+     "text": "aⁿ ifadesi, a sayısının n kez kendisiyle çarpımıdır; a taban, n üstür. Sıfırdan farklı her sayının sıfırıncı kuvveti 1’dir: 7⁰ = 1. Negatif üs, sayının çarpmaya göre tersini gösterir: 2⁻³ = 1/2³ = 1/8. Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır, bölünürken üsler çıkarılır: 3⁴ × 3² = 3⁶ ve 5⁷ ÷ 5³ = 5⁴. Üslü bir ifadenin kuvveti alınırken üsler çarpılır: (2³)² = 2⁶. Negatif bir sayının çift kuvveti pozitif, tek kuvveti negatiftir: (−2)⁴ = 16, (−2)³ = −8.",
+     "points": [
+      "aᵐ × aⁿ = aᵐ⁺ⁿ",
+      "aᵐ ÷ aⁿ = aᵐ⁻ⁿ",
+      "(aᵐ)ⁿ = aᵐˣⁿ",
+      "a⁰ = 1 (a ≠ 0)"
+     ]
+    },
+    {
+     "title": "Bilimsel Gösterim",
+     "text": "Çok büyük ya da çok küçük sayıları kısa yazmak için bilimsel gösterim kullanılır. Bir sayı, 1 ≤ a < 10 olmak üzere a × 10ⁿ biçiminde yazılır; n bir tam sayıdır. Örneğin 45 000 000 = 4,5 × 10⁷ ve 0,00032 = 3,2 × 10⁻⁴’tür. Büyük sayılarda virgül sola kaydırıldıkça üs artar; küçük sayılarda virgül sağa kaydırıldıkça üs negatif olur. Bilimsel gösterim fen bilimlerinde, örneğin gezegenler arası uzaklıklar ya da hücre boyutları gibi ölçümlerde sıkça kullanılır.",
+     "points": [
+      "a, 1 ile 10 arasında olmalıdır (10 dahil değil).",
+      "Küçük sayılarda üs negatiftir."
+     ]
+    },
+    {
+     "title": "Kareköklü İfadeler",
+     "text": "Bir sayının karesi, o sayının kendisiyle çarpımıdır. Karesi a olan negatif olmayan sayıya a’nın karekökü denir ve √a ile gösterilir. Alanı 49 cm² olan bir karenin kenarı √49 = 7 cm’dir. 1, 4, 9, 16, 25, ... gibi bir doğal sayının karesi olan sayılara tam kare sayı denir. Tam kare olmayan sayıların karekökü iki ardışık doğal sayı arasında tahmin edilebilir: 25 < 30 < 36 olduğundan 5 < √30 < 6’dır. Kareköklü ifadelerde √(a × b) = √a × √b kuralıyla sadeleştirme yapılır: √50 = √(25 × 2) = 5√2. Katsayıları ve kök içleri aynı olan ifadeler toplanabilir: 3√2 + 4√2 = 7√2.",
+     "points": [
+      "√(a × b) = √a × √b",
+      "Yalnızca kök içi aynı olanlar toplanır."
+     ]
+    },
+    {
+     "title": "İrrasyonel ve Gerçek Sayılar",
+     "text": "Ondalık gösterimi sonsuza kadar devam eden ve devretmeyen sayılara irrasyonel sayılar denir. Bu sayılar a/b biçiminde yazılamaz. √2, √3, √5 gibi tam kare olmayan doğal sayıların karekökleri ve π sayısı irrasyoneldir. Rasyonel sayılar ile irrasyonel sayıların birleşimine gerçek sayılar denir. Her gerçek sayı sayı doğrusunda bir noktaya karşılık gelir ve sayı doğrusunun her noktası bir gerçek sayıdır. Gerçek sayı aralıkları da sayı doğrusunda gösterilir; örneğin 2 ≤ x < 5 aralığında 2 dahil, 5 dahil değildir.",
+     "points": [
+      "Rasyonel: sonlu ya da devirli ondalık.",
+      "İrrasyonel: sonsuz ve devretmeyen ondalık.",
+      "Gerçek sayılar = rasyonel ∪ irrasyonel"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Üslü ifadeler",
+     "meaning": "Bir sayının kendisiyle tekrarlı çarpımının taban ve üs ile gösterimi."
+    },
+    {
+     "term": "Bilimsel gösterim",
+     "meaning": "Bir sayının 1 ≤ a < 10 olmak üzere a × 10ⁿ biçiminde yazılması."
+    },
+    {
+     "term": "Kareköklü ifadeler",
+     "meaning": "√ sembolüyle gösterilen, karesi verilen sayıyı veren ifadeler."
+    },
+    {
+     "term": "Tam kare sayı",
+     "meaning": "Bir doğal sayının karesi olan sayı."
+    },
+    {
+     "term": "İrrasyonel sayılar",
+     "meaning": "Ondalık gösterimi sonsuz ve devretmeyen, kesir olarak yazılamayan sayılar."
+    },
+    {
+     "term": "Gerçek sayılar",
+     "meaning": "Rasyonel ve irrasyonel sayıların tümü."
+    }
+   ],
+   "example": {
+    "question": "Alanı 72 cm² olan bir karenin bir kenar uzunluğunu en sade biçimde yazınız ve hangi iki ardışık doğal sayı arasında olduğunu bulunuz.",
+    "solution": "1. adım: Kenar = √72.\n2. adım: 72 = 36 × 2 olduğundan √72 = √36 × √2 = 6√2 cm.\n3. adım: 64 < 72 < 81 olduğundan 8 < √72 < 9.\nCevap: Kenar 6√2 cm’dir ve 8 ile 9 arasındadır."
+   },
+   "remember": [
+    "Tabanlar aynıysa çarpmada üsler toplanır, bölmede çıkarılır.",
+    "Sıfırdan farklı her sayının sıfırıncı kuvveti 1’dir.",
+    "Yalnızca kök içi aynı olan ifadeler toplanabilir.",
+    "√2 ve π irrasyoneldir; bir kesirle tam olarak yazılamaz."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 2,
+   "intro": "Bu temada dik koordinat sistemini, bağımlı ve bağımsız değişkenleri, doğrusal fonksiyonları ve eğimi öğreniyoruz. Taksi ücreti, su faturası gibi düzenli değişen durumlar doğrusal fonksiyonlarla modellenir.",
+   "sections": [
+    {
+     "title": "Dik Koordinat Sistemi",
+     "text": "Dik koordinat sistemi, birbirini sıfır noktasında dik kesen iki sayı doğrusundan oluşur. Yatay eksene x ekseni, dikey eksene y ekseni, kesişim noktasına başlangıç noktası (orijin) denir. Düzlemdeki her nokta (x, y) sıralı ikilisiyle gösterilir; x’e apsis, y’ye ordinat denir. Eksenler düzlemi dört bölgeye ayırır. Birinci bölgede x ve y pozitif, ikinci bölgede x negatif y pozitif, üçüncü bölgede ikisi de negatif, dördüncü bölgede x pozitif y negatiftir. Eksenler üzerindeki noktalar hiçbir bölgeye ait değildir.",
+     "points": [
+      "(x, y): önce apsis, sonra ordinat.",
+      "Orijin: (0, 0)"
+     ]
+    },
+    {
+     "title": "Doğrusal İlişki ve Fonksiyon",
+     "text": "Bir değişkenin değeri başka bir değişkene bağlı olarak değişiyorsa, değişen değişkene bağımlı, ona bağlı olmadan seçilen değişkene bağımsız değişken denir. Örneğin bir taksinin ücreti gidilen yola bağlıdır; yol bağımsız, ücret bağımlı değişkendir. Her bağımsız değişken değerine tek bir bağımlı değişken değeri karşılık geliyorsa bu ilişkiye fonksiyon denir. Bağımsız değişken eşit miktarda arttığında bağımlı değişken de hep aynı miktarda değişiyorsa ilişki doğrusaldır. Doğrusal ilişkiler y = mx + n biçiminde yazılır ve grafikleri bir doğrudur. Doğrusal bir ilişki sözel olarak, tabloyla, denklemle ya da grafikle gösterilebilir.",
+     "points": [
+      "Tablo, denklem ve grafik aynı ilişkinin farklı temsilleridir.",
+      "Doğrusal ilişkinin grafiği bir doğrudur."
+     ]
+    },
+    {
+     "title": "Eğim",
+     "text": "Bir doğrunun dikliğini gösteren sayıya eğim denir. Eğim, doğru üzerindeki iki nokta arasında dikey değişimin yatay değişime oranıdır: m = (y₂ − y₁) ÷ (x₂ − x₁). y = mx + n denkleminde x’in katsayısı m eğimi verir; n ise doğrunun y eksenini kestiği noktadır. Eğim pozitifse doğru soldan sağa yükselir, negatifse alçalır. Eğimi sıfır olan doğru x eksenine paraleldir. Eğimleri eşit olan farklı doğrular birbirine paraleldir; eğimleri farklı olan iki doğru bir noktada kesişir. Gerçek hayatta eğim, birim başına değişimi anlatır; örneğin kilometre başına ücret.",
+     "points": [
+      "m > 0: doğru yükselir.",
+      "m < 0: doğru alçalır.",
+      "Eğimleri eşit doğrular paraleldir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Bağımsız değişken",
+     "meaning": "Değeri serbestçe seçilen, diğerini etkileyen değişken."
+    },
+    {
+     "term": "Bağımlı değişken",
+     "meaning": "Değeri bağımsız değişkene göre belirlenen değişken."
+    },
+    {
+     "term": "Fonksiyon",
+     "meaning": "Her girdiye yalnızca bir çıktı karşılık getiren ilişki."
+    },
+    {
+     "term": "Doğrusal fonksiyon",
+     "meaning": "y = mx + n biçiminde yazılan, grafiği doğru olan fonksiyon."
+    },
+    {
+     "term": "Eğim",
+     "meaning": "Bir doğrunun dikliği; dikey değişimin yatay değişime oranı."
+    },
+    {
+     "term": "Apsis ve ordinat",
+     "meaning": "Bir noktanın sırasıyla x ve y koordinatları."
+    },
+    {
+     "term": "Algoritma",
+     "meaning": "Problemi çözmek için izlenen sıralı adımlar."
+    }
+   ],
+   "example": {
+    "question": "Bir taksinin açılış ücreti 40 TL, kilometre başına ücreti 25 TL’dir. Ücreti gösteren fonksiyonu yazınız ve 12 km yolculuğun ücretini bulunuz.",
+    "solution": "1. adım: Bağımsız değişken x (km), bağımlı değişken y (TL).\n2. adım: Her km için 25 TL eklenir, başlangıçta 40 TL vardır: y = 25x + 40.\n3. adım: x = 12 için y = 25 × 12 + 40 = 300 + 40 = 340.\nCevap: y = 25x + 40; 12 km için 340 TL. Doğrunun eğimi 25’tir."
+   },
+   "remember": [
+    "Noktalarda önce x, sonra y yazılır.",
+    "y = mx + n’de m eğim, n y eksenini kestiği yerdir.",
+    "Eğimleri eşit doğrular paraleldir.",
+    "Eğim, birim başına değişimi anlatır."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 3,
+   "intro": "Bu temada üçgenin kenar ve açıları arasındaki ilişkileri, üçgen eşitsizliğini, eşlik ve benzerliği, dik üçgendeki Pisagor bağıntısını öğreniyoruz. Bu bilgilerle ölçülmesi zor uzunlukları hesaplayabiliriz.",
+   "sections": [
+    {
+     "title": "Kenar-Açı İlişkisi ve Üçgen Eşitsizliği",
+     "text": "Bir üçgende büyük açının karşısında büyük kenar, küçük açının karşısında küçük kenar bulunur. Eş açıların karşısındaki kenarlar da eştir. Üç doğru parçasıyla her zaman üçgen oluşturulamaz. Bir üçgende herhangi bir kenarın uzunluğu, diğer iki kenarın uzunlukları farkının mutlak değerinden büyük, toplamından küçük olmalıdır. Buna üçgen eşitsizliği denir. Örneğin kenarları 3 cm ve 7 cm olan bir üçgende üçüncü kenar x ise 4 < x < 10 olmalıdır. 2, 3 ve 6 cm’lik çubuklarla üçgen yapılamaz, çünkü 2 + 3 < 6’dır.",
+     "points": [
+      "|a − b| < c < a + b",
+      "Büyük açı karşısında büyük kenar bulunur."
+     ]
+    },
+    {
+     "title": "Eşlik ve Benzerlik",
+     "text": "Karşılıklı kenarları ve açıları eş olan üçgenlere eş üçgenler denir; biri diğerinin üzerine tam olarak oturur. İki üçgenin eş olduğunu göstermek için tüm elemanlara bakmak gerekmez. Üç kenarı eş (KKK), iki kenarı ve aralarındaki açısı eş (KAK) ya da iki açısı ve aralarındaki kenarı eş (AKA) olan üçgenler eştir. Karşılıklı açıları eş ve karşılıklı kenarları orantılı olan üçgenlere ise benzer üçgenler denir. Kenarlar arasındaki sabit orana benzerlik oranı denir. İki açısı eş olan üçgenler benzerdir. Benzerlik; harita, maket ve gölge boyu problemlerinde kullanılır.",
+     "points": [
+      "Eşlik: aynı biçim, aynı boyut.",
+      "Benzerlik: aynı biçim, orantılı boyut.",
+      "Eş üçgenlerin benzerlik oranı 1’dir."
+     ]
+    },
+    {
+     "title": "Pisagor Bağıntısı",
+     "text": "Bir açısı dik olan üçgene dik üçgen denir. Dik açının karşısındaki en uzun kenara hipotenüs, diğer iki kenara dik kenarlar denir. Dik kenarları a ve b, hipotenüsü c olan bir dik üçgende a² + b² = c² bağıntısı vardır; buna Pisagor bağıntısı denir. Bu bağıntı dik kenarlar üzerine çizilen karelerin alanları toplamının hipotenüs üzerine çizilen karenin alanına eşit olduğunu söyler. Tersine, kenarları a² + b² = c² eşitliğini sağlayan bir üçgen dik üçgendir. 3, 4, 5 ve 5, 12, 13 bu eşitliği sağlayan bilinen sayı üçlüleridir.",
+     "points": [
+      "a² + b² = c²",
+      "Hipotenüs dik üçgenin en uzun kenarıdır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Üçgen eşitsizliği",
+     "meaning": "Bir kenarın, diğer iki kenarın farkından büyük ve toplamından küçük olması kuralı."
+    },
+    {
+     "term": "Eşlik",
+     "meaning": "İki şeklin karşılıklı tüm kenar ve açılarının eş olması."
+    },
+    {
+     "term": "Benzerlik",
+     "meaning": "Açıları eş, kenarları orantılı olma durumu."
+    },
+    {
+     "term": "Benzerlik oranı",
+     "meaning": "Benzer şekillerde karşılıklı kenarların sabit oranı."
+    },
+    {
+     "term": "Hipotenüs",
+     "meaning": "Dik üçgende dik açının karşısındaki en uzun kenar."
+    },
+    {
+     "term": "Pisagor bağıntısı",
+     "meaning": "Dik üçgende a² + b² = c² eşitliği."
+    }
+   ],
+   "example": {
+    "question": "Boyu 13 m olan bir merdiven, bir duvara dayanmıştır. Merdivenin alt ucu duvardan 5 m uzaktadır. Merdivenin üst ucu yerden kaç metre yüksektedir?",
+    "solution": "1. adım: Duvar, yer ve merdiven dik üçgen oluşturur; merdiven hipotenüstür.\n2. adım: 5² + h² = 13² → 25 + h² = 169 → h² = 144.\n3. adım: h = √144 = 12.\nCevap: 12 metre."
+   },
+   "remember": [
+    "Üçgende bir kenar, diğer ikisinin toplamından küçük, farkından büyüktür.",
+    "Büyük açının karşısında büyük kenar vardır.",
+    "Benzer üçgenlerde kenarlar orantılıdır.",
+    "Pisagor bağıntısı yalnızca dik üçgenlerde geçerlidir."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 4,
+   "intro": "Bu temada dik prizmaları, dikdörtgen dik piramidi, dik dairesel silindiri ve koniyi tanıyor, yüzey açınımlarını inceliyoruz. Silindirin yüzey alanını ve hacmini hesaplamayı da öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Geometrik Cisimler",
+     "text": "Tabanları birbirine eş ve paralel çokgenler olan, yan yüzleri tabana dik dikdörtgenlerden oluşan cisimlere dik prizma denir; prizma tabanının şekline göre adlandırılır. Dikdörtgen dik piramidin tabanı dikdörtgendir, yan yüzleri ise bir tepe noktasında birleşen üçgenlerdir. Dik dairesel silindirin birbirine eş ve paralel iki daire tabanı ve eğri bir yanal yüzeyi vardır. Dik dairesel koninin ise bir daire tabanı ve bir tepe noktası vardır. Tepe noktasından tabana indirilen dikmenin uzunluğuna cisim yüksekliği denir. Konide tepe noktasını taban çemberine birleştiren doğru parçalarına ana doğru denir.",
+     "points": [
+      "Prizma ve silindirin iki tabanı vardır.",
+      "Piramit ve koninin bir tabanı ve bir tepe noktası vardır."
+     ]
+    },
+    {
+     "title": "Yüzey Açınımları",
+     "text": "Bir cismin yüzeylerini düz bir düzleme açarak elde edilen şekle yüzey açınımı denir. Dik prizmanın açınımında iki eş taban çokgeni ve yan yüzleri oluşturan dikdörtgenler bulunur. Piramidin açınımında bir taban ve tabanın her kenarına bağlı birer üçgen vardır. Silindirin açınımı iki eş daire ve bir dikdörtgenden oluşur; bu dikdörtgenin bir kenarı silindirin yüksekliğine, diğer kenarı taban çemberinin uzunluğuna eşittir. Koninin açınımı ise bir daire ve bir daire diliminden oluşur; daire diliminin yarıçapı ana doğrunun uzunluğudur.",
+     "points": [
+      "Silindirin yanal yüzü açılınca dikdörtgen olur.",
+      "Koninin yanal yüzü açılınca daire dilimi olur."
+     ]
+    },
+    {
+     "title": "Silindirin Yüzey Alanı ve Hacmi",
+     "text": "Silindirin yüzey alanı, açınımındaki iki dairenin ve dikdörtgenin alanları toplamıdır. Yarıçapı r, yüksekliği h olan silindirin bir tabanının alanı πr², yanal yüzeyinin alanı ise 2πr × h’dir. Buna göre yüzey alanı = 2πr² + 2πrh olur. Silindirin hacmi, prizmalarda olduğu gibi taban alanı ile yüksekliğin çarpımıdır. Dairenin alanını çok sayıda dilimle dikdörtgene benzettiğimiz gibi, silindiri de taban alanı πr² olan çok ince katmanların üst üste dizilmesi olarak düşünebiliriz. Böylece Hacim = πr² × h bağıntısına ulaşırız.",
+     "points": [
+      "Yanal alan = 2πrh",
+      "Yüzey alanı = 2πr² + 2πrh",
+      "Hacim = πr²h"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Dik prizma",
+     "meaning": "Yan yüzleri tabana dik dikdörtgenler olan prizma."
+    },
+    {
+     "term": "Dikdörtgen dik piramit",
+     "meaning": "Tabanı dikdörtgen, yan yüzleri bir tepe noktasında birleşen üçgenler olan cisim."
+    },
+    {
+     "term": "Dik dairesel silindir",
+     "meaning": "Eş ve paralel iki daire tabanı ile eğri yanal yüzeyi olan cisim."
+    },
+    {
+     "term": "Dik dairesel koni",
+     "meaning": "Bir daire tabanı ve bir tepe noktası olan cisim."
+    },
+    {
+     "term": "Yanal yüzey",
+     "meaning": "Bir cismin tabanları dışında kalan yüzeyi."
+    },
+    {
+     "term": "Ana doğru",
+     "meaning": "Konide tepe noktasını taban çemberine birleştiren doğru parçası."
+    },
+    {
+     "term": "Cisim yüksekliği",
+     "meaning": "Tepe noktasından ya da üst tabandan tabana dik uzaklık."
+    },
+    {
+     "term": "Tepe noktası",
+     "meaning": "Piramit ve konide yan yüzlerin birleştiği nokta."
+    }
+   ],
+   "example": {
+    "question": "Taban yarıçapı 5 cm, yüksekliği 12 cm olan silindir şeklindeki bir kutunun hacmi ve yüzey alanı nedir? (π = 3 alınız.)",
+    "solution": "1. adım: Hacim = πr²h = 3 × 5² × 12 = 3 × 25 × 12 = 900 cm³.\n2. adım: Tabanların alanı = 2 × 3 × 25 = 150 cm².\n3. adım: Yanal alan = 2 × 3 × 5 × 12 = 360 cm².\n4. adım: Yüzey alanı = 150 + 360 = 510 cm².\nCevap: Hacim 900 cm³, yüzey alanı 510 cm²."
+   },
+   "remember": [
+    "Silindirin açınımı: iki daire ve bir dikdörtgen.",
+    "Dikdörtgenin bir kenarı çember uzunluğuna eşittir.",
+    "Silindirin hacmi = taban alanı × yükseklik = πr²h.",
+    "Hacim küp birimle, alan kare birimle yazılır."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 5,
+   "intro": "Bu temada öteleme dönüşümünü öğreniyor, koordinat sisteminde öteleme ve yansıma sonucunda noktaların koordinatlarının nasıl değiştiğini inceliyoruz. Bilgisayar oyunlarında karakterlerin hareketi ve desen tasarımları bu dönüşümlere dayanır.",
+   "sections": [
+    {
+     "title": "Öteleme Dönüşümü",
+     "text": "Bir şeklin her noktasının aynı yönde ve aynı uzaklıkta kaydırılmasına öteleme denir. Ötelemede şeklin boyutu, biçimi ve yönü değişmez; yalnızca yeri değişir. Bu nedenle şekil ile görüntüsü eştir ve görüntü, yansımadan farklı olarak ters dönmez. Öteleme, sağa-sola ve yukarı-aşağı hareketlerin birleşimi olarak tanımlanır. Örneğin bir üçgeni 4 birim sağa ve 2 birim aşağı ötelediğimizde üçgenin her köşesi bu kadar kaydırılır. Kareli kâğıtta öteleme yaparken her köşeyi ayrı ayrı taşıyıp sonra birleştiririz.",
+     "points": [
+      "Ötelemede şeklin yönü değişmez.",
+      "Her nokta aynı miktarda kayar."
+     ]
+    },
+    {
+     "title": "Koordinat Sisteminde Öteleme",
+     "text": "Koordinat sisteminde bir noktayı sağa ötelediğimizde apsisi artar, sola ötelediğimizde azalır. Yukarı ötelediğimizde ordinatı artar, aşağı ötelediğimizde azalır. Örneğin A(2, 3) noktası 5 birim sola ve 4 birim yukarı ötelenirse görüntüsü A′(2 − 5, 3 + 4) = A′(−3, 7) olur. Sağa-sola ötelemede yalnızca apsis, yukarı-aşağı ötelemede yalnızca ordinat değişir. Ard arda yapılan ötelemeler tek bir öteleme olarak da yazılabilir; yatay ve dikey kaymalar ayrı ayrı toplanır.",
+     "points": [
+      "Sağa: x artar; sola: x azalır.",
+      "Yukarı: y artar; aşağı: y azalır."
+     ]
+    },
+    {
+     "title": "Koordinat Sisteminde Yansıma",
+     "text": "Bir noktanın x eksenine göre yansımasında apsis aynı kalır, ordinat işaret değiştirir: (a, b) noktasının görüntüsü (a, −b) olur. y eksenine göre yansımada ise ordinat aynı kalır, apsis işaret değiştirir: (a, b) noktasının görüntüsü (−a, b) olur. Örneğin B(4, −1) noktasının x eksenine göre görüntüsü B′(4, 1), y eksenine göre görüntüsü B″(−4, −1)’dir. Problemlerde öteleme ve yansıma ard arda uygulanabilir; bu durumda dönüşümler verilen sırayla, adım adım yapılır.",
+     "points": [
+      "x eksenine göre: (a, b) → (a, −b)",
+      "y eksenine göre: (a, b) → (−a, b)",
+      "Ardışık dönüşümleri sırasıyla uygula."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Öteleme dönüşümü",
+     "meaning": "Bir şeklin tüm noktalarının aynı yönde ve aynı uzaklıkta kaydırılması."
+    },
+    {
+     "term": "Yansıma dönüşümü",
+     "meaning": "Bir şeklin bir doğruya göre ayna görüntüsünün oluşturulması."
+    },
+    {
+     "term": "Görüntü",
+     "meaning": "Dönüşüm sonucunda oluşan yeni şekil ya da nokta."
+    },
+    {
+     "term": "Apsis",
+     "meaning": "Bir noktanın x koordinatı."
+    },
+    {
+     "term": "Ordinat",
+     "meaning": "Bir noktanın y koordinatı."
+    }
+   ],
+   "example": {
+    "question": "K(−2, 5) noktası önce 6 birim sağa ve 3 birim aşağı ötelenip sonra x eksenine göre yansıtılıyor. Son görüntünün koordinatları nedir?",
+    "solution": "1. adım: Öteleme: (−2 + 6, 5 − 3) = (4, 2).\n2. adım: x eksenine göre yansıma: ordinat işaret değiştirir, (4, −2).\nCevap: (4, −2)."
+   },
+   "remember": [
+    "Ötelemede şekil ters dönmez, yansımada döner.",
+    "Yatay öteleme apsisi, dikey öteleme ordinatı değiştirir.",
+    "x eksenine göre yansımada y’nin işareti değişir.",
+    "y eksenine göre yansımada x’in işareti değişir."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 6,
+   "intro": "Bu temada evren ve örneklemden yola çıkarak kategorik ve nicel verilerle araştırma yürütmeyi, uygun grafikler seçmeyi ve sonuçları eleştirel biçimde tartışmayı öğreniyoruz. Haberlerde ve reklamlarda gördüğümüz istatistikleri doğru yorumlamak için bu beceri çok önemlidir.",
+   "sections": [
+    {
+     "title": "Araştırma Süreci",
+     "text": "İstatistiksel bir araştırma, veriyle cevaplanabilecek bir soruyla başlar. Ardından evren belirlenir ve evreni temsil eden bir örneklem seçilir. Veri toplama aracı, örneğin anket soruları, açık ve yönlendirmesiz hazırlanmalıdır. Toplanan veriler tablo ve grafiklerle düzenlenir. Kategorik veriler için sütun ve daire grafiği; nicel veriler için nokta, sütun, çizgi grafiği ya da kök-yaprak gösterimi uygundur. Son olarak merkezi ölçüler ve yayılım ölçüleriyle veriler yorumlanır, araştırma sorusuna veriye dayalı bir cevap verilir.",
+     "points": [
+      "Soru → örneklem → veri toplama → gösterim → yorum",
+      "Anket soruları yönlendirici olmamalıdır."
+     ]
+    },
+    {
+     "title": "Dağılımı Yorumlama",
+     "text": "Bir veri grubunu yorumlarken merkez, yayılım ve şekil birlikte değerlendirilir. Merkez için aritmetik ortalama, ortanca ve tepe değer kullanılır. Yayılım için açıklık ve ortalama mutlak sapma kullanılır. İki grubu karşılaştırırken yalnızca ortalamaya bakmak yanıltıcı olabilir. Örneğin iki sınıfın sınav ortalaması aynı olsa bile birinde notlar birbirine yakın, diğerinde çok dağınık olabilir. Değişebilirlik, aynı sorunun farklı örneklemlerde biraz farklı sonuçlar vermesini de açıklar. Bu yüzden tek bir örneklemden çıkan sonucu kesin gerçek gibi sunmamak gerekir.",
+     "points": [
+      "Merkez, yayılım ve şekle birlikte bak.",
+      "Farklı örneklemler farklı sonuç verebilir."
+     ]
+    },
+    {
+     "title": "Başkalarının Sonuçlarını Tartışma",
+     "text": "Medyada ya da reklamlarda karşımıza çıkan istatistiksel iddiaları değerlendirirken bazı sorular sormalıyız. Veri kimden ve kaç kişiden toplandı? Örneklem evreni temsil ediyor mu? Grafiğin dikey ekseni sıfırdan başlıyor mu, yoksa farklar olduğundan büyük mü gösteriliyor? Hangi merkezi ölçü kullanılmış ve neden? Sonuç, verinin söylediğinden fazlasını mı iddia ediyor? Örneğin on kişiyle yapılan bir ankete dayanarak herkesin bir ürünü sevdiğini söylemek doğru bir genelleme değildir. Bu sorular eleştirel düşünmemizi güçlendirir.",
+     "points": [
+      "Örneklem büyüklüğünü sorgula.",
+      "Eksen ölçeğini kontrol et.",
+      "İddia ile veriyi karşılaştır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Evren",
+     "meaning": "Araştırmanın hakkında sonuç çıkarmak istediği grubun tamamı."
+    },
+    {
+     "term": "Örneklem",
+     "meaning": "Evreni temsil etmek için seçilen alt grup."
+    },
+    {
+     "term": "Veri",
+     "meaning": "Araştırmada toplanan gözlem, ölçüm ya da cevaplar."
+    },
+    {
+     "term": "Dağılım",
+     "meaning": "Verilerin değerler arasında nasıl yayıldığı."
+    },
+    {
+     "term": "Değişebilirlik",
+     "meaning": "Verilerin ve örneklem sonuçlarının farklılık gösterebilmesi."
+    },
+    {
+     "term": "Yanlı örneklem",
+     "meaning": "Evreni doğru temsil etmeyen, sonucu çarpıtan örneklem."
+    }
+   ],
+   "example": {
+    "question": "Bir okulda öğrencilerin günlük ekran süresi araştırılacaktır. Ali yalnızca bilgisayar kulübündeki 15 öğrenciye soru sormayı öneriyor. Bu örneklem uygun mudur? Daha iyi bir örneklem nasıl seçilir?",
+    "solution": "1. adım: Bilgisayar kulübü üyelerinin ekran süresi diğer öğrencilerden farklı olabilir; örneklem yanlıdır.\n2. adım: 15 kişi tüm okulu temsil etmek için azdır.\n3. adım: Her sınıf seviyesinden rastgele ve yeterli sayıda öğrenci seçilmelidir.\nCevap: Uygun değildir; farklı sınıflardan rastgele seçilen daha büyük bir örneklem kullanılmalıdır."
+   },
+   "remember": [
+    "İyi bir araştırma veriyle cevaplanabilir bir soruyla başlar.",
+    "Örneklem evreni temsil etmelidir.",
+    "Yalnızca ortalamaya değil, yayılıma da bak.",
+    "Grafik ve iddiaları eleştirel gözle değerlendir."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 7,
+   "intro": "Bu temada olasılığı farklı yaklaşımlarla belirlemeyi öğreniyoruz: kişisel tahmine dayanan öznel olasılık, deneye dayanan deneysel olasılık ve hesaplamaya dayanan teorik olasılık. Durum hangisini gerektiriyorsa ona uygun yaklaşımı seçerek karar veririz.",
+   "sections": [
+    {
+     "title": "Teorik Olasılık",
+     "text": "Tüm çıktıları eşit olasılıklı olan deneylerde, deney yapmadan hesaplamayla bulunan olasılığa teorik olasılık denir. Teorik olasılık, istenen olaya uygun çıktı sayısının tüm çıktı sayısına bölünmesiyle bulunur. Örneğin hilesiz bir zarda 5 gelme olasılığı 1/6, hilesiz bir parada yazı gelme olasılığı 1/2’dir. Teorik olasılık ancak çıktıların eşit olasılıklı olduğundan emin olduğumuz durumlarda kullanılabilir. Hileli bir zar ya da yere düşen bir raptiye için teorik olasılığı hesaplamak mümkün değildir.",
+     "points": [
+      "Teorik olasılık = uygun çıktı ÷ tüm çıktılar",
+      "Yalnızca eşit olasılıklı çıktılarda kullanılır."
+     ]
+    },
+    {
+     "title": "Deneysel Olasılık ve Benzetim",
+     "text": "Bir deneyi çok sayıda tekrarlayarak elde edilen sonuçlara dayanan olasılığa deneysel olasılık denir. Deneysel olasılık, olayın gerçekleşme sayısının toplam deneme sayısına bölünmesiyle bulunur. Deneme sayısı arttıkça deneysel olasılık genellikle teorik olasılığa yaklaşır. Bazı deneyleri gerçekte çok kez yapmak zor ya da pahalı olabilir. Bu durumda gerçek durumu taklit eden bir model kurarız; buna benzetim (simülasyon) denir. Örneğin bir futbolcunun penaltı başarısını, zar ya da bilgisayarda üretilen rastgele sayılarla taklit ederek tahmin edebiliriz.",
+     "points": [
+      "Deneysel olasılık = gerçekleşme sayısı ÷ deneme sayısı",
+      "Deneme arttıkça teorik değere yaklaşır."
+     ]
+    },
+    {
+     "title": "Öznel Olasılık ve Uygun Yaklaşımı Seçme",
+     "text": "Kişinin deneyimine, bilgisine ve sezgisine dayanarak yaptığı olasılık tahminine öznel olasılık denir. Örneğin bir öğretmenin, öğrencisinin yarışmayı kazanma şansını yüksek görmesi öznel bir tahmindir. Öznel olasılık kişiden kişiye değişebilir. Karar verirken duruma uygun yaklaşımı seçmeliyiz. Çıktılar eşit olasılıklıysa teorik olasılık en güvenilir yoldur. Çıktılar eşit olasılıklı değilse ama deney tekrarlanabiliyorsa deneysel olasılık ya da benzetim kullanılır. Ne hesaplanabilen ne de tekrarlanabilen durumlarda ise öznel olasılığa başvurulur.",
+     "points": [
+      "Hesaplanabiliyorsa: teorik.",
+      "Tekrarlanabiliyorsa: deneysel ya da benzetim.",
+      "İkisi de mümkün değilse: öznel."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Teorik olasılık",
+     "meaning": "Eşit olasılıklı çıktılarda hesaplamayla bulunan olasılık."
+    },
+    {
+     "term": "Deneysel olasılık",
+     "meaning": "Deney sonuçlarına dayanarak bulunan olasılık."
+    },
+    {
+     "term": "Öznel olasılık",
+     "meaning": "Kişisel bilgi, deneyim ve sezgiye dayanan olasılık tahmini."
+    },
+    {
+     "term": "Benzetim (simülasyon)",
+     "meaning": "Gerçek bir durumu taklit eden model ile yapılan deney."
+    }
+   ],
+   "example": {
+    "question": "Bir torbada 3 kırmızı ve 2 mavi top vardır. Bir öğrenci çektiği topu geri koyarak 50 çekiliş yapıyor ve 32 kez kırmızı top çekiyor. Kırmızı top çekmenin teorik ve deneysel olasılıklarını bulup karşılaştırınız.",
+    "solution": "1. adım: Teorik olasılık = 3/5 = 0,6.\n2. adım: Deneysel olasılık = 32/50 = 0,64.\n3. adım: İki değer birbirine yakındır; çekiliş sayısı artarsa deneysel olasılığın 0,6’ya daha da yaklaşması beklenir.\nCevap: Teorik 0,6; deneysel 0,64."
+   },
+   "remember": [
+    "Teorik olasılık deney yapmadan hesaplanır.",
+    "Deneysel olasılık deneme sayısı arttıkça teorik değere yaklaşır.",
+    "Öznel olasılık kişiden kişiye değişebilir.",
+    "Duruma uygun olasılık yaklaşımını seç."
+   ]
+  }
+ ]
+}

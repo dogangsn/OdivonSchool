@@ -93,6 +93,19 @@ service cloud.firestore {
         allow delete: if isOwner(userId);
       }
 
+      // Akıllı Kütüphane: the page each MEB book was left open on.
+      match /library/{bookId} {
+        allow read, delete: if isOwner(userId);
+        allow create, update: if isOwner(userId) &&
+          request.resource.data.keys().hasOnly(['bookId', 'page', 'pageCount', 'updatedAt']) &&
+          request.resource.data.bookId is int && string(request.resource.data.bookId) == bookId &&
+          request.resource.data.page is int && request.resource.data.page >= 1 &&
+          request.resource.data.pageCount is int && request.resource.data.pageCount >= 1 &&
+          request.resource.data.pageCount <= 2000 &&
+          request.resource.data.page <= request.resource.data.pageCount &&
+          request.resource.data.updatedAt is int;
+      }
+
       // Browser/phone push tokens (FCM). Only the owner manages them; the
       // daily digest function reads them with the Admin SDK.
       match /fcmTokens/{tokenId} {

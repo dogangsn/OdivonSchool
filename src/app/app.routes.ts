@@ -64,6 +64,23 @@ export const routes: Routes = [
     path: 'oyun/kesir/:presetId',
     loadComponent: () => import('./features/games/fraction-pizza/fraction-pizza').then(m => m.FractionPizza),
   },
+  // Defter Notları + Akıllı Kütüphane (public; reading progress is saved for signed-in users)
+  {
+    path: 'defter-notlari',
+    loadComponent: () => import('./features/notebook/notebook-list/notebook-list').then(m => m.NotebookList),
+  },
+  {
+    path: 'defter-notlari/:slug',
+    loadComponent: () => import('./features/notebook/notebook-note/notebook-note').then(m => m.NotebookNote),
+  },
+  {
+    path: 'kutuphane',
+    loadComponent: () => import('./features/library/library-list/library-list').then(m => m.LibraryList),
+  },
+  {
+    path: 'kutuphane/:bookId',
+    loadComponent: () => import('./features/library/book-reader/book-reader').then(m => m.BookReader),
+  },
   // Sesli Okuma Koçu (public; results are saved only for signed-in readers)
   {
     path: 'okuma',

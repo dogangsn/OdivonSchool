@@ -1,0 +1,2178 @@
+{
+ "file": "ilkokul-turkce",
+ "notes": [
+  {
+   "grade": 1,
+   "order": 1,
+   "intro": "Bu temada güzel davranışları öğreniyoruz. Saygılı, nazik ve yardımsever olmak herkesi mutlu eder. Bir yandan da sesleri, harfleri ve heceleri tanıyıp ilk sözcüklerimizi okuyup yazıyoruz.",
+   "sections": [
+    {
+     "title": "Güzel Davranışlar",
+     "text": "Güzel davranışlar hayatımızı kolaylaştırır. Bir şey isterken “lütfen” deriz. Bize yardım edilince “teşekkür ederim” deriz. Arkadaşımızla oyuncağımızı paylaşırız. Büyüklerimize saygı, küçüklerimize sevgi gösteririz. Doğruyu söyleriz, sözümüzü tutarız. Evde de sorumluluk alırız: Odamızı toplar, sofrayı kurmaya yardım ederiz. Bir işi bitirene kadar sabırla çalışmaya azim denir. Okulda arkadaşlarımızla sıramızı bekleriz. Birini üzersek ondan özür dileriz. Güzel davranışlar küçük şeylerle başlar ve herkesi mutlu eder.",
+     "points": [
+      "Nazik sözler kullanırız: lütfen, teşekkür ederim, özür dilerim.",
+      "Paylaşmak ve yardım etmek dostluğu güçlendirir.",
+      "Dürüst olan kişiye herkes güvenir."
+     ]
+    },
+    {
+     "title": "Dinleme Kuralları",
+     "text": "İyi bir dinleyici konuşan kişiye bakar. Sözünü kesmez. Konuşmak isteyince elini kaldırır ve sırasını bekler. Dinlerken duyduğu sesleri fark eder. Örneğin öğretmenimiz “a” sesini söylediğinde “araba, ayı, anne” gibi bu sesin geçtiği sözcükleri düşünürüz. Dinlediğimiz metnin neyi anlattığını, yani konusunu bulmaya çalışırız. Dinlediğimiz bir hikâyeyi sonra kendi cümlelerimizle anlatabiliriz. İyi dinlemek konuşmak kadar önemlidir. İyi dinleyen çocuk daha çok şey öğrenir.",
+     "points": [
+      "Konuşana bakarız.",
+      "Söz almak için el kaldırırız.",
+      "Sözünü kesmeden dinleriz."
+     ]
+    },
+    {
+     "title": "Ses, Hece ve Büyük Harf",
+     "text": "Her sesin bir harfi vardır. Harfler birleşince hece olur: “e” ve “l” birleşir, “el” olur. Heceler birleşince sözcük, sözcükler birleşince cümle olur. Yazarken harflerin arasına az, sözcüklerin arasına bir parmak kadar boşluk bırakırız. Cümleye büyük harfle başlarız. İnsan adlarını da büyük harfle yazarız: Ali, Elif, Ayşe. Harfleri yazarken doğru yerden başlar ve doğru yöne çizeriz. Kalemi doğru tutarız ve defterimizi düzgün kullanırız. Böylece yazımız okunaklı olur.",
+     "points": [
+      "Ses → hece → sözcük → cümle.",
+      "Cümle büyük harfle başlar.",
+      "Sözcükler arasında boşluk bırakılır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Saygı",
+     "meaning": "Başkalarının duygularına ve haklarına değer vermek."
+    },
+    {
+     "term": "Nezaket",
+     "meaning": "Kibar ve ince davranmak."
+    },
+    {
+     "term": "Paylaşma",
+     "meaning": "Sahip olduğumuz şeyi başkalarıyla birlikte kullanmak."
+    },
+    {
+     "term": "Dürüstlük",
+     "meaning": "Her zaman doğruyu söylemek."
+    },
+    {
+     "term": "Azim",
+     "meaning": "Bir işi bitirene kadar vazgeçmeden çalışmak."
+    },
+    {
+     "term": "Hece",
+     "meaning": "Ağzımızın bir açılışta çıkardığı ses ya da ses grubu."
+    }
+   ],
+   "example": {
+    "question": "Şu cümleyi doğru yazalım: “ali ile elif oyun oynadı.”",
+    "solution": "1. Cümle büyük harfle başlar: “Ali”. 2. “Elif” bir insan adıdır, büyük harfle yazılır. 3. Cümlenin sonuna nokta konur. Doğru yazılış: “Ali ile Elif oyun oynadı.”"
+   },
+   "remember": [
+    "Lütfen ve teşekkür ederim sihirli sözcüklerdir.",
+    "Dinlerken konuşanın sözünü kesmeyiz.",
+    "Cümleye ve insan adlarına büyük harfle başlarız.",
+    "Sözcüklerin arasına boşluk bırakırız."
+   ]
+  },
+  {
+   "grade": 1,
+   "order": 2,
+   "intro": "Bu temada Mustafa Kemal Atatürk’ü tanıyoruz. Vatanını çok seven Atatürk, Türkiye Cumhuriyeti’ni kurdu. Bu temada noktalama işaretlerini de öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Mustafa Kemal Atatürk",
+     "text": "Mustafa Kemal 1881 yılında Selanik’te doğdu. Çocukken çok çalışkan bir öğrenciydi. Büyüyünce cesur bir asker oldu. Vatanımız tehlikedeyken milletimizle birlikte Millî Mücadele’yi başlattı. Milletimiz büyük fedakârlık yaptı ve vatanımız kurtuldu. Sonra Türkiye Cumhuriyeti kuruldu. Atatürk, 23 Nisan’ı çocuklara bayram olarak armağan etti. Vatanı için canını veren kahramanlara şehit, savaştan sağ dönen kahramanlara gazi deriz.",
+     "points": [
+      "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı’dır.",
+      "29 Ekim Cumhuriyet Bayramı’dır.",
+      "Şehitlerimizi ve gazilerimizi saygıyla anarız."
+     ]
+    },
+    {
+     "title": "Noktalama İşaretleri",
+     "text": "Noktalama işaretleri yazıyı doğru okumamıza yardım eder. Biten cümlenin sonuna nokta (.) koyarız. Soru soran cümlenin sonuna soru işareti (?) koyarız. Sevinç, şaşkınlık ya da korku anlatan cümlenin sonuna ünlem (!) koyarız. Sıralanan sözcüklerin arasına virgül (,) koyarız. İnsan adlarına gelen ekleri kesme işaretiyle (’) ayırırız: Atatürk’ün, Ayşe’ye. Okurken de bu işaretlere dikkat ederiz. Noktada kısa bir süre dururuz. Soru işaretinde soru sorar gibi okuruz.",
+     "points": [
+      "Nokta (.) cümleyi bitirir.",
+      "Soru işareti (?) soruyu gösterir.",
+      "Ünlem (!) güçlü duyguyu gösterir.",
+      "Virgül (,) sıralanan sözcükleri ayırır.",
+      "Kesme işareti (’) özel adlara gelen eki ayırır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Vatanseverlik",
+     "meaning": "Vatanını çok sevmek ve korumak."
+    },
+    {
+     "term": "Cesaret",
+     "meaning": "Korkmadan doğru olanı yapmak."
+    },
+    {
+     "term": "Millî Mücadele",
+     "meaning": "Milletimizin vatanını kurtarmak için verdiği büyük savaş."
+    },
+    {
+     "term": "Şehit",
+     "meaning": "Vatanı için canını veren kahraman."
+    },
+    {
+     "term": "Gazi",
+     "meaning": "Vatanı için savaşıp sağ dönen kahraman."
+    },
+    {
+     "term": "Millî bayram",
+     "meaning": "Milletçe kutladığımız önemli günler."
+    }
+   ],
+   "example": {
+    "question": "Cümlelerin sonuna uygun işareti koyalım: “Atatürk nerede doğdu” — “Ne güzel bir bayram” — “Bugün 23 Nisan”",
+    "solution": "1. Birinci cümle soru soruyor: “Atatürk nerede doğdu?” 2. İkinci cümle sevinç anlatıyor: “Ne güzel bir bayram!” 3. Üçüncü cümle bir bilgi veriyor ve bitiyor: “Bugün 23 Nisan.”"
+   },
+   "remember": [
+    "Atatürk Türkiye Cumhuriyeti’nin kurucusudur.",
+    "23 Nisan çocuklara armağan edilmiş bir bayramdır.",
+    "Soru cümlesinin sonuna soru işareti koyarız.",
+    "Özel adlara gelen ekleri kesme işaretiyle ayırırız."
+   ]
+  },
+  {
+   "grade": 1,
+   "order": 3,
+   "intro": "Bu temada çevremizdeki canlıları, mevsimleri ve doğayı tanıyoruz. Doğayı korumak hepimizin görevidir. Dinlediğimiz ve okuduğumuz metnin konusunu bulmayı da öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Doğa ve Canlılar",
+     "text": "Çevremizde bitkiler, hayvanlar ve insanlar yaşar. Hepsi canlıdır; beslenir, büyür ve çoğalır. Dünya’mızda gece ve gündüz olur. Bir yılda dört mevsim vardır: ilkbahar, yaz, sonbahar ve kış. Her mevsimin havası farklıdır. Yağmur, kar ve rüzgâr doğa olaylarıdır. Deprem gibi afetlere karşı ailemizle hazırlık yaparız. Bitkiler topraktan su alır ve güneşle büyür. Hayvanların bazıları evlerimizde, bazıları ormanlarda yaşar. Bütün canlılara sevgiyle davranırız ve onlara zarar vermeyiz.",
+     "points": [
+      "Dört mevsim: ilkbahar, yaz, sonbahar, kış.",
+      "Canlılar beslenir, büyür, çoğalır."
+     ]
+    },
+    {
+     "title": "Çevreyi Koruyoruz",
+     "text": "Çöplerimizi yere atmayız. Kâğıt, plastik, cam ve metal atıkları ayrı kutulara atarız. Bu atıklar geri dönüşümle yeniden kullanılır. Suyu ve elektriği boşa harcamayız. Dişimizi fırçalarken musluğu kapatırız. Odadan çıkarken ışığı söndürürüz. Buna tasarruf denir. Güneş ve rüzgârdan elde edilen enerji tükenmez; bunlara yenilenebilir enerji denir. Doğa hepimizin ortak evidir. Onu temiz tutarsak hem bugün hem de gelecekte güzel bir dünyada yaşarız. Ailemize de bu konuda yardımcı oluruz.",
+     "points": [
+      "Atıkları türüne göre ayırırız.",
+      "Musluğu açık bırakmayız.",
+      "Gereksiz yanan ışığı kapatırız."
+     ]
+    },
+    {
+     "title": "Metnin Konusunu Bulma",
+     "text": "Her metin bir şeyi anlatır. Metnin neyi anlattığına konu denir. Konuyu bulmak için kendimize “Bu metin ne hakkında?” diye sorarız. Okumadan önce başlığa ve resimlere bakarız. Böylece metnin konusunu tahmin edebiliriz. Dinlediğimiz olayın nasıl devam edeceğini de tahmin edebiliriz. Okuduktan sonra tahminimizin doğru olup olmadığına bakarız. Metnin konusunu bir iki sözcükle söyleyebiliriz: “mevsimler”, “geri dönüşüm”, “hayvanlar” gibi. Bu çalışma metni daha iyi anlamamızı sağlar.",
+     "points": [
+      "Konu: Metin ne hakkında?",
+      "Başlık ve resimler konuyu tahmin ettirir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Canlı",
+     "meaning": "Beslenen, büyüyen ve çoğalan varlık."
+    },
+    {
+     "term": "Mevsim",
+     "meaning": "Yılın havası birbirine benzeyen dört bölümünden her biri."
+    },
+    {
+     "term": "Geri dönüşüm",
+     "meaning": "Atıkların işlenip yeniden kullanılması."
+    },
+    {
+     "term": "Tasarruf",
+     "meaning": "Bir şeyi boşa harcamadan, gerektiği kadar kullanmak."
+    },
+    {
+     "term": "Atık",
+     "meaning": "Kullandıktan sonra artan, atılan şey."
+    },
+    {
+     "term": "Konu",
+     "meaning": "Metnin ne hakkında olduğu."
+    }
+   ],
+   "example": {
+    "question": "“Elif parkta bir şişe gördü. Şişeyi aldı ve cam kutusuna attı. Parkın temiz kaldığına sevindi.” Bu metnin konusu nedir?",
+    "solution": "1. Kendimize sorarız: Metin ne hakkında? 2. Elif şişeyi yere bırakmamış, cam kutusuna atmış. 3. Konu: Çevreyi temiz tutmak ve atıkları doğru kutuya atmak."
+   },
+   "remember": [
+    "Çevremizi temiz tutarız.",
+    "Su ve elektriği tasarruflu kullanırız.",
+    "Metnin konusu, metnin ne hakkında olduğudur.",
+    "Başlığa ve resimlere bakarak tahmin yaparız."
+   ]
+  },
+  {
+   "grade": 1,
+   "order": 4,
+   "intro": "Bu temada kitapları tanıyoruz. Kitaplar bizi yeni yerlere götüren yol arkadaşlarımızdır. Hikâyede kahramanı ve olayı, şiirde ise duyguyu bulmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Kitaplar Yol Arkadaşımız",
+     "text": "Kitap okuyunca yeni sözcükler öğreniriz. Hayal gücümüz gelişir. Kitaplarımızı temiz tutarız. Sayfalarını yırtmaz, katlamayız. Kaldığımız yeri ayraçla işaretleriz. Her gün biraz okumak güzel bir alışkanlıktır. Okurken sesleri ve sözcükleri doğru söyleriz. Bilmediğimiz bir sözcüğü öğretmenimize ya da ailemize sorarız. Kitap okurken sessiz ve aydınlık bir yer seçeriz. Okuduğumuz kitabı arkadaşlarımıza anlatabiliriz. Kitap okumak bize yeni dostlar ve yeni dünyalar kazandırır.",
+     "points": [
+      "Kitabımızı özenle kullanırız.",
+      "Her gün biraz okuruz.",
+      "Ayraç kullanırız."
+     ]
+    },
+    {
+     "title": "Hikâye ve Şiir",
+     "text": "Hikâye bir olayı anlatır. Hikâyede olayları yaşayan kişilere kahraman denir. Hikâyede neler olduğunu anlatırken “Ne oldu? Kimin başına geldi? Nerede oldu?” sorularını sorarız. Şiir ise kısa satırlarla yazılır. Şiirde bir duygu anlatılır. Bu duyguya ana duygu deriz; sevgi, özlem, sevinç gibi. Hikâyenin bize vermek istediği mesaja da ana fikir deriz.",
+     "points": [
+      "Kahraman: Olayı yaşayan kişi ya da hayvan.",
+      "Olay: Hikâyede olan şey.",
+      "Ana duygu: Şiirdeki duygu.",
+      "Ana fikir: Metnin bize verdiği mesaj."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Kitap",
+     "meaning": "Okumak için basılmış, sayfalardan oluşan eser."
+    },
+    {
+     "term": "Hikâye",
+     "meaning": "Bir olayı anlatan metin."
+    },
+    {
+     "term": "Şiir",
+     "meaning": "Kısa satırlarla yazılan, duygu anlatan metin."
+    },
+    {
+     "term": "Kahraman",
+     "meaning": "Hikâyedeki olayları yaşayan kişi ya da hayvan."
+    },
+    {
+     "term": "Olay",
+     "meaning": "Hikâyede yaşanan durum."
+    },
+    {
+     "term": "Ana fikir",
+     "meaning": "Metnin bize vermek istediği mesaj."
+    },
+    {
+     "term": "Ana duygu",
+     "meaning": "Şiirde ya da metinde öne çıkan duygu."
+    }
+   ],
+   "example": {
+    "question": "“Küçük kedi ağaçta kaldı. Can ona yardım etti. Kedi sevindi.” Bu hikâyenin kahramanları kimdir? Olay nedir?",
+    "solution": "1. Olayı yaşayanları buluruz: küçük kedi ve Can. Bunlar kahramanlardır. 2. Ne olduğunu buluruz: Kedi ağaçta kalmış, Can ona yardım etmiş. Bu da olaydır. 3. Ana fikir: Yardım etmek güzeldir."
+   },
+   "remember": [
+    "Kitaplar en iyi yol arkadaşımızdır.",
+    "Hikâyede olayları kahramanlar yaşar.",
+    "Şiirde bir duygu anlatılır.",
+    "Ana fikir metnin mesajıdır."
+   ]
+  },
+  {
+   "grade": 1,
+   "order": 5,
+   "intro": "Bu temada yeteneklerimizi ve hayal gücümüzü keşfediyoruz. Oyunlar, şarkılar ve el sanatları bizi mutlu eder. Konuşurken nasıl davranacağımızı ve olayları sırayla yazmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Yeteneklerimiz",
+     "text": "Her çocuğun farklı bir yeteneği vardır. Kimi resim yapmayı, kimi şarkı söylemeyi, kimi top oynamayı sever. Ebru, çinicilik gibi geleneksel sanatlar atalarımızdan kalmıştır. Saklambaç, körebe gibi oyunlar çocuk kültürümüzdendir. Dijital oyunları ise ailemizin izin verdiği kadar oynarız. Hayal kurmak yeni şeyler bulmamızı sağlar. Yeteneğimizi bulmak için farklı şeyler deneriz. Başkalarının yeteneklerini de takdir ederiz. Arkadaşımız güzel bir resim yapınca onu tebrik ederiz.",
+     "points": [
+      "Herkesin yeteneği farklıdır.",
+      "Dijital oyunlara sınırlı zaman ayırırız."
+     ]
+    },
+    {
+     "title": "Güzel Konuşma",
+     "text": "Konuşurken dinleyenlerin gözlerine bakarız. Çok hızlı ya da çok yavaş konuşmayız. Herkesin duyabileceği bir sesle konuşuruz. Kendimizi ve ailemizi anlatabiliriz. Sevdiğimiz bir konuyu anlatırken resim gösterebiliriz. Sözcükleri doğru anlamda kullanırız. Konuşmamızı bitirince dinleyenlerin sorularını cevaplarız. Başkası konuşurken sözünü kesmeyiz. Sesimizi bağırmadan, herkesin duyabileceği kadar yükseltiriz. Anlatacağımız şeyi önceden düşünürsek daha rahat konuşuruz.",
+     "points": [
+      "Göz teması kurarız.",
+      "Konuşma hızımızı ayarlarız.",
+      "Resimlerle konuşmamızı destekleriz."
+     ]
+    },
+    {
+     "title": "Olayları Sırayla Yazma",
+     "text": "Bir olayı anlatırken önce ne olduğunu, sonra ne olduğunu ve en son ne olduğunu sırayla yazarız. “Önce, sonra, en sonunda” sözcükleri bize yardım eder. Bilmediğimiz sözcüğün anlamını sözlükte ya da güvenilir bir internet kaynağında ararız. Rakamları da kurallara uygun ve okunaklı yazarız. Olayları karışık anlatırsak dinleyen ya da okuyan bizi anlamakta zorlanır. Bu yüzden önce olanı başa yazarız. Bir resme bakıp o resimle ilgili kısa bir metin de yazabiliriz.",
+     "points": [
+      "Önce → sonra → en sonunda.",
+      "Bilmediğimiz sözcüğü sözlükte ararız."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Yetenek",
+     "meaning": "Bir işi iyi yapabilme gücü."
+    },
+    {
+     "term": "Hayal",
+     "meaning": "Zihnimizde canlandırdığımız düşünce ya da resim."
+    },
+    {
+     "term": "Geleneksel sanat",
+     "meaning": "Atalarımızdan bize kalan el sanatları, örneğin ebru."
+    },
+    {
+     "term": "Çocuk kültürü",
+     "meaning": "Çocukların oynadığı oyunlar, söylediği tekerlemeler ve şarkılar."
+    },
+    {
+     "term": "Dijital oyun",
+     "meaning": "Tablet, bilgisayar ya da telefonda oynanan oyun."
+    }
+   ],
+   "example": {
+    "question": "Karışık verilen olayları sıraya koyalım: “Resmi boyadım.” “Kâğıdı aldım.” “Resmi anneme hediye ettim.” “Bir ev çizdim.”",
+    "solution": "1. Önce: Kâğıdı aldım. 2. Sonra: Bir ev çizdim. 3. Daha sonra: Resmi boyadım. 4. En sonunda: Resmi anneme hediye ettim."
+   },
+   "remember": [
+    "Her çocuğun bir yeteneği vardır.",
+    "Konuşurken göz teması kurarız.",
+    "Olayları oluş sırasına göre anlatırız.",
+    "Bilmediğimiz sözcüğü sözlükte ararız."
+   ]
+  },
+  {
+   "grade": 1,
+   "order": 6,
+   "intro": "Bu temada küçük bir kâşif gibi merak edip soru soruyoruz. Bilim ve teknoloji hayatımızı kolaylaştırır. Anlamlı ve düzgün cümleler kurmayı da öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Merak Eden Kâşifler",
+     "text": "Kâşif, yeni şeyler bulan kişidir. Kâşif merak eder ve soru sorar: “Bu neden böyle? Nasıl çalışıyor?” Sonra cevabını araştırır. Bilim insanları da böyle çalışır. Teknoloji; telefon, bilgisayar, buzdolabı gibi işimizi kolaylaştıran araçlardır. Yapay zekâ ise insanlar gibi bazı işleri yapabilen bilgisayar programıdır. Teknolojik araçları büyüklerimizin izniyle ve dikkatli kullanırız. Merak ettiğimiz şeyleri bir deftere yazabiliriz.",
+     "points": [
+      "Merak etmek öğrenmenin ilk adımıdır.",
+      "Soru sormaktan çekinmeyiz."
+     ]
+    },
+    {
+     "title": "Okumadan Önce ve Okurken",
+     "text": "Okuyacağımız metnin önce başlığına ve resimlerine bakarız. “Bu metin ne anlatıyor olabilir?” diye tahmin ederiz. Okurken noktalama işaretlerine dikkat ederiz; noktada biraz dururuz, soru işaretinde soru sorar gibi okuruz. Metinde bir yönerge varsa onu adım adım uygularız. Nesneleri renk, şekil, büyüklük gibi özelliklerine göre gruplayabiliriz. Okuduklarımızı daha önce bildiklerimizle karşılaştırırız. Kısa metinler arasından ilgimizi çeken birini seçip okuyabiliriz. Okuduktan sonra metnin konusunu söyleriz.",
+     "points": [
+      "Önce başlık ve resimlere bakarız.",
+      "Yönergeleri sırayla uygularız."
+     ]
+    },
+    {
+     "title": "Anlamlı Cümle Kurma",
+     "text": "Cümle bir düşünceyi tam olarak anlatır. Sözcükleri doğru sıraya dizince anlamlı cümle olur. Türkçede cümlenin sonunda genellikle iş, yani yapılan eylem bulunur: “Ali top oynuyor.” Cümleye büyük harfle başlar, sonuna uygun noktalama işaretini koyarız. Sözcükler arasında boşluk bırakırız. Sözcükleri karışık dizersek cümle anlamsız olur. Söylenen sözcük ve cümleleri dikkatle dinleyip deftere doğru yazarız. Eksik bırakılan sözcükleri de bildiklerimizi kullanarak tamamlarız.",
+     "points": [
+      "Cümle büyük harfle başlar.",
+      "Eylem genellikle sonda olur.",
+      "Sonuna nokta, soru işareti ya da ünlem konur."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Kâşif",
+     "meaning": "Yeni şeyler bulan, keşfeden kişi."
+    },
+    {
+     "term": "Merak",
+     "meaning": "Bir şeyi öğrenme isteği."
+    },
+    {
+     "term": "Bilim",
+     "meaning": "Araştırarak ve deneyerek doğru bilgiye ulaşma yolu."
+    },
+    {
+     "term": "Teknoloji",
+     "meaning": "İşimizi kolaylaştıran araç ve gereçler."
+    },
+    {
+     "term": "Yapay zekâ",
+     "meaning": "Bazı işleri insan gibi yapabilen bilgisayar programı."
+    },
+    {
+     "term": "Araştırma",
+     "meaning": "Bir sorunun cevabını bulmak için bilgi toplamak."
+    }
+   ],
+   "example": {
+    "question": "Karışık sözcüklerle anlamlı bir cümle kuralım: “inceledi / Ece / büyüteçle / yaprağı”",
+    "solution": "1. Kim? Ece. 2. Neyle? Büyüteçle. 3. Neyi? Yaprağı. 4. Ne yaptı? İnceledi. Cümle: “Ece büyüteçle yaprağı inceledi.” Büyük harfle başladık, sonuna nokta koyduk."
+   },
+   "remember": [
+    "Kâşifler merak eder ve soru sorar.",
+    "Okumadan önce başlığa ve resimlere bakarız.",
+    "Cümle büyük harfle başlar, noktalama işaretiyle biter.",
+    "Teknolojiyi dikkatli kullanırız."
+   ]
+  },
+  {
+   "grade": 1,
+   "order": 7,
+   "intro": "Bu temada atalarımızdan kalan değerleri, bayrağımızı ve bayramlarımızı tanıyoruz. Güzel Türkçemiz de en değerli mirasımızdır. Selamlaşmayı, benzetme yapmayı ve “mi” soru ekini doğru yazmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Mirasımız",
+     "text": "Bayrağımız ay yıldızlı ve kırmızı beyazdır. Vatanımızın simgesidir. Millî bayramlarımızda bayrağımızı asarız. Ramazan ve Kurban Bayramı dinî bayramlarımızdır. Bayramlarda büyüklerimizi ziyaret ederiz. Camiler, köprüler, kaleler gibi tarihî yapılar atalarımızdan kalmıştır. Onları korumak görevimizdir. Türkçemizi de güzel ve doğru konuşarak koruruz. Bayrağımıza saygı gösteririz, onu yere düşürmeyiz. Millî marşımız İstiklâl Marşı okunurken hazır olda dururuz. Büyüklerimizden eski oyunları ve masalları dinleyerek kültürümüzü öğreniriz.",
+     "points": [
+      "Bayrağımız vatanımızın simgesidir.",
+      "Tarihî yapıları korumalıyız."
+     ]
+    },
+    {
+     "title": "Selamlaşma ve Benzetme",
+     "text": "Konuşmaya ya da yazmaya selamla başlarız: “Merhaba”, “Günaydın”, “Sevgili öğretmenim”. Bu sözlere selamlaşma ve hitap ifadeleri denir. Konuşurken yüz ifademizi ve ellerimizi kullanırız; buna beden dili denir. Bir şeyi başka bir şeye benzetmek anlatımı güzelleştirir. Bunun için “gibi” sözcüğünü kullanırız: “Bebeğin yanakları elma gibi.” Konuşmamızı mimiklerle desteklemek, anlattığımız duyguyu gösterir. Mesaj yazarken de selamla başlar, nazik bir sözle bitiririz.",
+     "points": [
+      "Hitap: Sevgili annem, Değerli öğretmenim.",
+      "Benzetme yaparken “gibi” kullanırız."
+     ]
+    },
+    {
+     "title": "Soru Eki “mı, mi, mu, mü”",
+     "text": "Soru eki “mı, mi, mu, mü” kendinden önceki sözcükten ayrı yazılır. Ama önceki sözcüğe uyar: “Geldin mi?”, “Okul mu?”, “Kitap mı?”, “Gördün mü?” Soru eki olan cümlenin sonuna soru işareti koyarız. Yazdıktan sonra yazımızı okuyup hatalarımızı buluruz ve düzeltiriz. Soru ekine gelen başka ekler de ona bitişik yazılır: “Geliyor musun?” Soru ekini bitişik yazmak sık yapılan bir hatadır. Bu yüzden yazdıktan sonra mutlaka kontrol ederiz.",
+     "points": [
+      "Soru eki ayrı yazılır.",
+      "Cümlenin sonuna soru işareti konur."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Bayrak",
+     "meaning": "Bir milleti ve vatanı simgeleyen işaret."
+    },
+    {
+     "term": "Vatan",
+     "meaning": "Üzerinde yaşadığımız, sevdiğimiz ülke."
+    },
+    {
+     "term": "Kültürel miras",
+     "meaning": "Atalarımızdan bize kalan değerler, yapılar ve gelenekler."
+    },
+    {
+     "term": "Tarihî mekân",
+     "meaning": "Geçmişten kalan eski yapı ya da yer."
+    },
+    {
+     "term": "Hitap",
+     "meaning": "Birine seslenirken kullandığımız söz, örneğin “Sevgili dedeciğim”."
+    },
+    {
+     "term": "Benzetme",
+     "meaning": "Bir şeyi başka bir şeye benzeterek anlatmak."
+    }
+   ],
+   "example": {
+    "question": "Hangisi doğru yazılmıştır? a) “Bayrağı astınmı?” b) “Bayrağı astın mı?”",
+    "solution": "1. “mı” soru ekidir. 2. Soru eki kendinden önceki sözcükten ayrı yazılır. 3. Sonuna soru işareti konur. Doğru cevap: b) “Bayrağı astın mı?”"
+   },
+   "remember": [
+    "Bayrağımız ve Türkçemiz en değerli mirasımızdır.",
+    "Konuşmaya selamla başlarız.",
+    "“gibi” ile benzetme yaparız.",
+    "Soru eki “mi” ayrı yazılır."
+   ]
+  },
+  {
+   "grade": 1,
+   "order": 8,
+   "intro": "Bu temada haklarımızı ve sorumluluklarımızı öğreniyoruz. Herkesin düşüncesine saygı gösteririz. Kendi özel bilgilerimizi korumayı ve yazdıklarımızdaki hataları düzeltmeyi de öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Hak ve Sorumluluk",
+     "text": "Her çocuğun oyun oynama, okula gitme ve sağlıklı yaşama hakkı vardır. Haklarımızın yanında sorumluluklarımız da vardır. Ödevimizi yapmak, eşyalarımıza sahip çıkmak, sıramızı beklemek sorumluluktur. Sınıfta oylama yaparak karar vermek demokrasidir. Herkes düşüncesini söyleyebilir; buna ifade özgürlüğü denir. Herkese adil davranmak da hakkaniyettir. Bir konuda anlaşamazsak bağırmak yerine konuşarak çözüm ararız. Birbirimizi dinlemek demokrasinin ilk adımıdır.",
+     "points": [
+      "Hakkımızı bilir, sorumluluğumuzu yaparız.",
+      "Başkasının düşüncesini dinleriz."
+     ]
+    },
+    {
+     "title": "Özel Bilgilerimizi Koruyoruz",
+     "text": "Bedenimiz bize aittir. Bize rahatsızlık veren bir durumda “Hayır!” der ve güvendiğimiz bir büyüğe anlatırız. Buna mahremiyet denir. İnternette adımızı, adresimizi, okulumuzu ve şifremizi tanımadığımız kişilerle paylaşmayız. Fotoğraflarımızı ailemize sormadan paylaşmayız. Buna dijital gizlilik denir. İnternette karşılaştığımız bir şey bizi rahatsız ederse ekranı kapatır ve hemen ailemize anlatırız. Başkalarının fotoğraflarını da izinsiz paylaşmayız. Kendi gizliliğimiz kadar başkalarının gizliliğine de saygı gösteririz.",
+     "points": [
+      "Şifremizi kimseye söylemeyiz.",
+      "Tanımadığımız kişilere bilgi vermeyiz."
+     ]
+    },
+    {
+     "title": "Hatalarımızı Düzeltiyoruz",
+     "text": "Yazımızı bitirince bir kez daha okuruz. Cümleye büyük harfle başladık mı? Sonuna nokta koyduk mu? Sözcükler arasında boşluk bıraktık mı? Soru ekini ayrı yazdık mı? Bulduğumuz hataları düzeltiriz. Doğru yaptıklarımızı bir sonraki yazımızda da yaparız. Böylece her gün daha iyi yazarız. Hata yapmak öğrenmenin bir parçasıdır. Önemli olan hatamızı fark edip düzeltmektir.",
+     "points": [
+      "Büyük harf, nokta, boşluk ve soru ekini kontrol ederiz."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Hak",
+     "meaning": "Herkesin sahip olması gereken şey, örneğin eğitim hakkı."
+    },
+    {
+     "term": "Sorumluluk",
+     "meaning": "Yapmamız gereken görev."
+    },
+    {
+     "term": "Demokrasi",
+     "meaning": "Herkesin söz söyleyip birlikte karar verdiği düzen."
+    },
+    {
+     "term": "İfade özgürlüğü",
+     "meaning": "Düşünceyi saygılı bir şekilde söyleyebilme hakkı."
+    },
+    {
+     "term": "Mahremiyet",
+     "meaning": "Bedenimizin ve özel hayatımızın korunması."
+    },
+    {
+     "term": "Dijital gizlilik",
+     "meaning": "İnternette kişisel bilgilerimizi korumak."
+    }
+   ],
+   "example": {
+    "question": "Bu cümlede kaç hata var? Düzeltelim: “ayşe ödevini yaptımı”",
+    "solution": "1. Cümle büyük harfle başlamalı ve “Ayşe” bir isimdir: “Ayşe”. 2. Soru eki ayrı yazılır: “yaptı mı”. 3. Soru cümlesinin sonuna soru işareti konur. Doğrusu: “Ayşe ödevini yaptı mı?” Üç hata vardı."
+   },
+   "remember": [
+    "Haklarımız kadar sorumluluklarımız da vardır.",
+    "Şifremizi ve adresimizi paylaşmayız.",
+    "Rahatsız olunca güvendiğimiz bir büyüğe söyleriz.",
+    "Yazdıktan sonra hatalarımızı kontrol ederiz."
+   ]
+  },
+  {
+   "grade": 2,
+   "order": 1,
+   "intro": "Bu temada bizi iyi bir insan yapan değerleri konuşuyoruz. Sevgi, saygı ve sorumluluk her yerde işimize yarar. Olayları sırayla anlatmayı ve defterimizi düzenli kullanmayı da öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Değerlerimiz",
+     "text": "Değerler doğru davranışlarımızı yönlendirir. Sevgi ve saygı gösterdiğimizde arkadaşlıklarımız güçlenir. Çalışkan ve azimli olursak hedeflerimize ulaşırız. Öz denetim, kimse bizi görmese bile doğru davranmaktır. Örneğin öğretmen sınıfta yokken de sessiz çalışırız. Nazik sözler kullanır, sorumluluklarımızı zamanında yerine getiririz. Sevgi ve saygıyla davrandığımız kişiler de bize aynı şekilde davranır. Değerlerimizi sadece söylemekle kalmaz, davranışlarımızla gösteririz. Böylece güvenilir bir arkadaş oluruz.",
+     "points": [
+      "Öz denetim: Kimse görmese de doğruyu yapmak.",
+      "Sorumluluk: Görevini zamanında yapmak."
+     ]
+    },
+    {
+     "title": "Olayları Oluş Sırasına Göre Anlatma",
+     "text": "Bir olayı anlatırken önce olanı başa, sonra olanı sona koyarız. Buna oluş sırası denir. “İlk önce, ardından, daha sonra, en sonunda” gibi sözcükler sırayı gösterir. Konuşurken vurgu ve tonlamaya dikkat ederiz; önemli sözcüğü biraz daha güçlü söyleriz, soru sorarken sesimizi yükseltiriz. Böylece dinleyen bizi daha iyi anlar. Olayları sıraya koymak hikâyeyi anlamamızı kolaylaştırır.",
+     "points": [
+      "İlk önce → ardından → en sonunda.",
+      "Vurgu ve tonlama anlamı güçlendirir."
+     ]
+    },
+    {
+     "title": "Defterimizi Düzenli Kullanma",
+     "text": "Yazarken sayfanın kenarından biraz boşluk bırakırız. Yeni bir paragrafa başlarken satırın başından biraz içeriden başlarız; buna paragraf başı denir. Satır sonuna sığmayan sözcüğü hecesinden bölüp kısa çizgi (-) koyarız. Bilmediğimiz bir sözcüğün anlamını önce cümleden tahmin eder, sonra sözlükten kontrol ederiz. Eksik bırakılan cümleleri ya da yarım kalan bir metni bildiklerimizi kullanarak tamamlarız. Basit yönergeler yazarken her adımı ayrı bir cümleyle anlatırız.",
+     "points": [
+      "Paragraf başı içeriden başlar.",
+      "Sözcük satır sonunda heceden bölünür.",
+      "Anlamı önce cümleden tahmin ederiz."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Değer",
+     "meaning": "Doğru ve güzel bulduğumuz, davranışımızı yönlendiren düşünce."
+    },
+    {
+     "term": "Öz denetim",
+     "meaning": "Kimse görmese de kendini kontrol edip doğru davranmak."
+    },
+    {
+     "term": "Sorumluluk alma",
+     "meaning": "Bir görevi üstlenip yerine getirmek."
+    },
+    {
+     "term": "Azim",
+     "meaning": "Zorluklara rağmen vazgeçmemek."
+    },
+    {
+     "term": "Nezaket",
+     "meaning": "Kibar ve saygılı davranmak."
+    },
+    {
+     "term": "Paragraf",
+     "meaning": "Bir düşünceyi anlatan cümleler topluluğu."
+    }
+   ],
+   "example": {
+    "question": "“kelebek” sözcüğü satır sonuna sığmadı. Nasıl böleriz?",
+    "solution": "1. Sözcüğü hecelerine ayırırız: ke-le-bek. 2. Bölmeyi hece arasından yaparız. 3. Satır sonuna “ke-” ya da “kele-” yazıp kısa çizgi koyarız, kalan kısmı alt satıra yazarız: “kele-” / “bek”."
+   },
+   "remember": [
+    "Değerler doğru davranmamıza yol gösterir.",
+    "Olayları oluş sırasına göre anlatırız.",
+    "Paragrafa satır başından içeride başlarız.",
+    "Sözcükler satır sonunda hecelerinden bölünür."
+   ]
+  },
+  {
+   "grade": 2,
+   "order": 2,
+   "intro": "Bu temada Atatürk’ün çocuklara verdiği değeri ve kahramanlarımızı öğreniyoruz. Cumhuriyetimiz ve İstiklâl Marşı’mız bağımsızlığımızın simgesidir. Zıt anlamlı sözcükleri ve neden-sonuç ilişkisini de öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Atatürk ve Çocuklar",
+     "text": "Atatürk çocukları çok severdi. Çocukların geleceğimiz olduğuna inanırdı. 23 Nisan 1920’de Türkiye Büyük Millet Meclisi açıldı. Atatürk bu günü çocuklara bayram olarak armağan etti. 29 Ekim 1923’te Cumhuriyet ilan edildi. İstiklâl Marşı’mızı Mehmet Âkif Ersoy yazdı. İstiklâl Marşı okunurken hazır olda durur, saygıyla dinleriz. Atatürk, gençlere ve çocuklara güvenirdi. Onun izinden giderek çok çalışırız.",
+     "points": [
+      "23 Nisan: Ulusal Egemenlik ve Çocuk Bayramı.",
+      "29 Ekim: Cumhuriyet Bayramı.",
+      "İstiklâl Marşı’nın şairi Mehmet Âkif Ersoy’dur."
+     ]
+    },
+    {
+     "title": "Zıt Anlamlı Sözcükler",
+     "text": "Anlamca birbirinin tersi olan sözcüklere zıt anlamlı sözcükler denir. Örneğin büyük-küçük, sıcak-soğuk, cesur-korkak, uzun-kısa, açık-kapalı. Zıt anlamlı sözcükler anlatımı daha açık ve renkli yapar. Okuduğumuz metinde bu sözcükleri bulup yazılarımızda kullanabiliriz. Zıt anlamlı sözcükleri bir cümlede birlikte kullanabiliriz: “Yaz günleri uzun, kış günleri kısadır.” Bu cümle iki mevsimi karşılaştırmamızı sağlar. Konuşurken de zıt anlamlı sözcüklerden yararlanırız.",
+     "points": [
+      "büyük ↔ küçük",
+      "erken ↔ geç",
+      "sevinçli ↔ üzgün"
+     ]
+    },
+    {
+     "title": "Neden ve Sonuç",
+     "text": "Bir olayın olmasına yol açan şeye neden, ortaya çıkan duruma sonuç denir. “Yağmur yağdığı için yerler ıslandı.” cümlesinde yağmurun yağması neden, yerlerin ıslanması sonuçtur. “Çünkü, için, bu yüzden” sözcükleri neden-sonuç ilişkisini gösterir. Özel adları büyük harfle yazar, onlara gelen ekleri kesme işaretiyle ayırırız: Ankara’da, Atatürk’ü. Metinlerde örnek vermek de anlatımı güçlendirir.",
+     "points": [
+      "Neden: Neden oldu?",
+      "Sonuç: Ne oldu?"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Cumhuriyet",
+     "meaning": "Milletin kendi yöneticilerini seçtiği yönetim biçimi."
+    },
+    {
+     "term": "İstiklâl Marşı",
+     "meaning": "Millî marşımız; bağımsızlığımızın simgesi."
+    },
+    {
+     "term": "Millî egemenlik",
+     "meaning": "Yönetme gücünün millete ait olması."
+    },
+    {
+     "term": "Kahramanlık",
+     "meaning": "Cesaretle büyük ve iyi işler yapmak."
+    },
+    {
+     "term": "Zıt anlamlı sözcük",
+     "meaning": "Anlamca birbirinin tersi olan sözcük."
+    },
+    {
+     "term": "Neden-sonuç",
+     "meaning": "Bir olayın sebebi ile ortaya çıkan durum arasındaki bağ."
+    }
+   ],
+   "example": {
+    "question": "“Ders çalıştığı için sınavı iyi geçti.” cümlesinde neden ve sonuç nedir?",
+    "solution": "1. “için” sözcüğü neden-sonuç ilişkisini gösterir. 2. Neden: ders çalışması. 3. Sonuç: sınavı iyi geçmesi."
+   },
+   "remember": [
+    "Atatürk 23 Nisan’ı çocuklara armağan etti.",
+    "Cumhuriyet 29 Ekim 1923’te ilan edildi.",
+    "Zıt anlamlı sözcükler anlamca birbirinin tersidir.",
+    "“çünkü, için, bu yüzden” neden-sonuç bildirir."
+   ]
+  },
+  {
+   "grade": 2,
+   "order": 3,
+   "intro": "Bu temada doğada olup bitenleri gözlemliyoruz. Ormanlar, hayvanlar ve iklim hepimizin ortak geleceğidir. Varlıkları özelliklerine göre gruplamayı ve benzetme yapmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Doğayı Sevmek",
+     "text": "Ormanlar bize temiz hava verir ve pek çok hayvana yuva olur. Ormanda ateş yakmamalı, çöp bırakmamalıyız. Sokak hayvanlarına su ve mama bırakarak onlara iyilik yaparız. Suyu ve kâğıdı tasarruflu kullanırsak doğayı korumuş oluruz. Dünyanın havası yavaş yavaş ısınıyor; buna iklim değişikliği denir. Doğayı korumak bu değişikliği yavaşlatmaya yardım eder. Doğayı korumak hepimizin görevidir.",
+     "points": [
+      "Ormanları yangından koruruz.",
+      "Hayvanlara şefkat gösteririz.",
+      "Kâğıdın iki yüzünü de kullanırız."
+     ]
+    },
+    {
+     "title": "Sınıflandırma",
+     "text": "Varlıkları ortak özelliklerine göre gruplara ayırmaya sınıflandırma denir. Örneğin hayvanları uçanlar, yüzenler ve yürüyenler diye gruplayabiliriz. Meyveleri renklerine göre ayırabiliriz. Sınıflandırma bilgiyi düzenli hâle getirir ve kolay hatırlamamızı sağlar. Okuduğumuz metindeki kişi ve nesneleri de böyle gruplayabiliriz. Okulda da sınıflandırma yaparız: Kitaplarımızı derslerine göre, renkli kalemlerimizi renklerine göre ayırırız. Böylece aradığımızı kolayca buluruz.",
+     "points": [
+      "Önce ortak özelliği buluruz.",
+      "Sonra varlıkları gruplara ayırırız."
+     ]
+    },
+    {
+     "title": "Benzetme ve Soru Eki",
+     "text": "Bir şeyi daha güçlü anlatmak için başka bir şeye benzetiriz: “Kar, pamuk gibi bembeyazdı.” Benzetmede genellikle “gibi” sözcüğü kullanılır. Bir düşünceyi birden çok cümleyle açıkça anlatırız. Soru eki “mı, mi, mu, mü” her zaman ayrı yazılır: “Orman güzel mi?” Okuduğumuz metindeki düşüncelere katılıp katılmadığımızı da söyleriz. Bilmediğimiz bir sözcüğün anlamını önce cümleden tahmin ederiz, sonra sözlükten kontrol ederiz.",
+     "points": [
+      "Benzetme: “… gibi”",
+      "Soru eki ayrı yazılır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Doğa",
+     "meaning": "İnsan eli değmeden var olan her şey: dağlar, ormanlar, denizler, canlılar."
+    },
+    {
+     "term": "Orman",
+     "meaning": "Ağaçlarla kaplı geniş alan."
+    },
+    {
+     "term": "İklim",
+     "meaning": "Bir yerin uzun yıllar boyunca görülen hava durumu."
+    },
+    {
+     "term": "Tasarruf",
+     "meaning": "Bir şeyi boşa harcamadan kullanmak."
+    },
+    {
+     "term": "Sınıflandırma",
+     "meaning": "Varlıkları ortak özelliklerine göre gruplara ayırmak."
+    },
+    {
+     "term": "Benzetme",
+     "meaning": "Bir şeyi başka bir şeye benzeterek anlatmak."
+    }
+   ],
+   "example": {
+    "question": "Bu hayvanları “uçanlar” ve “yüzenler” diye sınıflandıralım: kartal, balık, serçe, yunus, kumru, ahtapot.",
+    "solution": "1. Her hayvanın nasıl hareket ettiğini düşünürüz. 2. Uçanlar: kartal, serçe, kumru. 3. Yüzenler: balık, yunus, ahtapot."
+   },
+   "remember": [
+    "Ormanlar temiz havamızın kaynağıdır.",
+    "Sınıflandırırken ortak özelliği buluruz.",
+    "Benzetmede genellikle “gibi” kullanılır.",
+    "Soru eki ayrı yazılır."
+   ]
+  },
+  {
+   "grade": 2,
+   "order": 4,
+   "intro": "Bu temada okuma serüvenimize çıkıyoruz. Okumayı seven çocuk dilini de güzel kullanır. Okuma ortamını hazırlamayı, beden dilini ve kısaltmaları öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Okuma Alışkanlığı",
+     "text": "Her gün düzenli olarak okumak okuma alışkanlığı kazandırır. Okumak için aydınlık, sessiz ve rahat bir yer seçeriz. Televizyonun açık olduğu bir ortamda dikkatimiz dağılır. Okumadan önce başlığa ve resimlere bakıp tahmin yaparız. Okurken metindeki yazılarla resimler arasındaki ilişkiyi fark ederiz. Okudukça dilimizi daha çok sever ve daha güzel konuşuruz. Okumak bizi mutlu eder.",
+     "points": [
+      "Aydınlık ve sessiz bir yerde okuruz.",
+      "Her gün biraz okuruz."
+     ]
+    },
+    {
+     "title": "Beden Dili",
+     "text": "Konuşurken sadece sözcüklerle değil, yüzümüzle ve ellerimizle de anlatırız. Gülümsemek, kaşlarımızı kaldırmak mimiktir. Ellerimizi ve kollarımızı hareket ettirmek jesttir. Bunların hepsine beden dili denir. Günlük bir olayı anlatırken uygun jest ve mimikler kullanırsak dinleyenler bizi daha iyi anlar. Ama çok fazla el kol hareketi dinleyenin dikkatini dağıtabilir. Beden dilini anlattığımız şeye uygun ve ölçülü kullanırız. Ayna karşısında konuşarak beden dilimizi geliştirebiliriz.",
+     "points": [
+      "Mimik: Yüz hareketleri.",
+      "Jest: El ve kol hareketleri."
+     ]
+    },
+    {
+     "title": "Kısaltmalar",
+     "text": "Bazı uzun sözcük ve adları kısaltarak yazarız. Bunlara kısaltma denir. Kurum adları genellikle büyük harflerle kısaltılır: TBMM (Türkiye Büyük Millet Meclisi), TDK (Türk Dil Kurumu). Ölçü birimleri küçük harfle ve noktasız yazılır: cm (santimetre), kg (kilogram), m (metre). Yazdıktan sonra hatalarımızı bulup düzeltiriz. Kısaltmalar yazıda yer kazandırır ama okuyan kişi anlamını bilmeli.",
+     "points": [
+      "TBMM, TDK büyük harfle yazılır.",
+      "cm, kg, m küçük harfle ve noktasız yazılır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Okuma alışkanlığı",
+     "meaning": "Düzenli olarak her gün okumak."
+    },
+    {
+     "term": "Okuma sevgisi",
+     "meaning": "Okumaktan zevk almak."
+    },
+    {
+     "term": "Dil sevgisi",
+     "meaning": "Türkçemizi sevip doğru ve güzel kullanmak."
+    },
+    {
+     "term": "Jest",
+     "meaning": "Konuşurken yapılan el ve kol hareketleri."
+    },
+    {
+     "term": "Mimik",
+     "meaning": "Konuşurken yapılan yüz hareketleri."
+    },
+    {
+     "term": "Kısaltma",
+     "meaning": "Uzun bir sözcüğün ya da adın kısa yazılışı."
+    }
+   ],
+   "example": {
+    "question": "Kısaltmaları yazalım: “Türkiye Büyük Millet Meclisi”, “kilogram”, “santimetre”.",
+    "solution": "1. Kurum adının baş harflerini büyük yazarız: TBMM. 2. Ölçü birimleri küçük harfle yazılır: kilogram → kg. 3. santimetre → cm."
+   },
+   "remember": [
+    "Her gün okumak okuma alışkanlığı kazandırır.",
+    "Aydınlık ve sessiz bir yerde okuruz.",
+    "Jest ve mimikler konuşmamızı destekler.",
+    "Kurum adları büyük, ölçü birimleri küçük harfle kısaltılır."
+   ]
+  },
+  {
+   "grade": 2,
+   "order": 5,
+   "intro": "Bu temada yeteneklerimizi tanıyor ve geliştiriyoruz. Oyun, sanat ve hayal gücü bizi mutlu eder. Konuşma planı hazırlamayı ve mektup yazmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Yeteneklerimizi Tanıyalım",
+     "text": "Yetenek, bir işi kolayca ve iyi yapabilmektir. Resim, müzik, spor, el işi ya da hikâye yazmak bir yetenek olabilir. Yeteneğimizi bulmak için farklı etkinlikleri deneriz. Çalıştıkça yeteneğimiz gelişir. Saklambaç, seksek gibi geleneksel oyunlar ve dijital oyunlar eğlencelidir; ama dijital oyunlara ayırdığımız süreyi sınırlarız. Bir arkadaşımızın yeteneği bizimkinden farklı olabilir. Bu farklılıklar sınıfımızı daha renkli yapar. Birbirimizden yeni şeyler öğreniriz.",
+     "points": [
+      "Farklı etkinlikler deneriz.",
+      "Çalıştıkça gelişiriz."
+     ]
+    },
+    {
+     "title": "Konuşma Planı",
+     "text": "Bir konuyu anlatmadan önce kısa bir plan yaparız. Planda neyi önce, neyi sonra anlatacağımızı yazarız: Giriş bölümünde konuyu tanıtırız, gelişme bölümünde ayrıntıları anlatırız, sonuç bölümünde konuşmayı toparlarız. Konuşurken dinleyenlere bakar, sesimizi ve hızımızı ayarlarız. Farklı metinleri karşılaştırıp benzer ve farklı yönlerini de bulabiliriz. Plan yapmak konuşurken konuyu unutmamamızı sağlar. Plan, konuşmamızı düzenli yapar.",
+     "points": [
+      "Giriş: Konuyu tanıt.",
+      "Gelişme: Ayrıntıları anlat.",
+      "Sonuç: Konuşmayı bitir."
+     ]
+    },
+    {
+     "title": "Mektup Yazma",
+     "text": "Mektup, uzaktaki birine duygu ve düşüncelerimizi yazdığımız metindir. Mektubun sağ üst köşesine tarih yazılır. Sonra hitap gelir: “Sevgili Dedeciğim,”. Ardından anlatmak istediklerimizi yazarız. Mektubu “Sevgiyle kal.”, “Gözlerinden öperim.” gibi bir sözle bitiririz ve altına adımızı yazarız. Mektubu zarfa koyup üzerine alıcının adını ve adresini yazarız. Bugün e-posta ve kısa iletilerle de yazışıyoruz. Bunlarda da selamlaşma ve kapanış ifadelerini kullanırız.",
+     "points": [
+      "Tarih → hitap → konu → kapanış → ad."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Yetenek",
+     "meaning": "Bir işi kolayca ve iyi yapabilme gücü."
+    },
+    {
+     "term": "Hayal",
+     "meaning": "Zihinde canlandırılan düşünce."
+    },
+    {
+     "term": "Geleneksel sanatlar",
+     "meaning": "Ebru, çini, hat gibi atalarımızdan kalan sanatlar."
+    },
+    {
+     "term": "Eğlence",
+     "meaning": "İnsanı neşelendiren etkinlik."
+    },
+    {
+     "term": "Konuşma planı",
+     "meaning": "Konuşmadan önce neyi hangi sırayla anlatacağımızı belirlemek."
+    },
+    {
+     "term": "Mektup",
+     "meaning": "Birine duygu ve düşüncelerini anlatmak için yazılan metin."
+    }
+   ],
+   "example": {
+    "question": "Teyzene kısa bir mektup yazacaksın. Mektubun bölümlerini sırasıyla yaz.",
+    "solution": "1. Sağ üst köşe: Tarih (örneğin 10.03.2025). 2. Hitap: “Sevgili Teyzeciğim,” 3. Konu: “Okulda resim yarışmasına katıldım…” 4. Kapanış: “Seni çok seviyorum.” 5. Ad: “Yeğenin Zeynep”."
+   },
+   "remember": [
+    "Herkesin bir yeteneği vardır.",
+    "Konuşmadan önce plan yaparız.",
+    "Mektup hitapla başlar, kapanış sözüyle biter.",
+    "Dijital oyun süremizi sınırlarız."
+   ]
+  },
+  {
+   "grade": 2,
+   "order": 6,
+   "intro": "Bu temada küçük bir mucit gibi düşünüyoruz. Merak eden, soru soran ve deneyen çocuklar yeni şeyler bulur. Cümleleri bağlayan sözcükleri ve karşılaştırmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Mucit Olmak",
+     "text": "Mucit, daha önce olmayan bir şeyi icat eden kişidir. Mucitler bir sorunu fark eder ve ona çözüm arar. Önce merak eder, sonra araştırır, sonra dener. İlk denemede olmazsa vazgeçmez, yeniden dener. Teknoloji, mucitlerin buluşlarıyla gelişir. Yapay zekâ gibi yeni teknolojileri de büyüklerimizin rehberliğinde güvenle kullanırız. Mucitler hayal güçlerini kullanır. Hayal kurmak buluşların ilk adımıdır.",
+     "points": [
+      "Sorunu fark et.",
+      "Çözüm düşün.",
+      "Dene, olmazsa yeniden dene."
+     ]
+    },
+    {
+     "title": "Bağlama Ögeleri",
+     "text": "Sözcükleri ve cümleleri birbirine bağlayan sözcüklere bağlama ögeleri denir. “ve, ile” iki şeyi birleştirir: “Kalem ve silgi aldım.” “ama, fakat” bir karşıtlık gösterir: “Yorgundu ama çalışmaya devam etti.” “çünkü” bir nedeni gösterir: “Erken yattım çünkü yorgundum.” Bu sözcükler cümlelerimizi daha akıcı yapar. Ama bağlama ögelerini gereğinden fazla kullanırsak cümle uzar ve anlaşılmaz olur.",
+     "points": [
+      "ve, ile: birleştirir.",
+      "ama, fakat: karşıtlık bildirir.",
+      "çünkü: neden bildirir."
+     ]
+    },
+    {
+     "title": "Karşılaştırma",
+     "text": "İki varlığın benzer ve farklı yönlerini bulmaya karşılaştırma denir. Örneğin bisiklet ve otomobil: İkisi de taşıttır, ikisinin de tekerleği vardır. Ama bisiklet pedalla, otomobil motorla çalışır. Karşılaştırma yaparken zıt anlamlı sözcüklerden yararlanabiliriz: hızlı-yavaş, büyük-küçük. Karşılaştırma yaparken önce benzer yönleri, sonra farklı yönleri yazarız. Kişileri de karşılaştırabiliriz: İkiz kardeşler birbirine benzer ama biri resim yapmayı, diğeri şarkı söylemeyi sever. Karşılaştırma iki şeyi daha iyi tanımamızı sağlar.",
+     "points": [
+      "Benzer yön: Ortak olan özellik.",
+      "Farklı yön: Ayıran özellik."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Mucit",
+     "meaning": "Yeni bir şey icat eden kişi."
+    },
+    {
+     "term": "Keşif",
+     "meaning": "Var olan ama bilinmeyen bir şeyi bulmak."
+    },
+    {
+     "term": "Merak",
+     "meaning": "Öğrenme isteği."
+    },
+    {
+     "term": "Sorgulama",
+     "meaning": "Bir şeyin nedenini ve nasılını sormak."
+    },
+    {
+     "term": "Teknoloji",
+     "meaning": "İşimizi kolaylaştıran araçlar ve yöntemler."
+    },
+    {
+     "term": "Bağlama ögesi",
+     "meaning": "Sözcük ve cümleleri bağlayan sözcük: ve, ama, çünkü."
+    }
+   ],
+   "example": {
+    "question": "Boşluğa uygun bağlama ögesini yazalım: “Deneyi yaptık … sonuç çıkmadı.” / “Erken kalktım … okul gezisi vardı.”",
+    "solution": "1. Birinci cümlede karşıt bir durum var: “Deneyi yaptık ama sonuç çıkmadı.” 2. İkinci cümlede bir neden var: “Erken kalktım çünkü okul gezisi vardı.”"
+   },
+   "remember": [
+    "Mucitler vazgeçmeden dener.",
+    "“ve, ile” birleştirir; “ama” karşıtlık bildirir.",
+    "“çünkü” neden bildirir.",
+    "Karşılaştırmada benzer ve farklı yönleri buluruz."
+   ]
+  },
+  {
+   "grade": 2,
+   "order": 7,
+   "intro": "Bu temada kültür hazinemizi keşfediyoruz. Bayramlarımız, geleneklerimiz ve tarihî yerlerimiz bizi biz yapar. Bir görüşe katılıp katılmadığımızı nedenleriyle söylemeyi öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Kültür Hazinemiz",
+     "text": "Kültür, bir milletin dili, gelenekleri, sanatı ve yaşayışıdır. Millî bayramlarımız 23 Nisan, 19 Mayıs, 30 Ağustos ve 29 Ekim’dir. Ramazan ve Kurban Bayramı dinî bayramlarımızdır. Bayramlarda büyüklerimizi ziyaret eder, el öperiz. Camiler, köprüler, hanlar ve kaleler tarihî eserlerimizdir. Türkçe de kültürümüzün en önemli parçasıdır. Bu hazineyi korumak ve tanıtmak bizim görevimizdir.",
+     "points": [
+      "Millî bayramlar: 23 Nisan, 19 Mayıs, 30 Ağustos, 29 Ekim.",
+      "Dinî bayramlar: Ramazan Bayramı, Kurban Bayramı."
+     ]
+    },
+    {
+     "title": "Görüş Bildirme",
+     "text": "Bir düşünceye katılıyorsak ya da katılmıyorsak bunu nedeniyle söyleriz. “Bence …, çünkü …” kalıbını kullanabiliriz. Örneğin: “Bence bayramlarda büyükleri ziyaret etmek önemlidir, çünkü onları mutlu eder.” Başkasının düşüncesine katılmasak bile saygılı konuşuruz. Konuşmanın konusuna göre üslubumuzu seçeriz. Görüşümüzü söylerken sesimizi yükseltmeyiz. Dinleyenlerle göz teması kurarız. Bir konuyu ciddi bir dille, bir oyunu ise neşeli bir dille anlatırız.",
+     "points": [
+      "Görüş + çünkü + neden.",
+      "Farklı düşünceye saygı gösteririz."
+     ]
+    },
+    {
+     "title": "Benzetmeyle Güzel Anlatım",
+     "text": "Konuşmalarımızda benzetme kullanmak anlatımı süsler. “Bayram sabahı ev, arı kovanı gibi kalabalıktı.” Bu cümlede kalabalık ev arı kovanına benzetilmiştir. Okurken yaptığımız hataları fark eder, bir dahaki okumamızda dikkat ederiz. Benzetme yaparken iki şey arasında ortak bir özellik olmalıdır. Kalabalık ev ile arı kovanının ortak özelliği hareketli ve kalabalık olmasıdır. Kendi benzetmelerimizi de yapabiliriz: “Ağaçların yaprakları altın gibi parlıyordu.”",
+     "points": []
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Kültürel miras",
+     "meaning": "Geçmişten bize kalan dil, gelenek ve eserler."
+    },
+    {
+     "term": "Millî bayram",
+     "meaning": "Milletçe kutlanan, tarihimizdeki önemli günler."
+    },
+    {
+     "term": "Dinî bayram",
+     "meaning": "Dinimizle ilgili kutlanan bayramlar."
+    },
+    {
+     "term": "Tarihî mekân",
+     "meaning": "Geçmişten kalan eski yapı ve yerler."
+    },
+    {
+     "term": "Vatan",
+     "meaning": "Üzerinde yaşadığımız ve sevdiğimiz ülke."
+    },
+    {
+     "term": "Görüş",
+     "meaning": "Bir konu hakkındaki düşünce."
+    }
+   ],
+   "example": {
+    "question": "“Tarihî yapılara zarar verilmemelidir.” görüşüne katılıyor musun? Nedeniyle yaz.",
+    "solution": "1. Önce katılıp katılmadığımızı söyleriz: “Bu görüşe katılıyorum.” 2. Sonra nedenini ekleriz: “Çünkü tarihî yapılar atalarımızdan kalan mirastır ve gelecek nesillerin de onları görmesi gerekir.”"
+   },
+   "remember": [
+    "Kültürümüz dilimiz, geleneklerimiz ve eserlerimizdir.",
+    "Görüşümüzü nedeniyle söyleriz.",
+    "Farklı düşüncelere saygı gösteririz.",
+    "Benzetme anlatımı güzelleştirir."
+   ]
+  },
+  {
+   "grade": 2,
+   "order": 8,
+   "intro": "Bu temada çocuk haklarını öğreniyoruz. Haklarımızı bilmek, başkalarının haklarına saygı göstermeyi de öğretir. Tebrik kartı, mektup ve kısa ileti yazmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Çocuk Hakları",
+     "text": "Dünyadaki bütün çocukların hakları vardır. Eğitim hakkı, sağlık hakkı, oyun oynama hakkı ve korunma hakkı bunlardan bazılarıdır. Bütün çocuklar eşittir; kimse dili, rengi ya da zenginliği yüzünden farklı görülmez. Hak kullanırken başkalarının hakkına da saygı gösteririz. Bedenimiz ve özel eşyalarımız bize aittir; buna mahremiyet denir. Bu haklar ailemiz, okulumuz ve devletimiz tarafından korunur.",
+     "points": [
+      "Eğitim, sağlık, oyun ve korunma hakkı.",
+      "Bütün çocuklar eşittir."
+     ]
+    },
+    {
+     "title": "Yazma Planı",
+     "text": "Yazmaya başlamadan önce bir plan yaparız. Kime yazacağız? Ne anlatacağız? Hangi sırayla anlatacağız? Bu soruların cevabını kısaca not alırız. Sonra planımıza uygun yazarız. Yazımızı resimlerle süsleyip arkadaşlarımıza sunabiliriz. Plan yapmadan yazarsak bazı düşünceleri unutabiliriz ya da karışık yazabiliriz. Planımızda giriş, gelişme ve sonuç bölümlerini belirleriz. Okuyacak kişiye uygun sözcükler seçeriz. Plan, yazımızı daha düzenli yapar.",
+     "points": [
+      "Kime? Ne? Hangi sırayla?"
+     ]
+    },
+    {
+     "title": "Tebrik Kartı, Mektup ve Kısa İleti",
+     "text": "Tebrik kartı, bir başarıyı ya da özel bir günü kutlamak için yazılır: “Doğum günün kutlu olsun!” Mektup daha uzundur; tarih, hitap, konu ve kapanış bölümleri vardır. Kısa ileti (mesaj) telefonla gönderilir; kısa ve açık olmalıdır. Hepsinde nazik bir dil kullanırız ve isteklerimizi “lütfen” diyerek yazarız. Ne yazarsak yazalım okuyanı düşünürüz.",
+     "points": [
+      "Tebrik kartı: kutlama.",
+      "Mektup: uzun anlatım.",
+      "İleti: kısa ve açık."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Çocuk hakları",
+     "meaning": "Her çocuğun sahip olduğu temel haklar."
+    },
+    {
+     "term": "Eşitlik",
+     "meaning": "Herkesin aynı haklara sahip olması."
+    },
+    {
+     "term": "Demokrasi",
+     "meaning": "Herkesin söz hakkı olduğu, birlikte karar verilen düzen."
+    },
+    {
+     "term": "Sorumluluk",
+     "meaning": "Yerine getirmemiz gereken görev."
+    },
+    {
+     "term": "Mahremiyet",
+     "meaning": "Bedenimizin ve özel hayatımızın korunması."
+    },
+    {
+     "term": "Tebrik kartı",
+     "meaning": "Birini kutlamak için yazılan kısa kart."
+    }
+   ],
+   "example": {
+    "question": "Okul müdürüne, okul bahçesine bank konmasını isteyen kısa bir ileti yaz.",
+    "solution": "1. Hitapla başlarız: “Sayın Müdürüm,” 2. İsteğimizi nazikçe yazarız: “Teneffüslerde oturacak yer bulamıyoruz. Lütfen bahçeye birkaç bank konabilir mi?” 3. Kapanış ve ad: “Teşekkür ederim. 2-B sınıfından Mert.”"
+   },
+   "remember": [
+    "Bütün çocukların hakları eşittir.",
+    "Hakkımızı kullanırken başkasının hakkına saygı gösteririz.",
+    "Yazmadan önce plan yaparız.",
+    "İsteklerimizi nazik bir dille yazarız."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 1,
+   "intro": "Bu temada değerlerimizle nasıl yaşadığımızı düşünüyoruz. Adalet, dürüstlük ve merhamet hem ailemizde hem okulumuzda yol göstericimizdir. Bir metnin konusunu, ana fikrini ve ana duygusunu bulmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Değerlerle Yaşamak",
+     "text": "Değerler her gün yaptığımız seçimlerde ortaya çıkar. Arkadaşımıza haksızlık yapılınca karşı çıkmak adalettir. Yaptığımız hatayı kabul etmek dürüstlüktür. Zor durumdaki birine yardım etmek merhamet ve yardımseverliktir. Başarılı olunca övünmemek mütevazılıktır. Temiz ve düzenli olmak, sağlıklı beslenmek de kendimize karşı sorumluluğumuzdur. Bir değeri bilmek yetmez; onu her gün uygulamak gerekir. Değerlerle yaşayan kişi çevresine örnek olur.",
+     "points": [
+      "Adalet: Herkese hakkını vermek.",
+      "Mütevazılık: Alçakgönüllü olmak.",
+      "Merhamet: Başkalarının acısını hissetmek."
+     ]
+    },
+    {
+     "title": "Konu, Ana Fikir ve Ana Duygu",
+     "text": "Konu, metnin neyi anlattığıdır. “Bu metin ne hakkında?” sorusunun cevabıdır. Ana fikir, yazarın metinle bize vermek istediği asıl mesajdır. “Yazar bize ne öğütlüyor?” diye sorarak buluruz. Ana fikir genellikle bir cümleyle söylenir. Şiirlerde ve bazı metinlerde ana fikir yerine ana duygu öne çıkar: sevgi, özlem, hüzün, sevinç gibi. Ana fikir bazen metnin başında, bazen sonunda yer alır.",
+     "points": [
+      "Konu: Ne anlatılıyor?",
+      "Ana fikir: Bize hangi mesaj veriliyor?",
+      "Ana duygu: Hangi duygu öne çıkıyor?"
+     ]
+    },
+    {
+     "title": "Büyük Harf ve Noktalama",
+     "text": "Cümleye, özel adlara (kişi, şehir, ülke adları), gün ve ay adlarına tarih belirtiyorsa büyük harfle başlarız: “15 Mayıs 2024 Çarşamba”. Cümle sonunda nokta, soru işareti ya da ünlem kullanırız. Sayılarda ve sıralamalarda virgülü doğru yerde kullanırız. Konuşurken nezaket ifadelerine, ses düzeyine ve göz temasına dikkat ederiz. Dinlediğimiz bir konuşmanın nasıl biteceğini tahmin etmek de dikkatimizi artırır.",
+     "points": [
+      "Özel adlar büyük harfle başlar.",
+      "Belli bir tarih bildiren ay ve gün adları büyük harfle yazılır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Adalet",
+     "meaning": "Herkese hakkı olanı vermek."
+    },
+    {
+     "term": "Dürüstlük",
+     "meaning": "Doğruyu söylemek ve doğru davranmak."
+    },
+    {
+     "term": "Merhamet",
+     "meaning": "Başkalarının acısını paylaşıp yardım etme isteği."
+    },
+    {
+     "term": "Mütevazılık",
+     "meaning": "Alçakgönüllülük, kendini başkalarından üstün görmemek."
+    },
+    {
+     "term": "Konu",
+     "meaning": "Metnin ne hakkında olduğu."
+    },
+    {
+     "term": "Ana fikir",
+     "meaning": "Metinde verilmek istenen asıl mesaj."
+    },
+    {
+     "term": "Ana duygu",
+     "meaning": "Metinde öne çıkan duygu."
+    }
+   ],
+   "example": {
+    "question": "“Selin yolda bir cüzdan buldu. İçinde çok para vardı. Cüzdanı hemen polise teslim etti. Cüzdanın sahibi çok sevindi.” Bu metnin konusu ve ana fikri nedir?",
+    "solution": "1. Konu: Selin’in bulduğu cüzdanı polise teslim etmesi. 2. Yazarın mesajını düşünürüz: Selin parayı almadı, doğru olanı yaptı. 3. Ana fikir: Dürüst olmak insanları mutlu eder; bulduğumuz eşyayı sahibine ulaştırmalıyız."
+   },
+   "remember": [
+    "Konu “ne anlatılıyor?”, ana fikir “ne öğütleniyor?” sorusunun cevabıdır.",
+    "Şiirlerde çoğunlukla ana duygu aranır.",
+    "Özel adlar büyük harfle başlar.",
+    "Değerler günlük davranışlarımızda görünür."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 2,
+   "intro": "Bu temada Atatürk’ü ve vatanımız için savaşan kahramanlarımızı tanıyoruz. Çanakkale’de, Sarıkamış’ta ve Kut’ül Amare’de büyük fedakârlıklar yapıldı. Eş ve zıt anlamlı sözcükleri, kısaltmalara gelen ekleri öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Kahramanlarımız",
+     "text": "Birinci Dünya Savaşı yıllarında askerlerimiz vatan için büyük fedakârlıklar yaptı. Sarıkamış Harekâtı ağır kış şartlarında yapıldı ve pek çok askerimiz soğuktan şehit oldu. Çanakkale’de düşman donanması 18 Mart 1915’te geçemedi. Kara savaşlarında Mustafa Kemal’in önderliğinde düşman durduruldu. Kut’ül Amare’de de askerlerimiz önemli bir zafer kazandı. Daha sonra Atatürk’ün önderliğinde Millî Mücadele kazanıldı ve Cumhuriyet kuruldu.",
+     "points": [
+      "18 Mart Çanakkale Zaferi’ni her yıl anarız.",
+      "Şehit ve gazilerimiz vatanımızın kahramanlarıdır."
+     ]
+    },
+    {
+     "title": "Eş ve Zıt Anlamlı Sözcükler",
+     "text": "Yazılışları farklı, anlamları aynı ya da çok yakın olan sözcüklere eş anlamlı sözcükler denir: kahraman-yiğit, vatan-yurt, cevap-yanıt, okul-mektep. Anlamca birbirinin karşıtı olan sözcüklere zıt anlamlı sözcükler denir: savaş-barış, zafer-yenilgi, cesur-korkak. Eş anlamlı sözcükler aynı sözcüğü tekrar etmemizi önler; zıt anlamlılar karşılaştırma yapmamızı kolaylaştırır. Yazılarımızda aynı sözcüğü sürekli tekrar etmek yerine eş anlamlısını kullanırız. Böylece yazımız daha akıcı olur.",
+     "points": [
+      "Eş anlam: yurt = vatan",
+      "Zıt anlam: zafer ↔ yenilgi"
+     ]
+    },
+    {
+     "title": "Kısaltmalara Gelen Ekler",
+     "text": "Kısaltmalara gelen ekler kesme işaretiyle ayrılır. Ek, kısaltmanın yazılışına göre değil okunuşuna göre seçilir. TBMM “te-be-me-me” diye okunur, son hece “me” olduğu için “TBMM’ye” yazılır. TDK “te-de-ka” diye okunur, son hece “ka” olduğu için “TDK’ya” yazılır. Yazılarımızda imzamızı adımız ve soyadımızla atarız. Ölçü birimi kısaltmaları da okunuşa göre ek alır: “5 kg’dan” (kilogramdan), “10 cm’lik” (santimetrelik). Yazımızda bu kurala dikkat ederiz.",
+     "points": [
+      "Ek okunuşa göre gelir.",
+      "Kesme işaretiyle ayrılır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Fedakârlık",
+     "meaning": "Başkaları için kendi isteğinden vazgeçmek."
+    },
+    {
+     "term": "Çanakkale Zaferi",
+     "meaning": "1915’te Çanakkale’de düşmanın durdurulmasıyla kazanılan zafer."
+    },
+    {
+     "term": "Gazilik",
+     "meaning": "Vatan için savaşıp sağ kalmak."
+    },
+    {
+     "term": "Millî irade",
+     "meaning": "Milletin ortak isteği ve kararı."
+    },
+    {
+     "term": "Eş anlamlı sözcük",
+     "meaning": "Anlamları aynı ya da çok yakın olan sözcükler."
+    },
+    {
+     "term": "Zıt anlamlı sözcük",
+     "meaning": "Anlamca birbirinin karşıtı olan sözcükler."
+    }
+   ],
+   "example": {
+    "question": "Eşleştirelim: “yurt, yiğit, barış, yanıt” sözcüklerinin eş ya da zıt anlamlısını bulalım: vatan, kahraman, savaş, cevap.",
+    "solution": "1. yurt = vatan (eş anlamlı). 2. yiğit = kahraman (eş anlamlı). 3. barış ↔ savaş (zıt anlamlı). 4. yanıt = cevap (eş anlamlı)."
+   },
+   "remember": [
+    "Kahramanlarımızı saygıyla anarız.",
+    "Eş anlamlı sözcükler aynı anlamı taşır.",
+    "Zıt anlamlı sözcükler karşıt anlam taşır.",
+    "Kısaltmalara gelen ek okunuşa göre seçilir: TDK’ya, TBMM’ye."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 3,
+   "intro": "Bu temada doğayı yakından tanıyoruz. Doğal kaynaklar sınırlıdır, onları dikkatli kullanmalıyız. Zaman ifadelerini kullanmayı ve ayrıntılı yönerge yazmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Doğal Kaynaklar ve Afetler",
+     "text": "Su, toprak, hava, ormanlar ve madenler doğal kaynaklardır. Bu kaynaklar sınırsız değildir; tasarruflu kullanmalıyız. Deprem, sel, çığ ve orman yangını doğal afetlerdendir. Afetlere karşı hazırlıklı olmak hayat kurtarır. Evimizde bir deprem çantası hazırlarız. Deprem anında “Çök, Kapan, Tutun!” hareketini yaparız. Ailemizle birlikte bir toplanma alanı belirleriz. Afet anında sakin kalmak ve büyüklerimizin uyarılarını dinlemek çok önemlidir.",
+     "points": [
+      "Su ve elektrik tasarrufu yaparız.",
+      "Deprem çantası hazırlarız.",
+      "Çök, Kapan, Tutun!"
+     ]
+    },
+    {
+     "title": "Zaman İfadeleri",
+     "text": "Bir olayın ne zaman olduğunu gösteren sözcüklere zaman ifadeleri denir: dün, bugün, yarın, sabah, akşam, önce, sonra, ilkbaharda, geçen yıl. Zaman ifadeleri olayları sıraya koymamızı sağlar. “Dün yağmur yağdı, bugün güneş açtı.” Konuşurken ve yazarken zaman ifadesini anlatılan olaya uygun seçeriz. Zaman ifadelerini karıştırırsak cümle anlamsız olur: “Yarın parka gittik.” cümlesi yanlıştır. Doğrusu: “Dün parka gittik.” ya da “Yarın parka gideceğiz.”",
+     "points": [
+      "Geçmiş: dün, geçen hafta",
+      "Şimdi: bugün, şu an",
+      "Gelecek: yarın, gelecek yıl"
+     ]
+    },
+    {
+     "title": "Yönerge ve Yazma Planı",
+     "text": "Yönerge, bir işin nasıl yapılacağını adım adım anlatan metindir. Ayrıntılı yönergede her adım sırayla ve açıkça yazılır. Adımları numaralandırabiliriz. Yazmadan önce bir plan hazırlarız: konuyu, anlatacaklarımızı ve sırasını belirleriz. Sonra planımıza uygun yazarız. Eş anlamlı sözcükler kullanarak aynı sözcüğü sık tekrar etmeyiz. Yönergeyi yazdıktan sonra bir arkadaşımıza uygulatarak eksik adım olup olmadığını kontrol edebiliriz.",
+     "points": [
+      "Adımlar sıralı olmalı.",
+      "Her adım açık ve kısa olmalı."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Doğal kaynak",
+     "meaning": "Doğada bulunan ve insanların yararlandığı su, toprak, orman gibi varlıklar."
+    },
+    {
+     "term": "Doğal miras",
+     "meaning": "Korunması gereken güzel doğal alanlar, örneğin Pamukkale travertenleri."
+    },
+    {
+     "term": "Doğa olayı",
+     "meaning": "Yağmur, kar, rüzgâr gibi doğada kendiliğinden olan olaylar."
+    },
+    {
+     "term": "Afetlere hazırlık",
+     "meaning": "Doğal afetlerden önce alınan önlemler."
+    },
+    {
+     "term": "Zaman ifadesi",
+     "meaning": "Olayın ne zaman olduğunu gösteren sözcük."
+    },
+    {
+     "term": "Yönerge",
+     "meaning": "Bir işin nasıl yapılacağını adım adım anlatan açıklama."
+    }
+   ],
+   "example": {
+    "question": "“Fidan dikme” için ayrıntılı bir yönerge yazalım.",
+    "solution": "1. Fidan için güneş alan bir yer seç. 2. Kürekle fidanın kökünden biraz büyük bir çukur kaz. 3. Fidanı çukura dik olarak yerleştir. 4. Çukuru toprakla doldur ve hafifçe bastır. 5. Fidanı bolca sula."
+   },
+   "remember": [
+    "Doğal kaynaklar sınırlıdır.",
+    "Deprem anında Çök, Kapan, Tutun!",
+    "Zaman ifadeleri olayların ne zaman olduğunu gösterir.",
+    "Yönergeler sıralı ve açık yazılır."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 4,
+   "intro": "Bu temada kitapların ve kütüphanelerin bilgi hazinesi olduğunu öğreniyoruz. Okuma hakkı her çocuğun hakkıdır. Bağlama ögelerini ve dilekçe yazmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Kütüphaneler ve Okur Kimliği",
+     "text": "Kütüphane, kitapların düzenli biçimde saklandığı ve ödünç verildiği yerdir. Kütüphanede sessiz oluruz, kitapları özenle kullanır ve zamanında geri veririz. Düzenli okuyan kişi zamanla kendi okur kimliğini kazanır; hangi tür kitapları sevdiğini bilir. Edebî şahsiyetler, eserleriyle dilimize katkı sağlamış yazar ve şairlerdir. Kütüphanede kitaplar konularına göre raflara dizilir. Görevliden yardım isteyerek aradığımız kitabı kolayca buluruz.",
+     "points": [
+      "Kütüphanede sessiz oluruz.",
+      "Ödünç kitabı zamanında iade ederiz."
+     ]
+    },
+    {
+     "title": "Bağlama Ögeleri ve Neden-Sonuç",
+     "text": "Cümleleri ve sözcükleri birbirine bağlayan sözcüklere bağlama ögeleri denir. “ve, ile” ekleme yapar; “ama, fakat” karşıtlık bildirir; “çünkü, için” neden bildirir; “bu yüzden, bu nedenle” sonuç bildirir. Örnek: “Kitabı çok sevdim çünkü macera doluydu.” Bağlama ögeleri neden-sonuç ilişkisini kurmamızı kolaylaştırır. Okuduğumuz metinde neden-sonuç ilişkilerini bulmak, olayları daha iyi anlamamızı sağlar.",
+     "points": [
+      "ve, ile: ekleme",
+      "ama, fakat: karşıtlık",
+      "çünkü: neden",
+      "bu yüzden: sonuç"
+     ]
+    },
+    {
+     "title": "Dilekçe ve Mektup",
+     "text": "İsteğimizi, şikâyetimizi ya da önerimizi resmî bir yere yazıyla iletmek için dilekçe yazarız. Dilekçede tarih sağ üstte yer alır. Dilekçenin kime yazıldığı ortaya yazılır. Ardından isteğimiz kısa ve saygılı bir dille anlatılır. Sonunda ad, soyad ve imza bulunur. Mektup ise daha samimidir. Yazdıktan sonra hatalarımızı bulup düzeltiriz. Dilekçede kısa ve açık yazmak önemlidir.",
+     "points": [
+      "Tarih → kime → istek → ad, soyad, imza."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Kütüphane",
+     "meaning": "Kitapların saklandığı ve okunmak üzere ödünç verildiği yer."
+    },
+    {
+     "term": "Okuma hakkı",
+     "meaning": "Her çocuğun kitaplara ulaşıp okuyabilme hakkı."
+    },
+    {
+     "term": "Okur kimliği",
+     "meaning": "Kişinin okuma zevki ve alışkanlıklarıyla oluşan okur yönü."
+    },
+    {
+     "term": "Edebî şahsiyet",
+     "meaning": "Eserleriyle edebiyatımıza katkı sağlayan yazar ya da şair."
+    },
+    {
+     "term": "Bağlama ögesi",
+     "meaning": "Sözcük ve cümleleri bağlayan sözcük."
+    },
+    {
+     "term": "Dilekçe",
+     "meaning": "Bir isteği resmî bir yere iletmek için yazılan yazı."
+    }
+   ],
+   "example": {
+    "question": "Cümleleri uygun bağlama ögesiyle birleştirelim: “Kütüphane kapalıydı.” + “Kitabı iade edemedim.”",
+    "solution": "1. Birinci cümle nedeni, ikinci cümle sonucu anlatıyor. 2. Sonuç bildiren “bu yüzden” kullanılabilir. 3. Cevap: “Kütüphane kapalıydı, bu yüzden kitabı iade edemedim.” Ya da: “Kitabı iade edemedim çünkü kütüphane kapalıydı.”"
+   },
+   "remember": [
+    "Kütüphaneler bilgi hazinesidir.",
+    "“çünkü” neden, “bu yüzden” sonuç bildirir.",
+    "Dilekçe saygılı ve kısa yazılır.",
+    "Dilekçe ad, soyad ve imzayla biter."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 5,
+   "intro": "Bu temada yeteneklerimizi sanatta, sporda ve oyunda nasıl kullandığımızı keşfediyoruz. Özgün olmak, kendimize ait bir şey ortaya koymaktır. Sunum yapmayı, benzetme ve örnek vermeyi öğreniyoruz.",
+   "sections": [
+    {
+     "title": "İlgi ve Yetenek",
+     "text": "İlgi, bir şeyi merak edip ondan hoşlanmaktır. Yetenek ise bir işi iyi yapabilmektir. İlgi duyduğumuz alanda çalıştıkça yeteneğimiz gelişir. Resim, müzik, tiyatro gibi sanat dalları; futbol, yüzme gibi sporlar yeteneklerimizi geliştirir. Başkasını taklit etmek yerine kendi fikrimizi ortaya koymaya özgünlük denir. Güzellik duygusuna da estetik denir. Oyun oynamak da yeteneklerimizi geliştirir.",
+     "points": [
+      "İlgi + çalışma = gelişen yetenek.",
+      "Özgün ol, kendi fikrini ortaya koy."
+     ]
+    },
+    {
+     "title": "Sunum Yapma",
+     "text": "Sunum, bir konuyu bir topluluğa planlı biçimde anlatmaktır. Önce konuşma planı hazırlarız. Dinleyicilerin yaşına ve ilgisine göre konuşuruz. Sesimizi herkesin duyacağı düzeyde tutarız. Önemli sözcükleri vurgulayarak söyleriz. Jest ve mimiklerle konuşmamızı destekleriz. Edindiğimiz bilginin kaynağını da belirtiriz: “Bu bilgiyi … kitabından öğrendim.” Sunumumuzu resim, tablo ya da dijital araçlarla da destekleyebiliriz. Sunumu dinleyicilere teşekkür ederek bitiririz.",
+     "points": [
+      "Plan hazırla.",
+      "Dinleyiciye göre konuş.",
+      "Bilginin kaynağını söyle."
+     ]
+    },
+    {
+     "title": "Benzetme ve Örneklendirme",
+     "text": "Benzetme, bir şeyi daha etkili anlatmak için başka bir şeye benzetmektir: “Koşucu, ok gibi fırladı.” Örneklendirme ise bir düşünceyi örnekle açıklamaktır: “Spor sağlığımızı korur. Örneğin düzenli yüzen biri daha güçlü bir bedene sahip olur.” Örnek verirken “örneğin, mesela” sözcüklerini kullanırız. Benzetme ve örneklendirme hem konuşmalarımızı hem yazılarımızı daha anlaşılır ve etkili yapar.",
+     "points": [
+      "Benzetme: … gibi",
+      "Örneklendirme: örneğin, mesela"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "İlgi",
+     "meaning": "Bir şeye merak duyup ondan hoşlanmak."
+    },
+    {
+     "term": "Özgünlük",
+     "meaning": "Kimseyi taklit etmeden kendine ait olanı ortaya koymak."
+    },
+    {
+     "term": "Estetik",
+     "meaning": "Güzellik duygusu."
+    },
+    {
+     "term": "Sanat",
+     "meaning": "Duygu ve düşüncelerin resim, müzik gibi yollarla güzel biçimde anlatılması."
+    },
+    {
+     "term": "Sunum",
+     "meaning": "Bir konuyu topluluğa planlı biçimde anlatmak."
+    },
+    {
+     "term": "Örneklendirme",
+     "meaning": "Bir düşünceyi örnek vererek açıklamak."
+    }
+   ],
+   "example": {
+    "question": "“Kitap okumak bilgimizi artırır.” düşüncesini bir örnekle destekleyelim.",
+    "solution": "1. Düşünceyi yazarız: “Kitap okumak bilgimizi artırır.” 2. “Örneğin” sözcüğüyle örnek ekleriz: “Örneğin hayvanlarla ilgili bir kitap okuyan çocuk, kutup ayılarının nasıl yaşadığını öğrenir.”"
+   },
+   "remember": [
+    "İlgi duyduğumuz alanda çalışırsak yeteneğimiz gelişir.",
+    "Sunumdan önce plan yaparız.",
+    "Benzetme “gibi” ile yapılır.",
+    "Örnek verirken “örneğin, mesela” kullanırız."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 6,
+   "intro": "Bu temada bilim yolculuğuna çıkıyoruz. Bilim insanları merak eder, deney yapar ve yeni şeyler bulur. Atasözlerini, deyimleri ve gerçek-mecaz anlamı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Bilim ve Buluşlar",
+     "text": "Bilim insanları bir soruyu merak eder, araştırır ve deneyler yapar. Deney, bir düşüncenin doğru olup olmadığını denemektir. Mucitler yeni araçlar icat eder. Bilgisayarlara ne yapacağını adım adım söylemeye kodlama denir. Dünyamızda yedi kıta ve pek çok ülke vardır; farklı ülkelerdeki bilim insanları birlikte çalışarak bilimi geliştirir. Bilim insanları sonuçlarını başkalarıyla paylaşır.",
+     "points": [
+      "Merak et → araştır → dene → sonucu paylaş.",
+      "Kodlama: Bilgisayara adım adım komut vermek."
+     ]
+    },
+    {
+     "title": "Gerçek ve Mecaz Anlam",
+     "text": "Bir sözcüğün ilk akla gelen anlamına gerçek anlam denir: “Tatlı yedim.” (şekerli yiyecek). Sözcüğün gerçek anlamından uzaklaşıp yeni bir anlam kazanmasına mecaz anlam denir: “Tatlı bir sesi var.” (hoş, güzel). Sözcüğün hangi anlamda kullanıldığını cümleden anlarız. Başka örnekler: “Elini kesti.” cümlesinde “kesmek” gerçek anlamdadır. “Sözümü kesti.” cümlesinde ise “yarıda bırakmak” anlamında mecazdır. Mecaz anlamlı sözcükler anlatımı daha etkili yapar.",
+     "points": [
+      "Gerçek: “Taş ağırdı.”",
+      "Mecaz: “Ağır sözler söyledi.” (kırıcı)"
+     ]
+    },
+    {
+     "title": "Atasözleri ve Deyimler",
+     "text": "Atasözleri, atalarımızın deneyimlerinden çıkan ve öğüt veren kalıplaşmış sözlerdir: “Damlaya damlaya göl olur.” Deyimler ise bir durumu çekici biçimde anlatan kalıplaşmış sözlerdir ve genellikle mecaz anlamlıdır: “kulak vermek” (dikkatle dinlemek). Atasözü ve deyimlerin sözcükleri değiştirilmez. Okuma ve dinleme amacımıza göre bir strateji seçeriz: göz gezdirme, not alma, soru sorma gibi.",
+     "points": [
+      "Atasözü öğüt verir.",
+      "Deyim bir durumu anlatır.",
+      "Sözcükleri değiştirilmez."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Bilim insanı",
+     "meaning": "Araştırma ve deney yaparak yeni bilgiler ortaya koyan kişi."
+    },
+    {
+     "term": "Deney",
+     "meaning": "Bir düşüncenin doğruluğunu sınamak için yapılan çalışma."
+    },
+    {
+     "term": "İcat",
+     "meaning": "Daha önce olmayan bir şeyi ortaya çıkarmak."
+    },
+    {
+     "term": "Kodlama",
+     "meaning": "Bilgisayara yapması gerekenleri adım adım anlatmak."
+    },
+    {
+     "term": "Gerçek anlam",
+     "meaning": "Sözcüğün akla gelen ilk anlamı."
+    },
+    {
+     "term": "Mecaz anlam",
+     "meaning": "Sözcüğün gerçek anlamından uzaklaşarak kazandığı yeni anlam."
+    },
+    {
+     "term": "Atasözü",
+     "meaning": "Atalarımızın deneyimlerine dayanan, öğüt veren kalıplaşmış söz."
+    }
+   ],
+   "example": {
+    "question": "“Damlaya damlaya göl olur.” atasözü ne anlatır? Bir örnekle açıklayalım.",
+    "solution": "1. Gerçek anlamda: Küçük damlalar birikince göl oluşur. 2. Atasözünün öğüdü: Küçük birikimler zamanla büyük bir sonuç verir. 3. Örnek: Her gün kumbaraya birkaç lira atan Ali, yılın sonunda istediği kitap setini alabildi."
+   },
+   "remember": [
+    "Bilim merakla başlar.",
+    "Gerçek anlam ilk akla gelen anlamdır.",
+    "Atasözleri öğüt verir, deyimler bir durumu anlatır.",
+    "Atasözü ve deyimlerin sözcükleri değiştirilmez."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 7,
+   "intro": "Bu temada millî kültürümüzü ve onu korumanın önemini öğreniyoruz. Tarihî eserlerimiz ve Türkçemiz ülkemizin değerli varlıklarıdır. Öyküleyici yazı yazmayı ve görüşlerimizi önerilerle desteklemeyi öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Millî Kültürümüz",
+     "text": "Millî kültür; dilimiz, bayrağımız, geleneklerimiz, el sanatlarımız ve tarihî eserlerimizden oluşur. Misafirperverlik, büyüklere saygı ve yardımlaşma kültürümüzün güzel değerleridir. Ülke varlıklarını korumak, onları gelecek nesillere ulaştırmak demektir; buna sürdürülebilirlik denir. Türkçeyi doğru ve özenle kullanmak da kültürümüzü korumaktır. Halılarımız, çinilerimiz ve türkülerimiz kültürümüzün renkleridir. Onları tanımak ve tanıtmak kültürümüzü yaşatır.",
+     "points": [
+      "Tarihî eserlere zarar vermeyiz.",
+      "Türkçeyi özenle kullanırız."
+     ]
+    },
+    {
+     "title": "Görüş ve Öneri",
+     "text": "Bir görüşe katılmıyorsak bunun nedenini açıklar ve bir öneri sunarız. Örneğin: “Okulda yerli malı haftasının sadece bir gün kutlanmasına katılmıyorum, çünkü bu kadar kısa sürede her şeyi tanıyamayız. Önerim, kutlamanın bir hafta boyunca sürmesidir.” Okurken amacımıza uygun okuma stratejisini seçeriz. Öneri sunarken karşımızdakini kırmadan, saygılı bir dil kullanırız. Okuduğumuz metnin içeriğine ilişkin farklı öneriler de getirebiliriz.",
+     "points": [
+      "Katılmıyorum + çünkü + önerim."
+     ]
+    },
+    {
+     "title": "Öyküleyici Yazı",
+     "text": "Öyküleyici yazı, bir olayı anlatan yazıdır. Bu yazıda olay, kişiler, yer ve zaman bulunur. Yazı üç bölümden oluşur: Giriş bölümünde kişileri ve yeri tanıtırız. Gelişme bölümünde olayı anlatırız. Sonuç bölümünde olayın nasıl bittiğini yazarız. Yazımızı resimlerle destekleyip arkadaşlarımıza sunabiliriz. Olayları oluş sırasına göre anlatırız. Okuyucunun ilgisini çekecek bir başlık seçeriz.",
+     "points": [
+      "Olay, kişi, yer, zaman.",
+      "Giriş → gelişme → sonuç."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Millî ve manevi değerler",
+     "meaning": "Bir milleti birbirine bağlayan ortak değerler."
+    },
+    {
+     "term": "Tarihî eser",
+     "meaning": "Geçmişten kalan ve korunması gereken yapı ya da eşya."
+    },
+    {
+     "term": "Sürdürülebilirlik",
+     "meaning": "Kaynakları gelecek nesillere de yetecek şekilde kullanmak."
+    },
+    {
+     "term": "Ülke varlıklarını korumak",
+     "meaning": "Ülkemize ait değerlere sahip çıkmak."
+    },
+    {
+     "term": "Öneri",
+     "meaning": "Bir sorun için sunulan çözüm fikri."
+    },
+    {
+     "term": "Öyküleyici yazı",
+     "meaning": "Bir olayı kişi, yer ve zaman unsurlarıyla anlatan yazı."
+    }
+   ],
+   "example": {
+    "question": "“Dedemle Bayram Sabahı” başlıklı öyküleyici yazının planını yapalım.",
+    "solution": "1. Giriş: Kişiler (ben ve dedem), yer (dedemin köyü), zaman (Ramazan Bayramı sabahı). 2. Gelişme: Bayram namazından sonra komşuları ziyaret ettik, dedem bana eski bayramları anlattı. 3. Sonuç: Akşam eve dönerken bayramların bizi birbirimize bağladığını düşündüm."
+   },
+   "remember": [
+    "Kültürümüzü korumak hepimizin görevidir.",
+    "Katılmadığımız görüşe nedeniyle birlikte öneri sunarız.",
+    "Öyküleyici yazıda olay, kişi, yer ve zaman vardır.",
+    "Yazı giriş, gelişme ve sonuçtan oluşur."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 8,
+   "intro": "Bu temada haklarımızı ve sorumluluklarımızı öğreniyoruz. Kişisel bilgilerimizi korumak da bir sorumluluktur. Pekiştirmeli sözcüklerin yazımını ve noktalama işaretlerinin anlama etkisini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Hak, Sorumluluk ve Eşitlik",
+     "text": "Her çocuğun eğitim, sağlık, oyun ve korunma hakkı vardır. Haklarımızla birlikte sorumluluklarımız da vardır. Sınıf başkanı seçerken işi en iyi yapacak kişiyi seçmek liyakattir. Düşüncelerimizi saygılı bir dille söyleyebiliriz; buna ifade özgürlüğü denir. Kişisel alanımıza ve başkalarının kişisel alanına saygı gösteririz. Bütün insanlar haklar bakımından eşittir. Kimse dili, dini ya da görünüşü yüzünden farklı görülmemelidir.",
+     "points": [
+      "Liyakat: İşi en iyi yapacak kişiyi seçmek.",
+      "Kişisel alana saygı göstermek."
+     ]
+    },
+    {
+     "title": "Dijital Gizlilik",
+     "text": "İnternette adımızı, adresimizi, telefon numaramızı, okulumuzu ve şifrelerimizi paylaşmayız. Tanımadığımız kişilerden gelen mesajlara cevap vermeyiz ve ailemize haber veririz. Kitaptan okurken yaptığımız dikkatli okumayı ekrandan okurken de sürdürürüz. Okuma ve yazma yaptığımız ortamın aydınlık ve sessiz olmasına dikkat ederiz. Ekranda uzun süre okumak gözlerimizi yorar. Bu yüzden ara verir, ekranla aramızda uygun bir mesafe bırakırız.",
+     "points": [
+      "Şifre ve adres paylaşılmaz.",
+      "Şüpheli durumda ailemize haber veririz."
+     ]
+    },
+    {
+     "title": "Pekiştirmeli Sözcükler",
+     "text": "Bir sözcüğün anlamını güçlendirmek için başına bir hece eklenir. Bu sözcüklere pekiştirmeli sözcükler denir ve bitişik yazılır: mavi → masmavi, yeşil → yemyeşil, kırmızı → kıpkırmızı, sağlam → sapasağlam, temiz → tertemiz. Noktalama işaretleri de anlamı değiştirir: “Okula gitti.” bir bilgidir, “Okula gitti?” şaşkınlıkla sorulur. Pekiştirmeli sözcükleri ayrı yazmak yanlıştır.",
+     "points": [
+      "Pekiştirmeli sözcükler bitişik yazılır.",
+      "Noktalama işareti anlamı etkiler."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Temel hak ve özgürlükler",
+     "meaning": "Her insanın doğuştan sahip olduğu haklar."
+    },
+    {
+     "term": "Liyakat",
+     "meaning": "Bir işe en uygun ve yetenekli olan kişiyi seçmek."
+    },
+    {
+     "term": "İfade özgürlüğü",
+     "meaning": "Düşünceyi saygılı biçimde söyleyebilme hakkı."
+    },
+    {
+     "term": "Kişisel alan",
+     "meaning": "Kişinin bedenine ve eşyalarına ait özel alan."
+    },
+    {
+     "term": "Dijital gizlilik",
+     "meaning": "İnternette kişisel bilgilerimizi korumak."
+    },
+    {
+     "term": "Pekiştirmeli sözcük",
+     "meaning": "Anlamı güçlendirilmiş, bitişik yazılan sözcük: masmavi."
+    }
+   ],
+   "example": {
+    "question": "Pekiştirmeli biçimlerini yazalım: beyaz, siyah, yeni, sıcak.",
+    "solution": "1. beyaz → bembeyaz. 2. siyah → simsiyah. 3. yeni → yepyeni. 4. sıcak → sımsıcak. Hepsi bitişik yazılır."
+   },
+   "remember": [
+    "Haklarımızla birlikte sorumluluklarımız da vardır.",
+    "İnternette kişisel bilgilerimizi paylaşmayız.",
+    "Pekiştirmeli sözcükler bitişik yazılır.",
+    "Noktalama işaretleri anlamı değiştirir."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 1,
+   "intro": "Bu temada bizi iyi insan yapan erdemleri konuşuyoruz. Erdemli insan adil, merhametli ve sorumluluk sahibidir. Serbest yazma yapmayı, görüşlerimizi gerekçeleriyle yazmayı ve yazım kurallarını uygulamayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Erdemler",
+     "text": "Erdem, insanı iyi ve değerli yapan güzel özelliktir. Adalet, herkese hakkını vermektir. Sabır, zor durumlarda sakin kalıp beklemeyi bilmektir. Duyarlılık, çevremizdeki insanların, hayvanların ve doğanın sorunlarını fark etmektir. Aile bütünlüğü, aile bireylerinin birbirine sevgi ve saygıyla bağlı olmasıdır. Erdemli davranışlar okulda, evde ve sokakta hayatımızı güzelleştirir. Erdemler bizi iyi bir arkadaş ve iyi bir vatandaş yapar.",
+     "points": [
+      "Adalet, sabır, merhamet, duyarlılık birer erdemdir.",
+      "Erdemler davranışlarımızla görünür."
+     ]
+    },
+    {
+     "title": "Görüş Bildirirken Gerekçe",
+     "text": "Okuduğumuz bir metindeki düşünceye katılıp katılmadığımızı söylerken gerekçe, yani neden belirtiriz. Gerekçesiz görüş inandırıcı olmaz. “Bu görüşe katılıyorum, çünkü …” ya da “Bu görüşe katılmıyorum, çünkü …” diye başlayabiliriz. Kabul etmediğimiz bir konuda bir de öneri sunarsak konuşmamız daha yapıcı olur. Metni günlük hayatımızla ilişkilendirmek de anlamamızı kolaylaştırır. Gerekçemizi örnekle desteklersek daha güçlü olur.",
+     "points": [
+      "Görüş + gerekçe + öneri."
+     ]
+    },
+    {
+     "title": "Serbest Yazma ve Yazım Kuralları",
+     "text": "Serbest yazma, aklımıza gelenleri durmadan ve kendimizi kısıtlamadan yazmaktır. Bu çalışma düşüncelerimizi ortaya çıkarır. Sonra yazımızı düzenleriz. Yazım kurallarına dikkat ederiz: Cümle büyük harfle başlar, özel adlara gelen ekler kesme işaretiyle ayrılır, soru eki ayrı yazılır. Yazıyı bitirince okuyup hataları buluruz ve düzeltiriz. Yazma ortamımız da önemlidir; sessiz ve düzenli bir yer seçeriz. Yazımızda doğru yaptıklarımızı bir sonraki yazımıza taşırız.",
+     "points": [
+      "Önce serbestçe yaz, sonra düzenle.",
+      "Yazdıktan sonra mutlaka kontrol et."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Erdem",
+     "meaning": "İnsanı iyi ve değerli kılan güzel özellik."
+    },
+    {
+     "term": "Adalet",
+     "meaning": "Herkese hakkı olanı vermek."
+    },
+    {
+     "term": "Sabır",
+     "meaning": "Zorluklar karşısında sakin kalıp beklemeyi bilmek."
+    },
+    {
+     "term": "Duyarlılık",
+     "meaning": "Çevredeki sorunları fark edip ilgilenmek."
+    },
+    {
+     "term": "Aile bütünlüğü",
+     "meaning": "Aile bireylerinin sevgi ve saygıyla birbirine bağlı olması."
+    },
+    {
+     "term": "Gerekçe",
+     "meaning": "Bir görüşü destekleyen neden."
+    }
+   ],
+   "example": {
+    "question": "Cümledeki yazım yanlışlarını düzeltelim: “bu yaz ankaraya gittin mi.”",
+    "solution": "1. Cümle büyük harfle başlar: “Bu”. 2. Şehir adı özel addır, büyük harfle başlar ve ek kesme işaretiyle ayrılır: “Ankara’ya”. 3. Soru eki ayrı yazılmış, doğru. 4. Soru cümlesi soru işaretiyle biter. Doğrusu: “Bu yaz Ankara’ya gittin mi?”"
+   },
+   "remember": [
+    "Erdemler insanı değerli kılar.",
+    "Görüşümüzü gerekçesiyle söyleriz.",
+    "Serbest yazmadan sonra yazımızı düzenleriz.",
+    "Özel adlara gelen ekler kesme işaretiyle ayrılır."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 2,
+   "intro": "Bu temada Millî Mücadele’yi ve Atatürk’ün önderliğini öğreniyoruz. Milletimiz büyük fedakârlıklarla bağımsızlığını korudu. Eş anlamlı, zıt anlamlı ve eş sesli sözcükleri ayırt etmeyi öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Millî Mücadele ve Atatürk",
+     "text": "Birinci Dünya Savaşı’ndan sonra vatanımızın birçok yeri işgal edildi. Mustafa Kemal 19 Mayıs 1919’da Samsun’a çıkarak Millî Mücadele’yi başlattı. 23 Nisan 1920’de Ankara’da Türkiye Büyük Millet Meclisi açıldı. Milletimiz büyük bir azimle savaştı ve 30 Ağustos 1922’de Büyük Zafer kazanıldı. 29 Ekim 1923’te Cumhuriyet ilan edildi ve Atatürk ilk cumhurbaşkanı oldu.",
+     "points": [
+      "19 Mayıs 1919: Samsun’a çıkış.",
+      "23 Nisan 1920: TBMM’nin açılışı.",
+      "30 Ağustos 1922: Büyük Zafer.",
+      "29 Ekim 1923: Cumhuriyet’in ilanı."
+     ]
+    },
+    {
+     "title": "Eş, Zıt ve Eş Sesli Sözcükler",
+     "text": "Eş anlamlı sözcükler farklı yazılır ama aynı anlamı taşır: millet-ulus, zafer-utku, hür-özgür. Zıt anlamlı sözcükler karşıt anlam taşır: bağımlı-bağımsız, esir-hür. Eş sesli sözcükler ise aynı yazılır, aynı okunur ama anlamları farklıdır: “yüz” (çehre) ve “yüz” (sayı), “yaz” (mevsim) ve “yaz” (yazmak), “dolu” (yağış) ve “dolu” (boş olmayan). Eş sesli sözcüğün anlamını cümleden anlarız.",
+     "points": [
+      "Eş anlam: hür = özgür",
+      "Zıt anlam: esir ↔ hür",
+      "Eş sesli: yüz (çehre) / yüz (sayı)"
+     ]
+    },
+    {
+     "title": "Bilgiyi Doğrulama",
+     "text": "Okuduğumuz ya da dinlediğimiz bir bilgiyi bildiklerimizle karşılaştırırız. Tarih bilgilerini güvenilir kaynaklardan, örneğin ders kitabından ya da ansiklopediden kontrol ederiz. Metnin başlığına, görsellerine ve kapak bilgilerine bakarak içerik hakkında fikir edinebiliriz. Yazdığımız yazının altına adımızı ve soyadımızı yazarak imzalarız. Yanlış bir bilgiyi fark edersek düzeltiriz ve başkalarıyla paylaşmayız. Güvenilir bilgi, doğru düşünmenin temelidir.",
+     "points": [
+      "Bilgiyi güvenilir kaynaktan kontrol ederiz."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Millî Mücadele",
+     "meaning": "Türk milletinin işgallere karşı verdiği bağımsızlık savaşı."
+    },
+    {
+     "term": "Millî egemenlik",
+     "meaning": "Yönetme gücünün millete ait olması."
+    },
+    {
+     "term": "Şehitlik",
+     "meaning": "Vatan uğruna canını vermek."
+    },
+    {
+     "term": "Millî kimlik",
+     "meaning": "Bir milletin üyesi olma bilinci."
+    },
+    {
+     "term": "Eş anlamlı sözcük",
+     "meaning": "Yazılışı farklı, anlamı aynı sözcük."
+    },
+    {
+     "term": "Eş sesli sözcük",
+     "meaning": "Yazılışı ve okunuşu aynı, anlamı farklı sözcük."
+    },
+    {
+     "term": "Zıt anlamlı sözcük",
+     "meaning": "Anlamca birbirinin karşıtı olan sözcük."
+    }
+   ],
+   "example": {
+    "question": "Sözcük çiftlerini sınıflandıralım: “hür-özgür”, “gül (çiçek) - gül (gülmek)”, “savaş-barış”, “ak-beyaz”.",
+    "solution": "1. hür-özgür: Anlamları aynı, eş anlamlı. 2. gül-gül: Yazılışları aynı, anlamları farklı, eş sesli. 3. savaş-barış: Anlamları karşıt, zıt anlamlı. 4. ak-beyaz: Anlamları aynı, eş anlamlı."
+   },
+   "remember": [
+    "Millî Mücadele 19 Mayıs 1919’da Samsun’da başladı.",
+    "Eş anlamlı sözcüklerin anlamı aynıdır.",
+    "Eş sesli sözcüklerin yazılışı aynı, anlamı farklıdır.",
+    "Bilgileri güvenilir kaynaklardan kontrol ederiz."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 3,
+   "intro": "Bu temada doğa ile insan arasındaki ilişkiyi düşünüyoruz. İnsan doğadan yararlanır, bu yüzden onu korumakla da sorumludur. Sınıflandırma yapmayı, metni günlük yaşamla ilişkilendirmeyi ve ayrıntılı yönerge yazmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Doğa ve İnsan",
+     "text": "İnsan; suyu, toprağı, ormanları ve havayı kullanarak yaşar. Bu doğal kaynaklar dikkatsiz kullanılırsa azalır ya da kirlenir. Sel, deprem, heyelan ve orman yangını gibi doğa olaylarına karşı hazırlıklı olmalıyız. Kapadokya’daki peri bacaları ve Pamukkale travertenleri gibi doğal miraslarımızı korumalıyız. Su ve enerji tasarrufu doğayı korumanın en kolay yoludur. Doğaya verdiğimiz zarar sonunda bize geri döner.",
+     "points": [
+      "Doğal kaynakları tasarruflu kullanırız.",
+      "Doğal miraslarımızı koruruz."
+     ]
+    },
+    {
+     "title": "Sınıflandırma ve Karşılaştırma",
+     "text": "Olay, durum, nesne ve kişileri ortak özelliklerine göre gruplara ayırmaya sınıflandırma denir. Örneğin doğal kaynakları “yenilenebilen” ve “yenilenemeyen” diye ayırabiliriz. Karşılaştırmada ise iki şeyin benzer ve farklı yönlerini buluruz. Okuduğumuz metni günlük hayatımızla ilişkilendiririz: “Bu metin bana evimizde su tasarrufu yapmayı hatırlattı.” Yazışmalarımızda ve konuşmalarımızda da sınıflandırma yaparak düşüncelerimizi düzenli anlatırız.",
+     "points": [
+      "Sınıflandırma: Ortak özelliğe göre gruplama.",
+      "Karşılaştırma: Benzer ve farklı yönler."
+     ]
+    },
+    {
+     "title": "Ayrıntılı Yönerge",
+     "text": "Ayrıntılı yönerge, bir işin nasıl yapılacağını eksiksiz ve sıralı anlatır. Her adım bir cümleyle yazılır ve numaralandırılır. Gerekli malzemeler başta belirtilir. Yönerge yazarken emir kipini kullanırız: “Al, koy, karıştır.” Yazarken amacımıza ve yazma ortamımıza (kâğıt ya da bilgisayar) uygun bir strateji seçeriz. Yönergeyi yazdıktan sonra adımları tek tek uygulayıp eksik bir şey olup olmadığını kontrol ederiz.",
+     "points": [
+      "Malzemeler → sıralı adımlar.",
+      "Her adım açık ve kısa."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Doğal kaynak",
+     "meaning": "Doğada bulunan ve insanın yararlandığı varlıklar."
+    },
+    {
+     "term": "Doğal miras",
+     "meaning": "Doğanın oluşturduğu, korunması gereken değerli alanlar."
+    },
+    {
+     "term": "Afetlere hazırlık",
+     "meaning": "Doğal afetlerden önce alınan önlemler."
+    },
+    {
+     "term": "Doğa olayı",
+     "meaning": "Doğada kendiliğinden gerçekleşen olaylar."
+    },
+    {
+     "term": "Sınıflandırma",
+     "meaning": "Varlıkları ortak özelliklerine göre gruplandırmak."
+    },
+    {
+     "term": "Yönerge",
+     "meaning": "Bir işin nasıl yapılacağını adım adım anlatan metin."
+    }
+   ],
+   "example": {
+    "question": "Şu atıkları geri dönüşüm kutularına göre sınıflandıralım: gazete, cam şişe, konserve kutusu, plastik pet şişe, karton koli, kavanoz.",
+    "solution": "1. Ortak özellik: atığın yapıldığı madde. 2. Kâğıt: gazete, karton koli. 3. Cam: cam şişe, kavanoz. 4. Metal: konserve kutusu. 5. Plastik: pet şişe."
+   },
+   "remember": [
+    "Doğayı korumak insanın sorumluluğudur.",
+    "Sınıflandırmada ortak özelliği buluruz.",
+    "Okuduğumuzu günlük hayatla ilişkilendiririz.",
+    "Yönergeler sıralı ve eksiksiz yazılır."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 4,
+   "intro": "Bu temada kütüphaneleri, e-kitapları ve dergileri tanıyoruz. Okuma serüveni bize yeni dünyalar açar. Sözcüklerin gerçek, mecaz ve terim anlamlarını; deyim ve atasözlerini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Okuma Kaynaklarımız",
+     "text": "Kütüphanelerde kitaplar ödünç alınır. Kitabevlerinde kitap satın alınır. E-kitaplar bilgisayar, tablet ya da telefonda okunur. Dergi ve gazete gibi belli aralıklarla çıkan yayınlara süreli yayın denir. Sözlük, bilmediğimiz sözcüklerin anlamını öğrenmemizi sağlar. Bir bilgiyi okurken o bilginin kaynağının güvenilir olup olmadığını sorgularız. İnternette yazarken kişisel bilgilerimizi paylaşmayız. Z-kütüphaneler ise dijital imkânlarla donatılmış modern kütüphanelerdir.",
+     "points": [
+      "Süreli yayın: Dergi, gazete.",
+      "Sözlük kullanmayı alışkanlık hâline getiririz."
+     ]
+    },
+    {
+     "title": "Gerçek, Mecaz ve Terim Anlam",
+     "text": "Gerçek anlam, sözcüğün ilk akla gelen anlamıdır: “Soğuk su içtim.” Mecaz anlam, sözcüğün gerçek anlamından uzaklaşarak kazandığı anlamdır: “Bize çok soğuk davrandı.” (ilgisiz). Terim anlam ise bir sözcüğün bilim, sanat ya da spor gibi bir alanda kazandığı özel anlamdır: Matematikte “açı”, müzikte “nota”, futbolda “ofsayt”. Bir sözcüğün hangi anlamda kullanıldığını cümlenin bütününden anlarız.",
+     "points": [
+      "Gerçek: İlk anlam.",
+      "Mecaz: Yeni, dolaylı anlam.",
+      "Terim: Bir alana özgü anlam."
+     ]
+    },
+    {
+     "title": "Deyim ve Atasözü",
+     "text": "Deyimler bir durumu etkili biçimde anlatan kalıplaşmış sözlerdir: “göz atmak” (kısaca bakmak), “kitap kurdu olmak” (çok kitap okumak). Atasözleri ise atalarımızın deneyimlerinden doğan ve öğüt veren sözlerdir: “Bilgi bilgiden üstündür.” Deyim ve atasözlerini yazılarımızda içeriğe uygun kullanırsak anlatımımız güçlenir. Deyim ve atasözlerinin sözcükleri değiştirilmez. Sık kullanılan deyim ve atasözlerinin anlamını öğrenmek için deyimler ve atasözleri sözlüğünden yararlanabiliriz.",
+     "points": [
+      "Deyim bir durumu anlatır.",
+      "Atasözü öğüt verir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Süreli yayın",
+     "meaning": "Dergi ve gazete gibi belli aralıklarla çıkan yayın."
+    },
+    {
+     "term": "E-kitap",
+     "meaning": "Dijital ortamda okunan kitap."
+    },
+    {
+     "term": "Sözlük kültürü",
+     "meaning": "Bilinmeyen sözcükleri sözlükten araştırma alışkanlığı."
+    },
+    {
+     "term": "Okur kimliği",
+     "meaning": "Okuma zevki ve alışkanlıklarımızla oluşan yönümüz."
+    },
+    {
+     "term": "Gerçek anlam",
+     "meaning": "Sözcüğün ilk akla gelen anlamı."
+    },
+    {
+     "term": "Mecaz anlam",
+     "meaning": "Sözcüğün gerçek anlamından uzaklaşarak kazandığı anlam."
+    },
+    {
+     "term": "Terim anlam",
+     "meaning": "Sözcüğün bir bilim ya da sanat alanında kazandığı özel anlam."
+    }
+   ],
+   "example": {
+    "question": "“ağır” sözcüğü hangi cümlede hangi anlamda kullanılmıştır? a) “Çanta çok ağırdı.” b) “Arkadaşına ağır sözler söyledi.”",
+    "solution": "1. a cümlesinde çantanın tartısı fazla anlatılıyor; bu gerçek anlamdır. 2. b cümlesinde sözler tartılamaz; “kırıcı, incitici” anlamı vardır. Bu mecaz anlamdır."
+   },
+   "remember": [
+    "Dergi ve gazeteler süreli yayındır.",
+    "Mecaz anlam, gerçek anlamdan uzaklaşan anlamdır.",
+    "Terim anlam bir bilim ya da sanat dalına aittir.",
+    "Bilginin kaynağını sorgularız."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 5,
+   "intro": "Bu temada kendimizi sanat, spor ve tiyatroyla nasıl geliştirebileceğimizi düşünüyoruz. Merak ettiğimiz alanlarda çalışmak bizi güçlendirir. Neden-sonuç ilişkisini, bağlama ögelerini ve bilginin doğruluğunu sorgulamayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Kendimizi Geliştirmek",
+     "text": "Kendimizi geliştirmek için ilgi duyduğumuz alanlarda düzenli çalışırız. Spor bedenimizi, sanat duygularımızı, okumak zihnimizi geliştirir. Tiyatro, bir hikâyenin sahnede oyuncular tarafından canlandırılmasıdır. Tiyatroda oyuncular jest, mimik ve ses tonunu çok iyi kullanır. Yaptığımız işlerde özgün olmaya, kendi fikrimizi ortaya koymaya çalışırız. Yeni bir şey denerken hata yapabiliriz; önemli olan vazgeçmemektir. Her gün biraz daha iyi olmaya çalışırız.",
+     "points": [
+      "Düzenli çalışma gelişimi sağlar.",
+      "Tiyatro beden dilini güçlendirir."
+     ]
+    },
+    {
+     "title": "Neden-Sonuç ve Bağlama Ögeleri",
+     "text": "Bir olayın sebebine neden, ortaya çıkan duruma sonuç denir. “Her gün antrenman yaptığı için yarışmayı kazandı.” cümlesinde antrenman yapmak neden, kazanmak sonuçtur. “çünkü, için, -dığı için, bu yüzden, bu nedenle” sözcükleri neden-sonuç bildirir. “ve, ile, ama, fakat” gibi bağlama ögelerini de yerinde kullanırız. Neden-sonuç ilişkisini yazılarımızda da kullanırız. Böylece yazımız daha anlaşılır olur.",
+     "points": [
+      "Neden: Niçin oldu?",
+      "Sonuç: Ne oldu?"
+     ]
+    },
+    {
+     "title": "Bilgiyi Sorgulama ve Yazışma",
+     "text": "Okuduğumuz bilginin doğru olup olmadığını sorgularız: Bilgi nereden alınmış? Yazarı belli mi? Başka kaynaklar da aynı şeyi söylüyor mu? Yazışırken açılış (Merhaba, Sevgili …), sürdürme ve kapanış (Görüşmek üzere, Sevgilerimle) ifadelerini uygun kullanırız. Farklı metinlerdeki düşüncelerin benzer ve farklı yönlerini de buluruz. Çevrim içi yazışmalarda da nezaket kurallarına uyarız. Kaba sözler kullanmayız.",
+     "points": [
+      "Kaynak güvenilir mi?",
+      "Açılış → içerik → kapanış."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Özgünlük",
+     "meaning": "Kendine ait, taklit olmayan fikir ve ürün ortaya koymak."
+    },
+    {
+     "term": "Estetik",
+     "meaning": "Güzellik duygusu ve anlayışı."
+    },
+    {
+     "term": "Tiyatro",
+     "meaning": "Bir hikâyenin sahnede oyuncular tarafından canlandırılması."
+    },
+    {
+     "term": "Spor",
+     "meaning": "Bedeni geliştiren, kurallı fiziksel etkinlik."
+    },
+    {
+     "term": "Neden-sonuç ilişkisi",
+     "meaning": "Bir olayın sebebiyle doğurduğu durum arasındaki bağ."
+    },
+    {
+     "term": "Bağlama ögesi",
+     "meaning": "Sözcük ve cümleleri birbirine bağlayan sözcükler."
+    }
+   ],
+   "example": {
+    "question": "“Tiyatro kulübüne katıldı. Sınıfta rahat konuşmaya başladı.” cümlelerini neden-sonuç ilişkisi kurarak birleştirelim.",
+    "solution": "1. Neden: tiyatro kulübüne katılması. 2. Sonuç: sınıfta rahat konuşması. 3. Birleştirme: “Tiyatro kulübüne katıldığı için sınıfta rahat konuşmaya başladı.” ya da “Tiyatro kulübüne katıldı, bu yüzden sınıfta rahat konuşmaya başladı.”"
+   },
+   "remember": [
+    "Kendimizi geliştirmek düzenli çalışmayla olur.",
+    "“için, çünkü, bu yüzden” neden-sonuç bildirir.",
+    "Okuduğumuz bilginin kaynağını sorgularız.",
+    "Yazışmalar açılış ve kapanış ifadeleri içerir."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 6,
+   "intro": "Bu temada bilim ve teknolojinin hayatımızı nasıl değiştirdiğini öğreniyoruz. Bilim insanları merak, araştırma ve deneyle ilerler. “de” ve “ki” sözcüklerinin doğru yazımını ve tablo-grafik okumayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Bilim ve Teknoloji",
+     "text": "Bilim, doğayı ve evreni gözlem ve deneyle anlamaya çalışır. Teknoloji, bilimsel bilgiyi kullanarak işimizi kolaylaştıran araçlar üretir. Elektrik, telefon, bilgisayar ve internet hayatımızı değiştiren buluşlardır. Bilişim ve kodlama, bilgisayarlara iş yaptırmayı öğrenmektir. İnternette bilgi ararken güvenilir siteleri seçer ve aradığımız bilgiyi doğru yerde buluruz. Bilim insanları dünyanın farklı ülkelerinde çalışır.",
+     "points": [
+      "Bilim: Anlamak.",
+      "Teknoloji: Bilgiyi kullanarak araç üretmek."
+     ]
+    },
+    {
+     "title": "“de” ve “ki” Bağlaçları",
+     "text": "“de, da” bağlacı “dahi, bile, de” anlamı katar ve ayrı yazılır: “Ben de geleceğim.” Bulunma eki olan “-de, -da, -te, -ta” ise bitişik yazılır: “Kitap masada.” Ayırt etmek için sözcüğü çıkarırız; cümle bozulmuyorsa bağlaçtır. “ki” bağlacı da ayrı yazılır: “Duydum ki gelmişsin.” Ama “evdeki, yarınki” gibi sözcüklerdeki “-ki” eki bitişiktir. “belki, çünkü, sanki, mademki” kalıplaşmış olduğu için bitişik yazılır.",
+     "points": [
+      "Bağlaç “de” ayrı: Sen de gel.",
+      "Ek “-de” bitişik: Evde kaldım.",
+      "Bağlaç “ki” ayrı; “-ki” eki bitişik."
+     ]
+    },
+    {
+     "title": "Tablo, Grafik ve Eş Sesli Sözcükler",
+     "text": "Bilimsel metinlerde bilgiler tablo ve grafiklerle de verilir. Tablo ve grafiği metinle birlikte okur, aralarındaki ilişkiyi buluruz. Eş sesli sözcükler, yazılışı ve okunuşu aynı ama anlamı farklı sözcüklerdir: “Ekranın yüzü kırıldı.” ve “Yüz sayfa okudum.” Bir metni yazarın gözüyle değerlendirip görüşümüzü gerekçesiyle yazarız. Okuma ortamımızın aydınlık ve sessiz olması da anlamamızı kolaylaştırır.",
+     "points": [
+      "Grafik metindeki bilgiyi destekler."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Bilim insanı",
+     "meaning": "Araştırma ve deneylerle yeni bilgiler üreten kişi."
+    },
+    {
+     "term": "Bilişim ve kodlama",
+     "meaning": "Bilgisayarlarla bilgi işleme ve bilgisayara komut yazma."
+    },
+    {
+     "term": "Deney",
+     "meaning": "Bir düşünceyi sınamak için yapılan uygulama."
+    },
+    {
+     "term": "İcat",
+     "meaning": "Daha önce olmayan bir aracı ortaya çıkarmak."
+    },
+    {
+     "term": "Mucit",
+     "meaning": "Yeni bir şey icat eden kişi."
+    },
+    {
+     "term": "Bağlaç",
+     "meaning": "Sözcük ve cümleleri bağlayan sözcük: ve, de, ki, ama."
+    }
+   ],
+   "example": {
+    "question": "Hangi “de” ayrı, hangisi bitişik yazılmalı? a) “Kardeşim (de) bilim fuarına geldi.” b) “Fuar okul bahçesin(de) yapıldı.”",
+    "solution": "1. a cümlesinde “de”yi çıkarırız: “Kardeşim bilim fuarına geldi.” Cümle bozulmadı, anlam biraz değişti; bu bağlaçtır, ayrı yazılır: “Kardeşim de”. 2. b cümlesinde “-de” yer bildirir; çıkarırsak cümle bozulur. Bu bulunma ekidir, bitişik yazılır: “bahçesinde”."
+   },
+   "remember": [
+    "Bağlaç olan “de, da” ve “ki” ayrı yazılır.",
+    "Bulunma eki “-de, -da” bitişik yazılır.",
+    "“belki, çünkü, sanki” bitişik yazılır.",
+    "Tablo ve grafikler metni destekler."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 7,
+   "intro": "Bu temada geçmişten bugüne taşıdığımız mirası, yani değerlerimizi ve kültürümüzü konuşuyoruz. Bu mirası koruyup geleceğe taşımak bizim görevimizdir. Zaman ifadelerini, metni devam ettirmeyi ve “de”, “ki” yazımını pekiştiriyoruz.",
+   "sections": [
+    {
+     "title": "Mirasımız",
+     "text": "Atalarımızdan bize yalnızca yapılar değil, değerler de kalmıştır. Misafirperverlik, yardımlaşma, büyüklere saygı, komşuluk ve dürüstlük bu değerlerdendir. Dedelerimizin ninelerimizin anlattığı masallar, oynadığımız oyunlar, söylediğimiz türküler de mirasımızdır. Bu mirası yaşatmak için onları öğrenir, uygular ve bizden sonrakilere aktarırız. Bir müzeyi ziyaret etmek de mirasımızı tanımanın güzel bir yoludur. Müzelerde atalarımızın kullandığı eşyaları görürüz.",
+     "points": [
+      "Değerler de mirasımızdır.",
+      "Mirası yaşatmak için öğrenip aktarırız."
+     ]
+    },
+    {
+     "title": "Zaman İfadeleri ve Metni Sürdürme",
+     "text": "Geçmişi anlatırken “eskiden, bir zamanlar, yıllar önce”, bugünü anlatırken “şimdi, günümüzde”, geleceği anlatırken “ileride, gelecekte” gibi zaman ifadeleri kullanırız. Eksik bırakılmış bir metni devam ettirirken önce metnin konusunu, kişilerini ve olayını anlarız. Sonra olaylara uygun bir devam yazarız. Başlık ve görsellerden yola çıkarak olaylar hakkında tahmin yürütürüz. Devam yazımız metnin başıyla uyumlu olmalıdır.",
+     "points": [
+      "Geçmiş: eskiden",
+      "Şimdi: günümüzde",
+      "Gelecek: ileride"
+     ]
+    },
+    {
+     "title": "“de” ve “ki”yi Pekiştirme",
+     "text": "Bağlaç olan “de, da” ayrı yazılır ve ünlü uyumuna göre değişir ama asla “te, ta” olmaz: “Kitap da aldım.” Bulunma eki bitişik yazılır ve “-te, -ta” olabilir: “Sokakta oynadık.” Bağlaç olan “ki” ayrı yazılır: “Öyle yorgunum ki…” Sıfat yapan “-ki” eki bitişik yazılır: “duvardaki resim, bugünkü ders.” Yazdıktan sonra bu sözcükleri mutlaka kontrol ederiz.",
+     "points": [
+      "Bağlaç “de” hiçbir zaman “te” olmaz.",
+      "“-ki” eki: duvardaki, bugünkü."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Kültürel miras",
+     "meaning": "Geçmiş nesillerden bize kalan değerler, gelenekler ve eserler."
+    },
+    {
+     "term": "Vatanseverlik",
+     "meaning": "Vatanını sevmek ve korumak."
+    },
+    {
+     "term": "Yardımseverlik",
+     "meaning": "İhtiyacı olana karşılık beklemeden yardım etmek."
+    },
+    {
+     "term": "Sorumluluk",
+     "meaning": "Üstlendiğimiz görevi yerine getirmek."
+    },
+    {
+     "term": "Zaman ifadesi",
+     "meaning": "Olayın ne zaman olduğunu gösteren sözcük ya da söz grubu."
+    },
+    {
+     "term": "Bağlaç",
+     "meaning": "Sözcük ve cümleleri birbirine bağlayan sözcük."
+    }
+   ],
+   "example": {
+    "question": "Yanlış yazılanları düzeltelim: “Dedemde bize masal anlattı.” — “Okuldaki etkinlik çok güzeldi.” — “Öyleki herkes güldü.”",
+    "solution": "1. “Dedemde”: Burada “dedem bile” anlamı var, bağlaçtır; ayrı yazılır: “Dedem de”. 2. “Okuldaki”: “-ki” sıfat yapan ektir, bitişik yazılır; doğru. 3. “Öyleki”: “ki” bağlaçtır, ayrı yazılır: “Öyle ki”."
+   },
+   "remember": [
+    "Değerlerimiz de mirasımızdır.",
+    "Zaman ifadeleri olayları zamana yerleştirir.",
+    "Bağlaç “de” ve “ki” ayrı yazılır.",
+    "“-ki” eki bitişik yazılır: evdeki, dünkü."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 8,
+   "intro": "Bu temada demokratik yaşamı ve haklarımızı öğreniyoruz. Demokrasi herkesin söz hakkı olduğu ve birlikte karar verilen bir düzendir. Deyimleri ve sözcüklerin yan anlamını öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Demokratik Yaşam",
+     "text": "Demokraside herkes düşüncesini özgürce söyleyebilir ve seçimlerle karar verilir. Sınıf başkanı seçimi küçük bir demokrasi örneğidir. Seçerken o göreve en uygun kişiyi seçmeye liyakat denir. Herkes eşittir ve haklarına saygı gösterilir. Kişisel bilgilerimizi korumak, başkalarının kişisel alanına saygı göstermek de demokratik yaşamın parçasıdır. Demokrasi sınıfta, evde ve okulda başlar. Herkesin fikrine değer veririz.",
+     "points": [
+      "Herkesin söz hakkı vardır.",
+      "Seçimde liyakate önem veririz.",
+      "Çoğunluğun kararına uyarız, azınlığın görüşüne saygı gösteririz."
+     ]
+    },
+    {
+     "title": "Yan Anlam",
+     "text": "Bir sözcüğün gerçek anlamıyla bağını koruyarak kazandığı yeni anlama yan anlam denir. Örneğin “ayak” gerçek anlamda vücudumuzun bir organıdır. “Masanın ayağı” dediğimizde masayı taşıyan bölümü kastederiz; bu yan anlamdır. Başka örnekler: “dağın eteği, çaydanlığın ağzı, kapının kolu”. Yan anlamda benzerlik vardır ama sözcük tamamen başka bir anlama kaymaz. Yan anlam ile mecaz anlamı karıştırmamaya dikkat ederiz.",
+     "points": [
+      "Gerçek: insanın ayağı",
+      "Yan: masanın ayağı"
+     ]
+    },
+    {
+     "title": "Deyimler ve Planlı Konuşma",
+     "text": "Deyimler bir durumu kısa ve etkili anlatan kalıplaşmış sözlerdir: “el ele vermek” (birlikte çalışmak), “söz vermek” (bir şeyi yapacağına dair güvence vermek), “kulak asmamak” (önemsememek). Konuşmadan önce dinleyicilere ve konuya uygun bir plan hazırlarız. Konuşmamızı görsel ya da dijital içeriklerle destekleyebiliriz. Konuşmamızda deyimleri yerinde kullanırsak anlatımımız güçlenir. Konuşurken jest ve mimiklerden de yararlanırız.",
+     "points": [
+      "Deyimler genellikle mecaz anlamlıdır.",
+      "Deyimlerin sözcükleri değiştirilmez."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Demokrasi",
+     "meaning": "Halkın seçimlerle yönetime katıldığı düzen."
+    },
+    {
+     "term": "Liyakat",
+     "meaning": "Bir göreve en uygun ve yeterli kişiyi seçmek."
+    },
+    {
+     "term": "Eşitlik",
+     "meaning": "Herkesin aynı haklara sahip olması."
+    },
+    {
+     "term": "İfade özgürlüğü",
+     "meaning": "Düşünceyi saygılı biçimde açıklayabilme hakkı."
+    },
+    {
+     "term": "Kişisel alan",
+     "meaning": "Kişinin bedenine, eşyalarına ve bilgilerine ait özel alan."
+    },
+    {
+     "term": "Yan anlam",
+     "meaning": "Sözcüğün gerçek anlamıyla ilgisini koruyarak kazandığı yeni anlam."
+    },
+    {
+     "term": "Deyim",
+     "meaning": "Bir durumu etkili anlatan kalıplaşmış söz."
+    }
+   ],
+   "example": {
+    "question": "“ağız” sözcüğü hangi cümlede yan anlamda kullanılmıştır? a) “Ağzını kapatarak hapşırdı.” b) “Şişenin ağzını sıkıca kapattı.”",
+    "solution": "1. a cümlesinde ağız, insanın organıdır; bu gerçek anlamdır. 2. b cümlesinde şişenin açık ucu ağza benzetilmiştir ve anlamla bağ korunmuştur. Yan anlam b cümlesindedir."
+   },
+   "remember": [
+    "Demokraside herkesin söz hakkı vardır.",
+    "Yan anlam, gerçek anlamla bağını korur.",
+    "Deyimlerin sözcükleri değiştirilmez.",
+    "Konuşmadan önce plan hazırlarız."
+   ]
+  }
+ ]
+}

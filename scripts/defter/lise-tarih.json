@@ -1,0 +1,774 @@
+{
+ "file": "lise-tarih",
+ "notes": [
+  {
+   "grade": 9,
+   "order": 1,
+   "intro": "Tarih, insanlığın geçmişini kanıtlara dayanarak inceleyen bir bilimdir. Bu ünitede tarihin ne olduğunu, tarihçinin nasıl çalıştığını, tarihsel bilginin hangi kaynaklardan üretildiğini ve dijitalleşmenin tarih araştırmalarını nasıl değiştirdiğini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Tarih nedir, neden öğreniriz?",
+     "text": "Tarih, geçmişte yaşamış insan topluluklarının siyasi, sosyal, ekonomik ve kültürel faaliyetlerini yer ve zaman göstererek, neden-sonuç ilişkisi içinde ve kanıtlara dayanarak inceleyen bilimdir. Geçmiş, yaşanmış ve bitmiş olan her şeydir; tarih ise geçmişin kanıtlarla yeniden kurulmuş anlatısıdır. Tarih öğrenmek bireye kimlik ve aidiyet duygusu kazandırır, bugünü anlamamızı ve olaylara eleştirel bakmamızı sağlar. Toplumlar için ise ortak hafızayı oluşturur, kültürel mirasın korunmasına katkı yapar ve geçmiş deneyimlerden ders çıkararak geleceğe yön vermeye yardım eder.",
+     "points": [
+      "Tarihte yer, zaman ve neden-sonuç ilişkisi önemlidir.",
+      "Tarih ortak hafızayı oluşturur.",
+      "Tarih bilinci eleştirel düşünmeyi geliştirir."
+     ]
+    },
+    {
+     "title": "Olay, olgu ve tarihsel zaman",
+     "text": "Olay, kısa sürede gerçekleşen, başlangıcı ve sonu belirli olan durumlardır; bir savaş veya bir antlaşmanın imzalanması gibi. Olgu ise uzun bir süreçte oluşan, kesin başlangıç ve bitiş tarihi verilemeyen gelişmelerdir; Türklerin Anadolu'ya yerleşmesi veya sanayileşme gibi. Tarihsel zaman, olayların kronolojik sırasını gösterir. Takvimler, zamanı ölçmek için toplumların geliştirdiği sistemlerdir. Tarihçiler zamanı daha kolay incelemek için çağlara ayırır: İlk Çağ, Orta Çağ, Yeni Çağ ve Yakın Çağ. Yazının bulunmasından önceki döneme tarih öncesi devirler, sonrasına tarih devirleri denir. Bu ayrımlar her toplum için aynı anda geçerli değildir.",
+     "points": [
+      "Olay kısa süreli, olgu uzun süreli bir süreçtir.",
+      "Yazının bulunması tarih devirlerini başlatır.",
+      "Kronoloji, olayları zaman sırasına koymaktır."
+     ]
+    },
+    {
+     "title": "Tarihsel bilginin üretimi",
+     "text": "Tarihçi, geçmişi kanıtlara dayanarak yeniden kurar. Kanıtlar yazılı kaynaklar (belge, kitabe, mektup, kronik) ve yazısız kaynaklar (alet, sikke, yapı, kemik) olabilir. Olayın yaşandığı döneme ait kaynaklara birincil kaynak, bu kaynaklardan yararlanılarak sonradan yazılan eserlere ikincil kaynak denir. Tarihçi önce konuyu belirler, sonra kaynakları toplar, kaynakları eleştirir yani güvenilirliğini sınar, ardından bilgileri yorumlayıp sentezler ve yazıya döker. Arşivler, belgelerin düzenli biçimde saklandığı yerlerdir. Tarihsel bilgi yeni kanıtlarla değişebilir; bu yüzden tarihçi tarafsız olmaya ve farklı kaynakları karşılaştırmaya özen gösterir.",
+     "points": [
+      "Birincil kaynak olay dönemine aittir.",
+      "Kaynak eleştirisi güvenilirliği sınar.",
+      "Tarihsel bilgi yeni kanıtlarla güncellenebilir.",
+      "Tarihe yardımcı bilimler: arkeoloji, nümizmatik, paleografya, kronoloji."
+     ]
+    },
+    {
+     "title": "Dijitalleşme ve tarih",
+     "text": "Dijitalleşme, tarih araştırmalarını büyük ölçüde değiştirmiştir. Arşiv belgeleri taranarak internet ortamına aktarılmakta, araştırmacılar dünyanın farklı yerlerindeki kaynaklara kolayca ulaşabilmektedir. Dijital haritalar, üç boyutlu modellemeler ve sanal müzeler geçmişi daha iyi görselleştirmemizi sağlar. Yapay zekâ, eski yazıların okunmasına ve çok sayıda belgenin hızla taranmasına yardımcı olabilir. Ancak dijital ortam bazı riskler de taşır: sahte belgeler ve görseller kolayca yayılabilir, yapay zekâ hatalı bilgi üretebilir. Bu nedenle dijital kaynaklarda da kaynağın kim tarafından oluşturulduğunu ve güvenilir olup olmadığını sorgulamak gerekir.",
+     "points": [
+      "Dijital arşivler erişimi kolaylaştırır.",
+      "Dijital kaynaklar da eleştirel sınamadan geçmelidir.",
+      "Yapay zekâ yardımcıdır ama yanılabilir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Tarih",
+     "meaning": "Geçmişi yer ve zaman göstererek, kanıtlara dayanarak inceleyen bilim."
+    },
+    {
+     "term": "Geçmiş",
+     "meaning": "Yaşanmış ve bitmiş olan her şey."
+    },
+    {
+     "term": "Olay",
+     "meaning": "Kısa sürede gerçekleşen, başı ve sonu belli gelişme."
+    },
+    {
+     "term": "Olgu",
+     "meaning": "Uzun süreçte oluşan, kesin tarihi verilemeyen gelişme."
+    },
+    {
+     "term": "Kanıt",
+     "meaning": "Geçmişe dair bilgi veren yazılı veya yazısız kaynak."
+    },
+    {
+     "term": "Arşiv",
+     "meaning": "Belgelerin düzenli olarak saklandığı kurum veya yer."
+    },
+    {
+     "term": "Tarihsel zaman",
+     "meaning": "Olayların kronolojik sırası ve dönemlendirilmesi."
+    },
+    {
+     "term": "Dijitalleşme",
+     "meaning": "Bilgi ve belgelerin elektronik ortama aktarılması."
+    }
+   ],
+   "example": {
+    "question": "Bir tarihçi Osmanlı dönemine ait bir padişah fermanı ile bu fermanı inceleyen günümüzde yazılmış bir makaleyi kullanıyor. Hangisi birincil, hangisi ikincil kaynaktır?",
+    "solution": "1. Ferman, olayın yaşandığı döneme aittir; bu yüzden birincil kaynaktır.\n2. Makale, birincil kaynaklardan yararlanılarak sonradan yazılmıştır; bu yüzden ikincil kaynaktır.\n3. Tarihçi her iki kaynağı da kaynak eleştirisinden geçirerek kullanmalıdır."
+   },
+   "remember": [
+    "Tarih kanıta dayanır.",
+    "Olay ile olgu farklıdır.",
+    "Birincil kaynak olay dönemine aittir.",
+    "Tarihçi tarafsız olmaya çalışır.",
+    "Dijital kaynaklar da sorgulanmalıdır."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 2,
+   "intro": "İnsanlar tarımı keşfedip yerleşik hayata geçince ilk şehirler, devletler ve medeniyetler ortaya çıktı. Bu ünitede Mezopotamya, Mısır, Anadolu, Yunan, Roma ve Türk medeniyetlerinin ekonomi, yönetim, hukuk, inanç, bilim ve sanat anlayışlarını öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Tarım Devrimi ve ilk yerleşmeler",
+     "text": "Cilalı Taş Devri'nde insanlar bitki yetiştirmeyi ve hayvanları evcilleştirmeyi öğrendi. Bu değişime Tarım Devrimi denir. Tarım, insanların yerleşik hayata geçmesini sağladı; ilk köyler ve ardından şehirler kuruldu. Anadolu'daki Çatalhöyük ve Göbeklitepe, bu dönemi anlamamız için önemli yerleşim ve kutsal alanlardır. Saban gibi araçlar üretimi artırdı. İhtiyaçtan fazla üretilen ürüne artı ürün denir. Artı ürün ticareti, iş bölümünü ve meslekleşmeyi doğurdu; zenginleşen toplumlarda mülkiyet, sınıflar ve yöneticiler ortaya çıktı. Tarım için su gerektiğinden ilk medeniyetler Dicle-Fırat, Nil, İndus ve Sarı Irmak gibi akarsu kenarlarında gelişti.",
+     "points": [
+      "Tarım yerleşik hayatı başlattı.",
+      "Artı ürün ticaret ve iş bölümünü doğurdu.",
+      "İlk medeniyetler akarsu boylarında kuruldu."
+     ]
+    },
+    {
+     "title": "Yönetim, ordu ve hukuk",
+     "text": "Eski Çağ medeniyetlerinde yönetim biçimleri farklıydı. Mezopotamya'da Sümerler şehir devletleri hâlinde yaşadı ve rahip-krallar tarafından yönetildi. Mısır'da firavun hem kral hem de tanrı olarak kabul edilirdi. Antik Yunan'da Atina'da demokrasi, Sparta'da askerî bir yönetim gelişti. Roma'da senato, devletin önemli kararlarında etkili bir meclisti. Hukuk, toplumsal düzeni sağlamak için geliştirildi. Babil kralı Hammurabi'nin kanunları, bilinen en eski yazılı kanunlar arasındadır ve sert cezalarıyla bilinir. Roma'da On İki Levha Kanunları yazıya geçirildi; Roma hukuku günümüz hukuk sistemlerini etkilemiştir. Hititlerde ise kanunlar, diğer pek çok döneme göre daha çok tazminata dayalıydı.",
+     "points": [
+      "Yazılı hukuk keyfî uygulamaları azaltır.",
+      "Roma hukuku günümüz hukukunu etkilemiştir.",
+      "Mısır'da yönetim teokratikti."
+     ]
+    },
+    {
+     "title": "İnanç, bilim ve sanat",
+     "text": "Eski Çağ'da inançlar bilim ve sanatı yönlendirdi. Sümerler çivi yazısını geliştirdi ve tapınak olarak kullanılan ziggurat adlı basamaklı yapılar inşa etti. Mısırlılar ölümden sonra yaşama inandıkları için firavunların mezarı olarak piramitleri yaptı ve mumyalama tekniğini geliştirdi; bu da tıp ve anatomi bilgisini artırdı. Nil taşkınlarının zamanını hesaplamak için güneş yılına dayalı takvim geliştirdiler ve hiyeroglif yazısını kullandılar. Mezopotamya'da gök cisimlerinin gözlenmesi astronomi ve matematiği geliştirdi. Antik Yunan'da ise felsefe, tarih yazımı, tiyatro ve heykel sanatı önemli ilerlemeler kaydetti. Anadolu'da Lidyalılar parayı ilk kullanan toplumlardan biri olarak bilinir.",
+     "points": [
+      "Çivi yazısı: Sümerler.",
+      "Piramit: Mısır, ziggurat: Mezopotamya.",
+      "Lidyalılar parayı kullanan ilk toplumlardandır."
+     ]
+    },
+    {
+     "title": "İlk Türk devletleri ve konargöçer yaşam",
+     "text": "Orta Asya'nın bozkır coğrafyası Türklerin konargöçer yaşam sürmesine yol açtı. Konargöçerler sürüleri için otlak arayarak mevsimlere göre yaylak ve kışlak arasında yer değiştirir, keçe çadırlarda yaşardı. Bu yaşam at kültürünü, hareketli bir orduyu ve dayanışmayı güçlendirdi. Türk devletlerinde hükümdara kağan denirdi. Devletin önemli meselelerinin görüşüldüğü meclise kurultay, yazısız hukuk kurallarına töre adı verilirdi. Asya Hun hükümdarı Mete Han, orduyu onlu sisteme göre düzenledi; bu sistem birçok devlet tarafından örnek alındı. Göktürklerden kalan Orhun Yazıtları, Türk adının geçtiği ve Türkçenin bilinen en eski yazılı belgeleri arasındadır.",
+     "points": [
+      "Onlu sistem: ordunun 10, 100, 1000, 10 000'lik birliklere ayrılması.",
+      "Kurultay: devlet meclisi.",
+      "Töre: yazısız hukuk kuralları.",
+      "Orhun Yazıtları Göktürklere aittir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Medeniyet",
+     "meaning": "Bir toplumun maddi ve manevi alanda ulaştığı gelişmişlik düzeyi."
+    },
+    {
+     "term": "Artı ürün",
+     "meaning": "İhtiyaçtan fazla üretilen ürün."
+    },
+    {
+     "term": "Ziggurat",
+     "meaning": "Mezopotamya'da tapınak ve gözlem yeri olarak kullanılan basamaklı yapı."
+    },
+    {
+     "term": "Piramit",
+     "meaning": "Mısır'da firavunlar için yapılan anıtsal mezar."
+    },
+    {
+     "term": "Senato",
+     "meaning": "Roma'da devlet işlerinde etkili olan meclis."
+    },
+    {
+     "term": "Kağan",
+     "meaning": "İlk Türk devletlerinde hükümdar unvanı."
+    },
+    {
+     "term": "Kurultay",
+     "meaning": "Türk devletlerinde önemli kararların görüşüldüğü meclis."
+    },
+    {
+     "term": "Töre",
+     "meaning": "Türklerde yazısız hukuk kuralları."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Tarım Devrimi yerleşik hayatı başlattı.",
+    "İlk medeniyetler akarsu kenarlarında kuruldu.",
+    "Yazılı hukuk toplumsal düzeni güçlendirdi.",
+    "İnançlar bilim ve sanatı etkiledi.",
+    "Mete Han onlu sistemi kurdu."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 3,
+   "intro": "Orta Çağ, büyük göçlerin, yeni devletlerin ve dinlerin dünyayı yeniden şekillendirdiği bir dönemdir. Bu ünitede Kavimler Göçü'nü, Avrupa'da feodaliteyi, İslamiyet'in doğuşunu, İslam devletlerini, ticaret yollarını ve Orta Çağ'da bilim ve sanatın gelişimini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Kitlesel göçler ve Avrupa'da feodalite",
+     "text": "Hunların 375 yılında Avrupa'ya ilerlemesiyle Germen kavimleri yerlerinden ayrılarak Roma topraklarına girdi; bu harekete Kavimler Göçü denir. Bu göç sonucunda Roma İmparatorluğu zayıfladı ve Batı Roma 476 yılında yıkıldı. Avrupa'nın siyasi ve etnik yapısı değişti, bugünkü Avrupa milletlerinin temelleri atıldı. Merkezî otoritenin zayıflaması feodaliteyi ortaya çıkardı. Feodal düzende toprak sahibi senyörler kendi bölgelerinde güçlüydü; kaleler inşa eder, köylüleri korur, buna karşılık onlardan vergi ve hizmet alırlardı. Toplum soylular, din adamları ve köylüler gibi katı sınıflara ayrılmıştı. Kilise siyasi ve kültürel hayatta çok etkiliydi.",
+     "points": [
+      "Kavimler Göçü 375'te başladı.",
+      "Batı Roma 476'da yıkıldı.",
+      "Feodalitede kral zayıf, senyör güçlüydü."
+     ]
+    },
+    {
+     "title": "İslam devletleri: yönetim ve ordu",
+     "text": "İslamiyet, 7. yüzyılda Arap Yarımadası'nda doğdu. Hz. Muhammed'in 622'de Mekke'den Medine'ye göçüne hicret denir ve bu olay Hicri takvimin başlangıcıdır. Hz. Muhammed'den sonra Dört Halife Dönemi'nde İslam toprakları hızla genişledi. Halifeliğe hilafet denir. Emeviler döneminde Arap olmayan Müslümanlara mevali denildi ve onlara ayrımcı davranıldı; bu durum huzursuzluklara yol açtı. Abbasiler döneminde farklı toplumlar yönetimde daha fazla yer aldı, Türkler orduda ve devlet kademelerinde yükseldi. 751 Talas Savaşı'ndan sonra Türkler arasında İslamiyet yayılmaya başladı. Karahanlılar, İslamiyet'i resmî din olarak kabul eden ilk Türk devletidir. Devlet işlerinin görüşüldüğü kurula divan denirdi.",
+     "points": [
+      "Hicret 622'de gerçekleşti.",
+      "Mevali politikası Emevilerin zayıflamasına yol açtı.",
+      "Karahanlılar ilk Müslüman Türk devletidir."
+     ]
+    },
+    {
+     "title": "Ticaret yolları",
+     "text": "Orta Çağ'da kıtalar arasındaki ticaret büyük kara ve deniz yollarıyla yapılırdı. İpek Yolu, Çin'den başlayıp Orta Asya, İran ve Anadolu üzerinden Avrupa'ya uzanırdı; ipek, porselen ve değerli kumaşlar taşınırdı. Baharat Yolu ise Hindistan ve Güneydoğu Asya'dan baharatları Kızıldeniz ve Basra Körfezi üzerinden Akdeniz'e ulaştırırdı. Bu yollar üzerinde şehirler zenginleşti; tüccarların güvenle konaklayabilmesi için kervansaraylar kuruldu. Ticaret yalnızca mal değil, fikir, din, teknoloji ve kültür alışverişini de sağladı; kâğıt, pusula ve barut gibi buluşlar bu yollarla yayıldı. Ticaret yollarına hâkim olmak devletlere büyük ekonomik güç kazandırdığı için bu yollar uğruna pek çok mücadele yaşandı.",
+     "points": [
+      "Kervan: birlikte yolculuk eden tüccar topluluğu.",
+      "Kervansaraylar ticareti güvenli hâle getirdi.",
+      "Ticaret yolları kültür alışverişini artırdı."
+     ]
+    },
+    {
+     "title": "Bilim, kültür ve sanat",
+     "text": "Orta Çağ'da İslam dünyası bilimde büyük ilerleme kaydetti. Bağdat'taki Beytü'l-Hikme'de Yunanca ve diğer dillerdeki eserler Arapçaya çevrildi. Harezmi cebir alanında, İbn Sina tıpta, Farabi felsefede, Biruni astronomi ve coğrafyada önemli eserler verdi. Bu eserler daha sonra Avrupa'ya da ulaştı. Türk-İslam dünyasında Yusuf Has Hacib'in Kutadgu Bilig'i ve Kaşgarlı Mahmud'un Divanü Lügati't-Türk'ü önemli eserlerdir. Avrupa'da ise bilgi, kilisenin öğretileriyle sınırlandırılmıştı. Dinî inançları akıl yoluyla kanıtlamaya çalışan, sorgulamaya kapalı bu düşünce anlayışına skolastik düşünce denir. Bu nedenle Orta Çağ Avrupa'sında bilim, İslam dünyasına göre daha yavaş gelişti.",
+     "points": [
+      "Beytü'l-Hikme bir çeviri ve bilim merkezidir.",
+      "İbn Sina'nın tıp eserleri Avrupa'da uzun süre okutuldu.",
+      "Skolastik düşünce bilimsel gelişmeyi yavaşlattı."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Feodalite",
+     "meaning": "Orta Çağ Avrupa'sında toprak sahibi senyörlerin güçlü olduğu yönetim ve toplum düzeni."
+    },
+    {
+     "term": "Hicret",
+     "meaning": "Hz. Muhammed'in 622'de Mekke'den Medine'ye göçü."
+    },
+    {
+     "term": "Hilafet",
+     "meaning": "İslam dünyasında halifelik makamı."
+    },
+    {
+     "term": "Mevali",
+     "meaning": "Emeviler döneminde Arap olmayan Müslümanlara verilen ad."
+    },
+    {
+     "term": "Divan",
+     "meaning": "Devlet işlerinin görüşüldüğü kurul."
+    },
+    {
+     "term": "Kale",
+     "meaning": "Savunma amacıyla yapılan sur ve burçlarla çevrili yapı."
+    },
+    {
+     "term": "Kervansaray",
+     "meaning": "Ticaret yolları üzerinde kervanların konakladığı yapı."
+    },
+    {
+     "term": "Skolastik düşünce",
+     "meaning": "Orta Çağ Avrupa'sında kilise öğretisine bağlı, sorgulamaya kapalı düşünce."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Kavimler Göçü Avrupa'nın yapısını değiştirdi.",
+    "Feodalite merkezî otoritenin zayıflığından doğdu.",
+    "Talas Savaşı'ndan sonra Türkler arasında İslamiyet yayıldı.",
+    "Ticaret yolları kültür alışverişini sağladı.",
+    "İslam dünyası Orta Çağ'da bilimin merkezlerinden biriydi."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 1,
+   "intro": "Bu ünitede Büyük Selçuklu Devleti'nin kuruluşundan Osmanlı Beyliği'nin ortaya çıkışına kadar geçen süreci öğreniyoruz. Türklerin Anadolu'yu yurt edinmesini, Haçlı Seferleri'ni, Moğol istilasını ve Türk-İslam medeniyetinin Anadolu'daki eserlerini inceliyoruz.",
+   "sections": [
+    {
+     "title": "Önemli savaşlar ve Anadolu'nun yurt edinilmesi",
+     "text": "1040 Dandanakan Savaşı'nda Selçuklular Gaznelileri yendi ve Büyük Selçuklu Devleti kuruldu. 1071 Malazgirt Savaşı'nda Sultan Alparslan, Bizans ordusunu yendi; bu zaferle Anadolu'nun kapıları Türklere açıldı. Kısa süre sonra Türkiye Selçuklu Devleti kuruldu. Anadolu'da Türk varlığına tepki olarak Avrupa'dan Haçlı Seferleri düzenlendi. 1176 Miryokefalon Savaşı'nda Türkiye Selçukluları Bizans'ı yendi ve Anadolu'nun kesin olarak Türk yurdu olduğu kabul edildi. 1243 Kösedağ Savaşı'nda ise Moğollara yenilen Türkiye Selçukluları zayıfladı ve Anadolu'da beylikler dönemi başladı. Bu dönemde Avrupalılar Anadolu'ya Türkiye adını vermeye başladı.",
+     "points": [
+      "1040 Dandanakan: Büyük Selçuklu kuruldu.",
+      "1071 Malazgirt: Anadolu'nun kapıları açıldı.",
+      "1176 Miryokefalon: Anadolu kesin Türk yurdu oldu.",
+      "1243 Kösedağ: Selçuklular Moğol hâkimiyetine girdi."
+     ]
+    },
+    {
+     "title": "Devlet ve ordu teşkilatı",
+     "text": "Selçuklularda devlet yönetiminde eski Türk gelenekleri ile İslam devlet anlayışı birleşti. Hükümdarlar sultan unvanını kullandı. Ülke hanedanın ortak malı sayıldığı için hükümdar ailesinin üyeleri yönetimde pay sahibiydi; bu anlayış zaman zaman taht kavgalarına yol açtı. Devlet işleri divanda görüşülür, vezir divana başkanlık ederdi. Hukuk, şer'i hukuk ve geleneklere dayanan örf hukukundan oluşuyordu. Ordu; sultanın maaşlı askerleri, ikta sisteminden yetişen askerler ve Türkmen kuvvetlerinden oluşurdu. İkta sistemi, devletin bazı toprakların vergi gelirini askerlere ve devlet görevlilerine vermesiydi. Bu sistem sonraki Türk devletlerine, özellikle Osmanlı tımar sistemine örnek oldu.",
+     "points": [
+      "Ülke hanedanın ortak malıydı.",
+      "İkta, Osmanlı tımarının öncüsüdür.",
+      "Örf, töre ve geleneklere dayalı hukuktur."
+     ]
+    },
+    {
+     "title": "Ekonomi, şehir ve kurumlar",
+     "text": "Türkiye Selçukluları ticarete büyük önem verdi. Antalya, Sinop ve Alanya gibi limanlar alındı, yollar üzerinde kervansaraylar yapıldı. Tüccarlar devlet güvencesi altındaydı; yolda malı kaybolan tüccarın zararı devlet tarafından karşılanırdı. Şehirlerde esnaf ve zanaatkârlar Ahilik teşkilatı altında örgütlendi. Ahilik, fütüvvet geleneğinden beslenen, meslek ahlakını, dürüstlüğü ve dayanışmayı esas alan bir esnaf teşkilatıydı. Medreseler eğitim kurumlarıydı; Nizamiye Medreseleri bu kurumların önemli örneklerindendir. Şifahaneler hastanelerdi; Kayseri'deki Gevher Nesibe Şifahanesi ve Divriği Darüşşifası ünlüdür. Tekkeler ise tasavvufi eğitim verilen ve halkın kaynaştığı yerlerdi.",
+     "points": [
+      "Ahilik: dürüst üretim ve dayanışma.",
+      "Kervansaraylar ticaretin güvencesiydi.",
+      "Divriği Ulu Camii ve Darüşşifası UNESCO Dünya Mirası Listesi'ndedir."
+     ]
+    },
+    {
+     "title": "Anadolu'nun Türkleşmesi ve İslamlaşması",
+     "text": "Malazgirt'ten sonra Türkmen boyları büyük gruplar hâlinde Anadolu'ya göç etti. Fetih ve gaza anlayışıyla hareket eden beyler sınırları genişletti. Ancak Anadolu'nun Türkleşmesi yalnızca askerî zaferlerle değil, kurumlar ve kültürle gerçekleşti. Dervişler ve Ahiler yerleştikleri yerlerde zaviyeler kurarak halkı İslamiyet'e ısındırdı. Hoca Ahmet Yesevi'nin öğrencileri, Mevlana, Hacı Bektaş-ı Veli ve Yunus Emre gibi gönül insanları hoşgörü ve sevgi mesajlarıyla Anadolu'nun manevi iklimini şekillendirdi. Camiler, medreseler, kervansaraylar ve şifahaneler Türk-İslam medeniyetinin Anadolu'daki kalıcı izleri oldu.",
+     "points": [
+      "Türkleşme göç, iskân ve kültürle kalıcı oldu.",
+      "Dervişler ve Ahiler önemli rol oynadı.",
+      "Yunus Emre Türkçeyi ve sevgi felsefesini yaydı."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Sultan",
+     "meaning": "Selçuklularda kullanılan hükümdar unvanı."
+    },
+    {
+     "term": "Fetih",
+     "meaning": "Bir yerin savaşla alınıp yönetime katılması."
+    },
+    {
+     "term": "Gaza",
+     "meaning": "Din uğruna yapılan savaş."
+    },
+    {
+     "term": "Haçlı",
+     "meaning": "Kutsal topraklar amacıyla Avrupa'dan düzenlenen seferlere katılan."
+    },
+    {
+     "term": "Ahilik",
+     "meaning": "Esnaf ve zanaatkârları ahlak ve dayanışma ilkeleriyle örgütleyen teşkilat."
+    },
+    {
+     "term": "Fütüvvet",
+     "meaning": "Cömertlik, yiğitlik ve ahlaki erdemleri esas alan gelenek."
+    },
+    {
+     "term": "Medrese",
+     "meaning": "Türk-İslam devletlerinde eğitim kurumu."
+    },
+    {
+     "term": "Şifahane",
+     "meaning": "Hastane."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Malazgirt Zaferi Anadolu'nun kapılarını açtı.",
+    "Miryokefalon ile Anadolu Türk yurdu oldu.",
+    "Kösedağ Savaşı beylikler dönemini başlattı.",
+    "Ahilik ekonomik ve ahlaki bir kurumdur.",
+    "Anadolu kurumlar ve kültürle Türkleşti."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 2,
+   "intro": "Söğüt ve Domaniç çevresinde küçük bir beylik olarak doğan Osmanlılar, yaklaşık bir buçuk yüzyıl içinde güçlü bir devlete dönüştü. Bu ünitede Osmanlı'nın kuruluşu hakkındaki görüşleri, Anadolu ve Rumeli'deki mücadeleleri, devletleşmeyi sağlayan kurumları ve İstanbul'un fethine giden süreci öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Kuruluş ve tarihçilerin görüşleri",
+     "text": "Osmanlı Beyliği, 1299'da Osman Bey önderliğinde Bizans sınırında kuruldu. Tarihçiler Osmanlı'nın kısa sürede büyümesini farklı şekillerde açıklamıştır. Bazı tarihçiler gaza anlayışını, bazıları Türkmen boylarının desteğini, bazıları ise Bizans'ın zayıflığını ve beyliğin coğrafi konumunu öne çıkarır. Bizans sınırında olması, Osmanlı'nın fetihlere yönelmesini ve Anadolu'daki diğer beyliklerle çatışmadan büyümesini sağladı. Ahiler, dervişler ve Türkmenlerin desteği, hoşgörülü yönetim anlayışı ve devleti hanedanın ortak malı saymayan anlayışın zamanla yerleşmesi de bu başarıda etkili oldu. Tek bir neden yerine pek çok etkenin birlikte rol oynadığı kabul edilir.",
+     "points": [
+      "Kuruluş tarihi 1299 kabul edilir.",
+      "Bizans sınırında olmak büyük avantajdı.",
+      "Kuruluşu tek bir nedenle açıklamak doğru değildir."
+     ]
+    },
+    {
+     "title": "Anadolu ve Rumeli'de mücadeleler",
+     "text": "Orhan Bey döneminde Bursa alındı ve başkent yapıldı; 1354'te Gelibolu'nun alınmasıyla Rumeli'ye geçildi. I. Murat döneminde Edirne alındı ve başkent oldu; 1389 I. Kosova Savaşı'nda Balkan devletleri yenildi. Yıldırım Bayezid, 1396 Niğbolu Savaşı'nda Haçlı ordusunu yendi ve İstanbul'u kuşattı. Ancak 1402 Ankara Savaşı'nda Timur'a yenildi ve devlet Fetret Devri adı verilen taht kavgaları dönemine girdi. Çelebi Mehmet devleti yeniden birleştirdi. II. Murat döneminde 1444 Varna ve 1448 II. Kosova savaşlarıyla Balkanlardaki Osmanlı hâkimiyeti güçlendi. 1453'te II. Mehmet İstanbul'u fethetti; bu olayla Orta Çağ'ın sona erdiği kabul edilir.",
+     "points": [
+      "1354 Gelibolu: Rumeli'ye geçiş.",
+      "1402 Ankara Savaşı: Fetret Devri başladı.",
+      "1453 İstanbul'un fethi: Orta Çağ'ın sonu."
+     ]
+    },
+    {
+     "title": "Ordu, hukuk ve toprak sistemi",
+     "text": "Osmanlı'nın beylikten devlete dönüşmesinde kurumlar belirleyici oldu. Orhan Bey döneminde yaya ve müsellem adı verilen ilk düzenli ordu kuruldu. I. Murat döneminde savaş esirleri ve devşirme sistemiyle Hristiyan ailelerden alınan çocuklar eğitilerek kapıkulu askeri yetiştirildi; yeniçeriler bu ordunun piyade sınıfıdır. Kapıkulu, doğrudan padişaha bağlı, maaşlı askerdi. Tımar sistemi ise fethedilen toprakların vergi gelirini sipahilere vermekti; sipahiler bu gelirle asker besler ve savaşa katılırdı. Böylece devlet hazineden para çıkarmadan büyük bir ordu bulundurur, toprakları düzenli yönetir ve üretimi sürdürürdü. Hukukta şer'i hukukun yanında padişahların kanunnameleriyle örfi hukuk uygulandı.",
+     "points": [
+      "Kapıkulu: padişaha bağlı maaşlı ordu.",
+      "Tımar: toprak geliriyle asker yetiştirme.",
+      "Devşirme: kapıkulu askerinin kaynağı."
+     ]
+    },
+    {
+     "title": "Kalıcılık politikaları ve ilim-irfan geleneği",
+     "text": "Osmanlılar fethettikleri yerlerde kalıcı olmak için çeşitli politikalar izledi. İskân politikasıyla Anadolu'dan getirilen Türkmen aileler Rumeli'ye yerleştirildi; böylece Rumeli Türklüğü oluştu. İstimalet politikasıyla fethedilen yerlerin halkına din, dil ve geleneklerinde serbestlik tanındı, vergiler hafifletildi ve adil yönetim sağlandı; bu da halkın Osmanlı yönetimini benimsemesini kolaylaştırdı. Vakıflar; cami, medrese, imaret, köprü ve çeşme gibi hizmetleri sağlayarak şehirlerin gelişmesine katkıda bulundu. İlk Osmanlı medresesi Orhan Bey döneminde İznik'te kuruldu. Şeyh Edebali gibi gönül insanları ve âlimler, devletin manevi temelini oluşturan ilim ve irfan geleneğini güçlendirdi.",
+     "points": [
+      "İskân: Türk nüfusun yeni topraklara yerleştirilmesi.",
+      "İstimalet: halkın gönlünü kazanma politikası.",
+      "Vakıflar sosyal hizmetleri karşıladı."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Devşirme sistemi",
+     "meaning": "Hristiyan ailelerden alınan çocukların eğitilerek devlet ve ordu hizmetine alınması."
+    },
+    {
+     "term": "Kapıkulu",
+     "meaning": "Doğrudan padişaha bağlı, maaşlı asker ve görevliler."
+    },
+    {
+     "term": "Tımar",
+     "meaning": "Toprak vergi gelirinin asker beslemek karşılığında sipahilere verilmesi."
+    },
+    {
+     "term": "İskân",
+     "meaning": "Fethedilen yerlere Türk nüfusunun yerleştirilmesi."
+    },
+    {
+     "term": "İstimalet",
+     "meaning": "Fethedilen yerlerin halkının gönlünü kazanma politikası."
+    },
+    {
+     "term": "Rumeli Türklüğü",
+     "meaning": "İskân politikasıyla Balkanlarda oluşan Türk nüfusu."
+    },
+    {
+     "term": "Vakıf",
+     "meaning": "Bir malın gelirinin hayır ve toplum hizmetine ayrılması."
+    },
+    {
+     "term": "İrfan",
+     "meaning": "Bilgi ile manevi olgunluğun birleşimi."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Osmanlı Bizans sınırında bir beylik olarak doğdu.",
+    "1402 Ankara Savaşı Fetret Devri'ni başlattı.",
+    "Tımar sistemi ordu, ekonomi ve yönetimi birleştirdi.",
+    "İskân ve istimalet fetihleri kalıcı kıldı.",
+    "1453 fethi bir çağ değiştirdi."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 3,
+   "intro": "İstanbul'un fethinden II. Viyana Kuşatması'na kadar geçen dönemde Osmanlı Devleti üç kıtaya yayılan bir dünya gücü oldu. Bu ünitede Osmanlı'nın cihan devletine dönüşmesini, yönetim ve ordudaki değişimleri, Avrupa'da sömürgeciliğin başlamasını, isyanları ve bu dönemin bilim, kültür ve sanatını öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Cihan devletine yükseliş",
+     "text": "Fatih Sultan Mehmet İstanbul'u başkent yaptı ve Balkanlarda, Karadeniz'de fetihlerini sürdürdü. Yavuz Sultan Selim 1514 Çaldıran Savaşı'nda Safevileri yendi; 1516 Mercidabık ve 1517 Ridaniye savaşlarıyla Memlükleri yıkarak Suriye, Filistin ve Mısır'ı aldı. Böylece halifelik Osmanlılara geçti ve kutsal şehirler Osmanlı korumasına girdi. Kanuni Sultan Süleyman döneminde 1526 Mohaç Savaşı ile Macaristan alındı, 1529'da Viyana kuşatıldı. 1538 Preveze Deniz Savaşı'nda Barbaros Hayreddin Paşa Haçlı donanmasını yendi ve Akdeniz bir Türk gölü hâline geldi. Bu başarılarla Osmanlı, cihanşümul yani dünya çapında bir devlet anlayışına ulaştı.",
+     "points": [
+      "1514 Çaldıran: Safevilere karşı zafer.",
+      "1517 Ridaniye: halifelik Osmanlılara geçti.",
+      "1526 Mohaç: Macaristan alındı.",
+      "1538 Preveze: Akdeniz'de üstünlük."
+     ]
+    },
+    {
+     "title": "Yönetim ve ordudaki değişim",
+     "text": "Fatih döneminde merkeziyetçi yönetim güçlendirildi. Kanunnameler hazırlandı, Divan-ı Hümayun'a padişah yerine veziriazam başkanlık etmeye başladı. Veziriazam, padişahın mutlak vekili sayılan en yetkili devlet adamıydı; vezirler ise divanda görev alan üst düzey yöneticilerdi. Kanuni döneminde hukuk düzenlemeleri o kadar ön plana çıktı ki Kanuni unvanını aldı. 17. yüzyıla gelindiğinde taht değişikliğinde ekber ve erşed sistemine geçildi; yani tahta hanedanın en yaşlı ve olgun üyesi çıkmaya başladı. Kapıkulu ordusunun sayısı arttı, tımar sistemi ise bozulmaya başladı. Devlet bu sorunlara karşı ıslahatlar, yani düzeltme çalışmaları yaptı; IV. Murat ve Köprülü Mehmet Paşa'nın ıslahatları bunlara örnektir.",
+     "points": [
+      "Veziriazam: padişahın mutlak vekili.",
+      "Ekber ve erşed: en yaşlı ve olgun hanedan üyesinin tahta geçmesi.",
+      "Islahatlar devlet düzenini yeniden kurmayı amaçladı."
+     ]
+    },
+    {
+     "title": "Coğrafi keşifler ve sömürgecilik",
+     "text": "15. yüzyılın sonlarında Avrupalılar yeni ticaret yolları aramaya başladı. 1492'de Kristof Kolomb Amerika kıtasına ulaştı, 1498'de Vasco da Gama Ümit Burnu'nu dolaşarak Hindistan'a vardı. Bu keşiflerle İspanya, Portekiz ve ardından İngiltere, Fransa ve Hollanda yeni topraklarda koloniler kurdu. Koloni, başka bir ülkenin yönetimi altına alınmış topraklardır. Sömürgecilik, güçlü devletlerin bu toprakların kaynaklarını ve insanlarını kendi çıkarları için kullanmasıdır. Amerika'nın yerli halkları büyük kayıplar yaşadı, Afrika'dan milyonlarca insan köle olarak taşındı. Avrupa'ya akan altın ve gümüş Avrupa ekonomisini güçlendirdi. Ticaret yollarının değişmesi zamanla Osmanlı'nın ticaret gelirlerini de etkiledi.",
+     "points": [
+      "1492 Kolomb Amerika'ya ulaştı.",
+      "Sömürgecilik yerli halklara büyük acılar yaşattı.",
+      "Ticaret yolları Akdeniz'den okyanuslara kaydı."
+     ]
+    },
+    {
+     "title": "İsyanlar ve bilim-sanat",
+     "text": "16. yüzyılın sonu ve 17. yüzyılda Anadolu'da Celali isyanları görüldü. Bu isyanların nedenleri arasında tımar sisteminin bozulması, ağır vergiler, işsiz kalan medrese öğrencileri ve askerler, nüfus artışı ve ekonomik sorunlar sayılabilir. İsyanlar sonucunda köylüler topraklarını terk etti, üretim azaldı ve devlet otoritesi zayıfladı. Bu dönemde İstanbul'da yeniçeri ayaklanmaları da yaşandı. Aynı dönem Osmanlı bilim ve sanatının parlak yıllarıydı. Mimar Sinan, İstanbul'da Süleymaniye ve Edirne'de Selimiye camileri gibi şaheserler yaptı. Takiyüddin İstanbul'da bir rasathane kurdu. Piri Reis Kitab-ı Bahriye'yi yazdı, Matrakçı Nasuh minyatürleri ve hesap eserleriyle tanındı. Fatih'in kurduğu Sahn-ı Seman medreseleri yüksek öğretimin merkezi oldu.",
+     "points": [
+      "Celali isyanları tımar sisteminin bozulmasıyla ilgilidir.",
+      "Selimiye Camii Mimar Sinan'ın ustalık eseridir.",
+      "Takiyüddin İstanbul'da rasathane kurdu."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Cihanşümul",
+     "meaning": "Dünya çapında, evrensel nitelikte."
+    },
+    {
+     "term": "Vezir",
+     "meaning": "Divanda görev alan üst düzey devlet yöneticisi."
+    },
+    {
+     "term": "Islahat",
+     "meaning": "Bozulan düzeni düzeltmek için yapılan yenilik ve düzenlemeler."
+    },
+    {
+     "term": "İsyan",
+     "meaning": "Devlet otoritesine karşı silahlı ayaklanma."
+    },
+    {
+     "term": "Celali",
+     "meaning": "16-17. yüzyıllarda Anadolu'da devlete karşı ayaklananlara verilen ad."
+    },
+    {
+     "term": "Koloni",
+     "meaning": "Başka bir ülkenin yönetimi altına alınmış toprak."
+    },
+    {
+     "term": "Sömürgecilik",
+     "meaning": "Güçlü devletlerin başka toprakların kaynak ve insanlarını kendi çıkarına kullanması."
+    },
+    {
+     "term": "Rasathane",
+     "meaning": "Gök cisimlerinin gözlemlendiği yer, gözlemevi."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Yavuz döneminde halifelik Osmanlılara geçti.",
+    "Kanuni döneminde Osmanlı en geniş güç dönemlerinden birini yaşadı.",
+    "Coğrafi keşifler sömürgeciliği başlattı.",
+    "Celali isyanları üretimi ve otoriteyi sarstı.",
+    "Mimar Sinan klasik Osmanlı mimarisinin zirvesidir."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 1,
+   "intro": "1683 II. Viyana Kuşatması'ndan sonra Osmanlı Devleti toprak kaybetmeye ve Avrupa'yı daha yakından tanımaya başladı. Bu ünitede 18. yüzyılın savaş ve antlaşmalarını, Lale Devri'ndeki yenilikleri, iki büyük depremi ve dünyayı değiştiren Sanayi Devrimi'ni öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Savaşlar ve antlaşmalar",
+     "text": "1683 II. Viyana Kuşatması'nın başarısız olmasıyla Avrupa devletleri Osmanlı'ya karşı birleşti. Uzun savaşların sonunda 1699 Karlofça Antlaşması imzalandı; Osmanlı ilk kez büyük çapta toprak kaybetti ve Macaristan'ın büyük kısmı elden çıktı. 1718 Pasarofça Antlaşması'yla da toprak kayıpları sürdü. 1739 Belgrad Antlaşması ile Belgrad geri alındı ve Osmanlı bir süre rahatladı. Ancak 1768-1774 Osmanlı-Rus Savaşı sonunda imzalanan Küçük Kaynarca Antlaşması ağır sonuçlar doğurdu: Kırım bağımsız oldu ve Rusya, Osmanlı'daki Ortodoks halkın haklarını gözetme bahanesiyle iç işlere karışma imkânı buldu. Bu dönemde Osmanlı, kaybettiği toprakları geri alma politikası izledi.",
+     "points": [
+      "1699 Karlofça: ilk büyük toprak kaybı.",
+      "1739 Belgrad: Osmanlı'nın kazançlı antlaşması.",
+      "1774 Küçük Kaynarca: Kırım bağımsız oldu."
+     ]
+    },
+    {
+     "title": "Lale Devri",
+     "text": "1718 Pasarofça Antlaşması ile başlayıp 1730 Patrona Halil İsyanı ile sona eren döneme Lale Devri denir. Bu dönemde padişah III. Ahmet ve sadrazam Nevşehirli Damat İbrahim Paşa'dır. Barış ortamında Avrupa'yı tanımak amacıyla Paris gibi şehirlere geçici elçiler gönderildi; elçilerin gözlemlerini yazdığı eserlere sefaretname denir. İbrahim Müteferrika ilk Türk matbaasını kurdu ve kitap basmaya başladı. Kâğıt ve kumaş atölyeleri açıldı, itfaiye teşkilatı kuruldu, çiçek aşısı denendi. Lale ve çiçek yetiştiriciliği, bahçe ve köşk mimarisi yaygınlaştı. Avrupa'da görülen barok ve rokoko gibi süslemeci sanat akımları Osmanlı mimarisini de etkiledi. Ancak lüks ve gösterişin artması halkta huzursuzluk yarattı ve dönem bir isyanla sona erdi.",
+     "points": [
+      "İlk Türk matbaası İbrahim Müteferrika tarafından kuruldu.",
+      "Sefaretnameler Avrupa'yı tanımaya yardım etti.",
+      "Lale Devri Patrona Halil İsyanı ile sona erdi."
+     ]
+    },
+    {
+     "title": "Lizbon ve İstanbul depremleri",
+     "text": "1755'te Portekiz'in başkenti Lizbon'da büyük bir deprem meydana geldi. Depremi tsunami ve yangınlar izledi, şehir büyük ölçüde yıkıldı. Bu deprem Avrupa'da büyük tartışmalar başlattı; düşünürler doğal afetleri dinî açıklamalar yerine bilimsel yollarla anlamaya yöneldi ve depremin sistemli olarak incelenmesi gündeme geldi. Yeniden yapılanmada depreme dayanıklı yapı teknikleri denendi. 1766'da İstanbul'da da büyük bir deprem yaşandı; Fatih Camii ve pek çok yapı zarar gördü. Osmanlı Devleti hasarlı yapıları onararak şehri yeniden imar etti. İki deprem karşılaştırıldığında, afetlerin hem toplumların düşünce dünyasını hem de şehir planlamasını etkilediği görülür.",
+     "points": [
+      "Lizbon depremi bilimsel deprem araştırmalarına ilgiyi artırdı.",
+      "1766 İstanbul depremi büyük onarım çalışmalarına yol açtı.",
+      "Afetler toplumların düşüncesini de değiştirir."
+     ]
+    },
+    {
+     "title": "Sanayi Devrimi",
+     "text": "Sanayi Devrimi, 18. yüzyılın ikinci yarısında İngiltere'de başlayan ve el emeğinin yerini makinelerin aldığı büyük dönüşümdür. Buhar makinesinin geliştirilmesi, dokuma sanayisinde makineleşme, kömür ve demir kaynaklarının bolluğu, sömürgelerden gelen sermaye ve ham madde bu devrimin nedenleri arasındadır. Sonuçları çok yönlüdür: seri üretim başladı, fabrikalar kuruldu, kırdan kente göç hızlandı ve işçi sınıfı ortaya çıktı. Ham madde ve pazar arayışı sömürgeciliği artırdı. Demir yolu ve buharlı gemilerle ulaşım hızlandı. Osmanlı Devleti ise ucuz Avrupa mallarıyla rekabet edemeyen el tezgâhlarının zarar görmesiyle ekonomik açıdan olumsuz etkilendi ve açık pazar hâline gelmeye başladı. Bu dönemde Osmanlı'da askerî alanda modernleşme için hendesehane gibi okullar açıldı.",
+     "points": [
+      "Sanayi Devrimi İngiltere'de başladı.",
+      "Seri üretim ve şehirleşme hızlandı.",
+      "Osmanlı'da yerel üretim zarar gördü."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Matbaa",
+     "meaning": "Yazı ve resimleri baskı yoluyla çoğaltan basımevi."
+    },
+    {
+     "term": "Sefaret",
+     "meaning": "Elçilik; sefaretname elçilerin gözlemlerini anlattığı eserdir."
+    },
+    {
+     "term": "Hendesehane",
+     "meaning": "18. yüzyılda Osmanlı'da açılan geometri ve mühendislik okulu."
+    },
+    {
+     "term": "Barok",
+     "meaning": "Hareketli ve gösterişli süslemeleriyle bilinen Avrupa sanat akımı."
+    },
+    {
+     "term": "Rokoko",
+     "meaning": "Baroktan doğan, daha zarif ve süslü Avrupa sanat üslubu."
+    },
+    {
+     "term": "Devrim",
+     "meaning": "Bir alanda köklü ve hızlı değişim."
+    },
+    {
+     "term": "Sanayileşme",
+     "meaning": "Üretimin makine ve fabrikalarla yapılmaya başlanması."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Karlofça ile Osmanlı'nın toprak kayıpları başladı.",
+    "Küçük Kaynarca, Rusya'ya iç işlere karışma imkânı verdi.",
+    "Lale Devri'nde matbaa kuruldu.",
+    "Afetler bilimsel düşünceyi etkiledi.",
+    "Sanayi Devrimi sömürgeciliği artırdı."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 2,
+   "intro": "Fransız İhtilali'yle yayılan yeni fikirler, imparatorlukları derinden etkiledi. Bu ünitede ihtilalin doğurduğu ideolojileri, Osmanlı'nın bu fikirlere karşı devleti korumak için yaptığı reformları, Tanzimat ve Meşrutiyet dönemlerini ve bilim, sanat ve teknolojideki yenilikleri öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Fransız İhtilali ve yeni ideolojiler",
+     "text": "1789'da Fransa'da halk, krallığın baskıcı yönetimine, ağır vergilere ve sınıf ayrıcalıklarına karşı ayaklandı. Fransız İhtilali eşitlik, özgürlük ve adalet gibi kavramları yaydı. İhtilalin en önemli etkilerinden biri milliyetçilik akımıdır; bu akım çok uluslu imparatorlukları, özellikle Osmanlı Devleti'ni olumsuz etkiledi. Bunun yanında başka ideolojiler de ortaya çıktı. Liberalizm, birey özgürlüğünü ve serbest piyasayı savundu. Cumhuriyetçilik, egemenliğin halka ait olduğunu ileri sürdü. Sanayi Devrimi'nin işçi sorunlarına tepki olarak sosyalizm ve komünizm doğdu. Kapitalizm ise üretim araçlarının özel mülkiyette olduğu ekonomik düzendir. Rusya'nın desteklediği panslavizm, tüm Slavları birleştirmeyi amaçladı ve Balkanlarda isyanları kışkırttı.",
+     "points": [
+      "Milliyetçilik çok uluslu devletleri parçaladı.",
+      "Panslavizm Balkan isyanlarını destekledi.",
+      "Liberalizm birey özgürlüğünü savunur."
+     ]
+    },
+    {
+     "title": "Osmanlı'da ıslahat ve anayasal dönem",
+     "text": "III. Selim, Nizam-ı Cedit adıyla yeni bir ordu kurdu ve Avrupa başkentlerinde daimi elçilikler açtı. II. Mahmut, 1826'da Yeniçeri Ocağı'nı kaldırarak yerine Asakir-i Mansure-i Muhammediye ordusunu kurdu; nüfus sayımı yaptırdı ve ilk resmî gazeteyi çıkardı. 1839'da ilan edilen Tanzimat Fermanı ile can, mal ve namus güvenliği güvence altına alındı ve kanun önünde eşitlik ilkesi benimsendi. 1856 Islahat Fermanı ile gayrimüslimlere yeni haklar tanındı. 1876'da Kanun-ı Esasi ilan edilerek I. Meşrutiyet başladı; Osmanlı tarihinde ilk kez halkın seçtiği temsilcilerden oluşan meclis açıldı. Meclis 1878'de II. Abdülhamit tarafından kapatıldı ve 1908'de II. Meşrutiyet ile yeniden açıldı. Bu süreçte azınlıkları ve tüm halkı devlete bağlamayı amaçlayan Osmanlıcılık fikri öne çıktı.",
+     "points": [
+      "1826: Yeniçeri Ocağı kaldırıldı.",
+      "1839: Tanzimat Fermanı.",
+      "1876: Kanun-ı Esasi ve I. Meşrutiyet.",
+      "1908: II. Meşrutiyet."
+     ]
+    },
+    {
+     "title": "Bilim, sanat ve teknoloji",
+     "text": "19. yüzyılda Osmanlı'da modernleşme bilim, eğitim ve teknolojiye de yansıdı. Mühendishaneler, Tıbbiye ve Harbiye gibi askerî ve teknik okullar açıldı; rüştiye ve idadi gibi yeni okullarla eğitim yaygınlaştırıldı. Telgraf hatları kuruldu, demir yolları inşa edildi, buharlı gemiler kullanılmaya başladı. Gazeteler ve dergiler çıkarıldı; ilk özel Türk gazetelerinden Tercüman-ı Ahval Şinasi ve Agah Efendi tarafından yayımlandı. Edebiyatta roman, tiyatro ve hikâye gibi yeni türler görüldü. Mimaride Batı etkisiyle Dolmabahçe Sarayı gibi eserler inşa edildi. Osman Hamdi Bey, Müze-i Hümayun'un gelişmesine ve arkeoloji çalışmalarına öncülük etti, aynı zamanda ressam olarak da tanındı.",
+     "points": [
+      "Telgraf ve demir yolu iletişimi hızlandırdı.",
+      "Yeni okullarla eğitim modernleşti.",
+      "Basın kamuoyunun oluşmasını sağladı."
+     ]
+    },
+    {
+     "title": "Osmanlı ekonomisi ve sanayileşme sorunu",
+     "text": "Osmanlı Devleti 19. yüzyılda sanayileşmede Avrupa'nın gerisinde kaldı. Bunun nedenleri arasında sermaye birikiminin yetersizliği, nitelikli iş gücü ve teknoloji eksikliği, Avrupa devletlerine tanınan ticari ayrıcalıklar ve 1838 Balta Limanı Antlaşması gibi düşük gümrük vergileri sayılabilir. Ucuz Avrupa mallarıyla rekabet edemeyen yerli üreticiler zarar gördü. Savaşların maliyeti nedeniyle devlet ilk kez 1854'te dış borç aldı ve sonrasında borçlar ödenemez hâle geldi; 1881'de Duyun-ı Umumiye İdaresi kuruldu. Devlet, Hereke ve Feshane gibi fabrikalar açarak sanayileşmeye çalıştı. Bu sorunlara çözüm olarak yerli sanayiyi koruyan gümrük politikaları, eğitimli teknik eleman yetiştirmek ve yerli sermayeyi desteklemek gibi alternatifler düşünülebilir.",
+     "points": [
+      "Düşük gümrük vergileri yerli üretimi zayıflattı.",
+      "Dış borçlar ekonomik bağımsızlığı sarstı.",
+      "Hereke Fabrikası devlet eliyle kurulan sanayi örneğidir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "İhtilal",
+     "meaning": "Yönetimin halk veya bir grup tarafından zorla değiştirilmesi."
+    },
+    {
+     "term": "Milliyetçilik",
+     "meaning": "Her milletin kendi devletini kurması gerektiğini savunan akım."
+    },
+    {
+     "term": "Meşrutiyet",
+     "meaning": "Hükümdarın yetkilerinin anayasa ve meclisle sınırlandırıldığı yönetim."
+    },
+    {
+     "term": "Liberalizm",
+     "meaning": "Birey özgürlüğünü ve serbest piyasayı savunan düşünce."
+    },
+    {
+     "term": "Sosyalizm",
+     "meaning": "Üretim araçlarının toplumsal mülkiyetini savunan düşünce."
+    },
+    {
+     "term": "Kapitalizm",
+     "meaning": "Üretim araçlarının özel mülkiyette olduğu ekonomik düzen."
+    },
+    {
+     "term": "Panslavizm",
+     "meaning": "Tüm Slav halklarını birleştirmeyi amaçlayan akım."
+    },
+    {
+     "term": "Azınlık",
+     "meaning": "Bir ülkede dil, din veya etnik köken bakımından sayıca az olan topluluk."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Fransız İhtilali milliyetçiliği yaydı.",
+    "Tanzimat hukukun üstünlüğü yolunda önemli bir adımdır.",
+    "Kanun-ı Esasi ilk Osmanlı anayasasıdır.",
+    "Ticari ayrıcalıklar Osmanlı sanayisini zayıflattı.",
+    "Islahatlar devleti korumayı amaçladı."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 3,
+   "intro": "1908-1918 yılları Osmanlı Devleti için savaşlarla, toprak kayıplarıyla ve büyük göçlerle geçti. Bu ünitede II. Meşrutiyet sonrası siyasi gelişmeleri, Trablusgarp, Balkan ve Birinci Dünya savaşlarını, göç ve salgınların etkilerini ve Osmanlı'nın insanlık tarihine katkılarını öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Siyasi gelişmeler ve partiler",
+     "text": "1908'de II. Meşrutiyet'in ilanıyla meclis yeniden açıldı ve siyasi partiler kuruldu. O dönemde partiye fırka denirdi; İttihat ve Terakki Cemiyeti en güçlü siyasi örgüttü. 1909'da İstanbul'da meşrutiyete karşı 31 Mart Olayı çıktı ve Hareket Ordusu tarafından bastırıldı; ardından II. Abdülhamit tahttan indirildi. 1913'te İttihat ve Terakki yöneticileri Babıali Baskını ile hükümeti zorla değiştirdi; bu bir darbe girişimiydi. Böylece yönetim büyük ölçüde İttihat ve Terakki'nin eline geçti. Bu dönemde Balkanlarda gizli örgütler olan komitalar, Osmanlı'ya karşı silahlı eylemler yürütüyordu. Siyasi istikrarsızlık, savaşlarla birleşince devletin gücü giderek azaldı.",
+     "points": [
+      "Fırka: siyasi parti.",
+      "31 Mart Olayı meşrutiyete karşı bir ayaklanmadır.",
+      "Babıali Baskını bir darbedir."
+     ]
+    },
+    {
+     "title": "Trablusgarp ve Balkan Savaşları",
+     "text": "1911'de İtalya, Osmanlı'nın Kuzey Afrika'daki son toprağı olan Trablusgarp'a saldırdı. Mustafa Kemal ve Enver Bey gibi gönüllü subaylar yerel halkı örgütleyerek direniş gösterdi. Ancak Balkanlarda savaş çıkınca Osmanlı, 1912 Uşi Antlaşması ile Trablusgarp'ı İtalya'ya bırakmak zorunda kaldı; İtalya ayrıca On İki Ada'yı geçici olarak işgal etti. 1912'de Sırbistan, Bulgaristan, Yunanistan ve Karadağ birleşerek Osmanlı'ya saldırdı ve Birinci Balkan Savaşı başladı. Osmanlı ağır bir yenilgi aldı ve Edirne dâhil Rumeli'deki topraklarının çoğunu kaybetti. Balkan devletleri kendi aralarında savaşınca Osmanlı, İkinci Balkan Savaşı'nda Edirne'yi geri aldı. Balkan Savaşları büyük göç dalgalarına yol açtı.",
+     "points": [
+      "Trablusgarp, Kuzey Afrika'daki son Osmanlı toprağıydı.",
+      "Birinci Balkan Savaşı'nda Rumeli büyük ölçüde kaybedildi.",
+      "Edirne İkinci Balkan Savaşı'nda geri alındı."
+     ]
+    },
+    {
+     "title": "Birinci Dünya Savaşı",
+     "text": "20. yüzyıl başında Avrupa devletleri iki bloka ayrıldı: İtilaf Devletleri (İngiltere, Fransa, Rusya) ve İttifak Devletleri (Almanya, Avusturya-Macaristan). Bu bloklaşma, sömürge rekabeti, silahlanma ve milliyetçilik nedeniyle 1914'te Birinci Dünya Savaşı başladı. Osmanlı Devleti, Almanya'nın müttefiki olarak savaşa katıldı. Osmanlı birçok cephede savaştı: Kafkasya, Kanal, Irak, Suriye-Filistin, Hicaz-Yemen ve Çanakkale. 1915'te Çanakkale'de İtilaf donanması ve kara kuvvetleri büyük kayıplarla geri püskürtüldü; Mustafa Kemal bu cephede tanındı. Ancak savaşın sonunda İttifak Devletleri yenildi. Osmanlı, 30 Ekim 1918'de Mondros Ateşkes Antlaşması'nı imzaladı. Mütareke, savaşan tarafların savaşı geçici olarak durdurmasıdır.",
+     "points": [
+      "Osmanlı İttifak Devletleri yanında savaştı.",
+      "Çanakkale Cephesi'nde büyük zafer kazanıldı.",
+      "Mondros Ateşkesi 30 Ekim 1918'de imzalandı."
+     ]
+    },
+    {
+     "title": "Göçler, salgınlar ve Osmanlı mirası",
+     "text": "Balkan Savaşları ve Birinci Dünya Savaşı sırasında yüz binlerce Müslüman ve Türk, yurtlarını terk ederek Anadolu'ya göç etti. Bu göçmenlere muhacir denirdi. Devlet, muhacirlerin iskânı için çeşitli kurumlar oluşturdu, ancak savaş koşullarında barınma, beslenme ve sağlık sorunları büyüktü. Savaş döneminde tifüs, kolera ve sıtma gibi salgın hastalıklar askerler ve siviller arasında çok sayıda can kaybına yol açtı. Göç ve salgınlar nüfus yapısını değiştirdi, üretimi azalttı. Tüm zorluklara rağmen Osmanlı Devleti, altı yüzyılı aşkın tarihi boyunca farklı din ve milletlerden toplulukları bir arada yaşatan bir düzen, vakıf geleneği, mimari şaheserler ve zengin bir kültür mirası bırakarak insanlık tarihine önemli katkılar sağladı.",
+     "points": [
+      "Muhacir: göç eden kişi.",
+      "Salgınlar savaş kayıplarını artırdı.",
+      "Osmanlı, farklı toplulukların bir arada yaşadığı bir medeniyet mirası bıraktı."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Bloklaşma",
+     "meaning": "Devletlerin ortak çıkarlar için karşıt gruplar oluşturması."
+    },
+    {
+     "term": "Darbe",
+     "meaning": "Yönetimin zor kullanılarak değiştirilmesi."
+    },
+    {
+     "term": "Fırka",
+     "meaning": "Siyasi parti."
+    },
+    {
+     "term": "Komita",
+     "meaning": "Siyasi amaçla silahlı eylem yapan gizli örgüt."
+    },
+    {
+     "term": "Muhacir",
+     "meaning": "Yurdunu terk ederek göç eden kişi."
+    },
+    {
+     "term": "Mütareke",
+     "meaning": "Savaşan tarafların savaşı geçici olarak durdurması; ateşkes."
+    },
+    {
+     "term": "Müttefik",
+     "meaning": "Ortak amaç için anlaşma yapmış devlet."
+    },
+    {
+     "term": "Salgın",
+     "meaning": "Kısa sürede çok sayıda insana bulaşan hastalık."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "II. Meşrutiyet 1908'de ilan edildi.",
+    "Balkan Savaşları büyük toprak kaybı ve göçe yol açtı.",
+    "Çanakkale Zaferi 1915'te kazanıldı.",
+    "Mondros Ateşkesi Osmanlı için savaşın sonuydu.",
+    "Göç ve salgınlar toplumu derinden etkiledi."
+   ]
+  }
+ ]
+}

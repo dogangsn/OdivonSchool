@@ -1,0 +1,1175 @@
+{
+ "file": "ilkokul-hayat-bilgisi",
+ "notes": [
+  {
+   "grade": 1,
+   "order": 1,
+   "intro": "Bu temada okulumuzu, öğretmenimizi ve arkadaşlarımızı tanıyoruz. Okul kurallarını öğreniyoruz. Kendimizi tanıyıp duygularımızı anlatmayı keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Tanışma ve iletişim",
+     "text": "Okula ilk geldiğimizde öğretmenimizle ve arkadaşlarımızla tanışırız. Tanışırken önce selam veririz, sonra adımızı söyleriz. Karşımızdakinin adını sorar, onu dikkatle dinleriz. Konuşurken göz teması kurar, nazik sözcükler kullanırız. 'Merhaba', 'Lütfen', 'Teşekkür ederim' ve 'Özür dilerim' gibi sözcükler arkadaşlıklarımızı güçlendirir. Yeni arkadaşlarla oyun oynamak birbirimizi tanımamızı kolaylaştırır. Yeni gelen bir arkadaşımızı oyunlarımıza davet ederek onun kendini iyi hissetmesini sağlarız.",
+     "points": [
+      "Selam ver, adını söyle.",
+      "Karşındakini dikkatle dinle.",
+      "Nazik sözcükler kullan."
+     ]
+    },
+    {
+     "title": "Sınıfım ve okulum",
+     "text": "Okulumuzda sınıflar, öğretmenler odası, müdür odası, kütüphane, kantin, tuvaletler ve bahçe gibi bölümler bulunur. Her bölümün farklı bir görevi vardır. Okulumuzu gezerek bu bölümleri tanırız. Okulda müdür, öğretmenler ve okul görevlileri bize yardım eder. Bir sorun yaşadığımızda onlardan yardım isteyebiliriz. Sınıfımızı ve okulumuzu temiz tutmak hepimizin görevidir. Okulun bölümlerini öğrenince kendimizi orada daha rahat ve güvende hissederiz.",
+     "points": [
+      "Okul bölümlerini tanı.",
+      "Yardım gerektiğinde öğretmenine söyle."
+     ]
+    },
+    {
+     "title": "Kurallar ve ben",
+     "text": "Okulda herkesin mutlu ve güvende olması için kurallar vardır. Söz almak için parmak kaldırırız. Koridorlarda koşmayız. Arkadaşlarımızın eşyalarını izinsiz almayız. Çöplerimizi çöp kutusuna atarız. Her insan farklıdır; boyumuz, saç rengimiz, gözlerimiz farklı olabilir. Sevdiğimiz oyunlar da farklıdır. Kendimizi tanır, mutlu, üzgün ya da heyecanlı olduğumuzda duygularımızı uygun şekilde ifade ederiz.",
+     "points": [
+      "Söz almak için parmak kaldır.",
+      "Koridorda koşma.",
+      "Duygularını anlatmaktan çekinme."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Tanışma",
+     "meaning": "Birbirini tanımayan kişilerin adlarını söyleyip konuşmaya başlaması."
+    },
+    {
+     "term": "Arkadaş",
+     "meaning": "Birlikte vakit geçirdiğimiz, sevdiğimiz kişi."
+    },
+    {
+     "term": "İletişim",
+     "meaning": "Duygu ve düşünceleri karşılıklı paylaşma."
+    },
+    {
+     "term": "Duygu",
+     "meaning": "Mutluluk, üzüntü, korku gibi içimizde hissettiklerimiz."
+    },
+    {
+     "term": "Kural",
+     "meaning": "Uyulması gereken düzen."
+    },
+    {
+     "term": "Uyum",
+     "meaning": "Bir ortama ve kurallarına alışma."
+    },
+    {
+     "term": "Fiziksel özellik",
+     "meaning": "Boy, saç ve göz rengi gibi dış görünüş özellikleri."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Tanışırken selam ver ve adını söyle.",
+    "Kurallar herkesin güvenliği içindir.",
+    "Her insanın özellikleri farklıdır.",
+    "Duygularını uygun şekilde paylaş."
+   ]
+  },
+  {
+   "grade": 1,
+   "order": 2,
+   "intro": "Bu temada sağlıklı büyümek için yapmamız gerekenleri öğreniyoruz. Kişisel alanımızı korumayı, trafikte ve acil durumlarda güvende kalmayı keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Sağlıklı büyüme",
+     "text": "Sağlıklı büyümek için dengeli beslenmeliyiz. Her sabah kahvaltı yapmalı, sebze ve meyve yemeliyiz. Bol su içmeliyiz. Erken yatıp yeterince uyumalıyız. Hareket etmek, oyun oynamak ve spor yapmak vücudumuzu güçlendirir. Ellerimizi yemekten önce ve tuvaletten sonra sabunla yıkamalıyız. Dişlerimizi sabah ve akşam fırçalamalıyız. Temizlik bizi hastalıklardan korur. Doktor kontrollerimizi aksatmamak da sağlıklı büyümemize yardım eder.",
+     "points": [
+      "Kahvaltı yap, su iç.",
+      "Ellerini sabunla yıka.",
+      "Dişlerini günde iki kez fırçala."
+     ]
+    },
+    {
+     "title": "Kişisel alan",
+     "text": "Her insanın vücudunun çevresinde kendine ait bir alan vardır. Buna kişisel alan denir. Başkalarının bize izinsiz dokunmasına izin vermeyiz. Biz de başkalarının kişisel alanına saygı gösteririz. Birisi bizi rahatsız edecek şekilde dokunursa 'Hayır!' der, oradan uzaklaşırız ve hemen güvendiğimiz bir büyüğe anlatırız. Vücudumuz bize aittir ve bu konuda sır tutmayız.",
+     "points": [
+      "Hayır de, uzaklaş, güvendiğin büyüğe anlat.",
+      "Başkalarının kişisel alanına saygı göster."
+     ]
+    },
+    {
+     "title": "Trafik ve acil durumlar",
+     "text": "Karşıdan karşıya geçerken yaya geçidini kullanırız. Önce sola, sonra sağa, sonra tekrar sola bakarız. Trafik ışığında kırmızı yanınca dururuz, yeşil yanınca geçeriz. Araçta emniyet kemerimizi takarız. Yangın, deprem ya da kaza gibi acil durumlarda sakin olmalıyız. Bir büyüğümüze haber veririz. Acil yardım için 112 numaralı telefonu ararız. Telefonda adımızı ve adresimizi açıkça söyleriz.",
+     "points": [
+      "Yaya geçidini kullan.",
+      "Kırmızıda dur, yeşilde geç.",
+      "Acil durumda 112'yi ara."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Sağlıklı büyüme",
+     "meaning": "Dengeli beslenme, temizlik, uyku ve hareketle gelişme."
+    },
+    {
+     "term": "Kişisel alan",
+     "meaning": "Vücudumuzun çevresinde bize ait olan alan."
+    },
+    {
+     "term": "Trafik kuralları",
+     "meaning": "Yolda güvenliği sağlayan kurallar."
+    },
+    {
+     "term": "Güvenlik",
+     "meaning": "Tehlikelerden korunma."
+    },
+    {
+     "term": "Acil durum",
+     "meaning": "Hemen yardım gereken tehlikeli olay."
+    },
+    {
+     "term": "Yaya geçidi",
+     "meaning": "Yayaların karşıdan karşıya geçtiği çizgili alan."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Dengeli beslen, yeterince uyu.",
+    "Vücudun sana aittir; rahatsız olursan bir büyüğe anlat.",
+    "Karşıdan karşıya yaya geçidinden geç.",
+    "Acil yardım numarası 112'dir."
+   ]
+  },
+  {
+   "grade": 1,
+   "order": 3,
+   "intro": "Bu temada ailemizi ve aile içindeki görevlerimizi öğreniyoruz. Nezaket ve görgü kurallarını tanıyoruz. Sevgi ve saygının ailemizi nasıl güçlendirdiğini keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Ailemiz",
+     "text": "Aile; anne, baba, kardeşler ve bazen büyükanne, büyükbaba gibi birbirine bağlı kişilerden oluşur. Aileler büyük ya da küçük olabilir. Aile bireyleri birbirini sever, korur ve birbirine yardım eder. Ailemiz bizim ilk okulumuzdur; konuşmayı, paylaşmayı ve iyi davranışları önce ailemizde öğreniriz. Akrabalarımız da ailemizin bir parçasıdır. Aile, toplumun en küçük birimidir.",
+     "points": [
+      "Aile bireyleri birbirini sever ve korur.",
+      "Aile toplumun en küçük birimidir."
+     ]
+    },
+    {
+     "title": "Nezaket ve görgü",
+     "text": "Evde de nezaket kurallarına uyarız. Sabah 'Günaydın', yatarken 'İyi geceler' deriz. Bir şey isterken 'Lütfen', bir şey alınca 'Teşekkür ederim' deriz. Büyüklerimiz konuşurken sözlerini kesmeyiz. Sofrada ağzımızı kapatarak çiğner, yemeği israf etmeyiz. Başkalarının odasına girmeden önce kapıyı çalarız. Misafirlere güler yüzlü davranırız. Bu davranışlar sevgi ve saygıyı artırır. Nazik davrandığımızda çevremizdekiler de bize nazik davranır.",
+     "points": [
+      "Lütfen ve teşekkür ederim de.",
+      "Kapıyı çalmadan girme.",
+      "Büyüklerin sözünü kesme."
+     ]
+    },
+    {
+     "title": "Görev ve sorumluluk",
+     "text": "Ailede herkesin görevleri vardır. Anne ve babamız bizim bakımımızı üstlenir, ihtiyaçlarımızı karşılar. Biz de yaşımıza uygun görevler alırız. Odamızı toplar, oyuncaklarımızı yerine kaldırırız. Sofrayı kurmaya yardım ederiz. Kirli giysilerimizi sepete atarız. Evcil hayvanımız varsa suyunu verebiliriz. Görevlerimizi yerine getirdiğimizde aile içinde yardımlaşma artar. Küçük kardeşimize oyunlarında eşlik etmek de bir görevdir. Görevlerimizi yaptığımızda kendimizi büyümüş ve değerli hissederiz.",
+     "points": [
+      "Odanı topla.",
+      "Sofra kurmaya yardım et."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Aile",
+     "meaning": "Birbirine sevgi ve akrabalık bağıyla bağlı kişilerden oluşan topluluk."
+    },
+    {
+     "term": "Nezaket",
+     "meaning": "Kibar ve ince davranma."
+    },
+    {
+     "term": "Görgü",
+     "meaning": "Toplum içinde nasıl davranılacağını bilme."
+    },
+    {
+     "term": "Görev",
+     "meaning": "Yapılması gereken iş."
+    },
+    {
+     "term": "Sorumluluk",
+     "meaning": "Üzerimize düşen işi yerine getirme."
+    },
+    {
+     "term": "Saygı",
+     "meaning": "Başkalarının duygu ve haklarını önemseme."
+    },
+    {
+     "term": "Sevgi",
+     "meaning": "Birine karşı duyulan yakınlık ve bağlılık."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Aile toplumun en küçük birimidir.",
+    "Nazik sözcükler sevgiyi artırır.",
+    "Ailede herkesin görevi vardır.",
+    "Odamızı toplamak bizim sorumluluğumuzdur."
+   ]
+  },
+  {
+   "grade": 1,
+   "order": 4,
+   "intro": "Bu temada yaşadığımız yeri ve ülkemiz Türkiye'yi tanıyoruz. Bayrağımızın ve İstiklâl Marşı'mızın anlamını öğreniyoruz. Atatürk'ü ve bayramlarımızı tanıyoruz.",
+   "sections": [
+    {
+     "title": "Ülkemiz ve başkentimiz",
+     "text": "Ülkemizin adı Türkiye'dir. Başkentimiz Ankara'dır. Türkiye'de birçok şehir vardır; her birinin farklı güzellikleri bulunur. Biz de bir şehirde, bir ilçede ve bir mahallede ya da köyde yaşarız. Türk bayrağımız kırmızı zemin üzerinde beyaz ay ve yıldızdan oluşur. Bayrağımız bağımsızlığımızın simgesidir. İstiklâl Marşı'mızı Mehmet Akif Ersoy yazmıştır. Marşımızı saygıyla, hazır olda dinler ve söyleriz.",
+     "points": [
+      "Başkentimiz Ankara'dır.",
+      "Bayrağımız bağımsızlığımızın simgesidir.",
+      "İstiklâl Marşı'nı Mehmet Akif Ersoy yazdı."
+     ]
+    },
+    {
+     "title": "Mustafa Kemal Atatürk",
+     "text": "Mustafa Kemal Atatürk, Türkiye Cumhuriyeti'nin kurucusudur. 1881 yılında Selanik'te doğdu. Annesinin adı Zübeyde Hanım, babasının adı Ali Rıza Efendi'dir. Atatürk çocukları çok severdi. 23 Nisan'ı çocuklara bayram olarak armağan etti. Ülkemizi düşmanlardan kurtarmak için mücadele etti. 10 Kasım 1938'de hayatını kaybetti. Onu her yıl 10 Kasım'da saygıyla anarız. Onun sözlerini ve hayatını öğrenmek bize örnek olur.",
+     "points": [
+      "1881'de Selanik'te doğdu.",
+      "Annesi Zübeyde Hanım, babası Ali Rıza Efendi",
+      "23 Nisan'ı çocuklara armağan etti."
+     ]
+    },
+    {
+     "title": "Bayramlarımız",
+     "text": "Millî bayramlarımızda bayrağımızı asar, törenlere katılırız. 23 Nisan Ulusal Egemenlik ve Çocuk Bayramı, 19 Mayıs Atatürk'ü Anma, Gençlik ve Spor Bayramı, 30 Ağustos Zafer Bayramı ve 29 Ekim Cumhuriyet Bayramı millî bayramlarımızdır. Ramazan Bayramı ve Kurban Bayramı dinî bayramlarımızdır. Bayramlarda büyüklerimizi ziyaret eder, el öperiz. Sevinç ve mutluluğumuzu paylaşırız. Bayramlar birlik ve beraberliğimizi güçlendirir.",
+     "points": [
+      "Millî bayram: 23 Nisan, 19 Mayıs, 30 Ağustos, 29 Ekim",
+      "Dinî bayram: Ramazan ve Kurban Bayramı"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Ülke",
+     "meaning": "Sınırları belli, kendine ait yönetimi olan toprak parçası."
+    },
+    {
+     "term": "Başkent",
+     "meaning": "Bir ülkenin yönetim merkezi olan şehir."
+    },
+    {
+     "term": "İstiklâl Marşı",
+     "meaning": "Türkiye'nin millî marşı."
+    },
+    {
+     "term": "Türk bayrağı",
+     "meaning": "Kırmızı zemin üzerinde beyaz ay yıldızlı bayrağımız."
+    },
+    {
+     "term": "Millî bayram",
+     "meaning": "Millet olarak birlikte kutladığımız önemli günler."
+    },
+    {
+     "term": "Dinî bayram",
+     "meaning": "Dinimizle ilgili kutladığımız bayramlar."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Başkentimiz Ankara'dır.",
+    "Bayrağımız ve marşımız bağımsızlığımızın simgesidir.",
+    "Atatürk Cumhuriyetimizin kurucusudur.",
+    "Bayramlarda sevincimizi paylaşırız."
+   ]
+  },
+  {
+   "grade": 1,
+   "order": 5,
+   "intro": "Bu temada çevremizdeki doğa varlıklarını gözlemliyoruz. Güneş, Dünya ve Ay'ı karşılaştırıyoruz. Afetleri tanıyor ve atıkları ayırmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Doğa ve gözlem",
+     "text": "Doğada ağaçlar, çiçekler, böcekler, kuşlar, taşlar, toprak ve su gibi varlıklar bulunur. Canlılar beslenir, büyür ve çoğalır. Taş, su ve toprak gibi varlıklar ise cansızdır. Bahçede ya da parkta doğayı gözlemleyebiliriz. Gördüklerimizi resimle ya da kısa notlarla kaydederiz. Örneğin bir ağacın yapraklarının mevsimlere göre nasıl değiştiğini izleyebiliriz. Doğayı gözlerken bitkileri koparmaz, hayvanları rahatsız etmeyiz.",
+     "points": [
+      "Canlılar büyür ve çoğalır.",
+      "Gözlemlerini resim ve notla kaydet."
+     ]
+    },
+    {
+     "title": "Güneş, Dünya ve Ay",
+     "text": "Güneş bir yıldızdır; bize ışık ve ısı verir. Güneş, Dünya'dan çok daha büyüktür. Dünya, üzerinde yaşadığımız gezegendir. Ay ise Dünya'nın çevresinde dolanır ve Dünya'dan küçüktür. Ay'ın kendi ışığı yoktur; Güneş'ten aldığı ışığı yansıtır. Bu gök cisimlerini toplarla model yaparak karşılaştırabiliriz: en büyük top Güneş, ortanca top Dünya, en küçük top Ay olur.",
+     "points": [
+      "Güneş > Dünya > Ay",
+      "Güneş ışık ve ısı verir.",
+      "Ay, Dünya'nın çevresinde dolanır."
+     ]
+    },
+    {
+     "title": "Afetler ve geri dönüşüm",
+     "text": "Deprem, sel, yangın ve çığ gibi olaylar insanlara zarar verebilir; bunlara afet denir. Afetleri tanımak, onlara hazırlıklı olmamızı sağlar. Doğayı korumak için atıkları ayırırız. Kâğıt, plastik, cam ve metal atıklar geri dönüştürülebilir. Bu atıkları ayrı kutulara atarız. Geri dönüşüm sayesinde ağaçlar daha az kesilir ve doğa temiz kalır. Afet anında büyüklerimizin söylediklerine dikkatle uyarız.",
+     "points": [
+      "Deprem, sel, yangın birer afettir.",
+      "Kâğıt, plastik, cam, metal ayrı atılır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Doğa",
+     "meaning": "İnsan eli değmeden oluşan canlı ve cansız varlıklar."
+    },
+    {
+     "term": "Gök cisimleri",
+     "meaning": "Gökyüzünde bulunan Güneş, Ay, yıldızlar ve gezegenler."
+    },
+    {
+     "term": "Güneş",
+     "meaning": "Bize ışık ve ısı veren yıldız."
+    },
+    {
+     "term": "Ay",
+     "meaning": "Dünya'nın çevresinde dolanan gök cismi."
+    },
+    {
+     "term": "Afet",
+     "meaning": "İnsanlara ve çevreye büyük zarar veren olay."
+    },
+    {
+     "term": "Geri dönüşüm",
+     "meaning": "Atıkların yeniden kullanılabilir hâle getirilmesi."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Güneş, Dünya'dan çok büyüktür.",
+    "Ay'ın kendi ışığı yoktur.",
+    "Afetleri tanımak hazırlıklı olmamızı sağlar.",
+    "Atıklarını ayırarak doğayı koru."
+   ]
+  },
+  {
+   "grade": 1,
+   "order": 6,
+   "intro": "Bu temada bilim, teknoloji ve sanatı tanıyoruz. Merak ettiğimiz konular hakkında sorular soruyoruz. Bu alanların hayatımızı nasıl güzelleştirdiğini keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Bilim ve merak",
+     "text": "Bilim, çevremizdeki olayları merak edip araştırarak öğrenmektir. 'Gökyüzü neden mavi?', 'Kuşlar nasıl uçar?' gibi sorular bilime giden ilk adımdır. Merak ettiğimiz bir konuyu belirleyip ona sorular sorarız. Cevapları kitaplardan, öğretmenimizden ya da gözlem yaparak buluruz. Soru sormak çok değerlidir. Bilim insanları da her şeye merakla bakar. Merak ettiğimiz soruları bir deftere yazarak cevaplarını zamanla bulabiliriz.",
+     "points": [
+      "Merak et, soru sor.",
+      "Cevapları araştırarak bul."
+     ]
+    },
+    {
+     "title": "Teknoloji",
+     "text": "Teknoloji, insanların işlerini kolaylaştırmak için yaptığı araç ve gereçlerdir. Telefon, bilgisayar, buzdolabı, bisiklet ve makas birer teknoloji ürünüdür. Teknoloji sayesinde uzaktaki insanlarla konuşabilir, bilgiye kolayca ulaşabiliriz. Ancak teknolojik araçları dikkatli ve sınırlı süre kullanmalıyız. Ekran karşısında çok uzun zaman geçirmek gözlerimize ve sağlığımıza zarar verebilir. Teknolojik araçları büyüklerimizin izniyle ve onların yanında kullanmalıyız.",
+     "points": [
+      "Teknoloji işlerimizi kolaylaştırır.",
+      "Ekran süreni sınırlı tut."
+     ]
+    },
+    {
+     "title": "Sanat",
+     "text": "Sanat; duygu ve düşüncelerimizi resim, müzik, dans, tiyatro ve heykel gibi yollarla anlatmaktır. Resim yaparken renkleri, şarkı söylerken sesimizi kullanırız. Ebru, çini ve hat sanatı geleneksel sanatlarımızdandır. Sanat bizi mutlu eder ve hayal gücümüzü geliştirir. Bir sanat eserine bakınca ne hissettiğimizi düşünür, merak ettiğimiz şeyleri sorarız. Müzeleri ve sergileri gezmek de sanatı tanımanın güzel bir yoludur.",
+     "points": [
+      "Resim, müzik, dans, tiyatro",
+      "Ebru, çini ve hat geleneksel sanatlarımızdır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Bilim",
+     "meaning": "Çevremizi merak ederek ve araştırarak öğrenme."
+    },
+    {
+     "term": "Teknoloji",
+     "meaning": "İşlerimizi kolaylaştıran araç ve gereçler."
+    },
+    {
+     "term": "Sanat",
+     "meaning": "Duygu ve düşünceleri resim, müzik gibi yollarla anlatma."
+    },
+    {
+     "term": "Merak",
+     "meaning": "Bir şeyi öğrenme isteği."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Bilim merakla başlar.",
+    "Teknolojiyi dikkatli kullan.",
+    "Sanat hayal gücümüzü geliştirir.",
+    "Soru sormak öğrenmenin ilk adımıdır."
+   ]
+  },
+  {
+   "grade": 2,
+   "order": 1,
+   "intro": "Bu temada zamanımızı planlamayı öğreniyoruz. Arkadaşlarımızla ve öğretmenimizle etkili iletişim kurmayı keşfediyoruz. Grup çalışmasında birlikte karar almayı deniyoruz.",
+   "sections": [
+    {
+     "title": "Planlı olmak",
+     "text": "Planlı olmak, yapacaklarımızı önceden düşünüp sıraya koymaktır. Bir günlük plan yaparak ders çalışma, oyun, uyku ve yemek saatlerimizi belirleyebiliriz. Planlı olursak işlerimizi zamanında bitirir, oyuna da vakit ayırırız. Okul çantamızı bir gece önceden hazırlamak sabah telaşını önler. Planlamadığımızda ise işler birikir, aceleyle yaptığımız için hata yaparız. Planımızı bir kâğıda yazıp görebileceğimiz bir yere asabiliriz.",
+     "points": [
+      "Günlük plan yap.",
+      "Çantanı akşamdan hazırla."
+     ]
+    },
+    {
+     "title": "Etkili iletişim ve arkadaşlık",
+     "text": "Etkili iletişim kurmak için karşımızdakini dikkatle dinleriz. Sözünü kesmeden konuşmasını bitirmesini bekleriz. Kendi düşüncelerimizi açık ve kibar bir dille anlatırız. Arkadaşlarımızla anlaşmazlık yaşarsak bağırmak yerine konuşarak çözeriz. Hata yaptığımızda özür diler, arkadaşımız özür dilediğinde onu affederiz. İyi bir arkadaş, paylaşır, yardım eder ve sır tutar. Arkadaşımızın duygularını anlamaya çalışmak da iyi iletişimin parçasıdır.",
+     "points": [
+      "Dinle, sözünü kesme.",
+      "Sorunları konuşarak çöz.",
+      "Özür dilemeyi ve affetmeyi bil."
+     ]
+    },
+    {
+     "title": "Grup çalışması ve karar alma",
+     "text": "Sınıfta bazı işleri gruplar hâlinde yaparız. Grup çalışmasında herkes bir görev alır ve iş birliği yapar. Fikirlerimizi söyler, arkadaşlarımızın fikirlerini de dinleriz. Sınıfta bir karar alırken herkesin görüşünü sorarız. Gerektiğinde oylama yaparız ve çoğunluğun kararına saygı gösteririz. Alınan karara uymak sınıfta düzeni ve huzuru sağlar. Grupta kimseyi dışlamaz, herkesin katılmasını sağlarız.",
+     "points": [
+      "Herkes bir görev alır.",
+      "Çoğunluğun kararına saygı göster."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Zaman yönetimi",
+     "meaning": "Zamanı verimli kullanmak için plan yapmak."
+    },
+    {
+     "term": "Planlı olma",
+     "meaning": "Yapılacakları önceden belirleyip sıraya koyma."
+    },
+    {
+     "term": "İletişim",
+     "meaning": "Duygu ve düşünceleri paylaşma."
+    },
+    {
+     "term": "Grup çalışması",
+     "meaning": "Bir işi birkaç kişinin birlikte yapması."
+    },
+    {
+     "term": "İş birliği",
+     "meaning": "Ortak bir amaç için birlikte çalışma."
+    },
+    {
+     "term": "Karar alma",
+     "meaning": "Seçenekler arasından birini seçme."
+    },
+    {
+     "term": "Davranış",
+     "meaning": "Bir kişinin yaptığı ya da gösterdiği tavır."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Planlı olmak zamanımızı verimli kullanmamızı sağlar.",
+    "İyi iletişim dinlemekle başlar.",
+    "Sorunları konuşarak çözeriz.",
+    "Ortak kararlara saygı gösteririz."
+   ]
+  },
+  {
+   "grade": 2,
+   "order": 2,
+   "intro": "Bu temada alışkanlıklarımızın sağlığımızı nasıl etkilediğini öğreniyoruz. İnternette güvende kalmayı, trafik işaretlerini ve acil durumlarda yardım istemeyi keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Sağlıklı alışkanlıklar",
+     "text": "Sürekli tekrarladığımız davranışlara alışkanlık denir. Düzenli uyumak, kahvaltı yapmak, sebze ve meyve yemek, su içmek ve spor yapmak sağlıklı alışkanlıklardır. Bu alışkanlıklar büyümemize ve gelişmemize yardım eder. Gece geç yatmak, çok fazla şekerli yiyecek yemek ve uzun süre ekran karşısında oturmak ise sağlığımıza zarar verir. İyi alışkanlıkları küçük yaşta kazanmak önemlidir.",
+     "points": [
+      "Düzenli uyu ve spor yap.",
+      "Şekerli yiyecekleri azalt."
+     ]
+    },
+    {
+     "title": "İnternette güvenlik",
+     "text": "İnterneti kullanırken de dikkatli olmalıyız. Adımızı, adresimizi, okulumuzu ve telefon numaramızı tanımadığımız kişilerle paylaşmayız. Şifremizi kimseye söylemeyiz. Tanımadığımız kişilerden gelen mesajlara cevap vermeyiz ve bağlantılara tıklamayız. İnternette bizi rahatsız eden bir şey görürsek hemen ailemize ya da öğretmenimize söyleriz. İnterneti büyüklerimizin izniyle ve belirli sürelerde kullanırız. İnternette gördüğümüz her bilgiye hemen inanmamalıyız.",
+     "points": [
+      "Kişisel bilgilerini paylaşma.",
+      "Şifreni kimseye söyleme.",
+      "Rahatsız olursan bir büyüğüne söyle."
+     ]
+    },
+    {
+     "title": "Trafik işaretleri ve acil durum",
+     "text": "Trafik işaret levhaları sürücülere ve yayalara bilgi verir. Üçgen levhalar genellikle tehlike uyarısı verir. Yuvarlak levhalar çoğunlukla yasak ya da zorunluluk bildirir. Okul geçidi ve yaya geçidi levhalarını tanımalıyız. Acil durumlarda 112'yi ararız. Telefonda sakin olur, adımızı, ne olduğunu ve adresimizi açıkça söyleriz. Görevli telefonu kapatmamızı söyleyene kadar telefonu kapatmayız.",
+     "points": [
+      "Acil durumda 112'yi ara.",
+      "Adını, olayı ve adresi açıkça söyle."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Alışkanlık",
+     "meaning": "Sürekli tekrarlanan davranış."
+    },
+    {
+     "term": "Kişisel alan",
+     "meaning": "Vücudumuzun çevresinde bize ait alan."
+    },
+    {
+     "term": "Güvenlik",
+     "meaning": "Tehlikelerden korunma."
+    },
+    {
+     "term": "Trafik işaret levhası",
+     "meaning": "Yolda uyarı ve bilgi veren işaretler."
+    },
+    {
+     "term": "Acil durum",
+     "meaning": "Hemen yardım gereken olay."
+    },
+    {
+     "term": "Çevrim içi",
+     "meaning": "İnternete bağlı olma durumu."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "İyi alışkanlıklar sağlığımızı korur.",
+    "İnternette kişisel bilgilerini paylaşma.",
+    "Trafik levhalarına dikkat et.",
+    "Acil durumda sakin ol ve 112'yi ara."
+   ]
+  },
+  {
+   "grade": 2,
+   "order": 3,
+   "intro": "Bu temada ailenin önemini düşünüyoruz. Toplum içinde nezaket ve görgü kurallarına uymayı öğreniyoruz. Yakın çevremizdeki görev ve sorumluluklarımızı keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Ailenin önemi",
+     "text": "Aile, sevgi ve güven bulduğumuz yerdir. Ailemiz bizi korur, büyütür ve eğitir. Aile içinde paylaşmayı, yardımlaşmayı ve saygıyı öğreniriz. Hastalandığımızda bize bakar, mutlu olduğumuzda sevincimizi paylaşır. Aile büyüklerimizden geleneklerimizi ve değerlerimizi öğreniriz. Güçlü aileler güçlü bir toplum oluşturur. Bu yüzden ailemize sevgi ve saygı göstermeliyiz. Ailemizle birlikte vakit geçirmek, sohbet etmek ve oyun oynamak bağlarımızı güçlendirir.",
+     "points": [
+      "Aile sevgi ve güven yeridir.",
+      "Güçlü aile, güçlü toplum demektir."
+     ]
+    },
+    {
+     "title": "Toplumda nezaket ve görgü",
+     "text": "Toplum içinde de nezaket kurallarına uyarız. Toplu taşımada yaşlılara, hamilelere ve engelli bireylere yer veririz. Sırada beklerken araya girmeyiz. Sinema, kütüphane ve hastane gibi yerlerde sessiz oluruz. Komşularımızla selamlaşır, onları rahatsız etmeyiz. Ortak alanları temiz tutar, parktaki eşyalara zarar vermeyiz. Bu kurallar birlikte huzurlu yaşamamızı sağlar. Herkes bu kurallara uyarsa toplumda saygı artar.",
+     "points": [
+      "Yaşlılara yer ver.",
+      "Sırana saygı göster.",
+      "Ortak alanları temiz tut."
+     ]
+    },
+    {
+     "title": "Görev ve sorumluluklarımız",
+     "text": "Evde, okulda ve mahallemizde üzerimize düşen görevler vardır. Evde odamızı toplar, sofraya yardım ederiz. Okulda ödevlerimizi zamanında yapar, sınıf eşyalarını koruruz. Mahallemizde çevreyi temiz tutar, sokak hayvanlarına su veririz. Sorumluluklarımızı yerine getirdiğimizde çevremizdeki insanlar bize güvenir. Kendimizi de değerli ve başarılı hissederiz. Sorumluluk sahibi olmak, verdiğimiz sözü tutmak ve işimizi özenle yapmak demektir. Bu davranışlar bizi güvenilir bir insan yapar.",
+     "points": [
+      "Ödevini zamanında yap.",
+      "Çevreni temiz tut."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Aile",
+     "meaning": "Sevgi ve akrabalık bağıyla bağlı kişilerden oluşan topluluk."
+    },
+    {
+     "term": "Nezaket kuralları",
+     "meaning": "Kibar davranmayı sağlayan kurallar."
+    },
+    {
+     "term": "Görgü kuralları",
+     "meaning": "Toplum içinde uygun davranma kuralları."
+    },
+    {
+     "term": "Görev",
+     "meaning": "Yapılması gereken iş."
+    },
+    {
+     "term": "Sorumluluk",
+     "meaning": "Üzerimize düşeni yerine getirme."
+    },
+    {
+     "term": "Toplum",
+     "meaning": "Bir arada yaşayan insanlar topluluğu."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Aile sevgi ve güven yeridir.",
+    "Toplumda nezaket kurallarına uyarız.",
+    "Sorumluluklarını yerine getir.",
+    "Ortak alanlar hepimizindir."
+   ]
+  },
+  {
+   "grade": 2,
+   "order": 4,
+   "intro": "Bu temada yakın çevremizdeki tarihî mekânları ve doğal güzellikleri tanıyoruz. Yaşadığımız yerin yönetimini öğreniyoruz. Atatürk'ün öğrencilik yıllarını ve bayramlarımızın önemini keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Tarihî mekânlar ve doğal güzellikler",
+     "text": "Yaşadığımız yerde geçmişten kalan camiler, kaleler, köprüler, hanlar ve müzeler gibi tarihî mekânlar olabilir. Bu yapılar bize geçmişte yaşayan insanları anlatır. Göller, şelaleler, mağaralar, ormanlar ve dağlar ise doğal güzelliklerdir. Ailemizle bu yerleri gezebilir, fotoğraf çekebilir ve hakkında bilgi toplayabiliriz. Bu yerleri koruyarak gelecek nesillere bırakmalıyız. Bu yerlere çöp atmamalı ve zarar vermemeliyiz.",
+     "points": [
+      "Kale, köprü, cami, müze: tarihî mekân",
+      "Göl, şelale, mağara: doğal güzellik"
+     ]
+    },
+    {
+     "title": "Yönetim birimleri",
+     "text": "Ülkemiz illere, iller ilçelere ayrılır. İlçelerde mahalleler ve köyler bulunur. İli vali yönetir. İlçeyi kaymakam yönetir. Mahallenin ve köyün yöneticisi muhtardır. Şehirlerde belediye ve belediye başkanı yol, park, su ve temizlik gibi hizmetleri sağlar. Yaşadığımız yerin yönetimi hakkında belediyenin internet sitesinden ya da muhtarlıktan bilgi toplayabiliriz. Muhtar ve belediye başkanı seçimle belirlenir.",
+     "points": [
+      "İl: vali",
+      "İlçe: kaymakam",
+      "Mahalle ve köy: muhtar"
+     ]
+    },
+    {
+     "title": "Atatürk'ün öğrencilik hayatı ve bayramlar",
+     "text": "Mustafa Kemal ilk öğrenimine Selanik'te başladı. Askerî okullarda okudu ve çalışkan bir öğrenciydi. Özellikle matematik dersinde çok başarılıydı. Matematik öğretmeni ona 'Kemal' adını verdi. Okumayı çok sever, kitaplardan çok şey öğrenirdi. Millî bayramlar bağımsızlığımızı ve birliğimizi hatırlatır. Dinî bayramlar ise sevgiyi, paylaşmayı ve yardımlaşmayı güçlendirir. Bayramlarda törenlere katılarak bu duyguları birlikte yaşarız.",
+     "points": [
+      "Kemal adını matematik öğretmeni verdi.",
+      "Okumayı çok severdi."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Tarihî mekân",
+     "meaning": "Geçmişten günümüze kalan yapı ya da yer."
+    },
+    {
+     "term": "Doğal güzellik",
+     "meaning": "Doğanın kendiliğinden oluşturduğu güzel yerler."
+    },
+    {
+     "term": "Yönetim birimi",
+     "meaning": "İl, ilçe, mahalle ve köy gibi yönetim alanları."
+    },
+    {
+     "term": "Vali",
+     "meaning": "İli yöneten kişi."
+    },
+    {
+     "term": "Muhtar",
+     "meaning": "Mahalle ya da köyün seçilmiş yöneticisi."
+    },
+    {
+     "term": "Millî bayram",
+     "meaning": "Milletçe kutladığımız önemli günler."
+    },
+    {
+     "term": "Dinî bayram",
+     "meaning": "Ramazan ve Kurban Bayramı gibi dinimizle ilgili bayramlar."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Tarihî mekânları ve doğayı korumalıyız.",
+    "İli vali, ilçeyi kaymakam yönetir.",
+    "Atatürk çalışkan bir öğrenciydi.",
+    "Bayramlar birlik ve beraberliği güçlendirir."
+   ]
+  },
+  {
+   "grade": 2,
+   "order": 5,
+   "intro": "Bu temada hava olaylarını ve mevsimleri inceliyoruz. Doğada yön bulmayı öğreniyoruz. Afetlere karşı önlem almayı ve kaynakları tasarruflu kullanmayı keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Hava olayları ve mevsimler",
+     "text": "Yağmur, kar, dolu, rüzgâr ve sis birer hava olayıdır. Bir yılda dört mevsim vardır: ilkbahar, yaz, sonbahar ve kış. Ülkemizde yazın havalar genellikle sıcak ve güneşli olur. Kışın havalar soğur, bazı yerlere kar yağar. İlkbaharda ağaçlar çiçek açar, sonbaharda bazı ağaçların yaprakları sararıp dökülür. Giysilerimizi mevsime ve hava durumuna göre seçeriz.",
+     "points": [
+      "İlkbahar, yaz, sonbahar, kış",
+      "Giysini havaya göre seç."
+     ]
+    },
+    {
+     "title": "Ana yönler ve doğada yön bulma",
+     "text": "Dört ana yön vardır: kuzey, güney, doğu ve batı. Güneş sabahları doğudan doğar, akşamları batıdan batar. Sabah güneşe dönüp kollarımızı yana açtığımızda sağ kolumuz güneyi, sol kolumuz kuzeyi, arkamız batıyı gösterir. Ülkemizde ağaçların yosun tutmuş tarafı genellikle kuzeyi gösterir. Geceleri Kutup Yıldızı da kuzeyi gösterir. Pusula ile de yön bulabiliriz.",
+     "points": [
+      "Güneş doğudan doğar, batıdan batar.",
+      "Kutup Yıldızı kuzeyi gösterir."
+     ]
+    },
+    {
+     "title": "Afetler ve tasarruf",
+     "text": "Deprem, sel, yangın ve heyelan gibi afetlere karşı önceden hazırlıklı olmalıyız. Ailemizle bir afet ve acil durum çantası hazırlayabiliriz. Çantaya su, el feneri, düdük, ilk yardım malzemeleri ve önemli belgeler koyarız. Deprem tatbikatlarına katılırız. Su, elektrik ve kâğıt gibi kaynaklarımızı tasarruflu kullanmalıyız. Dişlerimizi fırçalarken musluğu kapatır, boş odada ışığı söndürürüz.",
+     "points": [
+      "Acil durum çantası hazırla.",
+      "Musluğu açık bırakma."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Hava olayları",
+     "meaning": "Yağmur, kar, rüzgâr gibi atmosferde görülen olaylar."
+    },
+    {
+     "term": "Mevsim",
+     "meaning": "Yılın havası birbirine benzeyen dört bölümünden her biri."
+    },
+    {
+     "term": "Ana yönler",
+     "meaning": "Kuzey, güney, doğu ve batı."
+    },
+    {
+     "term": "Afet",
+     "meaning": "İnsanlara ve çevreye büyük zarar veren olay."
+    },
+    {
+     "term": "Kaynak",
+     "meaning": "İhtiyaçlarımızı karşıladığımız su, enerji gibi değerler."
+    },
+    {
+     "term": "Tasarruf",
+     "meaning": "Gereksiz harcamadan, dikkatli kullanma."
+    }
+   ],
+   "example": {
+    "question": "Sabah saatlerinde yüzünü Güneş'e dönen bir çocuğun arkası hangi yöndür?",
+    "solution": "Güneş sabah doğudan doğar. Çocuk yüzünü Güneş'e döndüyse önü doğudur. Arkası doğunun tersi olan batıdır. Sağ kolu güneyi, sol kolu kuzeyi gösterir."
+   },
+   "remember": [
+    "Dört mevsim vardır.",
+    "Güneş doğudan doğar, batıdan batar.",
+    "Afetlere karşı önceden hazırlıklı ol.",
+    "Kaynakları tasarruflu kullan."
+   ]
+  },
+  {
+   "grade": 2,
+   "order": 6,
+   "intro": "Bu temada bilim insanlarının bilime katkılarını öğreniyoruz. Teknolojik ürünlerin zamanla nasıl değiştiğini inceliyoruz. Sanatın günlük hayatımızdaki yerini keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Bilim insanları",
+     "text": "Bilim insanları merak ettikleri soruları araştırır ve insanlığın hayatını kolaylaştıran buluşlar yapar. Örneğin Uluğ Bey gök cisimlerini inceleyen önemli bir astronomdu. Aziz Sancar, yaptığı çalışmalarla Nobel Kimya Ödülü kazanan Türk bilim insanıdır. Bilim insanları hakkında kitaplardan, ansiklopedilerden ve güvenilir internet sitelerinden bilgi toplayabiliriz. Onların hayat hikâyeleri bize çalışmanın ve merakın önemini gösterir.",
+     "points": [
+      "Uluğ Bey: astronomi",
+      "Aziz Sancar: Nobel Kimya Ödülü"
+     ]
+    },
+    {
+     "title": "Teknolojinin değişimi",
+     "text": "Teknolojik ürünler zaman içinde değişir ve gelişir. Eskiden telefonlar kablolu ve büyüktü, sadece konuşmak için kullanılırdı. Bugün cep telefonlarıyla fotoğraf çekip görüntülü konuşabiliyoruz. Ancak telefonun asıl görevi olan uzaktaki biriyle iletişim kurmak hiç değişmedi; buna süreklilik denir. Eski ve yeni ürünleri karşılaştırarak gelecekte nasıl olabileceklerini tahmin edebiliriz. Bu karşılaştırmayı yaparken fotoğraflardan ve müzelerden kanıt toplarız.",
+     "points": [
+      "Değişim: ürün gelişir.",
+      "Süreklilik: temel görev aynı kalır."
+     ]
+    },
+    {
+     "title": "Günlük hayatta sanat",
+     "text": "Sanat hayatımızın her yerindedir. Evimizdeki halılar, kilimler, süslü tabaklar ve resimler birer sanat ürünüdür. Dinlediğimiz şarkılar, izlediğimiz tiyatrolar ve okuduğumuz resimli kitaplar da sanatla ilgilidir. Binaların tasarımında mimarlık sanatı vardır. Okulumuzda yaptığımız resimler ve el işleri de küçük birer sanat eseridir. Sanat hayatı daha güzel ve renkli hâle getirir. Sanatı her yerde fark edebiliriz.",
+     "points": [
+      "Halı, kilim, çini sanat ürünüdür.",
+      "Mimarlık da bir sanattır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Bilim",
+     "meaning": "Araştırma ve deneyle bilgi üretme."
+    },
+    {
+     "term": "Bilim insanı",
+     "meaning": "Bilimsel çalışmalar yapan kişi."
+    },
+    {
+     "term": "Teknoloji",
+     "meaning": "İnsanların işini kolaylaştıran araç ve yöntemler."
+    },
+    {
+     "term": "Değişim",
+     "meaning": "Zamanla farklılaşma."
+    },
+    {
+     "term": "Süreklilik",
+     "meaning": "Zamanla değişmeden devam eden özellik."
+    },
+    {
+     "term": "Sanat",
+     "meaning": "Duygu ve düşünceleri estetik biçimde anlatma."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Bilim insanları hayatımızı kolaylaştırır.",
+    "Teknoloji değişir ama temel görevi sürer.",
+    "Sanat hayatımızın her yerindedir.",
+    "Bilgi toplarken güvenilir kaynak kullan."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 1,
+   "intro": "Bu temada güçlü yanlarımızı ve gelişime açık yönlerimizi tanıyoruz. Okuldaki hak ve sorumluluklarımızı öğreniyoruz. Çocuk haklarını tanıtmak için fikirler üretiyoruz.",
+   "sections": [
+    {
+     "title": "Güçlü ve gelişime açık yönlerim",
+     "text": "Her insanın iyi yaptığı şeyler vardır; bunlar güçlü yönlerimizdir. Örneğin biri resim yapmakta, biri koşmakta, biri de arkadaşlarına yardım etmekte iyidir. Henüz iyi yapamadığımız ama çalışarak geliştirebileceğimiz alanlar da vardır; bunlar gelişime açık yönlerimizdir. Kendimizi tanımak hedef belirlememize yardım eder. Gelişime açık yönlerimiz için küçük adımlarla düzenli çalışabiliriz. Başarılarımızı fark etmek bize güven verir.",
+     "points": [
+      "Güçlü yönünü fark et.",
+      "Gelişime açık yönün için hedef koy."
+     ]
+    },
+    {
+     "title": "Okulda hak ve sorumluluk",
+     "text": "Okulda haklarımız vardır: eğitim almak, güvenli bir ortamda bulunmak, fikrimizi söylemek ve oyun oynamak gibi. Haklarımızın yanında sorumluluklarımız da vardır. Derslere zamanında gelmek, ödevlerimizi yapmak, okul eşyalarını korumak ve arkadaşlarımıza saygı göstermek sorumluluklarımızdır. Biz haklarımızı kullanırken başkalarının haklarına da saygı göstermeliyiz. Grup çalışmalarında iş birliği yaparız. Böylece okulumuz herkes için güzel bir yer olur.",
+     "points": [
+      "Hakkını kullan, sorumluluğunu yerine getir.",
+      "Başkalarının haklarına saygı göster."
+     ]
+    },
+    {
+     "title": "Çocuk hakları",
+     "text": "Dünyadaki bütün çocukların bazı temel hakları vardır. Yaşama, sağlıklı büyüme, eğitim alma, oyun oynama, korunma ve fikrini söyleme bu haklar arasındadır. Bu haklar Birleşmiş Milletler Çocuk Haklarına Dair Sözleşme ile güvence altına alınmıştır. Çocuk haklarını tanıtmak için afiş, şiir, resim ya da kısa bir sunum hazırlayabiliriz. Okul panosunda paylaşarak herkesin öğrenmesini sağlayabiliriz.",
+     "points": [
+      "Eğitim, sağlık, oyun ve korunma hakkı",
+      "Afiş hazırlayarak hakları tanıt."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Güçlü alan",
+     "meaning": "Bir kişinin iyi yaptığı alan."
+    },
+    {
+     "term": "Gelişime açık alan",
+     "meaning": "Çalışarak geliştirilebilecek alan."
+    },
+    {
+     "term": "İş birliği",
+     "meaning": "Ortak amaç için birlikte çalışma."
+    },
+    {
+     "term": "Hak",
+     "meaning": "Bir kişinin sahip olduğu ve kimsenin elinden alamayacağı yetki."
+    },
+    {
+     "term": "Sorumluluk",
+     "meaning": "Üzerimize düşeni yerine getirme."
+    },
+    {
+     "term": "Çocuk hakları",
+     "meaning": "Bütün çocukların sahip olduğu temel haklar."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Herkesin güçlü yönleri vardır.",
+    "Her hak bir sorumluluk getirir.",
+    "Bütün çocukların eğitim ve oyun hakkı vardır.",
+    "Başkalarının haklarına saygı göster."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 2,
+   "intro": "Bu temada sağlığımızı korumak için davranışlarımızı düzenliyoruz. Güvenliğimizi tehdit eden durumlarda ne yapacağımızı sorguluyoruz. Trafik kurallarının önemini anlıyoruz.",
+   "sections": [
+    {
+     "title": "Sağlığımızı korumak",
+     "text": "Sağlıklı kalmak için her gün düzenli davranışlar sergilemeliyiz. Dengeli beslenmek, yeterli su içmek, her gece yeterince uyumak ve hareket etmek bunların başında gelir. Ellerimizi sık sık yıkamalı, dişlerimizi fırçalamalı ve kişisel eşyalarımızı başkalarıyla paylaşmamalıyız. Hasta olduğumuzda doktora gitmeli ve ilaçlarımızı yalnızca büyüklerimizin gözetiminde kullanmalıyız. Ekran süremizi de sınırlamalıyız. Sağlığımızı korumak bizim sorumluluğumuzdur.",
+     "points": [
+      "Dengeli beslen, yeterince uyu.",
+      "İlacı yalnızca büyüğünle kullan.",
+      "Kişisel eşyalarını paylaşma."
+     ]
+    },
+    {
+     "title": "Güvenliğimizi korumak",
+     "text": "Bazı durumlar güvenliğimizi tehdit edebilir. Tanımadığımız biri bizi bir yere götürmek isterse ya da hediye vermek isterse kabul etmeyiz. Kaybolduğumuzda olduğumuz yerde bekler, bir polise ya da güvenlik görevlisine başvururuz. Evde yalnızken kapıyı tanımadığımız kişilere açmayız. Kendimizi güvende hissetmediğimiz her durumu ailemize ve öğretmenimize anlatırız. Ailemizin telefon numarasını ezbere bilmeliyiz.",
+     "points": [
+      "Tanımadığın kişiyle gitme.",
+      "Kaybolursan bir görevliden yardım iste.",
+      "Ailenin telefonunu ezberle."
+     ]
+    },
+    {
+     "title": "Trafik kuralları",
+     "text": "Trafik kuralları, yolları kullanan herkesin güvenliği için vardır. Yayalar kaldırımdan yürür, yaya geçidinden karşıya geçer. Bisiklete binerken kask takarız. Okul servisinde ve otomobilde emniyet kemeri takarız. Araçtan inerken kaldırım tarafından ineriz. Trafik kurallarına uymak kazaları önler. Bu konuda afiş, şiir ya da slogan hazırlayarak çevremizdekileri bilinçlendirebiliriz. Hepimiz kurallara uyarsak yollar herkes için güvenli olur.",
+     "points": [
+      "Kaldırımdan yürü.",
+      "Bisiklette kask tak.",
+      "Araçta emniyet kemerini tak."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Sağlık",
+     "meaning": "Bedenin ve ruhun iyi olma hâli."
+    },
+    {
+     "term": "Güvenlik",
+     "meaning": "Tehlikelerden korunma durumu."
+    },
+    {
+     "term": "Trafik kuralları",
+     "meaning": "Yolda güvenliği sağlayan kurallar."
+    },
+    {
+     "term": "Yaya",
+     "meaning": "Yolda yürüyen kişi."
+    },
+    {
+     "term": "Emniyet kemeri",
+     "meaning": "Araçta yolcuyu koruyan kemer."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Sağlıklı alışkanlıklar bizi korur.",
+    "Tanımadığın kişilerle hiçbir yere gitme.",
+    "Bisiklete binerken kask tak.",
+    "Trafik kuralları hayat kurtarır."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 3,
+   "intro": "Bu temada aile ile toplum arasındaki bağı inceliyoruz. Yardıma ihtiyacı olanlara nasıl destek olabileceğimizi düşünüyoruz. Mesleklerin toplum için önemini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Aile ve toplum",
+     "text": "Aileler bir araya gelerek toplumu oluşturur. Ailede öğrendiğimiz saygı, sevgi, dürüstlük ve yardımlaşma gibi değerler topluma da yansır. Ailesinde sorumluluk alan bir çocuk, toplumda da sorumlu bir birey olur. Toplum da ailelere okul, hastane, park gibi hizmetler sunar. Bu yüzden aile ve toplum birbirini etkiler ve birbirine ihtiyaç duyar. Güçlü aileler güçlü bir toplum oluşturur.",
+     "points": [
+      "Aileler toplumu oluşturur.",
+      "Ailede öğrenilen değerler topluma yansır."
+     ]
+    },
+    {
+     "title": "Yardımlaşma",
+     "text": "Toplumda yaşlı, hasta, engelli ya da ihtiyaç sahibi insanlar olabilir. Onların hayatını kolaylaştırmak için yardımlaşırız. Yaşlı bir komşumuzun alışverişine yardım edebiliriz. Kullanmadığımız temiz giysi ve kitapları ihtiyacı olanlarla paylaşabiliriz. Okulda yardım kampanyaları düzenleyebiliriz. Yardım ederken karşımızdakini kırmamaya, onurunu korumaya dikkat ederiz. Yardımlaşma toplumu güçlendirir. Yaptığımız küçük iyilikler bile birinin gününü güzelleştirebilir.",
+     "points": [
+      "Yaşlı komşuna yardım et.",
+      "Kitaplarını paylaş.",
+      "Yardım ederken incitme."
+     ]
+    },
+    {
+     "title": "Meslekler",
+     "text": "Toplumda herkesin bir görevi vardır ve meslekler bu görevleri yerine getirir. Doktor hastaları iyileştirir, öğretmen eğitim verir, çiftçi ürün yetiştirir. Fırıncı ekmek yapar, itfaiyeci yangın söndürür, temizlik görevlisi çevremizi temiz tutar. Her meslek toplum için değerlidir ve birbirine bağlıdır. Bir meslek olmasa hayatımız zorlaşır. Bu yüzden bütün meslekleri ve çalışanları saygıyla karşılarız.",
+     "points": [
+      "Her meslek değerlidir.",
+      "Meslekler birbirine bağlıdır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Aile",
+     "meaning": "Toplumun en küçük birimi."
+    },
+    {
+     "term": "Toplum",
+     "meaning": "Bir arada yaşayan ve ortak değerleri olan insanlar topluluğu."
+    },
+    {
+     "term": "Yardımlaşma",
+     "meaning": "İnsanların birbirine destek olması."
+    },
+    {
+     "term": "Meslek",
+     "meaning": "Bir kişinin geçimini sağlamak için yaptığı, eğitim gerektiren iş."
+    },
+    {
+     "term": "Dayanışma",
+     "meaning": "Zor zamanlarda birbirine destek olma."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Aileler bir araya gelerek toplumu oluşturur.",
+    "Yardımlaşma toplumu güçlendirir.",
+    "Her meslek toplum için önemlidir.",
+    "Yardım ederken karşındakinin onurunu koru."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 4,
+   "intro": "Bu temada tarihî mekânları ve doğal güzellikleri korumanın önemini anlıyoruz. Ülkemizin yönetim şeklini öğreniyoruz. Atatürk'ün kişilik özelliklerini ve millî birliğin önemini keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Tarihî ve doğal mirası korumak",
+     "text": "Tarihî mekânlar ve doğal güzellikler hepimizin ortak mirasıdır. Bu yerler geçmişimizi anlatır ve gelecek nesillere aktarılmalıdır. Tarihî yapıların duvarlarına yazı yazmamalı, onlara zarar vermemeliyiz. Doğal alanlara çöp atmamalı, bitkileri koparmamalıyız. Bu yerleri korumak turizmi de destekler. Korunmayan mekânlar zamanla yok olabilir. Hepimiz bu mirasın koruyucusuyuz. Gördüğümüz zararları ilgili kurumlara bildirerek korumaya katkı sağlayabiliriz.",
+     "points": [
+      "Tarihî yapılara zarar verme.",
+      "Doğaya çöp atma."
+     ]
+    },
+    {
+     "title": "Ülkemizin yönetim şekli",
+     "text": "Ülkemizin yönetim şekli cumhuriyettir. Cumhuriyet, halkın kendi yöneticilerini seçimle belirlediği yönetim şeklidir. Cumhuriyet 29 Ekim 1923'te ilan edildi. Türkiye Büyük Millet Meclisi ülkemizin yasalarını yapar. Vatandaşlar seçimlerde oy kullanarak milletvekillerini belirler. Cumhuriyetle birlikte egemenlik, yani yönetme gücü millete aittir. Bu bilgileri güvenilir kaynaklardan araştırabiliriz. Cumhuriyet, Türk milletinin en büyük kazanımlarından biridir.",
+     "points": [
+      "Yönetim şeklimiz cumhuriyettir.",
+      "Cumhuriyet 29 Ekim 1923'te ilan edildi.",
+      "Egemenlik milletindir."
+     ]
+    },
+    {
+     "title": "Atatürk ve millî birlik",
+     "text": "Atatürk ileri görüşlü, cesur, kararlı, vatansever ve çalışkan bir liderdi. Kurtuluş Savaşı'nı yönetti ve Türkiye Cumhuriyeti'ni kurdu. Eğitime ve bilime çok önem verdi. Millî birlik ve beraberlik, bir milletin aynı amaç için el ele vermesidir. Kurtuluş Savaşı, birlik içinde olmanın başarı getirdiğini gösterir. Birlik içinde olan bir ülke daha güçlü olur ve zorlukları kolayca aşar.",
+     "points": [
+      "Atatürk: cesur, kararlı, ileri görüşlü",
+      "Birlik ve beraberlik ülkeyi güçlendirir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Tarihî mekân",
+     "meaning": "Geçmişten kalan yapı ya da yer."
+    },
+    {
+     "term": "Doğal güzellik",
+     "meaning": "Doğanın oluşturduğu güzel yer."
+    },
+    {
+     "term": "Yönetim şekli",
+     "meaning": "Bir ülkenin nasıl yönetildiğini gösteren düzen."
+    },
+    {
+     "term": "Cumhuriyet",
+     "meaning": "Halkın yöneticilerini seçimle belirlediği yönetim şekli."
+    },
+    {
+     "term": "Kişilik özellikleri",
+     "meaning": "Bir insanı diğerlerinden ayıran davranış ve tutumlar."
+    },
+    {
+     "term": "Birlik ve beraberlik",
+     "meaning": "Milletin ortak amaç için bir arada olması."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Tarihî ve doğal miras hepimizindir.",
+    "Yönetim şeklimiz cumhuriyettir.",
+    "Atatürk ileri görüşlü ve kararlı bir liderdi.",
+    "Birlik içinde olan ülke güçlüdür."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 5,
+   "intro": "Bu temada doğadaki varlıkların insan yaşamı için önemini düşünüyoruz. Kroki çizip okumayı öğreniyoruz. Afetlere karşı alınacak önlemleri ve sürdürülebilir yaşamı keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Doğadaki varlıklar",
+     "text": "Doğadaki su, hava, toprak, bitkiler ve hayvanlar yaşamımız için çok önemlidir. Su içmek ve temizlenmek için, hava nefes almak için gereklidir. Toprakta besinlerimizi yetiştiririz. Bitkiler bize oksijen, gıda ve gölge sağlar. Hayvanlardan süt, yumurta ve yün gibi ürünler elde ederiz. Bu varlıklar birbirine bağlıdır; biri zarar görürse diğerleri de etkilenir. Doğayı korumak kendimizi korumaktır.",
+     "points": [
+      "Su, hava ve toprak yaşam kaynağıdır.",
+      "Doğadaki varlıklar birbirine bağlıdır."
+     ]
+    },
+    {
+     "title": "Kroki",
+     "text": "Kroki, bir yerin kuşbakışı, yani yukarıdan görünüşünün basit bir çizimidir. Krokide ölçü kullanılmaz ama yerlerin birbirine göre konumu gösterilir. Evimizden okula giden yolun krokisini çizebiliriz. Krokide binaları, yolları, parkları basit şekillerle gösteririz. Yönleri belirtmek için kuzey işareti koyarız. Kroki sayesinde bir yeri tarif edebilir, bulunduğumuz konumu anlayabiliriz. Kroki çizmek, yön ve konum becerimizi geliştirir.",
+     "points": [
+      "Kroki kuşbakışı çizilir.",
+      "Ölçü kullanılmaz.",
+      "Kuzey işareti konur."
+     ]
+    },
+    {
+     "title": "Afetler ve sürdürülebilirlik",
+     "text": "Afetlere karşı yapılacakları üç gruba ayırabiliriz: afetten önce, afet sırasında ve afetten sonra. Depremden önce eşyaları sabitler, acil durum çantası hazırlarız. Deprem sırasında çök, kapan, tutun hareketini yaparız. Depremden sonra binadan dikkatle çıkıp toplanma alanına gideriz. Çevresel sürdürülebilirlik için kaynakları tasarruflu kullanır, ağaç diker ve atıkları geri dönüştürürüz. Böylece gelecek nesillere temiz bir çevre bırakırız.",
+     "points": [
+      "Deprem anında: çök, kapan, tutun",
+      "Sonrasında toplanma alanına git."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Doğadaki varlıklar",
+     "meaning": "Su, hava, toprak, bitkiler ve hayvanlar gibi doğal unsurlar."
+    },
+    {
+     "term": "Kroki",
+     "meaning": "Bir yerin kuşbakışı, ölçüsüz basit çizimi."
+    },
+    {
+     "term": "Yön",
+     "meaning": "Kuzey, güney, doğu ve batı gibi taraflar."
+    },
+    {
+     "term": "Afet",
+     "meaning": "İnsanlara ve çevreye büyük zarar veren olay."
+    },
+    {
+     "term": "Çevre",
+     "meaning": "Canlıların içinde yaşadığı ortam."
+    },
+    {
+     "term": "Sürdürülebilirlik",
+     "meaning": "Kaynakları gelecek nesilleri düşünerek kullanma."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Doğayı korumak kendimizi korumaktır.",
+    "Kroki kuşbakışı ve ölçüsüz çizilir.",
+    "Deprem anında çök, kapan, tutun.",
+    "Kaynakları tasarruflu kullan."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 6,
+   "intro": "Bu temada bilimsel ve teknolojik gelişmelerin günlük hayatımızı nasıl değiştirdiğini inceliyoruz. Sanatçıların sanata katkılarını araştırıyoruz.",
+   "sections": [
+    {
+     "title": "Bilimsel gelişmeler",
+     "text": "Bilimsel gelişmeler hayatımızı kolaylaştırır ve sağlığımızı korur. Aşılar sayesinde birçok hastalıktan korunuruz. Mikroskobun bulunması, gözle göremediğimiz mikropları tanımamızı sağladı. Elektriğin kullanılmaya başlanmasıyla geceleri evlerimizi aydınlatabiliyoruz. Bilim insanlarının araştırmaları sayesinde hava durumunu önceden öğrenebiliyoruz. Bilim sürekli gelişir ve yeni sorulara cevap arar. Bugün kullandığımız birçok kolaylık, geçmişte yapılan bilimsel çalışmaların sonucudur. Belki gelecekte biz de bilime katkı sağlayacağız.",
+     "points": [
+      "Aşılar bizi hastalıklardan korur.",
+      "Mikroskop mikropları görmemizi sağlar."
+     ]
+    },
+    {
+     "title": "Teknolojik gelişmeler",
+     "text": "Teknolojik gelişmeler iletişimi, ulaşımı ve eğitimi değiştirdi. Uçak ve hızlı trenler sayesinde uzak yerlere kısa sürede gidebiliyoruz. İnternet sayesinde bilgiye hızla ulaşıyor, uzaktaki yakınlarımızla görüntülü konuşabiliyoruz. Teknolojinin yararlarının yanında bazı zararları da olabilir. Uzun süre ekran kullanımı göz sağlığını bozabilir ve hareketsizliğe yol açabilir. Teknolojiyi bilinçli ve dengeli kullanmalıyız. Teknoloji doğru kullanıldığında çok yararlıdır.",
+     "points": [
+      "Teknoloji iletişimi ve ulaşımı hızlandırır.",
+      "Teknolojiyi dengeli kullan."
+     ]
+    },
+    {
+     "title": "Sanatçılar ve sanat",
+     "text": "Sanatçılar eserleriyle duygularımızı ifade eder ve kültürümüzü yaşatır. Mimar Sinan, Selimiye ve Süleymaniye camileri gibi muhteşem eserler yapmıştır. Osman Hamdi Bey ünlü bir ressamdır ve 'Kaplumbağa Terbiyecisi' tablosuyla tanınır. Âşık Veysel, sazı ve türküleriyle gönüllere dokunmuştur. Sanatçılar hakkında kitaplardan ve müzelerden bilgi toplayabiliriz. Sanat eserlerini korumak hepimizin görevidir. Sanatçıların hayatı bize emeğin değerini gösterir.",
+     "points": [
+      "Mimar Sinan: Selimiye Camii",
+      "Osman Hamdi Bey: ressam",
+      "Âşık Veysel: halk ozanı"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Bilim",
+     "meaning": "Araştırma ve deneyle bilgi üretme."
+    },
+    {
+     "term": "Teknoloji",
+     "meaning": "Bilimsel bilgiyle üretilen araç ve yöntemler."
+    },
+    {
+     "term": "Sanat",
+     "meaning": "Duygu ve düşünceleri estetik biçimde anlatma."
+    },
+    {
+     "term": "Sanatçı",
+     "meaning": "Sanat eseri ortaya koyan kişi."
+    },
+    {
+     "term": "Buluş",
+     "meaning": "Daha önce olmayan yeni bir şeyin ortaya çıkarılması."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Bilim hayatımızı kolaylaştırır.",
+    "Teknolojiyi bilinçli kullan.",
+    "Sanatçılar kültürümüzü yaşatır.",
+    "Bilgi toplarken güvenilir kaynak seç."
+   ]
+  }
+ ]
+}

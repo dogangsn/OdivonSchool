@@ -1,0 +1,1235 @@
+{
+ "file": "ortaokul-sosyal-bilgiler",
+ "notes": [
+  {
+   "grade": 5,
+   "order": 1,
+   "intro": "Bu temada aile, okul ve arkadaş gruplarında üstlendiğimiz rolleri, farklı kültürlere saygıyı ve yardımlaşmanın önemini öğreniyoruz. Toplum içinde mutlu ve huzurlu yaşamak için birbirimize karşı hak ve sorumluluklarımızı bilmemiz gerekir.",
+   "sections": [
+    {
+     "title": "Gruplar ve Rollerimiz",
+     "text": "Her insan doğduğu andan itibaren çeşitli grupların üyesidir. Ailemiz, sınıfımız, okulumuz, spor takımımız ve arkadaş çevremiz birer gruptur. Her grupta farklı roller üstleniriz. Örneğin evde çocuk, kardeş ya da torunuz; okulda öğrenci, sınıf başkanı veya kulüp üyesiyiz. Her rolün kendine özgü hakları ve sorumlulukları vardır. Bir öğrenci eğitim alma hakkına sahipken derslerine çalışma ve okul kurallarına uyma sorumluluğu taşır. Rollerimizin gereğini yerine getirdiğimizde grubumuz daha uyumlu çalışır.",
+     "points": [
+      "Bir kişi aynı anda birçok grubun üyesi olabilir.",
+      "Her rol hak ve sorumluluk getirir.",
+      "Rollerin gereği yapılmazsa grupta sorunlar çıkar."
+     ]
+    },
+    {
+     "title": "Kültürel Farklılıklara Saygı",
+     "text": "Kültür, bir toplumun dili, gelenekleri, yemekleri, müziği, giyimi ve inançları gibi maddi ve manevi değerlerinin bütünüdür. Ülkemizin farklı yörelerinde düğünler, bayram gelenekleri ve yöresel yemekler farklılık gösterebilir. Bu farklılıklar bizi zenginleştirir. Farklı kültürlerden gelen insanlara saygı göstermek, onların değerlerini anlamaya çalışmak birlikte yaşamayı kolaylaştırır. Saygının olduğu yerde önyargılar azalır, dostluk ve güven artar. Ortak değerlerimiz ise bizi bir arada tutan en güçlü bağdır.",
+     "points": []
+    },
+    {
+     "title": "Yardımlaşma ve Dayanışma",
+     "text": "Yardımlaşma, ihtiyaç sahiplerine maddi ya da manevi destek olmaktır. Dayanışma ise zor zamanlarda insanların birbirine destek olarak birlikte hareket etmesidir. İmece, kermes, kan bağışı ve afetlerde yapılan yardım kampanyaları bunlara örnektir. Toplumumuzda bu işleri düzenli biçimde yürüten sivil toplum kuruluşları (STK) da vardır. Türk Kızılay, LÖSEV ve TEMA Vakfı gibi kuruluşlar gönüllülerle çalışır. Biz de okulda kitap bağışı, kermes veya sokak hayvanlarına mama toplama gibi etkinliklere katılarak katkı sağlayabiliriz.",
+     "points": [
+      "İmece: köyde bir işin hep birlikte yapılması",
+      "Kermes: yardım amacıyla yapılan satış etkinliği",
+      "STK: devlete bağlı olmayan, gönüllülerle kurulan kuruluş"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Grup",
+     "meaning": "Ortak amaç veya özellikleri olan insanların oluşturduğu topluluk."
+    },
+    {
+     "term": "Rol",
+     "meaning": "Bir kişinin grup içinde üstlendiği görev ve konum."
+    },
+    {
+     "term": "Hak",
+     "meaning": "Kişinin sahip olduğu, başkalarından isteyebileceği yetki."
+    },
+    {
+     "term": "Sorumluluk",
+     "meaning": "Bir kişinin yerine getirmesi gereken görev ve davranışlar."
+    },
+    {
+     "term": "Kültür",
+     "meaning": "Bir topluma ait maddi ve manevi değerlerin bütünü."
+    },
+    {
+     "term": "Dayanışma",
+     "meaning": "Zor zamanlarda birbirine destek olarak birlikte hareket etme."
+    },
+    {
+     "term": "STK",
+     "meaning": "Sivil toplum kuruluşu; gönüllülerin topluma fayda için kurduğu dernek ve vakıflar."
+    }
+   ],
+   "example": {
+    "question": "Ayşe evde abla, okulda sınıf başkanı, hafta sonları voleybol takımında oyuncudur. Ayşe'nin rollerini ve bu rollerden birine ait bir sorumluluğu yazınız.",
+    "solution": "1. Ayşe'nin rolleri: abla (aile grubu), sınıf başkanı (sınıf grubu), oyuncu (spor takımı).\n2. Sınıf başkanı olarak sorumluluğu: sınıfın düzenine yardımcı olmak ve arkadaşlarının isteklerini öğretmene iletmek.\n3. Sonuç: Bir kişi aynı anda birçok grupta farklı roller üstlenebilir."
+   },
+   "remember": [
+    "Her grupta farklı roller üstleniriz.",
+    "Haklarımız kadar sorumluluklarımız da vardır.",
+    "Kültürel farklılıklar zenginliktir, saygı gösterilmelidir.",
+    "Yardımlaşma ve dayanışma toplumsal birliği güçlendirir."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 2,
+   "intro": "Bu temada yaşadığımız ilin konumunu, doğal ve beşerî çevresini, olası afetlere karşı alınacak önlemleri ve ülkemizin kara komşularını öğreniyoruz. Yaşadığımız yeri tanımak onu korumamızı ve geleceğe hazırlanmamızı sağlar.",
+   "sections": [
+    {
+     "title": "Göreceli Konum",
+     "text": "Bir yerin çevresindeki yerlere göre durumuna göreceli konum denir. Örneğin bir ilin hangi illerle komşu olduğu, denize kıyısı olup olmadığı, dağlara veya göllere yakınlığı göreceli konumunu anlatır. Yön bulmak için ana yönleri (kuzey, güney, doğu, batı) ve ara yönleri (kuzeydoğu, kuzeybatı, güneydoğu, güneybatı) kullanırız. Haritalarda kuzey genellikle yukarıdadır. Bir ilin konumu, oradaki iklimi, ekonomik faaliyetleri ve insanların yaşam biçimini etkiler. Kıyıdaki bir ilde balıkçılık ve turizm gelişebilirken dağlık bir ilde hayvancılık öne çıkabilir.",
+     "points": [
+      "Ana yönler: kuzey, güney, doğu, batı",
+      "Göreceli konum çevredeki yerlere göre anlatılır."
+     ]
+    },
+    {
+     "title": "Doğal ve Beşerî Çevre",
+     "text": "Doğal çevre, insanın yapmadığı; dağlar, ovalar, akarsular, göller, ormanlar ve iklim gibi unsurlardan oluşur. Beşerî çevre ise insanın yaptığı yollar, binalar, köprüler, barajlar ve fabrikalar gibi unsurlardır. İnsanlar ihtiyaçlarını karşılamak için doğal çevreyi değiştirir. Yeni yollar ve konutlar yapılması yaşamı kolaylaştırır. Ancak ormanların azalması, tarım alanlarına bina yapılması ve çevre kirliliği gibi olumsuz sonuçlar da doğabilir. Bu yüzden çevreyi değiştirirken doğaya zarar vermemeye dikkat etmeliyiz.",
+     "points": []
+    },
+    {
+     "title": "Afetlere Hazırlık",
+     "text": "Afet, insanların yaşamını etkileyen, can ve mal kaybına yol açan olaylardır. Deprem, sel, heyelan, çığ ve orman yangını bunlara örnektir. Ülkemiz bir deprem kuşağında yer aldığı için depreme hazırlıklı olmak çok önemlidir. Afet ve Acil Durum Yönetimi Başkanlığı (AFAD) afetlere hazırlık ve müdahale çalışmalarını yürüten kurumdur. Ailemizle bir afet planı hazırlamak, deprem çantası bulundurmak, ağır eşyaları duvara sabitlemek ve toplanma alanını öğrenmek etkileri azaltır. Deprem sırasında çök, kapan, tutun hareketini yapmalıyız.",
+     "points": [
+      "Deprem çantası: su, yiyecek, el feneri, düdük, ilk yardım malzemesi",
+      "Acil çağrı numarası: 112",
+      "Okulda düzenlenen tatbikatlara katıl."
+     ]
+    },
+    {
+     "title": "Kara Sınırı Komşularımız",
+     "text": "Türkiye'nin kara sınırı olan sekiz komşusu vardır. Batıda Yunanistan ve Bulgaristan; kuzeydoğuda Gürcistan; doğuda Ermenistan, Azerbaycan (Nahçıvan Özerk Cumhuriyeti üzerinden) ve İran; güneyde Irak ve Suriye bulunur. En uzun kara sınırımız Suriye iledir. Komşularımızla ticaret, turizm ve kültürel ilişkilerimiz vardır. Bu ülkelerle tarih boyunca pek çok ortak kültürel özellik paylaştık; yemeklerimiz, müziğimiz ve bazı geleneklerimiz benzerlik gösterir.",
+     "points": [
+      "Batı: Yunanistan, Bulgaristan",
+      "Kuzeydoğu ve doğu: Gürcistan, Ermenistan, Azerbaycan, İran",
+      "Güney: Irak, Suriye"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Coğrafya",
+     "meaning": "Yeryüzünü, insanları ve aralarındaki ilişkiyi inceleyen bilim."
+    },
+    {
+     "term": "Göreceli konum",
+     "meaning": "Bir yerin çevresindeki yerlere göre durumu."
+    },
+    {
+     "term": "Doğal çevre",
+     "meaning": "İnsan eli değmeden oluşan unsurlar: dağ, akarsu, orman gibi."
+    },
+    {
+     "term": "Beşerî çevre",
+     "meaning": "İnsanların oluşturduğu unsurlar: yol, bina, baraj gibi."
+    },
+    {
+     "term": "Afet",
+     "meaning": "Can ve mal kaybına yol açan, toplum yaşamını etkileyen olay."
+    },
+    {
+     "term": "AFAD",
+     "meaning": "Afet ve Acil Durum Yönetimi Başkanlığı."
+    },
+    {
+     "term": "Komşu devlet",
+     "meaning": "Bir ülkeyle ortak sınırı olan devlet."
+    },
+    {
+     "term": "Sınır",
+     "meaning": "İki ülkenin topraklarını birbirinden ayıran çizgi."
+    }
+   ],
+   "example": {
+    "question": "Bir ilde tarım arazilerinin yerine yeni konutlar yapılıyor. Bu değişimin bir olumlu ve bir olumsuz sonucunu yazınız.",
+    "solution": "1. Bu bir beşerî çevre değişimidir; insanlar doğal çevreyi değiştirmiştir.\n2. Olumlu sonuç: Artan nüfusun barınma ihtiyacı karşılanır.\n3. Olumsuz sonuç: Tarım alanları azalır, yiyecek üretimi düşebilir.\n4. Çözüm: Konutlar verimsiz arazilere yapılmalıdır."
+   },
+   "remember": [
+    "Göreceli konum, bir yerin çevresine göre durumudur.",
+    "Doğal çevreyi doğa, beşerî çevreyi insan oluşturur.",
+    "Depremde çök, kapan, tutun!",
+    "Türkiye'nin sekiz kara komşusu vardır."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 3,
+   "intro": "Bu temada insanlığın avcı-toplayıcı yaşamdan yerleşik hayata nasıl geçtiğini, Anadolu ve Mezopotamya'da kurulan ilk medeniyetleri ve bunların bize bıraktığı ortak mirası öğreniyoruz. Geçmişi bilmek bugünü anlamamıza yardım eder.",
+   "sections": [
+    {
+     "title": "Ortak Miras ve Zaman",
+     "text": "Ortak miras, geçmişten günümüze ulaşan ve tüm insanlığa ait olan tarihî eserler, doğal güzellikler, gelenekler ve el sanatlarıdır. Yaşadığımız ildeki camiler, kervansaraylar, köprüler, ören yerleri ve yöresel oyunlar bu mirasın parçasıdır. UNESCO, dünyanın korunması gereken mirasını listeye alan uluslararası kuruluştur. Ülkemizde Göbeklitepe, Çatalhöyük, Efes ve Kapadokya bu listededir. Tarihte zamanı göstermek için milat kullanılır. Milat, Hz. İsa'nın doğduğu kabul edilen yıldır. Öncesine Milattan Önce (MÖ), sonrasına Milattan Sonra (MS) denir.",
+     "points": [
+      "MÖ yıllarda sayı büyüdükçe olay daha eskidir.",
+      "MS yıllarda sayı büyüdükçe olay daha yenidir."
+     ]
+    },
+    {
+     "title": "Avcı-Toplayıcılıktan Yerleşik Hayata",
+     "text": "İlk insanlar avcılık ve toplayıcılıkla geçinirdi. Yiyecek bulmak için sürekli yer değiştirir, mağaralarda yaşar, taştan aletler kullanırlardı. Zamanla tarım yapmayı ve hayvanları evcilleştirmeyi öğrendiler. Böylece bir yere yerleşerek köyler kurdular; buna yerleşik hayat denir. Anadolu, ilk yerleşim yerlerinin kurulduğu bölgelerden biridir. Şanlıurfa'daki Göbeklitepe, bilinen en eski tapınak alanlarından biridir. Konya'daki Çatalhöyük'te evler bitişik yapılmış, evlere damlardan merdivenle girilmiştir. Yerleşik hayatla birlikte iş bölümü, ticaret ve mülkiyet anlayışı gelişti.",
+     "points": []
+    },
+    {
+     "title": "Mezopotamya ve Anadolu Medeniyetleri",
+     "text": "Mezopotamya, Dicle ve Fırat nehirleri arasındaki verimli bölgedir. Burada yaşayan Sümerler çivi yazısını bularak tarihî dönemleri başlatmıştır. Babil'de Hammurabi Kanunları yazılmış, Asurlular ise ticaret yoluyla yazıyı Anadolu'ya taşımıştır. Anadolu'da Hititler, bilinen en eski yazılı antlaşmalardan Kadeş Antlaşması'nı yapmıştır. Lidyalılar parayı ilk kullanan toplumdur ve Kral Yolu ticareti geliştirmiştir. Frigler tarıma önem vermiş, Urartular su kanalları ve madencilikte ilerlemiş, İyonlar ise bilim ve felsefede önemli düşünürler yetiştirmiştir.",
+     "points": [
+      "Sümerler: yazı",
+      "Babil: yazılı kanunlar",
+      "Hititler: Kadeş Antlaşması",
+      "Lidyalılar: para",
+      "İyonlar: bilim ve felsefe"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Ortak miras",
+     "meaning": "Geçmişten kalan ve tüm insanlığa ait olan kültürel ve doğal değerler."
+    },
+    {
+     "term": "UNESCO",
+     "meaning": "Eğitim, bilim ve kültür alanında çalışan, Dünya Mirası Listesi'ni hazırlayan uluslararası kuruluş."
+    },
+    {
+     "term": "Milat",
+     "meaning": "Takvimde başlangıç kabul edilen yıl; Hz. İsa'nın doğumu."
+    },
+    {
+     "term": "Avcı-toplayıcı toplum",
+     "meaning": "Avlanarak ve bitki toplayarak geçinen, göçebe yaşayan toplum."
+    },
+    {
+     "term": "Yerleşik hayat",
+     "meaning": "Tarım ve hayvancılıkla bir yerde sürekli yaşama."
+    },
+    {
+     "term": "Medeniyet",
+     "meaning": "Bir toplumun bilim, sanat, yönetim ve kültür alanındaki birikimi; uygarlık."
+    }
+   ],
+   "example": {
+    "question": "MÖ 3200, MS 1071 ve MÖ 1259 tarihlerini eskiden yeniye doğru sıralayınız.",
+    "solution": "1. MÖ tarihler MS tarihlerden daha eskidir.\n2. MÖ tarihlerde sayı büyüdükçe olay daha eskidir: MÖ 3200, MÖ 1259'dan eskidir.\n3. Sıralama: MÖ 3200 → MÖ 1259 → MS 1071."
+   },
+   "remember": [
+    "Yazının bulunmasıyla tarih çağları başladı; yazıyı Sümerler buldu.",
+    "Parayı ilk kullananlar Lidyalılardır.",
+    "Yerleşik hayat tarım ve hayvancılıkla başladı.",
+    "Göbeklitepe ve Çatalhöyük UNESCO Dünya Mirası Listesi'ndedir.",
+    "Ortak mirasımızı korumak hepimizin görevidir."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 4,
+   "intro": "Bu temada demokrasi ve cumhuriyetin ne olduğunu, etkin bir vatandaşın nasıl davrandığını, temel hak ve sorumluluklarımızı öğreniyoruz. Ayrıca bir sorunla karşılaştığımızda hangi kurumlara başvurabileceğimizi keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Demokrasi ve Cumhuriyet",
+     "text": "Demokrasi, halkın kendi kendini yönettiği, yöneticilerini seçimle belirlediği yönetim biçimidir. Cumhuriyet ise egemenliğin, yani yönetme yetkisinin millete ait olduğu ve devlet başkanının seçimle belirlendiği yönetim şeklidir. Cumhuriyet, demokrasinin uygulanabileceği en uygun yönetim biçimidir. Türkiye Cumhuriyeti 29 Ekim 1923'te ilan edilmiştir. Millî egemenlik, yönetme gücünün kayıtsız şartsız millete ait olmasıdır. Demokraside çoğulculuk, yani farklı görüşlere saygı ve hukukun üstünlüğü, yani herkesin yasalara uyması esastır.",
+     "points": [
+      "Egemenlik kayıtsız şartsız milletindir.",
+      "Seçimler gizli oy, açık sayım ilkesiyle yapılır."
+     ]
+    },
+    {
+     "title": "Etkin Vatandaşlık",
+     "text": "Etkin vatandaş, haklarını bilen ve kullanan, sorumluluklarını yerine getiren, toplumun sorunlarıyla ilgilenen kişidir. Okulda sınıf başkanı seçimlerinde oy kullanmak, okul meclisine aday olmak, fikirlerini saygılı bir dille söylemek ve kurallara uymak etkin vatandaşlığa örnektir. Çevreyi temiz tutmak, vergi vermek, seçimlerde oy kullanmak ve gönüllü çalışmalara katılmak da yetişkinlerin etkin vatandaşlık davranışlarıdır. Herkes sorumlu davrandığında toplumda düzen ve huzur sağlanır.",
+     "points": []
+    },
+    {
+     "title": "Temel Haklar ve Başvuru Kurumları",
+     "text": "Her insan doğuştan bazı temel haklara sahiptir: yaşama hakkı, eğitim hakkı, sağlık hakkı, düşünce ve ifade özgürlüğü, kişi dokunulmazlığı gibi. Çocukların hakları da uluslararası sözleşmelerle güvence altındadır. Haklarımızı kullanırken başkalarının haklarına saygı göstermek sorumluluğumuzdur. Bir ihtiyaç veya sorun karşısında ilgili kurumlara başvururuz. Hastalandığımızda hastaneye, yangında itfaiyeye, güvenlik sorununda polise ya da jandarmaya, yol veya çöp sorununda belediyeye başvurabiliriz. Acil durumlarda 112 aranır.",
+     "points": [
+      "Sağlık: hastane, sağlık ocağı",
+      "Güvenlik: emniyet, jandarma",
+      "Şehir hizmetleri: belediye",
+      "Eğitim: okul, ilçe millî eğitim müdürlüğü"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Demokrasi",
+     "meaning": "Halkın yöneticilerini seçtiği, halkın yönetime katıldığı yönetim biçimi."
+    },
+    {
+     "term": "Cumhuriyet",
+     "meaning": "Egemenliğin millete ait olduğu ve devlet başkanının seçimle geldiği yönetim şekli."
+    },
+    {
+     "term": "Millî egemenlik",
+     "meaning": "Yönetme yetkisinin millete ait olması."
+    },
+    {
+     "term": "Etkin vatandaşlık",
+     "meaning": "Haklarını bilip kullanan, sorumluluklarını yerine getiren vatandaş olma."
+    },
+    {
+     "term": "Katılım",
+     "meaning": "Karar alma süreçlerinde yer alma, fikir bildirme."
+    },
+    {
+     "term": "Çoğulculuk",
+     "meaning": "Farklı düşünce ve görüşlerin bir arada var olabilmesi."
+    },
+    {
+     "term": "Hukukun üstünlüğü",
+     "meaning": "Yöneten ve yönetilen herkesin yasalara uyması."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Cumhuriyet 29 Ekim 1923'te ilan edildi.",
+    "Demokraside yöneticiler seçimle belirlenir.",
+    "Haklarımızı kullanırken başkalarının haklarına saygı göstermeliyiz.",
+    "Etkin vatandaş toplumun sorunlarıyla ilgilenir.",
+    "Acil durumlarda 112'yi ara."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 5,
+   "intro": "Bu temada kaynakları verimli kullanmayı, bütçe yapmayı ve yaşadığımız ildeki ekonomik faaliyetleri öğreniyoruz. Ekonomi sadece para demek değildir; ihtiyaçlarımızı nasıl karşıladığımızla ilgilidir.",
+   "sections": [
+    {
+     "title": "İhtiyaç, İstek ve Kaynakların Verimli Kullanımı",
+     "text": "İhtiyaç, yaşamak için mutlaka karşılanması gereken şeylerdir: beslenme, barınma, giyinme gibi. İstek ise olmasa da yaşayabileceğimiz ama sahip olmak istediğimiz şeylerdir. Su, enerji, toprak ve ormanlar gibi kaynaklar sınırlıdır. Kaynakları israf edersek gelecek nesiller ihtiyaçlarını karşılayamayabilir. Sürdürülebilirlik, bugünün ihtiyaçlarını karşılarken geleceği de düşünmektir. Musluğu açık bırakmamak, gereksiz ışıkları kapatmak, kâğıdı iki yüzlü kullanmak ve atıkları geri dönüşüme ayırmak kaynakları korumanın yollarıdır.",
+     "points": [
+      "Önce ihtiyaçlar, sonra istekler karşılanmalıdır.",
+      "Tasarruf, kaynakları gereğinden fazla harcamamaktır."
+     ]
+    },
+    {
+     "title": "Bütçe Yönetimi",
+     "text": "Bütçe, belirli bir sürede elde edilecek gelirler ile yapılacak giderlerin planıdır. Gelir, kazanılan paradır: maaş veya harçlık gibi. Gider ise yapılan harcamalardır: kira, fatura, yiyecek gibi. Dengeli bir bütçede giderler gelirden fazla olmamalıdır. Gelir giderden fazlaysa artan para birikim olarak saklanabilir. Harçlığımızı planlarken önce ihtiyaçlarımızı yazmalı, sonra isteklerimiz için ne kadar kaldığını hesaplamalıyız. Bir kumbara kullanmak tasarruf alışkanlığı kazanmamıza yardım eder.",
+     "points": []
+    },
+    {
+     "title": "İlimizdeki Ekonomik Faaliyetler",
+     "text": "Ekonomik faaliyetler, insanların ihtiyaçlarını karşılamak ve gelir elde etmek için yaptığı çalışmalardır. Tarım, hayvancılık, ormancılık, balıkçılık, madencilik, sanayi, ticaret ve turizm bunlara örnektir. Bir ildeki ekonomik faaliyetler o ilin iklimine, yer şekillerine, toprağına ve doğal kaynaklarına bağlıdır. Örneğin verimli ovaları olan illerde tarım, kıyı illerinde balıkçılık ve turizm, maden yatakları olan yerlerde madencilik gelişmiştir. Ulaşım imkânları ve nüfus da sanayi ve ticareti etkiler.",
+     "points": [
+      "Verimli ova → tarım",
+      "Deniz kıyısı → balıkçılık, turizm",
+      "Gür çayırlar → hayvancılık"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Bütçe",
+     "meaning": "Gelir ve giderlerin önceden yapılan planı."
+    },
+    {
+     "term": "Gelir",
+     "meaning": "Kazanılan para veya kazanç."
+    },
+    {
+     "term": "Gider",
+     "meaning": "Harcanan para."
+    },
+    {
+     "term": "Tasarruf",
+     "meaning": "Kaynakları ve parayı gereğinden fazla harcamayıp biriktirme."
+    },
+    {
+     "term": "Ekonomik faaliyet",
+     "meaning": "Gelir elde etmek ve ihtiyaçları karşılamak için yapılan çalışma."
+    },
+    {
+     "term": "Sürdürülebilirlik",
+     "meaning": "Kaynakları gelecek nesilleri de düşünerek kullanma."
+    }
+   ],
+   "example": {
+    "question": "Ali'nin haftalık harçlığı 300 TL'dir. Ulaşıma 120 TL, yiyeceğe 100 TL harcıyor. Ali'nin bütçesi dengeli midir ve ne kadar biriktirebilir?",
+    "solution": "1. Gelir: 300 TL.\n2. Giderler: 120 + 100 = 220 TL.\n3. Gelir - gider: 300 - 220 = 80 TL.\n4. Gider gelirden az olduğu için bütçe dengelidir ve Ali haftada 80 TL biriktirebilir."
+   },
+   "remember": [
+    "İhtiyaçlar isteklerden önce gelir.",
+    "Giderler gelirden fazla olmamalıdır.",
+    "Kaynaklar sınırlıdır, israf etmemeliyiz.",
+    "Bir ilin ekonomik faaliyetleri doğal özelliklerine bağlıdır."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 6,
+   "intro": "Bu temada teknolojik gelişmelerin hayatımızı nasıl değiştirdiğini ve teknolojiyi bilinçli kullanmanın yollarını öğreniyoruz. İnternet ve dijital araçlar çok faydalıdır ama doğru kullanılmadığında sorunlara yol açabilir.",
+   "sections": [
+    {
+     "title": "Teknolojinin Toplumsal Hayata Etkileri",
+     "text": "Teknoloji, bilimsel bilgilerin insan yaşamını kolaylaştıracak araç ve yöntemlere dönüştürülmesidir. Telefon, bilgisayar, internet, çamaşır makinesi ve otomobil teknolojik ürünlerdir. Teknoloji iletişimi hızlandırmış, bilgiye ulaşmayı kolaylaştırmış, sağlık ve ulaşım alanında büyük gelişmeler sağlamıştır. Ancak bazı olumsuz etkileri de vardır: ekran başında uzun süre kalmak hareketsizliğe, göz ve uyku sorunlarına yol açabilir; yüz yüze iletişim azalabilir. Elektronik atıklar da çevreyi kirletebilir.",
+     "points": [
+      "Olumlu: hızlı iletişim, bilgiye kolay ulaşım, uzaktan eğitim",
+      "Olumsuz: bağımlılık, hareketsizlik, mahremiyet sorunları"
+     ]
+    },
+    {
+     "title": "Genel Ağ ve E-Ticaret",
+     "text": "Genel ağ (internet), dünyadaki bilgisayarları birbirine bağlayan büyük bir iletişim ağıdır. İnternet sayesinde araştırma yapabilir, ödev hazırlayabilir, uzaktaki yakınlarımızla görüntülü konuşabiliriz. E-ticaret, ürünlerin internet üzerinden alınıp satılmasıdır. Zaman kazandırır ve farklı ürünleri karşılaştırma imkânı verir. Ancak güvenilir olmayan sitelerden alışveriş yapmak dolandırıcılığa yol açabilir. Çocuklar internetten alışverişi mutlaka ailelerinin izni ve gözetimiyle yapmalıdır.",
+     "points": []
+    },
+    {
+     "title": "Dijital Ayak İzi ve Bilinçli Kullanım",
+     "text": "İnternette yaptığımız her paylaşım, yorum, arama ve ziyaret ettiğimiz siteler bir iz bırakır; buna dijital ayak izi denir. Bu izler uzun süre silinmeyebilir. Bu yüzden kişisel bilgilerimizi, adresimizi, okulumuzu ve şifrelerimizi kimseyle paylaşmamalıyız. Tanımadığımız kişilerden gelen mesajlara cevap vermemeli, şüpheli bağlantılara tıklamamalıyız. Başkalarının fotoğraflarını izinsiz paylaşmamalı ve kırıcı yorumlar yazmamalıyız. Ekran süremizi sınırlamak ve güçlü şifreler kullanmak bilinçli kullanıcının özellikleridir.",
+     "points": [
+      "Kişisel bilgilerini paylaşma.",
+      "Güçlü ve gizli şifre kullan.",
+      "Rahatsız olduğun bir durumu ailene veya öğretmenine anlat."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Teknoloji",
+     "meaning": "Bilimsel bilginin yaşamı kolaylaştıran araç ve yöntemlere dönüştürülmesi."
+    },
+    {
+     "term": "Genel ağ",
+     "meaning": "Dünyadaki bilgisayarları birbirine bağlayan ağ; internet."
+    },
+    {
+     "term": "E-ticaret",
+     "meaning": "İnternet üzerinden yapılan alışveriş."
+    },
+    {
+     "term": "Dijital ayak izi",
+     "meaning": "İnternette yaptığımız işlemlerin bıraktığı kalıcı izler."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Teknoloji hayatı kolaylaştırır ama bilinçli kullanılmalıdır.",
+    "İnternette yapılan her şey dijital ayak izi bırakır.",
+    "Kişisel bilgilerini ve şifreni kimseyle paylaşma.",
+    "İnternet alışverişini ailenle birlikte yap."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 1,
+   "intro": "Bu temada gruplardaki rollerimizin zamanla nasıl değiştiğini, toplumu bir arada tutan kültürel bağları ve millî değerleri öğreniyoruz. Ayrıca toplumsal sorunlara uzlaşma yoluyla çözüm bulmayı tartışıyoruz.",
+   "sections": [
+    {
+     "title": "Değişen Gruplar ve Roller",
+     "text": "İnsan hayatı boyunca yeni gruplara katılır, bazı gruplardan ayrılır. Okula başlayan bir çocuk öğrenci olur; büyüdükçe meslek sahibi, anne veya baba, dede veya nine olabilir. Böylece rollerimiz ve bu rollere bağlı hak ve sorumluluklarımız da değişir. Toplumdaki roller de zamanla değişebilir. Örneğin geçmişte aile büyükleri genellikle evde birlikte yaşarken bugün çekirdek aileler yaygınlaşmıştır. Teknolojinin gelişmesiyle yeni meslekler ve yeni gruplar ortaya çıkmıştır.",
+     "points": [
+      "Yaş, eğitim ve meslek rollerimizi değiştirir.",
+      "Toplumdaki değişim rollerin içeriğini de değiştirir."
+     ]
+    },
+    {
+     "title": "Kültürel Bağlar ve Millî Değerler",
+     "text": "Bir toplumu bir arada tutan ortak unsurlara kültürel bağ denir. Ortak dil, din, tarih, gelenek ve görenekler, sanat ve millî değerler bu bağları oluşturur. Türkçe, düşüncelerimizi paylaştığımız ortak dilimizdir. Bayramlar, düğünler, misafirperverlik, büyüklere saygı ve küçüklere sevgi gibi gelenekler bizi birbirimize yaklaştırır. Bayrağımız, İstiklâl Marşı'mız ve vatan sevgisi millî değerlerimizdir. Destanlarımız, türkülerimiz, halk oyunlarımız ve el sanatlarımız da ortak sanat mirasımızdır. Bu bağlar birlik ve beraberliğimizi güçlendirir.",
+     "points": []
+    },
+    {
+     "title": "Toplumsal Sorunlara Çözüm",
+     "text": "Toplum içinde yaşarken çevre kirliliği, trafik, israf, akran zorbalığı gibi sorunlarla karşılaşabiliriz. Bu sorunları çözmek için önce sorunu doğru tanımlamak, nedenlerini araştırmak ve farklı çözüm önerileri geliştirmek gerekir. Müzakere, farklı görüşteki kişilerin konuşarak ortak bir karara varmasıdır. Müzakerede karşımızdakini dikkatle dinlemek, saygılı konuşmak ve herkesin yararını gözetmek önemlidir. Şiddet ve kırıcı sözler sorunları büyütür; uzlaşma ise kalıcı çözümler sağlar.",
+     "points": [
+      "Sorunu tanımla.",
+      "Nedenlerini araştır.",
+      "Çözüm önerileri üret ve tartış.",
+      "Ortak karara var ve uygula."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Toplum",
+     "meaning": "Ortak bir kültüre sahip, birlikte yaşayan insanlar topluluğu."
+    },
+    {
+     "term": "Gelenek ve görenek",
+     "meaning": "Toplumda kuşaktan kuşağa aktarılan alışkanlıklar ve davranış biçimleri."
+    },
+    {
+     "term": "Millî değer",
+     "meaning": "Bir milleti ortak kılan, korunması gereken değerler: bayrak, dil, vatan gibi."
+    },
+    {
+     "term": "Kültür",
+     "meaning": "Bir toplumun maddi ve manevi değerlerinin bütünü."
+    },
+    {
+     "term": "Birlik ve beraberlik",
+     "meaning": "Toplumun ortak amaçlarla dayanışma içinde olması."
+    },
+    {
+     "term": "Rol",
+     "meaning": "Kişinin bir gruptaki konumu ve görevi."
+    }
+   ],
+   "example": {
+    "question": "Okul bahçesindeki top sahasını kimin kullanacağı konusunda iki sınıf anlaşmazlık yaşıyor. Bu sorunu müzakere yoluyla nasıl çözebilirler?",
+    "solution": "1. Sorun: Saha herkese yetmiyor.\n2. Her sınıf temsilcisi isteğini sakin bir şekilde anlatır.\n3. Öneriler: sahayı günlere bölmek veya teneffüsleri paylaşmak.\n4. Herkesin kabul ettiği bir çizelge hazırlanır ve sınıfa asılır."
+   },
+   "remember": [
+    "Rollerimiz hayat boyunca değişir.",
+    "Ortak dil, tarih ve gelenekler toplumu bir arada tutar.",
+    "Millî değerlerimiz birlik ve beraberliğimizin temelidir.",
+    "Sorunlar şiddetle değil, müzakere ile çözülür."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 2,
+   "intro": "Bu temada Türkiye'nin, kıtaların ve okyanusların konumlarını, ülkemizin doğal ve beşerî özellikleri arasındaki ilişkiyi ve Türk dünyasıyla kültürel iş birliklerimizi öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Mutlak ve Göreceli Konum",
+     "text": "Bir yerin enlem ve boylam çizgilerine göre kesin yerine mutlak konum denir. Türkiye, yaklaşık 36-42° kuzey enlemleri ile 26-45° doğu boylamları arasında yer alır. Kuzey Yarım Küre'de olduğumuz için dört mevsim belirgin yaşanır. Göreceli konum ise bir yerin çevresine göre durumudur. Türkiye Asya ile Avrupa'yı birbirine bağlar; üç tarafı denizlerle çevrilidir. Bu konum ülkemize ticaret, ulaşım ve kültürel etkileşim açısından önem kazandırır. Dünya'da yedi kıta (Asya, Avrupa, Afrika, Kuzey Amerika, Güney Amerika, Okyanusya, Antarktika) ve beş büyük okyanus bulunur.",
+     "points": [
+      "Mutlak konum: enlem ve boylamla belirlenir.",
+      "Göreceli konum: çevredeki yerlere göre belirlenir.",
+      "En büyük kıta Asya, en büyük okyanus Büyük Okyanus'tur."
+     ]
+    },
+    {
+     "title": "İklim, Nüfus ve Göç",
+     "text": "Türkiye'de farklı iklimler görülür. Karadeniz kıyılarında her mevsim yağışlı ılıman iklim, Akdeniz ve Ege kıyılarında yazları sıcak ve kurak, kışları ılık ve yağışlı Akdeniz iklimi, iç bölgelerde yazları sıcak ve kurak, kışları soğuk karasal iklim görülür. İklim, yer şekilleri ve su kaynakları insanların nerede yaşayacağını etkiler. Ilıman iklimli, düz ve verimli yerler ile sanayinin geliştiği şehirler kalabalıktır. Yüksek ve engebeli yerlerde nüfus azdır. İnsanlar iş, eğitim ve sağlık gibi nedenlerle bir yerden başka yere göç eder.",
+     "points": []
+    },
+    {
+     "title": "Türk Dünyası ile İş Birliği",
+     "text": "Türk dünyası; Türkiye, Azerbaycan, Kazakistan, Kırgızistan, Özbekistan, Türkmenistan gibi Türk devletlerini ve dünyanın çeşitli yerlerinde yaşayan Türk topluluklarını kapsar. Bu toplulukların dili, tarihi ve gelenekleri ortaktır. Nevruz gibi bayramlar, destanlar ve halk müziği bu ortaklığın örnekleridir. Türk Devletleri Teşkilatı, Türk devletleri arasındaki iş birliğini geliştirmek için çalışır. Kültür alanında TÜRKSOY gibi kuruluşlar, eğitimde öğrenci değişim programları ve ortak etkinlikler kardeşlik bağlarını güçlendirir.",
+     "points": [
+      "Ortak dil, tarih ve kültür bizi birleştirir.",
+      "Kültürel iş birliği: festivaller, ortak eğitim programları, sanat etkinlikleri"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Mutlak konum",
+     "meaning": "Bir yerin enlem ve boylamlara göre kesin yeri."
+    },
+    {
+     "term": "Göreceli konum",
+     "meaning": "Bir yerin çevresindeki yerlere göre durumu."
+    },
+    {
+     "term": "İklim",
+     "meaning": "Geniş bir alanda uzun yıllar boyunca görülen ortalama hava koşulları."
+    },
+    {
+     "term": "Nüfus",
+     "meaning": "Belirli bir yerde yaşayan insan sayısı."
+    },
+    {
+     "term": "Göç",
+     "meaning": "İnsanların yaşamak için bir yerden başka bir yere taşınması."
+    },
+    {
+     "term": "Türk dünyası",
+     "meaning": "Ortak dil, tarih ve kültüre sahip Türk devletleri ve toplulukları."
+    },
+    {
+     "term": "Kültürel iş birliği",
+     "meaning": "Toplumların kültür, sanat ve eğitim alanında birlikte çalışması."
+    }
+   ],
+   "example": {
+    "question": "Doğu Anadolu'nun yüksek kesimlerinde nüfusun az olmasının nedenleri nelerdir?",
+    "solution": "1. Yükselti fazla olduğu için kışlar uzun ve çok soğuktur.\n2. Engebeli arazi tarım ve ulaşımı zorlaştırır.\n3. Sanayi az gelişmiştir, iş imkânı sınırlıdır.\n4. Bu nedenle insanlar daha uygun koşullara sahip yerlere göç edebilir."
+   },
+   "remember": [
+    "Mutlak konum enlem ve boylamla gösterilir.",
+    "Türkiye Asya ile Avrupa arasında köprü konumundadır.",
+    "İklim ve yer şekilleri nüfusun dağılışını etkiler.",
+    "Türk dünyası ortak dil ve kültürle birbirine bağlıdır."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 3,
+   "intro": "Bu temada Orta Asya'da kurulan ilk Türk devletlerini, İslam medeniyetinin bilime katkılarını, Türklerin İslamiyet'i kabulünü ve Anadolu'nun Türk yurdu oluşunu öğreniyoruz.",
+   "sections": [
+    {
+     "title": "İlk Türk Devletleri",
+     "text": "Türklerin ana yurdu Orta Asya'dır. Bu bölgede iklim karasal olduğu için Türkler çoğunlukla hayvancılıkla uğraşan konargöçer bir hayat sürdü. Bilinen ilk Türk devleti Asya Hun Devleti'dir; Mete Han döneminde ordu onlu sisteme göre düzenlendi. Kök Türkler, Türk adını devlet adı olarak kullanan ilk devlettir ve Orhun Yazıtları'nı bırakmıştır. Uygurlar yerleşik hayata geçmiş, kâğıt ve matbaa kullanmış, mimaride ilerlemiştir. Devlet işleri kurultayda görüşülür, toplum töre denen yazısız kurallarla düzenlenirdi.",
+     "points": [
+      "Asya Hun: onlu sistem",
+      "Kök Türk: Orhun Yazıtları",
+      "Uygur: yerleşik hayat, kâğıt ve matbaa"
+     ]
+    },
+    {
+     "title": "İnanç ve Kültür",
+     "text": "İslamiyet'ten önce Türkler Gök Tengri inancına sahipti; tek ve yüce bir yaratıcıya inanıyorlardı. Ölümden sonra hayata inanırlar, ölen kişinin mezarına onun savaşta yendiği düşmanları temsil eden balbal denilen taşlar dikerlerdi. Türklerin sözlü edebiyatı destanlarla zenginleşmiştir. Oğuz Kağan, Ergenekon ve Türeyiş destanları bunlara örnektir. Destanlar milletin yaşadığı önemli olayları, değerlerini ve kahramanlarını anlatır. Toplum hayatında ata büyük değer verilir, kadınlar da aile ve devlet işlerinde söz sahibi olur, misafirperverlik önemsenirdi.",
+     "points": []
+    },
+    {
+     "title": "İslam Medeniyeti ve Türklerin İslamiyet'i Kabulü",
+     "text": "Hz. Muhammed'in 622'de Mekke'den Medine'ye göçüne Hicret denir ve Hicri takvimin başlangıcı kabul edilir. İslam medeniyeti bilimde büyük ilerlemeler sağladı. Bağdat'taki Beytü'l-Hikme'de eserler çevrildi. Harezmî cebirin kurucuları arasında sayılır, İbn Sina tıpta, Biruni astronomi ve coğrafyada önemli eserler verdi. 751 Talas Savaşı'ndan sonra kâğıt yapımı İslam dünyasına yayıldı ve Türklerle Araplar yakınlaştı. Karahanlılar ilk Müslüman Türk devletidir. Bu dönemde Kutadgu Bilig ve Divanü Lügati't-Türk gibi önemli eserler yazıldı.",
+     "points": [
+      "Kutadgu Bilig: Yusuf Has Hacib",
+      "Divanü Lügati't-Türk: Kaşgarlı Mahmud"
+     ]
+    },
+    {
+     "title": "Anadolu'nun Türkleşmesi",
+     "text": "Büyük Selçuklu Devleti, 1040 Dandanakan Savaşı'nda Gaznelileri yenerek güçlendi. Sultan Alparslan, 1071 Malazgirt Meydan Muharebesi'nde Bizans'ı yendi ve Anadolu'nun kapıları Türklere açıldı. Bu zaferden sonra Anadolu'da Türk beylikleri kuruldu ve Türkiye Selçuklu Devleti oluştu. Haçlı Seferleri'ne karşı Türkler Anadolu'yu savundu. 1176 Miryokefalon Savaşı'nda Bizans yeniden yenilince Anadolu'nun Türk yurdu olduğu kesinleşti. Türkler kervansaraylar, medreseler ve camiler yaparak Anadolu'yu imar etti.",
+     "points": [
+      "1071 Malazgirt: Anadolu'nun kapıları açıldı.",
+      "1176 Miryokefalon: Anadolu'nun Türk yurdu olduğu kesinleşti."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Konargöçer",
+     "meaning": "Hayvanlarına otlak bulmak için mevsime göre yer değiştiren yaşam biçimi."
+    },
+    {
+     "term": "Töre",
+     "meaning": "Eski Türklerde toplum hayatını düzenleyen yazısız kurallar."
+    },
+    {
+     "term": "Gök Tengri",
+     "meaning": "İslamiyet öncesi Türklerin inandığı tek ve yüce yaratıcı."
+    },
+    {
+     "term": "Balbal",
+     "meaning": "Mezarlara, ölen kişinin yendiği düşmanları temsil etmek için dikilen taşlar."
+    },
+    {
+     "term": "Destan",
+     "meaning": "Bir milletin önemli olaylarını ve kahramanlarını anlatan uzun manzum eserler."
+    },
+    {
+     "term": "Hicret",
+     "meaning": "Hz. Muhammed'in 622'de Mekke'den Medine'ye göçü."
+    },
+    {
+     "term": "Kâğıt",
+     "meaning": "Talas Savaşı'ndan sonra İslam dünyasına yayılan, bilginin aktarımını kolaylaştıran icat."
+    }
+   ],
+   "example": {
+    "question": "Malazgirt ve Miryokefalon savaşlarının Anadolu tarihi açısından farkı nedir?",
+    "solution": "1. Malazgirt (1071): Bizans yenildi, Türkler Anadolu'ya yerleşmeye başladı; Anadolu'nun kapıları açıldı.\n2. Miryokefalon (1176): Bizans Türkleri Anadolu'dan çıkarma umudunu kaybetti.\n3. Sonuç: Malazgirt başlangıç, Miryokefalon ise Anadolu'nun Türk yurdu olmasının kesinleşmesidir."
+   },
+   "remember": [
+    "Türk adını kullanan ilk devlet Kök Türklerdir.",
+    "Uygurlar yerleşik hayata geçen ilk Türk topluluklarındandır.",
+    "Karahanlılar ilk Müslüman Türk devletidir.",
+    "1071 Malazgirt Zaferi Anadolu'nun kapılarını açtı.",
+    "Kâğıt, Talas Savaşı'ndan sonra İslam dünyasına yayıldı."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 4,
+   "intro": "Bu temada yönetimde kararların nasıl alındığını, bu kararları etkileyen kamuoyu, medya, siyasi partiler ve sivil toplum kuruluşlarını öğreniyoruz. Ayrıca dijital çağda vatandaşlık haklarımızı nasıl kullandığımızı inceliyoruz.",
+   "sections": [
+    {
+     "title": "Yönetimin Karar Alma Süreci",
+     "text": "Devlet yönetiminde kararlar yasalara göre alınır. Türkiye'de yasaları Türkiye Büyük Millet Meclisi yapar, bu yasaları yürütme uygular, yargı ise yasalara göre karar verir. Kararları etkileyen birçok unsur vardır. Siyasi partiler, seçimlerde halkın oyunu alarak yönetime gelmeye çalışan kuruluşlardır. Kamuoyu, bir konuda halkın büyük çoğunluğunun ortak düşüncesidir. Medya; gazete, televizyon, radyo ve internet aracılığıyla halkı bilgilendirir ve kamuoyunun oluşmasına katkı sağlar. Sivil toplum kuruluşları da ilgilendikleri konularda yönetime öneriler sunar.",
+     "points": [
+      "Siyasi partiler",
+      "Kamuoyu",
+      "Medya",
+      "Sivil toplum kuruluşları"
+     ]
+    },
+    {
+     "title": "Hak ve Sorumluluklar",
+     "text": "Toplumsal düzenin sağlanması için herkesin haklarını bilmesi ve sorumluluklarını yerine getirmesi gerekir. Hukuk, toplumdaki ilişkileri düzenleyen ve devlet tarafından uygulanan kurallar bütünüdür. Anayasamız yaşama, eğitim, sağlık, düşünce ve ifade özgürlüğü, seçme ve seçilme gibi hakları güvence altına alır. Vatandaşların ise yasalara uymak, vergi vermek, askerlik görevini yapmak ve oy kullanmak gibi sorumlulukları vardır. Bir kişinin hakkı başkasının hakkının başladığı yerde sona erer. Hak ihlallerinde mahkemelere başvurulabilir.",
+     "points": []
+    },
+    {
+     "title": "Dijital Vatandaşlık",
+     "text": "Teknolojinin gelişmesiyle birçok kamu hizmeti internet üzerinden sunulmaya başladı. e-Devlet sayesinde belge almak, başvuru yapmak ve bilgi edinmek kolaylaştı. Dijital vatandaşlık, internet ve teknolojiyi sorumlu, güvenli ve etik biçimde kullanmaktır. İnternette doğru bilgiye ulaşmak için birden fazla güvenilir kaynağı karşılaştırmalıyız; çünkü yanlış haberler kamuoyunu yanıltabilir. Kişisel verilerimizi korumak, başkalarının mahremiyetine saygı göstermek ve sanal ortamda kimseyi kırmamak dijital vatandaşın sorumluluklarıdır.",
+     "points": [
+      "Bilgiyi paylaşmadan önce doğruluğunu kontrol et.",
+      "Kişisel verilerini koru.",
+      "Sanal ortamda da saygılı ol."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Hukuk",
+     "meaning": "Toplumsal ilişkileri düzenleyen, devlet tarafından uygulanan kurallar bütünü."
+    },
+    {
+     "term": "Siyasi parti",
+     "meaning": "Belirli görüşleri olan, seçimle yönetime gelmeyi amaçlayan kuruluş."
+    },
+    {
+     "term": "Kamuoyu",
+     "meaning": "Bir konuda halkın çoğunluğunun ortak düşüncesi."
+    },
+    {
+     "term": "Medya",
+     "meaning": "Gazete, televizyon, radyo ve internet gibi kitle iletişim araçlarının tümü."
+    },
+    {
+     "term": "Sivil toplum kuruluşu (STK)",
+     "meaning": "Devletten bağımsız, gönüllülerin kurduğu dernek, vakıf gibi kuruluşlar."
+    },
+    {
+     "term": "Dijital vatandaşlık",
+     "meaning": "Teknolojiyi sorumlu, güvenli ve etik biçimde kullanma."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Yönetimin kararlarını kamuoyu, medya, siyasi partiler ve STK'lar etkiler.",
+    "Haklarımızın yanında sorumluluklarımız da vardır.",
+    "Yanlış haberleri paylaşmadan önce doğruluğunu kontrol et.",
+    "e-Devlet kamu hizmetlerine internetten ulaşmayı sağlar."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 5,
+   "intro": "Bu temada ülkemizin doğal kaynaklarını, bunlara bağlı ekonomik faaliyetleri ve meslekleri öğreniyoruz. Ayrıca bir ürünün üretimden tüketiciye nasıl ulaştığını ve bir ürün için nasıl proje hazırlanacağını keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Doğal Kaynaklar ve Ekonomik Faaliyetler",
+     "text": "Doğal kaynaklar, doğada kendiliğinden bulunan ve insanların yararlandığı varlıklardır: toprak, su, orman, madenler, güneş ve rüzgâr gibi. Türkiye'nin verimli ovaları tarımı, geniş çayır ve meraları hayvancılığı, uzun kıyıları balıkçılığı ve turizmi geliştirmiştir. Ülkemiz bor madeni rezervleri bakımından dünyada önemli bir yere sahiptir. Akarsularımız üzerine kurulan barajlarla elektrik üretilir. Güneşli ve rüzgârlı bölgelerde yenilenebilir enerji santralleri yaygınlaşmaktadır. Doğal kaynakları bilinçli kullanmak gelecek için önemlidir.",
+     "points": [
+      "Toprak → tarım",
+      "Çayır ve mera → hayvancılık",
+      "Maden → madencilik ve sanayi",
+      "Akarsu → enerji üretimi"
+     ]
+    },
+    {
+     "title": "Üretim, Dağıtım, Tüketim ve Meslekler",
+     "text": "Bir ürünün hammaddeden elde edilip yapılmasına üretim, ürünün tüketiciye ulaştırılmasına dağıtım, ürünün kullanılmasına tüketim denir. Örneğin buğday çiftçi tarafından üretilir, fabrikada una dönüşür, kamyonlarla fırınlara taşınır ve ekmek olarak tüketilir. Bu sürecin her aşamasında farklı meslekler yer alır: çiftçi, mühendis, şoför, satış görevlisi gibi. Teknoloji geliştikçe bazı meslekler azalırken yazılım geliştirici, veri analisti, yenilenebilir enerji teknisyeni ve robotik uzmanı gibi geleceğin meslekleri önem kazanmaktadır.",
+     "points": []
+    },
+    {
+     "title": "Tasarım, Yatırım ve Pazarlama",
+     "text": "Yeni bir ürün ortaya çıkarmak için önce bir ihtiyacı fark etmek ve buna uygun bir tasarım yapmak gerekir. Tasarım, ürünün görünüşünün ve nasıl çalışacağının planlanmasıdır. Ürünü üretmek için para, malzeme ve zaman ayırmaya yatırım denir. Pazarlama ise ürünün tüketicilere tanıtılması ve satılması için yapılan çalışmalardır: reklam, ambalaj, fiyat belirleme gibi. İyi bir proje önerisinde ürünün kimin ihtiyacını karşılayacağı, maliyeti, nasıl tanıtılacağı ve çevreye etkisi açıkça yazılır.",
+     "points": [
+      "İhtiyacı belirle",
+      "Ürünü tasarla",
+      "Maliyeti hesapla",
+      "Tanıtım planı yap"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Doğal kaynak",
+     "meaning": "Doğada bulunan ve insanların yararlandığı varlıklar."
+    },
+    {
+     "term": "Ekonomik faaliyet",
+     "meaning": "Gelir elde etmek için yapılan çalışmalar: tarım, sanayi, ticaret gibi."
+    },
+    {
+     "term": "Meslek",
+     "meaning": "Belirli bir eğitimle kazanılan, geçimi sağlayan iş."
+    },
+    {
+     "term": "Üretim-dağıtım-tüketim",
+     "meaning": "Ürünün yapılıp tüketiciye ulaştırılması ve kullanılması süreci."
+    },
+    {
+     "term": "Tasarım",
+     "meaning": "Bir ürünün biçiminin ve işlevinin önceden planlanması."
+    },
+    {
+     "term": "Yatırım",
+     "meaning": "Gelecekte kazanç elde etmek için para, emek ve zaman ayırma."
+    },
+    {
+     "term": "Pazarlama",
+     "meaning": "Ürünün tüketiciye tanıtılması ve satılması için yapılan çalışmalar."
+    }
+   ],
+   "example": {
+    "question": "Pamuktan bir tişört üretilip satılana kadar geçen süreci üretim, dağıtım ve tüketim aşamalarına ayırınız.",
+    "solution": "1. Üretim: Çiftçi pamuğu yetiştirir, fabrikada iplik ve kumaş yapılır, tişört dikilir.\n2. Dağıtım: Tişörtler kamyonla mağazalara taşınır.\n3. Tüketim: Müşteri tişörtü satın alıp giyer.\n4. Her aşamada çiftçi, işçi, şoför ve satış görevlisi gibi farklı meslekler görev alır."
+   },
+   "remember": [
+    "Ekonomik faaliyetler doğal kaynaklara bağlıdır.",
+    "Bir ürün üretim, dağıtım ve tüketim aşamalarından geçer.",
+    "Teknoloji yeni meslekler ortaya çıkarır.",
+    "Başarılı bir ürün iyi bir tasarım ve pazarlama gerektirir."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 6,
+   "intro": "Bu temada ulaşım ve iletişim teknolojilerinin kültürler arası etkileşime katkısını ve bir fikrin ya da ürünün sahibini koruyan telif ve patent haklarını öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Ulaşım ve İletişim Teknolojileri",
+     "text": "Geçmişte insanlar yayan ya da hayvanlarla yolculuk eder, haberleri ulaklar ve güvercinlerle iletirdi. İpek Yolu gibi ticaret yolları farklı kültürlerin karşılaşmasını sağladı. Zamanla tren, otomobil, uçak gibi ulaşım araçları ile telgraf, telefon, radyo, televizyon ve internet gibi iletişim araçları geliştirildi. Bu gelişmeler insanları birbirine yakınlaştırdı. Bugün farklı ülkelerin yemeklerini, müziğini ve filmlerini kolayca tanıyabiliyoruz. Kültürel etkileşim kültürleri zenginleştirir; ancak kendi kültürümüzü de korumayı unutmamalıyız.",
+     "points": [
+      "Ulaşım hızlandıkça ticaret ve turizm arttı.",
+      "İletişim teknolojileri bilgiyi anında yaydı.",
+      "Kültürel etkileşim dilde, mutfakta ve sanatta görülür."
+     ]
+    },
+    {
+     "title": "Fikrî Mülkiyet Hakları",
+     "text": "Bir kişinin emeğiyle ortaya koyduğu fikir ve ürünler ona aittir; buna fikrî mülkiyet denir. Telif hakkı; kitap, müzik, film, resim ve yazılım gibi eserlerin sahibini korur. Bir eseri izinsiz kopyalamak, çoğaltmak ya da kendi eserimiş gibi paylaşmak hem yasalara hem de ahlaka aykırıdır. Patent, yeni bir buluşun belirli bir süre boyunca yalnızca sahibi tarafından üretilip satılmasını sağlayan belgedir. Marka, bir ürünü diğerlerinden ayıran isim veya işarettir. Tescil, bir hakkın resmî olarak kayda geçirilmesidir. Ülkemizde bu işlemleri Türk Patent ve Marka Kurumu yürütür.",
+     "points": []
+    },
+    {
+     "title": "Emeğe Saygı",
+     "text": "Bir şarkının bestelenmesi, bir kitabın yazılması veya bir buluşun geliştirilmesi uzun bir emek gerektirir. Fikrî mülkiyet haklarına saygı göstermek, emek verenlerin hakkını korur ve yeni buluşlar yapılmasını teşvik eder. Ödev hazırlarken başkasının yazısını kullanırsak kaynağını belirtmeliyiz. Korsan film, müzik veya yazılım kullanmamalıyız. İnternetten bir fotoğraf ya da metin alırken kullanım izni olup olmadığına dikkat etmeliyiz. Kendi fikirlerimizi de değerli görüp geliştirmeliyiz.",
+     "points": [
+      "Kaynağını belirt.",
+      "Korsan ürün kullanma.",
+      "Kendi özgün eserlerini üret."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Fikrî mülkiyet",
+     "meaning": "Bir kişinin düşünce ürünü olan eser ve buluşlar üzerindeki hakkı."
+    },
+    {
+     "term": "Telif hakkı",
+     "meaning": "Kitap, müzik, film gibi eserlerin sahibine tanınan hak."
+    },
+    {
+     "term": "Patent",
+     "meaning": "Bir buluşun sahibine belirli bir süre üretim ve satış hakkı veren belge."
+    },
+    {
+     "term": "Marka",
+     "meaning": "Bir ürünü veya firmayı diğerlerinden ayıran isim, logo veya işaret."
+    },
+    {
+     "term": "Tescil",
+     "meaning": "Bir hakkın resmî olarak kayda geçirilmesi."
+    },
+    {
+     "term": "Emek",
+     "meaning": "Bir iş için harcanan çaba."
+    },
+    {
+     "term": "İletişim",
+     "meaning": "Duygu, düşünce ve bilgilerin karşılıklı aktarılması."
+    }
+   ],
+   "example": {
+    "question": "Elif, internette bulduğu bir şiiri kendi adıyla okul panosuna astı. Bu davranışı fikrî mülkiyet açısından değerlendiriniz.",
+    "solution": "1. Şiir, şairin emeğiyle ortaya çıkmış bir eserdir ve telif hakkı ona aittir.\n2. Elif'in şiiri kendi adıyla paylaşması şairin hakkını ihlal eder.\n3. Doğru davranış: Şiirin altına şairin adını ve kaynağı yazmaktır."
+   },
+   "remember": [
+    "Ulaşım ve iletişim teknolojileri kültürleri birbirine yaklaştırır.",
+    "Telif hakkı eserleri, patent buluşları korur.",
+    "Başkasının eserini kullanırken kaynak göster.",
+    "Fikrî mülkiyete saygı emeğe saygıdır."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 1,
+   "intro": "Bu temada grup ve sosyal hayatta etkili iletişimin önemini, özel gereksinimli bireyler için fırsat eşitliğini ve Türk toplumunun millî meselelerde gösterdiği ortak tutumu öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Etkili İletişim",
+     "text": "İletişim, duygu, düşünce ve bilgilerin kişiler arasında aktarılmasıdır. Etkili iletişimde mesaj açık ve anlaşılır biçimde iletilir, karşı taraf da dikkatle dinler. Empati kurmak, yani kendini karşındakinin yerine koymak, iletişimi güçlendirir. Ben dili kullanmak, örneğin sen hep geç kalıyorsun yerine geç kaldığında endişeleniyorum demek, kırıcı olmadan duygularımızı ifade etmemizi sağlar. Göz teması, beden dili ve ses tonu da iletişimin parçasıdır. Önyargı, sözü kesmek, alay etmek ve suçlamak iletişimi engeller. Kitle iletişim araçları ise bilgiyi geniş kitlelere ulaştırır.",
+     "points": [
+      "Etkin dinleme yap.",
+      "Empati kur.",
+      "Ben dili kullan.",
+      "Önyargılı olma."
+     ]
+    },
+    {
+     "title": "Özel Gereksinimli Bireyler ve Fırsat Eşitliği",
+     "text": "Görme, işitme, bedensel veya zihinsel farklılıkları olan bireylere özel gereksinimli bireyler denir. Fırsat eşitliği, herkesin eğitim, sağlık, ulaşım ve iş gibi hizmetlerden eşit şekilde yararlanabilmesidir. Bunun için binalara rampa ve asansör, kaldırımlara hissedilebilir yüzeyler, trafik ışıklarına sesli uyarılar eklenir. Kitaplar kabartma yazıyla, televizyon programları işaret diliyle desteklenebilir. Okulda özel gereksinimli arkadaşlarımızı oyunlara ve etkinliklere katmak, onlara saygılı ve doğal davranmak hepimizin sorumluluğudur.",
+     "points": []
+    },
+    {
+     "title": "Millî Meselelerde Ortak Tutum",
+     "text": "Türk milleti tarih boyunca zor zamanlarda birlik ve beraberlik içinde hareket etmiştir. Çanakkale Savaşı ve Millî Mücadele'de her yaştan insan vatanı savunmak için seferber olmuştur. Kadınlar cepheye cephane taşımış, halk elindeki imkânları orduyla paylaşmıştır. Günümüzde de depremler ve sel gibi afetlerde yardım kampanyalarına katılım, şehit ve gazilere gösterilen saygı, millî maçlarda takımımızı desteklemek ortak tutumumuzun örnekleridir. Bu dayanışma ruhu toplumu güçlü kılar.",
+     "points": [
+      "Zor zamanlarda yardımlaşma",
+      "Vatan ve bayrak sevgisi",
+      "Şehit ve gazilere saygı"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "İletişim",
+     "meaning": "Duygu, düşünce ve bilgilerin karşılıklı aktarılması."
+    },
+    {
+     "term": "Etkili iletişim",
+     "meaning": "Mesajın doğru anlaşıldığı, saygıya dayalı iletişim."
+    },
+    {
+     "term": "Kitle iletişim",
+     "meaning": "Televizyon, gazete, internet gibi araçlarla bilginin geniş kitlelere ulaştırılması."
+    },
+    {
+     "term": "Özel gereksinim",
+     "meaning": "Bir bireyin günlük yaşamda ek destek ihtiyacı duyması."
+    },
+    {
+     "term": "Fırsat eşitliği",
+     "meaning": "Herkesin hak ve hizmetlerden eşit yararlanabilmesi."
+    },
+    {
+     "term": "Tutum",
+     "meaning": "Bir konu karşısındaki düşünce ve duygu eğilimi."
+    },
+    {
+     "term": "Davranış",
+     "meaning": "Kişinin gözlenebilen hareket ve tepkileri."
+    }
+   ],
+   "example": {
+    "question": "Arkadaşınız sözünüzü sürekli kesiyor. Ben dili kullanarak ona nasıl bir cümle kurabilirsiniz?",
+    "solution": "1. Sen dili (kırıcı): Sen hiç dinlemiyorsun, hep sözümü kesiyorsun!\n2. Ben dili: Sözüm kesildiğinde düşüncemi tamamlayamıyorum ve üzülüyorum. Bitirmemi bekler misin?\n3. Ben dili suçlamadan duyguyu anlatır ve çözüm önerir."
+   },
+   "remember": [
+    "Etkili iletişim dinlemekle başlar.",
+    "Empati ve ben dili iletişimi güçlendirir.",
+    "Fırsat eşitliği herkes için erişilebilir bir toplum demektir.",
+    "Türk milleti zor zamanlarda birlik içinde hareket etmiştir."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 2,
+   "intro": "Bu temada küreselleşmenin hayatımızı nasıl değiştirdiğini, dünyanın ortak sorunlarını ve bu sorunların çözümünde Türkiye'nin üstlendiği rolleri öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Küreselleşme",
+     "text": "Küreselleşme, ülkeler arasındaki ekonomik, kültürel ve teknolojik etkileşimin artmasıyla dünyanın adeta küçülmesidir. Ulaşım ve iletişim teknolojileri bu süreci hızlandırmıştır. Bugün bir ülkede üretilen telefon dünyanın her yerinde kullanılabiliyor, bir olay anında herkes tarafından öğrenilebiliyor. Küreselleşme ticaret ve bilgi paylaşımını kolaylaştırır, girişimcilere yeni pazarlar açar. Öte yandan yerel kültürlerin zayıflaması, tüketimin artması ve ülkeler arası gelir farkı gibi olumsuz sonuçları da olabilir.",
+     "points": [
+      "Olumlu: bilgiye hızlı erişim, ticaretin gelişmesi, bilimsel iş birliği",
+      "Olumsuz: yerel kültürlerin zayıflaması, aşırı tüketim, salgınların hızlı yayılması"
+     ]
+    },
+    {
+     "title": "Girişimcilik",
+     "text": "Girişimcilik, bir ihtiyacı fark edip risk alarak yeni bir ürün veya hizmet ortaya koymaktır. Küreselleşen dünyada girişimciler internet sayesinde ürünlerini farklı ülkelere ulaştırabilir. Başarılı bir girişimci yaratıcı, kararlı, iş birliğine açık ve hatalarından ders çıkaran biridir. Ülkemizde de genç girişimcilerin geliştirdiği uygulamalar, oyunlar ve teknolojik ürünler dünya pazarlarına açılmaktadır. Girişimcilik ülke ekonomisine katkı sağlar ve yeni iş alanları oluşturur.",
+     "points": []
+    },
+    {
+     "title": "Küresel Sorunlar ve Türkiye'nin Rolü",
+     "text": "Küresel sorunlar, birçok ülkeyi aynı anda etkileyen ve tek bir ülkenin çözemeyeceği sorunlardır. İklim değişikliği, çevre kirliliği, salgın hastalıklar, açlık, savaşlar ve zorunlu göçler bunlara örnektir. Türkiye dış politikasında barışçı bir yol izler. Uluslararası kuruluşlarda yer alır, insani yardım faaliyetleri yürütür. Savaştan kaçan çok sayıda insana kucak açmış, afet yaşayan ülkelere AFAD ve Türk Kızılay aracılığıyla yardım ulaştırmıştır. Barış görüşmelerine ev sahipliği yapmak da Türkiye'nin rolleri arasındadır.",
+     "points": [
+      "İnsani yardım",
+      "Arabuluculuk",
+      "Uluslararası iş birliği"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Küreselleşme",
+     "meaning": "Ülkeler arasındaki ekonomik, kültürel ve teknolojik etkileşimin artması."
+    },
+    {
+     "term": "Küresel sorunlar",
+     "meaning": "Tüm dünyayı etkileyen, ortak çözüm gerektiren sorunlar."
+    },
+    {
+     "term": "Dış politika",
+     "meaning": "Bir devletin diğer devletlerle ilişkilerini yürütme biçimi."
+    },
+    {
+     "term": "Girişimcilik",
+     "meaning": "Risk alarak yeni ürün, hizmet veya iş fikri ortaya koyma."
+    },
+    {
+     "term": "Değişim",
+     "meaning": "Bir durumun zaman içinde farklılaşması."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Küreselleşme ulaşım ve iletişim teknolojileriyle hızlandı.",
+    "Küresel sorunlar ancak iş birliğiyle çözülebilir.",
+    "Türkiye insani yardım ve arabuluculukla küresel sorunlara katkı sağlar.",
+    "Girişimcilik yeni iş alanları oluşturur."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 3,
+   "intro": "Bu temada küçük bir beylikten büyük bir cihan devletine dönüşen Osmanlı Devleti'nin başarısının sırlarını, değişen dünyaya karşı yaptığı yenilikleri ve kültür-medeniyet mirasını öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Beylikten Cihan Devletine",
+     "text": "Osmanlı Beyliği yaklaşık 1299'da Osman Bey tarafından Söğüt ve Domaniç çevresinde kuruldu. Bizans sınırında olması gaza ve cihad anlayışıyla fetihler yapmasını kolaylaştırdı. Orhan Bey döneminde Rumeli'ye geçildi. 1453'te Fatih Sultan Mehmet İstanbul'u fethetti ve bir çağ kapandı. Yavuz Sultan Selim döneminde halifelik Osmanlılara geçti. Kanuni Sultan Süleyman döneminde devlet siyasi, askerî ve kültürel açıdan en parlak dönemini yaşadı. Osmanlı; fethedilen yerlere Türkmen nüfus yerleştirerek iskân, yerli halka hoşgörülü davranarak istimalet politikasını uyguladı.",
+     "points": [
+      "İskân: fethedilen yerlere Türk nüfus yerleştirme",
+      "İstimalet: yerel halkın gönlünü kazanma",
+      "Adalet ve hoşgörü anlayışı"
+     ]
+    },
+    {
+     "title": "Değişen Dünya ve Osmanlı Yenilikleri",
+     "text": "Coğrafi keşifler, Rönesans, Reform ve Sanayi İnkılabı ile Avrupa güçlendi. Osmanlı Devleti savaşlarda yenilgiler almaya başlayınca yenilik çalışmalarına yöneldi. Lale Devri'nde İbrahim Müteferrika ilk Türk matbaasını kurdu. III. Selim Nizam-ı Cedit adıyla yeni bir ordu oluşturdu. II. Mahmut Yeniçeri Ocağı'nı kaldırdı ve yeni okullar açtı. 1839'da Tanzimat Fermanı ile kanun önünde eşitlik ilan edildi. 1876'da Kanun-ı Esasi ile ilk anayasa yapıldı ve Meşrutiyet ilan edildi. Bu yeniliklerin amacı devleti güçlendirip dağılmayı önlemekti.",
+     "points": []
+    },
+    {
+     "title": "Osmanlı Kültür ve Medeniyeti",
+     "text": "Osmanlılar mimari, sanat ve bilimde kalıcı eserler bıraktı. Mimar Sinan, Edirne'deki Selimiye Camii'ni ustalık eseri olarak tanımlamıştır; İstanbul'daki Süleymaniye Camii de onun önemli yapılarındandır. Külliyeler; cami, medrese, imaret, hamam ve şifahaneyi bir arada barındırırdı. Vakıflar sayesinde yoksullara yemek verilir, çeşmeler ve köprüler yapılırdı. Hat, tezhip, ebru ve minyatür gibi süsleme sanatları gelişti. Piri Reis'in dünya haritası ve Kitab-ı Bahriye'si, Evliya Çelebi'nin Seyahatname'si bu döneme ait önemli eserlerdir.",
+     "points": [
+      "Mimari: Selimiye, Süleymaniye",
+      "Sanat: hat, tezhip, ebru, minyatür",
+      "Sosyal hizmet: vakıflar ve külliyeler"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Fetih",
+     "meaning": "Bir yerin savaşla ele geçirilerek devlet topraklarına katılması."
+    },
+    {
+     "term": "Gaza",
+     "meaning": "İslam'ı yaymak ve korumak için yapılan savaş."
+    },
+    {
+     "term": "Cihad",
+     "meaning": "Allah yolunda ve din için çaba gösterme, mücadele etme."
+    },
+    {
+     "term": "İskân",
+     "meaning": "Fethedilen bölgelere Türk nüfusu yerleştirme politikası."
+    },
+    {
+     "term": "İstimalet",
+     "meaning": "Fethedilen yerlerdeki halka hoşgörülü davranıp gönüllerini kazanma."
+    },
+    {
+     "term": "Külliye",
+     "meaning": "Cami çevresinde medrese, imaret, hamam gibi yapıların oluşturduğu yapı topluluğu."
+    },
+    {
+     "term": "Vakıf",
+     "meaning": "Bir malın topluma hizmet için bağışlanmasıyla kurulan hayır kurumu."
+    }
+   ],
+   "example": {
+    "question": "İstimalet politikası Osmanlı Devleti'nin Balkanlarda kalıcı olmasını nasıl sağlamıştır?",
+    "solution": "1. Osmanlı fethettiği yerlerde halkın dinine, diline ve geleneklerine karışmadı.\n2. Vergileri adil biçimde düzenledi, halkı baskıdan korudu.\n3. Bu hoşgörü yerli halkın Osmanlı yönetimini benimsemesini sağladı.\n4. İskân politikasıyla birlikte Balkanlarda uzun süreli bir hâkimiyet kuruldu."
+   },
+   "remember": [
+    "Osmanlı Beyliği yaklaşık 1299'da kuruldu.",
+    "İstanbul 1453'te Fatih Sultan Mehmet tarafından fethedildi.",
+    "İskân ve istimalet Osmanlı'nın fetih politikalarıdır.",
+    "Tanzimat (1839) ve Kanun-ı Esasi (1876) önemli yeniliklerdir.",
+    "Mimar Sinan'ın ustalık eseri Selimiye Camii'dir."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 4,
+   "intro": "Bu temada Türkiye Cumhuriyeti'nin temel niteliklerini, yasama, yürütme ve yargıdan oluşan yönetim yapısını ve demokrasimizin tarihsel gelişimini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Türkiye Cumhuriyeti'nin Nitelikleri",
+     "text": "Anayasamıza göre Türkiye Cumhuriyeti demokratik, laik ve sosyal bir hukuk devletidir. Demokratik devlet, yöneticilerin halk tarafından seçildiği ve temel hak ve özgürlüklerin güvence altında olduğu devlettir. Laik devlet, din ve devlet işlerini ayırır, herkesin din ve vicdan özgürlüğünü korur. Sosyal devlet, vatandaşlarının eğitim, sağlık, barınma gibi ihtiyaçlarını karşılamaya çalışır ve toplumdaki dengesizlikleri azaltmayı amaçlar. Hukuk devleti ise yöneten ve yönetilen herkesin yasalara bağlı olduğu devlettir.",
+     "points": [
+      "Demokratik devlet",
+      "Laik devlet",
+      "Sosyal devlet",
+      "Hukuk devleti"
+     ]
+    },
+    {
+     "title": "Yönetim Yapısı: Kuvvetler Ayrılığı",
+     "text": "Devlet yönetiminde üç temel güç vardır. Yasama, yasa yapma yetkisidir ve Türk milleti adına Türkiye Büyük Millet Meclisi tarafından kullanılır. Yürütme, yasaları uygulama yetkisidir ve Cumhurbaşkanı tarafından kullanılır. Yargı, yasalara göre karar verme yetkisidir ve bağımsız mahkemeler tarafından kullanılır. Bu güçlerin farklı organlara verilmesine kuvvetler ayrılığı denir. Kuvvetler birliğinde ise üç güç tek bir kişi ya da kurumda toplanır. Kuvvetler ayrılığı, gücün tek elde toplanmasını önleyerek hak ve özgürlükleri korur.",
+     "points": []
+    },
+    {
+     "title": "Demokrasinin Gelişimi",
+     "text": "Demokrasi yolunda ilk adımlar Osmanlı döneminde atıldı. 1839 Tanzimat Fermanı kanun üstünlüğünü, 1876 Kanun-ı Esasi ilk anayasayı ve meclisi getirdi. 1920'de TBMM'nin açılmasıyla millî egemenlik esas alındı. 1923'te Cumhuriyet ilan edildi. Kadınlara 1930'da belediye, 1934'te milletvekili seçimlerinde seçme ve seçilme hakkı tanındı. 1946'da çok partili hayata geçildi. Seçimler genel oy, serbest seçim, gizli oy ve açık sayım-döküm ilkelerine göre yapılır. Siyasi partiler farklı görüşleri temsil eder.",
+     "points": [
+      "Demokrasinin sorunları: seçimlere katılımın düşük olması, yanlış bilgilendirme, hoşgörüsüzlük",
+      "Çözüm: bilinçli vatandaşlık ve katılım"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Demokratik devlet",
+     "meaning": "Yöneticilerin seçimle belirlendiği, hak ve özgürlüklerin korunduğu devlet."
+    },
+    {
+     "term": "Laik devlet",
+     "meaning": "Din ve devlet işlerinin ayrı tutulduğu, din ve vicdan özgürlüğünün korunduğu devlet."
+    },
+    {
+     "term": "Sosyal devlet",
+     "meaning": "Vatandaşlarının refahını ve sosyal güvenliğini gözeten devlet."
+    },
+    {
+     "term": "Hukuk devleti",
+     "meaning": "Herkesin yasalara bağlı olduğu ve yasaların herkese eşit uygulandığı devlet."
+    },
+    {
+     "term": "Yasama",
+     "meaning": "Yasa yapma yetkisi; TBMM kullanır."
+    },
+    {
+     "term": "Yürütme",
+     "meaning": "Yasaları uygulama yetkisi; Cumhurbaşkanı kullanır."
+    },
+    {
+     "term": "Yargı",
+     "meaning": "Yasalara göre karar verme yetkisi; bağımsız mahkemeler kullanır."
+    },
+    {
+     "term": "Genel oy ilkesi",
+     "meaning": "Belirli yaşa ulaşmış her vatandaşın oy kullanabilmesi."
+    }
+   ],
+   "example": {
+    "question": "Bir mahkemenin yasaya aykırı davranan bir kişi hakkında karar vermesi hangi güce, bir yasanın Meclis'te kabul edilmesi hangi güce örnektir?",
+    "solution": "1. Mahkemenin karar vermesi: yargı yetkisi.\n2. Meclis'te yasa kabul edilmesi: yasama yetkisi.\n3. Kabul edilen yasanın uygulanması ise yürütme yetkisine girer."
+   },
+   "remember": [
+    "Türkiye Cumhuriyeti demokratik, laik, sosyal bir hukuk devletidir.",
+    "Yasama TBMM'nin, yürütme Cumhurbaşkanının, yargı bağımsız mahkemelerin yetkisindedir.",
+    "Kuvvetler ayrılığı hak ve özgürlükleri korur.",
+    "Türk kadını 1934'te milletvekili seçme ve seçilme hakkı kazandı.",
+    "1946'da çok partili hayata geçildi."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 5,
+   "intro": "Bu temada Cumhuriyet'in ilk yıllarından itibaren yapılan millî kalkınma hamlelerini ve bir ülkenin ekonomik gelişmişliği ile üretim-dağıtım-tüketim döngüsü arasındaki ilişkiyi öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Millî Kalkınma Hamleleri",
+     "text": "Cumhuriyet kurulduğunda ülke uzun savaşlardan çıkmıştı; sanayi çok azdı, nüfus azalmıştı ve halkın çoğu tarımla geçiniyordu. Atatürk, siyasi bağımsızlığın ekonomik bağımsızlıkla tamamlanması gerektiğini vurguladı. 1923'te İzmir İktisat Kongresi toplandı ve yerli üretimi destekleme kararları alındı. Sanayiyi teşvik eden yasalar çıkarıldı, demiryolları yapıldı. Özel girişimin yetersiz kaldığı alanlarda devlet yatırım yaptı. Sümerbank ve Etibank gibi kurumlar kuruldu ve Birinci Beş Yıllık Sanayi Planı uygulandı. Bu hamleler ülkede fabrikaların açılmasını ve iş imkânlarının artmasını sağladı.",
+     "points": [
+      "Neden: savaşların yıkımı, sanayinin yetersizliği, ekonomik bağımsızlık isteği",
+      "Sonuç: fabrikalar, demiryolları, yeni iş alanları"
+     ]
+    },
+    {
+     "title": "Üretim, Dağıtım, Tüketim ve Gelişmişlik",
+     "text": "Bir ülkenin ekonomik olarak gelişmiş sayılması için yalnızca hammaddeye sahip olması yetmez; o hammaddeyi işleyip değerli ürünlere dönüştürebilmesi gerekir. Örneğin pamuğu ham olarak satmak yerine kumaş ve hazır giyime dönüştüren ülke daha fazla kazanç elde eder. Gelişmiş ülkelerde sanayi ve teknoloji üretimi ileridir, ulaşım ağları güçlüdür, ürünler hızlı ve ucuz dağıtılır. Bu da tüketimi ve kişi başına düşen geliri artırır. Üretim arttıkça istihdam artar, artan gelir tüketimi, tüketim de yeni üretimi destekler.",
+     "points": []
+    },
+    {
+     "title": "Kalkınmanın Göstergeleri",
+     "text": "Kalkınma yalnızca ekonomik büyüme değildir; insanların yaşam kalitesinin de yükselmesidir. Bir ülkenin kalkınmışlığını anlamak için kişi başına düşen gelir, okuma yazma oranı, ortalama yaşam süresi, sağlık hizmetlerine erişim, sanayi ve teknoloji düzeyi gibi göstergelere bakılır. Eğitime yapılan yatırım, nitelikli insan gücünü artırdığı için kalkınmanın temelidir. Yerli malı kullanmak, tasarruf etmek ve kaynakları verimli kullanmak da her vatandaşın kalkınmaya katkısıdır.",
+     "points": [
+      "Kişi başına düşen gelir",
+      "Eğitim düzeyi",
+      "Ortalama yaşam süresi",
+      "Sanayi ve teknoloji düzeyi"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Ekonomi",
+     "meaning": "Mal ve hizmetlerin üretimi, dağıtımı ve tüketimiyle ilgili faaliyetlerin bütünü."
+    },
+    {
+     "term": "Kalkınma",
+     "meaning": "Bir ülkenin ekonomik ve sosyal açıdan gelişerek yaşam kalitesini yükseltmesi."
+    },
+    {
+     "term": "Üretim-dağıtım-tüketim",
+     "meaning": "Malın üretilip tüketiciye ulaştırılması ve kullanılması döngüsü."
+    },
+    {
+     "term": "Yatırım",
+     "meaning": "Gelecekte kazanç sağlamak için kaynak ayırma."
+    },
+    {
+     "term": "Ekonomik bağımsızlık",
+     "meaning": "Bir ülkenin ekonomisini başka ülkelere bağımlı olmadan yönetebilmesi."
+    }
+   ],
+   "example": {
+    "question": "Bir ülke ham fındık ihraç ediyor, başka bir ülke aynı fındıktan çikolata üretip satıyor. Hangi ülke daha fazla kazanç elde eder? Neden?",
+    "solution": "1. Ham fındık az işlenmiş olduğu için düşük fiyatla satılır.\n2. Çikolata, fındığın sanayide işlenmesiyle oluşan katma değerli bir üründür.\n3. Bu nedenle çikolata üreten ülke daha fazla kazanç elde eder ve daha fazla iş imkânı yaratır.\n4. Sonuç: Hammaddeyi işleyerek satmak kalkınmayı hızlandırır."
+   },
+   "remember": [
+    "Siyasi bağımsızlık ekonomik bağımsızlıkla tamamlanır.",
+    "İzmir İktisat Kongresi 1923'te toplandı.",
+    "Hammaddeyi işleyip satmak daha çok kazanç sağlar.",
+    "Eğitim kalkınmanın temelidir."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 6,
+   "intro": "Bu temada bilim ve teknolojinin gelecekte toplumu nasıl etkileyebileceğini, sosyal bilimlerin hangi alanları incelediğini ve bir toplumsal soruna bilimsel yöntemle nasıl yaklaşılacağını öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Bilim, Teknoloji ve Gelecek",
+     "text": "Bilim ve teknoloji hızla gelişmektedir. Yapay zekâ, robotlar, yenilenebilir enerji ve uzay araştırmaları geleceğin toplumunu şekillendirecektir. Bu gelişmeler sağlıkta yeni tedavileri, ulaşımda sürücüsüz araçları, eğitimde kişiye özel öğrenmeyi mümkün kılabilir. Ancak bazı mesleklerin ortadan kalkması, kişisel verilerin korunması ve teknolojiye bağımlılık gibi sorunlar da doğabilir. Geleceğe yönelik öngörüde bulunurken tahminlerimizi verilere ve kanıtlara dayandırmalıyız. Bilimsel etik, bilim insanlarının araştırma yaparken dürüst olmasını, insan ve doğaya zarar vermemesini gerektirir.",
+     "points": [
+      "Öngörüler kanıta dayanmalıdır.",
+      "Bilimsel etik: dürüstlük, kaynak gösterme, canlılara saygı"
+     ]
+    },
+    {
+     "title": "Sosyal Bilimlerin Çalışma Alanları",
+     "text": "Sosyal bilimler insanı ve toplumu inceleyen bilimlerdir. Tarih geçmişte yaşanan olayları belgelere dayanarak inceler. Coğrafya insan ile doğal çevre arasındaki ilişkiyi araştırır. Ekonomi üretim, tüketim ve kaynakların kullanımını inceler. Sosyoloji toplumun yapısını ve toplumsal ilişkileri, psikoloji insan davranışlarını ve zihnini inceler. Antropoloji insanın kültürünü ve gelişimini, arkeoloji ise kazılarla ortaya çıkarılan kalıntıları araştırır. Hukuk, siyaset bilimi ve felsefe de sosyal bilimler arasında yer alır. Bu bilimler birbirinden yararlanır.",
+     "points": []
+    },
+    {
+     "title": "Bilimsel Sorgulama Basamakları",
+     "text": "Toplumsal bir problemi bilimsel yöntemle incelemek için bazı adımlar izlenir. Önce problem açık bir soru olarak belirlenir; örneğin öğrenciler neden okul kütüphanesini az kullanıyor? Ardından probleme olası bir cevap olarak önerme, yani hipotez oluşturulur. Anket, gözlem ve görüşme yoluyla veri toplanır. Veriler tablo ve grafiklerle analiz edilir. Sonunda önerme doğrulanır ya da reddedilir ve sonuç paylaşılır. Bu süreçte tarafsız olmak ve verileri değiştirmemek çok önemlidir.",
+     "points": [
+      "Problemi belirle",
+      "Önerme (hipotez) kur",
+      "Veri topla",
+      "Verileri analiz et",
+      "Sonuca ulaş ve paylaş"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Sosyal bilimler",
+     "meaning": "İnsanı ve toplumu inceleyen bilimler: tarih, coğrafya, ekonomi, sosyoloji gibi."
+    },
+    {
+     "term": "Problem",
+     "meaning": "Çözülmesi gereken, araştırmaya konu olan sorun."
+    },
+    {
+     "term": "Önerme",
+     "meaning": "Bir probleme verilen, doğruluğu araştırılacak geçici cevap; hipotez."
+    },
+    {
+     "term": "Bilimsel etik",
+     "meaning": "Bilimsel çalışmalarda uyulması gereken dürüstlük ve sorumluluk kuralları."
+    },
+    {
+     "term": "Toplum",
+     "meaning": "Ortak kültürü paylaşan ve bir arada yaşayan insanlar."
+    },
+    {
+     "term": "Gelecek",
+     "meaning": "Henüz yaşanmamış, ileride gelecek zaman."
+    }
+   ],
+   "example": {
+    "question": "Okulunuzda öğrencilerin teneffüste çöpleri yere attığını fark ettiniz. Bu problemi bilimsel sorgulama basamaklarıyla nasıl inceleyebilirsiniz?",
+    "solution": "1. Problem: Öğrenciler neden çöpleri yere atıyor?\n2. Önerme: Bahçede yeterli çöp kutusu olmadığı için çöpler yere atılıyor.\n3. Veri toplama: Çöp kutularını say, öğrencilere anket uygula, teneffüste gözlem yap.\n4. Analiz: Sonuçları grafikte göster.\n5. Sonuç: Önerme doğruysa okul yönetimine daha fazla çöp kutusu konulmasını öner."
+   },
+   "remember": [
+    "Geleceğe dair tahminler kanıta dayanmalıdır.",
+    "Sosyal bilimler insanı ve toplumu inceler.",
+    "Bilimsel sorgulama problemle başlar, sonuçla biter.",
+    "Bilimsel çalışmada dürüstlük ve tarafsızlık esastır."
+   ]
+  }
+ ]
+}

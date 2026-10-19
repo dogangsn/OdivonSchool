@@ -1,0 +1,142 @@
+<div #shell class="br-shell">
+  <header class="br-top">
+    <a routerLink="/kutuphane" class="br-back" aria-label="Kütüphaneye dön">←</a>
+    @if (book(); as b) {
+      <div class="br-title">
+        <span class="br-title-icon" [style.background]="cover(b.subject)">{{ icon(b.subject) }}</span>
+        <div>
+          <strong>{{ b.title }}</strong>
+          <small>{{ b.grade }}. Sınıf · {{ b.subject }}@if (pageCount()) { · {{ pageCount() }} sayfa }</small>
+        </div>
+      </div>
+      <div class="br-tools">
+        @if (status() === 'ready') {
+          <button type="button" class="br-tool" (click)="toggleZoom()" [class.on]="zoom()" [attr.aria-pressed]="zoom()" title="Yakınlaştır">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>@if (!zoom()) {<path d="M11 8v6"/>}<path d="M8 11h6"/></svg>
+          </button>
+          <button type="button" class="br-tool" (click)="toggleFullscreen()" title="Tam ekran">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8 3H5a2 2 0 0 0-2 2v3M21 8V5a2 2 0 0 0-2-2h-3M3 16v3a2 2 0 0 0 2 2h3M16 21h3a2 2 0 0 0 2-2v-3"/></svg>
+          </button>
+        }
+        <a class="br-tool wide" [href]="b.pageUrl" target="_blank" rel="noopener" title="MEB sayfasında aç">MEB ↗</a>
+      </div>
+    }
+  </header>
+
+  @switch (status()) {
+    @case ('loading') {
+      <div class="br-message">
+        <div class="br-spinner"></div>
+        <p>{{ loadNote() }}</p>
+      </div>
+    }
+    @case ('missing') {
+      <div class="br-message">
+        <p>Bu kitap kütüphanede bulunamadı.</p>
+        <a routerLink="/kutuphane" class="btn primary">Kütüphaneye dön</a>
+      </div>
+    }
+    @case ('error') {
+      <div class="br-message">
+        <p>Kitap açılamadı. Lütfen sayfayı yenileyip tekrar dene.</p>
+        <a routerLink="/kutuphane" class="btn outline">Kütüphaneye dön</a>
+      </div>
+    }
+    @case ('blocked') {
+      @if (book(); as b) {
+        <div class="br-message br-blocked">
+          <span class="br-blocked-cover" [style.background]="cover(b.subject)">{{ icon(b.subject) }}</span>
+          <h2>Bu kitap MEB'in sitesinden doğrudan açılamadı</h2>
+          <p>MEB'in sunucusu kitabın başka bir siteden okunmasına şu an izin vermiyor. Kitabı MEB'in kendi sayfasında açabilir ya da PDF'i indirip burada sayfa çevirerek okuyabilirsin.</p>
+          <div class="br-blocked-actions">
+            @if (b.pdfUrl) {
+              <a class="btn primary" [href]="b.pdfUrl" target="_blank" rel="noopener">PDF'i MEB'de aç ↗</a>
+            }
+            @if (b.interactiveUrl) {
+              <a class="btn outline" [href]="b.interactiveUrl" target="_blank" rel="noopener">Etkileşimli kitap ↗</a>
+            }
+            <label class="btn outline br-file">
+              📂 İndirdiğim PDF'i aç
+              <input type="file" accept="application/pdf,.pdf" (change)="openLocalFile($event)" />
+            </label>
+          </div>
+          <small>Seçtiğin dosya yalnızca senin cihazında açılır, hiçbir yere yüklenmez.</small>
+        </div>
+      }
+    }
+    @case ('ready') {
+      @if (resumedFrom(); as from) {
+        <div class="br-resume">
+          📖 Kaldığın yerden ({{ from }}. sayfa) devam ediyorsun.
+          <button type="button" (click)="restart()">Baştan başla</button>
+          <button type="button" class="br-resume-x" (click)="resumedFrom.set(null)" aria-label="Kapat">✕</button>
+        </div>
+      }
+
+      <div #stage class="br-stage" [class.zoom]="zoom()" (click)="onStageClick($event)"
+        (pointerdown)="onPointerDown($event)" (pointerup)="onPointerUp($event)">
+        <div class="br-book" [class.double]="double()" [class.zoom]="zoom()"
+          [style.--pw.px]="pageW()" [style.--ph.px]="pageH()">
+          @if (double()) {
+            @let f = flipping();
+            @let leftNum = f ? (f.dir === 'next' ? f.still : f.under) : spread()[0];
+            @let rightNum = f ? (f.dir === 'next' ? f.under : f.still) : spread()[1];
+            <div class="br-slot left" [class.empty]="!leftNum">
+              @if (leftNum) {
+                <ng-container *ngTemplateOutlet="face; context: { $implicit: leftNum, side: 'left' }" />
+              }
+            </div>
+            <div class="br-slot right" [class.empty]="!rightNum">
+              @if (rightNum) {
+                <ng-container *ngTemplateOutlet="face; context: { $implicit: rightNum, side: 'right' }" />
+              }
+            </div>
+            <div class="br-spine"></div>
+            @if (f) {
+              <div #leaf class="br-leaf" [class.from-right]="f.dir === 'next'" [class.from-left]="f.dir === 'prev'">
+                <div class="br-face front">
+                  <ng-container *ngTemplateOutlet="face; context: { $implicit: f.front, side: f.dir === 'next' ? 'right' : 'left' }" />
+                </div>
+                <div class="br-face back">
+                  <ng-container *ngTemplateOutlet="face; context: { $implicit: f.back, side: f.dir === 'next' ? 'left' : 'right' }" />
+                </div>
+              </div>
+            }
+          } @else {
+            @let f = flipping();
+            <div class="br-slot single">
+              <ng-container *ngTemplateOutlet="face; context: { $implicit: f ? f.under : page(), side: 'right' }" />
+            </div>
+            @if (f) {
+              <div #leaf class="br-leaf single">
+                <div class="br-face front">
+                  <ng-container *ngTemplateOutlet="face; context: { $implicit: f.front, side: 'right' }" />
+                </div>
+                <div class="br-face back blank"></div>
+              </div>
+            }
+          }
+        </div>
+      </div>
+
+      <footer class="br-controls" (click)="$event.stopPropagation()">
+        <button type="button" class="br-nav" (click)="prev()" [disabled]="!canPrev()" aria-label="Önceki sayfa">‹</button>
+        <div class="br-progress">
+          <span class="br-page">{{ pageLabel() }} / {{ pageCount() }}</span>
+          <input type="range" min="1" [max]="pageCount()" [value]="page()" (change)="onSlider($event)" aria-label="Sayfaya git" />
+        </div>
+        <button type="button" class="br-nav" (click)="next()" [disabled]="!canNext()" aria-label="Sonraki sayfa">›</button>
+      </footer>
+    }
+  }
+</div>
+
+<ng-template #face let-num let-side="side">
+  <div class="br-page-face" [class.left]="side === 'left'" [class.right]="side === 'right'">
+    @if (img(num); as src) {
+      <img [src]="src" [alt]="num + '. sayfa'" draggable="false" />
+    } @else if (num) {
+      <span class="br-page-wait"><span class="br-spinner small"></span>{{ num }}. sayfa</span>
+    }
+  </div>
+</ng-template>

@@ -1,0 +1,1693 @@
+{
+ "file": "ilkokul-matematik",
+ "notes": [
+  {
+   "grade": 1,
+   "order": 1,
+   "intro": "Bu temada rakamları ve 20'ye kadar sayıları tanıyoruz. Nesneleri saymayı, sıralamayı ve karşılaştırmayı öğreniyoruz. Sayılar her gün işimize yarar: oyuncaklarımızı, kalemlerimizi, arkadaşlarımızı sayarız.",
+   "sections": [
+    {
+     "title": "Rakamlar ve sayılar",
+     "text": "Sayıları yazmak için on rakam kullanırız: 0, 1, 2, 3, 4, 5, 6, 7, 8 ve 9. Bu rakamları yan yana yazarak daha büyük sayılar oluştururuz. Örneğin 1 ve 5 rakamlarıyla 15 sayısını yazarız. Bir grup nesneyi sayarken her nesneyi yalnızca bir kez sayarız. Saydığımız son sayı, gruptaki nesnelerin kaç tane olduğunu gösterir. Nesneler dağınık olsa da düzenli olsa da sayıları değişmez.",
+     "points": [
+      "0'dan 9'a kadar on rakam vardır.",
+      "Her nesne bir kez sayılır.",
+      "Son söylenen sayı, nesne sayısını verir."
+     ]
+    },
+    {
+     "title": "Sıra sayıları ve karşılaştırma",
+     "text": "Bir sırada kimin kaçıncı olduğunu sıra sayıları ile söyleriz: birinci, ikinci, üçüncü gibi. İki grubu karşılaştırırken hangisinde daha çok, hangisinde daha az nesne olduğuna bakarız. Nesne sayıları aynıysa iki grup eşittir. Nesneleri birer birer eşleştirirsek, eşi olmayan nesneler hangi grubun daha çok olduğunu gösterir. Tahmin ederken de grupları küçük parçalara ayırıp düşünebiliriz.",
+     "points": [
+      "1. birinci, 2. ikinci, 3. üçüncü...",
+      "Çok, daha çok, az, daha az, eşit"
+     ]
+    },
+    {
+     "title": "Ritmik sayma ve örüntüler",
+     "text": "Ritmik saymada sayıları belli bir kurala göre atlayarak sayarız. İkişer sayarken 2, 4, 6, 8, 10 deriz. Beşer sayarken 5, 10, 15, 20 deriz. Onar sayarak 100'e kadar gidebiliriz. Geriye doğru da sayabiliriz: 20, 19, 18 gibi. Örüntü, belli bir kurala göre tekrar eden ya da artıp azalan dizidir. Kuralı bulursak sonraki adımı tahmin edebiliriz.",
+     "points": [
+      "İkişer: 2, 4, 6, 8",
+      "Onar: 10, 20, 30, 40",
+      "Örüntüde önce kuralı bul."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Rakam",
+     "meaning": "Sayıları yazmak için kullandığımız 0'dan 9'a kadar olan işaretler."
+    },
+    {
+     "term": "Sayı",
+     "meaning": "Bir şeyin kaç tane olduğunu gösteren ifade."
+    },
+    {
+     "term": "Sıra sayısı",
+     "meaning": "Kaçıncı olduğunu gösteren sayı: birinci, ikinci gibi."
+    },
+    {
+     "term": "Ritmik sayma",
+     "meaning": "Sayıları eşit aralıklarla atlayarak saymak."
+    },
+    {
+     "term": "Karşılaştırma",
+     "meaning": "İki grubun hangisinin çok, az ya da eşit olduğunu bulmak."
+    },
+    {
+     "term": "Örüntü",
+     "meaning": "Belli bir kurala göre devam eden dizi."
+    }
+   ],
+   "example": {
+    "question": "2, 4, 6, 8, ... örüntüsünde sonraki sayı kaçtır?",
+    "solution": "Sayılar ikişer ikişer artıyor. 8'den sonra 2 sayı ileri gideriz: 9, 10. Cevap 10'dur."
+   },
+   "remember": [
+    "Rakamlar 0'dan 9'a kadar on tanedir.",
+    "Saydığın son sayı, kaç nesne olduğunu söyler.",
+    "Eşleştirme yaparak grupları karşılaştırabilirsin.",
+    "Örüntüde kuralı bulursan devamını yazarsın."
+   ]
+  },
+  {
+   "grade": 1,
+   "order": 2,
+   "intro": "Bu temada nesnelerin uzunluğunu ve ağırlığını karşılaştırıyoruz. Cetvel kullanmadan; adım, karış ya da ataçla ölçmeyi deniyoruz. Hangisi daha uzun, hangisi daha ağır sorularına cevap arıyoruz.",
+   "sections": [
+    {
+     "title": "Uzunluğu karşılaştırma",
+     "text": "İki nesnenin uzunluğunu karşılaştırmak için onları yan yana koyarız. Uçlarını aynı yerden başlatmak çok önemlidir. Öteki nesneden ileri giden nesne daha uzundur. Üç nesneyi karşılaştırınca en uzun ve en kısa olanı buluruz. Uzunluğu karış, adım, kalem ya da ataç gibi araçlarla da ölçebiliriz. Örneğin sıramız kaç karış, bunu sayarak bulabiliriz.",
+     "points": [
+      "Uçları aynı hizadan başlat.",
+      "Uzun, daha uzun, en uzun",
+      "Kısa, daha kısa, en kısa"
+     ]
+    },
+    {
+     "title": "Ağırlığı karşılaştırma",
+     "text": "Bir nesneyi elimize alınca ağır mı hafif mi olduğunu hissederiz. İki nesneyi daha doğru karşılaştırmak için eşit kollu terazi kullanırız. Terazinin aşağı inen kefesindeki nesne daha ağırdır. Yukarıda kalan kefedeki nesne daha hafiftir. Kefeler aynı hizada kalırsa terazi dengededir, yani iki taraf eşittir. Büyük nesneler her zaman daha ağır olmayabilir; bir balon büyük ama hafiftir.",
+     "points": [
+      "Aşağı inen kefe daha ağırdır.",
+      "Kefeler eşitse terazi dengededir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Uzunluk",
+     "meaning": "Bir nesnenin bir ucundan öbür ucuna kadar olan boyu."
+    },
+    {
+     "term": "Ağır",
+     "meaning": "Kaldırması zor olan, terazide aşağı inen."
+    },
+    {
+     "term": "Hafif",
+     "meaning": "Kolayca kaldırılan, terazide yukarıda kalan."
+    },
+    {
+     "term": "Denge",
+     "meaning": "Terazinin iki kefesinin aynı hizada durması."
+    },
+    {
+     "term": "Eşit",
+     "meaning": "Aynı uzunlukta ya da aynı ağırlıkta olma."
+    }
+   ],
+   "example": {
+    "question": "Kalem 6 ataç, silgi 3 ataç uzunluğundadır. Hangisi daha uzundur?",
+    "solution": "6, 3'ten büyüktür. Bu yüzden kalem daha uzundur. Silgi daha kısadır."
+   },
+   "remember": [
+    "Uzunluk karşılaştırırken uçları aynı yerden başlat.",
+    "Terazide aşağı inen taraf daha ağırdır.",
+    "Büyük olan her zaman ağır değildir.",
+    "Karış ve adımla da ölçüm yapabiliriz."
+   ]
+  },
+  {
+   "grade": 1,
+   "order": 3,
+   "intro": "Bu temada paramız Türk lirasını tanıyoruz. Madeni ve kâğıt paraları birbirinden ayırmayı öğreniyoruz. Alışverişte paranın değerini bilmek bize yardım eder.",
+   "sections": [
+    {
+     "title": "Paramız Türk lirası",
+     "text": "Ülkemizin parasının adı Türk lirasıdır. Paralar madeni ve kâğıt olmak üzere ikiye ayrılır. Madeni paralar metaldir ve küçüktür. Kâğıt paralar daha büyük değerleri gösterir. Her paranın üzerinde değeri yazar. Örneğin 1 lira madeni paradır. 5, 10, 20, 50, 100 ve 200 liralık kâğıt paralar vardır. Paraların renkleri ve büyüklükleri farklı olduğu için onları kolayca ayırt edebiliriz.",
+     "points": [
+      "Madeni paralar metaldir.",
+      "Kâğıt paraların değeri üzerinde yazar.",
+      "Para kısaca TL ya da ₺ ile gösterilir."
+     ]
+    },
+    {
+     "title": "Para ve değişim",
+     "text": "Para, istediğimiz şeyleri almak için kullandığımız bir değişim aracıdır. Bir ürünü almak için onun fiyatı kadar para veririz. Bazen aynı değeri farklı paralarla ödeyebiliriz. Örneğin bir tane 10 liralık kâğıt para ile iki tane 5 liralık para aynı değerdedir. Paramızı dikkatli kullanmalı, onu temiz tutmalı ve kaybetmemeliyiz. Biriktirmek de güzel bir alışkanlıktır.",
+     "points": [
+      "10 lira = 5 lira + 5 lira",
+      "Paramızı biriktirebiliriz."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Türk lirası",
+     "meaning": "Ülkemizin parası."
+    },
+    {
+     "term": "Lira",
+     "meaning": "Para birimimizin adı, ₺ ile gösterilir."
+    },
+    {
+     "term": "Para",
+     "meaning": "Alışverişte kullandığımız değişim aracı."
+    },
+    {
+     "term": "Değişim",
+     "meaning": "Bir şeyi başka bir şey karşılığında vermek."
+    },
+    {
+     "term": "Madeni para",
+     "meaning": "Metalden yapılmış para."
+    }
+   ],
+   "example": {
+    "question": "Elinde iki tane 5 liralık para var. Kaç liran var?",
+    "solution": "5 + 5 = 10. Toplam 10 liran var. Bu, bir tane 10 liralık kâğıt paraya eşittir."
+   },
+   "remember": [
+    "Paramızın adı Türk lirasıdır.",
+    "Paralar madeni ve kâğıt olarak ikiye ayrılır.",
+    "Farklı paralarla aynı değeri oluşturabiliriz.",
+    "Paramızı dikkatli kullanırız."
+   ]
+  },
+  {
+   "grade": 1,
+   "order": 4,
+   "intro": "Bu temada toplama ve çıkarma işlemlerini öğreniyoruz. Bir şey eklenince çoğalır, bir şey alınınca azalır. Eşittir işaretinin ne anlama geldiğini de keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Toplama",
+     "text": "Toplama, iki ya da daha fazla grubu bir araya getirmektir. Toplamada sayılar artar, çoğalır. Toplama işaretine artı denir ve + ile gösterilir. Toplanan sayılara toplanan, sonuca toplam deriz. Örneğin 3 elmaya 2 elma eklersek 3 + 2 = 5 olur. Toplananların yerini değiştirirsek toplam değişmez: 2 + 3 de 5 eder. Zihinden toplarken büyük sayıdan başlayıp ileri saymak kolaylık sağlar.",
+     "points": [
+      "İşareti: + (artı)",
+      "Toplanan + toplanan = toplam",
+      "Büyük sayıdan ileri say."
+     ]
+    },
+    {
+     "title": "Çıkarma",
+     "text": "Çıkarma, bir gruptan bir kısmını ayırmaktır. Çıkarmada sayı azalır, eksilir. Çıkarma işaretine eksi denir ve − ile gösterilir. Başlangıçtaki sayıya eksilen, ayırdığımız sayıya çıkan, sonuca fark deriz. Örneğin 7 kuştan 3'ü uçarsa 7 − 3 = 4 kuş kalır. Zihinden çıkarırken geriye doğru sayabiliriz: 7'den geri 3 adım: 6, 5, 4.",
+     "points": [
+      "İşareti: − (eksi)",
+      "Eksilen − çıkan = fark"
+     ]
+    },
+    {
+     "title": "Eşittir ve işlemler arasındaki ilişki",
+     "text": "Eşittir işareti = ile gösterilir. İki tarafın aynı değerde olduğunu anlatır. Örneğin 4 + 1 = 5 ve 5 = 3 + 2 doğru eşitliklerdir. Toplama ile çıkarma birbirinin tersidir. 4 + 3 = 7 ise 7 − 3 = 4 ve 7 − 4 = 3 olur. Bu ilişkiyi bilirsek işlemlerimizi kontrol edebiliriz. Bir problemi okurken artma mı azalma mı olduğuna bakarak işlemi seçeriz.",
+     "points": [
+      "= iki tarafın aynı değerde olduğunu gösterir.",
+      "Toplama ve çıkarma birbirinin tersidir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Toplama",
+     "meaning": "Grupları birleştirerek sayıyı artırma işlemi."
+    },
+    {
+     "term": "Toplam",
+     "meaning": "Toplama işleminin sonucu."
+    },
+    {
+     "term": "Çıkarma",
+     "meaning": "Bir gruptan bir kısmını ayırma işlemi."
+    },
+    {
+     "term": "Fark",
+     "meaning": "Çıkarma işleminin sonucu."
+    },
+    {
+     "term": "Eksilen",
+     "meaning": "Çıkarmada başlangıçtaki sayı."
+    },
+    {
+     "term": "Çıkan",
+     "meaning": "Çıkarmada ayrılan sayı."
+    },
+    {
+     "term": "Eşittir",
+     "meaning": "İki tarafın aynı değerde olduğunu gösteren = işareti."
+    }
+   ],
+   "example": {
+    "question": "Ayşe'nin 8 balonu vardı. 3 balonu patladı. Kaç balonu kaldı?",
+    "solution": "Balonlar azaldığı için çıkarma yaparız. 8 − 3 = 5. Ayşe'nin 5 balonu kaldı. Kontrol: 5 + 3 = 8."
+   },
+   "remember": [
+    "Toplamada sayılar çoğalır, çıkarmada azalır.",
+    "Toplananların yeri değişse de toplam değişmez.",
+    "Eşittir, iki tarafın aynı olduğunu söyler.",
+    "Çıkarmayı toplama ile kontrol edebilirsin."
+   ]
+  },
+  {
+   "grade": 1,
+   "order": 5,
+   "intro": "Bu temada nesnelerin yerini ve yönünü anlatmayı öğreniyoruz. Sağ, sol, ön, arka, üst, alt gibi sözcükleri kullanıyoruz. Bir de aynı biçim ve büyüklükteki eş nesneleri buluyoruz.",
+   "sections": [
+    {
+     "title": "Yer ve konum",
+     "text": "Bir nesnenin yerini anlatırken başka bir nesneyi referans noktası olarak seçeriz. Örneğin top masanın altında, kitap masanın üstündedir. Kalem kutusu iki kitabın arasındadır. Ağaç evin önünde, bahçe evin arkasındadır. Kuş yüksekte uçar, kedi alçakta yürür. Okul evimize yakın ya da uzak olabilir. Sağımızı ve solumuzu bilmek de konum anlatmak için çok önemlidir.",
+     "points": [
+      "Altında, üstünde, arasında, etrafında",
+      "Önünde, arkasında, içinde, dışında",
+      "Sağında, solunda, yakında, uzakta"
+     ]
+    },
+    {
+     "title": "Yön ve hareket",
+     "text": "Hareket ederken bir yöne doğru gideriz. İleri, geri, sağa ve sola gidebiliriz. Bir yönergeyi takip ederek hedefe ulaşabiliriz. Örneğin 'İki adım ileri git, sonra sağa dön' bir yönergedir. Yönergeleri sırasıyla ve dikkatle uygulamalıyız. Aksi hâlde yanlış yere ulaşırız. Yön değiştirirken yüzümüzü döndüğümüz tarafa dikkat ederiz. Çünkü döndükten sonra sağımız ve solumuz da değişir. Oyun oynarken arkadaşımıza yönerge vererek onu bir hedefe götürebiliriz.",
+     "points": [
+      "İleri, geri, sağa, sola",
+      "Yönergeyi adım adım uygula."
+     ]
+    },
+    {
+     "title": "Eş nesneler",
+     "text": "Biçimi ve büyüklüğü tamamen aynı olan nesnelere eş nesneler denir. Eş nesneleri üst üste koyduğumuzda tam olarak örtüşürler. Örneğin aynı paketten çıkan iki boya kalemi eştir. Karşılaştırırken bir ölçüt seçeriz: renk, biçim ya da büyüklük gibi. Rengi farklı olsa da biçimi ve büyüklüğü aynı olan nesneler biçim olarak eştir. Eş nesneleri bulmak için dikkatle bakar ve karşılaştırırız.",
+     "points": []
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Konum",
+     "meaning": "Bir nesnenin bulunduğu yer."
+    },
+    {
+     "term": "Yön",
+     "meaning": "Gidilen ya da bakılan taraf: ileri, geri, sağ, sol."
+    },
+    {
+     "term": "Referans noktası",
+     "meaning": "Yer anlatırken temel aldığımız nesne."
+    },
+    {
+     "term": "Hareket",
+     "meaning": "Bir yerden başka bir yere gitme."
+    },
+    {
+     "term": "Eş",
+     "meaning": "Biçimi ve büyüklüğü aynı olan."
+    },
+    {
+     "term": "Aynı",
+     "meaning": "Birbirinden farkı olmayan."
+    }
+   ],
+   "example": {
+    "question": "Bir kutunun 3 adım ilerisinde top var. Kutudan başlayıp topa ulaşmak için ne yapmalısın?",
+    "solution": "Kutunun yanında dur. Topun bulunduğu yöne dön. 3 adım ileri git. Topa ulaşırsın."
+   },
+   "remember": [
+    "Yer anlatırken bir referans noktası seç.",
+    "Sağını ve solunu iyi öğren.",
+    "Yönergeleri sırasıyla uygula.",
+    "Eş nesneler üst üste tam örtüşür."
+   ]
+  },
+  {
+   "grade": 1,
+   "order": 6,
+   "intro": "Bu temada çevremizdeki nesnelerin biçimlerine bakıyoruz. Üçgen, kare, dikdörtgen ve çember gibi şekilleri tanıyoruz. Köşe ve kenar saymayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Geometrik şekiller",
+     "text": "Çevremizdeki birçok nesnede geometrik şekiller vardır. Üçgenin 3 kenarı ve 3 köşesi vardır. Karenin 4 kenarı ve 4 köşesi vardır, kenarları birbirine eşittir. Dikdörtgenin de 4 kenarı ve 4 köşesi vardır; karşılıklı kenarları eşittir. Çember yuvarlaktır; köşesi ve kenarı yoktur. Bir şekli adlandırmak için kenar ve köşelerini dikkatle sayarız. Parmağımızla kenarların üzerinden geçmek saymayı kolaylaştırır.",
+     "points": [
+      "Üçgen: 3 kenar, 3 köşe",
+      "Kare: 4 eşit kenar, 4 köşe",
+      "Dikdörtgen: 4 kenar, 4 köşe",
+      "Çember: köşesi yok"
+     ]
+    },
+    {
+     "title": "Şekilleri çevremizde bulalım",
+     "text": "Pencere, kapı ve defter dikdörtgene benzer. Bir satranç tahtasının kareleri kare şeklindedir. Trafik uyarı levhaları üçgen biçimindedir. Saat, tabak ve tekerlek çembere benzer. Şekilleri benzer özelliklerine göre gruplayabiliriz. Örneğin köşesi olanlar ve köşesi olmayanlar diye iki grup oluşturabiliriz. Bir şekil döndürülse de büyütülse de adı değişmez. Etrafına bakınca sen de birçok şekil bulabilirsin.",
+     "points": [
+      "Şekilleri kenar ve köşe sayısına göre grupla."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Nesne",
+     "meaning": "Görüp dokunabildiğimiz varlık."
+    },
+    {
+     "term": "Köşe",
+     "meaning": "İki kenarın birleştiği nokta."
+    },
+    {
+     "term": "Kenar",
+     "meaning": "Şekli çevreleyen düz çizgi."
+    },
+    {
+     "term": "Üçgen",
+     "meaning": "3 kenarı ve 3 köşesi olan şekil."
+    },
+    {
+     "term": "Kare",
+     "meaning": "4 kenarı eşit ve 4 köşesi olan şekil."
+    },
+    {
+     "term": "Dikdörtgen",
+     "meaning": "4 kenarlı, karşılıklı kenarları eşit şekil."
+    },
+    {
+     "term": "Çember",
+     "meaning": "Köşesi olmayan yuvarlak şekil."
+    }
+   ],
+   "example": {
+    "question": "3 kenarı ve 3 köşesi olan şekil hangisidir?",
+    "solution": "Kenarları sayarız: 3. Köşeleri sayarız: 3. Bu özellikler üçgene aittir. Cevap üçgendir."
+   },
+   "remember": [
+    "Köşe, iki kenarın birleştiği yerdir.",
+    "Karenin dört kenarı birbirine eşittir.",
+    "Çemberin köşesi yoktur.",
+    "Şekil döndürülse de adı değişmez."
+   ]
+  },
+  {
+   "grade": 1,
+   "order": 7,
+   "intro": "Bu temada bir soruya cevap bulmak için veri topluyoruz. Topladığımız verileri çetele ve sıklık tablosuyla düzenliyoruz. Nesne grafiği çizerek sonuçlara bakıyoruz.",
+   "sections": [
+    {
+     "title": "Veri toplama ve çetele",
+     "text": "Sınıfta en çok sevilen meyveyi merak ettiğimizi düşünelim. Arkadaşlarımıza sorup cevaplarını not ederiz. Bu cevaplara veri denir. Meyve adları gibi gruplara ayrılan verilere kategorik veri denir. Verileri sayarken çetele tablosu kullanırız. Her cevap için bir çizgi çizeriz. Beşinci çizgiyi diğer dördünün üzerine çapraz çizeriz. Böylece beşerli gruplar oluşur ve sayması kolaylaşır.",
+     "points": [
+      "Her cevap için bir çetele çizgisi",
+      "Beşinci çizgi çapraz çizilir."
+     ]
+    },
+    {
+     "title": "Sıklık tablosu ve nesne grafiği",
+     "text": "Çetele çizgilerini sayıp sayı olarak yazdığımız tabloya sıklık tablosu denir. Nesne grafiğinde her veri için bir nesne resmi ya da gerçek nesne koyarız. Grafiğe bakınca hangi grubun en çok, hangisinin en az olduğunu kolayca görürüz. Aynı soruyu başka bir sınıfa sorarsak farklı cevaplar alabiliriz. Buna değişebilirlik denir. Sonuçlara bakarak karar veririz.",
+     "points": [
+      "En uzun sıra en çok seçileni gösterir.",
+      "Veriler kişiden kişiye değişebilir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Veri",
+     "meaning": "Bir soruya verilen cevaplar, toplanan bilgiler."
+    },
+    {
+     "term": "Kategorik veri",
+     "meaning": "Renk, meyve gibi gruplara ayrılan veri."
+    },
+    {
+     "term": "Çetele tablosu",
+     "meaning": "Verileri çizgilerle saydığımız tablo."
+    },
+    {
+     "term": "Sıklık tablosu",
+     "meaning": "Her gruptaki sayının yazıldığı tablo."
+    },
+    {
+     "term": "Nesne grafiği",
+     "meaning": "Verileri nesnelerle gösteren grafik."
+    },
+    {
+     "term": "Değişebilirlik",
+     "meaning": "Verilerin kişiden kişiye farklı olabilmesi."
+    }
+   ],
+   "example": {
+    "question": "Elma için 4, muz için 6, armut için 2 kişi seçim yaptı. En çok hangi meyve sevilmiş?",
+    "solution": "Sayıları karşılaştırırız: 6, 4'ten ve 2'den büyüktür. En çok muz sevilmiş. En az armut seçilmiş."
+   },
+   "remember": [
+    "Veri toplamadan önce bir soru belirle.",
+    "Çetelede beşinci çizgi çapraz çizilir.",
+    "Grafik, karşılaştırma yapmayı kolaylaştırır.",
+    "Kararını verilere bakarak ver."
+   ]
+  },
+  {
+   "grade": 2,
+   "order": 1,
+   "intro": "Bu temada 100'e kadar olan sayıları tanıyoruz. Sayıları onluk ve birlik olarak ayırmayı öğreniyoruz. Sayı doğrusu ve örüntülerle sayılar arasındaki ilişkileri keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Onluk ve birlik",
+     "text": "İki basamaklı sayıların iki basamağı vardır: onlar ve birler basamağı. On tane birlik bir araya gelince bir onluk olur. Örneğin 47 sayısında 4 onluk ve 7 birlik vardır. Onlar basamağındaki 4 rakamının basamak değeri 40'tır. Birler basamağındaki 7'nin basamak değeri 7'dir. Bu yüzden 47 = 40 + 7 diye çözümlenir. Sayıyı çözümlemek, onu parçalarına ayırmaktır.",
+     "points": [
+      "10 birlik = 1 onluk",
+      "47 = 4 onluk + 7 birlik = 40 + 7"
+     ]
+    },
+    {
+     "title": "Sayı doğrusu ve sıralama",
+     "text": "Sayı doğrusu, sayıların eşit aralıklarla sıralandığı bir çizgidir. Sağa gittikçe sayılar büyür, sola gittikçe küçülür. Bir sayıdan hemen önce gelen sayı ondan 1 eksiktir. Hemen sonra gelen sayı ondan 1 fazladır. Örneğin 36'dan önce 35, sonra 37 gelir. İki sayıyı karşılaştırırken önce onlar basamağına bakarız. Onlar eşitse birler basamağına bakarız.",
+     "points": [
+      "Önce onlar basamağına bak.",
+      "36'dan önce 35, sonra 37 gelir."
+     ]
+    },
+    {
+     "title": "Ritmik sayma ve örüntüler",
+     "text": "İleriye ya da geriye doğru ikişer, üçer, beşer ve onar sayabiliriz. Onar sayarken birler basamağı değişmez: 13, 23, 33, 43 gibi. Örüntülerde kuralı bulmak için ardışık sayılar arasındaki farka bakarız. Şekil örüntülerini de sayılara çevirebiliriz. Örneğin her adımda iki kare eklenen bir örüntü 2, 4, 6 diye ilerler. Böylece sonraki adımda kaç kare olacağını tahmin edebiliriz.",
+     "points": [
+      "Onar sayarken birler basamağı aynı kalır.",
+      "Kuralı bulmak için farka bak."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Basamak",
+     "meaning": "Bir rakamın sayıdaki yeri: birler, onlar."
+    },
+    {
+     "term": "Basamak değeri",
+     "meaning": "Rakamın bulunduğu basamağa göre gösterdiği değer."
+    },
+    {
+     "term": "Onluk",
+     "meaning": "On tane birlikten oluşan grup."
+    },
+    {
+     "term": "Birlik",
+     "meaning": "Tek bir nesne, 1."
+    },
+    {
+     "term": "Çözümleme",
+     "meaning": "Bir sayıyı basamak değerlerine ayırma."
+    },
+    {
+     "term": "Sayı doğrusu",
+     "meaning": "Sayıların eşit aralıklarla sıralandığı çizgi."
+    },
+    {
+     "term": "Şekil örüntüsü",
+     "meaning": "Şekillerle oluşturulan kurallı dizi."
+    }
+   ],
+   "example": {
+    "question": "68 sayısını çözümleyiniz.",
+    "solution": "68'de onlar basamağında 6, birler basamağında 8 vardır. 6 onluk 60, 8 birlik 8 eder. 68 = 60 + 8."
+   },
+   "remember": [
+    "10 birlik bir onluk eder.",
+    "Sayı doğrusunda sağa gittikçe sayılar büyür.",
+    "Karşılaştırmada önce onlar basamağına bak.",
+    "Örüntünün kuralını sayılar arasındaki farktan bul."
+   ]
+  },
+  {
+   "grade": 2,
+   "order": 2,
+   "intro": "Bu temada bütünü yarım ve çeyrek parçalara ayırıyoruz. Paraları, zamanı, uzunluğu ve kütleyi ölçmeyi öğreniyoruz. Bu ölçümleri her gün kullanırız.",
+   "sections": [
+    {
+     "title": "Bütün, yarım ve çeyrek",
+     "text": "Bir bütünü iki eş parçaya ayırırsak her parça yarımdır. İki yarım bir bütün eder. Bir bütünü dört eş parçaya ayırırsak her parça çeyrektir. Dört çeyrek bir bütün eder, iki çeyrek ise bir yarım eder. Parçaların eş, yani aynı büyüklükte olması çok önemlidir. Bir pastayı ya da elmayı paylaşırken bunu kullanırız.",
+     "points": [
+      "2 yarım = 1 bütün",
+      "4 çeyrek = 1 bütün",
+      "2 çeyrek = 1 yarım"
+     ]
+    },
+    {
+     "title": "Para ve zaman",
+     "text": "Bir Türk lirası 100 kuruştur. 50 kuruş yarım liradır. 25 kuruş çeyrek liradır. Zamanı ölçmek için saat kullanırız. Bir saat 60 dakikadır. Bir gün 24 saattir. Bir hafta 7 gündür. Bir yılda 12 ay ve 4 mevsim vardır. Mevsimler ilkbahar, yaz, sonbahar ve kıştır. Saatte kısa ok saati, uzun ok dakikayı gösterir.",
+     "points": [
+      "1 lira = 100 kuruş",
+      "1 saat = 60 dakika",
+      "1 gün = 24 saat, 1 hafta = 7 gün",
+      "1 yıl = 12 ay = 4 mevsim"
+     ]
+    },
+    {
+     "title": "Uzunluk ve kütle",
+     "text": "Herkesin karışı ve adımı farklı olduğu için ölçümler farklı çıkar. Bu yüzden herkesin aynı sonucu bulması için standart birimler kullanırız. Uzunluğu metre ve santimetre ile ölçeriz. Bir metre 100 santimetredir. Kısa uzunlukları cetvelle, uzun mesafeleri metreyle ölçeriz. Kütleyi kilogram ve gram ile ölçeriz. Bir kilogram 1000 gramdır. Kütleyi terazi ile ölçeriz.",
+     "points": [
+      "1 m = 100 cm",
+      "1 kg = 1000 g"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Bütün",
+     "meaning": "Parçalanmamış, tam olan şey."
+    },
+    {
+     "term": "Yarım",
+     "meaning": "Bir bütünün iki eş parçasından biri."
+    },
+    {
+     "term": "Çeyrek",
+     "meaning": "Bir bütünün dört eş parçasından biri."
+    },
+    {
+     "term": "Kuruş",
+     "meaning": "Liranın 100'de biri."
+    },
+    {
+     "term": "Dakika",
+     "meaning": "Saatin 60'ta biri."
+    },
+    {
+     "term": "Metre",
+     "meaning": "Standart uzunluk ölçme birimi."
+    },
+    {
+     "term": "Kilogram",
+     "meaning": "Standart kütle ölçme birimi."
+    }
+   ],
+   "example": {
+    "question": "Bir pizzayı 4 eş parçaya böldük. 2 parçasını yedik. Pizzanın ne kadarını yedik?",
+    "solution": "4 eş parçanın her biri çeyrektir. 2 çeyrek yedik. 2 çeyrek bir yarım eder. Pizzanın yarısını yedik."
+   },
+   "remember": [
+    "Parçalar eş olmalıdır.",
+    "1 lira 100 kuruştur.",
+    "1 saat 60 dakikadır.",
+    "Standart birimler herkesin aynı sonucu bulmasını sağlar."
+   ]
+  },
+  {
+   "grade": 2,
+   "order": 3,
+   "intro": "Bu temada toplama ve çıkarmayı geliştiriyor, çarpma ve bölmeyi tanıyoruz. Çarpmanın tekrarlı toplama, bölmenin eşit paylaştırma olduğunu öğreniyoruz. Problemler için strateji geliştiriyoruz.",
+   "sections": [
+    {
+     "title": "Eldeli toplama ve çıkarma",
+     "text": "Toplamada birler basamağındaki toplam 10 ya da daha fazlaysa eldeli toplama yaparız. Örneğin 27 + 15 işleminde 7 + 5 = 12 eder. 2'yi birler basamağına yazar, 1 onluğu elde olarak onlar basamağına ekleriz. Sonuç 42 olur. Toplama ve çıkarma birbirinin tersidir. Çıkarmanın sonucunu toplama ile kontrol ederiz. Zihinden işlem yaparken sayıları onluklara yuvarlamak işimizi kolaylaştırır.",
+     "points": [
+      "Birler toplamı 10 ve üstüyse elde var.",
+      "Çıkarmayı toplama ile kontrol et."
+     ]
+    },
+    {
+     "title": "Çarpma",
+     "text": "Çarpma, aynı sayıyı tekrar tekrar toplamanın kısa yoludur. 3 + 3 + 3 + 3 yerine 4 × 3 yazarız. Sonuç 12'dir. Çarpılan sayılara çarpan, sonuca çarpım denir. Çarpanların yeri değişse de çarpım değişmez: 4 × 3 = 3 × 4 = 12. Bir deste 10 tanedir, bir düzine 12 tanedir. 2 deste kalem 20 kalem eder.",
+     "points": [
+      "4 × 3 = 3 + 3 + 3 + 3 = 12",
+      "1 deste = 10, 1 düzine = 12"
+     ]
+    },
+    {
+     "title": "Bölme",
+     "text": "Bölme, bir çokluğu eşit gruplara ayırmak ya da eşit paylaştırmaktır. 12 şekeri 3 arkadaşa eşit paylaştırırsak her birine 4 şeker düşer: 12 ÷ 3 = 4. Bölünen sayı 12, bölen 3, bölüm 4'tür. Bölmeyi ardışık çıkarma ile de yapabiliriz: 12'den 3'ü kaç kez çıkarabildiğimize bakarız. Paylaştırınca artan olursa buna kalan denir.",
+     "points": [
+      "Bölünen ÷ bölen = bölüm",
+      "Paylaşınca artana kalan denir.",
+      "Bölme, çarpmanın tersidir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Eldeli toplama",
+     "meaning": "Birler toplamı 10 ve üzeri olduğunda onlara aktarma yapılan toplama."
+    },
+    {
+     "term": "Çarpma",
+     "meaning": "Aynı sayıyı tekrar toplamanın kısa yolu."
+    },
+    {
+     "term": "Çarpım",
+     "meaning": "Çarpma işleminin sonucu."
+    },
+    {
+     "term": "Bölme",
+     "meaning": "Bir çokluğu eşit gruplara ayırma."
+    },
+    {
+     "term": "Bölüm",
+     "meaning": "Bölme işleminin sonucu."
+    },
+    {
+     "term": "Kalan",
+     "meaning": "Eşit paylaştırmadan sonra artan miktar."
+    },
+    {
+     "term": "Deste",
+     "meaning": "10 tanelik grup."
+    },
+    {
+     "term": "Düzine",
+     "meaning": "12 tanelik grup."
+    }
+   ],
+   "example": {
+    "question": "Bir kutuda 5'er kurabiyeden 3 sıra var. Kutuda kaç kurabiye vardır?",
+    "solution": "Her sırada 5 kurabiye var, 3 sıra var. Tekrarlı toplama: 5 + 5 + 5 = 15. Çarpma ile: 3 × 5 = 15. Kutuda 15 kurabiye vardır."
+   },
+   "remember": [
+    "Çarpma, tekrarlı toplamadır.",
+    "Bölme, eşit paylaştırmadır.",
+    "Çarpanların yeri değişse de çarpım aynıdır.",
+    "İşlem sonucunu tahmin ederek kontrol et."
+   ]
+  },
+  {
+   "grade": 2,
+   "order": 4,
+   "intro": "Bu temada çevremizdeki nesneleri geometrik cisimlere benzetiyoruz. Küp, prizma, küre ve silindiri tanıyoruz. Sıvıların miktarını tahmin etmeyi de öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Şekiller ve cisimler",
+     "text": "Şekiller düzdür; kâğıda çizilir. Kare, üçgen, dikdörtgen ve daire birer şekildir. Daire, çemberin iç kısmının da boyandığı şekildir. Cisimler ise yer kaplar; elimize alabiliriz. Zar küp, kibrit kutusu dikdörtgen prizma, top küre, konserve kutusu dik dairesel silindire benzer. Çadır gibi nesneler üçgen prizmaya benzer. Bir cismin yüzleri birer şekildir. Örneğin küpün yüzleri karedir.",
+     "points": [
+      "Küp: bütün yüzleri kare",
+      "Küre: top gibi yuvarlak",
+      "Silindir: altı ve üstü daire"
+     ]
+    },
+    {
+     "title": "Biçim değişmez",
+     "text": "Bir şekli ya da cismi çevirsek, ters koysak ya da büyütsek de adı değişmez. Ters duran bir üçgen yine üçgendir. Büyük bir top da küçük bir bilye de küre biçimindedir. Cisim modellerini üst üste koyarak kule, ev gibi yapılar oluşturabiliriz. Küp ve prizmalar düz yüzleri sayesinde kolay üst üste durur. Küre ise yuvarlandığı için zor durur.",
+     "points": [
+      "Yönü ve büyüklüğü değişse de biçim aynıdır."
+     ]
+    },
+    {
+     "title": "Sıvı ölçme",
+     "text": "Sıvıların miktarını bardak, kova ya da şişe gibi araçlarla tahmin edebiliriz. Örneğin bir sürahi suyun kaç bardak ettiğini sayarak buluruz. Kullandığımız bardak büyükse daha az sayıda bardak doldururuz. Küçük bardakla ölçersek daha çok bardak gerekir. Bu yüzden ölçerken hep aynı aracı kullanmalıyız. Tahminimizi yaptıktan sonra ölçerek kontrol ederiz. Tahminimiz ölçüm sonucuna ne kadar yakınsa o kadar iyi tahmin etmişiz demektir.",
+     "points": []
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Daire",
+     "meaning": "Çemberin iç bölgesiyle birlikte oluşan şekil."
+    },
+    {
+     "term": "Küp",
+     "meaning": "Altı yüzü de eş kare olan cisim."
+    },
+    {
+     "term": "Kare prizma",
+     "meaning": "Alt ve üst yüzü kare olan prizma."
+    },
+    {
+     "term": "Dikdörtgen prizma",
+     "meaning": "Yüzleri dikdörtgen olan kutu biçimli cisim."
+    },
+    {
+     "term": "Üçgen prizma",
+     "meaning": "Alt ve üst yüzü üçgen olan cisim."
+    },
+    {
+     "term": "Küre",
+     "meaning": "Top gibi her yeri yuvarlak cisim."
+    },
+    {
+     "term": "Dik dairesel silindir",
+     "meaning": "Alt ve üst yüzü daire olan cisim."
+    }
+   ],
+   "example": {
+    "question": "Zar, top ve konserve kutusu hangi cisimlere benzer?",
+    "solution": "Zarın tüm yüzleri karedir, küptür. Top her yönden yuvarlaktır, küredir. Konserve kutusunun altı ve üstü dairedir, silindirdir."
+   },
+   "remember": [
+    "Şekiller düzdür, cisimler yer kaplar.",
+    "Küpün 6 yüzü de karedir.",
+    "Yönü değişen şeklin adı değişmez.",
+    "Sıvı ölçerken aynı aracı kullan."
+   ]
+  },
+  {
+   "grade": 2,
+   "order": 5,
+   "intro": "Bu temada bir hedefe ulaşmak için yön ve mesafe kullanıyoruz. Simetrik şekilleri tanıyoruz. Doğada ve çevremizde simetri örneklerini buluyoruz.",
+   "sections": [
+    {
+     "title": "Yön ve mesafe",
+     "text": "Bir hedefe ulaşmak için hem yönü hem de mesafeyi bilmeliyiz. 'Üç adım ileri, sonra sola dön, iki adım ilerle' gibi yönergeler kullanırız. Kareli kâğıtta bir yol çizerken kaç kare ilerlediğimizi sayarız. Bir hedefe birden fazla yoldan gidebiliriz. En kısa ya da en uygun yolu seçmek iyi bir stratejidir. Yönergeleri yazarken açık ve sıralı olmalıyız.",
+     "points": [
+      "Yön: ileri, geri, sağ, sol",
+      "Mesafe: kaç adım ya da kaç kare"
+     ]
+    },
+    {
+     "title": "Simetri",
+     "text": "Bir şekli ortasından katladığımızda iki parça tam üst üste geliyorsa şekil simetriktir. Katlama çizgisinin iki yanı birbirinin aynısıdır. Kelebeğin kanatları, insan yüzü ve kalp şekli simetrik örneklerdir. Kare ve dikdörtgen de simetriktir. Bazı şekillerin iki yanı farklıdır; bunlar simetrik değildir. Simetriyi anlamak için şekli aynaya tutmak da işe yarar. Simetrik şekli kâğıttan keserek de deneyebiliriz.",
+     "points": [
+      "Katlayınca parçalar örtüşürse simetriktir.",
+      "Kelebek kanatları simetriktir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Simetri",
+     "meaning": "Bir şeklin iki yarısının birbirinin aynısı olması."
+    },
+    {
+     "term": "Simetrik şekil",
+     "meaning": "Katlanınca iki parçası tam örtüşen şekil."
+    },
+    {
+     "term": "Yön",
+     "meaning": "Gidilen taraf: ileri, geri, sağ, sol."
+    },
+    {
+     "term": "Mesafe",
+     "meaning": "İki yer arasındaki uzaklık."
+    }
+   ],
+   "example": {
+    "question": "Kalp şeklini ortasından dikey katlıyoruz. Parçalar örtüşür mü?",
+    "solution": "Kalbin sol ve sağ yarısı aynıdır. Katladığımızda iki parça tam üst üste gelir. Bu yüzden kalp şekli simetriktir."
+   },
+   "remember": [
+    "Hedefe ulaşmak için yön ve mesafe gerekir.",
+    "Simetrik şeklin iki yarısı aynıdır.",
+    "Katlama, simetriyi anlamanın kolay yoludur.",
+    "Doğada pek çok simetri örneği vardır."
+   ]
+  },
+  {
+   "grade": 2,
+   "order": 6,
+   "intro": "Bu temada iki gruptan veri topluyoruz. Verileri tablo ve şekil grafiğiyle gösteriyoruz. Grafiğe bakarak sonuç çıkarıyor ve karar veriyoruz.",
+   "sections": [
+    {
+     "title": "Veri toplama",
+     "text": "Bir araştırmaya bir soruyla başlarız. Örneğin 'Sınıfımızdaki kızlar ve erkekler en çok hangi sporu seviyor?' sorusunu sorabiliriz. Burada iki grup vardır: kızlar ve erkekler. Cevapları çetele tablosuyla sayar, sonra sıklık tablosuna yazarız. Verileri dikkatle kaydetmek, doğru sonuca ulaşmamızı sağlar. Kimseyi iki kez saymamaya ve kimseyi atlamamaya dikkat ederiz. Her grubun verilerini ayrı sütunlara yazarsak karışıklık olmaz.",
+     "points": [
+      "Önce araştırma sorusunu belirle.",
+      "Verileri tabloya düzenli yaz."
+     ]
+    },
+    {
+     "title": "Şekil grafiği",
+     "text": "Şekil grafiğinde her veri bir şekille gösterilir. Örneğin her öğrenci için bir kare ya da daire çizeriz. Şekillerin hepsi aynı büyüklükte olmalı ve düzenli sıralanmalıdır. Grafiğe başlık ve grup adları yazarız. En uzun sıra en çok seçilen cevabı gösterir. İki grubun sonuçlarını karşılaştırıp benzerlik ve farklılıkları buluruz. Sonra bu bilgilere dayanarak bir karar veririz.",
+     "points": [
+      "Her şekil bir veriyi gösterir.",
+      "Grafiğe başlık yazmayı unutma."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Veri",
+     "meaning": "Araştırmada toplanan bilgi."
+    },
+    {
+     "term": "Şekil grafiği",
+     "meaning": "Verileri aynı büyüklükte şekillerle gösteren grafik."
+    },
+    {
+     "term": "Kategori",
+     "meaning": "Verilerin ayrıldığı grup."
+    },
+    {
+     "term": "Sıklık tablosu",
+     "meaning": "Her gruptaki sayının yazıldığı tablo."
+    }
+   ],
+   "example": {
+    "question": "Futbolu 7 erkek ve 3 kız, voleybolu 2 erkek ve 6 kız seçti. Kızlar en çok hangi sporu seviyor?",
+    "solution": "Kızların verilerine bakarız: futbol 3, voleybol 6. 6, 3'ten büyüktür. Kızlar en çok voleybolu seviyor."
+   },
+   "remember": [
+    "Araştırma bir soruyla başlar.",
+    "Şekil grafiğinde şekiller eş büyüklükte olmalı.",
+    "Grafik başlığı ne anlattığını söyler.",
+    "Kararlar verilere dayanmalıdır."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 1,
+   "intro": "Bu temada 1000'e kadar olan sayıları tanıyoruz. Sayıları basamaklarına ayırıyor, sıralıyor ve yuvarlıyoruz. Tek ve çift sayıları ayırt etmeyi de öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Üç basamaklı sayılar",
+     "text": "Üç basamaklı sayılarda birler, onlar ve yüzler basamağı vardır. On onluk bir yüzlük eder. Örneğin 386 sayısında 3 yüzlük, 8 onluk ve 6 birlik vardır. Rakamların basamak değerleri 300, 80 ve 6'dır. Bu yüzden 386 = 300 + 80 + 6 diye çözümlenir. Sayıları karşılaştırırken önce yüzler basamağına bakarız. Yüzler eşitse onlar, onlar da eşitse birler basamağını karşılaştırırız.",
+     "points": [
+      "10 onluk = 1 yüzlük",
+      "386 = 300 + 80 + 6",
+      "Karşılaştırmaya en büyük basamaktan başla."
+     ]
+    },
+    {
+     "title": "En yakın onluğa ve yüzlüğe yuvarlama",
+     "text": "Yuvarlama, bir sayıya en yakın onluğu ya da yüzlüğü bulmaktır. En yakın onluğa yuvarlarken birler basamağına bakarız. Birler basamağı 0, 1, 2, 3 ya da 4 ise sayı aşağı yuvarlanır. 5, 6, 7, 8 ya da 9 ise yukarı yuvarlanır. Örneğin 247 en yakın onluğa 250 olur. En yakın yüzlüğe yuvarlarken onlar basamağına bakarız: 247 sayısı 200 olur.",
+     "points": [
+      "0-4 ise aşağı, 5-9 ise yukarı yuvarla.",
+      "247 → onluğa 250, yüzlüğe 200"
+     ]
+    },
+    {
+     "title": "Tek ve çift sayılar",
+     "text": "Birler basamağı 0, 2, 4, 6 ya da 8 olan sayılar çift sayıdır. Birler basamağı 1, 3, 5, 7 ya da 9 olan sayılar tek sayıdır. Çift sayıda nesneyi ikişerli gruplara ayırınca artan kalmaz. Tek sayıda nesnede bir tane artar. İki çift sayının toplamı çifttir. İki tek sayının toplamı da çifttir. Bir tek ve bir çift sayının toplamı ise tektir.",
+     "points": [
+      "Çift + çift = çift",
+      "Tek + tek = çift",
+      "Tek + çift = tek"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Basamak değeri",
+     "meaning": "Bir rakamın bulunduğu basamağa göre aldığı değer."
+    },
+    {
+     "term": "Yüzlük",
+     "meaning": "On onluktan oluşan 100'lük grup."
+    },
+    {
+     "term": "Yuvarlama",
+     "meaning": "Bir sayıyı en yakın onluk ya da yüzlükle ifade etme."
+    },
+    {
+     "term": "Tek sayı",
+     "meaning": "Birler basamağı 1, 3, 5, 7 ya da 9 olan sayı."
+    },
+    {
+     "term": "Çift sayı",
+     "meaning": "Birler basamağı 0, 2, 4, 6 ya da 8 olan sayı."
+    },
+    {
+     "term": "Sıralama",
+     "meaning": "Sayıları küçükten büyüğe ya da büyükten küçüğe dizme."
+    }
+   ],
+   "example": {
+    "question": "475, 457 ve 547 sayılarını küçükten büyüğe sıralayınız.",
+    "solution": "Önce yüzler basamağına bakarız: 4, 4 ve 5. En büyük 547'dir. 475 ve 457'nin yüzleri eşit, onlar basamağına bakarız: 7 ve 5. 457 daha küçüktür. Sıralama: 457 < 475 < 547."
+   },
+   "remember": [
+    "Karşılaştırmaya en büyük basamaktan başla.",
+    "Yuvarlamada 5 ve üstü yukarı yuvarlanır.",
+    "Birler basamağı sayının tek mi çift mi olduğunu söyler.",
+    "İki tek sayının toplamı çifttir."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 2,
+   "intro": "Bu temada kesirlerle tanışıyoruz. Saatleri okuyor, zaman, uzunluk ve kütle birimlerini birbirine çeviriyoruz. Paraları da değerlerine göre ilişkilendiriyoruz.",
+   "sections": [
+    {
+     "title": "Kesirler",
+     "text": "Bir bütünü eş parçalara ayırdığımızda her parçayı kesirle gösteririz. Kesirde çizginin altındaki sayıya payda denir; bütünün kaç eş parçaya ayrıldığını gösterir. Çizginin üstündeki sayıya pay denir; kaç parçanın alındığını gösterir. Yarım 1/2, çeyrek 1/4 diye yazılır. Payı 1 olan kesirlere birim kesir denir: 1/2, 1/3, 1/5 gibi. Payda büyüdükçe parçalar küçülür.",
+     "points": [
+      "Pay: alınan parça sayısı",
+      "Payda: toplam eş parça sayısı",
+      "Payı 1 olan kesir birim kesirdir."
+     ]
+    },
+    {
+     "title": "Zamanı ölçme",
+     "text": "Analog saatte akrep saati, yelkovan dakikayı gösterir. Dijital saatte saat ve dakika rakamla yazılır, örneğin 08.30. Bir dakika 60 saniyedir. Bir saat 60 dakikadır. Bir gün 24 saattir. Bir hafta 7 gün, bir yıl 12 aydır. Öğleden sonraki saatleri 13.00, 14.00 diye de söyleyebiliriz. Bir olayın ne kadar süreceğini tahmin etmek planlama yapmamıza yardım eder.",
+     "points": [
+      "1 dakika = 60 saniye",
+      "1 saat = 60 dakika",
+      "Akrep saati, yelkovan dakikayı gösterir."
+     ]
+    },
+    {
+     "title": "Uzunluk, kütle ve para",
+     "text": "Uzun mesafeleri kilometre ile ölçeriz. Bir kilometre 1000 metredir. Bir metre 100 santimetredir. Ağır yükleri ton ile ölçeriz. Bir ton 1000 kilogramdır. Bir kilogram da 1000 gramdır. Büyük birimi küçük birime çevirirken çarparız, küçükten büyüğe çevirirken böleriz. Paralarda da 1 lira 100 kuruştur. Bir kâğıt parayı daha küçük değerli paralarla oluşturabiliriz.",
+     "points": [
+      "1 km = 1000 m, 1 m = 100 cm",
+      "1 ton = 1000 kg, 1 kg = 1000 g",
+      "1 lira = 100 kuruş"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Kesir",
+     "meaning": "Bir bütünün eş parçalarından bir veya birkaçını gösteren sayı."
+    },
+    {
+     "term": "Birim kesir",
+     "meaning": "Payı 1 olan kesir."
+    },
+    {
+     "term": "Pay",
+     "meaning": "Kesirde alınan parça sayısı."
+    },
+    {
+     "term": "Payda",
+     "meaning": "Bütünün ayrıldığı eş parça sayısı."
+    },
+    {
+     "term": "Saniye",
+     "meaning": "Dakikanın 60'ta biri."
+    },
+    {
+     "term": "Ton",
+     "meaning": "1000 kilogramlık kütle birimi."
+    },
+    {
+     "term": "Kilometre",
+     "meaning": "1000 metrelik uzunluk birimi."
+    }
+   ],
+   "example": {
+    "question": "3 km kaç metredir?",
+    "solution": "1 km = 1000 m'dir. Büyük birimden küçük birime çevirirken çarparız: 3 × 1000 = 3000. 3 km 3000 metredir."
+   },
+   "remember": [
+    "Kesirde payda eş parça sayısını gösterir.",
+    "Payda büyüdükçe birim kesir küçülür.",
+    "1 km = 1000 m, 1 ton = 1000 kg.",
+    "Akrep saati, yelkovan dakikayı gösterir."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 3,
+   "intro": "Bu temada dört işlemi daha iyi anlıyoruz. Zihinden işlem yapıyor, sonuçları tahmin ediyoruz. Günlük yaşam problemlerini çözüyor ve kendi problemlerimizi kuruyoruz.",
+   "sections": [
+    {
+     "title": "Toplama ve çıkarma",
+     "text": "Üç basamaklı sayılarla toplama yaparken birler, onlar ve yüzler basamaklarını alt alta yazarız. İşleme birler basamağından başlarız. Toplam 10 veya üzeriyse eldeyi bir sonraki basamağa ekleriz. Çıkarmada üstteki rakam küçükse bir sonraki basamaktan onluk bozarız. Sonucu tahmin etmek için sayıları en yakın onluğa ya da yüzlüğe yuvarlarız. Tahminimiz, sonucun mantıklı olup olmadığını anlamamızı sağlar.",
+     "points": [
+      "İşleme birler basamağından başla.",
+      "Tahmin için sayıları yuvarla."
+     ]
+    },
+    {
+     "title": "Çarpma ve bölme",
+     "text": "Çarpma tekrarlı toplamadır, bölme ise eşit paylaştırmadır. Çarpım tablosunu bilmek iki işlemi de hızlandırır. Bir sayının 2 katı, o sayının 2 ile çarpımıdır. Örneğin 8'in 3 katı 24'tür. Bir sayıyı 10 ile çarparken sağına bir sıfır ekleriz: 7 × 10 = 70. Bölme çarpmanın tersidir: 6 × 4 = 24 ise 24 ÷ 4 = 6 olur.",
+     "points": [
+      "Bir sayının katı: o sayının çarpımı",
+      "7 × 10 = 70",
+      "Bölmeyi çarpma ile kontrol et."
+     ]
+    },
+    {
+     "title": "Problem çözme",
+     "text": "Bir problemi çözerken önce dikkatle okuruz. Verilenleri ve isteneni belirleriz. Hangi işlemin gerektiğine karar veririz. Artma, birleşme varsa toplama; azalma, fark varsa çıkarma kullanırız. Eşit gruplar varsa çarpma, paylaştırma varsa bölme yaparız. İşlemi yaptıktan sonra sonucu kontrol ederiz. Kendimiz de verilen bir işleme uygun problem yazabiliriz. Problem yazarken soruyu açık ve anlaşılır kurmaya dikkat ederiz.",
+     "points": [
+      "Oku, anla, planla, çöz, kontrol et."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Kat",
+     "meaning": "Bir sayının belli bir sayı ile çarpımı."
+    },
+    {
+     "term": "Tahmin",
+     "meaning": "İşlem yapmadan sonuca yakın bir değer bulma."
+    },
+    {
+     "term": "Eldeli toplama",
+     "meaning": "Bir basamaktaki toplamın 10 veya fazla olduğu toplama."
+    },
+    {
+     "term": "Onluk bozma",
+     "meaning": "Çıkarmada bir üst basamaktan 10 alma."
+    },
+    {
+     "term": "Eşitlik",
+     "meaning": "İki tarafın değerinin aynı olması."
+    },
+    {
+     "term": "Çarpım tablosu",
+     "meaning": "Sayıların çarpımlarını gösteren tablo."
+    }
+   ],
+   "example": {
+    "question": "Bir kırtasiyeci her kutuda 6 kalem olan 8 kutu aldı. Kalemleri 4 sınıfa eşit dağıttı. Her sınıfa kaç kalem düştü?",
+    "solution": "Önce toplam kalem sayısını buluruz: 8 × 6 = 48. Sonra 4 sınıfa eşit paylaştırırız: 48 ÷ 4 = 12. Her sınıfa 12 kalem düştü. Kontrol: 12 × 4 = 48."
+   },
+   "remember": [
+    "İşlemlere birler basamağından başla.",
+    "Sonucu önce tahmin et, sonra kontrol et.",
+    "Bölme, çarpmanın tersidir.",
+    "Problemde verilen ve isteneni ayır."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 4,
+   "intro": "Bu temada geometrik cisimlerin köşe, yüz ve ayrıtlarını inceliyoruz. Şekilleri kenar sayılarına göre adlandırıyoruz. Çevre uzunluğunu ve sıvı miktarını ölçmeyi öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Cisimlerin özellikleri",
+     "text": "Geometrik cisimlerin yüzleri, ayrıtları ve köşeleri vardır. Yüz, cismin düz yüzeyidir. Ayrıt, iki yüzün birleştiği çizgidir. Köşe, ayrıtların birleştiği noktadır. Küpün 6 yüzü, 12 ayrıtı ve 8 köşesi vardır. Dikdörtgen prizmanın da 6 yüzü, 12 ayrıtı ve 8 köşesi vardır. Kürenin köşesi ve ayrıtı yoktur. Silindirin ise iki düz yüzü ve bir eğri yüzeyi vardır. Cisimleri bu özelliklere göre gruplayabiliriz.",
+     "points": [
+      "Küp: 6 yüz, 12 ayrıt, 8 köşe",
+      "Ayrıt: iki yüzün birleştiği çizgi"
+     ]
+    },
+    {
+     "title": "Çokgenler",
+     "text": "Şekilleri kenar sayılarına göre adlandırırız. 3 kenarlı şekil üçgen, 4 kenarlı şekil dörtgendir. Kare ve dikdörtgen birer dörtgendir. 5 kenarlı şekil beşgen, 6 kenarlı şekil altıgen, 8 kenarlı şekil sekizgendir. Bir şeklin kenar sayısı köşe sayısına eşittir. Komşu olmayan iki köşeyi birleştiren doğru parçasına köşegen denir. Arı peteğindeki gözler altıgene benzer.",
+     "points": [
+      "Kenar sayısı = köşe sayısı",
+      "Beşgen 5, altıgen 6, sekizgen 8 kenarlıdır."
+     ]
+    },
+    {
+     "title": "Çevre ve sıvı ölçme",
+     "text": "Bir şeklin bütün kenar uzunluklarının toplamına çevre uzunluğu denir. Çevreyi bulmak için tüm kenarları toplarız. Kenarları cetvelle ya da ip gibi araçlarla ölçebiliriz. Bir yüzeyi kaplamak için birim kareler kullanabiliriz. Sıvıları litre ile ölçeriz. Bir şişe su ya da bir kova suyun kaç litre olduğunu tahmin edebiliriz. Süt kutularında genellikle 1 litre yazar.",
+     "points": [
+      "Çevre = tüm kenarların toplamı",
+      "Sıvılar litre ile ölçülür."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Köşegen",
+     "meaning": "Bir çokgenin komşu olmayan iki köşesini birleştiren doğru parçası."
+    },
+    {
+     "term": "Ayrıt",
+     "meaning": "Bir cismin iki yüzünün birleştiği çizgi."
+    },
+    {
+     "term": "Yüz",
+     "meaning": "Bir cismin düz yüzeyi."
+    },
+    {
+     "term": "Dörtgen",
+     "meaning": "Dört kenarlı şekil."
+    },
+    {
+     "term": "Altıgen",
+     "meaning": "Altı kenarlı şekil."
+    },
+    {
+     "term": "Çevre",
+     "meaning": "Bir şeklin tüm kenar uzunluklarının toplamı."
+    },
+    {
+     "term": "Birim kare",
+     "meaning": "Alan ölçmede kullanılan küçük kare."
+    },
+    {
+     "term": "Litre",
+     "meaning": "Sıvı ölçme birimi."
+    }
+   ],
+   "example": {
+    "question": "Kenarları 5 cm, 3 cm, 5 cm ve 3 cm olan dikdörtgenin çevresi kaç cm'dir?",
+    "solution": "Çevre tüm kenarların toplamıdır. 5 + 3 + 5 + 3 = 16. Dikdörtgenin çevresi 16 cm'dir."
+   },
+   "remember": [
+    "Küpün 6 yüzü, 12 ayrıtı, 8 köşesi vardır.",
+    "Bir şeklin kenar sayısı köşe sayısına eşittir.",
+    "Çevre, kenarların toplamıdır.",
+    "Sıvılar litre ile ölçülür."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 5,
+   "intro": "Bu temada simetri doğrusunu öğreniyoruz. Bazı şekillerin birden çok simetri doğrusu vardır. Kodlama yönergeleriyle simetrik şekiller oluşturuyoruz.",
+   "sections": [
+    {
+     "title": "Simetri doğrusu",
+     "text": "Bir şekli iki eş parçaya ayıran ve parçaların birbirinin ayna görüntüsü olmasını sağlayan doğruya simetri doğrusu denir. Şekli bu doğru boyunca katlarsak iki parça tam üst üste gelir. Bazı şekillerin bir simetri doğrusu vardır. Bazılarının birden çok simetri doğrusu vardır. Örneğin karenin 4, dikdörtgenin 2 simetri doğrusu vardır. Eşkenar üçgenin 3 simetri doğrusu vardır.",
+     "points": [
+      "Kare: 4 simetri doğrusu",
+      "Dikdörtgen: 2 simetri doğrusu",
+      "Çemberin sonsuz sayıda simetri doğrusu vardır."
+     ]
+    },
+    {
+     "title": "Simetriği tamamlama",
+     "text": "Bir şeklin yarısı ve simetri doğrusu verildiğinde diğer yarısını çizebiliriz. Kareli kâğıtta her noktanın simetri doğrusuna olan uzaklığını sayarız. Aynı uzaklığı doğrunun öbür tarafına aktarırız. Böylece şeklin eksik parçasını tamamlarız. Simetrik parçalar ters yönde ama aynı büyüklüktedir. Sağdaki nokta doğrudan 2 kare uzaksa soldaki eşi de 2 kare uzakta olur.",
+     "points": [
+      "Uzaklığı say, öbür tarafa aynen aktar."
+     ]
+    },
+    {
+     "title": "Kodlama ile simetri",
+     "text": "Kodlama, bir işi adım adım yönergelerle anlatmaktır. Örneğin '2 kare sağa, 3 kare yukarı' bir kodlama yönergesidir. Simetrik bir şekli kodlarken bir yarının yönergelerini yazarız. Öteki yarıda sağ ve sol yönleri yer değiştirir, yukarı ve aşağı ise aynı kalır. Bu kural dikey simetri doğrusu için geçerlidir. Yönergeleri uygulayıp sonucu kontrol ederiz.",
+     "points": [
+      "Dikey simetride sağ ile sol yer değiştirir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Simetri doğrusu",
+     "meaning": "Şekli birbirinin ayna görüntüsü olan iki eş parçaya ayıran doğru."
+    },
+    {
+     "term": "Simetri",
+     "meaning": "İki parçanın bir doğruya göre aynı olması."
+    },
+    {
+     "term": "Kodlama",
+     "meaning": "Bir işi adım adım yönergelerle anlatma."
+    },
+    {
+     "term": "Yönerge",
+     "meaning": "Ne yapılacağını söyleyen talimat."
+    }
+   ],
+   "example": {
+    "question": "Bir karenin kaç simetri doğrusu vardır?",
+    "solution": "Kareyi dikey ortadan katlarız: örtüşür. Yatay ortadan katlarız: örtüşür. İki köşegen boyunca katlarız: ikisi de örtüşür. Toplam 4 simetri doğrusu vardır."
+   },
+   "remember": [
+    "Simetri doğrusu şekli iki eş parçaya ayırır.",
+    "Karenin 4, dikdörtgenin 2 simetri doğrusu vardır.",
+    "Simetriği çizerken uzaklıkları say.",
+    "Dikey simetride sağ ve sol yer değiştirir."
+   ]
+  },
+  {
+   "grade": 3,
+   "order": 6,
+   "intro": "Bu temada sayarak elde ettiğimiz verilerle çalışıyoruz. Verileri nokta grafiğiyle gösteriyoruz. Grafikleri yorumlayıp kararlar veriyoruz.",
+   "sections": [
+    {
+     "title": "Kategorik ve nicel veri",
+     "text": "Kategorik veriler gruplara ayrılır; renk, meyve, oyun gibi. Sayarak elde edilen veriler ise sayılarla ifade edilir. Örneğin bir öğrencinin kaç kardeşi olduğu ya da bir haftada kaç kitap okuduğu sayma ile elde edilen nicel veridir. Her iki veriyi de tabloya düzenli olarak yazarız. Böylece verileri incelemek kolaylaşır. Veriyi topladıktan sonra hangi grafikle göstereceğimize karar veririz.",
+     "points": [
+      "Kategorik: renk, meyve, spor",
+      "Nicel: kardeş sayısı, kitap sayısı"
+     ]
+    },
+    {
+     "title": "Nokta grafiği",
+     "text": "Nokta grafiğinde yatay bir çizgi üzerine kategoriler ya da sayılar yazılır. Her veri için ilgili yerin üstüne bir nokta konur. Noktalar üst üste dizilir. En yüksek nokta sütunu en sık görülen değeri gösterir. Örneğin sınıfta kardeş sayılarını gösteren bir nokta grafiğinde 1'in üstünde en çok nokta varsa, en çok öğrencinin 1 kardeşi var demektir. Grafiğe başlık yazmayı unutmayız.",
+     "points": [
+      "Her veri için bir nokta",
+      "En uzun nokta sütunu en sık değeri gösterir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Kategorik veri",
+     "meaning": "Gruplara ayrılan, sayı olmayan veri."
+    },
+    {
+     "term": "Nicel veri",
+     "meaning": "Sayma ya da ölçme ile elde edilen sayısal veri."
+    },
+    {
+     "term": "Nokta grafiği",
+     "meaning": "Her veriyi bir nokta ile gösteren grafik."
+    },
+    {
+     "term": "Tablo",
+     "meaning": "Verilerin satır ve sütunlarla düzenlendiği yapı."
+    }
+   ],
+   "example": {
+    "question": "Kardeş sayısı nokta grafiğinde 0'ın üstünde 3, 1'in üstünde 7, 2'nin üstünde 4 nokta var. Grafikte kaç öğrencinin verisi vardır?",
+    "solution": "Her nokta bir öğrencidir. Noktaları toplarız: 3 + 7 + 4 = 14. Grafikte 14 öğrencinin verisi vardır. En çok öğrencinin 1 kardeşi vardır."
+   },
+   "remember": [
+    "Her nokta bir veriyi gösterir.",
+    "Nicel veri sayma ile elde edilir.",
+    "Grafiğe başlık yaz.",
+    "Kararını grafiğe bakarak ver."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 1,
+   "intro": "Bu temada altı basamaklı sayıları öğreniyoruz. Büyük sayıları okuyor, yazıyor, çözümlüyor ve yuvarlıyoruz. Sayı ve şekil örüntülerinin kuralını buluyoruz.",
+   "sections": [
+    {
+     "title": "Altı basamaklı sayılar",
+     "text": "Altı basamaklı sayılarda iki bölük vardır: birler bölüğü ve binler bölüğü. Her bölükte birler, onlar ve yüzler basamağı bulunur. Sayıları okurken sağdan sola üçerli gruplara ayırırız. Örneğin 345 128 sayısı 'üç yüz kırk beş bin yüz yirmi sekiz' diye okunur. Bu sayı 300 000 + 40 000 + 5000 + 100 + 20 + 8 diye çözümlenir.",
+     "points": [
+      "Sayıyı sağdan üçerli grupla.",
+      "Binler bölüğü: binler, on binler, yüz binler"
+     ]
+    },
+    {
+     "title": "Sıralama ve yuvarlama",
+     "text": "Büyük sayıları karşılaştırırken önce basamak sayısına bakarız. Basamak sayısı çok olan sayı daha büyüktür. Basamak sayıları eşitse en soldaki basamaktan başlayarak karşılaştırırız. Sayıları en yakın onluğa, yüzlüğe ya da binliğe yuvarlayabiliriz. Yuvarlanacak basamağın sağındaki rakam 5 veya daha büyükse yukarı, 4 veya daha küçükse aşağı yuvarlarız. Örneğin 23 680 en yakın binliğe 24 000 olur.",
+     "points": [
+      "Basamak sayısı çok olan büyüktür.",
+      "23 680 → en yakın binlik 24 000"
+     ]
+    },
+    {
+     "title": "Ritmik sayma ve örüntüler",
+     "text": "Yüzer ve biner ileri ya da geri sayabiliriz. Biner sayarken binler basamağı birer birer değişir: 4 500, 5 500, 6 500. Örüntülerde ardışık terimler arasındaki değişimi buluruz. Kural 'her adımda 250 artar' gibi ifade edilir. Şekil örüntülerinde her adımdaki şekil sayısını sayıp sayı örüntüsüne çeviririz. Böylece istenen adımı hesaplayabiliriz ve kuralı arkadaşlarımıza açıklayabiliriz.",
+     "points": [
+      "Kuralı sözle ifade et.",
+      "Şekil örüntüsünü sayılara çevir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Bölük",
+     "meaning": "Sayıdaki üçerli basamak grubu."
+    },
+    {
+     "term": "Basamak",
+     "meaning": "Rakamın sayıdaki yeri."
+    },
+    {
+     "term": "Basamak değeri",
+     "meaning": "Rakamın bulunduğu basamağa göre değeri."
+    },
+    {
+     "term": "Yuvarlama",
+     "meaning": "Sayıyı en yakın onluk, yüzlük ya da binliğe çevirme."
+    },
+    {
+     "term": "Örüntü",
+     "meaning": "Belli bir kurala göre devam eden dizi."
+    },
+    {
+     "term": "Ritmik sayma",
+     "meaning": "Belli aralıklarla sayma."
+    }
+   ],
+   "example": {
+    "question": "507 942 sayısında 7 rakamının basamak değeri nedir?",
+    "solution": "Sayıyı sağdan sayarız: 2 birler, 4 onlar, 9 yüzler, 7 binler basamağındadır. 7'nin basamak değeri 7000'dir."
+   },
+   "remember": [
+    "Büyük sayıları sağdan üçerli gruplayarak oku.",
+    "Karşılaştırmada önce basamak sayısına bak.",
+    "Yuvarlamada sağdaki rakama bakılır.",
+    "Örüntünün kuralını terimler arasındaki farktan bul."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 2,
+   "intro": "Bu temada kesir çeşitlerini ve denk kesirleri öğreniyoruz. Kesirleri karşılaştırıyor, toplayıp çıkarıyoruz. Uzunluk birimlerine milimetreyi ekliyoruz.",
+   "sections": [
+    {
+     "title": "Kesir çeşitleri",
+     "text": "Payı paydasından küçük olan kesirlere basit kesir denir, örneğin 3/5. Payı paydasına eşit ya da paydasından büyük olan kesirlere bileşik kesir denir, örneğin 7/4. Bileşik kesirler bir tam sayı ve bir basit kesirle de yazılabilir. 7/4 kesri 1 tam 3/4 eder; buna tam sayılı kesir denir. Aynı büyüklüğü gösteren kesirlere denk kesir denir: 1/2, 2/4 ve 3/6 denktir.",
+     "points": [
+      "Basit kesir: pay < payda",
+      "Bileşik kesir: pay ≥ payda",
+      "1/2 = 2/4 = 3/6"
+     ]
+    },
+    {
+     "title": "Kesirleri karşılaştırma",
+     "text": "Birim kesirlerde paydası büyük olan kesir daha küçüktür. Çünkü bütün daha çok parçaya bölünmüştür. Örneğin 1/8 < 1/3 olur. Paydaları eşit kesirlerde payı büyük olan kesir daha büyüktür: 5/7 > 2/7. Bir çokluğun kesir kadarını bulmak için çokluğu paydaya böler, payla çarparız. Örneğin 20'nin 3/4'ü: 20 ÷ 4 = 5, 5 × 3 = 15.",
+     "points": [
+      "Birim kesirde payda büyükse kesir küçüktür.",
+      "Eşit paydada payı büyük olan büyüktür."
+     ]
+    },
+    {
+     "title": "Toplama, çıkarma ve birimler",
+     "text": "Paydaları eşit kesirleri toplarken payları toplarız, paydayı aynen yazarız: 2/9 + 5/9 = 7/9. Çıkarırken payları çıkarırız: 6/7 − 2/7 = 4/7. Uzunlukta en küçük birimimiz milimetredir. Bir santimetre 10 milimetredir. Bir metre 100 santimetre, yani 1000 milimetredir. Cetvelimizdeki küçük çizgiler milimetreleri gösterir. Kalem ucu ya da karınca gibi çok küçük uzunlukları milimetre ile ölçeriz.",
+     "points": [
+      "Payları topla, paydayı aynen yaz.",
+      "1 cm = 10 mm, 1 m = 1000 mm"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Basit kesir",
+     "meaning": "Payı paydasından küçük olan kesir."
+    },
+    {
+     "term": "Bileşik kesir",
+     "meaning": "Payı paydasına eşit ya da büyük olan kesir."
+    },
+    {
+     "term": "Tam sayılı kesir",
+     "meaning": "Bir tam sayı ve bir basit kesirden oluşan kesir."
+    },
+    {
+     "term": "Denk kesir",
+     "meaning": "Aynı büyüklüğü gösteren kesirler."
+    },
+    {
+     "term": "Birim kesir",
+     "meaning": "Payı 1 olan kesir."
+    },
+    {
+     "term": "Milimetre",
+     "meaning": "Santimetrenin 10'da biri olan uzunluk birimi."
+    }
+   ],
+   "example": {
+    "question": "Ali pizzanın 3/8'ini, Can 2/8'ini yedi. İkisi birlikte pizzanın ne kadarını yedi?",
+    "solution": "Paydalar eşit olduğu için payları toplarız: 3 + 2 = 5. Payda aynı kalır: 8. Birlikte pizzanın 5/8'ini yediler. Geriye 3/8'i kaldı."
+   },
+   "remember": [
+    "Basit kesirde pay paydadan küçüktür.",
+    "Denk kesirler aynı büyüklüğü gösterir.",
+    "Eşit paydalı kesirlerde yalnızca paylar toplanır.",
+    "1 cm 10 mm'dir."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 3,
+   "intro": "Bu temada dört basamaklı sayılarla dört işlemi yapıyoruz. Zihinden işlem yapmanın kısa yollarını öğreniyoruz. Dört işlem gerektiren problemleri çözüyor ve kuruyoruz.",
+   "sections": [
+    {
+     "title": "Toplama ve çıkarma",
+     "text": "Dört basamaklı sayılarla işlem yaparken basamakları alt alta hizalarız. Birler basamağından başlarız. Toplamada elde, çıkarmada onluk ya da yüzlük bozma yaparız. Zihinden işlemde sayıları parçalara ayırırız. Örneğin 348 + 250 işlemini 348 + 200 = 548, sonra 548 + 50 = 598 diye yaparız. Toplama ile çıkarma birbirinin tersidir; sonucu ters işlemle kontrol ederiz.",
+     "points": [
+      "Basamakları hizala.",
+      "Sayıyı parçalara ayırarak zihinden işlem yap."
+     ]
+    },
+    {
+     "title": "Çarpma ve bölme",
+     "text": "Bir sayıyı 10, 100 ya da 1000 ile çarparken sağına sırasıyla bir, iki ya da üç sıfır ekleriz: 36 × 100 = 3600. Sonu sıfırla biten sayıyı 10'a bölerken bir sıfır sileriz: 450 ÷ 10 = 45. Çarpma işleminde çarpanlardan birini parçalarına ayırabiliriz: 14 × 6 = 10 × 6 + 4 × 6 = 60 + 24 = 84. Bölmede bölünen = bölen × bölüm + kalan eşitliği geçerlidir.",
+     "points": [
+      "36 × 100 = 3600",
+      "Bölünen = bölen × bölüm + kalan",
+      "Kalan, bölenden küçük olmalıdır."
+     ]
+    },
+    {
+     "title": "Problem çözme ve eşitlik",
+     "text": "Problemi okuyup verilenleri ve isteneni belirleriz. Gerekirse şekil ya da tablo çizeriz. Bazı problemler birden fazla işlem gerektirir; işlemleri sırasıyla yaparız. Sonucu tahmin ederek mantıklı olup olmadığını kontrol ederiz. Eşittir işareti iki tarafın değerinin aynı olduğunu gösterir. Örneğin 25 + ? = 40 eşitliğinde bilinmeyen sayı 40 − 25 = 15'tir.",
+     "points": [
+      "Birden çok işlemde sırayı koru.",
+      "Eşitlikte iki taraf aynı değerdedir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Algoritma",
+     "meaning": "Bir işlemi adım adım yapma yolu."
+    },
+    {
+     "term": "Elde",
+     "meaning": "Toplamada bir üst basamağa aktarılan sayı."
+    },
+    {
+     "term": "Çarpan",
+     "meaning": "Çarpma işleminde çarpılan sayılar."
+    },
+    {
+     "term": "Bölüm",
+     "meaning": "Bölme işleminin sonucu."
+    },
+    {
+     "term": "Kalan",
+     "meaning": "Bölme sonunda artan, bölenden küçük sayı."
+    },
+    {
+     "term": "Tahmin",
+     "meaning": "Sonuca yakın değeri işlem yapmadan bulma."
+    }
+   ],
+   "example": {
+    "question": "Bir okul 1250 TL'ye kitap, 875 TL'ye defter aldı. Kasaya 2500 TL verdi. Kaç TL para üstü alır?",
+    "solution": "Önce toplam harcamayı buluruz: 1250 + 875 = 2125 TL. Sonra para üstünü buluruz: 2500 − 2125 = 375 TL. Okul 375 TL para üstü alır."
+   },
+   "remember": [
+    "İşlemlere birler basamağından başla.",
+    "10, 100, 1000 ile çarparken sıfır ekle.",
+    "Bölmede kalan bölenden küçüktür.",
+    "Sonucu tahminle karşılaştır."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 4,
+   "intro": "Bu temada cisimlerin açınımlarını inceliyoruz. Üçgen türlerini ve kare ile dikdörtgenin özelliklerini öğreniyoruz. Çevre ve alan kavramlarını karşılaştırıyoruz.",
+   "sections": [
+    {
+     "title": "Cisimlerin açınımı",
+     "text": "Bir kutuyu ayrıtlarından kesip düz bir yüzeye açarsak açınımını elde ederiz. Açınım, cismin bütün yüzlerini yan yana gösterir. Küpün açınımında 6 eş kare vardır. Dikdörtgen prizmanın açınımında 6 dikdörtgen vardır; karşılıklı yüzler eştir. Açınımı katlayarak cismi yeniden oluşturabiliriz. Her açınım bir cisim oluşturmaz; yüzlerin doğru yerde olması gerekir. Kâğıttan açınım çizip keserek bunu deneyebiliriz.",
+     "points": [
+      "Küp açınımı: 6 eş kare",
+      "Karşılıklı yüzler eştir."
+     ]
+    },
+    {
+     "title": "Üçgen, kare ve dikdörtgen",
+     "text": "Üç kenarı da eşit uzunlukta olan üçgene eşkenar üçgen denir. Yalnızca iki kenarı eşit olan üçgene ikizkenar üçgen denir. Üç kenarı da farklı uzunlukta olan üçgene çeşitkenar üçgen denir. Karenin dört kenarı da eşittir ve dört köşesi dik açıdır. Dikdörtgenin karşılıklı kenarları eşittir ve köşeleri dik açıdır. Her kare aynı zamanda bir dikdörtgendir.",
+     "points": [
+      "Eşkenar: 3 kenar eşit",
+      "İkizkenar: 2 kenar eşit",
+      "Çeşitkenar: kenarların hepsi farklı"
+     ]
+    },
+    {
+     "title": "Çevre ve alan",
+     "text": "Çevre, bir şeklin dış sınırının uzunluğudur. Kenarların toplamıyla bulunur ve cetvel ya da şerit metre ile ölçülür. Alan ise şeklin kapladığı yüzeyin büyüklüğüdür. Alanı birim karelerle kaplayarak tahmin edebiliriz. Örneğin bir şekil 12 birim kareyle tam kaplanıyorsa alanı 12 birim karedir. Çevreleri aynı olan şekillerin alanları farklı olabilir. Bu yüzden çevre ile alanı karıştırmamalıyız.",
+     "points": [
+      "Çevre: dış sınırın uzunluğu",
+      "Alan: kaplanan yüzeyin büyüklüğü"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Açınım",
+     "meaning": "Bir cismin yüzlerinin düz bir yüzeye açılmış hâli."
+    },
+    {
+     "term": "Alan",
+     "meaning": "Bir şeklin kapladığı yüzeyin büyüklüğü."
+    },
+    {
+     "term": "Çevre",
+     "meaning": "Bir şeklin tüm kenar uzunluklarının toplamı."
+    },
+    {
+     "term": "Eşkenar üçgen",
+     "meaning": "Üç kenarı eşit üçgen."
+    },
+    {
+     "term": "İkizkenar üçgen",
+     "meaning": "İki kenarı eşit üçgen."
+    },
+    {
+     "term": "Çeşitkenar üçgen",
+     "meaning": "Üç kenarı da farklı uzunlukta üçgen."
+    }
+   ],
+   "example": {
+    "question": "Kenarları 4 cm, 4 cm ve 6 cm olan üçgenin türü nedir, çevresi kaç cm'dir?",
+    "solution": "İki kenar eşit (4 cm), üçüncüsü farklı olduğu için ikizkenar üçgendir. Çevre: 4 + 4 + 6 = 14 cm."
+   },
+   "remember": [
+    "Açınımı katlayınca cisim oluşur.",
+    "Üçgenler kenarlarına göre üçe ayrılır.",
+    "Her kare bir dikdörtgendir.",
+    "Çevre uzunluktur, alan yüzeydir."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 5,
+   "intro": "Bu temada açıyı bir dönme miktarı olarak öğreniyoruz. Açıları dik açıyla karşılaştırarak dar ve geniş açı diye sınıflandırıyoruz. Açı ölçmek için neden standart araç gerektiğini düşünüyoruz.",
+   "sections": [
+    {
+     "title": "Açı nedir?",
+     "text": "Açı, bir başlangıç noktasından çıkan iki ışının arasındaki açıklıktır. Açıyı bir dönme miktarı olarak da düşünebiliriz. Kapıyı açtığımızda kapı bir açı kadar döner. Saatin yelkovanı da dönerken açılar oluşturur. Ne kadar çok dönersek açı o kadar büyük olur. Açının büyüklüğü kollarının uzunluğuna bağlı değildir; kollar arasındaki açıklığa bağlıdır. Açının köşesine tepe noktası denir.",
+     "points": [
+      "Açı bir dönme miktarıdır.",
+      "Kolların uzunluğu açıyı değiştirmez."
+     ]
+    },
+    {
+     "title": "Açı çeşitleri",
+     "text": "Kare ve dikdörtgenin köşelerindeki açılar dik açıdır. Dik açı, çeyrek dönüşe eşittir ve 90 derecedir. Dik açıdan küçük olan açılara dar açı denir. Dik açıdan büyük olan açılara geniş açı denir. Bir açının türünü anlamak için defterimizin köşesini kullanabiliriz. Köşeyi açının içine koyarız; açı köşeden darsa dar açı, genişse geniş açıdır.",
+     "points": [
+      "Dik açı: 90°",
+      "Dar açı: 90°'den küçük",
+      "Geniş açı: 90°'den büyük, 180°'den küçük"
+     ]
+    },
+    {
+     "title": "Standart ölçme",
+     "text": "Açıları kâğıt köşesi gibi araçlarla karşılaştırabiliriz ama bu kesin bir ölçüm vermez. Herkesin aynı sonucu bulabilmesi için standart bir ölçme aracı gerekir. Açıları ölçmek için açıölçer kullanılır. Açının birimi derecedir ve ° işaretiyle gösterilir. Açıölçerin merkezini açının köşesine, sıfır çizgisini bir kola yerleştiririz. Mühendisler, mimarlar ve marangozlar işlerinde açı ölçmeyi sık kullanır.",
+     "points": [
+      "Açıölçer ile ölçülür.",
+      "Birimi derecedir (°)."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Açı",
+     "meaning": "İki ışın arasındaki açıklık, dönme miktarı."
+    },
+    {
+     "term": "Dik açı",
+     "meaning": "Çeyrek dönüşe eşit, 90 derecelik açı."
+    },
+    {
+     "term": "Dar açı",
+     "meaning": "Dik açıdan küçük açı."
+    },
+    {
+     "term": "Geniş açı",
+     "meaning": "Dik açıdan büyük, doğru açıdan küçük açı."
+    },
+    {
+     "term": "Derece",
+     "meaning": "Açı ölçme birimi."
+    },
+    {
+     "term": "Açıölçer",
+     "meaning": "Açıları ölçmeye yarayan araç."
+    }
+   ],
+   "example": {
+    "question": "Saat 3.00'te akrep ile yelkovan arasındaki açı hangi türdendir?",
+    "solution": "Saat 3.00'te yelkovan 12'yi, akrep 3'ü gösterir. Bu, çeyrek dönüştür. Çeyrek dönüş dik açıdır. Açı 90 derecedir."
+   },
+   "remember": [
+    "Açı bir dönme miktarıdır.",
+    "Dik açı 90 derecedir.",
+    "Dar açı dik açıdan küçük, geniş açı büyüktür.",
+    "Açılar açıölçerle ölçülür."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 6,
+   "intro": "Bu temada bir doğruya göre simetriyi ve ayna simetrisini inceliyoruz. Bir şeklin simetriğini çiziyoruz. Şekillerden oluşan yapılar için kodlama yönergeleri yazıyoruz.",
+   "sections": [
+    {
+     "title": "Ayna simetrisi",
+     "text": "Aynaya baktığımızda gördüğümüz görüntü, kendimizin simetriğidir. Ayna görüntüsünde sağ ve sol yer değiştirir. Sağ elimizi kaldırdığımızda aynadaki görüntümüz sol elini kaldırıyormuş gibi görünür. Bir doğruya göre simetride doğru bir ayna gibi davranır. Şekil ile simetriği doğruya eşit uzaklıktadır. Şekil ve simetriği aynı büyüklükte ve aynı biçimdedir. Su birikintisindeki ağaç görüntüsü de bir simetri örneğidir.",
+     "points": [
+      "Sağ ve sol yer değiştirir.",
+      "Şekil ve simetriği doğruya eşit uzaklıktadır."
+     ]
+    },
+    {
+     "title": "Simetriği çizme",
+     "text": "Kareli kâğıtta bir şeklin simetriğini çizmek için şeklin köşelerini tek tek ele alırız. Her köşenin simetri doğrusuna kaç kare uzaklıkta olduğunu sayarız. Aynı uzaklığı doğrunun öbür tarafına aktarıp noktayı işaretleriz. Sonra bulduğumuz noktaları sırayla birleştiririz. Doğru üzerindeki noktaların simetriği kendisidir. Çizimi bitirince kâğıdı simetri doğrusundan katlayarak kontrol edebiliriz. İki şekil tam örtüşüyorsa çizim doğrudur.",
+     "points": [
+      "Köşe köşe çalış.",
+      "Doğru üzerindeki nokta yerinde kalır."
+     ]
+    },
+    {
+     "title": "Kodlama stratejileri",
+     "text": "Bir yapıyı kodlamak, onu oluşturmak için gereken adımları sıralı yönergelerle yazmaktır. Örneğin 'yukarı 2, sağa 3, aşağı 2' gibi. Yönergelerde tekrar eden adımlar varsa bunları 'iki kez tekrar et' diye kısaltabiliriz. Simetrik bir yapıda bir yarının kodunu yazıp öteki yarıda yönleri tersine çeviririz. Kodu bir arkadaşımıza verip doğru çalışıp çalışmadığını deneriz.",
+     "points": [
+      "Tekrar eden adımları kısalt.",
+      "Kodu deneyerek kontrol et."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Ayna simetrisi",
+     "meaning": "Bir şeklin aynadaki görüntüsüyle oluşan simetri."
+    },
+    {
+     "term": "Simetri doğrusu",
+     "meaning": "Şekil ile simetriği arasındaki ayna görevi gören doğru."
+    },
+    {
+     "term": "Simetrik",
+     "meaning": "Bir doğruya göre aynı biçim ve büyüklükte olan."
+    },
+    {
+     "term": "Kodlama",
+     "meaning": "Adımları sıralı yönergelerle yazma."
+    },
+    {
+     "term": "Yönerge",
+     "meaning": "Yapılacak işi söyleyen komut."
+    }
+   ],
+   "example": {
+    "question": "Bir nokta dikey simetri doğrusunun 3 kare sağındadır. Simetriği nerededir?",
+    "solution": "Simetrik nokta doğruya aynı uzaklıktadır ama öbür taraftadır. Bu yüzden nokta, doğrunun 3 kare solunda ve aynı yükseklikte olur."
+   },
+   "remember": [
+    "Ayna görüntüsünde sağ ile sol yer değiştirir.",
+    "Simetrik noktalar doğruya eşit uzaklıktadır.",
+    "Simetriği köşe köşe çiz.",
+    "Kodu deneyerek kontrol et."
+   ]
+  },
+  {
+   "grade": 4,
+   "order": 7,
+   "intro": "Bu temada olayların olma olasılığını tahmin ediyoruz. İki veri grubunu karşılaştırarak araştırma yapıyoruz. Verilere dayanarak karar veriyoruz.",
+   "sections": [
+    {
+     "title": "Olasılık",
+     "text": "Bazı olaylar kesinlikle olur, bazıları asla olmaz, bazıları ise olabilir. Kesin olay mutlaka gerçekleşir; örneğin içinde yalnızca kırmızı top olan torbadan kırmızı top çekmek. İmkânsız olay hiçbir zaman gerçekleşmez; örneğin içinde yalnızca kırmızı top olan torbadan mavi top çekmek. Olabilir olay gerçekleşebilir de gerçekleşmeyebilir de; örneğin zar atınca 6 gelmesi. Olayları bu üç gruba ayırabiliriz.",
+     "points": [
+      "Kesin: mutlaka olur.",
+      "Olabilir: olabilir de olmayabilir de.",
+      "İmkânsız: asla olmaz."
+     ]
+    },
+    {
+     "title": "İki veri grubuyla araştırma",
+     "text": "Bir araştırmada iki grubu karşılaştırabiliriz. Örneğin 4-A ve 4-B sınıflarının bir haftada okuduğu kitap sayılarını toplayabiliriz. Verileri sıklık tablosuna yazarız. Sonra her grubu ayrı ayrı ya da yan yana gösteren grafikler çizeriz. Grafiklere bakarak hangi grubun daha çok kitap okuduğunu, iki grubun nerede benzeştiğini buluruz. Sonuçlara göre karar ve öneriler sunarız.",
+     "points": [
+      "Her grup için verileri ayrı kaydet.",
+      "Grafikleri karşılaştırarak yorum yap."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Olasılık",
+     "meaning": "Bir olayın olma şansı."
+    },
+    {
+     "term": "İmkânsız",
+     "meaning": "Asla gerçekleşmeyecek olay."
+    },
+    {
+     "term": "Olabilir",
+     "meaning": "Gerçekleşebilecek ama kesin olmayan olay."
+    },
+    {
+     "term": "Kesin",
+     "meaning": "Mutlaka gerçekleşecek olay."
+    },
+    {
+     "term": "Veri grubu",
+     "meaning": "Aynı araştırmada karşılaştırılan topluluk."
+    },
+    {
+     "term": "Sıklık tablosu",
+     "meaning": "Verilerin kaç kez tekrar ettiğini gösteren tablo."
+    }
+   ],
+   "example": {
+    "question": "Bir torbada 3 kırmızı ve 2 sarı bilye var. Torbadan yeşil bilye çekmek, kırmızı bilye çekmek hangi tür olaydır?",
+    "solution": "Torbada yeşil bilye yoktur, yeşil çekmek imkânsızdır. Torbada kırmızı bilye var ama sarı da var; kırmızı çekmek olabilir."
+   },
+   "remember": [
+    "Olaylar kesin, olabilir ya da imkânsızdır.",
+    "İki grubu karşılaştırmak için verileri ayrı kaydet.",
+    "Grafik başlığı ve etiketleri yaz.",
+    "Kararını verilere dayandır."
+   ]
+  }
+ ]
+}

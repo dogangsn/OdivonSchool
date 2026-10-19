@@ -1,0 +1,143 @@
+<div class="nn container animate-fade-in">
+  <div class="nn-top no-print">
+    <a routerLink="/defter-notlari" class="nn-back">← Defter Notları</a>
+    @if (note(); as n) {
+      <div class="nn-actions">
+        <button type="button" class="btn sm outline" (click)="toggleBoard()">
+          {{ board() ? 'Tahta modundan çık' : '🖥️ Tahta modu' }}
+        </button>
+        <button type="button" class="btn sm outline" (click)="print()">🖨️ Yazdır</button>
+      </div>
+    }
+  </div>
+
+  @if (loading()) {
+    <div class="nn-state">Not açılıyor...</div>
+  } @else if (notFound()) {
+    <div class="nn-state">
+      Bu not bulunamadı. <a routerLink="/defter-notlari">Tüm notlara dön</a>
+    </div>
+  } @else if (note(); as n) {
+    <article #page class="nn-page" [class.board]="board()">
+      @if (board()) {
+        <button type="button" class="nn-board-exit no-print" (click)="toggleBoard()" aria-label="Tahta modundan çık">✕</button>
+      }
+      <header class="nn-head">
+        <div class="nn-kunye">
+          <span>{{ icon(n.subject) }} {{ n.grade }}. Sınıf {{ n.subject }}</span>
+          <span>{{ n.order }}. Tema</span>
+          @if (n.hours) {
+            <span>{{ n.hours }} ders saati</span>
+          }
+        </div>
+        <h1>{{ n.title }}</h1>
+      </header>
+
+      @if (n.note; as body) {
+        <p class="nn-intro">{{ body.intro }}</p>
+
+        @for (s of body.sections; track $index) {
+          <section class="nn-section">
+            <h2>{{ s.title }}</h2>
+            <p>{{ s.text }}</p>
+            @if (s.points.length) {
+              <ul>
+                @for (p of s.points; track $index) {
+                  <li>{{ p }}</li>
+                }
+              </ul>
+            }
+          </section>
+        }
+
+        @if (body.keyTerms.length) {
+          <section class="nn-terms">
+            <h2>Kavramlar</h2>
+            <dl>
+              @for (t of body.keyTerms; track $index) {
+                <div>
+                  <dt>{{ t.term }}</dt>
+                  <dd>{{ t.meaning }}</dd>
+                </div>
+              }
+            </dl>
+          </section>
+        }
+
+        @if (body.example; as ex) {
+          <section class="nn-example">
+            <h2>✏️ Çözümlü örnek</h2>
+            <p class="nn-q">{{ ex.question }}</p>
+            @if (showSolution()) {
+              <p class="nn-sol">{{ ex.solution }}</p>
+            } @else {
+              <button type="button" class="btn sm secondary no-print" (click)="showSolution.set(true)">Çözümü göster</button>
+              <p class="nn-sol print-only">{{ ex.solution }}</p>
+            }
+          </section>
+        }
+
+        @if (body.remember.length) {
+          <aside class="nn-remember">
+            <h2>📌 Akılda Kalsın</h2>
+            <ul>
+              @for (r of body.remember; track $index) {
+                <li>{{ r }}</li>
+              }
+            </ul>
+          </aside>
+        }
+      } @else {
+        <p class="nn-intro nn-soon">Bu temanın konu anlatımlı özeti hazırlanıyor. Şimdilik temanın kavramlarına ve kazanımlarına göz atabilirsin.</p>
+        @if (n.keyConcepts.length) {
+          <section class="nn-terms">
+            <h2>Anahtar kavramlar</h2>
+            <div class="nn-tags">
+              @for (k of n.keyConcepts; track $index) {
+                <span>{{ k }}</span>
+              }
+            </div>
+          </section>
+        }
+      }
+
+      @if (n.outcomes.length) {
+        <details class="nn-outcomes" [open]="!n.note">
+          <summary>Bu temanın kazanımları ({{ n.outcomes.length }})</summary>
+          <ul>
+            @for (o of n.outcomes; track o.code) {
+              <li><code>{{ o.code }}</code> {{ o.text }}</li>
+            }
+          </ul>
+        </details>
+      }
+
+      <footer class="nn-foot">Kaynak: MEB Türkiye Yüzyılı Maarif Modeli öğretim programı · OdivonSchool defter notu</footer>
+    </article>
+
+    <section class="nn-cta no-print">
+      @if (n.categoryId) {
+        <a class="btn primary" [routerLink]="['/test', n.categoryId]">📝 Bu konudan test çöz</a>
+      }
+      <a class="btn outline" routerLink="/kutuphane" [queryParams]="{ sinif: n.grade, ders: n.subject }">📚 Ders kitabını aç</a>
+      @if (n.sourceUrl) {
+        <a class="btn outline" [href]="n.sourceUrl" target="_blank" rel="noopener">MEB programında gör ↗</a>
+      }
+    </section>
+
+    <nav class="nn-pager no-print">
+      @if (prev(); as p) {
+        <a [routerLink]="['/defter-notlari', p.slug]" class="nn-pager-link">
+          <small>← Önceki tema</small><strong>{{ p.title }}</strong>
+        </a>
+      } @else {
+        <span></span>
+      }
+      @if (next(); as x) {
+        <a [routerLink]="['/defter-notlari', x.slug]" class="nn-pager-link right">
+          <small>Sonraki tema →</small><strong>{{ x.title }}</strong>
+        </a>
+      }
+    </nav>
+  }
+</div>

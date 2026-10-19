@@ -1,0 +1,383 @@
+$line: 30px;
+
+.nn {
+  max-width: 900px;
+  padding-top: 20px;
+  padding-bottom: 56px;
+}
+
+.nn-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.nn-back {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.nn-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.nn-state {
+  padding: 32px;
+  text-align: center;
+  background: var(--surface);
+  border-radius: 20px;
+  border: 1px dashed var(--border-strong);
+  color: var(--text-muted);
+}
+
+/* Lined notebook paper: blue rules every $line, red margin, punched holes. */
+.nn-page {
+  position: relative;
+  padding: 34px 36px 26px 78px;
+  border-radius: 6px 18px 18px 6px;
+  background:
+    radial-gradient(circle at 26px 60px, #e2e8f0 0 7px, transparent 8px),
+    radial-gradient(circle at 26px 50%, #e2e8f0 0 7px, transparent 8px),
+    radial-gradient(circle at 26px calc(100% - 60px), #e2e8f0 0 7px, transparent 8px),
+    linear-gradient(90deg, transparent 56px, #f87171 56px 58px, transparent 58px),
+    repeating-linear-gradient(180deg, #fffef8 0 ($line - 1), #c7dbf5 ($line - 1) $line);
+  background-attachment: local;
+  box-shadow:
+    0 1px 0 #ece3cb,
+    0 3px 0 #f6f0de,
+    0 5px 0 #ece3cb,
+    var(--shadow-lg);
+  color: #1e293b;
+  line-height: $line;
+  font-size: 1.02rem;
+
+  p,
+  li,
+  dd {
+    color: #1e293b;
+    line-height: $line;
+  }
+}
+
+.nn-head {
+  margin-bottom: $line * 0.5;
+}
+
+.nn-kunye {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #c2410c;
+  line-height: $line;
+}
+
+.nn-page h1,
+.nn-page h2 {
+  font-family: 'Caveat', var(--font-heading);
+  color: #1d4ed8;
+}
+
+.nn-page h1 {
+  font-size: clamp(2.2rem, 6vw, 3rem);
+  line-height: $line * 1.6;
+  font-weight: 700;
+}
+
+.nn-page h2 {
+  font-size: 1.85rem;
+  line-height: $line * 1.2;
+  font-weight: 700;
+  margin-top: $line * 0.5;
+}
+
+.nn-intro {
+  font-weight: 600;
+  margin-bottom: $line * 0.5;
+}
+
+.nn-soon {
+  font-style: italic;
+  color: #64748b !important;
+}
+
+.nn-section {
+  margin-bottom: $line * 0.5;
+
+  h2 {
+    display: inline-block;
+    background: linear-gradient(transparent 62%, rgba(250, 204, 21, 0.45) 62%);
+    padding: 0 4px;
+  }
+
+  ul {
+    margin: 4px 0 0 22px;
+  }
+}
+
+.nn-terms {
+  margin: $line * 0.5 0;
+
+  dl {
+    display: grid;
+    gap: 6px;
+  }
+
+  dl > div {
+    padding: 4px 12px;
+    border-left: 4px solid #6366f1;
+    background: rgba(238, 242, 255, 0.75);
+    border-radius: 0 10px 10px 0;
+  }
+
+  dt {
+    font-weight: 800;
+    color: #3730a3;
+    display: inline;
+
+    &::after {
+      content: ': ';
+    }
+  }
+
+  dd {
+    display: inline;
+  }
+}
+
+.nn-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  span {
+    background: #eef2ff;
+    color: #3730a3;
+    font-weight: 700;
+    font-size: 0.85rem;
+    padding: 2px 12px;
+    border-radius: 9999px;
+    line-height: 26px;
+  }
+}
+
+.nn-example {
+  margin: $line * 0.5 0;
+  padding: 10px 16px 14px;
+  border: 2px dashed #10b981;
+  border-radius: 16px;
+  background: rgba(236, 253, 245, 0.8);
+
+  h2 {
+    color: #047857 !important;
+    margin-top: 0 !important;
+  }
+
+  .nn-q {
+    font-weight: 700;
+  }
+
+  .nn-sol {
+    margin-top: 6px;
+    white-space: pre-line;
+    color: #065f46;
+  }
+}
+
+.print-only {
+  display: none;
+}
+
+/* Sticky note. */
+.nn-remember {
+  margin: $line 0 $line * 0.5;
+  padding: 10px 18px 14px;
+  background: #fef9c3;
+  border-radius: 4px 4px 22px 4px;
+  box-shadow: 0 10px 20px -12px rgba(146, 64, 14, 0.55);
+  transform: rotate(-0.6deg);
+
+  h2 {
+    color: #b45309 !important;
+    margin-top: 0 !important;
+  }
+
+  ul {
+    margin-left: 20px;
+  }
+
+  li {
+    font-weight: 600;
+  }
+}
+
+.nn-outcomes {
+  margin-top: $line * 0.5;
+  font-size: 0.9rem;
+
+  summary {
+    cursor: pointer;
+    font-weight: 800;
+    color: #475569;
+  }
+
+  ul {
+    list-style: none;
+    margin-top: 6px;
+  }
+
+  li {
+    line-height: 1.5;
+    margin-bottom: 6px;
+  }
+
+  code {
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: #4338ca;
+    background: #eef2ff;
+    padding: 1px 6px;
+    border-radius: 6px;
+    margin-right: 4px;
+  }
+}
+
+.nn-foot {
+  margin-top: $line * 0.5;
+  font-size: 0.72rem;
+  color: #94a3b8;
+}
+
+.nn-board-exit {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+/* Tahta modu: bigger type for the smart board, scrolls inside full screen. */
+.nn-page.board {
+  overflow-y: auto;
+  max-height: 100vh;
+  border-radius: 0;
+  font-size: 1.45rem;
+  line-height: 46px;
+  padding: 40px 6vw 40px calc(6vw + 60px);
+  background:
+    linear-gradient(90deg, transparent calc(6vw + 36px), #f87171 calc(6vw + 36px) calc(6vw + 38px), transparent calc(6vw + 38px)),
+    repeating-linear-gradient(180deg, #fffef8 0 45px, #c7dbf5 45px 46px);
+  background-attachment: local;
+
+  p,
+  li,
+  dd,
+  .nn-kunye {
+    line-height: 46px;
+  }
+
+  h1 {
+    font-size: 4rem;
+    line-height: 80px;
+  }
+
+  h2 {
+    font-size: 2.6rem;
+    line-height: 60px;
+  }
+}
+
+.nn-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.nn-pager {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.nn-pager-link {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 16px;
+  border-radius: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-main);
+
+  small {
+    color: var(--text-muted);
+    font-weight: 700;
+  }
+
+  strong {
+    font-size: 0.95rem;
+  }
+
+  &.right {
+    text-align: right;
+  }
+
+  &:hover {
+    border-color: var(--primary);
+    color: var(--text-main);
+  }
+}
+
+@media (max-width: 640px) {
+  .nn-page {
+    padding: 22px 16px 20px 46px;
+    background:
+      linear-gradient(90deg, transparent 32px, #f87171 32px 34px, transparent 34px),
+      repeating-linear-gradient(180deg, #fffef8 0 ($line - 1), #c7dbf5 ($line - 1) $line);
+    background-attachment: local;
+  }
+
+  .nn-pager {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media print {
+  .nn {
+    padding: 0;
+    max-width: none;
+  }
+
+  .nn-page {
+    box-shadow: none;
+    padding: 0 0 0 40px;
+    background:
+      linear-gradient(90deg, transparent 24px, #f87171 24px 25px, transparent 25px);
+  }
+
+  .nn-remember,
+  .nn-example,
+  .nn-terms dl > div {
+    break-inside: avoid;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .print-only {
+    display: block;
+  }
+}
