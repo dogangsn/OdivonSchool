@@ -80,6 +80,23 @@
 
   <section class="game-section">
     <div class="section-head">
+      <h2>🎯 Dikkat Oyunları</h2>
+      <p>Hedefi yakala, komutu dinle ve sırayla uygula. Seçici ve işitsel dikkatini güçlendir.</p>
+    </div>
+    <div class="game-grid">
+      @for (t of attentionGames(); track t.link.join('/')) {
+        <a class="game-tile" [class]="t.tile" [routerLink]="t.link">
+          <span class="tile-emoji">{{ t.emoji }}</span>
+          <strong>{{ t.title }}</strong>
+          <small>{{ t.game }} · {{ t.description }}</small>
+          <span class="tile-cta">Oyna →</span>
+        </a>
+      }
+    </div>
+  </section>
+
+  <section class="game-section">
+    <div class="section-head">
       <h2>📖 Sesli Okuma</h2>
       <p>Metni yüksek sesle oku; okudukça kelimeler renklensin, hızını gör. <a routerLink="/okuma">Tüm metinler →</a></p>
     </div>

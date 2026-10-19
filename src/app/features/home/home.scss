@@ -1,17 +1,17 @@
 .home-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 72px;
-  padding-bottom: 80px;
+  gap: clamp(44px, 6vw, 80px);
+  padding-bottom: clamp(48px, 6vw, 88px);
 }
 
 // 1. Hero Section
 .hero-section {
-  padding-top: 48px;
+  padding-top: clamp(24px, 4vw, 56px);
   display: grid;
-  grid-template-columns: 1.15fr 1fr;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
   align-items: center;
-  gap: 48px;
+  gap: clamp(28px, 4vw, 64px);
 }
 
 .hero-content {
@@ -35,7 +35,7 @@
 }
 
 .hero-title {
-  font-size: 2.85rem;
+  font-size: clamp(1.85rem, 1.2rem + 2.4vw, 3.4rem);
   font-weight: 800;
   line-height: 1.18;
   letter-spacing: -0.03em;
@@ -48,10 +48,10 @@
 }
 
 .hero-subtitle {
-  font-size: 1.12rem;
+  font-size: clamp(1rem, 0.95rem + 0.3vw, 1.2rem);
   color: var(--text-muted);
   line-height: 1.6;
-  max-width: 540px;
+  max-width: 640px;
 }
 
 .hero-actions {
@@ -321,7 +321,7 @@
   }
 
   .section-title {
-    font-size: 2.35rem;
+    font-size: clamp(1.6rem, 1.1rem + 1.6vw, 2.5rem);
     font-weight: 800;
     letter-spacing: -0.02em;
   }
@@ -329,7 +329,7 @@
   .section-subtitle {
     font-size: 1.05rem;
     color: var(--text-muted);
-    max-width: 600px;
+    max-width: 720px;
   }
 }
 
@@ -442,7 +442,7 @@
 // 5. Final CTA Banner
 .cta-banner {
   .cta-inner {
-    padding: 56px 40px;
+    padding: clamp(32px, 5vw, 64px) clamp(18px, 4vw, 48px);
     text-align: center;
     background: linear-gradient(135deg, rgba(99, 102, 241, 0.08) 0%, rgba(238, 93, 80, 0.08) 100%);
     border: 1.5px solid rgba(99, 102, 241, 0.25);
@@ -456,7 +456,7 @@
       gap: 20px;
 
       h2 {
-        font-size: 2.2rem;
+        font-size: clamp(1.5rem, 1.1rem + 1.4vw, 2.3rem);
         font-weight: 800;
       }
 
@@ -476,31 +476,158 @@
   }
 }
 
+// 6. Platform tools
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+
+  .tool-card {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    text-decoration: none;
+    color: inherit;
+
+    .tool-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+
+      &.tone-amber { background: #fffbeb; }
+      &.tone-sky { background: #f0f9ff; }
+      &.tone-indigo { background: #eef2ff; }
+      &.tone-emerald { background: #ecfdf5; }
+      &.tone-pink { background: #fdf2f8; }
+      &.tone-purple { background: #f5f3ff; }
+      &.tone-slate { background: #f1f5f9; }
+      &.tone-rose { background: #fff1f2; }
+    }
+
+    h3 {
+      font-size: 1.12rem;
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+
+    p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .tool-text {
+      flex-grow: 1;
+    }
+
+    .tool-cta {
+      font-size: 0.86rem;
+      font-weight: 800;
+      color: var(--primary);
+    }
+  }
+}
+
 // Responsive
-@media (max-width: 1080px) {
+@media (max-width: 1200px) {
+  .levels-grid,
+  .features-grid,
+  .tools-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 1024px) {
   .hero-section {
     grid-template-columns: 1fr;
-    gap: 36px;
   }
-  .levels-grid {
-    grid-template-columns: repeat(2, 1fr);
+
+  .hero-subtitle {
+    max-width: none;
   }
-  .features-grid {
-    grid-template-columns: repeat(2, 1fr);
+
+  .hero-demo {
+    max-width: 720px;
+    width: 100%;
   }
 }
 
 @media (max-width: 640px) {
-  .hero-title {
-    font-size: 2.2rem;
-  }
-  .levels-grid {
+  .levels-grid,
+  .features-grid,
+  .tools-grid {
     grid-template-columns: 1fr;
+    gap: 14px;
   }
-  .features-grid {
-    grid-template-columns: 1fr;
+
+  .tools-grid .tool-card {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px;
+
+    .tool-cta {
+      display: none;
+    }
   }
-  .stats-bar .stat-divider {
-    display: none;
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+
+    .btn {
+      width: 100%;
+    }
+  }
+
+  .hero-badge {
+    font-size: 0.76rem;
+  }
+
+  .hero-demo .demo-card {
+    padding: 18px;
+  }
+
+  .stats-bar {
+    padding: 22px 0;
+
+    .stats-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    .stat-divider {
+      display: none;
+    }
+
+    .stat-item {
+      text-align: center;
+
+      .stat-num {
+        font-size: 1.7rem;
+      }
+
+      .stat-txt {
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  .section-title-wrap {
+    margin-bottom: 28px;
+  }
+
+  .cta-banner .cta-inner .cta-content .cta-btns {
+    flex-direction: column;
+    width: 100%;
+
+    .btn {
+      width: 100%;
+    }
   }
 }

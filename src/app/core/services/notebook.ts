@@ -61,6 +61,13 @@ export class NotebookService {
     return this.indexPromise;
   }
 
+  /** Every tema of one sınıf + ders, in program order (Yıllık plan). */
+  async themes(grade: number, subject: string, level: EducationLevel): Promise<NoteDetail[]> {
+    const rows = (await this.index()).filter((n) => n.grade === grade && n.subject === subject && n.level === level);
+    const details = await Promise.all(rows.map((r) => this.note(r.slug)));
+    return details.filter((d): d is NoteDetail => !!d).sort((a, b) => a.order - b.order);
+  }
+
   async note(slug: string): Promise<NoteDetail | null> {
     const row = (await this.index()).find((n) => n.slug === slug);
     if (!row) return null;

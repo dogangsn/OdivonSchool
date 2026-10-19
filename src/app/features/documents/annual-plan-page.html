@@ -1,0 +1,109 @@
+<div class="ap container wide animate-fade-in">
+  <header class="ap-hero no-print">
+    <span class="ap-badge">🗂️ Evraklar</span>
+    <h1>Yıllık Plan Oluşturucu</h1>
+    <p>Sınıfı ve dersi seç; temalar ders saatlerine göre haftalara, kazanımlar da temanın haftalarına otomatik dağıtılsın. Word olarak indir, düzenle, imzaya hazırla.</p>
+  </header>
+
+  @if (loadError()) {
+    <p class="card ap-error no-print">Müfredat yüklenemedi. Sayfayı yenileyip tekrar dene.</p>
+  }
+
+  <div class="ap-layout">
+    <aside class="card ap-form no-print">
+      <h2>1. Ders</h2>
+      <div class="ap-seg">
+        @for (l of levels; track l.id) {
+          <button type="button" [class.active]="level() === l.id" (click)="level.set(l.id)">{{ l.title }}</button>
+        }
+      </div>
+      <label>Sınıf
+        <select [value]="grade()" (change)="grade.set(+$any($event.target).value)">
+          @for (g of grades(); track g) { <option [value]="g" [selected]="g === grade()">{{ g }}. sınıf</option> }
+        </select>
+      </label>
+      <label>Ders
+        <select [value]="subject()" (change)="subject.set($any($event.target).value)">
+          @for (s of subjects(); track s) { <option [value]="s" [selected]="s === subject()">{{ s }}</option> }
+        </select>
+      </label>
+
+      <h2>2. Okul bilgileri</h2>
+      <label>Okul adı <input type="text" [value]="school()" (input)="setInfo('school', $any($event.target).value)" placeholder="Örn. Atatürk İlkokulu" /></label>
+      <label>Öğretmen <input type="text" [value]="teacher()" (input)="setInfo('teacher', $any($event.target).value)" /></label>
+      <label>Eğitim-öğretim yılı <input type="text" [value]="year()" (input)="year.set($any($event.target).value)" /></label>
+
+      <h2>3. Takvim</h2>
+      <div class="ap-row">
+        <label>İlk ders günü <input type="date" [value]="start()" (change)="start.set($any($event.target).value)" /></label>
+        <label>Ders haftası <input type="number" min="1" max="52" [value]="teachingWeeks()" (change)="setWeeks($any($event.target).value)" /></label>
+      </div>
+      <label>Haftalık ders saati
+        <input type="number" min="1" max="40" [value]="hours()" (change)="setHours($any($event.target).value)" />
+        <small>Programdaki toplam {{ totalHours() }} saate göre önerilen: {{ suggestedHours() }}</small>
+      </label>
+      <div class="ap-holidays">
+        <strong>Tatil haftaları</strong>
+        <small>Tarihler tahminidir; okulunuzun takvimine göre düzenleyin.</small>
+        @for (h of holidays(); track $index; let i = $index) {
+          <div class="ap-holiday">
+            <input type="date" [value]="h.monday" (change)="updateHoliday(i, 'monday', $any($event.target).value)" />
+            <input type="text" [value]="h.label" (input)="updateHoliday(i, 'label', $any($event.target).value)" />
+            <button type="button" (click)="removeHoliday(i)" aria-label="Sil">✕</button>
+          </div>
+        }
+        <button type="button" class="btn sm outline" (click)="addHoliday()">+ Tatil haftası ekle</button>
+      </div>
+
+      <div class="ap-actions">
+        <button type="button" class="btn primary" [disabled]="!rows().length" (click)="downloadWord()">⬇️ Word olarak indir</button>
+        <button type="button" class="btn outline" [disabled]="!rows().length" (click)="print()">🖨️ Yazdır / PDF</button>
+      </div>
+    </aside>
+
+    <section class="card ap-preview">
+      <div class="ap-doc-head">
+        <strong>{{ year() }} Eğitim-Öğretim Yılı {{ school() || 'Okul Adı' }}</strong>
+        <span>{{ grade() }}. Sınıf {{ subject() }} Dersi Ünitelendirilmiş Yıllık Planı</span>
+      </div>
+      @if (loading()) {
+        <p class="tool-muted">Temalar yükleniyor…</p>
+      } @else if (!rows().length) {
+        <p class="tool-muted">Bu ders için tema bulunamadı.</p>
+      } @else {
+        <div class="ap-table-wrap">
+          <table class="ap-table">
+            <thead>
+              <tr><th>Ay</th><th>Hafta</th><th>Saat</th><th>Tema</th><th>Öğrenme çıktıları</th><th>Kavramlar</th></tr>
+            </thead>
+            <tbody>
+              @for (r of rows(); track r.start) {
+                @if (r.kind === 'holiday') {
+                  <tr class="holiday"><td>{{ r.month }}</td><td>{{ short(r.start) }} - {{ short(r.end) }}</td><td colspan="4">{{ r.label }}</td></tr>
+                } @else {
+                  <tr [class.theme-start]="r.week!.themeStart">
+                    <td>{{ r.month }}</td>
+                    <td class="nowrap">{{ r.week!.week }}. hafta<br /><small>{{ short(r.start) }} - {{ short(r.end) }}</small></td>
+                    <td class="center">{{ r.week!.hours }}</td>
+                    <td>{{ r.week!.themeOrder }}. {{ r.week!.themeTitle }}</td>
+                    <td>
+                      @for (o of r.week!.outcomes; track o.code) { <div class="ap-out"><b>{{ o.code }}</b> {{ o.text }}</div> }
+                      @if (!r.week!.outcomes.length) { <span class="tool-muted">Tema etkinlikleri, tekrar ve değerlendirme</span> }
+                    </td>
+                    <td>{{ r.week!.keyConcepts.join(', ') }}</td>
+                  </tr>
+                }
+              }
+            </tbody>
+          </table>
+        </div>
+        <div class="ap-sign">
+          <div>{{ teacher() || '......................' }}<br /><small>Sınıf / Ders Öğretmeni</small></div>
+          <div>......................<br /><small>Okul Müdürü · Uygundur</small></div>
+        </div>
+      }
+    </section>
+  </div>
+
+  <p class="tool-muted no-print">Defter notları için <a routerLink="/defter-notlari">Defter Notları</a>, tahta araçları için <a routerLink="/araclar">Sınıf Araçları</a> sayfasına göz at.</p>
+</div>

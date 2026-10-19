@@ -1,6 +1,7 @@
-import { Component, computed, inject } from '@angular/core';
-import { Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
-import { toSignal } from '@angular/core/rxjs-interop';
+import { Component, computed, inject, signal } from '@angular/core';
+import { NavigationEnd, Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { takeUntilDestroyed, toSignal } from '@angular/core/rxjs-interop';
+import { filter } from 'rxjs';
 import { AuthService } from './core/services/auth';
 import { GuestQuotaService } from './core/services/guest-quota';
 import { NotificationBell } from './features/shared/notification-bell/notification-bell';
@@ -24,6 +25,23 @@ export class App {
   showBell = computed(() => isStudent(this.appUser()));
   showGames = computed(() => canPlayGames(this.appUser()));
   readonly roleLabel = roleLabel;
+
+  /** Phone/tablet menu (the nav collapses behind a button under 1200px). */
+  menuOpen = signal(false);
+
+  constructor() {
+    this.router.events
+      .pipe(filter((e) => e instanceof NavigationEnd), takeUntilDestroyed())
+      .subscribe(() => this.menuOpen.set(false));
+  }
+
+  toggleMenu() {
+    this.menuOpen.update((v) => !v);
+  }
+
+  closeMenu() {
+    this.menuOpen.set(false);
+  }
 
   async logout() {
     await this.auth.logout();

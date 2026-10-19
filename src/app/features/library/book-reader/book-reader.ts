@@ -16,6 +16,7 @@ import { AuthService } from '../../../core/services/auth';
 import { LibraryBook, LibraryService } from '../../../core/services/library';
 import { coverStyle } from '../library-list/library-list';
 import { SUBJECT_ICONS } from '../../notebook/notebook-list/notebook-list';
+import { DrawLayer, DrawTool } from '../draw-layer/draw-layer';
 
 type FlipDir = 'next' | 'prev';
 
@@ -42,7 +43,7 @@ const DOUBLE_MIN_WIDTH = 860;
  */
 @Component({
   selector: 'app-book-reader',
-  imports: [RouterLink, NgTemplateOutlet],
+  imports: [RouterLink, NgTemplateOutlet, DrawLayer],
   templateUrl: './book-reader.html',
   styleUrl: './book-reader.scss',
 })
@@ -66,6 +67,12 @@ export class BookReader implements OnDestroy {
   flipping = signal<FlipState | null>(null);
   resumedFrom = signal<number | null>(null);
   images = signal<Record<number, string>>({});
+  /** Kalem modu: the stage stops turning pages and takes strokes instead. */
+  drawMode = signal(false);
+  drawTool = signal<DrawTool>('pen');
+  drawColor = signal('#e11d48');
+  clearTick = signal(0);
+  readonly penColors = ['#e11d48', '#2563eb', '#16a34a', '#0f172a'];
   pageW = signal(420);
   pageH = signal(594);
 
@@ -394,8 +401,21 @@ export class BookReader implements OnDestroy {
   }
 
   /** Click on the right half turns forward, on the left half back. */
+  toggleDraw() {
+    this.drawMode.update((v) => !v);
+  }
+
+  pickPen(color: string) {
+    this.drawTool.set('pen');
+    this.drawColor.set(color);
+  }
+
+  clearDrawing() {
+    this.clearTick.update((n) => n + 1);
+  }
+
   onStageClick(event: MouseEvent) {
-    if (this.zoom()) return;
+    if (this.zoom() || this.drawMode()) return;
     const stage = this.stageRef()?.nativeElement;
     if (!stage) return;
     const rect = stage.getBoundingClientRect();
@@ -408,7 +428,7 @@ export class BookReader implements OnDestroy {
   }
 
   onPointerUp(event: PointerEvent) {
-    if (this.pointerX === null || this.zoom()) return;
+    if (this.pointerX === null || this.zoom() || this.drawMode()) return;
     const dx = event.clientX - this.pointerX;
     this.pointerX = null;
     if (Math.abs(dx) < 50) return;

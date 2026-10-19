@@ -2,6 +2,7 @@
 @use "./teacher";
 @use "./live";
 @use "./print";
+@use "./tools";
 
 /* ==========================================================================
    OdivonSchool — Modern Design System & Global Styles
@@ -129,11 +130,28 @@ a {
 /* Layout Utilities */
 .container {
   width: 100%;
-  max-width: 1160px;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: clamp(14px, 3vw, 32px);
+  padding-right: clamp(14px, 3vw, 32px);
+}
+
+/* Wide pages (ana sayfa, araçlar): use most of a large screen */
+.container.wide {
+  max-width: 1440px;
+}
+
+/* clip (not hidden) so the sticky header keeps working */
+body {
+  overflow-x: clip;
+}
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
 }
 
 /* Reusable Modern Buttons */

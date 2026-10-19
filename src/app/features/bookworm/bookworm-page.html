@@ -1,0 +1,107 @@
+<div class="bw container wide animate-fade-in">
+  <header class="bw-hero">
+    <span class="bw-badge">🐛 Okuma Kurdu</span>
+    <h1>Kitaplarla Türkiye</h1>
+    <p>Bitirdiğin her kitap haritada yeni bir il açar. Bölgeyi tamamla, rozeti kap; sınıfça 81 ili birlikte doldurun!</p>
+  </header>
+
+  @if (!user()) {
+    <section class="card bw-guest">
+      <p>Kitaplarını kaydetmek ve haritanı doldurmak için giriş yap.</p>
+      <div class="bw-actions">
+        <a routerLink="/giris" class="btn outline">Giriş Yap</a>
+        <a routerLink="/kayit" class="btn primary">Ücretsiz Kayıt Ol</a>
+      </div>
+    </section>
+    <app-province-map [books]="0" />
+  }
+
+  @if (student()) {
+    <div class="bw-layout">
+      <section class="card bw-form">
+        <h2>📖 Kitap ekle</h2>
+        <label>Kitabın adı <input type="text" maxlength="120" [value]="title()" (input)="title.set($any($event.target).value)" placeholder="Örn. Küçük Prens" /></label>
+        <label>Yazarı <input type="text" maxlength="80" [value]="author()" (input)="author.set($any($event.target).value)" placeholder="İsteğe bağlı" /></label>
+        <div class="bw-row">
+          <label>Sayfa <input type="number" min="1" max="2000" [value]="pages() ?? ''" (input)="pages.set(+$any($event.target).value || null)" /></label>
+          <label>Bitirdiğim gün <input type="date" [value]="finishedOn()" (change)="finishedOn.set($any($event.target).value)" /></label>
+        </div>
+        <div class="bw-rating">
+          <span>Beğendin mi?</span>
+          @for (s of [1, 2, 3, 4, 5]; track s) {
+            <button type="button" [class.on]="rating() >= s" (click)="rating.set(rating() === s ? 0 : s)" [attr.aria-label]="s + ' yıldız'">★</button>
+          }
+        </div>
+        @if (error()) { <p class="bw-error">{{ error() }}</p> }
+        <button type="button" class="btn primary" [disabled]="saving()" (click)="add()">{{ saving() ? 'Kaydediliyor…' : 'Kitabı bitirdim! 🎉' }}</button>
+        @if (justOpened(); as il) {
+          <p class="bw-opened animate-fade-in">Tebrikler! <strong>{{ il }}</strong> haritanda açıldı 🗺️</p>
+        }
+      </section>
+
+      <section class="bw-stats">
+        <div class="bw-stat card"><span>{{ books().length }}</span>kitap</div>
+        <div class="bw-stat card"><span>{{ totalPages() }}</span>sayfa</div>
+        <div class="bw-stat card"><span>{{ books().length % 81 || (books().length ? 81 : 0) }}</span>il</div>
+      </section>
+    </div>
+
+    <app-province-map [books]="books().length" title="Benim haritam" [showMilestones]="true" />
+
+    @if (books().length) {
+      <section class="card bw-list">
+        <h2>📚 Okuduklarım</h2>
+        <ul>
+          @for (b of books(); track b.id) {
+            <li>
+              <div>
+                <strong>{{ b.title }}</strong>
+                <small>{{ b.author || 'Yazar belirtilmedi' }} · {{ b.pages }} sayfa · {{ b.finishedOn }}</small>
+              </div>
+              @if (b.rating) { <span class="bw-stars">{{ stars(b.rating) }}</span> }
+              <button type="button" class="bw-del" (click)="remove(b)" title="Sil">✕</button>
+            </li>
+          }
+        </ul>
+      </section>
+    }
+  }
+
+  @if (user() && classViews().length) {
+    <section class="bw-class">
+      <div class="bw-class-head">
+        <h2>🏫 Sınıfımızın haritası</h2>
+        @if (classViews().length > 1) {
+          <select [value]="activeId()" (change)="selectedClass.set($any($event.target).value)">
+            @for (v of classViews(); track v.cls.id) { <option [value]="v.cls.id">{{ v.cls.name }}</option> }
+          </select>
+        }
+      </div>
+      @if (activeClass(); as v) {
+        <p class="tool-muted">{{ v.cls.name }} sınıfı birlikte {{ v.books }} kitap, {{ v.pages }} sayfa okudu. Her kitap sınıf haritasında da bir il açar.</p>
+        <app-province-map [books]="v.books" [title]="v.cls.name + ' · ortak harita'" />
+        @if (v.rows.length) {
+          <div class="card bw-table-wrap">
+            <table class="bw-table">
+              <thead><tr><th>#</th><th>Öğrenci</th><th>Kitap</th><th>Sayfa</th><th>Son kitap</th></tr></thead>
+              <tbody>
+                @for (r of v.rows; track r.uid; let i = $index) {
+                  <tr [class.me]="r.uid === user()?.uid">
+                    <td>{{ i + 1 }}</td><td>{{ r.displayName }}</td><td>{{ r.books }}</td><td>{{ r.pages }}</td><td>{{ r.lastTitle || '—' }}</td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+          </div>
+        } @else {
+          <p class="tool-muted">Sınıfta henüz kitap eklenmedi.</p>
+        }
+      }
+    </section>
+  } @else if (teacher()) {
+    <section class="card bw-guest">
+      <p>Sınıf açtığında öğrencilerinin okuduğu kitaplar burada ortak haritada görünür.</p>
+      <a routerLink="/ogretmen" class="btn primary">Sınıflarıma git</a>
+    </section>
+  }
+</div>

@@ -1,0 +1,94 @@
+<div class="dr container animate-fade-in">
+  <div class="dr-top">
+    <a routerLink="/okuma" class="rl-back">← Sesli Okuma</a>
+    @if (streak()) { <span class="dr-streak">🔥 {{ streak() }} günlük seri</span> }
+  </div>
+
+  <ol class="dr-steps">
+    <li [class.on]="step() === 'warmup'" [class.done]="['read', 'questions', 'done'].includes(step())">👀 Göz ısınması</li>
+    <li [class.on]="step() === 'read'" [class.done]="['questions', 'done'].includes(step())">📖 Okuma</li>
+    <li [class.on]="step() === 'questions'" [class.done]="step() === 'done'">❓ Anlama</li>
+    <li [class.on]="step() === 'done'">🏁 Sonuç</li>
+  </ol>
+
+  @switch (step()) {
+    @case ('start') {
+      <section class="dr-card card">
+        <span class="dr-badge">☀️ Günün Okuması</span>
+        <h1>Her gün 10 dakika, birlikte okuyalım!</h1>
+        <p>Önce gözlerimizi ısıtıyoruz, sonra günün metnini okuyup hızımızı ölçüyor ve üç soruyla ne anladığımıza bakıyoruz. Tahtada sınıfça ya da evde tek başına yapılabilir.</p>
+        <div class="dr-grade">
+          <span>Sınıf</span>
+          @for (g of grades; track g) {
+            <button type="button" class="chip" [class.active]="grade() === g" (click)="chooseGrade(g)">{{ g }}</button>
+          }
+        </div>
+        @if (text(); as t) {
+          <div class="dr-today">
+            <span class="dr-emoji">{{ t.emoji }}</span>
+            <div><small>Bugünün metni</small><strong>{{ t.title }}</strong><small>{{ words() }} kelime · 3 soru</small></div>
+          </div>
+        }
+        <button type="button" class="btn primary lg" (click)="begin()">▶ Başlayalım</button>
+      </section>
+    }
+    @case ('warmup') {
+      <app-eye-gym [embedded]="true" [sequence]="warmup" [seconds]="15" (done)="warmupDone()" />
+    }
+    @case ('read') {
+      @if (text(); as t) {
+        <section class="dr-card card">
+          <div class="dr-read-head">
+            <h2>{{ t.emoji }} {{ t.title }}</h2>
+            @if (reading()) { <span class="dr-timer">⏱️ {{ (readingMs() / 1000).toFixed(0) }} sn</span> }
+          </div>
+          @if (reading()) {
+            <p class="dr-text">{{ t.text }}</p>
+            <button type="button" class="btn primary lg" (click)="finishReading()">✅ Okumayı bitirdim</button>
+          } @else {
+            <p class="tool-muted">Hazır olduğunda "Okumaya başla"ya bas; metin görünecek ve süre başlayacak. Bitirince hemen "Okumayı bitirdim"e bas.</p>
+            <div class="dr-actions">
+              <button type="button" class="btn primary lg" (click)="startReading()">▶ Okumaya başla</button>
+              <a class="btn outline lg" [routerLink]="['/okuma', t.id]">🎤 Sesli Okuma Koçu ile oku</a>
+            </div>
+          }
+        </section>
+      }
+    }
+    @case ('questions') {
+      @if (current(); as q) {
+        <section class="dr-card card">
+          <div class="dr-read-head">
+            <h2>Soru {{ qIndex() + 1 }}/{{ questions().length }}</h2>
+            <span class="dr-timer">⚡ {{ wpm() }} kelime/dk</span>
+          </div>
+          <p class="dr-q">{{ q.q }}</p>
+          <div class="dr-options">
+            @for (o of q.options; track $index; let i = $index) {
+              <button
+                type="button"
+                class="dr-opt"
+                [class.right]="picked() !== null && i === q.answer"
+                [class.wrong]="picked() === i && i !== q.answer"
+                [disabled]="picked() !== null"
+                (click)="answer(i)"
+              >{{ o }}</button>
+            }
+          </div>
+          @if (picked() !== null) {
+            <button type="button" class="btn primary" (click)="nextQuestion()">{{ qIndex() < questions().length - 1 ? 'Sonraki soru →' : 'Sonucu gör →' }}</button>
+          }
+        </section>
+      }
+    }
+    @case ('done') {
+      <section class="dr-summary card">
+        <div><span>{{ wpm() }}</span>kelime/dakika</div>
+        <div><span>{{ correct() }}/{{ questions().length }}</span>doğru cevap</div>
+      </section>
+      @if (outcome(); as o) {
+        <app-game-result [outcome]="o" [reward]="reward()" backLink="/okuma" (replay)="begin()" />
+      }
+    }
+  }
+</div>

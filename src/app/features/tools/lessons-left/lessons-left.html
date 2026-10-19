@@ -1,0 +1,76 @@
+<div class="tool-page container wide animate-fade-in">
+  <div class="tool-topbar">
+    <a routerLink="/araclar" class="tool-back">← Araçlar</a>
+    <h1>🔔 Öğretmenim Kaç Ders Kaldı?</h1>
+    <button type="button" class="btn sm outline" (click)="fullscreen()">⛶ Tam ekran</button>
+  </div>
+
+  <div class="tool-layout">
+    <div class="tool-stage lessons-stage" #stage>
+      <div class="ll-clock">{{ clock() }}</div>
+      @switch (status().phase) {
+        @case ('before') {
+          <div class="ll-big">Okul başlamadı</div>
+          <p class="ll-sub">İlk derse <strong>{{ $any(status()).minutesToStart }} dk</strong> var · bugün {{ status().lessonsLeft }} ders</p>
+        }
+        @case ('after') {
+          <div class="ll-big">Okul bitti 🎒</div>
+          <p class="ll-sub">Yarın görüşmek üzere!</p>
+        }
+        @case ('lesson') {
+          <div class="ll-big">{{ $any(status()).slot.index }}. ders</div>
+          <p class="ll-sub">Teneffüse <strong>{{ $any(status()).minutesLeft }} dk</strong></p>
+          <div class="ll-left"><span>{{ status().lessonsLeft }}</span> ders kaldı</div>
+        }
+        @default {
+          <div class="ll-big">{{ status().phase === 'lunch' ? 'Öğle arası 🍎' : 'Teneffüs 🎈' }}</div>
+          <p class="ll-sub">Derse <strong>{{ $any(status()).minutesLeft }} dk</strong></p>
+          <div class="ll-left"><span>{{ status().lessonsLeft }}</span> ders kaldı</div>
+        }
+      }
+
+      <div class="ll-timeline">
+        @for (s of slots(); track $index; let i = $index) {
+          <div
+            class="ll-slot"
+            [class.lesson]="s.kind === 'lesson'"
+            [class.current]="isCurrent(i)"
+            [class.past]="isPast(i)"
+            [style.flex-grow]="s.endMin - s.startMin"
+            [title]="fmt(s.startMin) + ' - ' + fmt(s.endMin)"
+          >
+            @if (s.kind === 'lesson') { {{ s.index }} }
+          </div>
+        }
+      </div>
+    </div>
+
+    <aside class="tool-side">
+      <div class="card tool-box">
+        <div class="cl-head">
+          <strong>🗓️ Ders programı</strong>
+          <button type="button" class="btn sm outline" (click)="editing.set(!editing())">{{ editing() ? 'Kapat' : 'Düzenle' }}</button>
+        </div>
+        @if (editing()) {
+          <div class="ll-form">
+            <label>İlk ders <input type="time" [value]="plan().start" (change)="update('start', $any($event.target).value)" /></label>
+            <label>Ders sayısı <input type="number" min="1" max="12" [value]="plan().lessonCount" (change)="update('lessonCount', $any($event.target).value)" /></label>
+            <label>Ders süresi (dk) <input type="number" min="10" max="90" [value]="plan().lessonMinutes" (change)="update('lessonMinutes', $any($event.target).value)" /></label>
+            <label>Teneffüs (dk) <input type="number" min="0" max="60" [value]="plan().breakMinutes" (change)="update('breakMinutes', $any($event.target).value)" /></label>
+            <label>Öğle arası şu dersten sonra <input type="number" min="0" max="12" [value]="plan().lunchAfter" (change)="update('lunchAfter', $any($event.target).value)" /></label>
+            <label>Öğle arası (dk) <input type="number" min="0" max="120" [value]="plan().lunchMinutes" (change)="update('lunchMinutes', $any($event.target).value)" /></label>
+          </div>
+        }
+        <ul class="ll-list">
+          @for (s of slots(); track $index; let i = $index) {
+            @if (s.kind === 'lesson') {
+              <li [class.current]="isCurrent(i)">
+                <span>{{ s.index }}. ders</span><span>{{ fmt(s.startMin) }} - {{ fmt(s.endMin) }}</span>
+              </li>
+            }
+          }
+        </ul>
+      </div>
+    </aside>
+  </div>
+</div>

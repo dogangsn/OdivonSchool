@@ -10,6 +10,15 @@
     <p class="rl-privacy">🔒 Sesin kaydedilmez; yalnızca okuma hızın ve takıldığın kelimeler saklanır.</p>
   </section>
 
+  <a class="rl-daily" routerLink="/okuma/gunun-okumasi">
+    <span class="rl-daily-emoji">☀️</span>
+    <div>
+      <strong>Günün Okuması</strong>
+      <small>Göz ısınması, günün metni, okuma hızı ve 3 anlama sorusu. Her gün 10 dakika!</small>
+    </div>
+    <span class="rl-cta">Başla →</span>
+  </a>
+
   @for (g of groups(); track g.grade) {
     <section class="rl-section">
       <div class="rl-section-head">

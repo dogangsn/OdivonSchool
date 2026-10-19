@@ -1,0 +1,391 @@
+.bw {
+  padding-top: clamp(20px, 3vw, 40px);
+  padding-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.bw-hero {
+  .bw-badge {
+    display: inline-block;
+    padding: 5px 14px;
+    border-radius: 999px;
+    background: #ecfdf5;
+    color: #047857;
+    font-weight: 800;
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+  }
+
+  h1 {
+    font-size: clamp(1.7rem, 1.2rem + 1.6vw, 2.6rem);
+    font-weight: 800;
+  }
+
+  p {
+    color: var(--text-muted);
+    max-width: 760px;
+  }
+}
+
+.bw-guest {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bw-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.bw-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.bw-form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  h2 {
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-weight: 700;
+    font-size: 0.88rem;
+  }
+}
+
+.bw-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.bw-rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 700;
+  font-size: 0.88rem;
+
+  span {
+    margin-right: 6px;
+  }
+
+  button {
+    border: none;
+    background: none;
+    font-size: 1.6rem;
+    color: #cbd5e1;
+    cursor: pointer;
+    padding: 0 2px;
+
+    &.on {
+      color: #f59e0b;
+    }
+  }
+}
+
+.bw-error {
+  color: var(--danger);
+  font-weight: 700;
+  font-size: 0.88rem;
+}
+
+.bw-opened {
+  background: #ecfdf5;
+  color: #065f46;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.bw-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+
+  .bw-stat {
+    padding: 18px 12px;
+    text-align: center;
+    color: var(--text-muted);
+    font-weight: 700;
+
+    span {
+      display: block;
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 900;
+      color: var(--text-main);
+      font-family: var(--font-heading);
+    }
+  }
+}
+
+.bw-list {
+  padding: 20px;
+
+  h2 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-light);
+
+    div {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    small {
+      color: var(--text-muted);
+    }
+  }
+
+  .bw-stars {
+    color: #f59e0b;
+    white-space: nowrap;
+  }
+
+  .bw-del {
+    border: none;
+    background: none;
+    color: var(--text-subtle);
+    cursor: pointer;
+    font-size: 1rem;
+
+    &:hover {
+      color: var(--danger);
+    }
+  }
+}
+
+.bw-class {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.bw-class-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+
+  h2 {
+    font-size: 1.3rem;
+    font-weight: 800;
+  }
+}
+
+.bw-table-wrap {
+  padding: 0;
+  overflow-x: auto;
+}
+
+.bw-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+
+  th,
+  td {
+    padding: 10px 14px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-light);
+    white-space: nowrap;
+  }
+
+  th {
+    font-size: 0.74rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--text-muted);
+  }
+
+  tr.me td {
+    background: var(--primary-light);
+    font-weight: 700;
+  }
+}
+
+/* Province map */
+:host ::ng-deep .pm {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: clamp(14px, 2.5vw, 24px);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  .pm-head {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+
+    strong {
+      font-size: 1.1rem;
+      font-weight: 800;
+    }
+
+    span {
+      color: var(--text-muted);
+      font-weight: 700;
+      font-size: 0.88rem;
+    }
+  }
+
+  .pm-bar {
+    height: 10px;
+    border-radius: 999px;
+    background: var(--bg-alt);
+    overflow: hidden;
+
+    div {
+      height: 100%;
+      background: linear-gradient(90deg, #10b981, #0ea5e9);
+    }
+  }
+
+  .pm-next {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+  }
+
+  .pm-regions {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 14px;
+  }
+
+  .pm-region {
+    border: 1px dashed var(--border);
+    border-radius: 14px;
+    padding: 12px;
+
+    &.done {
+      border: 2px solid #10b981;
+      background: #f0fdf4;
+    }
+
+    h4 {
+      font-size: 0.92rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .pm-badge {
+      font-size: 0.7rem;
+      background: #10b981;
+      color: #fff;
+      padding: 2px 8px;
+      border-radius: 999px;
+    }
+  }
+
+  .pm-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .pm-tile {
+    font-size: 0.74rem;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 8px;
+    background: var(--bg-alt);
+    color: var(--text-subtle);
+    display: inline-flex;
+    gap: 5px;
+
+    b {
+      font-variant-numeric: tabular-nums;
+      opacity: 0.7;
+    }
+
+    &.open {
+      background: linear-gradient(135deg, #34d399, #0ea5e9);
+      color: #fff;
+    }
+  }
+
+  .pm-milestones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .pm-ms {
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: var(--bg-alt);
+    color: var(--text-subtle);
+    font-weight: 700;
+    font-size: 0.82rem;
+    filter: grayscale(1);
+
+    small {
+      font-weight: 600;
+      opacity: 0.8;
+    }
+
+    &.got {
+      background: #fef3c7;
+      color: #92400e;
+      filter: none;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .bw-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .bw-row {
+    grid-template-columns: 1fr;
+  }
+
+  :host ::ng-deep .pm .pm-regions {
+    grid-template-columns: 1fr;
+  }
+}

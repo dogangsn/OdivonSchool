@@ -18,7 +18,7 @@
 }
 
 .nav-container {
-  max-width: 1200px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 12px 24px;
   display: flex;
@@ -122,7 +122,7 @@
   }
 }
 
-@media (max-width: 1360px) and (min-width: 769px) {
+@media (max-width: 1440px) and (min-width: 1201px) {
   .main-nav {
     gap: 2px;
 
@@ -134,6 +134,45 @@
       }
     }
   }
+}
+
+/* Hamburger button: only shown when the nav collapses (tablet and phone) */
+.menu-toggle {
+  display: none;
+  width: 42px;
+  height: 42px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  flex-shrink: 0;
+  order: 3;
+
+  span {
+    display: block;
+    width: 18px;
+    height: 2px;
+    border-radius: 2px;
+    background: var(--text-main);
+    transition: transform var(--transition-fast), opacity var(--transition-fast);
+  }
+
+  &.open {
+    span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+    span:nth-child(2) { opacity: 0; }
+    span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+  }
+}
+
+.menu-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  background: rgba(15, 23, 42, 0.35);
 }
 
 /* User Actions */
@@ -249,7 +288,7 @@
 }
 
 .footer-container {
-  max-width: 1200px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0 24px;
   display: flex;
@@ -307,28 +346,158 @@
   }
 }
 
-/* Mobile Responsive */
-@media (max-width: 768px) {
+/* Tablet & phone: nav collapses into a drop-down panel */
+@media (max-width: 1200px) {
   .nav-container {
-    flex-direction: column;
-    align-items: stretch;
-    padding: 12px 16px;
+    padding: 10px 20px;
+    gap: 12px;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+  }
+
+  .brand-logo {
+    margin-right: auto;
   }
 
   .main-nav {
-    justify-content: space-around;
-    overflow-x: auto;
-    padding-top: 6px;
+    display: none;
+    position: fixed;
+    top: 64px;
+    left: 0;
+    right: 0;
+    z-index: 110;
+    max-height: calc(100dvh - 64px);
+    overflow-y: auto;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 4px;
+    padding: 12px 16px 20px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 16px 32px rgba(15, 23, 42, 0.12);
+
+    &.open {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    .nav-link {
+      padding: 12px 14px;
+      font-size: 0.98rem;
+
+      svg {
+        display: inline-block;
+      }
+    }
+  }
+
+  .user-actions,
+  .guest-actions {
+    order: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    padding: 10px 14px;
+    gap: 8px;
+  }
+
+  .brand-logo {
+    gap: 8px;
+
+    .brand-logo-img {
+      width: 34px;
+      height: 34px;
+    }
+
+    .brand-name {
+      font-size: 1.12rem;
+    }
+
+    .brand-badge {
+      display: none;
+    }
+  }
+
+  .main-nav {
+    top: 58px;
+    max-height: calc(100dvh - 58px);
+
+    &.open {
+      grid-template-columns: 1fr 1fr;
+    }
   }
 
   .user-actions {
-    justify-content: space-between;
+    gap: 8px;
+
+    .user-chip {
+      padding: 3px;
+    }
+
+    .user-info-text {
+      display: none;
+    }
+
+    .btn-logout {
+      padding: 8px 10px;
+
+      span {
+        display: none;
+      }
+    }
+  }
+
+  .guest-actions {
+    gap: 6px;
+
+    .guest-quota-badge {
+      display: none;
+    }
+
+    .btn {
+      padding: 7px 12px;
+      font-size: 0.8rem;
+    }
   }
 
   .footer-container {
     flex-direction: column;
     text-align: center;
-    gap: 8px;
+    gap: 10px;
+
+    .footer-brand {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .footer-tagline {
+        margin-left: 0;
+        width: 100%;
+      }
+    }
+
+    .footer-links {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px 16px;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .brand-logo .brand-name {
+    font-size: 1rem;
+  }
+
+  .guest-actions a.btn.outline {
+    display: none;
+  }
+
+  .main-nav.open {
+    grid-template-columns: 1fr;
   }
 }
 

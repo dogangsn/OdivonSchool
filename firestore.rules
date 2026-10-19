@@ -106,6 +106,24 @@ service cloud.firestore {
           request.resource.data.updatedAt is int;
       }
 
+      // Okuma Kurdu: the books a student finished. Only the student writes;
+      // classmates see the per-class bookworm summary instead.
+      match /books/{bookId} {
+        allow read, delete: if isOwner(userId);
+        allow create: if isOwner(userId) &&
+          request.resource.data.keys().hasOnly(['title', 'author', 'pages', 'finishedOn', 'rating', 'createdAt']) &&
+          request.resource.data.title is string && request.resource.data.title.size() >= 2 &&
+          request.resource.data.title.size() <= 120 &&
+          request.resource.data.author is string && request.resource.data.author.size() <= 80 &&
+          request.resource.data.pages is int && request.resource.data.pages >= 1 &&
+          request.resource.data.pages <= 2000 &&
+          request.resource.data.finishedOn is string && request.resource.data.finishedOn.size() == 10 &&
+          request.resource.data.rating is int && request.resource.data.rating >= 0 &&
+          request.resource.data.rating <= 5 &&
+          request.resource.data.createdAt is int;
+        allow update: if false;
+      }
+
       // Browser/phone push tokens (FCM). Only the owner manages them; the
       // daily digest function reads them with the Admin SDK.
       match /fcmTokens/{tokenId} {
@@ -142,7 +160,7 @@ service cloud.firestore {
       allow read: if isAdmin() || (isSignedIn() && resource.data.userId == request.auth.uid);
       allow create: if isSignedIn() &&
         request.resource.data.userId == request.auth.uid &&
-        request.resource.data.gameType in ['speed', 'quiz', 'match', 'truefalse', 'sort', 'clock', 'numberline', 'fraction', 'reading'] &&
+        request.resource.data.gameType in ['speed', 'quiz', 'match', 'truefalse', 'sort', 'clock', 'numberline', 'fraction', 'reading', 'attention'] &&
         request.resource.data.score is int && request.resource.data.score >= 0 &&
         request.resource.data.score <= 100000 &&
         request.resource.data.correct is int && request.resource.data.total is int &&
@@ -348,6 +366,22 @@ service cloud.firestore {
         allow delete: if isClassTeacher(classId);
       }
       // --- end reading ---
+
+      // Okuma Kurdu summary per student: books and pages for the class map.
+      match /bookworm/{studentId} {
+        allow read: if isClassMember(classId) || isClassTeacher(classId) || isAdmin();
+        allow create, update: if request.auth.uid == studentId && isClassMember(classId) &&
+          request.resource.data.keys().hasOnly(['uid', 'displayName', 'books', 'pages', 'lastTitle', 'lastAt']) &&
+          request.resource.data.uid == studentId &&
+          request.resource.data.displayName is string && request.resource.data.displayName.size() <= 80 &&
+          request.resource.data.books is int && request.resource.data.books >= 0 &&
+          request.resource.data.books <= 5000 &&
+          request.resource.data.pages is int && request.resource.data.pages >= 0 &&
+          request.resource.data.pages <= 10000000 &&
+          request.resource.data.lastTitle is string && request.resource.data.lastTitle.size() <= 120 &&
+          request.resource.data.lastAt is int;
+        allow delete: if isClassTeacher(classId);
+      }
 
       // Live competition. The teacher's app is the referee: it keeps the
       // answers in `private`, opens questions and writes every score.

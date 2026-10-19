@@ -14,6 +14,7 @@ import { CLOCK_PRESETS } from '../../../games/clock-game';
 import { NUMBERLINE_PRESETS } from '../../../games/numberline-game';
 import { FRACTION_PRESETS } from '../../../games/fraction-game';
 import { readingTextsForGrade } from '../../../games/reading-texts';
+import { LISTEN_PRESETS, RADAR_PRESETS } from '../../../games/attention';
 import { ALL_BADGES, levelForXp, levelProgress } from '../../../games/scoring';
 
 const MIN_QUIZ_QUESTIONS = 3;
@@ -67,6 +68,15 @@ export class GamesHub {
       ...CLOCK_PRESETS.filter((p) => p.grades.includes(g)).map((p) => ({ ...p, game: 'Saat Ustası', link: ['/oyun/saat', p.id], tile: 'tile-clock' })),
       ...NUMBERLINE_PRESETS.filter((p) => p.grades.includes(g)).map((p) => ({ ...p, game: 'Sayı Doğrusu', link: ['/oyun/sayi-dogrusu', p.id], tile: 'tile-numberline' })),
       ...FRACTION_PRESETS.filter((p) => p.grades.includes(g)).map((p) => ({ ...p, game: 'Kesir Pizzası', link: ['/oyun/kesir', p.id], tile: 'tile-fraction' })),
+    ];
+  });
+
+  /** Dikkat Radarı + Dinle ve Uygula. */
+  attentionGames = computed<InteractiveTile[]>(() => {
+    const g = this.gameGrade();
+    return [
+      ...RADAR_PRESETS.filter((p) => p.grades.includes(g)).map((p) => ({ ...p, game: 'Dikkat Radarı', link: ['/oyun/dikkat-radari', p.id], tile: 'tile-attention' })),
+      ...LISTEN_PRESETS.filter((p) => p.grades.includes(g)).map((p) => ({ ...p, game: 'Dinle ve Uygula', link: ['/oyun/dinle-uygula', p.id], tile: 'tile-listen' })),
     ];
   });
 

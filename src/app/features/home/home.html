@@ -1,6 +1,6 @@
 <div class="home-wrapper animate-fade-in">
   <!-- Hero Section -->
-  <section class="hero-section container">
+  <section class="hero-section container wide">
     <div class="hero-content">
       <div class="hero-badge">
         <span class="badge-flag">🇹🇷</span>
@@ -104,7 +104,7 @@
 
   <!-- Statistics Bar -->
   <section class="stats-bar">
-    <div class="container stats-inner">
+    <div class="container wide stats-inner">
       <div class="stat-item">
         <span class="stat-num">77</span>
         <span class="stat-txt">MEB &amp; ÖSYM Konusu</span>
@@ -128,7 +128,7 @@
   </section>
 
   <!-- Education Levels Section -->
-  <section class="levels-section container">
+  <section class="levels-section container wide">
     <div class="section-title-wrap text-center">
       <div class="section-badge">🎯 Sınavına Uygun Paketi Seç</div>
       <h2 class="section-title">Hangi Sınava Hazırlanıyorsun?</h2>
@@ -205,8 +205,30 @@
     </div>
   </section>
 
+  <!-- Platform tools: what teachers and students use every day -->
+  <section class="tools-section container wide">
+    <div class="section-title-wrap text-center">
+      <div class="section-badge">🧰 Sınıfta ve Evde</div>
+      <h2 class="section-title">Test Çözmekten Fazlası</h2>
+      <p class="section-subtitle">Konu özetlerinden akıllı tahta araçlarına, okuma takibinden yıllık plana kadar öğretmenin ve öğrencinin her gün ihtiyaç duyduğu her şey tek yerde.</p>
+    </div>
+
+    <div class="tools-grid">
+      @for (t of tools; track t.link) {
+        <a class="tool-card card card-hover" [routerLink]="t.link">
+          <span class="tool-icon" [class]="t.tone">{{ t.emoji }}</span>
+          <div class="tool-text">
+            <h3>{{ t.title }}</h3>
+            <p>{{ t.description }}</p>
+          </div>
+          <span class="tool-cta">{{ t.cta }} →</span>
+        </a>
+      }
+    </div>
+  </section>
+
   <!-- Key Features Grid -->
-  <section class="features-section container">
+  <section class="features-section container wide">
     <div class="section-title-wrap text-center">
       <div class="section-badge">⚡ Fark Yaratan Özellikler</div>
       <h2 class="section-title">Neden OdivonSchool?</h2>
@@ -241,7 +263,7 @@
   </section>
 
   <!-- Final Call to Action -->
-  <section class="cta-banner container">
+  <section class="cta-banner container wide">
     <div class="cta-inner card card-glow">
       <div class="cta-content">
         <h2>Hedefindeki Dereceye Ulaşmak İçin İlk Adımı At</h2>

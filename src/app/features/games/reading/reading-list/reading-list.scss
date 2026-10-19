@@ -151,3 +151,41 @@
     padding: 14px;
   }
 }
+
+.rl-daily {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 22px;
+  margin: 8px 0 24px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #f59e0b, #ec4899);
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 14px 30px -14px rgba(236, 72, 153, 0.6);
+
+  .rl-daily-emoji {
+    font-size: 2.4rem;
+  }
+
+  div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  strong {
+    font-size: 1.25rem;
+    font-weight: 900;
+  }
+
+  small {
+    opacity: 0.92;
+  }
+
+  .rl-cta {
+    font-weight: 900;
+    white-space: nowrap;
+  }
+}

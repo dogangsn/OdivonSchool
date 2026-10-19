@@ -1,0 +1,60 @@
+<div class="game-page">
+  <div class="game-topbar">
+    <a routerLink="/oyunlar" class="game-back">← Geri</a>
+    <div class="game-tools">
+      <button class="icon-btn" type="button" [title]="sound() ? 'Sesi kapat' : 'Sesi aç'" (click)="toggleSound()">
+        {{ sound() ? '🔔' : '🔕' }}
+      </button>
+    </div>
+  </div>
+
+  @if (preset; as p) {
+    @switch (phase()) {
+      @case ('intro') {
+        <div class="game-stage theme-ocean">
+          <div class="game-intro">
+            <div class="intro-emoji">📡</div>
+            <h1>Dikkat Radarı · {{ p.title }}</h1>
+            <p>Ekranda şekiller tek tek belirecek. Yalnızca <strong>{{ p.targetName }}</strong> <span class="att-target">{{ p.target }}</span> görünce büyük düğmeye bas. Diğerlerinde bekle!</p>
+            <div class="intro-rules">
+              <span>🎯 {{ p.stimuli }} şekil</span>
+              <span>⏱️ Her biri {{ (p.intervalMs / 1000).toFixed(1) }} sn</span>
+              <span>⌨️ Boşluk tuşuyla da oynanır</span>
+            </div>
+            <button class="btn-play" type="button" (click)="start()">▶ Başla</button>
+          </div>
+        </div>
+      }
+      @case ('done') {
+        @if (outcome(); as o) {
+          <app-game-result [outcome]="o" [reward]="reward()" backLink="/oyunlar" (replay)="start()" />
+        }
+      }
+      @default {
+        <div class="game-stage theme-ocean">
+          <div class="game-hud">
+            <span class="hud-pill">Hedef: {{ p.target }}</span>
+            <span class="hud-pill">✅ {{ hits() }}</span>
+            <span class="hud-pill">⚠️ {{ falseAlarms() }}</span>
+          </div>
+          <div class="time-bar"><div class="time-fill" [style.width.%]="progressPct()"></div></div>
+          <button
+            type="button"
+            class="att-radar"
+            [class.hit]="flash() === 'hit'"
+            [class.false]="flash() === 'false'"
+            (pointerdown)="tap()"
+            aria-label="Hedefi görünce dokun"
+          >
+            @for (k of [index()]; track k) {
+              <span class="att-stimulus">{{ current() }}</span>
+            }
+          </button>
+          <p class="att-hint">Hedefi görünce dokun</p>
+        </div>
+      }
+    }
+  } @else {
+    <p class="empty-note">Oyun bulunamadı. <a routerLink="/oyunlar">Oyunlara dön</a></p>
+  }
+</div>

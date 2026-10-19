@@ -1,0 +1,71 @@
+<div class="tool-page container wide animate-fade-in">
+  <div class="tool-topbar">
+    <a routerLink="/araclar" class="tool-back">← Araçlar</a>
+    <h1>🎡 Şans Çarkı</h1>
+    <button type="button" class="btn sm outline" (click)="fullscreen()">⛶ Tam ekran</button>
+  </div>
+
+  <div class="tool-layout">
+    <div class="tool-stage wheel-stage" #stage>
+      @if (pool().length === 0) {
+        <div class="tool-empty">
+          @if (names().length === 0) {
+            <p>Çarkı çevirmek için sınıf listesini ekle.</p>
+          } @else {
+            <p>Herkes seçildi! 🎉</p>
+            <button type="button" class="btn primary" (click)="resetRound()">Yeni tur başlat</button>
+          }
+        </div>
+      } @else {
+        <div class="wheel-wrap">
+          <div class="wheel-pointer">▼</div>
+          <svg
+            class="wheel"
+            viewBox="0 0 400 400"
+            [style.transform]="'rotate(' + rotation() + 'deg)'"
+            [class.spinning]="spinning()"
+          >
+            @for (s of segments(); track s.name) {
+              <path [attr.d]="s.path" [attr.fill]="s.color" stroke="#fff" stroke-width="2" />
+              <text
+                [attr.x]="s.labelX"
+                [attr.y]="s.labelY"
+                [attr.transform]="'rotate(' + s.labelAngle + ' ' + s.labelX + ' ' + s.labelY + ')'"
+                [attr.font-size]="fontSize()"
+                fill="#fff"
+                font-weight="800"
+                text-anchor="middle"
+                dominant-baseline="middle"
+              >{{ s.name.length > 12 ? s.name.slice(0, 11) + '…' : s.name }}</text>
+            }
+            <circle cx="200" cy="200" r="26" fill="#fff" stroke="#e2e8f0" stroke-width="3" />
+          </svg>
+        </div>
+        <button type="button" class="btn primary lg spin-btn" [disabled]="spinning()" (click)="spin()">
+          {{ spinning() ? 'Dönüyor…' : 'Çevir!' }}
+        </button>
+      }
+
+      @if (winner(); as w) {
+        <div class="wheel-winner animate-fade-in">
+          <span>Seçilen</span>
+          <strong>{{ w }}</strong>
+        </div>
+      }
+    </div>
+
+    <aside class="tool-side">
+      <app-class-list-editor [(names)]="names" />
+      <div class="card tool-box">
+        <label class="tool-check">
+          <input type="checkbox" [checked]="removePicked()" (change)="removePicked.set($any($event.target).checked)" />
+          Seçileni çarktan çıkar
+        </label>
+        @if (picked().length) {
+          <p class="tool-muted">Bu turda seçilenler: {{ picked().join(', ') }}</p>
+          <button type="button" class="btn sm outline" (click)="resetRound()">Turu sıfırla</button>
+        }
+      </div>
+    </aside>
+  </div>
+</div>

@@ -1,4 +1,5 @@
-export type GameType = 'speed' | 'quiz' | 'match' | 'truefalse' | 'sort' | 'clock' | 'numberline' | 'fraction' | 'reading';
+export type GameType =
+  | 'speed' | 'quiz' | 'match' | 'truefalse' | 'sort' | 'clock' | 'numberline' | 'fraction' | 'reading' | 'attention';
 
 /** A question a game asks; answers are compared as strings. */
 export interface GameProblem {

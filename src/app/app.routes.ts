@@ -64,6 +64,14 @@ export const routes: Routes = [
     path: 'oyun/kesir/:presetId',
     loadComponent: () => import('./features/games/fraction-pizza/fraction-pizza').then(m => m.FractionPizza),
   },
+  {
+    path: 'oyun/dikkat-radari/:presetId',
+    loadComponent: () => import('./features/games/attention/attention-radar').then(m => m.AttentionRadar),
+  },
+  {
+    path: 'oyun/dinle-uygula/:presetId',
+    loadComponent: () => import('./features/games/attention/listen-do').then(m => m.ListenDo),
+  },
   // Defter Notları + Akıllı Kütüphane (public; reading progress is saved for signed-in users)
   {
     path: 'defter-notlari',
@@ -81,10 +89,30 @@ export const routes: Routes = [
     path: 'kutuphane/:bookId',
     loadComponent: () => import('./features/library/book-reader/book-reader').then(m => m.BookReader),
   },
+  // Sınıf Araçları (public, browser-only: akıllı tahta için)
+  { path: 'araclar', loadComponent: () => import('./features/tools/hub/tools-hub').then(m => m.ToolsHub) },
+  { path: 'araclar/sans-carki', loadComponent: () => import('./features/tools/lucky-wheel/lucky-wheel').then(m => m.LuckyWheel) },
+  { path: 'araclar/geri-sayim', loadComponent: () => import('./features/tools/class-timer/class-timer').then(m => m.ClassTimer) },
+  { path: 'araclar/kac-ders-kaldi', loadComponent: () => import('./features/tools/lessons-left/lessons-left').then(m => m.LessonsLeft) },
+  { path: 'araclar/grup', loadComponent: () => import('./features/tools/group-maker/group-maker').then(m => m.GroupMaker) },
+  { path: 'araclar/kelime-avi', loadComponent: () => import('./features/tools/word-search-maker/word-search-maker').then(m => m.WordSearchMaker) },
+  { path: 'araclar/goz-jimnastigi', loadComponent: () => import('./features/tools/eye-gym/eye-gym').then(m => m.EyeGym) },
+  {
+    path: 'okuma-kurdu',
+    loadComponent: () => import('./features/bookworm/bookworm-page').then(m => m.BookwormPage),
+  },
+  {
+    path: 'evraklar',
+    loadComponent: () => import('./features/documents/annual-plan-page').then(m => m.AnnualPlanPage),
+  },
   // Sesli Okuma Koçu (public; results are saved only for signed-in readers)
   {
     path: 'okuma',
     loadComponent: () => import('./features/games/reading/reading-list/reading-list').then(m => m.ReadingList),
+  },
+  {
+    path: 'okuma/gunun-okumasi',
+    loadComponent: () => import('./features/games/reading/daily/daily-reading').then(m => m.DailyReading),
   },
   {
     path: 'okuma/:textId',

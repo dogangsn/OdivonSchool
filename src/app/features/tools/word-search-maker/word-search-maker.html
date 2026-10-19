@@ -1,0 +1,46 @@
+<div class="tool-page container wide animate-fade-in">
+  <div class="tool-topbar no-print">
+    <a routerLink="/araclar" class="tool-back">← Araçlar</a>
+    <h1>🔤 Kelime Avı Tasarla</h1>
+    <button type="button" class="btn sm primary" (click)="print()">🖨️ Yazdır / PDF</button>
+  </div>
+
+  <div class="tool-layout">
+    <div class="tool-stage ws-sheet">
+      <h2 class="ws-title">{{ title() }}</h2>
+      <p class="ws-name print-only">Ad Soyad: ...................................... Sınıf: ..........</p>
+      @if (puzzle(); as p) {
+        <div class="ws-grid" [style.--n]="p.grid.length">
+          @for (row of p.grid; track $index; let r = $index) {
+            @for (ch of row; track $index; let c = $index) {
+              <span class="ws-cell" [class.hit]="showAnswers() && answers().has(r + '-' + c)">{{ ch }}</span>
+            }
+          }
+        </div>
+        <div class="ws-words">
+          @for (w of placedWords(); track w) { <span>{{ w }}</span> }
+        </div>
+        @if (p.skipped.length) {
+          <p class="ws-warn no-print">Sığmayan kelimeler: {{ p.skipped.join(', ') }}. Tabloyu büyütmeyi dene.</p>
+        }
+      }
+    </div>
+
+    <aside class="tool-side no-print">
+      <div class="card tool-box ws-form">
+        <label>Başlık <input type="text" [value]="title()" (input)="title.set($any($event.target).value)" /></label>
+        <label>Kelimeler (her satıra bir tane, en çok 20)
+          <textarea rows="8" [value]="text()" (input)="text.set($any($event.target).value)"></textarea>
+        </label>
+        <label>Tablo boyutu: {{ size() }} × {{ size() }}
+          <input type="range" min="6" max="20" [value]="size()" (change)="setSize($any($event.target).value)" />
+        </label>
+        <label class="tool-check"><input type="checkbox" [checked]="diagonal()" (change)="diagonal.set($any($event.target).checked); generate()" /> Çapraz kelimeler</label>
+        <label class="tool-check"><input type="checkbox" [checked]="backwards()" (change)="backwards.set($any($event.target).checked); generate()" /> Ters yazılmış kelimeler</label>
+        <label class="tool-check"><input type="checkbox" [checked]="showAnswers()" (change)="showAnswers.set($any($event.target).checked)" /> Cevapları göster</label>
+        <button type="button" class="btn primary" (click)="generate()">🎲 Yeniden oluştur</button>
+        <p class="tool-muted">PDF için yazdır penceresinde "PDF olarak kaydet"i seç. Cevap anahtarı için önce "Cevapları göster"i işaretle.</p>
+      </div>
+    </aside>
+  </div>
+</div>

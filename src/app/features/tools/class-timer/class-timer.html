@@ -1,0 +1,50 @@
+<div class="tool-page container wide animate-fade-in">
+  <div class="tool-topbar">
+    <a routerLink="/araclar" class="tool-back">← Araçlar</a>
+    <h1>⏱️ Geri Sayım ve Kronometre</h1>
+    <button type="button" class="btn sm outline" (click)="fullscreen()">⛶ Tam ekran</button>
+  </div>
+
+  <div class="tool-tabs">
+    <button type="button" [class.active]="mode() === 'countdown'" (click)="setMode('countdown')">Geri sayım</button>
+    <button type="button" [class.active]="mode() === 'stopwatch'" (click)="setMode('stopwatch')">Kronometre</button>
+  </div>
+
+  <div class="tool-stage timer-stage" #stage [class.warn]="warn()" [class.done]="finished()">
+    @if (mode() === 'countdown') {
+      <div class="timer-bar"><div class="timer-fill" [style.width.%]="percent()"></div></div>
+    }
+    <div class="timer-digits">
+      {{ display() }}@if (mode() === 'stopwatch') {<small>.{{ tenths() }}</small>}
+    </div>
+    @if (finished()) {
+      <p class="timer-msg">⏰ Süre doldu!</p>
+    }
+    <div class="timer-controls">
+      <button type="button" class="btn primary lg" (click)="toggle()">
+        {{ running() ? '⏸ Durdur' : finished() ? '↺ Yeniden' : '▶ Başlat' }}
+      </button>
+      <button type="button" class="btn outline lg" (click)="reset()">Sıfırla</button>
+      @if (mode() === 'countdown') {
+        <button type="button" class="btn outline lg" (click)="adjust(60)">+1 dk</button>
+      }
+    </div>
+  </div>
+
+  @if (mode() === 'countdown') {
+    <div class="timer-presets card tool-box">
+      <span class="tool-muted">Süre seç:</span>
+      @for (p of presets; track p) {
+        <button type="button" class="chip" [class.active]="total() === p * 60" (click)="setMinutes(p)">{{ p }} dk</button>
+      }
+      <input
+        class="timer-custom"
+        type="number"
+        min="0.5"
+        step="0.5"
+        placeholder="Dakika"
+        (change)="setCustom($any($event.target).value)"
+      />
+    </div>
+  }
+</div>

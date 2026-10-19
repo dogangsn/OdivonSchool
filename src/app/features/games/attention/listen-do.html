@@ -1,0 +1,90 @@
+<div class="game-page">
+  <div class="game-topbar">
+    <a routerLink="/oyunlar" class="game-back">← Geri</a>
+    <div class="game-tools">
+      <button class="icon-btn" type="button" [title]="sound() ? 'Sesi kapat' : 'Sesi aç'" (click)="toggleSound()">
+        {{ sound() ? '🔔' : '🔕' }}
+      </button>
+    </div>
+  </div>
+
+  @if (preset; as p) {
+    @switch (phase()) {
+      @case ('intro') {
+        <div class="game-stage theme-sun">
+          <div class="game-intro">
+            <div class="intro-emoji">{{ p.emoji }}</div>
+            <h1>{{ p.title }}</h1>
+            <p>Komutu dikkatle dinle, sonra şekillere <strong>söylenen sırayla</strong> dokun. Komutlar gittikçe uzayacak!</p>
+            <div class="intro-rules">
+              <span>🎯 {{ p.rounds }} tur</span>
+              <span>🧩 {{ p.chips }} şekil</span>
+              <span>{{ canSpeak ? '🔊 Sesli komut' : '👀 Komut yazıyla gösterilir' }}</span>
+            </div>
+            <button class="btn-play" type="button" (click)="start()">▶ Başla</button>
+          </div>
+        </div>
+      }
+      @case ('done') {
+        @if (outcome(); as o) {
+          <app-game-result [outcome]="o" [reward]="reward()" backLink="/oyunlar" (replay)="start()" />
+        }
+      }
+      @default {
+        <div class="game-stage theme-sun">
+          <div class="game-hud">
+            <span class="hud-pill">Tur {{ round() + 1 }}/{{ p.rounds }}</span>
+            <span class="hud-pill">✅ {{ correct() }}</span>
+            <span class="hud-pill">{{ sequence().length }} adım</span>
+          </div>
+
+          @if (phase() === 'listen') {
+            <div class="ld-listen">
+              <div class="ld-ear">👂</div>
+              @if (showText()) {
+                <p class="ld-command">{{ command() }}</p>
+              } @else {
+                <p class="ld-sub">{{ canSpeak ? 'Dinle…' : 'Komut gizlendi, hatırla!' }}</p>
+              }
+              <div class="ld-actions">
+                <button type="button" class="btn outline" (click)="replayCommand()">🔁 Tekrar {{ canSpeak ? 'dinle' : 'göster' }}</button>
+                <button type="button" class="btn-play" (click)="ready()">Hazırım →</button>
+              </div>
+            </div>
+          }
+
+          @if (phase() === 'feedback') {
+            <div class="ld-feedback" [class.ok]="lastOk()">
+              <strong>{{ lastOk() ? 'Harika! 🎉' : 'Olmadı 😅' }}</strong>
+              @if (!lastOk()) { <p>{{ command() }}</p> }
+              <button type="button" class="btn-play" (click)="next()">Devam →</button>
+            </div>
+          }
+
+          <div class="ld-board" [class.locked]="phase() !== 'act'">
+            @for (c of board(); track c.id) {
+              <button
+                type="button"
+                class="ld-chip"
+                [class.done]="isTapped(c.id)"
+                [attr.aria-label]="c.colorName + ' ' + c.shape"
+                (click)="tapChip(c.id)"
+              >
+                <svg viewBox="0 0 100 100" [attr.fill]="c.color">
+                  @switch (c.shape) {
+                    @case ('daire') { <circle cx="50" cy="50" r="38" /> }
+                    @case ('kare') { <rect x="14" y="14" width="72" height="72" rx="8" /> }
+                    @case ('üçgen') { <polygon points="50,10 92,88 8,88" /> }
+                    @case ('yıldız') { <polygon points="50,6 62,38 96,38 68,58 79,92 50,72 21,92 32,58 4,38 38,38" /> }
+                  }
+                </svg>
+              </button>
+            }
+          </div>
+        </div>
+      }
+    }
+  } @else {
+    <p class="empty-note">Oyun bulunamadı. <a routerLink="/oyunlar">Oyunlara dön</a></p>
+  }
+</div>
