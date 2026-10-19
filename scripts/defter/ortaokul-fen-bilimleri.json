@@ -1,0 +1,2198 @@
+{
+ "file": "ortaokul-fen-bilimleri",
+ "notes": [
+  {
+   "grade": 5,
+   "order": 1,
+   "intro": "Bu ünitede gökyüzündeki en yakın komşularımız olan Güneş’i ve Ay’ı tanıyoruz. Güneş, Dünya ve Ay’ın hareketlerini ve Ay’ın neden farklı şekillerde göründüğünü modellerle öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Güneş’in Yapısı ve Hareketi",
+     "text": "Güneş, Dünya’ya en yakın yıldızdır ve kendi ışığını ve ısısını üretir. Katı bir yüzeyi yoktur; büyük ölçüde hidrojen ve helyum gazlarından oluşur. Güneş, Dünya’dan çok daha büyüktür ve Dünya’daki yaşam için gerekli ışık ile ısının kaynağıdır. Güneş de kendi ekseni etrafında döner; bu harekete dönme hareketi denir. Güneş’e asla çıplak gözle ya da dürbünle doğrudan bakmamalıyız, çünkü gözlerimize kalıcı zarar verebilir. Güneş gözlemleri ancak özel filtreli araçlarla yapılır.",
+     "points": [
+      "Güneş bir yıldızdır.",
+      "Gaz hâlindedir, katı yüzeyi yoktur.",
+      "Güneş’e asla doğrudan bakma."
+     ]
+    },
+    {
+     "title": "Ay’ın Özellikleri ve Hareketleri",
+     "text": "Ay, Dünya’nın tek doğal uydusudur. Kendi ışığı yoktur; Güneş’ten aldığı ışığı yansıttığı için parlak görünür. Ay’ın yüzeyinde kraterler, dağlar ve düzlükler bulunur. Ay’da canlıların yaşamı için gerekli olan sıvı su ve solunabilir hava yoktur. Ay hem kendi ekseni etrafında döner hem de Dünya’nın etrafında dolanır. Ay, kendi etrafındaki dönüşünü ve Dünya etrafındaki dolanmasını yaklaşık aynı sürede tamamlar. Bu nedenle Dünya’dan Ay’ın hep aynı yüzünü görürüz.",
+     "points": [
+      "Ay ışığı yansıtır, kendisi ışık üretmez.",
+      "Dönme: kendi etrafında; dolanma: başka bir gök cisminin etrafında.",
+      "Ay’ın hep aynı yüzünü görürüz."
+     ]
+    },
+    {
+     "title": "Ay’ın Evreleri",
+     "text": "Ay’ın her zaman yarısı Güneş tarafından aydınlatılır. Ancak Ay, Dünya etrafında dolanırken aydınlık yüzünün Dünya’dan görünen kısmı değişir. Bu nedenle Ay’ı farklı şekillerde görürüz; bu görünümlere Ay’ın evreleri denir. Ana evreler yeni ay, ilk dördün, dolunay ve son dördündür. Yeni ayda Ay’ın aydınlık yüzü Dünya’dan görünmez. İlk dördünde Ay’ın sağ yarısı, son dördünde sol yarısı aydınlık görünür; bu gözlem Kuzey Yarım Küre’den yapıldığında geçerlidir. Dolunayda ise aydınlık yüzün tamamı görünür. Evreler yaklaşık bir ay içinde tekrarlanır.",
+     "points": [
+      "Yeni ay → ilk dördün → dolunay → son dördün",
+      "Evreler Ay’ın dolanmasından kaynaklanır."
+     ]
+    },
+    {
+     "title": "Güneş, Dünya ve Ay Modeli",
+     "text": "Güneş, Dünya ve Ay’ın hareketlerini bir modelle gösterebiliriz. Dünya hem kendi ekseni etrafında döner hem de Güneş’in etrafında dolanır. Dünya’nın kendi etrafında dönmesi gece ile gündüzü oluşturur ve yaklaşık 24 saat sürer. Dünya’nın Güneş etrafında bir tur dolanması yaklaşık 365 gün sürer. Ay ise Dünya’nın etrafında dolanırken Dünya ile birlikte Güneş’in etrafında da hareket eder. Büyüklükler karşılaştırıldığında Güneş en büyük, Ay ise en küçüktür. Modelde Güneş’i büyük bir top, Dünya’yı küçük bir top, Ay’ı ise daha da küçük bir boncukla gösterebiliriz.",
+     "points": [
+      "Hacimce büyükten küçüğe: Güneş, Dünya, Ay.",
+      "Dünya’nın dönmesi: gece ve gündüz."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Güneş",
+     "meaning": "Dünya’ya en yakın yıldız; ışık ve ısı kaynağımız."
+    },
+    {
+     "term": "Ay",
+     "meaning": "Dünya’nın tek doğal uydusu."
+    },
+    {
+     "term": "Dönme hareketi",
+     "meaning": "Bir gök cisminin kendi ekseni etrafında dönmesi."
+    },
+    {
+     "term": "Dolanma hareketi",
+     "meaning": "Bir gök cisminin başka bir gök cisminin etrafında dolaşması."
+    },
+    {
+     "term": "Ay’ın evreleri",
+     "meaning": "Ay’ın Dünya’dan farklı şekillerde görünmesi."
+    },
+    {
+     "term": "Krater",
+     "meaning": "Gök taşlarının çarpmasıyla oluşan çukur."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Güneş kendi ışığını üretir, Ay ışığı yansıtır.",
+    "Ay’ın evreleri, Ay’ın Dünya etrafında dolanmasıyla oluşur.",
+    "Ay’ın hep aynı yüzünü görürüz.",
+    "Güneş’e asla doğrudan bakma."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 2,
+   "intro": "Bu ünitede kuvvetin ne olduğunu, nasıl ölçüldüğünü, kütle ile ağırlık arasındaki farkı ve sürtünme kuvvetini öğreniyoruz. Yürümek, fren yapmak ya da bir topu atmak kuvvetin günlük hayattaki örnekleridir.",
+   "sections": [
+    {
+     "title": "Kuvvet ve Dinamometre",
+     "text": "Cisimlere uygulanan itme ya da çekme etkisine kuvvet denir. Kuvvet duran bir cismi hareket ettirebilir, hareket eden bir cismi durdurabilir, cismin hızını ya da yönünü değiştirebilir. Kuvvet bazen cisimlerin şeklini de değiştirir; örneğin oyun hamuruna bastırınca şekli değişir. Kuvvetin birimi newtondur ve N ile gösterilir. Kuvvet dinamometre ile ölçülür. Dinamometrenin içinde esnek bir yay bulunur. Yaya uygulanan kuvvet arttıkça yay daha çok uzar ve gösterge daha büyük bir değeri gösterir. Kuvvet uygulaması bitince esnek yay eski hâline döner.",
+     "points": [
+      "Kuvvet: itme ya da çekme.",
+      "Birimi: newton (N).",
+      "Ölçme aracı: dinamometre."
+     ]
+    },
+    {
+     "title": "Kütle ve Ağırlık",
+     "text": "Kütle, bir cisimdeki madde miktarıdır. Kütle eşit kollu terazi ile ölçülür, birimi kilogram (kg) ya da gramdır (g). Kütle bulunulan yere göre değişmez. Ağırlık ise Dünya’nın cisme uyguladığı çekim kuvvetidir. Ağırlık bir kuvvet olduğu için dinamometre ile ölçülür ve birimi newtondur. Ağırlık bulunulan yere göre değişebilir. Örneğin Ay’ın çekim kuvveti Dünya’nınkinden küçük olduğu için bir astronotun Ay’daki ağırlığı Dünya’dakinden azdır, ancak kütlesi aynı kalır.",
+     "points": [
+      "Kütle: madde miktarı, terazi ile ölçülür, birimi kg.",
+      "Ağırlık: çekim kuvveti, dinamometre ile ölçülür, birimi N.",
+      "Kütle değişmez, ağırlık yere göre değişebilir."
+     ]
+    },
+    {
+     "title": "Sürtünme Kuvveti",
+     "text": "Birbirine temas eden yüzeyler arasında harekete karşı koyan kuvvete sürtünme kuvveti denir. Sürtünme kuvveti pürüzlü yüzeylerde daha büyük, az pürüzlü yüzeylerde daha küçüktür. Örneğin bir oyuncak araba halıda, parke zemine göre daha kısa mesafe gider. Sıvıların ve havanın harekete karşı gösterdiği dirence su direnci ve hava direnci denir. Balıkların ve kuşların vücut yapısı, hızlı trenlerin ve uçakların sivri burunlu biçimi bu dirençleri azaltır. Paraşüt ise hava direncini artırarak yavaş inmeyi sağlar.",
+     "points": [
+      "Sürtünme sayesinde yürüyebilir ve fren yapabiliriz.",
+      "Sürtünme, makinelerde aşınma ve ısınmaya yol açar.",
+      "Yağlama sürtünmeyi azaltır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Kuvvet",
+     "meaning": "Cisimlere uygulanan itme ya da çekme etkisi."
+    },
+    {
+     "term": "Newton",
+     "meaning": "Kuvvet birimi; N ile gösterilir."
+    },
+    {
+     "term": "Dinamometre",
+     "meaning": "İçinde esnek yay bulunan, kuvvet ölçme aracı."
+    },
+    {
+     "term": "Kütle",
+     "meaning": "Bir cisimdeki madde miktarı; yere göre değişmez."
+    },
+    {
+     "term": "Ağırlık",
+     "meaning": "Bir gök cisminin, cisme uyguladığı çekim kuvveti."
+    },
+    {
+     "term": "Sürtünme kuvveti",
+     "meaning": "Temas eden yüzeyler arasında harekete karşı koyan kuvvet."
+    },
+    {
+     "term": "Esneklik",
+     "meaning": "Kuvvet etkisiyle şekli değişen bir maddenin, kuvvet kalkınca eski şekline dönmesi."
+    },
+    {
+     "term": "Hava direnci",
+     "meaning": "Havanın, içinde hareket eden cisimlere karşı koyması."
+    }
+   ],
+   "example": {
+    "question": "Bir dinamometreye 1 N’luk bir yük asıldığında yay 2 cm uzuyor. Aynı dinamometreye 3 N’luk bir yük asılırsa yay kaç cm uzar? (Yay esneklik sınırı içinde kalıyor.)",
+    "solution": "1. adım: Her 1 N için yay 2 cm uzuyor.\n2. adım: 3 N için 3 × 2 = 6 cm uzar.\nCevap: 6 cm."
+   },
+   "remember": [
+    "Kuvvet dinamometre ile ölçülür, birimi newtondur.",
+    "Kütle değişmez, ağırlık yere göre değişir.",
+    "Pürüzlü yüzeylerde sürtünme daha fazladır.",
+    "Sürtünmenin hem yararları hem zararları vardır."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 3,
+   "intro": "Bu ünitede canlıların yapı taşı olan hücreyi, hücrelerden organizmaya uzanan yapılanmayı ve vücudumuzu taşıyan destek ve hareket sistemini öğreniyoruz. Sağlıklı bir vücut için bu sistemleri nasıl koruyacağımızı da inceliyoruz.",
+   "sections": [
+    {
+     "title": "Hücre ve Mikroskop",
+     "text": "Canlıların yapısını oluşturan en küçük canlı birime hücre denir. Hücreler çok küçük olduğu için çoğunu çıplak gözle göremeyiz; onları incelemek için mikroskop kullanırız. Hayvan ve bitki hücrelerinin temel kısımları hücre zarı, sitoplazma ve çekirdektir. Hücre zarı, hücreye madde giriş çıkışını kontrol eder. Sitoplazma, hücre içini dolduran sıvıdır ve organeller burada bulunur. Çekirdek, hücrenin yönetim merkezidir ve kalıtsal bilgiyi taşır. Mitokondri gibi organeller hücrede belirli görevleri yerine getirir; mitokondri enerji üretiminde görev alır.",
+     "points": [
+      "Hücre zarı: madde giriş çıkışı.",
+      "Sitoplazma: organellerin bulunduğu sıvı.",
+      "Çekirdek: yönetim merkezi."
+     ]
+    },
+    {
+     "title": "Bitki ve Hayvan Hücresi",
+     "text": "Bitki ve hayvan hücreleri birçok ortak yapıya sahiptir, ancak bazı farkları vardır. Bitki hücresinde hücre zarının dışında hücreye şekil veren ve onu koruyan bir hücre duvarı bulunur; hayvan hücresinde hücre duvarı yoktur. Bitki hücresinde fotosentez yapan kloroplast bulunur; bu organel bitkinin yeşil renginden de sorumludur. Hayvan hücresinde kloroplast yoktur. Bitki hücreleri genellikle köşeli, hayvan hücreleri ise genellikle yuvarlak görünümlüdür. Hayvan hücresinde hücre bölünmesinde görev alan sentrozom bulunur, bitki hücrelerinin çoğunda bulunmaz.",
+     "points": [
+      "Yalnız bitki hücresinde: hücre duvarı, kloroplast.",
+      "Yalnız hayvan hücresinde: sentrozom.",
+      "Ortak: hücre zarı, sitoplazma, çekirdek, mitokondri."
+     ]
+    },
+    {
+     "title": "Hücreden Organizmaya",
+     "text": "Canlıların vücudu düzenli bir yapılanma gösterir. Benzer yapıdaki ve aynı görevi yapan hücreler bir araya gelerek dokuyu oluşturur. Farklı dokular bir araya gelerek belirli bir görevi yapan organı oluşturur; kalp, mide ve akciğer birer organdır. Birlikte çalışan organlar sistemi oluşturur, örneğin sindirim sistemi. Sistemlerin bir araya gelmesiyle de canlının tamamı, yani organizma oluşur. Bu sıralama hücre, doku, organ, sistem, organizma şeklindedir. Bazı canlılar ise tek bir hücreden oluşur; bu canlılarda tek hücre tüm yaşamsal görevleri yerine getirir.",
+     "points": [
+      "Hücre → doku → organ → sistem → organizma"
+     ]
+    },
+    {
+     "title": "Destek ve Hareket Sistemi",
+     "text": "Destek ve hareket sistemi iskelet ve kaslardan oluşur. İskelet vücuda şekil verir, iç organları korur ve vücudu destekler. İskeletimiz kemik ve kıkırdaklardan oluşur. Kemikler şekillerine göre uzun, kısa ve yassı kemik olarak gruplandırılır; uyluk kemiği uzun, el bileği kemikleri kısa, kafatası kemikleri yassı kemiğe örnektir. Kemiklerin birleştiği yerlere eklem denir. Eklemler hareketli (diz, dirsek), yarı hareketli (omurlar arası) ve hareketsiz (kafatası) olabilir. Kaslar ise kasılıp gevşeyerek hareketi sağlar. Çizgili kaslar isteğimizle, düz kaslar isteğimiz dışında çalışır. Kalp kası çizgili görünür ama isteğimiz dışında çalışır.",
+     "points": [
+      "Dengeli beslen, süt ve süt ürünleri tüket.",
+      "Düzenli egzersiz yap.",
+      "Doğru oturma ve çanta taşıma alışkanlığı edin."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Hücre",
+     "meaning": "Canlıların yapısını oluşturan en küçük canlı birim."
+    },
+    {
+     "term": "Mikroskop",
+     "meaning": "Çok küçük yapıları büyüterek görmemizi sağlayan araç."
+    },
+    {
+     "term": "Organel",
+     "meaning": "Hücrede belirli görevleri yapan küçük yapılar."
+    },
+    {
+     "term": "Doku",
+     "meaning": "Aynı yapıda ve aynı görevi yapan hücrelerin oluşturduğu topluluk."
+    },
+    {
+     "term": "Organ",
+     "meaning": "Farklı dokuların birleşerek belirli bir görevi yaptığı yapı."
+    },
+    {
+     "term": "Sistem",
+     "meaning": "Birlikte çalışan organların oluşturduğu yapı."
+    },
+    {
+     "term": "Eklem",
+     "meaning": "Kemiklerin birbirine bağlandığı yer."
+    },
+    {
+     "term": "Kıkırdak",
+     "meaning": "Kemikten daha esnek, burun ve kulak kepçesinde bulunan destek dokusu."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Hücre canlının en küçük yapı birimidir.",
+    "Hücre duvarı ve kloroplast bitki hücresine özgüdür.",
+    "Sıralama: hücre, doku, organ, sistem, organizma.",
+    "Kemik sağlığı için dengeli beslen ve hareket et."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 4,
+   "intro": "Bu ünitede ışığın nasıl yayıldığını, maddelerin ışığı geçirme durumlarını ve gölgenin nasıl oluştuğunu öğreniyoruz. Gölge oyunları ve güneş saatleri bu konunun eğlenceli örnekleridir.",
+   "sections": [
+    {
+     "title": "Işığın Yayılması",
+     "text": "Işık, bir kaynaktan çıktıktan sonra her yöne doğru ve düz bir çizgi boyunca yayılır. Buna ışığın doğrusal yayılması denir. Işığın doğrusal yayıldığını el fenerinin ışığından, bulutların arasından sızan güneş ışınlarından ya da tozlu bir odaya giren ışık huzmesinden görebiliriz. Kendi ışığını üreten Güneş, ampul ve mum alevi gibi cisimlere ışık kaynağı denir. Ay ve ayna gibi cisimler ise ışık üretmez, yalnızca üzerlerine gelen ışığı yansıtır. Delikleri aynı hizada olan kartonlardan ışığın geçmesi, ışığın düz yol izlediğini gösteren basit bir deneydir.",
+     "points": [
+      "Işık her yöne ve doğrusal yayılır.",
+      "Işık kaynakları kendi ışığını üretir."
+     ]
+    },
+    {
+     "title": "Maddeler ve Işık",
+     "text": "Maddeler ışığı geçirme durumlarına göre üç grupta incelenir. Işığın tamamına yakınını geçiren maddelere saydam madde denir; cam, temiz su ve hava bunlara örnektir. Saydam maddelerin arkasındaki cisimler net görünür. Işığın bir kısmını geçiren maddelere yarı saydam madde denir; buzlu cam, yağlı kâğıt ve tül perde gibi. Bu maddelerin arkasındaki cisimler bulanık görünür. Işığı hiç geçirmeyen maddelere ise saydam olmayan ya da opak madde denir; tahta, metal ve taş gibi. Opak maddelerin arkası görünmez.",
+     "points": [
+      "Saydam: cam, hava, temiz su.",
+      "Yarı saydam: buzlu cam, yağlı kâğıt.",
+      "Opak: tahta, metal, taş."
+     ]
+    },
+    {
+     "title": "Tam Gölge",
+     "text": "Işık doğrusal yayıldığı için opak bir cismin arkasına geçemez. Bu nedenle opak cismin arkasında ışık almayan karanlık bir bölge oluşur; bu bölgeye tam gölge denir. Tam gölgenin oluşması için bir ışık kaynağı, opak bir cisim ve gölgenin düşeceği bir perde gerekir. Noktasal bir ışık kaynağı kullanıldığında keskin kenarlı tam gölge oluşur. Cisim ışık kaynağına yaklaştırıldığında gölgenin boyu büyür, uzaklaştırıldığında küçülür. Gölgenin şekli cismin ışığa dönük yüzünün şekline benzer.",
+     "points": [
+      "Gölge için: ışık kaynağı, opak cisim, perde.",
+      "Cisim kaynağa yaklaştıkça gölge büyür."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Işığın doğrusal yayılması",
+     "meaning": "Işığın kaynaktan çıkıp düz çizgiler boyunca her yöne ilerlemesi."
+    },
+    {
+     "term": "Işık kaynağı",
+     "meaning": "Kendi ışığını üreten cisim."
+    },
+    {
+     "term": "Saydam madde",
+     "meaning": "Işığın tamamına yakınını geçiren madde."
+    },
+    {
+     "term": "Yarı saydam madde",
+     "meaning": "Işığın bir kısmını geçiren madde."
+    },
+    {
+     "term": "Saydam olmayan (opak) madde",
+     "meaning": "Işığı geçirmeyen madde."
+    },
+    {
+     "term": "Tam gölge",
+     "meaning": "Opak cismin arkasında hiç ışık almayan karanlık bölge."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Işık doğrusal yayılır.",
+    "Opak cisimler ışığı geçirmez ve gölge oluşturur.",
+    "Cisim ışık kaynağına yaklaştıkça gölgesi büyür.",
+    "Ay bir ışık kaynağı değildir."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 5,
+   "intro": "Bu ünitede maddenin taneciklerden oluştuğunu, ısı ile sıcaklık arasındaki farkı, ısının maddeleri nasıl hâl değiştirdiğini ve ısı yalıtımını öğreniyoruz. Bu bilgiler enerji tasarrufu ve günlük yaşam için çok önemlidir.",
+   "sections": [
+    {
+     "title": "Maddenin Tanecikli Yapısı",
+     "text": "Tüm maddeler gözle göremediğimiz kadar küçük taneciklerden oluşur. Tanecikler arasında boşluklar vardır ve tanecikler sürekli hareket eder. Katılarda tanecikler birbirine çok yakındır, aralarındaki boşluk azdır ve yalnızca bulundukları yerde titreşirler. Bu nedenle katıların belirli bir şekli ve hacmi vardır. Sıvılarda tanecikler arasındaki boşluk katılara göre biraz fazladır; tanecikler titreşim, dönme ve öteleme hareketi yapar. Sıvıların hacmi belli, şekli bulundukları kabın şeklidir. Gazlarda tanecikler arası boşluk çok fazladır ve tanecikler çok hızlı hareket eder; gazlar bulundukları kabı tamamen doldurur.",
+     "points": [
+      "Katı: titreşim.",
+      "Sıvı: titreşim, dönme, öteleme.",
+      "Gaz: titreşim, dönme, öteleme; tanecikler çok hızlı."
+     ]
+    },
+    {
+     "title": "Isı ve Sıcaklık",
+     "text": "Isı, sıcaklıkları farklı maddeler arasında sıcak olandan soğuk olana aktarılan enerjidir. Birimi joule ya da kaloridir ve doğrudan ölçülemez. Sıcaklık ise bir maddenin taneciklerinin ortalama hareket enerjisinin göstergesidir; termometre ile ölçülür ve birimi santigrat derecedir (°C). Sıcak ve soğuk su karıştırıldığında sıcak su ısı verir, soğuk su ısı alır. Bu ısı alışverişi iki suyun sıcaklıkları eşitlenene kadar sürer. Karışımın son sıcaklığı iki suyun ilk sıcaklıkları arasında bir değerdir.",
+     "points": [
+      "Isı bir enerjidir, sıcaklık ise bir ölçüdür.",
+      "Isı sıcaktan soğuğa akar.",
+      "Sıcaklık termometreyle ölçülür."
+     ]
+    },
+    {
+     "title": "Hâl Değişimleri",
+     "text": "Maddeler ısı alarak ya da ısı vererek hâl değiştirebilir. Katının ısı alarak sıvıya dönüşmesine erime, sıvının ısı vererek katıya dönüşmesine donma denir. Sıvının ısı alarak gaza dönüşmesine buharlaşma denir; buharlaşma her sıcaklıkta sıvının yüzeyinden olur. Kaynama ise sıvının belirli bir sıcaklıkta her yerinden gaza dönüşmesidir. Gazın ısı vererek sıvıya dönüşmesine yoğuşma denir. Bazı katılar sıvı hâle geçmeden doğrudan gaza dönüşür; buna süblimleşme denir, naftalin buna örnektir. Gazın doğrudan katıya dönüşmesine kırağılaşma denir.",
+     "points": [
+      "Isı alarak: erime, buharlaşma, kaynama, süblimleşme.",
+      "Isı vererek: donma, yoğuşma, kırağılaşma."
+     ]
+    },
+    {
+     "title": "Isı İletimi ve Yalıtım",
+     "text": "Isıyı iyi ileten maddelere ısı iletkeni denir; metaller iyi ısı iletkenidir. Bu yüzden tencere ve tavalar metalden yapılır. Isıyı iyi iletmeyen maddelere ise ısı yalıtkanı denir; tahta, plastik, köpük, yün ve hava yalıtkandır. Tencere saplarının plastik ya da tahtadan yapılmasının nedeni budur. Isı alışverişini azaltmak için yapılan uygulamalara ısı yalıtımı denir. Binaların dış duvarlarına yalıtım malzemesi kaplamak, çift camlı pencere kullanmak ve termos kullanmak ısı yalıtımına örnektir. Isı yalıtımı yakıt tasarrufu sağlar, böylece hem aile bütçesine hem de çevreye katkı sunar.",
+     "points": [
+      "İletken: metaller.",
+      "Yalıtkan: tahta, plastik, yün, köpük, hava.",
+      "Yalıtım enerji tasarrufu sağlar."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Isı",
+     "meaning": "Sıcaklıkları farklı maddeler arasında aktarılan enerji."
+    },
+    {
+     "term": "Sıcaklık",
+     "meaning": "Taneciklerin ortalama hareket enerjisinin göstergesi; termometreyle ölçülür."
+    },
+    {
+     "term": "Erime",
+     "meaning": "Katının ısı alarak sıvıya dönüşmesi."
+    },
+    {
+     "term": "Yoğuşma",
+     "meaning": "Gazın ısı vererek sıvıya dönüşmesi."
+    },
+    {
+     "term": "Süblimleşme",
+     "meaning": "Katının sıvı olmadan doğrudan gaza dönüşmesi."
+    },
+    {
+     "term": "Kırağılaşma",
+     "meaning": "Gazın sıvı olmadan doğrudan katıya dönüşmesi."
+    },
+    {
+     "term": "Isı yalıtkanlığı",
+     "meaning": "Bir maddenin ısıyı iyi iletmeme özelliği."
+    },
+    {
+     "term": "Isı yalıtımı",
+     "meaning": "Ortamlar arası ısı alışverişini azaltmak için yapılan uygulama."
+    }
+   ],
+   "example": {
+    "question": "40 °C’lik su ile 20 °C’lik su karıştırılıyor. Hangi su ısı verir, hangisi ısı alır? Karışımın sıcaklığı hangi aralıkta olur?",
+    "solution": "1. adım: Isı sıcak maddeden soğuk maddeye akar; 40 °C’lik su ısı verir.\n2. adım: 20 °C’lik su ısı alır.\n3. adım: Isı alışverişi sıcaklıklar eşitlenince durur; son sıcaklık 20 °C ile 40 °C arasında olur.\nCevap: Sıcak su ısı verir, soğuk su ısı alır; karışım 20 °C ile 40 °C arasında bir sıcaklıktadır."
+   },
+   "remember": [
+    "Isı ile sıcaklık aynı şey değildir.",
+    "Isı her zaman sıcaktan soğuğa akar.",
+    "Buharlaşma her sıcaklıkta, kaynama belirli bir sıcaklıkta olur.",
+    "Metaller iyi iletken, tahta ve plastik yalıtkandır."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 6,
+   "intro": "Bu ünitede basit elektrik devresinin elemanlarını, bunların sembollerini ve devre şeması çizmeyi öğreniyoruz. Ampul parlaklığının pil ve ampul sayısına göre nasıl değiştiğini deneylerle araştırıyoruz.",
+   "sections": [
+    {
+     "title": "Devre Elemanları ve Sembolleri",
+     "text": "Bir elektrik devresinde elektrik enerjisini sağlayan pil, ışık veren ampul, akımın yolunu oluşturan bağlantı kabloları ve devreyi açıp kapatan anahtar bulunur. Devre elemanlarını resimleriyle çizmek zaman alır. Bu yüzden her eleman için basit ve herkesin anlayacağı ortak semboller kullanılır. Pil, biri uzun biri kısa iki paralel çizgiyle gösterilir; uzun çizgi artı kutbu belirtir. Ampul, içinde çarpı işareti olan bir daire ile gösterilir. Kablolar düz çizgilerle, anahtar ise açık ya da kapalı konumu gösteren bir çizgiyle sembolize edilir. Devre elemanlarının sembollerle gösterilmesine devre şeması denir.",
+     "points": [
+      "Pil: uzun ve kısa iki çizgi.",
+      "Ampul: içinde çarpı olan daire.",
+      "Kablo: düz çizgi."
+     ]
+    },
+    {
+     "title": "Devre Kurma",
+     "text": "Bir ampulün ışık vermesi için devrenin kapalı olması gerekir. Kapalı devrede pilin bir kutbundan çıkan elektrik akımı kablolar ve ampul üzerinden pilin diğer kutbuna ulaşır. Anahtar açıksa ya da kablolardan biri kopuksa devre açık devre olur ve ampul yanmaz. Devre şemasını çizdikten sonra şemaya uygun olarak devreyi kurar ve çalışıp çalışmadığını gözlemleriz. Devre kurarken pilin kutuplarını doğrudan bir kabloyla birleştirmemeliyiz; buna kısa devre denir ve pil hızla ısınıp bozulabilir.",
+     "points": [
+      "Kapalı devre: ampul yanar.",
+      "Açık devre: ampul yanmaz.",
+      "Ev elektriğiyle asla deney yapma."
+     ]
+    },
+    {
+     "title": "Ampul Parlaklığını Etkileyen Değişkenler",
+     "text": "Bir devrede ampulün parlaklığı pil ve ampul sayısına bağlıdır. Devreye art arda eklenen pil sayısı artırılırsa ampul daha parlak yanar. Aynı pille art arda bağlanan ampul sayısı artırılırsa her bir ampulün parlaklığı azalır. Bu ilişkileri araştırmak için hipotez kurar ve deney yaparız. Deneyde yalnızca bir değişkeni değiştirir, diğerlerini sabit tutarız. Örneğin pil sayısının etkisini incelerken aynı tür ampul ve aynı uzunlukta kablo kullanırız. Değiştirdiğimiz değişkene bağımsız değişken, gözlemlediğimiz sonuca bağımlı değişken denir.",
+     "points": [
+      "Pil sayısı artarsa parlaklık artar.",
+      "Art arda bağlanan ampul sayısı artarsa parlaklık azalır.",
+      "Deneyde tek bir değişkeni değiştir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Elektrik devresi",
+     "meaning": "Elektrik akımının içinden geçtiği kapalı yol."
+    },
+    {
+     "term": "Devre şeması",
+     "meaning": "Devre elemanlarının sembollerle gösterildiği çizim."
+    },
+    {
+     "term": "Pil",
+     "meaning": "Devreye elektrik enerjisi sağlayan eleman."
+    },
+    {
+     "term": "Anahtar",
+     "meaning": "Devreyi açıp kapatmaya yarayan eleman."
+    },
+    {
+     "term": "Açık devre",
+     "meaning": "Akımın geçemediği, ampulün yanmadığı devre."
+    },
+    {
+     "term": "Kapalı devre",
+     "meaning": "Akımın geçtiği, ampulün yandığı devre."
+    }
+   ],
+   "example": {
+    "question": "Bir öğrenci aynı tür ampuller kullanarak üç devre kuruyor: A devresinde 1 pil 1 ampul, B devresinde 2 pil 1 ampul, C devresinde 1 pil 2 ampul (art arda). Ampullerin parlaklıklarını sıralayınız.",
+    "solution": "1. adım: B’de pil sayısı arttığı için ampul A’dan daha parlaktır.\n2. adım: C’de aynı pile iki ampul art arda bağlandığı için her ampul A’dakinden daha sönüktür.\nCevap: B > A > C."
+   },
+   "remember": [
+    "Devre şemalarında ortak semboller kullanılır.",
+    "Ampul yalnızca kapalı devrede yanar.",
+    "Pil sayısı artınca parlaklık artar.",
+    "Ev elektriği tehlikelidir, deneylerde yalnızca pil kullan."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 7,
+   "intro": "Bu ünitede evlerimizde oluşan atıkları, bu atıkların nasıl ayrıştırıldığını ve geri dönüşümün kaynakları korumadaki önemini öğreniyoruz. Sıfır atık anlayışıyla daha az atık üretmenin yollarını keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Evsel Atıklar",
+     "text": "Evlerimizde günlük yaşam sonucunda ortaya çıkan ve artık kullanılmayan maddelere evsel atık denir. Kâğıt, karton, cam, plastik ve metal ambalajlar geri dönüştürülebilen atıklardır. Yemek artıkları ve sebze-meyve kabukları gibi organik atıklar kompost yapılarak toprağa kazandırılabilir. Kullanılmış piller ve elektronik atıklar ise çevre için zararlı maddeler içerebilir. Bu yüzden normal çöpe atılmamalı, özel toplama kutularına bırakılmalıdır. Bitkisel atık yağlar lavaboya dökülmemeli, ayrı toplanmalıdır. Atıkları türlerine göre ayırmak, geri dönüşümün ilk ve en önemli adımıdır.",
+     "points": [
+      "Geri dönüştürülebilir: kâğıt, cam, plastik, metal.",
+      "Atık pil ve elektronikler özel kutulara.",
+      "Atık yağ lavaboya dökülmez."
+     ]
+    },
+    {
+     "title": "Sıfır Atık Hiyerarşisi",
+     "text": "Sıfır atık, israfı önlemeyi, kaynakları verimli kullanmayı ve oluşan atıkları doğru yönetmeyi amaçlayan bir yaklaşımdır. Sıfır atık hiyerarşisinde en iyi seçenek atığın hiç oluşmasını önlemektir; örneğin bez çanta kullanmak. Ardından atığı azaltmak ve ürünleri yeniden kullanmak gelir; cam kavanozu saklama kabı yapmak gibi. Daha sonra geri dönüşüm ve geri kazanım gelir. En son ve en az tercih edilen seçenek ise atığın uzaklaştırılması, yani düzenli depolama alanlarına gönderilmesidir. Bu sıralama, önce atık üretmemeyi düşünmemiz gerektiğini anlatır.",
+     "points": [
+      "Önle → azalt → yeniden kullan → geri dönüştür → geri kazan → uzaklaştır"
+     ]
+    },
+    {
+     "title": "Geri Dönüşüm ve İleri Dönüşüm",
+     "text": "Kullanılmış maddelerin işlenerek ham madde olarak yeniden üretime kazandırılmasına geri dönüşüm denir. Örneğin atık kâğıtlardan yeniden kâğıt, atık camdan yeniden cam üretilir. Geri dönüşüm ağaç, maden ve petrol gibi doğal kaynakların daha az kullanılmasını sağlar. Ayrıca üretimde harcanan enerjiyi azaltır ve çöp alanlarının dolmasını yavaşlatır. İleri dönüşüm ise atık bir ürünü yaratıcı bir şekilde daha değerli ya da kullanışlı yeni bir ürüne dönüştürmektir; eski bir kot pantolondan çanta yapmak gibi. Atıklardan enerji ya da yeni malzeme elde edilmesine ise geri kazanım denir.",
+     "points": [
+      "Geri dönüşüm doğal kaynakları korur.",
+      "Geri dönüşüm enerji tasarrufu sağlar.",
+      "İleri dönüşüm atığa yeni değer katar."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Evsel atık",
+     "meaning": "Evlerde günlük yaşam sonucu oluşan atıklar."
+    },
+    {
+     "term": "Geri dönüşüm",
+     "meaning": "Atıkların işlenerek yeniden ham madde olarak kullanılması."
+    },
+    {
+     "term": "İleri dönüşüm",
+     "meaning": "Atığın daha değerli ya da kullanışlı yeni bir ürüne dönüştürülmesi."
+    },
+    {
+     "term": "Yeniden kullanım",
+     "meaning": "Bir ürünün işlenmeden aynı ya da farklı amaçla tekrar kullanılması."
+    },
+    {
+     "term": "Geri kazanım",
+     "meaning": "Atıklardan yeniden malzeme ya da enerji elde edilmesi."
+    },
+    {
+     "term": "Atık yönetimi",
+     "meaning": "Atıkların azaltılması, toplanması, ayrıştırılması ve işlenmesi süreci."
+    },
+    {
+     "term": "Sıfır atık hiyerarşisi",
+     "meaning": "Atıkla ilgili seçeneklerin en iyiden en kötüye sıralanması."
+    },
+    {
+     "term": "Uzaklaştırma",
+     "meaning": "Değerlendirilemeyen atıkların düzenli depolama alanlarına gönderilmesi."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "En iyi atık, hiç oluşmayan atıktır.",
+    "Atıkları türlerine göre ayır.",
+    "Atık pilleri normal çöpe atma.",
+    "Geri dönüşüm doğal kaynakları ve enerjiyi korur."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 1,
+   "intro": "Bu ünitede Güneş sistemini oluşturan gezegenleri ve diğer gök cisimlerini tanıyoruz. Güneş ve Ay tutulmalarının nasıl oluştuğunu modellerle açıklıyoruz.",
+   "sections": [
+    {
+     "title": "Güneş Sistemi ve Gezegenler",
+     "text": "Güneş ve onun çekim etkisiyle etrafında dolanan gezegenler, uydular, asteroitler ve diğer gök cisimlerinin oluşturduğu sisteme Güneş sistemi denir. Güneş sisteminde sekiz gezegen vardır. Güneş’e yakından uzağa doğru sıralaması Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs ve Neptün şeklindedir. Gezegenler kendi ışığını üretmez, Güneş’ten aldıkları ışığı yansıtır. Her gezegen hem kendi ekseni etrafında döner hem de Güneş’in etrafında belirli bir yörüngede dolanır. Güneş’ten uzaklaştıkça bir gezegenin Güneş etrafındaki bir turu daha uzun sürer.",
+     "points": [
+      "Sıralama: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün.",
+      "En büyük gezegen Jüpiter, en küçük gezegen Merkür’dür."
+     ]
+    },
+    {
+     "title": "İç ve Dış Gezegenler",
+     "text": "Gezegenler, Mars ile Jüpiter arasındaki asteroit kuşağına göre iki gruba ayrılır. Merkür, Venüs, Dünya ve Mars iç gezegenlerdir. Bu gezegenler Güneş’e daha yakındır, boyutları daha küçüktür ve katı, kayalık bir yüzeye sahiptir. Jüpiter, Satürn, Uranüs ve Neptün ise dış gezegenlerdir. Bunlar Güneş’e daha uzaktır, boyutları çok büyüktür ve büyük ölçüde gazlardan oluşur. Dış gezegenlerin hepsinin çevresinde halka sistemleri ve çok sayıda uydusu vardır; Satürn’ün halkaları en belirgin olanıdır. Bilinen gezegenler içinde yaşamın bulunduğu tek gezegen Dünya’dır.",
+     "points": [
+      "İç gezegenler: kayalık, küçük.",
+      "Dış gezegenler: gaz yapılı, büyük, halkalı.",
+      "Asteroit kuşağı Mars ile Jüpiter arasındadır."
+     ]
+    },
+    {
+     "title": "Diğer Gök Cisimleri",
+     "text": "Güneş’in etrafında dolanan, gezegenlerden çok daha küçük, kayalık ve düzensiz şekilli gök cisimlerine asteroit denir. Asteroitlerin çoğu Mars ile Jüpiter arasındaki asteroit kuşağında bulunur. Uzayda dolaşan küçük kaya ve metal parçalarına gök taşı denir. Bir gök taşı Dünya atmosferine girdiğinde sürtünmeyle ısınıp yanar ve gökyüzünde parlak bir iz bırakır; bu olaya meteor denir. Halk arasında buna yıldız kayması da denir, ancak bunun yıldızlarla bir ilgisi yoktur. Atmosferde tamamen yanmayıp yeryüzüne ulaşan gök taşına ise meteorit denir.",
+     "points": [
+      "Meteor: atmosferde yanan gök taşının izi.",
+      "Meteorit: yere düşen gök taşı."
+     ]
+    },
+    {
+     "title": "Güneş ve Ay Tutulmaları",
+     "text": "Güneş, Ay ve Dünya aynı doğrultuya geldiğinde tutulmalar oluşur. Ay, Güneş ile Dünya’nın arasına girdiğinde Ay’ın gölgesi Dünya’ya düşer ve Güneş’in bir kısmı ya da tamamı görünmez; buna Güneş tutulması denir. Güneş tutulması yalnızca yeni ay evresinde ve gündüz gerçekleşebilir. Dünya, Güneş ile Ay’ın arasına girdiğinde ise Dünya’nın gölgesi Ay’a düşer ve Ay kararır; buna Ay tutulması denir. Ay tutulması yalnızca dolunay evresinde ve gece gerçekleşebilir. Tutulmalar her ay olmaz, çünkü Ay’ın yörüngesi Dünya’nın yörünge düzlemine göre biraz eğiktir.",
+     "points": [
+      "Güneş tutulması: Güneş – Ay – Dünya, yeni ay evresinde.",
+      "Ay tutulması: Güneş – Dünya – Ay, dolunay evresinde.",
+      "Güneş tutulması özel gözlüklerle izlenmelidir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Güneş sistemi",
+     "meaning": "Güneş ve çevresinde dolanan gezegen, uydu ve diğer gök cisimlerinin tümü."
+    },
+    {
+     "term": "Gezegen",
+     "meaning": "Bir yıldızın etrafında dolanan, ışık üretmeyen büyük gök cismi."
+    },
+    {
+     "term": "Asteroit",
+     "meaning": "Güneş etrafında dolanan küçük, kayalık ve düzensiz gök cismi."
+    },
+    {
+     "term": "Gök taşı",
+     "meaning": "Uzayda dolaşan küçük kaya ya da metal parçası."
+    },
+    {
+     "term": "Meteor",
+     "meaning": "Atmosfere giren gök taşının yanarken bıraktığı parlak iz."
+    },
+    {
+     "term": "Meteorit",
+     "meaning": "Atmosferde tamamen yanmadan yere ulaşan gök taşı."
+    },
+    {
+     "term": "Güneş tutulması",
+     "meaning": "Ay’ın Güneş ile Dünya arasına girmesiyle Güneş’in görünmemesi."
+    },
+    {
+     "term": "Ay tutulması",
+     "meaning": "Dünya’nın Güneş ile Ay arasına girmesiyle Ay’ın Dünya’nın gölgesinde kalması."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Güneş sisteminde sekiz gezegen vardır.",
+    "İç gezegenler kayalık, dış gezegenler gaz yapılıdır.",
+    "Güneş tutulması yeni ayda, Ay tutulması dolunayda olur.",
+    "Güneş tutulmasını asla çıplak gözle izleme."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 2,
+   "intro": "Bu ünitede kuvvetin özelliklerini, birden fazla kuvvetin birlikte etkisini gösteren bileşke kuvveti ve sürat ile hız kavramlarını öğreniyoruz. Halat çekme oyunu ve yolculuklar bu konunun günlük hayattaki örnekleridir.",
+   "sections": [
+    {
+     "title": "Kuvvetin Özellikleri",
+     "text": "Kuvvet, büyüklüğü ve yönü olan bir niceliktir. Kuvvetin dört özelliği vardır: büyüklük, yön, doğrultu ve uygulama noktası. Kuvvet bir okla gösterilir. Okun başlangıç noktası uygulama noktasını, okun uzunluğu kuvvetin büyüklüğünü, okun ucu ise yönünü gösterir. Okun üzerinde bulunduğu çizgi doğrultuyu belirtir. Doğrultu ile yön farklı kavramlardır: doğu-batı bir doğrultudur; doğu ve batı ise bu doğrultudaki iki farklı yöndür. Aynı doğrultuda iki zıt yön bulunur.",
+     "points": [
+      "Kuvvet ok ile gösterilir.",
+      "Okun uzunluğu büyüklüğü gösterir.",
+      "Bir doğrultuda iki zıt yön vardır."
+     ]
+    },
+    {
+     "title": "Bileşke Kuvvet",
+     "text": "Bir cisme etki eden birden fazla kuvvetin yaptığı etkiyi tek başına yapabilen kuvvete bileşke kuvvet denir. Aynı doğrultuda ve aynı yöndeki kuvvetlerin bileşkesi, kuvvetlerin büyüklükleri toplanarak bulunur ve yönü kuvvetlerle aynıdır. Aynı doğrultuda ve zıt yöndeki iki kuvvetin bileşkesi ise büyük kuvvetten küçük kuvvet çıkarılarak bulunur; bileşkenin yönü büyük kuvvetin yönündedir. Örneğin bir masayı 30 N ve 20 N’luk kuvvetlerle aynı yönde iten iki kişinin bileşke kuvveti 50 N’dur. Halat çekmede ise 30 N ile 20 N zıt yönde uygulanırsa bileşke 10 N olur.",
+     "points": [
+      "Aynı yön: kuvvetler toplanır.",
+      "Zıt yön: büyükten küçük çıkarılır, yön büyüğünkidir."
+     ]
+    },
+    {
+     "title": "Dengelenmiş ve Dengelenmemiş Kuvvetler",
+     "text": "Bir cisme etki eden kuvvetlerin bileşkesi sıfırsa bu kuvvetlere dengelenmiş kuvvetler denir. Dengelenmiş kuvvetlerin etkisindeki duran bir cisim durmaya devam eder, hareket eden bir cisim ise aynı hızla aynı yönde hareketine devam eder. Bileşke kuvvet sıfırdan farklıysa kuvvetler dengelenmemiştir. Dengelenmemiş kuvvetler cismin hareket durumunu değiştirir; cisim hızlanır, yavaşlar, durur ya da yön değiştirir. Bir cismi dengeye getirmek için bileşke kuvvetle aynı büyüklükte fakat zıt yönde uygulanan kuvvete dengeleyici kuvvet denir.",
+     "points": [
+      "Bileşke = 0: dengelenmiş.",
+      "Bileşke ≠ 0: dengelenmemiş, hareket durumu değişir."
+     ]
+    },
+    {
+     "title": "Sürat ve Hız",
+     "text": "Bir cismin hareket ettiği yolun tamamına alınan yol denir. Cismin başlangıç noktası ile bitiş noktası arasındaki en kısa ve yönlü uzaklığa ise yer değiştirme denir. Birim zamanda alınan yola sürat denir: sürat = alınan yol ÷ geçen zaman. Sürat yalnızca büyüklük bildirir. Birim zamandaki yer değiştirmeye ise hız denir; hız hem büyüklük hem yön bildirir. Sürat ve hızın birimi m/s ya da km/sa’tir. Örneğin bir öğrenci okulun etrafında 400 m koşup başladığı yere dönerse aldığı yol 400 m, yer değiştirmesi ise sıfırdır.",
+     "points": [
+      "Sürat = alınan yol ÷ zaman",
+      "Hız = yer değiştirme ÷ zaman",
+      "Hızın yönü vardır, süratin yoktur."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Bileşke kuvvet",
+     "meaning": "Birden fazla kuvvetin yaptığı etkiyi tek başına yapan kuvvet."
+    },
+    {
+     "term": "Doğrultu",
+     "meaning": "Kuvvetin üzerinde bulunduğu çizgi; iki zıt yönü içerir."
+    },
+    {
+     "term": "Uygulama noktası",
+     "meaning": "Kuvvetin cisme etki ettiği nokta."
+    },
+    {
+     "term": "Dengelenmiş kuvvet",
+     "meaning": "Bileşkesi sıfır olan kuvvetler."
+    },
+    {
+     "term": "Dengeleyici kuvvet",
+     "meaning": "Bileşke kuvvete eşit büyüklükte ve zıt yönlü kuvvet."
+    },
+    {
+     "term": "Sürat",
+     "meaning": "Birim zamanda alınan yol."
+    },
+    {
+     "term": "Hız",
+     "meaning": "Birim zamanda yapılan yönlü yer değiştirme."
+    },
+    {
+     "term": "Yer değiştirme",
+     "meaning": "Başlangıç ile bitiş noktası arasındaki yönlü en kısa uzaklık."
+    }
+   ],
+   "example": {
+    "question": "Bir otomobil 240 km’lik yolu 3 saatte alıyor. Otomobilin ortalama sürati kaç km/sa’tir?",
+    "solution": "1. adım: Sürat = alınan yol ÷ geçen zaman.\n2. adım: 240 ÷ 3 = 80.\nCevap: 80 km/sa."
+   },
+   "remember": [
+    "Kuvvetin büyüklüğü, yönü, doğrultusu ve uygulama noktası vardır.",
+    "Aynı yöndeki kuvvetler toplanır, zıt yöndekiler çıkarılır.",
+    "Dengelenmiş kuvvetler hareket durumunu değiştirmez.",
+    "Hızın yönü vardır, süratin yoktur."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 3,
+   "intro": "Bu ünitede canlıların nasıl ürediğini, büyüyüp geliştiğini ve vücudumuzu denetleyen sinir sistemi ile iç salgı bezlerini öğreniyoruz. Ergenlik dönemindeki değişimleri ve bu sistemlerin sağlığını korumanın yollarını da inceliyoruz.",
+   "sections": [
+    {
+     "title": "Eşeyli ve Eşeysiz Üreme",
+     "text": "Canlıların kendilerine benzer yeni bireyler oluşturmasına üreme denir. Eşeysiz üremede tek bir ata canlı vardır ve oluşan yeni bireyler genellikle ata canlıyla aynı kalıtsal özellikleri taşır. Bölünme (bakteri, amip), tomurcuklanma (bira mayası, hidra), rejenerasyon yani yenilenme (deniz yıldızı, planarya) ve bitkilerde vejetatif üreme (patates yumrusu, çilek sürünücü gövdesi) eşeysiz üreme çeşitleridir. Eşeyli üremede ise genellikle iki ata canlıdan gelen üreme hücreleri birleşir. Dişi üreme hücresi yumurta ile erkek üreme hücresi spermin birleşmesine döllenme, oluşan hücreye zigot denir. Eşeyli üremede yavrular ata canlılardan farklı özellikler taşıyabilir.",
+     "points": [
+      "Eşeysiz: tek ata, kalıtsal çeşitlilik yok denecek kadar az.",
+      "Eşeyli: üreme hücreleri birleşir, çeşitlilik artar."
+     ]
+    },
+    {
+     "title": "Bitki ve Hayvanlarda Üreme, Büyüme, Gelişme",
+     "text": "Çiçekli bitkilerde üreme organı çiçektir. Çiçek tozlarının erkek organdan dişi organın tepeciğine taşınmasına tozlaşma denir; tozlaşma rüzgâr, böcekler ve su gibi etkenlerle olur. Döllenmeden sonra tohum ve meyve oluşur. Tohumun uygun koşullarda yeni bir bitkiye dönüşmeye başlamasına çimlenme denir. Çimlenme için su, uygun sıcaklık ve oksijen gereklidir. Hayvanlarda ise bazı canlılar doğumdan sonra büyüyerek yetişkine benzer. Kurbağa ve kelebek gibi bazı hayvanlar ise başkalaşım geçirir; yumurtadan çıkan yavru yetişkinden çok farklıdır ve aşamalar hâlinde değişir. Canlının yaşamı boyunca geçirdiği evrelere yaşam döngüsü denir.",
+     "points": [
+      "Çimlenme için: su, uygun sıcaklık, oksijen.",
+      "Kelebek: yumurta, tırtıl, pupa, ergin."
+     ]
+    },
+    {
+     "title": "İnsanda Üreme ve Gelişme",
+     "text": "İnsanda üreme eşeyli üreme ile gerçekleşir. Erkek üreme sisteminde sperm, dişi üreme sisteminde yumurta üretilir. Sperm ile yumurtanın birleşmesiyle zigot oluşur. Zigot bölünerek embriyoyu, embriyo da gelişerek fetüsü oluşturur. Bebek, anne karnında yaklaşık dokuz ay gelişir. Ergenlik döneminde dişilerde düzenli olarak tekrarlanan bir döngü başlar; bu döngüye âdet döngüsü denir. Doğumdan sonra insan; bebeklik, çocukluk, ergenlik, yetişkinlik ve yaşlılık dönemlerinden geçer. Büyüme boy ve kütle artışını, gelişme ise yeni yetenekler kazanmayı anlatır.",
+     "points": [
+      "Zigot → embriyo → fetüs → bebek",
+      "Büyüme ve gelişme yaşam boyu sürer."
+     ]
+    },
+    {
+     "title": "Sinir Sistemi ve İç Salgı Bezleri",
+     "text": "Sinir sistemi vücudumuzdaki tüm faaliyetleri denetler ve düzenler. Beyin, beyincik, omurilik soğanı ve omurilikten oluşan kısma merkezî sinir sistemi denir. Vücudun her yerine dağılan sinirler ise çevresel sinir sistemini oluşturur. Ani ve istem dışı tepkilere refleks denir; sıcak bir yüzeye dokunduğumuzda elimizi hemen çekmemiz bir reflekstir. İç salgı bezleri ise salgıladıkları hormonlarla vücudu düzenler. Hipofiz bezi büyüme hormonu salgılar ve diğer bezleri yönetir. Tiroit bezi metabolizma hızını, pankreas kan şekerini düzenler. Ergenlikte hormonların etkisiyle boyda hızlı uzama, ses değişimi gibi bedensel değişimlerle birlikte duygusal değişimler de yaşanır.",
+     "points": [
+      "Yeterli uyku ve dengeli beslenme sinir sistemini korur.",
+      "Kafayı darbelere karşı korumak için kask kullan.",
+      "Ergenlikteki değişimler doğaldır; güvendiğin büyüklerle konuş."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Eşeysiz üreme",
+     "meaning": "Tek bir ata canlının üreme hücresi olmadan yeni birey oluşturması."
+    },
+    {
+     "term": "Eşeyli üreme",
+     "meaning": "Üreme hücrelerinin birleşmesiyle yeni birey oluşması."
+    },
+    {
+     "term": "Başkalaşım",
+     "meaning": "Bazı hayvanların gelişim sırasında farklı evrelerden geçerek şekil değiştirmesi."
+    },
+    {
+     "term": "Tozlaşma",
+     "meaning": "Çiçek tozlarının dişi organın tepeciğine taşınması."
+    },
+    {
+     "term": "Zigot",
+     "meaning": "Sperm ile yumurtanın birleşmesiyle oluşan ilk hücre."
+    },
+    {
+     "term": "Refleks",
+     "meaning": "Uyarılara karşı ani ve istem dışı verilen tepki."
+    },
+    {
+     "term": "Hormon",
+     "meaning": "İç salgı bezlerinin kana verdiği düzenleyici madde."
+    },
+    {
+     "term": "Ergenlik",
+     "meaning": "Çocukluktan yetişkinliğe geçişte bedensel ve ruhsal değişimlerin yaşandığı dönem."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Eşeysiz üremede tek ata vardır.",
+    "Çimlenme için su, uygun sıcaklık ve oksijen gerekir.",
+    "Merkezî sinir sistemi beyin ve omurilikten oluşur.",
+    "Hormonlar iç salgı bezlerinden kana verilir."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 4,
+   "intro": "Bu ünitede ışığın yüzeylerden nasıl yansıdığını, ayna çeşitlerini, ışığın soğurulmasını ve cisimlerin neden farklı renklerde göründüğünü öğreniyoruz. Güneş enerjisinin teknolojide nasıl kullanıldığını da tartışıyoruz.",
+   "sections": [
+    {
+     "title": "Işığın Yansıması",
+     "text": "Işığın bir yüzeye çarpıp geri dönmesine yansıma denir. Yüzeye gelen ışına gelen ışın, yüzeyden geri dönen ışına yansıyan ışın denir. Işığın yüzeye çarptığı noktadan yüzeye dik olarak çizilen hayalî doğruya yüzey normali denir. Gelen ışının normal ile yaptığı açıya gelme açısı, yansıyan ışının normal ile yaptığı açıya yansıma açısı denir. Yansıma kanunlarına göre gelme açısı yansıma açısına eşittir; gelen ışın, yansıyan ışın ve normal aynı düzlemdedir. Düzgün yüzeylerde ışınlar paralel yansır ve net görüntü oluşur; buna düzgün yansıma denir. Pürüzlü yüzeylerde ise ışınlar farklı yönlere yansır; buna dağınık yansıma denir.",
+     "points": [
+      "Gelme açısı = yansıma açısı",
+      "Açılar yüzeyle değil, normalle ölçülür."
+     ]
+    },
+    {
+     "title": "Aynalar",
+     "text": "Işığı düzgün yansıtan parlak yüzeylere ayna denir. Düz aynada görüntü cisimle aynı büyüklüktedir ve aynanın arkasında, cismin aynaya olan uzaklığı kadar uzakta görünür; sağ ve sol yer değiştirmiş gibi görünür. Yansıtıcı yüzeyi içe doğru kavisli olan aynalara çukur ayna denir. Çukur ayna yakındaki cisimleri büyük gösterir ve ışığı bir noktada toplayabilir; diş hekimi aynası, makyaj aynası ve araba farlarında kullanılır. Yansıtıcı yüzeyi dışa doğru kavisli olan aynalara tümsek ayna denir. Tümsek ayna cisimleri küçük gösterir ama geniş bir görüş alanı sağlar; araçların yan aynalarında ve kör virajlarda kullanılır.",
+     "points": [
+      "Düz ayna: aynı boyutta görüntü.",
+      "Çukur ayna: yakındakini büyük gösterir, ışığı toplar.",
+      "Tümsek ayna: geniş görüş alanı."
+     ]
+    },
+    {
+     "title": "Soğurma ve Renkler",
+     "text": "Işığın madde tarafından tutulmasına soğurma denir. Soğurulan ışık enerjisi genellikle ısıya dönüşür. Beyaz ışık, gökkuşağındaki tüm renklerin birleşiminden oluşur; beyaz ışık bir prizmadan geçirildiğinde renklerine ayrılır. Bir cismin rengi, yansıttığı ışığın rengidir. Beyaz cisimler üzerine gelen tüm renkleri yansıtır. Siyah cisimler ise tüm renkleri soğurur ve hiçbir rengi yansıtmaz. Kırmızı bir elma beyaz ışık altında yalnızca kırmızı ışığı yansıtır, diğer renkleri soğurur. Siyah giysilerin güneşte daha çok ısınması, siyahın daha fazla ışık soğurmasından kaynaklanır.",
+     "points": [
+      "Beyaz ışık tüm renklerin karışımıdır.",
+      "Cismin rengi yansıttığı ışığın rengidir.",
+      "Siyah cisimler en çok ışığı soğurur."
+     ]
+    },
+    {
+     "title": "Güneş Enerjisinin Kullanımı",
+     "text": "Güneş’ten gelen ışık enerjisi farklı teknolojilerle kullanılabilir. Güneş panelleri ışık enerjisini doğrudan elektrik enerjisine dönüştürür. Güneş enerjili su ısıtıcılarında ise koyu renkli yüzeyler ışığı soğurarak suyu ısıtır. Güneş ocakları, çukur aynaya benzeyen yansıtıcı yüzeylerle ışığı bir noktada toplayarak yemek pişirmeye yarar. Güneş enerjisi yenilenebilir ve temiz bir enerji kaynağıdır; kullanımı sırasında hava kirliliğine yol açmaz. Ancak gece ve bulutlu havalarda üretim azalır. Bu nedenle enerjiyi depolama ve verimi artırma üzerine yeni teknolojiler geliştirilmektedir.",
+     "points": [
+      "Güneş enerjisi yenilenebilir bir kaynaktır.",
+      "Gece ve bulutlu havada üretim azalır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Yansıma",
+     "meaning": "Işığın bir yüzeye çarpıp geri dönmesi."
+    },
+    {
+     "term": "Yüzey normali",
+     "meaning": "Işığın çarptığı noktada yüzeye dik çizilen hayalî doğru."
+    },
+    {
+     "term": "Gelme açısı",
+     "meaning": "Gelen ışının normal ile yaptığı açı."
+    },
+    {
+     "term": "Yansıma açısı",
+     "meaning": "Yansıyan ışının normal ile yaptığı açı."
+    },
+    {
+     "term": "Çukur ayna",
+     "meaning": "Yansıtıcı yüzeyi içe doğru kavisli ayna."
+    },
+    {
+     "term": "Tümsek ayna",
+     "meaning": "Yansıtıcı yüzeyi dışa doğru kavisli ayna."
+    },
+    {
+     "term": "Soğurma",
+     "meaning": "Işığın madde tarafından tutulması."
+    }
+   ],
+   "example": {
+    "question": "Bir ışın düz aynaya, ayna yüzeyi ile 30° açı yapacak şekilde geliyor. Yansıma açısı kaç derecedir?",
+    "solution": "1. adım: Açılar normalle ölçülür. Normal yüzeye dik olduğundan gelme açısı = 90° − 30° = 60°.\n2. adım: Gelme açısı yansıma açısına eşittir.\nCevap: Yansıma açısı 60°’dir."
+   },
+   "remember": [
+    "Gelme açısı yansıma açısına eşittir.",
+    "Açılar yüzey normaliyle ölçülür.",
+    "Beyaz ışık tüm renklerin karışımıdır.",
+    "Cisim hangi rengi yansıtıyorsa o renkte görünür."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 5,
+   "intro": "Bu ünitede maddeleri birbirinden ayırt etmemizi sağlayan özellikleri öğreniyoruz: genleşme ve büzülme, erime, donma ve kaynama noktaları ile yoğunluk. Suyun donarken genleşmesinin canlılar için önemini de keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Genleşme ve Büzülme",
+     "text": "Maddeler ısı aldığında tanecikleri daha hızlı hareket eder ve tanecikler arasındaki uzaklık artar; bu nedenle maddenin hacmi büyür. Buna genleşme denir. Maddeler ısı verdiğinde ise hacimleri küçülür; buna büzülme denir. Katılar, sıvılar ve gazlar genleşir ve büzülür; aynı sıcaklık değişiminde genellikle en çok gazlar, en az katılar genleşir. Demir yolu raylarının arasında boşluk bırakılması, köprülerde genleşme aralıkları yapılması ve elektrik tellerinin yazın sarkık görünmesi genleşmenin günlük hayattaki örnekleridir. Termometreler de sıvıların genleşmesi esasına göre çalışır.",
+     "points": [
+      "Isı alan madde genleşir, ısı veren madde büzülür.",
+      "Raylar arasındaki boşluk genleşme içindir."
+     ]
+    },
+    {
+     "title": "Erime, Donma ve Kaynama Noktaları",
+     "text": "Saf bir katının erimeye başladığı sıcaklığa erime noktası, saf bir sıvının donmaya başladığı sıcaklığa donma noktası denir. Aynı saf madde için erime ve donma noktaları aynı sıcaklıktır. Saf bir sıvının kaynamaya başladığı sıcaklığa kaynama noktası denir. Hâl değişimi sırasında saf maddenin sıcaklığı sabit kalır. Örneğin saf su deniz seviyesinde 0 °C’de donar ve 100 °C’de kaynar. Erime, donma ve kaynama noktaları maddeler için ayırt edici özelliktir; yani farklı saf maddelerin bu noktaları farklıdır. Bu noktaları bulmak için maddeyi ısıtıp belirli aralıklarla sıcaklığını ölçer ve sonuçları grafiğe dökeriz.",
+     "points": [
+      "Erime noktası = donma noktası (aynı saf madde için).",
+      "Hâl değişimi sırasında sıcaklık sabittir.",
+      "Saf su: 0 °C’de donar, 100 °C’de kaynar (deniz seviyesinde)."
+     ]
+    },
+    {
+     "title": "Yoğunluk",
+     "text": "Bir maddenin birim hacminin kütlesine yoğunluk denir. Yoğunluk, kütlenin hacme bölünmesiyle bulunur: d = m ÷ V. Birimi g/cm³ ya da g/mL’dir. Yoğunluk saf maddeler için ayırt edici bir özelliktir; aynı sıcaklıkta aynı maddenin yoğunluğu, miktarı ne olursa olsun değişmez. Birbirine karışmayan sıvılar bir kaba konulduğunda yoğunluğu büyük olan altta, küçük olan üstte toplanır; zeytinyağının suyun üstünde durması bu yüzdendir. Bir katı cisim, yoğunluğu içinde bulunduğu sıvınınkinden küçükse yüzer, büyükse batar.",
+     "points": [
+      "Yoğunluk = kütle ÷ hacim",
+      "Yoğunluğu küçük olan üstte kalır."
+     ]
+    },
+    {
+     "title": "Suyun Yoğunluğu ve Canlılar",
+     "text": "Maddelerin çoğunda katı hâlin yoğunluğu sıvı hâlinden büyüktür. Su ise bu konuda istisnadır: su donarken genleşir ve buzun yoğunluğu sıvı suyunkinden küçük olur. Bu nedenle buz suyun üzerinde yüzer. Kışın göl ve denizlerin yüzeyi donduğunda buz tabakası üstte kalır ve altındaki suyu bir yalıtkan gibi korur. Böylece suyun alt kısımları donmaz ve balıklar gibi sudaki canlılar yaşamlarını sürdürebilir. Suyun donarken genleşmesi bazı zararlara da yol açabilir; kışın su borularının ve içi su dolu cam şişelerin çatlaması buna örnektir.",
+     "points": [
+      "Buz suda yüzer.",
+      "Donmuş göl yüzeyi alttaki canlıları korur.",
+      "Donan su boruları çatlatabilir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Genleşme",
+     "meaning": "Isı alan maddenin hacminin artması."
+    },
+    {
+     "term": "Büzülme",
+     "meaning": "Isı veren maddenin hacminin azalması."
+    },
+    {
+     "term": "Erime noktası",
+     "meaning": "Saf bir katının erimeye başladığı sabit sıcaklık."
+    },
+    {
+     "term": "Donma noktası",
+     "meaning": "Saf bir sıvının donmaya başladığı sabit sıcaklık."
+    },
+    {
+     "term": "Kaynama noktası",
+     "meaning": "Saf bir sıvının kaynamaya başladığı sıcaklık."
+    },
+    {
+     "term": "Yoğunluk",
+     "meaning": "Bir maddenin birim hacminin kütlesi; kütle ÷ hacim."
+    },
+    {
+     "term": "Ayırt edici özellik",
+     "meaning": "Bir saf maddeyi diğerlerinden ayırmaya yarayan özellik."
+    }
+   ],
+   "example": {
+    "question": "Kütlesi 54 g, hacmi 20 cm³ olan bir metal parçasının yoğunluğu kaç g/cm³’tür? Bu parça suya (yoğunluğu 1 g/cm³) bırakılırsa ne olur?",
+    "solution": "1. adım: d = m ÷ V = 54 ÷ 20 = 2,7 g/cm³.\n2. adım: 2,7 > 1 olduğundan metalin yoğunluğu suyunkinden büyüktür.\nCevap: Yoğunluk 2,7 g/cm³’tür; parça suda batar."
+   },
+   "remember": [
+    "Isı alan maddeler genleşir.",
+    "Hâl değişimi sırasında saf maddenin sıcaklığı değişmez.",
+    "Yoğunluk = kütle ÷ hacim.",
+    "Buzun yoğunluğu sudan küçüktür, bu yüzden buz yüzer."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 6,
+   "intro": "Bu ünitede elektriği ileten ve iletmeyen maddeleri, elektriksel direnci ve direncin bağlı olduğu etkenleri öğreniyoruz. Ayarlanabilir direnç olan reostanın ampul parlaklığını nasıl değiştirdiğini deneylerle inceliyoruz.",
+   "sections": [
+    {
+     "title": "İletken ve Yalıtkan Maddeler",
+     "text": "Elektrik akımını iyi ileten maddelere elektriksel iletken denir. Bakır, alüminyum, demir gibi metaller ve grafit iyi iletkendir. Elektrik akımını iletmeyen ya da çok az ileten maddelere ise elektriksel yalıtkan denir; plastik, tahta, cam, lastik ve kuru kâğıt yalıtkandır. Bir maddenin iletken olup olmadığını anlamak için basit bir devre kurar, maddeyi devreye ekleriz. Ampul yanıyorsa madde iletkendir, yanmıyorsa yalıtkandır. Elektrik kablolarının içinin bakırdan, dışının plastikten yapılmasının nedeni budur: bakır akımı iletir, plastik ise bizi elektrik çarpmasına karşı korur.",
+     "points": [
+      "İletken: metaller, grafit.",
+      "Yalıtkan: plastik, tahta, cam, lastik.",
+      "Islak ellerle elektrikli aletlere dokunma."
+     ]
+    },
+    {
+     "title": "Elektriksel Direnç",
+     "text": "Bir maddenin elektrik akımının geçişine karşı gösterdiği zorluğa elektriksel direnç denir. Direnç arttıkça devreden geçen akım azalır ve ampulün parlaklığı düşer. Bir iletken telin direnci üç etkene bağlıdır. Birincisi telin uzunluğudur: tel uzadıkça direnç artar. İkincisi telin kesit alanıdır, yani kalınlığıdır: tel kalınlaştıkça direnç azalır. Üçüncüsü telin yapıldığı maddenin cinsidir: aynı uzunluk ve kalınlıktaki farklı maddelerden yapılan tellerin dirençleri farklıdır. Bu etkenleri incelerken deneyde yalnızca bir etkeni değiştirir, diğerlerini sabit tutarız.",
+     "points": [
+      "Uzunluk artarsa direnç artar.",
+      "Kesit alanı artarsa direnç azalır.",
+      "Direnç maddenin cinsine bağlıdır."
+     ]
+    },
+    {
+     "title": "Reosta",
+     "text": "Direnci isteğe göre değiştirilebilen devre elemanına reosta ya da ayarlanabilir direnç denir. Reostada akımın geçtiği telin uzunluğu bir sürgü ile değiştirilir. Sürgü hareket ettirilerek akımın geçtiği tel uzatıldığında direnç artar, ampulün parlaklığı azalır. Tel kısaltıldığında ise direnç azalır ve ampul daha parlak yanar. Reosta mantığı günlük hayatta pek çok yerde kullanılır. Işık şiddeti ayarlanabilen lambalar, eski tip radyolarda ses ayar düğmeleri ve bazı elektrikli oyuncakların hız ayarı bu prensiple çalışır.",
+     "points": [
+      "Reosta direnci ayarlar.",
+      "Direnç artınca ampul sönükleşir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "İletken madde",
+     "meaning": "Elektrik akımını iyi ileten madde."
+    },
+    {
+     "term": "Yalıtkan madde",
+     "meaning": "Elektrik akımını iletmeyen ya da çok az ileten madde."
+    },
+    {
+     "term": "Elektriksel direnç",
+     "meaning": "Maddenin elektrik akımına karşı gösterdiği zorluk."
+    },
+    {
+     "term": "Reosta",
+     "meaning": "Direnci ayarlanabilen devre elemanı."
+    },
+    {
+     "term": "Kesit alanı",
+     "meaning": "Bir telin kalınlığını gösteren, dik kesitinin alanı."
+    }
+   ],
+   "example": {
+    "question": "Aynı maddeden yapılmış üç tel var: K teli 20 cm uzunluğunda ve ince, L teli 40 cm uzunluğunda ve ince, M teli 20 cm uzunluğunda ve kalın. Her biri aynı pil ve ampulle ayrı ayrı devreye bağlanıyor. Ampulün en parlak ve en sönük yandığı teller hangileridir?",
+    "solution": "1. adım: Uzunluk arttıkça direnç artar: L’nin direnci K’den büyüktür.\n2. adım: Kalınlık arttıkça direnç azalır: M’nin direnci K’den küçüktür.\n3. adım: Direnç sıralaması L > K > M’dir. Direnç azaldıkça parlaklık artar.\nCevap: En parlak M ile, en sönük L ile yanar."
+   },
+   "remember": [
+    "Metaller iyi iletkendir.",
+    "Uzun ve ince tellerin direnci büyüktür.",
+    "Direnç artarsa ampul parlaklığı azalır.",
+    "Reosta direnci değiştirerek parlaklığı ayarlar."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 7,
+   "intro": "Bu ünitede biyoçeşitliliğin önemini, onu tehdit eden etkenleri, ısınma amaçlı yakıtların etkilerini ve çevre sorunlarını öğreniyoruz. Çevremizi korumak için neler yapabileceğimizi araştırıyoruz.",
+   "sections": [
+    {
+     "title": "Biyoçeşitlilik ve Ekosistem",
+     "text": "Bir bölgede yaşayan canlı türlerinin çeşitliliğine biyoçeşitlilik denir. Bir canlının yaşadığı, beslendiği ve barındığı doğal ortama habitat denir. Belirli bir alandaki canlılar ile su, toprak, hava ve ışık gibi cansız varlıkların birbiriyle etkileşim içinde oluşturduğu sisteme ise ekosistem denir. Biyoçeşitlilik ekosistemlerin dengede kalmasını sağlar. Ayrıca besin, ilaç ham maddesi, temiz hava ve su gibi pek çok ihtiyacımız biyoçeşitlilikle doğrudan ilişkilidir. Türkiye, farklı iklim ve yeryüzü şekillerine sahip olduğu için zengin bir biyoçeşitliliğe sahiptir ve pek çok endemik bitki türü barındırır.",
+     "points": [
+      "Endemik tür: yalnızca belirli bir bölgede doğal olarak yaşayan tür.",
+      "Biyoçeşitlilik ekosistem dengesini korur."
+     ]
+    },
+    {
+     "title": "Biyoçeşitliliği Tehdit Eden Etkenler",
+     "text": "Biyoçeşitliliği azaltan etkenlerin çoğu insan kaynaklıdır. Habitatların tarım, sanayi ve yerleşim için yok edilmesi, ormansızlaşma, orman yangınları, aşırı ve kaçak avcılık, çevre kirliliği ve iklim değişikliği bunların başında gelir. Ormansızlaşma, ormanların kesilerek ya da yakılarak azalmasıdır. Orman yangınlarının büyük kısmı insan dikkatsizliğinden kaynaklanır. Bir canlı türünün son bireyinin de ölmesiyle o türün nesli tükenir. Nesli tükenen bir tür bir daha geri getirilemez. Türkiye’de nesli tehlike altındaki türleri korumak için milli parklar ve koruma alanları oluşturulmuştur.",
+     "points": [
+      "Habitat kaybı en büyük tehditlerden biridir.",
+      "Ormanda ateş yakma, cam ve çöp bırakma.",
+      "Nesli tükenen tür geri gelmez."
+     ]
+    },
+    {
+     "title": "Çevre Kirliliği ve Isınma Amaçlı Yakıtlar",
+     "text": "Evlerde ısınmak için kömür, odun, doğal gaz gibi yakıtlar kullanılır. Bu yakıtlar yandığında karbondioksit, kükürt dioksit ve is gibi maddeler havaya karışarak hava kirliliğine yol açabilir. Kaliteli olmayan kömür ve yanlış yakma yöntemleri hava kirliliğini artırır. Kirli hava solunum yolu hastalıklarına neden olur. Kapalı ortamlarda soba ve şofbenlerin yanlış kullanımı ise ölümcül karbon monoksit zehirlenmelerine yol açabilir. Su kirliliği atık suların ve çöplerin denizlere, göllere ve akarsulara karışmasıyla oluşur. Toprak kirliliği ise çöpler, aşırı tarım ilacı ve gübre kullanımı ile oluşur.",
+     "points": [
+      "Bacaları düzenli temizlet, odayı havalandır.",
+      "Bina yalıtımı yakıt tüketimini azaltır.",
+      "Atıkları doğaya bırakma."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Biyoçeşitlilik",
+     "meaning": "Bir bölgedeki canlı türlerinin çeşitliliği."
+    },
+    {
+     "term": "Habitat",
+     "meaning": "Bir canlının doğal olarak yaşadığı ortam."
+    },
+    {
+     "term": "Ekosistem",
+     "meaning": "Canlılar ile cansız çevrenin etkileşim içinde oluşturduğu sistem."
+    },
+    {
+     "term": "Nesli tükenen canlı",
+     "meaning": "Yeryüzünde hiç bireyi kalmamış canlı türü."
+    },
+    {
+     "term": "Ormansızlaşma",
+     "meaning": "Ormanlık alanların kesim, yangın gibi nedenlerle azalması."
+    },
+    {
+     "term": "Çevre kirliliği",
+     "meaning": "Hava, su ve toprağın canlılara zarar verecek şekilde kirlenmesi."
+    },
+    {
+     "term": "İnsan-çevre etkileşimi",
+     "meaning": "İnsan etkinliklerinin çevreyi, çevrenin de insanı etkilemesi."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Biyoçeşitlilik ekosistemlerin dengesini sağlar.",
+    "Habitat kaybı ve kirlilik biyoçeşitliliği tehdit eder.",
+    "Kapalı ortamda sobayı doğru kullan, karbon monoksite dikkat et.",
+    "Çevreyi korumak hepimizin görevidir."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 1,
+   "intro": "Bu ünitede uzayı keşfetmek için kullanılan teknolojileri, yıldızların yaşamını ve yıldız, galaksi, evren kavramlarını öğreniyoruz. Uzay araştırmalarının getirdiği sorunları ve çözüm yollarını da tartışıyoruz.",
+   "sections": [
+    {
+     "title": "Uzay Araştırma Teknolojileri",
+     "text": "İnsanlar uzayı tanımak için çeşitli araçlar geliştirmiştir. Teleskoplar uzak gök cisimlerini daha büyük ve net görmemizi sağlar. Mercekli teleskoplar ışığı mercekle, aynalı teleskoplar ise ayna ile toplar. Atmosferin görüntüyü bozmasını önlemek için bazı teleskoplar uzaya gönderilmiştir. Uzay araçları ve uzay sondaları diğer gezegenlere giderek veri toplar. Yapay uydular Dünya’nın yörüngesinde dolanır; iletişim, hava tahmini, yön bulma ve haritacılık gibi alanlarda kullanılır. Uluslararası Uzay İstasyonu’nda ise astronotlar uzun süre kalarak bilimsel deneyler yapar. Uzay teknolojileri sayesinde geliştirilen pek çok ürün günlük hayatımızda da kullanılmaktadır.",
+     "points": [
+      "Teleskop: uzak cisimleri gözlemler.",
+      "Yapay uydu: iletişim, hava durumu, konum belirleme.",
+      "Uzay sondası: diğer gök cisimlerini yakından inceler."
+     ]
+    },
+    {
+     "title": "Uzay Kirliliği",
+     "text": "Görev süresi dolmuş uydular, roket parçaları ve uzay araçlarından kopan küçük parçalar Dünya’nın çevresinde dolanmaya devam eder. Bu atıklara uzay çöpü, oluşturdukları soruna da uzay kirliliği denir. Uzay çöpleri çok yüksek hızla hareket ettiği için küçük bir parça bile çalışan bir uyduya ya da uzay istasyonuna çarptığında ciddi hasara yol açabilir. Bu sorunu çözmek için bilim insanları görevi biten uyduların atmosfere çekilerek yakılmasını, uzay çöplerinin toplanmasını sağlayan yöntemleri ve daha az parça bırakan araçları geliştirmeye çalışmaktadır.",
+     "points": [
+      "Uzay çöpleri çalışan uydular için tehlikelidir.",
+      "Çözüm için uluslararası iş birliği gerekir."
+     ]
+    },
+    {
+     "title": "Yıldızların Yaşamı",
+     "text": "Yıldızlar, uzaydaki büyük gaz ve toz bulutlarından oluşur; bu bulutlara bulutsu denir. Bulutsudaki madde kütle çekimiyle bir araya toplanır, ısınır ve yeterince sıcak olduğunda ışık ve ısı yaymaya başlar. Böylece bir yıldız doğar. Yıldızlar ömürleri boyunca enerji üretir. Yıldızın ömrü ve sonu kütlesine bağlıdır. Güneş gibi orta büyüklükteki yıldızlar yaşamlarının sonunda genişleyerek kırmızı deve dönüşür, sonra dış katmanlarını kaybederek beyaz cüce olur. Çok büyük kütleli yıldızlar ise süpernova adı verilen büyük bir patlamayla yaşamını bitirir ve geride nötron yıldızı ya da kara delik bırakabilir.",
+     "points": [
+      "Bulutsu → yıldız",
+      "Orta kütleli yıldız: kırmızı dev → beyaz cüce.",
+      "Büyük kütleli yıldız: süpernova → nötron yıldızı ya da kara delik."
+     ]
+    },
+    {
+     "title": "Takımyıldız, Galaksi ve Evren",
+     "text": "Gökyüzünde belirli bir şekil oluşturduğu düşünülen yıldız gruplarına takımyıldız denir; Büyükayı ve Küçükayı bunlara örnektir. Takımyıldızdaki yıldızlar bize yan yana görünse de gerçekte birbirlerinden çok uzakta olabilir. Kuzey Yıldızı, Küçükayı takımyıldızında yer alır ve tarih boyunca yön bulmak için kullanılmıştır. Milyarlarca yıldız, gaz ve tozun kütle çekimiyle bir arada bulunduğu büyük sistemlere galaksi denir. Güneş sistemimiz Samanyolu Galaksisi’nde bulunur. Galaksiler şekillerine göre sarmal, eliptik ve düzensiz olarak sınıflandırılır. Tüm galaksiler, madde ve enerjinin bulunduğu sonsuz gibi görünen bütüne evren denir.",
+     "points": [
+      "Yıldız < galaksi < evren",
+      "Samanyolu sarmal bir galaksidir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Uzay",
+     "meaning": "Dünya atmosferinin dışında kalan, gök cisimlerinin bulunduğu boşluk."
+    },
+    {
+     "term": "Uzay teknolojileri",
+     "meaning": "Uzayı keşfetmek için geliştirilen teleskop, uydu, uzay aracı gibi araçlar."
+    },
+    {
+     "term": "Yıldız",
+     "meaning": "Kendi ışığını ve ısısını üreten büyük gaz kütlesi."
+    },
+    {
+     "term": "Takımyıldız",
+     "meaning": "Gökyüzünde belirli bir şekle benzetilen yıldız grubu."
+    },
+    {
+     "term": "Galaksi",
+     "meaning": "Milyarlarca yıldız, gaz ve tozdan oluşan büyük sistem."
+    },
+    {
+     "term": "Evren",
+     "meaning": "Tüm galaksileri, maddeyi ve enerjiyi kapsayan bütün."
+    },
+    {
+     "term": "Uzay kirliliği",
+     "meaning": "Kullanılmayan uydu ve araç parçalarının uzayda birikmesi."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Teleskoplar ve uydular uzayı tanımamızı sağlar.",
+    "Yıldızlar bulutsulardan doğar.",
+    "Yıldızın sonu kütlesine bağlıdır.",
+    "Güneş sistemi Samanyolu Galaksisi’ndedir."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 2,
+   "intro": "Bu ünitede fiziksel anlamda işi, enerjiyi, kinetik ve potansiyel enerjiyi ve enerjinin bir türden diğerine dönüşümünü öğreniyoruz. Enerjinin yoktan var olmadığını ve var iken yok olmadığını keşfediyoruz.",
+   "sections": [
+    {
+     "title": "Fiziksel Anlamda İş",
+     "text": "Günlük hayatta yorulduğumuz her etkinliğe iş deriz, ancak fen bilimlerinde iş farklı anlam taşır. Fiziksel anlamda iş yapılması için bir cisme kuvvet uygulanmalı ve cisim bu kuvvet doğrultusunda yol almalıdır. İş, kuvvet ile kuvvet doğrultusunda alınan yolun çarpımına eşittir: İş = Kuvvet × Yol. İşin birimi joule’dür (J). Bir duvarı ne kadar itersek itelim duvar hareket etmiyorsa fiziksel anlamda iş yapılmış olmaz. Elinde çanta taşıyarak yatay bir yolda yürüyen kişi de çantaya yukarı yönde kuvvet uyguladığı, ancak çanta bu doğrultuda yol almadığı için çantaya iş yapmış sayılmaz.",
+     "points": [
+      "İş = Kuvvet × Yol",
+      "Birimi: joule (J)",
+      "Kuvvet doğrultusunda yol yoksa iş yoktur."
+     ]
+    },
+    {
+     "title": "Enerji, Kinetik ve Potansiyel Enerji",
+     "text": "İş yapabilme yeteneğine enerji denir; enerjinin birimi de joule’dür. Hareket eden cisimlerin sahip olduğu enerjiye kinetik enerji denir. Kinetik enerji cismin kütlesine ve süratine bağlıdır; kütle ya da sürat arttıkça kinetik enerji artar. Duran bir cismin kinetik enerjisi sıfırdır. Cisimlerin konumları ya da durumları nedeniyle sahip oldukları depolanmış enerjiye potansiyel enerji denir. Yerden yüksekte duran cisimlerin çekim potansiyel enerjisi vardır; bu enerji cismin kütlesine ve yerden yüksekliğine bağlıdır. Gerilmiş bir yay, çekilmiş bir lastik veya kurulmuş bir okun esneklik potansiyel enerjisi vardır; bu enerji esnekliğe, sıkışma ya da gerilme miktarına bağlıdır.",
+     "points": [
+      "Kinetik enerji: kütle ve sürate bağlı.",
+      "Çekim potansiyel enerjisi: kütle ve yüksekliğe bağlı.",
+      "Esneklik potansiyel enerjisi: gerilme ya da sıkışma miktarına bağlı."
+     ]
+    },
+    {
+     "title": "Enerji Dönüşümü ve Korunumu",
+     "text": "Enerji bir türden başka bir türe dönüşebilir. Yukarıdan bırakılan bir top düşerken yüksekliği azalır, sürati artar; potansiyel enerjisi kinetik enerjiye dönüşür. Yukarı atılan topta ise kinetik enerji potansiyel enerjiye dönüşür. Salıncakta ve lunapark trenlerinde bu dönüşümler sürekli yaşanır. Enerji yoktan var edilemez ve var olan enerji yok edilemez; yalnızca bir türden diğerine dönüşür. Buna enerjinin korunumu denir. Hareketli cisimlerde sürtünme nedeniyle enerjinin bir kısmı ısı enerjisine dönüşür. Bu yüzden zıplayan bir top her seferinde daha az yükselir, ancak toplam enerji değişmez.",
+     "points": [
+      "Düşen cisim: potansiyel → kinetik",
+      "Sürtünme: hareket enerjisinin bir kısmı ısıya dönüşür.",
+      "Toplam enerji korunur."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "İş",
+     "meaning": "Kuvvet ile kuvvet doğrultusunda alınan yolun çarpımı."
+    },
+    {
+     "term": "Enerji",
+     "meaning": "İş yapabilme yeteneği."
+    },
+    {
+     "term": "Joule",
+     "meaning": "İş ve enerji birimi; J ile gösterilir."
+    },
+    {
+     "term": "Kinetik enerji",
+     "meaning": "Hareket eden cisimlerin sahip olduğu enerji."
+    },
+    {
+     "term": "Çekim potansiyel enerjisi",
+     "meaning": "Yerden yüksekte bulunan cisimlerin sahip olduğu depolanmış enerji."
+    },
+    {
+     "term": "Esneklik potansiyel enerjisi",
+     "meaning": "Gerilmiş ya da sıkıştırılmış esnek cisimlerde depolanan enerji."
+    },
+    {
+     "term": "Isı",
+     "meaning": "Sürtünme gibi etkilerle enerji dönüşümünde ortaya çıkan enerji türü."
+    }
+   ],
+   "example": {
+    "question": "Bir öğrenci yerdeki bir kutuya yatay doğrultuda 40 N’luk kuvvet uygulayarak kutuyu aynı doğrultuda 5 m itiyor. Öğrencinin yaptığı iş kaç joule’dür?",
+    "solution": "1. adım: İş = Kuvvet × Yol.\n2. adım: İş = 40 N × 5 m = 200 J.\nCevap: 200 J."
+   },
+   "remember": [
+    "Kuvvet doğrultusunda yol alınmazsa fiziksel iş yapılmaz.",
+    "Kinetik enerji kütle ve sürate bağlıdır.",
+    "Çekim potansiyel enerjisi kütle ve yüksekliğe bağlıdır.",
+    "Enerji yoktan var olmaz, var iken yok olmaz; dönüşür."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 3,
+   "intro": "Bu ünitede vücudumuzdaki sindirim, dolaşım, solunum ve boşaltım sistemlerinin yapılarını ve görevlerini öğreniyoruz. Bu sistemleri sağlıklı tutmak için yapmamız gerekenleri, kan ve organ bağışının önemini de inceliyoruz.",
+   "sections": [
+    {
+     "title": "Sindirim Sistemi",
+     "text": "Besinlerin kana geçebilecek kadar küçük parçalara ayrılmasına sindirim denir. Sindirim kanalı sırasıyla ağız, yutak, yemek borusu, mide, ince bağırsak, kalın bağırsak ve anüsten oluşur. Besinlerin dişlerle parçalanması ve mide kaslarıyla karıştırılması fiziksel sindirimdir. Besinlerin enzimler yardımıyla daha küçük yapı birimlerine ayrılması ise kimyasal sindirimdir. Karbonhidratların sindirimi ağızda, proteinlerin sindirimi midede başlar; yağların sindirimi ise ince bağırsakta gerçekleşir. Sindirimin tamamlandığı ve besinlerin kana emildiği yer ince bağırsaktır. Karaciğer safra salgısı üretir, pankreas ise sindirim enzimleri salgılar. Kalın bağırsakta su ve mineraller emilir.",
+     "points": [
+      "Lifli besinler tüket, bol su iç.",
+      "Yemekleri iyice çiğne.",
+      "Dişlerini düzenli fırçala."
+     ]
+    },
+    {
+     "title": "Dolaşım Sistemi",
+     "text": "Dolaşım sistemi kalp, kan damarları ve kandan oluşur. Kalp, kanı vücuda pompalayan kaslı bir organdır ve dört odacıktan oluşur: iki kulakçık ve iki karıncık. Kalpten vücuda kan taşıyan damarlara atardamar, vücuttan kalbe kan getiren damarlara toplardamar denir. Kılcal damarlar ise atardamarlarla toplardamarlar arasında madde alışverişini sağlar. Kalpten akciğerlere gidip temizlenen kanın kalbe dönmesine küçük kan dolaşımı, kalpten vücuda gidip kalbe dönmesine büyük kan dolaşımı denir. Kalbin her kasılmasında atardamarlarda hissedilen vuruya nabız denir. Kan bağışı, ihtiyacı olan hastaların hayatını kurtaran önemli bir dayanışma davranışıdır.",
+     "points": [
+      "Düzenli egzersiz kalbi güçlendirir.",
+      "Aşırı tuzlu ve yağlı besinlerden kaçın.",
+      "Kan ve organ bağışı hayat kurtarır."
+     ]
+    },
+    {
+     "title": "Solunum Sistemi",
+     "text": "Solunum sistemi vücuda oksijen alınmasını ve karbondioksitin dışarı atılmasını sağlar. Hava burun yoluyla alınır; burunda ısıtılır, nemlendirilir ve tozlardan temizlenir. Ardından yutak, gırtlak, soluk borusu ve bronşlar yoluyla akciğerlere ulaşır. Akciğerlerdeki küçük hava keseciklerinde gaz alışverişi gerçekleşir: oksijen kana geçer, karbondioksit kandan hava keseciklerine geçer. Soluk alma sırasında diyafram kası kasılarak aşağı iner ve göğüs boşluğu genişler. Soluk vermede ise diyafram gevşeyip yukarı çıkar. Sigara ve tütün ürünleri solunum sistemine büyük zarar verir. Yeşilay, bağımlılıkla mücadele eden köklü bir kuruluştur.",
+     "points": [
+      "Burundan nefes al.",
+      "Sigara dumanından uzak dur.",
+      "Kapalı ortamları sık sık havalandır."
+     ]
+    },
+    {
+     "title": "Boşaltım Sistemi",
+     "text": "Vücutta oluşan zararlı ve fazla maddelerin dışarı atılmasına boşaltım denir. Boşaltım sistemi böbrekler, üreter (idrar borusu), mesane (idrar kesesi) ve üretradan (idrar kanalı) oluşur. Böbrekler kanı süzerek üre gibi atık maddeleri ve fazla suyu ayırır ve idrarı oluşturur. İdrar, üreterler aracılığıyla mesaneye taşınır ve burada depolanır. Mesane dolunca idrar üretra yoluyla vücuttan dışarı atılır. Deri de ter yoluyla su ve tuzları atarak boşaltıma yardım eder. Akciğerler ise karbondioksit ve su buharını atar. Böbrek sağlığı için yeterli su içmek ve tuz tüketimini sınırlamak önemlidir.",
+     "points": [
+      "Böbrek → üreter → mesane → üretra",
+      "Günde yeterli miktarda su iç.",
+      "Tuvalet ihtiyacını uzun süre erteleme."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Enzim",
+     "meaning": "Kimyasal sindirimi hızlandıran ve gerçekleştiren madde."
+    },
+    {
+     "term": "Kimyasal sindirim",
+     "meaning": "Besinlerin enzimlerle yapı birimlerine ayrılması."
+    },
+    {
+     "term": "İnce bağırsak",
+     "meaning": "Sindirimin tamamlandığı ve besinlerin kana emildiği organ."
+    },
+    {
+     "term": "Atardamar",
+     "meaning": "Kalpten vücuda kan taşıyan damar."
+    },
+    {
+     "term": "Nabız",
+     "meaning": "Kalbin kasılmasıyla atardamarlarda hissedilen vuru."
+    },
+    {
+     "term": "Akciğerler",
+     "meaning": "Gaz alışverişinin gerçekleştiği solunum organları."
+    },
+    {
+     "term": "Böbrekler",
+     "meaning": "Kanı süzerek idrar oluşturan boşaltım organları."
+    },
+    {
+     "term": "Bağımlılık",
+     "meaning": "Bir maddeye ya da davranışa karşı kontrol edilemeyen istek."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Sindirim ince bağırsakta tamamlanır.",
+    "Atardamar kalpten vücuda, toplardamar vücuttan kalbe kan taşır.",
+    "Gaz alışverişi akciğerlerdeki hava keseciklerinde olur.",
+    "Böbrekler kanı süzerek idrar oluşturur."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 4,
+   "intro": "Bu ünitede ışığın bir ortamdan başka bir ortama geçerken yön değiştirmesini, yani kırılmayı, ve mercekleri öğreniyoruz. Gözlük, büyüteç, fotoğraf makinesi ve mikroskop merceklerin günlük hayattaki uygulamalarıdır.",
+   "sections": [
+    {
+     "title": "Işığın Kırılması",
+     "text": "Işık, yoğunlukları farklı saydam ortamlar arasında geçerken hızı değiştiği için doğrultusunu değiştirir. Bu olaya ışığın kırılması denir. Işığın geldiği ortamdaki ışına gelen ışın, ikinci ortamda ilerleyen ışına kırılan ışın denir. Gelen ışının yüzey normali ile yaptığı açıya gelme açısı, kırılan ışının normalle yaptığı açıya kırılma açısı denir. Işık az yoğun ortamdan çok yoğun ortama geçerken, örneğin havadan suya, normale yaklaşarak kırılır. Çok yoğun ortamdan az yoğun ortama geçerken ise normalden uzaklaşarak kırılır. Normal doğrultusunda gelen ışık kırılmadan geçer.",
+     "points": [
+      "Havadan suya: normale yaklaşır.",
+      "Sudan havaya: normalden uzaklaşır.",
+      "Dik gelen ışın kırılmaz."
+     ]
+    },
+    {
+     "title": "Kırılmanın Günlük Hayattaki Etkileri",
+     "text": "Işığın kırılması günlük hayatta pek çok olayın nedenidir. Su dolu bir bardağa konulan kalemin kırık görünmesi, havuzun ya da derenin olduğundan daha sığ görünmesi kırılmadan kaynaklanır. Sudaki bir balığı gördüğümüz yer, balığın gerçek yerinden biraz farklıdır. Gökkuşağı da güneş ışığının yağmur damlalarında kırılarak renklerine ayrılmasıyla oluşur. Sıcak yaz günlerinde asfalt yolda su birikintisi varmış gibi görünmesi de sıcaklığı farklı hava katmanlarında ışığın kırılmasıyla ilgilidir. Bu olayları açıklarken ışığın ortam değiştirdiğinde doğrultusunun değiştiğini hatırlarız.",
+     "points": [
+      "Havuz olduğundan sığ görünür.",
+      "Gökkuşağı kırılma ile oluşur."
+     ]
+    },
+    {
+     "title": "Mercekler",
+     "text": "En az bir yüzeyi küresel olan saydam cisimlere mercek denir. Kenarları ince, ortası kalın olan merceklere ince kenarlı mercek denir. İnce kenarlı mercekler üzerlerine paralel gelen ışınları kırarak bir noktada toplar; bu noktaya odak noktası denir. Bu yüzden ince kenarlı merceklere yakınsak mercek de denir. Kenarları kalın, ortası ince olan merceklere kalın kenarlı mercek denir. Kalın kenarlı mercekler paralel gelen ışınları dağıtır; bu yüzden ıraksak mercek de denir. İnce kenarlı mercek yakındaki cisimleri büyük gösterir; büyüteç bu tür bir mercektir. Kalın kenarlı mercekten bakıldığında cisimler küçük görünür.",
+     "points": [
+      "İnce kenarlı: ışığı toplar, büyüteç.",
+      "Kalın kenarlı: ışığı dağıtır.",
+      "Büyüteçle asla güneşe bakma."
+     ]
+    },
+    {
+     "title": "Merceklerin Kullanım Alanları",
+     "text": "Mercekler gözlük, büyüteç, mikroskop, teleskop, dürbün, fotoğraf makinesi ve projeksiyon cihazı gibi pek çok araçta kullanılır. Gözümüzde de doğal bir mercek bulunur. Uzağı net göremeyen kişilerde, yani miyop gözde, görüntü göz merceğinin önünde oluşur; bu kusur kalın kenarlı mercekli gözlükle düzeltilir. Yakını net göremeyen kişilerde, yani hipermetrop gözde, görüntü gözün arkasında oluşur; bu kusur ince kenarlı mercekli gözlükle düzeltilir. Mikroskop ve teleskoplarda birden fazla mercek bir arada kullanılarak çok küçük ya da çok uzak cisimler büyütülerek incelenir.",
+     "points": [
+      "Miyop: kalın kenarlı mercekle düzeltilir.",
+      "Hipermetrop: ince kenarlı mercekle düzeltilir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Kırılma",
+     "meaning": "Işığın farklı saydam ortamlar arasında geçerken doğrultusunu değiştirmesi."
+    },
+    {
+     "term": "Kırılan ışın",
+     "meaning": "İkinci ortamda ilerleyen ışın."
+    },
+    {
+     "term": "Kırılma açısı",
+     "meaning": "Kırılan ışının yüzey normali ile yaptığı açı."
+    },
+    {
+     "term": "İnce kenarlı mercek",
+     "meaning": "Ortası kalın, kenarları ince olan, ışığı toplayan mercek."
+    },
+    {
+     "term": "Kalın kenarlı mercek",
+     "meaning": "Ortası ince, kenarları kalın olan, ışığı dağıtan mercek."
+    },
+    {
+     "term": "Odak noktası",
+     "meaning": "Merceğe paralel gelen ışınların toplandığı ya da uzantılarının kesiştiği nokta."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Işık az yoğun ortamdan çok yoğuna geçerken normale yaklaşır.",
+    "Normal doğrultusunda gelen ışık kırılmaz.",
+    "İnce kenarlı mercek ışığı toplar, kalın kenarlı dağıtır.",
+    "Büyüteçle güneşe bakmak gözlere zarar verir."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 5,
+   "intro": "Bu ünitede maddenin yapı taşı olan atomu, elementleri ve bileşikleri, periyodik tabloyu, karışımları ve karışımları ayırma yöntemlerini öğreniyoruz. Bilimsel bilginin zamanla nasıl değişebildiğini atom modelleri üzerinden inceliyoruz.",
+   "sections": [
+    {
+     "title": "Atomun Yapısı ve Bilimsel Bilgi",
+     "text": "Maddeyi oluşturan en küçük yapı birimine atom denir. Atomun merkezinde çekirdek bulunur. Çekirdekte pozitif yüklü protonlar ve yüksüz nötronlar vardır. Çekirdeğin çevresindeki katmanlarda ise negatif yüklü elektronlar hareket eder. Nötr bir atomda proton sayısı elektron sayısına eşittir. Bir elementi diğerlerinden ayıran özellik proton sayısıdır. Atom hakkındaki düşünceler tarih boyunca değişmiştir. Bilim insanları yeni deneyler ve kanıtlar ortaya çıktıkça atom modellerini geliştirmiştir. Bu durum, bilimsel bilginin yeni kanıtlar ışığında değişebileceğini ve geliştirilebileceğini gösterir.",
+     "points": [
+      "Proton: +, çekirdekte.",
+      "Nötron: yüksüz, çekirdekte.",
+      "Elektron: −, katmanlarda."
+     ]
+    },
+    {
+     "title": "Element, Bileşik ve Periyodik Tablo",
+     "text": "Aynı cins atomlardan oluşan saf maddelere element denir. Elementler sembollerle gösterilir: H hidrojen, He helyum, C karbon, N azot, O oksijen, Na sodyum, Mg magnezyum, Al alüminyum, Cl klor gibi. Periyodik tabloda elementler proton sayılarına göre sıralanır. Tablodaki yatay sıralara periyot, dikey sütunlara grup denir; periyodik tabloda 7 periyot ve 18 grup vardır. Aynı gruptaki elementlerin kimyasal özellikleri birbirine benzer. Farklı cins atomların belirli oranlarda kimyasal olarak birleşmesiyle oluşan saf maddelere ise bileşik denir. Bileşikler formüllerle gösterilir: su H₂O, karbondioksit CO₂, sofra tuzu NaCl. İki ya da daha fazla atomun bir araya gelerek oluşturduğu yapıya molekül denir; O₂ ve H₂O birer moleküldür.",
+     "points": [
+      "Periyot: yatay sıra; grup: dikey sütun.",
+      "Element: tek cins atom; bileşik: farklı cins atomlar.",
+      "Bileşik, kendisini oluşturan elementlerin özelliklerini taşımaz."
+     ]
+    },
+    {
+     "title": "Karışımlar ve Çözünme",
+     "text": "Birden fazla maddenin kimyasal özelliklerini kaybetmeden bir araya gelmesiyle oluşan maddelere karışım denir. Her yerinde aynı özelliği gösteren, bileşenleri ayırt edilemeyen karışımlara homojen karışım ya da çözelti denir; tuzlu su ve şekerli su gibi. Bileşenleri gözle ayırt edilebilen karışımlara heterojen karışım denir; zeytinyağı-su ve kum-su gibi. Çözeltide az miktarda bulunan maddeye çözünen, çok miktarda bulunana çözücü denir. Çözünme hızı; sıcaklık, karıştırma ve çözünenin tanecik boyutu gibi etkenlere bağlıdır. Sıcaklık arttıkça, karıştırıldıkça ve tanecikler küçüldükçe katıların çözünme hızı genellikle artar.",
+     "points": [
+      "Toz şeker küp şekerden hızlı çözünür.",
+      "Sıcak suda çözünme daha hızlıdır.",
+      "Karıştırmak çözünmeyi hızlandırır."
+     ]
+    },
+    {
+     "title": "Karışımları Ayırma Yöntemleri",
+     "text": "Karışımlar, bileşenlerinin farklı özelliklerinden yararlanılarak ayrılır. Buharlaştırma, çözünmüş bir katıyı çözücüden ayırmak için kullanılır; deniz suyundan tuz elde etmek buna örnektir. Bu yöntemde çözücü buharlaşıp gider, katı geride kalır. Yoğunluk farkıyla ayırma, birbirine karışmayan ve yoğunlukları farklı sıvıları ya da katıları ayırmak için kullanılır. Zeytinyağı ile su ayırma hunisiyle bu yöntemle ayrılır. Damıtma ise kaynama noktaları farklı sıvıların ya da bir çözeltideki çözücünün ayrılması için kullanılır. Karışım ısıtılır, önce kaynama noktası düşük olan madde buharlaşır, buhar soğutularak yoğuşturulur ve ayrı bir kapta toplanır.",
+     "points": [
+      "Buharlaştırma: tuzlu sudan tuz.",
+      "Yoğunluk farkı: zeytinyağı ve su.",
+      "Damıtma: kaynama noktası farkı."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Atom",
+     "meaning": "Maddenin en küçük yapı birimi."
+    },
+    {
+     "term": "Proton",
+     "meaning": "Atom çekirdeğindeki pozitif yüklü tanecik."
+    },
+    {
+     "term": "Elektron",
+     "meaning": "Çekirdeğin çevresindeki katmanlarda bulunan negatif yüklü tanecik."
+    },
+    {
+     "term": "Element",
+     "meaning": "Aynı cins atomlardan oluşan saf madde."
+    },
+    {
+     "term": "Bileşik",
+     "meaning": "Farklı cins atomların belirli oranda kimyasal birleşmesiyle oluşan saf madde."
+    },
+    {
+     "term": "Molekül",
+     "meaning": "İki ya da daha fazla atomun bağlanmasıyla oluşan yapı."
+    },
+    {
+     "term": "Homojen karışım",
+     "meaning": "Her yerinde aynı özelliği gösteren karışım; çözelti."
+    },
+    {
+     "term": "Heterojen karışım",
+     "meaning": "Bileşenleri ayırt edilebilen karışım."
+    }
+   ],
+   "example": {
+    "question": "Bir nötr atomun çekirdeğinde 8 proton ve 8 nötron bulunuyor. Bu atomun kaç elektronu vardır ve hangi elemente aittir?",
+    "solution": "1. adım: Nötr atomda elektron sayısı proton sayısına eşittir: 8 elektron.\n2. adım: Elementi proton sayısı belirler. Proton sayısı 8 olan element oksijendir (O).\nCevap: 8 elektron; oksijen."
+   },
+   "remember": [
+    "Elementi proton sayısı belirler.",
+    "Periyot yatay, grup dikeydir.",
+    "Çözeltiler homojen karışımdır.",
+    "Damıtma kaynama noktası farkına dayanır."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 6,
+   "intro": "Bu ünitede cisimlerin nasıl elektriklendiğini, elektrik yüklerinin çeşitlerini ve yüklü cisimlerin birbirini nasıl etkilediğini öğreniyoruz. Saçımızı tararken çıkan çıtırtılar ve şimşek, elektriklenmenin günlük hayattaki örnekleridir.",
+   "sections": [
+    {
+     "title": "Elektrik Yükleri",
+     "text": "Maddeyi oluşturan atomlarda pozitif yüklü protonlar ve negatif yüklü elektronlar bulunur. Bir cisimdeki toplam pozitif yük miktarı negatif yük miktarına eşitse cisim nötrdür. Elektron alan cisimlerde negatif yük fazlalığı oluşur ve cisim negatif yüklü olur. Elektron veren cisimlerde ise pozitif yük fazlalığı oluşur ve cisim pozitif yüklü olur. Elektriklenmede yer değiştiren tanecikler elektronlardır; protonlar çekirdekte bulunduğu için yer değiştirmez. Aynı cins yüklü cisimler birbirini iter, zıt cins yüklü cisimler birbirini çeker. Yüklü cisimler nötr cisimleri de çekebilir.",
+     "points": [
+      "Aynı yükler iter, zıt yükler çeker.",
+      "Elektriklenmede yalnızca elektronlar yer değiştirir."
+     ]
+    },
+    {
+     "title": "Elektriklenme Çeşitleri",
+     "text": "Nötr bir cismin yük kazanmasına elektriklenme denir. İki farklı cisim birbirine sürtüldüğünde cisimlerden biri diğerine elektron verir; buna sürtünme ile elektriklenme denir. Örneğin plastik bir tarakla saçımızı taradığımızda tarak ve saç zıt yüklerle yüklenir. Yüklü bir cisim nötr ya da farklı yüklü bir cisme dokundurulduğunda cisimler arasında elektron geçişi olur; buna dokunma ile elektriklenme denir. Bu yöntemde cisimler aynı cins yükle yüklenir. Yüklü bir cisim nötr bir cisme dokunmadan yaklaştırıldığında, nötr cisimdeki yükler yer değiştirerek kutuplanır; buna etki ile elektriklenme denir.",
+     "points": [
+      "Sürtünme ile: cisimler zıt yüklenir.",
+      "Dokunma ile: cisimler aynı cins yüklenir.",
+      "Etki ile: dokunmadan yükler ayrışır."
+     ]
+    },
+    {
+     "title": "Elektroskop ve Topraklama",
+     "text": "Bir cismin yüklü olup olmadığını ve yükünün cinsini anlamaya yarayan araca elektroskop denir. Elektroskopta metal bir topuz, metal bir çubuk ve çubuğun ucunda iki ince metal yaprak bulunur. Yüklü bir cisim topuza dokundurulduğunda yük yapraklara yayılır, aynı cins yüklenen yapraklar birbirini iterek açılır. Elektroskopun yükünün cinsi biliniyorsa, yaklaştırılan cismin yükü yaprakların daha çok açılıp açılmamasına bakılarak bulunabilir. Yüklü bir cismin fazla yükünü toprağa aktararak nötr hâle gelmesine topraklama denir. Binalardaki paratonerler yıldırımın yükünü güvenli biçimde toprağa ileterek binaları korur.",
+     "points": [
+      "Yapraklar açılıyorsa elektroskop yüklüdür.",
+      "Paratoner yıldırımın yükünü toprağa iletir.",
+      "Şimşekli havada açık alanda ve ağaç altında durma."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Pozitif yüklü cisim",
+     "meaning": "Pozitif yük miktarı negatif yükten fazla olan cisim."
+    },
+    {
+     "term": "Negatif yüklü cisim",
+     "meaning": "Negatif yük miktarı pozitif yükten fazla olan cisim."
+    },
+    {
+     "term": "Nötr cisim",
+     "meaning": "Pozitif ve negatif yük miktarları eşit olan cisim."
+    },
+    {
+     "term": "Temaslı elektriklenme",
+     "meaning": "Sürtünme ya da dokunma ile cisimler arasında elektron geçişi olması."
+    },
+    {
+     "term": "Temassız elektriklenme",
+     "meaning": "Yüklü cismin dokunmadan yaklaştırılmasıyla yüklerin ayrışması; etki ile elektriklenme."
+    },
+    {
+     "term": "Elektroskop",
+     "meaning": "Cisimlerin yüklü olup olmadığını ve yük cinsini anlamaya yarayan araç."
+    },
+    {
+     "term": "Topraklama",
+     "meaning": "Yüklü bir cismin fazla yükünü toprağa aktararak nötrleşmesi."
+    }
+   ],
+   "example": {
+    "question": "Nötr bir yün kumaş ile nötr bir plastik çubuk birbirine sürtülüyor ve plastik çubuk negatif yükle yükleniyor. Yün kumaşın yükü ne olur? Neden?",
+    "solution": "1. adım: Plastik çubuk negatif yüklendiğine göre yünden elektron almıştır.\n2. adım: Elektron veren yün kumaşta pozitif yük fazlalığı oluşur.\nCevap: Yün kumaş pozitif yüklenir; sürtünme ile elektriklenmede cisimler zıt yüklenir."
+   },
+   "remember": [
+    "Aynı cins yükler iter, zıt cins yükler çeker.",
+    "Elektriklenmede yer değiştiren elektronlardır.",
+    "Sürtünmede zıt, dokunmada aynı cins yük oluşur.",
+    "Elektroskop yük olup olmadığını gösterir."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 7,
+   "intro": "Bu ünitede ekosistemdeki canlıların besin ilişkilerini, enerji akışını ve biyolojik birikimi öğreniyoruz. Su başta olmak üzere kaynakların tasarruflu kullanımının sürdürülebilir bir yaşam için önemini sorguluyoruz.",
+   "sections": [
+    {
+     "title": "Besin Zinciri ve Besin Ağı",
+     "text": "Kendi besinini kendisi üretebilen canlılara üretici denir; yeşil bitkiler ve algler fotosentezle besin üretir. Besinini dışarıdan hazır alan canlılara tüketici denir. Bitkilerle beslenen otçullar birincil tüketicidir; otçullarla beslenen etçiller ikincil tüketicidir. Ölü canlıları ve atıkları parçalayarak toprağa mineral kazandıran bakteri ve mantarlara ayrıştırıcı denir. Canlıların beslenme ilişkisine göre art arda sıralanmasına besin zinciri denir: ot → çekirge → kurbağa → yılan → kartal. Doğada bir canlı birden fazla canlıyla beslenebilir. Birbirine bağlı birçok besin zincirinin oluşturduğu yapıya besin ağı denir.",
+     "points": [
+      "Üretici → birincil tüketici → ikincil tüketici",
+      "Ayrıştırıcılar madde döngüsünü sağlar."
+     ]
+    },
+    {
+     "title": "Ekoloji Piramidi ve Biyolojik Birikim",
+     "text": "Besin zincirindeki canlıların sayı, kütle ya da enerji bakımından basamaklar hâlinde gösterilmesine ekoloji piramidi denir. Piramidin tabanında üreticiler bulunur. Bir basamaktan diğerine geçerken enerjinin büyük kısmı canlıların yaşamsal faaliyetlerinde kullanılır ve ısı olarak kaybolur. Bu nedenle piramidin tabanından tepesine doğru aktarılan enerji azalır. Bazı zararlı maddeler, örneğin bazı tarım ilaçları ve ağır metaller, canlıların vücudundan atılamaz ve birikir. Besin zincirinde yukarı çıkıldıkça bu maddelerin vücuttaki miktarı artar. Bu duruma biyolojik birikim denir. Bu yüzden zincirin en üstündeki canlılar en çok etkilenir.",
+     "points": [
+      "Tabandan tepeye: enerji azalır.",
+      "Tabandan tepeye: biyolojik birikim artar."
+     ]
+    },
+    {
+     "title": "Kaynakların Tasarruflu Kullanımı",
+     "text": "Gelecek nesillerin ihtiyaçlarını tehlikeye atmadan bugünkü ihtiyaçlarımızı karşılamamıza sürdürülebilir yaşam denir. Dünya’daki suyun büyük kısmı tuzlu sudur; insanların kullanabileceği tatlı su kaynakları oldukça sınırlıdır. Bir ürünün üretimi ve kullanımı sırasında harcanan toplam tatlı su miktarına su ayak izi denir. Evlerde, sanayide ve tarımda kullanılan ve kirlenen suya atık su denir. Atık sular arıtılmadan doğaya bırakıldığında su kaynaklarını kirletir. Dişlerimizi fırçalarken musluğu kapatmak, kısa duş almak, damlayan muslukları onarmak ve gereksiz tüketimden kaçınmak su ayak izimizi azaltır.",
+     "points": [
+      "Musluğu gereksiz yere açık bırakma.",
+      "Damlayan muslukları onart.",
+      "Gereksiz alışverişten kaçın."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Üretici",
+     "meaning": "Kendi besinini fotosentezle üreten canlı."
+    },
+    {
+     "term": "Tüketici",
+     "meaning": "Besinini dışarıdan hazır alan canlı."
+    },
+    {
+     "term": "Ayrıştırıcı",
+     "meaning": "Ölü canlı ve atıkları parçalayan bakteri ve mantarlar."
+    },
+    {
+     "term": "Besin ağı",
+     "meaning": "Birbirine bağlı besin zincirlerinin oluşturduğu yapı."
+    },
+    {
+     "term": "Ekoloji piramidi",
+     "meaning": "Besin zincirindeki canlıların basamaklar hâlinde gösterimi."
+    },
+    {
+     "term": "Biyolojik birikim",
+     "meaning": "Zararlı maddelerin besin zincirinde yukarı doğru artarak birikmesi."
+    },
+    {
+     "term": "Su ayak izi",
+     "meaning": "Bir ürün ya da kişi için harcanan toplam tatlı su miktarı."
+    },
+    {
+     "term": "Sürdürülebilir yaşam",
+     "meaning": "Gelecek nesillerin ihtiyaçlarını koruyarak bugünkü ihtiyaçları karşılama."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Besin zinciri her zaman üreticiyle başlar.",
+    "Ekoloji piramidinde yukarı çıktıkça enerji azalır.",
+    "Biyolojik birikim en çok zincirin tepesindeki canlıları etkiler.",
+    "Tatlı su sınırlıdır; tasarruflu kullan."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 1,
+   "intro": "Bu ünitede mevsimlerin nasıl oluştuğunu, Dünya’nın eksen eğikliğinin ve Güneş etrafındaki dolanmasının sonuçlarını öğreniyoruz. Ayrıca hava olayları ile iklim arasındaki farkı ve bu alanlarda çalışan bilim insanlarını tanıyoruz.",
+   "sections": [
+    {
+     "title": "Eksen Eğikliği ve Mevsimler",
+     "text": "Dünya, Güneş etrafında bir düzlem üzerinde dolanır; bu düzleme dolanma düzlemi denir. Dünya’nın dönme ekseni, dolanma düzlemine dik değildir; yaklaşık 23,5° eğiktir. Buna eksen eğikliği denir. Dünya, eksen eğikliği nedeniyle Güneş etrafında dolanırken yarım kürelerden biri Güneş ışınlarını daha dik açıyla, diğeri daha eğik açıyla alır. Işınların dik geldiği yarım kürede birim yüzeye düşen enerji fazla olur ve yaz yaşanır. Işınların eğik geldiği yarım kürede ise enerji daha geniş alana yayılır ve kış yaşanır. Mevsimler, Dünya’nın Güneş’e yakın ya da uzak olmasından değil, eksen eğikliğinden kaynaklanır.",
+     "points": [
+      "Mevsimlerin nedeni: eksen eğikliği ve dolanma.",
+      "Işınlar dik gelirse sıcaklık artar.",
+      "Yarım kürelerde mevsimler birbirinin tersidir."
+     ]
+    },
+    {
+     "title": "Önemli Tarihler",
+     "text": "21 Haziran’da Güneş ışınları Yengeç Dönencesi’ne dik gelir. Kuzey Yarım Küre’de yaz başlar ve en uzun gündüz yaşanır; Güney Yarım Küre’de ise kış başlar. 21 Aralık’ta ışınlar Oğlak Dönencesi’ne dik gelir; Kuzey Yarım Küre’de kış başlar ve en uzun gece yaşanır. 21 Mart ve 23 Eylül tarihlerinde ışınlar ekvatora dik gelir. Bu tarihlere ekinoks denir; tüm dünyada gece ve gündüz süreleri birbirine eşittir. 21 Mart’ta Kuzey Yarım Küre’de ilkbahar, 23 Eylül’de sonbahar başlar. Türkiye Kuzey Yarım Küre’de yer aldığı için bu mevsimleri yaşar.",
+     "points": [
+      "21 Haziran: Kuzey’de en uzun gündüz.",
+      "21 Aralık: Kuzey’de en uzun gece.",
+      "21 Mart ve 23 Eylül: ekinoks, gece = gündüz."
+     ]
+    },
+    {
+     "title": "Gölge Boyu ve Işının Düşme Açısı",
+     "text": "Güneş ışınlarının yeryüzüne düşme açısı büyüdükçe, yani ışınlar dike yaklaştıkça cisimlerin gölge boyu kısalır. Işınların düştüğü alan küçüldüğü için birim alana düşen enerji ve sıcaklık artar. Işınlar eğik geldiğinde ise gölge boyu uzar ve aynı enerji daha geniş bir alana yayılır. Türkiye’de gölge boyu, ışınların en dik geldiği 21 Haziran’da en kısa, en eğik geldiği 21 Aralık’ta en uzundur. Bir gün içinde de gölge boyu değişir; öğle saatlerinde en kısa, sabah ve akşam saatlerinde en uzundur.",
+     "points": [
+      "Dik ışın: kısa gölge, yüksek sıcaklık.",
+      "Eğik ışın: uzun gölge, düşük sıcaklık."
+     ]
+    },
+    {
+     "title": "Hava Olayları ve İklim",
+     "text": "Bir yerde kısa süre içinde görülen sıcaklık, yağış, rüzgâr, nem gibi atmosfer olaylarına hava olayları denir. Hava olayları saatler ya da günler içinde değişebilir. Hava olaylarını inceleyen bilim dalına meteoroloji, bu alanda çalışan bilim insanına meteorolog denir. Geniş bir bölgede uzun yıllar boyunca görülen hava olaylarının ortalamasına ise iklim denir. İklimi inceleyen bilim dalına iklim bilimi (klimatoloji), bu alanda çalışan bilim insanına iklim bilimci (klimatolog) denir. Bugün yağmur yağması bir hava olayıdır; bir bölgenin yazlarının sıcak ve kurak geçmesi ise iklimle ilgilidir.",
+     "points": [
+      "Hava olayları: kısa süreli, küçük alan.",
+      "İklim: uzun yıllar, geniş alan."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Eksen eğikliği",
+     "meaning": "Dünya’nın dönme ekseninin dolanma düzlemine göre eğik olması."
+    },
+    {
+     "term": "Dolanma düzlemi",
+     "meaning": "Dünya’nın Güneş etrafında dolanırken izlediği düzlem."
+    },
+    {
+     "term": "Ekinoks",
+     "meaning": "Gece ve gündüzün eşit olduğu, ışınların ekvatora dik geldiği tarih."
+    },
+    {
+     "term": "Dönence",
+     "meaning": "Güneş ışınlarının dik gelebildiği en kuzey ve en güney paraleller."
+    },
+    {
+     "term": "Ekvator",
+     "meaning": "Dünya’yı Kuzey ve Güney yarım kürelere ayıran hayalî çizgi."
+    },
+    {
+     "term": "İklim",
+     "meaning": "Geniş bir bölgede uzun yıllar görülen hava olaylarının ortalaması."
+    },
+    {
+     "term": "Meteoroloji",
+     "meaning": "Hava olaylarını inceleyen bilim dalı."
+    },
+    {
+     "term": "Meteorolog",
+     "meaning": "Hava olaylarını inceleyen bilim insanı."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Mevsimler eksen eğikliği ve dolanma hareketi ile oluşur.",
+    "Işınlar dik geldikçe gölge kısalır, sıcaklık artar.",
+    "Ekinokslarda tüm dünyada gece ve gündüz eşittir.",
+    "Hava olayları kısa süreli, iklim uzun sürelidir."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 2,
+   "intro": "Bu ünitede işlerimizi kolaylaştıran basit makineleri öğreniyoruz. Kaldıraç, makara, eğik düzlem, çıkrık, vida ve dişli çarklar kuvvetten ya da yoldan kazanç sağlayarak hayatımızı kolaylaştırır.",
+   "sections": [
+    {
+     "title": "Basit Makineler ve Kaldıraçlar",
+     "text": "Kuvvetin yönünü veya büyüklüğünü değiştirerek iş kolaylığı sağlayan araçlara basit makine denir. Basit makineye uygulanan kuvvete giriş kuvveti, makinenin yüke uyguladığı kuvvete çıkış kuvveti denir. Basit makineler işten kazanç sağlamaz. Kuvvetten kazanç sağlanıyorsa yoldan kayıp olur. Kaldıraç, bir destek noktası etrafında dönebilen sert bir çubuktan oluşur. Destek noktası kuvvet ile yük arasında olabilir; makas ve tahterevalli buna örnektir. Yük, destek ile kuvvet arasında olabilir; el arabası ve fındıkkıran buna örnektir. Kuvvet, destek ile yük arasında olabilir; cımbız ve maşa buna örnektir. Kuvvet kolu yük kolundan uzunsa kuvvetten kazanç sağlanır.",
+     "points": [
+      "Basit makineler işten kazanç sağlamaz.",
+      "Kuvvetten kazanç varsa yoldan kayıp vardır.",
+      "Kuvvet kolu uzadıkça gereken kuvvet azalır."
+     ]
+    },
+    {
+     "title": "Makaralar",
+     "text": "Bir eksen etrafında dönebilen, çevresinde ip geçecek bir oluk bulunan tekerleğe makara denir. Sabit makara bir yere tutturulmuştur ve yükle birlikte hareket etmez. Sabit makara kuvvetten kazanç sağlamaz, yalnızca kuvvetin yönünü değiştirir; bayrak direkleri ve kuyulardaki makaralar buna örnektir. Hareketli makara ise yükle birlikte hareket eder. Sürtünmeler ve makara ağırlığı önemsenmezse hareketli makara yükü kaldırmak için gereken kuvveti yarıya indirir, ancak ipin iki kat çekilmesi gerekir. Sabit ve hareketli makaraların birlikte kullanılmasıyla oluşan düzeneğe makara sistemi ya da palanga denir; inşaatlarda ve vinçlerde kullanılır.",
+     "points": [
+      "Sabit makara: yön değiştirir, kuvvet kazancı yok.",
+      "Hareketli makara: kuvvetten kazanç, yoldan kayıp."
+     ]
+    },
+    {
+     "title": "Eğik Düzlem, Vida, Çıkrık ve Dişliler",
+     "text": "Yükleri yükseğe çıkarmak için kullanılan eğimli yüzeylere eğik düzlem denir. Rampalar, merdivenler ve dağ yolları eğik düzlem örneğidir. Eğik düzlemin uzunluğu arttıkça, yani eğimi azaldıkça uygulanması gereken kuvvet azalır. Vida, bir silindir etrafına sarılmış eğik düzlem gibidir; vida adımları sıklaştıkça kuvvet kazancı artar. Çıkrık, aynı eksen etrafında dönen farklı yarıçaplı iki silindirden oluşur; kuyu çıkrığı, kapı kolu ve direksiyon buna örnektir. Kuvvet büyük yarıçaplı kısımdan uygulanırsa kuvvetten kazanç sağlanır. Dişli çarklar ve kasnaklar hareketi ve kuvveti iletir; bisiklet ve saatlerde kullanılır. Birden fazla basit makinenin bir araya gelmesiyle bileşik makine oluşur.",
+     "points": [
+      "Rampa uzadıkça gereken kuvvet azalır.",
+      "Bisiklet bir bileşik makinedir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Basit makine",
+     "meaning": "Kuvvetin yönünü ya da büyüklüğünü değiştirerek iş kolaylığı sağlayan araç."
+    },
+    {
+     "term": "Kaldıraç",
+     "meaning": "Bir destek noktası etrafında dönebilen sert çubuk."
+    },
+    {
+     "term": "Sabit makara",
+     "meaning": "Yerinde sabit duran, yalnızca kuvvetin yönünü değiştiren makara."
+    },
+    {
+     "term": "Hareketli makara",
+     "meaning": "Yükle birlikte hareket eden ve kuvvetten kazanç sağlayan makara."
+    },
+    {
+     "term": "Eğik düzlem",
+     "meaning": "Yükleri yükseğe çıkarmak için kullanılan eğimli yüzey."
+    },
+    {
+     "term": "Çıkrık",
+     "meaning": "Aynı eksen etrafında dönen farklı yarıçaplı silindirlerden oluşan basit makine."
+    },
+    {
+     "term": "Giriş kuvveti",
+     "meaning": "Basit makineye uygulanan kuvvet."
+    },
+    {
+     "term": "Bileşik makine",
+     "meaning": "Birden fazla basit makinenin birleşmesiyle oluşan makine."
+    }
+   ],
+   "example": {
+    "question": "Ağırlığı 600 N olan bir yük, tek bir hareketli makara ile kaldırılmak isteniyor. Makara ağırlığı ve sürtünmeler önemsenmezse uygulanması gereken kuvvet kaç N’dur? Yükü 2 m yükseltmek için ip kaç metre çekilmelidir?",
+    "solution": "1. adım: Hareketli makara kuvveti yarıya indirir: 600 ÷ 2 = 300 N.\n2. adım: Kuvvetten kazanç kadar yoldan kayıp olur; ip yükün iki katı kadar çekilir: 2 × 2 = 4 m.\nCevap: 300 N; 4 m."
+   },
+   "remember": [
+    "Basit makineler işi kolaylaştırır ama işten kazanç sağlamaz.",
+    "Sabit makara yalnızca yönü değiştirir.",
+    "Kuvvetten kazanç varsa yoldan kayıp vardır.",
+    "Eğik düzlemin boyu uzadıkça kuvvet azalır."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 3,
+   "intro": "Bu ünitede kalıtsal bilgiyi taşıyan DNA’yı, hücre bölünmelerini, özelliklerin anne babadan yavrulara nasıl aktarıldığını, mutasyonu ve canlıların çevreye uyumunu öğreniyoruz.",
+   "sections": [
+    {
+     "title": "DNA, Gen ve Kromozom",
+     "text": "Canlıların kalıtsal özelliklerini belirleyen ve yeni nesillere aktaran molekül DNA’dır. DNA, hücrenin çekirdeğinde bulunur ve sarmal bir merdivene benzeyen çift zincirli bir yapıya sahiptir. DNA’nın yapı birimi nükleotiddir. Bir nükleotid; fosfat, şeker (deoksiriboz) ve bir organik bazdan oluşur. Organik bazlar adenin (A), timin (T), guanin (G) ve sitozindir (C). Karşılıklı zincirlerde adenin her zaman timinle, guanin her zaman sitozinle eşleşir. DNA’nın belirli bir özelliği belirleyen bölümüne gen denir. DNA, hücre bölünmesi sırasında proteinlerle birlikte kısalıp kalınlaşarak kromozomları oluşturur. İnsanın vücut hücrelerinde 46 kromozom bulunur.",
+     "points": [
+      "Nükleotid < gen < DNA < kromozom",
+      "A ile T, G ile C eşleşir."
+     ]
+    },
+    {
+     "title": "Mitoz ve Mayoz Bölünme",
+     "text": "Mitoz bölünme vücut hücrelerinde gerçekleşir. Bir hücreden, kromozom sayısı ve kalıtsal yapısı ana hücreyle aynı olan iki yeni hücre oluşur. Mitoz sayesinde canlılar büyür, yaralar iyileşir ve eskiyen hücreler yenilenir. Tek hücreli canlılarda mitoz üremeyi sağlar. Mayoz bölünme ise üreme ana hücrelerinde gerçekleşir ve sperm ile yumurta gibi üreme hücrelerini oluşturur. Mayozda bir hücreden, kromozom sayısı ana hücrenin yarısı kadar olan dört yeni hücre oluşur. İnsanda üreme hücrelerinde 23 kromozom bulunur. Döllenmeyle 46 kromozomlu zigot oluşur. Mayoz sırasında kalıtsal çeşitlilik ortaya çıkar.",
+     "points": [
+      "Mitoz: 2 hücre, kromozom sayısı aynı.",
+      "Mayoz: 4 hücre, kromozom sayısı yarıya iner.",
+      "Mayoz çeşitliliği artırır."
+     ]
+    },
+    {
+     "title": "Kalıtım ve Çaprazlama",
+     "text": "Bir özelliği belirleyen genin farklı biçimlerine alel denir. Bireyin sahip olduğu alellerin tamamına genotip, bu alellerin dışa yansıyan görünüşüne fenotip denir. Etkisini her durumda gösteren alele baskın alel denir ve büyük harfle gösterilir. Yalnızca iki alel de aynı olduğunda etkisini gösteren alele çekinik alel denir ve küçük harfle gösterilir. Bir özellik için iki aleli aynı olan bireye saf döl (AA veya aa), farklı olan bireye melez döl (Aa) denir. Çaprazlamada her ebeveynden yavruya bir alel geçer. İnsanda cinsiyet kromozomları kadında XX, erkekte XY’dir; bebeğin cinsiyetini babadan gelen kromozom belirler. Akraba evliliklerinde çekinik alellerle taşınan kalıtsal hastalıkların görülme olasılığı artar.",
+     "points": [
+      "Baskın: büyük harf; çekinik: küçük harf.",
+      "Aa × Aa çaprazlamasında fenotip oranı 3 : 1’dir."
+     ]
+    },
+    {
+     "title": "Mutasyon, Adaptasyon ve Doğal Seçilim",
+     "text": "DNA’nın yapısında meydana gelen kalıcı değişikliklere mutasyon denir. Radyasyon, bazı kimyasal maddeler ve aşırı ultraviyole ışınlar mutasyona yol açabilir. Üreme hücrelerinde oluşan mutasyonlar yavrulara aktarılabilir. Aynı türün bireyleri arasındaki farklılıklara varyasyon denir. Canlının yaşadığı ortamda hayatta kalma ve üreme şansını artıran kalıtsal özelliklere adaptasyon denir. Örneğin kutup ayısının kalın kürkü ve kalın yağ tabakası, kaktüsün diken şeklindeki yaprakları adaptasyon örnekleridir. Çevreye daha iyi uyum sağlayan bireylerin hayatta kalıp daha çok yavru bırakmasına doğal seçilim denir. Modifikasyon ise çevrenin etkisiyle oluşan ve kalıtsal olmayan değişikliklerdir.",
+     "points": [
+      "Mutasyon kalıtsaldır; DNA değişir.",
+      "Modifikasyon kalıtsal değildir.",
+      "Adaptasyon hayatta kalmayı kolaylaştırır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "DNA",
+     "meaning": "Kalıtsal bilgiyi taşıyan, çift zincirli sarmal molekül."
+    },
+    {
+     "term": "Nükleotid",
+     "meaning": "Fosfat, şeker ve organik bazdan oluşan DNA yapı birimi."
+    },
+    {
+     "term": "Gen",
+     "meaning": "DNA’nın bir özelliği belirleyen bölümü."
+    },
+    {
+     "term": "Kromozom",
+     "meaning": "DNA ve proteinlerden oluşan, bölünme sırasında belirginleşen yapı."
+    },
+    {
+     "term": "Alel",
+     "meaning": "Bir genin farklı biçimleri."
+    },
+    {
+     "term": "Genotip",
+     "meaning": "Bireyin sahip olduğu alellerin tamamı."
+    },
+    {
+     "term": "Fenotip",
+     "meaning": "Genotipin dışa yansıyan görünüşü."
+    },
+    {
+     "term": "Mutasyon",
+     "meaning": "DNA’da meydana gelen kalıcı değişiklik."
+    }
+   ],
+   "example": {
+    "question": "Bezelyede sarı tohum rengi (S) yeşil tohum rengine (s) baskındır. Melez sarı tohumlu iki bezelye çaprazlanırsa oluşacak bezelyelerin tohum rengi oranları ne olur?",
+    "solution": "1. adım: Ebeveynler Ss × Ss.\n2. adım: Olası genotipler: SS, Ss, sS, ss.\n3. adım: SS, Ss ve sS sarı; ss yeşil görünür.\nCevap: 3/4 sarı, 1/4 yeşil; fenotip oranı 3 : 1."
+   },
+   "remember": [
+    "Nükleotid, gen, DNA, kromozom küçükten büyüğe sıralanır.",
+    "Mitoz büyümeyi, mayoz üreme hücresi oluşumunu sağlar.",
+    "Çekinik özellik yalnızca iki çekinik alel varsa görülür.",
+    "Mutasyon kalıtsaldır, modifikasyon değildir."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 4,
+   "intro": "Bu ünitede sesin nasıl oluştuğunu, hangi ortamlarda yayıldığını, sesin inceliğini ve şiddetini belirleyen özellikleri öğreniyoruz. Ses kirliliğini önlemenin ve işitme sağlığımızı korumanın yollarını da inceliyoruz.",
+   "sections": [
+    {
+     "title": "Sesin Oluşumu ve Yayılması",
+     "text": "Ses, maddelerin titreşmesiyle oluşan bir enerji türüdür. Gitarın teli, davulun derisi ya da konuşurken ses tellerimiz titreşerek ses oluşturur. Ses, yayılmak için katı, sıvı ya da gaz bir ortama, yani maddesel ortama ihtiyaç duyar. Boşlukta tanecik olmadığı için ses yayılmaz; bu yüzden uzayda ses duyulmaz. Ses, taneciklerin birbirine titreşimi aktarmasıyla ilerler. Tanecikler birbirine ne kadar yakınsa ses o kadar hızlı yayılır. Bu nedenle ses genellikle katılarda en hızlı, gazlarda en yavaş yayılır. Raya kulağını dayayan birinin treni havadan daha önce duyması bu yüzdendir.",
+     "points": [
+      "Ses titreşimle oluşur.",
+      "Boşlukta ses yayılmaz.",
+      "Genellikle sesin hızı: katı > sıvı > gaz."
+     ]
+    },
+    {
+     "title": "Sesin Özellikleri",
+     "text": "Ses kaynağının bir saniyedeki titreşim sayısına frekans denir; birimi hertz’dir (Hz). Frekansı yüksek olan sesler ince (tiz), frekansı düşük olan sesler kalın (pes) duyulur. Kadın ve çocukların sesi genellikle erkeklerin sesinden incedir. Telli çalgılarda tel kısaldıkça, inceldikçe ya da gerginliği arttıkça frekans artar ve ses incelir. Sesin yüksek ya da alçak duyulmasını sağlayan özelliğe ses şiddeti denir. Ses şiddeti, titreşimin büyüklüğüne bağlıdır; bir telin daha kuvvetli çekilmesi daha şiddetli ses oluşturur. Ses kaynağından uzaklaştıkça sesin enerjisi yayılarak azalır ve ses şiddeti düşer. İnsan kulağı belirli bir frekans aralığındaki sesleri duyabilir.",
+     "points": [
+      "Yüksek frekans: ince ses.",
+      "Düşük frekans: kalın ses.",
+      "Uzaklık arttıkça ses şiddeti azalır."
+     ]
+    },
+    {
+     "title": "Sesin Maddeyle Etkileşimi",
+     "text": "Ses bir yüzeye çarptığında yansıyabilir, soğurulabilir ya da maddenin içinden geçerek iletilebilir. Sesin sert ve düz yüzeylerden çarpıp geri dönmesine yansıma denir; yansıyan sesin ayrı olarak duyulmasına yankı denir. Boş bir odada sesin yankılanması buna örnektir. Halı, perde, sünger ve köpük gibi yumuşak ve gözenekli maddeler sesi büyük ölçüde soğurur. Sesin yalıtılması için bu tür maddeler kullanılır. Konser salonları, sinemalar ve stüdyolarda sesin dinleyiciye en iyi şekilde ulaşması için yapılan düzenlemelere akustik denir. Akustik düzenlemelerde ses yansımaları kontrol edilir.",
+     "points": [
+      "Sert yüzey sesi yansıtır.",
+      "Yumuşak ve gözenekli madde sesi soğurur.",
+      "Ses yalıtımı gürültüyü azaltır."
+     ]
+    },
+    {
+     "title": "Ses Kirliliği ve İşitme Sağlığı",
+     "text": "İnsanı rahatsız eden, istenmeyen seslere gürültü denir. Gürültünün çevrede yaygınlaşmasına ses kirliliği denir. Trafik, şantiyeler, fabrikalar ve yüksek sesle müzik dinlemek ses kirliliğinin başlıca kaynaklarıdır. Uzun süre şiddetli sese maruz kalmak stres, baş ağrısı, uykusuzluk ve dikkat dağınıklığına yol açabilir. Çok şiddetli ya da sürekli gürültü kalıcı işitme kaybına neden olabilir. Ses kirliliğini önlemek için binalarda ses yalıtımı yapılmalı, yol kenarlarına ağaç dikilmeli ve korna kullanımı azaltılmalıdır. Kulaklıkla müzik dinlerken sesi düşük tutmalı, gürültülü işlerde kulak koruyucu kullanmalıyız.",
+     "points": [
+      "Kulaklık sesini düşük tut.",
+      "Gürültülü ortamlarda kulak koruyucu kullan.",
+      "Ağaçlandırma gürültüyü azaltır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Titreşim",
+     "meaning": "Bir cismin denge noktası etrafında hızlıca ileri geri hareket etmesi."
+    },
+    {
+     "term": "Frekans",
+     "meaning": "Ses kaynağının bir saniyedeki titreşim sayısı."
+    },
+    {
+     "term": "Hertz",
+     "meaning": "Frekans birimi; Hz ile gösterilir."
+    },
+    {
+     "term": "Ses şiddeti",
+     "meaning": "Sesin yüksek ya da alçak duyulmasını belirleyen özellik."
+    },
+    {
+     "term": "Akustik",
+     "meaning": "Sesin bir ortamda iyi duyulması için yapılan düzenlemeler."
+    },
+    {
+     "term": "Ses kirliliği",
+     "meaning": "Rahatsız edici seslerin çevrede yaygınlaşması."
+    },
+    {
+     "term": "Yalıtım",
+     "meaning": "Sesin bir ortamdan diğerine geçmesini azaltma."
+    },
+    {
+     "term": "İşitme kaybı",
+     "meaning": "Kulağın sesleri algılama yeteneğinin azalması."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Ses titreşimle oluşur ve boşlukta yayılmaz.",
+    "Frekans arttıkça ses incelir.",
+    "Ses kaynağından uzaklaştıkça şiddet azalır.",
+    "Yumuşak ve gözenekli maddeler sesi soğurur."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 5,
+   "intro": "Bu ünitede elementleri periyodik tabloda sınıflandırmayı, fiziksel ve kimyasal değişimleri, kimyasal tepkimeleri, asitleri ve bazları öğreniyoruz. Mutfaktaki sirkeden temizlik ürünlerine kadar birçok madde bu konuyla ilgilidir.",
+   "sections": [
+    {
+     "title": "Metaller, Ametaller, Yarı Metaller ve Soy Gazlar",
+     "text": "Periyodik tabloda elementler genel özelliklerine göre dört grupta incelenir. Metaller parlaktır, ısı ve elektriği iyi iletir, tel ve levha hâline getirilebilir; cıva dışında oda sıcaklığında katıdır. Demir, bakır, alüminyum metallere örnektir ve periyodik tablonun sol tarafında yer alır. Ametaller genellikle mattır, ısı ve elektriği iyi iletmez (grafit hariç) ve kırılgandır; oksijen, azot, karbon ve kükürt ametaldir. Yarı metaller hem metal hem de ametal özellikleri gösterir; bor ve silisyum buna örnektir. Soy gazlar periyodik tablonun en sağ grubundadır. Helyum, neon ve argon gibi soy gazlar başka elementlerle kolay kolay tepkimeye girmez.",
+     "points": [
+      "Metaller: parlak, iletken, işlenebilir.",
+      "Ametaller: mat, yalıtkan, kırılgan.",
+      "Soy gazlar: tepkimeye girme eğilimi çok düşük."
+     ]
+    },
+    {
+     "title": "Fiziksel ve Kimyasal Değişim",
+     "text": "Maddenin yalnızca dış görünüşünün, şeklinin ya da hâlinin değiştiği, kimliğinin ve iç yapısının değişmediği olaylara fiziksel değişim denir. Kâğıdın yırtılması, buzun erimesi, şekerin suda çözünmesi fiziksel değişimdir. Maddenin iç yapısının değişerek yeni özelliklerde farklı maddelerin oluştuğu olaylara kimyasal değişim denir. Kimyasal değişimlerin gerçekleştiği olaylara kimyasal tepkime denir. Odunun yanması, demirin paslanması, sütün ekşimesi, yiyeceklerin pişmesi ve sindirim kimyasal değişimdir. Renk değişimi, gaz çıkışı, ısı ya da ışık açığa çıkması ve çökelti oluşması kimyasal değişimin belirtileri olabilir.",
+     "points": [
+      "Fiziksel: madde aynı kalır.",
+      "Kimyasal: yeni madde oluşur.",
+      "Tepkimede atomlar yok olmaz, yeniden düzenlenir."
+     ]
+    },
+    {
+     "title": "Kimyasal Tepkimeler",
+     "text": "Kimyasal tepkimede tepkimeye giren maddelere girenler, oluşan yeni maddelere ürünler denir. Tepkimeler sırasında atomlar yok olmaz ya da yoktan var olmaz; yalnızca yeniden düzenlenir. Bu nedenle kapalı bir kapta gerçekleşen tepkimede girenlerin toplam kütlesi, ürünlerin toplam kütlesine eşittir. Buna kütlenin korunumu denir. Yanma tepkimelerinde maddeler oksijenle tepkimeye girer ve ısı ile ışık açığa çıkar. Kimyasal tepkimeler günlük yaşamda pek çok fayda sağlar; besinlerin pişirilmesi, ilaç ve gübre üretimi bunlara örnektir. Ancak demir eşyaların paslanması gibi bazı tepkimeler zarar verebilir; boyama ile paslanma önlenebilir.",
+     "points": [
+      "Kütle korunur.",
+      "Paslanmayı önlemek için demiri boya ya da yağla."
+     ]
+    },
+    {
+     "title": "Asitler, Bazlar ve pH",
+     "text": "Asitler sulu çözeltilerinde hidrojen iyonu oluşturan maddelerdir; tatları ekşidir. Limon, sirke, portakal ve yoğurt asit içerir. Bazlar sulu çözeltilerinde hidroksit iyonu oluşturan maddelerdir; tatları acıdır ve ele kayganlık hissi verir. Sabun, çamaşır suyu ve diş macunu bazik özellik gösterir. Asit ve bazlar ayıraçlarla ayırt edilir: asitler mavi turnusol kâğıdını kırmızıya, bazlar kırmızı turnusol kâğıdını maviye çevirir. Kırmızı lahana suyu da doğal bir ayıraçtır. Bir çözeltinin asitlik ya da bazlık derecesini gösteren ölçeğe pH denir. pH 7’den küçükse asidik, 7 ise nötr, 7’den büyükse baziktir. Asit ve bazların tadına bakılmamalı, dokunulmamalıdır.",
+     "points": [
+      "pH < 7: asit; pH = 7: nötr; pH > 7: baz.",
+      "Asit: mavi turnusolü kırmızı yapar.",
+      "Baz: kırmızı turnusolü mavi yapar."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Metal",
+     "meaning": "Parlak, ısı ve elektriği iyi ileten, işlenebilen element."
+    },
+    {
+     "term": "Ametal",
+     "meaning": "Genellikle mat, yalıtkan ve kırılgan olan element."
+    },
+    {
+     "term": "Yarı metal",
+     "meaning": "Hem metal hem ametal özellikleri gösteren element."
+    },
+    {
+     "term": "Soy gaz",
+     "meaning": "Periyodik tablonun son grubundaki, tepkimeye girme eğilimi çok düşük elementler."
+    },
+    {
+     "term": "Kimyasal değişim",
+     "meaning": "Maddenin iç yapısının değişip yeni madde oluşması."
+    },
+    {
+     "term": "Kimyasal tepkime",
+     "meaning": "Maddelerin etkileşerek yeni maddelere dönüştüğü olay."
+    },
+    {
+     "term": "Ayıraç",
+     "meaning": "Asit ve bazları renk değişimiyle ayırt etmeye yarayan madde."
+    },
+    {
+     "term": "pH",
+     "meaning": "Bir çözeltinin asitlik ya da bazlık derecesini gösteren ölçek."
+    }
+   ],
+   "example": {
+    "question": "Kapalı bir kapta 12 g karbon ile 32 g oksijen tamamen tepkimeye girerek karbondioksit oluşturuyor. Kaç gram karbondioksit oluşur?",
+    "solution": "1. adım: Kütlenin korunumu kanununa göre girenlerin kütlesi ürünlerin kütlesine eşittir.\n2. adım: 12 + 32 = 44 g.\nCevap: 44 g karbondioksit oluşur."
+   },
+   "remember": [
+    "Metaller iletken, ametaller genellikle yalıtkandır.",
+    "Kimyasal değişimde yeni madde oluşur.",
+    "Tepkimelerde kütle korunur.",
+    "pH 7’den küçükse asit, büyükse bazdır."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 6,
+   "intro": "Bu ünitede ampullerin seri ve paralel bağlanmasını, elektrik akımını, gerilimi ve bunlar arasındaki ilişkiyi öğreniyoruz. Elektrik enerjisinin nasıl üretildiğini, hangi enerjilere dönüştüğünü ve tasarruflu kullanımını da inceliyoruz.",
+   "sections": [
+    {
+     "title": "Seri ve Paralel Bağlama",
+     "text": "Ampullerin art arda, tek bir yol üzerinde bağlanmasına seri bağlama denir. Seri bağlı devrede akımın izleyebileceği tek bir yol vardır. Bu nedenle ampullerden biri bozulursa ya da sökülürse devre açılır ve diğer ampuller de söner. Seri bağlı ampul sayısı arttıkça her bir ampulün parlaklığı azalır. Ampullerin ayrı kollara, uçları ortak noktalara gelecek şekilde bağlanmasına paralel bağlama denir. Paralel bağlı devrede ampullerden biri sökülse bile diğerleri yanmaya devam eder. Özdeş ampuller pile paralel bağlandığında her biri, pile tek başına bağlanan bir ampulle aynı parlaklıkta yanar. Evlerimizdeki elektrik tesisatı paralel bağlıdır.",
+     "points": [
+      "Seri: tek yol, biri sönerse hepsi söner.",
+      "Paralel: ayrı kollar, biri sönse diğerleri yanar.",
+      "Ev tesisatı paralel bağlıdır."
+     ]
+    },
+    {
+     "title": "Akım, Gerilim ve Direnç",
+     "text": "Bir iletkenden birim zamanda geçen elektrik yükü miktarına elektrik akımı denir. Akımın birimi amperdir (A) ve ampermetre ile ölçülür. Ampermetre devreye seri bağlanır. Bir devre elemanının iki ucu arasındaki potansiyel farka gerilim denir. Gerilimin birimi volttur (V) ve voltmetre ile ölçülür. Voltmetre, gerilimi ölçülecek elemana paralel bağlanır. Bir direncin uçları arasındaki gerilim artırıldığında, içinden geçen akım da aynı oranda artar. Gerilimin akıma oranı sabittir ve bu sabit, iletkenin direncine eşittir: Direnç = Gerilim ÷ Akım. Direncin birimi ohm’dur (Ω). Bu ilişkiye Ohm Yasası denir.",
+     "points": [
+      "Ampermetre: seri bağlanır, birimi A.",
+      "Voltmetre: paralel bağlanır, birimi V.",
+      "R = V ÷ I"
+     ]
+    },
+    {
+     "title": "Elektrik Enerjisinin Dönüşümü",
+     "text": "Elektrik enerjisi kullandığımız araçlarda başka enerji türlerine dönüşür. Ütü, elektrikli ısıtıcı, su ısıtıcısı ve fırında elektrik enerjisi ısı enerjisine dönüşür. Ampul ve lambalarda ışık enerjisine, hoparlör ve zilde ses enerjisine, vantilatör, mikser ve çamaşır makinesinde hareket enerjisine dönüşür. Bazı araçlarda elektrik enerjisi aynı anda birden fazla enerji türüne dönüşür; örneğin televizyonda ışık, ses ve ısı enerjisine. Elektrik akımının geçtiği teller ısınır; bu durum elektrik enerjisinin bir kısmının ısıya dönüşmesinden kaynaklanır. LED lambalar elektrik enerjisinin daha büyük kısmını ışığa dönüştürdüğü için daha tasarrufludur.",
+     "points": [
+      "Ütü: elektrik → ısı.",
+      "Vantilatör: elektrik → hareket.",
+      "Hoparlör: elektrik → ses."
+     ]
+    },
+    {
+     "title": "Santraller ve Tasarruf",
+     "text": "Elektrik enerjisi santrallerde başka enerji türlerinden üretilir. Hidroelektrik santraller suyun hareket enerjisini, rüzgâr santralleri rüzgârın enerjisini, güneş santralleri güneş ışığını, jeotermal santraller yer altındaki sıcak su ve buharı kullanır. Bunlar yenilenebilir kaynaklardır. Termik santraller ise kömür, doğal gaz gibi fosil yakıtları yakarak elektrik üretir; bu yakıtlar sınırlıdır ve hava kirliliğine yol açar. Nükleer santraller yüksek miktarda enerji üretir, ancak radyoaktif atıklar dikkatli yönetim gerektirir. Her santralin avantaj ve dezavantajları vardır. Kullanmadığımız lambaları söndürmek, enerji verimliliği yüksek cihazlar seçmek ve cihazları bekleme modunda bırakmamak elektrik tasarrufu sağlar.",
+     "points": [
+      "Yenilenebilir: hidroelektrik, rüzgâr, güneş, jeotermal.",
+      "Yenilenemez: termik santraller fosil yakıt kullanır.",
+      "Kullanılmayan cihazların fişini çek."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Seri bağlama",
+     "meaning": "Devre elemanlarının art arda tek bir yol üzerinde bağlanması."
+    },
+    {
+     "term": "Paralel bağlama",
+     "meaning": "Devre elemanlarının ayrı kollar üzerinde bağlanması."
+    },
+    {
+     "term": "Elektrik akımı",
+     "meaning": "İletkenden birim zamanda geçen yük miktarı; birimi amper."
+    },
+    {
+     "term": "Gerilim",
+     "meaning": "Bir devre elemanının uçları arasındaki potansiyel fark; birimi volt."
+    },
+    {
+     "term": "Ampermetre",
+     "meaning": "Akımı ölçen, devreye seri bağlanan araç."
+    },
+    {
+     "term": "Voltmetre",
+     "meaning": "Gerilimi ölçen, elemana paralel bağlanan araç."
+    },
+    {
+     "term": "Elektrik enerjisi santrali",
+     "meaning": "Farklı enerji türlerinden elektrik enerjisi üreten tesis."
+    }
+   ],
+   "example": {
+    "question": "Bir direncin uçları arasındaki gerilim 12 V iken direncin üzerinden 3 A akım geçiyor. Direncin değeri kaç ohm’dur? Gerilim 24 V yapılırsa akım kaç amper olur?",
+    "solution": "1. adım: Direnç = Gerilim ÷ Akım = 12 ÷ 3 = 4 Ω.\n2. adım: Direnç değişmediği için akım = 24 ÷ 4 = 6 A.\nCevap: 4 Ω; 6 A."
+   },
+   "remember": [
+    "Seri bağlı ampuller arttıkça parlaklık azalır.",
+    "Ampermetre seri, voltmetre paralel bağlanır.",
+    "Gerilimin akıma oranı direnci verir.",
+    "Elektriği tasarruflu kullan."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 7,
+   "intro": "Bu ünitede bitkilerin besin üretimi olan fotosentezi, canlıların enerji elde etmek için yaptığı solunumu ve doğadaki madde döngülerini öğreniyoruz. Küresel iklim değişikliğinin nedenlerini, sonuçlarını ve çözüm yollarını da tartışıyoruz.",
+   "sections": [
+    {
+     "title": "Fotosentez",
+     "text": "Yeşil bitkilerin ve bazı canlıların, ışık enerjisini kullanarak karbondioksit ve sudan besin (glikoz) ve oksijen üretmesine fotosentez denir. Fotosentez, kloroplast içinde bulunan yeşil renkli klorofil sayesinde gerçekleşir. Fotosentez için ışık, karbondioksit, su ve klorofil gereklidir. Fotosentezle üretilen besin bitkinin kendisi ve onunla beslenen tüm canlılar için temel besin kaynağıdır. Açığa çıkan oksijen ise canlıların solunumu için gereklidir. Işık şiddeti, karbondioksit miktarı, sıcaklık ve su miktarı fotosentez hızını etkiler. Belirli bir sınıra kadar ışık şiddeti ve karbondioksit miktarı arttıkça fotosentez hızı artar.",
+     "points": [
+      "Karbondioksit + su + ışık → besin + oksijen",
+      "Fotosentez kloroplastta gerçekleşir."
+     ]
+    },
+    {
+     "title": "Solunum ve ATP",
+     "text": "Canlıların besinlerdeki enerjiyi kullanılabilir enerjiye dönüştürmesine solunum denir. Solunum bütün canlı hücrelerde gece gündüz sürekli gerçekleşir. Oksijenli solunumda besin, oksijen kullanılarak parçalanır; sonuçta karbondioksit, su ve enerji açığa çıkar. Bu süreç büyük ölçüde mitokondride gerçekleşir. Elde edilen enerji, hücrenin doğrudan kullanabileceği ATP adlı enerji molekülünde depolanır. Hücreler büyüme, hareket ve madde taşınması gibi işler için ATP’yi kullanır. Bazı canlılar oksijensiz solunum yapar. Yoğurt ve ekmek yapımında oksijensiz solunum yapan bakteri ve mayalardan yararlanılır.",
+     "points": [
+      "Besin + oksijen → karbondioksit + su + enerji",
+      "ATP: hücrenin enerji molekülü."
+     ]
+    },
+    {
+     "title": "Madde Döngüleri",
+     "text": "Doğadaki maddelerin canlılar ve cansız çevre arasında sürekli dolaşmasına madde döngüsü denir. Su döngüsünde sular buharlaşır, bulutları oluşturur, yoğuşur ve yağış olarak yeryüzüne geri döner; bitkilerin terlemesi de bu döngüye katkı sağlar. Oksijen döngüsünde fotosentezle havaya oksijen verilir, solunum ve yanma ile oksijen kullanılır. Karbon döngüsünde fotosentezle havadaki karbondioksit bitkilere alınır; solunum, ayrıştırıcıların faaliyetleri ve fosil yakıtların yanmasıyla tekrar havaya verilir. Madde döngüleri sayesinde sınırlı olan maddeler tükenmeden canlılar tarafından tekrar tekrar kullanılabilir.",
+     "points": [
+      "Su döngüsü: buharlaşma, yoğuşma, yağış.",
+      "Fotosentez oksijen üretir, karbondioksit tüketir."
+     ]
+    },
+    {
+     "title": "Küresel İklim Değişikliği",
+     "text": "Atmosferdeki karbondioksit gibi gazların Güneş’ten gelen ısının bir kısmını tutarak Dünya’yı ısıtmasına sera etkisi denir. Sera etkisi doğal bir olaydır ve yaşam için gereklidir. Ancak fosil yakıtların yakılması ve ormansızlaşma nedeniyle sera gazlarının artması, Dünya’nın ortalama sıcaklığını yükseltir; buna küresel ısınma denir. Küresel ısınma; buzulların erimesi, deniz seviyesinin yükselmesi, kuraklık, sel ve aşırı hava olaylarının artması gibi sonuçlara yol açar. Bu değişimlerin tümüne küresel iklim değişikliği denir. Bir kişinin ya da kurumun faaliyetleri sonucu atmosfere salınan sera gazı miktarına karbon ayak izi denir. Asit yağmurları ve ozon tabakasının incelmesi de hava kirliliğiyle ilişkili sorunlardır.",
+     "points": [
+      "Toplu taşıma ve bisiklet kullan.",
+      "Yenilenebilir enerjiyi destekle.",
+      "Ağaç dik, enerji ve suyu tasarruflu kullan."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Fotosentez",
+     "meaning": "Bitkilerin ışık enerjisiyle karbondioksit ve sudan besin ve oksijen üretmesi."
+    },
+    {
+     "term": "Solunum",
+     "meaning": "Besinlerdeki enerjinin hücrede kullanılabilir enerjiye dönüştürülmesi."
+    },
+    {
+     "term": "ATP",
+     "meaning": "Hücrenin doğrudan kullandığı enerji molekülü."
+    },
+    {
+     "term": "Karbon döngüsü",
+     "meaning": "Karbonun canlılar ve çevre arasında sürekli dolaşması."
+    },
+    {
+     "term": "Sera etkisi",
+     "meaning": "Atmosferdeki bazı gazların ısıyı tutarak Dünya’yı ısıtması."
+    },
+    {
+     "term": "Küresel ısınma",
+     "meaning": "Sera gazlarının artışıyla Dünya’nın ortalama sıcaklığının yükselmesi."
+    },
+    {
+     "term": "Fosil yakıtlar",
+     "meaning": "Kömür, petrol ve doğal gaz gibi milyonlarca yılda oluşan yakıtlar."
+    },
+    {
+     "term": "Karbon ayak izi",
+     "meaning": "Bir kişi ya da kurumun faaliyetleriyle atmosfere salınan sera gazı miktarı."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Fotosentez için ışık, karbondioksit, su ve klorofil gerekir.",
+    "Solunum bütün canlı hücrelerde sürekli gerçekleşir.",
+    "Madde döngüleri sınırlı maddelerin tekrar kullanılmasını sağlar.",
+    "Fosil yakıt kullanımı küresel ısınmayı artırır."
+   ]
+  }
+ ]
+}

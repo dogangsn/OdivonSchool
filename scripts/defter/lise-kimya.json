@@ -1,0 +1,973 @@
+{
+ "file": "lise-kimya",
+ "notes": [
+  {
+   "grade": 9,
+   "order": 1,
+   "intro": "Bu temada kimyanın günlük hayatımızdaki yerini, kimyasalların güvenli kullanımını, atom modellerinin gelişimini, elektronların orbitallere yerleşimini ve periyodik tabloyu öğreniyoruz. Bir elementin özellikleri, elektronlarının nasıl dizildiğine bağlıdır.",
+   "sections": [
+    {
+     "title": "Kimya ve kimyasalların güvenli kullanımı",
+     "text": "Kimya, maddenin yapısını, özelliklerini ve geçirdiği değişimleri inceleyen bilim dalıdır. İlaçlar, temizlik ürünleri, gübreler, plastikler, boyalar ve gıda katkı maddeleri kimya sayesinde üretilir. Ancak kimyasal maddeler yanlış kullanıldığında zararlı olabilir. Ürün etiketlerindeki tehlike işaretleri (yanıcı, aşındırıcı, zehirli, çevreye zararlı gibi) mutlaka okunmalıdır. Örneğin çamaşır suyu ile tuz ruhu gibi asidik temizleyiciler karıştırılırsa zehirli klor gazı açığa çıkar. Kimyasallar orijinal ambalajlarında, çocukların ulaşamayacağı yerlerde saklanmalı; laboratuvarda gözlük, önlük ve eldiven kullanılmalıdır.",
+     "points": [
+      "Etiketteki tehlike işaretlerini oku.",
+      "Temizlik ürünlerini birbirine karıştırma.",
+      "Kimyasalları gıda kaplarında saklama."
+     ]
+    },
+    {
+     "title": "Atom modelleri ve bilimsel bilginin değişebilirliği",
+     "text": "Atomun yapısına ilişkin düşünceler zamanla yeni deney sonuçlarıyla değişmiştir. Dalton atomu bölünemez, içi dolu küreler olarak düşündü. Thomson elektronu keşfetti ve atomu pozitif yüklü bir küre içine gömülü elektronlar olarak tanımladı. Rutherford, alfa parçacıklarıyla yaptığı deneyle atomun merkezinde küçük ve yoğun, pozitif yüklü bir çekirdek olduğunu gösterdi. Bohr, elektronların çekirdek etrafında belirli enerji düzeylerinde bulunduğunu, enerji soğurduklarında (absorbsiyon) üst düzeye çıktıklarını ve geri dönerken ışık yaydıklarını (emisyon) açıkladı. Modern atom modelinde ise elektronlar, bulunma olasılıklarının yüksek olduğu orbitallerde tanımlanır.",
+     "points": [
+      "Dalton → Thomson → Rutherford → Bohr → Modern atom modeli",
+      "Absorbsiyon: enerji soğurma; emisyon: enerji yayma"
+     ]
+    },
+    {
+     "title": "Orbitaller ve elektron dizilimi",
+     "text": "Orbital, elektronun bulunma olasılığının yüksek olduğu bölgedir. s, p, d ve f türünde orbitaller vardır; s orbitali küresel simetriye sahiptir. Her orbitalde en fazla iki elektron bulunabilir ve bu iki elektronun spinleri zıt olmalıdır; bu Pauli dışlama ilkesidir. Aufbau ilkesine göre elektronlar orbitallere en düşük enerjiliden başlayarak yerleşir: 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p... Hund kuralına göre eş enerjili orbitallere elektronlar önce birer birer ve aynı spinle yerleşir, sonra eşleşir. Örneğin oksijenin (8 elektron) dizilimi 1s² 2s² 2p⁴'tür. En dış katmandaki elektronlara değerlik (valans) elektronları denir.",
+     "points": [
+      "s: 2, p: 6, d: 10, f: 14 elektron alır.",
+      "Aufbau: düşük enerjiden başla.",
+      "Hund: önce tek tek, sonra eşleş."
+     ]
+    },
+    {
+     "title": "Periyodik tablo ve periyodik özellikler",
+     "text": "Periyodik tabloda elementler atom numarasına göre sıralanır. Yatay satırlara periyot, düşey sütunlara grup denir. Bir elementin periyot numarası elektron diziliminde en yüksek katman numarasına, ana grup numarası değerlik elektron sayısına göre belirlenir. Aynı gruptaki elementlerin değerlik elektron sayıları aynı olduğundan kimyasal özellikleri benzerdir. Atom yarıçapı, grupta yukarıdan aşağı artar, periyotta soldan sağa genellikle azalır. İyonlaşma enerjisi ve elektronegatiflik ise genellikle periyotta soldan sağa artar, grupta yukarıdan aşağı azalır. Atomlar elektron alıp vererek iyon oluşturur; elektron sayıları aynı olan taneciklere izoelektronik denir.",
+     "points": [
+      "Periyotta soldan sağa: yarıçap azalır, iyonlaşma enerjisi artar.",
+      "Grupta yukarıdan aşağı: yarıçap artar, elektronegatiflik azalır.",
+      "Na⁺, Ne ve F⁻ izoelektroniktir (10 elektron)."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Orbital",
+     "meaning": "Elektronun bulunma olasılığının yüksek olduğu bölge."
+    },
+    {
+     "term": "Aufbau ilkesi",
+     "meaning": "Elektronların orbitallere düşük enerjiden başlayarak yerleşmesi."
+    },
+    {
+     "term": "Pauli dışlama ilkesi",
+     "meaning": "Bir orbitalde zıt spinli en fazla iki elektron bulunabilmesi."
+    },
+    {
+     "term": "Hund kuralı",
+     "meaning": "Eş enerjili orbitallere elektronların önce tek tek yerleşmesi."
+    },
+    {
+     "term": "Valans elektron",
+     "meaning": "Atomun en dış katmanındaki, bağ yapmaya katılan elektronlar."
+    },
+    {
+     "term": "İyonlaşma enerjisi",
+     "meaning": "Gaz hâldeki atomdan bir elektron koparmak için gereken enerji."
+    },
+    {
+     "term": "Elektronegatiflik",
+     "meaning": "Bağdaki atomun bağ elektronlarını kendine çekme yeteneği."
+    },
+    {
+     "term": "İzoelektronik",
+     "meaning": "Elektron sayıları ve dizilimleri aynı olan tanecikler."
+    }
+   ],
+   "example": {
+    "question": "Atom numarası 11 olan sodyumun elektron dizilimini yazınız ve periyodik tablodaki yerini bulunuz.",
+    "solution": "1) 11 elektron Aufbau ilkesine göre yerleştirilir: 1s² 2s² 2p⁶ 3s¹.\n2) En yüksek katman numarası 3 olduğundan 3. periyottadır.\n3) Değerlik elektron sayısı 1 olduğundan 1A grubundadır (alkali metal).\n4) Bir elektron vererek Na⁺ iyonunu oluşturma eğilimindedir."
+   },
+   "remember": [
+    "Kimyasalları karıştırmadan önce etiketi oku.",
+    "Atom modelleri yeni kanıtlarla değişmiştir.",
+    "Bir orbitale en fazla iki zıt spinli elektron girer.",
+    "Aynı gruptaki elementlerin kimyasal özellikleri benzerdir."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 2,
+   "intro": "Bu temada atomları bir arada tutan kimyasal bağları, moleküllerin polar ya da apolar oluşunu, moleküller arası etkileşimleri ve bunların katı ve sıvıların özelliklerine etkisini öğreniyoruz. Suyun neden yüksek sıcaklıkta kaynadığını ya da bazı böceklerin suyun üzerinde nasıl yürüyebildiğini bu bilgilerle açıklayabiliriz.",
+   "sections": [
+    {
+     "title": "Kimyasal bağlar",
+     "text": "Atomlar daha kararlı bir yapıya ulaşmak için bağ yapar. Metal atomları değerlik elektronlarını ortaklaşa kullanır; elektronlar pozitif metal iyonlarının arasında serbestçe dolaşır. Buna metalik bağ denir ve metallerin iletken, parlak, işlenebilir olmasını sağlar. Metal ile ametal arasında elektron alışverişi olur: metal elektron vererek pozitif, ametal elektron alarak negatif iyon olur ve zıt yüklü iyonlar birbirini çeker; buna iyonik bağ denir (NaCl). Ametal atomları ise elektronlarını ortaklaşa kullanarak kovalent bağ yapar. Aynı atomlar arasındaki kovalent bağ apolar (H₂), farklı atomlar arasındaki polar kovalenttir (HCl).",
+     "points": [
+      "Metalik bağ: metal-metal",
+      "İyonik bağ: metal-ametal, elektron alışverişi",
+      "Kovalent bağ: ametal-ametal, elektron ortaklığı"
+     ]
+    },
+    {
+     "title": "Lewis yapısı, polarlık ve adlandırma",
+     "text": "Lewis nokta yapısında atomun değerlik elektronları sembolün çevresine nokta olarak yazılır ve ortaklaşa kullanılan elektron çiftleri bağı gösterir. Bir molekülün polar olup olmadığı yalnızca bağlara değil, molekülün şekline de bağlıdır. Su (H₂O) molekülü bükük olduğu için yük dağılımı simetrik değildir; polar moleküldür ve bir dipol oluşturur. Karbondioksit (CO₂) ise polar bağlar içerse de doğrusal ve simetrik olduğu için apolardır. Bileşikler adlandırılırken iyonik bileşiklerde önce katyon, sonra anyon söylenir: NaCl sodyum klorür, MgO magnezyum oksittir. Kovalent bileşiklerde sayı ön ekleri kullanılır: CO karbon monoksit, CO₂ karbon dioksittir.",
+     "points": [
+      "H₂O polar, CO₂ apolardır.",
+      "İyonik bileşik: katyon + anyon adı",
+      "Ön ekler: mono, di, tri, tetra, penta"
+     ]
+    },
+    {
+     "title": "Moleküller arası etkileşimler ve katılar",
+     "text": "Moleküller arasında, kimyasal bağlardan çok daha zayıf olan fiziksel etkileşimler vardır. Polar moleküller arasında dipol-dipol etkileşimi oluşur. Tüm moleküller arasında anlık oluşan dipollerden kaynaklanan London kuvvetleri bulunur; bunlar molekül büyüdükçe güçlenir. Bir polar molekül, apolar bir molekülde geçici dipol oluşturabilir; buna indüklenmiş dipol denir. Bu etkileşimlerin genel adı van der Waals etkileşimleridir. Hidrojen atomu F, O veya N atomuna bağlıysa, başka bir moleküldeki F, O veya N ile güçlü bir hidrojen bağı oluşturur. Katılar, tanecikleri düzenliyse kristal, düzensizse amorf katıdır. Kristal katılar iyonik, metalik, kovalent ağ ve moleküler katılar olarak sınıflandırılır.",
+     "points": [
+      "Hidrojen bağı: H ile F, O, N arasında, en güçlü moleküller arası etkileşim",
+      "Kristal katı: düzenli; amorf katı (cam): düzensiz"
+     ]
+    },
+    {
+     "title": "Sıvıların özellikleri",
+     "text": "Sıvıların özellikleri moleküller arası etkileşimlerin gücüne bağlıdır. Etkileşimler güçlüyse buhar basıncı düşük, kaynama noktası yüksek olur. Suyun molekül kütlesi küçük olmasına rağmen yüksek sıcaklıkta kaynaması hidrojen bağları sayesindedir. Sıvının akmaya karşı direncine viskozite denir; bal, sudan daha viskozdur ve sıcaklık arttıkça viskozite azalır. Aynı cins moleküller arasındaki çekime kohezyon, farklı cins moleküller arasındakine adezyon denir. Sıvı yüzeyindeki moleküllerin içe doğru çekilmesiyle yüzey gerilimi oluşur; su örümceklerinin suda yürümesi bundandır. Adezyon kohezyondan büyükse sıvı ince borularda yükselir; buna kılcallık denir.",
+     "points": [
+      "Güçlü etkileşim → düşük buhar basıncı, yüksek kaynama noktası",
+      "Sıcaklık artınca viskozite ve yüzey gerilimi azalır.",
+      "Kılcallık: adezyon > kohezyon"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "İyonik bağ",
+     "meaning": "Zıt yüklü iyonlar arasındaki elektrostatik çekim."
+    },
+    {
+     "term": "Kovalent bağ",
+     "meaning": "Atomların elektron çiftini ortaklaşa kullanmasıyla oluşan bağ."
+    },
+    {
+     "term": "Metalik bağ",
+     "meaning": "Metal iyonları ile serbest elektronlar arasındaki çekim."
+    },
+    {
+     "term": "Polar molekül",
+     "meaning": "Yük dağılımı simetrik olmayan, kalıcı dipolü olan molekül."
+    },
+    {
+     "term": "Hidrojen bağı",
+     "meaning": "F, O veya N'ye bağlı H ile başka moleküldeki F, O, N arasındaki güçlü etkileşim."
+    },
+    {
+     "term": "London kuvveti",
+     "meaning": "Anlık dipoller arasında oluşan, tüm moleküllerde bulunan zayıf etkileşim."
+    },
+    {
+     "term": "Viskozite",
+     "meaning": "Sıvının akmaya karşı gösterdiği direnç."
+    },
+    {
+     "term": "Yüzey gerilimi",
+     "meaning": "Sıvı yüzeyinin gerilmiş bir zar gibi davranmasını sağlayan kuvvet."
+    }
+   ],
+   "example": {
+    "question": "H₂O ve H₂S molekülleri benzer yapıdadır. H₂S'nin molekül kütlesi daha büyük olduğu hâlde su neden çok daha yüksek sıcaklıkta kaynar?",
+    "solution": "1) Su molekülünde H, O'ya bağlıdır; su molekülleri arasında hidrojen bağları oluşur.\n2) H₂S'de H, kükürde bağlıdır; kükürt F, O, N'den olmadığı için belirgin hidrojen bağı oluşmaz.\n3) Hidrojen bağları moleküller arası en güçlü etkileşimdir.\n4) Bu bağları koparmak için daha fazla enerji gerekir; bu yüzden suyun kaynama noktası (100 °C) H₂S'ninkinden çok yüksektir."
+   },
+   "remember": [
+    "Bağın türü atomların metal ya da ametal olmasına bağlıdır.",
+    "Molekülün polarlığı hem bağlara hem şekle bağlıdır.",
+    "Hidrojen bağı yalnızca H ile F, O, N arasında oluşur.",
+    "Etkileşim güçlendikçe kaynama noktası yükselir."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 3,
+   "intro": "Bu temada kimyanın çevreyle ilişkisini, atıkların değerlendirilmesini, ağır metallerin ve nanoparçacıkların ekosisteme etkilerini öğreniyoruz. Sürdürülebilirlik, bugünün ihtiyaçlarını gelecek nesillerin olanaklarını tüketmeden karşılamaktır.",
+   "sections": [
+    {
+     "title": "Atık önleme ve ayak izleri",
+     "text": "Sürdürülebilir kimyanın ilk ilkesi, atığı oluştuktan sonra temizlemek yerine hiç oluşturmamaktır; buna atık önleme denir. Ekolojik ayak izi, bir kişinin ya da toplumun tükettiği kaynakları üretmek ve atıklarını yok etmek için gereken doğal alanı ifade eder. Kimyasal ayak izi ise bir ürünün üretiminden kullanımına ve atılmasına kadar çevreye bıraktığı kimyasal yüktür. Atıkların ayrı toplanması, geri dönüşüm, yeniden kullanım ve gereksiz tüketimin azaltılması ayak izimizi küçültür. Evsel atıklar, özellikle elektronik atıklar ve piller, değerli metaller içerdiği için doğru yöntemlerle geri kazanılmalıdır.",
+     "points": [
+      "Önce azalt, sonra yeniden kullan, en son geri dönüştür.",
+      "Piller ve elektronik atıklar ayrı toplanmalıdır."
+     ]
+    },
+    {
+     "title": "Ağır metaller ve alaşımlar",
+     "text": "Kurşun, cıva, kadmiyum ve krom gibi yoğunluğu yüksek ve düşük miktarlarda bile zehirli olabilen metallere genellikle ağır metal denir. Bu metaller doğada parçalanmaz; toprak ve sulara karıştığında bitkiler ve hayvanlar yoluyla besin zincirine girer ve canlıların vücudunda birikir. Sinir sistemi, böbrek ve gelişim sorunlarına yol açabilirler. Bu yüzden piller, floresan lambalar ve elektronik atıklar asla çöpe atılmamalıdır. Alaşımlar, bir metalin başka metal ya da ametallerle karıştırılmasıyla elde edilir; çelik, bronz ve pirinç buna örnektir. Alaşımlar daha dayanıklı malzemeler sağlar ama geri dönüşümleri ayrıştırma gerektirebilir.",
+     "points": [
+      "Ağır metaller canlılarda birikir.",
+      "Çelik: demir + karbon; bronz: bakır + kalay; pirinç: bakır + çinko"
+     ]
+    },
+    {
+     "title": "Metal nanoparçacıklar",
+     "text": "Boyutları yaklaşık 1 ile 100 nanometre arasında olan parçacıklara nanoparçacık denir; 1 nanometre metrenin milyarda biridir. Bu kadar küçük boyutta maddeler farklı özellikler gösterir: yüzey alanları çok büyüktür ve renkleri, tepkimeye girme yetenekleri değişebilir. Örneğin gümüş nanoparçacıklar mikrop öldürücü özellikleri nedeniyle bazı kumaşlarda ve tıbbi malzemelerde kullanılır. Evsel atıklardaki metaller uygun kimyasal yöntemlerle geri kazanılarak nanoparçacık üretiminde değerlendirilebilir. Ancak nanoparçacıklar çevreye karıştığında canlı hücrelere girebilir ve ekosistemlere zarar verebilir. Bu yüzden faydaları ile riskleri birlikte değerlendirilmelidir.",
+     "points": [
+      "1 nm = 10⁻⁹ m",
+      "Nano boyutta yüzey alanı ve tepkime yeteneği artar.",
+      "Nanoparçacıkların çevresel riskleri de vardır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Atık önleme",
+     "meaning": "Atığı oluştuktan sonra temizlemek yerine hiç oluşturmama yaklaşımı."
+    },
+    {
+     "term": "Ekolojik ayak izi",
+     "meaning": "Tüketim ve atıklar için gereken doğal alan miktarı."
+    },
+    {
+     "term": "Kimyasal ayak izi",
+     "meaning": "Bir ürünün yaşam döngüsü boyunca çevreye bıraktığı kimyasal yük."
+    },
+    {
+     "term": "Ağır metal",
+     "meaning": "Kurşun, cıva, kadmiyum gibi yoğun ve zehirli olabilen metaller."
+    },
+    {
+     "term": "Metal nanoparçacık",
+     "meaning": "1-100 nm boyutundaki metal parçacıklar."
+    },
+    {
+     "term": "Alaşım",
+     "meaning": "Bir metalin başka elementlerle oluşturduğu homojen karışım."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "En iyi atık, hiç oluşmayan atıktır.",
+    "Ağır metaller doğada yok olmaz, canlılarda birikir.",
+    "Pilleri ve elektronik atıkları ayrı topla.",
+    "Nanoparçacıkların hem faydaları hem riskleri vardır."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 1,
+   "intro": "Bu temada kimyasal tepkimeleri, tepkime türlerini, mol kavramını, tepkime denklemlerini denkleştirmeyi ve hesaplamaları, ayrıca gazların özelliklerini ve ideal gaz denklemini öğreniyoruz. Bu bilgiler, bir tepkimede ne kadar madde gerektiğini ve ne kadar ürün oluşacağını hesaplamamızı sağlar.",
+   "sections": [
+    {
+     "title": "Kimyasal tepkimeler ve türleri",
+     "text": "Maddelerin kimyasal yapısının değişerek yeni maddelerin oluşmasına kimyasal tepkime denir. Renk değişimi, gaz çıkışı, çökelek oluşumu, ısı ya da ışık açığa çıkması tepkimenin kanıtlarıdır. Tepkimede atomlar yok olmaz ya da yoktan var olmaz; yalnızca bağlar kopar ve yeni bağlar oluşur. Başlıca tepkime türleri şunlardır: Asit-baz tepkimelerinde asit ve baz birleşerek tuz ve su oluşturur. Çökelme tepkimelerinde iki çözelti karıştırılınca suda çözünmeyen bir katı oluşur. İndirgenme-yükseltgenme (redoks) tepkimelerinde atomlar arasında elektron alışverişi olur; yanma ve paslanma buna örnektir.",
+     "points": [
+      "Tepkime kanıtları: renk, gaz, çökelek, ısı-ışık",
+      "Asit + baz → tuz + su",
+      "Redoks: elektron alışverişi"
+     ]
+    },
+    {
+     "title": "Mol kavramı",
+     "text": "Atom ve moleküller çok küçük olduğu için onları tek tek saymak yerine 'mol' adı verilen bir paket kullanılır. 1 mol, 6,02 × 10²³ tane tanecik demektir; bu sayıya Avogadro sayısı denir. Bir maddenin 1 molünün gram cinsinden kütlesine mol kütlesi denir. Örneğin karbonun mol kütlesi 12 g/mol, suyun 18 g/mol'dür. Mol sayısı n = m / M bağıntısıyla bulunur; m kütle, M mol kütlesidir. Gazlar için normal şartlarda (0 °C ve 1 atm) 1 mol gaz 22,4 L hacim kaplar. Mol kavramı, kütle, tanecik sayısı ve gaz hacmi arasında köprü kurar.",
+     "points": [
+      "1 mol = 6,02 × 10²³ tanecik",
+      "n = m / M",
+      "Normal şartlarda 1 mol gaz = 22,4 L"
+     ]
+    },
+    {
+     "title": "Tepkime denklemleri ve hesaplamalar",
+     "text": "Tepkime denklemi, tepkimeye giren ve çıkan maddeleri sembol ve formüllerle gösterir. Kütlenin korunumu gereği her atomdan eşitliğin iki tarafında eşit sayıda bulunmalıdır; bunu sağlamak için formüllerin önüne katsayılar yazılır: 2H₂ + O₂ → 2H₂O. Katsayılar, maddelerin mol oranlarını gösterir. Bu oranlar kullanılarak bir maddenin miktarından diğerininki hesaplanır; buna stokiyometri denir. Maddelerden biri diğerinden önce tükenirse tepkime durur; önce tükenen maddeye sınırlayıcı bileşen denir. Gerçekte elde edilen ürün miktarının hesaplanan miktara oranına yüzde verim denir.",
+     "points": [
+      "Denklemde atom sayıları eşitlenir.",
+      "Katsayılar mol oranını verir.",
+      "Yüzde verim = (gerçek / teorik) × 100"
+     ]
+    },
+    {
+     "title": "Gazlar ve ideal gaz denklemi",
+     "text": "Gazların tanecikleri birbirinden uzaktır, hızla ve rastgele hareket eder. Gaz taneciklerinin kabın çeperlerine çarpmasıyla gaz basıncı oluşur. Gazların davranışını basınç (P), hacim (V), mutlak sıcaklık (T, kelvin) ve mol sayısı (n) belirler. Sabit sıcaklıkta hacim azalırsa basınç artar (Boyle); sabit basınçta sıcaklık artarsa hacim artar (Charles). Bu ilişkiler PV = nRT ideal gaz denkleminde birleşir; R gaz sabitidir (0,082 L·atm/(mol·K)). Bir gazın başka bir gaz içinde yayılmasına difüzyon, küçük bir delikten boşluğa yayılmasına efüzyon denir. Hafif gazlar ağır gazlardan daha hızlı yayılır.",
+     "points": [
+      "PV = nRT",
+      "T (K) = t (°C) + 273",
+      "Hafif gazlar daha hızlı yayılır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Kimyasal tepkime",
+     "meaning": "Maddelerin yeni maddelere dönüştüğü değişim."
+    },
+    {
+     "term": "Redoks tepkimesi",
+     "meaning": "Elektron alışverişiyle gerçekleşen indirgenme-yükseltgenme tepkimesi."
+    },
+    {
+     "term": "Çökelme tepkimesi",
+     "meaning": "Çözeltiler karışınca çözünmeyen katı oluşturan tepkime."
+    },
+    {
+     "term": "Mol",
+     "meaning": "6,02 × 10²³ tanecik içeren madde miktarı."
+    },
+    {
+     "term": "Sınırlayıcı bileşen",
+     "meaning": "Tepkimede önce tükenen ve ürün miktarını belirleyen madde."
+    },
+    {
+     "term": "Yüzde verim",
+     "meaning": "Gerçek ürün miktarının teorik ürün miktarına oranı."
+    },
+    {
+     "term": "İdeal gaz",
+     "meaning": "Tanecikleri arasında etkileşim olmadığı varsayılan model gaz."
+    },
+    {
+     "term": "Difüzyon",
+     "meaning": "Bir gazın başka bir ortam içinde kendiliğinden yayılması."
+    }
+   ],
+   "example": {
+    "question": "2H₂ + O₂ → 2H₂O tepkimesine göre 8 g H₂ gazı yeterince O₂ ile tepkimeye girerse kaç gram su oluşur? (H: 1, O: 16)",
+    "solution": "1) H₂'nin mol kütlesi 2 g/mol: n = 8 / 2 = 4 mol H₂.\n2) Denkleme göre 2 mol H₂'den 2 mol H₂O oluşur; oran 1:1'dir.\n3) 4 mol H₂O oluşur.\n4) Suyun mol kütlesi 18 g/mol: 4 × 18 = 72 g su oluşur."
+   },
+   "remember": [
+    "Tepkimede atomlar korunur, yalnızca yeniden düzenlenir.",
+    "1 mol = 6,02 × 10²³ tanecik.",
+    "Denklemdeki katsayılar mol oranıdır.",
+    "Gaz hesaplarında sıcaklığı kelvin olarak kullan."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 2,
+   "intro": "Bu temada çözeltilerin nasıl oluştuğunu, çözünürlüğü etkileyen faktörleri, çözeltilerin sınıflandırılmasını, derişim hesaplarını ve çözünen maddenin kaynama ve donma noktasına etkisini öğreniyoruz. Deniz suyundan serum fizyolojiğe, kışın yollara tuz dökülmesine kadar çözeltiler her yerdedir.",
+   "sections": [
+    {
+     "title": "Çözünme süreci",
+     "text": "Bir maddenin başka bir madde içinde homojen olarak dağılmasına çözünme, oluşan homojen karışıma çözelti denir. Çözeltide miktarı fazla olan bileşen genellikle çözücü, az olan çözünendir. Çözünme sırasında çözücü tanecikleri çözünen tanecikleri sarar; su çözücü olduğunda buna hidratasyon denir. Genel kural 'benzer benzeri çözer' şeklindedir: polar maddeler polar çözücülerde (şeker ve tuz suda), apolar maddeler apolar çözücülerde (yağ benzinde) iyi çözünür. Tuz gibi iyonik maddeler suda iyonlarına ayrışarak çözünür; buna iyonik çözünme denir. Şeker gibi moleküler maddeler ise molekül hâlinde dağılır; buna moleküler çözünme denir.",
+     "points": [
+      "Benzer benzeri çözer.",
+      "İyonik çözünme: NaCl → Na⁺ + Cl⁻",
+      "Moleküler çözünme: şeker molekül olarak dağılır."
+     ]
+    },
+    {
+     "title": "Çözünürlük ve etkileyen faktörler",
+     "text": "Belirli bir sıcaklıkta 100 g suda çözünebilen en fazla madde miktarına çözünürlük denir. Çözünürlük maddenin cinsine, çözücünün cinsine, sıcaklığa ve gazlar için basınca bağlıdır. Katıların sudaki çözünürlüğü genellikle sıcaklık arttıkça artar. Gazların sudaki çözünürlüğü ise sıcaklık arttıkça azalır; ısınan derelerde balıkların oksijensiz kalması bundandır. Gazların çözünürlüğü basınç arttıkça artar; gazlı içecekler bu yüzden basınç altında şişelenir ve kapak açılınca gaz kabarcıkları çıkar. Karıştırmak ve katıyı toz hâline getirmek çözünme hızını artırır ama çözünürlüğü değiştirmez.",
+     "points": [
+      "Katılar: sıcaklık artınca çözünürlük genellikle artar.",
+      "Gazlar: sıcaklık artınca çözünürlük azalır, basınç artınca artar.",
+      "Karıştırma hızı artırır, çözünürlüğü değiştirmez."
+     ]
+    },
+    {
+     "title": "Çözeltilerin sınıflandırılması ve derişim",
+     "text": "Çözebileceğinden daha az madde çözmüş çözeltiye doymamış, en fazla miktarı çözmüş çözeltiye doymuş çözelti denir. Bazı durumlarda dikkatli soğutmayla çözünürlükten fazla madde çözünmüş hâlde kalabilir; bu kararsız çözeltiye aşırı doymuş çözelti denir. Çözünen miktarı az olan çözelti seyreltik, fazla olan derişiktir. İyon içeren ve elektrik akımını ileten çözeltiler elektrolit (tuzlu su), iletmeyenler elektrolit olmayan (şekerli su) çözeltidir. Molar derişim, 1 litre çözeltide çözünmüş maddenin mol sayısıdır: M = n / V. Çok seyreltik çözeltilerde ppm (milyonda bir) birimi kullanılır.",
+     "points": [
+      "M = n / V (mol/L)",
+      "Elektrolit çözelti iyon içerir ve akım iletir.",
+      "ppm: milyonda bir kısım"
+     ]
+    },
+    {
+     "title": "Koligatif özellikler",
+     "text": "Çözeltinin bazı özellikleri çözünen maddenin cinsine değil, çözünen tanecik sayısına bağlıdır; bunlara koligatif özellikler denir. Saf suya bir madde çözündüğünde çözeltinin kaynama noktası yükselir, donma noktası düşer. Tanecik sayısı arttıkça bu etki büyür. Örneğin aynı mol sayıda çözünen NaCl, suda Na⁺ ve Cl⁻ olmak üzere iki taneciğe ayrıldığı için şekerden yaklaşık iki kat etki yapar. Kışın buzlanmayı önlemek için yollara tuz dökülmesi ve araç radyatörlerine antifriz konması, donma noktasının düşmesine dayanır. Makarna suyuna tuz atıldığında da kaynama noktası bir miktar yükselir.",
+     "points": [
+      "Çözünen tanecik arttıkça kaynama noktası yükselir, donma noktası düşer.",
+      "Etki, maddenin cinsine değil tanecik sayısına bağlıdır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Çözelti",
+     "meaning": "İki ya da daha fazla maddenin homojen karışımı."
+    },
+    {
+     "term": "Çözünürlük",
+     "meaning": "Belirli sıcaklıkta 100 g çözücüde çözünebilen en fazla madde miktarı."
+    },
+    {
+     "term": "Doymuş çözelti",
+     "meaning": "Çözebileceği en fazla miktarda madde çözmüş çözelti."
+    },
+    {
+     "term": "Elektrolit çözelti",
+     "meaning": "İyon içeren ve elektrik akımını ileten çözelti."
+    },
+    {
+     "term": "Molar derişim",
+     "meaning": "1 litre çözeltideki çözünenin mol sayısı."
+    },
+    {
+     "term": "Koligatif özellik",
+     "meaning": "Çözünen tanecik sayısına bağlı çözelti özelliği."
+    },
+    {
+     "term": "İyonik çözünme",
+     "meaning": "Maddenin çözücüde iyonlarına ayrışarak çözünmesi."
+    },
+    {
+     "term": "Milyonda bir derişim (ppm)",
+     "meaning": "Bir milyon birim çözeltideki çözünen birim sayısı."
+    }
+   ],
+   "example": {
+    "question": "11,7 g NaCl suda çözülerek 500 mL çözelti hazırlanıyor. Çözeltinin molar derişimi nedir? (Na: 23, Cl: 35,5)",
+    "solution": "1) NaCl'nin mol kütlesi: 23 + 35,5 = 58,5 g/mol.\n2) n = 11,7 / 58,5 = 0,2 mol.\n3) V = 500 mL = 0,5 L.\n4) M = n / V = 0,2 / 0,5 = 0,4 mol/L."
+   },
+   "remember": [
+    "Benzer benzeri çözer.",
+    "Gazların çözünürlüğü sıcaklık artınca azalır.",
+    "Molar derişimde hacim litre olarak alınır.",
+    "Koligatif özellikler tanecik sayısına bağlıdır."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 3,
+   "intro": "Bu temada atmosferde gerçekleşen kimyasal tepkimelerin çevreye etkilerini, sera etkisini, asit yağmurlarını, ozon azalımını ve daha çevreci deney yöntemlerini öğreniyoruz. Bu bilgiler, iklim değişikliği gibi küresel sorunları anlamamız için gereklidir.",
+   "sections": [
+    {
+     "title": "Sera etkisi ve küresel ısınma",
+     "text": "Güneş'ten gelen ışınlar yeryüzünü ısıtır; ısınan yeryüzü de kızılötesi ışınım yayar. Atmosferdeki karbondioksit, metan, su buharı ve diğer sera gazları bu ışınımın bir kısmını tutar. Buna sera etkisi denir ve doğal sera etkisi olmasaydı Dünya canlılar için çok soğuk olurdu. Ancak fosil yakıtların yakılması, ormanların yok edilmesi ve bazı tarım ve sanayi faaliyetleri atmosferdeki sera gazı miktarını artırmıştır. Bu da Dünya'nın ortalama sıcaklığının artmasına, yani küresel ısınmaya yol açar. Buzulların erimesi, deniz seviyesinin yükselmesi ve aşırı hava olayları küresel ısınmanın sonuçlarındandır.",
+     "points": [
+      "Başlıca sera gazları: CO₂, CH₄, su buharı",
+      "Doğal sera etkisi yaşam için gereklidir; artışı küresel ısınmaya yol açar."
+     ]
+    },
+    {
+     "title": "Asit yağmurları ve ozon azalımı",
+     "text": "Kömür ve petrol ürünleri yakıldığında kükürt dioksit ve azot oksitler oluşur. Bu gazlar atmosferde su buharıyla tepkimeye girerek sülfürik asit ve nitrik asit oluşturur ve yağışlarla yeryüzüne iner; buna asit yağmuru denir. Asit yağmurları ormanlara, göl canlılarına, tarihi yapılara ve metal yüzeylere zarar verir. Stratosferdeki ozon tabakası ise Güneş'ten gelen zararlı morötesi ışınların büyük kısmını tutar. Eskiden soğutucularda ve spreylerde kullanılan kloroflorokarbonlar (CFC'ler) ozonu parçalayarak ozon tabakasının incelmesine yol açmıştır. Uluslararası anlaşmalarla CFC kullanımı yasaklanmış ve ozon tabakası yavaş yavaş iyileşmeye başlamıştır.",
+     "points": [
+      "Asit yağmuru: SO₂ ve azot oksitler + su",
+      "Ozon tabakası zararlı morötesi ışınları tutar.",
+      "CFC'ler ozonu parçalar."
+     ]
+    },
+    {
+     "title": "Ayak izleri ve çevreci deneyler",
+     "text": "Bir ürünün üretiminden atılmasına kadar atmosfere saldığı sera gazı miktarına emisyon (karbon) ayak izi denir. Bir ürünün üretimi için kullanılan toplam tatlı su miktarına ise su ayak izi denir. Kimyada çevreci yaklaşımın bir ölçüsü atom ekonomisidir: tepkimeye giren atomların ne kadarının istenen ürüne dönüştüğünü gösterir; atom ekonomisi yüksek tepkimeler daha az atık üretir. Laboratuvarda büyük miktarlarda kimyasal kullanılan makro ölçekli deneyler yerine, çok küçük miktarlarla yapılan mikro ölçekli deneyler tercih edilebilir. Mikro ölçekli deneyler daha az atık, daha az maliyet ve daha fazla güvenlik sağlar.",
+     "points": [
+      "Atom ekonomisi yüksek → atık az",
+      "Mikro ölçekli deney: az kimyasal, az atık, daha güvenli"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Sera etkisi",
+     "meaning": "Atmosferdeki gazların yeryüzünden yayılan ısıyı tutması."
+    },
+    {
+     "term": "Sera gazı",
+     "meaning": "Kızılötesi ışınımı tutan CO₂, CH₄ gibi gazlar."
+    },
+    {
+     "term": "Küresel ısınma",
+     "meaning": "Dünya'nın ortalama sıcaklığının artması."
+    },
+    {
+     "term": "Asit yağmurları",
+     "meaning": "Asidik gazların su buharıyla oluşturduğu asidik yağışlar."
+    },
+    {
+     "term": "Ozon azalımı",
+     "meaning": "Stratosferdeki ozon tabakasının incelmesi."
+    },
+    {
+     "term": "Atom ekonomisi",
+     "meaning": "Tepkimeye giren atomların istenen ürüne dönüşme oranı."
+    },
+    {
+     "term": "Mikro ölçekli deney",
+     "meaning": "Çok az miktarda kimyasalla yapılan deney."
+    },
+    {
+     "term": "Su ayak izi",
+     "meaning": "Bir ürün ya da hizmet için kullanılan toplam su miktarı."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Doğal sera etkisi gereklidir; artışı zararlıdır.",
+    "Asit yağmurlarının kaynağı fosil yakıtlardan çıkan gazlardır.",
+    "Ozon tabakası bizi morötesi ışınlardan korur.",
+    "Mikro ölçekli deneyler daha az atık üretir."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 1,
+   "intro": "Bu temada kimyasal tepkimelerdeki enerji değişimlerini (entalpi) ve tepkimelerin ne kadar hızlı gerçekleştiğini (tepkime hızı) öğreniyoruz. Yakıtların enerji değeri, besinlerin bozulması ve katalitik konvertörler bu konularla açıklanır.",
+   "sections": [
+    {
+     "title": "Ekzotermik ve endotermik tepkimeler",
+     "text": "Fiziksel ve kimyasal değişimler enerji alışverişiyle gerçekleşir. Çevresine ısı veren olaylara ekzotermik, çevresinden ısı alan olaylara endotermik denir. Yanma, nötralleşme, donma ve yoğuşma ekzotermiktir; çevre ısınır. Erime, buharlaşma, suyun elektrolizi ve fotosentez endotermiktir; çevre soğur. Sabit basınçta bir tepkimede alınan ya da verilen ısıya tepkime entalpisi (ΔH) denir. Ekzotermik tepkimelerde ürünlerin enerjisi girenlerinkinden düşüktür ve ΔH < 0 olur. Endotermik tepkimelerde ΔH > 0'dır. Yakıtlar, yandıklarında çok ısı veren maddeler olduğu için enerji kaynağı olarak kullanılır. Anlık sıcak ve soğuk kompresler de bu ilkelerle çalışır.",
+     "points": [
+      "Ekzotermik: ısı verir, ΔH < 0",
+      "Endotermik: ısı alır, ΔH > 0"
+     ]
+    },
+    {
+     "title": "Bağ enerjisi ve oluşum entalpisi",
+     "text": "Kimyasal tepkimede girenlerdeki bağlar kopar, ürünlerde yeni bağlar oluşur. Bağ koparmak enerji gerektirir, bağ oluşumu enerji açığa çıkarır. 1 mol gaz hâlindeki bağı koparmak için gereken enerjiye bağ enerjisi denir. Tepkime entalpisi yaklaşık olarak ΔH = (kopan bağların enerjileri toplamı) − (oluşan bağların enerjileri toplamı) ile hesaplanır. Bir bileşiğin 1 molünün standart koşullarda en kararlı elementlerinden oluşması sırasındaki entalpi değişimine standart oluşum entalpisi denir; elementlerin en kararlı hâllerinin oluşum entalpisi sıfır kabul edilir. Buna göre ΔH = Σ ΔH°(ürünler) − Σ ΔH°(girenler) olur.",
+     "points": [
+      "ΔH = kopan bağlar − oluşan bağlar",
+      "ΔH = Σ ürünler − Σ girenler (oluşum entalpileriyle)",
+      "Elementlerin kararlı hâlinin oluşum entalpisi 0"
+     ]
+    },
+    {
+     "title": "Çarpışma teorisi ve aktivasyon enerjisi",
+     "text": "Çarpışma teorisine göre bir tepkimenin gerçekleşmesi için tanecikler birbiriyle çarpışmalıdır. Ancak her çarpışma tepkimeyle sonuçlanmaz; taneciklerin uygun doğrultuda çarpışması ve yeterli enerjiye sahip olması gerekir. Tepkimenin başlaması için gereken en düşük enerjiye aktivasyon enerjisi denir. Aktivasyon enerjisi düşük olan tepkimeler daha hızlı gerçekleşir. Kibrit kendiliğinden yanmaz; sürtünmeyle başlangıç enerjisi verilmesi gerekir. Etkin çarpışma sırasında oluşan, kararsız ve yüksek enerjili ara yapıya aktifleşmiş kompleks denir. Ekzotermik tepkimelerde bile tepkimenin başlaması için aktivasyon enerjisi gereklidir.",
+     "points": [
+      "Etkin çarpışma: uygun doğrultu + yeterli enerji",
+      "Aktivasyon enerjisi küçükse tepkime hızlıdır."
+     ]
+    },
+    {
+     "title": "Tepkime hızı ve etkileyen faktörler",
+     "text": "Birim zamanda harcanan girenlerin ya da oluşan ürünlerin derişimindeki değişime tepkime hızı denir. Tepkime ilerledikçe girenlerin derişimi azaldığından hız genellikle zamanla azalır. Tepkime hızını etkileyen faktörler şunlardır: Sıcaklık artınca taneciklerin enerjisi ve etkin çarpışma sayısı artar, tepkime hızlanır. Derişim artınca çarpışma sayısı artar. Katıların temas yüzeyi artınca (toz hâline getirme) hız artar. Katalizör, aktivasyon enerjisi daha düşük olan farklı bir yol sunarak tepkimeyi hızlandırır ve tepkime sonunda değişmeden kalır. Hız denklemi, hız = k × [A]ˣ × [B]ʸ biçimindedir; k hız sabitidir, üslerin toplamı tepkime derecesidir ve deneyle bulunur.",
+     "points": [
+      "Sıcaklık, derişim, temas yüzeyi ve katalizör hızı artırır.",
+      "Katalizör tepkimede harcanmaz, ΔH'yi değiştirmez.",
+      "Hız = k[A]ˣ[B]ʸ"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Entalpi",
+     "meaning": "Sabit basınçta bir sistemin ısı içeriği."
+    },
+    {
+     "term": "Ekzotermik tepkime",
+     "meaning": "Çevresine ısı veren tepkime; ΔH < 0."
+    },
+    {
+     "term": "Endotermik tepkime",
+     "meaning": "Çevresinden ısı alan tepkime; ΔH > 0."
+    },
+    {
+     "term": "Bağ enerjisi",
+     "meaning": "1 mol gaz hâlindeki bağı koparmak için gereken enerji."
+    },
+    {
+     "term": "Standart oluşum entalpisi",
+     "meaning": "1 mol bileşiğin standart koşullarda elementlerinden oluşma entalpisi."
+    },
+    {
+     "term": "Aktivasyon enerjisi",
+     "meaning": "Tepkimenin başlaması için gereken en düşük enerji."
+    },
+    {
+     "term": "Katalizör",
+     "meaning": "Aktivasyon enerjisini düşürerek tepkimeyi hızlandıran, harcanmayan madde."
+    },
+    {
+     "term": "Tepkime hızı",
+     "meaning": "Birim zamanda madde derişimindeki değişim."
+    }
+   ],
+   "example": {
+    "question": "C(k) + O₂(g) → CO₂(g) tepkimesinde CO₂'nin standart oluşum entalpisi −393,5 kJ/mol'dür. 24 g karbon tamamen yandığında kaç kJ ısı açığa çıkar? (C: 12)",
+    "solution": "1) C ve O₂ element olduğu için oluşum entalpileri 0'dır; tepkime entalpisi −393,5 kJ/mol'dür.\n2) 24 g C = 24 / 12 = 2 mol.\n3) Açığa çıkan ısı: 2 × 393,5 = 787 kJ.\n4) ΔH negatif olduğundan tepkime ekzotermiktir."
+   },
+   "remember": [
+    "Isı veren tepkimede ΔH negatiftir.",
+    "Bağ koparmak enerji ister, bağ oluşumu enerji verir.",
+    "Katalizör hızı artırır ama ΔH'yi değiştirmez.",
+    "Hız denklemindeki üsler deneyle bulunur."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 2,
+   "intro": "Bu temada tersinir tepkimeleri ve kimyasal dengeyi, dengeyi etkileyen faktörleri, asit-baz teorilerini, pH hesabını, titrasyonu ve az çözünen tuzların çözünürlüğünü öğreniyoruz. Kanımızın pH'ının korunması ve endüstride amonyak üretimi bu konularla ilgilidir.",
+   "sections": [
+    {
+     "title": "Kimyasal denge ve denge sabiti",
+     "text": "Bazı tepkimeler hem ileri hem geri yönde gerçekleşebilir; bunlara tersinir tepkime denir. Kapalı bir kapta ileri ve geri tepkimelerin hızları eşitlendiğinde madde derişimleri artık değişmez; bu duruma kimyasal denge denir. Denge dinamiktir: tepkimeler durmaz, ancak iki yönde aynı hızla devam eder. Kapalı kaptaki suyun buharlaşma ve yoğuşma hızlarının eşitlenmesi ise fiziksel dengedir. aA + bB ⇌ cC + dD tepkimesi için denge sabiti Kc = [C]ᶜ[D]ᵈ / [A]ᵃ[B]ᵇ şeklinde yazılır; saf katı ve sıvılar ifadeye yazılmaz. Herhangi bir anda hesaplanan derişim oranı Kc ile karşılaştırılarak tepkimenin dengede olup olmadığı ve hangi yöne ilerleyeceği tahmin edilir.",
+     "points": [
+      "Dengede ileri hız = geri hız",
+      "Kc = [ürünler] / [girenler] (katsayılar üs olur)",
+      "Kc yalnızca sıcaklıkla değişir."
+     ]
+    },
+    {
+     "title": "Le Chatelier ilkesi",
+     "text": "Dengedeki bir sisteme dışarıdan bir etki yapıldığında sistem bu etkiyi azaltacak yönde kayar; buna Le Chatelier ilkesi denir. Girenlerden birinin derişimi artırılırsa denge ürünler yönüne kayar. Gaz tepkimelerinde basınç artırılırsa (hacim azaltılırsa) denge, gaz mol sayısının az olduğu tarafa kayar. Sıcaklık artırılırsa denge endotermik yöne kayar ve Kc değeri değişir. Ekzotermik bir tepkimede sıcaklık artışı ürün miktarını azaltır. Katalizör ise dengeyi kaydırmaz; yalnızca dengeye daha çabuk ulaşılmasını sağlar. Endüstride ürün verimini artırmak için bu ilkeden yararlanılır.",
+     "points": [
+      "Derişim artarsa denge diğer tarafa kayar.",
+      "Basınç artarsa gaz mol sayısının az olduğu tarafa kayar.",
+      "Katalizör dengeyi kaydırmaz."
+     ]
+    },
+    {
+     "title": "Asitler, bazlar ve pH",
+     "text": "Arrhenius'a göre asit suda H⁺ iyonu, baz OH⁻ iyonu oluşturan maddedir. Brønsted-Lowry'ye göre asit proton (H⁺) veren, baz proton alan türdür; bir asit proton verince onun eşlenik bazı oluşur ve bunlara asit-baz çifti denir. Saf su çok az da olsa kendi kendine iyonlaşır; buna otoiyonizasyon denir. 25 °C'de [H⁺] × [OH⁻] = 1 × 10⁻¹⁴'tür. pH = −log[H⁺] ve pH + pOH = 14 olur. pH < 7 asidik, pH = 7 nötr, pH > 7 bazik çözeltidir. Kuvvetli asit ve bazlar suda tamamen iyonlaşır (HCl, NaOH); zayıf asit ve bazlar kısmen iyonlaşır ve kuvvetleri asitlik ya da bazlık sabitiyle (Ka, Kb) ifade edilir.",
+     "points": [
+      "pH = −log[H⁺]",
+      "pH + pOH = 14 (25 °C)",
+      "Kuvvetli: tamamen iyonlaşır; zayıf: kısmen"
+     ]
+    },
+    {
+     "title": "Nötralleşme, titrasyon ve çözünürlük çarpımı",
+     "text": "Asit ile bazın tepkimeye girerek tuz ve su oluşturmasına nötralleşme denir. Derişimi bilinmeyen bir asit ya da baz çözeltisinin derişimi titrasyonla bulunur: derişimi bilinen çözelti, büretten yavaş yavaş eklenir. Asidin ve bazın mol sayılarının eşitlendiği noktaya eş değerlik noktası denir ve renk değiştiren indikatörlerle (örneğin fenolftalein) belirlenir. Suda az çözünen tuzlar, katı ile çözeltideki iyonları arasında denge kurar. Bu dengenin sabitine çözünürlük çarpımı (Kçç) denir; örneğin AgCl için Kçç = [Ag⁺][Cl⁻]. Çözeltide ortak iyon bulunması tuzun çözünürlüğünü azaltır.",
+     "points": [
+      "Asit + baz → tuz + su",
+      "Eş değerlik noktasında mol H⁺ = mol OH⁻",
+      "Ortak iyon çözünürlüğü azaltır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Kimyasal denge",
+     "meaning": "İleri ve geri tepkime hızlarının eşit olduğu dinamik durum."
+    },
+    {
+     "term": "Denge sabiti",
+     "meaning": "Dengede ürün ve giren derişimleri arasındaki sabit oran."
+    },
+    {
+     "term": "Le Chatelier ilkesi",
+     "meaning": "Dengedeki sistemin dış etkiyi azaltacak yönde kayması."
+    },
+    {
+     "term": "Brønsted-Lowry asidi/bazı",
+     "meaning": "Proton veren tür asit, proton alan tür bazdır."
+    },
+    {
+     "term": "pH/pOH",
+     "meaning": "Çözeltideki H⁺ ve OH⁻ derişiminin eksi logaritması."
+    },
+    {
+     "term": "Titrasyon",
+     "meaning": "Derişimi bilinen çözeltiyle bilinmeyen derişimi bulma yöntemi."
+    },
+    {
+     "term": "İndikatör",
+     "meaning": "Ortamın pH'ına göre renk değiştiren madde."
+    },
+    {
+     "term": "Çözünürlük çarpımı",
+     "meaning": "Az çözünen tuzun çözünme dengesindeki iyon derişimleri çarpımı."
+    }
+   ],
+   "example": {
+    "question": "0,01 M HCl çözeltisinin pH'ı kaçtır? 25 °C'de pOH değeri nedir?",
+    "solution": "1) HCl kuvvetli asittir ve tamamen iyonlaşır: [H⁺] = 0,01 = 10⁻² M.\n2) pH = −log(10⁻²) = 2.\n3) pOH = 14 − 2 = 12.\n4) pH < 7 olduğundan çözelti asidiktir."
+   },
+   "remember": [
+    "Denge durgun değil, dinamiktir.",
+    "Katalizör dengeyi kaydırmaz.",
+    "pH küçüldükçe asitlik artar.",
+    "Titrasyonda eş değerlik noktasında asit ve baz mol sayıları eşittir."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 3,
+   "intro": "Bu temada temiz enerji kaynağı olarak yeşil hidrojeni, nanoteknolojinin fayda ve risklerini, mikroplastik ve nanoplastiklerin çevreye etkilerini öğreniyoruz. Bu konular, gelecekte enerji ve çevre sorunlarına bulunacak çözümlerle doğrudan ilgilidir.",
+   "sections": [
+    {
+     "title": "Yeşil hidrojen enerjisi",
+     "text": "Hidrojen yandığında yalnızca su oluşturduğu için temiz bir yakıt olarak görülür: 2H₂ + O₂ → 2H₂O. Ancak hidrojen doğada serbest hâlde çok az bulunur ve üretilmesi gerekir. Fosil yakıtlardan elde edilen hidrojen üretiminde karbondioksit açığa çıkar. Yenilenebilir enerji kaynakları kullanılarak suyun elektrolizi ya da biyolojik yöntemlerle üretilen hidrojene yeşil hidrojen denir. Biyolojik yöntemlerden biri fermantasyondur: bazı mikroorganizmalar, mutfak atıkları gibi organik maddeleri oksijensiz ortamda parçalarken hidrojen gazı üretebilir. Böylece hem atıklar değerlendirilir hem de temiz enerji elde edilir. Hidrojenin depolanması ve taşınması ise hâlâ çözülmesi gereken teknik sorunlardır.",
+     "points": [
+      "Hidrojen yanınca yalnızca su oluşur.",
+      "Yeşil hidrojen: yenilenebilir kaynaklarla üretilir.",
+      "Fermantasyon: mikroorganizmalarla organik atıktan hidrojen"
+     ]
+    },
+    {
+     "title": "Nanoteknoloji",
+     "text": "Nanoteknoloji, maddeyi nanometre ölçeğinde (yaklaşık 1-100 nm) tasarlama ve kullanma teknolojisidir. Bu ölçekte maddelerin yüzey alanı çok büyür ve renk, iletkenlik, dayanıklılık gibi özellikleri değişebilir. Nanoteknolojik ürünler; güneş kremlerinde, leke tutmayan kumaşlarda, hedefe yönelik ilaç taşıma sistemlerinde, daha hafif ve dayanıklı malzemelerde ve elektronik cihazlarda kullanılır. Ancak nanoparçacıkların çok küçük olması, canlıların vücuduna ve hücrelerine kolayca girebilmeleri anlamına da gelir. Uzun süreli sağlık ve çevre etkileri henüz tam olarak bilinmemektedir. Bu yüzden nanoteknolojik bir ürün seçerken faydalarıyla olası riskleri eleştirel düşünerek değerlendirmek gerekir.",
+     "points": [
+      "Nano ölçekte maddenin özellikleri değişir.",
+      "Kullanım: ilaç, kozmetik, tekstil, elektronik",
+      "Faydalar ve riskler birlikte değerlendirilmeli."
+     ]
+    },
+    {
+     "title": "Mikroplastik ve nanoplastikler",
+     "text": "Boyutu 5 milimetreden küçük plastik parçacıklara mikroplastik, çok daha küçük, nanometre ölçeğindeki parçacıklara nanoplastik denir. Bunlar büyük plastik atıkların güneş ışığı ve aşınmayla parçalanmasından, sentetik giysilerin yıkanmasından, araç lastiklerinin aşınmasından ve bazı kozmetik ürünlerden kaynaklanır. Plastikler doğada çok uzun sürede bozunur. Mikroplastikler denizlerde, toprakta, içme suyunda ve havada tespit edilmiştir; deniz canlıları tarafından yutularak besin zincirine girer. Plastik tüketimini azaltmak, tek kullanımlık ürünlerden kaçınmak, atıkları doğru ayırmak ve geri dönüşümü desteklemek bu sorunu azaltmaya yardımcı olur.",
+     "points": [
+      "Mikroplastik: 5 mm'den küçük plastik parçacık",
+      "Plastikler doğada çok yavaş bozunur.",
+      "Tek kullanımlık plastikleri azalt."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Yeşil hidrojen enerjisi",
+     "meaning": "Yenilenebilir kaynaklar ya da biyolojik yollarla üretilen hidrojenden elde edilen enerji."
+    },
+    {
+     "term": "Fermantasyon",
+     "meaning": "Mikroorganizmaların organik maddeyi oksijensiz ortamda parçalaması."
+    },
+    {
+     "term": "Nanoteknoloji",
+     "meaning": "Maddeyi nanometre ölçeğinde tasarlama ve kullanma teknolojisi."
+    },
+    {
+     "term": "Mikroplastik",
+     "meaning": "Boyutu 5 mm'den küçük plastik parçacık."
+    },
+    {
+     "term": "Nanoplastik",
+     "meaning": "Nanometre ölçeğindeki çok küçük plastik parçacık."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Hidrojen yandığında yalnızca su oluşur.",
+    "Hidrojenin 'yeşil' olması üretim yöntemine bağlıdır.",
+    "Nanoteknolojinin faydaları ve riskleri birlikte düşünülmeli.",
+    "Mikroplastikler besin zinciri yoluyla canlılara ulaşır."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 1,
+   "intro": "Bu temada elektron alışverişiyle gerçekleşen redoks tepkimelerini, pilleri (galvanik hücreleri), elektrolizi ve korozyonu öğreniyoruz. Telefon bataryalarından metal kaplamaya, gemilerin paslanmaya karşı korunmasına kadar elektrokimya her yerdedir.",
+   "sections": [
+    {
+     "title": "Redoks tepkimeleri ve aktiflik",
+     "text": "Elektron veren türün yükseltgenme basamağı artar; buna yükseltgenme denir. Elektron alan türün yükseltgenme basamağı azalır; buna indirgenme denir. Bu iki olay her zaman birlikte gerçekleşir ve redoks tepkimesi olarak adlandırılır. Kendisi yükseltgenip karşısındakini indirgeyen türe indirgen, kendisi indirgenip karşısındakini yükseltgeyen türe yükseltgen denir. Metallerin elektron verme eğilimine aktiflik denir. Daha aktif bir metal, daha az aktif metalin iyonlarını içeren çözeltiye konulursa onu indirger: çinko çubuk bakır sülfat çözeltisine konulduğunda çinko çözünür ve çubuğun üzerinde bakır birikir. Bu deneylerle metallerin aktiflik sıralaması belirlenir.",
+     "points": [
+      "Yükseltgenme: elektron verme",
+      "İndirgenme: elektron alma",
+      "Aktif metal, az aktif metalin iyonunu indirger."
+     ]
+    },
+    {
+     "title": "Galvanik hücreler",
+     "text": "Kendiliğinden gerçekleşen redoks tepkimesinden elektrik enerjisi üreten düzeneğe galvanik hücre (pil) denir. Her biri bir metal elektrot ve onun iyonlarını içeren elektrolitten oluşan iki yarı hücreden meydana gelir. Yükseltgenmenin olduğu elektrot anot, indirgenmenin olduğu elektrot katottur. Elektronlar dış devrede anottan katoda akar. Tuz köprüsü, iyon geçişini sağlayarak çözeltilerin elektriksel olarak nötr kalmasını ve devrenin tamamlanmasını sağlar. Standart hücre potansiyeli, E°hücre = E°(katot, indirgenme) − E°(anot, indirgenme) ile hesaplanır. Hücre potansiyeli pozitifse tepkime kendiliğinden gerçekleşir. Potansiyel; derişim ve sıcaklıkla değişir.",
+     "points": [
+      "Anot: yükseltgenme; katot: indirgenme",
+      "Elektronlar anottan katoda akar.",
+      "E°hücre > 0 ise pil çalışır."
+     ]
+    },
+    {
+     "title": "Elektroliz ve Faraday yasaları",
+     "text": "Kendiliğinden gerçekleşmeyen bir redoks tepkimesinin dışarıdan elektrik enerjisi verilerek gerçekleştirilmesine elektroliz, bu düzeneğe elektrolitik hücre denir. Elektrolizde de anotta yükseltgenme, katotta indirgenme olur; ancak burada anot güç kaynağının pozitif kutbuna, katot negatif kutbuna bağlıdır. Suyun elektrolizinde katotta hidrojen, anotta oksijen gazı oluşur. Faraday yasalarına göre elektrotlarda biriken madde miktarı, devreden geçen elektrik yükü miktarıyla doğru orantılıdır. 1 mol elektronun yükü yaklaşık 96 500 coulomb'dur ve 1 Faraday olarak adlandırılır. Elektroliz; metallerin saflaştırılmasında, alüminyum üretiminde ve metal kaplamada kullanılır.",
+     "points": [
+      "Elektrolizde elektrik enerjisi kimyasal enerjiye dönüşür.",
+      "1 F = 96 500 C = 1 mol elektron",
+      "Q = I × t"
+     ]
+    },
+    {
+     "title": "Korozyon ve korunma",
+     "text": "Metallerin çevredeki oksijen, su ve diğer maddelerle tepkimeye girerek aşınmasına korozyon denir. Demirin paslanması en bilinen örnektir; demir yükseltgenir ve oksijen indirgenir. Paslanma nemli ve tuzlu ortamlarda hızlanır. Korozyondan korunmak için metal yüzeyi boya, yağ veya plastikle kaplanarak su ve oksijenle teması kesilir. Demir, daha aktif bir metal olan çinkoyla kaplanabilir; buna galvanizleme denir. Katodik korumada ise korunacak metale daha aktif bir metal (magnezyum ya da çinko) bağlanır; aktif metal kurban anot olarak yükseltgenir ve demir korunur. Gemi gövdeleri ve yer altı boru hatları bu yöntemle korunur.",
+     "points": [
+      "Paslanma için oksijen ve su gerekir.",
+      "Galvanizleme: demirin çinkoyla kaplanması",
+      "Katodik koruma: kurban anot olarak aktif metal"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Redoks",
+     "meaning": "Yükseltgenme ve indirgenmenin birlikte olduğu elektron alışverişi tepkimesi."
+    },
+    {
+     "term": "Yükseltgen",
+     "meaning": "Elektron alarak karşısındakini yükseltgeyen tür."
+    },
+    {
+     "term": "İndirgen",
+     "meaning": "Elektron vererek karşısındakini indirgeyen tür."
+    },
+    {
+     "term": "Anot",
+     "meaning": "Yükseltgenmenin gerçekleştiği elektrot."
+    },
+    {
+     "term": "Katot",
+     "meaning": "İndirgenmenin gerçekleştiği elektrot."
+    },
+    {
+     "term": "Tuz köprüsü",
+     "meaning": "Galvanik hücrede iyon geçişini sağlayarak devreyi tamamlayan bağlantı."
+    },
+    {
+     "term": "Elektroliz",
+     "meaning": "Elektrik enerjisiyle kendiliğinden olmayan tepkimeyi gerçekleştirme."
+    },
+    {
+     "term": "Korozyon",
+     "meaning": "Metallerin çevreyle tepkimeye girerek aşınması."
+    }
+   ],
+   "example": {
+    "question": "Zn-Cu galvanik hücresinde E°(Zn²⁺/Zn) = −0,76 V ve E°(Cu²⁺/Cu) = +0,34 V'tur. Anodu, katodu ve standart hücre potansiyelini bulunuz.",
+    "solution": "1) İndirgenme potansiyeli büyük olan Cu katottur; Cu²⁺ indirgenir.\n2) Zn anottur; Zn yükseltgenerek Zn²⁺ olur.\n3) E°hücre = E°katot − E°anot = 0,34 − (−0,76) = 1,10 V.\n4) Potansiyel pozitif olduğundan tepkime kendiliğinden gerçekleşir."
+   },
+   "remember": [
+    "Yükseltgenme ve indirgenme her zaman birlikte olur.",
+    "Anotta yükseltgenme, katotta indirgenme olur.",
+    "Pil kimyasal enerjiyi elektriğe, elektroliz elektriği kimyasal enerjiye dönüştürür.",
+    "Kurban anot, korunacak metalden daha aktif olmalıdır."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 2,
+   "intro": "Bu temada karbon atomunun bağ yapma özelliklerini, molekül geometrisini, hidrokarbonları ve fonksiyonel gruplu organik bileşikleri öğreniyoruz. Yakıtlar, ilaçlar, plastikler ve canlıların yapısındaki moleküller organik kimyanın konusudur.",
+   "sections": [
+    {
+     "title": "Sigma ve pi bağları, hibritleşme ve geometri",
+     "text": "Orbitallerin uç uca örtüşmesiyle oluşan bağa sigma (σ), yan yana örtüşmesiyle oluşan bağa pi (π) bağı denir. Tekli bağ bir sigma; ikili bağ bir sigma ve bir pi; üçlü bağ bir sigma ve iki pi bağından oluşur. Karbon atomu bağ yaparken orbitallerini karıştırarak hibrit orbitaller oluşturur. Dört tekli bağ yapan karbon sp³ hibritleşmesi yapar ve düzgün dört yüzlü (109,5°) geometriye sahiptir (CH₄). İkili bağ yapan karbon sp² hibritleşmesi yapar ve düzlem üçgen (120°) geometridedir (C₂H₄). Üçlü bağ yapan karbon sp hibritleşmesi yapar ve doğrusal (180°) geometridedir (C₂H₂).",
+     "points": [
+      "sp³: dört yüzlü, 109,5°",
+      "sp²: düzlem üçgen, 120°",
+      "sp: doğrusal, 180°"
+     ]
+    },
+    {
+     "title": "Hidrokarbonlar ve adlandırma",
+     "text": "Yalnızca karbon ve hidrojenden oluşan bileşiklere hidrokarbon denir. Karbon atomlarının zincir ya da halka şeklinde dizildiği aromatik olmayan bileşiklere alifatik bileşik denir. Tüm bağları tekli olan alkanların genel formülü CₙH₂ₙ₊₂, bir ikili bağ içeren alkenlerin CₙH₂ₙ, bir üçlü bağ içeren alkinlerin CₙH₂ₙ₋₂'dir. Benzen halkası içeren bileşiklere aromatik bileşik denir. Sistematik adlandırmada en uzun karbon zinciri bulunur, karbon sayısı kökü (met, et, prop, büt, pent...) verir ve son ek bağ türünü gösterir: -an, -en, -in. Molekül formülü aynı, yapısı farklı bileşiklere izomer denir; zincir, konum ve fonksiyonel grup izomerliği türleri vardır.",
+     "points": [
+      "Alkan CₙH₂ₙ₊₂, alken CₙH₂ₙ, alkin CₙH₂ₙ₋₂",
+      "Kökler: 1 met, 2 et, 3 prop, 4 büt, 5 pent",
+      "İzomer: aynı formül, farklı yapı"
+     ]
+    },
+    {
+     "title": "Fonksiyonel gruplar",
+     "text": "Organik bileşiklere karakteristik özelliklerini kazandıran atom gruplarına fonksiyonel grup denir. Alkoller –OH grubu içerir ve adları -ol ekiyle biter (etanol). Eterlerde oksijen iki karbon grubu arasındadır (R–O–R'). Aldehitlerde zincir ucunda –CHO grubu bulunur (-al eki, metanal). Ketonlarda karbonil grubu (C=O) zincirin içindedir (-on eki, propanon yani aseton). Karboksilik asitler –COOH grubu içerir (-oik asit, etanoik asit yani asetik asit; sirkenin asidi). Esterler bir asit ile alkolün tepkimesinden oluşur ve çoğu meyvemsi kokuludur. Etanol ve dimetil eter gibi aynı formüle sahip, farklı fonksiyonel gruplu bileşikler fonksiyonel grup izomeridir.",
+     "points": [
+      "Alkol: –OH",
+      "Aldehit: –CHO, keton: C=O (zincir içinde)",
+      "Karboksilik asit: –COOH",
+      "Ester: asit + alkol"
+     ]
+    },
+    {
+     "title": "Formüller ve karbon temelli yakıtlar",
+     "text": "Organik bileşikler farklı formüllerle gösterilir. Basit formül atomların en sade oranını, molekül formülü gerçek atom sayılarını, yapı formülü ise tüm bağları gösterir. Yarı açık formülde karbon-hidrojen bağları gruplanarak yazılır (CH₃–CH₂–OH). Doğal gaz (büyük ölçüde metan), LPG ve benzin gibi hidrokarbonlar yakıt olarak kullanılır. Hidrokarbonlar yeterli oksijenle tamamen yandığında karbondioksit ve su oluşur. Oksijen yetersizse eksik yanma olur ve renksiz, kokusuz, çok zehirli karbon monoksit (CO) gazı açığa çıkar. Bu yüzden soba ve şofbenlerin bulunduğu yerler iyi havalandırılmalı, karbon monoksit dedektörü kullanılmalıdır.",
+     "points": [
+      "Tam yanma: CO₂ + H₂O",
+      "Eksik yanma: zehirli CO",
+      "Örnek: CH₄ + 2O₂ → CO₂ + 2H₂O"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Sigma bağı",
+     "meaning": "Orbitallerin uç uca örtüşmesiyle oluşan bağ."
+    },
+    {
+     "term": "Pi bağı",
+     "meaning": "Orbitallerin yan yana örtüşmesiyle oluşan bağ."
+    },
+    {
+     "term": "Hidrokarbon",
+     "meaning": "Yalnızca karbon ve hidrojenden oluşan bileşik."
+    },
+    {
+     "term": "Alkan",
+     "meaning": "Yalnızca tekli bağ içeren hidrokarbon, CₙH₂ₙ₊₂."
+    },
+    {
+     "term": "Alken",
+     "meaning": "Bir C=C ikili bağı içeren hidrokarbon."
+    },
+    {
+     "term": "Aromatik bileşik",
+     "meaning": "Benzen halkası içeren bileşik."
+    },
+    {
+     "term": "Fonksiyonel grup",
+     "meaning": "Organik bileşiğe karakteristik özellik veren atom grubu."
+    },
+    {
+     "term": "İzomerlik",
+     "meaning": "Aynı molekül formülüne sahip bileşiklerin farklı yapıda olması."
+    }
+   ],
+   "example": {
+    "question": "C₃H₈ (propan) tamamen yandığında oluşan denklemi denkleştiriniz. 1 mol propan için kaç mol O₂ gerekir?",
+    "solution": "1) C₃H₈ + O₂ → CO₂ + H₂O.\n2) Karbon: 3 karbon için 3CO₂.\n3) Hidrojen: 8 hidrojen için 4H₂O.\n4) Oksijen: sağda 3 × 2 + 4 × 1 = 10 O atomu var; 5O₂ gerekir.\n5) C₃H₈ + 5O₂ → 3CO₂ + 4H₂O. 1 mol propan için 5 mol O₂ gerekir."
+   },
+   "remember": [
+    "İkili bağ: 1 σ + 1 π; üçlü bağ: 1 σ + 2 π.",
+    "Alkan -an, alken -en, alkin -in ekiyle biter.",
+    "Fonksiyonel grup bileşiğin özelliklerini belirler.",
+    "Eksik yanma zehirli karbon monoksit oluşturur."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 3,
+   "intro": "Bu temada güneş enerjisinden elektrik üreten yeni nesil güneş pillerini, doğada bozunabilen polimerleri ve yapay zekânın sürdürülebilirliğe etkilerini öğreniyoruz. Kimya, temiz enerji ve çevre dostu malzemeler geliştirmede kilit rol oynar.",
+   "sections": [
+    {
+     "title": "Güneş hücreleri ve fotosentezden ilham",
+     "text": "Güneş hücreleri, güneş ışığını doğrudan elektrik enerjisine dönüştüren düzeneklerdir. En yaygın olanlar silisyum gibi yarı iletkenlerden yapılır. Bitkiler fotosentezde ışık enerjisini klorofil gibi boya maddeleriyle yakalar ve kimyasal enerjiye dönüştürür. Boyaya duyarlı güneş pilleri bu süreçten ilham alır: titanyum dioksit gibi bir yarı iletken yüzeye tutturulmuş boya molekülleri ışığı soğurur ve elektron salar. Bu piller ucuz malzemelerle üretilebilir, esnek ve yarı saydam olabilir. Verimleri; kullanılan boyanın ışığı soğurma yeteneğine, yarı iletkenin yüzey alanına ve elektrolite bağlıdır. Nanoparçacıklı güneş pillerinde nano boyuttaki malzemelerin geniş yüzey alanı, ışık soğurmayı artırarak verimi yükseltmeyi amaçlar.",
+     "points": [
+      "Güneş hücresi: ışık → elektrik",
+      "Boyaya duyarlı pil: boya ışığı soğurur, elektron salar.",
+      "Nanoparçacıklar yüzey alanını artırır."
+     ]
+    },
+    {
+     "title": "Biyopolimerler ve biyobozunur polimerler",
+     "text": "Polimerler, monomer adı verilen küçük moleküllerin çok sayıda birleşmesiyle oluşan büyük moleküllerdir. Petrol kaynaklı plastiklerin çoğu doğada yüzlerce yıl bozunmadan kalabilir. Canlılar tarafından üretilen ya da yenilenebilir kaynaklardan (mısır nişastası, selüloz, şeker kamışı gibi) elde edilen polimerlere biyopolimer denir. Mikroorganizmalar tarafından su, karbondioksit ve biyokütleye parçalanabilen polimerlere ise biyobozunur polimer denir. Nişasta, selüloz ve polilaktik asit (PLA) bu gruba örnektir. Biyobozunur polimer üretiminde kullanılacak hammaddeler seçilirken yenilenebilir olmaları, gıda üretimiyle rekabet etmemeleri ve bozunma koşulları dikkate alınmalıdır. Nanopolimerler ise nano ölçekte yapılandırılmış polimer malzemelerdir.",
+     "points": [
+      "Polimer: monomerlerin birleşmesiyle oluşur.",
+      "Biyobozunur: mikroorganizmalarca parçalanabilir.",
+      "Her biyopolimer biyobozunur olmak zorunda değildir."
+     ]
+    },
+    {
+     "title": "Yapay zekâ ve sürdürülebilirlik",
+     "text": "Yapay zekâ, bilgisayarların verilerden öğrenerek tahmin yapmasını ve karar vermesini sağlayan teknolojidir. Kimyada yeni ilaç ve malzemelerin tasarlanmasını hızlandırabilir, deney sayısını ve dolayısıyla kimyasal atığı azaltabilir. Enerji şebekelerinin daha verimli yönetilmesine, hava kirliliğinin izlenmesine ve tarımda gübre ile su kullanımının azaltılmasına yardımcı olabilir. Öte yandan büyük yapay zekâ modellerini eğitmek ve çalıştırmak için kullanılan veri merkezleri yüksek miktarda elektrik ve soğutma suyu tüketir. Elektronik donanım üretimi de maden ve kimyasal kullanımını artırır. Bu nedenle yapay zekânın sürdürülebilirliğe etkisi, faydaları ve çevresel maliyetleri birlikte düşünülerek eleştirel biçimde değerlendirilmelidir.",
+     "points": [
+      "Fayda: hızlı malzeme tasarımı, kaynak tasarrufu",
+      "Maliyet: veri merkezlerinin enerji ve su tüketimi",
+      "Eleştirel değerlendirme gerekir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Güneş hücresi",
+     "meaning": "Güneş ışığını doğrudan elektriğe dönüştüren düzenek."
+    },
+    {
+     "term": "Boyaya duyarlı güneş pili",
+     "meaning": "Işığı boya molekülleriyle soğurup elektrik üreten güneş pili."
+    },
+    {
+     "term": "Nanoparçacıklı güneş pili",
+     "meaning": "Verimi artırmak için nano boyutlu malzeme kullanan güneş pili."
+    },
+    {
+     "term": "Fotosentez",
+     "meaning": "Bitkilerin ışık enerjisiyle CO₂ ve sudan besin üretmesi."
+    },
+    {
+     "term": "Biyopolimer",
+     "meaning": "Canlılar tarafından üretilen ya da yenilenebilir kaynaklardan elde edilen polimer."
+    },
+    {
+     "term": "Biyobozunur polimer",
+     "meaning": "Mikroorganizmalarca doğal ürünlere parçalanabilen polimer."
+    },
+    {
+     "term": "Nanopolimer",
+     "meaning": "Nano ölçekte yapılandırılmış polimer malzeme."
+    },
+    {
+     "term": "Yapay zekâ",
+     "meaning": "Bilgisayarların verilerden öğrenerek karar vermesini sağlayan teknoloji."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Boyaya duyarlı güneş pilleri fotosentezden ilham alır.",
+    "Biyobozunur polimerler mikroorganizmalarca parçalanır.",
+    "Yeni teknolojilerin çevresel maliyetleri de vardır.",
+    "Sürdürülebilirlik için fayda ve zarar birlikte değerlendirilir."
+   ]
+  }
+ ]
+}

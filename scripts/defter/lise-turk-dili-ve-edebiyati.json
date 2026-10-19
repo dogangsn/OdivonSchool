@@ -1,0 +1,1235 @@
+{
+ "file": "lise-turk-dili-ve-edebiyati",
+ "notes": [
+  {
+   "grade": 9,
+   "order": 1,
+   "intro": "Bu temada edebî dilin günlük dilden nasıl ayrıldığını, yazarların hayal gücüyle nasıl kurmaca dünyalar yarattığını ve sözün inceliklerini fark etmeyi öğreniyoruz. Ayrıca edebî söyleyişi kendi konuşma ve yazılarımıza nasıl yansıtacağımızı inceliyoruz.",
+   "sections": [
+    {
+     "title": "Günlük dil ve edebî dil",
+     "text": "Günlük dil, bilgi aktarmak ve ihtiyaçlarımızı karşılamak için kullandığımız açık, doğrudan dildir. Edebî dil ise estetik bir amaçla, okurda duygu uyandırmak için kullanılır. Edebî dilde kelimeler çoğu zaman gerçek anlamlarının ötesine geçer, çağrışımlarla zenginleşir. Örneğin günlük dilde 'Hava çok soğuk.' deriz; edebî dilde ise 'Ayaz, pencerelere buzdan çiçekler işliyordu.' denebilir. Edebî dilde imge, yani zihinde canlanan duyusal görüntü önemlidir. Sembol ise bir kavramı temsil eden somut öğedir; örneğin güvercin barışı, zeytin dalı umudu simgeleyebilir. Yaratıcı yazar, sıradan bir durumu yeni ve etkileyici bir biçimde anlatır.",
+     "points": [
+      "Günlük dil bilgi verir, edebî dil estetik zevk verir.",
+      "İmge zihinde canlanan görüntüdür.",
+      "Sembol soyut bir kavramı temsil eden somut öğedir."
+     ]
+    },
+    {
+     "title": "Kurmaca ve gerçeklik",
+     "text": "Kurmaca, yazarın gerçek hayattan esinlenerek hayal gücüyle oluşturduğu dünyadır. Hikâye, roman, masal ve tiyatro gibi metinler kurmacadır. Kurmaca metinlerdeki olay ve kişiler gerçek hayatta yaşanmış olmak zorunda değildir ama okura inandırıcı gelir; buna kurmaca gerçeklik denir. Bilgilendirici metinler ise doğrudan gerçeği aktarır. İyi bir kurmaca metin sürükleyicidir: merak uyandıran olaylar, canlı karakterler ve beklenmedik gelişmelerle okuru metne bağlar. Metinlerdeki iletiler açık ya da örtük olabilir. Açık ileti doğrudan söylenen mesajdır; örtük ileti ise satır aralarına gizlenmiş, okurun çıkarması gereken mesajdır.",
+     "points": [
+      "Kurmaca metinler hayal gücüne dayanır.",
+      "Açık ileti doğrudan, örtük ileti dolaylı söylenir.",
+      "Sürükleyicilik merak ve gerilimle sağlanır."
+     ]
+    },
+    {
+     "title": "Söyleyiş incelikleriyle konuşma ve yazma",
+     "text": "Etkili bir konuşmada yalnızca ne söylediğimiz değil, nasıl söylediğimiz de önemlidir. Vurgu, tonlama, uygun duraklama ve beden dili sözün etkisini artırır. İkna edici bir konuşmada görüşümüzü açıkça belirtir, örnekler ve gerekçelerle destekler, dinleyicinin duygularına da seslenen benzetmeler kullanabiliriz. Yazarken edebî metinlerden öğrendiğimiz kelimeleri ve söz sanatlarını kullanarak paragrafımızı zenginleştirebiliriz. Yazının sonunda mutlaka yazım ve noktalama kontrolü yapılmalıdır: cümleler büyük harfle başlar, özel adlar büyük harfle yazılır, cümle sonuna uygun noktalama işareti konur. Yazımızı yeniden okuyarak gereksiz tekrarları ayıklamak da yazma sürecinin parçasıdır.",
+     "points": [
+      "Vurgu ve tonlama anlamı güçlendirir.",
+      "İkna için gerekçe ve örnek gerekir.",
+      "Yazı mutlaka gözden geçirilmelidir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Edebî dil",
+     "meaning": "Estetik amaçla, duygu ve çağrışım yüklü kullanılan dil."
+    },
+    {
+     "term": "Günlük dil",
+     "meaning": "Bilgi aktarmak için kullanılan açık ve doğrudan dil."
+    },
+    {
+     "term": "İmge",
+     "meaning": "Okurun zihninde canlanan duyusal görüntü."
+    },
+    {
+     "term": "Sembol",
+     "meaning": "Soyut bir kavramı temsil eden somut öğe; simge."
+    },
+    {
+     "term": "Kurmaca",
+     "meaning": "Yazarın hayal gücüyle oluşturduğu metin dünyası."
+    },
+    {
+     "term": "Çağrışım",
+     "meaning": "Bir sözün zihinde başka kavram ve duyguları uyandırması."
+    },
+    {
+     "term": "Açık ve örtük ileti",
+     "meaning": "Metinde doğrudan söylenen ve dolaylı olarak sezdirilen mesajlar."
+    },
+    {
+     "term": "Sürükleyicilik",
+     "meaning": "Metnin okuru merakla okumaya devam ettirmesi."
+    }
+   ],
+   "example": {
+    "question": "'Kış geldi.' cümlesini edebî dille yeniden yazın ve iki cümle arasındaki farkı açıklayın.",
+    "solution": "1. Edebî yazım örneği: 'Kış, beyaz paltosunu giyip sessizce kasabaya yerleşti.'\n2. İlk cümle yalnızca bilgi verir; günlük dildir.\n3. İkinci cümlede kışa insan özelliği verilmiş (kişileştirme), 'beyaz palto' ile kar imgesi oluşturulmuştur.\n4. Böylece cümle okurda görsel bir tablo ve duygu uyandırır; bu edebî dildir."
+   },
+   "remember": [
+    "Edebî dil duygu ve çağrışım yüklüdür.",
+    "Kurmaca metinler hayal ürünüdür ama inandırıcıdır.",
+    "Örtük iletiyi bulmak için satır aralarını oku.",
+    "İyi konuşmada vurgu ve tonlama önemlidir.",
+    "Yazını yazım ve noktalama açısından kontrol et."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 2,
+   "intro": "Her metin bir konu etrafında bir düşünceyi ya da duyguyu iletmek için yazılır. Bu temada bir metnin konusunu, ana düşüncesini, yardımcı düşüncelerini ve yazarın tutumunu bulmayı; kendi konuşma ve yazılarımızda da bir ana düşünceyi zengin biçimde geliştirmeyi öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Konu, ana düşünce ve yardımcı düşünce",
+     "text": "Konu, metinde üzerinde durulan olay, durum veya kavramdır; 'Metin neyi anlatıyor?' sorusunun cevabıdır. Ana düşünce, yazarın okura vermek istediği temel mesajdır; 'Yazar ne demek istiyor?' sorusunun cevabıdır. Ana düşünce genellikle paragrafın başında veya sonunda yer alır, bazen de hiç açıkça söylenmez ve okurun çıkarması gerekir. Yardımcı düşünceler ana düşünceyi destekleyen, açıklayan ve örnekleyen cümlelerdir. Şiir ve duygu ağırlıklı metinlerde ana düşünce yerine ana duygudan söz edilir; örneğin özlem, sevinç veya hüzün. Tema ise metnin işlediği soyut ve genel kavramdır; aşk, dostluk, ölüm, vatan sevgisi gibi.",
+     "points": [
+      "Konu: Ne anlatılıyor?",
+      "Ana düşünce: Asıl ne söylenmek isteniyor?",
+      "Yardımcı düşünceler ana düşünceyi destekler.",
+      "Şiirde ana duygu aranır."
+     ]
+    },
+    {
+     "title": "Yazarın tutumu ve yazma amacı",
+     "text": "Her yazar metni bir amaçla yazar: bilgi vermek, ikna etmek, eğlendirmek veya duygularını paylaşmak gibi. Yazarın tutumu ise konuya karşı takındığı tavırdır; eleştirel, övücü, alaycı, iyimser, karamsar veya tarafsız olabilir. Yazarın tutumunu kelime seçimlerinden anlayabiliriz; örneğin 'şahane', 'muhteşem' gibi sözcükler övücü bir tutumu gösterir. Yazar-metin ilişkisi, yazarın kendi hayatı, dönemi ve düşüncelerinin metne nasıl yansıdığını inceler. Bir metni okurken açık iletiyi bulmanın yanında örtük iletiyi de sezmeliyiz. Çağrışımlar, metnin zihnimizde uyandırdığı ek anlamlardır ve örtük iletiyi anlamamıza yardım eder.",
+     "points": [
+      "Yazma amacı: bilgilendirmek, ikna etmek, duygu paylaşmak.",
+      "Kelime seçimleri yazarın tutumunu ele verir.",
+      "Yazarın hayatı ve dönemi metne yansıyabilir."
+     ]
+    },
+    {
+     "title": "Düşünceyi zenginleştirerek konuşma ve yazma",
+     "text": "Bir konuyu anlatırken önce ana düşüncemizi belirlemeliyiz. Sonra bu düşünceyi örneklerle, tanımlarla, karşılaştırmalarla ve kanıtlarla genişletmeliyiz. Böylece konuşmamız ve yazımız hem zengin hem de tutarlı olur. Her paragrafta tek bir ana düşünce işlenmeli, cümleler birbirine anlamca bağlı olmalıdır. Yazımıza giriş, gelişme ve sonuç bölümleri koymak düzen sağlar. Okuduğumuz bir eser hakkında beğeni ve eleştirilerimizi yazarken görüşlerimizi gerekçelendirmeliyiz: 'Bu kitabı beğendim çünkü...' gibi. Konuşma sırasında dinleyiciyle göz teması kurmak, açık ve anlaşılır bir dil kullanmak etkiyi artırır.",
+     "points": [
+      "Her paragraf tek bir ana düşünce taşır.",
+      "Görüşler gerekçelerle desteklenmelidir.",
+      "Örnek ve karşılaştırma anlatımı zenginleştirir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Konu",
+     "meaning": "Metinde üzerinde durulan olay, durum veya kavram."
+    },
+    {
+     "term": "Ana düşünce",
+     "meaning": "Yazarın okura vermek istediği temel mesaj."
+    },
+    {
+     "term": "Yardımcı düşünce",
+     "meaning": "Ana düşünceyi destekleyen ve açıklayan düşünceler."
+    },
+    {
+     "term": "Ana duygu",
+     "meaning": "Şiir gibi metinlerde baskın olan duygu."
+    },
+    {
+     "term": "Tema",
+     "meaning": "Metnin işlediği soyut ve genel kavram."
+    },
+    {
+     "term": "Yazarın tutumu",
+     "meaning": "Yazarın konuya karşı takındığı tavır."
+    },
+    {
+     "term": "Yazma amacı",
+     "meaning": "Yazarın metni yazma nedeni; bilgilendirme, ikna gibi."
+    },
+    {
+     "term": "Örtük ileti",
+     "meaning": "Metinde doğrudan söylenmeyen, sezdirilen mesaj."
+    }
+   ],
+   "example": {
+    "question": "Paragraf: 'Kitap okumak insanın dünyasını genişletir. Okuyan kişi farklı hayatları tanır, başka insanların duygularını anlar. Ayrıca kelime hazinesi zenginleşir.' Bu paragrafın konusu ve ana düşüncesi nedir?",
+    "solution": "1. Konu: Kitap okumak.\n2. Ana düşünce: Kitap okumak insanın dünyasını genişletir. Bu cümle paragrafın başında yer alıyor.\n3. Yardımcı düşünceler: Okuyan kişi farklı hayatları tanır; başkalarının duygularını anlar; kelime hazinesi zenginleşir.\n4. Yardımcı düşünceler, ana düşünceyi örneklerle desteklemektedir."
+   },
+   "remember": [
+    "Konu ile ana düşünceyi karıştırma.",
+    "Ana düşünce çoğunlukla giriş veya sonuç cümlesindedir.",
+    "Şiirde ana duygu aranır.",
+    "Yazarın tutumunu kelime seçimlerinden anlayabilirsin.",
+    "Düşüncelerini örnek ve gerekçeyle destekle."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 3,
+   "intro": "Her edebî metnin kendine özgü bir yapısı vardır: hikâyenin olay örgüsü ve kişileri, şiirin ölçüsü ve kafiyesi gibi. Bu temada hikâye ve şiirin yapı unsurlarını, belgesel gibi bilgilendirici metinlerin düzenini ve nesnel ile öznel anlatımı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Olay çevresinde oluşan metinlerin yapısı",
+     "text": "Hikâye ve roman gibi metinlerde dört temel yapı unsuru vardır: olay örgüsü, şahıs kadrosu, zaman ve mekân. Olay örgüsü, olayların birbirine bağlı biçimde sıralanmasıdır ve genellikle serim, düğüm ve çözüm bölümlerinden oluşur. Serimde kişiler ve ortam tanıtılır; düğümde olaylar karmaşıklaşır ve merak doruğa çıkar; çözümde olay sonuçlanır. Şahıs kadrosu metindeki kişilerdir. Zaman, olayların geçtiği dönemdir; mekân ise olayların geçtiği yerdir. Anlatıcı, olayları anlatan sestir ve bakış açısını belirler: kahraman anlatıcı olayları birinci kişi ağzından ('ben') anlatır; ilahi bakış açısına sahip anlatıcı ise her şeyi, karakterlerin iç dünyasını bile bilir.",
+     "points": [
+      "Yapı unsurları: olay örgüsü, kişiler, zaman, mekân.",
+      "Serim-düğüm-çözüm olay örgüsünün bölümleridir.",
+      "Kahraman anlatıcı 1. kişiyle anlatır."
+     ]
+    },
+    {
+     "title": "Şiirde ahenk unsurları",
+     "text": "Şiiri müzikal ve akılda kalıcı kılan öğelere ahenk unsurları denir. Ölçü, şiirde dizelerin hece sayısı ya da hecelerin uzunluk-kısalığı bakımından denk olmasıdır. Türk şiirinde geleneksel olarak hece ölçüsü ve aruz ölçüsü kullanılmıştır. Hece ölçüsünde dizelerdeki hece sayısı eşittir; örneğin 7'li, 8'li, 11'li hece ölçüsü. Durak, hece ölçülü şiirlerde dizenin okunurken kısa bir mola verilen yeridir. Kafiye, dize sonlarındaki anlamları ve görevleri farklı ses benzerliğidir. Redif, dize sonlarında tekrarlanan aynı görevdeki ek, kelime veya kelime gruplarıdır. Kafiye düzeni, kafiyelerin dörtlükte nasıl sıralandığını gösterir; örneğin abab çapraz, aaba mani tipi kafiye düzenidir.",
+     "points": [
+      "Redif kafiyeden sonra gelir; aynı görevli ses tekrarıdır.",
+      "Hece ölçüsünde hece sayısı eşittir.",
+      "abab: çapraz kafiye; aabb: düz kafiye; abba: sarma kafiye."
+     ]
+    },
+    {
+     "title": "Bilgilendirici metinler, nesnellik ve öznellik",
+     "text": "Belgesel gibi bilgilendirici metinler giriş, gelişme ve sonuç bölümlerinden oluşur. Girişte konu tanıtılır, gelişmede ayrıntılar ve kanıtlar sunulur, sonuçta konu toparlanır. Bu metinlerde haritalar, grafikler ve tablolar gibi bilgi görselleri anlatımı destekler. Anadolu kültürünü tanıtan bir belgesel izlerken kendi kültürümüzü ve farklı kültürleri tanımak, kültürel farkındalık kazanmamızı sağlar. Bilgilendirici metinlerde nesnel anlatım ağır basar. Nesnel cümle, kanıtlanabilen ve kişiden kişiye değişmeyen yargı bildirir: 'Ankara, Türkiye'nin başkentidir.' Öznel cümle ise kişisel görüş, duygu ve beğeni içerir, kanıtlanamaz: 'Ankara, Türkiye'nin en güzel şehridir.'",
+     "points": [
+      "Nesnel: kanıtlanabilir.",
+      "Öznel: kişisel görüş içerir.",
+      "Bilgi görselleri anlatımı destekler."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Olay örgüsü",
+     "meaning": "Olayların birbirine bağlı biçimde sıralanması."
+    },
+    {
+     "term": "Serim-düğüm-çözüm",
+     "meaning": "Olay örgüsünün tanıtım, karmaşa ve sonuçlanma bölümleri."
+    },
+    {
+     "term": "Anlatıcı",
+     "meaning": "Metinde olayları anlatan ses."
+    },
+    {
+     "term": "Bakış açısı",
+     "meaning": "Anlatıcının olaylara bakış ve bilgi düzeyi."
+    },
+    {
+     "term": "Kafiye",
+     "meaning": "Dize sonlarındaki görevleri farklı ses benzerliği; uyak."
+    },
+    {
+     "term": "Redif",
+     "meaning": "Dize sonlarında tekrarlanan aynı görevdeki ek veya kelimeler."
+    },
+    {
+     "term": "Nesnellik",
+     "meaning": "Kişisel yoruma kapalı, kanıtlanabilir anlatım."
+    },
+    {
+     "term": "Öznellik",
+     "meaning": "Kişisel görüş ve duygu içeren anlatım."
+    }
+   ],
+   "example": {
+    "question": "'Benim sadık yârim kara topraktır' dizesinin hece ölçüsünü bulun.",
+    "solution": "1. Dizeyi hecelere ayıralım: Be-nim / sa-dık / yâ-rim / ka-ra / top-rak-tır.\n2. Heceleri sayalım: 2 + 2 + 2 + 2 + 3 = 11.\n3. Dize 11 hecelidir; yani 11'li hece ölçüsüyle yazılmıştır.\n4. Bu ölçü halk şiirinde, özellikle koşmalarda yaygındır."
+   },
+   "remember": [
+    "Hikâyenin dört yapı unsuru: olay, kişi, zaman, mekân.",
+    "Önce redif bulunur, kafiye ondan önce gelir.",
+    "Hece ölçüsünde heceleri sayarsın.",
+    "Nesnel yargı kanıtlanabilir, öznel yargı kanıtlanamaz.",
+    "Bilgilendirici metin giriş-gelişme-sonuç düzenindedir."
+   ]
+  },
+  {
+   "grade": 9,
+   "order": 4,
+   "intro": "Türkçe, duyguları ve düşünceleri farklı biçimlerde anlatmamızı sağlayan zengin bir dildir. Bu temada anlatımın özelliklerini, düşünceyi geliştirme yollarını, anlatım tekniklerini ve her yazarın kendine özgü üslubunu öğreniyoruz. Ayrıca kendi öz yaşam öykümüzü yazmayı deniyoruz.",
+   "sections": [
+    {
+     "title": "Anlatım özellikleri ve üslup",
+     "text": "İyi bir anlatımın bazı özellikleri vardır. Duruluk, cümlede gereksiz sözcük bulunmamasıdır. Akıcılık, metnin takılmadan, rahat okunmasıdır. Yalınlık, süsten uzak, sade bir anlatımdır. Özgünlük, yazarın konuya yeni ve kendine has bir bakış getirmesidir. Tutarlılık ise metindeki düşüncelerin birbiriyle çelişmemesidir. Üslup, bir yazarın kelime seçimi, cümle yapısı ve anlatım biçimiyle oluşan kendine özgü söyleyiş tarzıdır. İki yazar aynı konuyu anlatsa bile üslupları farklı olduğu için metinleri farklı olur. Tenkit (eleştiri), bir eseri olumlu ve olumsuz yönleriyle değerlendiren yazı türüdür.",
+     "points": [
+      "Duru cümle: gereksiz sözcük yok.",
+      "Tutarlılık: düşünceler çelişmez.",
+      "Üslup yazarın parmak izi gibidir."
+     ]
+    },
+    {
+     "title": "Düşünceyi geliştirme yolları",
+     "text": "Yazarlar düşüncelerini açıklamak ve okuru ikna etmek için çeşitli yollar kullanır. Tanımlama, bir kavramın ne olduğunu açıklamaktır: 'Dostluk, karşılıksız sevgi bağıdır.' Örnekleme, düşünceyi somut örneklerle açmaktır. Karşılaştırma, iki varlık veya kavram arasındaki benzerlik ve farklılıkları göstermektir. Tanık gösterme, düşünceyi tanınmış bir kişinin sözüyle desteklemektir. Sayısal verilerden yararlanma, düşünceyi istatistik ve rakamlarla kanıtlamaktır. Benzetme ise bir kavramı daha iyi anlatmak için başka bir şeye benzetmektir. Bu yollar özellikle deneme, makale ve sohbet gibi öğretici metinlerde sıkça kullanılır. Öğretici metinler bilgi vermeyi amaçlar ve genellikle gerçek anlamlı bir dil kullanır.",
+     "points": [
+      "Tanımlama: 'nedir' sorusuna cevap verir.",
+      "Tanık gösterme: ünlü birinin sözüne başvurma.",
+      "Sayısal veri: rakamlarla kanıtlama."
+     ]
+    },
+    {
+     "title": "Anlatım teknikleri ve öz yaşam öyküsü",
+     "text": "Kurmaca metinlerde yazarlar farklı anlatım teknikleri kullanır. Diyalog, iki ya da daha fazla kişinin karşılıklı konuşmasıdır. Monolog (iç konuşma), bir kişinin kendi kendine konuşmasıdır. Geriye dönüş, anlatılan zamandan geçmişe giderek önceki olayları aktarmaktır. Öz yaşam öyküsü (otobiyografi), bir kişinin kendi hayatını kendi kaleminden anlatmasıdır. Öz yaşam öyküsü yazarken birinci kişi anlatımı kullanılır, olaylar genellikle kronolojik sırayla verilir ve yaşanmış gerçek olaylar anlatılır. Önemli anılar seçilmeli, bu anıların bizi nasıl etkilediği samimi bir dille anlatılmalıdır. Böylece yazımız kendi üslubumuzu yansıtır.",
+     "points": [
+      "Diyalog: karşılıklı konuşma.",
+      "Monolog: kişinin kendi kendine konuşması.",
+      "Öz yaşam öyküsü 1. kişi ağzından yazılır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Üslup",
+     "meaning": "Yazarın kendine özgü anlatım tarzı."
+    },
+    {
+     "term": "Duruluk",
+     "meaning": "Anlatımda gereksiz sözcük bulunmaması."
+    },
+    {
+     "term": "Akıcılık",
+     "meaning": "Metnin takılmadan, rahat okunması."
+    },
+    {
+     "term": "Tanımlama",
+     "meaning": "Bir kavramın ne olduğunu açıklama."
+    },
+    {
+     "term": "Karşılaştırma",
+     "meaning": "İki şey arasındaki benzerlik ve farkları gösterme."
+    },
+    {
+     "term": "Geriye dönüş",
+     "meaning": "Anlatılan zamandan geçmişe dönerek olay aktarma tekniği."
+    },
+    {
+     "term": "Öğretici metin",
+     "meaning": "Bilgi vermek amacıyla yazılan metin."
+    },
+    {
+     "term": "Tenkit",
+     "meaning": "Bir eseri olumlu ve olumsuz yönleriyle değerlendiren yazı; eleştiri."
+    }
+   ],
+   "example": {
+    "question": "'Toplantı yaklaşık iki saate yakın sürdü.' cümlesinde bir anlatım bozukluğu var mı? Varsa düzeltin.",
+    "solution": "1. 'Yaklaşık' ve 'yakın' sözcükleri aynı anlamı (tahmini olma) taşır.\n2. Aynı anlamı veren iki sözcüğün birlikte kullanılması gereksiz sözcük kullanımıdır; bu duruluğu bozar.\n3. Doğru cümle: 'Toplantı yaklaşık iki saat sürdü.' ya da 'Toplantı iki saate yakın sürdü.'"
+   },
+   "remember": [
+    "Gereksiz sözcük duruluğu bozar.",
+    "Düşünceyi geliştirme yolları ikna gücünü artırır.",
+    "Diyalog karşılıklı, monolog tek kişilik konuşmadır.",
+    "Her yazarın kendine özgü bir üslubu vardır.",
+    "Öz yaşam öyküsünde samimi ve kronolojik ol."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 1,
+   "intro": "Masallar, türküler ve maniler kuşaktan kuşağa sözlü olarak aktarılan kültür hazinelerimizdir. Bu temada sözlü kültürün özelliklerini, masalın yapısını ve şiirde ahengin nasıl oluştuğunu öğreniyoruz. Ayrıca şiir dinletisi hazırlamayı ve bir masalı film şeridine dönüştürmeyi deneyeceğiz.",
+   "sections": [
+    {
+     "title": "Sözlü kültür ve anonim ürünler",
+     "text": "Sözlü kültür, yazının yaygınlaşmasından önce bilgi, değer ve sanatın ağızdan ağıza aktarıldığı kültürdür. Bu kültürde ortaya çıkan masal, mani, türkü, ninni, bilmece ve atasözü gibi ürünlerin söyleyeni genellikle bilinmez; bu ürünlere anonim denir. Anonim ürünler halkın ortak malıdır. Ağızdan ağıza aktarılırken yöreye ve anlatıcıya göre bazı değişikliklere uğrar; aynı ürünün farklı biçimlerine varyant denir. Örneğin bir masalın farklı yörelerde farklı kahraman adlarıyla anlatılması bir varyant örneğidir. Bu ürünler toplumun geleneklerini, inançlarını ve yaşam biçimini yansıtır, bu yüzden kültürel mirasın önemli parçalarıdır.",
+     "points": [
+      "Anonim: söyleyeni bilinmeyen.",
+      "Varyant: aynı ürünün farklı biçimi.",
+      "Sözlü ürünler kültürel mirası taşır."
+     ]
+    },
+    {
+     "title": "Masalın özellikleri ve bölümleri",
+     "text": "Masal, olağanüstü olayların ve varlıkların yer aldığı, genellikle eğitici amaçlı, kurmaca sözlü anlatılardır. Masallarda zaman ve mekân belirsizdir: 'Evvel zaman içinde, kalbur saman içinde' gibi. Dev, peri, cin, konuşan hayvanlar gibi olağanüstü varlıklar bulunur. İyiler ödüllendirilir, kötüler cezalandırılır. Masal genellikle üç bölümden oluşur: döşeme (tekerleme ile giriş), serim-düğüm (olayların gelişmesi) ve dilek (bitiş) bölümü. Dilek bölümünde 'Onlar ermiş muradına, biz çıkalım kerevetine' gibi kalıp sözler kullanılır. Masal anlatıcısı, masalı ses tonu ve jestleriyle dinleyiciye canlı biçimde aktaran kişidir. Masalların yapı unsurları olay, kişiler, zaman ve mekândır.",
+     "points": [
+      "Masalda zaman ve mekân belirsizdir.",
+      "Olağanüstülük masalın temel özelliğidir.",
+      "Masal bölümleri: döşeme, olay, dilek."
+     ]
+    },
+    {
+     "title": "Ahenk, ritim ve şiir dinletisi",
+     "text": "Ahenk, şiirde seslerin uyumundan doğan müzikal etkidir. Ritim ise seslerin, hecelerin ve vurguların düzenli aralıklarla tekrarlanmasıyla oluşur. Ölçü, kafiye, redif, aliterasyon (ünsüz tekrarı) ve asonans (ünlü tekrarı) ahengi sağlar. Türküler ve maniler ezgiyle, yani bir melodiyle söylenir. Şiir dinletisi hazırlarken şiirler belirli bir temaya göre seçilir, sıralanır ve gerekirse müzikle desteklenir. Şiiri etkili okumak için doğru vurgu ve tonlama yapılmalı, durak yerlerine dikkat edilmeli, sesin şiddeti ve hızı şiirin duygusuna göre ayarlanmalıdır. Bir masalı film şeridine dönüştürürken ise olayları sahnelere ayırır, her sahne için görsel ve kısa açıklama hazırlarız.",
+     "points": [
+      "Aliterasyon: ünsüz tekrarı; asonans: ünlü tekrarı.",
+      "Şiir okurken duygu sesle verilir.",
+      "Film şeridi olayları sahnelere böler."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Sözlü kültür",
+     "meaning": "Bilgi ve sanatın ağızdan ağıza aktarıldığı kültür."
+    },
+    {
+     "term": "Anonim",
+     "meaning": "Söyleyeni bilinmeyen, halkın ortak malı olan."
+    },
+    {
+     "term": "Varyant",
+     "meaning": "Aynı sözlü ürünün farklı yörelerdeki değişik biçimi."
+    },
+    {
+     "term": "Olağanüstülük",
+     "meaning": "Gerçek hayatta olamayacak olay ve varlıkların bulunması."
+    },
+    {
+     "term": "Masalın bölümleri",
+     "meaning": "Döşeme, olayların anlatıldığı bölüm ve dilek bölümü."
+    },
+    {
+     "term": "Ahenk",
+     "meaning": "Şiirde seslerin uyumundan doğan müzikal etki."
+    },
+    {
+     "term": "Ritim",
+     "meaning": "Ses ve vurguların düzenli tekrarıyla oluşan akış."
+    },
+    {
+     "term": "Ezgi",
+     "meaning": "Melodi; sözlerin müzikle söylenişi."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Anonim ürünler halkın ortak malıdır.",
+    "Masalda zaman ve mekân belirsizdir.",
+    "Masal döşeme ile başlar, dilekle biter.",
+    "Ahengi ölçü, kafiye ve ses tekrarları sağlar.",
+    "Şiiri duygusuna uygun okumalısın."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 2,
+   "intro": "Şiir, kelimelerin ritim ve ahenkle birleştiği bir sanattır. Bu temada şiirin ahenk unsurlarını, aruz ve hece ölçülerini, beyit ve dörtlük gibi nazım birimlerini, imge ve sembol kullanımını öğreniyoruz. Ayrıca bilgilendirici bir metni edebî metne dönüştürmeyi deneyeceğiz.",
+   "sections": [
+    {
+     "title": "Ölçü: hece ve aruz",
+     "text": "Ölçü, şiirde ritmi sağlayan düzendir. Hece ölçüsü, dizelerdeki hece sayısının eşitliğine dayanır ve Türk halk şiirinin millî ölçüsüdür. Halk şiirinde en çok 7'li, 8'li ve 11'li kalıplar kullanılır. Aruz ölçüsü ise hecelerin uzunluk ve kısalığına, yani açık ve kapalı hecelere dayanan bir ölçüdür. Arap edebiyatında doğmuş, İran edebiyatı yoluyla Türk edebiyatına geçmiştir. Divan şiiri büyük ölçüde aruzla yazılmıştır. Aruzda kapalı heceler (ünsüzle biten) ve uzun ünlü içeren heceler uzun, ünlüyle biten açık heceler ise genellikle kısa sayılır. Cumhuriyet döneminde serbest ölçü de yaygınlaşmıştır; serbest şiirde hece sayısı ve kalıp zorunluluğu yoktur.",
+     "points": [
+      "Hece ölçüsü: hece sayısı eşitliği.",
+      "Aruz: açık-kapalı hece düzeni.",
+      "Divan şiirinde aruz, halk şiirinde hece yaygındır."
+     ]
+    },
+    {
+     "title": "Nazım birimi, kafiye ve ahenk",
+     "text": "Nazım birimi, şiirde anlam ve yapı bakımından bütünlük oluşturan en küçük birimdir. Beyit, iki dizeden oluşan nazım birimidir ve divan şiirinde yaygındır. Dörtlük, dört dizeden oluşan nazım birimidir ve halk şiirinde yaygındır. Kafiye (uyak), dize sonlarındaki anlam ve görevce farklı ses benzerliğidir; benzeşen ses sayısına göre yarım, tam, zengin ve cinaslı kafiye olarak adlandırılır. Redif, kafiyeden sonra gelen aynı görevdeki ses, ek veya kelimelerdir. Ahengi ayrıca seslerin tekrarı, söz ve dize tekrarları da güçlendirir. Ritim, şiirin okunurken oluşan iniş-çıkışlı ses akışıdır.",
+     "points": [
+      "Beyit: iki dize; dörtlük: dört dize.",
+      "Yarım kafiye tek ses, tam kafiye iki ses benzerliğidir.",
+      "Redif her zaman kafiyeden sonra gelir."
+     ]
+    },
+    {
+     "title": "İmge, sembol ve metin dönüştürme",
+     "text": "Şiirde imge, okurun zihninde canlanan görme, duyma, koklama gibi duyusal tablolardır. Sembol ise soyut bir anlamı taşıyan somut öğedir; örneğin divan şiirinde gül sevgiliyi, bülbül âşığı simgeler. Şiirde iletiler çoğu zaman örtüktür; okurun imge ve sembolleri çözerek anlamı yakalaması gerekir. Şiir gerçekliği gündelik gerçekten farklıdır; şair, gerçeği duygu ve hayal süzgecinden geçirerek yeniden yaratır. Bilgilendirici bir metni edebî metne dönüştürürken bilgiyi korur ama anlatımı değiştiririz: kişileştirme, benzetme ve imgeler ekleriz, duygulara seslenen bir dil kullanırız. Edebî bir şahsiyeti tanıtan podcast hazırlarken ise sanatçının hayatını ve şiirlerinin ritmini sesli anlatımla aktarırız.",
+     "points": [
+      "Gül ve bülbül divan şiirinde sık kullanılan sembollerdir.",
+      "Şiirde anlam genellikle örtüktür.",
+      "Dönüştürmede bilgi korunur, dil değişir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Ölçü",
+     "meaning": "Şiirde ritmi sağlayan hece sayısı veya hece uzunluğu düzeni."
+    },
+    {
+     "term": "Aruz",
+     "meaning": "Hecelerin açık-kapalı (kısa-uzun) olmasına dayanan ölçü."
+    },
+    {
+     "term": "Beyit",
+     "meaning": "İki dizeden oluşan nazım birimi."
+    },
+    {
+     "term": "Kafiye",
+     "meaning": "Dize sonlarında anlam ve görevce farklı ses benzerliği."
+    },
+    {
+     "term": "Ahenk unsurları",
+     "meaning": "Ölçü, kafiye, redif ve ses tekrarları gibi müzikaliteyi sağlayan öğeler."
+    },
+    {
+     "term": "Ritim",
+     "meaning": "Şiirde seslerin düzenli tekrarıyla oluşan akış."
+    },
+    {
+     "term": "İmge",
+     "meaning": "Zihinde canlanan duyusal görüntü."
+    },
+    {
+     "term": "Sembol (simge)",
+     "meaning": "Soyut bir anlamı temsil eden somut öğe."
+    }
+   ],
+   "example": {
+    "question": "Şu dizelerde kafiye ve redifi bulun: 'Bir yanımda gül açılmış dalında / Bir yanımda bülbül öter yolunda'",
+    "solution": "1. Dize sonlarındaki sözcükler: 'dalında' ve 'yolunda'.\n2. Ekleri ayıralım: dal-ı-n-da / yol-u-n-da. '-ı/-u' iyelik eki, '-n' kaynaştırma, '-da' bulunma ekidir; ikisinde de görevleri aynıdır. Bu ekler (-ında / -unda) rediftir.\n3. Rediften önce kalan kısımlar 'dal' ve 'yol'dur. Bunlarda ortak ses yalnızca 'l' sesidir.\n4. Tek ses benzerliği yarım kafiyedir. Sonuç: Redif '-ında/-unda', kafiye 'l' (yarım kafiye)."
+   },
+   "remember": [
+    "Hece ölçüsü millî ölçümüzdür.",
+    "Aruz açık ve kapalı hecelere dayanır.",
+    "Önce redifi ayır, sonra kafiyeyi bul.",
+    "Beyit divan, dörtlük halk şiirinde yaygındır.",
+    "Şiirde semboller örtük anlam taşır."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 3,
+   "intro": "Destanlar, halk hikâyeleri, fabllar ve mesneviler geçmişten bugüne uzanan anlatı geleneğimizin parçalarıdır. Bu temada bu türlerin özelliklerini, Türk destanlarını ve fabl yazmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Destan",
+     "text": "Destan, bir milletin hayatını derinden etkileyen savaş, göç, kıtlık veya kurtuluş gibi büyük olayları anlatan, olağanüstü kahramanların yer aldığı uzun anlatılardır. Doğal destanlar halk arasında kendiliğinden oluşur, uzun süre sözlü olarak yaşar ve sonradan yazıya geçirilir; anonimdir. Yapma destanlar ise belli bir şair tarafından destan özelliklerine uygun olarak yazılır. Türk destanlarına Oğuz Kağan, Ergenekon, Göç ve Manas destanları örnek verilebilir. Ergenekon Destanı, Türklerin dağlarla çevrili bir yerden demir dağı eriterek çıkışını anlatır. Fazıl Hüsnü Dağlarca'nın Çanakkale Destanı yapma destana örnektir. Destanlarda millî değerler, kahramanlık ve toplumun ortak hafızası yansıtılır.",
+     "points": [
+      "Doğal destan anonimdir.",
+      "Yapma destanın şairi bellidir.",
+      "Destanlarda olağanüstü olay ve kahramanlar bulunur."
+     ]
+    },
+    {
+     "title": "Halk hikâyesi ve mesnevi",
+     "text": "Halk hikâyeleri, destan geleneğinden sonra ortaya çıkan, nazım ve nesrin iç içe kullanıldığı anlatılardır. Âşıklar tarafından anlatılır; olayların duygusal doruk noktalarında şiir söylenir. Konularına göre aşk hikâyeleri (Kerem ile Aslı, Âşık Garip) ve kahramanlık hikâyeleri (Köroğlu) olarak ayrılır. Mesnevi ise divan edebiyatında her beyti kendi içinde kafiyeli olan bir nazım şeklidir. Bu yapı sayesinde uzun hikâyeler anlatmaya elverişlidir. Mevlana'nın Mesnevi'si, Şeyhi'nin Harname'si ve Fuzuli'nin Leyla ile Mecnun'u mesnevi biçiminde yazılmış önemli eserlerdir. Mesnevilerde sık sık ders verici, öğretici bir üslup kullanılır; buna didaktik üslup denir.",
+     "points": [
+      "Halk hikâyesinde nazım ve nesir karışıktır.",
+      "Mesnevide her beyit kendi içinde kafiyelidir.",
+      "Didaktik: öğretici, ders verici."
+     ]
+    },
+    {
+     "title": "Fabl ve fabl yazma",
+     "text": "Fabl, hayvanların veya cansız varlıkların insan gibi konuşup davrandığı, sonunda bir ders veren kısa anlatılardır. Fabllarda kişileştirme temel tekniktir ve kahramanlar genellikle insanlardaki bir özelliği temsil eder: tilki kurnazlığı, aslan gücü, karınca çalışkanlığı simgeler. Fabllar nazım veya nesir biçiminde yazılabilir. Dünya edebiyatında Ezop ve La Fontaine, Doğu edebiyatında Kelile ve Dimne fabl türünün bilinen örnekleridir. Fabl yazarken önce verilecek dersi (ahlaki sonucu) belirleyin. Sonra bu dersi temsil edecek hayvanları seçin, kısa ve merak uyandıran bir olay kurun ve hikâyeyi bir ders cümlesiyle bitirin. Motif, anlatılarda tekrar tekrar karşılaşılan küçük anlam birimleridir; örneğin üç kardeş motifi.",
+     "points": [
+      "Fablda hayvanlar kişileştirilir.",
+      "Fabl bir ders vererek biter.",
+      "Motif tekrar eden anlam birimidir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Destan",
+     "meaning": "Milletin hayatını etkileyen büyük olayları olağanüstü kahramanlarla anlatan uzun eser."
+    },
+    {
+     "term": "Doğal destan",
+     "meaning": "Halk arasında kendiliğinden oluşan anonim destan."
+    },
+    {
+     "term": "Yapma destan",
+     "meaning": "Bir şairin destan özelliklerine uygun olarak yazdığı eser."
+    },
+    {
+     "term": "Halk hikâyesi",
+     "meaning": "Âşıkların anlattığı, nazım ve nesrin karışık olduğu anlatı."
+    },
+    {
+     "term": "Mesnevi",
+     "meaning": "Her beyti kendi içinde kafiyeli divan nazım şekli."
+    },
+    {
+     "term": "Fabl",
+     "meaning": "Kişileştirilmiş hayvanlarla ders veren kısa anlatı."
+    },
+    {
+     "term": "Motif",
+     "meaning": "Anlatılarda tekrar eden küçük anlam birimi."
+    },
+    {
+     "term": "Didaktik üslup",
+     "meaning": "Öğretici, öğüt veren anlatım tarzı."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Doğal destan anonim, yapma destan bireyseldir.",
+    "Halk hikâyesi destandan sonra gelişmiştir.",
+    "Mesnevi uzun hikâyeler için elverişlidir.",
+    "Fabl ahlaki bir dersle biter.",
+    "Kişileştirme fablın temel tekniğidir."
+   ]
+  },
+  {
+   "grade": 10,
+   "order": 4,
+   "intro": "Nesilden nesile aktarılan Dede Korkut Hikâyeleri'nden Millî Edebiyat dönemine kadar edebiyatımız, millî bilincin taşıyıcısı olmuştur. Bu temada Dede Korkut Hikâyeleri'ni, Millî Edebiyat dönemini ve bu dönemin hikâye, roman ve şiirini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Dede Korkut Hikâyeleri",
+     "text": "Dede Korkut Hikâyeleri, Oğuz Türklerinin yaşayışını, inançlarını ve kahramanlıklarını anlatan, destandan halk hikâyesine geçiş döneminin ürünleridir. Kitap bir giriş ve on iki hikâyeden oluşur. Hikâyelerin sonunda Dede Korkut gelir, olayları yorumlar ve dua ederek hikâyeyi bağlar. Hikâyelerde olağanüstü olaylar yer alır; Tepegöz gibi olağanüstü varlıklar bulunur. Kadına saygı, misafirperverlik, kahramanlık, aile bağları ve adalet gibi değerler öne çıkar. Anlatım nesirdir ama arada soylama denen şiirli bölümler bulunur. Bu hikâyeler sözlü kültürde yüzyıllarca yaşamış, sonradan yazıya geçirilmiştir. Bir Dede Korkut hikâyesini canlandırırken karakterlerin konuşma üslubunu ve dönemin değerlerini yansıtmaya özen gösterilmelidir.",
+     "points": [
+      "Giriş ve on iki hikâyeden oluşur.",
+      "Oğuz toplumunun yaşamını yansıtır.",
+      "Soylama: hikâye içindeki şiirli bölümler."
+     ]
+    },
+    {
+     "title": "Millî Edebiyat dönemi",
+     "text": "Millî Edebiyat, 1911'de Selanik'te çıkan Genç Kalemler dergisinin öncülüğüyle başlayan ve millî bilinci güçlendirmeyi amaçlayan edebî dönemdir. Ömer Seyfettin, Ali Canip ve Ziya Gökalp bu hareketin önemli isimleridir. Bu dönemde 'Yeni Lisan' anlayışıyla konuşulan İstanbul Türkçesi yazı dili olarak benimsendi; yabancı dil kuralları ve gereksiz yabancı kelimeler terk edildi. Şiirde aruz yerine hece ölçüsü kullanıldı. Konular Anadolu'ya, halkın yaşamına, millî tarihe ve kahramanlıklara yöneldi. Ömer Seyfettin hikâyeleriyle, Halide Edib ve Reşat Nuri romanlarıyla, Mehmet Emin Yurdakul ve hece şairleri şiirleriyle bu dönemde eser verdi. Edebiyat, toplumu bilinçlendirmenin aracı olarak görüldü.",
+     "points": [
+      "Genç Kalemler dergisi 1911'de çıktı.",
+      "Sade dil ve hece ölçüsü benimsendi.",
+      "Konular Anadolu ve millî kimlikti."
+     ]
+    },
+    {
+     "title": "Hikâye, roman ve şiir; değişim ve yenilik",
+     "text": "Hikâye, yaşanmış veya yaşanabilir olayları kısa ve öz biçimde anlatan kurmaca türdür. Roman ise olayları daha geniş bir zaman ve mekânda, çok sayıda kişiyle ayrıntılı biçimde anlatır. Şiir, duygu ve düşüncelerin ahenkli ve yoğun bir dille anlatıldığı türdür. Edebiyat, toplumdaki değişimleri yansıtır: sözlü kültürden yazılı kültüre, divan geleneğinden Batı etkili türlere ve oradan millî edebiyata geçiş bu değişimin örnekleridir. Her yeni dönem önceki dönemden bazı unsurları sürdürür, bazılarını yenilerken yeni anlatım biçimleri getirir. Bir hikâyeyi şiire dönüştürürken olayın özünü ve duygusunu korur, onu dizelere, imgelere ve ahenkli bir dile aktarırız.",
+     "points": [
+      "Hikâye kısa, roman geniş kapsamlıdır.",
+      "Edebiyat toplumun değişimini yansıtır.",
+      "Dönüştürmede olayın özü korunur."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Millî edebiyat",
+     "meaning": "1911'de başlayan, sade dil ve millî konuları benimseyen edebî dönem."
+    },
+    {
+     "term": "Millî bilinç",
+     "meaning": "Bir milletin ortak tarih, dil ve değerlerine sahip çıkma duygusu."
+    },
+    {
+     "term": "Sözlü kültür",
+     "meaning": "Ağızdan ağıza aktarılan kültür birikimi."
+    },
+    {
+     "term": "Hikâye",
+     "meaning": "Olayları kısa ve öz biçimde anlatan kurmaca tür."
+    },
+    {
+     "term": "Roman",
+     "meaning": "Olayları geniş zaman ve mekânda, ayrıntılı anlatan uzun kurmaca tür."
+    },
+    {
+     "term": "Dönem",
+     "meaning": "Benzer edebî anlayışların görüldüğü zaman dilimi."
+    },
+    {
+     "term": "Yenilik",
+     "meaning": "Edebiyatta yeni tür, biçim ve anlayışların ortaya çıkması."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Dede Korkut Hikâyeleri Oğuz yaşamını anlatır.",
+    "Millî Edebiyat sade Türkçeyi savundu.",
+    "Bu dönemde hece ölçüsü öne çıktı.",
+    "Edebiyat toplumsal değişimin aynasıdır.",
+    "Hikâye kısa, roman kapsamlıdır."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 1,
+   "intro": "Duygu, düşünce ve isteklerimizi doğru biçimde ifade etmek hem günlük hem de resmî hayatta çok önemlidir. Bu temada mektup, e-posta ve dilekçe gibi iletişim metinlerini, iletişim engellerini ve geleneksel Türk tiyatrosunun en sevilen türü olan Karagöz'ü öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Mektup, e-posta ve dilekçe",
+     "text": "Mektup, bir kişiye duygu, düşünce veya haber iletmek amacıyla yazılan metindir. Özel mektuplar samimi bir dille yazılır; resmî mektuplarda ise ölçülü ve kurallı bir dil kullanılır. E-posta, elektronik ortamda gönderilen mektuptur. Etkili bir e-postada açık bir konu satırı, uygun bir hitap, kısa ve net bir ileti, nazik bir kapanış ve imza bulunur. Resmî e-postalarda kısaltma, emoji ve argo kullanılmaz. Dilekçe, bir kişinin resmî bir kuruma istek, şikâyet veya bildirimini sunmak için yazdığı resmî yazıdır. Dilekçede tarih sağ üst köşeye, kurumun adı ortaya büyük harflerle yazılır; istek kısa ve açık biçimde belirtilir; sonunda ad-soyad, imza ve adres yer alır.",
+     "points": [
+      "E-postada konu satırı iletinin özünü vermelidir.",
+      "Dilekçede kurum adı ortalanarak yazılır.",
+      "Resmî yazıda saygılı ve açık bir dil kullanılır."
+     ]
+    },
+    {
+     "title": "İletişim engelleri",
+     "text": "İletişim, bir iletinin gönderici tarafından alıcıya bir kanal aracılığıyla iletilmesidir. Bu süreçte iletinin doğru anlaşılmasını zorlaştıran durumlara iletişim engeli denir. Gürültü gibi fiziksel engeller, önyargı, öfke ve dikkatsizlik gibi psikolojik engeller, farklı dil veya kültürden kaynaklanan anlam engelleri bunlara örnektir. Karşımızdakini sözünü kesmeden dinlememek, yargılayıcı ve suçlayıcı dil kullanmak da iletişimi zayıflatır. Bu engelleri aşmak için etkin dinleme yapmalı, 'ben dili' kullanmalı ('Sen hep geç kalıyorsun.' yerine 'Geç kaldığında endişeleniyorum.'), açık ve anlaşılır konuşmalı, beden dilimize dikkat etmeliyiz. Çok modlu metinler; söz, görüntü ve sesi birlikte kullanan metinlerdir ve iletişimi güçlendirebilir.",
+     "points": [
+      "Ben dili suçlamadan duyguyu ifade eder.",
+      "Etkin dinleme iletişimin temelidir.",
+      "Önyargı en güçlü iletişim engellerindendir."
+     ]
+    },
+    {
+     "title": "Karagöz ve geleneksel Türk tiyatrosu",
+     "text": "Geleneksel Türk tiyatrosu; Karagöz (gölge oyunu), meddah, ortaoyunu ve köy seyirlik oyunlarından oluşur. Karagöz, deriden yapılmış renkli figürlerin arkadan aydınlatılan bir perdeye yansıtılmasıyla oynanan bir gölge oyunudur. Figürleri tek bir sanatçı, yani hayalî oynatır ve tüm karakterleri o seslendirir. Oyunun iki ana kahramanı vardır: okumamış ama sağduyulu halk adamı Karagöz ile biraz eğitimli, kelimeleri süslü kullanmaya çalışan Hacivat. Oyunun mizahı büyük ölçüde iki karakter arasındaki anlaşmazlıklardan ve söz oyunlarından doğar. Karagöz oyunu dört bölümden oluşur: mukaddime (giriş), muhavere (Karagöz ile Hacivat'ın söyleşmesi), fasıl (asıl oyun) ve bitiş. Karagöz UNESCO'nun İnsanlığın Somut Olmayan Kültürel Mirası listesindedir.",
+     "points": [
+      "Bölümler: mukaddime, muhavere, fasıl, bitiş.",
+      "Karagöz halkı, Hacivat okumuş kesimi temsil eder.",
+      "Mizah söz oyunları ve yanlış anlamalardan doğar."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Mektup",
+     "meaning": "Birine duygu, düşünce veya haber iletmek için yazılan metin."
+    },
+    {
+     "term": "E-posta",
+     "meaning": "Elektronik ortamda gönderilen mektup."
+    },
+    {
+     "term": "Dilekçe",
+     "meaning": "Resmî bir kuruma istek veya şikâyet bildirmek için yazılan yazı."
+    },
+    {
+     "term": "Elektronik içerik",
+     "meaning": "Dijital ortamda hazırlanan ve paylaşılan metin, ses veya görüntü."
+    },
+    {
+     "term": "Gölge oyunu",
+     "meaning": "Figürlerin aydınlatılmış perdeye yansıtılarak oynatıldığı oyun."
+    },
+    {
+     "term": "Karagöz",
+     "meaning": "Geleneksel Türk gölge oyunu ve oyunun halktan gelen ana karakteri."
+    },
+    {
+     "term": "Figür",
+     "meaning": "Karagöz oyununda deriden yapılmış, perdeye yansıtılan karakter tasviri."
+    },
+    {
+     "term": "Mizah",
+     "meaning": "Olayların gülünç yönlerini ortaya koyan anlatım."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Resmî yazılarda dil ölçülü ve açık olmalıdır.",
+    "E-postanın konu satırını boş bırakma.",
+    "Ben dili iletişim engellerini azaltır.",
+    "Karagöz oyunu dört bölümden oluşur.",
+    "Geleneksel tiyatromuz somut olmayan kültürel mirasımızdır."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 2,
+   "intro": "Türk dünyası, ortak bir dil ve kültür mirasını paylaşan geniş bir coğrafyadır. Bu temada âşık atışmasını, Türk dünyasından hikâyeleri, Orhun Abideleri'ni ve kültürel unsurları karşılaştırarak anlatmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Âşık atışması",
+     "text": "Âşık atışması, iki veya daha fazla âşığın saz eşliğinde, belirli bir konu üzerinde doğaçlama olarak karşılıklı şiir söylemesidir. Atışmada âşıklar birbirlerini ustalıkla iğneleyebilir, sorular sorup cevap bekleyebilir. Ayak adı verilen ortak kafiye sesini sürdürmek zorundadırlar. Bu gelenek âşıkların hazırcevaplığını, söz ustalığını ve kültürel birikimini gösterir. Âşık atışması söz, ezgi ve canlı performansı bir araya getiren çok modlu bir metindir. Dinlerken âşıkların kullandığı benzetmelere, kafiye ve ayak düzenine, birbirine verdikleri cevapların zekâsına dikkat etmeliyiz. Âşıklık geleneği UNESCO'nun somut olmayan kültürel miras listesinde yer almaktadır.",
+     "points": [
+      "Atışma doğaçlamadır.",
+      "Ayak: âşıkların uymak zorunda olduğu kafiye sesi.",
+      "Saz atışmanın vazgeçilmez eşlikçisidir."
+     ]
+    },
+    {
+     "title": "Türk dünyası hikâyeleri ve Orhun Abideleri",
+     "text": "Türk dünyası hikâyeleri, Azerbaycan, Kazakistan, Kırgızistan, Özbekistan, Türkmenistan gibi Türk topluluklarının yazarlarınca yazılmış hikâyelerdir. Bu hikâyelerde ortak değerleri, gelenekleri ve farklı yaşam koşullarını görürüz. Okurken bilmediğimiz sözcüklerin anlamını bağlamdan tahmin edebiliriz; Türk lehçelerindeki pek çok kelime Türkiye Türkçesine yakındır. Hikâyeyi olay örgüsü, kişiler, zaman, mekân ve anlatıcı açısından inceleriz. Orhun Abideleri ise Göktürklerden kalan, 8. yüzyılda dikilmiş taş yazıtlardır. Kül Tigin, Bilge Kağan ve Tonyukuk adına dikilen bu yazıtlar Türk adının geçtiği ve Türkçenin bilinen en eski yazılı metinleri arasında sayılır. Bilge Kağan'ın milletine seslendiği bu metinler öğüt veren, öğretici metinlerdir; tarih bilgisi ve devlet anlayışı içerir.",
+     "points": [
+      "Bilinmeyen kelimeyi bağlamdan tahmin et.",
+      "Orhun Abideleri Göktürk alfabesiyle yazılmıştır.",
+      "Yazıtlar öğretici ve öğüt verici niteliktedir."
+     ]
+    },
+    {
+     "title": "Kültürü tanıtmak: konuşma ve müze yazısı",
+     "text": "Türk dünyasının ortak kültürünü tanıtan bir konuşma hazırlarken önce hedef kitleyi belirlemeliyiz. Konuşmayı görsellerle desteklemek, örneğin halı motifleri, geleneksel kıyafetler veya Nevruz kutlamalarından fotoğraflar göstermek ilgiyi artırır. Konuşmada açık bir giriş, düzenli bir gelişme ve özetleyici bir sonuç bulunmalıdır. Çevrim içi bir müze gezisinin izlenimlerini yazarken gördüğümüz eserleri betimler, farklı Türk topluluklarına ait eserleri benzerlik ve farklılıklarıyla karşılaştırırız. Özetleme, bir metnin ana düşüncesini ve önemli ayrıntılarını kısaca aktarmaktır. Anlatma ise olayları bir sıra içinde aktarmaktır. İzlenim yazısında birinci kişi anlatımı ve betimleyici bir dil kullanılır.",
+     "points": [
+      "Konuşmayı hedef kitleye göre hazırla.",
+      "Karşılaştırma benzerlik ve farkları ortaya koyar.",
+      "Özet kısa ve öz olmalıdır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Âşık atışması",
+     "meaning": "Âşıkların saz eşliğinde karşılıklı doğaçlama şiir söylemesi."
+    },
+    {
+     "term": "Öğretici metin",
+     "meaning": "Bilgi vermek veya öğüt vermek amacıyla yazılan metin."
+    },
+    {
+     "term": "Edebî metin",
+     "meaning": "Estetik amaçla, sanatlı dille yazılan metin."
+    },
+    {
+     "term": "Söz varlığı",
+     "meaning": "Bir dildeki kelime, deyim ve kalıp sözlerin bütünü."
+    },
+    {
+     "term": "Özetleme",
+     "meaning": "Bir metnin ana düşüncesini ve önemli noktalarını kısaca aktarma."
+    },
+    {
+     "term": "Diyalog",
+     "meaning": "Kişiler arasında karşılıklı konuşma."
+    },
+    {
+     "term": "Geriye dönüş",
+     "meaning": "Anlatımda geçmişteki olaylara dönme tekniği."
+    },
+    {
+     "term": "Anlatıcı",
+     "meaning": "Hikâyedeki olayları aktaran ses."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Âşık atışması doğaçlama ve hazırcevaplık ister.",
+    "Orhun Abideleri 8. yüzyıl Göktürk yazıtlarıdır.",
+    "Bilinmeyen kelimeleri bağlamdan çıkar.",
+    "Türk dünyası ortak bir kültür mirasını paylaşır.",
+    "İzlenim yazısında betimleme ve karşılaştırma kullan."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 3,
+   "intro": "Sanatçıların hayatı ve yaşadıkları dönem eserlerine yansır; edebiyat da insan hayatının izlerini taşır. Bu temada roman, biyografi, tezkire ve radyo tiyatrosu gibi türleri, gerçek ile kurmaca arasındaki ilişkiyi öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Yaşam öyküsü ve tezkire",
+     "text": "Yaşam öyküsü (biyografi), tanınmış bir kişinin hayatını, kişiliğini ve eserlerini belgelere dayanarak anlatan yazı türüdür. Biyografi başkası tarafından yazılır; kişinin kendi hayatını yazmasına ise otobiyografi denir. Biyografide bilgiler gerçektir ve kanıtlanabilir olmalıdır, bu yüzden anlatım büyük ölçüde nesneldir; ancak yazarın yorumları öznellik katabilir. Divan edebiyatı geleneğinde biyografinin karşılığı tezkiredir. Tezkireler, şairlerin kısa hayat hikâyelerini ve şiirlerinden örnekleri içeren eserlerdir. Sehi Bey'in Heşt Bihişt adlı eseri Anadolu sahasında yazılmış ilk şair tezkiresi kabul edilir. Kişi tanıtımı yaparken kişinin hayatından önemli olaylar, kişilik özellikleri ve katkıları dengeli biçimde verilmelidir.",
+     "points": [
+      "Biyografi: başkasının hayatı; otobiyografi: kendi hayatı.",
+      "Tezkire: divan şairlerinin biyografilerini içeren eser.",
+      "Biyografide bilgiler belgeye dayanır."
+     ]
+    },
+    {
+     "title": "Roman: gerçek ve kurmaca",
+     "text": "Roman, olayları geniş bir zaman ve mekânda, çok sayıda karakterle ve ayrıntılı biçimde anlatan uzun kurmaca türdür. Romancı, gerçek hayattan, hatta kendi yaşantısından esinlenebilir ama olayları ve kişileri hayal gücüyle yeniden kurar. Bu yüzden romandaki gerçeklik, kurmaca bir gerçekliktir. Bir romanı incelerken olay örgüsüne, karakterlerin zaman içinde nasıl değiştiğine, anlatıcıya ve bakış açısına, zaman ve mekânın işlevine ve yazarın üslubuna bakarız. Yazarın hayatının ve döneminin romana nasıl yansıdığını araştırmak eseri daha iyi anlamamızı sağlar. Bir roman karakteriyle hayalî bir mülakat hazırlamak, karakterin iç dünyasını anlamak için yaratıcı bir yöntemdir.",
+     "points": [
+      "Roman kurmaca gerçeklik sunar.",
+      "Karakter gelişimini takip et.",
+      "Yazarın hayatı esere yansıyabilir."
+     ]
+    },
+    {
+     "title": "Radyo tiyatrosu",
+     "text": "Radyo tiyatrosu, yalnızca ses aracılığıyla dinleyiciye ulaşan bir tiyatro türüdür. Sahne, dekor ve kostüm görülemediği için her şey seslerle anlatılır. Oyuncuların ses tonu, vurgu ve tonlaması karakterlerin duygularını yansıtır. Ses efektleri (kapı gıcırtısı, yağmur sesi, ayak sesleri) ve müzik, mekânı ve atmosferi dinleyicinin zihninde canlandırır. Bir anlatıcı gerektiğinde olay ve ortam hakkında bilgi verir. Radyo tiyatrosunu dinlerken dinleyici, hayal gücünü kullanarak sahneleri kendi zihninde kurar. Bu nedenle radyo tiyatrosu dinleyicinin dikkatini ve hayal gücünü geliştiren bir türdür. Türkiye'de radyo tiyatrosunun uzun bir geçmişi vardır.",
+     "points": [
+      "Radyo tiyatrosu yalnızca sese dayanır.",
+      "Ses efektleri mekânı canlandırır.",
+      "Dinleyici sahneyi hayal gücüyle kurar."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Yaşam öyküsü",
+     "meaning": "Bir kişinin hayatını belgelere dayanarak anlatan yazı; biyografi."
+    },
+    {
+     "term": "Tezkire",
+     "meaning": "Divan şairlerinin hayatlarını ve şiir örneklerini içeren eser."
+    },
+    {
+     "term": "Divan edebiyatı geleneği",
+     "meaning": "Aruz ölçüsü ve kalıplaşmış nazım şekilleriyle gelişen klasik edebiyat anlayışı."
+    },
+    {
+     "term": "Roman",
+     "meaning": "Olayları geniş bir çerçevede anlatan uzun kurmaca tür."
+    },
+    {
+     "term": "Radyo tiyatrosu",
+     "meaning": "Yalnızca ses aracılığıyla sunulan tiyatro türü."
+    },
+    {
+     "term": "Kişi tanıtımı",
+     "meaning": "Bir kişinin hayatını, özelliklerini ve katkılarını anlatma."
+    },
+    {
+     "term": "Nesnellik",
+     "meaning": "Kanıtlanabilir bilgilere dayanan, kişisel yorum içermeyen anlatım."
+    },
+    {
+     "term": "Üslup",
+     "meaning": "Yazarın kendine özgü anlatım tarzı."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Biyografi gerçek bilgilere dayanır.",
+    "Tezkire divan edebiyatında biyografinin karşılığıdır.",
+    "Roman gerçekten beslenen bir kurmacadır.",
+    "Radyo tiyatrosunda her şey sesle anlatılır.",
+    "Sanatçının hayatı eserine iz bırakır."
+   ]
+  },
+  {
+   "grade": 11,
+   "order": 4,
+   "intro": "Tiyatro, toplum hayatını sahnede canlandırarak bize bir ayna tutar. Bu temada modern Türk tiyatrosunu, tiyatro metninin unsurlarını, küçürek hikâyeyi ve belgesel metinlerini öğreniyoruz. Ayrıca günlük hayattan bir olayı canlandırmayı ve afiş yazmayı deneyeceğiz.",
+   "sections": [
+    {
+     "title": "Tiyatro metninin unsurları",
+     "text": "Tiyatro, olayların sahnede oyuncular aracılığıyla canlandırıldığı bir türdür; metni okunmak kadar oynanmak için de yazılır. Tiyatro metni perde ve sahnelere ayrılır. Perde, oyunun büyük bölümleridir; sahne ise perde içinde kişilerin girip çıkmasıyla değişen küçük bölümlerdir. Tiyatroda olaylar anlatılmaz, gösterilir; buna gösterme tekniği denir. Karakterler diyalog (karşılıklı konuşma) ve monolog (tek başına konuşma) ile kendilerini ifade eder. Dekor, oyunun geçtiği mekânı sahnede canlandıran eşya ve düzenlemedir. Kostüm, oyuncuların karakterlere uygun giysileridir. Dramatik örgü, oyundaki çatışmanın başlayıp gelişerek bir sonuca ulaşmasıdır. Yazarın oyunculara yol gösteren açıklamalarına yan metin denir.",
+     "points": [
+      "Tiyatroda olay gösterilir, anlatılmaz.",
+      "Perde büyük, sahne küçük bölümdür.",
+      "Çatışma dramatik örgünün merkezindedir."
+     ]
+    },
+    {
+     "title": "Modern Türk tiyatrosu ve küçürek hikâye",
+     "text": "Batılı anlamda Türk tiyatrosu Tanzimat döneminde başladı. Şinasi'nin 1860'ta yazdığı Şair Evlenmesi, Türk yazarın kaleme aldığı ilk yerli tiyatro eseri kabul edilir. Namık Kemal'in Vatan yahut Silistre oyunu sahnelendiğinde büyük ilgi gördü. Cumhuriyet döneminde devlet tiyatroları kuruldu ve toplumsal sorunları, aile hayatını, bireyin iç dünyasını işleyen pek çok oyun yazıldı. Tiyatro, sosyal hayatın gözlemlerini yansıttığı için 'hayatın aynası' olarak görülür. Küçürek hikâye ise çok kısa, birkaç cümle veya bir paragraf uzunluğunda olan, yoğun anlam taşıyan hikâye türüdür. Az sözle çok şey anlatır, okuru düşünmeye ve boşlukları doldurmaya davet eder, genellikle şaşırtıcı bir sonla biter.",
+     "points": [
+      "Şair Evlenmesi ilk yerli tiyatro eserimizdir.",
+      "Küçürek hikâye çok kısa ve yoğundur.",
+      "Tiyatro toplumun aynasıdır."
+     ]
+    },
+    {
+     "title": "Belgesel ve afiş",
+     "text": "Belgesel, gerçek olay, kişi ve yerleri görüntü, ses ve anlatım yoluyla tanıtan bilgilendirici yapımlardır. Belgeseli incelerken konusunu, amacını, kullandığı kanıtları, anlatıcının dilini ve görüntü-ses uyumunu değerlendiririz. Farklı bakış açılarını yansıtan belgeseller, bir konuyu çok yönlü düşünmemizi sağlar. Afiş, bir olayı, etkinliği veya düşünceyi duyurmak amacıyla hazırlanan, görsel ve kısa yazının birleştiği metinlerdir. İyi bir afişte dikkat çekici bir başlık, kısa ve etkili bir slogan, uygun bir görsel ve gerekli bilgiler (yer, tarih, saat) bulunur. Afiş metni az sözcükle çok şey anlatmalı, uzaktan okunabilmeli ve yazım kurallarına uygun olmalıdır.",
+     "points": [
+      "Belgesel gerçeğe dayanır.",
+      "Afişte görsel ve yazı birbirini tamamlar.",
+      "Slogan kısa ve akılda kalıcı olmalıdır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Perde",
+     "meaning": "Tiyatro oyununun büyük bölümleri."
+    },
+    {
+     "term": "Sahne",
+     "meaning": "Perde içindeki küçük bölümler; oyunun oynandığı yer."
+    },
+    {
+     "term": "Dekor",
+     "meaning": "Oyunun geçtiği mekânı sahnede canlandıran düzenleme."
+    },
+    {
+     "term": "Kostüm",
+     "meaning": "Oyuncuların karakterlere uygun giysileri."
+    },
+    {
+     "term": "Gösterme tekniği",
+     "meaning": "Olayların anlatılmadan doğrudan canlandırılması."
+    },
+    {
+     "term": "Dramatik örgü",
+     "meaning": "Oyundaki çatışmanın gelişip sonuçlanma düzeni."
+    },
+    {
+     "term": "Monolog",
+     "meaning": "Bir karakterin tek başına konuşması."
+    },
+    {
+     "term": "Küçürek hikâye",
+     "meaning": "Birkaç cümlelik, yoğun anlamlı çok kısa hikâye."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Tiyatroda olaylar gösterilir.",
+    "Tiyatro metni perde ve sahnelere ayrılır.",
+    "Şinasi'nin Şair Evlenmesi ilk yerli oyunumuzdur.",
+    "Küçürek hikâye az sözle çok şey anlatır.",
+    "Afiş kısa, net ve görsel olmalıdır."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 1,
+   "intro": "Her insanın kendine özgü bir yaşam yolculuğu vardır. Bu temada söyleşi, günlük, blog ve şiir gibi metinlerde kişisel gelişimin nasıl anlatıldığını; öznel ve nesnel anlatımı, bakış açısını ve üslubu öğreniyoruz. Ayrıca geleceğe dair planlarımızı dijital ortamda yazmayı deneyeceğiz.",
+   "sections": [
+    {
+     "title": "Söyleşi ve kişisel gelişim",
+     "text": "Söyleşi, tanınmış bir kişiyle belirli bir konu etrafında samimi bir ortamda yapılan, soru-cevap biçimindeki konuşmadır. Hayat hikâyeleri, hedefleri ve başarıları anlatan söyleşiler, kişisel gelişimimiz için ilham verebilir. Söyleşiyi dinlerken konuyu, amacı ve hedef kitleyi belirlemeli, konuşmacının duygu ve düşüncelerinden ana düşünceyi çıkarmalıyız. Kişisel gelişim; bireyin bilgi, beceri ve karakter bakımından kendini sürekli geliştirmesidir. Başkalarının deneyimlerini dinlerken empati kurmak, yani kendimizi onların yerine koymak, deneyimlerden ders çıkarmamızı kolaylaştırır. Kendi gelişimimizi anlatırken cümleler arasında anlam bağı kurmalı, bağdaşık ve tutarlı bir konuşma yapmalıyız.",
+     "points": [
+      "Söyleşi samimi bir soru-cevap konuşmasıdır.",
+      "Empati, deneyimleri anlamanın anahtarıdır.",
+      "Konuşmada bağdaşıklık ve tutarlılık önemlidir."
+     ]
+    },
+    {
+     "title": "Günlük, blog ve şiirde benlik",
+     "text": "Günlük, kişinin her gün ya da belirli aralıklarla yaşadıklarını, duygu ve düşüncelerini tarih atarak yazdığı metindir. Günlükler içtenlikle yazılır ve kişisel bir üslup taşır; anlatım öznel ağırlıklıdır. Edebî günlükler ise sanatçıların edebî değer taşıyan, yayımlanmak üzere de yazılabilen günlükleridir. Blog, internette kişisel deneyim ve görüşlerin paylaşıldığı dijital günlüklerdir; okurla etkileşime açıktır. Bir yazarın farklı tarihlerde yazdığı günlükleri veya şiirleri okuyarak onun karakterinin, duygularının ve düşüncelerinin zaman içinde nasıl değiştiğini görebiliriz. Bakış açısı ve üslup, yazarın dünyaya nasıl baktığını gösterir. Edebî dil duygu ve imgelerle zenginleşirken günlük dil daha sade ve doğrudandır.",
+     "points": [
+      "Günlükte tarih atmak gerekir.",
+      "Günlük ve blog öznel metinlerdir.",
+      "Yazarın değişimi farklı dönem metinlerinde izlenir."
+     ]
+    },
+    {
+     "title": "Dijital ortamda gelecek planı yazmak",
+     "text": "Geleceğe dair planlarımızı bir forum veya blog yazısı olarak paylaşırken kariyer, eğitim ve kişisel gelişim hedeflerimizi açıkça belirtmeliyiz. Hedefler somut, ölçülebilir ve gerçekçi olmalıdır; 'Başarılı olmak istiyorum.' yerine 'Önümüzdeki yıl her ay iki kitap okuyacağım.' gibi. Yazıya ilgi çekici bir girişle başlamak, hedefleri gerekçeleriyle sıralamak ve umut veren bir sonuçla bitirmek etkilidir. Dijital ortamda yazdığımız metinler geniş bir kitleye ulaşabilir; bu yüzden saygılı bir dil kullanmalı, kişisel bilgilerimizi paylaşırken dikkatli olmalıyız. Yazım ve noktalama kurallarına uymak, dijital yazının da güvenilirliğini artırır.",
+     "points": [
+      "Hedefler somut ve ölçülebilir olmalı.",
+      "Dijital ortamda kişisel bilgilerini koru.",
+      "Dijital yazıda da yazım kurallarına uy."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Edebî günlük",
+     "meaning": "Sanatçıların edebî değer taşıyan günlükleri."
+    },
+    {
+     "term": "Blog",
+     "meaning": "İnternette kişisel deneyim ve görüşlerin paylaşıldığı dijital günlük."
+    },
+    {
+     "term": "Bakış açısı",
+     "meaning": "Yazarın veya anlatıcının olaylara bakış biçimi."
+    },
+    {
+     "term": "Öznellik",
+     "meaning": "Kişisel duygu ve görüşleri yansıtan anlatım."
+    },
+    {
+     "term": "Nesnellik",
+     "meaning": "Kanıtlanabilir bilgilere dayanan anlatım."
+    },
+    {
+     "term": "Kişisel gelişim",
+     "meaning": "Bireyin bilgi, beceri ve karakterini sürekli geliştirmesi."
+    },
+    {
+     "term": "Üslup",
+     "meaning": "Kişiye özgü anlatım tarzı."
+    },
+    {
+     "term": "Söz varlığı",
+     "meaning": "Kişinin veya dilin sahip olduğu kelime ve deyim birikimi."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Günlük içten ve tarihli yazılır.",
+    "Söyleşiden ana düşünceyi çıkar.",
+    "Empati başkalarının deneyiminden öğrenmeyi sağlar.",
+    "Hedeflerini somut yaz.",
+    "Dijital ortamda saygılı ve dikkatli ol."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 2,
+   "intro": "Temel hak ve özgürlükler, toplumsal yaşamın ahengini sağlayan değerlerdir. Bu temada haber metnini, makaleyi, romanı ve eleştiri yazısını; kaynak gösterme, dipnot, kaynakça ve intihal gibi akademik yazma kurallarını öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Haber metni ve haber sunumu",
+     "text": "Haber, güncel bir olayı kamuoyuna duyurmak amacıyla hazırlanan metindir. İyi bir haber nesnel, doğru, açık ve özlüdür; kanıtlanabilir bilgilere dayanır. Haberde 5N1K sorularına cevap verilir: Ne oldu? Nerede oldu? Ne zaman oldu? Nasıl oldu? Neden oldu? Kim yaptı? Haber metni genellikle başlık, giriş (en önemli bilgi) ve ayrıntı bölümlerinden oluşur. Çok modlu haberlerde görüntü, ses ve grafikler metni destekler. Haber dinlerken bilinmeyen sözcükleri bağlamdan tahmin etmeli, bilginin kaynağını ve güvenilirliğini sorgulamalıyız. Haber sunumu yaparken açık bir diksiyon, uygun hız ve tarafsız bir dil kullanılmalıdır.",
+     "points": [
+      "5N1K: Ne, Nerede, Ne zaman, Nasıl, Neden, Kim.",
+      "Haber nesnel ve doğrulanabilir olmalıdır.",
+      "En önemli bilgi haberin başında verilir."
+     ]
+    },
+    {
+     "title": "Makale, roman ve hak-özgürlükler",
+     "text": "Makale, bir konuda bir düşünceyi kanıtlamak veya bir görüşü savunmak amacıyla bilimsel ve nesnel bir dille yazılan yazıdır. Makalede giriş, gelişme ve sonuç bölümleri bulunur; düşünceler kanıtlarla desteklenir ve kaynaklar belirtilir. Roman ise kurmaca bir dünya içinde toplumsal sorunları, bireyin hak ve özgürlükleriyle ilgili çatışmaları işleyebilir. Romanlarda karakterlerin yaşadıkları, okurun adalet, eşitlik, düşünce özgürlüğü ve eğitim hakkı gibi konular üzerine düşünmesini sağlar. Böylece edebiyat, toplumsal yaşamı yansıtır ve okurda farkındalık oluşturur. Makale gerçeği doğrudan, roman ise kurmaca yoluyla dolaylı biçimde ele alır.",
+     "points": [
+      "Makale kanıta dayanır ve nesneldir.",
+      "Roman toplumsal sorunları kurmaca yoluyla yansıtır.",
+      "Edebiyat hak ve özgürlükler konusunda farkındalık yaratır."
+     ]
+    },
+    {
+     "title": "Eleştiri yazısı ve kaynak kullanımı",
+     "text": "Eleştiri, bir eseri olumlu ve olumsuz yönleriyle, belirli ölçütlere göre değerlendiren yazıdır. Bir romanı eleştirirken konusunu, karakterlerini, kurgusunu, dilini ve işlediği değerleri inceleyebiliriz. Görüşlerimizi örnekler, alıntılar ve karşılaştırmalarla desteklemeliyiz; buna düşünceyi geliştirme yolları denir. Başkasına ait bir düşünce veya cümle kullanıldığında mutlaka kaynak gösterilmelidir. Dipnot, sayfanın altında verilen açıklama veya kaynak bilgisidir. Kaynakça, yazının sonunda yararlanılan tüm kaynakların belirli bir düzende sıralandığı listedir. Başkasının eserini veya fikrini kaynak göstermeden kendi eseri gibi sunmaya intihal denir; bu, hem etik hem de hukuki bir ihlaldir. Özgünlük, yazının yazara ait yeni bir bakış taşımasıdır.",
+     "points": [
+      "Eleştiri gerekçeli değerlendirmedir.",
+      "Alıntı yaparken kaynak göster.",
+      "İntihal etik dışıdır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Kanıtlanabilirlik",
+     "meaning": "Bir bilginin doğruluğunun belge veya veriyle gösterilebilmesi."
+    },
+    {
+     "term": "Dipnot",
+     "meaning": "Sayfa altında verilen açıklama veya kaynak bilgisi."
+    },
+    {
+     "term": "Kaynakça",
+     "meaning": "Yazıda yararlanılan kaynakların düzenli listesi."
+    },
+    {
+     "term": "İntihal",
+     "meaning": "Başkasının eserini kaynak göstermeden kendi eseri gibi sunma."
+    },
+    {
+     "term": "Özgünlük",
+     "meaning": "Yazının yazara ait yeni bir bakış ve anlatım taşıması."
+    },
+    {
+     "term": "Özlülük",
+     "meaning": "Az sözle çok şey anlatabilme."
+    },
+    {
+     "term": "Nesnellik",
+     "meaning": "Kişisel yorumdan uzak, kanıta dayalı anlatım."
+    },
+    {
+     "term": "Temel hak ve özgürlükler",
+     "meaning": "Her insanın doğuştan sahip olduğu, devletçe korunan haklar."
+    }
+   ],
+   "example": {
+    "question": "Şu bilgileri bir haberin giriş cümlesine dönüştürün: Okul kütüphanesi açıldı (ne), Atatürk Lisesi (nerede), 15 Ekim (ne zaman), okul müdürü tarafından (kim), kurdele kesilerek (nasıl), öğrencilerin okuma alışkanlığını artırmak için (neden).",
+    "solution": "1. Haberde en önemli bilgi başa yazılır ve 5N1K sorularının hepsi cevaplanır.\n2. Giriş cümlesi: 'Atatürk Lisesinde öğrencilerin okuma alışkanlığını artırmak amacıyla kurulan okul kütüphanesi, 15 Ekim'de okul müdürü tarafından kurdele kesilerek açıldı.'\n3. Cümle nesnel, kısa ve kanıtlanabilir bilgiler içerir."
+   },
+   "remember": [
+    "Haber 5N1K sorularına cevap verir.",
+    "Makale kanıta dayalı ve nesneldir.",
+    "Eleştiride görüşünü gerekçelendir.",
+    "Her alıntının kaynağını belirt.",
+    "İntihal ciddi bir etik ihlaldir."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 3,
+   "intro": "Teknoloji ve çevre arasındaki dengeyi korumak, sürdürülebilir bir gelecek için hepimizin sorumluluğudur. Bu temada çevre ve teknoloji haberlerini, gezi yazısını ve hikâyeyi incelemeyi; farkındalık sunumu ve anket hazırlamayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Haberde güvenilirliği sorgulamak",
+     "text": "Teknoloji ve çevre konulu haberler hayatımızı doğrudan ilgilendirir; ancak her haber aynı derecede güvenilir değildir. Bir haberin güvenilirliğini değerlendirmek için kaynağına, yazarına, tarihine, verdiği verilerin bir kurum veya araştırmaya dayanıp dayanmadığına bakmalıyız. Aynı haberi farklı kaynaklardan karşılaştırmak doğruluğu sınamanın etkili bir yoludur. Abartılı başlıklar, duygusal dil ve kaynak belirtilmeyen iddialar dikkatli olmamız gerektiğini gösterir. Haber metinlerinde açık iletiler doğrudan verilir; ancak görsel seçimi veya başlık gibi öğelerle örtük iletiler de verilebilir. Görsellik, yani fotoğraf, grafik ve videolar habere güç katar ama yanıltıcı da olabilir.",
+     "points": [
+      "Kaynağı ve tarihi kontrol et.",
+      "Haberi farklı kaynaklarla karşılaştır.",
+      "Abartılı başlıklara şüpheyle yaklaş."
+     ]
+    },
+    {
+     "title": "Gezi yazısı ve hikâye",
+     "text": "Gezi yazısı, bir yazarın gezip gördüğü yerleri, oradaki insanları, gelenekleri ve kendi izlenimlerini anlattığı yazı türüdür. Gezi yazısında gerçek yerler anlatılır ama yazarın kişisel gözlem ve duyguları da yer alır; bu yüzden nesnel bilgiler ile öznel izlenimler bir arada bulunur. Betimleme, gezi yazısının temel anlatım biçimidir. Okumaya başlamadan önce başlıktan ve görsellerden metin hakkında tahminde bulunmak, okurken bu tahminleri doğrulamak veya düzeltmek anlamayı derinleştirir. Hikâye ise kurmaca bir türdür; olay örgüsü, kişiler, zaman ve mekân unsurlarıyla incelenir. Doğa ve çevre konulu hikâyeler, okurda doğaya karşı sorumluluk duygusu uyandırabilir.",
+     "points": [
+      "Gezi yazısı gerçek yerleri anlatır.",
+      "Betimleme gezi yazısının temelidir.",
+      "Okuma öncesi tahmin anlamayı güçlendirir."
+     ]
+    },
+    {
+     "title": "Sunum ve anket hazırlama",
+     "text": "Sürdürülebilirlik konusunda farkındalık sunumu hazırlarken önce konuyu ve hedef kitleyi belirleyip bir taslak oluşturmalıyız. Sunumda az ama etkili yazı, anlaşılır görseller ve güvenilir veriler kullanılmalıdır. Sunum sırasında göz teması kurmak, beden dilini doğal kullanmak ve sesimizi ayarlamak etkiyi artırır. Anket ise belirli bir konuda insanların görüşlerini öğrenmek için hazırlanan soru listesidir. İyi bir anketin soruları açık, kısa, yönlendirici olmayan ve tek bir konuyu soran biçimde hazırlanmalıdır. Anket sonuçları yüzde ve grafiklerle özetlenerek bir yazıya dönüştürülür. Bu çalışmalar grup içinde iş birliği ile yapılır ve sürdürülebilir bir yaşam için toplumsal sorumluluklarımızı gösterir.",
+     "points": [
+      "Anket soruları yönlendirici olmamalıdır.",
+      "Sunumda görsel ve veri dengesi kur.",
+      "İş birliği ortak ürünü güçlendirir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Anket",
+     "meaning": "Bir konuda görüş toplamak için hazırlanan soru listesi."
+    },
+    {
+     "term": "Sürdürülebilirlik",
+     "meaning": "Kaynakları gelecek nesillerin ihtiyacını tehlikeye atmadan kullanma."
+    },
+    {
+     "term": "Görsellik",
+     "meaning": "Metinde fotoğraf, grafik gibi görsel öğelerin kullanılması."
+    },
+    {
+     "term": "Özlü anlatım",
+     "meaning": "Az sözle çok şey anlatan yoğun anlatım."
+    },
+    {
+     "term": "İş birliği",
+     "meaning": "Ortak bir amaç için birlikte çalışma."
+    },
+    {
+     "term": "Açık ve örtük ileti",
+     "meaning": "Metinde doğrudan söylenen ve dolaylı sezdirilen mesajlar."
+    },
+    {
+     "term": "Çevre",
+     "meaning": "Canlıların yaşadığı ve etkileşimde bulunduğu doğal ve yapay ortam."
+    }
+   ],
+   "example": {
+    "question": "'Plastik atıkların çevreye çok büyük zarar verdiğini siz de kabul etmez misiniz?' anket sorusu doğru hazırlanmış mı? Düzeltin.",
+    "solution": "1. Soru, katılımcıyı belirli bir cevaba yönlendiriyor; 'kabul etmez misiniz' ifadesi baskı kuruyor.\n2. Anket soruları tarafsız olmalıdır.\n3. Düzeltilmiş soru: 'Plastik atıkların çevreye etkisini nasıl değerlendiriyorsunuz? (Çok zararlı / Biraz zararlı / Zararsız / Fikrim yok)'"
+   },
+   "remember": [
+    "Her haberin kaynağını sorgula.",
+    "Gezi yazısında gözlem ve izlenim bir aradadır.",
+    "Anket soruları kısa ve tarafsız olmalı.",
+    "Sunumda görsel ve beden dili önemlidir.",
+    "Sürdürülebilirlik ortak sorumluluktur."
+   ]
+  },
+  {
+   "grade": 12,
+   "order": 4,
+   "intro": "Lise yıllarının sonunda hayalimizdeki mesleği ve geleceğimizi düşünmenin zamanı gelir. Bu temada mülakat ve röportaj metinlerini, makale ve hikâyeyi incelemeyi; meslek tanıtım yazısı ve öz geçmiş hazırlamayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Mülakat ve röportaj",
+     "text": "Mülakat, bir kişiyle belirli bir amaçla, örneğin iş başvurusu veya bilgi edinmek için yapılan planlı görüşmedir. Röportaj ise bir gazeteci veya yazarın tanınmış biriyle ya da bir olayın tanığıyla görüşerek elde ettiği bilgileri, kendi gözlem ve izlenimleriyle birlikte aktardığı yazı türüdür. Farklı meslek sahipleriyle röportaj yaparken önce görüşülecek kişiyi ve konuyu belirlemeli, soruları önceden hazırlamalıyız. Sorular açık uçlu olmalı; mesleğin özelliklerini, zorluklarını ve keyifli yönlerini ortaya çıkarmalıdır. Görüşme sırasında dikkatle dinlemeli, gerektiğinde ek sorular sormalı ve izin alarak not veya kayıt tutmalıyız. Mülakat metnindeki açık ve örtük iletileri fark etmek, kişiyi daha iyi anlamamızı sağlar.",
+     "points": [
+      "Soruları önceden hazırla.",
+      "Açık uçlu sorular daha zengin cevaplar getirir.",
+      "Kayıt için izin almak gerekir."
+     ]
+    },
+    {
+     "title": "Makale ve hikâyede gelecek",
+     "text": "Makale, bir konuda bir görüşü savunmak veya bilgi vermek için kanıtlara dayanarak yazılan öğretici bir yazıdır. Gelecekteki meslekler, teknoloji ve eğitim gibi konularda yazılmış makaleler, düşüncelerimizi bilgiyle desteklememizi sağlar. Makaleyi okurken yazarın tezini, kullandığı kanıtları ve düşünceyi geliştirme yollarını belirlemeliyiz. Hikâye ise kurmaca bir dünyada geleceğe dair hayalleri, korkuları ve umutları anlatabilir. Makale gerçeklik ve tutarlılık üzerine kuruluyken hikâye hayal gücüyle şekillenir; ancak her ikisi de okuru düşünmeye yöneltir. Okuduğumuz metinlerdeki edebî dil ile günlük dil arasındaki farklara ve yazarların söz varlığına dikkat etmek kendi yazılarımızı da zenginleştirir.",
+     "points": [
+      "Makalede tez ve kanıtları belirle.",
+      "Hikâye geleceği hayal gücüyle yorumlar.",
+      "Tutarlılık iyi bir metnin temelidir."
+     ]
+    },
+    {
+     "title": "Meslek tanıtım yazısı ve öz geçmiş",
+     "text": "Meslek tanıtım yazısı, bir mesleğin ne olduğunu, hangi eğitimi gerektirdiğini, çalışma koşullarını, gerekli becerileri ve geleceğini anlatan bilgilendirici yazıdır. Yazıda güvenilir kaynaklardan alınan bilgiler kullanılmalı ve kaynaklar belirtilmelidir. Öz geçmiş (CV), bir kişinin eğitim bilgilerini, becerilerini, deneyimlerini ve ilgi alanlarını kısa ve düzenli biçimde tanıtan belgedir. Öz geçmişte kişisel ve iletişim bilgileri, eğitim durumu, varsa iş veya gönüllülük deneyimleri, bildiği yabancı diller, bilgisayar becerileri, sertifikalar ve ilgi alanları yer alır. Bilgiler en yeniden eskiye doğru sıralanır. Öz geçmiş doğru, tutarlı, kısa ve yazım hatasız olmalıdır; abartılı veya gerçek dışı bilgi yazılmamalıdır.",
+     "points": [
+      "Öz geçmiş kısa, düzenli ve doğru olmalıdır.",
+      "Bilgiler en yeniden eskiye sıralanır.",
+      "Meslek yazısında güvenilir kaynak kullan."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Öz geçmiş",
+     "meaning": "Kişinin eğitim, beceri ve deneyimlerini tanıtan kısa belge."
+    },
+    {
+     "term": "Mülakat",
+     "meaning": "Belirli bir amaçla yapılan planlı görüşme."
+    },
+    {
+     "term": "Röportaj",
+     "meaning": "Görüşme ve gözleme dayalı olarak yazılan haber-yazı türü."
+    },
+    {
+     "term": "Sunum",
+     "meaning": "Bir konunun dinleyicilere düzenli biçimde aktarılması."
+    },
+    {
+     "term": "Tutarlılık",
+     "meaning": "Metindeki düşüncelerin birbiriyle çelişmemesi."
+    },
+    {
+     "term": "Edebî dil",
+     "meaning": "Estetik amaçla kullanılan, imge ve çağrışım yüklü dil."
+    },
+    {
+     "term": "Günlük dil",
+     "meaning": "Bilgi aktarmak için kullanılan sade ve doğrudan dil."
+    },
+    {
+     "term": "İş birliği",
+     "meaning": "Ortak bir hedef için birlikte çalışma."
+    }
+   ],
+   "example": null,
+   "remember": [
+    "Röportaj sorularını önceden hazırla.",
+    "Makale kanıta, hikâye hayal gücüne dayanır.",
+    "Öz geçmiş doğru ve hatasız olmalıdır.",
+    "Meslek seçerken ilgi ve yeteneklerini düşün.",
+    "Kaynak kullanırken güvenilirliğe dikkat et."
+   ]
+  }
+ ]
+}

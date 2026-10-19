@@ -1,0 +1,1719 @@
+{
+ "file": "ortaokul-turkce",
+ "notes": [
+  {
+   "grade": 5,
+   "order": 1,
+   "intro": "Bu temada oyun dünyası üzerine metinler okuyup dinliyoruz. Oyunlar hem eğlendirir hem de iş birliği, kural ve strateji öğretir. Dil bilgisinde isim ile fiili ayırt etmeyi ve tahmin bildiren ifadeleri öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Metni Anlamaya Hazırlık",
+     "text": "Bir metni okumadan ya da dinlemeden önce başlığına, görsellerine ve ilk cümlelerine bakarak içeriği hakkında tahminde bulunuruz. Okurken anlamını bilmediğimiz sözcüklerin anlamını önce cümlenin bağlamından tahmin eder, sonra sözlükten kontrol ederiz. Metnin yüzey anlamı, metinde açıkça söylenen bilgilerdir: Kim, ne, nerede, ne zaman, nasıl sorularının cevapları. Metnin anahtar kelimeleri ise konuyu en iyi özetleyen ve metinde sık geçen sözcüklerdir. Anahtar kelimeleri bulmak metnin konusunu kavramamızı kolaylaştırır. Akıcı okumada sözcükleri doğru, uygun hızda ve anlamı yansıtan bir tonlamayla okuruz.",
+     "points": [
+      "Yüzey anlam: Metinde açıkça yazanlar.",
+      "Anahtar kelime: Konuyu özetleyen, sık tekrarlanan sözcük.",
+      "Bilinmeyen sözcüğün anlamı önce bağlamdan tahmin edilir."
+     ]
+    },
+    {
+     "title": "İsim ve Fiil",
+     "text": "İsim (ad), varlıkları, kavramları ve kişileri karşılayan sözcüklerdir: oyun, top, arkadaş, mutluluk, Ayşe. Fiil (eylem) ise iş, oluş ya da hareket bildiren sözcüklerdir: koşmak, oynamak, sevinmek. Bir sözcüğün fiil olup olmadığını anlamak için sonuna “-mek, -mak” ekleriz; anlamlı bir sözcük oluşuyorsa fiildir: “koş-mak”, “oyna-mak”. Fiiller cümlede genellikle zaman ve kişi eki alarak çekimlenir: “oynadık, koşuyorlar”. İsimler ise bu şekilde çekimlenmez. Okuduğumuz metinlerde isim ve fiilleri ayırt etmek dilin yapısını anlamamızı sağlar.",
+     "points": [
+      "İsim: Varlık ve kavramların adı.",
+      "Fiil: İş, oluş, hareket bildirir.",
+      "Fiil testi: Sonuna “-mek/-mak” getir."
+     ]
+    },
+    {
+     "title": "Tahmin Bildiren Yapılar ve Konuşma",
+     "text": "Kesin olmayan, olasılık bildiren düşünceleri anlatırken tahmin bildiren sözcük ve yapılar kullanırız: “galiba, herhalde, belki, sanırım, muhtemelen, olabilir, -ebilir/-abilir”. Örnek: “Yarın maç ertelenebilir.”, “Galiba takımımız kazanacak.” Hazırlıksız konuşmada da bu ifadeler sıkça kullanılır. Konuşurken sesimizi duyulabilir bir düzeyde tutar, beden dilimizi konuşmamıza uygun kullanırız. Yazarken yazım ve noktalama kurallarına uyarız; örneğin soru eki ayrı yazılır, özel adlara gelen ekler kesme işaretiyle ayrılır.",
+     "points": [
+      "Tahmin: galiba, belki, herhalde, sanırım.",
+      "“-ebilir” eki olasılık bildirir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Yüzey anlam",
+     "meaning": "Metinde açıkça ifade edilen bilgi ve anlam."
+    },
+    {
+     "term": "Anahtar kelime",
+     "meaning": "Metnin konusunu en iyi yansıtan, önemli sözcük."
+    },
+    {
+     "term": "Söz varlığı",
+     "meaning": "Bir kişinin ya da dilin sahip olduğu sözcük, deyim ve kalıpların bütünü."
+    },
+    {
+     "term": "Akıcı okuma",
+     "meaning": "Doğru, uygun hızda ve anlamlı tonlamayla okuma."
+    },
+    {
+     "term": "Hazırlıksız konuşma",
+     "meaning": "Önceden plan yapmadan, o anda yapılan konuşma."
+    },
+    {
+     "term": "Beden dili",
+     "meaning": "Jest, mimik ve duruşla yapılan sözsüz iletişim."
+    },
+    {
+     "term": "İsim",
+     "meaning": "Varlıkları ve kavramları karşılayan sözcük."
+    },
+    {
+     "term": "Fiil",
+     "meaning": "İş, oluş ya da hareket bildiren sözcük."
+    }
+   ],
+   "example": {
+    "question": "“Çocuklar bahçede saklambaç oynadı.” cümlesindeki isimleri ve fiili bulalım.",
+    "solution": "1. Varlık ya da kavram bildiren sözcükleri ararız: “çocuklar”, “bahçe(de)”, “saklambaç”. Bunlar isimdir. 2. İş bildiren sözcüğe “-mak” ekleriz: “oyna-mak” anlamlıdır. “oynadı” fiildir."
+   },
+   "remember": [
+    "Bilinmeyen sözcüğün anlamını önce bağlamdan tahmin et.",
+    "Fiile “-mek/-mak” getirince anlamlı bir mastar oluşur.",
+    "Tahmin bildiren ifadeler kesinlik bildirmez.",
+    "Anahtar kelimeler metnin konusunu ele verir."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 2,
+   "intro": "Bu temada Atatürk’ün hayatını, kişiliğini ve ilkelerini anlatan şiir ve metinler okuyoruz. Şiirin biçim özelliklerini ve söz sanatlarını tanıyoruz. Dil bilgisinde sıfatları ve betimleme yapan sıfat-fiilleri öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Şiirin Biçim Özellikleri ve Söz Sanatları",
+     "text": "Şiirin her satırına dize (mısra) denir. Belli sayıda dizeden oluşan bölümlere kıta denir; dört dizelik kıtaya dörtlük denir. Dize sonlarındaki ses benzerliğine uyak (kafiye), uyaktan sonra gelen aynı görevli ek ya da sözcüklere redif denir. Söz sanatları anlatımı güçlendirir. Benzetme (teşbih), bir varlığı ortak bir özellik bakımından daha güçlü bir varlığa benzetmektir: “Atatürk bir güneş gibi yolumuzu aydınlattı.” Kişileştirme, insan dışındaki varlıklara insan özellikleri vermektir: “Dağlar Ata’nın yasını tuttu.”",
+     "points": [
+      "Dize: Şiirin her satırı.",
+      "Kıta: Dizelerden oluşan bölüm.",
+      "Benzetme ve kişileştirme anlatımı güçlendirir."
+     ]
+    },
+    {
+     "title": "Öyküleyici Metin ve Hikâye Unsurları",
+     "text": "Öyküleyici metinler bir olayı anlatır. Bu metinlerde dört temel unsur bulunur: olay, kişiler (karakterler), yer (mekân) ve zaman. Atatürk’ün çocukluğunu anlatan bir metinde olay onun okul hayatı, kişiler Mustafa Kemal ve ailesi, yer Selanik olabilir. Metnin bölümleri giriş, gelişme ve sonuçtur. Giriş bölümünde kişiler ve ortam tanıtılır, gelişmede olaylar ilerler, sonuçta olay bir sonuca bağlanır. Konuşurken ve yazarken “ayrıca, bunun yanında, sonuç olarak” gibi bağlantı ifadeleriyle düşüncelerimizi birbirine bağlarız.",
+     "points": [
+      "Hikâye unsurları: olay, kişi, yer, zaman.",
+      "Metnin bölümleri: giriş, gelişme, sonuç."
+     ]
+    },
+    {
+     "title": "Sıfatlar ve Sıfat-Fiiller",
+     "text": "İsimlerden önce gelerek onları niteleyen ya da belirten sözcüklere sıfat denir. Niteleme sıfatları varlığın nasıl olduğunu gösterir: “cesur asker, mavi gözler”. Belirtme sıfatları varlığı sayı, işaret ya da soru yoluyla belirtir: “iki kitap, bu ev, hangi şehir”. Fiillerden türeyip isimleri betimleyen sözcüklere sıfat-fiil denir. “-an, -ası, -mez, -ar, -dik, -ecek, -miş” ekleriyle yapılır: “koşan çocuk, okunacak kitap, bilinmez yol, görülmüş film”. Bu yapılar anlatımı canlı ve ayrıntılı yapar.",
+     "points": [
+      "Niteleme: nasıl? (cesur asker)",
+      "Belirtme: kaç, hangi, bu? (üç kitap)",
+      "Sıfat-fiil: koşan, okunacak, gördüğüm"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Şiir",
+     "meaning": "Duygu ve düşüncelerin ahenkli, dizeler hâlinde anlatıldığı metin."
+    },
+    {
+     "term": "Söz sanatları",
+     "meaning": "Anlatımı güçlendirmek için kullanılan benzetme, kişileştirme gibi teknikler."
+    },
+    {
+     "term": "Öyküleyici metin",
+     "meaning": "Bir olayı kişi, yer ve zaman unsurlarıyla anlatan metin."
+    },
+    {
+     "term": "Metnin bölümleri",
+     "meaning": "Giriş, gelişme ve sonuç."
+    },
+    {
+     "term": "Bağlantı ifadeleri",
+     "meaning": "Cümle ve paragrafları birbirine bağlayan sözler."
+    },
+    {
+     "term": "Sıfat",
+     "meaning": "İsmi niteleyen ya da belirten sözcük."
+    },
+    {
+     "term": "Sıfat-fiil",
+     "meaning": "Fiilden türeyip ismi betimleyen sözcük: koşan çocuk."
+    }
+   ],
+   "example": {
+    "question": "“Okuduğum kitapta cesur bir komutanın iki önemli zaferi anlatılıyordu.” cümlesindeki sıfatları bulup türünü belirtelim.",
+    "solution": "1. “okuduğum kitap”: “oku-” fiilinden türeyen “okuduğum” ismi betimliyor; sıfat-fiildir. 2. “cesur komutan”: nasıl bir komutan? Niteleme sıfatı. 3. “bir komutan” ve “iki zafer”: sayı bildirir; belirtme sıfatı. 4. “önemli zafer”: nasıl bir zafer? Niteleme sıfatı."
+   },
+   "remember": [
+    "Sıfat isimden önce gelir ve ismi niteler ya da belirtir.",
+    "Sıfat-fiiller fiilden türer: -an, -ası, -mez, -ar, -dik, -ecek, -miş.",
+    "Benzetmede ortak özellik vardır; kişileştirmede insan özelliği verilir.",
+    "Öyküleyici metinde olay, kişi, yer ve zaman bulunur."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 3,
+   "intro": "Bu temada duygularımızı tanımayı ve ifade etmeyi öğreniyoruz. Duygularını tanıyan kişi kendini ve başkalarını daha iyi anlar. Metnin derin anlamını, isim türlerini ve amaç bildiren yapıları öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Derin Anlam ve Hikâye Unsurları",
+     "text": "Metnin derin anlamı, açıkça yazılmayan ama satır aralarından çıkarılan anlamdır. Örneğin “Elif kapıya her ses gelişinde koştu.” cümlesi, Elif’in birini heyecanla beklediğini sezdirir. Basit çıkarımlarla metindeki ipuçlarını birleştirir, duyguları ve nedenleri buluruz. Öyküleyici metinlerde olay, kişi, yer ve zaman unsurlarının yanında kahramanların duygularını da çözümleriz. Bilgilendirici metinlerde yazarın düşünceyi geliştirmek için tanımlama, örnekleme, karşılaştırma gibi yollara başvurduğunu fark ederiz.",
+     "points": [
+      "Derin anlam: Satır arasındaki anlam.",
+      "İpuçlarını birleştirerek çıkarım yaparız."
+     ]
+    },
+    {
+     "title": "İsim Türleri",
+     "text": "İsimler varlıklara verilişine göre ikiye ayrılır: Özel isimler tek bir varlığa verilir ve büyük harfle başlar (Ankara, Zeynep, Kızılırmak). Cins isimler aynı türden bütün varlıkları karşılar (şehir, kız, ırmak). Varlığın duyularla algılanıp algılanmamasına göre somut ve soyut isimler vardır: masa, ses, koku somuttur; sevgi, korku, mutluluk soyuttur. Sayısına göre isimler tekil (kalem), çoğul (kalemler) ve topluluk ismi (ordu, sürü, orman) olabilir. Duygu isimlerinin çoğu soyut isimdir.",
+     "points": [
+      "Özel / cins",
+      "Somut / soyut",
+      "Tekil / çoğul / topluluk"
+     ]
+    },
+    {
+     "title": "Amaç Bildiren Yapılar ve Yaratıcı Yazma",
+     "text": "Bir işin hangi amaçla yapıldığını anlatırken “için, -mek için, diye, amacıyla, -mek üzere” gibi yapılar kullanırız: “Arkadaşımı mutlu etmek için ona bir mektup yazdım.”, “Üzülmesin diye ona haber verdim.” Konuşma ve yazmada bu yapılar düşüncemizi açık hâle getirir. Yaratıcı yazıda duygularımızı benzetme ve betimlemelerle anlatırız. Karşımızdakini daha iyi anlamak için iletişimi sürdüren sorular sorarız: “Bunu yaşayınca ne hissettin?”",
+     "points": [
+      "Amaç: için, -mek için, diye, amacıyla.",
+      "İletişimi sürdürmek için açık uçlu sorular sorarız."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Derin anlam",
+     "meaning": "Metinde açıkça söylenmeyip çıkarımla bulunan anlam."
+    },
+    {
+     "term": "Hikâye unsurları",
+     "meaning": "Olay, kişi, yer ve zaman."
+    },
+    {
+     "term": "Düşünceyi geliştirme yolları",
+     "meaning": "Tanımlama, örnekleme, karşılaştırma gibi anlatım teknikleri."
+    },
+    {
+     "term": "Çoklu ortam ögeleri",
+     "meaning": "Metni destekleyen görsel, ses, video, grafik gibi unsurlar."
+    },
+    {
+     "term": "Soyut isim",
+     "meaning": "Duyularla algılanamayan varlık ya da kavram adı: sevgi."
+    },
+    {
+     "term": "Somut isim",
+     "meaning": "Duyularla algılanabilen varlık adı: kitap, ses."
+    },
+    {
+     "term": "Amaç bildiren yapı",
+     "meaning": "Bir eylemin amacını gösteren ifade: -mek için, diye."
+    }
+   ],
+   "example": {
+    "question": "Şu isimleri somut ve soyut olarak ayıralım: korku, yağmur, umut, gökkuşağı, özlem, rüzgâr.",
+    "solution": "1. Beş duyudan biriyle algılanabiliyor mu diye sorarız. 2. Somut: yağmur (görülür, duyulur), gökkuşağı (görülür), rüzgâr (hissedilir, duyulur). 3. Soyut: korku, umut, özlem; bunlar duyularla algılanamaz, yalnızca hissedilir ve düşünülür."
+   },
+   "remember": [
+    "Derin anlam ipuçlarından çıkarılır.",
+    "Özel isimler büyük harfle başlar.",
+    "Duygu bildiren isimler genellikle soyuttur.",
+    "Amaç: “-mek için, diye, amacıyla”."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 4,
+   "intro": "Bu temada geleneklerimizi anlatan metinler okuyoruz. Gelenekler kuşaktan kuşağa aktarılan ortak değerlerimizdir. Metinleri karşılaştırmayı, özetlemeyi ve zamirleri öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Gelenekler ve Üst Düzey Çıkarım",
+     "text": "Bayram ziyaretleri, düğün ve kına gecesi, imece, misafirperverlik, kahve ikramı gibi gelenekler toplumumuzu birbirine bağlar. Bu konudaki metinleri okurken basit çıkarımların yanında üst düzey çıkarımlar da yaparız: Metindeki bilgileri ön bilgilerimizle birleştirerek yazarın amacını, metnin değerini ya da olayların olası sonuçlarını yorumlarız. Metindeki unsurları sınıflandırırız; örneğin gelenekleri yeme-içme, kutlama ve yardımlaşma diye gruplayabiliriz. Yorumumuzu sözlü ya da yazılı olarak gerekçesiyle ifade ederiz.",
+     "points": [
+      "Üst düzey çıkarım: Metin + ön bilgi + yorum.",
+      "Sınıflandırma bilgiyi düzenler."
+     ]
+    },
+    {
+     "title": "Karşılaştırma ve Özetleme",
+     "text": "Karşılaştırma, iki ya da daha fazla şeyin benzer ve farklı yönlerini ortaya koymaktır. “gibi, kadar, daha, en, -e göre, oysa, ise, buna karşın” gibi yapılar karşılaştırma bildirir: “Eskiden bayramlar daha kalabalık geçerdi, oysa şimdi çoğu kişi tebrik mesajı gönderiyor.” Özetleme ise metnin ana fikrini ve önemli noktalarını kısa ve kendi cümlelerimizle anlatmaktır. Özette ayrıntılara, örneklere ve tekrarlara yer verilmez. “Kısacası, özetle, sonuç olarak” gibi ifadeler özetlediğimizi gösterir.",
+     "points": [
+      "Karşılaştırma: daha, en, gibi, kadar, oysa.",
+      "Özet: Ana fikir + önemli noktalar, kendi cümlelerimizle."
+     ]
+    },
+    {
+     "title": "Zamirler",
+     "text": "İsimlerin yerini tutan sözcüklere zamir (adıl) denir. Zamirler aynı ismi sürekli tekrar etmemizi önler ve anlatımı akıcı yapar. Kişi zamirleri: ben, sen, o, biz, siz, onlar. İşaret zamirleri: bu, şu, o, bunlar, şunlar, onlar. Soru zamirleri: kim, ne, hangisi. Belgisiz zamirler: biri, herkes, kimse, bazıları. Dikkat: “Bu ev” derken “bu” ismin önünde olduğu için sıfattır; “Bunu beğendim.” derken ismin yerini tuttuğu için zamirdir.",
+     "points": [
+      "Zamir ismin yerini tutar.",
+      "İsmin önündeyse sıfat, yerindeyse zamirdir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Gelenek",
+     "meaning": "Kuşaktan kuşağa aktarılan, toplumca benimsenen davranış ve uygulamalar."
+    },
+    {
+     "term": "Özetleme",
+     "meaning": "Metnin ana fikrini ve önemli noktalarını kısaca anlatma."
+    },
+    {
+     "term": "Derin anlam",
+     "meaning": "Çıkarım yoluyla bulunan, açıkça söylenmeyen anlam."
+    },
+    {
+     "term": "Karşılaştırma",
+     "meaning": "Benzerlik ve farklılıkları ortaya koyma."
+    },
+    {
+     "term": "Zamir",
+     "meaning": "İsmin yerini tutan sözcük."
+    },
+    {
+     "term": "Çoklu ortam ögeleri",
+     "meaning": "Metni destekleyen fotoğraf, video, ses gibi unsurlar."
+    }
+   ],
+   "example": {
+    "question": "“Ayşe bayramda dedesini ziyaret etti. Ayşe dedesine bir hediye götürdü. Dedesi Ayşe’ye teşekkür etti.” metnini zamir kullanarak akıcı hâle getirelim.",
+    "solution": "1. “Ayşe” üç kez tekrar ediliyor. 2. İkinci cümlede “Ayşe” yerine kişi zamiri “o” kullanılabilir. 3. Üçüncü cümlede “Ayşe’ye” yerine “ona” yazılır. Sonuç: “Ayşe bayramda dedesini ziyaret etti. O, dedesine bir hediye götürdü. Dedesi ona teşekkür etti.”"
+   },
+   "remember": [
+    "Gelenekler toplumu birbirine bağlar.",
+    "Özette ayrıntı ve örnek yer almaz.",
+    "Zamir ismin yerini tutar, sıfat ismin önünde durur.",
+    "“oysa, daha, en, kadar” karşılaştırma bildirir."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 5,
+   "intro": "Bu temada iletişimi ve sosyal ilişkileri ele alıyoruz. Doğru iletişim kurmak arkadaşlıklarımızı ve aile ilişkilerimizi güçlendirir. Açık ve örtük anlatımı, söz sanatlarını ve cümleleri yeniden kurmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Etkili İletişim",
+     "text": "İletişim, duygu ve düşüncelerin karşılıklı paylaşılmasıdır. Etkili iletişimde karşımızdakini dikkatle dinler, sözünü kesmez, göz teması kurarız. Kendimizi “sen” yerine “ben” diliyle anlatırız: “Sen hep geç kalıyorsun!” yerine “Geç kalınca endişeleniyorum.” deriz. Konuşmayı sürdürmek için soru sorarız. Dinlediklerimizi ve okuduklarımızı karşılaştırır, özetler, yorumlarız. Yorum yaparken kendi bakış açımızı gerekçeleriyle ortaya koyarız.",
+     "points": [
+      "“Ben dili” kırıcı olmayan bir anlatımdır.",
+      "Etkin dinleme iletişimin temelidir."
+     ]
+    },
+    {
+     "title": "Açık ve Örtük İfade",
+     "text": "Açık ifade, düşüncenin doğrudan söylenmesidir: “Pencereyi kapatır mısın?” Örtük ifade ise düşüncenin dolaylı yoldan sezdirilmesidir: “Burası biraz üşütüyor.” Bu cümlede pencerenin kapatılması istendiği doğrudan söylenmez ama anlaşılır. Örtük anlamı bulmak için konuşanın amacını ve durumu düşünürüz. Söz sanatları da çoğu zaman örtük anlatıma hizmet eder: “Sınıf arı kovanı gibiydi.” sözü sınıfın çok gürültülü ve hareketli olduğunu dolaylı olarak anlatır.",
+     "points": [
+      "Açık: Doğrudan söylenen.",
+      "Örtük: Dolaylı yoldan sezdirilen."
+     ]
+    },
+    {
+     "title": "Cümleyi Yeniden Kurma",
+     "text": "Bir cümlenin anlamını bozmadan kendi sözcüklerimizle yeniden ifade etmek, onu gerçekten anladığımızı gösterir. Bunu yaparken eş anlamlı sözcüklerden yararlanır, cümlenin ögelerinin sırasını değiştirir ya da uzun cümleleri ikiye bölebiliriz. Örneğin “Arkadaşlar zor günde belli olur.” cümlesini “Gerçek dostlarımızı sıkıntılı zamanlarımızda tanırız.” şeklinde yeniden kurabiliriz. Özet yazarken ve not alırken bu beceriyi sık kullanırız. Yazılarımızda söz varlığımızı zenginleştirmek için yeni öğrendiğimiz sözcükleri kullanırız.",
+     "points": [
+      "Anlam aynı kalır, sözcükler değişir.",
+      "Eş anlamlı sözcükler işimizi kolaylaştırır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "İletişim",
+     "meaning": "Duygu, düşünce ve bilgilerin karşılıklı paylaşılması."
+    },
+    {
+     "term": "Açık ifade",
+     "meaning": "Düşüncenin doğrudan söylenmesi."
+    },
+    {
+     "term": "Örtük ifade",
+     "meaning": "Düşüncenin dolaylı olarak sezdirilmesi."
+    },
+    {
+     "term": "Söz sanatları",
+     "meaning": "Anlatımı etkileyici kılan benzetme, kişileştirme gibi teknikler."
+    },
+    {
+     "term": "Soru sorma",
+     "meaning": "İletişimi sürdürmek ve bilgi edinmek için soru yöneltme."
+    },
+    {
+     "term": "Özetleme",
+     "meaning": "Bir metni ana hatlarıyla kısaca anlatma."
+    }
+   ],
+   "example": {
+    "question": "“Ödevini bitirdiysen biraz da kardeşinle ilgilenebilirsin.” cümlesindeki örtük anlamı bulalım.",
+    "solution": "1. Açıkça söylenen: Ödev bittiyse kardeşle ilgilenilebilir. 2. Konuşanın amacını düşünürüz: Kardeşin ilgiye ihtiyacı var ve konuşan, dinleyenden bunu istiyor. 3. Örtük anlam: “Kardeşinle ilgilenmeni istiyorum.” Bu istek doğrudan değil, dolaylı olarak dile getirilmiştir."
+   },
+   "remember": [
+    "Etkili iletişim dinlemekle başlar.",
+    "Örtük anlam satır arasındadır.",
+    "Cümleyi yeniden kurarken anlamı koru.",
+    "“Ben dili” kırıcı olmayan bir anlatım sağlar."
+   ]
+  },
+  {
+   "grade": 5,
+   "order": 6,
+   "intro": "Bu temada sağlıklı yaşamla ilgili bilgilendirici metinler okuyoruz. Dengeli beslenme, uyku ve hareket sağlığımızın temelidir. Bilgilendirici metinde önemli bilgiyi bulmayı, tartışmayı ve hazırlıklı konuşma yapmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Bilgilendirici Metin ve Önemli Bilgi",
+     "text": "Bilgilendirici metinler okuru bir konuda bilgilendirmek amacıyla yazılır; ansiklopedi maddeleri, haber metinleri ve ders kitapları bu türdendir. Bu metinlerde bilgiler genellikle başlık, alt başlık, madde işaretleri, kalın yazılar, tablo ve grafiklerle düzenlenir. Önemli bilgileri bulmak için önce başlık ve alt başlıklara bakarız, sonra paragrafların ilk cümlelerini okuruz; çünkü ana düşünce çoğunlukla bu cümlelerdedir. Örneğin “Düzenli uyku” alt başlıklı bir bölümde önemli bilgi, öğrencilerin her gece yeterli ve düzenli uyumasının öğrenmeye katkısı olabilir.",
+     "points": [
+      "Başlık ve alt başlıklar ipucu verir.",
+      "Kalın yazılar ve tablolar önemli bilgiyi gösterir."
+     ]
+    },
+    {
+     "title": "Tartışma",
+     "text": "Tartışma, bir konuda farklı görüşlerin gerekçeleriyle ortaya konduğu konuşmadır. Amaç kazanmak değil, doğruya birlikte ulaşmaktır. Tartışırken görüşümüzü açıkça söyler, gerekçe ve kanıtlarla destekleriz: “Bence okul kantinlerinde şekerli içecek satılmamalı, çünkü fazla şeker diş ve genel sağlık için zararlıdır.” Karşı görüşü sabırla dinler, kişiyi değil düşünceyi eleştiririz. Söz almak için sıramızı bekler, nazik bir dil kullanırız. Yazılı tartışmalarda da aynı kurallara uyarız.",
+     "points": [
+      "Görüş + gerekçe + kanıt.",
+      "Düşünceyi eleştir, kişiyi değil."
+     ]
+    },
+    {
+     "title": "Hazırlıklı Konuşma",
+     "text": "Hazırlıklı konuşma, önceden konusu belirlenmiş ve planlanmış konuşmadır. Önce konumuzu ve amacımızı belirleriz; sonra güvenilir kaynaklardan bilgi toplarız. Konuşmamızı giriş, gelişme ve sonuç bölümlerine ayırırız. Girişte dikkat çekici bir soru ya da bilgiyle başlarız; gelişmede bilgileri örneklerle açıklarız; sonuçta ana düşünceyi tekrar vurgularız. “İlk olarak, bunun yanında, son olarak” gibi bağlantı ifadeleri konuşmamızı düzenli kılar. Prova yaparak süreyi ayarlarız.",
+     "points": [
+      "Konu ve amaç → bilgi toplama → plan → prova.",
+      "Bağlantı ifadeleri konuşmayı düzenler."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Bilgilendirici metin",
+     "meaning": "Okuru bir konuda bilgilendirmek amacıyla yazılan metin."
+    },
+    {
+     "term": "Önemli bilgi",
+     "meaning": "Metnin amacına hizmet eden temel bilgi."
+    },
+    {
+     "term": "Tartışma",
+     "meaning": "Farklı görüşlerin gerekçeleriyle karşılıklı ortaya konması."
+    },
+    {
+     "term": "Hazırlıklı konuşma",
+     "meaning": "Önceden plan yapılarak gerçekleştirilen konuşma."
+    },
+    {
+     "term": "Bağlantı ifadeleri",
+     "meaning": "Düşünceleri birbirine bağlayan sözler: ayrıca, ancak, sonuç olarak."
+    },
+    {
+     "term": "Gerekçe",
+     "meaning": "Bir görüşü destekleyen neden."
+    }
+   ],
+   "example": {
+    "question": "“Öğrenciler her gün en az bir saat hareket etmelidir.” görüşünü tartışmada savunacak bir konuşma planı hazırlayalım.",
+    "solution": "1. Görüş: Öğrenciler her gün en az bir saat hareket etmelidir. 2. Gerekçe: Hareket kasları ve kemikleri güçlendirir, dikkati artırır. 3. Kanıt/örnek: Teneffüste koşup oynayan öğrencilerin derse daha dinç döndüğünü gözlemleyebiliriz; sağlık kuruluşları da çocuklara günlük hareket önerir. 4. Sonuç: Bu yüzden her gün hareket için zaman ayırmalıyız."
+   },
+   "remember": [
+    "Bilgilendirici metinde başlık ve alt başlıklar yol gösterir.",
+    "Tartışmada görüşünü gerekçe ve kanıtla destekle.",
+    "Hazırlıklı konuşma giriş, gelişme ve sonuçtan oluşur.",
+    "Kişiyi değil, düşünceyi eleştir."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 1,
+   "intro": "Bu temada Türkçenin zenginliğini halk edebiyatının küçük türleri üzerinden keşfediyoruz. Mâni, türkü, ninni, tekerleme ve bilmece dilimizin canlı hazineleridir. Atasözü ile deyim arasındaki farkı ve okuma sürecimizi değerlendirmeyi öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Halk Edebiyatının Küçük Türleri",
+     "text": "Mâni, genellikle yedi heceli ve dört dizeden oluşan, birinci, ikinci ve dördüncü dizeleri uyaklı, üçüncü dizesi serbest olan halk şiiridir (aaxa). Türkü, halkın duygularını ezgiyle anlatan, söyleyeni çoğu zaman bilinmeyen şiirdir. Ninni, annelerin bebeklerini uyuturken söylediği ezgili sözlerdir. Tekerleme, ses benzerliklerine dayanan, eğlendirici ve çoğu zaman masalların başında söylenen sözlerdir. Bilmece ise bir varlığı dolaylı yoldan tanıtıp onu buldurmaya çalışan sözlerdir. Bu türlerin çoğu anonimdir, yani kim tarafından söylendiği bilinmez ve sözlü olarak kuşaktan kuşağa aktarılmıştır.",
+     "points": [
+      "Mâni: 7 heceli, 4 dize, aaxa uyak.",
+      "Anonim: Söyleyeni bilinmeyen.",
+      "Tekerleme masalların başında sık görülür."
+     ]
+    },
+    {
+     "title": "Atasözü ve Deyim",
+     "text": "Atasözleri, uzun deneyimlerden süzülmüş, genellikle öğüt veren ve bir yargı bildiren kalıplaşmış sözlerdir: “Sakla samanı, gelir zamanı.” Deyimler ise bir durumu, kavramı ya da davranışı çekici biçimde anlatan, genellikle mecaz anlamlı kalıp sözlerdir: “ağzı kulaklarına varmak” (çok sevinmek). Atasözleri çoğunlukla tam bir cümledir; deyimlerin çoğu ise mastar hâlinde (“-mek, -mak”) ya da cümle içinde bir öge olarak kullanılır. Her ikisinin de sözcükleri değiştirilemez; “Sakla samanı” yerine “Sakla otu” denemez.",
+     "points": [
+      "Atasözü: Öğüt verir, yargı bildirir.",
+      "Deyim: Durumu anlatır, çoğunlukla mecazdır.",
+      "İkisinde de sözcükler değiştirilmez."
+     ]
+    },
+    {
+     "title": "Okuma Sürecini Değerlendirme",
+     "text": "İyi bir okur, okurken kendini izler ve gerektiğinde stratejisini değiştirir; buna öz yansıtma ya da kendini uyarlama denir. Örneğin metni anlamadığımızı fark edersek geri dönüp yeniden okur, bilinmeyen sözcükleri bağlamdan tahmin eder ya da not alırız. Okumadan önce başlık ve görsellere bakarak tahmin yürütür, okuduktan sonra tahminimizi kontrol ederiz. Akıcı okumada doğru vurgu ve tonlama kullanırız. Okuduğumuz metnin anahtar kelimelerini belirleyerek söz varlığımızı geliştiririz.",
+     "points": [
+      "Anlamadığın yere geri dön.",
+      "Tahmin et, sonra kontrol et.",
+      "Yeni sözcükleri not al."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Mâni",
+     "meaning": "Genellikle yedi heceli, dört dizeli, aaxa uyaklı halk şiiri."
+    },
+    {
+     "term": "Türkü",
+     "meaning": "Halkın duygularını ezgiyle dile getiren, çoğunlukla anonim şiir."
+    },
+    {
+     "term": "Ninni",
+     "meaning": "Bebekleri uyutmak için söylenen ezgili sözler."
+    },
+    {
+     "term": "Tekerleme",
+     "meaning": "Ses benzerliklerine dayanan, eğlendirici kalıp sözler."
+    },
+    {
+     "term": "Bilmece",
+     "meaning": "Bir varlığı dolaylı anlatarak buldurmaya çalışan söz."
+    },
+    {
+     "term": "Atasözü",
+     "meaning": "Deneyime dayanan, öğüt veren kalıplaşmış söz."
+    },
+    {
+     "term": "Deyim",
+     "meaning": "Bir durumu çekici biçimde anlatan, genellikle mecaz anlamlı kalıp söz."
+    }
+   ],
+   "example": {
+    "question": "Şu sözlerin atasözü mü deyim mi olduğunu belirleyelim: a) “Damlaya damlaya göl olur.” b) “göz yummak” c) “Ağaç yaşken eğilir.”",
+    "solution": "1. a) Bir yargı bildiriyor ve öğüt veriyor (küçük birikimler büyür): atasözü. 2. b) Mastar hâlinde, bir davranışı anlatıyor (görmezden gelmek): deyim. 3. c) Tam bir yargı ve öğüt (eğitim küçük yaşta verilir): atasözü."
+   },
+   "remember": [
+    "Mâni genellikle aaxa uyaklıdır.",
+    "Halk edebiyatı ürünlerinin çoğu anonimdir.",
+    "Atasözü öğüt verir, deyim durumu anlatır.",
+    "Okurken kendini izle, gerekirse stratejini değiştir."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 2,
+   "intro": "Bu temada Millî Mücadele’yi ve bağımsızlık yolunda verilen emekleri anlatan metinler okuyoruz. Bağımsızlık bir milletin en değerli varlığıdır. Metinleri karşılaştırmayı, sınıflandırmayı ve özetlemeyi öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Bağımsızlık Yolu",
+     "text": "Birinci Dünya Savaşı’nın ardından vatanımızın pek çok bölgesi işgal edildi. Mustafa Kemal 19 Mayıs 1919’da Samsun’a çıkarak Millî Mücadele’yi başlattı. 23 Nisan 1920’de Ankara’da Türkiye Büyük Millet Meclisi açıldı. İstiklâl Marşı 12 Mart 1921’de Meclis’te kabul edildi. Büyük Taarruz sonunda 30 Ağustos 1922’de kazanılan zaferle işgal sona erdirildi ve 29 Ekim 1923’te Cumhuriyet ilan edildi. Bu metinleri okurken millî bilincin, azim ve kararlılığın bağımsızlığı nasıl getirdiğini fark ederiz.",
+     "points": [
+      "19 Mayıs 1919, 23 Nisan 1920, 12 Mart 1921, 30 Ağustos 1922, 29 Ekim 1923."
+     ]
+    },
+    {
+     "title": "Karşılaştırma ve Sınıflandırma",
+     "text": "Bir metni kendi içinde karşılaştırabiliriz: örneğin Millî Mücadele öncesi ve sonrası durumu. İki metni de birbiriyle karşılaştırabiliriz: aynı olayı anlatan bir anı ile bir şiiri ele alıp konu, anlatım ve duygu bakımından benzerlik ve farklılıklarını buluruz. Sınıflandırmada metindeki unsurları ortak özelliklerine göre gruplarız; örneğin kişileri cephedeki askerler, cepheye destek veren kadınlar ve Meclis üyeleri şeklinde ayırabiliriz. Bu beceriler metnin derin anlamını kavramamıza yardım eder.",
+     "points": [
+      "Metin içi karşılaştırma: önce / sonra.",
+      "Metinler arası karşılaştırma: iki farklı metin.",
+      "Sınıflandırma: ortak özelliğe göre gruplama."
+     ]
+    },
+    {
+     "title": "Özetleme ve Çıkarım",
+     "text": "Özet, metnin ana fikrini ve temel olaylarını kısa ve kendi cümlelerimizle anlatmaktır. İyi bir özet için önce metni dikkatle okur, anahtar kelimeleri belirleriz. Sonra her paragrafın ana düşüncesini bir cümleyle yazarız. Örnekleri, tekrarları ve ayrıntıları çıkarırız. Son olarak cümleleri bağlantı ifadeleriyle birleştiririz. Basit çıkarım, metindeki ipuçlarını birleştirmektir; üst düzey çıkarım ise metni ön bilgilerimizle ilişkilendirip yorumlamaktır. Hazırlıksız konuşmalarda da dili yaratıcı kullanıp uygun tepkiler veririz.",
+     "points": [
+      "Anahtar kelime → paragraf ana düşüncesi → birleştirme.",
+      "Özette ayrıntı ve örnek yoktur."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Millî Mücadele",
+     "meaning": "Türk milletinin işgallere karşı verdiği bağımsızlık savaşı."
+    },
+    {
+     "term": "Cumhuriyet",
+     "meaning": "Egemenliğin millete ait olduğu ve yöneticilerin seçimle belirlendiği yönetim biçimi."
+    },
+    {
+     "term": "Bağımsızlık",
+     "meaning": "Bir milletin kendi kararlarını başka bir güce bağlı olmadan verebilmesi."
+    },
+    {
+     "term": "Millî bilinç",
+     "meaning": "Bir milletin üyesi olduğunun farkında olma ve ortak değerlere sahip çıkma."
+    },
+    {
+     "term": "Özetleme",
+     "meaning": "Metnin özünü kısa ve kendi ifadeleriyle anlatma."
+    },
+    {
+     "term": "Sınıflandırma",
+     "meaning": "Unsurları ortak özelliklerine göre gruplara ayırma."
+    },
+    {
+     "term": "Derin anlam",
+     "meaning": "Metinde açıkça söylenmeyip çıkarımla bulunan anlam."
+    }
+   ],
+   "example": {
+    "question": "Şu paragrafı bir cümleyle özetleyelim: “Kadınlar da Millî Mücadele’de büyük görevler üstlendi. Kağnılarla cepheye cephane taşıdılar. Yaralı askerlere baktılar, cephe için giysi diktiler. Bazıları ise bizzat savaştı.”",
+    "solution": "1. Anahtar kelimeler: kadınlar, Millî Mücadele, görev. 2. Örnekleri (kağnı, giysi dikme) çıkarırız. 3. Ana düşünceyi kendi cümlemizle yazarız: “Kadınlar Millî Mücadele’de cephane taşımaktan yaralılara bakmaya kadar pek çok görev üstlenerek bağımsızlığa büyük katkı sağladı.”"
+   },
+   "remember": [
+    "Millî Mücadele 19 Mayıs 1919’da başladı, Cumhuriyet 29 Ekim 1923’te ilan edildi.",
+    "Özet kendi cümlelerimizle yazılır.",
+    "Karşılaştırmada benzerlik ve farklılık birlikte aranır.",
+    "Üst düzey çıkarım metin ile ön bilgiyi birleştirir."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 3,
+   "intro": "Bu temada farklı ülkelerin kültürlerini, mutfaklarını, giyimlerini ve dansları tanıyoruz. Farklılıkları anlamak empati ve açık fikirlilik kazandırır. Düşünceyi geliştirme yollarını, çoklu ortam ögelerini ve şiirin biçim özelliklerini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Farklı Kültürler ve Empati",
+     "text": "Dünyada pek çok farklı kültür vardır. Her toplumun kendine özgü görgü kuralları, mutfak kültürü, giyim kuşamı, el sanatları ve halk dansları bulunur. Örneğin bazı Asya ülkelerinde yemek çubukla yenir, bazı ülkelerde selamlaşırken eğilinir. Farklı kültürleri tanırken onları kendi kültürümüzle karşılaştırır, önyargısız ve meraklı olmaya çalışırız. Empati, kendimizi başkasının yerine koyarak onun duygu ve düşüncelerini anlamaktır. Açık fikirlilik ise farklı düşüncelere kapımızı kapatmamaktır.",
+     "points": [
+      "Empati: Kendini başkasının yerine koymak.",
+      "Farklılıklara saygı göstermek."
+     ]
+    },
+    {
+     "title": "Düşünceyi Geliştirme Yolları",
+     "text": "Yazarlar düşüncelerini açıklamak ve okuru ikna etmek için çeşitli yollara başvurur. Tanımlama, bir kavramın ne olduğunu açıklamaktır: “Halk dansı, bir topluluğa özgü geleneksel danstır.” Örneklendirme, düşünceyi örnekle somutlaştırmaktır. Karşılaştırma, iki şeyin benzer ve farklı yönlerini göstermektir. Benzetme, bir şeyi ortak özellik bakımından başka bir şeye benzeterek anlatmaktır. Tanık gösterme, bir uzmanın ya da ünlü birinin sözüne başvurmaktır. Sayısal verilerden yararlanma, düşünceyi istatistik ve rakamlarla desteklemektir.",
+     "points": [
+      "Tanımlama, örneklendirme, karşılaştırma.",
+      "Benzetme, tanık gösterme, sayısal veri."
+     ]
+    },
+    {
+     "title": "Çoklu Ortam Ögeleri ve Şiir",
+     "text": "Çoklu ortam ögeleri; fotoğraf, harita, video, ses kaydı, tablo ve grafik gibi metni destekleyen unsurlardır. Bir ülkeyi tanıtan sunumda harita ve fotoğraf kullanmak anlatımı güçlendirir. Bu ögeleri yorumlarken metinle ilişkisini kurarız. Şiir okurken biçim özelliklerine dikkat ederiz: Dize sayısı, kıta yapısı, uyak (kafiye) ve redif. Dize sonlarındaki ses benzerliği uyaktır; uyaktan sonra gelen aynı görevdeki ek ya da sözcük rediftir. Yaratıcı yazılarımızda başka bir kültürden bir çocuğun gözünden hikâye yazabiliriz.",
+     "points": [
+      "Çoklu ortam: görsel, ses, video, grafik.",
+      "Uyak: ses benzerliği; redif: aynı görevli ek ya da sözcük."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Görgü kuralları",
+     "meaning": "Toplum içinde uyulması beklenen davranış kuralları."
+    },
+    {
+     "term": "Mutfak kültürü",
+     "meaning": "Bir toplumun yemek yapma ve yeme alışkanlıkları."
+    },
+    {
+     "term": "Empati",
+     "meaning": "Kendini başkasının yerine koyarak onu anlama."
+    },
+    {
+     "term": "Açık fikirlilik",
+     "meaning": "Farklı düşünce ve yaşayışlara önyargısız yaklaşma."
+    },
+    {
+     "term": "Düşünceyi geliştirme yolları",
+     "meaning": "Tanımlama, örneklendirme, karşılaştırma gibi anlatım teknikleri."
+    },
+    {
+     "term": "Çoklu ortam ögeleri",
+     "meaning": "Metni destekleyen görsel, işitsel ve dijital unsurlar."
+    },
+    {
+     "term": "Çıkarım",
+     "meaning": "Verilen bilgilerden yeni bir sonuca ulaşma."
+    }
+   ],
+   "example": {
+    "question": "“Japonya’da selamlaşırken eğilmek yaygındır; bizde ise genellikle tokalaşılır.” cümlesinde hangi düşünceyi geliştirme yolu kullanılmıştır?",
+    "solution": "1. Cümlede iki ülkenin selamlaşma biçimi ele alınıyor. 2. “ise” sözcüğüyle aralarındaki fark gösteriliyor. 3. İki şeyin farklı yönleri ortaya konduğu için kullanılan yol karşılaştırmadır."
+   },
+   "remember": [
+    "Farklı kültürlere saygı ve merakla yaklaş.",
+    "Tanık göstermede başkasının sözüne başvurulur.",
+    "Sayısal veriler düşünceyi inandırıcı kılar.",
+    "Çoklu ortam ögeleri metni destekler."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 4,
+   "intro": "Bu temada iletişimi ve kitle iletişim araçlarını ele alıyoruz. Gazete, televizyon, radyo ve internet bilgiyi geniş kitlelere ulaştırır. Bilgilendirici metin yapılarını, geçiş ve bağlantı ifadelerini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "İletişim ve Kitle İletişim Araçları",
+     "text": "İletişimde bir gönderici, bir alıcı, bir ileti (mesaj) ve iletinin taşındığı bir kanal bulunur. Etkili iletişimde açık ve anlaşılır konuşur, karşımızı dinler, güven veren bir tutum sergileriz. Kitle iletişim araçları; gazete, dergi, radyo, televizyon ve internet gibi bilgiyi aynı anda çok sayıda kişiye ulaştıran araçlardır. Bu araçlardan gelen bilgileri sorgulayarak okuruz: Kaynak güvenilir mi? Bilgi güncel mi? Haber ile yorum birbirinden ayrılmış mı? Sorumluluk sahibi bir okur, doğrulamadığı bilgiyi paylaşmaz.",
+     "points": [
+      "Gönderici, alıcı, ileti, kanal.",
+      "Bilgiyi paylaşmadan önce doğrula."
+     ]
+    },
+    {
+     "title": "Bilgilendirici Metin Yapıları",
+     "text": "Bilgilendirici metinler farklı yapılarla düzenlenir. Tanımlama yapısında bir kavram açıklanır. Sıralama yapısında bilgiler zaman ya da işlem sırasına göre verilir (“önce, sonra, ardından”). Karşılaştırma yapısında benzerlik ve farklılıklar gösterilir (“benzer şekilde, buna karşın”). Neden-sonuç yapısında bir olayın nedenleri ve sonuçları açıklanır (“bu nedenle, bunun sonucunda”). Problem-çözüm yapısında bir sorun ve çözüm önerileri sunulur. Metnin yapısını fark etmek önemli bilgileri bulmamızı ve özetlememizi kolaylaştırır.",
+     "points": [
+      "Tanımlama, sıralama, karşılaştırma.",
+      "Neden-sonuç, problem-çözüm."
+     ]
+    },
+    {
+     "title": "Geçiş ve Bağlantı İfadeleri",
+     "text": "Geçiş ve bağlantı ifadeleri cümleler ve paragraflar arasında anlam köprüsü kurar. Ekleme için “ayrıca, bunun yanı sıra, üstelik”; karşıtlık için “ancak, fakat, buna karşın”; örnekleme için “örneğin, mesela”; neden-sonuç için “bu nedenle, bu yüzden”; sıralama için “öncelikle, ikinci olarak, son olarak”; sonuç için “sonuç olarak, kısacası” kullanılır. Hazırlıklı konuşmalarda ve yazılarımızda bu ifadeleri yerinde kullanırsak anlatımımız akıcı ve düzenli olur. Yazarken yazım kurallarına ve noktalama işaretlerine de özen gösteririz.",
+     "points": [
+      "Ekleme: ayrıca",
+      "Karşıtlık: ancak",
+      "Sonuç: bu nedenle, kısacası"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "İletişim",
+     "meaning": "Bilgi, duygu ve düşüncelerin karşılıklı aktarılması."
+    },
+    {
+     "term": "Kitle iletişim araçları",
+     "meaning": "Bilgiyi çok sayıda kişiye aynı anda ulaştıran araçlar."
+    },
+    {
+     "term": "Metin yapıları",
+     "meaning": "Bilgilerin düzenlenme biçimleri: tanımlama, sıralama, neden-sonuç vb."
+    },
+    {
+     "term": "Geçiş ve bağlantı ifadeleri",
+     "meaning": "Cümle ve paragrafları anlamca bağlayan sözler."
+    },
+    {
+     "term": "Önemli bilgi",
+     "meaning": "Metnin amacına doğrudan hizmet eden temel bilgi."
+    },
+    {
+     "term": "Etkili iletişim",
+     "meaning": "Mesajın doğru ve anlaşılır biçimde karşıya ulaştığı iletişim."
+    }
+   ],
+   "example": {
+    "question": "Boşlukları uygun bağlantı ifadeleriyle dolduralım: “İnternet bilgiye hızlı ulaşmamızı sağlar. (…) her bilgi doğru değildir. (…) kaynakları kontrol etmeliyiz.”",
+    "solution": "1. İkinci cümle birinci cümleye karşıt bir düşünce getiriyor: “Ancak”. 2. Üçüncü cümle, ikinci cümlenin sonucunu bildiriyor: “Bu nedenle”. 3. Sonuç: “İnternet bilgiye hızlı ulaşmamızı sağlar. Ancak her bilgi doğru değildir. Bu nedenle kaynakları kontrol etmeliyiz.”"
+   },
+   "remember": [
+    "İletişimin ögeleri: gönderici, alıcı, ileti, kanal.",
+    "Metnin yapısını tanımak önemli bilgiyi bulmayı kolaylaştırır.",
+    "Bağlantı ifadeleri anlatımı akıcı yapar.",
+    "Doğrulamadığın bilgiyi paylaşma."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 5,
+   "intro": "Bu temada bilim ve teknolojinin dünü, bugünü ve geleceği üzerine metinler okuyoruz. Bilim insanlarının merakı ve kararlılığı yeni buluşların kaynağıdır. Söz sanatlarını, açık ve örtük anlatımı ve eleştirel bakmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Bilim, Teknoloji ve Eleştirel Düşünme",
+     "text": "Bilim, gözlem, deney ve akıl yürütmeyle doğru bilgiye ulaşma çabasıdır. Teknoloji, bilimsel bilginin günlük hayata uygulanmasıdır. Yapay zekâ, bilgisayarların öğrenme ve karar verme gibi insana özgü bazı işleri yapabilmesini sağlayan bir teknolojidir. Bilim insanı merak eder, şüphe duyar, sorular sorar ve sonuçları kanıtla sınar. Bir metni okurken biz de eleştirel bakarız: Bilgi kanıta dayanıyor mu? Kaynak güvenilir mi? Yazar yalnızca bir tarafı mı gösteriyor? Analitik düşünme, bir konuyu parçalarına ayırarak incelemektir.",
+     "points": [
+      "Şüphe duymak bilimin başlangıcıdır.",
+      "Eleştirel okur kanıtı sorgular."
+     ]
+    },
+    {
+     "title": "Söz Sanatları",
+     "text": "Söz sanatları anlatımı etkileyici kılar. Benzetme (teşbih), bir varlığı ortak bir özellik bakımından daha güçlü bir varlığa benzetmektir: “Bilgisayar, insan beyni gibi hızlı düşünüyor.” Kişileştirme (teşhis), insan dışındaki varlıklara insan özellikleri vermektir: “Robot, sabırla sırasını bekledi.” Konuşturma (intak), insan dışındaki varlıkları konuşturmaktır: “Akıllı saat bana ‘Biraz yürü!’ dedi.” Abartma (mübalağa), bir durumu olduğundan çok büyük ya da küçük göstermektir: “Bu soruyu çözmek için bin kere düşündüm.” Konuşturma sanatı olan yerde kişileştirme de vardır.",
+     "points": [
+      "Benzetme: gibi, kadar.",
+      "Kişileştirme: insan özelliği verme.",
+      "Konuşturma: insan dışı varlığı konuşturma.",
+      "Abartma: olduğundan büyük/küçük gösterme."
+     ]
+    },
+    {
+     "title": "Açık-Örtük İfade ve Hikâye Unsurları",
+     "text": "Açık ifade, düşüncenin doğrudan söylenmesi; örtük ifade, dolaylı biçimde sezdirilmesidir. Bilim kurgu hikâyelerinde yazar geleceğe dair kaygısını çoğu zaman örtük olarak verir. Öyküleyici metinlerde olay örgüsünü, kişileri, mekânı ve zamanı çözümleriz. Olay örgüsü, olayların birbirine bağlı sıralanışıdır. Tartışma ve sözlü sunumlarda teknolojinin yararlarını ve zararlarını kanıtlarla ortaya koyarız. Sunumda görselleri ve tahminlerimizi kullanır, konuşmamızı geçiş ifadeleriyle düzenleriz.",
+     "points": [
+      "Olay örgüsü: Olayların bağlantılı sıralanışı.",
+      "Örtük anlam ipuçlarından bulunur."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Bilim",
+     "meaning": "Gözlem, deney ve akıl yürütmeyle doğru bilgiye ulaşma süreci."
+    },
+    {
+     "term": "Teknoloji",
+     "meaning": "Bilimsel bilginin araç ve yöntemlere dönüştürülmesi."
+    },
+    {
+     "term": "Yapay zekâ",
+     "meaning": "Bilgisayarların öğrenme ve karar verme gibi işleri yapabilmesini sağlayan teknoloji."
+    },
+    {
+     "term": "Söz sanatları",
+     "meaning": "Anlatımı güçlendiren benzetme, kişileştirme, konuşturma, abartma gibi teknikler."
+    },
+    {
+     "term": "Açık ve örtük ifade",
+     "meaning": "Doğrudan söylenen ve dolaylı sezdirilen anlatımlar."
+    },
+    {
+     "term": "Eleştirel bakma",
+     "meaning": "Bilgiyi kanıt ve mantık açısından sorgulayarak değerlendirme."
+    },
+    {
+     "term": "Analitik düşünme",
+     "meaning": "Bir konuyu parçalarına ayırıp ilişkilerini inceleme."
+    }
+   ],
+   "example": {
+    "question": "“Eski telefonum çekmecede, ‘Beni de unutmayın.’ diye fısıldıyordu.” cümlesindeki söz sanatlarını bulalım.",
+    "solution": "1. Telefon insan değildir ama konuşuyor: konuşturma (intak). 2. Ona “unutulmaktan korkma” gibi bir insan duygusu verilmiş: kişileştirme (teşhis). 3. Konuşturmanın bulunduğu yerde kişileştirme de bulunur; cümlede iki sanat birlikte vardır."
+   },
+   "remember": [
+    "Bilim şüphe ve merakla başlar.",
+    "Konuşturma olan yerde kişileştirme de vardır.",
+    "Benzetmede ortak özellik bulunur.",
+    "Eleştirel okur kaynağı ve kanıtı sorgular."
+   ]
+  },
+  {
+   "grade": 6,
+   "order": 6,
+   "intro": "Bu temada bilim, sanat, spor ve girişimcilik alanlarında öne çıkan lider ruhlu insanları tanıyoruz. Liderlik; sorumluluk almak, plan yapmak ve sorunlara çözüm üretmektir. Değerlendirme, eleştirme ve problem çözme yazıları yazmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Lider Ruhlu İnsanlar",
+     "text": "Liderler hedef belirler, planlı çalışır ve çevresindekileri olumlu yönde etkiler. Zaman yönetimi, işleri önem sırasına koyarak zamanı verimli kullanmaktır. Finansal okuryazarlık, parayı bilinçli kazanma, harcama ve biriktirme becerisidir; örneğin harçlığın bir kısmını düzenli biriktirmek bu becerinin bir parçasıdır. Girişimcilik, bir ihtiyacı fark edip ona yeni bir çözüm, ürün ya da hizmet geliştirmektir. Farklı meslekleri tanımak ve bir alanda uzmanlaşmak da hedeflerimize ulaşmamızı kolaylaştırır.",
+     "points": [
+      "Zaman yönetimi: Önceliklendirme.",
+      "Finansal okuryazarlık: Bilinçli harcama ve birikim.",
+      "Girişimcilik: İhtiyaca yaratıcı çözüm."
+     ]
+    },
+    {
+     "title": "Değerlendirme ve Eleştirme",
+     "text": "Değerlendirme, bir metnin ya da ürünün güçlü ve zayıf yönlerini belirli ölçütlere göre ortaya koymaktır. Eleştirme ise bu değerlendirmeyi gerekçelendirerek kendi görüşümüzü açıklamaktır. Yapıcı eleştiri kişiye değil esere yöneliktir, kanıta dayanır ve geliştirici önerilerle biter. Örneğin bir biyografiyi eleştirirken “Kitap kahramanın başarılarını iyi anlatmış ancak zorluklarına az yer vermiş; bu bölümler genişletilse okur daha çok ilham alabilirdi.” diyebiliriz. Değerlendirmemizi sözlü ve yazılı olarak açık bir dille ifade ederiz.",
+     "points": [
+      "Ölçüt belirle.",
+      "Güçlü ve zayıf yönleri yaz.",
+      "Gerekçe ve öneri ekle."
+     ]
+    },
+    {
+     "title": "Problem Çözme Yazısı",
+     "text": "Problem çözme odaklı yazı ve konuşmalarda önce sorunu açıkça tanımlarız. Ardından sorunun nedenlerini belirleriz. Sonra birden fazla çözüm önerisi geliştirip her birinin olası sonuçlarını düşünürüz. En uygun çözümü gerekçesiyle seçer ve uygulama adımlarını yazarız. Bu süreçte yaratıcı ve özgün düşünmek, farklı bakış açılarına açık olmak önemlidir. Okuduğumuz metindeki bir soruna da benzer şekilde çözüm üretebiliriz.",
+     "points": [
+      "Sorun → nedenler → çözüm önerileri → en uygun çözüm → uygulama."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Girişimcilik",
+     "meaning": "Bir ihtiyacı fark edip yeni bir ürün ya da çözüm geliştirme."
+    },
+    {
+     "term": "Finansal okuryazarlık",
+     "meaning": "Parayı bilinçli kazanma, harcama ve biriktirme becerisi."
+    },
+    {
+     "term": "Zaman yönetimi",
+     "meaning": "Zamanı planlayarak ve önceliklendirerek verimli kullanma."
+    },
+    {
+     "term": "Değerlendirme",
+     "meaning": "Bir şeyin niteliğini ölçütlere göre ortaya koyma."
+    },
+    {
+     "term": "Eleştirme",
+     "meaning": "Bir eseri gerekçelere dayanarak olumlu ve olumsuz yönleriyle inceleme."
+    },
+    {
+     "term": "Probleme çözüm üretebilme",
+     "meaning": "Bir sorunu tanımlayıp uygulanabilir çözüm geliştirme."
+    },
+    {
+     "term": "Uzmanlaşma",
+     "meaning": "Bir alanda derin bilgi ve beceri kazanma."
+    }
+   ],
+   "example": {
+    "question": "“Sınıf kitaplığındaki kitaplar zamanında geri getirilmiyor.” sorununa problem çözme planı hazırlayalım.",
+    "solution": "1. Sorun: Kitaplar zamanında iade edilmiyor. 2. Nedenler: İade tarihleri unutuluyor, takip eden kimse yok. 3. Çözüm önerileri: İade tarihini kitabın içine not etmek; haftalık kitaplık sorumlusu seçmek; tahtaya iade çizelgesi asmak. 4. En uygun çözüm: Sorumlu seçimi ve çizelge birlikte uygulanır, çünkü hem hatırlatma hem takip sağlar."
+   },
+   "remember": [
+    "Lider sorumluluk alır ve plan yapar.",
+    "Yapıcı eleştiri kişiye değil esere yöneliktir.",
+    "Eleştiri gerekçe ve öneri içerir.",
+    "Problem çözmede önce sorunu ve nedenlerini belirle."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 1,
+   "intro": "Bu temada hayat boyu gelişimi; motivasyon, zaman yönetimi, karar verme ve öz eleştiri gibi kavramlar üzerinden ele alıyoruz. Öğrenme yalnızca okulda değil, hayatın her döneminde devam eder. Okuma ve yazma süreçlerimizi planlamayı ve kendimizi değerlendirmeyi öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Kendini Geliştirmek",
+     "text": "Motivasyon, bir işi yapmak için içimizde duyduğumuz istek ve güçtür. Öz güven, kendi yeteneklerine güvenmek; öz yeterlilik ise belirli bir işi başarabileceğine inanmaktır. Öz eleştiri, kendi davranışlarımızı dürüstçe değerlendirip hatalarımızdan ders çıkarmaktır. Başarı, düzenli çalışma, odaklanma ve iyi bir zaman planıyla gelir. Karar verirken seçenekleri, sonuçlarını ve değerlerimizi birlikte düşünürüz. Cömertlik, merhamet ve vefa gibi değerler de kişisel gelişimimizin bir parçasıdır; çünkü gelişim yalnızca bilgide değil, karakterde de olur.",
+     "points": [
+      "Öz güven: Kendine güvenmek.",
+      "Öz yeterlilik: Başarabileceğine inanmak.",
+      "Öz eleştiri: Kendini dürüstçe değerlendirmek."
+     ]
+    },
+    {
+     "title": "Okuma Stratejileri ve Öz Yansıtma",
+     "text": "Okumaya başlamadan önce amacımızı belirler ve uygun bir strateji seçeriz. Göz gezdirme, metnin genel yapısını hızla görmektir. Not alma, önemli bilgileri kısaca yazmaktır. Soru sorarak okuma, metne “kim, ne, neden, nasıl” soruları yöneltmektir. Ön bilgilerimizi hatırlayıp başlık ve görsellerden tahmin yürütürüz. Okurken anlamadığımız yeri fark edince geri döner, yavaşlar ya da sözlüğe başvururuz. Okuma bitince kendimize sorarız: Amacıma ulaştım mı? Hangi strateji işe yaradı? Bu sorgulamaya öz yansıtma denir.",
+     "points": [
+      "Göz gezdirme, not alma, soru sorma.",
+      "Okuma sonrası: Ne öğrendim? Neyi değiştirmeliyim?"
+     ]
+    },
+    {
+     "title": "Yazma Süreci ve Metnin Bölümleri",
+     "text": "Yazma bir süreçtir. Planlama aşamasında konu, amaç ve okuru belirler, düşüncelerimizi taslak bir plana dökeriz. Taslak yazma aşamasında planımıza uygun olarak giriş, gelişme ve sonuç bölümlerini yazarız. Girişte konuyu tanıtır, gelişmede düşüncelerimizi örneklerle açıklar, sonuçta ana düşünceyi toparlarız. Gözden geçirme aşamasında anlam bütünlüğünü, yazım ve noktalama kurallarını kontrol ederiz. Söz varlığımızı zenginleştirmek için yeni öğrendiğimiz sözcükleri kullanır, gereksiz tekrarlardan kaçınırız.",
+     "points": [
+      "Planlama → taslak → gözden geçirme → son hâl.",
+      "Giriş, gelişme, sonuç."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Motivasyon",
+     "meaning": "Bir işi yapmak için duyulan istek ve güç."
+    },
+    {
+     "term": "Zaman yönetimi",
+     "meaning": "Zamanı planlı ve verimli kullanma."
+    },
+    {
+     "term": "Öz eleştiri",
+     "meaning": "Kişinin kendi davranışlarını dürüstçe değerlendirmesi."
+    },
+    {
+     "term": "Kendine güvenme (öz güven)",
+     "meaning": "Kendi yeteneklerine ve kararlarına güvenme."
+    },
+    {
+     "term": "Kendine inanma (öz yeterlilik)",
+     "meaning": "Belirli bir işi başarabileceğine inanma."
+    },
+    {
+     "term": "Ön bilgi",
+     "meaning": "Bir konu hakkında önceden sahip olunan bilgi."
+    },
+    {
+     "term": "Yansıtma",
+     "meaning": "Kendi öğrenme sürecini gözden geçirip değerlendirme."
+    }
+   ],
+   "example": {
+    "question": "“Hayat Boyu Öğrenme” başlıklı bir metni okumadan önce hangi adımları izleriz?",
+    "solution": "1. Amacı belirleriz: Hayat boyu öğrenmenin ne olduğunu öğrenmek. 2. Ön bilgiyi hatırlarız: Büyüklerimizin yeni beceriler öğrendiğini biliyoruz. 3. Tahmin yürütürüz: Metin, öğrenmenin yaşla sınırlı olmadığını anlatıyor olabilir. 4. Strateji seçeriz: Göz gezdirip alt başlıklara bakar, okurken anahtar kelimeleri not alırız."
+   },
+   "remember": [
+    "Öz güven ve öz yeterlilik başarıyı destekler.",
+    "Okuma amacına göre strateji seç.",
+    "Yazma süreci planla başlar, gözden geçirmeyle biter.",
+    "Öz yansıtma her etkinlikten sonra yapılır."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 2,
+   "intro": "Bu temada Millî Mücadele dönemini, kahramanlık ve bağımsızlık bilinci üzerinden okuyoruz. Ay yıldızlı bayrağımız uğruna verilen mücadele bizim ortak hafızamızdır. İkna etme tekniklerini, medya içeriklerini değerlendirmeyi ve bilgilendirici metinde önemli bilgiyi bulmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Bir Hilal Uğruna",
+     "text": "Çanakkale Savaşları 1915 yılında yapıldı. 18 Mart 1915’te düşman donanması Boğaz’ı geçemedi; kara savaşlarında da Mustafa Kemal’in komutasındaki birlikler düşmanı durdurdu. Bu direniş daha sonra Millî Mücadele’nin manevi temelini oluşturdu. 19 Mayıs 1919’da Samsun’da başlayan mücadele, millî egemenliğe dayanan TBMM’nin önderliğinde 30 Ağustos 1922’deki Büyük Zafer ile sonuçlandı. Bu dönemi anlatan metinlerde azim, kararlılık, sorumluluk ve bağımsızlık değerlerinin nasıl öne çıktığını görürüz.",
+     "points": [
+      "18 Mart 1915: Çanakkale Deniz Zaferi.",
+      "30 Ağustos 1922: Büyük Zafer."
+     ]
+    },
+    {
+     "title": "İkna Etme Teknikleri",
+     "text": "İkna, okuru ya da dinleyiciyi bir düşünceye inandırma çabasıdır. Yazar ve konuşmacılar çeşitli tekniklere başvurur: Kanıt ve veri sunma (istatistik, belge), uzman ya da tanık görüşüne başvurma, örnek verme, duygulara seslenme, karşı görüşü çürütme ve önemli düşünceyi tekrar etme. Bir metni okurken hangi tekniğin kullanıldığını çözümleriz ve iknanın kanıta mı yoksa yalnızca duygulara mı dayandığını sorgularız. Sağlam bir ikna, duyguyu kanıtla dengeler.",
+     "points": [
+      "Kanıt / veri",
+      "Uzman görüşü",
+      "Duygulara seslenme",
+      "Karşı görüşü çürütme"
+     ]
+    },
+    {
+     "title": "Medya İçeriği ve Önemli Bilgi",
+     "text": "Haber, belgesel, reklam ve sosyal medya paylaşımları birer medya içeriğidir. Bu içerikleri değerlendirirken şunları sorarız: İçeriği kim, hangi amaçla hazırlamış? Bilgiler kaynak gösteriyor mu? Görseller gerçek mi, düzenlenmiş mi? Bilgilendirici metinlerde önemli bilgiyi bulmak için metnin yapısına (tanımlama, sıralama, neden-sonuç) ve anahtar kelimelere bakarız. Görsellerle iletilen anlamı da metinle ilişkilendiririz. Hazırlıksız konuşmalarda sesimizi uygun kullanır, düşüncelerimizi sınıflandırarak düzenli aktarırız.",
+     "points": [
+      "Kim hazırladı, amacı ne?",
+      "Kaynak var mı?",
+      "Görsel güvenilir mi?"
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Millî egemenlik",
+     "meaning": "Yönetme yetkisinin millete ait olması."
+    },
+    {
+     "term": "Kahramanlık",
+     "meaning": "Cesaret ve fedakârlıkla büyük işler başarma."
+    },
+    {
+     "term": "İkna etme teknikleri",
+     "meaning": "Bir düşünceye inandırmak için kullanılan yöntemler."
+    },
+    {
+     "term": "Medya içerikleri",
+     "meaning": "Haber, reklam, belgesel, sosyal medya paylaşımı gibi yayınlar."
+    },
+    {
+     "term": "Metin yapıları",
+     "meaning": "Bilgilerin tanımlama, sıralama, neden-sonuç gibi biçimlerde düzenlenmesi."
+    },
+    {
+     "term": "Çıkarım",
+     "meaning": "Verilerden yeni bir sonuca ulaşma."
+    },
+    {
+     "term": "Bağımsızlık",
+     "meaning": "Bir milletin kendi geleceğini başka bir güce bağlı olmadan belirlemesi."
+    }
+   ],
+   "example": {
+    "question": "“Uzmanlara göre düzenli okuyan öğrencilerin kelime dağarcığı daha geniştir. Siz de geleceğinizi düşünüyorsanız bugün bir kitap açın!” metninde hangi ikna teknikleri kullanılmıştır?",
+    "solution": "1. “Uzmanlara göre” ifadesi bir otoriteye dayanıyor: uzman görüşüne başvurma. 2. “Geleceğinizi düşünüyorsanız” ifadesi okurun kaygı ve isteklerine sesleniyor: duygulara seslenme. 3. Son cümle doğrudan eyleme çağırıyor: harekete geçirme çağrısı."
+   },
+   "remember": [
+    "Çanakkale direnişi Millî Mücadele’ye güç verdi.",
+    "İkna kanıtla güçlenir.",
+    "Medya içeriğinde kaynak ve amaç sorgulanır.",
+    "Önemli bilgi metin yapısından ve anahtar kelimelerden bulunur."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 3,
+   "intro": "Bu temada iletişim ortamlarını, nezaket ve görgü kurallarını ele alıyoruz. Doğru iletişim empati ve güven üzerine kurulur. Şiirin biçim özelliklerini, söz sanatlarını ve beden dilini öğreniyoruz.",
+   "sections": [
+    {
+     "title": "İletişim Ortamları ve Nezaket",
+     "text": "İletişim yüz yüze, telefonla, mektupla ya da dijital ortamlarda kurulabilir. Her ortamın kendine özgü kuralları vardır. Yüz yüze iletişimde göz teması, ses tonu ve beden dili önemlidir. Dijital ortamda büyük harflerle yazmak bağırmak gibi algılanabilir; mesajlarımızı kısa, açık ve kibar yazarız. Nezaket ve görgü kuralları; selamlaşmak, teşekkür etmek, sözü kesmemek ve özel hayata saygı göstermektir. Empati kurarak karşımızdakinin duygularını anlamaya çalışırız; bu da güveni artırır.",
+     "points": [
+      "Her iletişim ortamının kuralı farklıdır.",
+      "Empati güveni artırır."
+     ]
+    },
+    {
+     "title": "Şiirin Biçim Özellikleri",
+     "text": "Şiirde dize (mısra), kıta (bent), uyak (kafiye) ve redif temel biçim ögeleridir. Uyak, dize sonlarındaki anlamları ve görevleri farklı sözcüklerdeki ses benzerliğidir. Tek ses benzerliğine yarım uyak, iki ses benzerliğine tam uyak, ikiden fazla ses benzerliğine zengin uyak denir. Redif, dize sonlarında tekrarlanan aynı görevdeki ek, sözcük ya da sözcük gruplarıdır. Redif bulunurken dize sonundan geriye doğru gidilir; önce redif ayrılır, kalan ses benzerliği uyaktır. Şiirin ölçüsü (hece sayısı) ve kıta yapısı da biçim özelliklerindendir.",
+     "points": [
+      "Yarım uyak: 1 ses",
+      "Tam uyak: 2 ses",
+      "Zengin uyak: 2’den fazla ses",
+      "Redif: Aynı görevli ek ya da sözcük"
+     ]
+    },
+    {
+     "title": "Söz Sanatları ve Beden Dili",
+     "text": "Benzetme, kişileştirme, konuşturma ve abartma şiire ve düzyazıya canlılık katar. Bir şiiri çözümlerken bu sanatların hangi duyguyu güçlendirdiğini sorarız. Konuşmalarımızda beden dilini ve mekânı etkili kullanırız: Dik duruş güven verir, el hareketleri anlatımı destekler, dinleyicilere dönerek konuşmak ilgiyi artırır. Tartışma, özetleme ve değerlendirme yaparken düşünceyi geliştirme yollarından yararlanırız. Bir konuşmayı eleştirirken ikna tekniklerinin yerinde kullanılıp kullanılmadığına da dikkat ederiz.",
+     "points": [
+      "Beden dili sözsüz iletişimdir.",
+      "Söz sanatı duyguyu güçlendirir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "İletişim ortamları",
+     "meaning": "İletişimin gerçekleştiği yüz yüze, yazılı ya da dijital ortamlar."
+    },
+    {
+     "term": "Nezaket ve görgü kuralları",
+     "meaning": "Toplum içinde kibar ve saygılı davranma kuralları."
+    },
+    {
+     "term": "Uyak (kafiye)",
+     "meaning": "Dize sonlarındaki farklı anlamlı sözcüklerde görülen ses benzerliği."
+    },
+    {
+     "term": "Redif",
+     "meaning": "Dize sonlarında tekrarlanan aynı görevli ek ya da sözcük."
+    },
+    {
+     "term": "Söz sanatları",
+     "meaning": "Anlatımı güçlendiren benzetme, kişileştirme, abartma gibi teknikler."
+    },
+    {
+     "term": "Beden dili",
+     "meaning": "Jest, mimik, duruş ve hareketlerle yapılan sözsüz iletişim."
+    },
+    {
+     "term": "Empati",
+     "meaning": "Kendini başkasının yerine koyarak onu anlama."
+    }
+   ],
+   "example": {
+    "question": "“Bahçede açtı güller / Dallarda öter bülbüller” dizelerinde redif ve uyağı bulalım.",
+    "solution": "1. Dize sonları: “güller” ve “bülbüller”. 2. Sondan geriye gideriz: İkisinde de çoğul eki “-ler” var ve aynı görevdedir; bu rediftir. 3. Rediften önce kalan benzerlik: “gül” ve “bülbül” sözcüklerindeki “ül” sesleri. 4. İki ses benzerliği olduğu için bu tam uyaktır."
+   },
+   "remember": [
+    "Her iletişim ortamının kendi kuralları vardır.",
+    "Redif bulunurken dize sonundan geriye gidilir.",
+    "Yarım uyak tek, tam uyak iki, zengin uyak ikiden fazla sestir.",
+    "Beden dili konuşmayı destekler."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 4,
+   "intro": "Bu temada klasik ve geleneksel Türk sanatlarını tanıyoruz. Mimari, hat, ebru, çini ve minyatür gibi sanatlar kültürümüzün estetik yüzüdür. Metinleri karşılaştırmayı, yorumlamayı ve eleştirmeyi öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Türk Sanatları",
+     "text": "Hat, Arap harfleriyle yapılan güzel yazı sanatıdır. Tezhip, el yazması kitapları altın yaldız ve boyalarla süsleme sanatıdır. Ebru, kitreli su üzerine serpilen boyaların kâğıda aktarılmasıyla yapılır. Minyatür, kitapları süsleyen küçük boyutlu resimlerdir. Çini, üzerine desen işlenmiş sırlı seramik karolardır; İznik çinileri ünlüdür. Halı ve kilim dokumacılığı da önemli el sanatlarımızdandır. Mimaride Mimar Sinan öne çıkar; Edirne’deki Selimiye Camii’ni “ustalık eserim” olarak nitelendirdiği bilinir. Türk müziğinde de makam anlayışı önemli bir yer tutar.",
+     "points": [
+      "Hat: Güzel yazı.",
+      "Ebru: Su üzerinde boya.",
+      "Mimar Sinan: Selimiye Camii."
+     ]
+    },
+    {
+     "title": "Karşılaştırma, Yorumlama ve Eleştirme",
+     "text": "Bir metni kendi içinde karşılaştırabilir ya da iki metni birbiriyle karşılaştırabiliriz; örneğin ebruyu anlatan bilgilendirici bir metinle bir ebru ustasıyla yapılmış söyleşiyi. Yorumlama, metindeki bilgi ve duyguları kendi bakış açımızla anlamlandırmaktır. Eleştirme ise metni ölçütlere göre değerlendirip gerekçeli bir yargıya varmaktır: Bilgiler yeterli mi, anlatım akıcı mı, görseller metni destekliyor mu? Yorumumuzu ve eleştirimizi sözlü ya da yazılı olarak açık, nazik ve gerekçeli biçimde ifade ederiz.",
+     "points": [
+      "Yorum: Kendi bakış açımla anlamlandırma.",
+      "Eleştiri: Ölçütlü ve gerekçeli değerlendirme."
+     ]
+    },
+    {
+     "title": "Açık-Örtük İfade ve Çoklu Ortam",
+     "text": "Sanatla ilgili metinlerde yazarlar duygularını çoğu zaman örtük olarak verir: “Ebru ustasının fırçası suya dokunduğunda zaman durur.” cümlesinde ustanın sanatına duyulan hayranlık dolaylı olarak anlatılmaktadır. Çoklu ortam ögeleri (fotoğraf, video, ses kaydı) sanat eserlerini tanıtmada büyük kolaylık sağlar. Hazırlıklı bir sunumda bir eserin görselini gösterip özelliklerini açıklayabiliriz. Yaratıcı yazılarımızda bir sanat eserini betimleyebilir, eserin bize düşündürdüklerini anlatabiliriz.",
+     "points": [
+      "Örtük anlatım hayranlık gibi duyguları sezdirir.",
+      "Görseller sanatı tanıtmada etkilidir."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Klasik Türk sanatları",
+     "meaning": "Hat, tezhip, ebru, minyatür gibi geleneksel sanat dalları."
+    },
+    {
+     "term": "Geleneksel el sanatları",
+     "meaning": "Çini, halı, kilim gibi elle üretilen kültürel ürünler."
+    },
+    {
+     "term": "Mimari",
+     "meaning": "Yapı tasarlama ve inşa etme sanatı."
+    },
+    {
+     "term": "Yorumlama",
+     "meaning": "Bir metni ya da eseri kendi bakış açısıyla anlamlandırma."
+    },
+    {
+     "term": "Eleştirme",
+     "meaning": "Bir eseri ölçütlere göre gerekçeli olarak değerlendirme."
+    },
+    {
+     "term": "Açık ve örtük ifade",
+     "meaning": "Doğrudan söylenen ve dolaylı sezdirilen anlatımlar."
+    },
+    {
+     "term": "Çoklu ortam ögeleri",
+     "meaning": "Metni destekleyen görsel, işitsel ve dijital unsurlar."
+    }
+   ],
+   "example": {
+    "question": "Şu sanatları “kâğıt üzerinde yapılan sanatlar” ve “diğer malzemelerle yapılan sanatlar” olarak sınıflandıralım: hat, çini, tezhip, kilim, minyatür, ebru.",
+    "solution": "1. Ortak ölçüt: Eserin yapıldığı malzeme. 2. Kâğıt üzerinde: hat, tezhip, minyatür, ebru (boyalar sudan kâğıda aktarılır). 3. Diğer malzemeler: çini (seramik), kilim (yün ya da pamuk iplik)."
+   },
+   "remember": [
+    "Hat, tezhip, ebru ve minyatür klasik Türk sanatlarıdır.",
+    "Mimar Sinan Selimiye Camii’ni ustalık eseri olarak görmüştür.",
+    "Eleştiri ölçüt ve gerekçe ister.",
+    "Yorumda kendi bakış açımızı ortaya koyarız."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 5,
+   "intro": "Bu temada okuma kültürünü; basılı ve dijital okuma alışkanlıklarını ele alıyoruz. Okuma kültürü, okumayı hayatın doğal bir parçası hâline getirmektir. Anahtar kelime bulmayı, özetlemeyi, değerlendirmeyi ve probleme çözüm üretmeyi öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Okuma Alışkanlığı ve Dijital Okuma",
+     "text": "Okuma alışkanlığı, düzenli olarak ve isteyerek okumaktır. Her gün belirli bir saati okumaya ayırmak, ilgi alanımıza uygun kitaplar seçmek ve okuduklarımızı başkalarıyla paylaşmak bu alışkanlığı güçlendirir. Dijital okuma, e-kitap, internet sitesi ve dijital dergi gibi ekranlardan yapılan okumadır. Dijital ortamda bağlantılar ve bildirimler dikkatimizi dağıtabilir; bu yüzden bildirimleri kapatır, okumaya odaklanırız. Kaynağın güvenilirliğini kontrol eder, gerekirse not alma araçlarını kullanırız. Gözlerimizi korumak için düzenli ara veririz.",
+     "points": [
+      "Düzenli ve isteyerek oku.",
+      "Dijital okumada dikkat dağıtıcıları kapat."
+     ]
+    },
+    {
+     "title": "Anahtar Kelime ve Özetleme",
+     "text": "Anahtar kelimeler, metnin konusunu ve ana düşüncesini taşıyan, çoğunlukla tekrar eden önemli sözcüklerdir. Bilgilendirici bir metinde anahtar kelimeleri bulmak için başlığa, alt başlıklara ve paragrafların ilk cümlelerine bakarız. Özetleme yaparken anahtar kelimelerden yararlanır, her paragrafın ana düşüncesini bir cümleyle yazar, örnek ve ayrıntıları çıkarırız. İyi bir özet metnin anlamını bozmaz, kısa ve kendi cümlelerimizle yazılır. Dinlediklerimizi de aynı yöntemle özetleyebiliriz.",
+     "points": [
+      "Anahtar kelime: Konuyu taşıyan sözcük.",
+      "Özet kısa, öz ve kendi cümlelerimizle."
+     ]
+    },
+    {
+     "title": "Değerlendirme ve Problem Çözme",
+     "text": "Okuduğumuz bir metni değerlendirirken içerik, dil ve anlatım, yapı ve görseller gibi ölçütler kullanırız. Değerlendirmemizi ve eleştirimizi sözlü ve yazılı olarak gerekçelerle ifade ederiz. Metinde bir sorun anlatılıyorsa çözüm önerileri geliştiririz. Örneğin “Öğrenciler kitap okumaya zaman ayıramıyor.” sorunu için ders çalışma planına okuma saati eklemek, sınıfta kitap kulübü kurmak gibi çözümler önerebiliriz. Tartışmalarda karşı görüşleri dinler, kendi görüşümüzü sistematik biçimde savunuruz.",
+     "points": [
+      "Ölçüt: içerik, dil, yapı, görsel.",
+      "Sorun → çözüm önerisi → gerekçe."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Okuma kültürü",
+     "meaning": "Okumanın bireyin ve toplumun hayatında kalıcı bir alışkanlık olması."
+    },
+    {
+     "term": "Dijital okuma",
+     "meaning": "Ekran üzerinden yapılan okuma."
+    },
+    {
+     "term": "Anahtar kelime",
+     "meaning": "Metnin konusunu ve ana düşüncesini taşıyan önemli sözcük."
+    },
+    {
+     "term": "Özetleme",
+     "meaning": "Metnin özünü kısa ve kendi cümleleriyle anlatma."
+    },
+    {
+     "term": "Değerlendirme",
+     "meaning": "Bir metni ölçütlere göre inceleyip yargıya varma."
+    },
+    {
+     "term": "Problem çözme",
+     "meaning": "Bir soruna uygun ve uygulanabilir çözüm üretme."
+    },
+    {
+     "term": "Sistematik olma",
+     "meaning": "Bir işi belirli bir düzen ve plan içinde yapma."
+    }
+   ],
+   "example": {
+    "question": "“Kütüphaneler, insanların bilgiye ücretsiz ulaşabildiği önemli kurumlardır. Günümüzde birçok kütüphane e-kitap ve dijital arşiv hizmeti de sunar. Böylece okurlar evden de kütüphane kaynaklarına erişebilir.” metninin anahtar kelimelerini bulup bir cümleyle özetleyelim.",
+    "solution": "1. Konuyu taşıyan ve tekrar eden sözcükler: kütüphane, bilgi, dijital (e-kitap, arşiv), erişim. 2. Ana düşünce: Kütüphaneler hem basılı hem dijital kaynaklarla bilgiye erişimi kolaylaştırır. 3. Özet: “Kütüphaneler, dijital hizmetleriyle de bilgiye ücretsiz ve kolay erişim sağlayan kurumlardır.”"
+   },
+   "remember": [
+    "Okuma alışkanlığı düzenli okumayla kazanılır.",
+    "Anahtar kelimeler özetin iskeletidir.",
+    "Değerlendirme ölçüt ister.",
+    "Dijital okumada kaynağın güvenilirliğini kontrol et."
+   ]
+  },
+  {
+   "grade": 7,
+   "order": 6,
+   "intro": "Bu temada hak, sorumluluk, adalet, özgürlük, eşitlik ve barış kavramlarını işleyen metinler okuyoruz. Hakların korunması herkesin sorumluluklarını yerine getirmesine bağlıdır. Hikâye unsurlarını çözümlemeyi ve sözlü sunum yapmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Hak ve Sorumluluk",
+     "text": "Hak, kişinin hukuk ve ahlak bakımından sahip olduğu yetkidir; eğitim, sağlık, düşünce ve ifade özgürlüğü temel haklardandır. Sorumluluk ise üstlendiğimiz görevleri yerine getirme yükümlülüğüdür. Hakkımızı kullanırken başkalarının hakkını çiğnememek bir sorumluluktur. Adalet herkese hakkını vermek, eşitlik herkesin aynı haklara sahip olması, barış ise insanların ve toplumların uyum içinde yaşamasıdır. Bu kavramları anlatan metinleri karşılaştırır, çözümler ve değerlendiririz.",
+     "points": [
+      "Hak ve sorumluluk birbirini tamamlar.",
+      "Adalet, eşitlik ve barış toplumsal huzurun temelidir."
+     ]
+    },
+    {
+     "title": "Hikâye Unsurlarını Çözümleme",
+     "text": "Öyküleyici metinlerin temel unsurları olay örgüsü, kişiler, mekân, zaman ve anlatıcıdır. Olay örgüsü, olayların neden-sonuç ilişkisi içinde sıralanmasıdır; serim (giriş), düğüm (gelişme) ve çözüm (sonuç) bölümlerinden oluşur. Kişiler olayları yaşayan karakterlerdir; ana karakter ve yardımcı karakterler olabilir. Anlatıcı, hikâyeyi anlatan sestir; olayları “ben” diye anlatıyorsa birinci kişili, “o” diye anlatıyorsa üçüncü kişili anlatıcıdır. Bu unsurları çözümlemek hikâyenin mesajını kavramamızı sağlar.",
+     "points": [
+      "Serim → düğüm → çözüm.",
+      "Anlatıcı: birinci kişi (ben) / üçüncü kişi (o)."
+     ]
+    },
+    {
+     "title": "Sözlü Sunum ve Bağlantı İfadeleri",
+     "text": "Sözlü sunum, bir konuyu dinleyicilere planlı biçimde aktarmaktır. Sunumda konunun ana hatlarını belirler, görseller ve kısa videolar gibi çoklu ortam ögeleriyle içeriği destekleriz. “Öncelikle, bunun yanı sıra, buna karşın, sonuç olarak” gibi geçiş ve bağlantı ifadeleri sunumu akıcı kılar. Basılı ve dijital medya metinlerini değerlendirirken bilgilerin doğruluğunu ve kaynağını sorgularız. Yazılarımızda açık ve örtük ifadeleri bilinçli kullanır, düşüncemizi gerekçeleriyle sunarız.",
+     "points": [
+      "Plan + görsel destek + bağlantı ifadeleri.",
+      "Medya metninde kaynağı sorgula."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Hak",
+     "meaning": "Kişinin hukuk ve ahlak bakımından sahip olduğu yetki."
+    },
+    {
+     "term": "Sorumluluk",
+     "meaning": "Üstlenilen görevi yerine getirme yükümlülüğü."
+    },
+    {
+     "term": "Adalet",
+     "meaning": "Herkese hakkı olanı verme."
+    },
+    {
+     "term": "Eşitlik",
+     "meaning": "Herkesin aynı haklara sahip olması."
+    },
+    {
+     "term": "Hikâye unsurları",
+     "meaning": "Olay örgüsü, kişiler, mekân, zaman ve anlatıcı."
+    },
+    {
+     "term": "Geçiş ve bağlantı ifadeleri",
+     "meaning": "Cümle ve paragraflar arasında anlam bağı kuran sözler."
+    },
+    {
+     "term": "Barış",
+     "meaning": "İnsanların ve toplumların uyum ve huzur içinde yaşaması."
+    }
+   ],
+   "example": {
+    "question": "Kısa hikâyenin unsurlarını belirleyelim: “Geçen kış köyümüzün okulunda kütüphane yoktu. Ben ve arkadaşlarım kitap kampanyası başlattık. Bir ayda yüz kitap topladık ve küçük bir kütüphane kurduk.”",
+    "solution": "1. Olay: Okula kütüphane kurmak için kitap kampanyası. 2. Kişiler: anlatıcı ve arkadaşları. 3. Mekân: köyün okulu. 4. Zaman: geçen kış, bir ay. 5. Anlatıcı: Olaylar “ben” ağzından anlatıldığı için birinci kişili anlatıcı. 6. Serim: kütüphanenin olmaması; düğüm: kampanya; çözüm: kütüphanenin kurulması."
+   },
+   "remember": [
+    "Hakkını kullanırken başkasının hakkına saygı göster.",
+    "Olay örgüsü serim, düğüm ve çözümden oluşur.",
+    "“Ben” diye anlatan birinci kişili anlatıcıdır.",
+    "Sunumda bağlantı ifadeleri akıcılığı artırır."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 1,
+   "intro": "Bu temada genel ağ (internet), sosyal medya ve dijital içerikler çerçevesinde iletişimi ele alıyoruz. Dijital dünyada sorumlu ve bilinçli bir kullanıcı olmak hepimizin görevidir. Yüzey ve derin anlamı ayırt etmeyi, ikna tekniklerini çözümlemeyi ve hazırlıksız konuşmayı geliştiriyoruz.",
+   "sections": [
+    {
+     "title": "Dijital Dünyada İletişim",
+     "text": "Genel ağ, dünyadaki bilgisayarları birbirine bağlayan ağdır. Sosyal medya, kullanıcıların içerik üretip paylaştığı dijital platformlardır. Dijital içerik; yazı, fotoğraf, video ve ses gibi dijital ortamda yayımlanan her türlü üründür. Paylaştığımız her içerik geride bir iz bırakır; buna dijital ayak izi denir. Bu yüzden kişisel bilgilerimizi korur, başkalarının izni olmadan fotoğraflarını paylaşmayız. Ekran süremizi yönetmek, doğrulanmamış haberleri yaymamak ve siber zorbalığa karşı durmak sorumlu kullanıcının davranışlarıdır.",
+     "points": [
+      "Dijital ayak izi kalıcıdır.",
+      "Doğrulanmamış haberi paylaşma.",
+      "Ekran süreni yönet."
+     ]
+    },
+    {
+     "title": "Yüzey Anlam, Derin Anlam ve İkna",
+     "text": "Yüzey anlam, metinde doğrudan söylenen bilgidir. Derin anlam ise ipuçlarından, bağlamdan ve ön bilgilerimizden çıkarım yaparak ulaştığımız anlamdır. Örneğin bir reklamda “Herkes bu uygulamayı kullanıyor, sen hâlâ bekliyor musun?” deniyorsa, yüzey anlamda bir soru sorulur; derin anlamda ise okura “geride kalma” kaygısı aşılanmaya çalışılır. Bu, “çoğunluğa uyma” ikna tekniğidir. Sosyal medya içeriklerinde de duygulara seslenme, ünlü kişilerden yararlanma ve sahte aciliyet yaratma gibi teknikler sıkça kullanılır. Bu teknikleri fark etmek bizi bilinçli bir tüketici yapar.",
+     "points": [
+      "Çoğunluğa uyma: “Herkes kullanıyor.”",
+      "Sahte aciliyet: “Son 1 saat!”",
+      "Ünlü kişi kullanımı."
+     ]
+    },
+    {
+     "title": "Hazırlıksız Konuşma ve Yaratıcı Dil",
+     "text": "Hazırlıksız konuşma, önceden plan yapmadan o an verilen bir konuda yapılan konuşmadır. Başarılı bir hazırlıksız konuşmada önce birkaç saniye düşünür, ana fikrimizi belirleriz. Sonra bir giriş cümlesi, bir iki destekleyici örnek ve kısa bir sonuçla konuşmamızı tamamlarız. Dili yaratıcı kullanmak, benzetme ve örneklerle anlatımı canlandırmak dinleyicinin ilgisini artırır. Konuşma ve okuma süreçlerimizin ardından öz yansıtma yapar, hangi davranışlarımızı geliştirmemiz gerektiğini belirleriz. Yazarken de yazım ve noktalama kurallarına özen gösteririz.",
+     "points": [
+      "Düşün → ana fikir → örnek → sonuç.",
+      "Öz yansıtma gelişimi sağlar."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Genel ağ",
+     "meaning": "Dünyadaki bilgisayarları birbirine bağlayan ağ; internet."
+    },
+    {
+     "term": "Sosyal medya",
+     "meaning": "Kullanıcıların içerik üretip paylaştığı dijital platformlar."
+    },
+    {
+     "term": "Dijital içerik",
+     "meaning": "Dijital ortamda yayımlanan yazı, görsel, ses ve video."
+    },
+    {
+     "term": "Dijital ayak izi",
+     "meaning": "Dijital ortamdaki etkinliklerimizin bıraktığı kalıcı iz."
+    },
+    {
+     "term": "Yüzey anlam",
+     "meaning": "Metinde açıkça ifade edilen anlam."
+    },
+    {
+     "term": "Derin anlam",
+     "meaning": "Çıkarım yoluyla ulaşılan, açıkça söylenmeyen anlam."
+    },
+    {
+     "term": "İkna etme teknikleri",
+     "meaning": "Okuru ya da dinleyiciyi bir düşünceye inandırma yöntemleri."
+    }
+   ],
+   "example": {
+    "question": "Bir sosyal medya paylaşımı: “ŞOK! Bu içeceği içen öğrencilerin notları bir haftada yükseldi! Hemen paylaş, herkes bilsin!” Bu paylaşımı değerlendirelim.",
+    "solution": "1. Yüzey anlam: İçecek notları yükseltiyor, paylaşılmalı. 2. Kaynak var mı? Araştırma, kurum ya da uzman adı yok. 3. Kullanılan teknikler: “ŞOK!” ile duygulara seslenme, “Hemen paylaş” ile aciliyet yaratma. 4. Sonuç: İddia kanıtsızdır; doğrulanmadan paylaşılmamalıdır."
+   },
+   "remember": [
+    "Dijital ayak izi silinmesi zor bir izdir.",
+    "Derin anlam ipuçlarından çıkarılır.",
+    "Kaynağı olmayan iddia güvenilir değildir.",
+    "Hazırlıksız konuşmada önce ana fikri belirle."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 2,
+   "intro": "Bu temada vatan sevgisini, Atatürk’ü ve millî iradeyi işleyen metinler okuyoruz. Vatan sevgisi, ülkemizin geleceği için sorumluluk almaktır. Metinleri değerlendirmeyi, eleştirmeyi ve tartışma yapmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Vatan Sevgisi ve Millî İrade",
+     "text": "Vatan, bir milletin üzerinde yaşadığı, uğrunda fedakârlık yaptığı topraktır. Vatan sevgisi yalnızca duygu değil; çalışmak, üretmek, kurallara uymak ve ortak değerlere sahip çıkmaktır. Millî irade, milletin ortak kararı ve isteğidir. Millî Mücadele sırasında Atatürk, millî iradeyi temel alan Türkiye Büyük Millet Meclisi’ni 23 Nisan 1920’de açtı. Bağımsızlık ve egemenlik, milletin kendi kararlarını kendisinin vermesi demektir. Bu temadaki metinlerde azim, kararlılık ve sorumluluk değerlerinin vatan sevgisiyle nasıl birleştiğini çözümleriz.",
+     "points": [
+      "Vatan sevgisi eylemle gösterilir.",
+      "TBMM millî iradenin temsilcisidir."
+     ]
+    },
+    {
+     "title": "Değerlendirme, Eleştiri ve İkna",
+     "text": "Bir metni değerlendirirken içerik, kanıt, dil ve anlatım ölçütlerini kullanırız. Eleştiri yaparken metnin güçlü yönlerini ve geliştirilebilecek yönlerini gerekçeleriyle ortaya koyarız. Vatanseverlik temalı bir konuşma metninde hangi ikna tekniklerinin kullanıldığını çözümleriz: tarihî belgelerle kanıt sunma, ünlü sözlere başvurma (tanık gösterme), duygulara seslenme, tekrar. Bilgilendirici metinlerde anahtar kelimeler ve metin yapısı önemli bilgileri bulmamızı sağlar. Basit ve üst düzey çıkarımlarla metnin derin anlamına ulaşırız.",
+     "points": [
+      "Değerlendirme ölçüte dayanır.",
+      "Eleştiri gerekçeli olmalıdır."
+     ]
+    },
+    {
+     "title": "Tartışma Kuralları",
+     "text": "Tartışma, farklı görüşlerin gerekçe ve kanıtlarla karşılaştırıldığı bir konuşma türüdür. Tartışmada iddiamızı açıkça belirtir, gerekçemizi açıklar ve kanıtla destekleriz. Karşı tarafın görüşünü dikkatle dinler, onu kişisel saldırı yapmadan çürütmeye çalışırız. Ses tonumuzu sakin tutar, beden dilimizi ve mekânı etkili kullanırız. Konuşma süresine uyarız. Tartışmanın amacı karşı tarafı yenmek değil, konuyu her yönüyle aydınlatmaktır. Yazılı tartışmalarda da aynı yapıyı kullanır, yaratıcı ve özgün örneklerle düşüncemizi zenginleştiririz.",
+     "points": [
+      "İddia → gerekçe → kanıt.",
+      "Kişiye değil düşünceye yanıt ver."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Vatanseverlik",
+     "meaning": "Vatanını sevme ve onun için sorumluluk alma."
+    },
+    {
+     "term": "Millî irade",
+     "meaning": "Milletin ortak isteği ve kararı."
+    },
+    {
+     "term": "Bağımsızlık",
+     "meaning": "Bir milletin kendi geleceğini başka bir güce bağlı olmadan belirlemesi."
+    },
+    {
+     "term": "Değerlendirme",
+     "meaning": "Bir metni belirli ölçütlere göre inceleme."
+    },
+    {
+     "term": "Eleştirme",
+     "meaning": "Güçlü ve zayıf yönleri gerekçeleriyle ortaya koyma."
+    },
+    {
+     "term": "Tartışma",
+     "meaning": "Farklı görüşlerin gerekçe ve kanıtlarla karşılaştırıldığı konuşma."
+    },
+    {
+     "term": "Anahtar kelime",
+     "meaning": "Metnin temel düşüncesini taşıyan sözcük."
+    }
+   ],
+   "example": {
+    "question": "“Vatan sevgisi en çok iyi bir öğrenci olmakla gösterilir.” iddiasını tartışma yapısına uygun destekleyelim.",
+    "solution": "1. İddia: Vatan sevgisi iyi bir öğrenci olmakla gösterilir. 2. Gerekçe: Ülkenin geleceği iyi yetişmiş insanlara bağlıdır. 3. Kanıt/örnek: Atatürk’ün gençliğe ve eğitime verdiği önem; bilim ve teknolojide ülkemize katkı sağlayan kişilerin iyi eğitim almış olması. 4. Karşı görüşe yanıt: Vatan sevgisi başka yollarla da gösterilir; ancak öğrencilik çağında en etkili yol çalışkanlıktır."
+   },
+   "remember": [
+    "Vatan sevgisi sorumluluk almaktır.",
+    "TBMM 23 Nisan 1920’de açıldı.",
+    "Tartışmada iddia, gerekçe ve kanıt birlikte olmalıdır.",
+    "Eleştiri kişiye değil düşünceye yöneliktir."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 3,
+   "intro": "Bu temada doğa ile insan arasındaki ilişkiyi sürdürülebilirlik kavramıyla ele alıyoruz. Doğal kaynakları gelecek kuşaklara bırakmak bugünün sorumluluğudur. Düşünceyi geliştirme yollarını, geçiş ifadelerini ve noktalama işaretlerini pekiştiriyoruz.",
+   "sections": [
+    {
+     "title": "Sürdürülebilirlik",
+     "text": "Sürdürülebilirlik, bugünün ihtiyaçlarını karşılarken gelecek kuşakların da kendi ihtiyaçlarını karşılayabilmesine imkân bırakmaktır. Su, toprak, orman ve enerji kaynaklarını bilinçli kullanmak; atıkları azaltmak, yeniden kullanmak ve geri dönüştürmek bu anlayışın parçalarıdır. Doğa olayları ve iklimdeki değişimler canlıların yaşam alanlarını etkiler. Bu konudaki metinleri okurken analitik düşünür, verileri eleştirel biçimde inceleriz: Hangi veri kullanılmış, kaynak kim, öneriler uygulanabilir mi? Medya içeriklerini de bu gözle değerlendiririz.",
+     "points": [
+      "Azalt, yeniden kullan, geri dönüştür.",
+      "Verilerin kaynağını sorgula."
+     ]
+    },
+    {
+     "title": "Düşünceyi Geliştirme Yolları ve Geçiş İfadeleri",
+     "text": "Bilgilendirici ve tartışmacı metinlerde yazarlar düşüncelerini çeşitli yollarla geliştirir: tanımlama (“Sürdürülebilirlik … demektir”), örneklendirme (“örneğin”), karşılaştırma (“oysa, buna karşın”), benzetme, tanık gösterme (bir uzmanın sözü) ve sayısal verilerden yararlanma. Geçiş ve bağlantı ifadeleri ise paragraflar arasında anlam köprüsü kurar: “Öncelikle, bunun yanı sıra, öte yandan, bu nedenle, sonuç olarak”. Hazırlıklı konuşmalarımızda ve yazılarımızda bu araçları bilinçli kullanmak anlatımımızı ikna edici ve düzenli yapar.",
+     "points": [
+      "Tanımlama, örneklendirme, karşılaştırma.",
+      "Tanık gösterme, sayısal veri, benzetme."
+     ]
+    },
+    {
+     "title": "Noktalama İşaretleri",
+     "text": "İki nokta (:) kendisinden sonra açıklama ya da örnek gelecek cümlede kullanılır: “Üç şeye dikkat etmeliyiz: su, enerji ve atık.” Noktalı virgül (;) ögeleri arasında virgül bulunan sıralı cümleleri ayırmada ve virgülle ayrılmış tür ya da takımları birbirinden ayırmada kullanılır. Üç nokta (…) tamamlanmamış cümlelerin sonunda kullanılır. Tırnak işareti (“ ”) başkasından aktarılan sözleri gösterir. Kesme işareti (’) özel adlara getirilen ekleri ayırır: “Türkiye’nin ormanları”. Yazılarımızı bitirdikten sonra bu işaretleri tek tek kontrol ederiz.",
+     "points": [
+      "İki nokta: açıklama/örnek öncesi.",
+      "Tırnak: aktarılan söz.",
+      "Kesme: özel ada gelen ek."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Sürdürülebilirlik",
+     "meaning": "Kaynakları gelecek kuşaklara da yetecek biçimde kullanma."
+    },
+    {
+     "term": "Canlılar",
+     "meaning": "Beslenen, büyüyen, çoğalan bütün varlıklar."
+    },
+    {
+     "term": "Doğa olayları",
+     "meaning": "Yağış, rüzgâr, deprem gibi doğada kendiliğinden oluşan olaylar."
+    },
+    {
+     "term": "Düşünceyi geliştirme yolları",
+     "meaning": "Tanımlama, örneklendirme, karşılaştırma gibi anlatım teknikleri."
+    },
+    {
+     "term": "Geçiş ve bağlantı ifadeleri",
+     "meaning": "Cümle ve paragraflar arasında anlam bağı kuran sözler."
+    },
+    {
+     "term": "Analitik düşünme",
+     "meaning": "Bir konuyu parçalarına ayırıp ilişkilerini inceleme."
+    },
+    {
+     "term": "Eleştirel bakma",
+     "meaning": "Bilgiyi kanıt ve mantık açısından sorgulama."
+    }
+   ],
+   "example": {
+    "question": "Noktalama işaretlerini yerleştirelim: “Uzman şöyle dedi Su kaynaklarımız sınırlıdır bu yüzden üç önlem almalıyız damla sulama yağmur suyu hasadı ve tasarruf”",
+    "solution": "1. Aktarılan sözden önce iki nokta konur ve söz tırnak içine alınır: Uzman şöyle dedi: “…” 2. Cümle bitince nokta konur: “Su kaynaklarımız sınırlıdır.” 3. Açıklama gelecek yerde iki nokta, sıralı ögeler arasında virgül kullanılır. Sonuç: Uzman şöyle dedi: “Su kaynaklarımız sınırlıdır. Bu yüzden üç önlem almalıyız: damla sulama, yağmur suyu hasadı ve tasarruf.”"
+   },
+   "remember": [
+    "Sürdürülebilirlik gelecek kuşakları düşünmektir.",
+    "Tanık gösterme bir uzmanın sözüne dayanır.",
+    "İki noktadan sonra açıklama ya da örnek gelir.",
+    "Geçiş ifadeleri anlatımı düzenler."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 4,
+   "intro": "Bu temada Türk hikâye geleneğini; destan, efsane, halk hikâyesi ve masalları tanıyoruz. Bu anlatılar milletimizin hafızasını, değerlerini ve hayal dünyasını yansıtır. Bu türleri karşılaştırmayı, sınıflandırmayı ve özetlemeyi öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Destan ve Efsane",
+     "text": "Destan, bir milletin hayatını derinden etkileyen savaş, göç, kuruluş gibi büyük olayları olağanüstü kahramanlar etrafında anlatan uzun anlatılardır. Doğal destanlar halk arasında oluşur ve anonimdir. Oğuz Kağan Destanı, Ergenekon Destanı ve Kırgızların Manas Destanı Türk destanlarına örnektir. Ergenekon’da Türklerin dağlarla çevrili bir yurtta yıllarca yaşadıktan sonra demir dağı eriterek dışarı çıkışları anlatılır. Efsane ise bir yerin, varlığın ya da olayın ortaya çıkışını olağanüstü unsurlarla açıklayan kısa anlatıdır; halk arasında gerçekten yaşandığına inanılır.",
+     "points": [
+      "Destan: Millî olay, olağanüstü kahraman.",
+      "Efsane: Bir şeyin ortaya çıkışını açıklar."
+     ]
+    },
+    {
+     "title": "Halk Hikâyesi ve Masal",
+     "text": "Halk hikâyeleri, aşk ya da kahramanlık konularını işleyen, düzyazı ile şiirin iç içe kullanıldığı anlatılardır. Âşıklar tarafından meclislerde anlatılırdı. Kerem ile Aslı, Leyla ile Mecnun ve Köroğlu bilinen örneklerdir. Masal ise olağanüstü olayların ve varlıkların yer aldığı, zamanı ve mekânı belirsiz, genellikle iyilerin kazandığı anlatılardır. Masallar çoğunlukla “Evvel zaman içinde, kalbur saman içinde…” gibi bir tekerlemeyle başlar. Dede Korkut Hikâyeleri ise destan geleneğinden halk hikâyesine geçişin önemli ürünleri sayılır.",
+     "points": [
+      "Halk hikâyesi: Nazım-nesir karışık.",
+      "Masal: Zaman ve mekân belirsiz, tekerlemeyle başlar."
+     ]
+    },
+    {
+     "title": "Karşılaştırma, Sınıflandırma ve Özet",
+     "text": "Bu türleri karşılaştırırken konu, kahramanların özellikleri, gerçeklik ve inanılırlık, zaman-mekân ve anlatım biçimi gibi ölçütler kullanırız. Örneğin destanlar millî bir olayı anlatırken masallar bireysel olaylar etrafında gelişir; efsanelere halk inanır, masallara ise gerçek gözüyle bakılmaz. Bir anlatıyı özetlerken olay örgüsünü serim, düğüm ve çözüm olarak belirler, olağanüstü ayrıntıların yalnızca önemli olanlarını alırız. Söz sanatlarını, özellikle abartma ve benzetmeyi bu metinlerde sıkça görürüz.",
+     "points": [
+      "Ölçütler: konu, kahraman, gerçeklik, zaman-mekân.",
+      "Abartma destanlarda sık görülür."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Destan",
+     "meaning": "Bir milletin büyük olaylarını olağanüstü kahramanlar etrafında anlatan uzun anlatı."
+    },
+    {
+     "term": "Efsane",
+     "meaning": "Bir yerin, varlığın ya da olayın ortaya çıkışını olağanüstü unsurlarla açıklayan anlatı."
+    },
+    {
+     "term": "Halk hikâyesi",
+     "meaning": "Nazım ve nesrin iç içe kullanıldığı, âşıkların anlattığı aşk ve kahramanlık hikâyesi."
+    },
+    {
+     "term": "Masal",
+     "meaning": "Olağanüstü olayların yer aldığı, zamanı ve mekânı belirsiz anlatı."
+    },
+    {
+     "term": "Anonim",
+     "meaning": "Söyleyeni ya da yazarı bilinmeyen."
+    },
+    {
+     "term": "Sınıflandırma",
+     "meaning": "Unsurları ortak özelliklerine göre gruplandırma."
+    },
+    {
+     "term": "Söz sanatları",
+     "meaning": "Anlatımı güçlendiren abartma, benzetme gibi teknikler."
+    }
+   ],
+   "example": {
+    "question": "Aşağıdaki anlatıları türlerine göre sınıflandıralım: Ergenekon, Keloğlan, Kerem ile Aslı, Ağrı Dağı’nın oluşumunu olağanüstü olaylarla anlatan bir anlatı.",
+    "solution": "1. Ergenekon: Türklerin millî bir olayını, göç ve kurtuluşunu anlatır; destan. 2. Keloğlan: Zaman ve mekânı belirsiz, olağanüstü olaylar içerir; masal. 3. Kerem ile Aslı: Aşk konulu, âşıkların anlattığı, şiirle düzyazının karıştığı anlatı; halk hikâyesi. 4. Bir dağın oluşumunu olağanüstü olaylarla açıklayan anlatı: efsane."
+   },
+   "remember": [
+    "Destanlar millî olayları anlatır.",
+    "Efsaneler bir şeyin ortaya çıkışını açıklar.",
+    "Halk hikâyelerinde şiir ve düzyazı iç içedir.",
+    "Masalların zamanı ve mekânı belirsizdir."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 5,
+   "intro": "Bu temada sanatı ve estetiği; resim, müzik, edebiyat ve mimari üzerinden ele alıyoruz. Sanat eserleri insanın duygu ve düşüncelerini güzellik anlayışıyla buluşturur. Öznel ve nesnel anlatımı, yorum bildiren dil yapılarını ve eleştiri yazmayı öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Sanat ve Estetik",
+     "text": "Sanat, insanın duygu, düşünce ve hayallerini resim, müzik, heykel, edebiyat, mimari gibi yollarla güzel biçimde ifade etmesidir. Estetik ise güzellik duygusu ve güzelliği değerlendirme anlayışıdır. Bir sanat eserini incelerken yüzey anlamın (ne görüyoruz, ne duyuyoruz) ötesine geçip derin anlamı (sanatçı ne anlatmak istiyor) ararız. Eserler arasında karşılaştırma yapar, iletişimi sürdürmek için sorular sorarız: “Bu tablodaki renkler hangi duyguyu uyandırıyor?” Sanat eserini değerlendirirken düşünceyi geliştirme yollarından yararlanırız.",
+     "points": [
+      "Yüzey anlam: Ne görüyoruz?",
+      "Derin anlam: Sanatçı ne anlatıyor?"
+     ]
+    },
+    {
+     "title": "Öznel ve Nesnel Yargı, Yorum Bildiren Yapılar",
+     "text": "Nesnel yargı, kişiden kişiye değişmeyen, kanıtlanabilir bilgidir: “Selimiye Camii Edirne’dedir.” Öznel yargı ise kişisel görüş, duygu ve beğeni bildirir; kanıtlanamaz: “Selimiye, gördüğüm en etkileyici yapıdır.” Yorum bildirirken “bence, bana göre, kanımca, düşünüyorum ki, bana kalırsa, -dığını sanıyorum” gibi dil yapılarını kullanırız. Bu yapılar görüşümüzün kişisel olduğunu açıkça gösterir ve dinleyiciye saygılı bir dil kurar. Eleştiri yazısında nesnel bilgilerle öznel yorumlarımızı dengeli biçimde bir arada kullanırız.",
+     "points": [
+      "Nesnel: Kanıtlanabilir.",
+      "Öznel: Kişisel görüş.",
+      "Yorum: bence, kanımca, bana göre."
+     ]
+    },
+    {
+     "title": "Eleştiri ve Problem Çözme",
+     "text": "Bir sanat eserini eleştirirken önce eseri tanıtır, sonra ölçütler belirleriz: konu, teknik, özgünlük ve etki. Her ölçütte güçlü ve zayıf yönleri gerekçeleriyle yazarız. Eleştirinin sonunda genel bir değerlendirme ve öneri sunarız. Sanatla ilgili bir soruna, örneğin “Okulumuzda öğrenciler sanat etkinliklerine az katılıyor.” sorununa çözüm önerileri geliştirebiliriz: sergi düzenlemek, kulüp açmak, müze gezileri planlamak. Yazarken açık ve örtük ifadeleri bilinçli kullanır, yazım ve noktalama kurallarına uyarız.",
+     "points": [
+      "Tanıt → ölçüt → değerlendir → öner."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Estetik",
+     "meaning": "Güzellik duygusu ve güzelliği değerlendirme anlayışı."
+    },
+    {
+     "term": "Nesnel yargı",
+     "meaning": "Kanıtlanabilen, kişiden kişiye değişmeyen yargı."
+    },
+    {
+     "term": "Öznel yargı",
+     "meaning": "Kişisel görüş ve beğeni bildiren, kanıtlanamayan yargı."
+    },
+    {
+     "term": "Yorum bildiren yapılar",
+     "meaning": "Kişisel görüşü belirten bence, kanımca gibi ifadeler."
+    },
+    {
+     "term": "Eleştirme",
+     "meaning": "Bir eseri ölçütlere göre gerekçeli olarak değerlendirme."
+    },
+    {
+     "term": "Derin anlam",
+     "meaning": "Eserin ya da metnin çıkarımla bulunan anlamı."
+    },
+    {
+     "term": "Söz varlığı",
+     "meaning": "Bir dilin ya da kişinin kullandığı sözcük ve kalıpların bütünü."
+    }
+   ],
+   "example": {
+    "question": "Hangi cümle nesnel, hangisi öznel? a) “Mimar Sinan, Osmanlı döneminde yaşamış bir mimardır.” b) “Bence Mimar Sinan’ın en güzel eseri Selimiye Camii’dir.” c) “Bu türkü insanın içini ısıtıyor.”",
+    "solution": "1. a) Tarihsel kaynaklarla kanıtlanabilir bir bilgi: nesnel. 2. b) “Bence” yorum bildirir; “en güzel” kişisel beğenidir: öznel. 3. c) Türkünün uyandırdığı duygu kişiden kişiye değişir: öznel."
+   },
+   "remember": [
+    "Nesnel yargı kanıtlanabilir, öznel yargı kişiseldir.",
+    "“Bence, kanımca, bana göre” yorum bildirir.",
+    "Eleştiri ölçüt, gerekçe ve öneri içerir.",
+    "Sanat eserinde derin anlamı ara."
+   ]
+  },
+  {
+   "grade": 8,
+   "order": 6,
+   "intro": "Bu temada akademik düşünmeyi; bilimsel merak, şüphe, sistematik çalışma ve gerçeği arama üzerinden ele alıyoruz. Akademik düşünme, bilgiye kanıtla ve yöntemle ulaşmaktır. Basılı ve dijital metinleri değerlendirmeyi, eleştirmeyi ve probleme çözüm üretmeyi öğreniyoruz.",
+   "sections": [
+    {
+     "title": "Akademik ve Bilimsel Düşünme",
+     "text": "Akademik düşünme; merak etmek, soru sormak, bilgiyi sorgulamak ve sonuçlara kanıtla ulaşmaktır. Bilimsel yöntem genellikle şu adımlardan oluşur: problemi belirleme, bilgi toplama, hipotez kurma, deney ya da gözlem yapma, verileri çözümleme ve sonuç çıkarma. Şüphe duymak, her bilgiyi hemen kabul etmeden önce kanıtını aramaktır. Sistematik olmak, işleri belli bir düzen ve plan içinde yürütmektir. Özgün düşünme ise var olan bilgilerden yola çıkarak yeni fikirler üretmektir. Bir alanda uzmanlaşmak sabır, azim ve öz yeterlilik ister.",
+     "points": [
+      "Problem → bilgi → hipotez → deney → çözümleme → sonuç.",
+      "Şüphe: Kanıt aramak."
+     ]
+    },
+    {
+     "title": "Basılı ve Dijital Metinleri Değerlendirme",
+     "text": "Bir bilgiyi araştırırken hem basılı (kitap, ansiklopedi, dergi) hem dijital (web sitesi, e-kitap, veri tabanı) kaynaklardan yararlanırız. Kaynağın güvenilirliğini şu sorularla değerlendiririz: Yazarı ya da kurumu belli mi? Bilgi güncel mi? Kanıt ve kaynak gösteriyor mu? Başka güvenilir kaynaklar aynı bilgiyi doğruluyor mu? Bilimsel kuruluşların, üniversitelerin ve resmî kurumların yayınları genellikle daha güvenilirdir. Kullandığımız kaynakları yazımızın sonunda belirtiriz; başkasının sözünü kendi sözümüz gibi kullanmak doğru değildir.",
+     "points": [
+      "Yazar/kurum, güncellik, kanıt, doğrulama.",
+      "Kaynak göstermek bilimsel dürüstlüktür."
+     ]
+    },
+    {
+     "title": "Eleştiri ve Problem Çözme",
+     "text": "Akademik bir metni eleştirirken iddiaların kanıtla desteklenip desteklenmediğine, mantık hatası olup olmadığına ve sonuçların verilerle uyumlu olup olmadığına bakarız. Eleştirimizi saygılı ve gerekçeli bir dille yazarız. Problem çözme sürecinde sorunu tanımlar, nedenlerini araştırır, alternatif çözümler üretir, bunları ölçütlere göre karşılaştırır ve en uygun çözümü seçeriz. Problem çözümüne yönelik konuşma ve yazılarımızda anahtar kelimeleri belirler, düşüncelerimizi çözümleme ve değerlendirmeyle düzenli biçimde aktarırız.",
+     "points": [
+      "İddia kanıtla destekleniyor mu?",
+      "Alternatif çözümleri karşılaştır."
+     ]
+    }
+   ],
+   "keyTerms": [
+    {
+     "term": "Bilim",
+     "meaning": "Gözlem, deney ve akıl yürütmeyle doğru bilgiye ulaşma süreci."
+    },
+    {
+     "term": "Problem çözme",
+     "meaning": "Bir sorunu tanımlayıp uygun çözüm geliştirme süreci."
+    },
+    {
+     "term": "Şüphe duyma",
+     "meaning": "Bir bilgiyi kanıtını görmeden kabul etmeme."
+    },
+    {
+     "term": "Sistematik olma",
+     "meaning": "Bir işi belli bir düzen ve plan içinde yürütme."
+    },
+    {
+     "term": "Gerçeği arama",
+     "meaning": "Doğru bilgiye kanıt ve yöntemle ulaşma çabası."
+    },
+    {
+     "term": "Basılı ve dijital metinler",
+     "meaning": "Kâğıt üzerinde ve ekranda yayımlanan metinler."
+    },
+    {
+     "term": "Özgün düşünme",
+     "meaning": "Var olan bilgiden yola çıkarak yeni fikir üretme."
+    }
+   ],
+   "example": {
+    "question": "Ödevin için iki kaynak buldun: A) Yazarı belirtilmemiş, tarihi olmayan bir blog yazısı. B) Bir üniversitenin web sitesinde yayımlanmış, kaynakça içeren güncel bir makale. Hangisini neden tercih edersin?",
+    "solution": "1. Ölçütleri uygularız: yazar/kurum, güncellik, kaynak gösterme. 2. A kaynağında yazar ve tarih yok, kanıt gösterilmemiş; güvenilirliği düşük. 3. B kaynağında kurum belli, güncel ve kaynakça içeriyor. 4. Sonuç: B kaynağı tercih edilir; yine de bilgiyi başka güvenilir bir kaynakla da doğrulamak iyi olur."
+   },
+   "remember": [
+    "Akademik düşünme kanıta dayanır.",
+    "Kaynağın yazarını, tarihini ve kanıtını kontrol et.",
+    "Kullandığın kaynağı mutlaka belirt.",
+    "Problem çözmede alternatifleri karşılaştır."
+   ]
+  }
+ ]
+}
