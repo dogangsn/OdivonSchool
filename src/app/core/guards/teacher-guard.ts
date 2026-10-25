@@ -12,6 +12,7 @@ export const teacherGuard: CanActivateFn = () => {
     filter((u) => u !== undefined),
     take(1),
     map((u) => {
+      if (u && auth.needsVerification()) return router.createUrlTree(['/eposta-dogrula']);
       if (u?.role === 'teacher' || u?.role === 'admin') return true;
       return router.createUrlTree([u ? '/panel' : '/giris']);
     })

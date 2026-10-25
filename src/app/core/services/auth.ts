@@ -5,14 +5,31 @@ import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   signOut,
-  GoogleAuthProvider,
-  signInWithPopup,
   sendPasswordResetEmail,
+  sendEmailVerification,
   updateProfile,
+  User,
 } from '@angular/fire/auth';
 import { Firestore, doc, docData, setDoc, getDoc } from '@angular/fire/firestore';
 import { Observable, switchMap, of, firstValueFrom, filter, take } from 'rxjs';
 import { AppUser, SignupProfile } from '../../models/user';
+import { isStudentAccountEmail } from '../student-accounts';
+
+/**
+ * Accounts created before e-mail verification was introduced keep working
+ * without it; everyone who signs up after this moment must verify.
+ */
+export const EMAIL_VERIFICATION_CUTOFF = Date.parse('2026-10-25T01:00:00Z');
+
+/** True when this signed-in user must confirm their e-mail before using the app. */
+export function needsEmailVerification(user: User | null | undefined): boolean {
+  if (!user || user.emailVerified) return false;
+  // Teacher-made student accounts use an address nobody receives mail at.
+  if (isStudentAccountEmail(user.email)) return false;
+  const created = Date.parse(user.metadata?.creationTime ?? '');
+  if (Number.isFinite(created) && created < EMAIL_VERIFICATION_CUTOFF) return false;
+  return true;
+}
 
 /** Builds the Firestore user document for a new account. */
 export function newUserDoc(
@@ -80,6 +97,12 @@ export class AuthService {
     const fallbackName = profile.role === 'teacher' ? 'Öğretmen' : 'Öğrenci';
     const newUser = newUserDoc(cred.user.uid, cleanEmail, cleanName || fallbackName, profile);
     await setDoc(doc(this.firestore, `users/${cred.user.uid}`), newUser);
+    try {
+      await this.sendVerificationEmail();
+    } catch (err) {
+      // The verify page offers a resend button, so sign-up still succeeds.
+      console.warn('[AuthService] sendEmailVerification error:', err);
+    }
     return cred;
   }
 
@@ -106,32 +129,35 @@ export class AuthService {
     return cred;
   }
 
-  /**
-   * Google sign-in. `profile` comes from the sign-up form; when it is missing
-   * (login page) a brand-new account is created as a student and asked for
-   * its sınıf on the dashboard.
-   */
-  async loginWithGoogle(profile?: SignupProfile) {
-    const provider = new GoogleAuthProvider();
-    provider.setCustomParameters({ prompt: 'select_account' });
-    const cred = await signInWithPopup(this.auth, provider);
-    const userDocRef = doc(this.firestore, `users/${cred.user.uid}`);
-    const snap = await getDoc(userDocRef);
+  /** Sends (or re-sends) the verification e-mail to the signed-in user. */
+  async sendVerificationEmail() {
+    const user = this.auth.currentUser;
+    if (!user) throw new Error('not-signed-in');
+    await sendEmailVerification(user, {
+      url: `${location.origin}/eposta-dogrula`,
+    });
+  }
 
-    if (!snap.exists()) {
-      const newUser = newUserDoc(
-        cred.user.uid,
-        cred.user.email ?? '',
-        cred.user.displayName || (profile?.role === 'teacher' ? 'Öğretmen' : 'Öğrenci'),
-        profile
-      );
-      await setDoc(userDocRef, newUser);
-    }
-    return cred;
+  /**
+   * Refreshes the Firebase user so a link clicked in another tab is seen.
+   * Returns true once the e-mail is verified (or verification isn't needed).
+   */
+  async refreshVerification(): Promise<boolean> {
+    const user = this.auth.currentUser;
+    if (!user) return false;
+    await user.reload();
+    if (user.emailVerified) await user.getIdToken(true);
+    return !needsEmailVerification(this.auth.currentUser);
+  }
+
+  /** Whether the current Firebase user still has to verify their e-mail. */
+  needsVerification(): boolean {
+    return needsEmailVerification(this.auth.currentUser);
   }
 
   /** Landing page for the signed-in user's role (waits for the user doc). */
   async homeUrl(): Promise<string> {
+    if (this.needsVerification()) return '/eposta-dogrula';
     const user = await firstValueFrom(
       this.appUser$.pipe(
         filter((u) => u !== undefined),
@@ -147,6 +173,6 @@ export class AuthService {
   }
 
   sendPasswordReset(email: string) {
-    return sendPasswordResetEmail(this.auth, email);
+    return sendPasswordResetEmail(this.auth, email.trim());
   }
 }

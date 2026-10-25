@@ -87,7 +87,7 @@ export class Register {
       await this.auth.register(this.email, this.password, this.displayName, this.buildProfile());
       // Clean slate - ensure new registered user starts with 0 data
       this.guestQuota.clearGuestData();
-      this.router.navigateByUrl(this.role() === 'teacher' ? '/ogretmen' : '/panel');
+      this.router.navigateByUrl('/eposta-dogrula');
     } catch (err: any) {
       console.error('[Register] submit error:', err);
       this.errorMessage.set(getAuthErrorMessage(err));
@@ -95,23 +95,4 @@ export class Register {
       this.loading.set(false);
     }
   }
-
-  async loginWithGoogle() {
-    this.errorMessage.set(null);
-    if (!this.requireGrade()) return;
-    this.loading.set(true);
-    try {
-      await this.auth.loginWithGoogle(this.buildProfile());
-      this.guestQuota.clearGuestData();
-      this.router.navigateByUrl(await this.auth.homeUrl());
-    } catch (err: any) {
-      console.error('[Register] loginWithGoogle error:', err);
-      if (err?.code !== 'auth/popup-closed-by-user') {
-        this.errorMessage.set(getAuthErrorMessage(err));
-      }
-    } finally {
-      this.loading.set(false);
-    }
-  }
 }
-

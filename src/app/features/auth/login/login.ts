@@ -19,14 +19,21 @@ export class Login {
   email = '';
   password = '';
   errorMessage = signal<string | null>(null);
+  infoMessage = signal<string | null>(null);
   loading = signal(false);
 
   async submit() {
     this.errorMessage.set(null);
+    this.infoMessage.set(null);
     this.loading.set(true);
     try {
       await this.auth.login(loginIdToEmail(this.email), this.password);
-      this.router.navigateByUrl(this.returnUrl() ?? (await this.auth.homeUrl()));
+      const back = this.returnUrl();
+      if (back && this.auth.needsVerification()) {
+        this.router.navigate(['/eposta-dogrula'], { queryParams: { donus: back } });
+      } else {
+        this.router.navigateByUrl(back ?? (await this.auth.homeUrl()));
+      }
     } catch (err: any) {
       console.error('[Login] submit error:', err);
       this.errorMessage.set(getAuthErrorMessage(err));
@@ -35,17 +42,25 @@ export class Login {
     }
   }
 
-  async loginWithGoogle() {
+  async forgotPassword() {
     this.errorMessage.set(null);
+    this.infoMessage.set(null);
+    const id = this.email.trim();
+    if (!id.includes('@')) {
+      this.errorMessage.set(
+        id
+          ? 'Kullanıcı adıyla giriş yapan öğrencilerin şifresini öğretmeni yenileyebilir.'
+          : 'Şifre sıfırlama bağlantısı için önce e-posta adresini yaz.'
+      );
+      return;
+    }
     this.loading.set(true);
     try {
-      await this.auth.loginWithGoogle();
-      this.router.navigateByUrl(this.returnUrl() ?? (await this.auth.homeUrl()));
+      await this.auth.sendPasswordReset(id);
+      this.infoMessage.set(`${id} adresine şifre belirleme bağlantısı gönderdik. Gelen kutunu (ve spam klasörünü) kontrol et.`);
     } catch (err: any) {
-      console.error('[Login] loginWithGoogle error:', err);
-      if (err?.code !== 'auth/popup-closed-by-user') {
-        this.errorMessage.set(getAuthErrorMessage(err));
-      }
+      console.error('[Login] forgotPassword error:', err);
+      this.errorMessage.set(getAuthErrorMessage(err));
     } finally {
       this.loading.set(false);
     }

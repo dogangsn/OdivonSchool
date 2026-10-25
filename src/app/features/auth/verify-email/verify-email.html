@@ -1,0 +1,40 @@
+<div class="verify-wrapper animate-fade-in">
+  <div class="verify-card">
+    <div class="verify-icon">✉️</div>
+
+    @if (signedOut()) {
+      <h1>E-postanı doğrula</h1>
+      <p>Doğrulamayı tamamlamak için hesabına giriş yap.</p>
+      <a routerLink="/giris" class="btn primary lg">Giriş Yap</a>
+    } @else {
+      <h1>E-postanı doğrula</h1>
+      <p>
+        <strong>{{ email() }}</strong> adresine bir doğrulama bağlantısı gönderdik.
+        Bağlantıya tıkladıktan sonra bu sayfa kendiliğinden devam eder.
+      </p>
+      <p class="hint">E-posta birkaç dakika içinde gelmezse spam / gereksiz klasörüne de bak.</p>
+
+      @if (infoMessage()) {
+        <div class="alert info">{{ infoMessage() }}</div>
+      }
+      @if (errorMessage()) {
+        <div class="alert danger">{{ errorMessage() }}</div>
+      }
+
+      <div class="actions">
+        <button type="button" class="btn primary lg" [disabled]="checking()" (click)="checkNow()">
+          {{ checking() ? 'Kontrol ediliyor...' : 'Doğruladım, devam et' }}
+        </button>
+        <button type="button" class="btn outline lg" [disabled]="sending() || cooldown() > 0" (click)="resend()">
+          @if (cooldown() > 0) {
+            Yeniden gönder ({{ cooldown() }} sn)
+          } @else {
+            {{ sending() ? 'Gönderiliyor...' : 'E-postayı yeniden gönder' }}
+          }
+        </button>
+      </div>
+
+      <button type="button" class="link-btn" (click)="logout()">Yanlış e-posta mı? Çıkış yap</button>
+    }
+  </div>
+</div>

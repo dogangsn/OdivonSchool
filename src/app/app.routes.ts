@@ -13,6 +13,7 @@ export const routes: Routes = [
 
   { path: 'giris', loadComponent: () => import('./features/auth/login/login').then(m => m.Login) },
   { path: 'kayit', loadComponent: () => import('./features/auth/register/register').then(m => m.Register) },
+  { path: 'eposta-dogrula', loadComponent: () => import('./features/auth/verify-email/verify-email').then(m => m.VerifyEmail) },
   { path: 'fiyatlandirma', loadComponent: () => import('./features/pricing/pricing').then(m => m.Pricing) },
   { path: 'paketler', redirectTo: 'fiyatlandirma', pathMatch: 'full' },
 
