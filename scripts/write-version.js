@@ -24,6 +24,10 @@ function git(cmd) {
 let version = 'dev';
 let build = 'dev';
 if (!dev) {
+  // Sığ klonda (ör. CI'da fetch-depth: 1) commit sayısı 1 görünür ve sürüm hiç artmaz.
+  if (git('rev-parse --is-shallow-repository') === 'true') {
+    console.warn('[version] UYARI: sığ git klonu, commit sayısı eksik. CI checkout için fetch-depth: 0 gerekli.');
+  }
   const count = git('rev-list --count HEAD') || '0';
   const sha = git('rev-parse --short HEAD');
   const stamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\..*$/, '');
