@@ -1,7 +1,7 @@
 /**
  * Minimal Firestore REST + Gemini helpers shared by the CLI scripts.
- * Auth uses the access token that `firebase login` stores locally, so run any
- * firebase command first (e.g. `firebase projects:list`) to refresh it.
+ * Auth uses the access token that `firebase login` stores locally; it is refreshed
+ * automatically (via `firebase projects:list`) when close to expiry.
  */
 const fs = require('fs');
 const os = require('os');
@@ -32,7 +32,18 @@ function readFirebaseToken() {
   if (!fs.existsSync(configPath)) {
     throw new Error(`firebase-tools.json bulunamadı: ${configPath} (önce "firebase login" çalıştırın)`);
   }
-  const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+  let config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+  // The stored token lives one hour; a long run would hit 401 halfway. Any firebase
+  // command refreshes it in place, so run one when it is about to expire.
+  const expiresAt = config.tokens?.expires_at;
+  if (config.tokens?.access_token && expiresAt && expiresAt - Date.now() < 10 * 60 * 1000) {
+    try {
+      require('child_process').execSync('firebase projects:list', { stdio: 'ignore' });
+      config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+    } catch {
+      // Fall through with the old token; the caller reports the auth error.
+    }
+  }
   const token = config.tokens?.access_token;
   if (!token) throw new Error('Firebase access token bulunamadı. "firebase login" çalıştırın.');
   return token;
