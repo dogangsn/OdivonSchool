@@ -79,6 +79,11 @@ export const routes: Routes = [
     loadComponent: () => import('./features/notebook/notebook-list/notebook-list').then(m => m.NotebookList),
   },
   {
+    path: 'defter-notlari/notlarim/:id',
+    canActivate: [authGuard],
+    loadComponent: () => import('./features/notebook/my-note/my-note').then(m => m.MyNotePage),
+  },
+  {
     path: 'defter-notlari/:slug',
     loadComponent: () => import('./features/notebook/notebook-note/notebook-note').then(m => m.NotebookNote),
   },

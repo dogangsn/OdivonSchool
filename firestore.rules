@@ -106,6 +106,26 @@ service cloud.firestore {
           request.resource.data.updatedAt is int;
       }
 
+      // Defter Notları > Notlarım: notes the student or teacher writes
+      // themselves. Private to the owner.
+      match /notes/{noteId} {
+        allow read, delete: if isOwner(userId);
+        allow create, update: if isOwner(userId) &&
+          request.resource.data.keys().hasOnly(['title', 'subject', 'grade', 'body', 'color',
+                                                'linkedSlug', 'createdAt', 'updatedAt']) &&
+          request.resource.data.title is string && request.resource.data.title.size() >= 1 &&
+          request.resource.data.title.size() <= 120 &&
+          request.resource.data.subject is string && request.resource.data.subject.size() <= 60 &&
+          (request.resource.data.grade == null ||
+           (request.resource.data.grade is int && request.resource.data.grade >= 1 &&
+            request.resource.data.grade <= 12)) &&
+          request.resource.data.body is string && request.resource.data.body.size() <= 20000 &&
+          request.resource.data.color in ['sari', 'mavi', 'yesil', 'pembe', 'mor'] &&
+          (request.resource.data.linkedSlug == null ||
+           (request.resource.data.linkedSlug is string && request.resource.data.linkedSlug.size() <= 160)) &&
+          request.resource.data.createdAt is int && request.resource.data.updatedAt is int;
+      }
+
       // Okuma Kurdu: the books a student finished. Only the student writes;
       // classmates see the per-class bookworm summary instead.
       match /books/{bookId} {

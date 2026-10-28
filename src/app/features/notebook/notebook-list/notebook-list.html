@@ -8,70 +8,131 @@
     <a routerLink="/kutuphane" class="nb-hero-link">📚 Akıllı Kütüphane →</a>
   </section>
 
-  <section class="nb-toolbar">
-    <div class="nb-levels" role="tablist" aria-label="Kademe">
-      @for (l of levels; track l.id) {
-        <button type="button" role="tab" class="nb-chip" [class.active]="level() === l.id && !search()"
-          [attr.aria-selected]="level() === l.id" (click)="pickLevel(l.id)">{{ l.label }}</button>
-      }
-    </div>
+  <div class="nb-sections" role="tablist" aria-label="Bölüm">
+    <button type="button" role="tab" class="nb-section-tab" [class.active]="section() === 'meb'"
+      [attr.aria-selected]="section() === 'meb'" (click)="pickSection('meb')">
+      <span>📘</span><strong>MEB Defter Notları</strong><small>Her tema için hazır konu anlatımı</small>
+    </button>
+    <button type="button" role="tab" class="nb-section-tab" [class.active]="section() === 'notlarim'"
+      [attr.aria-selected]="section() === 'notlarim'" (click)="pickSection('notlarim')">
+      <span>✍️</span><strong>Notlarım</strong>
+      <small>{{ appUser()?.role === 'teacher' ? 'Kendi ders notlarını hazırla' : 'Kendi notlarını yaz' }}</small>
+    </button>
+  </div>
 
-    <div class="nb-filters">
-      <div class="nb-grades">
-        <button type="button" class="nb-pill" [class.active]="grade() === null" (click)="pickGrade(null)">Tümü</button>
-        @for (g of grades(); track g) {
-          <button type="button" class="nb-pill" [class.active]="grade() === g" (click)="pickGrade(g)">{{ g }}. sınıf</button>
-        }
+  @if (section() === 'notlarim') {
+    @if (!appUser()) {
+      <div class="nb-state nb-mine-empty">
+        <strong>Kendi notlarını hazırlamak için giriş yap.</strong>
+        <p>Öğrenciler konu özetlerini, öğretmenler ders anlatım notlarını burada yazar; notlar sadece sana görünür.</p>
+        <a class="btn primary" routerLink="/giris" [queryParams]="{ donus: '/defter-notlari?bolum=notlarim' }">Giriş yap</a>
       </div>
+    } @else {
+      <section class="nb-toolbar nb-mine-bar">
+        <a class="btn primary" routerLink="/defter-notlari/notlarim/yeni">＋ Yeni not</a>
+        <div class="nb-search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input type="search" [value]="mySearch()" (input)="onMySearch($event)" placeholder="Notlarımda ara" />
+        </div>
+      </section>
 
-      <select class="nb-select" [value]="subject()" (change)="onSubject($event)" aria-label="Ders">
-        <option value="">Tüm dersler</option>
-        @for (s of subjects(); track s) {
-          <option [value]="s" [selected]="s === subject()">{{ s }}</option>
-        }
-      </select>
-
-      <div class="nb-search">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-        <input type="search" [value]="search()" (input)="onSearch($event)" placeholder="Konu ara (ör. kesirler, maddenin halleri)" />
-      </div>
-    </div>
-  </section>
-
-  @if (loading()) {
-    <div class="nb-state">Notlar yükleniyor...</div>
-  } @else if (error()) {
-    <div class="nb-state">
-      Notlar yüklenemedi. <button type="button" class="btn sm outline" (click)="load()">Tekrar dene</button>
-    </div>
-  } @else if (!groups().length) {
-    <div class="nb-state">Aramana uygun not bulunamadı.</div>
-  } @else {
-    @if (search()) {
-      <p class="nb-count">"{{ search() }}" için {{ total() }} not bulundu.</p>
-    }
-    @for (g of groups(); track g.key) {
-      <section class="nb-section">
-        <h2>
-          <span class="nb-subject-icon">{{ subjectIcon(g.subject) }}</span>
-          {{ g.grade }}. Sınıf {{ g.subject }}
-          <small>{{ g.notes.length }} not</small>
-        </h2>
-        <div class="nb-grid">
-          @for (n of g.notes; track n.slug) {
-            <a class="nb-card" [routerLink]="['/defter-notlari', n.slug]">
-              <span class="nb-card-tema">{{ n.order }}. Tema</span>
+      @if (myNotes() === null) {
+        <div class="nb-state">Notların yükleniyor...</div>
+      } @else if (!myNotes()!.length) {
+        <div class="nb-state nb-mine-empty">
+          <strong>Henüz kendi notun yok.</strong>
+          <p>
+            @if (appUser()?.role === 'teacher') {
+              Derste anlatacağın konuyu yaz, tahta modunda aç ya da yazdırıp dağıt.
+            } @else {
+              Konuyu kendi cümlelerinle özetle; kendi yazdığın not daha kolay akılda kalır.
+            }
+          </p>
+          <a class="btn primary" routerLink="/defter-notlari/notlarim/yeni">İlk notunu yaz</a>
+        </div>
+      } @else if (!myFiltered().length) {
+        <div class="nb-state">Aramana uygun not bulunamadı.</div>
+      } @else {
+        <div class="nb-grid nb-mine-grid">
+          @for (n of myFiltered(); track n.id) {
+            <a class="nb-card nb-mine-card" [attr.data-color]="n.color" [routerLink]="['/defter-notlari/notlarim', n.id]">
+              <span class="nb-card-tema">
+                {{ subjectIcon(n.subject) }} {{ n.grade ? n.grade + '. sınıf ' : '' }}{{ n.subject || 'Not' }}
+              </span>
               <strong>{{ n.title }}</strong>
-              @if (n.hasNote) {
-                <p>{{ n.intro }}</p>
-              } @else {
-                <p class="nb-soon">Özet hazırlanıyor; kazanımlar ve kavramlar hazır.</p>
-              }
-              <span class="nb-card-cta">Notu aç →</span>
+              <p>{{ preview(n.body) || 'Boş not' }}</p>
+              <span class="nb-card-cta">{{ dateLabel(n.updatedAt) }} · Aç →</span>
             </a>
           }
         </div>
-      </section>
+      }
+    }
+  } @else {
+    <section class="nb-toolbar">
+      <div class="nb-levels" role="tablist" aria-label="Kademe">
+        @for (l of levels; track l.id) {
+          <button type="button" role="tab" class="nb-chip" [class.active]="level() === l.id && !search()"
+            [attr.aria-selected]="level() === l.id" (click)="pickLevel(l.id)">{{ l.label }}</button>
+        }
+      </div>
+
+      <div class="nb-filters">
+        <div class="nb-grades">
+          <button type="button" class="nb-pill" [class.active]="grade() === null" (click)="pickGrade(null)">Tümü</button>
+          @for (g of grades(); track g) {
+            <button type="button" class="nb-pill" [class.active]="grade() === g" (click)="pickGrade(g)">{{ g }}. sınıf</button>
+          }
+        </div>
+
+        <select class="nb-select" [value]="subject()" (change)="onSubject($event)" aria-label="Ders">
+          <option value="">Tüm dersler</option>
+          @for (s of subjects(); track s) {
+            <option [value]="s" [selected]="s === subject()">{{ s }}</option>
+          }
+        </select>
+
+        <div class="nb-search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input type="search" [value]="search()" (input)="onSearch($event)" placeholder="Konu ara (ör. kesirler, maddenin halleri)" />
+        </div>
+      </div>
+    </section>
+
+    @if (loading()) {
+      <div class="nb-state">Notlar yükleniyor...</div>
+    } @else if (error()) {
+      <div class="nb-state">
+        Notlar yüklenemedi. <button type="button" class="btn sm outline" (click)="load()">Tekrar dene</button>
+      </div>
+    } @else if (!groups().length) {
+      <div class="nb-state">Aramana uygun not bulunamadı.</div>
+    } @else {
+      @if (search()) {
+        <p class="nb-count">"{{ search() }}" için {{ total() }} not bulundu.</p>
+      }
+      @for (g of groups(); track g.key) {
+        <section class="nb-section">
+          <h2>
+            <span class="nb-subject-icon">{{ subjectIcon(g.subject) }}</span>
+            {{ g.grade }}. Sınıf {{ g.subject }}
+            <small>{{ g.notes.length }} not</small>
+          </h2>
+          <div class="nb-grid">
+            @for (n of g.notes; track n.slug) {
+              <a class="nb-card" [routerLink]="['/defter-notlari', n.slug]">
+                <span class="nb-card-tema">{{ n.order }}. Tema</span>
+                <strong>{{ n.title }}</strong>
+                @if (n.hasNote) {
+                  <p>{{ n.intro }}</p>
+                } @else {
+                  <p class="nb-soon">Özet hazırlanıyor; kazanımlar ve kavramlar hazır.</p>
+                }
+                <span class="nb-card-cta">Notu aç →</span>
+              </a>
+            }
+          </div>
+        </section>
+      }
     }
   }
 </div>

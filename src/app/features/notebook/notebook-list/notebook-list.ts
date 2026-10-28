@@ -1,7 +1,9 @@
 import { Component, computed, effect, inject, signal } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
+import { map, of, switchMap } from 'rxjs';
 import { AuthService } from '../../../core/services/auth';
+import { MyNote, MyNotesService } from '../../../core/services/my-notes';
 import { NotebookService, NoteSummary } from '../../../core/services/notebook';
 import { EducationLevel, LEVEL_GRADES, levelForGrade } from '../../../models/test-category';
 
@@ -28,7 +30,29 @@ const LEVELS: { id: EducationLevel; label: string }[] = [
 export class NotebookList {
   private notebook = inject(NotebookService);
   private auth = inject(AuthService);
-  private appUser = toSignal(this.auth.appUser$, { initialValue: null });
+  private myNotesService = inject(MyNotesService);
+  private route = inject(ActivatedRoute);
+  private router = inject(Router);
+  appUser = toSignal(this.auth.appUser$, { initialValue: null });
+
+  /** "meb" = MEB tema notları, "notlarim" = notes the user wrote. */
+  section = toSignal(
+    this.route.queryParamMap.pipe(map((q): 'meb' | 'notlarim' => (q.get('bolum') === 'notlarim' ? 'notlarim' : 'meb'))),
+    { initialValue: 'meb' as 'meb' | 'notlarim' }
+  );
+  myNotes = toSignal(
+    this.auth.appUser$.pipe(switchMap((u) => (u ? this.myNotesService.list(u.uid) : of(null)))),
+    { initialValue: null as MyNote[] | null }
+  );
+  mySearch = signal('');
+  myFiltered = computed(() => {
+    const q = this.mySearch().trim().toLocaleLowerCase('tr');
+    const rows = this.myNotes() ?? [];
+    if (!q) return rows;
+    return rows.filter((n) =>
+      `${n.title} ${n.subject} ${n.grade ?? ''} ${n.body}`.toLocaleLowerCase('tr').includes(q)
+    );
+  });
 
   readonly levels = LEVELS;
   all = signal<NoteSummary[]>([]);
@@ -114,6 +138,32 @@ export class NotebookList {
 
   onSubject(event: Event) {
     this.subject.set((event.target as HTMLSelectElement).value);
+  }
+
+  pickSection(section: 'meb' | 'notlarim') {
+    this.router.navigate([], {
+      relativeTo: this.route,
+      queryParams: { bolum: section === 'notlarim' ? 'notlarim' : null },
+      replaceUrl: true,
+    });
+  }
+
+  onMySearch(event: Event) {
+    this.mySearch.set((event.target as HTMLInputElement).value);
+  }
+
+  /** First words of a note body, without the formatting markers. */
+  preview(body: string): string {
+    return body
+      .split('\n')
+      .map((l) => l.replace(/^\s*(#{1,3}|[-*•]|!)\s*/, '').trim())
+      .filter(Boolean)
+      .join(' · ')
+      .slice(0, 160);
+  }
+
+  dateLabel(ms: number): string {
+    return new Date(ms).toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
   }
 
   onSearch(event: Event) {

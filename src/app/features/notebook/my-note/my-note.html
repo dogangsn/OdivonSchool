@@ -1,0 +1,129 @@
+<div class="nn mn container animate-fade-in">
+  <div class="nn-top no-print">
+    <a routerLink="/defter-notlari" [queryParams]="{ bolum: 'notlarim' }" class="nn-back">← Notlarım</a>
+    @if (!loading() && !notFound()) {
+      <div class="nn-actions">
+        <button type="button" class="btn sm outline" (click)="toggleBoard()">🖥️ Tahta modu</button>
+        <button type="button" class="btn sm outline" (click)="print()">🖨️ Yazdır</button>
+        <button type="button" class="btn sm outline mn-danger" (click)="remove()">{{ id() ? 'Sil' : 'Vazgeç' }}</button>
+        <button type="button" class="btn sm primary" [disabled]="!canSave()" (click)="save()">
+          {{ saving() ? 'Kaydediliyor...' : dirty() || !id() ? '💾 Kaydet' : '✓ Kaydedildi' }}
+        </button>
+      </div>
+    }
+  </div>
+
+  @if (loading()) {
+    <div class="nn-state">Not açılıyor...</div>
+  } @else if (notFound()) {
+    <div class="nn-state">
+      Bu not bulunamadı. <a routerLink="/defter-notlari" [queryParams]="{ bolum: 'notlarim' }">Notlarıma dön</a>
+    </div>
+  } @else {
+    @if (error()) {
+      <p class="mn-error no-print" role="alert">{{ error() }}</p>
+    }
+
+    <div class="mn-panes no-print" role="tablist" aria-label="Görünüm">
+      <button type="button" role="tab" [class.active]="pane() === 'edit'" (click)="pane.set('edit')">✏️ Yaz</button>
+      <button type="button" role="tab" [class.active]="pane() === 'view'" (click)="pane.set('view')">👀 Deftere bak</button>
+    </div>
+
+    <div class="mn-layout" [attr.data-pane]="pane()">
+      <section class="mn-editor no-print">
+        <label class="mn-field">
+          <span>Başlık</span>
+          <input type="text" [value]="title()" (input)="onText('title', $event)" [maxLength]="limits.title"
+            placeholder="ör. Kesirlerde toplama" />
+        </label>
+
+        <div class="mn-row">
+          <label class="mn-field">
+            <span>Ders</span>
+            <input type="text" list="mn-subjects" [value]="subject()" (input)="onText('subject', $event)"
+              [maxLength]="limits.subject" placeholder="ör. Matematik" />
+            <datalist id="mn-subjects">
+              @for (s of subjectOptions; track s) {
+                <option [value]="s"></option>
+              }
+            </datalist>
+          </label>
+          <label class="mn-field">
+            <span>Sınıf</span>
+            <select (change)="onGrade($event)">
+              <option value="" [selected]="grade() === null">Seçme</option>
+              @for (g of grades; track g) {
+                <option [value]="g" [selected]="grade() === g">{{ g }}. sınıf</option>
+              }
+            </select>
+          </label>
+        </div>
+
+        <div class="mn-field">
+          <span>Renk</span>
+          <div class="mn-colors">
+            @for (c of colors; track c) {
+              <button type="button" class="mn-color" [attr.data-color]="c" [class.active]="color() === c"
+                [attr.aria-label]="colorLabels[c]" [title]="colorLabels[c]" (click)="set(color, c)"></button>
+            }
+          </div>
+        </div>
+
+        <div class="mn-field">
+          <span>Not</span>
+          <div class="mn-tools">
+            <button type="button" (click)="insert(ta, '# ')" title="Başlık">Başlık</button>
+            <button type="button" (click)="insert(ta, '- ')" title="Madde">• Madde</button>
+            <button type="button" (click)="insert(ta, '! ')" title="Akılda Kalsın kutusu">📌 Akılda Kalsın</button>
+          </div>
+          <textarea #ta rows="16" [value]="body()" (input)="onText('body', $event)" [maxLength]="limits.body"
+            placeholder="Notunu buraya yaz..."></textarea>
+          <small class="mn-hint">
+            Satır başına <b>#</b> yazarsan başlık, <b>-</b> yazarsan madde, <b>!</b> yazarsan "Akılda Kalsın" kutusu olur.
+            {{ body().length }}/{{ limits.body }}
+          </small>
+        </div>
+      </section>
+
+      <article #page class="nn-page mn-page" [attr.data-color]="color()" [class.board]="board()">
+        @if (board()) {
+          <button type="button" class="nn-board-exit no-print" (click)="toggleBoard()" aria-label="Tahta modundan çık">✕</button>
+        }
+        <header class="nn-head">
+          <div class="nn-kunye">
+            <span>{{ icon(subject()) }} {{ grade() ? grade() + '. Sınıf ' : '' }}{{ subject() || (isTeacher() ? 'Ders notum' : 'Kendi notum') }}</span>
+          </div>
+          <h1>{{ title() || 'Başlıksız not' }}</h1>
+        </header>
+
+        @for (b of blocks(); track $index) {
+          @switch (b.kind) {
+            @case ('heading') {
+              <section class="nn-section"><h2>{{ b.text }}</h2></section>
+            }
+            @case ('list') {
+              <ul class="mn-list">
+                @for (i of b.items; track $index) {
+                  <li>{{ i }}</li>
+                }
+              </ul>
+            }
+            @case ('remember') {
+              <aside class="nn-remember mn-remember"><p>📌 {{ b.text }}</p></aside>
+            }
+            @default {
+              <p class="mn-text">{{ b.text }}</p>
+            }
+          }
+        } @empty {
+          <p class="nn-soon">Henüz bir şey yazmadın.</p>
+        }
+
+        @if (linkedSlug(); as slug) {
+          <p class="mn-link no-print"><a [routerLink]="['/defter-notlari', slug]">📒 Bu temanın defter notunu aç →</a></p>
+        }
+        <footer class="nn-foot">{{ isTeacher() ? 'Öğretmen notu' : 'Öğrenci notu' }} · OdivonSchool Notlarım</footer>
+      </article>
+    </div>
+  }
+</div>

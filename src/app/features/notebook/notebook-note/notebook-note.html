@@ -119,6 +119,8 @@
       @if (n.categoryId) {
         <a class="btn primary" [routerLink]="['/test', n.categoryId]">📝 Bu konudan test çöz</a>
       }
+      <a class="btn outline" routerLink="/defter-notlari/notlarim/yeni"
+        [queryParams]="{ baslik: n.title, ders: n.subject, sinif: n.grade, tema: n.slug }">✍️ Kendi notumu yaz</a>
       <a class="btn outline" routerLink="/kutuphane" [queryParams]="{ sinif: n.grade, ders: n.subject }">📚 Ders kitabını aç</a>
       @if (n.sourceUrl) {
         <a class="btn outline" [href]="n.sourceUrl" target="_blank" rel="noopener">MEB programında gör ↗</a>
