@@ -1,0 +1,148 @@
+<div class="ex-page container animate-fade-in">
+  <div class="ex-top">
+    <a routerLink="/panel" class="ex-back">← Panele dön</a>
+    @if (phase() === 'exam' && clock()) {
+      <span class="ex-clock" [class.low]="(remainingMs() ?? 0) < 60000">⏱ {{ clock() }}</span>
+    }
+  </div>
+
+  @switch (phase()) {
+    @case ('loading') {
+      <div class="card ex-card center"><p>Sınav yükleniyor…</p></div>
+    }
+
+    @case ('error') {
+      <div class="card ex-card center">
+        <div class="ex-emoji">⚠️</div>
+        <p>{{ error() }}</p>
+      </div>
+    }
+
+    @case ('intro') {
+      <div class="card ex-card center">
+        <div class="ex-emoji">📝</div>
+        <h1>{{ assignment().title }}</h1>
+        <ul class="ex-facts">
+          <li><b>{{ total() }}</b> soru</li>
+          <li><b>{{ assignment().timeLimitMin ? assignment().timeLimitMin + ' dakika' : 'Süre sınırı yok' }}</b></li>
+          @if (assignment().subject) { <li>{{ assignment().subject }}</li> }
+        </ul>
+        <p class="ex-note">
+          Sınavı <b>bir kez</b> çözebilirsin. Soruların arasında gezip cevabını değiştirebilirsin; bitirince “Sınavı bitir”e bas.
+          @if (assignment().timeLimitMin) { Süre bitince cevapların kendiliğinden gönderilir. }
+        </p>
+        @if (overdue()) {
+          <p class="ex-warn">Son gün geçti ama hâlâ çözebilirsin; öğretmenin geç teslim olarak görür.</p>
+        }
+        <button type="button" class="btn primary lg" (click)="start()">Sınava başla</button>
+      </div>
+    }
+
+    @case ('exam') {
+      @if (error()) {
+        <div class="t-alert danger">{{ error() }}</div>
+      }
+      @if (question(); as q) {
+        <div class="card ex-card">
+          <div class="ex-qhead">
+            <span class="ex-qnum">Soru {{ current() + 1 }} / {{ total() }}</span>
+            <span class="ex-progress">{{ answeredCount() }} cevaplandı</span>
+          </div>
+          <p class="ex-prompt">{{ q.prompt }}</p>
+          <div class="ex-options">
+            @for (o of q.options; track $index; let i = $index) {
+              <button type="button" class="ex-opt" [class.chosen]="answers()[qIndex()] === i" (click)="choose(i)">
+                <span class="ex-letter">{{ letters[i] }}</span>
+                <span>{{ o }}</span>
+              </button>
+            }
+          </div>
+          <div class="ex-nav">
+            <button type="button" class="btn outline" [disabled]="current() === 0" (click)="go(current() - 1)">← Önceki</button>
+            @if (current() < total() - 1) {
+              <button type="button" class="btn primary" (click)="go(current() + 1)">Sonraki →</button>
+            } @else {
+              <button type="button" class="btn success" (click)="confirmOpen.set(true)">Sınavı bitir</button>
+            }
+          </div>
+        </div>
+
+        <div class="card ex-grid-card">
+          <div class="ex-grid">
+            @for (pos of order(); track $index; let p = $index) {
+              <button type="button" class="ex-dot" [class.current]="p === current()" [class.done]="answerAt(p) >= 0" (click)="go(p)">{{ p + 1 }}</button>
+            }
+          </div>
+          <button type="button" class="btn sm outline" (click)="confirmOpen.set(true)">Sınavı bitir</button>
+        </div>
+      }
+
+      @if (confirmOpen()) {
+        <div class="t-drawer-backdrop" (click)="confirmOpen.set(false)"></div>
+        <div class="card ex-confirm" role="dialog">
+          <h3>Sınavı bitirmek istiyor musun?</h3>
+          @if (blankCount() > 0) {
+            <p><b>{{ blankCount() }}</b> soruyu boş bıraktın.</p>
+          } @else {
+            <p>Bütün soruları cevapladın.</p>
+          }
+          <p class="ex-note">Gönderdikten sonra cevaplarını değiştiremezsin.</p>
+          <div class="ex-nav">
+            <button type="button" class="btn outline" (click)="confirmOpen.set(false)">Geri dön</button>
+            <button type="button" class="btn success" (click)="handIn()">Gönder</button>
+          </div>
+        </div>
+      }
+    }
+
+    @case ('sending') {
+      <div class="card ex-card center"><p>Cevapların gönderiliyor…</p></div>
+    }
+
+    @case ('result') {
+      <div class="card ex-card center">
+        <div class="ex-emoji">🎉</div>
+        <h1>{{ assignment().title }}</h1>
+        @if (score(); as s) {
+          <div class="ex-score">{{ s.points }}<small>/100</small></div>
+          <ul class="ex-facts">
+            <li class="ok"><b>{{ s.correct }}</b> doğru</li>
+            <li class="bad"><b>{{ s.wrong }}</b> yanlış</li>
+            <li><b>{{ s.blank }}</b> boş</li>
+          </ul>
+        } @else {
+          <p>Cevapların öğretmenine ulaştı.</p>
+        }
+        @if (!assignment().showAnswers) {
+          <p class="ex-note">Öğretmenin doğru cevapları şimdilik göstermiyor.</p>
+        }
+      </div>
+
+      @if (assignment().showAnswers && key(); as k) {
+        <h2 class="ex-review-title">Cevap anahtarı</h2>
+        @for (q of questions(); track $index; let i = $index) {
+          <div class="card ex-review" [class.ok]="markFor(i) === true" [class.bad]="markFor(i) === false">
+            <div class="ex-qhead">
+              <span class="ex-qnum">{{ i + 1 }}.</span>
+              <span class="ex-progress">
+                {{ markFor(i) === true ? '✓ Doğru' : markFor(i) === false ? '✗ Yanlış' : '– Boş' }}
+              </span>
+            </div>
+            <p class="ex-prompt sm">{{ q.prompt }}</p>
+            <ul class="ex-review-opts">
+              @for (o of q.options; track $index; let j = $index) {
+                <li [class.correct]="j === k.correct[i]" [class.mine]="sheet()?.answers?.[i] === j && j !== k.correct[i]">
+                  <b>{{ letters[j] }})</b> {{ o }}
+                  @if (sheet()?.answers?.[i] === j) { <small>· senin cevabın</small> }
+                </li>
+              }
+            </ul>
+            @if (k.explanations[i] && markFor(i) !== true) {
+              <p class="ex-explain">💡 {{ k.explanations[i] }}</p>
+            }
+          </div>
+        }
+      }
+    }
+  }
+</div>

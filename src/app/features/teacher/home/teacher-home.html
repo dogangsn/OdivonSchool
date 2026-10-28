@@ -3,10 +3,12 @@
     <div>
       <span class="t-badge">🧑‍🏫 Öğretmen Paneli</span>
       <h1>Hoş geldiniz, {{ appUser()?.displayName || 'Öğretmenim' }}!</h1>
-      <p>Sınıf kurun, kodu öğrencilerinizle paylaşın, ödevleri oyun olarak verin ve sonuçları buradan izleyin.</p>
+      <p>Sınıf kurun, kodu öğrencilerinizle paylaşın, kendi sorularınızla sınav yapın, ödevleri oyun olarak verin ve sonuçları buradan izleyin.</p>
     </div>
     <div class="t-hero-actions">
       <button type="button" class="btn-play small" (click)="openDrawer()">+ Yeni sınıf</button>
+      <a routerLink="/ogretmen/sorular" class="t-hero-link">🗂️ Soru bankam</a>
+      <a routerLink="/ogretmen/sinav/yeni" class="t-hero-link">📝 Sınav oluştur</a>
       <a routerLink="/ogretmen/icerik" class="t-hero-link">✍️ İçeriklerim</a>
     </div>
   </section>

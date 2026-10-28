@@ -1,0 +1,131 @@
+<div class="t-page container wide animate-fade-in er">
+  <div class="t-page-head">
+    <div>
+      <a [routerLink]="['/ogretmen/sinif', classId]" [queryParams]="{ sekme: 'odevler' }" class="t-crumb no-print">← {{ classroom()?.name || 'Sınıf' }}</a>
+      <h1>{{ assignment()?.title || 'Sınav raporu' }}</h1>
+      @if (assignment(); as a) {
+        <p class="t-sub">
+          {{ classroom()?.name }} · {{ questions().length }} soru ·
+          {{ a.timeLimitMin ? a.timeLimitMin + ' dk' : 'süresiz' }} · Verildi: {{ a.createdAt | date: 'd MMM y' }}
+          @if (a.dueAt) { · Son gün: {{ a.dueAt | date: 'd MMM' }} }
+        </p>
+      }
+    </div>
+    <div class="t-head-actions no-print">
+      <button type="button" class="btn outline" (click)="print()">🖨️ Yazdır</button>
+    </div>
+  </div>
+
+  @if (assignment() === null) {
+    <div class="t-alert danger">Bu sınav bulunamadı.</div>
+  } @else {
+    <div class="er-stats">
+      <div class="card stat"><b>{{ results().length }}/{{ members().length }}</b><span>öğrenci çözdü</span></div>
+      <div class="card stat"><b>{{ average() ?? '–' }}</b><span>sınıf ortalaması (100 üzerinden)</span></div>
+      <div class="card stat"><b>{{ results().length ? results()[0].score.points : '–' }}</b><span>en yüksek puan</span></div>
+    </div>
+
+    @if (notTaken().length) {
+      <div class="not-done">
+        <span class="nd-label">Henüz çözmeyenler:</span>
+        @for (m of notTaken(); track m.uid) {
+          <span class="t-pill amber">{{ m.displayName }}</span>
+        }
+      </div>
+    }
+
+    <div class="t-tabs no-print">
+      <button type="button" [class.active]="view() === 'ogrenci'" (click)="view.set('ogrenci')">👩‍🎓 Öğrenciler</button>
+      <button type="button" [class.active]="view() === 'soru'" (click)="view.set('soru')">❓ Soru analizi</button>
+      <button type="button" [class.active]="view() === 'kazanim'" (click)="view.set('kazanim')">🎯 Kazanımlar</button>
+    </div>
+
+    @if (view() === 'ogrenci') {
+      @if (results().length) {
+        <div class="table-responsive card">
+          <table class="modern-table er-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Öğrenci</th>
+                <th>Puan</th>
+                <th>D</th>
+                <th>Y</th>
+                <th>B</th>
+                <th>Süre</th>
+                <th>Teslim</th>
+                @for (q of questions(); track $index; let i = $index) {
+                  <th class="qcol">{{ i + 1 }}</th>
+                }
+              </tr>
+            </thead>
+            <tbody>
+              @for (r of results(); track r.sheet.uid; let i = $index) {
+                <tr>
+                  <td>{{ i + 1 }}</td>
+                  <td><strong>{{ r.sheet.displayName }}</strong></td>
+                  <td><span class="score" [class]="'score ' + tone(r.score.points)">{{ r.score.points }}</span></td>
+                  <td>{{ r.score.correct }}</td>
+                  <td>{{ r.score.wrong }}</td>
+                  <td>{{ r.score.blank }}</td>
+                  <td>{{ minutes(r.sheet.durationMs) }}</td>
+                  <td>{{ r.sheet.submittedAt | date: 'd MMM HH:mm' }}</td>
+                  @for (m of r.score.marks; track $index; let j = $index) {
+                    <td class="qcol mark" [class.ok]="m === true" [class.bad]="m === false"
+                      [title]="m === null ? 'Boş' : 'Cevabı: ' + letters[r.sheet.answers[j]]">
+                      {{ m === true ? '✓' : m === false ? letters[r.sheet.answers[j]] : '–' }}
+                    </td>
+                  }
+                </tr>
+              }
+            </tbody>
+          </table>
+        </div>
+        <p class="hint">✓ doğru · harf: öğrencinin işaretlediği yanlış şık · – boş</p>
+      } @else {
+        <p class="t-sub">Henüz sınavı çözen öğrenci yok.</p>
+      }
+    }
+
+    @if (view() === 'soru') {
+      <div class="er-questions">
+        @for (s of questionStats(); track s.index) {
+          <div class="card er-q">
+            <div class="er-q-head">
+              <span class="er-q-num">{{ s.index + 1 }}</span>
+              <p>{{ s.prompt }}</p>
+              <span class="score" [class]="'score ' + tone(s.correctPct)">{{ s.correctPct === null ? '–' : '%' + s.correctPct }}</span>
+            </div>
+            <div class="er-picks">
+              @for (n of s.picks; track $index; let j = $index) {
+                <span class="pick" [class.correct]="key()?.correct?.[s.index] === j">
+                  <b>{{ letters[j] }}</b> {{ questions()[s.index].options[j] }} <small>· {{ n }} kişi</small>
+                </span>
+              }
+              @if (s.blank) { <span class="pick"><b>Boş</b> <small>· {{ s.blank }} kişi</small></span> }
+            </div>
+            @if (s.outcomeCode) { <small class="hint">Kazanım: {{ s.outcomeCode }}</small> }
+          </div>
+        }
+      </div>
+    }
+
+    @if (view() === 'kazanim') {
+      @if (outcomeStats().length) {
+        <div class="card er-outcomes">
+          @for (o of outcomeStats(); track o.code) {
+            <div class="er-out-row">
+              <span class="code">{{ o.code }}</span>
+              <div class="bar"><span [class]="tone(o.pct)" [style.width.%]="o.pct"></span></div>
+              <b>%{{ o.pct }}</b>
+              <small>{{ o.questions }} soru</small>
+            </div>
+          }
+        </div>
+        <p class="hint">En düşük başarılı kazanımlar üstte. Bu kazanımları tekrar etmek için havuzdan aynı konuda ödev verebilirsiniz.</p>
+      } @else {
+        <p class="t-sub">Bu sınavdaki sorular bir kazanıma bağlı değil.</p>
+      }
+    }
+  }
+</div>

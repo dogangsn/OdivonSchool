@@ -14,8 +14,11 @@ export interface Question {
   explanation: string;      // öğretici metin - shown when the user answers incorrectly
   difficulty: 1 | 2 | 3 | 4 | 5;
   outcomeCode?: string;     // MEB öğrenme çıktısı kodu this question measures, e.g. MAT.3.2.6
-  source: 'manual' | 'ai-generated';
+  source: 'manual' | 'ai-generated' | 'teacher';
   aiModel?: string;         // which AI generated it, if applicable
+  authorId?: string;        // source 'teacher': who wrote it
+  authorName?: string;
+  grade?: number;
   reviewStatus: 'draft' | 'approved' | 'rejected'; // admin approval gate for AI questions
   createdAt: number;
   usageCount: number;       // how many times served

@@ -1,0 +1,138 @@
+.qb-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 16px;
+
+  .stat {
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+
+    b {
+      font-size: 1.5rem;
+      font-weight: 900;
+    }
+
+    span {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+  }
+}
+
+.qb-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.qb-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.qb-item {
+  padding: 0;
+  overflow: hidden;
+}
+
+.qb-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  border: none;
+  background: none;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+
+  @media (max-width: 640px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.qb-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.qb-prompt {
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.qb-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+
+  .code {
+    font-weight: 800;
+    color: var(--primary);
+    margin-left: 4px;
+  }
+}
+
+.qb-detail {
+  padding: 0 18px 16px;
+  border-top: 1px solid var(--border-light);
+}
+
+.qb-opts {
+  list-style: none;
+  padding: 12px 0 0;
+  margin: 0 0 10px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
+
+  li {
+    padding: 8px 12px;
+    border-radius: 10px;
+    background: var(--bg-alt);
+    font-size: 0.9rem;
+
+    &.correct {
+      background: var(--success-light);
+      color: var(--success-text);
+      font-weight: 700;
+    }
+  }
+}
+
+.qb-explain {
+  font-size: 0.86rem;
+  margin-bottom: 6px;
+}
+
+.hint {
+  font-size: 0.8rem;
+  color: var(--text-subtle);
+  margin-bottom: 8px;
+}
+
+.qb-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}

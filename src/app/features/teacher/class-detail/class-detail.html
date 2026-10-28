@@ -9,6 +9,7 @@
       <div class="t-head-actions">
         <button type="button" class="btn live-btn" (click)="openLive()">⚡ Canlı yarışma</button>
         <button type="button" class="btn duel-btn" (click)="openDuel()">⚔️ Karşılaşma kur</button>
+        <a class="btn outline" routerLink="/ogretmen/sinav/yeni" [queryParams]="{ sinif: classId }">📝 Sınav oluştur</a>
         <button type="button" class="btn primary" (click)="openDrawer()">+ Ödev ver</button>
       </div>
     </div>
@@ -139,6 +140,9 @@
                 }
 
                 <div class="hw-actions">
+                  @if (a.kind === 'exam') {
+                    <a class="btn sm primary" [routerLink]="['/ogretmen/sinif', classId, 'sinav', a.id]">📊 Sınav raporu</a>
+                  }
                   <button type="button" class="btn sm danger" (click)="deleteAssignment(a)">Ödevi sil</button>
                 </div>
               </div>

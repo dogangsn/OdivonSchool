@@ -155,6 +155,29 @@ export const routes: Routes = [
     loadComponent: () => import('./features/teacher/content-editor/content-editor').then(m => m.ContentEditor),
   },
   {
+    path: 'ogretmen/sorular',
+    canActivate: [teacherGuard],
+    loadComponent: () =>
+      import('./features/teacher/question-bank/question-list/question-list').then(m => m.QuestionList),
+  },
+  {
+    // ':id' is 'yeni' for a new question; one route so "kaydet ve yeni" keeps the konu.
+    path: 'ogretmen/sorular/:id',
+    canActivate: [teacherGuard],
+    loadComponent: () =>
+      import('./features/teacher/question-bank/question-editor/question-editor').then(m => m.QuestionEditor),
+  },
+  {
+    path: 'ogretmen/sinav/yeni',
+    canActivate: [teacherGuard],
+    loadComponent: () => import('./features/teacher/exam-builder/exam-builder').then(m => m.ExamBuilder),
+  },
+  {
+    path: 'ogretmen/sinif/:classId/sinav/:assignmentId',
+    canActivate: [teacherGuard],
+    loadComponent: () => import('./features/teacher/exam-report/exam-report').then(m => m.ExamReport),
+  },
+  {
     path: 'ogretmen/sinif/:classId/kartlar',
     canActivate: [teacherGuard],
     loadComponent: () =>

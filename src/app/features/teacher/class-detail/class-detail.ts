@@ -67,6 +67,7 @@ export class ClassDetail {
     { kind: 'custom-match', title: '🧠 Eşleştirme setim', hint: 'Kendi kartlarınla Eşleştir' },
     { kind: 'pool-quiz', title: '🏆 Havuzdan konu', hint: 'MEB konusundan 10 soru' },
     { kind: 'speed', title: '⚡ Hız Turu', hint: 'Matematik, otomatik soru' },
+    { kind: 'exam', title: '📝 Sınav', hint: 'Soru bankam + havuzdan, tek seferlik' },
   ];
 
   classroom = toSignal(
@@ -91,7 +92,11 @@ export class ClassDetail {
     { initialValue: [] as TestCategory[] }
   );
 
-  tab = signal<Tab>('takip');
+  tab = signal<Tab>(
+    (['takip', 'odevler', 'ogrenciler', 'mesajlar'] as Tab[]).find(
+      (t) => t === this.route.snapshot.queryParamMap.get('sekme')
+    ) ?? 'takip'
+  );
   copied = signal(false);
   notice = signal<{ type: 'success' | 'danger'; text: string } | null>(null);
 
@@ -225,6 +230,10 @@ export class ClassDetail {
   }
 
   chooseKind(kind: AssignmentKind) {
+    if (kind === 'exam') {
+      this.router.navigate(['/ogretmen/sinav/yeni'], { queryParams: { sinif: this.classId } });
+      return;
+    }
     this.kind.set(kind);
     this.selectedRef.set(null);
     this.title = '';
@@ -272,6 +281,8 @@ export class ClassDetail {
       case 'speed':
         data = { ...base, subject: 'Matematik', presetId: ref };
         break;
+      case 'exam':
+        return; // built on its own page
     }
 
     this.saving.set(true);

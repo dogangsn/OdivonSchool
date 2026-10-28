@@ -161,10 +161,40 @@ service cloud.firestore {
       allow write: if isAdmin();
     }
 
+    // A teacher's question offered to the shared pool: always a draft with
+    // id t_<teacherQuestionId>, and only an admin can approve it.
+    function isValidTeacherPoolQuestion(questionId, d) {
+      return questionId.matches('^t_[A-Za-z0-9]+$') &&
+        d.keys().hasOnly(['categoryId', 'level', 'subject', 'grade', 'prompt', 'options', 'correctOptionId',
+                          'explanation', 'difficulty', 'outcomeCode', 'source', 'authorId', 'authorName',
+                          'reviewStatus', 'createdAt', 'usageCount', 'correctCount']) &&
+        d.source == 'teacher' && d.reviewStatus == 'draft' &&
+        d.authorId == request.auth.uid &&
+        d.authorName is string && d.authorName.size() <= 80 &&
+        d.categoryId is string && d.categoryId.size() > 0 && d.categoryId.size() <= 120 &&
+        exists(/databases/$(database)/documents/categories/$(d.categoryId)) &&
+        d.subject is string && d.subject.size() <= 60 &&
+        d.grade is int && d.grade >= 1 && d.grade <= 12 &&
+        d.prompt is string && d.prompt.size() >= 15 && d.prompt.size() <= 1000 &&
+        d.options is list && d.options.size() == 4 &&
+        d.correctOptionId in ['a', 'b', 'c', 'd'] &&
+        d.explanation is string && d.explanation.size() >= 20 && d.explanation.size() <= 1000 &&
+        d.difficulty is int && d.difficulty >= 1 && d.difficulty <= 5 &&
+        (!('outcomeCode' in d) || (d.outcomeCode is string && d.outcomeCode.size() <= 60)) &&
+        d.createdAt is int && d.usageCount == 0 && d.correctCount == 0;
+    }
+
     match /questions/{questionId} {
       // Approved questions can be read by anyone (including guests solving trial tests); admins manage drafts.
-      allow read: if resource.data.reviewStatus == 'approved' || isAdmin();
-      allow write: if isAdmin();
+      // Teachers also see the copies they offered to the pool.
+      allow read: if resource.data.reviewStatus == 'approved' || isAdmin() ||
+        (isSignedIn() && resource.data.authorId == request.auth.uid);
+      allow create: if isAdmin() ||
+        (isTeacherOrAdmin() && isValidTeacherPoolQuestion(questionId, request.resource.data));
+      allow update: if isAdmin();
+      // A teacher may take back their own offer while it still waits for review.
+      allow delete: if isAdmin() ||
+        (isSignedIn() && resource.data.authorId == request.auth.uid && resource.data.reviewStatus == 'draft');
     }
 
     match /testAttempts/{attemptId} {
@@ -533,6 +563,31 @@ service cloud.firestore {
           request.resource.data.title is string && request.resource.data.title.size() <= 120;
         allow delete: if isClassTeacher(classId);
 
+        // Sınav: the answer key stays hidden until the student hands in.
+        match /examKey/{docId} {
+          allow read: if isClassTeacher(classId) || isAdmin() ||
+            (isSignedIn() &&
+             exists(/databases/$(database)/documents/classes/$(classId)/assignments/$(assignmentId)/examAnswers/$(request.auth.uid)));
+          allow write: if isClassTeacher(classId) && docId == 'key';
+        }
+
+        // One answer sheet per student, handed in once and never changed.
+        match /examAnswers/{studentId} {
+          allow read: if request.auth.uid == studentId || isClassTeacher(classId) || isAdmin();
+          allow create: if request.auth.uid == studentId && isClassMember(classId) &&
+            request.resource.data.keys().hasOnly(['uid', 'displayName', 'answers', 'startedAt', 'submittedAt', 'durationMs']) &&
+            request.resource.data.uid == studentId &&
+            request.resource.data.displayName is string && request.resource.data.displayName.size() <= 80 &&
+            request.resource.data.answers is list &&
+            get(/databases/$(database)/documents/classes/$(classId)/assignments/$(assignmentId)).data.kind == 'exam' &&
+            request.resource.data.answers.size() ==
+              get(/databases/$(database)/documents/classes/$(classId)/assignments/$(assignmentId)).data.questionCount &&
+            request.resource.data.startedAt is int && request.resource.data.submittedAt is int &&
+            request.resource.data.durationMs is int && request.resource.data.durationMs >= 0;
+          allow update: if false;
+          allow delete: if isClassTeacher(classId);
+        }
+
         match /submissions/{studentId} {
           allow read: if request.auth.uid == studentId || isClassTeacher(classId) || isAdmin();
           allow create, update: if request.auth.uid == studentId && isClassMember(classId) &&
@@ -556,6 +611,33 @@ service cloud.firestore {
 
     // A teacher's own tests and matching sets. Students get a copy inside
     // each assignment, so only the owner reads these.
+    // Öğretmen soru bankası: only the owner reads and writes their questions.
+    function isValidTeacherQuestion(d) {
+      return d.keys().hasOnly(['ownerId', 'ownerName', 'grade', 'level', 'subject', 'categoryId', 'topic',
+                               'outcomeCode', 'outcomeText', 'prompt', 'options', 'correctIndex',
+                               'explanation', 'difficulty', 'poolSubmittedAt', 'createdAt', 'updatedAt']) &&
+        d.ownerId == request.auth.uid &&
+        d.ownerName is string && d.ownerName.size() <= 80 &&
+        d.grade is int && d.grade >= 1 && d.grade <= 12 &&
+        d.subject is string && d.subject.size() <= 60 &&
+        d.categoryId is string && d.categoryId.size() > 0 && d.categoryId.size() <= 120 &&
+        d.topic is string && d.topic.size() <= 200 &&
+        d.prompt is string && d.prompt.size() > 0 && d.prompt.size() <= 1000 &&
+        d.options is list && d.options.size() == 4 &&
+        d.correctIndex is int && d.correctIndex >= 0 && d.correctIndex < 4 &&
+        d.explanation is string && d.explanation.size() <= 1000 &&
+        d.difficulty is int && d.difficulty >= 1 && d.difficulty <= 5 &&
+        d.createdAt is int && d.updatedAt is int;
+    }
+
+    match /teacherQuestions/{questionId} {
+      allow read: if isSignedIn() && (resource.data.ownerId == request.auth.uid || isAdmin());
+      allow create: if isTeacherOrAdmin() && isValidTeacherQuestion(request.resource.data);
+      allow update: if isSignedIn() && resource.data.ownerId == request.auth.uid &&
+        isValidTeacherQuestion(request.resource.data);
+      allow delete: if isSignedIn() && resource.data.ownerId == request.auth.uid;
+    }
+
     match /teacherContent/{contentId} {
       allow read: if isSignedIn() && (resource.data.ownerId == request.auth.uid || isAdmin());
       allow create: if isSignedIn() && isTeacherOrAdmin() &&

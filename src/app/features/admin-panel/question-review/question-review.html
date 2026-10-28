@@ -178,6 +178,9 @@
         <span class="count-badge">
           <strong>{{ draftTotal() }}</strong> Taslak Soru
         </span>
+        <button type="button" class="btn sm" [class.primary]="teacherOnly()" [class.outline]="!teacherOnly()" (click)="setTeacherOnly(!teacherOnly())">
+          🧑‍🏫 Öğretmen önerileri ({{ teacherDrafts().length }})
+        </button>
 
         @if (draftQuestions().length > 0) {
           <button
@@ -200,7 +203,7 @@
       </div>
     </div>
 
-    @if (draftQuestions().length === 0) {
+    @if (visibleDrafts().length === 0) {
       <div class="empty-drafts card">
         <div class="empty-icon">🎉</div>
         <h3>Tüm Sorular İncelendi ve Canlıda!</h3>
@@ -249,7 +252,7 @@
       </div>
 
       <div class="draft-cards-list">
-        @for (q of draftQuestions(); track q.id) {
+        @for (q of visibleDrafts(); track q.id) {
           <div class="draft-card card card-glow" [class.selected]="isSelected(q.id)">
             <div class="draft-card-header">
               <div class="draft-badges">
@@ -261,6 +264,9 @@
                   [attr.aria-label]="'Soruyu seç: ' + q.prompt"
                 />
                 <span class="badge badge-warning">Onay Bekliyor</span>
+                @if (q.source === 'teacher') {
+                  <span class="badge badge-primary" title="Öğretmen soru bankasından önerildi">🧑‍🏫 {{ q.authorName || 'Öğretmen' }}</span>
+                }
                 <span class="category-slug">{{ q.subject }} · {{ q.categoryId }}</span>
                 @if (q.outcomeCode) {
                   <span class="difficulty-chip" title="MEB öğrenme çıktısı">{{ q.outcomeCode }}</span>
@@ -348,12 +354,14 @@
       </div>
 
       <!-- Sayfalama -->
+      @if (!teacherOnly()) {
       <nav class="pagination" aria-label="Taslak soru sayfaları">
         <button type="button" class="btn outline sm" [disabled]="pageNumber() === 1" (click)="firstPage()">« İlk</button>
         <button type="button" class="btn outline sm" [disabled]="pageNumber() === 1" (click)="prevPage()">‹ Önceki</button>
         <span class="page-info">Sayfa {{ pageNumber() }} / {{ totalPages() }}</span>
         <button type="button" class="btn outline sm" [disabled]="!hasNextPage()" (click)="nextPage()">Sonraki ›</button>
       </nav>
+      }
     }
   </div>
 </div>

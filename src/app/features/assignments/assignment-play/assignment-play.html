@@ -15,6 +15,9 @@
         backLink="/panel"
       />
     }
+    @case ('exam') {
+      <app-exam-play [assignment]="a" [ref]="ref" />
+    }
     @case ('custom-match') {
       @if (matchSet(); as set) {
         <app-memory-match [customSet]="set" [assignment]="ref" backLink="/panel" />

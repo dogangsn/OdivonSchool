@@ -1,0 +1,186 @@
+<div class="t-page container wide animate-fade-in">
+  <div class="t-page-head">
+    <div>
+      <a routerLink="/ogretmen/sorular" class="t-crumb">← Soru bankam</a>
+      <h1>Sınav oluştur</h1>
+      <p class="t-sub">Soru bankanızdan ve ortak havuzdan soru seçin, sınıflarınıza gönderin. Öğrenciler tek seferde çözer; sonuçları soru ve kazanım bazında görürsünüz.</p>
+    </div>
+    <div class="t-head-actions">
+      <a class="btn outline" routerLink="/ogretmen/sorular/yeni">+ Yeni soru yaz</a>
+    </div>
+  </div>
+
+  @if (errors().length) {
+    <div class="t-alert danger">
+      <ul class="err-list">
+        @for (e of errors(); track $index) {
+          <li>{{ e }}</li>
+        }
+      </ul>
+    </div>
+  }
+
+  <div class="eb-layout">
+    <!-- Picker -->
+    <section class="card eb-picker">
+      <div class="t-tabs">
+        <button type="button" [class.active]="source() === 'bank'" (click)="chooseSource('bank')">
+          🗂️ Soru bankam <span class="count">{{ bankQuestions().length }}</span>
+        </button>
+        <button type="button" [class.active]="source() === 'pool'" (click)="chooseSource('pool')">🌐 Ortak havuz</button>
+      </div>
+
+      <div class="form-group">
+        <label>Sınıf seviyesi</label>
+        <div class="t-chip-row">
+          @for (g of grades; track g) {
+            <button type="button" [class.selected]="grade() === g" (click)="chooseGrade(g)">{{ g }}</button>
+          }
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Ders</label>
+        <div class="t-chip-row">
+          @if (source() === 'bank') {
+            <button type="button" [class.selected]="subject() === null" (click)="chooseSubject(null)">Hepsi</button>
+          }
+          @for (s of source() === 'bank' ? bankSubjects() : subjects(); track s) {
+            <button type="button" [class.selected]="subject() === s" (click)="chooseSubject(s)">{{ s }}</button>
+          }
+        </div>
+      </div>
+      @if (subject()) {
+        <div class="form-group">
+          <label for="ebTopic">Konu</label>
+          <select id="ebTopic" [ngModel]="categoryId()" (ngModelChange)="chooseTopic($event)">
+            <option value="">{{ source() === 'bank' ? 'Tüm konular' : 'Konu seçin' }}</option>
+            @for (c of topics(); track c.id) {
+              <option [value]="c.id">{{ c.topic }}</option>
+            }
+          </select>
+        </div>
+      }
+
+      <div class="eb-candidates">
+        @if (source() === 'bank') {
+          @for (q of bankFiltered(); track q.id) {
+            <div class="cand" [class.added]="selectedRefs().has('b:' + q.id)">
+              <div class="cand-text">
+                <span class="cand-prompt">{{ q.prompt }}</span>
+                <small>{{ q.topic }} @if (q.outcomeCode) { · <b>{{ q.outcomeCode }}</b> }</small>
+              </div>
+              <button type="button" class="btn sm" [disabled]="selectedRefs().has('b:' + q.id)" (click)="addBank(q)">
+                {{ selectedRefs().has('b:' + q.id) ? '✓ Eklendi' : '+ Ekle' }}
+              </button>
+            </div>
+          } @empty {
+            <p class="hint">
+              Bu seçimde bankanızda soru yok.
+              <a routerLink="/ogretmen/sorular/yeni" [queryParams]="{ sinif: grade() }">Yeni soru yazın</a>
+              ya da ortak havuzdan seçin.
+            </p>
+          }
+        } @else {
+          @if (!categoryId()) {
+            <p class="hint">Havuzdaki onaylı soruları görmek için ders ve konu seçin.</p>
+          } @else if (poolLoading()) {
+            <p class="hint">Sorular yükleniyor…</p>
+          } @else {
+            @for (item of poolItems() ?? []; track item.ref) {
+              <div class="cand" [class.added]="selectedRefs().has(item.ref)">
+                <div class="cand-text">
+                  <span class="cand-prompt">{{ item.question.prompt }}</span>
+                  @if (item.question.outcomeCode) { <small><b>{{ item.question.outcomeCode }}</b></small> }
+                </div>
+                <button type="button" class="btn sm" [disabled]="selectedRefs().has(item.ref)" (click)="add(item)">
+                  {{ selectedRefs().has(item.ref) ? '✓ Eklendi' : '+ Ekle' }}
+                </button>
+              </div>
+            } @empty {
+              <p class="hint">Bu konuda havuzda henüz onaylı soru yok.</p>
+            }
+          }
+        }
+      </div>
+      @if ((source() === 'bank' && bankFiltered().length > 1) || (source() === 'pool' && (poolItems()?.length ?? 0) > 1)) {
+        <button type="button" class="link-btn" (click)="addAllVisible()">+ Listedekilerin hepsini ekle</button>
+      }
+    </section>
+
+    <!-- Exam -->
+    <section class="eb-exam">
+      <div class="card eb-settings">
+        <div class="form-group">
+          <label for="ebTitle">Sınav başlığı</label>
+          <input id="ebTitle" type="text" maxlength="120" [(ngModel)]="title" placeholder="ör. 1. Dönem 1. Matematik Yazılısı" />
+        </div>
+        <div class="form-group">
+          <label>Sınıflar</label>
+          @if (classes() === undefined) {
+            <p class="hint">Yükleniyor…</p>
+          } @else {
+            <div class="t-chip-row">
+              @for (c of activeClasses(); track c.id) {
+                <button type="button" [class.selected]="classIds().has(c.id)" (click)="toggleClass(c.id)">{{ c.name }}</button>
+              } @empty {
+                <span class="hint">Önce <a routerLink="/ogretmen">bir sınıf oluşturun</a>.</span>
+              }
+            </div>
+          }
+        </div>
+        <div class="eb-row">
+          <div class="form-group">
+            <label>Süre</label>
+            <div class="t-chip-row">
+              @for (d of durations; track d) {
+                <button type="button" [class.selected]="timeLimitMin() === d" (click)="timeLimitMin.set(d)">{{ d ? d + ' dk' : 'Süresiz' }}</button>
+              }
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="ebDue">Son gün (isteğe bağlı)</label>
+            <input id="ebDue" type="date" [(ngModel)]="dueDate" />
+          </div>
+        </div>
+        <label class="check">
+          <input type="checkbox" [ngModel]="showAnswers()" (ngModelChange)="showAnswers.set($event)" />
+          <span>Öğrenci bitirince doğru cevapları ve açıklamaları görsün</span>
+        </label>
+        <label class="check">
+          <input type="checkbox" [ngModel]="shuffle()" (ngModelChange)="shuffle.set($event)" />
+          <span>Her öğrenciye soruları farklı sırada göster</span>
+        </label>
+      </div>
+
+      <div class="card eb-selected">
+        <div class="eb-sel-head">
+          <h3>Sorular <span class="t-pill indigo">{{ items().length }}/{{ maxQuestions }}</span></h3>
+          @if (mainSubject()) { <span class="hint">{{ mainSubject() }}</span> }
+        </div>
+        @for (item of items(); track item.ref; let i = $index) {
+          <div class="sel">
+            <span class="sel-num">{{ i + 1 }}</span>
+            <div class="sel-text">
+              <span>{{ item.question.prompt }}</span>
+              <small>
+                Cevap: <b>{{ letters[item.correct] }}</b>
+                · {{ item.ref.startsWith('p:') ? 'Ortak havuz' : 'Bankam' }}
+                @if (item.question.outcomeCode) { · {{ item.question.outcomeCode }} }
+              </small>
+            </div>
+            <div class="sel-actions">
+              <button type="button" class="icon-btn" [disabled]="i === 0" (click)="move(i, -1)" title="Yukarı">↑</button>
+              <button type="button" class="icon-btn" [disabled]="i === items().length - 1" (click)="move(i, 1)" title="Aşağı">↓</button>
+              <button type="button" class="icon-btn" (click)="remove(i)" title="Çıkar">✕</button>
+            </div>
+          </div>
+        } @empty {
+          <p class="hint">Soldan soru ekleyin.</p>
+        }
+        <button type="button" class="btn primary eb-save" [disabled]="saving()" (click)="save()">
+          {{ saving() ? 'Gönderiliyor…' : (classIds().size > 1 ? 'Sınavı ' + classIds().size + ' sınıfa gönder' : 'Sınavı gönder') }}
+        </button>
+      </div>
+    </section>
+  </div>
+</div>

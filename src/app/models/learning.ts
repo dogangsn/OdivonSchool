@@ -40,6 +40,8 @@ export interface AnsweredPoolQuestion {
   subject: string;
   outcomeCode: string | null;
   correct: boolean;
+  /** Counts for kazanım totals only (not a pool question, so no review card). */
+  noCard?: boolean;
 }
 
 export type OutcomeMastery = 'none' | 'weak' | 'learning' | 'mastered';

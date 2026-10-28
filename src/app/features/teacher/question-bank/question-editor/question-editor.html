@@ -1,0 +1,152 @@
+<div class="t-page container animate-fade-in qe">
+  <div class="t-page-head">
+    <div>
+      <a routerLink="/ogretmen/sorular" class="t-crumb">← Soru bankam</a>
+      <h1>{{ existing() ? 'Soruyu düzenle' : 'Yeni soru' }}</h1>
+      <p class="t-sub">Önce sınıf, ders ve müfredat konusunu seçin; soruyu kazanıma bağlayın. Sorular sınavlarınızda kullanılır, kriterlere uyanları ortak havuza da önerebilirsiniz.</p>
+    </div>
+    @if (savedCount()) {
+      <span class="t-pill green">Bu oturumda {{ savedCount() }} soru kaydedildi</span>
+    }
+  </div>
+
+  @if (notice()) {
+    <div class="t-alert success">{{ notice() }}</div>
+  }
+  @if (errors().length) {
+    <div class="t-alert danger">
+      <ul class="err-list">
+        @for (e of errors(); track $index) {
+          <li>{{ e }}</li>
+        }
+      </ul>
+    </div>
+  }
+
+  @if (loading()) {
+    <p class="t-sub">Yükleniyor…</p>
+  } @else {
+    <div class="qe-layout">
+      <div class="qe-main">
+        <section class="card qe-card">
+          <h2 class="qe-step"><span>1</span> Müfredat</h2>
+          <div class="form-group">
+            <label>Sınıf</label>
+            <div class="t-chip-row">
+              @for (g of grades; track g) {
+                <button type="button" [class.selected]="grade() === g" (click)="chooseGrade(g)">{{ g }}</button>
+              }
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Ders</label>
+            @if (subjects().length) {
+              <div class="t-chip-row">
+                @for (s of subjects(); track s) {
+                  <button type="button" [class.selected]="subject() === s" (click)="chooseSubject(s)">{{ s }}</button>
+                }
+              </div>
+            } @else {
+              <p class="hint">Bu sınıf için müfredat yükleniyor…</p>
+            }
+          </div>
+          @if (subject()) {
+            <div class="form-group">
+              <label for="qeTopic">Konu / tema</label>
+              <select id="qeTopic" [ngModel]="categoryId()" (ngModelChange)="chooseTopic($event)">
+                <option value="" disabled>Konu seçin</option>
+                @for (c of topics(); track c.id) {
+                  <option [value]="c.id">{{ topicLabel(c) }}</option>
+                }
+              </select>
+            </div>
+          }
+          @if (outcomes().length) {
+            <div class="form-group">
+              <label>Kazanım (öğrenme çıktısı)</label>
+              <div class="outcome-list">
+                @for (o of outcomes(); track o.code) {
+                  <button type="button" class="outcome" [class.selected]="outcomeCode() === o.code" (click)="outcomeCode.set(o.code)">
+                    <b>{{ o.code }}</b>
+                    <span>{{ o.text }}</span>
+                  </button>
+                }
+              </div>
+            </div>
+          } @else if (category()) {
+            <p class="hint">Bu konu genel bir başlık; MEB kazanımı bağlı değil. Kazanım takibi için mümkünse "tema" konularından birini seçin.</p>
+          }
+        </section>
+
+        <section class="card qe-card">
+          <h2 class="qe-step"><span>2</span> Soru</h2>
+          <div class="form-group">
+            <label for="qePrompt">Soru metni</label>
+            <textarea id="qePrompt" rows="4" maxlength="1000" [ngModel]="prompt()" (ngModelChange)="prompt.set($event)"
+              placeholder="ör. 3/4 kesrinin paydası kaçtır?"></textarea>
+            <span class="hint">{{ prompt().trim().length }}/1000</span>
+          </div>
+          <label class="field-label">Şıklar <span class="hint">— doğru cevabı harfine tıklayarak işaretleyin</span></label>
+          <div class="opt-list">
+            @for (opt of options(); track $index; let i = $index) {
+              <div class="opt-row" [class.correct]="correctIndex() === i">
+                <button type="button" class="opt-mark" (click)="correctIndex.set(i)" [title]="'Doğru cevap ' + letters[i] + ' olsun'">
+                  {{ correctIndex() === i ? '✓' : letters[i] }}
+                </button>
+                <input type="text" maxlength="300" [ngModel]="opt" (ngModelChange)="setOption(i, $event)" [placeholder]="letters[i] + ' şıkkı'" />
+              </div>
+            }
+          </div>
+          <div class="form-group explain">
+            <label for="qeExplain">Açıklama</label>
+            <textarea id="qeExplain" rows="3" maxlength="1000" [ngModel]="explanation()" (ngModelChange)="explanation.set($event)"
+              placeholder="Doğru cevabın neden doğru olduğunu kısaca anlatın. Öğrenci yanlış yaptığında bunu görür."></textarea>
+          </div>
+          <div class="form-group">
+            <label>Zorluk</label>
+            <div class="t-chip-row">
+              @for (d of difficulties; track d.value) {
+                <button type="button" [class.selected]="difficulty() === d.value" (click)="difficulty.set(d.value)">{{ d.label }}</button>
+              }
+            </div>
+          </div>
+        </section>
+
+        <div class="bottom-actions">
+          <button type="button" class="btn outline" [disabled]="saving()" (click)="save(true)">Kaydet ve yeni soru</button>
+          <button type="button" class="btn primary" [disabled]="saving()" (click)="save()">
+            {{ saving() ? 'Kaydediliyor…' : 'Kaydet' }}
+          </button>
+        </div>
+      </div>
+
+      <aside class="qe-side">
+        <section class="card pool-card">
+          <h3>🌱 Ortak havuz kriterleri</h3>
+          @if (alreadyPooled()) {
+            <p class="hint">Bu soru havuza önerildi. Burada yaptığınız değişiklikler yalnızca sizin bankanızda kalır; havuzdaki kopya değişmez.</p>
+          } @else {
+            <label class="pool-toggle">
+              <input type="checkbox" [ngModel]="sendToPool()" (ngModelChange)="sendToPool.set($event)" />
+              <span>Kaydederken ortak soru havuzuna da öner</span>
+            </label>
+            <ul class="criteria">
+              @for (c of criteria(); track c.id) {
+                <li [class.ok]="c.ok">
+                  <span class="mark">{{ c.ok ? '✓' : '○' }}</span>
+                  {{ c.label }}
+                </li>
+              }
+            </ul>
+            @if (duplicate(); as d) {
+              <p class="dup">Havuzdaki benzer soru: “{{ d.prompt }}”</p>
+            }
+            <p class="hint">
+              Kriterlere uyan sorular <b>onay bekleyen</b> olarak havuza gider. Ekibimiz inceleyip onaylayınca tüm öğrencilerin testlerinde çıkar ve öğretmen adınız soruda kayıtlı kalır.
+            </p>
+          }
+        </section>
+      </aside>
+    </div>
+  }
+</div>

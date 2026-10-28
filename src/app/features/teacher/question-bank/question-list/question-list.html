@@ -1,0 +1,109 @@
+<div class="t-page container animate-fade-in">
+  <div class="t-page-head">
+    <div>
+      <a routerLink="/ogretmen" class="t-crumb">← Öğretmen Paneli</a>
+      <h1>Soru bankam</h1>
+      <p class="t-sub">Müfredata bağlı kendi sorularınızı yazın, sınıflarınıza sınav olarak verin. Kriterlere uyan soruları ortak havuza önerebilirsiniz.</p>
+    </div>
+    <div class="t-head-actions">
+      <a class="btn primary" routerLink="/ogretmen/sorular/yeni">+ Yeni soru</a>
+      <a class="btn outline" routerLink="/ogretmen/sinav/yeni">📝 Sınav oluştur</a>
+    </div>
+  </div>
+
+  @if (notice(); as n) {
+    <div class="t-alert" [class.success]="n.type === 'success'" [class.danger]="n.type === 'danger'">{{ n.text }}</div>
+  }
+
+  @if (questions() === undefined) {
+    <p class="t-sub">Yükleniyor…</p>
+  } @else if (questions()!.length === 0) {
+    <div class="t-empty card">
+      <span class="t-empty-emoji">🗂️</span>
+      <h3>Henüz sorunuz yok</h3>
+      <p>Sınıf, ders ve konu seçip ilk sorunuzu yazın. Sorularınızla sınav hazırlayıp öğrencilerinize gönderebilirsiniz.</p>
+      <a class="btn primary" routerLink="/ogretmen/sorular/yeni">+ İlk sorumu yaz</a>
+    </div>
+  } @else {
+    <div class="qb-stats">
+      <div class="card stat"><b>{{ stats().total }}</b><span>soru</span></div>
+      <div class="card stat"><b>{{ stats().pending }}</b><span>havuz onayı bekliyor</span></div>
+      <div class="card stat"><b>{{ stats().approved }}</b><span>ortak havuzda</span></div>
+    </div>
+
+    <div class="qb-filters">
+      <div class="t-chip-row">
+        <button type="button" [class.selected]="gradeFilter() === null" (click)="gradeFilter.set(null)">Tüm sınıflar</button>
+        @for (g of grades(); track g) {
+          <button type="button" [class.selected]="gradeFilter() === g" (click)="gradeFilter.set(g)">{{ g }}. sınıf</button>
+        }
+      </div>
+      <div class="t-chip-row">
+        <button type="button" [class.selected]="subjectFilter() === null" (click)="subjectFilter.set(null)">Tüm dersler</button>
+        @for (s of subjects(); track s) {
+          <button type="button" [class.selected]="subjectFilter() === s" (click)="subjectFilter.set(s)">{{ s }}</button>
+        }
+      </div>
+      <div class="t-chip-row">
+        <button type="button" [class.selected]="stateFilter() === null" (click)="stateFilter.set(null)">Hepsi</button>
+        <button type="button" [class.selected]="stateFilter() === 'none'" (click)="stateFilter.set('none')">Sadece bankamda</button>
+        <button type="button" [class.selected]="stateFilter() === 'pending'" (click)="stateFilter.set('pending')">Onay bekleyen</button>
+        <button type="button" [class.selected]="stateFilter() === 'approved'" (click)="stateFilter.set('approved')">Havuzda</button>
+      </div>
+    </div>
+
+    <div class="qb-list">
+      @for (q of filtered(); track q.id) {
+        <div class="card qb-item" [class.open]="openId() === q.id">
+          <button type="button" class="qb-row" (click)="toggle(q.id)">
+            <div class="qb-main">
+              <span class="qb-prompt">{{ q.prompt }}</span>
+              <span class="qb-meta">
+                <span>{{ q.grade }}. sınıf · {{ q.subject }}</span>
+                <span>· {{ q.topic }}</span>
+                @if (q.outcomeCode) { <span class="code">{{ q.outcomeCode }}</span> }
+              </span>
+            </div>
+            @switch (state(q)) {
+              @case ('approved') { <span class="t-pill green">🌱 {{ stateLabels.approved }}</span> }
+              @case ('pending') { <span class="t-pill amber">⏳ {{ stateLabels.pending }}</span> }
+              @case ('removed') { <span class="t-pill red">{{ stateLabels.removed }}</span> }
+              @default { <span class="t-pill">{{ stateLabels.none }}</span> }
+            }
+          </button>
+
+          @if (openId() === q.id) {
+            <div class="qb-detail">
+              <ol class="qb-opts">
+                @for (o of q.options; track $index; let i = $index) {
+                  <li [class.correct]="i === q.correctIndex"><b>{{ letters[i] }})</b> {{ o }}</li>
+                }
+              </ol>
+              @if (q.explanation) {
+                <p class="qb-explain"><b>Açıklama:</b> {{ q.explanation }}</p>
+              }
+              @if (q.outcomeText) {
+                <p class="qb-explain"><b>Kazanım:</b> {{ q.outcomeCode }} {{ q.outcomeText }}</p>
+              }
+              @if (state(q) === 'removed') {
+                <p class="hint">Bu soru incelendi ama havuza alınmadı. Düzenleyip yeniden önerebilirsiniz.</p>
+              }
+              <div class="qb-actions">
+                <a class="btn sm" [routerLink]="['/ogretmen/sorular', q.id]">Düzenle</a>
+                @if (state(q) === 'none' || state(q) === 'removed') {
+                  <button type="button" class="btn sm outline" [disabled]="busyId() === q.id" (click)="offer(q)">🌱 Havuza öner</button>
+                }
+                @if (state(q) === 'pending') {
+                  <button type="button" class="btn sm outline" [disabled]="busyId() === q.id" (click)="withdraw(q)">Öneriyi geri çek</button>
+                }
+                <button type="button" class="btn sm danger" [disabled]="busyId() === q.id" (click)="remove(q)">Sil</button>
+              </div>
+            </div>
+          }
+        </div>
+      } @empty {
+        <p class="t-sub">Bu filtrelere uyan soru yok.</p>
+      }
+    </div>
+  }
+</div>

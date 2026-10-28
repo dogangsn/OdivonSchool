@@ -120,7 +120,7 @@
             </span>
           </div>
           <span class="hw-stars" [title]="'En iyi: ' + item.submission!.bestScore + ' puan'">{{ stars(item.submission!.bestStars) }}</span>
-          <a class="btn outline sm" [routerLink]="['/odev', item.classroom.id, item.assignment.id]">Tekrar</a>
+          <a class="btn outline sm" [routerLink]="['/odev', item.classroom.id, item.assignment.id]">{{ item.assignment.kind === 'exam' ? 'Sonucu gör' : 'Tekrar' }}</a>
         </li>
       }
     </ul>

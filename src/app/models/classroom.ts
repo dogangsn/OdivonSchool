@@ -1,4 +1,5 @@
 import { GameMistake } from '../games/game-models';
+import { ExamQuestion } from './teacher-question';
 
 /** A teacher's class. Students join with `joinCode`. */
 export interface Classroom {
@@ -50,7 +51,7 @@ export interface TeacherContent {
   updatedAt: number;
 }
 
-export type AssignmentKind = 'custom-quiz' | 'custom-match' | 'pool-quiz' | 'speed';
+export type AssignmentKind = 'custom-quiz' | 'custom-match' | 'pool-quiz' | 'speed' | 'exam';
 
 /**
  * classes/{classId}/assignments/{id}. Custom content is copied into the
@@ -70,6 +71,15 @@ export interface Assignment {
   pairs?: MatchPair[];
   categoryId?: string;
   presetId?: string;
+  /** kind 'exam': questions without answers (the key lives in examKey/key). */
+  examQuestions?: ExamQuestion[];
+  questionCount?: number;
+  /** Minutes; 0 or missing = no time limit. */
+  timeLimitMin?: number;
+  /** Show correct answers and explanations after handing in. */
+  showAnswers?: boolean;
+  /** Each student sees the questions in their own order. */
+  shuffle?: boolean;
 }
 
 /** classes/{classId}/assignments/{aid}/submissions/{uid}: latest + best try. */
@@ -100,6 +110,7 @@ export const KIND_LABELS: Record<AssignmentKind, string> = {
   'custom-match': 'Eşleştirme seti',
   'pool-quiz': 'Bilgi Yarışması',
   speed: 'Hız Turu',
+  exam: 'Sınav',
 };
 
 export const SUBJECTS = [

@@ -59,6 +59,7 @@ export class LearningService {
       const batch = writeBatch(this.firestore);
       let writes = 0;
       for (const a of answers) {
+        if (a.noCard) continue;
         const ref = doc(this.firestore, `users/${user.uid}/reviewCards/${a.questionId}`);
         const change = nextCard(byId.get(a.questionId) ?? null, a, now);
         if (change.kind === 'save') {

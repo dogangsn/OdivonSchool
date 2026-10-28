@@ -7,12 +7,13 @@ import { AssignmentRef } from '../../../models/classroom';
 import { SpeedRound } from '../../games/speed-round/speed-round';
 import { Quiz } from '../../games/quiz/quiz';
 import { MemoryMatch } from '../../games/memory-match/memory-match';
+import { ExamPlay } from '../exam-play/exam-play';
 import { assignmentMatchSet, quizItemsToQuestions } from '../../../games/teacher-games';
 
 /** /odev/:classId/:assignmentId — plays an assignment with the matching game. */
 @Component({
   selector: 'app-assignment-play',
-  imports: [RouterLink, SpeedRound, Quiz, MemoryMatch],
+  imports: [RouterLink, SpeedRound, Quiz, MemoryMatch, ExamPlay],
   templateUrl: './assignment-play.html',
 })
 export class AssignmentPlay {

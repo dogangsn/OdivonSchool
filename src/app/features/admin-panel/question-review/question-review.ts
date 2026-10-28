@@ -41,11 +41,22 @@ export class QuestionReview implements OnInit {
   draftQuestions = computed(() => this.draftPage().items);
   hasNextPage = computed(() => this.draftPage().hasNext);
 
+  // --- Öğretmenlerden gelen öneriler (source 'teacher') ---
+  teacherOnly = signal(false);
+  teacherDrafts = toSignal(this.aiGen.teacherDrafts(), { initialValue: [] as Question[] });
+  /** The cards on screen: one page of all drafts, or every teacher draft. */
+  visibleDrafts = computed(() => (this.teacherOnly() ? this.teacherDrafts() : this.draftQuestions()));
+
+  setTeacherOnly(on: boolean) {
+    this.selectedIds.set(new Set());
+    this.teacherOnly.set(on);
+  }
+
   // --- Selection on the current page ---
   selectedIds = signal<ReadonlySet<string>>(new Set());
   selectedCount = computed(() => this.selectedIds().size);
   allOnPageSelected = computed(
-    () => this.draftQuestions().length > 0 && this.draftQuestions().every((q) => this.selectedIds().has(q.id))
+    () => this.visibleDrafts().length > 0 && this.visibleDrafts().every((q) => this.selectedIds().has(q.id))
   );
 
   /** "3. Sınıf · " for single-grade (MEB tema) categories. */
@@ -103,7 +114,7 @@ export class QuestionReview implements OnInit {
     // back a page when everything on the current one has been reviewed.
     effect(() => {
       const page = this.draftPage();
-      const ids = new Set(page.items.map((q) => q.id));
+      const ids = new Set(this.visibleDrafts().map((q) => q.id));
       const selected = this.selectedIds();
       if ([...selected].some((id) => !ids.has(id))) {
         this.selectedIds.set(new Set([...selected].filter((id) => ids.has(id))));
@@ -275,7 +286,7 @@ export class QuestionReview implements OnInit {
 
   toggleSelectPage() {
     this.selectedIds.set(
-      this.allOnPageSelected() ? new Set() : new Set(this.draftQuestions().map((q) => q.id))
+      this.allOnPageSelected() ? new Set() : new Set(this.visibleDrafts().map((q) => q.id))
     );
   }
 

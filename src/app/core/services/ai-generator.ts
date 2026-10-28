@@ -18,7 +18,7 @@ import {
   getCountFromServer,
   QueryConstraint,
 } from '@angular/fire/firestore';
-import { Observable, catchError, map } from 'rxjs';
+import { Observable, catchError, map, of } from 'rxjs';
 import { Question } from '../../models/question';
 import { TestCategory } from '../../models/test-category';
 import { buildQuestionPrompt } from '../utils/question-prompt';
@@ -276,6 +276,19 @@ export class AiGeneratorService {
   async draftCount(): Promise<number> {
     const snap = await getCountFromServer(this.draftQuery());
     return snap.data().count;
+  }
+
+  /** Drafts teachers offered to the pool (equality filters only: no composite index). */
+  teacherDrafts(): Observable<Question[]> {
+    const q = query(
+      collection(this.firestore, 'questions'),
+      where('reviewStatus', '==', 'draft'),
+      where('source', '==', 'teacher')
+    );
+    return (collectionData(q, { idField: 'id' }) as Observable<Question[]>).pipe(
+      map((list) => [...list].sort((a, b) => (b.createdAt ?? 0) - (a.createdAt ?? 0))),
+      catchError(() => of([] as Question[]))
+    );
   }
 
   /** Ids of every draft question, for "approve all". */
