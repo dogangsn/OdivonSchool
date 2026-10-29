@@ -54,6 +54,9 @@ service cloud.firestore {
         !('subscriptionId' in request.resource.data) &&
         !('subscriptionExpiresAt' in request.resource.data) &&
         !('teacherVerified' in request.resource.data) &&
+        !request.resource.data.keys().hasAny(['subscriptionPlan', 'subscriptionPeriod',
+                                              'subscriptionStartedAt', 'subscriptionSource',
+                                              'suspended', 'suspendedReason']) &&
         request.resource.data.get('xp', 0) == 0 &&
         request.resource.data.get('badges', []).size() == 0;
       allow update: if isAdmin() ||
@@ -61,8 +64,9 @@ service cloud.firestore {
           request.resource.data.diff(resource.data).affectedKeys()
             .hasOnly(['displayName', 'gradeLevel', 'grade', 'school', 'branch',
                       'lastNotifSeenAt', 'xp', 'streakDays', 'lastPlayedDate', 'badges',
-                      'classIds', 'notifyPush', 'notifyEmail']) &&
+                      'classIds', 'notifyPush', 'notifyEmail', 'lastSeenAt']) &&
           isValidProgress(request.resource.data, resource.data) &&
+          request.resource.data.get('lastSeenAt', 0) is int &&
           request.resource.data.get('notifyPush', true) is bool &&
           request.resource.data.get('notifyEmail', true) is bool);
       allow delete: if isAdmin();
@@ -195,6 +199,24 @@ service cloud.firestore {
       // A teacher may take back their own offer while it still waits for review.
       allow delete: if isAdmin() ||
         (isSignedIn() && resource.data.authorId == request.auth.uid && resource.data.reviewStatus == 'draft');
+    }
+
+    // Yönetim paneli: abonelik/rol geçmişi (append-only) and private notes
+    // about a user. Only admins; a payment webhook would write events with
+    // the Admin SDK.
+    match /subscriptionEvents/{eventId} {
+      allow read: if isAdmin();
+      allow create: if isAdmin() &&
+        request.resource.data.keys().hasOnly(['uid', 'email', 'type', 'summary', 'byUid', 'byName', 'at']) &&
+        request.resource.data.uid is string &&
+        request.resource.data.summary is string && request.resource.data.summary.size() <= 300 &&
+        request.resource.data.byUid == request.auth.uid &&
+        request.resource.data.at is int;
+      allow update, delete: if false;
+    }
+
+    match /adminNotes/{userId} {
+      allow read, write: if isAdmin();
     }
 
     match /testAttempts/{attemptId} {

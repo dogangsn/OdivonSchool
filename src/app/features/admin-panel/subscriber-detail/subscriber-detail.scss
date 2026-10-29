@@ -1,191 +1,75 @@
-.admin-page {
-  padding-top: 36px;
-  padding-bottom: 60px;
-  display: flex;
-  flex-direction: column;
-  gap: 28px;
-}
+.back-link {
+  font-weight: 700;
+  color: var(--text-muted);
+  align-self: flex-start;
 
-.detail-top-nav {
-  .back-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 0.92rem;
-    font-weight: 700;
-    color: var(--text-muted);
-    &:hover {
-      color: var(--primary);
-    }
+  &:hover {
+    color: var(--primary);
   }
 }
 
-.profile-hero {
-  padding: 32px;
+.hero {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  min-width: 0;
+}
+
+.hero-av {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--primary-light);
+  color: var(--primary);
+  font-size: 1.6rem;
+  font-weight: 800;
   display: flex;
   align-items: center;
-  gap: 24px;
+  justify-content: center;
+  flex-shrink: 0;
+}
 
-  .profile-avatar {
-    width: 72px;
-    height: 72px;
-    border-radius: var(--radius-full);
-    background: linear-gradient(135deg, var(--primary) 0%, #8b5cf6 100%);
-    color: #ffffff;
-    font-family: var(--font-heading);
-    font-size: 2rem;
+.hero-main {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+
+  h2 {
+    font-size: 1.4rem;
     font-weight: 800;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 14px var(--primary-glow);
-    flex-shrink: 0;
-  }
-
-  .profile-main-info {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-
-    .name-row {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      flex-wrap: wrap;
-
-      .user-display-name {
-        font-size: 1.75rem;
-        font-weight: 800;
-      }
-    }
-
-    .meta-row {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-      flex-wrap: wrap;
-
-      .meta-item {
-        display: inline-flex;
-        align-items: center;
-        gap: 6px;
-        font-size: 0.88rem;
-        color: var(--text-muted);
-      }
-    }
   }
 }
 
-.user-stats-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-}
-
-.history-card {
-  padding: 28px;
+.hero-pills {
   display: flex;
-  flex-direction: column;
-  gap: 20px;
-
-  .card-title {
-    font-size: 1.35rem;
-    font-weight: 700;
-  }
+  flex-wrap: wrap;
+  gap: 6px;
 }
 
-.admin-actions-card {
-  padding: 28px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  border-left: 4px solid var(--primary);
-
-  .actions-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 12px;
-
-    .card-title {
-      font-size: 1.35rem;
-      font-weight: 700;
-    }
-
-    .actions-sub {
-      font-size: 0.88rem;
-      color: var(--text-muted);
-      margin-top: 4px;
-    }
-
-    .updating-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 0.82rem;
-      font-weight: 600;
-      color: var(--primary);
-    }
-  }
-
-  .actions-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-
-  .action-block {
-    background-color: var(--bg-alt);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-md);
-    padding: 18px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-
-    .block-label {
-      font-size: 0.82rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-      color: var(--text-muted);
-    }
-
-    .block-content {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-
-      .current-tag {
-        font-size: 0.9rem;
-        color: var(--text-main);
-      }
-    }
-  }
-
-  .sub-btn-group {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-}
-
-.empty-tests {
-  padding: 36px 0;
-  text-align: center;
+.hero-email {
   color: var(--text-muted);
+  font-size: 0.9rem;
+  overflow-wrap: anywhere;
 }
 
-@media (max-width: 680px) {
-  .profile-hero {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .user-stats-grid {
-    grid-template-columns: 1fr;
-  }
-  .admin-actions-card .actions-grid {
-    grid-template-columns: 1fr;
-  }
+.mono {
+  font-family: ui-monospace, monospace;
+  font-size: 0.8rem;
+}
+
+.sub-h {
+  font-size: 0.92rem;
+  font-weight: 800;
+  margin-top: 4px;
+}
+
+.muted {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+.nowrap {
+  white-space: nowrap;
 }

@@ -201,7 +201,24 @@
   }
 
   <main class="main-body">
-    <router-outlet />
+    @if (suspended()) {
+      <section class="suspended-screen container">
+        <div class="card">
+          <div class="suspended-icon">⏸️</div>
+          <h1>Hesabınız askıya alındı</h1>
+          <p>
+            Bu hesap şu an kullanıma kapalı.
+            @if (appUser()?.suspendedReason) {
+              <br /><strong>Not:</strong> {{ appUser()?.suspendedReason }}
+            }
+          </p>
+          <p class="muted">Bir yanlışlık olduğunu düşünüyorsanız info&#64;odivon.com adresine yazın.</p>
+          <button type="button" class="btn outline" (click)="logout()">Çıkış yap</button>
+        </div>
+      </section>
+    } @else {
+      <router-outlet />
+    }
   </main>
 
   <!-- Minimal Modern Footer -->

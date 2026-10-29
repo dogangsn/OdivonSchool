@@ -1,6 +1,6 @@
 import { Component, inject, signal, computed, effect, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RouterLink } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { toObservable, toSignal } from '@angular/core/rxjs-interop';
 import { switchMap, tap } from 'rxjs';
 import { AiGeneratorService, DraftCursor, DraftPage } from '../../../core/services/ai-generator';
@@ -19,6 +19,7 @@ export class QuestionReview implements OnInit {
   aiGen = inject(AiGeneratorService);
   private firestoreSvc = inject(FirestoreService);
   private notifications = inject(NotificationService);
+  private route = inject(ActivatedRoute);
 
   // All categories from Firestore
   categories = toSignal(this.firestoreSvc.allCategories(), { initialValue: [] });
@@ -127,6 +128,9 @@ export class QuestionReview implements OnInit {
 
   ngOnInit() {
     this.apiKeyInput.set(this.aiGen.apiKey());
+    // "Bu konuya soru üret" from /yonetim/havuz opens with that konu picked.
+    const fromPool = this.route.snapshot.queryParamMap.get('kategori');
+    if (fromPool) this.selectedCategoryId.set(fromPool);
     // Auto-select first available category if default not found
     const cats = this.categories();
     if (cats.length > 0 && !this.selectedCategoryId()) {

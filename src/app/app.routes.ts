@@ -280,6 +280,11 @@ export const routes: Routes = [
           ),
       },
       {
+        path: 'havuz',
+        loadComponent: () =>
+          import('./features/admin-panel/question-pool/question-pool').then((m) => m.QuestionPool),
+      },
+      {
         path: 'sorular',
         loadComponent: () =>
           import('./features/admin-panel/question-review/question-review').then(

@@ -10,8 +10,8 @@ import {
   updateProfile,
   User,
 } from '@angular/fire/auth';
-import { Firestore, doc, docData, setDoc, getDoc } from '@angular/fire/firestore';
-import { Observable, switchMap, of, firstValueFrom, filter, take } from 'rxjs';
+import { Firestore, doc, docData, setDoc, getDoc, updateDoc } from '@angular/fire/firestore';
+import { Observable, switchMap, of, firstValueFrom, filter, take, tap } from 'rxjs';
 import { AppUser, SignupProfile } from '../../models/user';
 import { isStudentAccountEmail } from '../student-accounts';
 
@@ -20,6 +20,8 @@ import { isStudentAccountEmail } from '../student-accounts';
  * without it; everyone who signs up after this moment must verify.
  */
 export const EMAIL_VERIFICATION_CUTOFF = Date.parse('2026-10-25T01:00:00Z');
+
+const LAST_SEEN_EVERY_MS = 6 * 60 * 60 * 1000;
 
 /** True when this signed-in user must confirm their e-mail before using the app. */
 export function needsEmailVerification(user: User | null | undefined): boolean {
@@ -72,9 +74,26 @@ export class AuthService {
     switchMap((fbUser) => {
       if (!fbUser) return of(null);
       const ref = doc(this.firestore, `users/${fbUser.uid}`);
-      return docData(ref) as Observable<AppUser>;
+      return (docData(ref) as Observable<AppUser>).pipe(tap((u) => this.stampLastSeen(fbUser.uid, u)));
     })
   );
+
+  /** uid whose lastSeenAt this tab already handled. */
+  private lastSeenUid: string | null = null;
+
+  /**
+   * "Aktif kullanıcı" metrics in /yonetim: once per tab, refresh lastSeenAt
+   * when it is older than 6 hours.
+   */
+  private stampLastSeen(uid: string, u: AppUser | undefined) {
+    if (!u || this.lastSeenUid === uid) return;
+    this.lastSeenUid = uid;
+    const now = Date.now();
+    if (u.lastSeenAt && now - u.lastSeenAt < LAST_SEEN_EVERY_MS) return;
+    updateDoc(doc(this.firestore, `users/${uid}`), { lastSeenAt: now }).catch(() => {
+      // Metrics only; never bother the user.
+    });
+  }
 
   async register(
     email: string,

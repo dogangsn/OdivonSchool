@@ -1,4 +1,5 @@
 import { EducationLevel } from './test-category';
+import type { BillingPeriod, PlanId, SubscriptionSource } from './subscription';
 
 /** 'user' is the legacy student role (accounts created before roles existed). */
 export type UserRole = 'student' | 'teacher' | 'admin' | 'user';
@@ -17,6 +18,18 @@ export interface AppUser {
   subscriptionId?: string;
   subscriptionStatus: 'active' | 'trial' | 'expired' | 'none';
   subscriptionExpiresAt?: number;
+  // Written only by admins (or later a payment webhook); see models/subscription.ts
+  subscriptionPlan?: PlanId;
+  subscriptionPeriod?: BillingPeriod;
+  subscriptionStartedAt?: number;
+  subscriptionSource?: SubscriptionSource;
+
+  /** Admin-suspended account: the app shows a notice instead of the panel. */
+  suspended?: boolean;
+  suspendedReason?: string;
+
+  /** Last time the app was opened (epoch ms, written at most every few hours). */
+  lastSeenAt?: number;
 
   // Teacher profile
   school?: string;

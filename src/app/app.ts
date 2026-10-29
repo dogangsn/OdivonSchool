@@ -26,6 +26,12 @@ export class App {
   showGames = computed(() => canPlayGames(this.appUser()));
   readonly roleLabel = roleLabel;
 
+  /** An admin can suspend an account from /yonetim; admins themselves are never locked out. */
+  suspended = computed(() => {
+    const u = this.appUser();
+    return !!u?.suspended && u.role !== 'admin';
+  });
+
   /** Phone/tablet menu (the nav collapses behind a button under 1200px). */
   menuOpen = signal(false);
 

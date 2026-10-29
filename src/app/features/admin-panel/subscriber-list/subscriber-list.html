@@ -1,118 +1,122 @@
-<div class="admin-page container animate-fade-in">
-  <!-- Admin Header Bar -->
-  <div class="admin-header">
-    <div class="header-left">
-      <div class="admin-badge">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
-        </svg>
-        <span>Yönetici Paneli</span>
-      </div>
-      <h1 class="admin-title">Kullanıcılar &amp; Abonelikler</h1>
-      <p class="admin-subtitle">Sisteme kayıtlı tüm kullanıcıların abonelik durumları ve profil detayları.</p>
+<div class="adm-page container animate-fade-in">
+  <app-admin-nav title="Kullanıcılar & Abonelik" subtitle="Kayıtlı herkes: rol, plan, deneme ve bitiş tarihleri." />
+
+  <section class="adm-card">
+    <div class="adm-chips" role="group" aria-label="Abonelik durumu">
+      @for (c of statusChips; track c.id) {
+        <button type="button" [class.active]="status() === c.id" (click)="setFilter(status, c.id)">
+          {{ c.label }}<span class="n">{{ statusCounts()[c.id] }}</span>
+        </button>
+      }
     </div>
 
-    <!-- Admin Navigation Links -->
-    <div class="admin-nav-tabs">
-      <a routerLink="/yonetim/genel-bakis" class="admin-tab">Genel Bakış</a>
-      <a routerLink="/yonetim/aboneler" class="admin-tab active">Aboneler</a>
-      <a routerLink="/yonetim/sorular" class="admin-tab">AI Soru Havuzu</a>
+    <div class="adm-filters">
+      <input
+        type="search"
+        placeholder="Ad, e-posta, kullanıcı adı, okul veya UID ara…"
+        [value]="search()"
+        (input)="setFilter(search, $any($event.target).value)"
+        aria-label="Kullanıcı ara"
+      />
+      <select [value]="role()" (change)="setFilter(role, $any($event.target).value)" aria-label="Rol">
+        <option value="all">Tüm roller</option>
+        <option value="student">Öğrenci</option>
+        <option value="teacher">Öğretmen</option>
+        <option value="admin">Yönetici</option>
+      </select>
+      <select [value]="plan()" (change)="setFilter(plan, $any($event.target).value)" aria-label="Plan">
+        <option value="all">Tüm planlar</option>
+        <option value="free">{{ plans.free.label }}</option>
+        <option value="pro">{{ plans.pro.label }}</option>
+        <option value="vip">{{ plans.vip.label }}</option>
+      </select>
+      <select [value]="level()" (change)="setFilter(level, $any($event.target).value)" aria-label="Kademe">
+        <option value="all">Tüm kademeler</option>
+        <option value="ilkokul">İlkokul</option>
+        <option value="ortaokul">Ortaokul</option>
+        <option value="lise">Lise</option>
+        <option value="kpss">KPSS</option>
+      </select>
+      <select [value]="sort()" (change)="sort.set($any($event.target).value)" aria-label="Sıralama">
+        <option value="newest">En yeni kayıt</option>
+        <option value="lastSeen">Son görülme</option>
+        <option value="expires">Bitiş tarihi yakın</option>
+        <option value="name">Ada göre</option>
+      </select>
+      <button type="button" class="btn outline sm" (click)="exportCsv()" [disabled]="filtered().length === 0">
+        CSV indir ({{ filtered().length }})
+      </button>
     </div>
-  </div>
 
-  <!-- Content Card -->
-  <div class="content-card card">
-    <div class="filter-header">
-      <div class="search-box">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="11" cy="11" r="8"/>
-          <path d="m21 21-4.3-4.3"/>
-        </svg>
-        <input
-          type="text"
-          placeholder="İsim veya e-posta ile ara..."
-          [value]="search()"
-          (input)="search.set($any($event.target).value)"
-        />
-      </div>
-
-      <div class="count-badge">
-        <span>Toplam: <strong>{{ filteredUsers().length }}</strong> kullanıcı</span>
-      </div>
-    </div>
-
-    @if (filteredUsers().length === 0) {
-      <div class="empty-search">
-        <div class="empty-icon">🔍</div>
-        <h3>Kullanıcı Bulunamadı</h3>
-        <p>Arama kriterinize uygun bir kullanıcı eşleşmedi.</p>
-      </div>
+    @if (filtered().length === 0) {
+      <div class="adm-empty">Bu filtrelere uyan kullanıcı yok.</div>
     } @else {
-      <div class="table-responsive">
-        <table class="modern-table">
+      <div class="adm-table-wrap">
+        <table class="adm-table">
           <thead>
             <tr>
               <th>Kullanıcı</th>
-              <th>E-posta</th>
               <th>Rol</th>
-              <th>Abonelik Durumu</th>
-              <th class="text-right">İşlem</th>
+              <th>Sınıf / Branş</th>
+              <th>Plan</th>
+              <th>Durum</th>
+              <th>Bitiş</th>
+              <th>Kayıt</th>
+              <th>Son görülme</th>
             </tr>
           </thead>
           <tbody>
-            @for (u of filteredUsers(); track u.uid) {
-              <tr>
+            @for (u of visible(); track u.uid) {
+              <tr class="clickable" [routerLink]="['/yonetim/aboneler', u.uid]">
                 <td>
-                  <div class="user-cell">
-                    <div class="user-avatar-sm">
-                      {{ (u.displayName || u.email || 'U').charAt(0).toUpperCase() }}
-                    </div>
-                    <div class="user-cell-info">
-                      <strong class="user-cell-name">{{ u.displayName || 'İsimsiz Öğrenci' }}</strong>
-                      <span class="user-cell-id">UID: {{ u.uid.substring(0, 8) }}...</span>
-                    </div>
+                  <div class="adm-user">
+                    <span class="av">{{ (u.displayName || u.email || '?').charAt(0).toLocaleUpperCase('tr') }}</span>
+                    <span class="who">
+                      <strong>{{ u.displayName || 'İsimsiz' }}</strong>
+                      <span>{{ isStudentAccountEmail(u.email) ? '@' + (u.username || 'öğrenci hesabı') + ' · öğretmen açtı' : u.email }}</span>
+                    </span>
                   </div>
                 </td>
                 <td>
-                  <span class="email-text">{{ u.email }}</span>
+                  <span class="adm-pill" [class.purple]="u.role === 'admin'" [class.blue]="u.role === 'teacher'">{{ roleLabel(u.role) }}</span>
+                  @if (u.role === 'teacher' && !u.teacherVerified) {
+                    <span class="adm-pill amber" title="Öğretmen onayı bekliyor">?</span>
+                  }
                 </td>
-                <td>
-                  <span
-                    class="badge"
-                    [class.badge-primary]="u.role === 'admin'"
-                    [class.badge-neutral]="u.role !== 'admin'"
-                  >
-                    {{ roleLabel(u.role) }}
-                  </span>
+                <td class="nowrap">{{ levelLabel(u) }}</td>
+                <td class="nowrap">{{ plans[effectivePlan(u)].label }}{{ u.subscriptionPeriod === 'yearly' && effectivePlan(u) !== 'free' ? ' · yıllık' : '' }}</td>
+                <td class="nowrap">
+                  <span class="adm-pill" [class]="'adm-pill ' + statusClass(u)">{{ statusLabels[effectiveStatus(u)] }}</span>
+                  @if (u.suspended) {
+                    <span class="adm-pill red">Askıda</span>
+                  }
                 </td>
-                <td>
-                  <span
-                    class="badge"
-                    [class.badge-success]="u.subscriptionStatus === 'active'"
-                    [class.badge-warning]="u.subscriptionStatus === 'trial'"
-                    [class.badge-danger]="u.subscriptionStatus === 'expired'"
-                    [class.badge-neutral]="u.subscriptionStatus === 'none' || !u.subscriptionStatus"
-                  >
-                    {{
-                      u.subscriptionStatus === 'active' ? 'Aktif Abone' :
-                      u.subscriptionStatus === 'trial' ? 'Deneme Sürümü' :
-                      u.subscriptionStatus === 'expired' ? 'Süresi Doldu' : 'Abonelik Yok'
-                    }}
-                  </span>
+                <td class="nowrap">
+                  @if (u.subscriptionExpiresAt) {
+                    {{ u.subscriptionExpiresAt | date: 'dd.MM.yyyy' }}
+                    @if (daysLeft(u); as left) {
+                      @if (left > 0 && left <= 7) {
+                        <span class="muted">({{ left }} gün)</span>
+                      }
+                    }
+                  } @else {
+                    <span class="muted">—</span>
+                  }
                 </td>
-                <td class="text-right">
-                  <a [routerLink]="['/yonetim/aboneler', u.uid]" class="btn sm outline">
-                    <span>Detay</span>
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                      <path d="m9 18 6-6-6-6"/>
-                    </svg>
-                  </a>
-                </td>
+                <td class="nowrap muted">{{ u.createdAt ? (u.createdAt | date: 'dd.MM.yyyy') : '—' }}</td>
+                <td class="nowrap muted">{{ u.lastSeenAt ? (u.lastSeenAt | date: 'dd.MM HH:mm') : '—' }}</td>
               </tr>
             }
           </tbody>
         </table>
       </div>
+      @if (filtered().length > visible().length) {
+        <div class="adm-more">
+          <button type="button" class="btn outline sm" (click)="showMore()">
+            Daha fazla göster ({{ filtered().length - visible().length }} kaldı)
+          </button>
+        </div>
+      }
     }
-  </div>
+  </section>
 </div>

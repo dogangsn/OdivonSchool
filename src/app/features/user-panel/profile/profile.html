@@ -39,13 +39,13 @@
 
             <span
               class="badge"
-              [class.badge-success]="user.subscriptionStatus === 'active'"
-              [class.badge-warning]="user.subscriptionStatus === 'trial'"
-              [class.badge-neutral]="user.subscriptionStatus === 'none' || !user.subscriptionStatus"
+              [class.badge-success]="subStatus() === 'active'"
+              [class.badge-warning]="subStatus() === 'trial'"
+              [class.badge-neutral]="subStatus() !== 'active' && subStatus() !== 'trial'"
             >
               {{
-                user.subscriptionStatus === 'active' ? '🌟 Pro Abone' :
-                user.subscriptionStatus === 'trial' ? '⏳ Deneme' : 'Ücretsiz Üye'
+                subStatus() === 'active' ? '🌟 ' + planLabel() :
+                subStatus() === 'trial' ? '⏳ ' + planLabel() + ' denemesi' : 'Ücretsiz Üye'
               }}
             </span>
           </div>
@@ -58,11 +58,14 @@
             <div>
               <h3>Mevcut Paketiniz</h3>
               <p>
-                {{
-                  user.subscriptionStatus === 'active'
-                    ? 'Pro üyelik aktif. Tüm ders ve testlere sınırsız erişiminiz var.'
-                    : 'Şu an ücretsiz paketi kullanıyorsunuz.'
-                }}
+                @if (subStatus() === 'active' || subStatus() === 'trial') {
+                  {{ planLabel() }} {{ subStatus() === 'trial' ? 'denemeniz' : 'üyeliğiniz' }} aktif.
+                  @if (user.subscriptionExpiresAt) {
+                    Bitiş: {{ user.subscriptionExpiresAt | date: 'dd.MM.yyyy' }}.
+                  }
+                } @else {
+                  Şu an ücretsiz paketi kullanıyorsunuz.
+                }
               </p>
             </div>
           </div>
@@ -82,7 +85,7 @@
             </div>
           </div>
 
-          @if (user.subscriptionStatus !== 'active') {
+          @if (subStatus() !== 'active') {
             <a routerLink="/fiyatlandirma" class="btn primary sm w-full">
               <span>Pro Pakete Geç (Sınırsız Test) →</span>
             </a>

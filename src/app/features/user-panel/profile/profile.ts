@@ -1,5 +1,6 @@
 import { Component, inject, signal, effect, computed } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { DatePipe } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { AuthService } from '../../../core/services/auth';
@@ -9,10 +10,11 @@ import { STUDENT_EMAIL_DOMAIN } from '../../../core/student-accounts';
 import { Firestore, doc, updateDoc } from '@angular/fire/firestore';
 import { LEVEL_GRADES } from '../../../models/test-category';
 import { isStudent, roleLabel } from '../../../models/user';
+import { PLANS, effectivePlan, effectiveStatus } from '../../../models/subscription';
 
 @Component({
   selector: 'app-profile',
-  imports: [FormsModule, RouterLink],
+  imports: [FormsModule, RouterLink, DatePipe],
   templateUrl: './profile.html',
   styleUrl: './profile.scss',
 })
@@ -22,6 +24,10 @@ export class Profile {
   private firestoreSvc = inject(FirestoreService);
 
   appUser = toSignal(this.auth.appUser$, { initialValue: null });
+
+  /** Plan the user can use right now (an end date in the past counts as expired). */
+  subStatus = computed(() => effectiveStatus(this.appUser()));
+  planLabel = computed(() => PLANS[effectivePlan(this.appUser())].label);
 
   displayName = signal('');
   gradeLevel = signal<'ilkokul' | 'ortaokul' | 'lise' | 'kpss'>('ortaokul');

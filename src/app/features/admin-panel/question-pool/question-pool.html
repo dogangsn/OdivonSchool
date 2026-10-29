@@ -1,0 +1,264 @@
+<div class="adm-page container animate-fade-in">
+  <app-admin-nav title="Soru Havuzu" subtitle="Sınıf, ders ve konu bazında havuzun ne kadar dolu olduğu; soruları buradan düzenle, kaldır veya sil." />
+
+  @let t = totals();
+
+  <div class="adm-kpis">
+    <div class="adm-kpi good">
+      <span class="k-label">Onaylı soru</span>
+      <span class="k-value">{{ stats() ? t.approved : '…' }}</span>
+      <span class="k-sub">{{ t.topics }} konuda</span>
+    </div>
+    <a class="adm-kpi link" routerLink="/yonetim/sorular">
+      <span class="k-label">Taslak (onay bekliyor)</span>
+      <span class="k-value">{{ stats() ? t.draft : '…' }}</span>
+      <span class="k-sub">Üretim &amp; Onay sayfasında incele</span>
+    </a>
+    <div class="adm-kpi good">
+      <span class="k-label">Hazır konu</span>
+      <span class="k-value">{{ stats() ? t.ready : '…' }}</span>
+      <span class="k-sub">en az {{ target }} onaylı sorusu olan</span>
+    </div>
+    <div class="adm-kpi" [class.warn]="t.weak > 0">
+      <span class="k-label">Eksik konu</span>
+      <span class="k-value">{{ stats() ? t.weak : '…' }}</span>
+      <span class="k-sub">{{ t.empty }} tanesinde hiç soru yok</span>
+    </div>
+  </div>
+
+  <section class="adm-card">
+    <div class="adm-filters">
+      <select [value]="level()" (change)="setLevel($any($event.target).value)" aria-label="Kademe">
+        <option value="all">Tüm kademeler</option>
+        @for (l of levels; track l) {
+          <option [value]="l">{{ levelLabels[l] }}</option>
+        }
+      </select>
+      <select [value]="grade()" (change)="grade.set(+$any($event.target).value)" aria-label="Sınıf">
+        <option [value]="0">Tüm sınıflar</option>
+        @for (g of gradeOptions(); track g) {
+          <option [value]="g">{{ g }}. sınıf</option>
+        }
+      </select>
+      <select [value]="subject()" (change)="subject.set($any($event.target).value)" aria-label="Ders">
+        <option value="all">Tüm dersler</option>
+        @for (s of subjectOptions(); track s) {
+          <option [value]="s">{{ s }}</option>
+        }
+      </select>
+      <input type="search" placeholder="Konu ara…" [value]="search()" (input)="search.set($any($event.target).value)" aria-label="Konu ara" />
+      <label class="check">
+        <input type="checkbox" [checked]="onlyWeak()" (change)="onlyWeak.set($any($event.target).checked)" />
+        Sadece eksik konular (&lt; {{ target }})
+      </label>
+      <span class="spacer"></span>
+      <button type="button" class="btn outline sm" [disabled]="counting()" (click)="count()">
+        {{ counting() ? 'Sayılıyor…' : 'Yeniden say' }}
+      </button>
+    </div>
+    @if (statsAt(); as at) {
+      <p class="adm-hint">Sayım: {{ at | date: 'dd.MM.yyyy HH:mm' }}. Her konu için Firestore'un sayım sorgusu kullanılır, soruların hepsi indirilmez.</p>
+    }
+    @if (countError(); as e) {
+      <div class="adm-alert danger">Sayım yapılamadı: {{ e }}</div>
+    }
+  </section>
+
+  <section class="adm-card">
+    <h2>Ders özeti</h2>
+    <div class="adm-table-wrap">
+      <table class="adm-table">
+        <thead>
+          <tr>
+            <th>Kademe</th>
+            <th>Ders</th>
+            <th class="num">Konu</th>
+            <th class="num">Onaylı</th>
+            <th class="num">Taslak</th>
+            <th class="num">Eksik konu</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (s of subjects(); track s.key) {
+            <tr class="clickable" (click)="focusSubject(s)" [class.active-row]="subject() === s.subject && level() === s.level">
+              <td class="nowrap">{{ levelLabels[s.level] }}</td>
+              <td><strong>{{ s.subject }}</strong></td>
+              <td class="num">{{ s.topics }}</td>
+              <td class="num">{{ s.approved }}</td>
+              <td class="num">{{ s.draft || '' }}</td>
+              <td class="num">
+                @if (s.weak > 0) {
+                  <span class="adm-pill amber">{{ s.weak }}</span>
+                } @else {
+                  <span class="adm-pill green">0</span>
+                }
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="adm-card">
+    <h2>Konular <span class="adm-pill">{{ filtered().length }}</span></h2>
+    @if (filtered().length === 0) {
+      <div class="adm-empty">Bu filtrelere uyan konu yok.</div>
+    } @else {
+      <div class="adm-table-wrap">
+        <table class="adm-table">
+          <thead>
+            <tr>
+              <th>Sınıf</th>
+              <th>Ders</th>
+              <th>Konu</th>
+              <th>Onaylı (hedef {{ target }})</th>
+              <th class="num">Taslak</th>
+              <th class="num">Kazanım</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (r of filtered(); track r.cat.id) {
+              <tr class="clickable" (click)="openCategory(r.cat)">
+                <td class="nowrap muted">{{ gradeLabel(r.cat) }}</td>
+                <td class="nowrap">{{ r.cat.subject }}</td>
+                <td>{{ r.cat.topic }}</td>
+                <td>
+                  <div class="fill-cell">
+                    <div class="fill-track">
+                      <div class="fill" [class.low]="r.approved < target" [class.zero]="r.approved === 0" [style.width.%]="barPct(r.approved)"></div>
+                    </div>
+                    <span class="fill-n">{{ stats() ? r.approved : '…' }}</span>
+                  </div>
+                </td>
+                <td class="num">{{ r.draft || '' }}</td>
+                <td class="num muted">{{ r.cat.outcomes?.length || '' }}</td>
+                <td class="nowrap"><span class="open-link">Sorular ›</span></td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    }
+  </section>
+</div>
+
+@if (openCat(); as cat) {
+  <div class="t-drawer-backdrop" (click)="closeDrawer()"></div>
+  <aside class="t-drawer pool-drawer" role="dialog" aria-modal="true" [attr.aria-label]="cat.topic + ' soruları'">
+    <div class="t-drawer-head">
+      <div>
+        <h3>{{ cat.topic }}</h3>
+        <p class="muted">{{ gradeLabel(cat) }} · {{ cat.subject }} · {{ questions().length }} soru</p>
+      </div>
+      <button type="button" class="t-close" (click)="closeDrawer()" aria-label="Kapat">✕</button>
+    </div>
+    <div class="t-drawer-body">
+      <div class="adm-filters">
+        <select [value]="qStatus()" (change)="qStatus.set($any($event.target).value)" aria-label="Durum">
+          <option value="all">Tümü</option>
+          <option value="approved">Onaylı</option>
+          <option value="draft">Taslak</option>
+        </select>
+        <input type="search" placeholder="Soru, kazanım veya yazar ara…" [value]="qSearch()" (input)="qSearch.set($any($event.target).value)" aria-label="Soru ara" />
+      </div>
+      <div class="adm-actions drawer-links">
+        <a class="btn outline sm" routerLink="/yonetim/sorular" [queryParams]="{ kategori: cat.id }">✨ Bu konuya soru üret</a>
+      </div>
+
+      @if (drawerMsg(); as m) {
+        <div class="adm-alert" [class]="'adm-alert ' + m.type" role="status">{{ m.text }}</div>
+      }
+
+      @if (loadingQuestions() && questions().length === 0) {
+        <div class="adm-empty">Sorular yükleniyor…</div>
+      } @else if (visibleQuestions().length === 0) {
+        <div class="adm-empty">Bu konuda gösterilecek soru yok.</div>
+      }
+
+      <div class="q-list">
+        @for (q of visibleQuestions(); track q.id; let i = $index) {
+          <article class="q-card" [class.draft]="q.reviewStatus !== 'approved'">
+            <div class="q-meta">
+              <span class="adm-pill" [class.green]="q.reviewStatus === 'approved'" [class.amber]="q.reviewStatus !== 'approved'">
+                {{ q.reviewStatus === 'approved' ? 'Onaylı' : 'Taslak' }}
+              </span>
+              <span class="adm-pill">{{ sourceLabel(q) }}</span>
+              @if (q.difficulty) {
+                <span class="adm-pill">Zorluk {{ q.difficulty }}/5</span>
+              }
+              @if (q.outcomeCode) {
+                <span class="adm-pill blue">{{ q.outcomeCode }}</span>
+              }
+              @if (duplicates().has(q.id)) {
+                <span class="adm-pill red" title="Bu konuda neredeyse aynı bir soru daha var">Benzer soru var</span>
+              }
+            </div>
+
+            @if (editingId() === q.id) {
+              <div class="adm-form edit-form">
+                <label class="full">
+                  Soru kökü
+                  <textarea rows="3" [value]="editPrompt()" (input)="editPrompt.set($any($event.target).value)"></textarea>
+                </label>
+                @for (o of editOptions(); track o.id) {
+                  <label class="full opt-row">
+                    <span>
+                      <input type="radio" [name]="'correct-' + q.id" [checked]="editCorrect() === o.id" (change)="editCorrect.set(o.id)" />
+                      {{ o.id.toUpperCase() }} şıkkı {{ editCorrect() === o.id ? '(doğru)' : '' }}
+                    </span>
+                    <input type="text" [value]="o.text" (input)="setOption(o.id, $any($event.target).value)" />
+                  </label>
+                }
+                <label class="full">
+                  Açıklama
+                  <textarea rows="2" [value]="editExplanation()" (input)="editExplanation.set($any($event.target).value)"></textarea>
+                </label>
+                <label>
+                  Zorluk (1-5)
+                  <input type="number" min="1" max="5" [value]="editDifficulty()" (input)="editDifficulty.set(+$any($event.target).value)" />
+                </label>
+                <label>
+                  Kazanım kodu
+                  <input type="text" [value]="editOutcome()" (input)="editOutcome.set($any($event.target).value)" placeholder="ör. MAT.3.2.6" />
+                </label>
+              </div>
+              <div class="adm-actions">
+                <button type="button" class="btn outline sm" (click)="editingId.set(null)">Vazgeç</button>
+                <button type="button" class="btn primary sm" [disabled]="busyId() === q.id" (click)="saveEdit(q)">Kaydet</button>
+              </div>
+            } @else {
+              <p class="q-prompt">{{ q.prompt }}</p>
+              <ul class="q-options">
+                @for (o of q.options; track o.id) {
+                  <li [class.correct]="o.id === q.correctOptionId">
+                    <b>{{ o.id.toUpperCase() }})</b> {{ o.text }}
+                  </li>
+                }
+              </ul>
+              @if (q.explanation) {
+                <details>
+                  <summary>Açıklama</summary>
+                  <p>{{ q.explanation }}</p>
+                </details>
+              }
+              <div class="q-foot">
+                <span class="muted">{{ q.createdAt ? (q.createdAt | date: 'dd.MM.yyyy') : '' }}</span>
+                <div class="adm-actions">
+                  <button type="button" class="btn outline sm" [disabled]="busyId() === q.id" (click)="startEdit(q)">Düzenle</button>
+                  @if (q.reviewStatus === 'approved') {
+                    <button type="button" class="btn outline sm" [disabled]="busyId() === q.id" (click)="unpublish(q)">Yayından kaldır</button>
+                  } @else {
+                    <button type="button" class="btn success sm" [disabled]="busyId() === q.id" (click)="approve(q)">Onayla</button>
+                  }
+                  <button type="button" class="btn danger sm" [disabled]="busyId() === q.id" (click)="remove(q)">Sil</button>
+                </div>
+              </div>
+            }
+          </article>
+        }
+      </div>
+    </div>
+  </aside>
+}
