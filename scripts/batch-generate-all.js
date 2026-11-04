@@ -171,6 +171,8 @@ async function main() {
   }
 
   let created = 0;
+  // Failed Gemini requests still use the daily quota, so stop when Gemini stays overloaded.
+  let overloadedInARow = 0;
 
   for (let i = opts.start; i < targets.length; i++) {
     const cat = targets[i];
@@ -178,6 +180,7 @@ async function main() {
     for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
       try {
         created += await processCategory(readFirebaseToken(), cat);
+        overloadedInARow = 0;
         break;
       } catch (err) {
         console.error(`  ❌ Hata: ${err.message}`);
@@ -188,6 +191,13 @@ async function main() {
           process.exit(1);
         }
         const wait = retryDelay(err.message);
+        if (attempt === MAX_ATTEMPTS && /\b503\b|UNAVAILABLE|high demand/i.test(err.message)) {
+          overloadedInARow++;
+          if (overloadedInARow >= 3) {
+            console.error(`\n⛔ Gemini art arda 3 kategoride aşırı yoğun (503); kota boşa gitmesin diye durduruldu. Devam için --start=${i + 1}.`);
+            process.exit(1);
+          }
+        }
         if (!wait || attempt === MAX_ATTEMPTS) break;
         console.log(`  🔁 ${Math.round(wait / 1000)} sn sonra tekrar denenecek (${attempt + 1}/${MAX_ATTEMPTS}).`);
         await sleep(wait);
