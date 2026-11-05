@@ -19,6 +19,8 @@
  *   --start=0        listede kaldığı yerden devam
  *   --draft          soruları onay masasına taslak olarak yaz (varsayılan: onaylı yayınla)
  *   --dry-run        hiçbir şey yazmadan hangi kategorilerin işleneceğini listele
+ *   --fallback       ana model art arda 3 kategoride 503 verirse yedek modele geç
+ *                    (GEMINI_FALLBACK_MODEL, varsayılan gemini-3.5-flash-lite; ayrı ücretsiz kotası var)
  *
  * CI: .github/workflows/soru-havuzu.yml runs this from GitHub (Actions → "Soru havuzunu doldur").
  *
@@ -44,6 +46,7 @@ const opts = {
   start: 0,
   draft: false,
   dryRun: false,
+  fallback: false,
   meb: false,
   level: '',
   grade: 0,
@@ -65,6 +68,7 @@ for (const arg of process.argv.slice(2)) {
   else if (key === 'category') opts.category = value;
   else if (key === 'draft') opts.draft = true;
   else if (key === 'dry-run') opts.dryRun = true;
+  else if (key === 'fallback') opts.fallback = true;
   else if (key === 'meb') opts.meb = true;
 }
 
@@ -99,6 +103,8 @@ function normalize(q, cat) {
 }
 
 const MAX_ATTEMPTS = 3;
+const FALLBACK_MODEL = process.env.GEMINI_FALLBACK_MODEL || 'gemini-3.5-flash-lite';
+let model = GEMINI_MODEL;
 
 // Temporary failures worth retrying on the same category instead of skipping it:
 // per-minute quota, Gemini overload (503) and dropped network connections.
@@ -120,7 +126,7 @@ async function processCategory(token, cat) {
     }
   }
 
-  const raw = await callGemini(opts.apiKey, buildQuestionPrompt(cat, opts.count, opts.difficulty));
+  const raw = await callGemini(opts.apiKey, buildQuestionPrompt(cat, opts.count, opts.difficulty), model);
   const questions = raw.map((q) => normalize(q, cat)).filter(Boolean);
   if (!questions.length) {
     console.log(`  ⚠️  Örnek geçersiz yanıt: ${JSON.stringify(raw[0] || null).slice(0, 300)}`);
@@ -135,7 +141,7 @@ async function processCategory(token, cat) {
       level: cat.level,
       subject: cat.subject,
       source: 'ai-generated',
-      aiModel: GEMINI_MODEL,
+      aiModel: model,
       reviewStatus: opts.draft ? 'draft' : 'approved',
       createdAt: now,
       usageCount: 0,
@@ -186,14 +192,19 @@ async function main() {
         console.error(`  ❌ Hata: ${err.message}`);
         // Expired Firebase login, bad Gemini key or daily quota used up: every later
         // category would fail too, so stop and print where to resume.
-        if (/UNAUTHENTICATED|API_KEY_INVALID|PerDay/.test(err.message)) {
+        if (/UNAUTHENTICATED|API_KEY_INVALID|PerDay|NOT_FOUND/.test(err.message)) {
           console.error(`\n⛔ Durduruldu. Kaldığı yerden devam için aynı komuta --start=${i} ekleyin.`);
           process.exit(1);
         }
         const wait = retryDelay(err.message);
         if (attempt === MAX_ATTEMPTS && /\b503\b|UNAVAILABLE|high demand/i.test(err.message)) {
           overloadedInARow++;
-          if (overloadedInARow >= 3) {
+          if (overloadedInARow >= 3 && opts.fallback && model !== FALLBACK_MODEL) {
+            console.log(`\n🔀 ${model} art arda 3 kategoride yoğun; ${FALLBACK_MODEL} ile devam ediliyor.\n`);
+            model = FALLBACK_MODEL;
+            overloadedInARow = 0;
+            i -= 3; // retry the three overloaded categories with the fallback model
+          } else if (overloadedInARow >= 3) {
             console.error(`\n⛔ Gemini art arda 3 kategoride aşırı yoğun (503); kota boşa gitmesin diye durduruldu. Devam için --start=${i + 1}.`);
             process.exit(1);
           }

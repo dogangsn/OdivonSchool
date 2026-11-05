@@ -127,11 +127,11 @@ async function countQuestions(token, categoryId) {
   return Number(res?.[0]?.result?.aggregateFields?.n?.integerValue ?? 0);
 }
 
-async function callGemini(apiKey, prompt) {
+async function callGemini(apiKey, prompt, model = GEMINI_MODEL) {
   const res = await request(
     {
       hostname: 'generativelanguage.googleapis.com',
-      path: `/v1beta/models/${GEMINI_MODEL}:generateContent?key=${apiKey}`,
+      path: `/v1beta/models/${model}:generateContent?key=${apiKey}`,
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
     },
