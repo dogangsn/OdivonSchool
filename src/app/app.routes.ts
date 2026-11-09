@@ -16,6 +16,10 @@ export const routes: Routes = [
   { path: 'eposta-dogrula', loadComponent: () => import('./features/auth/verify-email/verify-email').then(m => m.VerifyEmail) },
   { path: 'fiyatlandirma', loadComponent: () => import('./features/pricing/pricing').then(m => m.Pricing) },
   { path: 'paketler', redirectTo: 'fiyatlandirma', pathMatch: 'full' },
+  {
+    path: 'odeme/sonuc',
+    loadComponent: () => import('./features/payment-result/payment-result').then(m => m.PaymentResult),
+  },
 
   // Public Test & Category Routes (Guests can solve up to 5 tests via GuestQuotaService)
   {

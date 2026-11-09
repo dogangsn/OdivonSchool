@@ -1,9 +1,10 @@
-import { Component, inject, signal } from '@angular/core';
+import { Component, effect, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
+import { Functions, httpsCallable } from '@angular/fire/functions';
 import { AuthService } from '../../core/services/auth';
-import { FirestoreService } from '../../core/services/firestore';
 
 interface PricingPlan {
   id: string;
@@ -26,7 +27,8 @@ interface PricingPlan {
 })
 export class Pricing {
   private auth = inject(AuthService);
-  private firestoreSvc = inject(FirestoreService);
+  private functions = inject(Functions);
+  private sanitizer = inject(DomSanitizer);
   private router = inject(Router);
 
   appUser = toSignal(this.auth.appUser$, { initialValue: null });
@@ -34,14 +36,27 @@ export class Pricing {
   isYearly = signal(true);
   Math = Math;
 
-  // Checkout Modal State
+  // Checkout modal: our form only asks for a phone number (PayTR requires
+  // one); card details are typed into PayTR's own iframe.
   selectedPlanForCheckout = signal<PricingPlan | null>(null);
-  checkoutStep = signal<'form' | 'processing' | 'success'>('form');
-  cardHolder = signal('');
-  cardNumber = signal('');
-  cardExpiry = signal('');
-  cardCvc = signal('');
+  checkoutStep = signal<'form' | 'processing' | 'paytr' | 'success'>('form');
+  phone = signal('');
   checkoutError = signal<string | null>(null);
+  paytrUrl = signal<SafeResourceUrl | null>(null);
+  private merchantOid: string | null = null;
+
+  constructor() {
+    // PayTR tells our server, the server writes users/{uid}; the live user
+    // doc then flips the modal to the success screen.
+    effect(() => {
+      const u = this.appUser();
+      if (this.merchantOid && u?.subscriptionId === this.merchantOid && u.subscriptionStatus === 'active') {
+        this.merchantOid = null;
+        this.paytrUrl.set(null);
+        this.checkoutStep.set('success');
+      }
+    });
+  }
 
   plans: PricingPlan[] = [
     {
@@ -107,8 +122,8 @@ export class Pricing {
       isOpen: signal(false),
     },
     {
-      q: 'İstediğim zaman aboneliğimi iptal edebilir miyim?',
-      a: 'Evet, hiçbir taahhüt bulunmamaktadır. Profilinizden tek tıkla aboneliğinizi dilediğiniz an iptal edebilirsiniz.',
+      q: 'Üyeliğim otomatik yenilenir mi?',
+      a: 'Hayır. Ödemeler tek seferliktir ve kartınızdan tekrar çekim yapılmaz. Süreniz bitince dilediğiniz paketi yeniden alabilirsiniz; süre bitmeden alırsanız yeni süre kalan sürenizin üzerine eklenir.',
       isOpen: signal(false),
     },
     {
@@ -149,62 +164,50 @@ export class Pricing {
     this.selectedPlanForCheckout.set(plan);
     this.checkoutStep.set('form');
     this.checkoutError.set(null);
-    this.cardHolder.set(this.appUser()?.displayName || '');
-    this.cardNumber.set('');
-    this.cardExpiry.set('');
-    this.cardCvc.set('');
+    this.paytrUrl.set(null);
   }
 
   closeCheckout() {
     this.selectedPlanForCheckout.set(null);
     this.checkoutStep.set('form');
+    this.paytrUrl.set(null);
+    this.merchantOid = null;
   }
 
   async processPayment() {
     const plan = this.selectedPlanForCheckout();
-    const user = this.appUser();
-    if (!plan || !user) return;
+    if (!plan || !this.appUser()) return;
 
-    const holder = this.cardHolder().trim();
-    const number = this.cardNumber().replace(/\s+/g, '');
-    const expiry = this.cardExpiry().trim();
-    const cvc = this.cardCvc().trim();
-
-    if (!holder) {
-      this.checkoutError.set('Lütfen kart üzerindeki adı ve soyadı girin.');
-      return;
-    }
-    if (number.length < 15) {
-      this.checkoutError.set('Lütfen geçerli 16 haneli bir kart numarası girin.');
-      return;
-    }
-    if (!expiry || expiry.length < 4) {
-      this.checkoutError.set('Lütfen son kullanma tarihini girin (AA/YY).');
-      return;
-    }
-    if (cvc.length < 3) {
-      this.checkoutError.set('Lütfen 3 haneli güvenlik kodunu (CVC) girin.');
+    const phone = this.phone().replace(/[^\d+]/g, '');
+    if (phone.replace(/\D/g, '').length < 10) {
+      this.checkoutError.set('Lütfen geçerli bir cep telefonu numarası girin (ör. 05xx xxx xx xx).');
       return;
     }
 
     this.checkoutError.set(null);
     this.checkoutStep.set('processing');
-
-    // Simulate bank authorization delay
-    await new Promise((resolve) => setTimeout(resolve, 1400));
-
     try {
-      await this.firestoreSvc.updateUserSubscription(user.uid, 'active');
-      this.checkoutStep.set('success');
+      const start = httpsCallable<
+        { plan: string; period: string; phone: string },
+        { token: string; merchantOid: string }
+      >(this.functions, 'paytrStart');
+      const res = await start({ plan: plan.id, period: this.isYearly() ? 'yearly' : 'monthly', phone });
+      this.merchantOid = res.data.merchantOid;
+      this.paytrUrl.set(
+        this.sanitizer.bypassSecurityTrustResourceUrl(
+          `https://www.paytr.com/odeme/guvenli/${encodeURIComponent(res.data.token)}`
+        )
+      );
+      this.checkoutStep.set('paytr');
     } catch (err: any) {
       this.checkoutStep.set('form');
-      // Subscriptions can only be activated server-side (firestore.rules), so
-      // until a real payment provider + webhook is wired up this always ends here
-      // for regular users. Show a clear message instead of a raw permission error.
+      const code = String(err?.code ?? '').replace('functions/', '');
       this.checkoutError.set(
-        err?.code === 'permission-denied'
-          ? 'Online ödeme altyapımız çok yakında aktif olacak. Pro üyelik için lütfen bizimle iletişime geçin.'
-          : `Ödeme onaylanamadı: ${err?.message || 'Bilinmeyen hata'}`
+        code === 'invalid-argument' || code === 'unavailable' || code === 'permission-denied'
+          ? err.message
+          : code === 'failed-precondition' && !/PayTR/.test(err?.message ?? '')
+            ? err.message
+            : 'Online ödeme altyapımız çok yakında aktif olacak. Pro üyelik için lütfen bizimle iletişime geçin.'
       );
     }
   }

@@ -64,7 +64,7 @@
           } @else if (plan.monthlyPrice === 0) {
             <span class="yearly-billed">Kredi kartı gerekmez</span>
           } @else {
-            <span class="yearly-billed">Aylık yenilenir, iptal edilebilir</span>
+            <span class="yearly-billed">1 aylık erişim, otomatik yenilenmez</span>
           }
         </div>
 
@@ -177,7 +177,7 @@
               <span class="plan-label">{{ plan.name }} ({{ isYearly() ? 'Yıllık' : 'Aylık' }})</span>
               <span class="plan-price">₺{{ isYearly() ? plan.yearlyPrice : plan.monthlyPrice }}</span>
             </div>
-            <div class="summary-sub">KDV Dahildir &bull; 14 Gün İade Garantisi &bull; İstediğin an iptal et</div>
+            <div class="summary-sub">KDV Dahildir &bull; 14 Gün İade Garantisi &bull; Tek seferlik ödeme, otomatik yenileme yok</div>
           </div>
 
           @if (checkoutError()) {
@@ -192,63 +192,19 @@
 
           <form class="checkout-form" (ngSubmit)="processPayment()">
             <div class="form-group">
-              <label for="cardHolderField">Kart Üzerindeki İsim</label>
+              <label for="phoneField">Cep Telefonu</label>
               <input
-                id="cardHolderField"
-                type="text"
-                [ngModel]="cardHolder()"
-                (ngModelChange)="cardHolder.set($event)"
-                name="cardHolder"
-                placeholder="Ad Soyad"
+                id="phoneField"
+                type="tel"
+                inputmode="tel"
+                autocomplete="tel"
+                [ngModel]="phone()"
+                (ngModelChange)="phone.set($event)"
+                name="phone"
+                placeholder="05xx xxx xx xx"
+                maxlength="20"
                 required
               />
-            </div>
-
-            <div class="form-group">
-              <label for="cardNumberField">Kart Numarası</label>
-              <div class="input-with-icon">
-                <input
-                  id="cardNumberField"
-                  type="text"
-                  [ngModel]="cardNumber()"
-                  (ngModelChange)="cardNumber.set($event)"
-                  name="cardNumber"
-                  placeholder="5428 •••• •••• 1234"
-                  maxlength="19"
-                  required
-                />
-                <span class="card-brands">💳 Visa / MC</span>
-              </div>
-            </div>
-
-            <div class="form-row-2">
-              <div class="form-group">
-                <label for="cardExpiryField">Son Kul. Tarihi</label>
-                <input
-                  id="cardExpiryField"
-                  type="text"
-                  [ngModel]="cardExpiry()"
-                  (ngModelChange)="cardExpiry.set($event)"
-                  name="cardExpiry"
-                  placeholder="AA/YY"
-                  maxlength="5"
-                  required
-                />
-              </div>
-
-              <div class="form-group">
-                <label for="cardCvcField">Güvenlik Kodu (CVC)</label>
-                <input
-                  id="cardCvcField"
-                  type="text"
-                  [ngModel]="cardCvc()"
-                  (ngModelChange)="cardCvc.set($event)"
-                  name="cardCvc"
-                  placeholder="123"
-                  maxlength="4"
-                  required
-                />
-              </div>
             </div>
 
             <div class="security-guarantee">
@@ -256,15 +212,16 @@
                 <rect width="18" height="11" x="3" y="11" rx="2" ry="2"/>
                 <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
               </svg>
-              <span>256-Bit Banka Düzeyinde SSL Güvenli Şifreleme</span>
+              <span>Kart bilgilerin bir sonraki adımda PayTR güvenli ödeme sayfasında girilir; OdivonSchool kart bilgisi görmez ve saklamaz.</span>
             </div>
 
             <div class="modal-footer">
               <button type="button" class="btn outline" (click)="closeCheckout()">Vazgeç</button>
               <button type="submit" class="btn primary lg pay-btn">
-                <span>Ödemeyi Güvenle Yap (₺{{ isYearly() ? plan.yearlyPrice : plan.monthlyPrice }})</span>
+                <span>Ödemeye Geç (₺{{ isYearly() ? plan.yearlyPrice : plan.monthlyPrice }})</span>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="20 6 9 17 4 12"/>
+                  <path d="M5 12h14"/>
+                  <path d="m12 5 7 7-7 7"/>
                 </svg>
               </button>
             </div>
@@ -273,9 +230,18 @@
           <!-- Bank Processing State -->
           <div class="processing-view animate-fade-in">
             <div class="spinner lg"></div>
-            <h3>Banka Onayı Alınıyor...</h3>
-            <p>3D Secure ve kart doğrulama işlemi yapılıyor, lütfen sayfayı kapatmayın.</p>
+            <h3>Güvenli ödeme sayfası hazırlanıyor...</h3>
+            <p>Birkaç saniye içinde PayTR ödeme ekranı açılacak.</p>
           </div>
+        } @else if (checkoutStep() === 'paytr' && paytrUrl()) {
+          <iframe
+            class="paytr-frame"
+            [src]="paytrUrl()"
+            style="height: 640px"
+            title="PayTR güvenli ödeme"
+            allow="payment"
+          ></iframe>
+          <p class="paytr-note">Ödeme onaylanınca üyeliğin otomatik olarak açılır. Bu pencereyi ödeme bitene kadar kapatma.</p>
         } @else if (checkoutStep() === 'success') {
           <!-- Success State -->
           <div class="success-view animate-fade-in">

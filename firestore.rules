@@ -672,6 +672,12 @@ service cloud.firestore {
       allow delete: if isSignedIn() && resource.data.ownerId == request.auth.uid;
     }
 
+    // PayTR orders (functions/src/paytr.ts). Written only by Cloud Functions.
+    match /payments/{paymentId} {
+      allow read: if isAdmin() || (isSignedIn() && resource.data.uid == request.auth.uid);
+      allow write: if false;
+    }
+
     match /subscriptions/{subscriptionId} {
       allow read: if isAdmin() || (isSignedIn() && resource.data.userId == request.auth.uid);
       // Subscriptions are only ever written by Cloud Functions (payment

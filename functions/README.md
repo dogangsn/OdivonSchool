@@ -103,3 +103,44 @@ Akıllı Kütüphane kitapları önce doğrudan MEB'in bağlantısından açmay�
 2. `src/environments/environment*.ts` içindeki `libraryProxyUrl` alanına fonksiyon adresini yaz (ör. `https://us-central1-odivonschool.cloudfunctions.net/kitapPdf`).
 
 Fonksiyon yalnızca MEB adreslerini (tymm.meb.gov.tr, meb.ai) açar; PDF'leri saklamaz, akış olarak iletir.
+
+## PayTR ödeme (paytrStart + paytrCallback)
+
+Fiyatlandırma sayfasındaki Pro/VIP butonları PayTR iFrame API ile çalışır.
+Kart bilgisi sitemize hiç girmez; PayTR'nin kendi sayfası modalın içinde açılır.
+Ödemeler tek seferliktir (aylık/yıllık süre), otomatik yenileme yoktur.
+
+Akış: `paytrStart` (giriş yapmış kullanıcı, fiyat sunucudaki tablodan,
+`functions/src/paytrLogic.ts` → `PRICES`) `payments/{merchantOid}` belgesini
+yazar ve PayTR'den iframe token alır. PayTR sonucu `paytrCallback` adresine
+gönderir; hash doğrulanır, başarılıysa `users/{uid}` abonelik alanları
+(`subscriptionSource: 'paytr'`) güncellenir ve `subscriptionEvents`'e kayıt
+düşer. Aynı bildirim birden çok gelse de üyelik bir kez uzatılır.
+
+Fiyatı değiştirirken üç yeri birlikte güncelle: `paytrLogic.ts` PRICES,
+`src/app/models/subscription.ts` PLANS ve `src/app/features/pricing/pricing.ts`.
+
+Canlıya alma (proje sahibi):
+
+1. Blaze planı (yukarıdaki 1. adım).
+2. PayTR Mağaza Paneli → *Bilgi* sayfasından Mağaza No, Mağaza Parola
+   (merchant_key) ve Mağaza Gizli Anahtar (merchant_salt) değerlerini al ve
+   gizli anahtar olarak kaydet (depoya asla yazma):
+   ```bash
+   firebase functions:secrets:set PAYTR_MERCHANT_ID
+   firebase functions:secrets:set PAYTR_MERCHANT_KEY
+   firebase functions:secrets:set PAYTR_MERCHANT_SALT
+   ```
+3. PayTR Mağaza Paneli → *Destek & Kurulum → Ayarlar → Bildirim URL*:
+   `https://us-central1-odivonschool.cloudfunctions.net/paytrCallback`
+4. Deploy: `firebase deploy --only functions:paytrStart,functions:paytrCallback,firestore:rules,hosting`
+   (veya GitHub'da `DEPLOY_FUNCTIONS=true` değişkeniyle CI. Gizli anahtarlar
+   girilmeden fonksiyon deploy'u hata verir.)
+5. Test modu varsayılan açıktır (`PAYTR_TEST_MODE=1`). PayTR test kartıyla
+   (ör. 4355 0843 5508 4358, 12/30, 000) deneyip Yönetim → Aboneler'de
+   üyeliğin açıldığını gör. Canlıya geçmek için `functions/.env` dosyasına
+   `PAYTR_TEST_MODE=0` yaz ve fonksiyonları yeniden deploy et; PayTR
+   panelinde de mağazanın canlı modda olması gerekir.
+
+Başarılı/başarısız dönüş sayfası: `/odeme/sonuc?durum=basarili|basarisiz`
+(özel alan adı varsa `APP_URL` ortam değişkenini ver).
